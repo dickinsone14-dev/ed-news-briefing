@@ -306,7 +306,7 @@
 
   <footer class="site-footer">
     <p class="footer-brand">The Daily Briefing</p>
-    <p>Aggregated from BBC, Sky News, The Guardian, Reuters &amp; Al Jazeera<br/>
+    <p>Aggregated from BBC, Sky News, Financial Times, The Telegraph, Reuters &amp; Al Jazeera<br/>
     Auto-refreshes on each visit &middot; Curated summaries updated periodically</p>
   </footer>
 
@@ -326,16 +326,19 @@ document.getElementById('currentDate').textContent =
 const PROXY = 'https://api.rss2json.com/v1/api.json?rss_url=';
 
 const GEO_FEEDS = [
-  { name: 'BBC News', url: 'https://feeds.bbci.co.uk/news/world/rss.xml' },
-  { name: 'The Guardian', url: 'https://www.theguardian.com/world/rss' },
-  { name: 'Sky News', url: 'https://feeds.skynews.com/feeds/rss/world.xml' },
-  { name: 'Al Jazeera', url: 'https://www.aljazeera.com/xml/rss/all.xml' },
+  { name: 'BBC News', url: 'https://feeds.bbci.co.uk/news/world/rss.xml', top: 4 },
+  { name: 'Sky News', url: 'https://feeds.skynews.com/feeds/rss/world.xml', top: 3 },
+  { name: 'Financial Times', url: 'https://www.ft.com/world?format=rss', top: 3 },
+  { name: 'The Telegraph', url: 'https://www.telegraph.co.uk/news/rss.xml', top: 3 },
+  { name: 'Reuters', url: 'https://www.reutersnews.com/api/rss/news/international', top: 3 },
+  { name: 'Al Jazeera', url: 'https://www.aljazeera.com/xml/rss/all.xml', top: 3 },
 ];
 
 const DOM_FEEDS = [
-  { name: 'BBC Politics', url: 'https://feeds.bbci.co.uk/news/politics/rss.xml' },
-  { name: 'The Guardian', url: 'https://www.theguardian.com/politics/rss' },
-  { name: 'Sky News', url: 'https://feeds.skynews.com/feeds/rss/politics.xml' },
+  { name: 'BBC Politics', url: 'https://feeds.bbci.co.uk/news/politics/rss.xml', top: 4 },
+  { name: 'Sky News', url: 'https://feeds.skynews.com/feeds/rss/politics.xml', top: 3 },
+  { name: 'Financial Times', url: 'https://www.ft.com/stream/badbe4ef-3c55-4e78-a209-0e4493623498?format=rss', top: 3 },
+  { name: 'The Telegraph', url: 'https://www.telegraph.co.uk/politics/rss.xml', top: 3 },
 ];
 
 // ── Helpers ──
@@ -345,7 +348,8 @@ async function fetchFeed(feed) {
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const data = await res.json();
     if (data.status !== 'ok' || !data.items) throw new Error('Bad response');
-    return data.items.slice(0, 10).map(item => ({
+    const limit = feed.top || 4;
+    return data.items.slice(0, limit).map(item => ({
       title: item.title,
       description: stripHtml(item.description || ''),
       link: item.link,
@@ -376,13 +380,20 @@ function timeAgo(dateStr) {
 }
 
 function dedupe(articles) {
-  const seen = new Set();
-  return articles.filter(a => {
-    const k = a.title.toLowerCase().replace(/[^a-z0-9]/g, '').slice(0, 50);
-    if (seen.has(k)) return false;
-    seen.add(k);
-    return true;
-  });
+  const kept = [];
+  const seenKeys = [];
+  for (const a of articles) {
+    const words = a.title.toLowerCase().replace(/[^a-z0-9\s]/g, '').split(/\s+/).filter(w => w.length > 3);
+    const isDupe = seenKeys.some(prev => {
+      const overlap = words.filter(w => prev.includes(w)).length;
+      return overlap >= Math.min(4, Math.floor(words.length * 0.5));
+    });
+    if (!isDupe) {
+      kept.push(a);
+      seenKeys.push(words);
+    }
+  }
+  return kept;
 }
 
 // ── Render consolidated section ──
