@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>The Daily Brief</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📰</text></svg>" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&family=Inter:wght@300;400;500;600&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet" />
@@ -22,8 +23,6 @@
       --border-light: #eae7e0;
       --accent-geo: #8b2332;
       --accent-dom: #1b4f72;
-      --accent-morning: #b8860b;
-      --accent-evening: #4a3f6b;
       --serif: 'Playfair Display', Georgia, 'Times New Roman', serif;
       --sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
       --body-serif: 'Source Serif 4', Georgia, serif;
@@ -78,6 +77,9 @@
     .curated-edition {
       border-radius: 10px; padding: 28px 32px; margin-bottom: 20px;
     }
+    @media (max-width: 768px) {
+      .curated-edition { padding: 20px 16px; }
+    }
     .curated-edition.evening {
       background: linear-gradient(135deg, #1a1a2e, #2a2540);
       color: #fff;
@@ -121,7 +123,7 @@
       .curated-edition.collapsed .curated-grid .curated-column:nth-child(n+2) {
         display: none;
       }
-      .curated-edition.collapsed .curated-grid .curated-column:first-child .curated-item:nth-child(n+4) {
+      .curated-edition.collapsed .curated-grid .curated-column:first-child > div > .curated-item:nth-child(n+4) {
         display: none;
       }
       .edition-expand-btn {
@@ -258,7 +260,7 @@
     .day-nav-btn svg { width: 16px; height: 16px; }
     .day-nav-label {
       font-family: var(--serif); font-size: 16px; font-weight: 600;
-      color: var(--text-primary); min-width: 220px; text-align: center;
+      color: var(--text-primary); flex: 1; text-align: center;
     }
     .day-nav-sub {
       font-size: 11px; font-weight: 400; color: var(--text-tertiary);
@@ -542,7 +544,7 @@
 
   <footer class="site-footer">
     <p class="footer-brand">The Daily Brief</p>
-    <p>Aggregated from Financial Times, BBC, Sky News, Reuters &amp; Al Jazeera<br/>
+    <p>Aggregated from Financial Times, BBC, Sky News &amp; Al Jazeera<br/>
     Live feeds refresh on each visit &middot; Curated briefings at 10:00 AM &amp; 5:00 PM</p>
   </footer>
 
@@ -563,7 +565,10 @@
   const nextBtn = document.getElementById('dayNext');
 
   const editions = Array.from(allEditions.querySelectorAll('.curated-edition'));
-  if (!editions.length) return;
+  if (!editions.length) {
+    dayContainer.innerHTML = '<div class="curated-empty" style="color:var(--text-tertiary);padding:40px 20px;text-align:center;font-size:14px;">No briefings yet. The first curated briefing will appear at 10:00 AM.</div>';
+    return;
+  }
 
   // Group by date
   const byDate = {};
@@ -587,7 +592,8 @@
   if (!dates.length) return;
 
   let currentIndex = 0; // 0 = newest day
-  const today = new Date().toISOString().slice(0, 10);
+  const now = new Date();
+  const today = now.getFullYear() + '-' + String(now.getMonth()+1).padStart(2,'0') + '-' + String(now.getDate()).padStart(2,'0');
 
   function formatDate(dateStr) {
     const d = new Date(dateStr + 'T12:00:00');
@@ -690,6 +696,12 @@ async function fetchFeed(feed) {
   }
 }
 
+function escHtml(str) {
+  const d = document.createElement('div');
+  d.appendChild(document.createTextNode(str));
+  return d.innerHTML;
+}
+
 function stripHtml(html) {
   const d = document.createElement('div');
   d.innerHTML = html;
@@ -737,10 +749,10 @@ function renderSection(articles, accentClass) {
   let html = '<div class="top-stories">';
   top.forEach(a => {
     html += `
-      <a class="top-card" href="${a.link}" target="_blank" rel="noopener noreferrer">
-        <span class="card-source ${accentClass}">${a.source}</span>
-        <h3>${a.title}</h3>
-        <p>${a.description}</p>
+      <a class="top-card" href="${escHtml(a.link)}" target="_blank" rel="noopener noreferrer">
+        <span class="card-source ${accentClass}">${escHtml(a.source)}</span>
+        <h3>${escHtml(a.title)}</h3>
+        <p>${escHtml(a.description)}</p>
         <div class="card-time">${timeAgo(a.pubDate)}</div>
       </a>`;
   });
@@ -754,10 +766,10 @@ function renderSection(articles, accentClass) {
     html += '<div class="also-today-header">Also Today</div><div class="also-today">';
     visible.forEach(a => {
       html += `
-        <a class="also-item" href="${a.link}" target="_blank" rel="noopener noreferrer">
-          <span class="also-source ${accentClass}">${a.source}</span>
+        <a class="also-item" href="${escHtml(a.link)}" target="_blank" rel="noopener noreferrer">
+          <span class="also-source ${accentClass}">${escHtml(a.source)}</span>
           <div>
-            <h4>${a.title}</h4>
+            <h4>${escHtml(a.title)}</h4>
             <div class="also-time">${timeAgo(a.pubDate)}</div>
           </div>
         </a>`;
@@ -767,10 +779,10 @@ function renderSection(articles, accentClass) {
       html += `<div class="also-overflow" id="${uid}">`;
       overflow.forEach(a => {
         html += `
-          <a class="also-item" href="${a.link}" target="_blank" rel="noopener noreferrer">
-            <span class="also-source ${accentClass}">${a.source}</span>
+          <a class="also-item" href="${escHtml(a.link)}" target="_blank" rel="noopener noreferrer">
+            <span class="also-source ${accentClass}">${escHtml(a.source)}</span>
             <div>
-              <h4>${a.title}</h4>
+              <h4>${escHtml(a.title)}</h4>
               <div class="also-time">${timeAgo(a.pubDate)}</div>
             </div>
           </a>`;
@@ -801,12 +813,20 @@ async function loadSection(feeds, containerId, accentClass) {
 }
 
 async function init() {
-  await Promise.all([
-    loadSection(GEO_FEEDS, 'geoContent', 'geo'),
-    loadSection(DOM_FEEDS, 'domContent', 'dom'),
+  const timeout = new Promise(r => setTimeout(r, 15000));
+  await Promise.race([
+    Promise.all([
+      loadSection(GEO_FEEDS, 'geoContent', 'geo'),
+      loadSection(DOM_FEEDS, 'domContent', 'dom'),
+    ]),
+    timeout,
   ]);
-  document.getElementById('refreshTime').textContent =
-    new Date().toLocaleTimeString('en-GB', { hour: '2-digit', minute: '2-digit' }) + ' today';
+  const ts = new Date().toLocaleTimeString('en-GB', { hour: '2-digit', minute: '2-digit' });
+  document.getElementById('refreshTime').textContent = ts + ' today';
+  // Clear any remaining spinners after timeout
+  document.querySelectorAll('.loading-state').forEach(el => {
+    el.innerHTML = '<div class="error-state">Unable to load stories right now.</div>';
+  });
 }
 
 init();
