@@ -199,6 +199,50 @@
       color: var(--text-secondary); margin-bottom: 6px;
     }
 
+    /* ── Archive / Previous Briefings ── */
+    .archive-section {
+      margin: 8px auto 0; max-width: 1100px; padding: 0 24px;
+    }
+    .archive-toggle {
+      width: 100%; background: none; border: 1px solid var(--border);
+      border-radius: 8px; padding: 14px 20px; cursor: pointer;
+      display: flex; align-items: center; justify-content: space-between;
+      font-family: var(--sans); font-size: 13px; font-weight: 600;
+      color: var(--text-secondary); transition: all 0.2s;
+    }
+    .archive-toggle:hover { border-color: var(--text-tertiary); color: var(--text-primary); }
+    .archive-toggle svg {
+      width: 16px; height: 16px; transition: transform 0.25s;
+    }
+    .archive-toggle.open svg { transform: rotate(180deg); }
+    .archive-body {
+      max-height: 0; overflow: hidden; transition: max-height 0.4s ease;
+    }
+    .archive-body.open { max-height: 20000px; }
+
+    .archive-day {
+      margin-top: 16px;
+    }
+    .archive-day-toggle {
+      width: 100%; background: var(--bg-section); border: 1px solid var(--border-light);
+      border-radius: 6px; padding: 10px 16px; cursor: pointer;
+      display: flex; align-items: center; justify-content: space-between;
+      font-family: var(--sans); font-size: 12px; font-weight: 600;
+      letter-spacing: 0.5px; color: var(--text-secondary); transition: all 0.2s;
+    }
+    .archive-day-toggle:hover { border-color: var(--text-tertiary); }
+    .archive-day-toggle svg {
+      width: 14px; height: 14px; transition: transform 0.25s;
+    }
+    .archive-day-toggle.open svg { transform: rotate(180deg); }
+    .archive-day-body {
+      max-height: 0; overflow: hidden; transition: max-height 0.4s ease;
+    }
+    .archive-day-body.open { max-height: 20000px; }
+    .archive-day-body .curated-edition {
+      margin-top: 12px; opacity: 0.85;
+    }
+
     /* ── Scroll to top ── */
     .scroll-top {
       position: fixed; bottom: 24px; right: 24px; width: 38px; height: 38px;
@@ -233,10 +277,23 @@
   <!-- ════════════════════════════════════════════ -->
   <div class="curated-section" id="curated">
 
-    <!-- Morning edition is inserted first (see below), evening follows -->
+    <!-- ── TODAY'S EDITIONS (JS moves latest here) ── -->
+    <div id="today-editions"></div>
 
-    <!-- ── EVENING EDITION (previous) ── -->
-    <div class="curated-edition evening">
+    <!-- ── ARCHIVE ── -->
+    <div class="archive-section" id="archive-section" style="display:none;">
+      <button class="archive-toggle" id="archiveToggle">
+        <span>Previous Briefings</span>
+        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+      </button>
+      <div class="archive-body" id="archiveBody"></div>
+    </div>
+
+    <!-- ════ ALL EDITIONS (sorted by JS) ════ -->
+    <div id="all-editions" style="display:none;">
+
+    <!-- ── EVENING 6 MARCH ── -->
+    <div class="curated-edition evening" data-date="2026-03-06" data-time="17:00">
       <div class="edition-header">
         <span class="edition-icon">&#9790;</span>
         <h2>Evening Briefing</h2>
@@ -296,8 +353,8 @@
       </div>
     </div>
 
-    <!-- ── MORNING EDITION ── -->
-    <div class="curated-edition morning">
+    <!-- ── MORNING 7 MARCH ── -->
+    <div class="curated-edition morning" data-date="2026-03-07" data-time="10:00">
       <div class="edition-header">
         <span class="edition-icon">&#9788;</span>
         <h2>Morning Briefing</h2>
@@ -357,6 +414,8 @@
       </div>
     </div>
 
+    </div><!-- /all-editions -->
+
   </div>
 
   <!-- ════════════════════════════════════════════ -->
@@ -409,15 +468,81 @@
   </button>
 
 <script>
-// ── Reorder editions: most recent on top ──
+// ── Sort editions into Today + Archive ──
 (function() {
-  const section = document.getElementById('curated');
-  const editions = section.querySelectorAll('.curated-edition');
-  // Morning edition should appear before evening
-  const morning = section.querySelector('.curated-edition.morning');
-  const evening = section.querySelector('.curated-edition.evening');
-  if (morning && evening && evening.compareDocumentPosition(morning) & Node.DOCUMENT_POSITION_FOLLOWING) {
-    section.insertBefore(morning, evening);
+  const allEditions = document.getElementById('all-editions');
+  const todayContainer = document.getElementById('today-editions');
+  const archiveSection = document.getElementById('archive-section');
+  const archiveBody = document.getElementById('archiveBody');
+  const archiveToggle = document.getElementById('archiveToggle');
+
+  const editions = Array.from(allEditions.querySelectorAll('.curated-edition'));
+  if (!editions.length) return;
+
+  // Sort: newest first (by date + time)
+  editions.sort((a, b) => {
+    const da = a.dataset.date + ' ' + (a.dataset.time || '00:00');
+    const db = b.dataset.date + ' ' + (b.dataset.time || '00:00');
+    return db.localeCompare(da);
+  });
+
+  // Today's date
+  const today = new Date().toISOString().slice(0, 10);
+
+  // Group by date
+  const byDate = {};
+  editions.forEach(el => {
+    const d = el.dataset.date;
+    if (!byDate[d]) byDate[d] = [];
+    byDate[d].push(el);
+  });
+
+  const dates = Object.keys(byDate).sort().reverse();
+
+  // Today's editions go into todayContainer
+  if (byDate[today]) {
+    byDate[today].forEach(el => todayContainer.appendChild(el));
+  } else if (dates.length) {
+    // If no editions match today exactly, show the latest day as "today"
+    byDate[dates[0]].forEach(el => todayContainer.appendChild(el));
+  }
+
+  // Previous days go into archive
+  const archiveDates = dates.filter(d => d !== today && !(dates[0] === d && !byDate[today]));
+
+  if (archiveDates.length) {
+    archiveSection.style.display = 'block';
+
+    archiveDates.forEach(dateStr => {
+      const d = new Date(dateStr + 'T12:00:00');
+      const label = d.toLocaleDateString('en-GB', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' });
+
+      const dayDiv = document.createElement('div');
+      dayDiv.className = 'archive-day';
+
+      const dayToggle = document.createElement('button');
+      dayToggle.className = 'archive-day-toggle';
+      dayToggle.innerHTML = '<span>' + label + '</span><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>';
+
+      const dayBody = document.createElement('div');
+      dayBody.className = 'archive-day-body';
+
+      byDate[dateStr].forEach(el => dayBody.appendChild(el));
+
+      dayToggle.addEventListener('click', () => {
+        dayToggle.classList.toggle('open');
+        dayBody.classList.toggle('open');
+      });
+
+      dayDiv.appendChild(dayToggle);
+      dayDiv.appendChild(dayBody);
+      archiveBody.appendChild(dayDiv);
+    });
+
+    archiveToggle.addEventListener('click', () => {
+      archiveToggle.classList.toggle('open');
+      archiveBody.classList.toggle('open');
+    });
   }
 })();
 
