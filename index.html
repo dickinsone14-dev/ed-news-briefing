@@ -113,6 +113,35 @@
       color: rgba(255,255,255,0.35); font-size: 13px; font-style: italic;
     }
 
+    /* ── Mobile: collapsible editions ── */
+    .edition-expand-btn {
+      display: none;
+    }
+    @media (max-width: 768px) {
+      .curated-edition.collapsed .curated-grid .curated-column:nth-child(n+2) {
+        display: none;
+      }
+      .curated-edition.collapsed .curated-grid .curated-column:first-child .curated-item:nth-child(n+4) {
+        display: none;
+      }
+      .edition-expand-btn {
+        display: block; width: 100%; background: rgba(255,255,255,0.1);
+        border: 1px solid rgba(255,255,255,0.15); border-radius: 6px;
+        padding: 12px; margin-top: 16px; cursor: pointer; color: rgba(255,255,255,0.8);
+        font-family: var(--sans); font-size: 13px; font-weight: 600;
+        letter-spacing: 0.5px; transition: all 0.2s;
+        text-align: center;
+      }
+      .edition-expand-btn:hover { background: rgba(255,255,255,0.15); }
+      .edition-expand-btn svg {
+        width: 14px; height: 14px; vertical-align: middle; margin-left: 6px;
+        transition: transform 0.25s;
+      }
+      .curated-edition:not(.collapsed) .edition-expand-btn svg {
+        transform: rotate(180deg);
+      }
+    }
+
     /* ── Section ── */
     .section { margin: 36px 0; }
     .section-header {
@@ -571,7 +600,25 @@
 
     // Clear and populate
     dayContainer.innerHTML = '';
-    byDate[dateStr].forEach(el => dayContainer.appendChild(el.cloneNode(true)));
+    byDate[dateStr].forEach(el => {
+      const clone = el.cloneNode(true);
+      // Add expand/collapse button for mobile
+      const btn = document.createElement('button');
+      btn.className = 'edition-expand-btn';
+      btn.innerHTML = 'Read full briefing <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>';
+      clone.appendChild(btn);
+      // Start collapsed on mobile
+      if (window.innerWidth <= 768) {
+        clone.classList.add('collapsed');
+      }
+      btn.addEventListener('click', () => {
+        const isCollapsed = clone.classList.toggle('collapsed');
+        btn.innerHTML = isCollapsed
+          ? 'Read full briefing <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>'
+          : 'Show less <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>';
+      });
+      dayContainer.appendChild(clone);
+    });
 
     // Update label
     const isToday = dateStr === today;
