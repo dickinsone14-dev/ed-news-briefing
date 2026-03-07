@@ -4,10 +4,18 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>The Daily Brief</title>
+  <!-- #9 Meta tags for sharing -->
+  <meta property="og:title" content="The Daily Brief" />
+  <meta property="og:description" content="Curated geopolitical and UK domestic news briefings, updated at 10:00 AM and 5:00 PM daily." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://thedailybrief-uk.github.io" />
+  <meta name="description" content="Curated geopolitical and UK domestic news briefings, updated at 10:00 AM and 5:00 PM daily." />
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📰</text></svg>" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&family=Inter:wght@300;400;500;600&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet" />
+  <!-- #12 Font optimisation: added display=swap, subset to latin -->
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&family=Inter:wght@300;400;500;600&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap&subset=latin" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&family=Inter:wght@300;400;500;600&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap&subset=latin" rel="stylesheet" />
   <style>
     *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -23,9 +31,24 @@
       --border-light: #eae7e0;
       --accent-geo: #8b2332;
       --accent-dom: #1b4f72;
+      --accent-green: #1a7a3a;
+      --accent-red: #b32020;
       --serif: 'Playfair Display', Georgia, 'Times New Roman', serif;
       --sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
       --body-serif: 'Source Serif 4', Georgia, serif;
+    }
+
+    /* #4 Dark mode */
+    [data-theme="dark"] {
+      --bg: #141414;
+      --bg-card: #1e1e1e;
+      --bg-section: #1a1a1a;
+      --text-primary: #e8e6e1;
+      --text-secondary: #b0aea8;
+      --text-tertiary: #807e78;
+      --text-muted: #666;
+      --border: #333;
+      --border-light: #2a2a2a;
     }
 
     html { scroll-behavior: smooth; }
@@ -35,6 +58,7 @@
       color: var(--text-primary);
       line-height: 1.6;
       -webkit-font-smoothing: antialiased;
+      transition: background 0.3s, color 0.3s;
     }
 
     /* ── Masthead ── */
@@ -60,14 +84,32 @@
       display: flex; align-items: center; justify-content: center; gap: 28px;
       padding: 10px 0; border-top: 1px solid var(--border-light); flex-wrap: wrap;
     }
-    .masthead-nav a {
+    .masthead-nav a, .masthead-nav button {
       font-size: 11px; font-weight: 600; letter-spacing: 1px; text-transform: uppercase;
       color: var(--text-secondary); text-decoration: none; transition: color 0.2s; padding-bottom: 2px;
+      background: none; border: none; cursor: pointer; font-family: var(--sans);
     }
-    .masthead-nav a:hover { color: var(--text-primary); }
+    .masthead-nav a:hover, .masthead-nav button:hover { color: var(--text-primary); }
     .masthead-nav a.geo { border-bottom: 2px solid var(--accent-geo); }
     .masthead-nav a.dom { border-bottom: 2px solid var(--accent-dom); }
     .last-updated { font-size: 11px; color: var(--text-muted); text-align: center; padding: 6px 0; }
+
+    /* ── #1 Markets Bar ── */
+    .markets-bar {
+      display: flex; align-items: center; justify-content: center; gap: 24px;
+      padding: 8px 24px; border-bottom: 1px solid var(--border-light);
+      font-size: 11px; font-weight: 500; color: var(--text-secondary);
+      overflow-x: auto; white-space: nowrap;
+      background: var(--bg-section);
+    }
+    .market-item { display: flex; align-items: center; gap: 6px; }
+    .market-label { color: var(--text-tertiary); font-weight: 600; letter-spacing: 0.5px; text-transform: uppercase; font-size: 9px; }
+    .market-value { font-weight: 600; font-variant-numeric: tabular-nums; }
+    .market-change { font-size: 10px; font-weight: 600; }
+    .market-change.up { color: var(--accent-green); }
+    .market-change.down { color: var(--accent-red); }
+    .markets-bar .market-dot { width: 3px; height: 3px; border-radius: 50%; background: var(--border); }
+    @media (max-width: 600px) { .markets-bar { gap: 16px; font-size: 10px; } }
 
     /* ── Container ── */
     .container { padding: 0 24px; }
@@ -96,6 +138,25 @@
     }
     .edition-header h2 { font-family: var(--serif); font-size: 20px; font-weight: 700; }
     .curated-meta { font-size: 12px; color: rgba(255,255,255,0.45); margin-bottom: 20px; padding-left: 30px; }
+
+    /* #3 Key figures strip */
+    .key-figures {
+      display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 18px; padding: 10px 14px;
+      background: rgba(255,255,255,0.06); border-radius: 6px; border: 1px solid rgba(255,255,255,0.08);
+    }
+    .key-figure {
+      font-size: 12px; color: rgba(255,255,255,0.7); display: flex; align-items: center; gap: 6px;
+    }
+    .key-figure strong { color: rgba(255,255,255,0.95); font-weight: 700; }
+    .key-figure-sep { color: rgba(255,255,255,0.2); }
+
+    /* #6 Updated tag */
+    .updated-tag {
+      display: inline-block; font-size: 9px; font-weight: 700; letter-spacing: 0.8px;
+      text-transform: uppercase; background: rgba(255,255,255,0.15); color: rgba(255,255,255,0.7);
+      padding: 2px 7px; border-radius: 3px; margin-left: 8px; vertical-align: middle;
+    }
+
     .curated-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; }
     @media (max-width: 768px) { .curated-grid { grid-template-columns: 1fr; } }
     .curated-column h3 {
@@ -155,6 +216,8 @@
     .section-accent.dom { background: var(--accent-dom); }
     .section-title { font-family: var(--serif); font-size: 22px; font-weight: 700; }
     .section-subtitle { font-size: 13px; color: var(--text-tertiary); margin-left: auto; }
+    /* #10 Per-section timestamp */
+    .section-time { font-size: 10px; color: var(--text-muted); margin-left: 8px; white-space: nowrap; }
 
     /* ── Top stories (large cards) ── */
     .top-stories { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; margin-bottom: 32px; }
@@ -220,15 +283,29 @@
     .also-expand svg { width: 14px; height: 14px; transition: transform 0.25s; }
     .also-expand.open svg { transform: rotate(180deg); }
 
-    /* ── Loading / Error ── */
-    .loading-state { text-align: center; padding: 48px 20px; color: var(--text-tertiary); }
-    .loading-spinner {
-      width: 24px; height: 24px; border: 2.5px solid var(--border);
-      border-top-color: var(--text-tertiary); border-radius: 50%;
-      animation: spin 0.8s linear infinite; margin: 0 auto 14px;
+    /* ── #8 Loading skeleton ── */
+    .skeleton-container { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; margin-bottom: 32px; }
+    @media (max-width: 740px) { .skeleton-container { grid-template-columns: 1fr; } }
+    .skeleton-card {
+      background: var(--bg-card); border: 1px solid var(--border-light); border-radius: 8px;
+      padding: 22px 24px; display: flex; flex-direction: column; gap: 10px;
     }
-    @keyframes spin { to { transform: rotate(360deg); } }
+    .skeleton-line {
+      height: 14px; border-radius: 4px; background: linear-gradient(90deg, var(--border-light) 25%, var(--bg-section) 50%, var(--border-light) 75%);
+      background-size: 200% 100%; animation: shimmer 1.5s ease-in-out infinite;
+    }
+    .skeleton-line.short { width: 40%; }
+    .skeleton-line.medium { width: 75%; }
+    .skeleton-line.long { width: 100%; }
+    .skeleton-line.title { height: 20px; width: 85%; }
+    @keyframes shimmer { 0% { background-position: 200% 0; } 100% { background-position: -200% 0; } }
     .error-state { text-align: center; padding: 32px 20px; color: var(--text-tertiary); font-size: 14px; }
+    /* #5 Feed source notices */
+    .feed-notices { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+    .feed-notice {
+      font-size: 10px; color: var(--text-muted); background: var(--bg-section);
+      padding: 3px 8px; border-radius: 4px; border: 1px solid var(--border-light);
+    }
 
     /* ── Footer ── */
     .site-footer {
@@ -267,10 +344,18 @@
       font-family: var(--sans); display: block; margin-top: 2px;
     }
 
+    /* #7 Swipe hint */
+    .swipe-hint {
+      display: none; text-align: center; font-size: 11px; color: var(--text-muted);
+      padding: 0 0 8px; animation: fadeHint 4s ease forwards;
+    }
+    @media (max-width: 768px) { .swipe-hint { display: block; } }
+    @keyframes fadeHint { 0% { opacity: 1; } 70% { opacity: 1; } 100% { opacity: 0; } }
+
     /* ── Scroll to top ── */
     .scroll-top {
       position: fixed; bottom: 24px; right: 24px; width: 38px; height: 38px;
-      background: var(--text-primary); color: #fff; border: none; border-radius: 50%;
+      background: var(--text-primary); color: var(--bg); border: none; border-radius: 50%;
       cursor: pointer; display: flex; align-items: center; justify-content: center;
       opacity: 0; pointer-events: none; transition: opacity 0.3s; z-index: 40;
     }
@@ -291,10 +376,23 @@
         <a href="#curated">Curated Briefings</a>
         <a href="#geopolitical" class="geo">Geopolitical</a>
         <a href="#domestic" class="dom">UK Domestic</a>
+        <!-- #4 Dark mode toggle -->
+        <button id="darkToggle" aria-label="Toggle dark mode">Light / Dark</button>
       </nav>
     </div>
     <div class="last-updated">Last refreshed: <span id="refreshTime">loading...</span></div>
   </header>
+
+  <!-- #1 Markets snapshot bar -->
+  <div class="markets-bar" id="marketsBar">
+    <div class="market-item"><span class="market-label">FTSE 100</span> <span class="market-value" id="mFTSE">--</span> <span class="market-change" id="mFTSEc"></span></div>
+    <span class="market-dot"></span>
+    <div class="market-item"><span class="market-label">S&amp;P 500</span> <span class="market-value" id="mSP">--</span> <span class="market-change" id="mSPc"></span></div>
+    <span class="market-dot"></span>
+    <div class="market-item"><span class="market-label">Brent Crude</span> <span class="market-value" id="mBrent">--</span> <span class="market-change" id="mBrentc"></span></div>
+    <span class="market-dot"></span>
+    <div class="market-item"><span class="market-label">GBP/USD</span> <span class="market-value" id="mGBP">--</span> <span class="market-change" id="mGBPc"></span></div>
+  </div>
 
   <!-- ════════════════════════════════════════════ -->
   <!-- CURATED BRIEFINGS                           -->
@@ -311,6 +409,8 @@
         <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
       </button>
     </div>
+    <!-- #7 Swipe hint for mobile -->
+    <div class="swipe-hint" id="swipeHint">Swipe left or right to browse days</div>
 
     <!-- ── VISIBLE EDITIONS (JS swaps day content here) ── -->
     <div id="day-editions"></div>
@@ -516,11 +616,15 @@
         <div class="section-accent geo"></div>
         <h2 class="section-title">Geopolitical</h2>
         <span class="section-subtitle">World affairs, diplomacy &amp; conflict</span>
+        <span class="section-time" id="geoTime"></span>
       </div>
       <div id="geoContent">
-        <div class="loading-state">
-          <div class="loading-spinner"></div>
-          <p>Fetching latest stories...</p>
+        <!-- #8 Loading skeleton -->
+        <div class="skeleton-container">
+          <div class="skeleton-card"><div class="skeleton-line short"></div><div class="skeleton-line title"></div><div class="skeleton-line long"></div><div class="skeleton-line medium"></div></div>
+          <div class="skeleton-card"><div class="skeleton-line short"></div><div class="skeleton-line title"></div><div class="skeleton-line long"></div><div class="skeleton-line medium"></div></div>
+          <div class="skeleton-card"><div class="skeleton-line short"></div><div class="skeleton-line title"></div><div class="skeleton-line long"></div><div class="skeleton-line medium"></div></div>
+          <div class="skeleton-card"><div class="skeleton-line short"></div><div class="skeleton-line title"></div><div class="skeleton-line long"></div><div class="skeleton-line medium"></div></div>
         </div>
       </div>
     </section>
@@ -531,11 +635,14 @@
         <div class="section-accent dom"></div>
         <h2 class="section-title">UK Domestic Politics</h2>
         <span class="section-subtitle">Westminster, policy &amp; governance</span>
+        <span class="section-time" id="domTime"></span>
       </div>
       <div id="domContent">
-        <div class="loading-state">
-          <div class="loading-spinner"></div>
-          <p>Fetching latest stories...</p>
+        <div class="skeleton-container">
+          <div class="skeleton-card"><div class="skeleton-line short"></div><div class="skeleton-line title"></div><div class="skeleton-line long"></div><div class="skeleton-line medium"></div></div>
+          <div class="skeleton-card"><div class="skeleton-line short"></div><div class="skeleton-line title"></div><div class="skeleton-line long"></div><div class="skeleton-line medium"></div></div>
+          <div class="skeleton-card"><div class="skeleton-line short"></div><div class="skeleton-line title"></div><div class="skeleton-line long"></div><div class="skeleton-line medium"></div></div>
+          <div class="skeleton-card"><div class="skeleton-line short"></div><div class="skeleton-line title"></div><div class="skeleton-line long"></div><div class="skeleton-line medium"></div></div>
         </div>
       </div>
     </section>
@@ -555,6 +662,64 @@
   </button>
 
 <script>
+// ── #4 Dark Mode ──
+(function() {
+  const toggle = document.getElementById('darkToggle');
+  const saved = localStorage.getItem('theme');
+  if (saved === 'dark') document.documentElement.setAttribute('data-theme', 'dark');
+  toggle.addEventListener('click', () => {
+    const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+    if (isDark) {
+      document.documentElement.removeAttribute('data-theme');
+      localStorage.setItem('theme', 'light');
+    } else {
+      document.documentElement.setAttribute('data-theme', 'dark');
+      localStorage.setItem('theme', 'dark');
+    }
+  });
+})();
+
+// ── #1 Markets Bar ──
+(function() {
+  const symbols = [
+    { id: 'FTSE', el: 'mFTSE', ch: 'mFTSEc', sym: '^FTSE' },
+    { id: 'SP', el: 'mSP', ch: 'mSPc', sym: '^GSPC' },
+    { id: 'Brent', el: 'mBrent', ch: 'mBrentc', sym: 'BZ=F' },
+    { id: 'GBP', el: 'mGBP', ch: 'mGBPc', sym: 'GBPUSD=X' },
+  ];
+  async function fetchMarkets() {
+    try {
+      const syms = symbols.map(s => s.sym).join(',');
+      const res = await fetch('https://query1.finance.yahoo.com/v7/finance/quote?symbols=' + syms);
+      if (!res.ok) throw new Error('Markets API failed');
+      const data = await res.json();
+      const results = data.quoteResponse.result;
+      results.forEach(q => {
+        const match = symbols.find(s => s.sym === q.symbol);
+        if (!match) return;
+        const price = q.regularMarketPrice;
+        const change = q.regularMarketChangePercent;
+        document.getElementById(match.el).textContent = match.id === 'GBP' ? price.toFixed(4) : price.toLocaleString('en-GB', { maximumFractionDigits: 2 });
+        const chEl = document.getElementById(match.ch);
+        const sign = change >= 0 ? '+' : '';
+        chEl.textContent = sign + change.toFixed(2) + '%';
+        chEl.className = 'market-change ' + (change >= 0 ? 'up' : 'down');
+      });
+    } catch (e) {
+      // Fallback: try alternative free API
+      try {
+        const res = await fetch('https://api.exchangerate-api.com/v4/latest/GBP');
+        if (res.ok) {
+          const data = await res.json();
+          document.getElementById('mGBP').textContent = (1 / data.rates.USD).toFixed(4);
+        }
+      } catch (e2) { /* silent */ }
+      console.warn('Markets fetch failed:', e);
+    }
+  }
+  fetchMarkets();
+})();
+
 // ── Day Navigation ──
 (function() {
   const allEditions = document.getElementById('all-editions');
@@ -578,12 +743,20 @@
     byDate[d].push(el);
   });
 
-  // Sort within each date: morning before evening (by time)
+  // #2 Time-aware ordering within each day
+  const currentHour = new Date().getHours();
   Object.values(byDate).forEach(arr => {
     arr.sort((a, b) => {
       const ta = a.dataset.time || '00:00';
       const tb = b.dataset.time || '00:00';
-      return tb.localeCompare(ta); // newest first within day
+      const ha = parseInt(ta.split(':')[0]);
+      const hb = parseInt(tb.split(':')[0]);
+      // Before 14:00, show morning first; after 14:00, show evening first
+      if (currentHour < 14) {
+        return ha - hb; // morning (10:00) before evening (18:00)
+      } else {
+        return hb - ha; // evening first
+      }
     });
   });
 
@@ -591,7 +764,7 @@
   const dates = Object.keys(byDate).sort().reverse();
   if (!dates.length) return;
 
-  let currentIndex = 0; // 0 = newest day
+  let currentIndex = 0;
   const now = new Date();
   const today = now.getFullYear() + '-' + String(now.getMonth()+1).padStart(2,'0') + '-' + String(now.getDate()).padStart(2,'0');
 
@@ -600,20 +773,70 @@
     return d.toLocaleDateString('en-GB', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' });
   }
 
+  // #6 Get headline words for "Updated" detection
+  function getHeadlines(editionEl) {
+    return Array.from(editionEl.querySelectorAll('.curated-item h4')).map(h => h.textContent.toLowerCase().replace(/[^a-z0-9\s]/g, ''));
+  }
+
   function showDay(index) {
     currentIndex = index;
     const dateStr = dates[index];
+    const dayEditions = byDate[dateStr];
 
-    // Clear and populate
+    // Collect morning headlines for "Updated" tag comparison
+    const morningEd = dayEditions.find(e => parseInt((e.dataset.time||'00:00').split(':')[0]) < 14);
+    const morningHeadlines = morningEd ? getHeadlines(morningEd) : [];
+
     dayContainer.innerHTML = '';
-    byDate[dateStr].forEach(el => {
+    dayEditions.forEach(el => {
       const clone = el.cloneNode(true);
-      // Add expand/collapse button for mobile
+      const edTime = parseInt((el.dataset.time||'00:00').split(':')[0]);
+
+      // #6 Add "Updated" tags to evening items that match morning headlines
+      if (edTime >= 14 && morningHeadlines.length) {
+        clone.querySelectorAll('.curated-item h4').forEach(h4 => {
+          const words = h4.textContent.toLowerCase().replace(/[^a-z0-9\s]/g, '').split(/\s+/).filter(w => w.length > 3);
+          const isUpdated = morningHeadlines.some(mh => {
+            const mWords = mh.split(/\s+/).filter(w => w.length > 3);
+            const overlap = words.filter(w => mWords.includes(w)).length;
+            return overlap >= Math.min(3, Math.floor(words.length * 0.4));
+          });
+          if (isUpdated) {
+            const tag = document.createElement('span');
+            tag.className = 'updated-tag';
+            tag.textContent = 'Updated';
+            h4.appendChild(tag);
+          }
+        });
+      }
+
+      // #3 Key figures strip — extract numbers from edition text
+      const allText = clone.textContent;
+      const figures = [];
+      const brentMatch = allText.match(/Brent[^$]*\$(\d+(?:\.\d+)?)/i);
+      const ftseMatch = allText.match(/FTSE[^\d]*(\d[\d,.]+%?)/i);
+      const growthMatch = allText.match(/growth[^0-9]*(\d+\.\d+%)/i);
+      const jobsMatch = allText.match(/(\d[\d,]+)\s*(?:US\s*)?jobs?\s*(?:lost|losses|shed)/i);
+      if (brentMatch) figures.push('Brent: $' + brentMatch[1]);
+      if (ftseMatch) figures.push('FTSE: ' + ftseMatch[1]);
+      if (growthMatch) figures.push('UK Growth: ' + growthMatch[1]);
+      if (jobsMatch) figures.push('US Jobs: -' + jobsMatch[1]);
+      if (figures.length >= 2) {
+        const strip = document.createElement('div');
+        strip.className = 'key-figures';
+        strip.innerHTML = figures.map(f => {
+          const [label, val] = f.split(': ');
+          return '<span class="key-figure"><span>' + label + ':</span> <strong>' + val + '</strong></span>';
+        }).join('<span class="key-figure-sep">|</span>');
+        const meta = clone.querySelector('.curated-meta');
+        if (meta) meta.after(strip);
+      }
+
+      // Mobile expand/collapse button
       const btn = document.createElement('button');
       btn.className = 'edition-expand-btn';
       btn.innerHTML = 'Read full briefing <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>';
       clone.appendChild(btn);
-      // Start collapsed on mobile
       if (window.innerWidth <= 768) {
         clone.classList.add('collapsed');
       }
@@ -626,18 +849,14 @@
       dayContainer.appendChild(clone);
     });
 
-    // Update label
     const isToday = dateStr === today;
     const formatted = formatDate(dateStr);
     dayLabel.innerHTML = isToday
       ? formatted + '<span class="day-nav-sub">Today</span>'
       : formatted;
 
-    // Update buttons
     prevBtn.disabled = (index >= dates.length - 1);
     nextBtn.disabled = (index <= 0);
-
-    // Show nav if more than one day
     dayNav.style.display = dates.length > 1 ? 'flex' : 'none';
   }
 
@@ -648,6 +867,29 @@
     if (currentIndex > 0) showDay(currentIndex - 1);
   });
 
+  // #11 Keyboard navigation
+  document.addEventListener('keydown', (e) => {
+    if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+    if (e.key === 'ArrowLeft' && currentIndex < dates.length - 1) showDay(currentIndex + 1);
+    if (e.key === 'ArrowRight' && currentIndex > 0) showDay(currentIndex - 1);
+  });
+
+  // #7 Mobile swipe navigation
+  let touchStartX = 0;
+  let touchStartY = 0;
+  const swipeTarget = document.querySelector('.curated-section');
+  swipeTarget.addEventListener('touchstart', (e) => {
+    touchStartX = e.changedTouches[0].screenX;
+    touchStartY = e.changedTouches[0].screenY;
+  }, { passive: true });
+  swipeTarget.addEventListener('touchend', (e) => {
+    const dx = e.changedTouches[0].screenX - touchStartX;
+    const dy = e.changedTouches[0].screenY - touchStartY;
+    if (Math.abs(dx) < 60 || Math.abs(dy) > Math.abs(dx)) return; // too short or vertical
+    if (dx < 0 && currentIndex > 0) showDay(currentIndex - 1); // swipe left = next day
+    if (dx > 0 && currentIndex < dates.length - 1) showDay(currentIndex + 1); // swipe right = prev day
+  }, { passive: true });
+
   showDay(0);
 })();
 
@@ -657,12 +899,11 @@ document.getElementById('currentDate').textContent =
   now.toLocaleDateString('en-GB', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' }).toUpperCase();
 
 // ── RSS Config ──
-// Priority order: FT first, then BBC, Sky, Al Jazeera
-// Telegraph blocks all RSS proxies so cannot be included in live feeds
 const PROXY = 'https://api.rss2json.com/v1/api.json?rss_url=';
 
+// #5 Feeds with paywall flag
 const GEO_FEEDS = [
-  { name: 'Financial Times', url: 'https://www.ft.com/rss/home', top: 5 },
+  { name: 'Financial Times', url: 'https://www.ft.com/rss/home', top: 5, paywall: true },
   { name: 'BBC News', url: 'https://feeds.bbci.co.uk/news/world/rss.xml', top: 4 },
   { name: 'BBC Business', url: 'https://feeds.bbci.co.uk/news/business/rss.xml', top: 3 },
   { name: 'Sky News', url: 'https://feeds.skynews.com/feeds/rss/world.xml', top: 3 },
@@ -676,6 +917,8 @@ const DOM_FEEDS = [
 ];
 
 // ── Helpers ──
+const feedStatus = {}; // #5 track feed results
+
 async function fetchFeed(feed) {
   try {
     const res = await fetch(PROXY + encodeURIComponent(feed.url));
@@ -683,6 +926,7 @@ async function fetchFeed(feed) {
     const data = await res.json();
     if (data.status !== 'ok' || !data.items) throw new Error('Bad response');
     const limit = feed.top || 4;
+    feedStatus[feed.name] = { ok: true, paywall: feed.paywall || false };
     return data.items.slice(0, limit).map(item => ({
       title: item.title,
       description: stripHtml(item.description || ''),
@@ -692,6 +936,7 @@ async function fetchFeed(feed) {
     }));
   } catch (e) {
     console.warn(`Failed: ${feed.name}`, e);
+    feedStatus[feed.name] = { ok: false, paywall: feed.paywall || false };
     return [];
   }
 }
@@ -736,9 +981,24 @@ function dedupe(articles) {
   return kept;
 }
 
+// #5 Build feed notice HTML
+function feedNoticeHtml(feeds) {
+  const notices = [];
+  feeds.forEach(f => {
+    const s = feedStatus[f.name];
+    if (!s || s.ok) return;
+    if (s.paywall) {
+      notices.push('<span class="feed-notice">' + escHtml(f.name) + ' — subscription required for full articles</span>');
+    } else {
+      notices.push('<span class="feed-notice">' + escHtml(f.name) + ' unavailable</span>');
+    }
+  });
+  return notices.length ? '<div class="feed-notices">' + notices.join('') + '</div>' : '';
+}
+
 // ── Render consolidated section ──
-function renderSection(articles, accentClass) {
-  if (!articles.length) return '<div class="error-state">Unable to load stories right now.</div>';
+function renderSection(articles, accentClass, feeds) {
+  if (!articles.length) return '<div class="error-state">Unable to load stories right now.</div>' + feedNoticeHtml(feeds);
 
   articles.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
   const deduped = dedupe(articles);
@@ -797,16 +1057,24 @@ function renderSection(articles, accentClass) {
     html += '</div>';
   }
 
+  // #5 Append feed notices
+  html += feedNoticeHtml(feeds);
+
   return html;
 }
 
 // ── Load ──
-async function loadSection(feeds, containerId, accentClass) {
+async function loadSection(feeds, containerId, accentClass, timeElId) {
   const container = document.getElementById(containerId);
   try {
     const results = await Promise.all(feeds.map(f => fetchFeed(f)));
     const all = results.flat();
-    container.innerHTML = renderSection(all, accentClass);
+    container.innerHTML = renderSection(all, accentClass, feeds);
+    // #10 Per-section timestamp
+    const timeEl = document.getElementById(timeElId);
+    if (timeEl) {
+      timeEl.textContent = 'Updated ' + new Date().toLocaleTimeString('en-GB', { hour: '2-digit', minute: '2-digit' });
+    }
   } catch (e) {
     container.innerHTML = '<div class="error-state">Something went wrong loading stories.</div>';
   }
@@ -816,16 +1084,16 @@ async function init() {
   const timeout = new Promise(r => setTimeout(r, 15000));
   await Promise.race([
     Promise.all([
-      loadSection(GEO_FEEDS, 'geoContent', 'geo'),
-      loadSection(DOM_FEEDS, 'domContent', 'dom'),
+      loadSection(GEO_FEEDS, 'geoContent', 'geo', 'geoTime'),
+      loadSection(DOM_FEEDS, 'domContent', 'dom', 'domTime'),
     ]),
     timeout,
   ]);
   const ts = new Date().toLocaleTimeString('en-GB', { hour: '2-digit', minute: '2-digit' });
   document.getElementById('refreshTime').textContent = ts + ' today';
-  // Clear any remaining spinners after timeout
-  document.querySelectorAll('.loading-state').forEach(el => {
-    el.innerHTML = '<div class="error-state">Unable to load stories right now.</div>';
+  // Clear any remaining skeletons after timeout
+  document.querySelectorAll('.skeleton-container').forEach(el => {
+    el.outerHTML = '<div class="error-state">Unable to load stories right now.</div>';
   });
 }
 
