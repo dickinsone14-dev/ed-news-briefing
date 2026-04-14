@@ -6316,39 +6316,48 @@ if ('serviceWorker' in navigator) {
 // ── Schema.org NewsArticle Markup ──
 (function() {
   var editions = document.querySelectorAll('#all-editions .curated-edition');
+  var seen = {};
   var articles = [];
   editions.forEach(function(ed) {
     var date = ed.getAttribute('data-date');
     var time = ed.getAttribute('data-time');
     if (!date || !time) return;
+    var key = date + 'T' + time;
+    if (seen[key]) return;
+    seen[key] = true;
     var isMorning = ed.classList.contains('morning');
     var isEvening = ed.classList.contains('evening');
     var isWeekly = ed.classList.contains('weekly');
     var type = isMorning ? 'Morning' : isEvening ? 'Evening' : isWeekly ? 'Weekly' : '';
     if (!type) return;
-    // Format date for headline
-    var d = new Date(date + 'T' + time + ':00Z');
+    var d = new Date(date + 'T' + time + ':00+01:00');
     var days = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
     var months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
-    var headline = type + ' Briefing \u2014 ' + days[d.getUTCDay()] + ' ' + d.getUTCDate() + ' ' + months[d.getUTCMonth()] + ' ' + d.getUTCFullYear();
+    var headline = type + ' Briefing \u2014 ' + days[d.getDay()] + ' ' + d.getDate() + ' ' + months[d.getMonth()] + ' ' + d.getFullYear();
+    var headlines = [];
+    ed.querySelectorAll('.curated-item h4').forEach(function(h) { headlines.push(h.textContent.trim()); });
+    var desc = headlines.slice(0, 3).join('. ');
+    if (desc && !desc.endsWith('.')) desc += '.';
+    var iso = date + 'T' + time + ':00+01:00';
     articles.push({
       '@type': 'NewsArticle',
       'headline': headline,
-      'datePublished': date + 'T' + time + ':00Z',
+      'datePublished': iso,
+      'dateModified': iso,
+      'description': desc || 'Curated geopolitical and UK domestic news briefing.',
+      'image': 'https://thedailybrief.co.uk/og-image.png',
       'author': { '@type': 'Organization', 'name': 'The Daily Brief' },
-      'publisher': { '@id': 'https://thedailybrief.co.uk/#organization' },
-      'mainEntityOfPage': 'https://thedailybrief.co.uk',
-      'inLanguage': 'en-GB'
+      'publisher': { '@type': 'Organization', 'name': 'The Daily Brief', '@id': 'https://thedailybrief.co.uk/#organization', 'logo': { '@type': 'ImageObject', 'url': 'https://thedailybrief.co.uk/icon-512.png' } },
+      'mainEntityOfPage': { '@type': 'WebPage', '@id': 'https://thedailybrief.co.uk/' },
+      'inLanguage': 'en-GB',
+      'isAccessibleForFree': true
     });
   });
   if (articles.length === 0) return;
-  var script = document.createElement('script');
-  script.type = 'application/ld+json';
-  script.textContent = JSON.stringify({
-    '@context': 'https://schema.org',
-    '@graph': articles
-  });
-  document.head.appendChild(script);
+  var s = document.createElement('script');
+  s.type = 'application/ld+json';
+  s.textContent = JSON.stringify({ '@context': 'https://schema.org', '@graph': articles });
+  document.head.appendChild(s);
 })();
 
 // ── Edition Market Strips removed — cluttered the briefing view ──

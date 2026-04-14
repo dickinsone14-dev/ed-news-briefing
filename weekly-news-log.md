@@ -5,6 +5,68 @@
 
 ---
 
+## Week of 14–19 April 2026
+
+### Monday 13 April
+
+_Morning — Geopolitical:_
+1. Magyar Wins Hungary in Landslide — Orbán's 16-Year Rule Ends
+2. Trump Orders Hormuz Blockade — Oil Surges Back Above $100
+3. World Reacts to Orbán's Defeat — EU Reset Begins
+4. Iran Ceasefire Under Severe Strain — Day 6
+5. Oil Spikes 10% — Global Markets Brace for Volatile Monday
+
+_Morning — UK Domestic:_
+1. Parliament Returns — Three Weeks of Questions Await
+2. Junior Doctor Strike Ends — £300m Bill, 120,000 Appointments Lost
+3. Fuel Prices Set to Reverse — Oil Back Above $100
+4. Magyar Victory Welcomed in London — EU Reset Implications for UK
+5. Local Elections 18 Days Away — Voter Registration Closing
+
+_Evening — Geopolitical:_
+1. US Hormuz Blockade Begins — Oil Surges Past $103
+2. Magyar Begins Hungary Transition — EU Billions to Unfreeze
+3. Israel-Lebanon Talks This Week — But Strikes Continue
+4. Iran Ceasefire Day 6 — Blockade Tests the Truce
+5. European Markets Fall — Investors Brace for Prolonged Crisis
+
+_Evening — UK Domestic:_
+1. Parliament Returns — Starmer Faces Hostile Chamber
+2. Fuel Prices Set to Climb Again — Oil Back at $103
+3. Junior Doctors Return — 120,000 Appointment Backlog
+4. Grenfell Memorial Bill — Lords Second Reading
+5. Local Elections 18 Days — Voter Registration Deadline This Week
+
+### Tuesday 14 April
+
+_Morning — Geopolitical:_
+1. Iran Accuses US of "Piracy" as Chinese Tanker Defies Blockade
+2. Trump: Iran "Wants a Deal" — Pakistan Offers Second Round
+3. Rubio in Beirut — Death Toll Since Ceasefire Passes 480
+4. Iran Ceasefire Day 7 — Russia Calls Emergency UNSC Session
+5. Magyar Sworn In — €30bn EU Reset Begins
+
+_Morning — UK Domestic:_
+1. Starmer Faces First PMQs Since Ceasefire — Wednesday Preview
+2. Fuel Prices Climbing — Oil Hit $103 Before Overnight Pullback
+3. NHS Backlog: 120,000 Appointments Still Waiting
+4. IEA Warns UK "Significantly Exposed" to Prolonged Blockade
+5. Local Elections 17 Days — Final Campaign Phase
+
+_Evening — Geopolitical:_
+1. China Sends Naval Escort to Hormuz — Second Vessel Defies Blockade
+2. Iran's Supreme Leader: Talks "Possible" — Oil Falls to $96.50
+3. Rubio Proposes 72-Hour Lebanon Ceasefire — Israel Rejects
+4. UNSC Draft Resolution Circulated — UK to Abstain
+5. Magyar's First Full Day — State TV Anchor Defects Live on Air
+
+_Evening — UK Domestic:_
+1. Defence Secretary: UK Will Not Join Blockade — "Studied Neutrality"
+2. Fuel Prices Begin Rising — Petrol Up 2p to 152p
+3. BMA Confirms Strike Ballot — Results 29 April, Two Days Before Polling
+4. Treasury: UK Economy "Resilient" — Won't Rule Out Emergency Budget
+5. Labour Launches Local Election Manifesto — Housing Focus
+
 ## Week of 23–28 March 2026
 
 ### Monday 23 March

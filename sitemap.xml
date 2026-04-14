@@ -3,7 +3,7 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
     <loc>https://thedailybrief.co.uk/</loc>
-    <lastmod>2026-03-23</lastmod>
+    <lastmod>2026-04-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -30,5 +30,113 @@
     <lastmod>2026-03-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.2</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/editions/2026-04-14-evening.html</loc>
+    <lastmod>2026-04-14</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/editions/2026-04-14-morning.html</loc>
+    <lastmod>2026-04-14</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/editions/2026-04-13-evening.html</loc>
+    <lastmod>2026-04-13</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/editions/2026-04-13-morning.html</loc>
+    <lastmod>2026-04-13</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/editions/2026-04-12-evening.html</loc>
+    <lastmod>2026-04-12</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/editions/2026-04-12-weekly.html</loc>
+    <lastmod>2026-04-12</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/editions/2026-04-12-morning.html</loc>
+    <lastmod>2026-04-12</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/editions/2026-04-12-morning.html</loc>
+    <lastmod>2026-04-12</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/editions/2026-04-11-evening.html</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/editions/2026-04-11-morning.html</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/editions/2026-04-10-evening.html</loc>
+    <lastmod>2026-04-10</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/editions/2026-04-10-morning.html</loc>
+    <lastmod>2026-04-10</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/editions/2026-04-09-evening.html</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/editions/2026-04-09-morning.html</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/editions/2026-04-08-evening.html</loc>
+    <lastmod>2026-04-08</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/editions/2026-04-08-morning.html</loc>
+    <lastmod>2026-04-08</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/editions/2026-04-07-evening.html</loc>
+    <lastmod>2026-04-07</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/editions/2026-04-07-morning.html</loc>
+    <lastmod>2026-04-07</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.7</priority>
   </url>
 </urlset>
