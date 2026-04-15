@@ -4435,20 +4435,24 @@ window._marketData = {};
   });
 
   // Deduplicate: if two editions share the same type (morning/evening), keep only the latest
+  // PMQs editions (containing .pmqs-wrapper) get their own type so they don't replace morning
   Object.keys(byDate).forEach(d => {
     const arr = byDate[d];
     const seen = {};
-    byDate[d] = arr.filter(el => {
+    function edType(el) {
+      if (el.classList.contains('weekly')) return 'weekly';
+      if (el.querySelector('.pmqs-wrapper')) return 'pmqs';
       const h = parseInt((el.dataset.time || '00:00').split(':')[0]);
-      const type = el.classList.contains('weekly') ? 'weekly' : (h < 14 ? 'morning' : 'evening');
+      return h < 14 ? 'morning' : 'evening';
+    }
+    byDate[d] = arr.filter(el => {
+      const type = edType(el);
       if (!seen[type] || (el.dataset.time || '') > (seen[type].dataset.time || '')) {
         seen[type] = el;
       }
       return true;
     }).filter(el => {
-      const h = parseInt((el.dataset.time || '00:00').split(':')[0]);
-      const type = el.classList.contains('weekly') ? 'weekly' : (h < 14 ? 'morning' : 'evening');
-      return el === seen[type];
+      return el === seen[edType(el)];
     });
   });
 
