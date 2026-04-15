@@ -67,6 +67,43 @@ _Evening — UK Domestic:_
 4. Treasury: UK Economy "Resilient" — Won't Rule Out Emergency Budget
 5. Labour Launches Local Election Manifesto — Housing Focus
 
+### Wednesday 15 April
+
+_Morning — Geopolitical:_
+1. China Breaks the Blockade — Warship Escorts Tanker Into Bandar Abbas
+2. Pakistan Confirms Talks Framework — Blockade Compromise Emerging
+3. UNSC Votes on Blockade Today — US to Veto, China Emboldened
+4. Oil Falls to $95 — Markets Pricing in a Deal
+5. Lebanon: Rubio Leaves Without Deal — Death Toll Passes 520
+
+_Morning — UK Domestic:_
+1. PMQs Today — Starmer's Most Difficult Session of the War
+2. Fuel Prices Hit 154p — Rising Despite Oil Pullback
+3. NHS Rebooking: 95,000 of 120,000 Appointments Rescheduled
+4. Defence Committee Tomorrow — Lakenheath Briefing May Be Classified
+5. Local Elections 16 Days — Reform Surges to 26%
+
+_PMQs Summary:_
+1. Badenoch: "The Blockade Has Been Breached — What Is Your Position Now?"
+2. Starmer Fires Back: "They Wanted Us to Join This War"
+3. Farage: "154p a Litre — Your Voters Can't Afford to Drive"
+4. Flynn: "520 Dead in Lebanon — Why Is the UK Abstaining?"
+5. Davey: "Will You Guarantee No Emergency Tax Rises?"
+
+_Evening — Geopolitical:_
+1. Trump Threatens to Rip Up UK Trade Deal — "Can Always Be Changed"
+2. Pakistan Delegation Lands in Tehran — Second Round of Talks Takes Shape
+3. US Vetoes UNSC Blockade Resolution — UK and France Abstain
+4. Israel and Lebanon Hold First Direct Talks in 30 Years
+5. Sudan Enters Fourth Year of War — Donors Pledge $1.5 Billion
+
+_Evening — UK Domestic:_
+1. PMQs: Speaker Rebukes Starmer as Iran Dominates the Chamber
+2. Streeting: NHS Has "Appalling Culture of Medical Misogyny"
+3. Markets Close Strong — But Pound Dips on Trade Deal Threat
+4. Fuel Hits 155p Despite Oil Pullback — RAC Says Peak on Friday
+5. Treasury Publishes April Forecasts — Growth Outlook Darkens
+
 ## Week of 23–28 March 2026
 
 ### Monday 23 March
