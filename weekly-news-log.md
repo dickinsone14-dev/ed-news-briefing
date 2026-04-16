@@ -120,6 +120,20 @@ _Morning — UK Domestic:_
 4. Trump Trade Deal Threat — Pound Stays Weak, Businesses Brace
 5. Local Elections 15 Days — Campaign Buried by Crises
 
+_Evening — Geopolitical:_
+1. Trump Announces 10-Day Israel–Lebanon Ceasefire
+2. US and Iran Agree Ceasefire Extension "In Principle"
+3. Satellite Imagery Shows Iran Clearing Missile Launch Bases
+4. US Clarifies Blockade Scope — Commercial Oil Vessels Exempt
+5. UK GDP Grew 0.7% in Q4 2025 — Revised Up
+
+_Evening — UK Domestic:_
+1. Fuel Protests Day 2 — Farage Joins Dartford, M6 Blocked
+2. Lakenheath Hearing Classified — Francois Objects, Walks Out
+3. Petrol at 159p, Diesel 192p — Protests Spread
+4. NHS Women's Health: £340m Strategy Launched
+5. Local Elections 15 Days — Reform at 26%, Labour at 14%
+
 ## Week of 23–28 March 2026
 
 ### Monday 23 March
