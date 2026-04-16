@@ -104,6 +104,22 @@ _Evening — UK Domestic:_
 4. Fuel Hits 155p Despite Oil Pullback — RAC Says Peak on Friday
 5. Treasury Publishes April Forecasts — Growth Outlook Darkens
 
+### Thursday 16 April
+
+_Morning — Geopolitical:_
+1. Iran Threatens to Block ALL Gulf and Red Sea Shipping
+2. Ceasefire Extension "Close" but Not Agreed — Nuclear Talks Stuck
+3. Sanctioned Tankers Cross Hormuz — Blockade Showing Cracks
+4. IMF Slashes Global Growth — "Shadow of War"
+5. Lebanon: President Calls for End to "Suffering" After Historic Talks
+
+_Morning — UK Domestic:_
+1. Fuel Protests Enter Day 2 — Motorways Targeted From Noon
+2. Defence Committee Meets Today on Lakenheath — Public or Classified?
+3. Petrol at 158p, Diesel Near £2 — Peak Tomorrow
+4. Trump Trade Deal Threat — Pound Stays Weak, Businesses Brace
+5. Local Elections 15 Days — Campaign Buried by Crises
+
 ## Week of 23–28 March 2026
 
 ### Monday 23 March
