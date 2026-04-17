@@ -150,6 +150,20 @@ _Morning — UK Domestic:_
 4. Local Elections 14 Days — Reform at 26%, Farage Bus Tour in Scarborough
 5. BoE MPC Next Week — 60% Chance of Rate Cut, Oil Pullback Eases Inflation
 
+_Evening — Geopolitical:_
+1. Iran Declares Hormuz "Completely Open" — Oil Falls to $89.50, Markets Surge
+2. Lebanon Ceasefire Day 1 — Holding, Celebrations in Beirut, Iran Links to US Deal
+3. Islamabad Talks "This Weekend" — No Date or Location Confirmed, Nuclear Gap Unresolved
+4. Markets Surge on Hormuz Opening — FTSE Up 0.71%, Goldman Cuts Brent Forecast to $90
+5. Counter-Terrorism: Three Arrested Over Firebomb Attacks on Persian-Language Media in London
+
+_Evening — UK Domestic:_
+1. Fuel Protests Fizzled — Patchy Action, No Major Blockade Achieved on Day 3
+2. Petrol 159p — RAC Confirms Today Was the Peak, Prices to Fall from Monday
+3. FTSE Surges 0.71% on Hormuz Opening — Airlines Lead, Gilt Yields Fall to 4.66%
+4. Counter-Terrorism Arrests in London — Three Held Over Persian Media Firebombing
+5. Local Elections 13 Days — Fuel Protest Momentum Fading as Prices Set to Fall
+
 ## Week of 23–28 March 2026
 
 ### Monday 23 March
