@@ -134,6 +134,22 @@ _Evening — UK Domestic:_
 4. NHS Women's Health: £340m Strategy Launched
 5. Local Elections 15 Days — Reform at 26%, Labour at 14%
 
+### Friday 17 April
+
+_Morning — Geopolitical:_
+1. Lebanon Ceasefire Holds Overnight — Celebrations in Beirut, Israel Keeps 10km Security Zone
+2. Trump: Iran Nuclear Deal "Very Close" — Islamabad Talks This Weekend
+3. IEA: Europe Has Six Weeks of Jet Fuel Left if Hormuz Stays Closed
+4. Oil Falls to $91.50 — Lowest Since Blockade Began, Goldman Cuts Forecast to $90
+5. Humanitarian Toll — 3,000 in Iran, 2,100 in Lebanon, 23 in Israel, Dozens in Gulf States
+
+_Morning — UK Domestic:_
+1. Fuel Protests Final Day — All 14 Chokepoints From Noon
+2. Petrol 159p, Diesel 192p — 43rd Consecutive Rise, Peak Today
+3. Lakenheath Fallout — Francois EDM Demands Public Inquiry, "Blow to Transparency"
+4. Local Elections 14 Days — Reform at 26%, Farage Bus Tour in Scarborough
+5. BoE MPC Next Week — 60% Chance of Rate Cut, Oil Pullback Eases Inflation
+
 ## Week of 23–28 March 2026
 
 ### Monday 23 March
