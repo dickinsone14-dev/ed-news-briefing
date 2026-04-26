@@ -45,21 +45,11 @@ jobs:
           fi
 
           # Only check the LATEST commit message (not all commits in push)
-          # This prevents fix/chore commits from triggering notifications
           LATEST_MSG=$(git log -1 --pretty=%B)
-
-          # STRICT commit message matching — only feat: commits trigger notifications
-          # This prevents fix:, chore:, and other commits from sending duplicates
-          if ! echo "$LATEST_MSG" | grep -q '^feat:'; then
-            echo "Not a feat: commit — skipping notification"
-            exit 0
-          fi
-
           DIFF=$(git diff HEAD~1 HEAD -- index.html)
 
           # --- BREAKING NEWS ---
-          # Only trigger if the breaking-stories JSON block was actually modified
-          # AND the commit message contains "Breaking banner"
+          # Trigger if commit message contains "Breaking banner" and headline was added
           if echo "$LATEST_MSG" | grep -qiE 'breaking banner|breaking news'; then
             if echo "$DIFF" | grep '^+' | grep -q '"headline"'; then
               echo "Detected: Breaking news update"
@@ -67,7 +57,6 @@ jobs:
               if [ -z "$HEADLINE" ]; then
                 HEADLINE="Breaking news on The Daily Brief"
               fi
-              # Clean the headline — remove timestamp suffix (e.g. "— 13:06 GMT")
               HEADLINE=$(echo "$HEADLINE" | sed 's/ — [0-9][0-9]:[0-9][0-9] GMT$//')
               node scripts/push-notify.js "$HEADLINE" --type breaking
               exit 0
@@ -75,18 +64,20 @@ jobs:
           fi
 
           # --- MORNING BRIEFING ---
-          # Only trigger on feat: commits with "Morning briefing" in the message
-          if echo "$LATEST_MSG" | grep -qiE '^feat:.*morning briefing'; then
+          # Trigger on any commit containing "morning briefing" (feat:, Update, etc.)
+          if echo "$LATEST_MSG" | grep -qiE 'morning briefing'; then
             echo "Detected: Morning briefing"
             node scripts/push-notify.js "The Morning Briefing is live" --type edition
             exit 0
           fi
 
           # --- EVENING BRIEFING ---
-          if echo "$LATEST_MSG" | grep -qiE '^feat:.*evening briefing'; then
+          # Trigger on any commit containing "evening briefing" (feat:, Update, etc.)
+          if echo "$LATEST_MSG" | grep -qiE 'evening briefing'; then
             echo "Detected: Evening briefing"
             node scripts/push-notify.js "The Evening Briefing is live" --type edition
             exit 0
           fi
 
+          # Skip chore:, fix:, and other non-content commits
           echo "No notification trigger detected — skipping"
