@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+# Daily Brief pre-commit hook
+# Runs structural validation on index.html before every commit.
+# To bypass in an emergency: git commit --no-verify
+set -e
+
+REPO_ROOT="$(git rev-parse --show-toplevel)"
+
+# Only validate if index.html is part of the staged changes
+if git diff --cached --name-only | grep -q "^index\.html$"; then
+    echo "Running validate-index.py on staged index.html..."
+    if ! python3 "$REPO_ROOT/scripts/validate-index.py"; then
+        echo ""
+        echo "Pre-commit failed. Fix the errors above, or bypass with:"
+        echo "  git commit --no-verify"
+        exit 1
+    fi
+fi
+
+exit 0
