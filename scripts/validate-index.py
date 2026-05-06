@@ -180,7 +180,73 @@ def main() -> int:
     else:
         ok("No banned source domains found")
 
-    # 7. Vetoed feature markers
+    # 7. Breaking-news banner / JSON consistency
+    # Prevents the recurring failure mode where the inline <span class="breaking-text">
+    # is updated but the breaking-stories JSON is left as [] — causing the "Read more"
+    # modal to show only the headline with no summary or facts.
+    bs_match = re.search(
+        r'<script id="breaking-stories" type="application/json">(.*?)</script>',
+        html,
+        re.S,
+    )
+    text_match = re.search(
+        r'<span class="breaking-text" id="breakingText">([^<]*)</span>',
+        html,
+    )
+    banner_text = (text_match.group(1).strip() if text_match else "")
+    if bs_match:
+        try:
+            stories = json.loads(bs_match.group(1).strip() or "[]")
+            if not isinstance(stories, list):
+                fail("breaking-stories JSON must be an array")
+                errors += 1
+                stories = []
+        except json.JSONDecodeError as e:
+            fail(f"breaking-stories JSON invalid: {e}")
+            errors += 1
+            stories = []
+    else:
+        stories = []
+
+    if banner_text and not stories:
+        fail(
+            "Breaking banner has inline text but breaking-stories JSON is empty. "
+            "The 'Read more' modal will show only the headline. Add a JSON entry "
+            "with headline + summary + facts, or clear the inline text."
+        )
+        errors += 1
+    for i, s in enumerate(stories):
+        missing_fields = []
+        if not s.get("headline", "").strip():
+            missing_fields.append("headline")
+        if not s.get("summary", "").strip():
+            missing_fields.append("summary")
+        if not isinstance(s.get("facts"), list) or not s.get("facts"):
+            missing_fields.append("facts (non-empty array)")
+        if not s.get("posted", "").strip():
+            missing_fields.append("posted")
+        if missing_fields:
+            fail(
+                f"breaking-stories[{i}] missing required fields: {missing_fields}. "
+                f"Headline: {s.get('headline', '?')[:80]!r}"
+            )
+            errors += 1
+    if banner_text and stories and not any(
+        re.search(re.escape(s.get("headline", "")[:30]), banner_text, re.I)
+        or re.search(re.escape(banner_text[:30]), s.get("headline", ""), re.I)
+        for s in stories
+    ):
+        warn(
+            "Banner inline text does not appear to match any headline in "
+            "breaking-stories JSON. The modal may show a different story than "
+            "the one in the banner."
+        )
+    if not banner_text and not stories:
+        ok("Breaking banner: no active stories (clean state)")
+    elif banner_text and stories:
+        ok(f"Breaking banner: {len(stories)} story/stories with summary + facts")
+
+    # 8. Vetoed feature markers
     veto_hits = []
     for marker, label in VETOED_MARKERS:
         if marker in html:

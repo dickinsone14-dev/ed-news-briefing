@@ -124,22 +124,34 @@ The pre-commit hook (`scripts/validate-index.py`) checks for these markers.
 
 ## 10. Breaking news banner
 
-Banner is driven by JSON in `<script id="breaking-stories" type="application/json">`.
+Banner is driven by JSON in `<script id="breaking-stories" type="application/json">`. The "Read more" modal reads ONLY from this JSON — if the JSON is empty, the modal shows just the headline with no further information. **Every breaking story MUST have a complete JSON entry; never update the inline `<span class="breaking-text">` alone.**
 
-To add a story:
+Required entry shape — all four fields are mandatory and validated by the pre-commit hook:
 ```json
 {
   "posted": "ISO_TIMESTAMP",
   "headline": "Text — HH:MM BST",
   "category": "CATEGORY",
-  "summary": "2-3 sentence description",
-  "facts": [{"label": "Key", "value": "Data"}]
+  "summary": "2-3 sentence description with the key context — what happened, who said what, where, and the immediate consequence. Minimum 1 sentence.",
+  "facts": [
+    {"label": "Key fact 1", "value": "Data"},
+    {"label": "Key fact 2", "value": "Data"},
+    {"label": "Key fact 3", "value": "Data"},
+    {"label": "Key fact 4", "value": "Data"}
+  ]
 }
 ```
 
-To clear: set the array to `[]`. The banner is `display:none` by default; JavaScript shows it when the array is non-empty. Do **not** add inline `display` styles to the banner element.
+Aim for **3–4 facts** with concrete numbers, names, dates, or quoted positions — the modal renders these as a grid. Examples that work: `{"label": "Vote", "value": "335 against, 223 for (maj 112)"}`, `{"label": "Brent crude", "value": "$114.44 (+5.96%)"}`.
+
+To clear: set the array to `[]` AND clear the inline `<span class="breaking-text">` text. The banner is `display:none` by default; JavaScript shows it when the array is non-empty. Do **not** add inline `display` styles to the banner element.
 
 Rotation rule: each breaking story stays up for **3 hours**. Replace if a newer one arrives. If no replacement, leave for **up to 8 hours total**, then remove.
+
+The pre-commit hook **fails the commit** if:
+- Inline banner text is present but `breaking-stories` is empty
+- Any story in the JSON is missing `headline`, `summary`, `facts`, or `posted`
+- `facts` is not a non-empty array
 
 ## 11. Push checklist (every edition)
 
