@@ -16,6 +16,11 @@ on:
 
 jobs:
   notify:
+    # The same workflow file lives in both remotes (origin: dickinsone14-dev/ed-news-briefing,
+    # org: thedailybrief-uk/thedailybrief-uk.github.io). Without this guard, BOTH repos
+    # fire the workflow on every push, causing every subscriber to get two notifications.
+    # The .github.io repo is the canonical source (it serves the live site), so only run there.
+    if: github.repository == 'thedailybrief-uk/thedailybrief-uk.github.io' || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
