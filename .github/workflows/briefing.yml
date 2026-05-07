@@ -1,0 +1,229 @@
+name: Briefing
+
+on:
+  # BST schedule (Mar 29 – Oct 25, 2026). When clocks change to GMT, update the
+  # cron times: 06:50 UTC → 07:50 UTC for morning, 16:50 UTC → 17:50 UTC for evening.
+  schedule:
+    - cron: '50 6 * * *'   # 07:50 BST — morning briefing (5 min before local LaunchAgent)
+    - cron: '50 16 * * *'  # 17:50 BST — evening briefing (5 min before local LaunchAgent)
+  workflow_dispatch:
+    inputs:
+      edition:
+        description: 'morning or evening (blank = auto-detect from current time)'
+        required: false
+        default: ''
+      force:
+        description: 'true = run even if today edition exists (overwrites)'
+        required: false
+        default: 'false'
+
+jobs:
+  briefing:
+    # Only on origin repo (where ANTHROPIC_API_KEY and MIRROR_TO_ORG_TOKEN live).
+    # Org repo's copy of this workflow no-ops.
+    if: github.repository == 'dickinsone14-dev/ed-news-briefing'
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    permissions:
+      contents: write
+      issues: write
+
+    env:
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      TZ: Europe/London
+
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Claude Code CLI
+        run: npm install -g @anthropic-ai/claude-code
+
+      - name: Compute briefing variables
+        id: vars
+        run: |
+          set -e
+          INPUT_EDITION="${{ github.event.inputs.edition }}"
+          if [ -n "$INPUT_EDITION" ]; then
+            EDITION="$INPUT_EDITION"
+          else
+            HOUR=$(date '+%H')
+            if [ "$HOUR" -lt 12 ]; then
+              EDITION=morning
+            else
+              EDITION=evening
+            fi
+          fi
+
+          TODAY=$(date '+%Y-%m-%d')
+          TIME_DISPLAY=$(date '+%H:%M')
+          TZ_LABEL=$(date '+%Z')
+          DATE_DISPLAY=$(date '+%A %-d %B %Y')
+          SEVEN_DAYS_AGO=$(date -d '7 days ago' '+%Y-%m-%d')
+
+          # Iran war started 2026-02-28 — keep this in sync with the prompt
+          WAR_START_EPOCH=$(date -d '2026-02-28' +%s)
+          TODAY_EPOCH=$(date +%s)
+          IRAN_WAR_DAY=$(( (TODAY_EPOCH - WAR_START_EPOCH) / 86400 + 1 ))
+
+          # Sanity-check window: morning runs only between 06–11, evening 15–21.
+          # Catches the off-cycle BST/GMT cron firing during clock-change overlap.
+          HOUR=$(date '+%H')
+          case "$EDITION" in
+            morning)
+              if [ "$HOUR" -lt 6 ] || [ "$HOUR" -gt 11 ]; then
+                echo "::warning::Outside morning window ($HOUR local) — likely off-cycle cron firing during clock change. Exiting."
+                echo "out_of_window=true" >> $GITHUB_OUTPUT
+                exit 0
+              fi
+              ;;
+            evening)
+              if [ "$HOUR" -lt 15 ] || [ "$HOUR" -gt 21 ]; then
+                echo "::warning::Outside evening window ($HOUR local) — likely off-cycle cron firing. Exiting."
+                echo "out_of_window=true" >> $GITHUB_OUTPUT
+                exit 0
+              fi
+              ;;
+          esac
+
+          {
+            echo "EDITION=$EDITION"
+            echo "TODAY=$TODAY"
+            echo "TIME_DISPLAY=$TIME_DISPLAY"
+            echo "TZ_LABEL=$TZ_LABEL"
+            echo "DATE_DISPLAY=$DATE_DISPLAY"
+            echo "SEVEN_DAYS_AGO=$SEVEN_DAYS_AGO"
+            echo "IRAN_WAR_DAY=$IRAN_WAR_DAY"
+          } >> $GITHUB_ENV
+
+          echo "edition=$EDITION" >> $GITHUB_OUTPUT
+          echo "today=$TODAY" >> $GITHUB_OUTPUT
+          echo "out_of_window=false" >> $GITHUB_OUTPUT
+
+          echo "Edition: $EDITION | Today: $TODAY | Time: $TIME_DISPLAY $TZ_LABEL | War day: $IRAN_WAR_DAY"
+
+      - name: Skip if edition already exists
+        if: steps.vars.outputs.out_of_window != 'true'
+        id: check
+        run: |
+          set -e
+          FORCE="${{ github.event.inputs.force }}"
+          if [ "$FORCE" = "true" ]; then
+            echo "Force flag set — proceeding regardless"
+            echo "skip=false" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+          if grep -q "class=\"curated-edition $EDITION\" data-date=\"$TODAY\"" index.html; then
+            echo "$EDITION edition for $TODAY already exists — skipping"
+            echo "skip=true" >> $GITHUB_OUTPUT
+          else
+            echo "skip=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Substitute prompt placeholders
+        if: steps.check.outputs.skip == 'false'
+        run: |
+          set -e
+          BRIEFING_DIR="$(pwd)"
+          sed \
+            -e '/^<!--/,/-->$/d' \
+            -e "s|{{BRIEFING_DIR}}|$BRIEFING_DIR|g" \
+            -e "s|{{TODAY}}|$TODAY|g" \
+            -e "s|{{EDITION}}|$EDITION|g" \
+            -e "s|{{TIME_DISPLAY}}|$TIME_DISPLAY|g" \
+            -e "s|{{TZ_LABEL}}|$TZ_LABEL|g" \
+            -e "s|{{IRAN_WAR_DAY}}|$IRAN_WAR_DAY|g" \
+            -e "s|{{DATE_DISPLAY}}|$DATE_DISPLAY|g" \
+            -e "s|{{SEVEN_DAYS_AGO}}|$SEVEN_DAYS_AGO|g" \
+            scripts/briefing-prompt.md > /tmp/prompt.txt
+
+          # CI override — workflow handles validation, commit, push.
+          cat >> /tmp/prompt.txt <<'EOF'
+
+
+CI OVERRIDE: This run is in GitHub Actions. The workflow will run the validator and handle git commit and push. Do NOT run python3 scripts/validate-index.py and do NOT run any git commands. After step 10 (sw.js bump), STOP — exit cleanly. The workflow takes over from there.
+EOF
+
+          echo "Prompt prepared ($(wc -l < /tmp/prompt.txt) lines, $(wc -c < /tmp/prompt.txt) bytes)"
+
+      - name: Generate briefing with Claude (Sonnet 4.6)
+        if: steps.check.outputs.skip == 'false'
+        run: |
+          set -e
+          claude -p "$(cat /tmp/prompt.txt)" \
+            --model claude-sonnet-4-6 \
+            --allowedTools "WebSearch,Read,Edit,Write,Bash" \
+            --max-turns 40
+
+      - name: Validate result
+        if: steps.check.outputs.skip == 'false'
+        run: python3 scripts/validate-index.py
+
+      - name: Show diff
+        if: steps.check.outputs.skip == 'false'
+        run: |
+          git diff --stat
+          echo "---"
+          git diff index.html | head -200
+
+      - name: Commit
+        if: steps.check.outputs.skip == 'false'
+        id: commit
+        run: |
+          set -e
+          git config user.name "Daily Brief Bot"
+          git config user.email "bot@thedailybrief.co.uk"
+          git add index.html sw.js
+          if git diff --cached --quiet; then
+            echo "No changes staged — Claude did not produce edits. Failing."
+            exit 1
+          fi
+          git commit -m "Update $EDITION briefing — $DATE_DISPLAY"
+          echo "sha=$(git rev-parse HEAD)" >> $GITHUB_OUTPUT
+
+      - name: Push to origin
+        if: steps.check.outputs.skip == 'false'
+        run: git push origin main
+
+      - name: Mirror commit to org repo
+        if: steps.check.outputs.skip == 'false'
+        env:
+          MIRROR_TOKEN: ${{ secrets.MIRROR_TO_ORG_TOKEN }}
+        run: |
+          set -e
+          git remote add org "https://x-access-token:${MIRROR_TOKEN}@github.com/thedailybrief-uk/thedailybrief-uk.github.io.git"
+          git push org main
+
+      - name: Open issue on failure
+        if: failure()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -e
+          RUN_URL="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          gh issue create \
+            --title "briefing-failed: ${EDITION:-unknown} ${TODAY:-$(date '+%Y-%m-%d')}" \
+            --body "The $EDITION briefing for $TODAY did not publish.
+
+**Run log:** $RUN_URL
+
+**Possible causes:**
+- Anthropic API outage or rate limit
+- Web search returned no useful results
+- Validator caught a structural or sourcing problem
+- Network or git issue mirroring to org
+
+The failover workflow at +1h will retry automatically. If it also fails, manual intervention required." \
+            --label "briefing-failed,automated"
