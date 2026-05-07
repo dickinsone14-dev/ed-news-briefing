@@ -150,11 +150,7 @@ jobs:
             scripts/briefing-prompt.md > /tmp/prompt.txt
 
           # CI override — workflow handles validation, commit, push.
-          cat >> /tmp/prompt.txt <<'EOF'
-
-
-CI OVERRIDE: This run is in GitHub Actions. The workflow will run the validator and handle git commit and push. Do NOT run python3 scripts/validate-index.py and do NOT run any git commands. After step 10 (sw.js bump), STOP — exit cleanly. The workflow takes over from there.
-EOF
+          printf '\n\nCI OVERRIDE: This run is in GitHub Actions. The workflow will run the validator and handle git commit and push. Do NOT run python3 scripts/validate-index.py and do NOT run any git commands. After step 10 (sw.js bump), STOP — exit cleanly. The workflow takes over from there.\n' >> /tmp/prompt.txt
 
           echo "Prompt prepared ($(wc -l < /tmp/prompt.txt) lines, $(wc -c < /tmp/prompt.txt) bytes)"
 
@@ -213,17 +209,11 @@ EOF
         run: |
           set -e
           RUN_URL="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          ED="${EDITION:-unknown}"
+          TD="${TODAY:-$(date '+%Y-%m-%d')}"
+          printf 'The %s briefing for %s did not publish.\n\n**Run log:** %s\n\n**Possible causes:**\n- Anthropic API outage or rate limit\n- Web search returned no useful results\n- Validator caught a structural or sourcing problem\n- Network or git issue mirroring to org\n\nThe failover workflow at +1h will retry automatically. If it also fails, manual intervention required.\n' "$ED" "$TD" "$RUN_URL" > /tmp/body.md
           gh issue create \
-            --title "briefing-failed: ${EDITION:-unknown} ${TODAY:-$(date '+%Y-%m-%d')}" \
-            --body "The $EDITION briefing for $TODAY did not publish.
-
-**Run log:** $RUN_URL
-
-**Possible causes:**
-- Anthropic API outage or rate limit
-- Web search returned no useful results
-- Validator caught a structural or sourcing problem
-- Network or git issue mirroring to org
-
-The failover workflow at +1h will retry automatically. If it also fails, manual intervention required." \
-            --label "briefing-failed,automated"
+            --title "briefing-failed: $ED $TD" \
+            --body-file /tmp/body.md \
+            --label "briefing-failed" \
+            --label "automated" || true
