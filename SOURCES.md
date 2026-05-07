@@ -127,3 +127,128 @@
 - OilPrice.com
 - Unverified social media
 - Blogs without editorial oversight
+
+---
+
+## Approved domains (machine-readable — used by validate-index.py)
+
+Edit only between the `BEGIN` / `END` markers below. The pre-commit hook reads this list and fails any commit where `index.html` contains a hyperlink inside a curated edition pointing to a domain not on this list. To add a new outlet to the approved set: add it to the prose section above AND add its domain(s) here.
+
+<!-- BEGIN APPROVED DOMAINS -->
+# Wire services
+reuters.com
+apnews.com
+ap.org
+afp.com
+bloomberg.com
+
+# UK news
+bbc.co.uk
+bbc.com
+ft.com
+telegraph.co.uk
+thetimes.com
+thetimes.co.uk
+theguardian.com
+guardian.co.uk
+independent.co.uk
+economist.com
+news.sky.com
+sky.com
+itv.com
+channel4.com
+
+# US news
+cnn.com
+edition.cnn.com
+cnbc.com
+nbcnews.com
+cbsnews.com
+abcnews.com
+abcnews.go.com
+npr.org
+washingtonpost.com
+wsj.com
+nytimes.com
+
+# European news
+lemonde.fr
+faz.net
+elpais.com
+irishtimes.com
+
+# Middle East
+aljazeera.com
+timesofisrael.com
+iranintl.com
+
+# Specialist defence / military
+janes.com
+understandingwar.org
+bellingcat.com
+rusi.org
+defensenews.com
+
+# Government / official — UK
+gov.uk
+parliament.uk
+hansard.parliament.uk
+committees.parliament.uk
+bankofengland.co.uk
+ons.gov.uk
+obr.uk
+
+# Government / official — US
+whitehouse.gov
+state.gov
+defense.gov
+centcom.mil
+federalreserve.gov
+
+# International institutions
+iaea.org
+imf.org
+worldbank.org
+oecd.org
+ecb.europa.eu
+ec.europa.eu
+europa.eu
+consilium.europa.eu
+nato.int
+
+# Polling
+yougov.com
+yougov.co.uk
+opinium.com
+opinium.co.uk
+ipsos.com
+survation.com
+moreincommon.com
+electoralcalculus.co.uk
+
+# Economic think tanks
+chathamhouse.org
+ifs.org.uk
+resolutionfoundation.org
+
+# Real estate / housing — already covered by gov.uk and ons.gov.uk
+
+# Markets / finance data
+finance.yahoo.com
+uk.finance.yahoo.com
+morningstar.com
+marketwatch.com
+spglobal.com
+tradingeconomics.com
+investing.com
+
+# Industry / trade bodies
+bma.org.uk
+trussell.org.uk
+rac.co.uk
+theaa.com
+
+# Our own site
+thedailybrief.co.uk
+
+<!-- END APPROVED DOMAINS -->

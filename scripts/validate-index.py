@@ -25,6 +25,7 @@ from datetime import date, timedelta
 from pathlib import Path
 
 INDEX = Path(__file__).resolve().parent.parent / "index.html"
+SOURCES_MD = Path(__file__).resolve().parent.parent / "SOURCES.md"
 
 EXPECTED_MARKET_KEYS = {
     "FTSE", "SP", "Brent", "GBP", "Gold", "EURGBP",
@@ -61,6 +62,50 @@ def warn(msg: str) -> None:
 
 def ok(msg: str) -> None:
     print(f"\033[32m✓\033[0m {msg}")
+
+
+def load_approved_domains() -> set[str]:
+    """Parse the BEGIN/END APPROVED DOMAINS block from SOURCES.md."""
+    if not SOURCES_MD.exists():
+        return set()
+    text = SOURCES_MD.read_text(encoding="utf-8")
+    m = re.search(
+        r"<!--\s*BEGIN APPROVED DOMAINS\s*-->(.+?)<!--\s*END APPROVED DOMAINS\s*-->",
+        text,
+        re.S,
+    )
+    if not m:
+        return set()
+    domains: set[str] = set()
+    for line in m.group(1).splitlines():
+        line = line.strip()
+        if not line or line.startswith("#"):
+            continue
+        domains.add(line.lower())
+    return domains
+
+
+def hostname_from_url(url: str) -> str:
+    """Lower-cased hostname stripped of port and www. prefix."""
+    m = re.match(r"https?://([^/\s\")\]:]+)", url, re.I)
+    if not m:
+        return ""
+    host = m.group(1).lower()
+    if host.startswith("www."):
+        host = host[4:]
+    return host
+
+
+def host_is_approved(host: str, approved: set[str]) -> bool:
+    """A host is approved if it equals or is a subdomain of any approved domain."""
+    if not host:
+        return False
+    if host in approved:
+        return True
+    for d in approved:
+        if host.endswith("." + d):
+            return True
+    return False
 
 
 def main() -> int:
@@ -246,7 +291,39 @@ def main() -> int:
     elif banner_text and stories:
         ok(f"Breaking banner: {len(stories)} story/stories with summary + facts")
 
-    # 8. Vetoed feature markers
+    # 8. Source allow-list — every hyperlink inside #all-editions must point to
+    # a domain in SOURCES.md's APPROVED DOMAINS block. Catches the case where a
+    # briefing prompt drifts and an unapproved outlet leaks in via a one-to-read
+    # URL or in-story citation hyperlink.
+    approved = load_approved_domains()
+    if not approved:
+        warn("Could not load APPROVED DOMAINS from SOURCES.md — skipping allow-list check")
+    else:
+        all_eds = re.search(
+            r'<div id="all-editions"[^>]*>(.*?)</div><!-- /all-editions -->',
+            html,
+            re.S,
+        )
+        if all_eds:
+            inner = all_eds.group(1)
+            href_re = re.compile(r'<a\s+[^>]*href="(https?://[^"]+)"', re.I)
+            unapproved: list[tuple[str, str]] = []
+            for m in href_re.finditer(inner):
+                url = m.group(1)
+                host = hostname_from_url(url)
+                if not host_is_approved(host, approved):
+                    unapproved.append((host, url[:120]))
+            if unapproved:
+                for host, url in unapproved:
+                    fail(
+                        f"Unapproved domain in curated content: {host} "
+                        f"(not in SOURCES.md). URL: {url}"
+                    )
+                errors += len(unapproved)
+            else:
+                ok(f"All curated-content hyperlinks on SOURCES.md ({len(approved)} approved domains)")
+
+    # 9. Vetoed feature markers
     veto_hits = []
     for marker, label in VETOED_MARKERS:
         if marker in html:
