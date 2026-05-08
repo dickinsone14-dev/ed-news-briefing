@@ -165,7 +165,7 @@ jobs:
           claude -p "$(cat /tmp/prompt.txt)" \
             --model claude-sonnet-4-6 \
             --allowedTools "WebSearch,Read,Edit,Write,Bash" \
-            --max-budget-usd 0.50
+            --max-budget-usd 3.00
 
       - name: Validate result
         if: steps.check.outputs.skip == 'false'
@@ -218,6 +218,4 @@ jobs:
           printf 'The %s briefing for %s did not publish.\n\n**Run log:** %s\n\n**Possible causes:**\n- Anthropic API outage or rate limit\n- Web search returned no useful results\n- Validator caught a structural or sourcing problem\n- Network or git issue mirroring to org\n\nThe failover workflow at +1h will retry automatically. If it also fails, manual intervention required.\n' "$ED" "$TD" "$RUN_URL" > /tmp/body.md
           gh issue create \
             --title "briefing-failed: $ED $TD" \
-            --body-file /tmp/body.md \
-            --label "briefing-failed" \
-            --label "automated" || true
+            --body-file /tmp/body.md || true
