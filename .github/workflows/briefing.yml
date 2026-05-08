@@ -80,23 +80,27 @@ jobs:
 
           # Sanity-check window: morning runs only between 06–11, evening 15–21.
           # Catches the off-cycle BST/GMT cron firing during clock-change overlap.
-          HOUR=$(date '+%H')
-          case "$EDITION" in
-            morning)
-              if [ "$HOUR" -lt 6 ] || [ "$HOUR" -gt 11 ]; then
-                echo "::warning::Outside morning window ($HOUR local) — likely off-cycle cron firing during clock change. Exiting."
-                echo "out_of_window=true" >> $GITHUB_OUTPUT
-                exit 0
-              fi
-              ;;
-            evening)
-              if [ "$HOUR" -lt 15 ] || [ "$HOUR" -gt 21 ]; then
-                echo "::warning::Outside evening window ($HOUR local) — likely off-cycle cron firing. Exiting."
-                echo "out_of_window=true" >> $GITHUB_OUTPUT
-                exit 0
-              fi
-              ;;
-          esac
+          # Bypassed on workflow_dispatch — manual runs override (e.g. catch-up after
+          # a missed morning, election-night extras).
+          if [ "$GITHUB_EVENT_NAME" != "workflow_dispatch" ]; then
+            HOUR=$(date '+%H')
+            case "$EDITION" in
+              morning)
+                if [ "$HOUR" -lt 6 ] || [ "$HOUR" -gt 11 ]; then
+                  echo "::warning::Outside morning window ($HOUR local) — likely off-cycle cron firing during clock change. Exiting."
+                  echo "out_of_window=true" >> $GITHUB_OUTPUT
+                  exit 0
+                fi
+                ;;
+              evening)
+                if [ "$HOUR" -lt 15 ] || [ "$HOUR" -gt 21 ]; then
+                  echo "::warning::Outside evening window ($HOUR local) — likely off-cycle cron firing. Exiting."
+                  echo "out_of_window=true" >> $GITHUB_OUTPUT
+                  exit 0
+                fi
+                ;;
+            esac
+          fi
 
           {
             echo "EDITION=$EDITION"
