@@ -161,7 +161,7 @@ jobs:
           claude -p "$(cat /tmp/prompt.txt)" \
             --model claude-sonnet-4-6 \
             --allowedTools "WebSearch,Read,Edit,Write,Bash" \
-            --max-turns 40
+            --max-budget-usd 0.50
 
       - name: Validate result
         if: steps.check.outputs.skip == 'false'
