@@ -1,11 +1,19 @@
 name: Briefing
 
+# DISABLED 2026-05-09 — cron triggers removed.
+#
+# History: built 2026-05-07 to migrate briefing generation off macOS LaunchAgent
+# onto cloud cron. After two days of cascading failures (cron drift, invalid
+# --max-turns flag, $0.50 budget cap too tight, Anthropic Tier 1 30K-tokens-per-
+# minute rate limit) and a realised cost trajectory of ~£75-100/month for what
+# the local LaunchAgent + manual session covers reliably at zero marginal cost
+# (Max plan), Ed pulled the plug.
+#
+# The workflow file is retained — secrets, mirror logic and prompt-substitution
+# all work — so it can be re-enabled by adding the schedule: block back if/when
+# Anthropic Tier 2 + prompt caching make the economics viable. workflow_dispatch
+# stays available for emergency manual catch-up.
 on:
-  # BST schedule (Mar 29 – Oct 25, 2026). When clocks change to GMT, update the
-  # cron times: 06:50 UTC → 07:50 UTC for morning, 16:50 UTC → 17:50 UTC for evening.
-  schedule:
-    - cron: '50 6 * * *'   # 07:50 BST — morning briefing (5 min before local LaunchAgent)
-    - cron: '50 16 * * *'  # 17:50 BST — evening briefing (5 min before local LaunchAgent)
   workflow_dispatch:
     inputs:
       edition:
