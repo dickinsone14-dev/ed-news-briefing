@@ -63,6 +63,8 @@ This is the audit trail. The validator will parse it.
 
 **Rule 8 — Source list.** Read `{{BRIEFING_DIR}}/SOURCES.md` and use ONLY the outlets in its APPROVED DOMAINS block, no exceptions. Cross-reference at least 2 approved sources before including any story. The pre-commit hook fails any commit with a hyperlink outside that block.
 
+**Rule 9 — Direct-quote density.** Each edition must contain a minimum of **3 direct quotes** from named primary speakers — for example: a head of state, a Cabinet minister, a foreign minister, a central-bank governor, a CEO, an officially-named analyst. A direct quote means an unbroken span of speech inside &ldquo;&hellip;&rdquo; that is attributed to a named individual and traceable to an approved-source article or direct-text snippet. Paraphrase does not count. Anonymous-source quotes (e.g. &ldquo;a Number 10 spokesman said&hellip;&rdquo;) count only when the source is identified to that level (named role at named institution). Direct quotes are the most defensible facts in the brief — lean on them. If you cannot find three direct quotes across your retrievals, the brief is under-sourced; search again before drafting.
+
 ═══════════════════════════════════════════════════════════════
 STRUCTURE (NON-NEGOTIABLE)
 ═══════════════════════════════════════════════════════════════

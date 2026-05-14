@@ -65,6 +65,8 @@
 - ons.gov.uk
 - HM Treasury
 - OBR (Office for Budget Responsibility)
+- HMRC — His Majesty's Revenue and Customs *(monthly tax receipts, PAYE/RTI employment data, customs revenue)*
+- NAO — National Audit Office *(independent parliamentary spending watchdog; cite findings as findings, not policy assessments)*
 
 **US:**
 - whitehouse.gov
@@ -72,6 +74,7 @@
 - defense.gov
 - CENTCOM
 - Federal Reserve
+- EIA — Energy Information Administration *(weekly crude inventories, gasoline stocks, STEO)*
 
 **International institutions:**
 - IAEA
@@ -82,6 +85,8 @@
 - Eurostat
 - consilium.europa.eu (EU Council)
 - NATO
+- IEA — International Energy Agency *(monthly Oil Market Report, demand/supply, SPR releases)*
+- OPEC — **cartel statements, communiqués and production-decision data only**. Their demand/price forecasts have a commercial bias toward producer interests; cross-reference with IEA / EIA before citing as fact.
 
 > **Caveat:** "Official" ≠ "neutral observer." A Pentagon assessment of Russian losses is the *US government position*, not an independent fact. Use these as primary sources for **their own** statements, data, and policy. For claims about adversaries, cross-reference with wire services or specialist outlets.
 
@@ -97,6 +102,14 @@
 - Chatham House
 - IFS — Institute for Fiscal Studies
 - Resolution Foundation
+- NIESR — National Institute of Economic and Social Research *(monthly GDP nowcasts, quarterly UK Economic Outlook, independent fiscal commentary)*
+- IPPR — Institute for Public Policy Research. **Facts only, not their political views or policy opinions.** Use for their research data — regional-inequality statistics, NHS productivity figures, labour-market analysis. Do NOT cite their policy prescriptions or any framing that reflects their centre-left editorial orientation.
+
+## Foreign-policy think tanks
+- Atlantic Council — DC, transatlantic. **Cross-reference any UAE/Iran or China coverage** — corporate and Gulf-state funders create a legible editorial bias. Russia/Ukraine and DFRLab open-source work is reliable.
+- Carnegie Endowment for International Peace — **factual information only, not their analysis or views**. Use for verifiable facts, primary documents they publish, and named-event timelines. Do NOT cite their commentary or named-analyst opinion in the brief.
+- International Crisis Group (ICG) — Brussels NGO, conflict-focused. **Use their findings only, not their preferred outcomes.** Cite their on-the-ground reporting and assessments; do NOT cite their policy recommendations or prescriptive conclusions. Cross-reference against Janes or RUSI if a specific Hamas / Hezbollah / Russian-intent framing looks editorially loaded.
+- ECFR — European Council on Foreign Relations. Berlin-headquartered pan-European think tank. Useful for the EU-institutional view, EU sanctions policy, and European responses to US/Middle-East events. Centre-left, pro-integrationist editorial orientation &mdash; note that any critique of national capitals tends to favour deeper EU coordination.
 
 ## Real estate / housing
 - Land Registry — actual transaction prices
@@ -197,6 +210,8 @@ committees.parliament.uk
 bankofengland.co.uk
 ons.gov.uk
 obr.uk
+hmrc.gov.uk
+nao.org.uk
 
 # Government / official — US
 whitehouse.gov
@@ -204,6 +219,7 @@ state.gov
 defense.gov
 centcom.mil
 federalreserve.gov
+eia.gov
 
 # International institutions
 iaea.org
@@ -215,6 +231,8 @@ ec.europa.eu
 europa.eu
 consilium.europa.eu
 nato.int
+iea.org
+opec.org
 
 # Polling
 yougov.com
@@ -230,6 +248,14 @@ electoralcalculus.co.uk
 chathamhouse.org
 ifs.org.uk
 resolutionfoundation.org
+niesr.ac.uk
+ippr.org
+
+# Foreign-policy think tanks
+atlanticcouncil.org
+carnegieendowment.org
+crisisgroup.org
+ecfr.eu
 
 # Real estate / housing — already covered by gov.uk and ons.gov.uk
 
