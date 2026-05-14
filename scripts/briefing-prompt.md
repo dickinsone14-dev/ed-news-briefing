@@ -27,31 +27,39 @@ IMPORTANT TIMELINE: The US-Israel war on Iran started on 28 February 2026. Today
 SOURCING DISCIPLINE — NON-NEGOTIABLE, READ BEFORE ANYTHING ELSE
 ═══════════════════════════════════════════════════════════════
 
-The brief's credibility depends on every specific claim being traceable to an article you actually retrieved from the approved-sources list. This is not optional. Fabricated specifics — plausible-sounding figures, named individuals, percentages, basis-point moves, cover ratios, attendee lists, refinery names, ministerial actions — have repeatedly slipped past the validator. The validator catches banned domains; it cannot catch invented specifics. That is your job.
+The brief's credibility depends on every specific claim being traceable to approved-source reporting. This is not optional. Fabricated specifics — plausible-sounding figures, named individuals, percentages, basis-point moves, cover ratios, attendee lists, refinery names, ministerial actions — have repeatedly slipped past the validator. The validator catches banned domains; it cannot catch invented specifics. That is your job.
 
-The rules that follow are how you prevent that failure mode.
+**The rule that prevents the failure mode is no fabrication, not no snippets.** Full-article retrieval via WebFetch is preferred but not required — search snippets that quote article text directly from an approved domain are an acceptable source. What is never acceptable is invention, extrapolation, or carrying yesterday's number forward as today's.
 
-**Rule 1 — Full articles, not snippets.** Search results give you LEADS. They do NOT give you FACTS. Before any specific claim enters the brief, you must successfully fetch (via WebFetch) the full article that supports it. If WebFetch returns 403, 404, redirect-loops, or a truncated page, that source has not been retrieved — try a sibling article, switch outlets, or OMIT the dependent claim. Never carry a fact across the search-snippet/article-content boundary on the assumption it will be true.
+The rules that follow are how you prevent the failure mode.
 
-**Rule 2 — Cache every retrieved article.** Before writing any brief content, create the directory `{{BRIEFING_DIR}}/cache/{{TODAY}}/` and save every successfully-fetched article to a file inside it. Use the URL slug as the filename (e.g. `aljazeera-uks-keir-starmer-faces-likely-challenge.txt`). Each file's first line must be `URL: <full-url>`; the rest is the article text you extracted. The pre-commit hook will check that any specific claim in the brief appears in at least one cached file.
+**Rule 1 — What counts as a valid source.**
+- Best: an article retrieved via WebFetch from an approved domain.
+- Acceptable: a search-engine snippet that quotes article text directly from an approved domain (the snippet must contain the underlying article's words, not the search engine's paraphrase of them).
+- Strongest: cross-referenced agreement across two or more approved sources.
+- Not acceptable: search-engine summary paragraphs that paraphrase or aggregate; "plausible-sounding" details with no underlying article; carry-forward from yesterday without re-verification; rescaling yesterday's close to fake today's intraday.
 
-**Rule 3 — Anchor-stories pre-check.** BEFORE drafting any HTML, write a short plain-text list to `{{BRIEFING_DIR}}/cache/{{TODAY}}/anchor-stories-{{EDITION}}.txt` of the top 5 stories you would expect a competent UK editor to lead with today, based on what your retrievals confirm. Then check: are all 5 covered in your retrieved sources? Are any major stories of the day (e.g. a head-of-state visit, an oil-price shock, a UK Cabinet resignation, a market intervention) NOT on your list because you didn't search for them? If so, go back and search before writing. A brief that misses the biggest story of the day is broken, regardless of the other content.
+If you only have a search-engine paraphrase (not direct article text), treat as a lead — search for a sibling article that quotes the underlying fact more directly, or omit.
 
-**Rule 4 — Narrow rather than fabricate.** When fetches fail and a fact cannot be confirmed, the correct response is to omit, not invent. Three rigorously sourced specifics beat ten plausible-sounding details with one invention. A shorter, harder brief is more valuable than a long brief with unsourced claims. Resist the instinct to fill structural slots with the type of content you remember from previous days — yesterday's gilt yield is not today's; yesterday's analyst forecast must be re-verified before reuse; yesterday's MP count cannot be extrapolated.
+**Rule 2 — Cache what informed the brief.** Before writing any brief content, create the directory `{{BRIEFING_DIR}}/cache/{{TODAY}}/` and save the source material that informed each major claim. Save successfully-fetched WebFetch articles in full. Save the key direct-text search snippets as their own files (with `URL: <source-url>` as the first line and `(Search snippet content — full article 403'd on direct fetch; <outlet>'s own reporting language)` as the second line). Use the URL slug as the filename (e.g. `aljazeera-uks-keir-starmer-faces-likely-challenge.txt`). The pre-commit hook will check that any specific claim in the brief appears in at least one cached file.
 
-**Rule 5 — Sources-used appendix.** At the END of your brief, immediately before the closing `</div><!-- ── END {{EDITION}} ... -->` comment, add an HTML comment block listing every article you successfully retrieved and what it supported. Format:
+**Rule 3 — Anchor-stories pre-check.** BEFORE drafting any HTML, write a short plain-text list to `{{BRIEFING_DIR}}/cache/{{TODAY}}/anchor-stories-{{EDITION}}.txt` of the top 5 stories you would expect a competent UK editor to lead with today, based on what your research confirms. Then check: are all 5 covered in your sources? Are any major stories of the day (e.g. a head-of-state visit, an oil-price shock, a UK Cabinet resignation, a market intervention) NOT on your list because you didn't search for them? If so, go back and search before writing. A brief that misses the biggest story of the day is broken, regardless of the other content.
+
+**Rule 4 — Narrow rather than fabricate.** When sourcing is thin and a fact cannot be confirmed in any approved-source article or snippet, the correct response is to omit, not invent. Three rigorously sourced specifics beat ten plausible-sounding details with one invention. A shorter, harder brief is more valuable than a long brief with unsourced claims. Resist the instinct to fill structural slots with the type of content you remember from previous days — yesterday's gilt yield is not today's; yesterday's analyst forecast must be re-verified before reuse; yesterday's MP count cannot be extrapolated.
+
+**Rule 5 — Sources-used appendix.** At the END of your brief, immediately before the closing `</div><!-- ── END {{EDITION}} ... -->` comment, add an HTML comment block listing every article or snippet that informed the brief and what it supported. Format:
 ```
 <!-- SOURCES USED
 - https://www.aljazeera.com/news/2026/5/14/... — BRICS attendees, Araghchi quote, Jaishankar quote
-- https://www.cnbc.com/2026/05/13/... — Brent close, WTI close
+- https://www.cnbc.com/2026/05/13/... (search snippet — full article 403) — Brent close, WTI close
 - https://www.bloomberg.com/news/... — Streeting resignation context
 END SOURCES USED -->
 ```
 This is the audit trail. The validator will parse it.
 
-**Rule 6 — Direct quotes are anchors.** If you have a direct quote from a primary speaker (Trump, Starmer, an FM, a CEO), use it. Direct quotes are the most defensible facts because they come straight from the article. Lean on them. Paraphrase when no quote exists but never invent attribution.
+**Rule 6 — Direct quotes are anchors.** If you have a direct quote from a primary speaker (Trump, Starmer, an FM, a CEO) in either a retrieved article or a direct-text search snippet, use it. Direct quotes are the most defensible facts because they come straight from the article. Lean on them. Paraphrase when no quote exists but never invent attribution.
 
-**Rule 7 — Market numbers especially.** Specific market levels (FTSE close, gilt yields, Brent settle, sterling cross) cause more sourcing failures than any other category because they are easily plausible-extrapolated. Either (a) cite a number from an article you fetched, in which case quote it precisely with a publication time, or (b) describe market behaviour narratively ("gilts extended their slide", "oil held near Tuesday's elevated close") without inventing a number. Do NOT rescale yesterday's close to fabricate today's open or close. Do NOT carry forward an analyst forecast without re-fetching its source today.
+**Rule 7 — Market numbers especially.** Specific market levels (FTSE close, gilt yields, Brent settle, sterling cross) cause more sourcing failures than any other category because they are easily plausible-extrapolated. Either (a) cite a number from an approved-source article or direct snippet, in which case quote it precisely with a publication time, or (b) describe market behaviour narratively ("gilts extended their slide", "oil held near Tuesday's elevated close") without inventing a number. Do NOT rescale yesterday's close to fabricate today's open or close. Do NOT carry forward an analyst forecast without re-confirming it in today's sources.
 
 **Rule 8 — Source list.** Read `{{BRIEFING_DIR}}/SOURCES.md` and use ONLY the outlets in its APPROVED DOMAINS block, no exceptions. Cross-reference at least 2 approved sources before including any story. The pre-commit hook fails any commit with a hyperlink outside that block.
 
@@ -69,7 +77,7 @@ ORDER OF OPERATIONS
 
 1. **Research.** Search the web for today's top geopolitical news (Iran/Middle East, Ukraine-Russia, head-of-state diplomacy, market shocks) AND today's top UK domestic politics — using ONLY outlets on SOURCES.md.
 
-2. **Retrieve.** For each lead, WebFetch the full article. Save each successful fetch to `{{BRIEFING_DIR}}/cache/{{TODAY}}/<slug>.txt`. Treat 403/404/redirects/truncation as fetch failures — do not use those articles as sources.
+2. **Retrieve.** For each lead, attempt to WebFetch the full article. Save each successful fetch to `{{BRIEFING_DIR}}/cache/{{TODAY}}/<slug>.txt`. If a fetch returns 403/404/redirects/truncation, fall back to the search-engine snippet — but only if that snippet quotes article text directly (not a search-engine summary). Save direct-text snippets to the same cache directory with a header noting they are snippet-sourced.
 
 3. **Anchor-stories pre-check.** Write `{{BRIEFING_DIR}}/cache/{{TODAY}}/anchor-stories-{{EDITION}}.txt` listing the top 5 stories you would expect to lead with. If any major story you should have covered isn't in your retrievals, go back to step 1 and search again.
 
