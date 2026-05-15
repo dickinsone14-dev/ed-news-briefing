@@ -2,6 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-15-evening/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-15T18:15:00+01:00</news:publication_date>
+      <news:title>Evening Briefing — Friday 15 May 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-15-evening/trump-losing-patience-iran-oil-108/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-15T18:15:00+01:00</news:publication_date>
+      <news:title>Trump: “Not Going To Be Much More Patient” With Iran; Oil to $108</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-15-evening/uae-fast-tracks-pipeline-bypass-hormuz/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-15T18:15:00+01:00</news:publication_date>
+      <news:title>UAE Fast-Tracks Pipeline to Double Hormuz-Bypass Export Capacity</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-15-evening/israeli-soldier-killed-hezbollah-mortar/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-15T18:15:00+01:00</news:publication_date>
+      <news:title>Israeli Soldier Killed in Lebanon; IDF Strikes 65 Hezbollah Sites</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-15-evening/russia-1600-drones-missiles-kyiv-strike/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-15T18:15:00+01:00</news:publication_date>
+      <news:title>Russia Launches 1,600+ Drones, Missiles at Ukraine Over Two Days</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-15-evening/first-major-tankers-reach-destinations-hormuz/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-15T18:15:00+01:00</news:publication_date>
+      <news:title>First Major Non-Iranian Tankers Begin Reaching Destinations</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-15-evening/burnham-announces-makerfield-by-election-bid/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-15T18:15:00+01:00</news:publication_date>
+      <news:title>Burnham Confirms Makerfield By-Election Bid; NEC to Decide</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-15-evening/gilts-1998-high-sterling-burnham-risk-premium/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-15T18:15:00+01:00</news:publication_date>
+      <news:title>Gilts Hit 1998 High; Sterling at $1.33 as Burnham Bid Drives Risk</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-15-evening/yougov-burnham-only-net-positive-favourability/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-15T18:15:00+01:00</news:publication_date>
+      <news:title>YouGov: Burnham Only Senior Politician With Positive Favourability</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-15-evening/greens-contest-makerfield-complicate-burnham/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-15T18:15:00+01:00</news:publication_date>
+      <news:title>Greens to Contest Makerfield, Complicating Burnham’s Path</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-15-evening/labour-leadership-mechanics-streeting-backs-burnham/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-15T18:15:00+01:00</news:publication_date>
+      <news:title>Labour Mechanics: 81-MP Threshold; Streeting Backs Burnham</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-05-15-morning/</loc>
     <news:news>
       <news:publication>
@@ -483,116 +604,6 @@
       </news:publication>
       <news:publication_date>2026-05-13T18:06:00+01:00</news:publication_date>
       <news:title>FTSE Closes Down 0.94%; 30-Year Gilt Near 1998 Highs</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-13-evening/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-13T18:00:00+01:00</news:publication_date>
-      <news:title>Evening Briefing — Wednesday 13 May 2026</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-13-evening/king-s-speech-35-bills-security/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-13T18:00:00+01:00</news:publication_date>
-      <news:title>King’s Speech: 35+ Bills, Security-Heavy Agenda, Limited Defence Industry Measures</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-13-evening/starmer-streeting-meeting-downing-street-twenty/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-13T18:00:00+01:00</news:publication_date>
-      <news:title>Starmer-Streeting Meeting at Downing Street: Under Twenty Minutes</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-13-evening/80-labour-mps-now-publicly-demand/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-13T18:00:00+01:00</news:publication_date>
-      <news:title>Over 80 Labour MPs Now Publicly Demand Starmer’s Departure</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-13-evening/starmer-reply-king-s-speech-pivotal/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-13T18:00:00+01:00</news:publication_date>
-      <news:title>Starmer Reply to King’s Speech: “Pivotal Moment”, Warns Against “Chaos and Instability”</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-13-evening/markets-extend-tuesday-s-gilt-slide/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-13T18:00:00+01:00</news:publication_date>
-      <news:title>Markets Extend Tuesday’s Gilt Slide; 30Y Yield Holds Near 1998 Highs</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-13-evening/brics-foreign-ministers-meeting-begins-thursday/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-13T18:00:00+01:00</news:publication_date>
-      <news:title>BRICS Foreign Ministers Meeting Begins Thursday: Araghchi to Attend Alongside Saudi, Egyptian FMs</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-13-evening/oil-holds-near-tuesday-s-elevated/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-13T18:00:00+01:00</news:publication_date>
-      <news:title>Oil Holds Near Tuesday’s Elevated Close: Brent $107.77, WTI $102.18</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-13-evening/us-host-third-round-israel-lebanon/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-13T18:00:00+01:00</news:publication_date>
-      <news:title>US to Host Third Round of Israel-Lebanon Talks Thursday-Friday</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-13-evening/pakistani-mediation-continues-without-fresh-public/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-13T18:00:00+01:00</news:publication_date>
-      <news:title>Pakistani Mediation Continues Without Fresh Public Statements Today</news:title>
     </news:news>
   </url>
 </urlset>

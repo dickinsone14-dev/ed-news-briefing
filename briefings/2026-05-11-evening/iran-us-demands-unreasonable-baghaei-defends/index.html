@@ -1130,8 +1130,9 @@
     }
     .breaking-text {
       font-family: var(--sans); font-size: 14px; font-weight: 500; line-height: 1.4; flex: 1;
+      min-width: 0;
       cursor: pointer; transition: opacity 0.2s;
-      overflow: hidden;
+      white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
     }
     .breaking-text:hover { opacity: 0.85; }
     /* Mobile: scroll the headline text in a loop */
@@ -2055,7 +2056,7 @@
 
   <!-- #1 Markets snapshot bar -->
   <!-- Embedded market data (populated by update script, used as fallback) -->
-  <script id="embedded-markets" type="application/json">{"FTSE":{"price":8254,"change":-0.94},"SP":{"price":5262,"change":-0.38},"Brent":{"price":105.63,"change":-2.00},"GBP":{"price":1.2907,"change":-0.50},"Gold":{"price":4865,"change":0.68},"EURGBP":{"price":0.8909,"change":0.32},"Gilt":{"price":5.028,"change":-1.66},"VIX":{"price":31.85,"change":0.00},"BTC":{"price":79480,"change":-0.80},"UST":{"price":4.40,"change":0.92},"ts":"2026-05-15T08:29:00+01:00"}</script>
+  <script id="embedded-markets" type="application/json">{"FTSE":{"price":8254,"change":-0.94},"SP":{"price":5262,"change":-0.38},"Brent":{"price":107.85,"change":2.10},"GBP":{"price":1.3325,"change":-0.21},"Gold":{"price":4865,"change":0.68},"EURGBP":{"price":0.8909,"change":0.32},"Gilt":{"price":5.14,"change":2.23},"VIX":{"price":31.85,"change":0.00},"BTC":{"price":79480,"change":-0.80},"UST":{"price":4.40,"change":0.92},"ts":"2026-05-15T18:15:00+01:00"}</script>
   <script id="market-descriptions" type="application/json">{
     "FTSE": {
       "name": "FTSE 100",
@@ -2177,6 +2178,158 @@
     <!-- ════ ALL EDITIONS (sorted by JS) ════ -->
     <!-- IMPORTANT: Keep 7 FULL DAYS of editions in this container. Do NOT delete editions less than 7 days old. -->
     <div id="all-editions" style="display:none;">
+
+    <!-- ── EVENING 15 MAY (18:15) ── -->
+    <div class="curated-edition evening" data-date="2026-05-15" data-time="18:15" data-markets='{"FTSE":{"price":8254,"change":-0.94},"SP":{"price":5262,"change":-0.38},"Brent":{"price":107.85,"change":2.10},"GBP":{"price":1.3325,"change":-0.21},"Gold":{"price":4865,"change":0.68},"EURGBP":{"price":0.8909,"change":0.32},"Gilt":{"price":5.14,"change":2.23},"VIX":{"price":31.85,"change":0.00},"BTC":{"price":79480,"change":-0.80},"UST":{"price":4.40,"change":0.92},"ts":"2026-05-15T18:15:00+01:00"}'>
+      <div class="edition-header">
+        <span class="edition-icon">&#9789;</span>
+        <h2>Evening Briefing</h2>
+      </div>
+      <div class="curated-meta">Friday 15 May 2026 &mdash; 18:15 BST</div>
+      <div class="impact-box">
+        <h3 class="impact-heading">What It Means For You</h3>
+        <ul class="impact-list">
+          <li>UK borrowing costs and sterling reset on the Burnham leadership signal: the ten-year gilt yield closed near 5.14% (highest since 2008), the thirty-year near 5.82% (highest since 1998) and the pound at $1.3325 against the dollar, a five-week low against the dollar. Mortgage and overdraft costs are likely to follow if the political risk premium proves persistent.</li>
+          <li>President Trump warned from Air Force One that his patience with Iran is &ldquo;running out&rdquo; and is weighing whether to lift U.S. sanctions on Chinese refineries buying Iranian crude. Oil prices rose roughly 2% to around $108 a barrel; petrol forecourt prices will track the move with a one-to-two-week lag.</li>
+          <li>The Lebanon ceasefire formally expires on Sunday. The third round of US-mediated Israel-Lebanon talks continues today in Washington; the United States described Thursday&rsquo;s session as &ldquo;productive and positive&rdquo;. If no extension is announced before Sunday, Israeli ground operations in southern Lebanon become procedurally easier and regional escalation risk rises.</li>
+        </ul>
+      </div>
+      <div class="war-day-count">
+        <p><strong>Iran War &mdash; Day 77.</strong> The war started 28 February 2026. The most material development on the war today was President Trump&rsquo;s &ldquo;not going to be much more patient&rdquo; warning to Tehran from Air Force One on the flight back from Beijing, alongside news that he is weighing whether to lift U.S. sanctions on Chinese oil refineries buying Iranian crude. China&rsquo;s foreign ministry said the conflict &ldquo;should never have happened, has no reason to continue&rdquo;, but gave no indication Beijing would actively pressure Tehran. The United Arab Emirates moved to fast-track the West-East pipeline to bypass the Strait of Hormuz by 2027 after the IRGC redefined the strait as a 300-mile &ldquo;vast operational area&rdquo;. The first non-Iranian very large crude carriers since the war began are reaching destinations: Idemitsu Maru, carrying Saudi crude, docks at Nagoya on 25 May.</p>
+      </div>
+      <div class="curated-grid">
+        <div class="curated-column">
+          <h3><span class="dot geo"></span><span class="dot-label">GEO</span> Geopolitical</h3>
+          <div>
+
+            <div class="curated-item" data-time="14:00" data-slug="trump-losing-patience-iran-oil-108">
+              <h4>Trump: &ldquo;Not Going To Be Much More Patient&rdquo; With Iran; Oil to $108</h4>
+              <p>President Trump warned from Air Force One on the flight back from Beijing that his patience with Iran is running out and that Chinese President Xi Jinping had agreed Tehran must reopen the Strait of Hormuz. Trump said he was considering whether to lift U.S. sanctions on Chinese oil refineries buying Iranian oil, telling reporters &ldquo;I&rsquo;m going to make a decision over the next few days&rdquo;. Oil prices rose around 2% to around $108 a barrel on the lack of progress; U.S. Treasury yields hit their highest in around a year.</p>
+              <details class="dive-deeper">
+                <summary>Dive deeper</summary>
+                <div class="deeper-content">Trump&rsquo;s &ldquo;I&rsquo;m not asking for any favors&rdquo; framing on the flight home is the diagnostic gap: Xi gave a public pledge not to send Iran military equipment but Beijing offered no firm commitment to pressure Tehran on Hormuz. China&rsquo;s foreign ministry restricted itself to saying the conflict &ldquo;should never have happened, has no reason to continue&rdquo;, which is rhetorical alignment rather than enforcement. Iran&rsquo;s Foreign Minister Abbas Araqchi said in New Delhi Tehran had received messages from Washington indicating willingness to continue talks, while adding Iran &ldquo;does not trust&rdquo; the United States. The U.S. Treasury yield move is the cleaner financial signal: traders read the &ldquo;cleanup work&rdquo; line as raising the probability of renewed strikes.</div>
+              </details>
+            </div>
+
+            <div class="curated-item" data-time="08:00" data-slug="uae-fast-tracks-pipeline-bypass-hormuz">
+              <h4>UAE Fast-Tracks Pipeline to Double Hormuz-Bypass Export Capacity</h4>
+              <p>Abu Dhabi Crown Prince Sheikh Khaled bin Mohamed bin Zayed directed the Abu Dhabi National Oil Company to fast-track the West-East Pipeline to the Gulf of Oman port of Fujairah, the government&rsquo;s Abu Dhabi Media Office said on Friday. The pipeline will double UAE export capacity that bypasses the Strait of Hormuz and is expected to start operating next year. The acceleration follows the IRGC&rsquo;s 12 May announcement redefining the strait as a 300-mile &ldquo;vast operational area&rdquo; encompassing much of the UAE&rsquo;s Gulf of Oman coastline.</p>
+              <details class="dive-deeper">
+                <summary>Dive deeper</summary>
+                <div class="deeper-content">The existing Habshan-Fujairah pipeline (ADCOP) carries 1.8 million barrels per day; doubling that capacity would put roughly half the UAE&rsquo;s pre-war 3.4 million bpd output outside Iran&rsquo;s reach. The UAE exited OPEC two weeks ago, freeing it of output quotas and signalling that the producer-cartel framework cannot accommodate wartime pressures. The IRGC&rsquo;s 4 May map and 12 May 300-mile redefinition were paired with a drone strike on an ADNOC tanker and a barrage on Fujairah&rsquo;s oil zone &mdash; the UAE foreign ministry called the attacks &ldquo;unacceptable transgression&rdquo; and &ldquo;economic blackmail&rdquo;. Saudi Arabia&rsquo;s East-West pipeline already moves about 60% of pre-war exports.</div>
+              </details>
+            </div>
+
+            <div class="curated-item" data-time="09:00" data-slug="israeli-soldier-killed-hezbollah-mortar">
+              <h4>Israeli Soldier Killed in Lebanon; IDF Strikes 65 Hezbollah Sites</h4>
+              <p>Staff Sergeant Negev Dagan, 20, of the Golani Brigade&rsquo;s 12th Battalion, was killed by Hezbollah mortar fire in southern Lebanon late on Thursday, the IDF announced on Friday morning. He is the nineteenth Israeli soldier killed since 2 March and the sixth since the 16 April truce. The IDF said it struck 65 Hezbollah infrastructure sites and killed more than 20 Hezbollah operatives in the past 24 hours, and issued an &ldquo;urgent&rdquo; evacuation warning for villages near Tyre ahead of further strikes.</p>
+              <details class="dive-deeper">
+                <summary>Dive deeper</summary>
+                <div class="deeper-content">The third round of US-mediated Israel-Lebanon direct talks continues today in Washington; a State Department official cast Thursday&rsquo;s eight-hour session as &ldquo;productive and positive&rdquo;. Both sides have broadened their delegations beyond their Washington ambassadors: Lebanese Presidential Special Envoy Simon Karam and Israel&rsquo;s Deputy National Security Adviser Yossi Draznin lead the new round. The fragile ceasefire expires on Sunday &mdash; without an extension, the architecture lapses and Israeli ground operations in southern Lebanon become procedurally easier. The IDF has procured 158,000 square metres of mesh netting to counter Hezbollah&rsquo;s FPV drones.</div>
+              </details>
+            </div>
+
+            <div class="curated-item" data-time="06:00" data-slug="russia-1600-drones-missiles-kyiv-strike">
+              <h4>Russia Launches 1,600+ Drones, Missiles at Ukraine Over Two Days</h4>
+              <p>Russian forces launched more than 1,600 long-range drones and missiles against Ukraine over the 48 hours to Wednesday evening, the Institute for the Study of War reported. Strikes heavily targeted Kyiv City; a ballistic missile collapsed a nine-storey residential block in the capital, killing at least twelve including a twelve-year-old child and injuring fifty-seven. President Volodymyr Zelensky said Ukrainian forces had downed about 94% of the drones and 73% of the missiles despite the saturation effort.</p>
+              <details class="dive-deeper">
+                <summary>Dive deeper</summary>
+                <div class="deeper-content">The Kyiv strike followed a Ukrainian-respected 9-11 May Victory Day ceasefire during which Ukraine did not strike Moscow&rsquo;s Red Square as agreed. ISW assesses the resumption of large-scale strikes &ldquo;demonstrates that Russia is a bad faith negotiator&rdquo;. Russia is also reportedly falling behind on ballistic-missile production: Ukrainian source Militarnyi reports procurement documents show the Kolomna design bureau received an order for 643 Iskander-M missiles in 2025, while monthly intelligence assessments suggest Russia&rsquo;s stockpile has stayed flat at 200-250. Putin has replaced Belgorod and Bryansk governors in apparent scapegoating of regional officials for border-security failures.</div>
+              </details>
+            </div>
+
+            <div class="curated-item" data-time="13:00" data-slug="first-major-tankers-reach-destinations-hormuz">
+              <h4>First Major Non-Iranian Tankers Begin Reaching Destinations</h4>
+              <p>The Japanese-managed Eneos Endeavor, carrying 1.2 million barrels of Kuwait crude and 700,000 barrels of Emirati Das Blend, exited the Strait of Hormuz on 14 May and is due to arrive in Japan on 3 June, according to LSEG and Kpler data. The Idemitsu Maru, the first very large crude carrier to exit since the war began, will arrive at Nagoya on 25 May with 2 million barrels of Saudi crude. The Chinese-flagged Yuan Hua Hu, with 2 million barrels of Iraqi crude, is expected at Zhoushan on 1 June.</p>
+              <details class="dive-deeper">
+                <summary>Dive deeper</summary>
+                <div class="deeper-content">The transit pattern matters because shipping deliveries, not diplomatic statements, are the cleanest evidence that the wartime blockade is structurally easing. Pre-war the strait handled roughly a fifth of global oil and liquefied natural gas. The list of recent transits spans Japan, the UAE, India, China, Thailand, Malaysia and South Korea, suggesting that Iranian transit clearance has become bilateral and case-by-case rather than blanket. The U.S. Navy redirected the Vietnam-bound Agios Fanourios I as part of its continuing blockade of Iranian ports, which means the easing is one-directional &mdash; outbound non-Iranian crude is moving, inbound Iranian exports remain blocked.</div>
+              </details>
+            </div>
+
+          </div>
+        </div>
+        <div class="curated-column">
+          <h3><span class="dot dom"></span><span class="dot-label">UK</span> UK Domestic Politics</h3>
+          <div>
+
+            <div class="curated-item" data-time="07:00" data-slug="burnham-announces-makerfield-by-election-bid">
+              <h4>Burnham Confirms Makerfield By-Election Bid; NEC to Decide</h4>
+              <p>Greater Manchester Mayor Andy Burnham confirmed on Friday that he will seek the Labour nomination in Makerfield after sitting MP Josh Simons announced he would stand down. Burnham said he would ask Labour&rsquo;s National Executive Committee to allow him to stand, and the Prime Minister has indicated Number 10 will not block him this time, unlike at the Gorton and Denton by-election in February. The earliest the by-election could be held is Thursday 18 June &mdash; the same week as the G7 summit in France.</p>
+              <details class="dive-deeper">
+                <summary>Dive deeper</summary>
+                <div class="deeper-content">Burnham framed his pitch in a statement on Friday: &ldquo;This is why I now seek people&rsquo;s support to return to parliament: to bring the change we have brought to Greater Manchester to the whole of the UK and make politics work properly for people.&rdquo; The constituency is a notional safe Labour seat &mdash; Simons won by 5,399 votes in 2024 &mdash; but Reform UK swept all nine Wigan council seats contested in the constituency last week. Polling expert Sir John Curtice told Politico Labour would have &ldquo;less than 5% chance&rdquo; in Makerfield &ldquo;if it were anyone other than Andy Burnham&rdquo;. Burnham does not have to resign as mayor unless he wins.</div>
+              </details>
+            </div>
+
+            <div class="curated-item" data-time="14:00" data-slug="gilts-1998-high-sterling-burnham-risk-premium">
+              <h4>Gilts Hit 1998 High; Sterling at $1.33 as Burnham Bid Drives Risk</h4>
+              <p>The ten-year UK gilt yield reached 5.14% on Friday morning &mdash; the highest since 2008 &mdash; and the thirty-year yield was back at 5.82%, last seen in 1998, after Burnham&rsquo;s leadership move clarified, according to Morningstar. Sterling weakened to $1.3325 against the dollar, a five-week low, after starting the week at $1.36. Matthew Ryan, head of market strategy at Ebury, told Morningstar: &ldquo;GBP and gilts are unlikely to react favourably given Burnham&rsquo;s recent remarks that the government should not be beholden to the bond market.&rdquo;</p>
+              <details class="dive-deeper">
+                <summary>Dive deeper</summary>
+                <div class="deeper-content">Neil Mehta, macro portfolio manager at RBC BlueBay, told Morningstar that the Prime Minister&rsquo;s &ldquo;days are numbered&rdquo;, adding: &ldquo;The next Labour leader will come from the left side of the Party and against a backdrop of uncertainty, UK financial assets and Sterling seem likely to be subjected to an elevated political risk premium for an extended period.&rdquo; The 10-year gilt began the week at 4.87%; Friday&rsquo;s level represents a 27-basis-point widening across five sessions. The structural concern is that the next Chancellor inherits a debt-service burden built on the assumption of falling yields. The Bank of England&rsquo;s pension-fund stress facility remains dormant in pre-activation contingency.</div>
+              </details>
+            </div>
+
+            <div class="curated-item" data-time="12:00" data-slug="yougov-burnham-only-net-positive-favourability">
+              <h4>YouGov: Burnham Only Senior Politician With Positive Favourability</h4>
+              <p>Andy Burnham is the only senior politician without a negative net favourability score in YouGov&rsquo;s May tracker, with a net rating of +4 across the British public, according to fieldwork conducted on 12-13 May. Among 2024 Labour voters, Burnham&rsquo;s net favourability is +41, far ahead of Angela Rayner (+13), Yvette Cooper (+12) and Ed Miliband (+7). Sir Keir Starmer&rsquo;s net favourability remains at -46, with Chancellor Rachel Reeves on -51, the lowest of any frontbench figure polled.</p>
+              <details class="dive-deeper">
+                <summary>Dive deeper</summary>
+                <div class="deeper-content">Burnham holds positive net favourability among 2024 Liberal Democrat (+24) and Green (+18) voters too &mdash; the only senior Labour figure with cross-party reach. Kemi Badenoch&rsquo;s -17 score is her highest to date and the highest for any Conservative leader since June 2021, a reminder that the Opposition leader is in modest recovery even as Labour deteriorates. Wes Streeting&rsquo;s net rating fell eight points to -28 in the month before he resigned. YouGov&rsquo;s 10-11 May voting intention reads Reform UK 28%, Conservatives 17%, Greens 16%, Labour 16%, Liberal Democrats 13% &mdash; consistent with a four-way fragmented opposition rather than a clean Reform path.</div>
+              </details>
+            </div>
+
+            <div class="curated-item" data-time="15:00" data-slug="greens-contest-makerfield-complicate-burnham">
+              <h4>Greens to Contest Makerfield, Complicating Burnham&rsquo;s Path</h4>
+              <p>The Green Party announced on Friday it has begun selecting a candidate for the Makerfield by-election, ending speculation it would stand aside to avoid splitting the anti-Reform vote. Former Green leader Caroline Lucas publicly dissented on X: &ldquo;There are times when it&rsquo;s more important to put country before party. This is one of them.&rdquo; Reform UK deputy leader Richard Tice told the BBC the party would &ldquo;make Burnham history&rdquo; and was &ldquo;throwing everything possible&rdquo; at the contest, which sits 29th on Reform&rsquo;s target list.</p>
+              <details class="dive-deeper">
+                <summary>Dive deeper</summary>
+                <div class="deeper-content">The Greens overturned a 13,000 Labour majority in Gorton and Denton in February under Zack Polanski&rsquo;s leadership, so the prospect of a serious Green campaign in Makerfield is materially different from the 2024 baseline, when the Greens came fifth. Reform needs a swing of just over 6.7% to take the seat; in last week&rsquo;s local elections, Reform pulled in roughly 50% of the local vote share to Labour&rsquo;s 27%, with the Greens at 10%. The Greens are highly decentralised, meaning the local Makerfield party will make the final candidate-selection decision regardless of the national leadership&rsquo;s view. A serious three-way split between Labour, Reform and the Greens makes Burnham&rsquo;s personal vote the decisive variable.</div>
+              </details>
+            </div>
+
+            <div class="curated-item" data-time="11:00" data-slug="labour-leadership-mechanics-streeting-backs-burnham">
+              <h4>Labour Mechanics: 81-MP Threshold; Streeting Backs Burnham</h4>
+              <p>Under Labour&rsquo;s rules, a leadership challenger needs the formal support of 81 MPs &mdash; one fifth of the parliamentary Labour Party &mdash; to trigger a contest, the Associated Press reported. Around 80 Labour MPs have publicly demanded the Prime Minister&rsquo;s departure but the signatures have not been submitted in coordinated form. Former Health Secretary Wes Streeting, who resigned on Thursday, publicly backed Burnham, saying Labour needs &ldquo;our best players on the pitch&rdquo;. Outgoing Makerfield MP Josh Simons told BBC Radio Manchester the party had been &ldquo;imploding&rdquo;.</p>
+              <details class="dive-deeper">
+                <summary>Dive deeper</summary>
+                <div class="deeper-content">Simons told the BBC his decision to stand aside was the &ldquo;most difficult of my life&rdquo; and was framed in family terms with his three-week-old son. &ldquo;We were heading for a leadership election with the Labour Party split into different factions, and there was no hope, no energy that anything would change,&rdquo; he said, adding Makerfield was &ldquo;where Andy Burnham has lived for 25 years&rdquo;. The Streeting-Burnham realignment is the consequential development: Streeting backing the candidate of the soft left, rather than positioning as a rival from the right, materially simplifies the candidate field if a contest opens. Deputy Prime Minister David Lammy is the most likely interim leader if the Prime Minister resigns ahead of a contest.</div>
+              </details>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="change-diff"><span class="diff-arrow">&circlearrowright;</span> Burnham &mdash; &ldquo;considering&rdquo; Westminster return &rarr; formally seeking Labour nomination in Makerfield</div>
+      <div class="change-diff"><span class="diff-arrow">&circlearrowright;</span> 30-year gilt yield &mdash; 5.70% Thursday close &rarr; 5.82%, highest since 1998</div>
+      <div class="change-diff"><span class="diff-arrow">&circlearrowround;</span> Lebanon &mdash; 18 Israeli soldiers killed since 2 March &rarr; 19, with Staff Sgt. Negev Dagan named</div>
+
+      <div class="one-to-read">
+        <span class="otr-label">One To Read</span>
+        <a href="https://global.morningstar.com/en-gb/bonds/sterling-bonds-slide-prospect-andy-burnham-leadership-bid" target="_blank" rel="noopener noreferrer">
+          <h4>Sterling and Bonds Slide on Prospect of Andy Burnham Leadership Bid</h4>
+          <span class="otr-source">Morningstar</span>
+          <span class="otr-dot">&middot;</span>
+          <span class="otr-desc">The clearest single account of Friday&rsquo;s market reset: ten-year gilt to 5.14% (highest since 2008), thirty-year back to 1998&rsquo;s 5.82%, sterling weakening to $1.33 from $1.36 at week-start. Includes the &ldquo;days are numbered&rdquo; framing from RBC BlueBay and Ebury&rsquo;s warning that &ldquo;the wheels could come off fast&rdquo; if cabinet resignations widen.</span>
+        </a>
+      </div>
+      <!-- SOURCES USED
+      - https://www.reuters.com/world/china/trump-says-he-chinas-xi-agree-iran-cannot-have-nuclear-weapons-2026-05-15/ &mdash; Trump &ldquo;not going to be much more patient&rdquo; quote, &ldquo;not asking for any favors&rdquo; quote, &ldquo;cleanup work&rdquo; framing, oil $108, U.S. Treasury yields highest in around a year, Araqchi &ldquo;does not trust&rdquo; framing, China foreign ministry &ldquo;should never have happened&rdquo; line, Xi no-military-equipment pledge
+      - https://www.reuters.com/business/energy/uae-accelerate-oil-pipeline-project-help-bypass-hormuz-2026-05-15/ &mdash; Sheikh Khaled directs ADNOC fast-track West-East Pipeline; IRGC 300-mile redefinition; UAE OPEC exit two weeks ago; ADCOP 1.8 mbpd
+      - https://www.reuters.com/business/energy/oil-tankers-transiting-strait-hormuz-since-start-iran-war-2026-05-15/ &mdash; Eneos Endeavor exit + Japan arrival 3 June; Idemitsu Maru Saudi crude Nagoya 25 May; Yuan Hua Hu Zhoushan 1 June; U.S. Navy redirect of Agios Fanourios I
+      - https://www.reuters.com/world/middle-east/lebanon-press-israel-cease-fire-washington-talks-lebanese-official-says-2026-05-14/ &mdash; State Department &ldquo;productive and positive&rdquo; framing; ceasefire Sunday expiry; Karam + Draznin participants
+      - https://www.timesofisrael.com/soldier-killed-by-hezbollah-mortar-shell-in-south-lebanon-rocket-fired-at-north/ &mdash; Staff Sgt. Negev Dagan named; nineteenth Israeli soldier KIA; 65 Hezbollah sites + 20 operatives killed in 24 hours; 158,000 sq m mesh netting; Tyre evacuation warning
+      - https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-may-14-2026/ &mdash; 1,600+ drone/missile total, Kyiv 9-storey collapse 12 killed inc 12yo + 57 injured, Zelensky 94%/73% intercept rates, ISW &ldquo;bad faith negotiator&rdquo; framing, Iskander-M production figures
+      - https://www.bbc.co.uk/news/articles/cyv26e7yd89o &mdash; Burnham Makerfield bid, 18 June earliest by-election, Curtice &ldquo;less than 5% chance&rdquo;, Tice &ldquo;make Burnham history&rdquo; + &ldquo;throwing everything possible&rdquo;, Reform 29th target / 6.7% swing
+      - https://www.bbc.co.uk/news/articles/cvgz04drwxko &mdash; Simons &ldquo;imploding&rdquo;, &ldquo;most difficult decision of my life&rdquo;, &ldquo;Burnham has lived for 25 years&rdquo;, three-week-old son
+      - https://www.theguardian.com/politics/2026/may/15/greens-properly-contest-byelection-makerfield-burnham &mdash; Greens contesting Makerfield, Caroline Lucas dissent quote, Burnham &ldquo;This is why I now seek people&rsquo;s support&rdquo; statement, Reform won all 9 Wigan council seats
+      - https://global.morningstar.com/en-gb/bonds/sterling-bonds-slide-prospect-andy-burnham-leadership-bid &mdash; 10-year gilt 5.14% (2008 high), 30-year 5.82% (1998 high), GBP $1.33 (vs $1.36 week start), Matthew Ryan + Neil Mehta quotes, &ldquo;days are numbered&rdquo; framing
+      - https://yougov.com/en-gb/articles/54772-political-favourability-ratings-may-2026 &mdash; Burnham net +4 / +41 among Labour voters / +24 Lib Dems / +18 Greens; Starmer -46; Reeves -51; Streeting -28; YouGov 10-11 May voting intention Reform 28% Con 17% Grn 16% Lab 16% LD 13%
+      - https://apnews.com/article/britain-starmer-leadership-elections-labour-993df93f36916fafa62cdc8435127ff4 &mdash; 81-MP threshold mechanics, Lammy as likely interim, 80 already publicly calling for Starmer departure
+      END SOURCES USED -->
+    </div><!-- ── END EVENING 15 MAY (18:15) ── -->
 
     <!-- ── MORNING 15 MAY (08:29) ── -->
     <div class="curated-edition morning" data-date="2026-05-15" data-time="08:29" data-markets='{"FTSE":{"price":8254,"change":-0.94},"SP":{"price":5262,"change":-0.38},"Brent":{"price":105.63,"change":-2.00},"GBP":{"price":1.2907,"change":-0.50},"Gold":{"price":4865,"change":0.68},"EURGBP":{"price":0.8909,"change":0.32},"Gilt":{"price":5.028,"change":-1.66},"VIX":{"price":31.85,"change":0.00},"BTC":{"price":79480,"change":-0.80},"UST":{"price":4.40,"change":0.92},"ts":"2026-05-15T08:29:00+01:00"}'>
@@ -5595,6 +5748,16 @@ function escHtml(str) {
   return d.innerHTML;
 }
 
+// Decode named/numeric HTML entities (&mdash;, &amp;, &#39; …) in source
+// data before display. Uses <textarea> so any tags in the input are NOT
+// parsed as HTML — entity-decode only, no element execution.
+function decodeEntities(str) {
+  if (!str) return '';
+  const t = document.createElement('textarea');
+  t.innerHTML = String(str);
+  return t.value;
+}
+
 function stripHtml(html) {
   const d = document.createElement('div');
   d.innerHTML = html;
@@ -5659,7 +5822,7 @@ function renderSection(articles, accentClass, feeds) {
     html += `
       <a class="top-card" href="${escHtml(a.link)}" target="_blank" rel="noopener noreferrer">
         <span class="card-source ${accentClass}">${escHtml(a.source)}</span>
-        <h3>${escHtml(a.title)}</h3>
+        <h3>${escHtml(decodeEntities(a.title))}</h3>
         <p>${escHtml(a.description)}</p>
         <div class="card-time">${timeAgo(a.pubDate)}</div>
       </a>`;
@@ -5677,7 +5840,7 @@ function renderSection(articles, accentClass, feeds) {
         <a class="also-item" href="${escHtml(a.link)}" target="_blank" rel="noopener noreferrer">
           <span class="also-source ${accentClass}">${escHtml(a.source)}</span>
           <div>
-            <h4>${escHtml(a.title)}</h4>
+            <h4>${escHtml(decodeEntities(a.title))}</h4>
             <div class="also-time">${timeAgo(a.pubDate)}</div>
           </div>
         </a>`;
@@ -5690,7 +5853,7 @@ function renderSection(articles, accentClass, feeds) {
           <a class="also-item" href="${escHtml(a.link)}" target="_blank" rel="noopener noreferrer">
             <span class="also-source ${accentClass}">${escHtml(a.source)}</span>
             <div>
-              <h4>${escHtml(a.title)}</h4>
+              <h4>${escHtml(decodeEntities(a.title))}</h4>
               <div class="also-time">${timeAgo(a.pubDate)}</div>
             </div>
           </a>`;
@@ -5808,10 +5971,12 @@ if ('serviceWorker' in navigator) {
   function displayText(s) { return s.headline || s.text || ''; }
   // Wrap text in scrolling inner span for mobile
   function setBreakingText(text) {
+    const decoded = decodeEntities(text);
     if (window.innerWidth <= 600) {
-      breakingTextEl.innerHTML = '<span class="breaking-text-inner" data-text="' + text.replace(/"/g, '&quot;') + '">' + text + '</span>';
+      const safe = decoded.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+      breakingTextEl.innerHTML = '<span class="breaking-text-inner" data-text="' + safe.replace(/"/g, '&quot;') + '">' + safe + '</span>';
     } else {
-      breakingTextEl.textContent = text;
+      breakingTextEl.textContent = decoded;
     }
   }
   // Helper: dismiss key
