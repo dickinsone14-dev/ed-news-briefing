@@ -125,7 +125,7 @@ VETOED FEATURES — DO NOT ADD ANY OF THESE:
 PRUNING, MARKETS, BREAKING, COMMIT
 ═══════════════════════════════════════════════════════════════
 
-8. **Prune.** Remove any curated-edition divs where data-date is before {{SEVEN_DAYS_AGO}}. The site MUST show 7 full days of past editions plus today.
+8. **Prune (AUTOMATIC, NEVER SKIP).** Remove any curated-edition divs where data-date is before {{SEVEN_DAYS_AGO}}. The site MUST show 7 full days of past editions plus today. This is not optional and is not something to flag to the user — it happens silently as part of every briefing run. If the validator emits a warning about editions older than the rolling window, your brief is not done until those editions have been deleted.
 
 9. **Update embedded markets.** Find the `<script id="embedded-markets" type="application/json">` tag and replace its JSON content with the same fresh data used in the new edition's data-markets attribute. Same sourcing rule: numbers must come from retrieved articles, not extrapolation.
 
