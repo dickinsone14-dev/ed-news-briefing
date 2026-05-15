@@ -335,6 +335,66 @@ def main() -> int:
     else:
         ok("No vetoed feature markers found")
 
+    # 10. Every curated-item must have data-slug (used for per-URL pages)
+    item_opens = re.findall(
+        r'<div\s+class="curated-item"[^>]*>',
+        html,
+    )
+    items_without_slug = [t for t in item_opens if "data-slug=" not in t]
+    if items_without_slug:
+        fail(
+            f"{len(items_without_slug)} curated-item(s) missing data-slug. "
+            f"Run `python3 scripts/add-slugs.py` to backfill, or add the "
+            f"attribute manually. data-slug drives per-headline deep-link URLs."
+        )
+        # Show one example for debugging
+        example = items_without_slug[0]
+        print(f"      Example: {example[:120]}", file=sys.stderr)
+        errors += 1
+    else:
+        ok(f"All {len(item_opens)} curated-items have data-slug")
+
+    # 11. Slug uniqueness within each edition
+    # Parse each edition and check no two items share a slug
+    ed_blocks = re.finditer(
+        r'<div\s+class="curated-edition\s+(?:morning|evening)"\s+'
+        r'data-date="(\d{4}-\d{2}-\d{2})"\s+data-time="(\d{2}:\d{2})"',
+        html,
+    )
+    slug_conflicts = []
+    for em in ed_blocks:
+        # Get block by simple depth count
+        start = em.end()
+        depth = 1
+        end = -1
+        for nm in re.finditer(r"<div\b|</div>", html[start:]):
+            tok = nm.group(0).lower()
+            if tok == "</div>":
+                depth -= 1
+                if depth == 0:
+                    end = start + nm.end()
+                    break
+            else:
+                depth += 1
+        if end < 0:
+            continue
+        block = html[start:end]
+        slugs_in_ed = re.findall(r'data-slug="([^"]+)"', block)
+        seen = {}
+        for s in slugs_in_ed:
+            if s in seen:
+                slug_conflicts.append((em.group(1), em.group(2), s))
+            seen[s] = True
+    if slug_conflicts:
+        for d, t, s in slug_conflicts:
+            fail(
+                f"Duplicate data-slug '{s}' within edition {d} {t}. "
+                f"Slugs must be unique within an edition."
+            )
+        errors += len(slug_conflicts)
+    else:
+        ok("All data-slugs are unique within their edition")
+
     if errors:
         print(f"\n\033[31mFAILED with {errors} error(s).\033[0m", file=sys.stderr)
         return 1
