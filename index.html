@@ -5582,6 +5582,16 @@ function escHtml(str) {
   return d.innerHTML;
 }
 
+// Decode named/numeric HTML entities (&mdash;, &amp;, &#39; …) in source
+// data before display. Uses <textarea> so any tags in the input are NOT
+// parsed as HTML — entity-decode only, no element execution.
+function decodeEntities(str) {
+  if (!str) return '';
+  const t = document.createElement('textarea');
+  t.innerHTML = String(str);
+  return t.value;
+}
+
 function stripHtml(html) {
   const d = document.createElement('div');
   d.innerHTML = html;
@@ -5646,7 +5656,7 @@ function renderSection(articles, accentClass, feeds) {
     html += `
       <a class="top-card" href="${escHtml(a.link)}" target="_blank" rel="noopener noreferrer">
         <span class="card-source ${accentClass}">${escHtml(a.source)}</span>
-        <h3>${escHtml(a.title)}</h3>
+        <h3>${escHtml(decodeEntities(a.title))}</h3>
         <p>${escHtml(a.description)}</p>
         <div class="card-time">${timeAgo(a.pubDate)}</div>
       </a>`;
@@ -5664,7 +5674,7 @@ function renderSection(articles, accentClass, feeds) {
         <a class="also-item" href="${escHtml(a.link)}" target="_blank" rel="noopener noreferrer">
           <span class="also-source ${accentClass}">${escHtml(a.source)}</span>
           <div>
-            <h4>${escHtml(a.title)}</h4>
+            <h4>${escHtml(decodeEntities(a.title))}</h4>
             <div class="also-time">${timeAgo(a.pubDate)}</div>
           </div>
         </a>`;
@@ -5677,7 +5687,7 @@ function renderSection(articles, accentClass, feeds) {
           <a class="also-item" href="${escHtml(a.link)}" target="_blank" rel="noopener noreferrer">
             <span class="also-source ${accentClass}">${escHtml(a.source)}</span>
             <div>
-              <h4>${escHtml(a.title)}</h4>
+              <h4>${escHtml(decodeEntities(a.title))}</h4>
               <div class="also-time">${timeAgo(a.pubDate)}</div>
             </div>
           </a>`;
@@ -5795,10 +5805,12 @@ if ('serviceWorker' in navigator) {
   function displayText(s) { return s.headline || s.text || ''; }
   // Wrap text in scrolling inner span for mobile
   function setBreakingText(text) {
+    const decoded = decodeEntities(text);
     if (window.innerWidth <= 600) {
-      breakingTextEl.innerHTML = '<span class="breaking-text-inner" data-text="' + text.replace(/"/g, '&quot;') + '">' + text + '</span>';
+      const safe = decoded.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+      breakingTextEl.innerHTML = '<span class="breaking-text-inner" data-text="' + safe.replace(/"/g, '&quot;') + '">' + safe + '</span>';
     } else {
-      breakingTextEl.textContent = text;
+      breakingTextEl.textContent = decoded;
     }
   }
   // Helper: dismiss key
