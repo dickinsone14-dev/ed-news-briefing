@@ -34,12 +34,24 @@ The brief's credibility depends on every specific claim being traceable to appro
 The rules that follow are how you prevent the failure mode.
 
 **Rule 1 — What counts as a valid source.**
-- Best: an article retrieved via WebFetch from an approved domain.
+- Best: a full article retrieved via either the Firecrawl MCP (`mcp__firecrawl__firecrawl_scrape`) or WebFetch from an approved domain.
 - Acceptable: a search-engine snippet that quotes article text directly from an approved domain (the snippet must contain the underlying article's words, not the search engine's paraphrase of them).
 - Strongest: cross-referenced agreement across two or more approved sources.
 - Not acceptable: search-engine summary paragraphs that paraphrase or aggregate; "plausible-sounding" details with no underlying article; carry-forward from yesterday without re-verification; rescaling yesterday's close to fake today's intraday.
 
 If you only have a search-engine paraphrase (not direct article text), treat as a lead — search for a sibling article that quotes the underlying fact more directly, or omit.
+
+**Scrape-tool selection (operationally important).** Different outlets work with different retrieval tools. Use the right one first:
+
+| Outlet pattern | Primary tool | Notes |
+|---|---|---|
+| reuters.com, apnews.com, thetimes.com, thetimes.co.uk | **Firecrawl** (`mcp__firecrawl__firecrawl_scrape`) | WebFetch returns 403 on these. Firecrawl returns full article text including direct quotes. |
+| wsj.com | **Firecrawl** | Returns the lead and first 2-3 paragraphs (paywall after) — usually enough for headline facts. |
+| aljazeera.com, cnbc.com, timesofisrael.com, cnn.com / edition.cnn.com, npr.org | **WebFetch** | Generally reliable; faster than Firecrawl. Fall back to Firecrawl if 403. |
+| bloomberg.com, ft.com, telegraph.co.uk, nytimes.com | **Search snippets only** | All three currently paywalled / blocked from both Firecrawl and WebFetch. Use direct-text search snippets per Tier 2 of this rule, or skip. |
+| Think tanks, government sites, institutions (chathamhouse.org, iea.org, niesr.ac.uk, ecfr.eu, atlanticcouncil.org, crisisgroup.org, bankofengland.co.uk, gov.uk etc.) | **WebFetch** first, Firecrawl fallback | These usually allow WebFetch. |
+
+When in doubt: try Firecrawl. It works on more domains than WebFetch and returns cleaner content. Treat a 403 from one tool as a signal to try the other before falling back to search snippets.
 
 **Rule 2 — Cache what informed the brief.** Before writing any brief content, create the directory `{{BRIEFING_DIR}}/cache/{{TODAY}}/` and save the source material that informed each major claim. Save successfully-fetched WebFetch articles in full. Save the key direct-text search snippets as their own files (with `URL: <source-url>` as the first line and `(Search snippet content — full article 403'd on direct fetch; <outlet>'s own reporting language)` as the second line). Use the URL slug as the filename (e.g. `aljazeera-uks-keir-starmer-faces-likely-challenge.txt`). The pre-commit hook will check that any specific claim in the brief appears in at least one cached file.
 
@@ -98,7 +110,7 @@ ORDER OF OPERATIONS
 
 1. **Research.** Search the web for today's top geopolitical news (Iran/Middle East, Ukraine-Russia, head-of-state diplomacy, market shocks) AND today's top UK domestic politics — using ONLY outlets on SOURCES.md.
 
-2. **Retrieve.** For each lead, attempt to WebFetch the full article. Save each successful fetch to `{{BRIEFING_DIR}}/cache/{{TODAY}}/<slug>.txt`. If a fetch returns 403/404/redirects/truncation, fall back to the search-engine snippet — but only if that snippet quotes article text directly (not a search-engine summary). Save direct-text snippets to the same cache directory with a header noting they are snippet-sourced.
+2. **Retrieve.** For each lead, fetch the full article using the right tool for the domain — see the **Scrape-tool selection** table under Rule 1. Use Firecrawl (`mcp__firecrawl__firecrawl_scrape`) as primary for Reuters, AP, Times of London and WSJ; WebFetch as primary for Al Jazeera, CNBC, Times of Israel, CNN, NPR; try the other tool as fallback before treating as failed. Save each successful fetch to `{{BRIEFING_DIR}}/cache/{{TODAY}}/<slug>.txt`. If both tools return 403/404/redirects/truncation, fall back to the search-engine snippet — but only if that snippet quotes article text directly (not a search-engine summary). Save direct-text snippets to the same cache directory with a header noting they are snippet-sourced.
 
 3. **Anchor-stories pre-check.** Write `{{BRIEFING_DIR}}/cache/{{TODAY}}/anchor-stories-{{EDITION}}.txt` listing the top 5 stories you would expect to lead with. If any major story you should have covered isn't in your retrievals, go back to step 1 and search again.
 
