@@ -67,6 +67,23 @@ This is the audit trail. The validator will parse it.
 
 **Rule 10 — Source breadth.** Each edition must draw information from **at least 10 distinct approved-source outlets** across its 10 curated-items, tracked in the SOURCES USED appendix. The goal is a more complete picture of each story, not more text — paraphrase is fine, sources do not need to be cited inline, and the **writing style stays the same** (authoritative, measured British English; no &ldquo;per Bloomberg&rdquo;-style attribution littered through the prose). What changes is research breadth, not prose. If your retrievals at the anchor-stories stage produce fewer than 10 outlets, search wider before drafting. Outlet variety is itself a quality signal &mdash; a brief that quietly draws on Reuters, AP, Al Jazeera, Bloomberg, CNBC, Times of Israel, the IAEA, the IEA, Chatham House and RUSI is structurally more complete than one that triples-down on two outlets.
 
+**Rule 11 — Topic-triggered specialist checklist.** Specialist outlets exist on `SOURCES.md` because they are the canonical primary or analytic source for their topic. Bypassing them when their topic is in scope is structural under-sourcing. Before drafting, identify which themes the brief covers and consult the matching specialist outlets. Include at least one outlet from each triggered theme in the SOURCES USED appendix wherever the story content reasonably permits.
+
+| Theme triggered by the brief | Outlets to consult |
+|---|---|
+| Energy / oil / Hormuz | iea.org, eia.gov, opec.org |
+| UK fiscal / monetary policy | bankofengland.co.uk, obr.uk, ifs.org.uk, niesr.ac.uk, nao.org.uk, resolutionfoundation.org, hmrc.gov.uk, ons.gov.uk |
+| Nuclear / IAEA proceedings | iaea.org, bellingcat.com |
+| UK polling / electoral data | yougov.com, opinium.com, ipsos.com, moreincommon.com, survation.com, electoralcalculus.co.uk |
+| Military operations / defence | janes.com, understandingwar.org, rusi.org, bellingcat.com, defensenews.com |
+| EU / foreign-policy analysis | ecfr.eu, chathamhouse.org, atlanticcouncil.org, carnegieendowment.org, crisisgroup.org |
+| International institutions / multilateral diplomacy | imf.org, worldbank.org, oecd.org, nato.int, ecb.europa.eu, consilium.europa.eu |
+| European national coverage | lemonde.fr (FR), faz.net (DE), elpais.com (ES), irishtimes.com (IE) |
+| Health / NHS clinical data | bma.org.uk |
+| Cost of living / food poverty / motoring | trusselltrust.org.uk, theaa.com, rac.co.uk |
+
+**Rule 12 — Rotate, don&rsquo;t recycle.** Before drafting, scan the SOURCES USED appendices of the last 3-5 published editions in `index.html`. Identify the outlets that appeared in three or more of those editions (typically Al Jazeera, CNBC, Bloomberg, Times of Israel — the "habitual" outlets). For today's brief, deliberately favour outlets that have appeared in zero or one of the last 3-5 editions where the story content permits. Habitual outlets are still allowed; they must not dominate. The goal is genuine rotation through the 97-outlet pool over time, not just diversity within a single edition. Habit is the failure mode &mdash; if today's brief draws from the same 10 outlets as yesterday's, the rotation is broken even if Rule 10 is technically satisfied.
+
 ═══════════════════════════════════════════════════════════════
 STRUCTURE (NON-NEGOTIABLE)
 ═══════════════════════════════════════════════════════════════
