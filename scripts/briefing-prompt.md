@@ -166,8 +166,8 @@ PRUNING, MARKETS, BREAKING, COMMIT
 
 12. **Validate.** Run `cd {{BRIEFING_DIR}} && python3 scripts/validate-index.py`. It must pass before the commit. The validator checks: div balance inside #all-editions, embedded-markets JSON, all data-markets attributes, edition open/close counts, banned domains, breaking-news JSON completeness, hyperlinks against the SOURCES.md allow-list, absence of vetoed feature markers, and (when extended) sources-used appendix presence + fact-trace coverage.
 
-13. **Regenerate deep-link pages and sitemap.** Run `cd {{BRIEFING_DIR}} && python3 scripts/build-deeplink-pages.py && python3 scripts/build-sitemap.py`. This regenerates the static `/briefings/YYYY-MM-DD-{edition}/index.html` and per-headline pages for SEO, and refreshes `sitemap.xml` so Google can crawl them. Required after any edition is added or pruned.
+13. **Regenerate deep-link pages and sitemaps.** Run `cd {{BRIEFING_DIR}} && python3 scripts/build-deeplink-pages.py && python3 scripts/build-sitemap.py && python3 scripts/build-news-sitemap.py`. This regenerates the static `/briefings/YYYY-MM-DD-{edition}/index.html` and per-headline pages for SEO, refreshes `sitemap.xml` (full list of URLs), and refreshes `news-sitemap.xml` (Google News sitemap with only articles from the last 48 hours). Required after any edition is added or pruned.
 
-14. **Commit.** `git add index.html sw.js cache/{{TODAY}}/ briefings/ sitemap.xml`, commit with message `Update {{EDITION}} briefing — {{DATE_DISPLAY}}`, then run: `git push origin main && git push org main`.
+14. **Commit.** `git add index.html sw.js cache/{{TODAY}}/ briefings/ sitemap.xml news-sitemap.xml`, commit with message `Update {{EDITION}} briefing — {{DATE_DISPLAY}}`, then run: `git push origin main && git push org main`.
 
 Do NOT change the live RSS feed section, styling, JavaScript, or any other part of the page. Only add the new edition, remove old ones, update embedded-markets, update breaking stories JSON, write the cache files, and regenerate the per-URL pages + sitemap.
