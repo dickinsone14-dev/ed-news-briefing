@@ -1130,8 +1130,9 @@
     }
     .breaking-text {
       font-family: var(--sans); font-size: 14px; font-weight: 500; line-height: 1.4; flex: 1;
+      min-width: 0;
       cursor: pointer; transition: opacity 0.2s;
-      overflow: hidden;
+      white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
     }
     .breaking-text:hover { opacity: 0.85; }
     /* Mobile: scroll the headline text in a loop */
