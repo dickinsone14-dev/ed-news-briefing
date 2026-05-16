@@ -49,6 +49,8 @@ VETOED_MARKERS = [
     ("search-overlay", "search feature"),
     ("search-toggle", "search feature"),
     ("data-search-trigger", "search feature"),
+    ('class="change-diff"', '"What Changed Today" diff (vetoed 2026-05-16)'),
+    ('class="diff-arrow"', '"What Changed Today" diff (vetoed 2026-05-16)'),
 ]
 
 

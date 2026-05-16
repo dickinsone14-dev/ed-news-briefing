@@ -143,12 +143,11 @@ ADDITIONAL CONTENT FEATURES
 
 **FEATURE C: 'One To Read' recommendation** — At the END of the edition div (after curated-grid, before the sources-used comment), add a one-to-read div. Pick a genuinely excellent long-form article from an outlet on SOURCES.md that you successfully fetched. The href MUST be a full URL to the specific article — NEVER a homepage URL.
 
-**FEATURE D: 'What Changed Today' diffs (EVENING ONLY)** — Maximum 2-3 items with the most significant developments. Each diff must be ONE short line (under 20 words). Format: `<div class="change-diff"><span class="diff-arrow">&circlearrowright;</span> Before &rarr; After</div>`.
-
 **FEATURE E: PMQs Summary (WEDNESDAY EVENING ONLY)** — If today is a Wednesday and this is the evening edition, add a PMQs summary section. Only if Parliament is sitting — skip if in recess.
 
 VETOED FEATURES — DO NOT ADD ANY OF THESE:
 - Do NOT add a refFiguresBar or any UK statistics bar (Base Rate, CPI, Unemployment, GDP)
+- Do NOT add `change-diff` &ldquo;What Changed Today&rdquo; lines &mdash; the former Feature D is vetoed (Ed 2026-05-16: visually attached to the last headline and confusing). No <div class="change-diff"> elements in any edition.
 - Do NOT add a search feature
 - Do NOT add per-edition market strips below edition headers
 
