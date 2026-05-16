@@ -2,6 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-16-evening/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-16T18:30:00+01:00</news:publication_date>
+      <news:title>Evening Briefing — Saturday 16 May 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-16-evening/idf-strikes-hezbollah-first-time-since-ceasefire-extension/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-16T18:30:00+01:00</news:publication_date>
+      <news:title>IDF Strikes Hezbollah for First Time Since Ceasefire Extension</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-16-evening/us-israel-prep-renew-iran-war-next-week/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-16T18:30:00+01:00</news:publication_date>
+      <news:title>US and Israel Prepping to Renew Iran War Next Week, NYT Reports</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-16-evening/hamas-al-haddad-killed-gaza-strike/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-16T18:30:00+01:00</news:publication_date>
+      <news:title>Hamas Military-Wing Leader Al-Haddad Killed in Gaza Strike</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-16-evening/isw-iran-demands-guarantees-against-future-strikes/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-16T18:30:00+01:00</news:publication_date>
+      <news:title>ISW: Iran Demands Guarantees Against Future Strikes; CENTCOM Redirects 75 Ships</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-16-evening/lebanon-civilian-toll-2969-since-2-march/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-16T18:30:00+01:00</news:publication_date>
+      <news:title>Lebanon Civilian Toll Rises to 2,969 Killed, 9,112 Wounded Since March</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-16-evening/streeting-will-stand-leadership-contest/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-16T18:30:00+01:00</news:publication_date>
+      <news:title>Streeting: “I Will Be Standing” in Any Labour Leadership Contest</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-16-evening/times-raynernomics-burnham-business-fear/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-16T18:30:00+01:00</news:publication_date>
+      <news:title>Sunday Times: Business Fears “Raynernomics” Under Burnham</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-16-evening/guardian-starmer-interim-leader-week-analysis/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-16T18:30:00+01:00</news:publication_date>
+      <news:title>Guardian Analysis: Starmer Now Looks Like an “Interim Leader”</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-16-evening/cnbc-eurasia-starmer-80-percent-ousted-this-year/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-16T18:30:00+01:00</news:publication_date>
+      <news:title>CNBC/Eurasia: 80% Probability Starmer Ousted This Year</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-16-evening/reuters-burnham-tricky-test-makerfield-voters/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-16T18:30:00+01:00</news:publication_date>
+      <news:title>Reuters in Makerfield: Voters Split Between Burnham and Reform</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-05-16-morning/</loc>
     <news:news>
       <news:publication>
@@ -362,248 +483,6 @@
       </news:publication>
       <news:publication_date>2026-05-15T08:29:00+01:00</news:publication_date>
       <news:title>Reform UK and Greens Capitalise; Local-Election Aftermath Continues</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-14-evening/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-14T18:00:00+01:00</news:publication_date>
-      <news:title>Evening Briefing — Thursday 14 May 2026</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-14-evening/streeting-resigns-tells-starmer-he-cannot/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-14T18:00:00+01:00</news:publication_date>
-      <news:title>Streeting Resigns; Tells Starmer He Cannot Lead Labour Into Next Election</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-14-evening/streeting-did-formally-trigger-contest-81/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-14T18:00:00+01:00</news:publication_date>
-      <news:title>Streeting Did Not Formally Trigger Contest; 81-MP Threshold Still Outstanding</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-14-evening/starmer-purely-focused-governing-reeves-warns/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-14T18:00:00+01:00</news:publication_date>
-      <news:title>Starmer: “Purely Focused on Governing”; Reeves Warns on Economic Risk</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-14-evening/gilts-rally-despite-resignation-10y-5/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-14T18:00:00+01:00</news:publication_date>
-      <news:title>Gilts Rally Despite Resignation: 10Y to 5.028%, 30Y to 5.695%</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-14-evening/four-junior-resignations-earlier-week-set/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-14T18:00:00+01:00</news:publication_date>
-      <news:title>Four Junior Resignations Earlier This Week Set the Sequence</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-14-evening/trump-xi-summit-iran-must-nuclear/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-14T18:00:00+01:00</news:publication_date>
-      <news:title>Trump-Xi Summit: Iran Must Not Have Nuclear Weapon; Hormuz Must Be Opened</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-14-evening/xi-offers-iran-mediation-rubio-we/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-14T18:00:00+01:00</news:publication_date>
-      <news:title>Xi Offers Iran Mediation; Rubio: “We Don’t Need Their Help”</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-14-evening/xi-warns-trump-taiwan-great-jeopardy/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-14T18:00:00+01:00</news:publication_date>
-      <news:title>Xi Warns Trump on Taiwan: “Great Jeopardy”</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-14-evening/brics-new-delhi-araghchi-calls-condemnation/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-14T18:00:00+01:00</news:publication_date>
-      <news:title>BRICS in New Delhi: Araghchi Calls for Condemnation; UAE Tensions Aired</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-14-evening/iran-lebanon-talks-open-washington-hormuz/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-14T18:00:00+01:00</news:publication_date>
-      <news:title>Iran-Lebanon Talks Open in Washington; Hormuz Remains Blockaded</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-14-morning/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-14T11:15:00+01:00</news:publication_date>
-      <news:title>Morning Briefing — Thursday 14 May 2026</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-14-morning/trump-arrives-beijing-two-day-summit/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-14T11:15:00+01:00</news:publication_date>
-      <news:title>Trump Arrives in Beijing for Two-Day Summit with Xi</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-14-morning/brics-foreign-ministers-open-delhi-iran/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-14T11:15:00+01:00</news:publication_date>
-      <news:title>BRICS Foreign Ministers Open in Delhi as Iran War Dominates Agenda</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-14-morning/iran-s-araghchi-calls-brics-condemn/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-14T11:15:00+01:00</news:publication_date>
-      <news:title>Iran’s Araghchi Calls on BRICS to Condemn US-Israel “Unlawful Aggression”</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-14-morning/brent-settled-105-63-wednesday-ahead/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-14T11:15:00+01:00</news:publication_date>
-      <news:title>Brent Settled $105.63 on Wednesday Ahead of Trump-Xi Summit</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-14-morning/us-mediated-israel-lebanon-talks-open/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-14T11:15:00+01:00</news:publication_date>
-      <news:title>US-Mediated Israel-Lebanon Talks Open in Washington Today</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-14-morning/streeting-expected-resign-launch-leadership-bid/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-14T11:15:00+01:00</news:publication_date>
-      <news:title>Streeting Expected to Resign and Launch Leadership Bid Today</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-14-morning/king-s-speech-yesterday-35-bills/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-14T11:15:00+01:00</news:publication_date>
-      <news:title>King’s Speech Yesterday: 35+ Bills, Security-Heavy, Limited Defence Industry</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-14-morning/starmer-pivotal-moment-warns-against-chaos/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-14T11:15:00+01:00</news:publication_date>
-      <news:title>Starmer: “Pivotal Moment”; Warns Against “Chaos and Instability”</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-14-morning/junior-ministerial-resignations-four-since-monday/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-14T11:15:00+01:00</news:publication_date>
-      <news:title>Junior Ministerial Resignations: Four Since Monday</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-14-morning/markets-gilts-pared-tuesday-s-slide/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-14T11:15:00+01:00</news:publication_date>
-      <news:title>Markets: Gilts Pared Tuesday’s Slide on Wednesday; Sterling Below $1.30</news:title>
     </news:news>
   </url>
 </urlset>
