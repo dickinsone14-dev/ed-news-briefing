@@ -1952,11 +1952,11 @@
        - Hard expiry at 24h from "posted" (or at "expires" if set) — banner comes down
        - Optional "expires" field overrides the 8h default (e.g. for major events)
        To add a new breaking story, prepend an entry here with the current ISO timestamp. -->
-  <script id="breaking-stories" type="application/json">[]</script>
-  <div class="breaking-banner" id="breakingBanner" style="display:none">
+  <script id="breaking-stories" type="application/json">[{"headline": "Drone strike sparks fire at UAE's Barakah nuclear plant — first attack on the facility since Iran war began — 15:05 BST", "posted": "2026-05-17T15:05:00+01:00", "category": "GEO", "summary": "Three drones entered the UAE from its western border on Sunday; two were intercepted but a third struck an electrical generator on the perimeter of the Barakah Nuclear Energy Plant in Al Dhafra, sparking a fire. The UAE Defence Ministry reported no casualties and the country's nuclear regulator said radiation levels remained normal, but the IAEA confirmed one reactor is running on emergency diesel generators. IAEA director general Rafael Grossi expressed 'grave concern', calling military activity that threatens nuclear safety 'unacceptable'.", "facts": [{"label": "Drones launched", "value": "3 from western border; 2 intercepted, 1 hit generator at perimeter"}, {"label": "Casualties / radiation", "value": "None reported; one reactor on emergency diesel backup"}, {"label": "IAEA response", "value": "Grossi expressed 'grave concern'; called strike on NPP 'unacceptable'"}, {"label": "Significance", "value": "First strike on Barakah since 28 Feb war start; latest blow to 8 Apr US-Iran ceasefire"}]}]</script>
+  <div class="breaking-banner" id="breakingBanner">
     <div class="breaking-inner">
       <span class="breaking-label">BREAKING</span>
-      <span class="breaking-text" id="breakingText"></span>
+      <span class="breaking-text" id="breakingText">Drone strike sparks fire at UAE's Barakah nuclear plant — first attack on the facility since Iran war began — 15:05 BST</span>
       <span class="breaking-readmore" id="breakingReadmore">Read more</span>
       <button class="breaking-dismiss" id="breakingDismiss">&times;</button>
     </div>
@@ -2045,7 +2045,7 @@
 
   <!-- #1 Markets snapshot bar -->
   <!-- Embedded market data (populated by update script, used as fallback) -->
-  <script id="embedded-markets" type="application/json">{"FTSE":{"price":8254,"change":-1.70},"SP":{"price":5262,"change":-0.38},"Brent":{"price":107.85,"change":2.10},"GBP":{"price":1.33,"change":-0.60},"Gold":{"price":4865,"change":0.68},"EURGBP":{"price":0.8928,"change":0.21},"Gilt":{"price":5.18,"change":3.60},"VIX":{"price":31.85,"change":0.00},"BTC":{"price":79480,"change":-0.80},"UST":{"price":4.40,"change":0.92},"ts":"2026-05-17T08:15:00+01:00"}</script>
+  <script id="embedded-markets" type="application/json">{"FTSE":{"price":8254,"change":-1.70},"SP":{"price":5262,"change":-0.38},"Brent":{"price":107.85,"change":2.10},"GBP":{"price":1.33,"change":-0.60},"Gold":{"price":4865,"change":0.68},"EURGBP":{"price":0.8928,"change":0.21},"Gilt":{"price":5.18,"change":3.60},"VIX":{"price":31.85,"change":0.00},"BTC":{"price":79480,"change":-0.80},"UST":{"price":4.40,"change":0.92},"ts":"2026-05-17T18:30:00+01:00"}</script>
   <script id="market-descriptions" type="application/json">{
     "FTSE": {
       "name": "FTSE 100",
@@ -2167,6 +2167,152 @@
     <!-- ════ ALL EDITIONS (sorted by JS) ════ -->
     <!-- IMPORTANT: Keep 7 FULL DAYS of editions in this container. Do NOT delete editions less than 7 days old. -->
     <div id="all-editions" style="display:none;">
+
+    <!-- ── EVENING 17 MAY (18:30) ── -->
+    <div class="curated-edition evening" data-date="2026-05-17" data-time="18:30" data-markets='{"FTSE":{"price":8254,"change":-1.70},"SP":{"price":5262,"change":-0.38},"Brent":{"price":107.85,"change":2.10},"GBP":{"price":1.33,"change":-0.60},"Gold":{"price":4865,"change":0.68},"EURGBP":{"price":0.8928,"change":0.21},"Gilt":{"price":5.18,"change":3.60},"VIX":{"price":31.85,"change":0.00},"BTC":{"price":79480,"change":-0.80},"UST":{"price":4.40,"change":0.92},"ts":"2026-05-17T18:30:00+01:00"}'>
+      <div class="edition-header">
+        <span class="edition-icon">&#9789;</span>
+        <h2>Evening Briefing</h2>
+      </div>
+      <div class="curated-meta">Sunday 17 May 2026 &mdash; 18:30 BST</div>
+      <div class="impact-box">
+        <h3 class="impact-heading">What It Means For You</h3>
+        <ul class="impact-list">
+          <li>A drone strike on the Barakah Nuclear Power Plant in the United Arab Emirates on Sunday set fire to an electrical generator outside the plant&rsquo;s perimeter, with no radiological release. The IAEA expressed &ldquo;grave concern&rdquo;; no group claimed responsibility but UAE authorities have previously attributed roughly 3,000 such attacks since 28 February to Iran or its proxies. UAE Al-Ain media reported the same evening that the Israeli army &ldquo;continues its preparations to resume the war&rdquo;, including planned strikes on Iranian energy and infrastructure and against high-ranking officials &mdash; meaning Monday&rsquo;s oil and gas open is set to price a meaningfully higher probability of a Gulf re-escalation.</li>
+          <li>Sir Keir Starmer is at Chequers this weekend deciding, per ITV&rsquo;s Robert Peston, whether to announce a timetable for his own departure as Prime Minister. Cabinet ministers split: one bloc says &ldquo;the die is already cast&rdquo; and he should shape a positive legacy; another insists he should stay to avoid &ldquo;mayhem&rdquo; if Burnham loses Makerfield. Colleagues &ldquo;don&rsquo;t know what he will decide&rdquo;. A Sunday-night statement, if it comes, would re-price gilts and sterling at Monday&rsquo;s open.</li>
+          <li>Culture Secretary Lisa Nandy used Sunday with Laura Kuenssberg to dismiss the leadership talk as &ldquo;froth and nonsense&rdquo; and to call Wes Streeting&rsquo;s Saturday EU-rejoin pitch &ldquo;a bit odd&rdquo;. Streeting allies hit back that his willingness to talk EU membership is precisely the kind of risk Number 10 will not take. The Labour leadership contest, if triggered after Makerfield, will now be fought on EU re-entry as much as on the cost of living &mdash; with Reform UK preparing to print Burnham&rsquo;s 2025 &ldquo;I want to rejoin it&rdquo; quote on Makerfield by-election leaflets.</li>
+        </ul>
+      </div>
+      <div class="war-day-count">
+        <p><strong>Iran War &mdash; Day 79.</strong> The war started 28 February 2026. A drone strike on Sunday hit an electrical generator outside the inner perimeter of the UAE&rsquo;s Barakah Nuclear Power Plant in Al-Dhafra Region, the Jerusalem Post and Associated Press report &mdash; the IAEA registered &ldquo;grave concern&rdquo;, no radiological release was detected, and the Emirati authorities did not formally attribute the attack but framed it within the &ldquo;repeated and unjustified Iranian terrorist attacks&rdquo; the country has faced since 28 February. The Israel Defense Forces named the officer killed in Friday&rsquo;s Hezbollah drone strike as 24-year-old Capt. Maoz Israel Recanati of the Golani Brigade&rsquo;s 12th Battalion, the seventh IDF soldier killed in southern Lebanon since the ceasefire began. The Institute for the Study of War assesses the Russian General Staff&rsquo;s May 16 battlefield report as &ldquo;highly inaccurate&rdquo; for the fifth consecutive month; Russia launched 294 drones at Ukraine overnight on 16-17 May, of which 269 were intercepted, and Ukrainian forces struck the Azot chemical plant in Nevinnomyssk, southern Russia&rsquo;s largest ammonia and nitrogen-fertiliser producer.</p>
+      </div>
+      <div class="curated-grid">
+        <div class="curated-column">
+          <h3><span class="dot geo"></span><span class="dot-label">GEO</span> Geopolitical</h3>
+          <div>
+
+            <div class="curated-item" data-time="16:30" data-slug="uae-barakah-drone-strike-iran-suspected">
+              <h4>Drone Strike Sparks Fire at <em>UAE&rsquo;s Barakah Nuclear Plant</em>; IAEA &ldquo;Grave Concern&rdquo;</h4>
+              <p>A drone struck an electrical generator outside the inner perimeter of the Barakah Nuclear Power Plant in the UAE&rsquo;s Al-Dhafra Region on Sunday, sparking a fire that the Abu Dhabi Media Office said caused no injuries and no radiological release, the Jerusalem Post reported. The Federal Authority for Nuclear Regulation confirmed that the plant&rsquo;s essential systems are operating normally. The Associated Press said the strike &ldquo;highlighted the risk of renewed war as the Iran ceasefire remains tenuous&rdquo;. No group claimed responsibility; the International Atomic Energy Agency expressed &ldquo;grave concern&rdquo; and said it is following the situation closely.</p>
+              <details class="dive-deeper">
+                <summary>Dive deeper</summary>
+                <div class="deeper-content">UAE Minister of State at the Foreign Ministry Khalifa Shaheen Al Marar told a BRICS foreign ministers&rsquo; meeting on Friday that since 28 February 2026 the UAE has intercepted around 3,000 attacks involving ballistic missiles, cruise missiles and drones targeting airports, ports, oil and desalination facilities, energy networks and residential areas. The minister said the UAE &ldquo;reserves its full sovereign, legal, diplomatic, and military rights to respond to any threat, allegation, or hostile act&rdquo;. The Jerusalem Post analysis frames the Sunday incident as &ldquo;an Iranian message that it will increase its list of targets in the country&rdquo;. Iran&rsquo;s parliament speaker Mohammad-Bagher Ghalibaf, who had been a negotiator with the US, has reportedly been re-tasked to handle China-Iran ties following Trump&rsquo;s recent China visit.</div>
+              </details>
+            </div>
+
+            <div class="curated-item" data-time="20:00" data-slug="idf-officer-recanati-killed-100-targets-struck">
+              <h4>IDF Officer <em>Cpt. Recanati Killed</em>; 100 Hezbollah Targets Struck Over Weekend</h4>
+              <p>The Israel Defense Forces named the officer killed in Friday&rsquo;s Hezbollah drone strike in southern Lebanon as 24-year-old Capt. Maoz Israel Recanati, a platoon commander in the Golani Brigade&rsquo;s 12th Battalion from Itamar, the Times of Israel reported. A statement from Prime Minister Benjamin Netanyahu said Recanati had been due to marry his fianc&eacute;e, Rani, in a month: &ldquo;We all embrace her and his loved ones during this difficult time.&rdquo; The IDF said it struck approximately 100 Hezbollah targets across southern Lebanon over the weekend, including surveillance posts and weapon depots, and shot down several Hezbollah drones that triggered sirens in Western Galilee border communities.</p>
+              <details class="dive-deeper">
+                <summary>Dive deeper</summary>
+                <div class="deeper-content">Recanati is the seventh IDF soldier killed in southern Lebanon since the ceasefire began, and the twentieth since hostilities escalated amid the Iran war; a civilian contractor has also been killed. Lebanon&rsquo;s state National News Agency reported strikes on more than two dozen villages on Saturday, including one more than 50 kilometres from the border, and a renewed exodus of residents toward Sidon and Beirut. UN Secretary-General Ant&oacute;nio Guterres &ldquo;welcomed&rdquo; Friday&rsquo;s 45-day ceasefire extension and urged all actors to &ldquo;fully respect the cessation of hostilities&rdquo;. Hezbollah formally opposes the Washington-mediated talks, accusing the Lebanese government of offering &ldquo;a series of free concessions&rdquo; to &ldquo;the enemy&rdquo;.</div>
+              </details>
+            </div>
+
+            <div class="curated-item" data-time="14:00" data-slug="al-ain-israel-prepares-renewed-iran-war-plan">
+              <h4>UAE Al-Ain: Israel <em>Preparing Renewed Iran Strike</em> on Energy and Officials</h4>
+              <p>UAE outlet Al-Ain reported on Sunday that Israel is on &ldquo;high alert in anticipation of a possible resumption of war with Iran&rdquo;, citing a source briefed on Israeli military planning carried by the Jerusalem Post. The reported plan would &ldquo;include damage to national infrastructure, energy sites, and power plants, and Israeli aircraft will also attempt to target high-ranking Iranian officials&rdquo;. Israel is reportedly anticipating Iranian strikes in response. The reporting comes alongside Israeli media discussion of an imminent decision window and follows last week&rsquo;s New York Times account, carried in Saturday&rsquo;s Times of Israel, that US and Israeli officials were in their most intense renewal-preparation phase to date.</p>
+              <details class="dive-deeper">
+                <summary>Dive deeper</summary>
+                <div class="deeper-content">The Jerusalem Post separately reports New York Times and Wall Street Journal accounts of Israeli forward sites established in Iraq amid the Iran tensions &mdash; the WSJ identifying one site and the NYT two. Iran has continued strikes on Kurdish opposition groups in northern Iraq through the ceasefire period. The Jerusalem Post&rsquo;s framing is that Iran &ldquo;is messaging through aggression and words&rdquo; that it will target countries or groups working with Israel, and that the Sunday Barakah strike fits that pattern. Pakistan&rsquo;s mediation track and Trump&rsquo;s pending decision on sanctions against Chinese refineries buying Iranian oil remain the two open variables for whether the renewal moves from preparation to execution.</div>
+              </details>
+            </div>
+
+            <div class="curated-item" data-time="01:00" data-slug="isw-gerasimov-false-claims-azot-nevinnomyssk-strike">
+              <h4>ISW: Gerasimov&rsquo;s Battlefield Report <em>&ldquo;Highly Inaccurate&rdquo;</em>; Ukraine Hits Azot Plant</h4>
+              <p>The Institute for the Study of War&rsquo;s 16 May campaign assessment reports that Russian Chief of the General Staff Army General Valery Gerasimov made a series of false claims to the Western Grouping of Forces, claiming Russian troops are advancing west of Kupyansk toward Shevchenkove despite ISW&rsquo;s assessment that Russian forces have infiltrated only about 14.2% of Kupyansk. ISW judged the pattern &ldquo;highly inaccurate&rdquo; for the fifth consecutive month and warned the Russian command &ldquo;is either unaware of or unwilling to admit the realities of the battlefield even to itself, and is therefore allowing its own falsehoods to influence Russian operational and strategic planning&rdquo;.</p>
+              <details class="dive-deeper">
+                <summary>Dive deeper</summary>
+                <div class="deeper-content">Gerasimov also claimed Russian forces had seized all of Borova and Kutkivka and about 85% of Lyman &mdash; figures ISW puts at 6.5% on Kutkivka and 0.06% on Lyman. Russian milbloggers have publicly warned that Ukrainian counter-attacks and false reports of advances in other frontline areas are creating situations the Russian command cannot adequately respond to. Ukrainian forces struck the Azot chemical plant in Nevinnomyssk, Stavropol Krai &mdash; southern Russia&rsquo;s largest chemical plant and its largest producer of nitrogen fertilisers and ammonia for explosives &mdash; some 540 kilometres from the frontline. Russia launched 294 drones at Ukraine overnight on 16-17 May; Ukrainian air defences downed 269. Russian strikes hit port, residential and critical infrastructure in Odesa Oblast, cutting power to 39 settlements and 22,662 subscribers.</div>
+              </details>
+            </div>
+
+            <div class="curated-item" data-time="11:00" data-slug="putin-transnistria-passportization-decree">
+              <h4>Kremlin Decree <em>Simplifies Russian Citizenship</em> for Transnistria Residents</h4>
+              <p>President Vladimir Putin signed a decree on 15 May simplifying the procedure by which residents of the pro-Russian breakaway region of Transnistria in Moldova can acquire Russian citizenship, the Institute for the Study of War reported. ISW assesses that the Kremlin is continuing to expand its &ldquo;passportization&rdquo; efforts in Transnistria to deepen Russian influence in the region, building the political-administrative scaffolding for future leverage in negotiations over Moldova&rsquo;s European trajectory and over the security architecture of the western Black Sea.</p>
+              <details class="dive-deeper">
+                <summary>Dive deeper</summary>
+                <div class="deeper-content">Russia has used passportization &mdash; the mass issuance of Russian passports to residents of foreign territories &mdash; as a pretext for intervention in past conflicts, most notably in Crimea and the Donbas in 2014. Transnistria has hosted Russian troops since the early 1990s and has been increasingly squeezed by Moldova&rsquo;s tightening alignment with the European Union following the start of EU accession negotiations in 2024. The Sunday decree is the latest in a sequence of low-profile administrative measures that follow the Kremlin&rsquo;s pattern of layering legal status over a contested region before any political move. Ukrainian forces also advanced in the Hulyaipole direction over the same 24-hour window.</div>
+              </details>
+            </div>
+
+          </div>
+        </div>
+        <div class="curated-column">
+          <h3><span class="dot dom"></span><span class="dot-label">UK</span> UK Domestic Politics</h3>
+          <div>
+
+            <div class="curated-item" data-time="13:42" data-slug="itv-peston-starmer-departure-timetable-chequers">
+              <h4>Peston: Starmer at Chequers <em>Deciding Departure Timetable</em></h4>
+              <p>Sir Keir Starmer is at Chequers this weekend making what ITV political editor Robert Peston called a &ldquo;very difficult decision&rdquo;: whether to re-assert his authority and re-energise his government, or announce a timetable for a leadership election and his own departure. Cabinet ministers told Peston that some of them now believe &ldquo;the die is already cast that he will have to resign in coming months, whether Burnham is elected an MP or not&rdquo;, and that the Prime Minister should &ldquo;acknowledge that reality&rdquo; and use a time-limited period to shape a positive legacy.</p>
+              <details class="dive-deeper">
+                <summary>Dive deeper</summary>
+                <div class="deeper-content">Other ministers told Peston the Prime Minister should stay, fearing &ldquo;mayhem if Burnham were to lose&rdquo; the Makerfield by-election, in which circumstance &ldquo;it would be preferable for the party to draw breath rather than charge headlong into a leadership election&rdquo;. Peston flagged a conflict of interest: many of those insisting he should not quit will be out of a job if Starmer is replaced. One minister told Peston the choice &ldquo;is not so binary&rdquo; and that &ldquo;other options&rdquo; could keep &ldquo;the government show on the road&rdquo; &mdash; but added that whatever Starmer decides, he &ldquo;will have to spell this out explicitly and in detail to all of us&rdquo;. Colleagues, Peston said, &ldquo;don&rsquo;t know what he will decide&rdquo;.</div>
+              </details>
+            </div>
+
+            <div class="curated-item" data-time="09:30" data-slug="nandy-bbc-streeting-eu-call-odd-froth-nonsense">
+              <h4>Nandy on BBC: Streeting EU Call <em>&ldquo;A Bit Odd&rdquo;</em>; Leadership Talk &ldquo;Froth&rdquo;</h4>
+              <p>Culture Secretary Lisa Nandy dismissed Labour leadership talk as &ldquo;froth and nonsense&rdquo; on Sunday with Laura Kuenssberg and called Wes Streeting&rsquo;s Saturday EU-rejoin pitch &ldquo;just a bit odd&rdquo;, the Guardian reported. &ldquo;I listened to what Wes had to say very carefully yesterday, and I know that he&rsquo;s got a strong view about this&hellip;&rdquo; she said. &ldquo;Frankly, that&rsquo;s one that I share. I campaigned for remain, I think it was a mistake, and I think the Brexit deal has been a real problem for us. But I don&rsquo;t really understand why the sudden focus on Europe.&rdquo; Asked whether Starmer would run in a contest, Nandy said: &ldquo;He&rsquo;s shown before that he&rsquo;s up for a fight.&rdquo;</p>
+              <details class="dive-deeper">
+                <summary>Dive deeper</summary>
+                <div class="deeper-content">Streeting allies hit back quickly, telling the Guardian that Nandy&rsquo;s unwillingness to talk about EU membership was &ldquo;symptomatic&rdquo; of the wider reluctance to take political risks that has made Starmer so unpopular. &ldquo;There is no point in trying not to upset anybody, that&rsquo;s what got us into this problem,&rdquo; one Streeting ally said. &ldquo;Sometimes you have to be willing to upset people to get things done.&rdquo; Conservative leader Kemi Badenoch said the row was a &ldquo;sign of the Labour party that does not have a plan for the country&rdquo;, adding: &ldquo;They want to go back and refight wars, which were settled a long time ago.&rdquo; Nandy was the first Cabinet minister to join Burnham on the Makerfield campaign trail in Winstanley on Saturday.</div>
+              </details>
+            </div>
+
+            <div class="curated-item" data-time="11:00" data-slug="streeting-progress-britain-future-lies-europe-leadership">
+              <h4>Streeting: <em>&ldquo;Britain&rsquo;s Future Lies With Europe&rdquo;</em>; Will Stand in Any Contest</h4>
+              <p>Wes Streeting, who resigned as Health Secretary on Thursday, used a Saturday speech to the Progress conference to call for Britain to seek a new &ldquo;special relationship&rdquo; with the European Union and, eventually, to rejoin: &ldquo;In 2026, the British people increasingly see that in a dangerous world we must club together, both to rebuild our economy and trade, and improve our defence against the shared threats from Russian aggression and America First. The biggest economic opportunity we have is on our doorstep&hellip; Britain&rsquo;s future lies with Europe &mdash; and one day back in the European Union.&rdquo; Streeting confirmed he will stand in any Labour leadership contest if one is triggered.</p>
+              <details class="dive-deeper">
+                <summary>Dive deeper</summary>
+                <div class="deeper-content">Streeting&rsquo;s framing &mdash; positioning EU re-entry as a defence-and-economics response to Trump&rsquo;s &ldquo;America First&rdquo; and to Russian aggression &mdash; deliberately reaches over the Brexit-cultural argument and into the harder-headed Treasury and MoD case. The Guardian quotes Burnham&rsquo;s position via Telegraph reporting: he stands by his September 2025 Labour conference line that &ldquo;long term&hellip; I want to rejoin&rdquo; the EU, but would require a fresh mandate from voters to act on it. Asked by ITV News on Saturday whether he was in favour of rejoining the EU, Burnham said: &ldquo;in the long term there is a case for that&rdquo;, but added that he is &ldquo;not advocating that in this by-election&rdquo;. A formal contest would still require 81 MP nominations to trigger.</div>
+              </details>
+            </div>
+
+            <div class="curated-item" data-time="20:45" data-slug="reform-brexit-betrayal-makerfield-leaflets-attack-line">
+              <h4>Reform Will Print Burnham&rsquo;s <em>&ldquo;I Want to Rejoin&rdquo;</em> Words on Makerfield Leaflets</h4>
+              <p>The Telegraph understands that Reform UK will make &ldquo;Brexit betrayal&rdquo; one of its key attack lines in the Makerfield by-election campaign, and intends to print Andy Burnham&rsquo;s Labour conference 2025 words about wanting to rejoin the EU on its leaflets. Reform leader Nigel Farage told the Telegraph: &ldquo;He would be a disaster for the economy and betray every Brexit voter in the constituency. &lsquo;Open borders Burnham&rsquo; must be stopped.&rdquo; Josh Simons, who is vacating the Makerfield seat to make way for Burnham, won it by a majority of just 5,399 over Reform UK at the 2024 general election &mdash; and Labour&rsquo;s polling has weakened in the constituency since.</p>
+              <details class="dive-deeper">
+                <summary>Dive deeper</summary>
+                <div class="deeper-content">Conservative Party chairman Kevin Hollinrake told the Telegraph: &ldquo;Whilst Labour re-litigate Brexit, Britain is not being governed.&rdquo; Dan Carden MP, the Blue Labour leader, said: &ldquo;There&rsquo;s nothing wrong with talking about rebuilding our relationship with Europe, but my party still looks at Brexit and thinks people were fooled by Farage. I don&rsquo;t think that&hellip; It would be far better to focus government resources on making the most of our sovereign freedoms in trade and defence and foreign policy. And start talking confidently about Britain&rsquo;s place in the world, and stop whining about Brexit.&rdquo; Jon Trickett MP said Labour &ldquo;needs to honour the democratic decision&hellip; It feels a bit defeatist to me.&rdquo; Lord Glasman called Streeting&rsquo;s position a misreading of national mood.</div>
+              </details>
+            </div>
+
+            <div class="curated-item" data-time="16:00" data-slug="burnham-channel-4-public-ownership-thatcher-mistake">
+              <h4>Burnham to Channel 4: <em>Reverse 40 Years of Thatcherism</em>, Bring Utilities Back</h4>
+              <p>Andy Burnham used an interview with Channel 4 News this weekend to call for the UK to go down a &ldquo;completely&rdquo; different path to the past 40 years, involving putting &ldquo;more things back under stronger public control&rdquo;. &ldquo;Margaret Thatcher deregulated the whole country,&rdquo; he told Channel 4. &ldquo;The country gave away its control of the basic things that people depend upon every day. And that was a big mistake, in my view.&rdquo; Josh Simons told the BBC on Sunday that public ownership of utilities &mdash; energy, water, social housing &mdash; could be &ldquo;an important part of&rdquo; the Burnham pitch to voters in Makerfield and beyond.</p>
+              <details class="dive-deeper">
+                <summary>Dive deeper</summary>
+                <div class="deeper-content">&ldquo;Energy, water, social housing &mdash; those things that are the basics of our lives that we all depend on &mdash; have gotten so expensive,&rdquo; Simons told the BBC. &ldquo;And one of the reasons why they&rsquo;ve gotten so expensive &mdash; not the only, but one of the reasons why they&rsquo;ve gotten so expensive &mdash; is that we privatise a lot of them, and often the bills that we pay go to the shareholders.&rdquo; The Burnham economic programme, as drawn by Channel 4 and the BBC, deliberately combines a Labour-left utility programme with a Burnham-Mayor delivery pitch &mdash; the explicit alternative to both Reeves&rsquo;s fiscal restraint and Streeting&rsquo;s liberalism. The Greater Manchester mayor is expected to be formally confirmed as the Labour candidate for Makerfield next week.</div>
+              </details>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="one-to-read">
+        <span class="otr-label">One To Read</span>
+        <a href="https://www.itv.com/news/2026-05-17/keir-starmer-deciding-whether-to-announce-a-departure-timetable" target="_blank" rel="noopener noreferrer">
+          <h4>Keir Starmer &lsquo;Deciding Whether to Announce a Departure Timetable&rsquo;</h4>
+          <span class="otr-source">ITV News</span>
+          <span class="otr-dot">&middot;</span>
+          <span class="otr-desc">Robert Peston&rsquo;s Sunday-afternoon read of the Chequers weekend, with cabinet ministers split on whether the Prime Minister should set a date for his own departure to shape his legacy, or stay and bet on Burnham losing in Makerfield. The single most consequential piece of weekend reporting on the immediate future of the British government.</span>
+        </a>
+      </div>
+      <!-- SOURCES USED
+      - https://www.jpost.com/middle-east/iran-news/article-896470 &mdash; Sunday Barakah drone strike at Al-Dhafra UAE nuclear plant; Abu Dhabi Media Office statement; Federal Authority for Nuclear Regulation confirmation; IAEA &ldquo;grave concern&rdquo;; UAE Minister Al Marar 3,000 attacks figure since 28 February 2026; Iran &ldquo;messaging&rdquo; framing
+      - https://www.timesofisrael.com/idf-infantry-platoon-commander-killed-by-hezbollah-drone-in-southern-lebanon/ &mdash; Capt. Maoz Israel Recanati 24-year-old Golani 12th Battalion platoon commander from Itamar; Netanyahu statement re fianc&eacute;e Rani; 7th IDF soldier killed since ceasefire, 20th since hostilities escalated; 100 weekend targets struck; Western Galilee sirens; Lebanese NNA strikes on 2+ dozen villages; Guterres ceasefire welcome; Hezbollah opposition quotes
+      - https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-may-16-2026/ &mdash; Gerasimov &ldquo;highly inaccurate&rdquo; claims fifth consecutive month; Kupyansk 14.2% infiltration vs claim of advance west; Kutkivka 6.5%, Lyman 0.06%; Russian milblogger warnings; Transnistria 15 May Putin passportization decree; 294 drones / 269 downed overnight 16-17 May; Odesa Oblast 39 settlements / 22,662 subscribers power loss; Azot Nevinnomyssk chemical plant strike (540km from frontline)
+      - https://www.itv.com/news/2026-05-17/keir-starmer-deciding-whether-to-announce-a-departure-timetable &mdash; Robert Peston Chequers reporting; cabinet split on departure timetable; &ldquo;die is already cast&rdquo; quotes; &ldquo;mayhem if Burnham were to lose&rdquo; counter-position; conflict-of-interest framing; &ldquo;don&rsquo;t know what he will decide&rdquo; close
+      - https://www.theguardian.com/politics/2026/may/17/culture-secretary-lisa-nandy-says-wes-streeting-rejoin-eu-call-odd &mdash; Nandy &ldquo;a bit odd&rdquo; quote on BBC Laura Kuenssberg; full Streeting Progress conference quote (&ldquo;Britain&rsquo;s future lies with Europe&rdquo;); Streeting allies &ldquo;no point trying not to upset anybody&rdquo;; Badenoch &ldquo;refight wars&rdquo; quote; Josh Simons BBC utilities quotes
+      - https://www.bbc.co.uk/news/articles/ (BBC Sunday with Laura Kuenssberg, Becky Morton) &mdash; Nandy &ldquo;froth and nonsense&rdquo; framing; &ldquo;personal decision&rdquo; framing for Starmer; &ldquo;he&rsquo;s up for a fight&rdquo; quote; rejection of replacement idea; Josh Simons &ldquo;existential&rdquo; for Labour quote
+      - https://www.telegraph.co.uk/politics/2026/05/16/burnham-and-streeting-want-to-rejoin-eu/ &mdash; Reform &ldquo;Brexit betrayal&rdquo; attack line; intention to print Burnham EU words on Makerfield leaflets; Farage &ldquo;Open borders Burnham must be stopped&rdquo; quote; Burnham conference 2025 line; ITV News Saturday Burnham &ldquo;long term there is a case&rdquo; quote; Hollinrake, Carden, Trickett, Glasman reactions
+      - https://www.channel4.com/news/burnham-and-streeting-enter-race-to-end-starmers-labour-leadership &mdash; Burnham Channel 4 interview on &ldquo;completely different path&rdquo;; Thatcher &ldquo;deregulated the whole country&rdquo; quote; &ldquo;basic things that people depend upon&rdquo; quote
+      - https://www.independent.co.uk/news/uk/politics/burnham-streeting-brexit-eu-starmer-labour-live-updates-b2978091.html &mdash; Independent live updates &ldquo;Streeting reopening Brexit wars&rdquo;; Makerfield &ldquo;tough fight&rdquo; framing; Burnham odds vs Reform context
+      - https://www.reuters.com/world/middle-east/israel-lebanon-agree-extend-ceasefire-by-45-days-us-state-dept-says-2026-05-15/ &mdash; Friday Washington-mediated 45-day ceasefire extension; permitted Israeli strikes on Hezbollah threats; context for Saturday-Sunday strike pattern
+      END SOURCES USED -->
+    </div><!-- ── END EVENING 17 MAY (18:30) ── -->
 
     <!-- ── MORNING 17 MAY (08:15) ── -->
     <div class="curated-edition morning" data-date="2026-05-17" data-time="08:15" data-markets='{"FTSE":{"price":8254,"change":-1.70},"SP":{"price":5262,"change":-0.38},"Brent":{"price":107.85,"change":2.10},"GBP":{"price":1.33,"change":-0.60},"Gold":{"price":4865,"change":0.68},"EURGBP":{"price":0.8928,"change":0.21},"Gilt":{"price":5.18,"change":3.60},"VIX":{"price":31.85,"change":0.00},"BTC":{"price":79480,"change":-0.80},"UST":{"price":4.40,"change":0.92},"ts":"2026-05-17T08:15:00+01:00"}'>

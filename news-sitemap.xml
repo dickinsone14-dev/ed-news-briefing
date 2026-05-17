@@ -2,6 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-17-evening/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-17T18:30:00+01:00</news:publication_date>
+      <news:title>Evening Briefing — Sunday 17 May 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-17-evening/uae-barakah-drone-strike-iran-suspected/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-17T18:30:00+01:00</news:publication_date>
+      <news:title>Drone Strike Sparks Fire at UAE’s Barakah Nuclear Plant; IAEA “Grave Concern”</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-17-evening/idf-officer-recanati-killed-100-targets-struck/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-17T18:30:00+01:00</news:publication_date>
+      <news:title>IDF Officer Cpt. Recanati Killed; 100 Hezbollah Targets Struck Over Weekend</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-17-evening/al-ain-israel-prepares-renewed-iran-war-plan/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-17T18:30:00+01:00</news:publication_date>
+      <news:title>UAE Al-Ain: Israel Preparing Renewed Iran Strike on Energy and Officials</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-17-evening/isw-gerasimov-false-claims-azot-nevinnomyssk-strike/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-17T18:30:00+01:00</news:publication_date>
+      <news:title>ISW: Gerasimov’s Battlefield Report “Highly Inaccurate”; Ukraine Hits Azot Plant</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-17-evening/putin-transnistria-passportization-decree/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-17T18:30:00+01:00</news:publication_date>
+      <news:title>Kremlin Decree Simplifies Russian Citizenship for Transnistria Residents</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-17-evening/itv-peston-starmer-departure-timetable-chequers/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-17T18:30:00+01:00</news:publication_date>
+      <news:title>Peston: Starmer at Chequers Deciding Departure Timetable</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-17-evening/nandy-bbc-streeting-eu-call-odd-froth-nonsense/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-17T18:30:00+01:00</news:publication_date>
+      <news:title>Nandy on BBC: Streeting EU Call “A Bit Odd”; Leadership Talk “Froth”</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-17-evening/streeting-progress-britain-future-lies-europe-leadership/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-17T18:30:00+01:00</news:publication_date>
+      <news:title>Streeting: “Britain’s Future Lies With Europe”; Will Stand in Any Contest</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-17-evening/reform-brexit-betrayal-makerfield-leaflets-attack-line/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-17T18:30:00+01:00</news:publication_date>
+      <news:title>Reform Will Print Burnham’s “I Want to Rejoin” Words on Makerfield Leaflets</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-17-evening/burnham-channel-4-public-ownership-thatcher-mistake/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-17T18:30:00+01:00</news:publication_date>
+      <news:title>Burnham to Channel 4: Reverse 40 Years of Thatcherism, Bring Utilities Back</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-05-17-morning/</loc>
     <news:news>
       <news:publication>
@@ -362,248 +483,6 @@
       </news:publication>
       <news:publication_date>2026-05-16T08:15:00+01:00</news:publication_date>
       <news:title>Starmer Expected to Approve £18bn Defence Boost Next Week</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-15-evening/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-15T18:15:00+01:00</news:publication_date>
-      <news:title>Evening Briefing — Friday 15 May 2026</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-15-evening/trump-losing-patience-iran-oil-108/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-15T18:15:00+01:00</news:publication_date>
-      <news:title>Trump: “Not Going To Be Much More Patient” With Iran; Oil to $108</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-15-evening/uae-fast-tracks-pipeline-bypass-hormuz/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-15T18:15:00+01:00</news:publication_date>
-      <news:title>UAE Fast-Tracks Pipeline to Double Hormuz-Bypass Export Capacity</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-15-evening/israeli-soldier-killed-hezbollah-mortar/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-15T18:15:00+01:00</news:publication_date>
-      <news:title>Israeli Soldier Killed in Lebanon; IDF Strikes 65 Hezbollah Sites</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-15-evening/russia-1600-drones-missiles-kyiv-strike/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-15T18:15:00+01:00</news:publication_date>
-      <news:title>Russia Launches 1,600+ Drones, Missiles at Ukraine Over Two Days</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-15-evening/first-major-tankers-reach-destinations-hormuz/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-15T18:15:00+01:00</news:publication_date>
-      <news:title>First Major Non-Iranian Tankers Begin Reaching Destinations</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-15-evening/burnham-announces-makerfield-by-election-bid/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-15T18:15:00+01:00</news:publication_date>
-      <news:title>Burnham Confirms Makerfield By-Election Bid; NEC to Decide</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-15-evening/gilts-1998-high-sterling-burnham-risk-premium/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-15T18:15:00+01:00</news:publication_date>
-      <news:title>Gilts Hit 1998 High; Sterling at $1.33 as Burnham Bid Drives Risk</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-15-evening/yougov-burnham-only-net-positive-favourability/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-15T18:15:00+01:00</news:publication_date>
-      <news:title>YouGov: Burnham Only Senior Politician With Positive Favourability</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-15-evening/greens-contest-makerfield-complicate-burnham/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-15T18:15:00+01:00</news:publication_date>
-      <news:title>Greens to Contest Makerfield, Complicating Burnham’s Path</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-15-evening/labour-leadership-mechanics-streeting-backs-burnham/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-15T18:15:00+01:00</news:publication_date>
-      <news:title>Labour Mechanics: 81-MP Threshold; Streeting Backs Burnham</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-15-morning/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-15T08:29:00+01:00</news:publication_date>
-      <news:title>Morning Briefing — Friday 15 May 2026</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-15-morning/trump-xi-summit-closes-strategic-stability/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-15T08:29:00+01:00</news:publication_date>
-      <news:title>Trump-Xi Summit Closes: Strategic-Stability Framework, Iran Alignment</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-15-morning/xi-pledges-military-equipment-iran-china/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-15T08:29:00+01:00</news:publication_date>
-      <news:title>Xi Pledges No Military Equipment to Iran; China Will Help Open Hormuz</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-15-morning/iran-allows-30-ships-through-hormuz/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-15T08:29:00+01:00</news:publication_date>
-      <news:title>Iran Allows 30+ Ships Through Hormuz Overnight; Vance: “Progress Made”</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-15-morning/brics-struggles-joint-statement-araghchi-accuses/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-15T08:29:00+01:00</news:publication_date>
-      <news:title>BRICS Struggles for Joint Statement; Araghchi Accuses UAE</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-15-morning/israel-lebanon-2-896-killed-since/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-15T08:29:00+01:00</news:publication_date>
-      <news:title>Israel-Lebanon: 2,896 Killed Since March; Washington Talks Continue</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-15-morning/murray-appointed-health-secretary-rigby-moves/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-15T08:29:00+01:00</news:publication_date>
-      <news:title>Murray Appointed Health Secretary; Rigby Moves to Treasury</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-15-morning/81-mp-threshold-still-unmet-single/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-15T08:29:00+01:00</news:publication_date>
-      <news:title>81-MP Threshold Still Unmet; No Single Challenger Has Emerged</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-15-morning/niesr-reeves-s-22-billion-headroom/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-15T08:29:00+01:00</news:publication_date>
-      <news:title>NIESR: Reeves’s £22 Billion Headroom “Tiny”; Debt-to-GDP Heading to 100%</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-15-morning/markets-gilts-pared-slide-thursday-sterling/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-15T08:29:00+01:00</news:publication_date>
-      <news:title>Markets: Gilts Pared Slide on Thursday; Sterling Below $1.30</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-15-morning/reform-uk-greens-capitalise-local-election/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-15T08:29:00+01:00</news:publication_date>
-      <news:title>Reform UK and Greens Capitalise; Local-Election Aftermath Continues</news:title>
     </news:news>
   </url>
 </urlset>
