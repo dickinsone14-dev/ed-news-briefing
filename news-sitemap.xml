@@ -2,6 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-17-morning/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-17T08:15:00+01:00</news:publication_date>
+      <news:title>Morning Briefing — Sunday 17 May 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-17-morning/us-israel-renew-iran-war-next-week-nyt/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-17T08:15:00+01:00</news:publication_date>
+      <news:title>US and Israel Prep to Renew Iran War “Next Week” — NYT</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-17-morning/israel-strikes-south-lebanon-saturday-post-ceasefire/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-17T08:15:00+01:00</news:publication_date>
+      <news:title>Israeli Strikes on South Lebanon Continue After Ceasefire Extension</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-17-morning/hamas-al-haddad-killed-gaza-strike-october-7-architect/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-17T08:15:00+01:00</news:publication_date>
+      <news:title>Hamas Military Chief Al-Haddad Killed in Gaza Strike, Confirmed</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-17-morning/isw-gerasimov-false-claims-kupyansk-294-drones/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-17T08:15:00+01:00</news:publication_date>
+      <news:title>ISW: Gerasimov Making False Kupyansk Claims; 294 Drones at Ukraine Overnight</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-17-morning/pakistan-iran-repatriate-vessels-back-channel-diplomacy/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-17T08:15:00+01:00</news:publication_date>
+      <news:title>Pakistan, Iran Repatriate Vessel Crews as Back-Channel Talks Continue</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-17-morning/sunday-papers-burnham-streeting-rejoin-eu/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-17T08:15:00+01:00</news:publication_date>
+      <news:title>Sunday Papers: Burnham and Streeting Want to Rejoin the EU</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-17-morning/nandy-joins-burnham-campaign-trail-cabinet-minister/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-17T08:15:00+01:00</news:publication_date>
+      <news:title>Nandy Breaks Ranks: First Cabinet Minister to Join Burnham Campaign</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-17-morning/burnham-nationalisation-channel-4-vision/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-17T08:15:00+01:00</news:publication_date>
+      <news:title>Burnham on Channel 4: “Completely Different Path”, Mass Nationalisation</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-17-morning/reform-tory-backlash-burnham-streeting-eu-position/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-17T08:15:00+01:00</news:publication_date>
+      <news:title>Farage: “Open Borders Burnham”; Tory Chair Attacks “Re-litigate Brexit”</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-17-morning/starmer-told-allies-intends-stand-down-departure-timetable/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-17T08:15:00+01:00</news:publication_date>
+      <news:title>Mail On Sunday: Starmer Tells Allies He Intends to Stand Down</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-05-16-evening/</loc>
     <news:news>
       <news:publication>
