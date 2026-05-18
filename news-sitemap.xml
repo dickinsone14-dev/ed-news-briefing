@@ -2,6 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-18-morning/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-18T08:15:00+01:00</news:publication_date>
+      <news:title>Morning Briefing — Monday 18 May 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-18-morning/isw-barakah-likely-iranian-iranian-backed-strike/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-18T08:15:00+01:00</news:publication_date>
+      <news:title>ISW: Barakah Drone Strike “Likely” Iranian; Tehran Tries to Blame Riyadh</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-18-morning/katz-israel-awaiting-green-light-renew-iran-war/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-18T08:15:00+01:00</news:publication_date>
+      <news:title>Katz: Israel “Awaiting Green Light” to Renew Iran War, “Targets are Marked”</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-18-morning/us-iran-five-conditions-incompatible-positions/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-18T08:15:00+01:00</news:publication_date>
+      <news:title>US Tables Five Conditions to Tehran; ISW: Positions “Fundamentally Incompatible”</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-18-morning/nyt-second-israeli-outpost-iraq-desert/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-18T08:15:00+01:00</news:publication_date>
+      <news:title>NYT: Iraqi Officials Confirm Second Israeli Outpost in Iraqi Desert</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-18-morning/ukraine-biggest-moscow-drone-attack-year/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-18T08:15:00+01:00</news:publication_date>
+      <news:title>Ukraine Hits Moscow with Biggest Drone Attack in Over a Year; Four Dead</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-18-morning/lammy-no-timetable-departure-sky-news/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-18T08:15:00+01:00</news:publication_date>
+      <news:title>Lammy on Sky: “No Timetable for Departure”; Starmer Will Stay</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-18-morning/burnham-retreats-rejoin-eu-makerfield-local/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-18T08:15:00+01:00</news:publication_date>
+      <news:title>Telegraph: Burnham Retreats on EU Rejoin; “Local Issues” in Makerfield</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-18-morning/times-burnham-allies-streeting-sabotage/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-18T08:15:00+01:00</news:publication_date>
+      <news:title>Times: Burnham Allies Accuse Streeting of “Sabotage”</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-18-morning/guardian-burnham-perilous-race-makerfield/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-18T08:15:00+01:00</news:publication_date>
+      <news:title>Guardian: Burnham Faces “Perilous” Race in Makerfield</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-18-morning/ft-who-declares-ebola-emergency-drc/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-18T08:15:00+01:00</news:publication_date>
+      <news:title>FT: WHO Declares Ebola Public Health Emergency Over DRC Outbreak</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-05-17-evening/</loc>
     <news:news>
       <news:publication>
