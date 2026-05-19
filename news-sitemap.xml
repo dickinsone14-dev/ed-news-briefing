@@ -2,6 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-19-morning/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-19T08:15:00+01:00</news:publication_date>
+      <news:title>Morning Briefing — Tuesday 19 May 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-19-morning/trump-cancels-iran-strike-gulf-leaders-request/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-19T08:15:00+01:00</news:publication_date>
+      <news:title>Trump Cancels Iran Strike at Gulf Leaders’ Request; “Two or Three Days”</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-19-morning/isw-iran-counterproposal-insufficient-enrichment/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-19T08:15:00+01:00</news:publication_date>
+      <news:title>ISW: Iran’s Counterproposal “Does Not Meet” US Demands on Enrichment</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-19-morning/iran-persian-gulf-strait-authority-hormuz-cables/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-19T08:15:00+01:00</news:publication_date>
+      <news:title>Iran Establishes Persian Gulf Strait Authority; Threatens Hormuz Subsea Cables</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-19-morning/isw-russia-546-drones-missiles-overnight/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-19T08:15:00+01:00</news:publication_date>
+      <news:title>Russia Hits Ukraine with 546 Drones and Missiles; Belarus-Russia Begin Nuclear Drills</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-19-morning/zelensky-szru-russian-banks-liquidate-oil-wells/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-19T08:15:00+01:00</news:publication_date>
+      <news:title>Zelensky/SZRU: 11 Russian Banks Preparing to Liquidate; 400 Oil Wells Closed</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-19-morning/times-yougov-burnham-59-percent-vs-starmer-37/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-19T08:15:00+01:00</news:publication_date>
+      <news:title>The Times/YouGov: Burnham 59%, Starmer 37% in Head-to-Head Members’ Ballot</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-19-morning/ft-burnham-tries-ease-markets-fiscal-rules/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-19T08:15:00+01:00</news:publication_date>
+      <news:title>FT: Burnham Tries to Ease Markets; Won’t “Rip Up Fiscal Rules”</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-19-morning/telegraph-starmer-sabotages-burnham-brexit/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-19T08:15:00+01:00</news:publication_date>
+      <news:title>Telegraph: “Starmer Sabotages Burnham” on Brexit; Rejoin Prospect Raised</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-19-morning/mirror-starmer-defiant-i-wont-walk-away/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-19T08:15:00+01:00</news:publication_date>
+      <news:title>Mirror: Starmer’s “Defiant Message”; “I Won’t Walk Away”</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-19-morning/i-paper-hs2-cost-more-than-nasa-artemis-moon/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-19T08:15:00+01:00</news:publication_date>
+      <news:title>i Paper: HS2 to Cost More than NASA’s Artemis Moon Mission</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-05-18-evening/</loc>
     <news:news>
       <news:publication>
