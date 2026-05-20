@@ -3,7 +3,7 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
     <loc>https://thedailybrief.co.uk/</loc>
-    <lastmod>2026-05-19</lastmod>
+    <lastmod>2026-05-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -1264,6 +1264,72 @@
   <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-05-19-morning/zelensky-szru-russian-banks-liquidate-oil-wells/</loc>
     <lastmod>2026-05-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-20-morning/</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-20-morning/burnham-confirmed-makerfield-labour-candidate/</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-20-morning/hs2-102bn-confirmed-2039-opening/</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-20-morning/isw-iran-oil-storage-crisis-aging-tankers-kharg/</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-20-morning/lammy-age-criminal-responsibility-10-to-14/</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-20-morning/nato-hormuz-ship-escort-plan-july/</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-20-morning/nyt-iran-studied-us-fighter-flight-patterns/</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-20-morning/reform-kenyon-plucky-plumber-makerfield/</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-20-morning/reuters-chinese-tankers-exit-hormuz-trump-vance/</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-20-morning/telegraph-reeves-supermarket-price-caps/</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-20-morning/trump-hour-away-strike-iran-begging-deal/</loc>
+    <lastmod>2026-05-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
