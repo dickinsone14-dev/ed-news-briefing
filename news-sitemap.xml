@@ -2,6 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-22-morning/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-22T08:15:00+01:00</news:publication_date>
+      <news:title>Morning Briefing — Friday 22 May 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-22-morning/reuters-khamenei-uranium-must-stay-iran-directive/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-22T08:15:00+01:00</news:publication_date>
+      <news:title>Reuters: Khamenei Directive; Uranium “Should Not Leave the Country”</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-22-morning/reuters-trump-will-get-uranium-hormuz-international-waterway/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-22T08:15:00+01:00</news:publication_date>
+      <news:title>Reuters: Trump “We Will Get It”; Hormuz “International Waterway”</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-22-morning/reuters-rubio-hormuz-tolls-deal-unfeasible-completely-illegal/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-22T08:15:00+01:00</news:publication_date>
+      <news:title>Reuters: Rubio “Hormuz Tolls Make Deal Unfeasible”; “Completely Illegal”</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-22-morning/isw-iran-hormuz-mafia-protection-racket-91-vessels/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-22T08:15:00+01:00</news:publication_date>
+      <news:title>ISW: Iran “Mafia-Esque Protection Racket”; $150,000 Per-Transit Fee</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-22-morning/reuters-india-stranded-ships-gulf-13-flagged-vessels/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-22T08:15:00+01:00</news:publication_date>
+      <news:title>Reuters: India Won’t Send More Tankers Until 13 Stranded Ships Return</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-22-morning/bbc-uk-net-migration-171000-lowest-covid-pandemic/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-22T08:15:00+01:00</news:publication_date>
+      <news:title>BBC: UK Net Migration 171,000; Lowest Non-Pandemic Figure Since 2012</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-22-morning/bbc-burnham-net-migration-needs-fall-further-trend-significantly-down/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-22T08:15:00+01:00</news:publication_date>
+      <news:title>Burnham (BBC): Net Migration “Needs to Fall Further”; Trend “Significantly Down”</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-22-morning/guardian-khan-blocks-met-palantir-50m-contract-procurement/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-22T08:15:00+01:00</news:publication_date>
+      <news:title>Guardian: Khan Blocks Met-Palantir £50m; “Clear and Serious Breach”</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-22-morning/guardian-palantir-hits-back-khan-politics-public-safety/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-22T08:15:00+01:00</news:publication_date>
+      <news:title>Guardian: Palantir Hits Back; Accuses Khan of “Politics Above Public Safety”</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-22-morning/bbc-andrew-mountbatten-windsor-trade-envoy-files-released/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-22T08:15:00+01:00</news:publication_date>
+      <news:title>BBC: Andrew Trade Envoy Files Released; Queen “Very Keen”</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-05-21-evening/</loc>
     <news:news>
       <news:publication>
@@ -241,248 +362,6 @@
       </news:publication>
       <news:publication_date>2026-05-20T18:30:00+01:00</news:publication_date>
       <news:title>Reeves Thursday: Cost-of-Living Package Details; Iran War Funding Question</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-20-morning/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-20T08:15:00+01:00</news:publication_date>
-      <news:title>Morning Briefing — Wednesday 20 May 2026</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-20-morning/reuters-chinese-tankers-exit-hormuz-trump-vance/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-20T08:15:00+01:00</news:publication_date>
-      <news:title>Reuters: Chinese Tankers Exit Hormuz with 4m Barrels; Trump-Vance Talk Up Deal</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-20-morning/trump-hour-away-strike-iran-begging-deal/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-20T08:15:00+01:00</news:publication_date>
-      <news:title>Trump: “An Hour Away” from Strike; Iran Leaders “Begging for a Deal”</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-20-morning/isw-iran-oil-storage-crisis-aging-tankers-kharg/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-20T08:15:00+01:00</news:publication_date>
-      <news:title>ISW: Iran Storing Oil on Aging Tankers; 42m Barrels Around Kharg, Chabahar</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-20-morning/nato-hormuz-ship-escort-plan-july/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-20T08:15:00+01:00</news:publication_date>
-      <news:title>Bloomberg: NATO Considers Hormuz Ship Escort Plan from Early July</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-20-morning/nyt-iran-studied-us-fighter-flight-patterns/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-20T08:15:00+01:00</news:publication_date>
-      <news:title>NYT: Iran Studied US Fighter-Jet Flight Patterns; Russia Likely Assisted</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-20-morning/telegraph-reeves-supermarket-price-caps/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-20T08:15:00+01:00</news:publication_date>
-      <news:title>Reeves Urges Supermarkets to Cap Food Prices; SNP Pledges Devolved Caps</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-20-morning/burnham-confirmed-makerfield-labour-candidate/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-20T08:15:00+01:00</news:publication_date>
-      <news:title>Burnham Confirmed as Labour’s Makerfield Candidate; 18 June Vote</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-20-morning/hs2-102bn-confirmed-2039-opening/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-20T08:15:00+01:00</news:publication_date>
-      <news:title>HS2: £87.7-£102.7bn Cost Confirmed; Opening 2036-2039</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-20-morning/reform-kenyon-plucky-plumber-makerfield/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-20T08:15:00+01:00</news:publication_date>
-      <news:title>Reform’s Kenyon: “Stepping Stone” Charge vs Burnham’s “Cambridge” Bio</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-20-morning/lammy-age-criminal-responsibility-10-to-14/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-20T08:15:00+01:00</news:publication_date>
-      <news:title>Lammy: Raise Age of Criminal Responsibility 10 to 14?</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-19-evening/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-19T18:30:00+01:00</news:publication_date>
-      <news:title>Evening Briefing — Tuesday 19 May 2026</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-19-evening/jpost-iran-hundreds-missiles-day-war-renews/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-19T18:30:00+01:00</news:publication_date>
-      <news:title>JPost/NYT: Iran Could Fire “Hundreds of Missiles a Day” if War Renews</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-19-evening/qeshm-island-explosions-iran-strait-hormuz/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-19T18:30:00+01:00</news:publication_date>
-      <news:title>Iran: Explosions on Qeshm Island in Strait of Hormuz; Cause Unknown</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-19-evening/trump-truth-social-cancellation-context/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-19T18:30:00+01:00</news:publication_date>
-      <news:title>Trump: “No Nuclear Weapons for Iran”; Hegseth + Caine Stand Ready</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-19-evening/iran-pgsa-hormuz-cables-formalisation/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-19T18:30:00+01:00</news:publication_date>
-      <news:title>Iran: 1,500 Vessels Waiting for Hormuz Permission; Cables Threat Continues</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-19-evening/russia-546-drones-ukraine-belarus-nuclear/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-19T18:30:00+01:00</news:publication_date>
-      <news:title>Russia Hits Ukraine with 546 Drones, Missiles; Belarus-Russia Begin Nuclear Drills</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-19-evening/burnham-confirmed-labour-makerfield-candidate/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-19T18:30:00+01:00</news:publication_date>
-      <news:title>Burnham Confirmed as Labour’s Makerfield Candidate; 18 June Vote</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-19-evening/reform-kenyon-plucky-plumber-makerfield/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-19T18:30:00+01:00</news:publication_date>
-      <news:title>Reform Unveils “Plucky Plumber” Kenyon; Farage Frames David vs Goliath</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-19-evening/hs2-cost-102bn-2039-opening-alexander-review/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-19T18:30:00+01:00</news:publication_date>
-      <news:title>HS2: £87.7-£102.7bn Cost, Opening Pushed to 2036-2039</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-19-evening/alexander-im-angry-litany-failure-quote/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-19T18:30:00+01:00</news:publication_date>
-      <news:title>Alexander: “I’m Angry”; “Litany of Failure” Inherited from Tories</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-19-evening/lammy-age-criminal-responsibility-raise-10-14/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-19T18:30:00+01:00</news:publication_date>
-      <news:title>Lammy: Raise Age of Criminal Responsibility from 10 to 14?</news:title>
     </news:news>
   </url>
 </urlset>
