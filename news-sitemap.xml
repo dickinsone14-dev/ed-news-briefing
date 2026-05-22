@@ -2,6 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-22-evening/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-22T18:30:00+01:00</news:publication_date>
+      <news:title>Evening Briefing — Friday 22 May 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-22-evening/reuters-pakistan-naqvi-araghchi-tehran-second-talks/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-22T18:30:00+01:00</news:publication_date>
+      <news:title>Reuters: Pakistan’s Naqvi Meets Araghchi Again in Tehran; Framework Talks</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-22-evening/reuters-third-qatari-lng-tanker-hormuz-china-al-sahla/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-22T18:30:00+01:00</news:publication_date>
+      <news:title>Reuters: Third Qatari LNG Tanker Through Hormuz to China; Al Sahla En Route</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-22-evening/isw-iran-may21-pakistan-qatar-memo-iran-oman-hormuz-toll/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-22T18:30:00+01:00</news:publication_date>
+      <news:title>ISW: Pakistan-Qatar Revised Memo; Iran-Oman Discussing Permanent Hormuz Toll</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-22-evening/reuters-khamenei-uranium-stay-iran-recap-position-hardened/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-22T18:30:00+01:00</news:publication_date>
+      <news:title>Reuters: Khamenei Directive Hardens Tehran’s Negotiating Position</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-22-evening/isw-ukraine-strikes-syzran-russia-belarus-nuclear-exercise-concludes/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-22T18:30:00+01:00</news:publication_date>
+      <news:title>ISW: Ukraine Strikes Syzran Refinery; Russia-Belarus Nuclear Exercise Concludes</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-22-evening/guardian-burnham-makerfield-launch-thinly-veiled-no-10-pitch/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-22T18:30:00+01:00</news:publication_date>
+      <news:title>Guardian: Burnham “Change By-election”; Thinly Veiled Pitch for No 10</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-22-evening/bbc-burnham-migration-needs-fall-further-doorstep-concerns/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-22T18:30:00+01:00</news:publication_date>
+      <news:title>BBC: Burnham — “Trend Significantly Down”; Migration “Needs to Fall Further”</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-22-evening/thetimes-mahmood-immigration-success-story-editorial/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-22T18:30:00+01:00</news:publication_date>
+      <news:title>The Times Editorial: Mahmood’s Migration “Success Story”; Burnham “Rowed Back”</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-22-evening/bbc-starmer-campaign-burnham-makerfield-100-percent-behind/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-22T18:30:00+01:00</news:publication_date>
+      <news:title>BBC: Starmer Says “100% Behind” Burnham; Will Campaign in Makerfield</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-22-evening/guardian-burnham-backs-mahmood-immigration-changes-allies/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-22T18:30:00+01:00</news:publication_date>
+      <news:title>Guardian: Burnham Backs Mahmood Immigration Changes; Soft-Left Allies Run Campaign</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-05-22-morning/</loc>
     <news:news>
       <news:publication>
