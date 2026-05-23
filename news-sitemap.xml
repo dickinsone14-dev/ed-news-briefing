@@ -2,6 +2,116 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-23-evening/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-23T18:30:00+01:00</news:publication_date>
+      <news:title>Evening Briefing — Saturday 23 May 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-23-evening/reuters-qalibaf-no-compromise-more-crushing-warning-munir/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-23T18:30:00+01:00</news:publication_date>
+      <news:title>Reuters: Qalibaf to Munir — “Will Not Compromise”; US “Not Honest Party”</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-23-evening/reuters-pakistan-army-encouraging-progress-baghaei-30-60-days/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-23T18:30:00+01:00</news:publication_date>
+      <news:title>Reuters: Pakistan Army “Encouraging Progress”; Baghaei — Framework in 30-60 Days</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-23-evening/isw-iran-information-operation-hormuz-security-service-150k-2m-fees/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-23T18:30:00+01:00</news:publication_date>
+      <news:title>ISW: Iran “Information Operation”; Vessels Paying $150K-$2M for Hormuz Transit</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-23-evening/isw-five-gulf-states-uae-joint-imo-statement-dangerous-precedent/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-23T18:30:00+01:00</news:publication_date>
+      <news:title>ISW: Five Gulf States Joint IMO Statement; “Dangerous Precedent”</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-23-evening/aljazeera-france-unsc-resolution-hormuz-international-mission-russia-china-veto/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-23T18:30:00+01:00</news:publication_date>
+      <news:title>Al Jazeera: France Drafts UNSC Resolution for International Hormuz Mission</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-23-evening/independent-first-weekend-makerfield-campaigning-burnham-change-labour/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-23T18:30:00+01:00</news:publication_date>
+      <news:title>Independent: First Weekend of Makerfield Campaigning Begins</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-23-evening/independent-streeting-mirror-numbers-including-ministers-pull-fast-one/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-23T18:30:00+01:00</news:publication_date>
+      <news:title>Independent: Streeting’s Mirror Interview — “Numbers Including Ministers”</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-23-evening/independent-burnham-pr-council-tax-reform-honour-manifestos-radical/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-23T18:30:00+01:00</news:publication_date>
+      <news:title>Independent: Burnham — PR + Council Tax Reform; “Honour Manifestos”</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-23-evening/bbc-starmer-100-percent-behind-burnham-makerfield-recap/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-23T18:30:00+01:00</news:publication_date>
+      <news:title>BBC: Starmer Says “100% Behind” Burnham; Will Campaign in Makerfield</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-05-23-morning/</loc>
     <news:news>
       <news:publication>
