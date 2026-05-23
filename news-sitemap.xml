@@ -2,6 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-23-morning/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-23T08:15:00+01:00</news:publication_date>
+      <news:title>Morning Briefing — Saturday 23 May 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-23-morning/reuters-munir-tehran-pakistan-defence-chief-mediation/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-23T08:15:00+01:00</news:publication_date>
+      <news:title>Reuters: Pakistan Defence Chief Munir Arrives Tehran; Mediation Enters Decisive Phase</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-23-morning/reuters-iran-baghaei-deep-extensive-differences/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-23T08:15:00+01:00</news:publication_date>
+      <news:title>Reuters: Iran’s Baghaei — “Deep and Extensive Differences Remain”; Hopes Tempered</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-23-morning/isw-iran-hormuz-35-vessels-permits-rejection/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-23T08:15:00+01:00</news:publication_date>
+      <news:title>ISW: IRGC Says 35 Vessels Obtained “Permits”; Gulf States + IMO Reject</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-23-morning/ap-un-npt-review-conference-concludes-without-agreement/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-23T08:15:00+01:00</news:publication_date>
+      <news:title>AP: UN Non-Proliferation Treaty Conference Concludes Without Agreement</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-23-morning/reuters-third-qatari-lng-tanker-hormuz-china/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-23T08:15:00+01:00</news:publication_date>
+      <news:title>Reuters: Third Qatari LNG Tanker Through Hormuz to China; First to Beijing-Direct</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-23-morning/guardian-reeves-chancellor-rearguard-burnham-miliband/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-23T08:15:00+01:00</news:publication_date>
+      <news:title>Guardian: Reeves Rearguard; Allies Warn Bond Markets Would Reject Miliband</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-23-morning/guardian-burnham-makerfield-launch-thinly-veiled-no-10/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-23T08:15:00+01:00</news:publication_date>
+      <news:title>Guardian: Burnham “Change By-election”; Thinly Veiled No 10 Pitch</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-23-morning/bbc-burnham-migration-trend-down-fall-further/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-23T08:15:00+01:00</news:publication_date>
+      <news:title>BBC: Burnham — Migration “Needs to Fall Further”; Doorstep Concerns</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-23-morning/bbc-starmer-100-percent-campaign-burnham-makerfield/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-23T08:15:00+01:00</news:publication_date>
+      <news:title>BBC: Starmer Says “100% Behind” Burnham; Will Campaign in Makerfield</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-23-morning/thetimes-mahmood-immigration-success-story-editorial-recap/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-23T08:15:00+01:00</news:publication_date>
+      <news:title>Times Editorial: Mahmood’s Migration “Success Story”; Burnham “Rowed Back”</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-05-22-evening/</loc>
     <news:news>
       <news:publication>
@@ -362,127 +483,6 @@
       </news:publication>
       <news:publication_date>2026-05-21T18:30:00+01:00</news:publication_date>
       <news:title>Conservatives: Reeves Package “Sticking Plaster”; Mileage Welcomed</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-20-evening/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-20T18:30:00+01:00</news:publication_date>
-      <news:title>Evening Briefing — Wednesday 20 May 2026</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-20-evening/vance-progress-iran-talks-pretty-good-spot/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-20T18:30:00+01:00</news:publication_date>
-      <news:title>Vance: “A Lot of Progress” in Iran Talks; Neither Side Wants Resumption</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-20-evening/chinese-tankers-exit-hormuz-4m-barrels-wednesday/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-20T18:30:00+01:00</news:publication_date>
-      <news:title>Two Chinese Supertankers Exit Hormuz with 4m Barrels of Crude</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-20-evening/iran-tehran-proposal-terms-reparations-sanctions/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-20T18:30:00+01:00</news:publication_date>
-      <news:title>Iran Proposal Terms: Reparations, US Troop Exit, Sanctions Lifted</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-20-evening/us-seized-skywave-iran-oil-tanker-indian-ocean/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-20T18:30:00+01:00</news:publication_date>
-      <news:title>WSJ: US Seized Iran-Linked Tanker Skywave in Indian Ocean</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-20-evening/hezbollah-fpv-drones-iron-dome-northern-israel/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-20T18:30:00+01:00</news:publication_date>
-      <news:title>ISW: Hezbollah’s FPV Drones Now Cause Majority of IDF Deaths in Lebanon</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-20-evening/starmer-pmqs-fuel-duty-freeze-haulier-tax-holiday/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-20T18:30:00+01:00</news:publication_date>
-      <news:title>Starmer at PMQs: 5p Fuel Duty Freeze Extended; Haulier Tax Holiday</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-20-evening/ft-reeves-drops-food-price-cap-retail-backlash/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-20T18:30:00+01:00</news:publication_date>
-      <news:title>FT: Reeves Drops Food Price Cap Push After Retail Backlash</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-20-evening/burnham-itv-100-percent-understand-step-down-starmer/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-20T18:30:00+01:00</news:publication_date>
-      <news:title>Burnham to ITV: “100%” Understand Why People Want Starmer to Step Down</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-20-evening/badenoch-pmqs-u-turn-cries-labour-mps/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-20T18:30:00+01:00</news:publication_date>
-      <news:title>Badenoch: “U-Turn”; Starmer Eurovision/FA Cup Final Riposte</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-20-evening/reeves-thursday-cost-of-living-package-detail/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-20T18:30:00+01:00</news:publication_date>
-      <news:title>Reeves Thursday: Cost-of-Living Package Details; Iran War Funding Question</news:title>
     </news:news>
   </url>
 </urlset>
