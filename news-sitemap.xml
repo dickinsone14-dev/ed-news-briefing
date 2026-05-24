@@ -2,6 +2,116 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-24-morning/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-24T08:15:00+01:00</news:publication_date>
+      <news:title>Morning Briefing — Sunday 24 May 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-24-morning/trump-iran-deal-largely-negotiated-truth-social/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-24T08:15:00+01:00</news:publication_date>
+      <news:title>Trump — Iran Deal “Largely Negotiated”; Hormuz Reopening Claimed</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-24-morning/iran-fars-hormuz-claim-inconsistent-with-reality/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-24T08:15:00+01:00</news:publication_date>
+      <news:title>Iran’s Fars — Trump’s Hormuz Reopening Claim “Inconsistent With Reality”</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-24-morning/iran-pakistan-revised-proposal-fairly-comprehensive-us-response-sunday/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-24T08:15:00+01:00</news:publication_date>
+      <news:title>Iran and Pakistan Submit Revised Proposal; US Response Expected Today</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-24-morning/three-stage-framework-end-war-hormuz-thirty-day-window/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-24T08:15:00+01:00</news:publication_date>
+      <news:title>Three-Stage Framework — End War, Resolve Hormuz, 30-Day Window</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-24-morning/isw-iran-counterproposal-frontloads-demands-believes-winning-war/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-24T08:15:00+01:00</news:publication_date>
+      <news:title>Iran’s Counterproposal Frontloads Demands; “Regime Believes It Is Winning”</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-24-morning/burnham-wealth-tax-abolish-inheritance-tax-social-care-levy/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-24T08:15:00+01:00</news:publication_date>
+      <news:title>Burnham — Open to Wealth Tax; Abolish IHT, Replace with Social Care Levy</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-24-morning/reeves-rearguard-allies-warn-bond-markets-reject-miliband/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-24T08:15:00+01:00</news:publication_date>
+      <news:title>Reeves Rearguard Continues — Allies Warn Bond Markets Reject Miliband</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-24-morning/operation-save-starmer-burnham-not-nailed-on-streeting-failed-numbers/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-24T08:15:00+01:00</news:publication_date>
+      <news:title>“Operation Save Starmer” — Burnham Not “Nailed On”; Streeting Failed to Get Numbers</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-24-morning/bbc-laura-kuenssberg-sunday-show-can-starmer-survive-25-may/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-24T08:15:00+01:00</news:publication_date>
+      <news:title>Sunday Politics — “Can Starmer Survive?” Question Dominates Morning Shows</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-05-23-evening/</loc>
     <news:news>
       <news:publication>
@@ -351,127 +461,6 @@
       </news:publication>
       <news:publication_date>2026-05-22T18:30:00+01:00</news:publication_date>
       <news:title>Burnham Backs Mahmood Immigration Changes; Soft-Left Allies Run Campaign</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-22-morning/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-22T08:15:00+01:00</news:publication_date>
-      <news:title>Morning Briefing — Friday 22 May 2026</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-22-morning/reuters-khamenei-uranium-must-stay-iran-directive/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-22T08:15:00+01:00</news:publication_date>
-      <news:title>Khamenei Directive; Uranium “Should Not Leave the Country”</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-22-morning/reuters-trump-will-get-uranium-hormuz-international-waterway/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-22T08:15:00+01:00</news:publication_date>
-      <news:title>Trump “We Will Get It”; Hormuz “International Waterway”</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-22-morning/reuters-rubio-hormuz-tolls-deal-unfeasible-completely-illegal/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-22T08:15:00+01:00</news:publication_date>
-      <news:title>Rubio “Hormuz Tolls Make Deal Unfeasible”; “Completely Illegal”</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-22-morning/isw-iran-hormuz-mafia-protection-racket-91-vessels/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-22T08:15:00+01:00</news:publication_date>
-      <news:title>Iran “Mafia-Esque Protection Racket”; $150,000 Per-Transit Fee</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-22-morning/reuters-india-stranded-ships-gulf-13-flagged-vessels/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-22T08:15:00+01:00</news:publication_date>
-      <news:title>India Won’t Send More Tankers Until 13 Stranded Ships Return</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-22-morning/bbc-uk-net-migration-171000-lowest-covid-pandemic/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-22T08:15:00+01:00</news:publication_date>
-      <news:title>UK Net Migration 171,000; Lowest Non-Pandemic Figure Since 2012</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-22-morning/bbc-burnham-net-migration-needs-fall-further-trend-significantly-down/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-22T08:15:00+01:00</news:publication_date>
-      <news:title>Burnham (BBC): Net Migration “Needs to Fall Further”; Trend “Significantly Down”</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-22-morning/guardian-khan-blocks-met-palantir-50m-contract-procurement/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-22T08:15:00+01:00</news:publication_date>
-      <news:title>Khan Blocks Met-Palantir £50m; “Clear and Serious Breach”</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-22-morning/guardian-palantir-hits-back-khan-politics-public-safety/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-22T08:15:00+01:00</news:publication_date>
-      <news:title>Palantir Hits Back; Accuses Khan of “Politics Above Public Safety”</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-22-morning/bbc-andrew-mountbatten-windsor-trade-envoy-files-released/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-22T08:15:00+01:00</news:publication_date>
-      <news:title>Andrew Trade Envoy Files Released; Queen “Very Keen”</news:title>
     </news:news>
   </url>
 </urlset>
