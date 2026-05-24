@@ -2,6 +2,116 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-24-evening/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-24T18:30:00+01:00</news:publication_date>
+      <news:title>Evening Briefing — Sunday 24 May 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-24-evening/ap-us-iran-deal-60-day-hormuz-uranium-sanctions-waivers/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-24T18:30:00+01:00</news:publication_date>
+      <news:title>US-Iran Deal Details — 60-Day Hormuz Reopening, Sanctions Waivers, Uranium Dispute</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-24-evening/iran-source-denies-uranium-handover-military-spokesman-hormuz-control/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-24T18:30:00+01:00</news:publication_date>
+      <news:title>Iran Denies Uranium Handover; Military — “Iran Will Continue to Control” Strait</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-24-evening/rubio-significant-progress-not-final-pezeshkian-utmost-caution/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-24T18:30:00+01:00</news:publication_date>
+      <news:title>Rubio — “Significant Progress, Not Final”; Pezeshkian Urges “Utmost Caution”</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-24-evening/pakistan-sharif-munir-iran-visit-mediation-pressure/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-24T18:30:00+01:00</news:publication_date>
+      <news:title>Pakistan’s Sharif and Munir Push Iran Toward Deal in Tehran Visit</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-24-evening/isw-iran-stalling-stranglehold-must-end-by-deal-or-force/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-24T18:30:00+01:00</news:publication_date>
+      <news:title>Iran “Stalling” to Normalise Hormuz Control; “Deal or Force” the Binary Choice</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-24-evening/sunday-with-kuenssberg-leadership-question-airs-bbc-one/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-24T18:30:00+01:00</news:publication_date>
+      <news:title>Sunday Political Shows — Leadership Question Dominates; Kuenssberg Airs 09:00</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-24-evening/burnham-care-levy-inheritance-tax-mirror-launch-detail/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-24T18:30:00+01:00</news:publication_date>
+      <news:title>Burnham — “Great Resentment” About IHT; Care Levy to “Save NHS”</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-24-evening/operation-save-starmer-economy-2-8-inflation-bank-rates-lower/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-24T18:30:00+01:00</news:publication_date>
+      <news:title>“Operation Save Starmer” — Economy + Inflation Tailwinds; Bank Rates on Downward Path</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-24-evening/bbc-radio-manchester-burnham-makerfield-interview-series/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-24T18:30:00+01:00</news:publication_date>
+      <news:title>BBC Radio Manchester — Makerfield Candidates Series Underway</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-05-24-morning/</loc>
     <news:news>
       <news:publication>
