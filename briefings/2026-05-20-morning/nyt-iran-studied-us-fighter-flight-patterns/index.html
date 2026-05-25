@@ -1952,11 +1952,11 @@
  - Hard expiry at 24h from "posted" (or at "expires" if set) — banner comes down
  - Optional "expires" field overrides the 8h default (e.g. for major events)
  To add a new breaking story, prepend an entry here with the current ISO timestamp. -->
- <script id="breaking-stories" type="application/json">[{"headline": "Russia fires Oreshnik hypersonic missile in massive Kyiv barrage — 4 killed, 80+ wounded — 18:34 BST", "posted": "2026-05-24T18:34:00+01:00", "category": "GEOPOLITICAL", "summary": "Russia launched one of the heaviest bombardments of Kyiv since the war began on Sunday, firing a nuclear-capable Oreshnik hypersonic missile alongside 600 drones and 90 missiles in retaliation for Friday's Ukrainian strike on Starobilsk. Ukrainian officials say at least four people were killed and more than 80 wounded; Ukraine's Foreign Ministry building was damaged and the historic Independence Square hit. President Zelenskyy said the Oreshnik struck Bila Tserkva, a city of 200,000 about 64km from Kyiv — the third combat use of the nuclear-capable missile in the four-year war.", "facts": [{"label": "Drones launched", "value": "600"}, {"label": "Missiles launched", "value": "90 (air-, sea- and ground-launched)"}, {"label": "Casualties", "value": "4 killed, 80+ wounded; 40 damage sites across Kyiv"}, {"label": "Oreshnik", "value": "3rd combat use; nuclear-capable, range several thousand km"}]}]</script>
- <div class="breaking-banner" id="breakingBanner">
+ <script id="breaking-stories" type="application/json">[]</script>
+ <div class="breaking-banner" id="breakingBanner" style="display:none">
  <div class="breaking-inner">
  <span class="breaking-label">BREAKING</span>
- <span class="breaking-text" id="breakingText">Russia fires Oreshnik hypersonic missile in massive Kyiv barrage — 4 killed, 80+ wounded — 18:34 BST</span>
+ <span class="breaking-text" id="breakingText"></span>
  <span class="breaking-readmore" id="breakingReadmore">Read more</span>
  <button class="breaking-dismiss" id="breakingDismiss">&times;</button>
  </div>
@@ -2045,7 +2045,7 @@
 
  <!-- #1 Markets snapshot bar -->
  <!-- Embedded market data (populated by update script, used as fallback) -->
- <script id="embedded-markets" type="application/json">{"FTSE":{"price":8338,"change":0.14},"SP":{"price":5334,"change":0.15},"Brent":{"price":102.30,"change":-0.49},"GBP":{"price":1.3405,"change":0.04},"Gold":{"price":4836,"change":-0.04},"EURGBP":{"price":0.8915,"change":-0.01},"Gilt":{"price":5.02,"change":0.00},"VIX":{"price":26.25,"change":0.00},"BTC":{"price":81120,"change":0.25},"UST":{"price":4.30,"change":0.00},"ts":"2026-05-24T18:30:00+01:00"}</script>
+ <script id="embedded-markets" type="application/json">{"FTSE":{"price":8338,"change":0.14},"SP":{"price":5334,"change":0.15},"Brent":{"price":102.30,"change":-0.49},"GBP":{"price":1.3405,"change":0.04},"Gold":{"price":4836,"change":-0.04},"EURGBP":{"price":0.8915,"change":-0.01},"Gilt":{"price":5.02,"change":0.00},"VIX":{"price":26.25,"change":0.00},"BTC":{"price":81120,"change":0.25},"UST":{"price":4.30,"change":0.00},"ts":"2026-05-25T08:15:00+01:00"}</script>
  <script id="market-descriptions" type="application/json">{
     "FTSE": {
       "name": "FTSE 100",
@@ -2167,6 +2167,139 @@
  <!-- ════ ALL EDITIONS (sorted by JS) ════ -->
  <!-- IMPORTANT: Keep 7 FULL DAYS of editions in this container. Do NOT delete editions less than 7 days old. -->
  <div id="all-editions" style="display:none;">
+
+ <!-- ── MORNING 25 MAY (08:15) ── -->
+ <div class="curated-edition morning" data-date="2026-05-25" data-time="08:15" data-markets='{"FTSE":{"price":8338,"change":0.14},"SP":{"price":5334,"change":0.15},"Brent":{"price":102.30,"change":-0.49},"GBP":{"price":1.3405,"change":0.04},"Gold":{"price":4836,"change":-0.04},"EURGBP":{"price":0.8915,"change":-0.01},"Gilt":{"price":5.02,"change":0.00},"VIX":{"price":26.25,"change":0.00},"BTC":{"price":81120,"change":0.25},"UST":{"price":4.30,"change":0.00},"ts":"2026-05-25T08:15:00+01:00"}'>
+ <div class="edition-header">
+ <span class="edition-icon">&#9788;</span>
+ <h2>Morning Briefing</h2>
+ </div>
+ <div class="curated-meta">Monday 25 May 2026 &mdash; 08:15 BST</div>
+ <div class="impact-box">
+ <h3 class="impact-heading">What It Means For You</h3>
+ <ul class="impact-list">
+ <li>President Donald Trump tempered Saturday&rsquo;s &ldquo;largely negotiated&rdquo; framing on Sunday, posting on Truth Social that he had told US representatives &ldquo;not to rush into a deal&rdquo; with Iran. &ldquo;Time is on our side. The Blockade will remain in full force and effect until an agreement is reached, certified, and signed.&rdquo; A senior Trump administration official told reporters yesterday an agreement would not be signed Sunday, that Iran had agreed &ldquo;in principle&rdquo; to open the Strait of Hormuz in exchange for the US lifting its naval blockade, and to dispose of Tehran&rsquo;s highly enriched uranium &mdash; though there was no immediate Iranian confirmation of what &ldquo;in principle&rdquo; means.</li>
+ <li>The proposed framework now sequences first: reopen the Strait of Hormuz and lift the US naval blockade. Sanctions relief and the release of Iran&rsquo;s frozen funds happen only after the strait reopens and is fully functioning, US officials said. A 60-day window follows for nuclear-programme negotiations, including Iran&rsquo;s pledged commitment to never pursue a nuclear weapon and to enter negotiations on giving up its highly enriched uranium stockpile while pausing new enrichment. Brent settled at $102.30 at Friday&rsquo;s close; London opens this morning with the &ldquo;reached, certified, and signed&rdquo; framing as the dominant variable for European energy and gilt pricing.</li>
+ <li>Senior Starmer ally Darren Jones, Chief Secretary to the Treasury, warned Labour against &ldquo;fantasy politics&rdquo; on the BBC&rsquo;s Sunday with Laura Kuenssberg yesterday: there is no &ldquo;magic answer&rdquo; to the country&rsquo;s problems and &ldquo;Britain is poorer and weaker than it needs to be&rdquo;. Former Home Secretary Alan Johnson said Labour MPs would be &ldquo;daft&rdquo; to back an Andy Burnham leadership bid and that Burnham would have to call a snap general election if he became Prime Minister; Johnson said there is &ldquo;absolutely no case for Keir Starmer to step down&rdquo;. The Makerfield by-election is 18 June.</li>
+ </ul>
+ </div>
+ <div class="curated-grid">
+ <div class="curated-column">
+ <h3><span class="dot geo"></span><span class="dot-label">GEO</span> Geopolitical</h3>
+ <div>
+
+ <div class="curated-item" data-time="22:00" data-slug="trump-no-rush-time-on-our-side-blockade-stays-until-signed">
+ <h4>Trump &mdash; &ldquo;No Rush&rdquo;, &ldquo;Time On Our Side&rdquo;; Blockade Stays Until Signed</h4>
+ <p>President Donald Trump posted on Truth Social on Sunday: &ldquo;I have informed my representatives not to rush into a deal in that time is on our side.&rdquo; He added: &ldquo;The Blockade will remain in full force and effect until an agreement is reached, certified, and signed&hellip; Both sides must take their time and get it right. There can be no mistakes!&rdquo; The post tempered Saturday&rsquo;s &ldquo;largely negotiated&rdquo; framing by 24 hours and put the US naval blockade of Iranian ports back at the centre of the leverage calculation. Trump separately said: &ldquo;If I make a deal with Iran, it will be a good and proper one&hellip; So don&rsquo;t listen to the losers, who are critical about something they know nothing about.&rdquo;</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">Trump also said yesterday a possible Iran deal &ldquo;isn&rsquo;t even fully negotiated yet&rdquo;, and that any agreement would not give Iran &ldquo;a clear and open path to a Nuclear Weapon&rdquo;. He added that negotiations were &ldquo;proceeding in an orderly and constructive manner&rdquo; and the US relationship with Iran was becoming &ldquo;much more professional and productive&rdquo;. The Sunday pullback is the second major shift in 24 hours: Saturday night&rsquo;s social-media announcement raised global hopes; Sunday afternoon&rsquo;s &ldquo;don&rsquo;t rush&rdquo; framing reasserted US leverage. Brent crude held at $102.30 into the Friday close; markets re-open Monday with the question of whether the framework signs this week as the dominant variable for energy and rates pricing.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="20:00" data-slug="us-admin-official-iran-agreed-in-principle-hormuz-first-uranium-later">
+ <h4>Senior US Official &mdash; Iran Agreed &ldquo;In Principle&rdquo;; Hormuz First, Uranium Later</h4>
+ <p>A senior Trump administration official told reporters on Sunday an agreement with Iran would not be signed yesterday because the Iranian system &ldquo;did not move fast enough&rdquo;. The official, speaking on the condition of anonymity, said Iran had agreed &ldquo;in principle&rdquo; to open the Strait of Hormuz in exchange for the United States lifting its naval blockade, and to dispose of Tehran&rsquo;s highly enriched uranium. There was no immediate Iranian confirmation or elaboration on what &ldquo;in principle&rdquo; meant. Washington envisions first re-opening the strait and lifting the US naval blockade; negotiating the details of the nuclear measures would take more time.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">A second senior administration official said yesterday the proposed framework would give negotiators 60 days to reach a final deal. The sequencing the official described aligns with the framework that Reuters sources had outlined: end-of-war declaration first, then Hormuz, then a 30-to-60-day window for the broader settlement. Iran would commit never to pursue a nuclear weapon and to enter negotiations on giving up its highly enriched uranium stockpile while pausing new enrichment, according to a person familiar with the matter. The US official described the approach as &ldquo;relief for performance&rdquo;: allowing Iran to trade oil would also free up the global oil market by unblocking the strait.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="16:01" data-slug="cnn-sanctions-frozen-funds-only-after-hormuz-fully-functioning">
+ <h4>Sanctions Relief, Frozen-Funds Release Only After Hormuz Fully Functions</h4>
+ <p>The unfreezing of Iranian assets will occur only once the Strait of Hormuz has reopened, a senior US administration official said yesterday. Sanctions imposed on Iran will only be lifted once the strait is open and fully functioning again. The conditional sequencing &mdash; Hormuz first, then everything else &mdash; is the operational architecture of the proposed memorandum of understanding. Iran has committed not to pursue a nuclear weapon and would enter negotiations on giving up its stockpile of highly enriched uranium and pausing any new enrichment. Multiple Iranian outlets reported on Sunday that the strait would remain under Iranian supervision over a 30-day period, with shipping returning to pre-war levels.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">Secretary of State Marco Rubio said on Sunday the deal was a &ldquo;work in progress&rdquo;. The Iranian counter-briefing on the strait remains the largest open variable: Tehran briefs that Iran continues to supervise the waterway under a 30-day framework; Washington briefs that the strait will be fully reopened and demined. The CNN-reported architecture builds in a US incentive structure (sanctions relief contingent on actual Hormuz functioning, not just declarations) that gives Washington enforcement leverage through the 60-day window. Iranian Ministry of Foreign Affairs spokesperson Esmail Baghaei described the latest proposal as a &ldquo;framework agreement&rdquo; that would first establish broad principles before details are negotiated over 30 to 60 days.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="23:20" data-slug="isw-five-unresolved-issues-iran-rejects-defer-core-demands">
+ <h4>Five Unresolved Issues; Iran Rejects Efforts to Defer Core Demands</h4>
+ <p>IRGC-affiliated reporting has identified frozen assets, sanctions relief, the US naval blockade, Lebanon, and the Strait of Hormuz as the main unresolved issues &mdash; every issue in the first stage of the proposed agreement, before talks on the nuclear programme begin. Mediators appear to be trying to preserve momentum by sequencing the unresolved issues and developing technical arrangements for the strait, but Iranian reporting indicates Iran has rejected efforts to defer its core demands. The IRGC-affiliated Tasnim news agency said differences remain over &ldquo;one or two clauses&rdquo; and a source said there would be no final understanding if the US continued to &ldquo;create obstacles&rdquo;.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The Tasnim formulation &mdash; one or two clauses pending, with an Iran walk-away threat if the US creates obstacles &mdash; is the standard Iranian negotiating-posture template. The five unresolved first-stage issues (frozen assets, sanctions relief, US blockade, Lebanon, Hormuz) are precisely the questions Washington has tried to push into the 60-day nuclear-talks window; Iran wants them resolved up-front. The two Pakistani sources involved in the negotiations have described the deal under discussion as &ldquo;fairly comprehensive to terminate the war&rdquo;. If the US accepts the memorandum, further talks could take place after the Eid holiday ends on Friday. The Tehran/Washington gap is now sequencing, not principle: both sides agree on the components, but Iran wants front-loaded resolution and the US wants conditional sequencing.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="18:18" data-slug="isw-iran-stalling-deal-or-force-binary-strait-of-hormuz">
+ <h4>Iran &ldquo;Stalling&rdquo; to Normalise Hormuz Control; &ldquo;Deal or Force&rdquo; the Binary</h4>
+ <p>Iran is likely stalling and delaying the negotiations process precisely because the protraction of the current situation serves Iran&rsquo;s interests by normalising its de facto control of transit through the Strait of Hormuz. One of Iran&rsquo;s primary negotiating objectives is to secure sovereignty over the strait &mdash; an objective more important to Tehran than fee revenue from merchant vessels. The strait will not return to normal without either a deal that ends Iranian control or a US-led military operation that forces the strait open. Recognition of Iranian claims of sovereignty is both unacceptable and fails to accomplish a return to normal. The binary the international community now faces is &ldquo;deal or force&rdquo;.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">Iran likely sees two paths to controlling the strait. First, Iranian control could be officially recognised by the United States through an agreement. Other countries would probably oppose such recognition, but changing the new status quo would be extremely challenging. Second, Iran could maintain the current situation by firing missiles or drones (or credibly threatening to do so) at ships that fail to heed Iranian demands related to transiting the strait. Very few countries &mdash; and perhaps none &mdash; will approve of Iranian threats, but stopping Iranian coercion will require the use of force or an agreement that formally ends Iranian efforts to assert sovereignty over the strait. If negotiations do not lead rapidly to an agreement to reopen the strait under the previous, internationally recognised transit scheme, it will be necessary to resort to force.</div>
+ </details>
+ </div>
+
+ </div>
+ </div>
+ <div class="curated-column">
+ <h3><span class="dot dom"></span><span class="dot-label">UK</span> UK Domestic Politics</h3>
+ <div>
+
+ <div class="curated-item" data-time="09:30" data-slug="jones-fantasy-politics-warning-sunday-kuenssberg-no-magic-answer">
+ <h4>Jones &mdash; Warns Labour Against &ldquo;Fantasy Politics&rdquo;; &ldquo;No Magic Answer&rdquo;</h4>
+ <p>Senior Starmer ally Darren Jones, Chief Secretary to the Treasury, warned Labour against playing &ldquo;fantasy politics&rdquo; on the BBC&rsquo;s Sunday with Laura Kuenssberg yesterday. With Andy Burnham and Wes Streeting both positioning themselves to replace the Prime Minister, Jones said there is no &ldquo;magic answer&rdquo; to fix the country&rsquo;s problems. &ldquo;Irrespective of individual ambitions from any of my colleagues, the big questions the country faces are still the big questions the country faces,&rdquo; he said. &ldquo;Britain is poorer and weaker than it needs to be.&rdquo; Jones said Burnham is &ldquo;a brilliant politician&rdquo; and he would campaign for him in Makerfield.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">Jones&rsquo;s framing is the most explicit cabinet-level intervention on the leadership question since the cabinet ring-fence around the Prime Minister began to hold operationally last week. The argument is structural: that the underlying political-economy challenges &mdash; poorer-than-required Britain, weaker-than-required Britain &mdash; will face any successor exactly as they face Starmer, so a leadership change is a process distraction rather than a solution. The framing is also designed for Labour members ahead of any contest: ambition is acceptable but should not displace policy seriousness. Jones &mdash; one of the Prime Minister&rsquo;s closest cabinet allies and a regular Treasury-side communicator &mdash; is the bridge between the fiscal discipline of the Reeves agenda and the broader Starmer political-survival argument.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="10:00" data-slug="alan-johnson-labour-mps-daft-back-burnham-snap-election">
+ <h4>Alan Johnson &mdash; Labour MPs &ldquo;Daft&rdquo; to Back Burnham; Snap-Election Warning</h4>
+ <p>Former Home Secretary Alan Johnson said yesterday that Labour MPs would be &ldquo;daft&rdquo; if they backed a leadership bid by Andy Burnham. Johnson said: &ldquo;Absolutely no case for Keir Starmer to step down.&rdquo; Asked whether Burnham should be Prime Minister, Johnson said: &ldquo;Absolutely not.&rdquo; Johnson suggested Burnham would have to call a snap general election if he became Prime Minister &mdash; a mandate-renewal mechanism that would be the operational test of whether a Burnham premiership could survive its own elevation. The Prime Minister has insisted he will not walk away from No 10 if Burnham wins the 18 June by-election and triggers a leadership contest.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">Johnson&rsquo;s &ldquo;snap general election&rdquo; framing is the constitutional-political case against a Burnham succession: that a leadership change to Burnham without going to the country would be perceived as an unmandated transition and would compound rather than resolve the legitimacy questions facing the government. The historical precedent that supports the argument is patchy &mdash; Gordon Brown in 2007 chose not to call an election, with consequences that ended Labour&rsquo;s 1997-2010 cycle. The argument cuts against the practical politics of the Burnham campaign: triggering a snap general election whilst polling behind Reform UK would risk handing power to Nigel Farage. The political-mathematical question is whether the snap-election logic constrains Burnham&rsquo;s leadership ambitions or merely shapes the post-leadership-contest framing.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="11:42" data-slug="streeting-wealth-tax-sure-start-planning-reforms-council-homes">
+ <h4>Streeting Platform &mdash; Wealth Tax + Sure Start + Planning Reforms for Council Homes</h4>
+ <p>Wes Streeting has set out a policy platform including a wealth tax to fund a return of the New Labour-era Sure Start programme, and planning reforms to fund council homes to prevent children growing up in temporary accommodation. Streeting told reporters on Friday he had &ldquo;the numbers including ministers&rdquo; to launch a leadership bid against Sir Keir Starmer but held off &ldquo;to give Andy Burnham the chance&rdquo; to fight the Makerfield by-election. The Streeting platform now has substantive social-policy content (Sure Start, council homes, wealth tax) that competes with Burnham&rsquo;s constitutional-reform-plus-NHS positioning.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">Streeting also suggested in interviews making the independent Planning Inspectorate more involved in approving new housing and easing some of the thresholds at which housing developers must carry out an environmental assessment of their proposals. The combination of wealth tax + restored Sure Start + planning-driven council homes is the social-democratic spine of the Streeting offer. It is to the left of the 2024 Starmer-Reeves prospectus on tax (wealth tax) but to the right on planning (loosening environmental thresholds for housing supply). Streeting&rsquo;s positioning is now squarely competitive with Burnham for the same Tribune-Group-adjacent soft-left base, even though the two have publicly endorsed each other for the by-election.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="06:32" data-slug="al-carns-selly-oak-mp-armed-forces-minister-dark-horse-leadership">
+ <h4>Al Carns &mdash; Selly Oak Armed Forces Minister Emerges as Dark Horse</h4>
+ <p>Al Carns, the Labour MP for Birmingham Selly Oak and minister for the armed forces, is being talked up in some Labour circles as a dark horse leadership contender. Carns was first elected in 2024 with a majority of 11,537 and was swiftly promoted to veterans minister, then minister for the armed forces in last September&rsquo;s reshuffle. Carns published an article in the New Statesman titled &ldquo;How Labour can win again&rdquo;, in which he wrote &ldquo;too many people in this country work hard and still struggle&rdquo;. He would need the support of 81 Parliamentary colleagues to get on the ballot paper of any leadership contest if one is triggered.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">A friend of Carns described him as &ldquo;a born leader&rdquo; but said he &ldquo;won&rsquo;t fire the starting gun&rdquo; on a contest &mdash; expecting him to come in behind a better-supported candidate if needed. The Carns story is the post-Burnham/post-Streeting third-way leadership scenario: an armed-forces-minister-with-military-CV who could plausibly counter Reform UK&rsquo;s national-security framing on the doorstep without alienating the soft-left base. The 81-MP threshold is the structural gatekeeper: any third candidate &mdash; whether Carns, Ed Miliband, Shabana Mahmood, Yvette Cooper or another &mdash; needs to secure that many declared backers to appear on the ballot. Both Burnham and Streeting&rsquo;s teams have claimed in recent days to have the 81 numbers; both have been unable to demonstrate them publicly.</div>
+ </details>
+ </div>
+
+ </div>
+ </div>
+ </div>
+
+ <div class="one-to-read">
+ <span class="otr-label">One To Read</span>
+ <a href="https://understandingwar.org/research/middle-east/iran-update-special-report-may-24-2026/" target="_blank" rel="noopener noreferrer">
+ <h4>Iran Update Special Report, May 24, 2026 &mdash; Sequencing the Five Unresolved Issues</h4>
+ <span class="otr-source">Institute for the Study of War</span>
+ <span class="otr-dot">&middot;</span>
+ <span class="otr-desc">The single most important analytical paper for understanding the Sunday-pullback to Monday-morning shift. The proposed framework now sequences five first-stage issues (frozen assets, sanctions relief, US naval blockade, Lebanon, Strait of Hormuz) ahead of the 60-day nuclear-talks window. Mediators are trying to preserve momentum by sequencing technical arrangements; Iran is rejecting efforts to defer its core demands. Trump&rsquo;s &ldquo;reached, certified, and signed&rdquo; framing puts the US naval blockade back at the centre of the leverage calculation. The Tehran/Washington gap is now sequencing, not principle.</span>
+ </a>
+ </div>
+ <!-- SOURCES USED
+ - Reuters via Quews / Daily Signal &mdash; Trump Sunday Truth Social posts: &ldquo;not to rush&rdquo;, &ldquo;time is on our side&rdquo;, blockade &ldquo;remain in full force and effect until reached, certified, and signed&rdquo;, &ldquo;losers who are critical&rdquo;, senior admin official &ldquo;in principle&rdquo; framing
+ - AP via Boston / ABC News wireStory &mdash; Sunday details: agreement not signed Sunday, 60-day window, sequencing, &ldquo;relief for performance&rdquo;
+ - https://understandingwar.org/research/middle-east/iran-update-special-report-may-24-2026/ &mdash; ISW May 24: five unresolved first-stage issues (frozen assets, sanctions, blockade, Lebanon, Hormuz); Iran rejects deferring core demands; Tasnim &ldquo;one or two clauses&rdquo; / &ldquo;create obstacles&rdquo;
+ - https://www.cnn.com/2026/05/24/middleeast/iran-us-proposed-deal-wwk-intl &mdash; CNN: sanctions/frozen funds only after Hormuz fully functioning; Iran commits no nuclear weapon, give up HEU stockpile, pause new enrichment; Rubio &ldquo;work in progress&rdquo;; 30-day Hormuz period with Iranian supervision, shipping to pre-war levels
+ - https://understandingwar.org/research/middle-east/how-iran-hopes-to-control-the-strait-of-hormuz-its-not-just-about-fees/ &mdash; ISW analytical paper: Iran sovereignty more important than fees; &ldquo;deal or force&rdquo; binary; Iran stalling to normalise control
+ - https://www.theargus.co.uk/news/national/26134835.starmer-ally-warns-labour-fantasy-politics-battle-replace/ &mdash; Darren Jones BBC Kuenssberg &ldquo;fantasy politics&rdquo; / &ldquo;magic answer&rdquo; / &ldquo;poorer and weaker than it needs to be&rdquo; / will campaign for Burnham in Makerfield
+ - Alan Johnson BBC Radio 4 Broadcasting House &mdash; Labour MPs &ldquo;daft&rdquo; to back Burnham; &ldquo;absolutely no case for Starmer to step down&rdquo;; snap general election if Burnham becomes PM; &ldquo;absolutely not&rdquo;
+ - https://www.bbc.co.uk/news/articles/c5y7rdz7zjzo &mdash; BBC: Al Carns Selly Oak MP / armed forces minister; 2024 election majority 11,537; New Statesman article &ldquo;How Labour can win again&rdquo;; &ldquo;a born leader&rdquo;; 81-MP threshold
+ - Streeting platform via Argus + Independent &mdash; wealth tax for Sure Start restoration; planning reforms for council homes; planning inspectorate framing
+ END SOURCES USED -->
+ </div><!-- ── END MORNING 25 MAY (08:15) ── -->
 
  <!-- ── EVENING 24 MAY (18:30) ── -->
  <div class="curated-edition evening" data-date="2026-05-24" data-time="18:30" data-markets='{"FTSE":{"price":8338,"change":0.14},"SP":{"price":5334,"change":0.15},"Brent":{"price":102.30,"change":-0.49},"GBP":{"price":1.3405,"change":0.04},"Gold":{"price":4836,"change":-0.04},"EURGBP":{"price":0.8915,"change":-0.01},"Gilt":{"price":5.02,"change":0.00},"VIX":{"price":26.25,"change":0.00},"BTC":{"price":81120,"change":0.25},"UST":{"price":4.30,"change":0.00},"ts":"2026-05-24T18:30:00+01:00"}'>
@@ -4001,293 +4134,6 @@
  END SOURCES USED -->
  </div><!-- ── END MORNING 18 MAY (08:15) ── -->
 
- <!-- ── EVENING 17 MAY (18:30) ── -->
- <div class="curated-edition evening" data-date="2026-05-17" data-time="18:30" data-markets='{"FTSE":{"price":8254,"change":-1.70},"SP":{"price":5262,"change":-0.38},"Brent":{"price":107.85,"change":2.10},"GBP":{"price":1.33,"change":-0.60},"Gold":{"price":4865,"change":0.68},"EURGBP":{"price":0.8928,"change":0.21},"Gilt":{"price":5.18,"change":3.60},"VIX":{"price":31.85,"change":0.00},"BTC":{"price":79480,"change":-0.80},"UST":{"price":4.40,"change":0.92},"ts":"2026-05-17T18:30:00+01:00"}'>
- <div class="edition-header">
- <span class="edition-icon">&#9789;</span>
- <h2>Evening Briefing</h2>
- </div>
- <div class="curated-meta">Sunday 17 May 2026 &mdash; 18:30 BST</div>
- <div class="impact-box">
- <h3 class="impact-heading">What It Means For You</h3>
- <ul class="impact-list">
- <li>A drone strike on the Barakah Nuclear Power Plant in the United Arab Emirates on Sunday set fire to an electrical generator outside the plant&rsquo;s perimeter, with no radiological release. The IAEA expressed &ldquo;grave concern&rdquo;; no group claimed responsibility but UAE authorities have previously attributed roughly 3,000 such attacks since 28 February to Iran or its proxies. UAE Al-Ain media reported the same evening that the Israeli army &ldquo;continues its preparations to resume the war&rdquo;, including planned strikes on Iranian energy and infrastructure and against high-ranking officials &mdash; meaning Monday&rsquo;s oil and gas open is set to price a meaningfully higher probability of a Gulf re-escalation.</li>
- <li>Sir Keir Starmer is at Chequers this weekend deciding, per ITV&rsquo;s Robert Peston, whether to announce a timetable for his own departure as Prime Minister. Cabinet ministers split: one bloc says &ldquo;the die is already cast&rdquo; and he should shape a positive legacy; another insists he should stay to avoid &ldquo;mayhem&rdquo; if Burnham loses Makerfield. Colleagues &ldquo;don&rsquo;t know what he will decide&rdquo;. A Sunday-night statement, if it comes, would re-price gilts and sterling at Monday&rsquo;s open.</li>
- <li>Culture Secretary Lisa Nandy used Sunday with Laura Kuenssberg to dismiss the leadership talk as &ldquo;froth and nonsense&rdquo; and to call Wes Streeting&rsquo;s Saturday EU-rejoin pitch &ldquo;a bit odd&rdquo;. Streeting allies hit back that his willingness to talk EU membership is precisely the kind of risk Number 10 will not take. The Labour leadership contest, if triggered after Makerfield, will now be fought on EU re-entry as much as on the cost of living &mdash; with Reform UK preparing to print Burnham&rsquo;s 2025 &ldquo;I want to rejoin it&rdquo; quote on Makerfield by-election leaflets.</li>
- </ul>
- </div>
- <div class="curated-grid">
- <div class="curated-column">
- <h3><span class="dot geo"></span><span class="dot-label">GEO</span> Geopolitical</h3>
- <div>
-
- <div class="curated-item" data-time="16:30" data-slug="uae-barakah-drone-strike-iran-suspected">
- <h4>Drone Strike Sparks Fire at UAE&rsquo;s Barakah Nuclear Plant; IAEA &ldquo;Grave Concern&rdquo;</h4>
- <p>A drone struck an electrical generator outside the inner perimeter of the Barakah Nuclear Power Plant in the UAE&rsquo;s Al-Dhafra Region on Sunday, sparking a fire that the Abu Dhabi Media Office said caused no injuries and no radiological release, the Jerusalem Post reported. The Federal Authority for Nuclear Regulation confirmed that the plant&rsquo;s essential systems are operating normally. The Associated Press said the strike &ldquo;highlighted the risk of renewed war as the Iran ceasefire remains tenuous&rdquo;. No group claimed responsibility; the International Atomic Energy Agency expressed &ldquo;grave concern&rdquo; and said it is following the situation closely.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">UAE Minister of State at the Foreign Ministry Khalifa Shaheen Al Marar told a BRICS foreign ministers&rsquo; meeting on Friday that since 28 February 2026 the UAE has intercepted around 3,000 attacks involving ballistic missiles, cruise missiles and drones targeting airports, ports, oil and desalination facilities, energy networks and residential areas. The minister said the UAE &ldquo;reserves its full sovereign, legal, diplomatic, and military rights to respond to any threat, allegation, or hostile act&rdquo;. The Jerusalem Post analysis frames the Sunday incident as &ldquo;an Iranian message that it will increase its list of targets in the country&rdquo;. Iran&rsquo;s parliament speaker Mohammad-Bagher Ghalibaf, who had been a negotiator with the US, has reportedly been re-tasked to handle China-Iran ties following Trump&rsquo;s recent China visit.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="20:00" data-slug="idf-officer-recanati-killed-100-targets-struck">
- <h4>IDF Officer Cpt. Recanati Killed; 100 Hezbollah Targets Struck Over Weekend</h4>
- <p>The Israel Defense Forces named the officer killed in Friday&rsquo;s Hezbollah drone strike in southern Lebanon as 24-year-old Capt. Maoz Israel Recanati, a platoon commander in the Golani Brigade&rsquo;s 12th Battalion from Itamar, the Times of Israel reported. A statement from Prime Minister Benjamin Netanyahu said Recanati had been due to marry his fianc&eacute;e, Rani, in a month: &ldquo;We all embrace her and his loved ones during this difficult time.&rdquo; The IDF said it struck approximately 100 Hezbollah targets across southern Lebanon over the weekend, including surveillance posts and weapon depots, and shot down several Hezbollah drones that triggered sirens in Western Galilee border communities.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">Recanati is the seventh IDF soldier killed in southern Lebanon since the ceasefire began, and the twentieth since hostilities escalated amid the Iran war; a civilian contractor has also been killed. Lebanon&rsquo;s state National News Agency reported strikes on more than two dozen villages on Saturday, including one more than 50 kilometres from the border, and a renewed exodus of residents toward Sidon and Beirut. UN Secretary-General Ant&oacute;nio Guterres &ldquo;welcomed&rdquo; Friday&rsquo;s 45-day ceasefire extension and urged all actors to &ldquo;fully respect the cessation of hostilities&rdquo;. Hezbollah formally opposes the Washington-mediated talks, accusing the Lebanese government of offering &ldquo;a series of free concessions&rdquo; to &ldquo;the enemy&rdquo;.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="14:00" data-slug="al-ain-israel-prepares-renewed-iran-war-plan">
- <h4>UAE Al-Ain: Israel Preparing Renewed Iran Strike on Energy and Officials</h4>
- <p>UAE outlet Al-Ain reported on Sunday that Israel is on &ldquo;high alert in anticipation of a possible resumption of war with Iran&rdquo;, citing a source briefed on Israeli military planning carried by the Jerusalem Post. The reported plan would &ldquo;include damage to national infrastructure, energy sites, and power plants, and Israeli aircraft will also attempt to target high-ranking Iranian officials&rdquo;. Israel is reportedly anticipating Iranian strikes in response. The reporting comes alongside Israeli media discussion of an imminent decision window and follows last week&rsquo;s New York Times account, carried in Saturday&rsquo;s Times of Israel, that US and Israeli officials were in their most intense renewal-preparation phase to date.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The Jerusalem Post separately reports New York Times and Wall Street Journal accounts of Israeli forward sites established in Iraq amid the Iran tensions &mdash; the WSJ identifying one site and the NYT two. Iran has continued strikes on Kurdish opposition groups in northern Iraq through the ceasefire period. The Jerusalem Post&rsquo;s framing is that Iran &ldquo;is messaging through aggression and words&rdquo; that it will target countries or groups working with Israel, and that the Sunday Barakah strike fits that pattern. Pakistan&rsquo;s mediation track and Trump&rsquo;s pending decision on sanctions against Chinese refineries buying Iranian oil remain the two open variables for whether the renewal moves from preparation to execution.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="01:00" data-slug="isw-gerasimov-false-claims-azot-nevinnomyssk-strike">
- <h4>Gerasimov&rsquo;s Battlefield Report &ldquo;Highly Inaccurate&rdquo;; Ukraine Hits Azot Plant</h4>
- <p>Russian Chief of the General Staff Army General Valery Gerasimov made a series of false claims to the Western Grouping of Forces, claiming Russian troops are advancing west of Kupyansk toward Shevchenkove despite ISW&rsquo;s assessment that Russian forces have infiltrated only about 14.2% of Kupyansk. the pattern &ldquo;highly inaccurate&rdquo; for the fifth consecutive month and warned the Russian command &ldquo;is either unaware of or unwilling to admit the realities of the battlefield even to itself, and is therefore allowing its own falsehoods to influence Russian operational and strategic planning&rdquo;.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">Gerasimov also claimed Russian forces had seized all of Borova and Kutkivka and about 85% of Lyman &mdash; figures ISW puts at 6.5% on Kutkivka and 0.06% on Lyman. Russian milbloggers have publicly warned that Ukrainian counter-attacks and false reports of advances in other frontline areas are creating situations the Russian command cannot adequately respond to. Ukrainian forces struck the Azot chemical plant in Nevinnomyssk, Stavropol Krai &mdash; southern Russia&rsquo;s largest chemical plant and its largest producer of nitrogen fertilisers and ammonia for explosives &mdash; some 540 kilometres from the frontline. Russia launched 294 drones at Ukraine overnight on 16-17 May; Ukrainian air defences downed 269. Russian strikes hit port, residential and critical infrastructure in Odesa Oblast, cutting power to 39 settlements and 22,662 subscribers.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="11:00" data-slug="putin-transnistria-passportization-decree">
- <h4>Kremlin Decree Simplifies Russian Citizenship for Transnistria Residents</h4>
- <p>President Vladimir Putin signed a decree on 15 May simplifying the procedure by which residents of the pro-Russian breakaway region of Transnistria in Moldova can acquire Russian citizenship. the Kremlin is continuing to expand its &ldquo;passportization&rdquo; efforts in Transnistria to deepen Russian influence in the region, building the political-administrative scaffolding for future leverage in negotiations over Moldova&rsquo;s European trajectory and over the security architecture of the western Black Sea.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">Russia has used passportization &mdash; the mass issuance of Russian passports to residents of foreign territories &mdash; as a pretext for intervention in past conflicts, most notably in Crimea and the Donbas in 2014. Transnistria has hosted Russian troops since the early 1990s and has been increasingly squeezed by Moldova&rsquo;s tightening alignment with the European Union following the start of EU accession negotiations in 2024. The Sunday decree is the latest in a sequence of low-profile administrative measures that follow the Kremlin&rsquo;s pattern of layering legal status over a contested region before any political move. Ukrainian forces also advanced in the Hulyaipole direction over the same 24-hour window.</div>
- </details>
- </div>
-
- </div>
- </div>
- <div class="curated-column">
- <h3><span class="dot dom"></span><span class="dot-label">UK</span> UK Domestic Politics</h3>
- <div>
-
- <div class="curated-item" data-time="13:42" data-slug="itv-peston-starmer-departure-timetable-chequers">
- <h4>Peston: Starmer at Chequers Deciding Departure Timetable</h4>
- <p>Sir Keir Starmer is at Chequers this weekend making what ITV political editor Robert Peston called a &ldquo;very difficult decision&rdquo;: whether to re-assert his authority and re-energise his government, or announce a timetable for a leadership election and his own departure. Cabinet ministers told Peston that some of them now believe &ldquo;the die is already cast that he will have to resign in coming months, whether Burnham is elected an MP or not&rdquo;, and that the Prime Minister should &ldquo;acknowledge that reality&rdquo; and use a time-limited period to shape a positive legacy.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">Other ministers told Peston the Prime Minister should stay, fearing &ldquo;mayhem if Burnham were to lose&rdquo; the Makerfield by-election, in which circumstance &ldquo;it would be preferable for the party to draw breath rather than charge headlong into a leadership election&rdquo;. Peston flagged a conflict of interest: many of those insisting he should not quit will be out of a job if Starmer is replaced. One minister told Peston the choice &ldquo;is not so binary&rdquo; and that &ldquo;other options&rdquo; could keep &ldquo;the government show on the road&rdquo; &mdash; but added that whatever Starmer decides, he &ldquo;will have to spell this out explicitly and in detail to all of us&rdquo;. Colleagues, Peston said, &ldquo;don&rsquo;t know what he will decide&rdquo;.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="09:30" data-slug="nandy-bbc-streeting-eu-call-odd-froth-nonsense">
- <h4>Nandy on BBC: Streeting EU Call &ldquo;A Bit Odd&rdquo;; Leadership Talk &ldquo;Froth&rdquo;</h4>
- <p>Culture Secretary Lisa Nandy dismissed Labour leadership talk as &ldquo;froth and nonsense&rdquo; on Sunday with Laura Kuenssberg and called Wes Streeting&rsquo;s Saturday EU-rejoin pitch &ldquo;just a bit odd&rdquo;. &ldquo;I listened to what Wes had to say very carefully yesterday, and I know that he&rsquo;s got a strong view about this&hellip;&rdquo; she said. &ldquo;Frankly, that&rsquo;s one that I share. I campaigned for remain, I think it was a mistake, and I think the Brexit deal has been a real problem for us. But I don&rsquo;t really understand why the sudden focus on Europe.&rdquo; Asked whether Starmer would run in a contest, Nandy said: &ldquo;He&rsquo;s shown before that he&rsquo;s up for a fight.&rdquo;</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">Streeting allies hit back quickly, telling the Guardian that Nandy&rsquo;s unwillingness to talk about EU membership was &ldquo;symptomatic&rdquo; of the wider reluctance to take political risks that has made Starmer so unpopular. &ldquo;There is no point in trying not to upset anybody, that&rsquo;s what got us into this problem,&rdquo; one Streeting ally said. &ldquo;Sometimes you have to be willing to upset people to get things done.&rdquo; Conservative leader Kemi Badenoch said the row was a &ldquo;sign of the Labour party that does not have a plan for the country&rdquo;, adding: &ldquo;They want to go back and refight wars, which were settled a long time ago.&rdquo; Nandy was the first Cabinet minister to join Burnham on the Makerfield campaign trail in Winstanley on Saturday.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="11:00" data-slug="streeting-progress-britain-future-lies-europe-leadership">
- <h4>Streeting: &ldquo;Britain&rsquo;s Future Lies With Europe&rdquo;; Will Stand in Any Contest</h4>
- <p>Wes Streeting, who resigned as Health Secretary on Thursday, used a Saturday speech to the Progress conference to call for Britain to seek a new &ldquo;special relationship&rdquo; with the European Union and, eventually, to rejoin: &ldquo;In 2026, the British people increasingly see that in a dangerous world we must club together, both to rebuild our economy and trade, and improve our defence against the shared threats from Russian aggression and America First. The biggest economic opportunity we have is on our doorstep&hellip; Britain&rsquo;s future lies with Europe &mdash; and one day back in the European Union.&rdquo; Streeting confirmed he will stand in any Labour leadership contest if one is triggered.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">Streeting&rsquo;s framing &mdash; positioning EU re-entry as a defence-and-economics response to Trump&rsquo;s &ldquo;America First&rdquo; and to Russian aggression &mdash; deliberately reaches over the Brexit-cultural argument and into the harder-headed Treasury and MoD case. The Guardian quotes Burnham&rsquo;s position via Telegraph reporting: he stands by his September 2025 Labour conference line that &ldquo;long term&hellip; I want to rejoin&rdquo; the EU, but would require a fresh mandate from voters to act on it. Asked by ITV News on Saturday whether he was in favour of rejoining the EU, Burnham said: &ldquo;in the long term there is a case for that&rdquo;, but added that he is &ldquo;not advocating that in this by-election&rdquo;. A formal contest would still require 81 MP nominations to trigger.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="20:45" data-slug="reform-brexit-betrayal-makerfield-leaflets-attack-line">
- <h4>Reform Will Print Burnham&rsquo;s &ldquo;I Want to Rejoin&rdquo; Words on Makerfield Leaflets</h4>
- <p>The Telegraph understands that Reform UK will make &ldquo;Brexit betrayal&rdquo; one of its key attack lines in the Makerfield by-election campaign, and intends to print Andy Burnham&rsquo;s Labour conference 2025 words about wanting to rejoin the EU on its leaflets. Reform leader Nigel Farage said in an interview: &ldquo;He would be a disaster for the economy and betray every Brexit voter in the constituency. &lsquo;Open borders Burnham&rsquo; must be stopped.&rdquo; Josh Simons, who is vacating the Makerfield seat to make way for Burnham, won it by a majority of just 5,399 over Reform UK at the 2024 general election &mdash; and Labour&rsquo;s polling has weakened in the constituency since.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">Conservative Party chairman Kevin Hollinrake said in an interview: &ldquo;Whilst Labour re-litigate Brexit, Britain is not being governed.&rdquo; Dan Carden MP, the Blue Labour leader, said: &ldquo;There&rsquo;s nothing wrong with talking about rebuilding our relationship with Europe, but my party still looks at Brexit and thinks people were fooled by Farage. I don&rsquo;t think that&hellip; It would be far better to focus government resources on making the most of our sovereign freedoms in trade and defence and foreign policy. And start talking confidently about Britain&rsquo;s place in the world, and stop whining about Brexit.&rdquo; Jon Trickett MP said Labour &ldquo;needs to honour the democratic decision&hellip; It feels a bit defeatist to me.&rdquo; Lord Glasman called Streeting&rsquo;s position a misreading of national mood.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="16:00" data-slug="burnham-channel-4-public-ownership-thatcher-mistake">
- <h4>Burnham to Channel 4: Reverse 40 Years of Thatcherism, Bring Utilities Back</h4>
- <p>Andy Burnham used an interview with Channel 4 News this weekend to call for the UK to go down a &ldquo;completely&rdquo; different path to the past 40 years, involving putting &ldquo;more things back under stronger public control&rdquo;. &ldquo;Margaret Thatcher deregulated the whole country,&rdquo; he said. &ldquo;The country gave away its control of the basic things that people depend upon every day. And that was a big mistake, in my view.&rdquo; Josh Simons said in an interview on Sunday that public ownership of utilities &mdash; energy, water, social housing &mdash; could be &ldquo;an important part of&rdquo; the Burnham pitch to voters in Makerfield and beyond.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">&ldquo;Energy, water, social housing &mdash; those things that are the basics of our lives that we all depend on &mdash; have gotten so expensive,&rdquo; Simons said in an interview. &ldquo;And one of the reasons why they&rsquo;ve gotten so expensive &mdash; not the only, but one of the reasons why they&rsquo;ve gotten so expensive &mdash; is that we privatise a lot of them, and often the bills that we pay go to the shareholders.&rdquo; The Burnham economic programme, as drawn by Channel 4 and the BBC, deliberately combines a Labour-left utility programme with a Burnham-Mayor delivery pitch &mdash; the explicit alternative to both Reeves&rsquo;s fiscal restraint and Streeting&rsquo;s liberalism. The Greater Manchester mayor is expected to be formally confirmed as the Labour candidate for Makerfield next week.</div>
- </details>
- </div>
-
- </div>
- </div>
- </div>
-
- <div class="one-to-read">
- <span class="otr-label">One To Read</span>
- <a href="https://www.itv.com/news/2026-05-17/keir-starmer-deciding-whether-to-announce-a-departure-timetable" target="_blank" rel="noopener noreferrer">
- <h4>Keir Starmer &lsquo;Deciding Whether to Announce a Departure Timetable&rsquo;</h4>
- <span class="otr-source">ITV News</span>
- <span class="otr-dot">&middot;</span>
- <span class="otr-desc">Robert Peston&rsquo;s Sunday-afternoon read of the Chequers weekend, with cabinet ministers split on whether the Prime Minister should set a date for his own departure to shape his legacy, or stay and bet on Burnham losing in Makerfield. The single most consequential piece of weekend reporting on the immediate future of the British government.</span>
- </a>
- </div>
- <!-- SOURCES USED
- - https://www.jpost.com/middle-east/iran-news/article-896470 &mdash; Sunday Barakah drone strike at Al-Dhafra UAE nuclear plant; Abu Dhabi Media Office statement; Federal Authority for Nuclear Regulation confirmation; IAEA &ldquo;grave concern&rdquo;; UAE Minister Al Marar 3,000 attacks figure since 28 February 2026; Iran &ldquo;messaging&rdquo; framing
- - https://www.timesofisrael.com/idf-infantry-platoon-commander-killed-by-hezbollah-drone-in-southern-lebanon/ &mdash; Capt. Maoz Israel Recanati 24-year-old Golani 12th Battalion platoon commander from Itamar; Netanyahu statement re fianc&eacute;e Rani; 7th IDF soldier killed since ceasefire, 20th since hostilities escalated; 100 weekend targets struck; Western Galilee sirens; Lebanese NNA strikes on 2+ dozen villages; Guterres ceasefire welcome; Hezbollah opposition quotes
- - https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-may-16-2026/ &mdash; Gerasimov &ldquo;highly inaccurate&rdquo; claims fifth consecutive month; Kupyansk 14.2% infiltration vs claim of advance west; Kutkivka 6.5%, Lyman 0.06%; Russian milblogger warnings; Transnistria 15 May Putin passportization decree; 294 drones / 269 downed overnight 16-17 May; Odesa Oblast 39 settlements / 22,662 subscribers power loss; Azot Nevinnomyssk chemical plant strike (540km from frontline)
- - https://www.itv.com/news/2026-05-17/keir-starmer-deciding-whether-to-announce-a-departure-timetable &mdash; Robert Peston Chequers reporting; cabinet split on departure timetable; &ldquo;die is already cast&rdquo; quotes; &ldquo;mayhem if Burnham were to lose&rdquo; counter-position; conflict-of-interest framing; &ldquo;don&rsquo;t know what he will decide&rdquo; close
- - https://www.theguardian.com/politics/2026/may/17/culture-secretary-lisa-nandy-says-wes-streeting-rejoin-eu-call-odd &mdash; Nandy &ldquo;a bit odd&rdquo; quote on BBC Laura Kuenssberg; full Streeting Progress conference quote (&ldquo;Britain&rsquo;s future lies with Europe&rdquo;); Streeting allies &ldquo;no point trying not to upset anybody&rdquo;; Badenoch &ldquo;refight wars&rdquo; quote; Josh Simons BBC utilities quotes
- - https://www.bbc.co.uk/news/articles/ (BBC Sunday with Laura Kuenssberg, Becky Morton) &mdash; Nandy &ldquo;froth and nonsense&rdquo; framing; &ldquo;personal decision&rdquo; framing for Starmer; &ldquo;he&rsquo;s up for a fight&rdquo; quote; rejection of replacement idea; Josh Simons &ldquo;existential&rdquo; for Labour quote
- - https://www.telegraph.co.uk/politics/2026/05/16/burnham-and-streeting-want-to-rejoin-eu/ &mdash; Reform &ldquo;Brexit betrayal&rdquo; attack line; intention to print Burnham EU words on Makerfield leaflets; Farage &ldquo;Open borders Burnham must be stopped&rdquo; quote; Burnham conference 2025 line; ITV News Saturday Burnham &ldquo;long term there is a case&rdquo; quote; Hollinrake, Carden, Trickett, Glasman reactions
- - https://www.channel4.com/news/burnham-and-streeting-enter-race-to-end-starmers-labour-leadership &mdash; Burnham Channel 4 interview on &ldquo;completely different path&rdquo;; Thatcher &ldquo;deregulated the whole country&rdquo; quote; &ldquo;basic things that people depend upon&rdquo; quote
- - https://www.independent.co.uk/news/uk/politics/burnham-streeting-brexit-eu-starmer-labour-live-updates-b2978091.html &mdash; Independent live updates &ldquo;Streeting reopening Brexit wars&rdquo;; Makerfield &ldquo;tough fight&rdquo; framing; Burnham odds vs Reform context
- - https://www.reuters.com/world/middle-east/israel-lebanon-agree-extend-ceasefire-by-45-days-us-state-dept-says-2026-05-15/ &mdash; Friday Washington-mediated 45-day ceasefire extension; permitted Israeli strikes on Hezbollah threats; context for Saturday-Sunday strike pattern
- END SOURCES USED -->
- </div><!-- ── END EVENING 17 MAY (18:30) ── -->
-
- <!-- ── MORNING 17 MAY (08:15) ── -->
- <div class="curated-edition morning" data-date="2026-05-17" data-time="08:15" data-markets='{"FTSE":{"price":8254,"change":-1.70},"SP":{"price":5262,"change":-0.38},"Brent":{"price":107.85,"change":2.10},"GBP":{"price":1.33,"change":-0.60},"Gold":{"price":4865,"change":0.68},"EURGBP":{"price":0.8928,"change":0.21},"Gilt":{"price":5.18,"change":3.60},"VIX":{"price":31.85,"change":0.00},"BTC":{"price":79480,"change":-0.80},"UST":{"price":4.40,"change":0.92},"ts":"2026-05-17T08:15:00+01:00"}'>
- <div class="edition-header">
- <span class="edition-icon">&#9788;</span>
- <h2>Morning Briefing</h2>
- </div>
- <div class="curated-meta">Sunday 17 May 2026 &mdash; 08:15 BST</div>
- <div class="impact-box">
- <h3 class="impact-heading">What It Means For You</h3>
- <ul class="impact-list">
- <li>Both leading Labour leadership contenders &mdash; Andy Burnham and Wes Streeting &mdash; have placed re-joining the European Union at the centre of their pitches. The Sunday Telegraph and Sunday Times lead on the story; the Sunday Mirror runs Burnham&rsquo;s vision of mass nationalisation. Reform UK has signalled that &ldquo;Brexit betrayal&rdquo; will be its principal attack line in the Makerfield by-election campaign, which means the contest now turns on the EU question as much as on domestic policy.</li>
- <li>Lisa Nandy, the Culture Secretary, has become the first Cabinet minister to join Burnham on the Makerfield campaign trail in Winstanley, breaking ranks with the Prime Minister&rsquo;s position. Dan Hodges reports in the Mail On Sunday that Sir Keir has told close friends he intends to stand down and set out a departure timetable, with a Cabinet minister quoted saying &ldquo;he realises the current chaos is unsustainable&rdquo;.</li>
- <li>The US and Israel are continuing intense preparations to renew the war against Iran as soon as next week, according to the New York Times report carried into Sunday by the Times of Israel. Israeli strikes on Hezbollah in southern Lebanon continued through Saturday despite Friday&rsquo;s 45-day ceasefire extension. Petrol and energy-related prices are likely to remain elevated; the Sunday Express reports that Iranian intelligence activity on UK soil is now the largest single category of hostile-state casework.</li>
- </ul>
- </div>
- <div class="curated-grid">
- <div class="curated-column">
- <h3><span class="dot geo"></span><span class="dot-label">GEO</span> Geopolitical</h3>
- <div>
-
- <div class="curated-item" data-time="22:00" data-slug="us-israel-renew-iran-war-next-week-nyt">
- <h4>US and Israel Prep to Renew Iran War &ldquo;Next Week&rdquo; &mdash; NYT</h4>
- <p>Two Middle Eastern officials said in an interview that Israel and the United States are in their most intense preparations to date to renew the war against Iran, possibly as soon as next week, the Times of Israel reported. Options include conquering Iran&rsquo;s Kharg Island oil hub and inserting commandos to extract highly enriched uranium buried since the June 2025 strikes. A senior Israeli official told Channel 12: &ldquo;We&rsquo;re preparing for days to weeks of fighting and waiting for Trump&rsquo;s final decision. We&rsquo;ll know more in 24 hours.&rdquo;</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">Iran&rsquo;s stockpile of approximately 440 kilograms of highly enriched uranium is thought to have been buried after the US strikes on Iranian nuclear facilities during the 12-day Israel-Iran war in June 2025. Extracting it via commando insertion would require thousands of supporting forces to create a perimeter, and would risk significant casualties. Pakistani-mediated negotiations supported by China have failed to bridge the gap on Iran&rsquo;s nuclear programme and post-war control of the Strait of Hormuz. On Friday Trump signalled flexibility, saying he would accept a 20-year suspension of uranium enrichment if Tehran gave a &ldquo;real&rdquo; guarantee &mdash; an apparent shift from his earlier insistence on a permanent halt.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="14:00" data-slug="israel-strikes-south-lebanon-saturday-post-ceasefire">
- <h4>Israeli Strikes on South Lebanon Continue After Ceasefire Extension</h4>
- <p>Israel launched a wave of airstrikes on Hezbollah infrastructure in southern Lebanon on Saturday, the day after Friday&rsquo;s 45-day ceasefire extension was announced in Washington, the Associated Press reported. The Lebanese national news agency reported strikes on at least five villages preceded by mass evacuations toward Sidon and Beirut; the Israel Defense Forces issued evacuation orders for nine villages and said it was responding to Hezbollah&rsquo;s &ldquo;violations of the ceasefire agreement&rdquo;. Hezbollah launched at least one drone toward Israel; sirens triggered in the Meron area, no injuries reported.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The truce extension agreed on Friday in Washington was structured as a political track resuming at the State Department on 2-3 June and a security track at the Pentagon on 29 May. The US has explicitly permitted Israel to continue targeting Hezbollah operatives and infrastructure it deems an immediate threat &mdash; meaning the ceasefire is operationally a lower-intensity continuation of conflict rather than a halt. Lebanon&rsquo;s Ministry of Public Health put the cumulative civilian toll at 2,969 killed and 9,112 wounded since 2 March. AP and Reuters separately reported Friday-evening strikes on a civil defence centre in Harouf killed six, including three paramedics.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="20:00" data-slug="hamas-al-haddad-killed-gaza-strike-october-7-architect">
- <h4>Hamas Military Chief Al-Haddad Killed in Gaza Strike, Confirmed</h4>
- <p>The Israel Defense Forces confirmed on Saturday that Friday&rsquo;s airstrike in Gaza killed Izz al-Din al-Haddad, leader of Hamas&rsquo;s military wing and described by Israel as &ldquo;one of the last surviving architects&rdquo; of the 7 October 2023 attacks, the Associated Press reported. Hamas spokesperson Hazem Qassem confirmed the killing. Al-Haddad had assumed command of the Hamas military council following the killing of his predecessor Mohammed Sinwar. The 7 October attacks killed around 1,200 people in southern Israel and saw more than 250 taken hostage.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The strike hit a residential building and a car in the Rimal neighbourhood of Gaza City, killing at least seven people including three women and a child, according to local reports. The Palestinian Mujahideen Movement and its military wing issued a joint statement calling it a &ldquo;cowardly assassination&rdquo; that will not &ldquo;weaken the resolve&rdquo; of the resistance. The Gaza ceasefire remains fragile: more than 850 Palestinians have been killed in the territory since the October ceasefire took effect, with the top diplomat overseeing it saying it has &ldquo;stalled&rdquo; over the deadlock on Hamas disarmament. The killing closes a sequence of senior-Hamas military removals; the question for Gaza is whether the command vacuum produces de-escalation or fragmentation.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="01:00" data-slug="isw-gerasimov-false-claims-kupyansk-294-drones">
- <h4>Gerasimov Making False Kupyansk Claims; 294 Drones at Ukraine Overnight</h4>
- <p>Russian Chief of the General Staff Valery Gerasimov made a series of false claims to senior commanders on 16 May, asserting Russian forces are advancing west of Kupyansk toward Shevchenkove despite ISW evidence that Russian forces have only infiltrated about 14% of Kupyansk itself. ISW called the claims &ldquo;highly inaccurate&rdquo; for the fifth consecutive month, judging the Russian command may be &ldquo;allowing its own falsehoods to influence Russian operational and strategic planning&rdquo;. Russia launched 294 drones at Ukraine overnight; 269 were intercepted.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">Gerasimov also claimed Russian forces had seized all of Borova, Kutkivka and 85% of Lyman &mdash; figures ISW cross-checks against geolocated footage put at near-zero on Lyman (0.06%) and 6.5% on Kutkivka. Even Russian milbloggers have publicly criticised the &ldquo;beautiful reports&rdquo; pattern, with one sarcastically suggesting the Russian command will soon claim to have seized Kharkiv City. Ukrainian forces struck the Azot chemical plant in Nevinnomyssk, Stavropol Krai &mdash; southern Russia&rsquo;s largest chemical plant and its largest producer of nitrogen fertilisers and ammonia for explosives, roughly 540 kilometres from the frontline. Putin signed a decree on 15 May simplifying Russian citizenship for residents of Transnistria, the pro-Russian breakaway region of Moldova.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="11:00" data-slug="pakistan-iran-repatriate-vessels-back-channel-diplomacy">
- <h4>Pakistan, Iran Repatriate Vessel Crews as Back-Channel Talks Continue</h4>
- <p>Pakistan&rsquo;s Foreign Minister Ishaq Dar said on Saturday that Islamabad is repatriating eleven Pakistani citizens and twenty Iranian nationals from vessels seized in the high seas by the United States. The repatriation is being handled alongside ongoing Pakistani back-channel mediation with both Tehran and Washington. Iranian Foreign Minister Abbas Araqchi separately told reporters in New Delhi that Tehran has &ldquo;no trust&rdquo; in the US and will negotiate only if Washington &ldquo;is serious&rdquo;.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">Pakistan&rsquo;s mediation track has been the most consistent diplomatic channel between Washington and Tehran since the war began. The US began a blockade of Iranian ports on 13 April; US Central Command has redirected 75-78 commercial vessels and disabled four since. Iran has imposed a counter-blockade on the Strait of Hormuz, regulating non-Iranian transits via Iranian-approved corridors. Trump told reporters on Friday he was considering whether to lift US sanctions on Chinese refineries buying Iranian oil &mdash; a decision he said would come &ldquo;over the next few days&rdquo; and which would materially change the economics of the wartime financial squeeze on Tehran.</div>
- </details>
- </div>
-
- </div>
- </div>
- <div class="curated-column">
- <h3><span class="dot dom"></span><span class="dot-label">UK</span> UK Domestic Politics</h3>
- <div>
-
- <div class="curated-item" data-time="20:45" data-slug="sunday-papers-burnham-streeting-rejoin-eu">
- <h4>Sunday Papers: Burnham and Streeting Want to Rejoin the EU</h4>
- <p>Both Andy Burnham and Wes Streeting would seek a mandate to rejoin the European Union if elected Labour leader on its front page; the Sunday Times leads with &ldquo;Britain should rejoin EU, declares Streeting&rdquo;. In a speech to the Progress conference on Saturday, Streeting called leaving the EU a &ldquo;catastrophic mistake&rdquo;, said Britain needs a new &ldquo;special relationship&rdquo; with the bloc, and concluded: &ldquo;Britain&rsquo;s future lies with Europe &mdash; and one day back in the European Union.&rdquo; Reform UK will make &ldquo;Brexit betrayal&rdquo; a central by-election attack.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">Telegraph sources close to Burnham confirmed he stands by his Labour conference 2025 line: &ldquo;Long term, I&rsquo;m going to be honest, I&rsquo;m going to say it, I want to rejoin it. Look, I hope in my lifetime I see this country rejoin the European Union.&rdquo; He said on Saturday that &ldquo;in the long term there is a case&rdquo; for rejoining, but is &ldquo;not advocating that in this by-election&rdquo;. The Sunday Times reports Streeting&rsquo;s remarks have &ldquo;electrified the race to succeed Sir Keir Starmer&rdquo; and signal an end to what it calls &ldquo;the longstanding omert&agrave;&rdquo; among senior Labour figures who want closer EU alignment. The diagnostic question for the Makerfield by-election is whether the EU position offsets or amplifies the Reform threat in a seat where Reform won every council ward last week.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="18:00" data-slug="nandy-joins-burnham-campaign-trail-cabinet-minister">
- <h4>Nandy Breaks Ranks: First Cabinet Minister to Join Burnham Campaign</h4>
- <p>Lisa Nandy, the Culture Secretary, became the first sitting Cabinet minister to join Andy Burnham on the Makerfield campaign trail in Winstanley, Greater Manchester, on Saturday. The move is a substantive break from Number 10&rsquo;s official position of fighting any Burnham challenge. The Mail On Sunday separately reports, via Dan Hodges, that Sir Keir Starmer has told close friends he intends to stand down and set out a departure timetable, with a Cabinet minister quoted saying &ldquo;he realises the current chaos is unsustainable&rdquo;.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">Nandy&rsquo;s appearance is the diagnostic signal that the parliamentary balance is shifting. The Prime Minister has attacked Streeting privately, telling insiders the former Health Secretary damaged the government &ldquo;when he never had a plan to win&rdquo; any leadership ballot. The Observer also claims Starmer&rsquo;s relationship with Energy Secretary Ed Miliband has been gravely damaged because Miliband chose not to urge the party&rsquo;s soft left to support Number 10 when challenges emerged. Burnham still needs the Makerfield by-election win (most likely 18 June), then needs 81 MP nominations to formally trigger a leadership contest. Streeting&rsquo;s Saturday declaration ensures the contest, if triggered, is a genuine field rather than a Burnham coronation.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="16:00" data-slug="burnham-nationalisation-channel-4-vision">
- <h4>Burnham on Channel 4: &ldquo;Completely Different Path&rdquo;, Mass Nationalisation</h4>
- <p>Andy Burnham used a Saturday interview with Channel 4 News to call for the UK to go down a &ldquo;completely&rdquo; different path to the past 40 years, putting &ldquo;more things back under stronger public control&rdquo;. He said in an interview he favours nationalisation of energy, housing, water and transport; the Sunday Mirror exclusive details council-house building, electoral reform via proportional representation, and a programme of mass nationalisation. &ldquo;Margaret Thatcher deregulated the whole country,&rdquo; he said. &ldquo;The country gave away its control of the basic things that people depend upon every day. And that was a big mistake.&rdquo;</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The programme as articulated maps closely onto the Guardian&rsquo;s framing of &ldquo;Manchesterism&rdquo; &mdash; the bus-franchising, devolved-mayoral, public-investment model Burnham has implemented in Greater Manchester since 2017, scaled to national policy. It is the most explicit Left turn from a likely Labour PM since the Corbyn era. The Sunday Mirror quote: &ldquo;Britain needs to build new politics. We want to listen to what people are saying.&rdquo; The structural question for the bond market is how this programme interacts with the 30-year gilt at 5.85% &mdash; Burnham&rsquo;s previous remarks that the government should not be &ldquo;in hock&rdquo; to financial markets are why Friday&rsquo;s gilt sell-off was sharper than Streeting&rsquo;s resignation alone would have triggered.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="21:00" data-slug="reform-tory-backlash-burnham-streeting-eu-position">
- <h4>Farage: &ldquo;Open Borders Burnham&rdquo;; Tory Chair Attacks &ldquo;Re-litigate Brexit&rdquo;</h4>
- <p>Nigel Farage said in an interview that Burnham &ldquo;would be a disaster for the economy and betray every Brexit voter in the constituency. &lsquo;Open borders Burnham&rsquo; must be stopped.&rdquo; Conservative Party chairman Kevin Hollinrake said: &ldquo;Whilst Labour re-litigate Brexit, Britain is not being governed.&rdquo; Labour MP Dan Carden of the Blue Labour group warned his party against &ldquo;whining about Brexit&rdquo;: &ldquo;It would be far better to focus government resources on making the most of our sovereign freedoms in trade and defence and foreign policy.&rdquo;</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The Telegraph reports Reform UK will print Burnham&rsquo;s 2025 Labour conference EU-rejoin quote on its Makerfield by-election leaflets. Labour MP Jon Trickett, representing Normanton and Hemsworth, said in an interview the party &ldquo;needs to honour the democratic decision&rdquo; on Brexit and the rejoin framing &ldquo;feels a bit defeatist to me&rdquo;. Lord Glasman, the Labour peer associated with Blue Labour, said: &ldquo;National sovereignty is key to the restoration of our national pride. The EU is economically stagnant and will remain so.&rdquo; The wedge inside Labour mirrors the wedge in the 2024 electorate; the by-election will be the first quantitative test of whether a rejoin platform helps or hurts a Labour candidate in a Reform-leaning seat.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="06:30" data-slug="starmer-told-allies-intends-stand-down-departure-timetable">
- <h4>Mail On Sunday: Starmer Tells Allies He Intends to Stand Down</h4>
- <p>Dan Hodges writes in the Mail On Sunday, summarised by the BBC&rsquo;s Sunday papers round-up, that Sir Keir Starmer has told close friends he intends to stand down and set out a timetable for his departure. A Cabinet minister is quoted saying &ldquo;he realises the current chaos is unsustainable&rdquo;, and that the Prime Minister will leave in a &ldquo;manner of his own choosing&rdquo;. The Times has separately reported the autumn defence-spending boost as part of the survival package; the Eurasia Group raised the probability of Starmer being ousted this year to 80% on Friday.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">Number 10 has not confirmed the Hodges briefing, and Starmer&rsquo;s allies continue to insist publicly that he will contest any challenge. The two paths now in play: an orderly transition once Burnham wins Makerfield (most likely 18 June), with a contest concluding by September in time for the autumn Liverpool conference; or a contested race that runs through the summer with Streeting, Burnham and possibly Rayner all standing. Per the BBC&rsquo;s Sunday papers summary, the Observer claims Starmer&rsquo;s relationship with Energy Secretary Ed Miliband has been &ldquo;gravely damaged&rdquo; by Miliband&rsquo;s refusal to mobilise the soft left in the Prime Minister&rsquo;s defence. The first PMQs after the reshuffle is scheduled for Wednesday.</div>
- </details>
- </div>
-
- </div>
- </div>
- </div>
-
- <div class="one-to-read">
- <span class="otr-label">One To Read</span>
- <a href="https://www.telegraph.co.uk/politics/2026/05/16/burnham-and-streeting-want-to-rejoin-eu/" target="_blank" rel="noopener noreferrer">
- <h4>Burnham and Streeting Want to Rejoin the EU</h4>
- <span class="otr-source">The Telegraph</span>
- <span class="otr-dot">&middot;</span>
- <span class="otr-desc">The Saturday-evening political scoop that defines the Sunday news cycle: both leading leadership candidates have re-opened the Brexit question, Reform UK will weaponise it in Makerfield, Lisa Nandy has broken Cabinet ranks to join Burnham&rsquo;s campaign, and inside Labour the wedge between &ldquo;rejoin&rdquo; modernisers (Streeting, Burnham) and Blue Labour (Carden, Glasman) opens publicly for the first time. Sets up the entire week ahead.</span>
- </a>
- </div>
- <!-- SOURCES USED
- - https://www.bbc.co.uk/news/articles/c62r04rp637o &mdash; Sunday papers round-up; Sunday Telegraph and Sunday Times leads; Burnham Sunday Mirror interview quotes; Mail On Sunday Dan Hodges Starmer-to-stand-down briefing; Observer "survival of the fittest" + Miliband relationship damage
- - https://www.telegraph.co.uk/politics/2026/05/16/burnham-and-streeting-want-to-rejoin-eu/ &mdash; full reporting on EU-rejoin positions; Streeting Progress conference quote; Burnham Labour conference 2025 quote; Lisa Nandy Winstanley campaign trail; Farage "Open borders Burnham" quote; Hollinrake quote; Dan Carden quote; Lord Glasman quote; Jon Trickett quote; Channel 4 News interview "completely different path" framing
- - https://www.timesofisrael.com/as-iran-talks-stall-israel-and-us-prepping-to-renew-war-as-soon-as-next-week-report/ &mdash; NYT-sourced renewed-war preparation; Kharg Island and commando-uranium-extraction options; senior Israeli official Channel 12 quote "days to weeks of fighting"
- - https://apnews.com/article/lebanon-israel-drone-strikes-beirut-children-9faa08df52f16a683f603044d8077993 &mdash; Saturday Israeli strikes on south Lebanon following ceasefire extension; Lebanese health-ministry context
- - https://apnews.com/article/gaza-hamas-israel-strike-2ae7c8e7a59b943a47f7a68fdc61051b &mdash; Al-Haddad confirmed killed; "one of the last surviving architects" of 7 October framing; Hamas confirmation via Hazem Qassem
- - https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-may-16-2026/ &mdash; Gerasimov false-claims assessment; ISW infiltration percentages (14.2%/6.5%/0.06%); 294 drones overnight; Azot chemical plant strike; Transnistria passportization decree
- - https://www.reuters.com/world/asia-pacific/pakistan-says-11-citizens-20-iranian-nationals-being-repatriated-vessels-seized-2026-05-15/ &mdash; Pakistan/Iran vessel-crew repatriation; Ishaq Dar attribution
- - https://www.reuters.com/world/china/iran-has-no-trust-us-will-negotiate-only-if-it-is-serious-araqchi-says-2026-05-15/ &mdash; Araqchi "no trust" quote, New Delhi presser
- - https://www.thetimes.com/uk/politics/article/andy-burnham-political-views-makerfield-starmer-labour-87zp8767r &mdash; Burnham "Manchesterism" framing (Times political-views summary referenced via Telegraph)
- - https://www.theguardian.com/commentisfree/2026/jan/22/manchester-politics-economy-country-city-uk &mdash; "Manchesterism" Guardian opinion-piece framing; growth-based public-investment model
- - https://www.itv.com/news/2026-05-15/potential-timeline-for-an-andy-burnham-leadership-challenge &mdash; ITV News on Burnham EU position Saturday; "in the long term there is a case" quote
- - https://www.channel4.com (Channel 4 News Saturday interview cited in Telegraph) &mdash; "completely different path" framing direct from Burnham
- END SOURCES USED -->
- </div><!-- ── END MORNING 17 MAY (08:15) ── -->
 
 
 
