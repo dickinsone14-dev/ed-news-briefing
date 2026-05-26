@@ -1,18 +1,33 @@
 #!/usr/bin/env python3
 """
-validate-index.py — structural validation for index.html.
+validate-index.py — structural and editorial validation for index.html.
 
 Run before pushing. Catches the kind of mistakes that hide editions or
-break archive rendering on the live site.
+break archive rendering on the live site, AND enforces the editorial
+rules Ed has locked in over time.
 
-Checks:
+Structural checks (all editions):
   1. #all-editions div balance (no stray </div> closing the container early)
   2. embedded-markets JSON validity
   3. Every data-markets='...' attribute is valid JSON with all expected keys
-  4. curated-edition open count == END comment count (each edition has a close marker)
+  4. curated-edition open count == END comment count
   5. data-date matches expected 7-day window (warning only)
   6. No banned-source domains anywhere in the file (hard fail)
-  7. No vetoed feature markers (refFiguresBar, search overlay, per-edition market strips)
+  7. Breaking-news banner / JSON consistency
+  8. Source allow-list (every hyperlink in #all-editions on SOURCES.md)
+  9. No vetoed feature markers
+ 10. Every curated-item has data-slug
+ 11. Slug uniqueness within each edition
+
+Editorial checks (12-17 — locked-in rules from memory):
+ 12. No <h4> outlet prefix (no "Reuters:", "BBC:", "Guardian:", etc.)
+ 13. No <em> tags inside any <h4> (plain-text headlines only)
+ 14. No <div class="war-day-count"> blocks anywhere (removed 2026-05-23)
+ 15. JS integrity (function reveal(), function attempt(), function computeOffset()
+     intact; no capitalised JS keywords from accidental regex damage)
+ 16. Newest edition: 5 GEO + 5 UK curated-items per column (5+5 rule)
+ 17. Newest edition: ≥10 distinct outlets in SOURCES USED block
+ 18. Newest edition: GEO column max 3/5 stories on any single theme
 
 Exits 0 on pass, 1 on fail.
 """
@@ -397,10 +412,285 @@ def main() -> int:
     else:
         ok("All data-slugs are unique within their edition")
 
+    # ───────────────────────────────────────────────────────────────────
+    # EDITORIAL CHECKS — locked-in rules from memory.
+    # These check the latest edition by data-date + data-time (the one
+    # being added on this push). Older editions are not re-validated
+    # because rules were added incrementally over time.
+    # ───────────────────────────────────────────────────────────────────
+
+    # 12. No <h4> outlet prefix in any edition
+    OUTLET_PREFIXES = (
+        "Reuters", "BBC", "Guardian", "ISW", "Al Jazeera", "Independent",
+        "Times", "AP", "CNBC", "Bloomberg", "NYT", "CNN", "CBS", "FT",
+        "Telegraph", "Sky News", "Channel 4", "ITV", "Mirror", "Sun",
+        "Daily Mail", "Express", "Financial Times", "New York Times",
+        "Washington Post", "WSJ", "Observer", "i Paper", "Times Editorial",
+    )
+    h4_prefix_pat = re.compile(
+        r"<h4>\s*(" + "|".join(re.escape(o) for o in OUTLET_PREFIXES) + r")\s*:",
+        re.I,
+    )
+    prefix_hits = h4_prefix_pat.findall(html)
+    if prefix_hits:
+        fail(
+            f"{len(prefix_hits)} <h4> headline(s) start with an outlet prefix "
+            f"(e.g. 'Reuters:', 'BBC:'). Headlines must not name outlets. "
+            f"Examples: {sorted(set(prefix_hits))[:5]}"
+        )
+        errors += 1
+    else:
+        ok("No outlet-prefixed <h4> headlines")
+
+    # 13. No <em> tags inside any <h4>
+    em_in_h4 = re.findall(r"<h4>[^<]*<em\b", html)
+    if em_in_h4:
+        fail(
+            f"{len(em_in_h4)} <h4> headline(s) contain <em> tags. "
+            f"Headlines must be plain text only."
+        )
+        errors += 1
+    else:
+        ok("No <em> tags in <h4> headlines")
+
+    # 14. No <div class="war-day-count"> blocks
+    war_day_count_hits = len(re.findall(r'<div class="war-day-count"', html))
+    if war_day_count_hits:
+        fail(
+            f"{war_day_count_hits} <div class=\"war-day-count\"> block(s) found. "
+            f"The Iran-war summary block was removed permanently on 2026-05-23 "
+            f"and must not be reintroduced."
+        )
+        errors += 1
+    else:
+        ok("No war-day-count blocks (removed 2026-05-23)")
+
+    # 15. JS integrity — critical inline-script function signatures and identifiers
+    JS_REQUIRED = ["function reveal()", "function attempt()", "function computeOffset()"]
+    missing_js = [j for j in JS_REQUIRED if j not in html]
+    if missing_js:
+        fail(
+            f"Inline JS missing required function definitions: {missing_js}. "
+            f"Regex over the whole file probably damaged a <script> block — "
+            f"restore from a known-good commit and re-apply edits with "
+            f"<script>/<style> segments protected."
+        )
+        errors += 1
+    # Look for accidentally capitalised JS keywords inside <script> blocks
+    js_blocks = re.findall(r"<script[^>]*>(.*?)</script>", html, re.S)
+    bad_caps = []
+    for block in js_blocks:
+        # Skip JSON-only script blocks (type="application/json")
+        if 'type="application/json"' in block[:200]:
+            continue
+        for bad in (r"\bVar\s+\w", r"\bReturn\s+\w", r"\bFor\s+\(", r"\bIf\s+\("):
+            for m in re.finditer(bad, block):
+                bad_caps.append(m.group(0))
+    if bad_caps:
+        fail(
+            f"Capitalised JS keywords found in inline scripts (likely regex "
+            f"damage): {list(set(bad_caps))[:5]}. Restore JS from a known-good commit."
+        )
+        errors += 1
+    if not missing_js and not bad_caps:
+        ok("JS integrity intact (function signatures + lowercase keywords)")
+
+    # Identify the newest edition (top of #all-editions by date+time)
+    edition_blocks = []
+    for m in re.finditer(
+        r'<div\s+class="curated-edition\s+(?:morning|evening)"\s+'
+        r'data-date="(\d{4}-\d{2}-\d{2})"\s+data-time="(\d{2}:\d{2})"',
+        html,
+    ):
+        # Find end of this edition by div-depth count
+        start = m.end()
+        depth = 1
+        end = -1
+        for nm in re.finditer(r"<div\b|</div>", html[start:]):
+            tok = nm.group(0).lower()
+            if tok == "</div>":
+                depth -= 1
+                if depth == 0:
+                    end = start + nm.end()
+                    break
+            else:
+                depth += 1
+        if end < 0:
+            continue
+        block = html[start:end]
+        edition_blocks.append({
+            "date": m.group(1),
+            "time": m.group(2),
+            "block": block,
+        })
+    edition_blocks.sort(key=lambda e: (e["date"], e["time"]), reverse=True)
+
+    if not edition_blocks:
+        warn("No editions found — skipping editorial checks 16-18")
+    else:
+        newest = edition_blocks[0]
+        label = f"{newest['date']} {newest['time']}"
+
+        # 16. 5+5 columns in newest edition
+        columns = re.findall(
+            r'<div\s+class="curated-column">(.*?)(?=<div\s+class="curated-column">|<div\s+class="one-to-read"|</div>\s*</div>)',
+            newest["block"],
+            re.S,
+        )
+        col_counts = []
+        for col in columns:
+            items = len(re.findall(r'<div\s+class="curated-item"', col))
+            col_counts.append(items)
+        if len(col_counts) != 2:
+            fail(
+                f"Newest edition ({label}): expected 2 curated-columns, "
+                f"found {len(col_counts)}."
+            )
+            errors += 1
+        elif col_counts != [5, 5]:
+            fail(
+                f"Newest edition ({label}): column item counts are {col_counts}, "
+                f"expected [5, 5]. Both GEO and UK columns must have exactly "
+                f"5 stories each."
+            )
+            errors += 1
+        else:
+            ok(f"Newest edition ({label}): 5 GEO + 5 UK curated-items")
+
+        # 17. ≥10 distinct outlets in SOURCES USED block of newest edition
+        src_match = re.search(
+            r"SOURCES USED(.*?)END SOURCES USED",
+            newest["block"],
+            re.S,
+        )
+        if not src_match:
+            warn(
+                f"Newest edition ({label}): no SOURCES USED block found — "
+                f"cannot check outlet count rule."
+            )
+        else:
+            src_text = src_match.group(1)
+            OUTLET_PATTERNS = [
+                ("Reuters", r"\bReuters\b"),
+                ("AP", r"\bAP\b"),
+                ("AFP", r"\bAFP\b"),
+                ("Bloomberg", r"\bBloomberg\b"),
+                ("BBC", r"\bBBC\b"),
+                ("CNN", r"\bCNN\b"),
+                ("CBS", r"\bCBS\b"),
+                ("CNBC", r"\bCNBC\b"),
+                ("NBC", r"\bNBC\b"),
+                ("ABC", r"\bABC\b"),
+                ("NPR", r"\bNPR\b"),
+                ("FT/Financial Times", r"\b(FT|Financial Times)\b"),
+                ("Guardian", r"\bGuardian\b"),
+                ("Independent", r"\bIndependent\b"),
+                ("The Times", r"\bThe Times\b|\bTimes\b(?! of)"),
+                ("Telegraph", r"\bTelegraph\b"),
+                ("Sky News", r"\bSky News\b"),
+                ("Channel 4", r"\bChannel 4\b"),
+                ("ITV", r"\bITV\b"),
+                ("ISW", r"\bISW\b|Institute for the Study of War"),
+                ("NYT/New York Times", r"\bNYT\b|\bNew York Times\b"),
+                ("WSJ/Wall Street Journal", r"\bWSJ\b|\bWall Street Journal\b"),
+                ("Washington Post", r"\bWashington Post\b|\bWaPo\b"),
+                ("Al Jazeera", r"\bAl Jazeera\b"),
+                ("Times of Israel", r"Times of Israel"),
+                ("Iran International", r"Iran International|iranintl"),
+                ("France 24", r"\bFrance 24\b"),
+                ("LBC", r"\bLBC\b"),
+                ("City AM", r"\bCity AM\b"),
+                ("The Argus", r"\bArgus\b"),
+                ("Economist", r"\bEconomist\b"),
+                ("Spectator", r"\bSpectator\b"),
+                ("Alliance News", r"\bAlliance News\b"),
+                ("Sharecast", r"\bSharecast\b"),
+                ("RUSI", r"\bRUSI\b"),
+                ("Defense News", r"\bDefense News\b"),
+                ("Bellingcat", r"\bBellingcat\b"),
+                ("Janes", r"\bJanes\b|\bJane's\b"),
+                ("PBS", r"\bPBS\b"),
+                ("Politico", r"\bPolitico\b"),
+                ("Axios", r"\bAxios\b"),
+                ("AAP", r"\bAAP\b"),
+            ]
+            outlets_found = set()
+            for name, pat in OUTLET_PATTERNS:
+                if re.search(pat, src_text):
+                    outlets_found.add(name)
+            if len(outlets_found) < 10:
+                fail(
+                    f"Newest edition ({label}): only {len(outlets_found)} distinct "
+                    f"outlets in SOURCES USED ({sorted(outlets_found)}). "
+                    f"Hard requirement is ≥10. Expand sourcing before pushing."
+                )
+                errors += 1
+            else:
+                ok(
+                    f"Newest edition ({label}): {len(outlets_found)} distinct "
+                    f"outlets in SOURCES USED (≥10 ✓)"
+                )
+
+        # 18. GEO theme concentration max 3/5 in newest edition
+        # Extract GEO column slugs (first curated-column)
+        if len(columns) >= 1:
+            geo_col = columns[0]
+            geo_slugs = re.findall(r'data-slug="([^"]+)"', geo_col)
+            THEME_KEYWORDS = {
+                "Iran/Hormuz": [
+                    "iran", "iranian", "hormuz", "baghaei", "qalibaf",
+                    "araghchi", "pezeshkian", "khamenei", "irgc", "tehran",
+                    "mojtaba", "rezaei", "aliabadi", "bandar-abbas",
+                    "centcom-strikes-irgc", "doha", "qatar-prime-minister",
+                ],
+                "Ukraine/Russia": [
+                    "ukraine", "ukrainian", "russia", "russian", "kyiv",
+                    "moscow", "putin", "zelensky", "kremlin", "donbas",
+                    "sumy", "kharkiv",
+                ],
+                "China/Taiwan": [
+                    "china", "chinese", "beijing", "xi-jinping", "taiwan",
+                    "taipei", "pla-",
+                ],
+                "Gaza/Israel": [
+                    "gaza", "hamas", "israeli", "idf-", "netanyahu",
+                    "palestinian", "west-bank",
+                ],
+                "Hezbollah/Lebanon": [
+                    "hezbollah", "lebanon", "lebanese", "beirut",
+                ],
+            }
+            theme_counts = {theme: 0 for theme in THEME_KEYWORDS}
+            for slug in geo_slugs:
+                slug_l = slug.lower()
+                for theme, keywords in THEME_KEYWORDS.items():
+                    if any(kw in slug_l for kw in keywords):
+                        theme_counts[theme] += 1
+                        break  # one slug counts toward one theme only
+            over_threshold = [
+                (t, c) for t, c in theme_counts.items() if c > 3
+            ]
+            if over_threshold:
+                for t, c in over_threshold:
+                    fail(
+                        f"Newest edition ({label}): GEO column has {c} of "
+                        f"{len(geo_slugs)} stories on the '{t}' theme. "
+                        f"Hard ceiling is 3 of 5. Swap a story for non-{t} content "
+                        f"(Ukraine/Russia, China/Taiwan, US politics, EU, Africa, "
+                        f"Latin America, etc.)."
+                    )
+                errors += 1
+            else:
+                top = max(theme_counts.items(), key=lambda x: x[1])
+                ok(
+                    f"Newest edition ({label}): GEO theme concentration OK "
+                    f"(max single-theme count: {top[1]}/5 on '{top[0]}')"
+                )
+
     if errors:
         print(f"\n\033[31mFAILED with {errors} error(s).\033[0m", file=sys.stderr)
         return 1
-    print(f"\n\033[32mAll structural checks passed.\033[0m")
+    print(f"\n\033[32mAll structural and editorial checks passed.\033[0m")
     return 0
 
 
