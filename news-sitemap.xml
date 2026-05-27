@@ -2,6 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-27-morning/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-27T08:15:00+01:00</news:publication_date>
+      <news:title>Morning Briefing — Wednesday 27 May 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-27-morning/trump-camp-david-cabinet-meeting-wednesday-iran-decision-republican-scrutiny/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-27T08:15:00+01:00</news:publication_date>
+      <news:title>Trump Convenes Full Cabinet at Camp David to Decide on Iran Deal</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-27-morning/iran-demands-24bn-frozen-assets-doha-talks-tasnim-12bn-first-phase/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-27T08:15:00+01:00</news:publication_date>
+      <news:title>Iran Demands $24 Billion in Frozen Assets Released in Two Phases</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-27-morning/russia-163-drones-overnight-ukraine-air-defence-shortage-patriot-iris-t/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-27T08:15:00+01:00</news:publication_date>
+      <news:title>Russia Launches 163 Drones Overnight at Ukraine; Air Defence Missile Shortage Bites</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-27-morning/israel-strikes-hamas-military-chief-mohammed-odeh-gaza-city-rimal/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-27T08:15:00+01:00</news:publication_date>
+      <news:title>Israel Kills Hamas Military Chief Mohammed Odeh in Gaza City Strike</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-27-morning/taiwan-monitors-second-chinese-combat-patrol-week-liaoning-carrier-pacific/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-27T08:15:00+01:00</news:publication_date>
+      <news:title>Taiwan Monitors Second Chinese Combat Patrol in a Week as Liaoning Carrier Operates</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-27-morning/ftse-100-edges-down-iran-uncertainty-brent-98-sterling-pmqs-preview/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-27T08:15:00+01:00</news:publication_date>
+      <news:title>FTSE 100 Edges Down as Iran Uncertainty Persists; PMQs This Afternoon</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-27-morning/burnham-makerfield-22-days-polling-day-vote-andy-for-us-campaign/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-27T08:15:00+01:00</news:publication_date>
+      <news:title>Burnham Makerfield Campaign — 22 Days to Polling Day, “Vote Andy For Us”</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-27-morning/streeting-coronation-talk-hardens-ten-week-timetable-bargaining-secretary-of-state/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-27T08:15:00+01:00</news:publication_date>
+      <news:title>Streeting “Coronation” Talk Hardens — Ten-Week Timetable, Bargaining Begins</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-27-morning/reeves-rearguard-chancellor-question-cost-of-living-package-bond-markets-miliband/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-27T08:15:00+01:00</news:publication_date>
+      <news:title>Reeves Rearguard — Cost-of-Living Package + “Biggest Fear Is Miliband” Framing</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-27-morning/al-carns-rfa-lyme-bay-gibraltar-uk-france-mine-clearing-operation-ready/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-27T08:15:00+01:00</news:publication_date>
+      <news:title>Carns at RFA Lyme Bay — UK-France Mine-Clearing Operation Stands Ready in Gibraltar</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-05-26-evening/</loc>
     <news:news>
       <news:publication>
@@ -362,116 +483,6 @@
       </news:publication>
       <news:publication_date>2026-05-25T18:30:00+01:00</news:publication_date>
       <news:title>Reeves Cost-of-Living Package Starts to Bite as Brent Drops</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-25-morning/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-25T08:15:00+01:00</news:publication_date>
-      <news:title>Morning Briefing — Monday 25 May 2026</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-25-morning/trump-no-rush-time-on-our-side-blockade-stays-until-signed/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-25T08:15:00+01:00</news:publication_date>
-      <news:title>Trump — “No Rush”, “Time On Our Side”; Blockade Stays Until Signed</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-25-morning/us-admin-official-iran-agreed-in-principle-hormuz-first-uranium-later/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-25T08:15:00+01:00</news:publication_date>
-      <news:title>Senior US Official — Iran Agreed “In Principle”; Hormuz First, Uranium Later</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-25-morning/cnn-sanctions-frozen-funds-only-after-hormuz-fully-functioning/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-25T08:15:00+01:00</news:publication_date>
-      <news:title>Sanctions Relief, Frozen-Funds Release Only After Hormuz Fully Functions</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-25-morning/isw-five-unresolved-issues-iran-rejects-defer-core-demands/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-25T08:15:00+01:00</news:publication_date>
-      <news:title>Five Unresolved Issues; Iran Rejects Efforts to Defer Core Demands</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-25-morning/isw-iran-stalling-deal-or-force-binary-strait-of-hormuz/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-25T08:15:00+01:00</news:publication_date>
-      <news:title>Iran “Stalling” to Normalise Hormuz Control; “Deal or Force” the Binary</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-25-morning/jones-fantasy-politics-warning-sunday-kuenssberg-no-magic-answer/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-25T08:15:00+01:00</news:publication_date>
-      <news:title>Jones — Warns Labour Against “Fantasy Politics”; “No Magic Answer”</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-25-morning/alan-johnson-labour-mps-daft-back-burnham-snap-election/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-25T08:15:00+01:00</news:publication_date>
-      <news:title>Alan Johnson — Labour MPs “Daft” to Back Burnham; Snap-Election Warning</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-25-morning/streeting-wealth-tax-sure-start-planning-reforms-council-homes/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-25T08:15:00+01:00</news:publication_date>
-      <news:title>Streeting Platform — Wealth Tax + Sure Start + Planning Reforms for Council Homes</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-25-morning/al-carns-selly-oak-mp-armed-forces-minister-dark-horse-leadership/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-25T08:15:00+01:00</news:publication_date>
-      <news:title>Al Carns — Selly Oak Armed Forces Minister Emerges as Dark Horse</news:title>
     </news:news>
   </url>
 </urlset>
