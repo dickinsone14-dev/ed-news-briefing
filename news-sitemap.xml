@@ -2,6 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-28-morning/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-28T08:15:00+01:00</news:publication_date>
+      <news:title>Morning Briefing — Thursday 28 May 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-28-morning/irgc-strikes-us-airbase-retaliation-hormuz-drone-operation-kuwait-defences/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-28T08:15:00+01:00</news:publication_date>
+      <news:title>IRGC Strikes US Airbase in Retaliation; Kuwait Air Defences Intercept Threats</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-28-morning/trump-rejects-hormuz-framework-blow-up-oman-threat-sanctions-pgsa/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-28T08:15:00+01:00</news:publication_date>
+      <news:title>Trump Rejects Hormuz Framework; “Blow Up” Oman Threat; Sanctions on Strait Authority</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-28-morning/ukraine-88-drones-overnight-71-intercepted-svitlovodsk-railway-strikes/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-28T08:15:00+01:00</news:publication_date>
+      <news:title>Russia Launches 88 Drones at Ukraine; Svitlovodsk Industrial Plant and Railways Hit</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-28-morning/hamas-confirms-odeh-death-israel-kills-18-palestinians-gaza-eid/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-28T08:15:00+01:00</news:publication_date>
+      <news:title>Hamas Confirms Odeh Death; Israeli Strikes Kill 18 Palestinians in Gaza on Eid</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-28-morning/taiwan-prosecutors-nvidia-ai-chip-smuggling-china-japan-route/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-28T08:15:00+01:00</news:publication_date>
+      <news:title>Taiwan Prosecutors Charge Three Over Nvidia AI Chip Smuggling Route to China</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-28-morning/ftse-futures-down-1-percent-iran-escalation-brent-9779-sterling-dollar/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-28T08:15:00+01:00</news:publication_date>
+      <news:title>FTSE Futures Down 1% on Iran Escalation; Brent +3.7% to $97.79</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-28-morning/burnham-makerfield-21-days-green-party-chris-kennedy-candidate-named/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-28T08:15:00+01:00</news:publication_date>
+      <news:title>Burnham Makerfield Campaign — 21 Days to Polling; Green Party Names Chris Kennedy</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-28-morning/streeting-coronation-ten-week-timetable-burnham-leadership-bargaining/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-28T08:15:00+01:00</news:publication_date>
+      <news:title>Streeting Coronation Talk Continues; Ten-Week Timetable in Play</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-28-morning/reeves-rearguard-tony-blair-warning-fiscal-rules-bond-markets-miliband/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-28T08:15:00+01:00</news:publication_date>
+      <news:title>Reeves Rearguard Holds — Blair Warning, Bond-Market Fear of Miliband</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-28-morning/uk-energy-price-cap-13-percent-rise-july-221-pounds-iran-shock-passthrough/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-28T08:15:00+01:00</news:publication_date>
+      <news:title>UK Energy Price Cap +13% From July — £221 Increase Per Household</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-05-27-evening/</loc>
     <news:news>
       <news:publication>
