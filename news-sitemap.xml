@@ -2,6 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-28-evening/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-28T18:30:00+01:00</news:publication_date>
+      <news:title>Evening Briefing — Thursday 28 May 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-28-evening/irgc-strikes-us-airbase-kuwait-bandar-abbas-strikes-four-drones-down/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-28T18:30:00+01:00</news:publication_date>
+      <news:title>IRGC Targets US Air Base in Kuwait; US Shoots Down Four Iranian Drones</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-28-evening/trump-dont-care-midterms-cabinet-iran-not-rushed-deal-stalling/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-28T18:30:00+01:00</news:publication_date>
+      <news:title>Trump — “I Don’t Care About the Midterms”; Won’t Be Rushed Into Iran Deal</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-28-evening/ukraine-138-of-147-drones-down-zelensky-trump-air-defence-appeal/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-28T18:30:00+01:00</news:publication_date>
+      <news:title>Ukraine Shoots Down 138 of 147 Russian Drones; Zelensky Appeals to Trump for Air Defences</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-28-evening/israel-lebanon-talks-keep-striking-hezbollah-ceasefire-iran-coverage-dispute/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-28T18:30:00+01:00</news:publication_date>
+      <news:title>Israel Agrees to Talks With Lebanon but Keeps Striking Hezbollah</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-28-evening/us-pce-inflation-data-core-3-3-percent-headline-3-8-fed-2-target/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-28T18:30:00+01:00</news:publication_date>
+      <news:title>US PCE Inflation Data — Core 3.3%, Headline 3.8%; Fed Target 2%</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-28-evening/ftse-100-down-1-percent-iran-strikes-defence-stocks-bae-babcock-melrose/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-28T18:30:00+01:00</news:publication_date>
+      <news:title>FTSE 100 Down 1% on Iran Strikes; Defence Stocks Lead, BT Slumps on Mittal Report</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-28-evening/tony-blair-labour-policy-first-politics-second-step-back-analyse-world/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-28T18:30:00+01:00</news:publication_date>
+      <news:title>Blair — “Labour Must Put Policy First, Politics Second”; Step Back and “Analyse the World”</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-28-evening/burnham-makerfield-campaign-21-days-vote-andy-for-us-green-kennedy-named/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-28T18:30:00+01:00</news:publication_date>
+      <news:title>Burnham Campaign 21 Days From Polling; Green Chris Kennedy Joins Five-Way Race</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-28-evening/uk-energy-price-cap-13-percent-rise-iran-shock-passthrough-household-budget/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-28T18:30:00+01:00</news:publication_date>
+      <news:title>UK Energy Price Cap +13% From July; Iran Shock Re-Anchors Inflation Backdrop</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-28-evening/streeting-coronation-burnham-leadership-ten-week-timetable-secretary-of-state/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-28T18:30:00+01:00</news:publication_date>
+      <news:title>Streeting Coronation Talk Persists; Ten-Week Timetable in Play Behind Closed Doors</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-05-28-morning/</loc>
     <news:news>
       <news:publication>
@@ -483,127 +604,6 @@
       </news:publication>
       <news:publication_date>2026-05-26T18:30:00+01:00</news:publication_date>
       <news:title>Burnham Makerfield Campaign — 23 Days to Go in “David versus Goliath” Contest</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-26-morning/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-26T08:15:00+01:00</news:publication_date>
-      <news:title>Morning Briefing — Tuesday 26 May 2026</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-26-morning/centcom-strikes-irgc-mine-laying-boats-bandar-abbas-sam-site-overnight/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-26T08:15:00+01:00</news:publication_date>
-      <news:title>CENTCOM Strikes IRGC Mine-Laying Boats and Bandar Abbas SAM Site Overnight</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-26-morning/iran-delegation-doha-talks-foreign-minister-parliament-speaker-central-bank/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-26T08:15:00+01:00</news:publication_date>
-      <news:title>Iran Delegation in Doha for Fresh Talks — Foreign Minister, Parliament Speaker, Central Bank Chief</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-26-morning/rubio-jaipur-hormuz-must-be-open-one-way-or-the-other-trump-good-deal-no-deal/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-26T08:15:00+01:00</news:publication_date>
-      <news:title>Rubio in Jaipur — Hormuz Must Be Open “One Way Or The Other”</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-26-morning/iran-stalling-deliberate-deal-or-force-binary-strait-of-hormuz/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-26T08:15:00+01:00</news:publication_date>
-      <news:title>Iran “Stalling” to Normalise Hormuz Control; “Deal or Force” Binary Holds</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-26-morning/baghaei-large-portion-issues-resolved-signing-not-imminent/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-26T08:15:00+01:00</news:publication_date>
-      <news:title>Baghaei — “Large Portion” of Issues Resolved, Signing Still Not Imminent</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-26-morning/ftse-100-opens-up-08-percent-oil-majors-lead-post-bank-holiday-catch-up/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-26T08:15:00+01:00</news:publication_date>
-      <news:title>FTSE 100 Opens Up 0.8% Post-Bank-Holiday; Oil Majors Lead, Sterling at $1.3478</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-26-morning/al-carns-rfa-lyme-bay-gibraltar-uk-france-mine-clearing-operation/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-26T08:15:00+01:00</news:publication_date>
-      <news:title>Carns Visits RFA Lyme Bay in Gibraltar — UK-France Mine-Clearing Operation Stands Ready</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-26-morning/streeting-wont-fight-burnham-if-makerfield-wins-ten-week-timetable/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-26T08:15:00+01:00</news:publication_date>
-      <news:title>Streeting “Won’t Fight Burnham” if Makerfield Wins; Ten-Week Coronation Timetable Emerges</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-26-morning/reeves-rearguard-allies-warn-bond-markets-reject-miliband-chancellor-question/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-26T08:15:00+01:00</news:publication_date>
-      <news:title>Reeves Rearguard Holds — “Chancellor Question Almost as Important as PM”</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-26-morning/burnham-makerfield-radio-manchester-campaign-trail-reform-kenyon-test/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-26T08:15:00+01:00</news:publication_date>
-      <news:title>Burnham Campaign Continues Through Bank Holiday Weekend; Kenyon Test Sharpens</news:title>
     </news:news>
   </url>
 </urlset>
