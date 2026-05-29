@@ -2,6 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-29-evening/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-29T18:30:00+01:00</news:publication_date>
+      <news:title>Evening Briefing — Friday 29 May 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-29-evening/iran-us-deal-tentative-trump-tehran-must-still-sign-bessent-in-sight-vance-tbd/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-29T18:30:00+01:00</news:publication_date>
+      <news:title>Iran-US Deal Tentative — Trump and Tehran Must Still Sign; “Concessions Through Missiles”</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-29-evening/romania-closes-russian-consulate-constanta-expels-consul-galati-drone-article-4/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-29T18:30:00+01:00</news:publication_date>
+      <news:title>Romania Closes Russian Consulate in Constanța, Expels Consul After Galați Drone Strike</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-29-evening/israel-lebanon-pentagon-talks-five-killed-tyre-abbasiyeh-northern-command-fears-freeze/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-29T18:30:00+01:00</news:publication_date>
+      <news:title>Israel-Lebanon Talks Proceed at Pentagon Despite Five Killed in Southern Lebanon Strikes</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-29-evening/ukraine-air-defence-zelensky-patriot-push-russia-retaliatory-air-strikes-kyiv/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-29T18:30:00+01:00</news:publication_date>
+      <news:title>Kyiv Alarm Grows Over Russian Retaliatory Air Strikes; Zelensky Pushes for More Patriot Missiles</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-29-evening/hamas-odeh-funeral-gaza-strikes-eid-ceasefire-violation-tracker-update/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-29T18:30:00+01:00</news:publication_date>
+      <news:title>Hamas Holds Odeh Funeral as Israel Continues Gaza Strikes Through Eid</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-29-evening/ftse-friday-close-10460-brent-biggest-weekly-fall-two-months-defence-stocks-ease/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-29T18:30:00+01:00</news:publication_date>
+      <news:title>FTSE 100 Closes at 10,460, Up 0.62%; Brent Records Biggest Weekly Fall in Two Months</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-29-evening/burnham-makerfield-20-days-poll-andy-for-us-green-kennedy-five-way-field-settled/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-29T18:30:00+01:00</news:publication_date>
+      <news:title>Burnham Makerfield Field Settled at Five Candidates; 20 Days to Polling Day</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-29-evening/streeting-ten-week-timetable-bargain-secretary-state-burnham-wins-yougov-80-10/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-29T18:30:00+01:00</news:publication_date>
+      <news:title>Streeting Allies Push Ten-Week Timetable; “Bargain for Best Cabinet Position” if Burnham Wins</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-29-evening/reeves-cost-of-living-package-brent-fall-bond-markets-miliband-fiscal-headroom/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-29T18:30:00+01:00</news:publication_date>
+      <news:title>Reeves Cost-of-Living Package Eases on Brent Fall; Gilt Yields Break Below 5%</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-29-evening/blair-burnham-fiscal-policy-first-politics-second-gilt-market-signal-continuity/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-29T18:30:00+01:00</news:publication_date>
+      <news:title>Blair-Burnham Fiscal Continuity Signal Reads in Gilt-Market Pricing</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-05-29-morning/</loc>
     <news:news>
       <news:publication>
