@@ -2,6 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-31-evening/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-31T18:30:00+01:00</news:publication_date>
+      <news:title>Evening Briefing — Sunday 31 May 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-31-evening/beaufort-castle-captured-israel-deepest-lebanon-incursion-25-years-netanyahu-deeper-push/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-31T18:30:00+01:00</news:publication_date>
+      <news:title>Israel Captures Beaufort Castle in Deepest Lebanon Incursion in 25 Years</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-31-evening/trump-tougher-terms-iran-deal-limbo-irgc-deputy-accept-rights-or-continue-war/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-31T18:30:00+01:00</news:publication_date>
+      <news:title>Trump Seeks Tougher Terms as Iran Deal Remains in Limbo; IRGC Deputy “Accept Iran’s Rights or Continue War”</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-31-evening/ukraine-coordinated-drone-offensive-rosneft-saratov-fuel-depots-bucha-brigade-overnight/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-31T18:30:00+01:00</news:publication_date>
+      <news:title>Coordinated Ukrainian Drone Offensive Hits Rosneft Refinery, Saratov and Fuel Depots Deep Inside Russia</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-31-evening/netanyahu-70-percent-gaza-directive-second-phase-collapse-sunday-hamas-mediators/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-31T18:30:00+01:00</news:publication_date>
+      <news:title>Netanyahu 70%-Gaza Directive Sunday Reaction: Second-Phase Ceasefire Effectively Collapsed</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-31-evening/romania-russia-fallout-continued-nato-article-4-weekend-consultation-constanta-galati/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-31T18:30:00+01:00</news:publication_date>
+      <news:title>Romania-Russia Diplomatic Fallout Continues; NATO Allies Weigh Article 4 Through Weekend</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-31-evening/sunday-weekend-recap-monday-london-open-iran-trump-tougher-terms-asia-futures-setup/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-31T18:30:00+01:00</news:publication_date>
+      <news:title>Sunday Weekend Recap; Monday London Open Pivots on Iran Deal and Beaufort Castle Push</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-31-evening/sunday-shows-blair-burnham-streeting-leadership-papers-iran-overlay-weekend-political-economy/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-31T18:30:00+01:00</news:publication_date>
+      <news:title>Sunday Political Shows: Blair-Burnham-Streeting Dynamic With Iran-Deal Macro Overlay</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-31-evening/burnham-makerfield-sunday-evening-18-days-ground-game-five-way-race-yougov-80-10/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-31T18:30:00+01:00</news:publication_date>
+      <news:title>Burnham Makerfield Sunday Evening: 18 Days to Polling; Ground Game Intensifies</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-31-evening/streeting-cabinet-bargain-burnham-wins-makerfield-allies-yougov-leadership-contest-sunday/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-31T18:30:00+01:00</news:publication_date>
+      <news:title>Streeting Allies Now Expect Cabinet Bargain Rather Than Leadership Fight if Burnham Wins</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-31-evening/reeves-cost-of-living-imf-stay-the-course-fiscal-headroom-brent-fall-bond-market-monday/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-31T18:30:00+01:00</news:publication_date>
+      <news:title>Reeves Cost-of-Living Package Heads Into Monday on Easier Macro and IMF Backing</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-05-31-morning/</loc>
     <news:news>
       <news:publication>
