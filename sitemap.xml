@@ -3,7 +3,7 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
     <loc>https://thedailybrief.co.uk/</loc>
-    <lastmod>2026-05-30</lastmod>
+    <lastmod>2026-05-31</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -2050,6 +2050,72 @@
   <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-05-30-morning/trump-puts-off-final-determination-iran-deal-two-hour-white-house-meeting-no-decision/</loc>
     <lastmod>2026-05-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-31-morning/</loc>
+    <lastmod>2026-05-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-31-morning/blair-sunday-papers-relegation-premier-league-reverberation-burnham-streeting-leadership/</loc>
+    <lastmod>2026-05-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-31-morning/burnham-makerfield-sunday-18-days-poll-ground-game-five-way-race-second-weekend/</loc>
+    <lastmod>2026-05-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-31-morning/hegseth-find-a-way-help-ukraine-air-defence-zelensky-patriot-pressure-saturday/</loc>
+    <lastmod>2026-05-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-31-morning/hezbollah-rockets-drones-north-israel-saturday-idf-expands-sour-nabatieh-salam-least-costly-path/</loc>
+    <lastmod>2026-05-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-31-morning/netanyahu-70-percent-gaza-directive-saturday-reaction-hamas-ceasefire-second-phase-collapse/</loc>
+    <lastmod>2026-05-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-31-morning/reeves-cost-of-living-imf-stay-the-course-fiscal-headroom-bond-market-acceptance-package/</loc>
+    <lastmod>2026-05-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-31-morning/streeting-cabinet-bargain-burnham-wins-makerfield-allies-yougov-80-10-leadership-contest/</loc>
+    <lastmod>2026-05-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-31-morning/sunday-asia-open-trump-iran-no-decision-monday-london-set-up-ftse-brent-gilt/</loc>
+    <lastmod>2026-05-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-31-morning/trump-seeks-changes-iran-deal-draft-envoys-axios-iranian-state-media-billions-frozen-funds/</loc>
+    <lastmod>2026-05-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-05-31-morning/ukraine-strikes-saratov-oil-refinery-drone-overnight-russia-deep-strike-campaign/</loc>
+    <lastmod>2026-05-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
