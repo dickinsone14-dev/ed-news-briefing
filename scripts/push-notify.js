@@ -124,6 +124,24 @@ async function main() {
   const { subscriptions } = await subsRes.json();
   console.log(`Found ${subscriptions.length} subscriber(s)`);
 
+  // Per-subscriber provider breakdown — helps diagnose which devices are subscribed
+  const providerCounts = {};
+  for (const s of subscriptions) {
+    try {
+      const host = new URL(s.endpoint).host;
+      const provider = host.includes('fcm.googleapis') || host.includes('android.googleapis') ? 'FCM (Chrome/Android)'
+                     : host.includes('apple') ? 'APNs (Safari/iOS)'
+                     : host.includes('mozilla') || host.includes('autopush') ? 'Mozilla (Firefox)'
+                     : host.includes('windows') || host.includes('microsoft') ? 'WNS (Edge/Windows)'
+                     : host;
+      providerCounts[provider] = (providerCounts[provider] || 0) + 1;
+    } catch {}
+  }
+  console.log('  Subscriber breakdown:');
+  for (const [provider, count] of Object.entries(providerCounts)) {
+    console.log(`    ${count}× ${provider}`);
+  }
+
   if (!subscriptions.length) {
     console.log('No subscribers — nothing to send.');
     return;
@@ -147,12 +165,15 @@ async function main() {
 
   const results = await Promise.allSettled(
     subscriptions.map(async (sub) => {
+      let provider = 'unknown';
+      try { provider = new URL(sub.endpoint).host.split('.').slice(-3).join('.'); } catch {}
       try {
-        await webpush.sendNotification(sub, payload);
+        const res = await webpush.sendNotification(sub, payload);
         sent++;
+        console.log(`  ✓ Sent to ${provider} (HTTP ${res.statusCode})`);
       } catch (err) {
         failed++;
-        console.error(`  Failed for ${sub.endpoint.slice(0, 60)}...: ${err.statusCode || err.message}`);
+        console.error(`  ✗ Failed for ${provider}: HTTP ${err.statusCode || '???'} — ${err.body || err.message}`);
         // Clean up expired/invalid subscriptions
         if (err.statusCode === 404 || err.statusCode === 410) {
           try {
