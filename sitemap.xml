@@ -3,7 +3,7 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
     <loc>https://thedailybrief.co.uk/</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-06-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -2314,6 +2314,72 @@
   <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-06-01-morning/us-iran-strikes-exchanged-kuwait-base-hit-american-fighters-radars-drones-trump-amendments/</loc>
     <lastmod>2026-06-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-02-morning/</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-02-morning/beirut-dahieh-strikes-monday-night-tuesday-morning-continued-hezbollah-civilian-displacement/</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-02-morning/burnham-makerfield-tuesday-16-days-poll-iran-overlay-campaign-third-week-defence-pivot/</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-02-morning/cobra-iran-meeting-cabinet-defence-tuesday-whitehall-engagement-uk-france-mine-clearing/</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-02-morning/ftse-tuesday-open-trump-deal-next-week-brent-pulls-back-gilt-eases-defence-stocks-give-back/</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-02-morning/iran-tasnim-suspension-talks-monday-irgc-continue-war-mixed-messaging-framework-deal-knife-edge/</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-02-morning/netanyahu-70-percent-gaza-directive-tuesday-second-phase-collapse-confirmed-mediators-deadlocked/</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-02-morning/reeves-cost-of-living-fiscal-headroom-tuesday-iran-whiplash-gilt-yields-five-percent-rate-cut-path/</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-02-morning/streeting-cabinet-bargain-burnham-tuesday-iran-overlay-yougov-leadership-position-holds/</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-02-morning/trump-iran-deal-over-the-next-week-denies-report-talks-stopped-tasnim-framework/</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-02-morning/ukraine-summer-offensive-russian-drones-overnight-patriot-pressure-saratov-caspian-follow-up/</loc>
+    <lastmod>2026-06-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>

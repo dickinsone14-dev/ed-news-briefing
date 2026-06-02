@@ -2,6 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-02-morning/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-02T08:15:00+01:00</news:publication_date>
+      <news:title>Morning Briefing — Tuesday 2 June 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-02-morning/trump-iran-deal-over-the-next-week-denies-report-talks-stopped-tasnim-framework/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-02T08:15:00+01:00</news:publication_date>
+      <news:title>Trump Says Iran Deal Expected “Over the Next Week”; Denies Talks Have Stopped</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-02-morning/beirut-dahieh-strikes-monday-night-tuesday-morning-continued-hezbollah-civilian-displacement/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-02T08:15:00+01:00</news:publication_date>
+      <news:title>Israeli Strikes on Beirut Dahieh Continue Through Monday Night Into Tuesday Morning</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-02-morning/iran-tasnim-suspension-talks-monday-irgc-continue-war-mixed-messaging-framework-deal-knife-edge/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-02T08:15:00+01:00</news:publication_date>
+      <news:title>Iran-Side Suspension Signal Holds: Tasnim and IRGC Lines Stand Despite Trump Walk-Back</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-02-morning/ukraine-summer-offensive-russian-drones-overnight-patriot-pressure-saratov-caspian-follow-up/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-02T08:15:00+01:00</news:publication_date>
+      <news:title>Russian Summer Offensive Drone Barrages Continue; Ukrainian Air Defence Under Sustained Pressure</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-02-morning/netanyahu-70-percent-gaza-directive-tuesday-second-phase-collapse-confirmed-mediators-deadlocked/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-02T08:15:00+01:00</news:publication_date>
+      <news:title>Netanyahu 70%-Gaza Directive Tuesday: Second-Phase Ceasefire Collapse Confirmed</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-02-morning/ftse-tuesday-open-trump-deal-next-week-brent-pulls-back-gilt-eases-defence-stocks-give-back/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-02T08:15:00+01:00</news:publication_date>
+      <news:title>FTSE 100 Set to Open Higher on Trump “Deal Next Week” Framing; Brent Pulls Back to $96.20</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-02-morning/cobra-iran-meeting-cabinet-defence-tuesday-whitehall-engagement-uk-france-mine-clearing/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-02T08:15:00+01:00</news:publication_date>
+      <news:title>Cobra-Level Iran Convening Likely This Week as Cabinet Weighs Defence Posture</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-02-morning/burnham-makerfield-tuesday-16-days-poll-iran-overlay-campaign-third-week-defence-pivot/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-02T08:15:00+01:00</news:publication_date>
+      <news:title>Burnham Makerfield Tuesday: 16 Days to Polling; Defence-Spending Pivot in Campaign</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-02-morning/streeting-cabinet-bargain-burnham-tuesday-iran-overlay-yougov-leadership-position-holds/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-02T08:15:00+01:00</news:publication_date>
+      <news:title>Streeting Cabinet-Bargain Position Holds Tuesday; Burnham Still Ahead 80-10 With Labour Members</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-02-morning/reeves-cost-of-living-fiscal-headroom-tuesday-iran-whiplash-gilt-yields-five-percent-rate-cut-path/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-02T08:15:00+01:00</news:publication_date>
+      <news:title>Reeves Cost-of-Living Fiscal Headroom Whiplashed by Iran Mixed Messaging</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-06-01-evening/</loc>
     <news:news>
       <news:publication>
@@ -362,127 +483,6 @@
       </news:publication>
       <news:publication_date>2026-05-31T18:30:00+01:00</news:publication_date>
       <news:title>Reeves Cost-of-Living Package Heads Into Monday on Easier Macro and IMF Backing</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-31-morning/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-31T08:15:00+01:00</news:publication_date>
-      <news:title>Morning Briefing — Sunday 31 May 2026</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-31-morning/trump-seeks-changes-iran-deal-draft-envoys-axios-iranian-state-media-billions-frozen-funds/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-31T08:15:00+01:00</news:publication_date>
-      <news:title>Trump Seeks Changes to Iran Deal Draft Negotiated by Envoys; Iranian State Media Claims Billions in Frozen Funds</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-31-morning/hezbollah-rockets-drones-north-israel-saturday-idf-expands-sour-nabatieh-salam-least-costly-path/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-31T08:15:00+01:00</news:publication_date>
-      <news:title>Hezbollah Rockets and Drones at Northern Israel; Israel Bombards Sour and Nabatieh as IDF Expands South Lebanon Op</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-31-morning/ukraine-strikes-saratov-oil-refinery-drone-overnight-russia-deep-strike-campaign/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-31T08:15:00+01:00</news:publication_date>
-      <news:title>Ukrainian Drones Strike Saratov Oil Refinery in Latest Deep-Strike Campaign Hit</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-31-morning/hegseth-find-a-way-help-ukraine-air-defence-zelensky-patriot-pressure-saturday/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-31T08:15:00+01:00</news:publication_date>
-      <news:title>Hegseth Says US Will “Find a Way” to Help Ukraine After Zelensky Air-Defence Plea</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-31-morning/netanyahu-70-percent-gaza-directive-saturday-reaction-hamas-ceasefire-second-phase-collapse/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-31T08:15:00+01:00</news:publication_date>
-      <news:title>Netanyahu 70%-Gaza Directive Saturday Reaction: Second-Phase Ceasefire Now Effectively Collapsed</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-31-morning/sunday-asia-open-trump-iran-no-decision-monday-london-set-up-ftse-brent-gilt/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-31T08:15:00+01:00</news:publication_date>
-      <news:title>Sunday Asia Open Sets Up Monday London Pivot on Trump Iran Decision</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-31-morning/blair-sunday-papers-relegation-premier-league-reverberation-burnham-streeting-leadership/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-31T08:15:00+01:00</news:publication_date>
-      <news:title>Blair “Relegation From Premier League” Warning Reverberates Through Sunday Papers</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-31-morning/burnham-makerfield-sunday-18-days-poll-ground-game-five-way-race-second-weekend/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-31T08:15:00+01:00</news:publication_date>
-      <news:title>Burnham Makerfield Sunday Campaign: 18 Days to Polling; Second-Weekend Ground Game</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-31-morning/streeting-cabinet-bargain-burnham-wins-makerfield-allies-yougov-80-10-leadership-contest/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-31T08:15:00+01:00</news:publication_date>
-      <news:title>Streeting Allies Now Expect Cabinet Bargain Rather Than Leadership Fight if Burnham Wins</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-05-31-morning/reeves-cost-of-living-imf-stay-the-course-fiscal-headroom-bond-market-acceptance-package/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-31T08:15:00+01:00</news:publication_date>
-      <news:title>Reeves Cost-of-Living Package Lands on IMF “Stay the Course” Backing and Easier Macro</news:title>
     </news:news>
   </url>
 </urlset>
