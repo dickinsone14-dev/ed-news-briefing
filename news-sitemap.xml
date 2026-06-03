@@ -2,6 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-03-morning/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-03T08:15:00+01:00</news:publication_date>
+      <news:title>Morning Briefing — Wednesday 3 June 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-03-morning/trump-edits-us-iran-agreement-enriched-uranium-hormuz-tougher-terms-cbs-binding-constraint/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-03T08:15:00+01:00</news:publication_date>
+      <news:title>Trump Edits US-Iran Agreement on Enriched Uranium and Strait of Hormuz, Source Says</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-03-morning/israel-holds-off-beirut-strikes-us-request-hezbollah-cessation-overnight-lebanon-talks-washington-fourth-round/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-03T08:15:00+01:00</news:publication_date>
+      <news:title>Israel Holds Off Beirut Strikes After US Request; Fourth Round of Lebanon Talks Runs in Washington</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-03-morning/ukrainian-drones-st-petersburg-oil-terminal-fire-putin-spief-economic-forum-visit/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-03T08:15:00+01:00</news:publication_date>
+      <news:title>Ukrainian Drones Set Fire to St Petersburg Oil Terminal Ahead of Putin Economic Forum Visit</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-03-morning/russian-massive-strikes-ukraine-tuesday-night-kyiv-civilian-targets-summer-offensive-aftermath/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-03T08:15:00+01:00</news:publication_date>
+      <news:title>Russian Strikes on Ukraine Continue Through Tuesday Night Into Wednesday; Civilian Targets Hit</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-03-morning/netanyahu-70-percent-gaza-directive-wednesday-second-phase-collapse-trump-lebanon-cessation-pivot/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-03T08:15:00+01:00</news:publication_date>
+      <news:title>Netanyahu 70%-Gaza Directive Holds Through Wednesday as US Pressure Pivots to Lebanon Track</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-03-morning/ftse-wednesday-open-stalls-iran-breakthrough-await-brent-steady-gilt-below-five-percent-pmqs/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-03T08:15:00+01:00</news:publication_date>
+      <news:title>FTSE 100 Stalls at Wednesday Open as Traders Await Iran Breakthrough; Gilt Yields Slip Below 5%</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-03-morning/pmqs-wednesday-iran-defence-starmer-badenoch-farage-reform-defence-posture-cobra-brief/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-03T08:15:00+01:00</news:publication_date>
+      <news:title>PMQs Set to Lead on Iran as Starmer Faces Badenoch and Farage Pressure on Defence Posture</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-03-morning/burnham-makerfield-wednesday-15-days-poll-iran-de-escalation-pmqs-defence-ground-game/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-03T08:15:00+01:00</news:publication_date>
+      <news:title>Burnham Makerfield Wednesday: 15 Days to Polling; Iran De-Escalation Eases Defence-First Attack</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-03-morning/streeting-cabinet-bargain-burnham-wednesday-iran-overlay-leadership-position-holds-yougov/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-03T08:15:00+01:00</news:publication_date>
+      <news:title>Streeting Cabinet-Bargain Position Holds Wednesday; Burnham 80-10 Lead With Labour Members Unchanged</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-03-morning/reeves-cost-of-living-fiscal-headroom-wednesday-iran-de-escalation-gilt-yields-below-five-percent/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-03T08:15:00+01:00</news:publication_date>
+      <news:title>Reeves Cost-of-Living Fiscal Headroom Recovers Further as Gilt Yields Slip Below 5%</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-06-02-evening/</loc>
     <news:news>
       <news:publication>
@@ -362,127 +483,6 @@
       </news:publication>
       <news:publication_date>2026-06-01T18:30:00+01:00</news:publication_date>
       <news:title>Reeves Cost-of-Living Fiscal Headroom Tightens Further on Iran-Talks Suspension; Gilt Close 5.08%</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-06-01-morning/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-01T08:15:00+01:00</news:publication_date>
-      <news:title>Morning Briefing — Monday 1 June 2026</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-06-01-morning/us-iran-strikes-exchanged-kuwait-base-hit-american-fighters-radars-drones-trump-amendments/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-01T08:15:00+01:00</news:publication_date>
-      <news:title>US and Iran Exchange Strikes; American Base in Kuwait Hit by Missiles and Drones</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-06-01-morning/netanyahu-orders-beirut-southern-suburbs-strikes-ceasefire-crumbles-beaufort-ridge-litani/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-01T08:15:00+01:00</news:publication_date>
-      <news:title>Netanyahu Orders Strikes on Beirut Southern Suburbs as Hezbollah-Israel Ceasefire Crumbles</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-06-01-morning/ftse-softer-monday-open-iran-escalation-brent-back-above-96-gilt-yields-five-percent/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-01T08:15:00+01:00</news:publication_date>
-      <news:title>FTSE 100 Softer Monday Open on Iran Escalation; Brent Back Above $96, Gilt Yields Push Back Above 5%</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-06-01-morning/ukraine-saratov-caspian-military-base-deep-strike-monday-russian-targets-defence-forces/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-01T08:15:00+01:00</news:publication_date>
-      <news:title>Ukraine Hits Saratov Oil Refinery, Caspian Military Base in Latest Deep-Strike Wave</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-06-01-morning/netanyahu-70-percent-gaza-directive-monday-second-phase-collapse-hostage-talks-deadlocked/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-01T08:15:00+01:00</news:publication_date>
-      <news:title>Netanyahu 70%-Gaza Directive Monday: Second-Phase Ceasefire Collapse Accelerates</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-06-01-morning/ftse-monday-open-iran-escalation-defence-bp-shell-gilt-above-five-percent-sterling-softer/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-01T08:15:00+01:00</news:publication_date>
-      <news:title>FTSE Monday Open Maps Iran Escalation: Defence Up, Oil Majors Mixed, Gilt Yields Reverse Higher</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-06-01-morning/burnham-makerfield-monday-17-days-poll-iran-overlay-campaign-second-week-ground-game/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-01T08:15:00+01:00</news:publication_date>
-      <news:title>Burnham Makerfield Monday: 17 Days to Polling With Iran Escalation as Macro Overlay</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-06-01-morning/streeting-cabinet-bargain-burnham-wins-leadership-iran-overlay-monday-papers-reception/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-01T08:15:00+01:00</news:publication_date>
-      <news:title>Streeting Cabinet-Bargain Position Holds Through Iran Escalation; Burnham Still Ahead 80-10 With Members</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-06-01-morning/reeves-cost-of-living-fiscal-headroom-tightens-iran-escalation-gilt-yields-back-above-five/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-01T08:15:00+01:00</news:publication_date>
-      <news:title>Reeves Cost-of-Living Fiscal Headroom Tightens on Iran Escalation; Gilt Yields Back Above 5%</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-06-01-morning/blair-monday-papers-relegation-premier-league-reverberation-labour-leadership-fiscal-discipline/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-01T08:15:00+01:00</news:publication_date>
-      <news:title>Blair “Relegation From Premier League” Warning Re-Surfaces Monday Through Leadership Reporting</news:title>
     </news:news>
   </url>
 </urlset>
