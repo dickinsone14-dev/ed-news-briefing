@@ -3,7 +3,7 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
     <loc>https://thedailybrief.co.uk/</loc>
-    <lastmod>2026-06-03</lastmod>
+    <lastmod>2026-06-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -2578,6 +2578,72 @@
   <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-06-03-morning/ukrainian-drones-st-petersburg-oil-terminal-fire-putin-spief-economic-forum-visit/</loc>
     <lastmod>2026-06-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-04-morning/</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-04-morning/burnham-makerfield-thursday-14-days-poll-iran-ceasefire-mixed-defence-campaign-third-week/</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-04-morning/cobra-iran-cabinet-engagement-thursday-uk-france-mediterranean-mine-clearing-defence-posture-carns/</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-04-morning/ftse-thursday-open-weaker-geopolitical-uncertainty-brent-steady-gilt-five-percent-line/</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-04-morning/israel-lebanon-conditional-ceasefire-agreed-wednesday-washington-fourth-round-nine-killed-strikes/</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-04-morning/netanyahu-70-percent-gaza-directive-thursday-second-phase-collapse-confirmed-mediators-deadlocked/</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-04-morning/reeves-cost-of-living-fiscal-headroom-thursday-iran-mixed-gilt-yields-above-five-percent-line/</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-04-morning/russian-strikes-kill-18-ukraine-tuesday-night-civilian-targets-kyiv-summer-offensive-aftermath/</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-04-morning/streeting-cabinet-bargain-burnham-thursday-iran-mixed-leadership-position-yougov-80-10-holds/</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-04-morning/trump-iran-deal-tehran-response-pending-uranium-hormuz-edits-thursday-knife-edge-final-determination/</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-04-morning/ukraine-drones-st-petersburg-oil-complex-military-base-spief-russian-davos-zelensky-confirms/</loc>
+    <lastmod>2026-06-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
