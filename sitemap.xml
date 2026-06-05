@@ -3,7 +3,7 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
     <loc>https://thedailybrief.co.uk/</loc>
-    <lastmod>2026-06-04</lastmod>
+    <lastmod>2026-06-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -2710,6 +2710,72 @@
   <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-06-04-morning/ukraine-drones-st-petersburg-oil-complex-military-base-spief-russian-davos-zelensky-confirms/</loc>
     <lastmod>2026-06-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-05-morning/</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-05-morning/burnham-makerfield-friday-13-days-poll-hezbollah-rejection-defence-pivot-final-fortnight/</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-05-morning/ftse-friday-open-mixed-ai-stocks-sell-off-asia-south-korea-five-percent-middle-east-tensions-london/</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-05-morning/hezbollah-chief-qassem-rejects-conditional-truce-israeli-withdrawal-demand-lebanon-comprehensive-ceasefire/</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-05-morning/iran-chief-negotiator-not-to-be-trusted-trump-tougher-terms-uranium-hormuz-response-pending-deal/</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-05-morning/netanyahu-70-percent-gaza-directive-friday-second-phase-collapse-confirmed-hostage-deadlocked/</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-05-morning/reeves-cost-of-living-fiscal-headroom-friday-hezbollah-rejection-gilt-yields-five-percent-line-holding/</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-05-morning/russia-summer-offensive-friday-overnight-strikes-kyiv-air-defence-patriot-pressure-zelensky-appeals/</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-05-morning/streeting-cabinet-bargain-burnham-friday-hezbollah-rejection-leadership-position-yougov-80-10-holds/</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-05-morning/uk-cabinet-iran-engagement-friday-hezbollah-truce-rejection-uk-france-mediterranean-mine-clearing-carns/</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-05-morning/zelensky-putin-face-to-face-meeting-proposal-open-letter-direct-engagement-hypersonic-deranged/</loc>
+    <lastmod>2026-06-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
