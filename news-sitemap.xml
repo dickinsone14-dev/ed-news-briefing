@@ -2,6 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-05-evening/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-05T18:30:00+01:00</news:publication_date>
+      <news:title>Evening Briefing — Friday 5 June 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-05-evening/putin-rejects-zelensky-face-to-face-meeting-no-point-spief-open-letter-age-elections/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-05T18:30:00+01:00</news:publication_date>
+      <news:title>Putin Rejects Zelensky Face-to-Face Meeting Offer; Sees “No Point”</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-05-evening/hezbollah-rejection-truce-fresh-israeli-strikes-southern-lebanon-friday-qassem-withdrawal-demand/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-05T18:30:00+01:00</news:publication_date>
+      <news:title>Hezbollah Rejection of Truce Continues; Fresh Israeli Strikes Hit Southern Lebanon Positions</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-05-evening/iran-framework-deal-impasse-trump-tehran-tougher-terms-uranium-hormuz-not-trusted-no-response/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-05T18:30:00+01:00</news:publication_date>
+      <news:title>Iran Framework Deal in Impasse as Trump Tougher Terms Sit Unanswered by Tehran</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-05-evening/apple-removes-kremlin-max-app-store-russia-tech-sanctions-spief-putin-sanctions-global-economy/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-05T18:30:00+01:00</news:publication_date>
+      <news:title>Apple Removes Kremlin-Backed Max Messaging App From App Store</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-05-evening/netanyahu-70-percent-gaza-directive-friday-lebanon-impasse-hostage-egyptian-mediators-deadlocked/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-05T18:30:00+01:00</news:publication_date>
+      <news:title>Netanyahu 70%-Gaza Directive Holds Through Friday as Lebanon Track Stalls</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-05-evening/ftse-close-friday-10405-week-flat-brent-95-eases-putin-zelensky-rejection-modest-de-escalation/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-05T18:30:00+01:00</news:publication_date>
+      <news:title>FTSE 100 Closes at 10,405, Up 0.48%; Roughly Flat on the Week as Brent Eases Below $96</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-05-evening/uk-cabinet-iran-engagement-friday-evening-hezbollah-rejection-uk-france-mediterranean-mine-clearing-carns/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-05T18:30:00+01:00</news:publication_date>
+      <news:title>UK Cabinet Iran Engagement Closes Friday; Hezbollah Rejection Sets Up Weekend Diplomatic Push</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-05-evening/burnham-makerfield-friday-evening-13-days-poll-final-fortnight-ground-game-defence-pivot/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-05T18:30:00+01:00</news:publication_date>
+      <news:title>Burnham Makerfield Friday Evening: 13 Days to Polling; Ground Game Intensifies Through the Weekend</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-05-evening/streeting-cabinet-bargain-burnham-friday-evening-hezbollah-rejection-leadership-position-yougov-holds/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-05T18:30:00+01:00</news:publication_date>
+      <news:title>Streeting Cabinet-Bargain Position Holds Through Friday Close; Burnham 80-10 Lead Unchanged</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-05-evening/reeves-cost-of-living-fiscal-headroom-friday-evening-week-recap-gilt-5-percent-line-brent-95/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-05T18:30:00+01:00</news:publication_date>
+      <news:title>Reeves Cost-of-Living Fiscal Headroom Closes Week at 5%-Line Resistance; Brent Below $96</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-06-05-morning/</loc>
     <news:news>
       <news:publication>
