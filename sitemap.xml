@@ -3,7 +3,7 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
     <loc>https://thedailybrief.co.uk/</loc>
-    <lastmod>2026-06-05</lastmod>
+    <lastmod>2026-06-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -2842,6 +2842,72 @@
   <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-06-05-morning/zelensky-putin-face-to-face-meeting-proposal-open-letter-direct-engagement-hypersonic-deranged/</loc>
     <lastmod>2026-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-06-morning/</loc>
+    <lastmod>2026-06-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-06-morning/burnham-considering-keeping-reeves-chancellor-mps-lobbying-fiscal-continuity-bond-markets-signal/</loc>
+    <lastmod>2026-06-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-06-morning/burnham-makerfield-saturday-12-days-poll-final-fortnight-ground-game-iran-strikes-overlay/</loc>
+    <lastmod>2026-06-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-06-morning/hormuz-remains-closed-brent-above-96-iran-framework-deal-impasse-trump-tougher-terms-pending/</loc>
+    <lastmod>2026-06-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-06-morning/israel-continues-lebanon-offensive-despite-ceasefire-beaufort-litani-defence-minister-beirut-strike/</loc>
+    <lastmod>2026-06-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-06-morning/netanyahu-70-percent-gaza-directive-saturday-weekend-lebanon-fragility-iran-impasse-hostage-mediators/</loc>
+    <lastmod>2026-06-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-06-morning/putin-rejects-zelensky-meeting-no-point-friday-spief-russia-sanctions-apple-max-app-removed/</loc>
+    <lastmod>2026-06-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-06-morning/reeves-cost-of-living-fiscal-headroom-weekend-iran-flare-up-burnham-mp-lobbying-continuity-signal/</loc>
+    <lastmod>2026-06-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-06-morning/streeting-cabinet-bargain-burnham-saturday-iran-flare-up-leadership-position-yougov-80-10-holds/</loc>
+    <lastmod>2026-06-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-06-morning/us-iran-fresh-strikes-overnight-kuwait-seven-missiles-targeted-worst-flare-up-april-ceasefire/</loc>
+    <lastmod>2026-06-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-06-morning/weekend-markets-recap-friday-flat-week-brent-95-iran-strikes-monday-open-uk-treasury/</loc>
+    <lastmod>2026-06-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
