@@ -2,6 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-06-evening/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-06T18:30:00+01:00</news:publication_date>
+      <news:title>Evening Briefing — Saturday 6 June 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-06-evening/ukraine-massive-drone-strike-kronstadt-naval-base-guided-missile-corvette-zelensky-end-war/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-06T18:30:00+01:00</news:publication_date>
+      <news:title>Ukraine Launches Massive Drone Strike on Kronstadt Naval Base; Guided-Missile Corvette Hit</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-06-evening/ukraine-targets-st-petersburg-saturday-drone-attack-residents-stay-indoors-putin-direct-talks-rejection/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-06T18:30:00+01:00</news:publication_date>
+      <news:title>Ukraine Targets St Petersburg Again After Putin Rejects Zelensky Direct Talks Offer</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-06-evening/us-iran-strikes-continue-hormuz-closed-saturday-iran-framework-impasse-brent-gap-higher-sunday-asia/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-06T18:30:00+01:00</news:publication_date>
+      <news:title>US-Iran Strikes Continue as Hormuz Stays Closed; Brent Set to Gap Higher on Sunday Asia Open</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-06-evening/israel-lebanon-offensive-continues-saturday-french-saudi-envoys-beirut-weekend-hezbollah-qassem-rejection/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-06T18:30:00+01:00</news:publication_date>
+      <news:title>Israeli Army Continues Lebanon Offensive as French and Saudi Envoys Arrive in Beirut</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-06-evening/netanyahu-70-percent-gaza-directive-saturday-evening-weekend-ceasefire-fragility-hostage-talks/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-06T18:30:00+01:00</news:publication_date>
+      <news:title>Netanyahu 70%-Gaza Directive Holds Through Saturday Evening; Hostage Talks Deadlocked</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-06-evening/weekend-markets-saturday-evening-sunday-asia-open-brent-hormuz-closed-monday-london-gilt-pivot/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-06T18:30:00+01:00</news:publication_date>
+      <news:title>Weekend Markets Saturday Evening: Sunday Asia Open Pivots on Hormuz Closure Status</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-06-evening/burnham-reeves-continuity-saturday-mps-lobbying-chancellor-bond-markets-credibility-anchor-sunday-papers/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-06T18:30:00+01:00</news:publication_date>
+      <news:title>Sunday Papers Expected to Lead on Burnham-Reeves Continuity Signal Alongside Iran Flare-Up</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-06-evening/burnham-makerfield-saturday-evening-12-days-poll-final-fortnight-iran-strikes-defence-overlay/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-06T18:30:00+01:00</news:publication_date>
+      <news:title>Burnham Makerfield Saturday Evening: 12 Days to Polling; Iran Flare-Up Overlay Persists</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-06-evening/streeting-cabinet-bargain-burnham-saturday-evening-reeves-continuity-signal-leadership-position-holds/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-06T18:30:00+01:00</news:publication_date>
+      <news:title>Streeting Cabinet-Bargain Path Eased Further by Reeves-Continuity Signal</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-06-evening/reeves-cost-of-living-fiscal-headroom-saturday-evening-iran-flare-up-mp-continuity-lobbying-signal/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-06T18:30:00+01:00</news:publication_date>
+      <news:title>Reeves Cost-of-Living Package Holds Through Iran Flare-Up on MP-Continuity Lobbying Signal</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-06-06-morning/</loc>
     <news:news>
       <news:publication>
