@@ -3,7 +3,7 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
     <loc>https://thedailybrief.co.uk/</loc>
-    <lastmod>2026-06-06</lastmod>
+    <lastmod>2026-06-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -2974,6 +2974,72 @@
   <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-06-06-morning/weekend-markets-recap-friday-flat-week-brent-95-iran-strikes-monday-open-uk-treasury/</loc>
     <lastmod>2026-06-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-07-morning/</loc>
+    <lastmod>2026-06-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-07-morning/burnham-makerfield-sunday-11-days-poll-final-stretch-ground-game-russia-summit-iran-overlay/</loc>
+    <lastmod>2026-06-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-07-morning/israel-lebanon-offensive-continues-sunday-french-saudi-envoys-beirut-hezbollah-qassem-rejection-holds/</loc>
+    <lastmod>2026-06-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-07-morning/london-russia-summit-sunday-starmer-ukraine-coalition-foreign-policy-moment-western-pressure/</loc>
+    <lastmod>2026-06-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-07-morning/netanyahu-70-percent-gaza-directive-sunday-weekend-lebanon-fragmentation-hostage-talks-egyptian-mediators/</loc>
+    <lastmod>2026-06-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-07-morning/pakistani-minister-arrives-tehran-press-struggling-iran-us-peace-process-mediator-framework/</loc>
+    <lastmod>2026-06-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-07-morning/reeves-cost-of-living-fiscal-headroom-sunday-london-russia-summit-iran-flare-up-mp-continuity-signal/</loc>
+    <lastmod>2026-06-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-07-morning/streeting-cabinet-bargain-burnham-sunday-reeves-continuity-leadership-position-yougov-holds-london-summit/</loc>
+    <lastmod>2026-06-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-07-morning/sunday-papers-burnham-reeves-continuity-signal-mps-lobbying-chancellor-bond-markets-credibility/</loc>
+    <lastmod>2026-06-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-07-morning/ukraine-st-petersburg-massive-drone-attack-376-intercepted-zelensky-1000-km-deep-strike-campaign/</loc>
+    <lastmod>2026-06-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-07-morning/world-leaders-gather-london-sunday-russia-pressure-putin-zelensky-rejection-aftermath-summit/</loc>
+    <lastmod>2026-06-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>

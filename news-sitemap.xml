@@ -2,6 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-07-morning/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-07T08:15:00+01:00</news:publication_date>
+      <news:title>Morning Briefing — Sunday 7 June 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-07-morning/world-leaders-gather-london-sunday-russia-pressure-putin-zelensky-rejection-aftermath-summit/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-07T08:15:00+01:00</news:publication_date>
+      <news:title>World Leaders Gather in London on Sunday to Pile Pressure on Russia</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-07-morning/ukraine-st-petersburg-massive-drone-attack-376-intercepted-zelensky-1000-km-deep-strike-campaign/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-07T08:15:00+01:00</news:publication_date>
+      <news:title>Ukraine Massive Drone Attack on St Petersburg; Russia Intercepts 376 Drones</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-07-morning/pakistani-minister-arrives-tehran-press-struggling-iran-us-peace-process-mediator-framework/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-07T08:15:00+01:00</news:publication_date>
+      <news:title>Pakistani Minister Arrives in Tehran to Press Struggling US-Iran Peace Process</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-07-morning/israel-lebanon-offensive-continues-sunday-french-saudi-envoys-beirut-hezbollah-qassem-rejection-holds/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-07T08:15:00+01:00</news:publication_date>
+      <news:title>Israeli Army Continues Lebanon Offensive as French and Saudi Envoys Hold Beirut Talks</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-07-morning/netanyahu-70-percent-gaza-directive-sunday-weekend-lebanon-fragmentation-hostage-talks-egyptian-mediators/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-07T08:15:00+01:00</news:publication_date>
+      <news:title>Netanyahu 70%-Gaza Directive Holds Through Sunday as Lebanon Track Fragments</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-07-morning/london-russia-summit-sunday-starmer-ukraine-coalition-foreign-policy-moment-western-pressure/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-07T08:15:00+01:00</news:publication_date>
+      <news:title>Starmer Hosts London Russia Summit; Most Significant UK Foreign-Policy Moment of the Year</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-07-morning/sunday-papers-burnham-reeves-continuity-signal-mps-lobbying-chancellor-bond-markets-credibility/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-07T08:15:00+01:00</news:publication_date>
+      <news:title>Sunday Papers Lead on Burnham-Reeves Continuity Signal; MPs Lobby for Chancellor Continuity</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-07-morning/burnham-makerfield-sunday-11-days-poll-final-stretch-ground-game-russia-summit-iran-overlay/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-07T08:15:00+01:00</news:publication_date>
+      <news:title>Burnham Makerfield Sunday: 11 Days to Polling; Final Stretch With Russia Summit Overlay</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-07-morning/streeting-cabinet-bargain-burnham-sunday-reeves-continuity-leadership-position-yougov-holds-london-summit/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-07T08:15:00+01:00</news:publication_date>
+      <news:title>Streeting Cabinet-Bargain Path Holds Through London Summit; Burnham 80-10 Lead Unchanged</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-07-morning/reeves-cost-of-living-fiscal-headroom-sunday-london-russia-summit-iran-flare-up-mp-continuity-signal/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-07T08:15:00+01:00</news:publication_date>
+      <news:title>Reeves Cost-of-Living Package Holds on MP-Continuity Signal Into Sunday London Summit</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-06-06-evening/</loc>
     <news:news>
       <news:publication>
@@ -362,248 +483,6 @@
       </news:publication>
       <news:publication_date>2026-06-05T18:30:00+01:00</news:publication_date>
       <news:title>Reeves Cost-of-Living Fiscal Headroom Closes Week at 5%-Line Resistance; Brent Below $96</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-06-05-morning/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-05T08:15:00+01:00</news:publication_date>
-      <news:title>Morning Briefing — Friday 5 June 2026</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-06-05-morning/hezbollah-chief-qassem-rejects-conditional-truce-israeli-withdrawal-demand-lebanon-comprehensive-ceasefire/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-05T08:15:00+01:00</news:publication_date>
-      <news:title>Hezbollah Chief Qassem Rejects Conditional Truce; Demands Israeli Withdrawal From Lebanon</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-06-05-morning/iran-chief-negotiator-not-to-be-trusted-trump-tougher-terms-uranium-hormuz-response-pending-deal/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-05T08:15:00+01:00</news:publication_date>
-      <news:title>Iran’s Chief Negotiator: US “Not to Be Trusted” as Trump Tougher Terms Land</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-06-05-morning/zelensky-putin-face-to-face-meeting-proposal-open-letter-direct-engagement-hypersonic-deranged/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-05T08:15:00+01:00</news:publication_date>
-      <news:title>Zelensky Proposes Face-to-Face Putin Meeting in Rare Open Letter to Russian Leader</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-06-05-morning/russia-summer-offensive-friday-overnight-strikes-kyiv-air-defence-patriot-pressure-zelensky-appeals/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-05T08:15:00+01:00</news:publication_date>
-      <news:title>Russian Summer Offensive Continues; Patriot Pressure on Ukrainian Air Defence Persists</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-06-05-morning/netanyahu-70-percent-gaza-directive-friday-second-phase-collapse-confirmed-hostage-deadlocked/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-05T08:15:00+01:00</news:publication_date>
-      <news:title>Netanyahu 70%-Gaza Directive Holds Through Friday as Lebanon Ceasefire Already Fragmented</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-06-05-morning/ftse-friday-open-mixed-ai-stocks-sell-off-asia-south-korea-five-percent-middle-east-tensions-london/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-05T08:15:00+01:00</news:publication_date>
-      <news:title>FTSE 100 Modestly Higher Open as AI Stocks Sell-Off Hits Asia; Middle East Tensions Persist</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-06-05-morning/uk-cabinet-iran-engagement-friday-hezbollah-truce-rejection-uk-france-mediterranean-mine-clearing-carns/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-05T08:15:00+01:00</news:publication_date>
-      <news:title>UK Cabinet Iran Engagement Friday: Hezbollah Truce Rejection Complicates Coordination</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-06-05-morning/burnham-makerfield-friday-13-days-poll-hezbollah-rejection-defence-pivot-final-fortnight/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-05T08:15:00+01:00</news:publication_date>
-      <news:title>Burnham Makerfield Friday: 13 Days to Polling; Hezbollah Rejection Re-Engages Defence Pivot</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-06-05-morning/streeting-cabinet-bargain-burnham-friday-hezbollah-rejection-leadership-position-yougov-80-10-holds/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-05T08:15:00+01:00</news:publication_date>
-      <news:title>Streeting Cabinet-Bargain Position Holds Through Hezbollah Truce Rejection; Burnham 80-10 Unchanged</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-06-05-morning/reeves-cost-of-living-fiscal-headroom-friday-hezbollah-rejection-gilt-yields-five-percent-line-holding/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-05T08:15:00+01:00</news:publication_date>
-      <news:title>Reeves Cost-of-Living Fiscal Headroom Holds at 5%-Line Resistance as Hezbollah Rejection Lands</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-06-04-evening/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-04T18:30:00+01:00</news:publication_date>
-      <news:title>Evening Briefing — Thursday 4 June 2026</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-06-04-evening/israel-defence-minister-strikes-beirut-continue-despite-lebanon-ceasefire-conditional-flaw/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-04T18:30:00+01:00</news:publication_date>
-      <news:title>Israel Says Military Operations in Lebanon Will Continue Despite Ceasefire; Beirut Strikes Threatened</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-06-04-evening/lebanon-conditional-ceasefire-hezbollah-not-included-us-brokered-talks-washington-structural-flaw/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-04T18:30:00+01:00</news:publication_date>
-      <news:title>Lebanon Ceasefire Made Through US-Brokered Talks That Did Not Include Hezbollah</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-06-04-evening/trump-tougher-terms-formally-sent-iran-framework-deal-uranium-hormuz-edits-officials-response-pending/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-04T18:30:00+01:00</news:publication_date>
-      <news:title>Trump Formally Sends Tougher Terms to Iran for Peace Framework, Officials Say</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-06-04-evening/russia-escalates-aerial-campaign-ukraine-deep-strikes-st-petersburg-spief-week-summer-offensive/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-04T18:30:00+01:00</news:publication_date>
-      <news:title>Russia Escalates Aerial Campaign as Ukraine Strikes Deep Into Russian Territory</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-06-04-evening/netanyahu-70-percent-gaza-directive-thursday-evening-lebanon-fragile-ceasefire-egyptian-mediators/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-04T18:30:00+01:00</news:publication_date>
-      <news:title>Netanyahu 70%-Gaza Directive Holds as Lebanon Ceasefire Already Fragile</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-06-04-evening/ftse-close-thursday-10355-down-lebanon-truce-fade-brent-back-above-97-gilt-five-percent/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-04T18:30:00+01:00</news:publication_date>
-      <news:title>FTSE 100 Closes at 10,355, Down 0.53% as Lebanon-Truce Optimism Fades; Brent Back Above $97</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-06-04-evening/uk-cabinet-iran-engagement-thursday-uk-france-mediterranean-mine-clearing-defence-posture-carns-cobra/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-04T18:30:00+01:00</news:publication_date>
-      <news:title>UK Cabinet Iran Engagement Continues; UK-France Minehunting Holds Through Lebanon Truce Fragility</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-06-04-evening/burnham-makerfield-thursday-evening-14-days-poll-lebanon-truce-fragility-defence-campaign-pivot/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-04T18:30:00+01:00</news:publication_date>
-      <news:title>Burnham Makerfield Thursday Evening: 14 Days to Polling; Lebanon Fragility Re-Engages Defence Pivot</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-06-04-evening/streeting-cabinet-bargain-burnham-thursday-evening-lebanon-fragility-leadership-position-yougov-80-10/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-04T18:30:00+01:00</news:publication_date>
-      <news:title>Streeting Cabinet-Bargain Position Holds Through Lebanon Ceasefire Fragility; Burnham 80-10 Lead Unchanged</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-06-04-evening/reeves-cost-of-living-fiscal-headroom-thursday-evening-lebanon-fragility-gilt-yields-five-percent-line/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-04T18:30:00+01:00</news:publication_date>
-      <news:title>Reeves Cost-of-Living Fiscal Headroom Re-Tightens as Lebanon Ceasefire Fragility Lifts Gilt Yields</news:title>
     </news:news>
   </url>
 </urlset>
