@@ -2,6 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-10-evening/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-10T18:30:00+01:00</news:publication_date>
+      <news:title>Evening Briefing — Wednesday 10 June 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-10-evening/trump-claims-progress-nuclear-talks-iran-framework-israel-halts-strikes-netanyahu-phone-call-on-hold/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-10T18:30:00+01:00</news:publication_date>
+      <news:title>Trump Claims Progress Toward Nuclear Talks With Iran; Israel Halts Strikes After Phone Call With Netanyahu</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-10-evening/israeli-army-lebanon-offensive-wednesday-hezbollah-25-operations-counter-strikes-qassem-rejection-holds/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-10T18:30:00+01:00</news:publication_date>
+      <news:title>Israeli Army Lebanon Offensive Continues; Hezbollah Announces 25 Operations Against Israeli Forces</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-10-evening/ehud-barak-warns-israel-lebanon-stuck-again-2000-withdrawal-anniversary-occupation-protracted/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-10T18:30:00+01:00</news:publication_date>
+      <news:title>Ehud Barak Warns Israel Against Getting Stuck in Lebanon Again</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-10-evening/russia-summer-offensive-wednesday-strikes-ukraine-zelensky-patriot-london-summit-aftermath-replenishment/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-10T18:30:00+01:00</news:publication_date>
+      <news:title>Russian Summer Offensive Continues; Ukrainian Air Defence Pressure Persists</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-10-evening/netanyahu-70-percent-gaza-directive-wednesday-evening-trump-nuclear-progress-lebanon-fighting-house-resolution/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-10T18:30:00+01:00</news:publication_date>
+      <news:title>Netanyahu 70%-Gaza Directive Holds as Trump “Nuclear Progress” and Lebanon Fighting Define Wednesday</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-10-evening/ftse-close-wednesday-10425-up-trump-nuclear-progress-framing-brent-95-gilt-below-five-percent-line/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-10T18:30:00+01:00</news:publication_date>
+      <news:title>FTSE 100 Closes at 10,425, Up 0.39%; Brent at $94.50, Gilt Yields Break Below 5% Line</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-10-evening/pmqs-wednesday-iran-starmer-badenoch-farage-houthi-red-sea-cobra-defence-uk-france-mediterranean-mine/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-10T18:30:00+01:00</news:publication_date>
+      <news:title>PMQs Iran Focus Lands With Trump “Nuclear Progress” Framing; Cobra Convening Confirmed</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-10-evening/burnham-makerfield-wednesday-evening-8-days-poll-trump-nuclear-progress-defence-pivot-eases-campaign-final-stretch/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-10T18:30:00+01:00</news:publication_date>
+      <news:title>Burnham Makerfield Wednesday Evening: 8 Days to Polling; Trump “Nuclear Progress” Eases Defence-Pivot Pressure</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-10-evening/streeting-cabinet-bargain-burnham-wednesday-evening-trump-nuclear-progress-reeves-continuity-yougov-80-10/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-10T18:30:00+01:00</news:publication_date>
+      <news:title>Streeting Cabinet-Bargain Position Holds Through Trump “Nuclear Progress” Framing; Burnham 80-10 Lead Unchanged</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-10-evening/reeves-cost-of-living-fiscal-headroom-wednesday-evening-trump-nuclear-progress-gilt-below-five-percent-brent-94/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-10T18:30:00+01:00</news:publication_date>
+      <news:title>Reeves Cost-of-Living Fiscal Headroom Eases Materially as Gilt Yields Break Below 5%; Brent at $94.50</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-06-10-morning/</loc>
     <news:news>
       <news:publication>
