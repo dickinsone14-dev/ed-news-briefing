@@ -3,7 +3,7 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
     <loc>https://thedailybrief.co.uk/</loc>
-    <lastmod>2026-06-09</lastmod>
+    <lastmod>2026-06-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -3370,6 +3370,72 @@
   <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-06-09-morning/streeting-cabinet-bargain-burnham-tuesday-iran-escalation-reeves-continuity-position-yougov-80-10-holds/</loc>
     <lastmod>2026-06-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-10-morning/</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-10-morning/burnham-makerfield-wednesday-8-days-poll-iran-pause-defence-pivot-pmqs-closing-stretch-campaign/</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-10-morning/ftse-wednesday-open-iran-pause-trump-stop-shooting-brent-pulls-back-95-gilt-eases-five-percent/</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-10-morning/iran-israel-pause-holds-overnight-trump-stop-shooting-immediate-ceasefire-101st-day-war-bilateral/</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-10-morning/israeli-army-lebanon-offensive-wednesday-overnight-hezbollah-retreat-qassem-rejection-bilateral-pause-uncoupled/</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-10-morning/netanyahu-70-percent-gaza-directive-wednesday-iran-pause-lebanon-fighting-house-war-powers-resolution/</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-10-morning/pmqs-wednesday-iran-starmer-badenoch-farage-houthi-red-sea-cobra-defence-uk-france-mediterranean/</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-10-morning/reeves-cost-of-living-fiscal-headroom-wednesday-iran-pause-trump-stop-shooting-gilt-five-percent-line/</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-10-morning/russia-summer-offensive-wednesday-overnight-strikes-ukraine-patriot-london-summit-replenishment-zelensky/</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-10-morning/streeting-cabinet-bargain-burnham-wednesday-iran-pause-reeves-continuity-yougov-80-10-leadership-position-holds/</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-10-morning/us-house-war-powers-resolution-iran-military-actions-halt-congressional-authorisation-trump-constraint/</loc>
+    <lastmod>2026-06-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
