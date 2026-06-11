@@ -2,6 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-11-evening/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-11T18:30:00+01:00</news:publication_date>
+      <news:title>Evening Briefing — Thursday 11 June 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-11-evening/us-strike-jalveer-tanker-oman-three-indian-sailors-killed-trump-kharg-island-seize-threat-very-hard/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-11T18:30:00+01:00</news:publication_date>
+      <news:title>US Strikes Indian Tanker Off Oman, Killing Three Sailors; Trump Threatens to Seize Kharg Island</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-11-evening/iran-retaliates-gulf-countries-ceasefire-meaningless-trump-kharg-threat-framework-deal-dead/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-11T18:30:00+01:00</news:publication_date>
+      <news:title>Iran Strikes Gulf Countries in Retaliation; Tehran Says US Attacks Render Ceasefire “Meaningless”</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-11-evening/israeli-army-lebanon-offensive-thursday-evening-hezbollah-operations-qassem-rejection-iran-restart/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-11T18:30:00+01:00</news:publication_date>
+      <news:title>Israeli Army Lebanon Offensive Continues Thursday Evening; Hezbollah Maintains Operational Tempo</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-11-evening/russia-summer-offensive-thursday-overnight-strikes-ukraine-zelensky-patriot-london-summit-replenishment/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-11T18:30:00+01:00</news:publication_date>
+      <news:title>Russian Summer Offensive Continues; Patriot Replenishment Pipeline Now Squeezed by Iran-Israel Restart</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-11-evening/netanyahu-70-percent-gaza-directive-thursday-evening-iran-strikes-kharg-threat-lebanon-fighting-hostage/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-11T18:30:00+01:00</news:publication_date>
+      <news:title>Netanyahu 70%-Gaza Directive Holds as Trump Kharg Threat and Lebanon Fighting Define Thursday Evening</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-11-evening/ftse-close-thursday-10395-down-trump-kharg-threat-brent-99-gilt-above-five-percent-vix-spike/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-11T18:30:00+01:00</news:publication_date>
+      <news:title>FTSE 100 Closes at 10,395, Down 0.29% on Trump Kharg Threat; Brent Surges to $99.50, VIX Spikes 20%</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-11-evening/starmer-cabinet-emergency-iran-meeting-thursday-trump-kharg-threat-uk-france-mediterranean-mine-clearing-carns/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-11T18:30:00+01:00</news:publication_date>
+      <news:title>Starmer Cabinet Emergency Iran Convening Thursday Afternoon Post-Kharg Threat</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-11-evening/burnham-makerfield-thursday-evening-7-days-poll-kharg-threat-defence-pivot-final-week-campaign-ground-game/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-11T18:30:00+01:00</news:publication_date>
+      <news:title>Burnham Makerfield Thursday Evening: 7 Days to Polling; Kharg Threat Forces Defence-Pivot Through Final Week</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-11-evening/streeting-cabinet-bargain-burnham-thursday-evening-kharg-threat-reeves-continuity-yougov-80-10-holds/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-11T18:30:00+01:00</news:publication_date>
+      <news:title>Streeting Cabinet-Bargain Position Holds Through Kharg Threat; Burnham 80-10 Lead Unchanged</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-11-evening/reeves-cost-of-living-fiscal-headroom-thursday-evening-kharg-threat-gilt-yields-above-five-percent-brent-99/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-11T18:30:00+01:00</news:publication_date>
+      <news:title>Reeves Cost-of-Living Fiscal Headroom Tightens as Brent Surges to $99.50; Gilt Yields at 5.07%</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-06-11-morning/</loc>
     <news:news>
       <news:publication>
