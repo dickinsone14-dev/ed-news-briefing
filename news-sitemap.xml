@@ -2,6 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-12-evening/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-12T18:30:00+01:00</news:publication_date>
+      <news:title>Evening Briefing — Friday 12 June 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-12-evening/iran-irna-seven-principles-framework-missile-capabilities-excluded-nuclear-talks-trump-imminent-tehran-denies/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-12T18:30:00+01:00</news:publication_date>
+      <news:title>Iran’s IRNA Outlines Seven-Principle Framework With Missile Capabilities Excluded; Trump Hails Imminent Deal</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-12-evening/india-summons-us-deputy-chief-mission-second-time-tanker-strikes-oman-three-sailors-killed-diplomatic-escalation/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-12T18:30:00+01:00</news:publication_date>
+      <news:title>India Summons US Deputy Chief of Mission Second Time Over Tanker Strikes; US Strikes Continue</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-12-evening/israeli-army-lebanon-offensive-friday-evening-deeper-push-iran-israel-pause-decoupled-hezbollah-qassem/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-12T18:30:00+01:00</news:publication_date>
+      <news:title>Israeli Army Lebanon Offensive Deepens Friday Evening; Iran-Israel Pause Stays Operationally Decoupled</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-12-evening/russia-summer-offensive-friday-overnight-strikes-ukraine-zelensky-patriot-london-summit-replenishment-iran-relief/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-12T18:30:00+01:00</news:publication_date>
+      <news:title>Russian Summer Offensive Continues; Iran Relief Rally May Free Patriot Inventory for Ukraine Pipeline</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-12-evening/netanyahu-70-percent-gaza-directive-friday-evening-irna-framework-india-pressure-lebanon-hostage-mediators/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-12T18:30:00+01:00</news:publication_date>
+      <news:title>Netanyahu 70%-Gaza Directive Holds as IRNA Framework Disclosure and India Pressure Define Friday Evening</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-12-evening/ftse-close-friday-10455-up-trump-deal-nearly-done-relief-rally-brent-pulls-back-95-gilt-below-five/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-12T18:30:00+01:00</news:publication_date>
+      <news:title>FTSE 100 Closes at 10,455, Up 0.58%; Relief Rally Holds as Brent Pulls Back to $95.20</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-12-evening/starmer-cabinet-iran-engagement-friday-evening-irna-framework-india-pressure-uk-france-mediterranean-mine-clearing/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-12T18:30:00+01:00</news:publication_date>
+      <news:title>Starmer Cabinet Iran Engagement Closes Week on IRNA Disclosure; India Pressure Adds Indo-Pacific Variable</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-12-evening/burnham-makerfield-friday-evening-6-days-poll-iran-relief-defence-pivot-eases-final-week-campaign-ground-game/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-12T18:30:00+01:00</news:publication_date>
+      <news:title>Burnham Makerfield Friday Evening: 6 Days to Polling; Iran Relief Eases Defence-Pivot Pressure</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-12-evening/streeting-cabinet-bargain-burnham-friday-evening-iran-relief-reeves-continuity-yougov-80-10-leadership-holds/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-12T18:30:00+01:00</news:publication_date>
+      <news:title>Streeting Cabinet-Bargain Position Holds Through Iran Relief; Burnham 80-10 Lead Unchanged</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-12-evening/reeves-cost-of-living-fiscal-headroom-friday-evening-iran-relief-rally-gilt-below-five-percent-brent-95-week-close/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-12T18:30:00+01:00</news:publication_date>
+      <news:title>Reeves Cost-of-Living Fiscal Headroom Eases on Iran Relief; Gilt Yields Below 5% on Week Close</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-06-12-morning/</loc>
     <news:news>
       <news:publication>
