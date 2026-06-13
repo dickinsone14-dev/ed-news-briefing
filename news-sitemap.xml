@@ -2,6 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-13-evening/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-13T18:30:00+01:00</news:publication_date>
+      <news:title>Evening Briefing — Saturday 13 June 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-13-evening/pakistan-pm-sharif-us-iran-deal-24-hours-axios-hormuz-reopen-sanctions-relief-tehran-pushes-back-araghchi/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-13T18:30:00+01:00</news:publication_date>
+      <news:title>Pakistan PM Sharif Says US-Iran Deal Expected in 24 Hours; Tehran Pushes Back</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-13-evening/rubio-jaishankar-vessels-comply-us-forces-hormuz-india-unimpeded-shipping-settebello-three-sailors/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-13T18:30:00+01:00</news:publication_date>
+      <news:title>Rubio Tells Jaishankar Vessels Must Comply With US Forces in Hormuz; India Demands Unimpeded Shipping</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-13-evening/israel-operation-eternal-darkness-southern-lebanon-expanding-saturday-trump-intervention-stopped-only-day/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-13T18:30:00+01:00</news:publication_date>
+      <news:title>Israel’s “Operation Eternal Darkness” in Southern Lebanon Continues Expanding</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-13-evening/isw-russia-oreshnik-irbm-launch-24-48-hours-ukraine-summer-offensive-london-summit-patriot-replenishment/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-13T18:30:00+01:00</news:publication_date>
+      <news:title>ISW Warns Russia May Launch Oreshnik IRBM at Ukraine in Next 24-48 Hours</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-13-evening/netanyahu-70-percent-gaza-directive-saturday-evening-iran-deal-24-hours-lebanon-eternal-darkness-hostage-mediators/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-13T18:30:00+01:00</news:publication_date>
+      <news:title>Netanyahu 70%-Gaza Directive Holds as Iran Deal Timeline and Lebanon Expansion Define Saturday Evening</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-13-evening/weekend-markets-saturday-evening-sunday-asia-open-pakistan-24-hours-iran-deal-monday-london-binary/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-13T18:30:00+01:00</news:publication_date>
+      <news:title>Sunday Asia Open Binary: Pakistan “24 Hours” Iran Deal Framing Defines Monday London Pivot</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-13-evening/burnham-makerfield-saturday-evening-5-days-poll-final-week-iran-deal-24-hours-defence-pivot-eases-closing-stretch/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-13T18:30:00+01:00</news:publication_date>
+      <news:title>Burnham Makerfield Saturday Evening: 5 Days to Polling; Iran Deal 24-Hour Framing Eases Defence-Pivot</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-13-evening/streeting-cabinet-bargain-burnham-saturday-evening-iran-deal-24-hours-reeves-continuity-yougov-80-10-leadership-holds/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-13T18:30:00+01:00</news:publication_date>
+      <news:title>Streeting Cabinet-Bargain Position Holds Through Iran Deal 24-Hour Framing; Burnham 80-10 Lead Unchanged</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-13-evening/reeves-saturday-evening-wheres-rachel-inews-burnham-continuity-mp-lobbying-iran-deal-24-hours-political-economy/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-13T18:30:00+01:00</news:publication_date>
+      <news:title>Reeves “Where’s Rachel?” Saturday Evening Frame Continues; Iran Deal 24-Hour Eases Bond-Market Tone</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-13-evening/starmer-cabinet-iran-engagement-saturday-evening-pakistan-24-hours-india-rubio-jaishankar-uk-france-mediterranean/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-13T18:30:00+01:00</news:publication_date>
+      <news:title>Starmer Cabinet Iran Engagement Saturday Evening: UK-India Coordination on Hormuz</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-06-13-morning/</loc>
     <news:news>
       <news:publication>
