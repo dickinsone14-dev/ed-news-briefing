@@ -3,7 +3,7 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
     <loc>https://thedailybrief.co.uk/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -3766,6 +3766,72 @@
   <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-06-12-morning/trump-cancels-iran-strikes-kharg-threat-retracted-deal-nearly-done-tehran-denies-veered-thursday/</loc>
     <lastmod>2026-06-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-13-morning/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-13-morning/burnham-makerfield-saturday-5-days-poll-final-week-ground-game-iran-relief-defence-pivot-eases-campaign-closing/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-13-morning/india-settebello-disputed-warning-account-three-sailors-killed-us-strike-modi-diplomatic-escalation-weekend/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-13-morning/israeli-army-lebanon-offensive-deeper-push-saturday-overnight-hezbollah-qassem-rejection-beaufort-litani/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-13-morning/netanyahu-70-percent-gaza-directive-saturday-irna-framework-india-pressure-lebanon-hostage-mediators-deadlocked/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-13-morning/reeves-saturday-wheres-rachel-inews-stalled-coup-burnham-continuity-mp-lobbying-weekend-political-economy/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-13-morning/russia-summer-offensive-saturday-overnight-strikes-ukraine-zelensky-patriot-london-summit-replenishment-pipeline/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-13-morning/starmer-cabinet-iran-engagement-saturday-weekend-irna-framework-india-pressure-uk-france-mediterranean-mine-clearing/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-13-morning/streeting-cabinet-bargain-burnham-saturday-iran-relief-reeves-continuity-yougov-80-10-leadership-position-holds/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-13-morning/trump-deal-nearly-done-iran-framework-weekend-irna-seven-principles-missile-excluded-tehran-denies-final/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-13-morning/weekend-markets-saturday-recap-monday-london-open-iran-framework-pivot-brent-95-gilt-below-five-percent/</loc>
+    <lastmod>2026-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
