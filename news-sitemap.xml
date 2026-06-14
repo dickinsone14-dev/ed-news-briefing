@@ -2,6 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-14-morning/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-14T08:15:00+01:00</news:publication_date>
+      <news:title>Morning Briefing — Sunday 14 June 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-14-morning/trump-iran-deal-signed-sunday-hormuz-reopen-tehran-disputes-timeline-saudi-qatar-uae-bahrain-kuwait-align-framework/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-14T08:15:00+01:00</news:publication_date>
+      <news:title>Trump Says US-Iran Deal Signed Sunday; Tehran Disputes Timeline; Six Arab States Align on Framework</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-14-morning/jpost-idf-halt-lebanon-ground-advance-pending-deal-hezbollah-eternal-darkness-leverage/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-14T08:15:00+01:00</news:publication_date>
+      <news:title>JPost: IDF Preparing to Stop Lebanon Ground Advance Amid Pending US-Iran Deal</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-14-morning/cia-urgent-warning-russia-oreshnik-irbm-launch-24-hours-ukraine-may-2026-civilian-casualties-highest-april-2022-un/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-14T08:15:00+01:00</news:publication_date>
+      <news:title>CIA Urgent Warning: Russia May Launch Oreshnik IRBM at Ukraine Within 24 Hours; May Civilian Casualties Highest Since April 2022</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-14-morning/gaza-netanyahu-70-percent-directive-sunday-morning-deal-pivot-hostage-talks-egyptian-mediators-deadlocked-october-ceasefire-906-killed/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-14T08:15:00+01:00</news:publication_date>
+      <news:title>Gaza: Netanyahu 70%-Control Directive Holds as Iran Deal Pivot Defines Sunday Morning</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-14-morning/reuters-iran-lebanon-leverage-campaign-saudi-uae-qatar-bahrain-framework-alignment-regional-architecture-jcpoa-comparison-2015/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-14T08:15:00+01:00</news:publication_date>
+      <news:title>Iran-Lebanon Leverage Campaign and Saudi-Led Regional Alignment Reshape Framework Architecture</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-14-morning/sunday-asia-open-iran-deal-binary-monday-london-pivot-ftse-brent-gilt-pakistan-trump-signing-sunday-bank-england-mpc/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-14T08:15:00+01:00</news:publication_date>
+      <news:title>Sunday Asia Open Iran Deal Binary Defines Monday London Pivot</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-14-morning/makerfield-burnham-two-new-polls-opinium-5-point-convergent-12-point-lead-4-days-polling-reform-uk-restore-britain-final-week/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-14T08:15:00+01:00</news:publication_date>
+      <news:title>Makerfield Sunday Morning: Two New Polls Give Burnham 5 and 12-Point Leads With 4 Days to Polling</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-14-morning/ft-rte-burnham-westminster-premiership-leadership-bid-makerfield-launch-platform-sunday-morning-greater-manchester-mayor/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-14T08:15:00+01:00</news:publication_date>
+      <news:title>FT and RTE: Makerfield Voters Eye Burnham Premiership as Leadership-Bid Launch Platform</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-14-morning/streeting-cabinet-bargain-burnham-iran-deal-sunday-signing-pivot-yougov-80-10-leadership-rules-nec-81-mp-threshold-al-carns/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-14T08:15:00+01:00</news:publication_date>
+      <news:title>Streeting Cabinet-Bargain Position Holds Through Sunday Iran Deal Signing-Pivot</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-14-morning/badenoch-conservative-cross-party-letter-starmer-burnham-streeting-welfare-cuts-defence-spending-pre-by-election-narrative-reset-sunday-morning/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-14T08:15:00+01:00</news:publication_date>
+      <news:title>Badenoch Conservative Cross-Party Letter to Starmer, Burnham and Streeting on Welfare and Defence</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-06-13-evening/</loc>
     <news:news>
       <news:publication>
@@ -362,248 +483,6 @@
       </news:publication>
       <news:publication_date>2026-06-12T18:30:00+01:00</news:publication_date>
       <news:title>Reeves Cost-of-Living Fiscal Headroom Eases on Iran Relief; Gilt Yields Below 5% on Week Close</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-06-12-morning/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-12T08:15:00+01:00</news:publication_date>
-      <news:title>Morning Briefing — Friday 12 June 2026</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-06-12-morning/trump-cancels-iran-strikes-kharg-threat-retracted-deal-nearly-done-tehran-denies-veered-thursday/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-12T08:15:00+01:00</news:publication_date>
-      <news:title>Trump Cancels Threatened Iran Strikes; Says Deal “Nearly Done”; Tehran Denies Any Agreement</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-06-12-morning/india-demands-end-us-attacks-tankers-three-sailors-killed-summons-envoy-modi-jalveer-furious/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-12T08:15:00+01:00</news:publication_date>
-      <news:title>India Demands End to US Attacks on Indian Tankers After Three Sailors Killed; Delhi Summons US Envoy</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-06-12-morning/israeli-army-lebanon-offensive-deepens-friday-overnight-hezbollah-beaufort-litani-deeper-push/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-12T08:15:00+01:00</news:publication_date>
-      <news:title>IDF Pushes Deeper Into Lebanon to Neutralise Hezbollah Threat; Iran to Reestablish Hormuz Closure</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-06-12-morning/russia-summer-offensive-friday-overnight-strikes-ukraine-zelensky-patriot-london-summit-replenishment-iran-relief/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-12T08:15:00+01:00</news:publication_date>
-      <news:title>Russian Summer Offensive Continues; Iran Relief Rally May Free Patriot Inventory for Ukraine Pipeline</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-06-12-morning/netanyahu-70-percent-gaza-directive-friday-trump-cancel-iran-strikes-lebanon-deepens-hostage-deadlocked/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-12T08:15:00+01:00</news:publication_date>
-      <news:title>Netanyahu 70%-Gaza Directive Holds as Trump Iran-Strikes Cancel and Lebanon Push Define Friday</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-06-12-morning/ftse-friday-open-trump-cancel-iran-strikes-relief-rally-brent-pulls-back-96-gilt-eases-five-percent-vix/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-12T08:15:00+01:00</news:publication_date>
-      <news:title>FTSE 100 Materially Higher Open on Trump Iran-Strikes Cancellation; Brent Pulls Back to $96.50, VIX Drops 11%</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-06-12-morning/starmer-cabinet-iran-engagement-friday-trump-cancel-india-pressure-uk-france-mediterranean-mine-clearing-carns/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-12T08:15:00+01:00</news:publication_date>
-      <news:title>Starmer Cabinet Iran Engagement Eases on Trump Cancellation; India Pressure Adds UK-Indo-Pacific Variable</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-06-12-morning/burnham-makerfield-friday-6-days-poll-trump-cancel-iran-strikes-defence-pivot-eases-final-week-campaign/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-12T08:15:00+01:00</news:publication_date>
-      <news:title>Burnham Makerfield Friday: 6 Days to Polling; Trump Iran Cancellation Eases Defence-Pivot Pressure</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-06-12-morning/streeting-cabinet-bargain-burnham-friday-trump-cancel-iran-strikes-reeves-continuity-yougov-80-10-holds/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-12T08:15:00+01:00</news:publication_date>
-      <news:title>Streeting Cabinet-Bargain Position Holds Through Trump Iran Cancellation; Burnham 80-10 Lead Unchanged</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-06-12-morning/reeves-cost-of-living-fiscal-headroom-friday-trump-cancel-iran-strikes-gilt-yields-five-percent-line-brent-96/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-12T08:15:00+01:00</news:publication_date>
-      <news:title>Reeves Cost-of-Living Fiscal Headroom Eases on Trump Cancellation; Gilt Yields Slip to 5.02%, Brent at $96.50</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-06-11-evening/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-11T18:30:00+01:00</news:publication_date>
-      <news:title>Evening Briefing — Thursday 11 June 2026</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-06-11-evening/us-strike-jalveer-tanker-oman-three-indian-sailors-killed-trump-kharg-island-seize-threat-very-hard/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-11T18:30:00+01:00</news:publication_date>
-      <news:title>US Strikes Indian Tanker Off Oman, Killing Three Sailors; Trump Threatens to Seize Kharg Island</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-06-11-evening/iran-retaliates-gulf-countries-ceasefire-meaningless-trump-kharg-threat-framework-deal-dead/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-11T18:30:00+01:00</news:publication_date>
-      <news:title>Iran Strikes Gulf Countries in Retaliation; Tehran Says US Attacks Render Ceasefire “Meaningless”</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-06-11-evening/israeli-army-lebanon-offensive-thursday-evening-hezbollah-operations-qassem-rejection-iran-restart/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-11T18:30:00+01:00</news:publication_date>
-      <news:title>Israeli Army Lebanon Offensive Continues Thursday Evening; Hezbollah Maintains Operational Tempo</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-06-11-evening/russia-summer-offensive-thursday-overnight-strikes-ukraine-zelensky-patriot-london-summit-replenishment/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-11T18:30:00+01:00</news:publication_date>
-      <news:title>Russian Summer Offensive Continues; Patriot Replenishment Pipeline Now Squeezed by Iran-Israel Restart</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-06-11-evening/netanyahu-70-percent-gaza-directive-thursday-evening-iran-strikes-kharg-threat-lebanon-fighting-hostage/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-11T18:30:00+01:00</news:publication_date>
-      <news:title>Netanyahu 70%-Gaza Directive Holds as Trump Kharg Threat and Lebanon Fighting Define Thursday Evening</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-06-11-evening/ftse-close-thursday-10395-down-trump-kharg-threat-brent-99-gilt-above-five-percent-vix-spike/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-11T18:30:00+01:00</news:publication_date>
-      <news:title>FTSE 100 Closes at 10,395, Down 0.29% on Trump Kharg Threat; Brent Surges to $99.50, VIX Spikes 20%</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-06-11-evening/starmer-cabinet-emergency-iran-meeting-thursday-trump-kharg-threat-uk-france-mediterranean-mine-clearing-carns/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-11T18:30:00+01:00</news:publication_date>
-      <news:title>Starmer Cabinet Emergency Iran Convening Thursday Afternoon Post-Kharg Threat</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-06-11-evening/burnham-makerfield-thursday-evening-7-days-poll-kharg-threat-defence-pivot-final-week-campaign-ground-game/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-11T18:30:00+01:00</news:publication_date>
-      <news:title>Burnham Makerfield Thursday Evening: 7 Days to Polling; Kharg Threat Forces Defence-Pivot Through Final Week</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-06-11-evening/streeting-cabinet-bargain-burnham-thursday-evening-kharg-threat-reeves-continuity-yougov-80-10-holds/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-11T18:30:00+01:00</news:publication_date>
-      <news:title>Streeting Cabinet-Bargain Position Holds Through Kharg Threat; Burnham 80-10 Lead Unchanged</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-06-11-evening/reeves-cost-of-living-fiscal-headroom-thursday-evening-kharg-threat-gilt-yields-above-five-percent-brent-99/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-11T18:30:00+01:00</news:publication_date>
-      <news:title>Reeves Cost-of-Living Fiscal Headroom Tightens as Brent Surges to $99.50; Gilt Yields at 5.07%</news:title>
     </news:news>
   </url>
 </urlset>

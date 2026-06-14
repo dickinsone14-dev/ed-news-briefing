@@ -3,7 +3,7 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
     <loc>https://thedailybrief.co.uk/</loc>
-    <lastmod>2026-06-13</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -3898,6 +3898,72 @@
   <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-06-13-morning/weekend-markets-saturday-recap-monday-london-open-iran-framework-pivot-brent-95-gilt-below-five-percent/</loc>
     <lastmod>2026-06-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-14-morning/</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-14-morning/badenoch-conservative-cross-party-letter-starmer-burnham-streeting-welfare-cuts-defence-spending-pre-by-election-narrative-reset-sunday-morning/</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-14-morning/cia-urgent-warning-russia-oreshnik-irbm-launch-24-hours-ukraine-may-2026-civilian-casualties-highest-april-2022-un/</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-14-morning/ft-rte-burnham-westminster-premiership-leadership-bid-makerfield-launch-platform-sunday-morning-greater-manchester-mayor/</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-14-morning/gaza-netanyahu-70-percent-directive-sunday-morning-deal-pivot-hostage-talks-egyptian-mediators-deadlocked-october-ceasefire-906-killed/</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-14-morning/jpost-idf-halt-lebanon-ground-advance-pending-deal-hezbollah-eternal-darkness-leverage/</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-14-morning/makerfield-burnham-two-new-polls-opinium-5-point-convergent-12-point-lead-4-days-polling-reform-uk-restore-britain-final-week/</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-14-morning/reuters-iran-lebanon-leverage-campaign-saudi-uae-qatar-bahrain-framework-alignment-regional-architecture-jcpoa-comparison-2015/</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-14-morning/streeting-cabinet-bargain-burnham-iran-deal-sunday-signing-pivot-yougov-80-10-leadership-rules-nec-81-mp-threshold-al-carns/</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-14-morning/sunday-asia-open-iran-deal-binary-monday-london-pivot-ftse-brent-gilt-pakistan-trump-signing-sunday-bank-england-mpc/</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-14-morning/trump-iran-deal-signed-sunday-hormuz-reopen-tehran-disputes-timeline-saudi-qatar-uae-bahrain-kuwait-align-framework/</loc>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
