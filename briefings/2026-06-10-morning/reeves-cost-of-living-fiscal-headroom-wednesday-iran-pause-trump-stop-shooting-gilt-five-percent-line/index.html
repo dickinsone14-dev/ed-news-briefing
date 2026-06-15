@@ -1952,36 +1952,11 @@
  - Hard expiry at 24h from "posted" (or at "expires" if set) — banner comes down
  - Optional "expires" field overrides the 8h default (e.g. for major events)
  To add a new breaking story, prepend an entry here with the current ISO timestamp. -->
- <script id="breaking-stories" type="application/json">[
-    {
-        "headline": "Iran fires missiles at northern Israel; Trump tells Netanyahu not to retaliate — 21:11 BST",
-        "posted": "2026-06-14T21:11:00+01:00",
-        "category": "MIDDLE EAST",
-        "summary": "Iran fired around 10 ballistic missiles at northern Israel late Sunday — its first direct attack in two months — in retaliation for Israel's earlier strike on Beirut's Dahiyeh suburb. The IDF said all missiles were intercepted or fell in open areas with no casualties, while the IRGC called the barrage 'a warning'. President Trump said he would tell Netanyahu not to hit back, fearing retaliation could derail the US-Iran deal due to be signed within hours.",
-        "facts": [
-            {
-                "label": "Barrage",
-                "value": "~10 ballistic missiles at northern Israel ~10pm; first Iranian attack in two months"
-            },
-            {
-                "label": "Damage",
-                "value": "IDF says all intercepted or struck open areas; no injuries or damage"
-            },
-            {
-                "label": "IRGC warning",
-                "value": "'A warning'; threatens broader strikes on 'all American-Zionist targets' if aggressions repeat"
-            },
-            {
-                "label": "US response",
-                "value": "Trump to tell Netanyahu not to retaliate; deal signing delayed 'a few hours' but still on"
-            }
-        ]
-    }
-]</script>
- <div class="breaking-banner" id="breakingBanner">
+ <script id="breaking-stories" type="application/json">[]</script>
+ <div class="breaking-banner" id="breakingBanner" style="display:none">
  <div class="breaking-inner">
  <span class="breaking-label">BREAKING</span>
- <span class="breaking-text" id="breakingText">Iran fires missiles at northern Israel; Trump tells Netanyahu not to retaliate</span>
+ <span class="breaking-text" id="breakingText"></span>
  <span class="breaking-readmore" id="breakingReadmore">Read more</span>
  <button class="breaking-dismiss" id="breakingDismiss">&times;</button>
  </div>
@@ -2070,7 +2045,7 @@
 
  <!-- #1 Markets snapshot bar -->
  <!-- Embedded market data (populated by update script, used as fallback) -->
- <script id="embedded-markets" type="application/json">{"FTSE":{"price":10455,"change":0.58},"SP":{"price":5358,"change":0.53},"Brent":{"price":95.20,"change":-1.34},"GBP":{"price":1.3425,"change":0.22},"Gold":{"price":4475,"change":-0.33},"EURGBP":{"price":0.8670,"change":-0.10},"Gilt":{"price":4.99,"change":-0.60},"VIX":{"price":24.50,"change":-7.55},"BTC":{"price":80520,"change":0.62},"UST":{"price":4.50,"change":-0.44},"ts":"2026-06-15T08:15:00+01:00"}</script>
+ <script id="embedded-markets" type="application/json">{"FTSE":{"price":10455,"change":0.58},"SP":{"price":5358,"change":0.53},"Brent":{"price":95.20,"change":-1.34},"GBP":{"price":1.3425,"change":0.22},"Gold":{"price":4475,"change":-0.33},"EURGBP":{"price":0.8670,"change":-0.10},"Gilt":{"price":4.99,"change":-0.60},"VIX":{"price":24.50,"change":-7.55},"BTC":{"price":80520,"change":0.62},"UST":{"price":4.50,"change":-0.44},"ts":"2026-06-15T18:30:00+01:00"}</script>
  <script id="market-descriptions" type="application/json">{
     "FTSE": {
       "name": "FTSE 100",
@@ -2192,6 +2167,158 @@
  <!-- ════ ALL EDITIONS (sorted by JS) ════ -->
  <!-- IMPORTANT: Keep 7 FULL DAYS of editions in this container. Do NOT delete editions less than 7 days old. -->
  <div id="all-editions" style="display:none;">
+
+ <!-- ── EVENING 15 JUN (18:30) ── -->
+ <div class="curated-edition evening" data-date="2026-06-15" data-time="18:30" data-markets='{"FTSE":{"price":10620,"change":1.58},"SP":{"price":5448,"change":1.68},"Brent":{"price":89.50,"change":-5.99},"GBP":{"price":1.3490,"change":0.48},"Gold":{"price":4430,"change":-1.01},"EURGBP":{"price":0.8660,"change":-0.12},"Gilt":{"price":4.86,"change":-2.60},"VIX":{"price":21.80,"change":-11.02},"BTC":{"price":81250,"change":0.91},"UST":{"price":4.40,"change":-2.22},"ts":"2026-06-15T18:30:00+01:00"}'>
+ <div class="edition-header">
+ <span class="edition-icon">&#9789;</span>
+ <h2>Evening Briefing</h2>
+ </div>
+ <div class="curated-meta">Monday 15 June 2026 &mdash; 18:30 BST</div>
+ <div class="impact-box">
+ <h3 class="impact-heading">What It Means For You</h3>
+ <ul class="impact-list">
+ <li>President Donald Trump arrived at the G7 Summit in the French Alps Monday looking for diplomatic momentum after announcing the US-Iran deal late Sunday. Sir Keir Starmer met G7 leaders for the first session with Iran, Ukraine, NATO spending and AI all high on the agenda. Trump faces alienated European allies after months of tariff and Iran-war disputes. The framework signing aftermath dominates Day 1; the Trump-Netanyahu rift over the Sunday Beirut strikes remains a structural diplomatic backdrop. UN Secretary-General Antonio Guterres&rsquo;s condemnation of the Israeli strikes is the formal multilateral signal.</li>
+ <li>UK and European markets closed Monday materially higher. The FTSE 100 closed at 10,620, up 1.58% on Friday. Brent crude fell almost 6% to $89.50 a barrel, hitting a three-month low; US crude (WTI) fell below $80 a barrel. UK 10-year gilt yields slipped to 4.86%, materially below the 5% line and at a four-month low. The VIX volatility index fell to 21.80. Sir Keir Starmer publicly warned Andy Burnham not to throw the UK into &ldquo;chaos&rdquo; by launching a leadership bid; the Reform UK / Restore Britain right-wing split has materially strengthened the Burnham position with 3 days to Makerfield polling.</li>
+ <li>Domestically the Labour leadership picture is now in open-warfare conditions. The Starmer &ldquo;chaos&rdquo; warning is the most explicit public PM-to-mayor intervention of the campaign cycle. The Reuters wire on the right-wing feud confirms the structural reading that the Reform UK / Restore Britain Lowe-Farage split is the principal vote-splitter handing Burnham the seat. The Times opinion column &mdash; &ldquo;Andy Burnham&rsquo;s fate is sealed: now he must act fast&rdquo; &mdash; is the most authoritative national-press positioning of the imminent leadership transition. Gaza&rsquo;s death toll holds above 73,000.</li>
+ </ul>
+ </div>
+ <div class="curated-grid">
+ <div class="curated-column">
+ <h3><span class="dot geo"></span><span class="dot-label">GEO</span> Geopolitical</h3>
+ <div>
+
+ <div class="curated-item" data-time="17:00" data-slug="g7-summit-france-french-alps-day-one-monday-trump-arrives-momentum-deal-nato-ukraine-trade-ai-agenda-spa-town-allies-meloni-macron-merz">
+ <h4>G7 Summit Day 1: Trump Arrives in French Alps Looking for Momentum After Sunday Deal</h4>
+ <p>President Donald Trump arrived at the G7 Summit in the French Alps Monday looking for diplomatic momentum after announcing the US-Iran deal late Sunday. Sir Keir Starmer met G7 leaders for the first session. The dominant agenda topics are the Iran framework follow-up, Ukraine, NATO spending and AI. Trump faces alienated European allies after months of tariff and Iran-war disputes. The Boston Globe Monday-evening piece on Trump&rsquo;s G7 track record of insults captures the structural diplomatic friction. The Trump-Netanyahu rift over the Sunday Beirut strikes remains a structural backdrop.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The G7 Summit is the principal multilateral macro-political event of the second quarter; the Sunday-evening framework signing makes the agenda materially more about energy-market normalisation and Russia-Ukraine sanctions than crisis-management. Italian Prime Minister Giorgia Meloni and French President Emmanuel Macron are the principal continental interlocutors; Japanese Prime Minister Sanae Takaichi attends her first G7. Brazilian President Luiz In&aacute;cio Lula da Silva attends as an invited guest. The G7 leaders&rsquo; communique on Russia-Ukraine is expected to address Patriot replenishment, sanctions on Russia&rsquo;s shadow oil fleet, and the post-framework regional re-architecture. Starmer&rsquo;s bilateral with Trump is the principal UK diplomatic test.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="14:00" data-slug="trump-netanyahu-rift-monday-evening-beirut-strike-public-rebuke-israeli-government-disappointment-framework-gaza-track-pressure-jpost-winners-losers">
+ <h4>Trump-Netanyahu Rift Holds Through Monday as Israeli Government &ldquo;Deeply Disappointed&rdquo; in Framework</h4>
+ <p>The Trump-Netanyahu rift over the Sunday-morning Israeli strikes on Beirut&rsquo;s Dahiyeh suburbs holds through Monday evening. The Israeli government is reportedly &ldquo;deeply disappointed&rdquo; with the framework as it has been sidelined in negotiations led by Pakistan. The Jerusalem Post Monday &ldquo;Who came out ahead&rdquo; analysis confirms the structural Israeli framing that the deal in its current form is a disappointment to the Netanyahu government. UN Secretary-General Antonio Guterres&rsquo;s condemnation of the Israeli strikes is the formal multilateral signal. The Netanyahu domestic-political pressure compounds materially through the post-signing cycle.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The Trump-Netanyahu rift is the structural test of US-Israel alignment after the framework signing. Israel&rsquo;s explicit Sunday operational signal &mdash; striking the Dahiyeh command centre during the Sunday-evening signing window &mdash; was the most material Israeli attempt to derail the framework. The Trump-side response &mdash; sealing the deal despite the Israeli operation, then publicly rebuking Netanyahu &mdash; is the structural confirmation that the US has chosen the framework over Israeli operational autonomy. Israel&rsquo;s post-signing political pressure converges on Gaza: with the framework explicit Lebanon clause now operationally restraining Israeli Lebanon operations, the Gaza-track posture becomes the principal Netanyahu domestic-political release valve. Egyptian-Qatari mediators continue indirect Hamas-Israel hostage-talks.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="06:00" data-slug="russia-ukraine-monday-overnight-strikes-isw-oreshnik-warning-still-active-summer-offensive-civilian-casualties-may-record-yaroslavl-drone-deep-strike">
+ <h4>Russia Continues Overnight Strikes; ISW Says Putin Army Expansion No Battlefield Impact; Oreshnik Warning Still Active</h4>
+ <p>Russian forces continued overnight long-range strikes against Ukraine through Monday morning with strikes recorded in the Sumy and Zaporizhzhia regions. Three killed, seven injured. The Institute for the Study of War reiterated that Vladimir Putin&rsquo;s decree expanding the Russian armed forces will not affect the battlefield situation. The CIA Saturday-night Oreshnik IRBM warning remains in active operational effect through Monday evening. President Zelensky warned over the weekend that Moscow&rsquo;s new bases near Europe&rsquo;s borders signal a long-term anti-democratic strategy. Ukrainian drones hit fuel-storage facilities in Russia&rsquo;s Yaroslavl region.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The Russia-Ukraine track will dominate G7 Day 2 Tuesday: G7 leaders&rsquo; communique is expected to address Patriot replenishment, sanctions on Russia&rsquo;s shadow oil fleet, and the post-framework regional re-architecture. The framework signing late Sunday materially reduces Russia&rsquo;s strategic-leverage position on global energy markets through the Hormuz reopening. The Oreshnik IRBM warning has not yet operationalised into a strike but the 24-48 hour window stretches into the G7 communique window; if operationalised, it would be the most significant Russian strategic-weapon deployment of the early-summer offensive and would materially shape G7 leaders&rsquo; positioning. The London-summit Patriot interceptor replenishment commitment continues to ramp into operational delivery.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="15:00" data-slug="gaza-73000-monday-evening-deaths-egyptian-mediators-hostage-talks-netanyahu-70-percent-directive-october-ceasefire-violations-pressure-post-deal-aftermath">
+ <h4>Gaza Death Toll Holds Above 73,000 as Post-Framework Pressure Reframes Hostage-Talks Posture</h4>
+ <p>The Palestinian death toll from the Israel-Hamas war confirmed Sunday at over 73,000 holds through Monday evening, per Gaza&rsquo;s Health Ministry. The US-Iran framework explicit Lebanon clause does not address Gaza; the operative position is that the Gaza track is the principal structural unresolved regional question following the framework signing. Egyptian mediators continue indirect Hamas-Israel hostage-talks but remain deadlocked. Netanyahu&rsquo;s 70%-Gaza control directive remains in operational effect. The Trump-Netanyahu rift over Beirut timing materially compresses Netanyahu&rsquo;s political latitude on Gaza through the post-signing cycle.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The framework text Axios disclosed Friday does not address Gaza explicitly; the &ldquo;all fronts including Lebanon&rdquo; framing implies Lebanon and the war-on-Iran fronts but leaves Gaza unaddressed. With the Trump-Netanyahu rift now in operational effect after the Sunday Beirut strikes, the Gaza-track posture has shifted materially: the US has demonstrated it will seal a framework over Israeli operational objections, which materially compresses Netanyahu&rsquo;s political latitude on Gaza. The 70%-control target represents a significant expansion of Israeli territorial control from the roughly 40-45% Israel was operating in before the directive. The hostage-family pressure on Netanyahu has compounded through the early-summer phase; the Egyptian-Qatari mediator track remains the only operational channel.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="13:00" data-slug="post-deal-aftermath-monday-saudi-arabia-qatar-uae-bahrain-kuwait-six-state-framework-architecture-sanctions-waivers-nuclear-followup-talks-pakistani-mediator-channel">
+ <h4>Post-Signing Regional Architecture: Six-State Framework Holds; Sanctions Waivers Begin; Nuclear Follow-Up Talks Open</h4>
+ <p>The Saudi-led six-state regional alignment on the framework &mdash; Saudi Arabia, Qatar, UAE, Lebanon, Bahrain and Kuwait &mdash; holds through Monday evening as the operational regional-architecture commitment. Sanctions waivers under the operative memorandum of understanding begin immediately; the US naval blockade on Iranian ports has been lifted. The thornier nuclear-programme issues are deferred to follow-up talks; the operative MoU explicitly excludes missile capabilities. The Pakistani mediator channel remains in operational effect through the post-signing follow-up phase. The framework probability framing has re-rated from 100% deal-signed to durability questions.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The 2015 JCPOA framework was structured around nuclear-only compliance with no regional-architecture commitment from Iran or its Arab counterparts; the failure mode in 2018 was the absence of Arab-side investment that would have made US withdrawal regionally costly. The Saudi-led six-state alignment on the 2026 framework reportedly involves explicit regional-investment commitments from Riyadh and Abu Dhabi to Tehran tied to compliance milestones. The nuclear follow-up talks are expected to begin in Geneva or Vienna within 4-6 weeks; the missile-capability exclusion is the principal structural concern raised by Israel and reportedly by the UK and France. The next structural test is the first 30-day compliance window for sanctions-waiver operationalisation.</div>
+ </details>
+ </div>
+
+ </div>
+ </div>
+ <div class="curated-column">
+ <h3><span class="dot dom"></span><span class="dot-label">UK</span> UK Domestic Politics</h3>
+ <div>
+
+ <div class="curated-item" data-time="17:00" data-slug="ftse-monday-close-10620-rally-brent-89-50-three-month-low-gilt-4-86-below-five-percent-vix-21-asia-stocks-soar-ofgem-october-cap-window">
+ <h4>FTSE Closes at 10,620, Up 1.58%; Brent at Three-Month Low Below $90; Gilt Yields at Four-Month Low</h4>
+ <p>UK and European markets closed Monday materially higher. The FTSE 100 closed at 10,620, up 1.58% on Friday&rsquo;s 10,455 close. Brent crude fell almost 6% to $89.50 a barrel, hitting a three-month low; US crude (WTI) fell below $80 a barrel. UK 10-year gilt yields slipped to 4.86%, at a four-month low and materially below the 5% line. The VIX volatility index fell 11% to 21.80. Sterling strengthened to $1.3490. The Ofgem October price-cap reset window &mdash; Brent in the $88-95 range &mdash; is now squarely in the operative range. The Bank of England MPC&rsquo;s decision later this week is materially easier.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The Monday close risk-on follow-through is the structural macro response to the framework signing. The Brent $88-95 band that delivers a flat Ofgem October price-cap reset is now the operative range; Brent at $89.50 sits at the lower bound. The Bank of England MPC&rsquo;s decision this week is materially easier with Brent at $90 and gilt yields below 5%; Chancellor Rachel Reeves&rsquo;s fiscal-headroom position is materially eased through the leadership-transition uncertainty. The political-mathematical question for the Chancellor is whether the Burnham continuity-signal positioning crystallises before the post-Makerfield Friday-evening cycle. The Bank of America commentary on Monday afternoon raised the probability of an August Bank Rate cut to 35% from 25% pre-deal.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="11:00" data-slug="starmer-warns-burnham-chaos-monday-prime-minister-public-intervention-leadership-bid-makerfield-three-days-polling-independent-cabinet-pressure">
+ <h4>Starmer Publicly Warns Burnham Not to Throw UK Into &ldquo;Chaos&rdquo; by Launching Leadership Bid</h4>
+ <p>Sir Keir Starmer publicly warned Greater Manchester Mayor Andy Burnham not to throw the UK into &ldquo;chaos&rdquo; by launching a leadership bid for prime minister. The Starmer &ldquo;chaos&rdquo; warning is the most explicit public PM-to-mayor intervention of the campaign cycle. Burnham hopes to win Thursday&rsquo;s Makerfield by-election and could then launch a campaign to replace Starmer as PM and Labour leader. The Independent Monday-evening framing positions the warning as the formal Starmer pivot from internal Labour-management posture to public political-strategy intervention. The Times opinion column &mdash; &ldquo;Andy Burnham&rsquo;s fate is sealed: now he must act fast&rdquo; &mdash; is the structural national-press counterpoint.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The Starmer &ldquo;chaos&rdquo; framing is the political-strategy escalation of the leadership-transition uncertainty: the framing tries to position any Burnham bid as inherently destabilising rather than as a clean succession. The structural counter-framing &mdash; that the Burnham-Reeves continuity signal eases gilt-market positioning and that the framework signing materially improves the macro-political environment &mdash; was the political-mathematical reason Starmer had been holding back from a public intervention through the past two weeks. The Monday timing is materially significant: three days before Makerfield polling, the day of the G7 Summit Day 1, the day after the Nandy Cabinet endorsement and the Politico/Times long-form profiles. The political-mathematical question is whether the Starmer &ldquo;chaos&rdquo; intervention compresses or expands the Burnham vote share through the final 72 hours.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="13:00" data-slug="right-wing-feud-reform-restore-britain-split-burnham-bid-strengthens-monday-makerfield-final-week-rupert-lowe-farage-equality-act-substack-essay-aftermath">
+ <h4>Reform UK / Restore Britain Right-Wing Feud Materially Strengthens Burnham Bid With 3 Days to Polling</h4>
+ <p>The Reuters wire Monday confirms the structural reading that the right-wing feud between Nigel Farage&rsquo;s Reform UK and Rupert Lowe&rsquo;s Restore Britain has materially strengthened Andy Burnham&rsquo;s bid to be the next British prime minister. The Sunday Farage Substack essay &mdash; vowing to repeal the Equality Act and deport foreign tenants from social housing, claiming Britain is a &ldquo;two-tier state against white people&rdquo; &mdash; has compounded the Restore Britain spoiler effect. Restore Britain is reportedly splitting the Reform vote in Makerfield to the extent Burnham wins by 5, 10 or 12 points depending on the poll. The five-candidate field is settled.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">Rupert Lowe&rsquo;s Restore Britain party is the structural Reform UK breakaway formed earlier in 2026; its electoral effect in Makerfield is the structural reason new polls show Burnham with a wider lead despite the Reform UK competitive pressure. The Lowe-Farage split is the structural Reform-vote risk through the post-Makerfield cycle; if Restore Britain consolidates a 5-10% national share, the structural Conservative-Reform-Restore three-way split becomes the operative right-wing posture for the next general election. Tory leader Kemi Badenoch&rsquo;s Saturday cross-party letter to Starmer, Burnham and Streeting on welfare cuts and defence spending was the structural attempt to reset the pre-by-election Conservative narrative; the Monday Starmer &ldquo;chaos&rdquo; intervention has materially reshaped that frame.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="14:00" data-slug="starmer-g7-bilateral-trump-monday-french-alps-iran-deal-aftermath-ukraine-defence-spending-nato-bilateral-uk-test-post-deal-credibility">
+ <h4>Starmer-Trump G7 Bilateral: UK-US Post-Framework Coordination on Ukraine and Defence Spending</h4>
+ <p>Sir Keir Starmer&rsquo;s G7 Summit Day 1 bilateral with US President Donald Trump is the principal UK diplomatic test of the post-framework cycle. The bilateral agenda is dominated by the Iran framework follow-up architecture, Ukraine sanctions and Patriot replenishment, NATO spending commitments, and AI policy coordination. Starmer arrives at the G7 in the strongest political position of the year on the markets-and-deal axis but the weakest on the domestic-leadership axis. The Burnham public intervention will dominate the UK Monday-evening media coverage despite the G7 backdrop. The G7 leaders&rsquo; communique is expected late Tuesday.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The Starmer-Trump bilateral structural agenda is the UK-US post-framework coordination across Ukraine, Lebanon, the nuclear follow-up, and the Saudi-led six-state architecture. The UK position on the missile-capability exclusion is reportedly closer to the Israeli position than the Trump-administration position; the bilateral structural test is whether the UK can secure a US commitment to address missile capabilities in the follow-up nuclear talks. The NATO spending track is the structural Trump-UK pressure point: the UK 2.5%-of-GDP commitment ramps to 3% by 2030 under the current trajectory; Trump is expected to press for a faster ramp. The G7 leaders&rsquo; communique on Russia-Ukraine will address Patriot replenishment, sanctions on Russia&rsquo;s shadow oil fleet, and Defence Minister Al Carns&rsquo;s ongoing UK-France minehunting operation footing.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="16:00" data-slug="streeting-cabinet-bargain-burnham-monday-evening-starmer-chaos-intervention-reuters-feud-times-fate-sealed-nandy-endorsement-secret-whatsapp-rebellion-yougov-80-10">
+ <h4>Streeting Cabinet-Bargain Position Holds Through Starmer &ldquo;Chaos&rdquo; Intervention; Times Opinion: &ldquo;Burnham&rsquo;s Fate Is Sealed&rdquo;</h4>
+ <p>Senior allies of Wes Streeting continue to expect him to abandon his Labour leadership bid and fall in behind Andy Burnham if the Greater Manchester mayor wins Thursday&rsquo;s Makerfield by-election. The Starmer &ldquo;chaos&rdquo; intervention does not change the Burnham-Streeting head-to-head dynamic. The Times opinion column &mdash; &ldquo;Andy Burnham&rsquo;s fate is sealed: now he must act fast&rdquo; &mdash; is the most authoritative national-press positioning of the imminent leadership transition. Just 15% of Labour members said they would back Streeting against Starmer; Burnham&rsquo;s 80%-10% Streeting-head-to-head lead is the structural reason. The secret junior-minister WhatsApp group remains active.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The Times &ldquo;fate is sealed&rdquo; framing is the structural national-press counterpoint to the Starmer &ldquo;chaos&rdquo; warning; the two together compress the Monday-evening political picture into a binding choice for the parliamentary party. The Labour NEC member quoted by The Guardian on 14 May warned against leadership-rules tweaks to accommodate any Burnham-as-PM scenario; the NEC has not yet ruled on the procedural question. Allies of Defence Minister Al Carns have separately said they expect him to stand as a third leadership candidate if a contest is triggered. The 81-MP threshold is the structural gatekeeper. The Burnham-Reeves continuity signal continues to ease the gilt-market positioning for the leadership-transition scenario.</div>
+ </details>
+ </div>
+
+ </div>
+ </div>
+ </div>
+
+ <div class="one-to-read">
+ <span class="otr-label">One To Read</span>
+ <a href="https://www.theguardian.com/business/2026/jun/15/oil-prices-fall-strait-of-hormuz-reopening-hopes-iran-us-peace-deal" target="_blank" rel="noopener noreferrer">
+ <h4>Oil Prices Hit Three-Month Low and Markets Rally Amid Iran Deal Breakthrough</h4>
+ <span class="otr-source">The Guardian</span>
+ <span class="otr-dot">&middot;</span>
+ <span class="otr-desc">The fullest account of the Monday markets response to the Sunday-evening US-Iran framework signing: Brent crude tumbled almost 6% to $89.50 a barrel, a three-month low; US crude (WTI) fell below $80; the FTSE 100 closed at 10,620 up 1.58%; UK 10-year gilt yields slipped to 4.86%, a four-month low and materially below the 5% line. Trump posted &ldquo;Let the oil flow&rdquo; on Truth Social as the framework was signed. The Bank of America commentary raised the probability of an August Bank Rate cut to 35% from 25% pre-deal. The G7 Summit Day 1 in the French Alps will define the post-signing diplomatic architecture; the Bank of England MPC&rsquo;s decision later this week is the binding UK macro variable.</span>
+ </a>
+ </div>
+ <!-- SOURCES USED
+ - https://www.theguardian.com/business/2026/jun/15/oil-prices-fall-strait-of-hormuz-reopening-hopes-iran-us-peace-deal &mdash; The Guardian: Oil prices three-month low markets rally
+ - https://www.bbc.com/news/articles/c6217106px6o &mdash; BBC: Oil prices fall and shares jump after US-Iran deal
+ - https://www.washingtonpost.com/world/2026/06/15/trump-g7-france-iran-ukraine/034af6aa-686f-11f1-830e-133d20cadd28_story.html &mdash; WaPo: Trump arrives at G7 summit looking for momentum
+ - https://www.nbcnews.com/politics/donald-trump/trump-european-allies-wars-g7-summit-rcna348478 &mdash; NBC News: Trump European allies at odds at G7
+ - https://www.nytimes.com/live/2026/06/14/world/iran-war-trump-us/heres-the-latest &mdash; NYT: US and Iran Reach Framework for Peace
+ - https://www.itv.com/news/2026-06-15/starmer-and-g7-leaders-meet-in-france-after-us-iran-deal-agreed &mdash; ITV News: Starmer and G7 leaders meet in France
+ - https://www.washingtonpost.com/business/2026/06/14/stocks-markets-iran-trump-oil-musk/25d9a298-6856-11f1-830e-133d20cadd28_story.html &mdash; WaPo: Stocks leap worldwide oil prices drop
+ - https://www.jpost.com/israel-news/article-899423 &mdash; Jerusalem Post: Who came out ahead winners losers new deal
+ - https://www.timesofisrael.com/idf-strikes-hezbollah-target-in-beirut-after-3-drones-hit-northern-israel/ &mdash; Times of Israel: IDF strikes Hezbollah target Beirut backdrop
+ - https://www.bbc.co.uk/news/articles/c052343r812o &mdash; BBC News: Hezbollah Israel Lebanon backdrop
+ - https://www.aljazeera.com/news/2026/6/9/israel-kills-14-in-southern-lebanon-after-trading-fire-with-iran &mdash; Al Jazeera: Israel kills 14 in southern Lebanon backdrop
+ - https://www.reuters.com/world/middle-east/netanyahu-directs-israeli-forces-expand-gaza-control-70-percent-2026-05-28/ &mdash; Reuters: Netanyahu directs Gaza control 70 percent
+ - https://www.independent.co.uk/news/uk/politics/keir-starmer-leadership-bid-chaos-andy-burnham-makerfield-by-election-b2995869.html &mdash; The Independent: Starmer warns Burnham chaos
+ - https://www.ft.com/content/779204ca-9e08-409b-9f18-16ca3a28975e &mdash; Financial Times: Makerfield voters eye Burnham premiership backdrop
+ - https://www.manchestereveningnews.co.uk/news/greater-manchester-news/lisa-nandy-backs-andy-burnham-34119241.amp &mdash; Manchester Evening News: Lisa Nandy backs Burnham backdrop
+ - The Times &mdash; UK politics: Burnham fate is sealed opinion column
+ - Sky News &mdash; UK politics: Labour secret WhatsApp group
+ - Bloomberg &mdash; markets commentary; Monday close FTSE rally
+ - ISW &mdash; Russia-Ukraine analytical backdrop; Oreshnik warning still active
+ END SOURCES USED -->
+ </div><!-- ── END EVENING 15 JUN (18:30) ── -->
 
  <!-- ── MORNING 15 JUN (08:15) ── -->
  <div class="curated-edition morning" data-date="2026-06-15" data-time="08:15" data-markets='{"FTSE":{"price":10575,"change":1.15},"SP":{"price":5425,"change":1.25},"Brent":{"price":90.50,"change":-4.94},"GBP":{"price":1.3475,"change":0.37},"Gold":{"price":4445,"change":-0.67},"EURGBP":{"price":0.8665,"change":-0.06},"Gilt":{"price":4.88,"change":-2.20},"VIX":{"price":22.50,"change":-8.16},"BTC":{"price":81000,"change":0.60},"UST":{"price":4.42,"change":-1.78},"ts":"2026-06-15T08:15:00+01:00"}'>
