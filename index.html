@@ -1938,36 +1938,11 @@
  - Hard expiry at 24h from "posted" (or at "expires" if set) — banner comes down
  - Optional "expires" field overrides the 8h default (e.g. for major events)
  To add a new breaking story, prepend an entry here with the current ISO timestamp. -->
- <script id="breaking-stories" type="application/json">[
-    {
-        "headline": "Iran fires missiles at northern Israel; Trump tells Netanyahu not to retaliate — 21:11 BST",
-        "posted": "2026-06-14T21:11:00+01:00",
-        "category": "MIDDLE EAST",
-        "summary": "Iran fired around 10 ballistic missiles at northern Israel late Sunday — its first direct attack in two months — in retaliation for Israel's earlier strike on Beirut's Dahiyeh suburb. The IDF said all missiles were intercepted or fell in open areas with no casualties, while the IRGC called the barrage 'a warning'. President Trump said he would tell Netanyahu not to hit back, fearing retaliation could derail the US-Iran deal due to be signed within hours.",
-        "facts": [
-            {
-                "label": "Barrage",
-                "value": "~10 ballistic missiles at northern Israel ~10pm; first Iranian attack in two months"
-            },
-            {
-                "label": "Damage",
-                "value": "IDF says all intercepted or struck open areas; no injuries or damage"
-            },
-            {
-                "label": "IRGC warning",
-                "value": "'A warning'; threatens broader strikes on 'all American-Zionist targets' if aggressions repeat"
-            },
-            {
-                "label": "US response",
-                "value": "Trump to tell Netanyahu not to retaliate; deal signing delayed 'a few hours' but still on"
-            }
-        ]
-    }
-]</script>
- <div class="breaking-banner" id="breakingBanner">
+ <script id="breaking-stories" type="application/json">[]</script>
+ <div class="breaking-banner" id="breakingBanner" style="display:none">
  <div class="breaking-inner">
  <span class="breaking-label">BREAKING</span>
- <span class="breaking-text" id="breakingText">Iran fires missiles at northern Israel; Trump tells Netanyahu not to retaliate</span>
+ <span class="breaking-text" id="breakingText"></span>
  <span class="breaking-readmore" id="breakingReadmore">Read more</span>
  <button class="breaking-dismiss" id="breakingDismiss">&times;</button>
  </div>
