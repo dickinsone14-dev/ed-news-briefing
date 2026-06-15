@@ -3,7 +3,7 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
     <loc>https://thedailybrief.co.uk/</loc>
-    <lastmod>2026-06-14</lastmod>
+    <lastmod>2026-06-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -4030,6 +4030,72 @@
   <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-06-14-morning/trump-iran-deal-signed-sunday-hormuz-reopen-tehran-disputes-timeline-saudi-qatar-uae-bahrain-kuwait-align-framework/</loc>
     <lastmod>2026-06-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-15-morning/</loc>
+    <lastmod>2026-06-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-15-morning/burnham-pensioner-tax-cut-announcement-monday-morning-makerfield-final-week-labour-leadership-platform-policy-substantive-signal-pm-bid/</loc>
+    <lastmod>2026-06-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-15-morning/farage-substack-essay-two-tier-state-white-people-equality-act-repeal-deport-foreign-tenants-reform-uk-makerfield-final-week-incendiary-claim/</loc>
+    <lastmod>2026-06-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-15-morning/ftse-monday-open-rally-iran-deal-signed-brent-90-50-gilt-yields-below-five-percent-bank-england-mpc-decision-week-asia-rally-risk-on-follow-through/</loc>
+    <lastmod>2026-06-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-15-morning/g7-summit-france-monday-starmer-iran-deal-aftermath-russia-ukraine-trade-energy-trump-netanyahu-rift-london-coalition-willing-summit-followup/</loc>
+    <lastmod>2026-06-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-15-morning/gaza-palestinian-death-toll-73000-sunday-confirmed-monday-ceasefire-violations-netanyahu-70-percent-directive-hostage-talks-egyptian-mediators-deadlock-deal-aftermath/</loc>
+    <lastmod>2026-06-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-15-morning/labour-secret-anti-keir-whatsapp-group-chat-junior-ministers-plotting-burnham-bid-monday-leadership-uncertainty-makerfield-final-week-rebellion-coordination/</loc>
+    <lastmod>2026-06-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-15-morning/markets-asia-open-rally-stocks-soar-oil-tumble-brent-90-50-hormuz-reopen-let-oil-flow-bonds-rally-asian-indices-gain/</loc>
+    <lastmod>2026-06-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-15-morning/russia-summer-offensive-monday-overnight-strikes-sumy-zaporizhzhia-ukraine-civilian-casualties-may-record-isw-no-battlefield-impact-putin-army-expansion-yaroslavl-drone/</loc>
+    <lastmod>2026-06-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-15-morning/trump-netanyahu-public-rebuke-beirut-strikes-timing-dahiyeh-hezbollah-command-center-sunday-deal-jeopardy-israeli-side-disappointment-framework/</loc>
+    <lastmod>2026-06-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-15-morning/us-iran-peace-deal-complete-trump-truth-social-hormuz-reopen-naval-blockade-lifts-permanent-end-military-operations-lebanon-included/</loc>
+    <lastmod>2026-06-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
