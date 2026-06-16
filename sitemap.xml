@@ -3,7 +3,7 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
     <loc>https://thedailybrief.co.uk/</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -4162,6 +4162,72 @@
   <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-06-15-morning/us-iran-peace-deal-complete-trump-truth-social-hormuz-reopen-naval-blockade-lifts-permanent-end-military-operations-lebanon-included/</loc>
     <lastmod>2026-06-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-16-morning/</loc>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-16-morning/burnham-makerfield-tuesday-final-days-manchester-evening-news-exclusive-campaign-tense-reform-uk-restore-britain-split-five-candidate-field-three-days-polling-king-of-north-arab-news-feature/</loc>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-16-morning/ftse-tuesday-open-10640-rally-continues-brent-89-10-gilt-4-85-four-month-low-bank-england-mpc-week-rating-agencies-burnham-factor-fiscal-headroom/</loc>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-16-morning/g7-summit-tuesday-day-two-european-leaders-test-trump-superficial-interim-deal-missile-capability-exclusion-durability-risks-evian-meloni-macron-merz-takaichi/</loc>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-16-morning/gaza-73000-tuesday-morning-post-deal-pressure-netanyahu-political-latitude-egyptian-qatari-mediators-hostage-talks-deadlock-october-ceasefire-violations-70-percent-directive/</loc>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-16-morning/ipsos-political-pulse-burnham-streeting-favourability-ratings-fall-makerfield-by-election-tuesday-pre-poll-leadership-bid-pressure-national-survey-2247-adults/</loc>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-16-morning/iran-deal-final-pact-details-toll-free-hormuz-transit-yonhap-us-statement-naval-blockade-lifted-sanctions-waivers-immediate-operational-30-day-compliance-window/</loc>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-16-morning/starmer-g7-bilateral-trump-tuesday-day-two-evian-russia-sanctions-ukraine-energy-defence-spending-nato-3-percent-trajectory-uk-france-minehunting-mediterranean/</loc>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-16-morning/streeting-cabinet-bargain-tuesday-morning-starmer-chaos-aftermath-times-fate-sealed-nandy-endorsement-secret-whatsapp-junior-ministers-yougov-80-10-reeves-continuity-rating-agencies-burnham-factor/</loc>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-16-morning/trump-moscow-deal-next-zelensky-proposes-putin-meeting-united-states-russia-ukraine-tuesday-g7-summit-diplomatic-momentum-london-coalition-aftermath/</loc>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-16-morning/uk-russia-sanctions-ukraine-energy-support-g7-starmer-tuesday-announcement-shadow-fleet-evian-bilateral-defence-nato-spending-commitment-london-coalition-followup/</loc>
+    <lastmod>2026-06-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
