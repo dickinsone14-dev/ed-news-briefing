@@ -1833,11 +1833,11 @@
     /* ── Accordion curated items — chevron on all, smooth expand/collapse ── */
     .curated-item-accordion {
       display: grid;
-      grid-template-rows: auto 1fr;
+      grid-template-rows: auto auto 1fr;
       transition: grid-template-rows 0.4s ease;
     }
     .curated-item-collapsed {
-      grid-template-rows: auto 0fr;
+      grid-template-rows: auto auto 0fr;
     }
     .curated-item-body {
       overflow: hidden;
@@ -1858,15 +1858,55 @@
       content: '\25BE';
       position: absolute; left: 0; top: 0;
       color: var(--text-muted);
-      transition: color 0.2s;
+      transition: color 0.2s, transform 0.25s ease;
     }
     .curated-item-collapsed h4::before {
       content: '\25B8';
+      color: var(--accent-geo);
+    }
+    .curated-column:last-child .curated-item-collapsed h4::before {
+      color: var(--accent-dom);
     }
     @media (hover: hover) {
-      .curated-item-accordion:hover h4::before { color: var(--text-tertiary); }
+      .curated-item-accordion:hover h4::before { transform: translateX(2px); }
       .curated-item-collapsed:hover h4 { color: var(--accent-geo); }
       .curated-column:last-child .curated-item-collapsed:hover h4 { color: var(--accent-dom); }
+    }
+
+    /* ── Headline teaser preview (shown when collapsed, hidden when expanded) ── */
+    .curated-item-teaser {
+      font-family: var(--serif);
+      font-size: 14px; line-height: 1.5;
+      color: var(--text-tertiary);
+      margin: 4px 0 0 18px;
+      padding-bottom: 10px;
+      cursor: pointer;
+      max-height: 200px;
+      overflow: hidden;
+      transition: opacity 0.3s ease, max-height 0.35s ease, padding 0.3s ease, margin 0.3s ease;
+    }
+    .curated-item-accordion:not(.curated-item-collapsed) .curated-item-teaser {
+      opacity: 0;
+      max-height: 0;
+      padding-bottom: 0;
+      margin-top: 0;
+      pointer-events: none;
+    }
+    .read-more-cue {
+      display: inline-block;
+      font-family: var(--sans);
+      font-size: 10px; font-weight: 700;
+      color: var(--accent-geo);
+      text-transform: uppercase;
+      letter-spacing: 0.7px;
+      margin-left: 6px;
+      padding-bottom: 1px;
+      border-bottom: 1px solid currentColor;
+      transition: opacity 0.2s;
+    }
+    .curated-column:last-child .read-more-cue { color: var(--accent-dom); }
+    @media (hover: hover) {
+      .curated-item-accordion:hover .read-more-cue { opacity: 0.8; }
     }
 
     /* ── Collapsible impact box ── */
@@ -5178,10 +5218,33 @@ window._marketData = {};
         items.forEach((item, i) => {
           // Wrap all non-h4 children into a .curated-item-body for grid animation
           const h4 = item.querySelector('h4');
+
+          // Extract first sentence from body's first <p> for collapsed-state teaser
+          const firstP = item.querySelector('p');
+          let teaserText = '';
+          if (firstP) {
+            const fullText = firstP.textContent.trim();
+            const sentenceMatch = fullText.match(/^[^.!?]+[.!?]/);
+            teaserText = sentenceMatch ? sentenceMatch[0] : fullText.split(' ').slice(0, 25).join(' ') + '…';
+            if (teaserText.length > 180) teaserText = teaserText.slice(0, 177).trim() + '…';
+          }
+
           const body = document.createElement('div');
           body.className = 'curated-item-body';
           while (h4 && h4.nextSibling) body.appendChild(h4.nextSibling);
           item.appendChild(body);
+
+          // Insert teaser between h4 and body — sits in 2nd grid row, always rendered
+          // CSS hides it (opacity + max-height) when item is expanded
+          if (teaserText && h4) {
+            const teaserEl = document.createElement('p');
+            teaserEl.className = 'curated-item-teaser';
+            const safeText = teaserText
+              .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+            teaserEl.innerHTML = safeText + ' <span class="read-more-cue">Read more</span>';
+            teaserEl.addEventListener('click', () => h4.click());
+            item.insertBefore(teaserEl, body);
+          }
 
           item.classList.add('curated-item-accordion');
           item.classList.add('curated-item-collapsed');
