@@ -2,6 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-16-evening/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-16T18:30:00+01:00</news:publication_date>
+      <news:title>Evening Briefing — Tuesday 16 June 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-16-evening/trump-swift-return-sanctions-russian-oil-shipments-g7-tuesday-ukraine-refocus-evian-communique-nuclear-fuel-deal-zelensky-working-session-macron/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-16T18:30:00+01:00</news:publication_date>
+      <news:title>Trump Signals Swift Return of Sanctions on Russian Oil as G7 Refocuses on Ukraine</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-16-evening/g7-communique-tuesday-russia-sanctions-nuclear-fuel-deal-ukraine-takaichi-critical-minerals-meloni-macron-merz-leaders-statement-evian-day-two/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-16T18:30:00+01:00</news:publication_date>
+      <news:title>G7 Leaders’ Communique: New Russia Sanctions, Nuclear Fuel Deal for Ukraine, Critical Minerals Initiative</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-16-evening/european-leaders-trump-iran-deal-missile-capability-exclusion-durability-concerns-meloni-macron-merz-followup-nuclear-talks-geneva-vienna-tuesday-g7-evian/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-16T18:30:00+01:00</news:publication_date>
+      <news:title>European Leaders Press Trump on Iran Deal Durability; Missile-Capability Exclusion the Principal Concern</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-16-evening/zelensky-g7-trump-bilateral-tuesday-ukraine-patriot-replenishment-shadow-fleet-sanctions-putin-meeting-united-states-russia-rejection-summer-offensive-isw/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-16T18:30:00+01:00</news:publication_date>
+      <news:title>Zelensky G7 Bilateral With Trump: Patriot Replenishment, Shadow-Fleet Sanctions, US-Soil Putin Meeting Proposal</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-16-evening/gaza-73000-tuesday-evening-post-deal-pressure-netanyahu-70-percent-directive-egyptian-mediators-hostage-talks-rift-trump-beirut-strikes-aftermath-political-latitude-compressed/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-16T18:30:00+01:00</news:publication_date>
+      <news:title>Gaza 73,000 Death Toll Holds; Trump-Netanyahu Rift Continues to Compress Political Latitude on 70%-Control Directive</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-16-evening/starmer-g7-full-part-reopen-strait-hormuz-tuesday-itv-important-breakthrough-russia-sanctions-shadow-fleet-ukraine-nuclear-fuel-supply-deal-uk-france-mediterranean-minehunting/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-16T18:30:00+01:00</news:publication_date>
+      <news:title>Starmer Says UK Will “Play a Full Part” in Reopening Strait of Hormuz; Calls Framework “Important Breakthrough”</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-16-evening/burnham-popularity-plummets-telegraph-two-new-polls-tuesday-makerfield-final-48-hours-favourability-ratings-ipsos-political-pulse-decline-pre-poll/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-16T18:30:00+01:00</news:publication_date>
+      <news:title>Burnham Popularity Plummets Ahead of By-Election as Two New Tuesday Polls Confirm Favourability Decline</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-16-evening/reform-uk-internal-data-board-member-burnham-makerfield-tuesday-admits-difficult-restore-britain-spoiler-effect-yahoo-news-vote-split-final-week-kenyon/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-16T18:30:00+01:00</news:publication_date>
+      <news:title>Reform UK Board Member Admits Internal Data Suggests Party Will Lose Makerfield to Burnham</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-16-evening/rayner-attacks-kenyon-farage-sexist-puppet-reform-uk-misogynistic-online-posts-makerfield-final-48-hours-independent-tuesday-deputy-pm-cabinet-attack-women/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-16T18:30:00+01:00</news:publication_date>
+      <news:title>Rayner Attacks Reform UK Candidate Kenyon as Farage’s “Sexist Puppet” Over Misogynistic Online Posts</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-16-evening/streeting-publicly-backs-burnham-makerfield-london-standard-tuesday-cabinet-bargain-confirmed-leadership-succession-scenario-yougov-80-10-nandy-endorsement-aftermath/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-16T18:30:00+01:00</news:publication_date>
+      <news:title>Streeting Publicly Backs Burnham at Makerfield, Confirming Cabinet-Bargain Succession Scenario</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-06-16-morning/</loc>
     <news:news>
       <news:publication>
@@ -362,127 +483,6 @@
       </news:publication>
       <news:publication_date>2026-06-15T08:15:00+01:00</news:publication_date>
       <news:title>Farage Substack Essay Vows to Repeal Equality Act and Deport Foreign Tenants in Most Explicit Racial Framing</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-06-14-evening/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-14T18:30:00+01:00</news:publication_date>
-      <news:title>Evening Briefing — Sunday 14 June 2026</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-06-14-evening/iran-deal-doubt-beirut-strikes-trump-sunday-signing-collapsed-tehran-no-decision-memorandum-understanding-hormuz-reopen-paused/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-14T18:30:00+01:00</news:publication_date>
-      <news:title>Iran Deal in Doubt After Beirut Strikes; Tehran Says No Decision Yet on Memorandum of Understanding</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-06-14-evening/idf-strikes-hezbollah-command-center-beirut-dahiyeh-three-drones-northern-israel-sunday-morning-tehran-warns-not-unanswered/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-14T18:30:00+01:00</news:publication_date>
-      <news:title>IDF Strikes Hezbollah Command Centre in Beirut Dahiyeh; Tehran Warns Attack “Will Not Go Unanswered”</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-06-14-evening/gaza-palestinian-death-toll-73000-health-ministry-sunday-ceasefire-violations-israel-strikes-despite-october-truce-netanyahu-70-percent-directive/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-14T18:30:00+01:00</news:publication_date>
-      <news:title>Gaza Palestinian Death Toll Tops 73,000 as Israel Strikes Despite Ceasefire</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-06-14-evening/russia-strikes-sumy-zaporizhzhia-three-killed-seven-injured-sunday-putin-army-expansion-isw-no-battlefield-impact-yaroslavl-drone-fire/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-14T18:30:00+01:00</news:publication_date>
-      <news:title>Russia Strikes Kill Three in Sumy and Zaporizhzhia; Putin Army Expansion No Battlefield Impact, ISW Says</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-06-14-evening/trump-pakistan-sharif-credibility-risk-sunday-signing-collapsed-mediator-channel-saudi-six-state-framework-architecture-tuesday-tehran-decision-window/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-14T18:30:00+01:00</news:publication_date>
-      <news:title>Sharif “24 Hours” Framing and Trump Sunday Signing Both Collapsed; Tuesday Tehran Decision Window Defines Next Pivot</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-06-14-evening/markets-monday-london-pivot-iran-deal-collapsed-brent-gaps-higher-98-103-gilt-above-five-percent-bank-england-mpc-decision-week/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-14T18:30:00+01:00</news:publication_date>
-      <news:title>Monday London Pivot: Iran Deal Sunday Signing Collapsed; Brent Gaps Higher; Gilt Yields Back Above 5%</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-06-14-evening/politico-burnham-magazine-profile-quit-parliament-prime-minister-makerfield-pub-sunday-feature-long-form-greater-manchester-mayor-leadership-bid/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-14T18:30:00+01:00</news:publication_date>
-      <news:title>Long-Form Sunday Profile Frames Burnham as “Set to Become Britain’s Prime Minister”</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-06-14-evening/lisa-nandy-backs-burnham-westminster-return-makerfield-cabinet-endorsement-culture-secretary-sunday-greater-manchester-mayor-leadership-question/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-14T18:30:00+01:00</news:publication_date>
-      <news:title>Lisa Nandy Backs Burnham Return to Westminster Ahead of Makerfield By-Election</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-06-14-evening/farage-two-tier-state-row-evict-foreign-nationals-social-housing-reform-uk-makerfield-final-week-incendiary-claim-restore-britain-spoiler/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-14T18:30:00+01:00</news:publication_date>
-      <news:title>Farage Ignites “Two-Tier State” Row as Reform UK Vows to Evict Foreign Nationals From Social Housing</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-06-14-evening/streeting-cabinet-bargain-position-burnham-sunday-evening-nandy-endorsement-politico-profile-iran-deal-collapsed-yougov-80-10-reeves-continuity/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-14T18:30:00+01:00</news:publication_date>
-      <news:title>Streeting Cabinet-Bargain Position Holds; Nandy Endorsement and Politico Profile Reshape Sunday Evening Frame</news:title>
     </news:news>
   </url>
 </urlset>
