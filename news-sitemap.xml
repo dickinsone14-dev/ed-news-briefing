@@ -2,6 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-17-morning/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-17T08:15:00+01:00</news:publication_date>
+      <news:title>Morning Briefing — Wednesday 17 June 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-17-morning/g7-closes-wednesday-russia-sanctions-ukraine-military-aid-iran-deal-endorsement-evian-communique-merz-meloni-macron-trump-ai-china-minerals/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-17T08:15:00+01:00</news:publication_date>
+      <news:title>G7 Closes Wednesday: New Russia Sanctions, Increased Ukraine Military Aid, Iran Deal Endorsed</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-17-morning/g7-ukraine-military-aid-package-patriot-replenishment-long-range-capabilities-air-defence-systems-russia-shadow-fleet-sanctions-coordinated-european-commitment/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-17T08:15:00+01:00</news:publication_date>
+      <news:title>G7 Ukraine Aid: Air-Defence Systems, Long-Range Capabilities, Coordinated European Commitment</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-17-morning/iran-framework-followup-nuclear-talks-geneva-vienna-european-missile-capability-exclusion-concerns-30-day-compliance-window-saudi-six-state-alignment-holds/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-17T08:15:00+01:00</news:publication_date>
+      <news:title>Iran Framework Follow-Up: Nuclear Talks Open in Coming Weeks; 30-Day Compliance Window Defines First Test</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-17-morning/russia-summer-offensive-continues-wednesday-overnight-strikes-isw-oreshnik-warning-active-yaroslavl-drone-deep-strike-zelensky-putin-meeting-united-states-rejected-russia/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-17T08:15:00+01:00</news:publication_date>
+      <news:title>Russia Summer Offensive Continues; Oreshnik Warning Active; Yaroslavl Drone Strike on Fuel Storage</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-17-morning/gaza-73000-wednesday-morning-trump-netanyahu-rift-political-latitude-egyptian-mediators-hostage-talks-deadlock-october-ceasefire-violations-post-deal-pressure/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-17T08:15:00+01:00</news:publication_date>
+      <news:title>Gaza Death Toll Holds Above 73,000; Trump-Netanyahu Rift Continues to Pressure 70%-Control Directive</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-17-morning/ftse-wednesday-open-10685-brent-87-80-three-month-low-gilt-4-82-four-month-low-bank-england-mpc-week-bank-of-america-august-rate-cut-35-percent/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-17T08:15:00+01:00</news:publication_date>
+      <news:title>Markets Wednesday Open: FTSE Rally Extends; Brent at Three-Month Low; Gilt Yields at Four-Month Low</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-17-morning/starmer-burnham-play-big-part-government-wednesday-pivot-chaos-warning-monday-makerfield-eve-leadership-challenge-friday-morning-express-manchester-evening-news/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-17T08:15:00+01:00</news:publication_date>
+      <news:title>Starmer Wants Burnham to “Play a Big Part” in Government, Pivots From Monday “Chaos” Warning</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-17-morning/jeremy-clarkson-aggressive-cancer-diagnosis-clarksons-farm-revealed-overnight-episodes-top-gear-presenter-prime-video-amazon-public-health-news-mood/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-17T08:15:00+01:00</news:publication_date>
+      <news:title>Jeremy Clarkson Reveals “Aggressive” Cancer Diagnosis on Clarkson’s Farm</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-17-morning/england-vs-croatia-world-cup-2026-opener-wednesday-night-dallas-group-l-tuchel-southgate-aftermath-football-national-mood-three-lions-tournament-campaign-launch/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-17T08:15:00+01:00</news:publication_date>
+      <news:title>England Open 2026 World Cup Campaign Against Croatia Tonight in Dallas</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-17-morning/makerfield-by-election-eve-thursday-burnham-streeting-endorsement-final-hours-reform-uk-internal-data-restore-britain-split-rayner-kenyon-attack-five-candidate-field/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-17T08:15:00+01:00</news:publication_date>
+      <news:title>Makerfield By-Election Eve: Burnham Campaign Final Hours; Reform UK Internal Data Confirms Likely Loss</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-06-16-evening/</loc>
     <news:news>
       <news:publication>
@@ -362,127 +483,6 @@
       </news:publication>
       <news:publication_date>2026-06-15T18:30:00+01:00</news:publication_date>
       <news:title>Streeting Cabinet-Bargain Position Holds Through Starmer “Chaos” Intervention; Times Opinion: “Burnham’s Fate Is Sealed”</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-06-15-morning/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-15T08:15:00+01:00</news:publication_date>
-      <news:title>Morning Briefing — Monday 15 June 2026</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-06-15-morning/us-iran-peace-deal-complete-trump-truth-social-hormuz-reopen-naval-blockade-lifts-permanent-end-military-operations-lebanon-included/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-15T08:15:00+01:00</news:publication_date>
-      <news:title>US-Iran Peace Deal “Now Complete”; Strait of Hormuz Reopens; US Naval Blockade Lifts</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-06-15-morning/trump-netanyahu-public-rebuke-beirut-strikes-timing-dahiyeh-hezbollah-command-center-sunday-deal-jeopardy-israeli-side-disappointment-framework/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-15T08:15:00+01:00</news:publication_date>
-      <news:title>Trump Publicly Slams Netanyahu Over Beirut Strike Timing as Deal Sealed Despite Israeli Operation</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-06-15-morning/markets-asia-open-rally-stocks-soar-oil-tumble-brent-90-50-hormuz-reopen-let-oil-flow-bonds-rally-asian-indices-gain/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-15T08:15:00+01:00</news:publication_date>
-      <news:title>Asia Markets Rally Hard on Hormuz Reopening: Oil Tumbles, Stocks Soar, Bonds Rally</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-06-15-morning/russia-summer-offensive-monday-overnight-strikes-sumy-zaporizhzhia-ukraine-civilian-casualties-may-record-isw-no-battlefield-impact-putin-army-expansion-yaroslavl-drone/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-15T08:15:00+01:00</news:publication_date>
-      <news:title>Russia Summer Offensive Continues With Overnight Strikes; ISW Says Putin Army Expansion No Battlefield Impact</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-06-15-morning/gaza-palestinian-death-toll-73000-sunday-confirmed-monday-ceasefire-violations-netanyahu-70-percent-directive-hostage-talks-egyptian-mediators-deadlock-deal-aftermath/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-15T08:15:00+01:00</news:publication_date>
-      <news:title>Gaza 73,000 Death Toll Holds as Israel-Iran Framework Signing Reframes Hostage-Talks Posture</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-06-15-morning/ftse-monday-open-rally-iran-deal-signed-brent-90-50-gilt-yields-below-five-percent-bank-england-mpc-decision-week-asia-rally-risk-on-follow-through/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-15T08:15:00+01:00</news:publication_date>
-      <news:title>FTSE Monday Open Rally on Iran Deal: Brent at $90.50, Gilt Yields Slip Below 5%</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-06-15-morning/g7-summit-france-monday-starmer-iran-deal-aftermath-russia-ukraine-trade-energy-trump-netanyahu-rift-london-coalition-willing-summit-followup/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-15T08:15:00+01:00</news:publication_date>
-      <news:title>G7 Summit Begins Monday in France With Iran-Deal Aftermath as Dominant Agenda</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-06-15-morning/burnham-pensioner-tax-cut-announcement-monday-morning-makerfield-final-week-labour-leadership-platform-policy-substantive-signal-pm-bid/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-15T08:15:00+01:00</news:publication_date>
-      <news:title>Burnham Pensioner Tax-Cut Announcement Signals Substantive Labour Leadership Platform</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-06-15-morning/labour-secret-anti-keir-whatsapp-group-chat-junior-ministers-plotting-burnham-bid-monday-leadership-uncertainty-makerfield-final-week-rebellion-coordination/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-15T08:15:00+01:00</news:publication_date>
-      <news:title>Labour Ministers Reignite Secret Anti-Keir WhatsApp Group Chat Plotting Burnham Bid</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-06-15-morning/farage-substack-essay-two-tier-state-white-people-equality-act-repeal-deport-foreign-tenants-reform-uk-makerfield-final-week-incendiary-claim/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-15T08:15:00+01:00</news:publication_date>
-      <news:title>Farage Substack Essay Vows to Repeal Equality Act and Deport Foreign Tenants in Most Explicit Racial Framing</news:title>
     </news:news>
   </url>
 </urlset>

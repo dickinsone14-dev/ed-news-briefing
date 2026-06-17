@@ -3,7 +3,7 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
     <loc>https://thedailybrief.co.uk/</loc>
-    <lastmod>2026-06-16</lastmod>
+    <lastmod>2026-06-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -4300,6 +4300,72 @@
   <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-06-16-morning/uk-russia-sanctions-ukraine-energy-support-g7-starmer-tuesday-announcement-shadow-fleet-evian-bilateral-defence-nato-spending-commitment-london-coalition-followup/</loc>
     <lastmod>2026-06-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-17-morning/</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-17-morning/england-vs-croatia-world-cup-2026-opener-wednesday-night-dallas-group-l-tuchel-southgate-aftermath-football-national-mood-three-lions-tournament-campaign-launch/</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-17-morning/ftse-wednesday-open-10685-brent-87-80-three-month-low-gilt-4-82-four-month-low-bank-england-mpc-week-bank-of-america-august-rate-cut-35-percent/</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-17-morning/g7-closes-wednesday-russia-sanctions-ukraine-military-aid-iran-deal-endorsement-evian-communique-merz-meloni-macron-trump-ai-china-minerals/</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-17-morning/g7-ukraine-military-aid-package-patriot-replenishment-long-range-capabilities-air-defence-systems-russia-shadow-fleet-sanctions-coordinated-european-commitment/</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-17-morning/gaza-73000-wednesday-morning-trump-netanyahu-rift-political-latitude-egyptian-mediators-hostage-talks-deadlock-october-ceasefire-violations-post-deal-pressure/</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-17-morning/iran-framework-followup-nuclear-talks-geneva-vienna-european-missile-capability-exclusion-concerns-30-day-compliance-window-saudi-six-state-alignment-holds/</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-17-morning/jeremy-clarkson-aggressive-cancer-diagnosis-clarksons-farm-revealed-overnight-episodes-top-gear-presenter-prime-video-amazon-public-health-news-mood/</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-17-morning/makerfield-by-election-eve-thursday-burnham-streeting-endorsement-final-hours-reform-uk-internal-data-restore-britain-split-rayner-kenyon-attack-five-candidate-field/</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-17-morning/russia-summer-offensive-continues-wednesday-overnight-strikes-isw-oreshnik-warning-active-yaroslavl-drone-deep-strike-zelensky-putin-meeting-united-states-rejected-russia/</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-17-morning/starmer-burnham-play-big-part-government-wednesday-pivot-chaos-warning-monday-makerfield-eve-leadership-challenge-friday-morning-express-manchester-evening-news/</loc>
+    <lastmod>2026-06-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
