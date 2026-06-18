@@ -3,7 +3,7 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
     <loc>https://thedailybrief.co.uk/</loc>
-    <lastmod>2026-06-17</lastmod>
+    <lastmod>2026-06-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -4432,6 +4432,72 @@
   <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-06-17-morning/starmer-burnham-play-big-part-government-wednesday-pivot-chaos-warning-monday-makerfield-eve-leadership-challenge-friday-morning-express-manchester-evening-news/</loc>
     <lastmod>2026-06-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-18-morning/</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-18-morning/england-4-2-croatia-kane-brace-world-cup-2026-opener-dallas-tuchel-tournament-management-launch-three-lions-campaign-rashford-fourth-goal-knockout-phase-group-l/</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-18-morning/gaza-73000-thursday-morning-post-deal-pressure-netanyahu-political-latitude-egyptian-mediators-hostage-talks-deadlock-70-percent-directive-october-ceasefire-violations-formal-signing-aftermath/</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-18-morning/macron-g7-leaders-unanimously-welcomed-iran-deal-hormuz-reopening-ukraine-support-trump-departs-summit-european-coalition-implementation-begins-evian-communique-translation/</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-18-morning/makerfield-by-election-polling-day-thursday-polls-open-7am-burnham-final-test-declaration-friday-morning-streeting-endorsement-nandy-rayner-reform-internal-data-restore-britain-split/</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-18-morning/markets-thursday-open-boe-rate-decision-today-sterling-weakest-april-7-1-33-gilt-yields-4-76-two-month-low-mpc-mortgage-relief-rate-cut-probability/</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-18-morning/russia-summer-offensive-continues-thursday-overnight-strikes-isw-oreshnik-warning-still-active-deep-strike-campaign-trump-attention-back-ukraine-moscow-deal-next-pressure-architecture/</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-18-morning/starmer-russian-warship-reckless-channel-warning-shots-yacht-thursday-pm-statement-aftermath-defence-spending-healey-split-cabinet-question-makerfield-context/</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-18-morning/trump-iran-president-formal-signing-overnight-300-billion-reconstruction-plan-uranium-dilution-agreement-text-released-hardened-framework-saudi-six-state-alignment-nyt-official/</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-18-morning/uk-teen-social-media-ban-under-16s-thursday-political-week-context-australia-precedent-platform-feature-restrictions-civil-liberties-watershed-online-free-speech-meloni-no-panacea/</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-18-morning/ukraine-drone-strike-moscow-refinery-second-time-week-thursday-major-attack-russian-capital-deep-strike-campaign-g7-sanctions-response-yaroslavl-fuel-storage-context/</loc>
+    <lastmod>2026-06-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
