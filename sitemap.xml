@@ -3,7 +3,7 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
     <loc>https://thedailybrief.co.uk/</loc>
-    <lastmod>2026-06-18</lastmod>
+    <lastmod>2026-06-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -4564,6 +4564,72 @@
   <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-06-18-morning/ukraine-drone-strike-moscow-refinery-second-time-week-thursday-major-attack-russian-capital-deep-strike-campaign-g7-sanctions-response-yaroslavl-fuel-storage-context/</loc>
     <lastmod>2026-06-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-19-morning/</loc>
+    <lastmod>2026-06-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-19-morning/burnham-wins-makerfield-by-election-54-8-percent-final-chance-change-turning-point-leadership-challenge-imminent-king-north-greater-manchester-mayor-westminster-return/</loc>
+    <lastmod>2026-06-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-19-morning/cambridgeshire-crocodile-zoo-attack-friday-update-three-year-old-boy-hospital-condition-attempted-murder-investigation-30-year-old-arrested-zoo-safety-procedures-licensing-act-1981/</loc>
+    <lastmod>2026-06-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-19-morning/gaza-73000-friday-morning-post-deal-pressure-netanyahu-political-latitude-egyptian-mediators-hostage-talks-deadlock-70-percent-directive-october-ceasefire-violations-vance-blunt-warning-aftermath/</loc>
+    <lastmod>2026-06-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-19-morning/labour-leadership-challenge-timing-weekend-81-mp-threshold-burnham-makerfield-victory-streeting-cabinet-bargain-nandy-endorsement-secret-whatsapp-junior-ministers-coordination-window-friday-monday/</loc>
+    <lastmod>2026-06-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-19-morning/markets-friday-open-burnham-win-sterling-firmer-1-3420-gilt-yields-4-80-ftse-10750-rally-political-clarity-burnham-reeves-continuity-rating-agencies-fiscal-credibility/</loc>
+    <lastmod>2026-06-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-19-morning/russia-summer-offensive-friday-overnight-strikes-isw-oreshnik-warning-still-active-ukraine-moscow-refinery-strikes-second-week-g7-sanctions-implementation-trump-attention-moscow-deal-next/</loc>
+    <lastmod>2026-06-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-19-morning/tories-take-aberdeen-south-snp-first-scottish-by-election-50-years-douglas-lumsden-seismic-victory-tactical-vote-arbroath-snp-holds-labour-fourth-both-races/</loc>
+    <lastmod>2026-06-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-19-morning/trump-no-limits-power-friday-statement-aftermath-deal-narrative-positioning-post-signing-diplomatic-phase-moscow-pressure-architecture-pezeshkian-saudi-six-state-implementation-political-power-projection/</loc>
+    <lastmod>2026-06-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-19-morning/trump-pezeshkian-formal-signing-overnight-60-day-talks-framework-hormuz-reopen-uranium-dilution-300-billion-reconstruction-saudi-six-state-alignment-iranian-president-named/</loc>
+    <lastmod>2026-06-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-19-morning/vance-blunt-warning-israeli-critics-deal-friday-defends-administration-alienate-important-ally-swiss-talks-called-off-vice-president-pulls-out-trip-tehran-side-followup/</loc>
+    <lastmod>2026-06-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
