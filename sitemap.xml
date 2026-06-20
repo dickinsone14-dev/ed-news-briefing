@@ -3,7 +3,7 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
     <loc>https://thedailybrief.co.uk/</loc>
-    <lastmod>2026-06-19</lastmod>
+    <lastmod>2026-06-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -4696,6 +4696,72 @@
   <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-06-19-morning/vance-blunt-warning-israeli-critics-deal-friday-defends-administration-alienate-important-ally-swiss-talks-called-off-vice-president-pulls-out-trip-tehran-side-followup/</loc>
     <lastmod>2026-06-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-20-morning/</loc>
+    <lastmod>2026-06-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-20-morning/90-labour-mps-calling-starmer-go-saturday-81-mp-threshold-crossed-sky-news-rebellion-burnham-makerfield-aftermath-coordination-formal-challenge-trigger-imminent/</loc>
+    <lastmod>2026-06-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-20-morning/burnham-new-path-vow-uk-saturday-leadership-campaign-launch-makerfield-mp-king-north-greater-manchester-mayor-westminster-return-streeting-nandy-coalition-rating-agencies-continuity/</loc>
+    <lastmod>2026-06-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-20-morning/cabinet-loyalists-tell-starmer-weekend-set-out-timetable-exit-saturday-pm-pressure-90-mps-calling-quit-burnham-leadership-transition-imminent-days-not-weeks-streeting-nandy-coordination/</loc>
+    <lastmod>2026-06-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-20-morning/china-positioning-mediator-saturday-iran-deal-aftermath-energy-reserves-green-technology-diplomacy-global-influence-saudi-six-state-alignment-context-belt-road-economic-architecture/</loc>
+    <lastmod>2026-06-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-20-morning/gaza-73000-saturday-morning-post-deal-pressure-netanyahu-political-latitude-egyptian-mediators-hostage-talks-deadlock-70-percent-directive-ceasefire-violations-vance-warning-aftermath-israeli-lebanon-strikes-context/</loc>
+    <lastmod>2026-06-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-20-morning/israeli-strikes-south-lebanon-five-killed-saturday-nabatieh-overnight-framework-durability-stress-tehran-switzerland-talks-postponed-aftermath-pezeshkian-signing-aftermath-vance-warning-aftermath/</loc>
+    <lastmod>2026-06-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-20-morning/russia-air-defences-187-ukrainian-drones-overnight-saturday-kharkiv-strike-five-dead-child-deep-strike-campaign-moscow-refinery-context-isw-summer-offensive-g7-sanctions-implementation/</loc>
+    <lastmod>2026-06-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-20-morning/tories-aberdeen-south-victory-aftermath-saturday-douglas-lumsden-scotland-fragmentation-snp-arbroath-holds-labour-fourth-badenoch-oil-gas-referendum-conservative-Scottish-revival-1967-first-by-election-win/</loc>
+    <lastmod>2026-06-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-20-morning/trump-87-oil-tankers-strait-hormuz-naval-escort-overnight-iranian-radar-degraded-operational-detail-deal-validation-friday-evening-pezeshkian-signing-aftermath-implementation/</loc>
+    <lastmod>2026-06-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-20-morning/uk-extreme-heat-warning-saturday-34-degrees-next-week-monday-wednesday-met-office-amber-warning-transport-nhs-pressure-outdoor-work-risk-heatwave-2022-record-context/</loc>
+    <lastmod>2026-06-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
