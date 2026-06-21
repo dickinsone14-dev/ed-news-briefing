@@ -3,7 +3,7 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
     <loc>https://thedailybrief.co.uk/</loc>
-    <lastmod>2026-06-20</lastmod>
+    <lastmod>2026-06-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -4828,6 +4828,72 @@
   <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-06-20-morning/uk-extreme-heat-warning-saturday-34-degrees-next-week-monday-wednesday-met-office-amber-warning-transport-nhs-pressure-outdoor-work-risk-heatwave-2022-record-context/</loc>
     <lastmod>2026-06-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-21-morning/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-21-morning/burnham-economy-big-building-boom-business-friendly-sunday-leadership-campaign-construction-housing-supply-positioning-new-path-greater-manchester-model-rating-agencies-continuity-rebalancing-regional/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-21-morning/cabinet-loyalists-90-mps-saturday-evening-aftermath-sunday-morning-pressure-political-realities-everyone-thinks-its-over-falconer-grandee-ravens-tower-orderly-exit-burnham-coronation-scenario/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-21-morning/gaza-73000-sunday-morning-post-deal-pressure-netanyahu-political-latitude-egyptian-mediators-hostage-talks-deadlock-70-percent-directive-witkoff-mediation-lebanon-ceasefire-aftermath-pressure-architecture/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-21-morning/iran-fresh-hormuz-closure-warning-saturday-evening-saturday-night-tehran-military-command-maritime-traffic-fresh-threat-framework-durability-stress-brent-monday-asia-open-binary-witkoff-ceasefire-mediation-impact-political-signal/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-21-morning/israel-lebanon-ceasefire-witkoff-mediation-sunday-morning-troops-remain-southern-lebanon-hezbollah-nabatieh-five-killed-aftermath-pezeshkian-deal-durability-stress-test-fragility/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-21-morning/russia-summer-offensive-sunday-overnight-strikes-isw-oreshnik-warning-still-active-kharkiv-context-deep-strike-campaign-g7-sanctions-implementation-trump-attention-moscow-deal-architecture/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-21-morning/starmer-expected-announce-departure-prime-minister-monday-guardian-observer-sunday-business-secretary-political-realities-orderly-exit-burnham-succession-timetable-90-mps-labour-leadership-transition/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-21-morning/tories-aberdeen-south-victory-sunday-morning-aftermath-douglas-lumsden-scotland-fragmentation-snp-labour-fourth-badenoch-oil-gas-referendum-conservative-Scottish-revival-1967-first-by-election-win-burnham-electoral-calculus/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-21-morning/uk-extreme-heat-warning-sunday-morning-34-degrees-monday-wednesday-met-office-amber-warning-transport-nhs-pressure-outdoor-work-risk-2022-record-context-network-rail-speed-restrictions-monday/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-21-morning/us-iran-talks-resume-switzerland-sunday-vance-leading-pezeshkian-side-interim-deal-shore-up-witkoff-mediation-aftermath-ghalibaf-parliament-speaker-negotiator-30-day-compliance-window/</loc>
+    <lastmod>2026-06-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>

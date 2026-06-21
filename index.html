@@ -1938,11 +1938,11 @@
  - Hard expiry at 24h from "posted" (or at "expires" if set) — banner comes down
  - Optional "expires" field overrides the 8h default (e.g. for major events)
  To add a new breaking story, prepend an entry here with the current ISO timestamp. -->
- <script id="breaking-stories" type="application/json">[{"headline": "Iran declares Strait of Hormuz closed, warns ships away as Lebanon strikes imperil US talks — 16:44 BST", "posted": "2026-06-20T16:44:00+01:00", "category": "GEOPOLITICS", "summary": "Iran's Revolutionary Guard Corps says it has again closed the Strait of Hormuz — through which around a fifth of the world's oil and gas is shipped — accusing Israel of ceasefire violations in Lebanon and the US of failing to implement this week's interim peace deal. The IRGC Navy warned vessels not to approach the waterway, though US Vice-President JD Vance said there is 'no evidence' it is closed. The move comes as Israeli strikes killed at least 16 people in southern Lebanon, jeopardising US-Iran talks due to resume in Switzerland.", "facts": [{"label": "Global oil & gas via Hormuz", "value": "~20% in peacetime"}, {"label": "Iranian enforcement", "value": "IRGC Navy warns ships not to approach"}, {"label": "US position", "value": "VP Vance: 'no evidence' strait is closed"}, {"label": "Lebanon strikes Saturday", "value": "At least 16 killed; talks in peril"}]}]</script>
+ <script id="breaking-stories" type="application/json">[]</script>
  <div class="breaking-banner" id="breakingBanner">
  <div class="breaking-inner">
  <span class="breaking-label">BREAKING</span>
- <span class="breaking-text" id="breakingText">Iran declares Strait of Hormuz closed, warns ships away as Lebanon strikes imperil US talks</span>
+ <span class="breaking-text" id="breakingText"></span>
  <span class="breaking-readmore" id="breakingReadmore">Read more</span>
  <button class="breaking-dismiss" id="breakingDismiss">&times;</button>
  </div>
@@ -2031,57 +2031,57 @@
 
  <!-- #1 Markets snapshot bar -->
  <!-- Embedded market data (populated by update script, used as fallback) -->
- <script id="embedded-markets" type="application/json">{"FTSE":{"price":10455,"change":0.58},"SP":{"price":5358,"change":0.53},"Brent":{"price":95.20,"change":-1.34},"GBP":{"price":1.3425,"change":0.22},"Gold":{"price":4475,"change":-0.33},"EURGBP":{"price":0.8670,"change":-0.10},"Gilt":{"price":4.99,"change":-0.60},"VIX":{"price":24.50,"change":-7.55},"BTC":{"price":80520,"change":0.62},"UST":{"price":4.50,"change":-0.44},"ts":"2026-06-20T18:30:00+01:00"}</script>
+ <script id="embedded-markets" type="application/json">{"FTSE":{"price":10455,"change":0.58},"SP":{"price":5358,"change":0.53},"Brent":{"price":95.20,"change":-1.34},"GBP":{"price":1.3425,"change":0.22},"Gold":{"price":4475,"change":-0.33},"EURGBP":{"price":0.8670,"change":-0.10},"Gilt":{"price":4.99,"change":-0.60},"VIX":{"price":24.50,"change":-7.55},"BTC":{"price":80520,"change":0.62},"UST":{"price":4.50,"change":-0.44},"ts":"2026-06-21T08:15:00+01:00"}</script>
  <script id="market-descriptions" type="application/json">{
     "FTSE": {
       "name": "FTSE 100",
       "desc": "The UK's benchmark stock index, tracking the 100 largest companies listed on the London Stock Exchange by market capitalisation. Includes Shell, AstraZeneca, HSBC and Unilever.",
-      "drivers_up": ["Energy and defence stocks rallying on G7 Russia sanctions and Ukraine military-aid packages", "Burnham Makerfield win delivering political clarity on Labour leadership-transition path"], "drivers_down": ["Gilt yields climbed to 4.86% on state-borrowing concerns following Burnham win", "Brent below $90 pressuring oil-major near-term revenue (Shell, BP)"], "updated": "20 June 2026 18:30"
+      "drivers_up": ["Energy and defence stocks rallying on G7 Russia sanctions and Ukraine military-aid packages", "Burnham Makerfield win delivering political clarity on Labour leadership-transition path"], "drivers_down": ["Gilt yields climbed to 4.86% on state-borrowing concerns following Burnham win", "Brent below $90 pressuring oil-major near-term revenue (Shell, BP)"], "updated": "21 June 2026 08:15"
     },
     "SP": {
       "name": "S&P 500",
       "desc": "America's leading stock market index, tracking 500 of the largest US-listed companies. Dominated by mega-cap tech (Apple, Microsoft, Nvidia) but spans all sectors.",
-      "drivers_up": ["US-Iran framework signing 14 June lifting global risk appetite and energy-supply outlook", "AI infrastructure spending continuing to support mega-cap tech earnings"], "drivers_down": ["Federal Reserve decision this week with rates expected on hold, limiting near-term upside", "Trump tariff threats casting uncertainty over international trade exposure"], "updated": "20 June 2026 18:30"
+      "drivers_up": ["US-Iran framework signing 14 June lifting global risk appetite and energy-supply outlook", "AI infrastructure spending continuing to support mega-cap tech earnings"], "drivers_down": ["Federal Reserve decision this week with rates expected on hold, limiting near-term upside", "Trump tariff threats casting uncertainty over international trade exposure"], "updated": "21 June 2026 08:15"
     },
     "Brent": {
       "name": "Brent Crude Oil",
       "desc": "The global benchmark for crude oil pricing, produced from oil fields in the North Sea. Used to price roughly two-thirds of the world's traded oil.",
-      "drivers_up": ["Trump signalling swift return of US sanctions on Russian oil shipments if Moscow stalls on Ukraine", "Ukrainian drone strikes on Moscow refinery for second time this week"], "drivers_down": ["Formal Trump-Iran-president signing including uranium dilution agreement hardens Hormuz reopening", "Iran sanctions waivers adding around 2-3 million barrels per day of Iranian crude back to market"], "updated": "20 June 2026 18:30"
+      "drivers_up": ["Trump signalling swift return of US sanctions on Russian oil shipments if Moscow stalls on Ukraine", "Ukrainian drone strikes on Moscow refinery for second time this week"], "drivers_down": ["Formal Trump-Iran-president signing including uranium dilution agreement hardens Hormuz reopening", "Iran sanctions waivers adding around 2-3 million barrels per day of Iranian crude back to market"], "updated": "21 June 2026 08:15"
     },
     "GBP": {
       "name": "GBP/USD",
       "desc": "The exchange rate between the British pound and the US dollar, commonly known as 'cable'. Reflects relative economic strength and interest rate differentials between the UK and US.",
-      "drivers_up": ["Sterling firmed to $1.3450 on strong UK retail sales and Burnham win political clarity", "Iran framework formal signing easing sterling"s geopolitical risk premium"], "drivers_down": ["August Bank Rate cut probability above 40% still capping sterling upside", "Federal Reserve expected to hold rates this week, supporting dollar strength"], "updated": "20 June 2026 18:30"
+      "drivers_up": ["Sterling firmed to $1.3450 on strong UK retail sales and Burnham win political clarity", "Iran framework formal signing easing sterling"s geopolitical risk premium"], "drivers_down": ["August Bank Rate cut probability above 40% still capping sterling upside", "Federal Reserve expected to hold rates this week, supporting dollar strength"], "updated": "21 June 2026 08:15"
     },
     "Gold": {
       "name": "Gold (XAU/USD)",
       "desc": "The spot price of gold in US dollars per troy ounce. The world's oldest safe-haven asset, traditionally rising during periods of uncertainty, inflation and currency debasement.",
-      "drivers_up": ["Central bank gold buying at record levels through 2026, led by China and India", "Trump-Netanyahu rift over Sunday Beirut strikes keeping geopolitical risk premium elevated"], "drivers_down": ["Iran framework signing reducing Middle East safe-haven flows", "Higher real yields making non-yielding gold less attractive"], "updated": "20 June 2026 18:30"
+      "drivers_up": ["Central bank gold buying at record levels through 2026, led by China and India", "Trump-Netanyahu rift over Sunday Beirut strikes keeping geopolitical risk premium elevated"], "drivers_down": ["Iran framework signing reducing Middle East safe-haven flows", "Higher real yields making non-yielding gold less attractive"], "updated": "21 June 2026 08:15"
     },
     "EURGBP": {
       "name": "EUR/GBP",
       "desc": "The exchange rate between the euro and the British pound. Key for UK-EU trade pricing. A falling rate means sterling is strengthening against the euro.",
-      "drivers_up": ["ECB rate cuts outpacing BoE, weakening euro relative to sterling", "Eurozone manufacturing recession deepening into Q3 2026"], "drivers_down": ["UK political uncertainty under Labour leadership transition pre-Makerfield", "G7 Ukraine military-aid commitment boosting EU defence-stock sentiment"], "updated": "20 June 2026 18:30"
+      "drivers_up": ["ECB rate cuts outpacing BoE, weakening euro relative to sterling", "Eurozone manufacturing recession deepening into Q3 2026"], "drivers_down": ["UK political uncertainty under Labour leadership transition pre-Makerfield", "G7 Ukraine military-aid commitment boosting EU defence-stock sentiment"], "updated": "21 June 2026 08:15"
     },
     "Gilt": {
       "name": "UK 10-Year Gilt Yield",
       "desc": "The yield on 10-year UK government bonds (gilts). A key benchmark for UK borrowing costs, mortgage rates and pension fund valuations. Rising yields mean falling bond prices.",
-      "drivers_up": ["Gilt yields climbed to 4.86% on state-borrowing concerns following Burnham win and Reeves Autumn Budget plans", "BoE 7-2 hold-vs-cut split more hawkish than 6-3 market consensus"], "drivers_down": ["August Bank Rate cut probability above 40%; mortgage lender cuts expected weeks ahead", "Iran framework hardening easing UK inflation outlook"], "updated": "20 June 2026 18:30"
+      "drivers_up": ["Gilt yields climbed to 4.86% on state-borrowing concerns following Burnham win and Reeves Autumn Budget plans", "BoE 7-2 hold-vs-cut split more hawkish than 6-3 market consensus"], "drivers_down": ["August Bank Rate cut probability above 40%; mortgage lender cuts expected weeks ahead", "Iran framework hardening easing UK inflation outlook"], "updated": "21 June 2026 08:15"
     },
     "VIX": {
       "name": "VIX (Volatility Index)",
       "desc": "The CBOE Volatility Index, often called the 'fear gauge'. Measures expected S&P 500 volatility over the next 30 days. Readings above 20 suggest elevated anxiety; above 30 signals acute stress.",
-      "drivers_up": ["Federal Reserve decision this week with rates on hold creating positioning uncertainty", "Trump-Netanyahu rift and Russian Channel warship incident keeping geopolitical risk priced"], "drivers_down": ["US-Iran framework signing 14 June materially reducing Middle East tail-risk premium", "Strong corporate earnings season providing fundamental volatility floor"], "updated": "20 June 2026 18:30"
+      "drivers_up": ["Federal Reserve decision this week with rates on hold creating positioning uncertainty", "Trump-Netanyahu rift and Russian Channel warship incident keeping geopolitical risk priced"], "drivers_down": ["US-Iran framework signing 14 June materially reducing Middle East tail-risk premium", "Strong corporate earnings season providing fundamental volatility floor"], "updated": "21 June 2026 08:15"
     },
     "BTC": {
       "name": "Bitcoin (BTC/USD)",
       "desc": "The price of Bitcoin in US dollars. The largest cryptocurrency by market cap, increasingly viewed as digital gold by institutional investors since spot ETF approvals.",
-      "drivers_up": ["Institutional inflows via spot ETFs continuing at sustained pace through 2026", "Risk-on sentiment from Iran framework signing lifting crypto alongside equities"], "drivers_down": ["Federal Reserve decision this week with rates on hold pressuring rate-sensitive crypto", "Regulatory uncertainty over DeFi and stablecoin legislation ahead of US autumn elections"], "updated": "20 June 2026 18:30"
+      "drivers_up": ["Institutional inflows via spot ETFs continuing at sustained pace through 2026", "Risk-on sentiment from Iran framework signing lifting crypto alongside equities"], "drivers_down": ["Federal Reserve decision this week with rates on hold pressuring rate-sensitive crypto", "Regulatory uncertainty over DeFi and stablecoin legislation ahead of US autumn elections"], "updated": "21 June 2026 08:15"
     },
     "UST": {
       "name": "US 10-Year Treasury Yield",
       "desc": "The yield on 10-year US government bonds, the global risk-free rate benchmark. Influences mortgage rates, corporate borrowing and equity valuations worldwide.",
-      "drivers_up": ["Record US Treasury issuance to fund growing deficit pushing yields higher", "Trump tariff threats raising imported-inflation expectations"], "drivers_down": ["Iran framework signing easing oil-driven US inflation outlook", "Global growth concerns from China slowdown driving safe-haven Treasury demand"], "updated": "20 June 2026 18:30"
+      "drivers_up": ["Record US Treasury issuance to fund growing deficit pushing yields higher", "Trump tariff threats raising imported-inflation expectations"], "drivers_down": ["Iran framework signing easing oil-driven US inflation outlook", "Global growth concerns from China slowdown driving safe-haven Treasury demand"], "updated": "21 June 2026 08:15"
     }
   }</script>
  <div class="markets-bar" id="marketsBar">
@@ -2133,6 +2133,158 @@
  <!-- ════ ALL EDITIONS (sorted by JS) ════ -->
  <!-- IMPORTANT: Keep 7 FULL DAYS of editions in this container. Do NOT delete editions less than 7 days old. -->
  <div id="all-editions" style="display:none;">
+
+ <!-- ── MORNING 21 JUN (08:15) ── -->
+ <div class="curated-edition morning" data-date="2026-06-21" data-time="08:15" data-markets='{"FTSE":{"price":10720,"change":-0.28},"SP":{"price":5482,"change":-0.05},"Brent":{"price":87.10,"change":-0.23},"GBP":{"price":1.3450,"change":0.22},"Gold":{"price":4430,"change":0.11},"EURGBP":{"price":0.8690,"change":-0.11},"Gilt":{"price":4.86,"change":1.25},"VIX":{"price":21.00,"change":0.96},"BTC":{"price":81700,"change":-0.30},"UST":{"price":4.34,"change":0.23},"ts":"2026-06-21T08:15:00+01:00"}'>
+ <div class="edition-header">
+ <span class="edition-icon">&#9728;</span>
+ <h2>Morning Briefing</h2>
+ </div>
+ <div class="curated-meta">Sunday 21 June 2026 &mdash; 08:15 BST</div>
+ <div class="impact-box">
+ <h3 class="impact-heading">What It Means For You</h3>
+ <ul class="impact-list">
+ <li><strong>Politics:</strong> Sir Keir Starmer is expected to announce his departure as Prime Minister on Monday, the Observer and Guardian report &mdash; for you, a Burnham succession will likely be confirmed within 48 hours.</li>
+ <li><strong>Iran &amp; Lebanon:</strong> US-Iran nuclear talks resume in Switzerland today with Vance leading the US side; Israeli Lebanon ceasefire holding after Witkoff mediation &mdash; for you, framework durability is being actively defended; oil prices stay supportive of cheaper petrol if this holds.</li>
+ <li><strong>Weather:</strong> Extreme heat warning still in force; 34C peak expected Monday through Wednesday &mdash; for you, expect transport disruption and NHS pressure from Sunday afternoon onwards as the heatwave builds.</li>
+ </ul>
+ </div>
+ <div class="curated-grid">
+ <div class="curated-column">
+ <h3><span class="dot geo"></span><span class="dot-label">GEO</span> Geopolitical</h3>
+ <div>
+
+ <div class="curated-item" data-time="06:00" data-slug="us-iran-talks-resume-switzerland-sunday-vance-leading-pezeshkian-side-interim-deal-shore-up-witkoff-mediation-aftermath-ghalibaf-parliament-speaker-negotiator-30-day-compliance-window">
+ <h4>US-Iran Talks Resume in Switzerland Sunday; Vance Leads US Side, Ghalibaf Iranian Negotiator</h4>
+ <p>Officials from the United States and Iran are meeting in Obb&uuml;rgen, Switzerland on Sunday to shore up the interim deal to end the war. Vice President JD Vance is leading the US delegation; Iranian Parliament Speaker Mohammad Bagher Ghalibaf is the top Tehran-side negotiator. The talks resume after Friday&rsquo;s postponement triggered by Israeli Lebanon operations. The Witkoff-mediated Saturday Israeli Lebanon ceasefire commitment is the structural pre-condition that enabled today&rsquo;s resumption. The 30-day compliance window for sanctions-waiver operationalisation continues.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The Sunday Switzerland talks are the principal framework-durability test since the Wednesday Trump-Pezeshkian signing. Lebanon is reportedly at the top of the agenda; Iran wants the US to pressure Israel to halt the southern Lebanon operations. The Ghalibaf delegation is materially senior: Parliament Speaker plus IRGC-aligned negotiators position the Iranian side for hard-bargaining on the Lebanon-track question. The Witkoff Saturday-afternoon Israeli ceasefire commitment &mdash; with Israeli troops remaining in southern Lebanon &mdash; is the structural compromise that enabled the Sunday resumption. The Saudi-led six-state regional alignment continues to back the framework architecture.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="05:00" data-slug="israel-lebanon-ceasefire-witkoff-mediation-sunday-morning-troops-remain-southern-lebanon-hezbollah-nabatieh-five-killed-aftermath-pezeshkian-deal-durability-stress-test-fragility">
+ <h4>Israel-Lebanon Ceasefire Holds Through Sunday Morning After Witkoff Mediation</h4>
+ <p>The Witkoff-mediated Israeli Lebanon ceasefire holds through Sunday morning following the Saturday-afternoon commitment, although Israeli troops remain in southern Lebanon. Hezbollah did not formally endorse the new ceasefire within the 24-hour window. Le Monde reports the ceasefire remains fragile under US-Iran pressure. The Friday-Saturday Israeli Nabatieh strikes that killed at least five had delayed the Switzerland talks; the Sunday resumption is the structural confirmation that the ceasefire is materially holding. The structural durability test extends through Sunday-Monday.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The Witkoff mediation is the structural Trump-administration deployment of personalised diplomatic intervention to defend the framework against Israeli operational autonomy. The Israeli &ldquo;troops will remain&rdquo; framing is the operational caveat that maintains Israeli ground positions in the Nabatieh and Beaufort areas. Hezbollah&rsquo;s non-endorsement is the structural early-warning indicator: if Hezbollah formally rejects within 48 hours, the Tehran-side framework-compliance positioning may extend into Monday newspaper-cycle commentary. The 30-day compliance window for sanctions-waiver operationalisation continues; structural risk through Monday is whether Hezbollah&rsquo;s non-endorsement materially affects Iranian flexibility in the Switzerland talks.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="20:00" data-slug="iran-fresh-hormuz-closure-warning-saturday-evening-saturday-night-tehran-military-command-maritime-traffic-fresh-threat-framework-durability-stress-brent-monday-asia-open-binary-witkoff-ceasefire-mediation-impact-political-signal">
+ <h4>Iran Hormuz Closure Warning Holds Through Saturday Night; Trump Threatens Iran Over Strait</h4>
+ <p>The fresh Iranian Strait of Hormuz closure warning issued Saturday evening holds through Sunday morning. President Donald Trump threatened Iran over Hormuz in his Saturday-evening Truth Social statements even as Vice President Vance prepared the Switzerland talks. The structural Tehran-side political signal is that the framework remains conditional on Israeli operational restraint; the structural Trump-side response is the carrot-and-stick architecture of negotiation-plus-threat. Brent crude is positioned for a binary Monday Asia open: if the Switzerland talks deliver, Brent stays near $87; if not, expect a gap to $92-95.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The Iranian Hormuz closure-warning is a political threat rather than an immediate operational closure. The Trump 87-tanker disclosure Friday confirmed that Iranian radar capabilities had been degraded; the operational closure-capacity is materially constrained even if Tehran chooses escalation. The Saudi-led six-state regional alignment remains operative. The structural durability test extends through Sunday evening into the Monday Asia open. The Trump threat-plus-Vance-talks combination is the structural Trump-administration pressure architecture.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="04:00" data-slug="russia-summer-offensive-sunday-overnight-strikes-isw-oreshnik-warning-still-active-kharkiv-context-deep-strike-campaign-g7-sanctions-implementation-trump-attention-moscow-deal-architecture">
+ <h4>Russia Summer Offensive Continues; Trump &ldquo;Moscow Deal&rdquo; Architecture Builds With G7 Sanctions Implementation</h4>
+ <p>Russian forces continued overnight long-range strikes against Ukraine through Sunday morning. The Institute for the Study of War maintains that Vladimir Putin&rsquo;s decree expanding the Russian armed forces will not affect the battlefield situation. The Kharkiv strikes Friday-Saturday killed several including a child. With the Iran framework in implementation phase, Trump&rsquo;s attention is materially swinging back to Ukraine; the &ldquo;Moscow deal could be next&rdquo; framing combined with the swift-return-of-Russian-oil-sanctions threat structures the carrot-and-stick US pressure architecture on Russia.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The G7 communique commitment to provide additional long-range capabilities continues to expand Ukraine&rsquo;s deep-strike envelope into Russian rear-echelon targets. The Moscow refinery strikes earlier in the week and the 187-drone overnight Ukrainian deep-strike volume Friday-Saturday compound the structural Russian-side pressure heading into any Trump-Moscow engagement window. The CIA Saturday-week-ago Oreshnik IRBM warning has materially stretched past the original 24-48 hour window. The London Coalition of the Willing summit Patriot interceptor replenishment commitment continues to ramp.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="14:00" data-slug="gaza-73000-sunday-morning-post-deal-pressure-netanyahu-political-latitude-egyptian-mediators-hostage-talks-deadlock-70-percent-directive-witkoff-mediation-lebanon-ceasefire-aftermath-pressure-architecture">
+ <h4>Gaza Death Toll Holds Above 73,000; Witkoff Mediation Reshapes Pressure on Netanyahu Heading Into Sunday Talks</h4>
+ <p>The Palestinian death toll from the Israel-Hamas war confirmed at over 73,000 holds through Sunday morning, per Gaza&rsquo;s Health Ministry. The Witkoff-mediated Israeli Lebanon ceasefire reshapes pressure architecture on Prime Minister Netanyahu heading into the Switzerland talks. Egyptian mediators continue indirect Hamas-Israel hostage-talks but remain deadlocked. Netanyahu&rsquo;s 70%-Gaza control directive remains in operational effect. The Vance Switzerland diplomatic engagement combined with the Witkoff Lebanon-track mediation materially compresses the Israeli operational-autonomy position.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The framework text does not address Gaza explicitly. With the Witkoff-mediated Israeli Lebanon ceasefire now in operational effect and the Sunday Switzerland talks proceeding, the Gaza-track posture remains the principal Israeli domestic-political release valve. The 70%-control target represents a significant expansion of Israeli territorial control from the roughly 40-45% Israel was operating in before the directive. The hostage-family pressure on Netanyahu compounds through the post-signing political cycle.</div>
+ </details>
+ </div>
+
+ </div>
+ </div>
+ <div class="curated-column">
+ <h3><span class="dot dom"></span><span class="dot-label">UK</span> UK Domestic Politics</h3>
+ <div>
+
+ <div class="curated-item" data-time="06:00" data-slug="starmer-expected-announce-departure-prime-minister-monday-guardian-observer-sunday-business-secretary-political-realities-orderly-exit-burnham-succession-timetable-90-mps-labour-leadership-transition">
+ <h4>Starmer Expected to Announce Departure as Prime Minister on Monday, Guardian and Observer Report</h4>
+ <p>Sir Keir Starmer is expected to announce his departure as Prime Minister on Monday, the Observer and the Guardian report Sunday morning. The Business Secretary said Starmer is reflecting on &ldquo;political realities&rdquo; amid overwhelming pressure from Labour MPs. The Newsweek report cites preparation for an &ldquo;orderly exit&rdquo; with a clear stepping-down timeline. Saturday&rsquo;s &ldquo;everyone thinks it&rsquo;s over&rdquo; consensus has hardened overnight into expected formal announcement. The structured succession scenario (Streeting cabinet-bargain, Nandy endorsement, junior-minister coordination) frames the operational transition path.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The Guardian/Observer Sunday-morning reporting cites multiple Cabinet-level sources confirming the structural Starmer-departure trajectory. The political-mathematical implication: an orderly exit on Monday positions Burnham for a coronation rather than a contested contest. Allies of Defence Minister Al Carns continue to signal a potential third candidacy if the 81-MP threshold formally triggers a multi-candidate contest. The structural Labour NEC procedural-question ruling timing remains uncertain; the orderly-exit framing reduces the immediate need for NEC adjudication. The Sunday political-papers cycle and Monday parliamentary-party reception will materially shape the operative transition timeline.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="04:00" data-slug="cabinet-loyalists-90-mps-saturday-evening-aftermath-sunday-morning-pressure-political-realities-everyone-thinks-its-over-falconer-grandee-ravens-tower-orderly-exit-burnham-coronation-scenario">
+ <h4>Cabinet Loyalists, 90+ MPs and Labour Grandees Combine to Position Starmer for Monday Exit</h4>
+ <p>The Saturday-evening combined pressure architecture &mdash; Cabinet loyalists telling Starmer to set a weekend exit timetable, more than 90 Labour MPs publicly calling for him to go (above the 81-MP threshold), and Labour grandee Lord Falconer&rsquo;s &ldquo;ravens leaving the tower&rdquo; public turn &mdash; holds through Sunday morning. The structural Saturday consensus that &ldquo;everyone thinks it&rsquo;s over&rdquo; has translated into expected Monday departure announcement. The orderly-exit framing positions Burnham for a coronation; the alternative contested-contest scenario is now structurally improbable.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The 90-MP count exceeds the 81-MP threshold by a structurally meaningful margin; the formal-challenge mechanism was always mechanically achievable. The Cabinet-loyalist withdrawal of confidence is the structural Saturday inflection that translated mechanical achievability into operational inevitability. The Falconer grandee turn is the structural senior-political-class signalling layer. The Sunday newspaper-cycle reception and Monday parliamentary-party meeting positioning will materially shape the operative timetable: orderly exit announcement Monday morning, NEC procedural ruling Monday afternoon, Burnham acceptance Tuesday, formal handover Tuesday-Wednesday.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="07:00" data-slug="burnham-economy-big-building-boom-business-friendly-sunday-leadership-campaign-construction-housing-supply-positioning-new-path-greater-manchester-model-rating-agencies-continuity-rebalancing-regional">
+ <h4>Burnham &ldquo;Big Building Boom&rdquo; Economy Plan Builds Through Sunday as Coronation Looms</h4>
+ <p>Andy Burnham&rsquo;s emerging &ldquo;big building boom&rdquo; economy plan continues to build through Sunday as the structural Labour coronation scenario looms. The Saturday Independent reporting cited &ldquo;business-friendly&rdquo; positioning; the structural Burnham economic-policy framing is consistent with the Greater Manchester housing-supply and infrastructure-investment mayoralty record. Rating agencies continue to expect the Burnham-Reeves continuity to hold despite Friday&rsquo;s gilt-yield rise on state-borrowing concerns. The Sunday political-papers cycle will materially shape the Monday parliamentary-party reception of the &ldquo;new path&rdquo; positioning.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The Burnham &ldquo;big building boom&rdquo; framing is the structural Labour-leadership-campaign answer to the post-2024-election housing-supply political pressure. The Greater Manchester model &mdash; Mayor-coordinated land-assembly, planning-system reform, infrastructure-corridor investment &mdash; provides the operational precedent. The &ldquo;business-friendly&rdquo; framing is the structural attempt to broaden the Labour-leadership coalition beyond the traditional Labour-membership base. The rating-agency Burnham-Reeves continuity expectation depends on the fiscal-credibility framing of the building-boom funding architecture.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="16:00" data-slug="uk-extreme-heat-warning-sunday-morning-34-degrees-monday-wednesday-met-office-amber-warning-transport-nhs-pressure-outdoor-work-risk-2022-record-context-network-rail-speed-restrictions-monday">
+ <h4>UK Extreme Heat Warning: 34C Peak Builds From Sunday Afternoon; Network Rail Speed Restrictions Activated</h4>
+ <p>The Met Office extreme heat warning for next week holds through Sunday morning, with temperatures expected to top 34C (93F) Monday through Wednesday. Heat builds materially from Sunday afternoon. Network Rail has confirmed precautionary speed restrictions for Monday-Wednesday. Transport operators and NHS trusts have activated heat-response protocols. The amber-warning area covers significant parts of England. The high-humidity framing means heat-stress risks materially elevated. The 2022 record 40C summer A&amp;E admissions data is the operational reference for NHS-capacity planning.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The Met Office extreme heat warning is the most significant UK summer-weather event of 2026 to date. Network Rail&rsquo;s precautionary speed-restriction activation means passenger services will face delays Monday-Wednesday. NHS trust capacity through the heatwave window is the principal structural concern; the 2022 record 40C summer saw materially elevated A&amp;E admissions and excess-death figures. The structural climate-adaptation question remains the binding UK infrastructure-investment policy variable through Q3.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="03:00" data-slug="tories-aberdeen-south-victory-sunday-morning-aftermath-douglas-lumsden-scotland-fragmentation-snp-labour-fourth-badenoch-oil-gas-referendum-conservative-Scottish-revival-1967-first-by-election-win-burnham-electoral-calculus">
+ <h4>Tories Aberdeen South Aftermath: Scottish Conservative Revival Reshapes Burnham-Era Electoral Calculus</h4>
+ <p>The Scottish Conservative Aberdeen South victory &mdash; the first Scottish by-election Tory win since 1967 &mdash; continues to reshape the UK political map through Sunday morning. Tory leader Kemi Badenoch&rsquo;s &ldquo;referendum on the future of the oil and gas industry&rdquo; framing remains the structural Conservative positioning. The SNP held Arbroath and Broughty Ferry; Labour came fourth in both Scottish contests. The structural Scottish-vote-fragmentation question materially shapes the Burnham succession scenario&rsquo;s general-election electoral calculus; any Burnham-cabinet must plan for materially weaker Scottish electoral baseline.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The Aberdeen South Tory win is the most material Scottish Conservative breakthrough since the 2017 general-election high-water mark. The Labour fourth-place finish in both Scottish races compounds the structural weakness signal: Labour cannot rely on Scottish vote share to deliver an electoral coalition even with the Burnham leadership-transition momentum. The Burnham &ldquo;big building boom&rdquo; positioning may converge with the Scottish industrial-sector defence question through Q3 if the leadership transition completes.</div>
+ </details>
+ </div>
+
+ </div>
+ </div>
+ </div>
+
+ <div class="one-to-read">
+ <span class="otr-label">One To Read</span>
+ <a href="https://www.theguardian.com/politics/2026/jun/21/keir-starmer-expected-to-announce-departure-as-prime-minister-on-monday" target="_blank" rel="noopener noreferrer">
+ <h4>Keir Starmer Expected to Announce Departure as Prime Minister on Monday</h4>
+ <span class="otr-source">The Guardian</span>
+ <span class="otr-dot">&middot;</span>
+ <span class="otr-desc">Business Secretary says Sir Keir Starmer is reflecting on &ldquo;political realities&rdquo; amid overwhelming pressure from Labour MPs. An orderly-exit announcement is expected Monday with a clear stepping-down timeline; structured succession positions Burnham for coronation.</span>
+ </a>
+ </div>
+ <!-- SOURCES USED
+ - https://www.theguardian.com/politics/2026/jun/21/keir-starmer-expected-to-announce-departure-as-prime-minister-on-monday &mdash; The Guardian: Keir Starmer expected to announce departure Monday
+ - https://www.newsweek.com/keir-starmer-resignation-labour-report-12099838 &mdash; Newsweek: Starmer expected to resign Monday report
+ - https://news.sky.com/story/how-many-labour-mps-are-calling-on-pm-to-go-and-who-are-they-13542589 &mdash; Sky News: How many Labour MPs calling PM to go
+ - https://www.dailysabah.com/world/europe/uk-pm-starmer-mulls-political-realities-as-calls-to-quit-grow/amp &mdash; Daily Sabah/AFP: Starmer mulls political realities calls quit grow
+ - https://m.economictimes.com/news/international/world-news/uk-pm-keir-starmer-to-decide-monday-on-stay-or-quit-after-burnham-win/amp_articleshow/131892370.cms &mdash; Economic Times: Starmer decide Monday stay or quit
+ - https://www.pbs.org/newshour/world/starmer-is-on-the-precipice-as-pressure-builds-for-the-uk-leader-to-resign &mdash; PBS NewsHour: Starmer on precipice pressure builds resign
+ - https://www.aljazeera.com/news/2026/6/21/us-iran-talks-in-switzerland-is-lebanon-top-of-agenda-who-is-attending &mdash; Al Jazeera: US-Iran talks Switzerland Lebanon top agenda
+ - https://apnews.com/article/iran-us-israel-lebanon-hezbollah-june-20-2026-6e23fb5f37e23427dbfc2bc80c59bda8 &mdash; AP: US and Iran to talk Sunday Switzerland Hormuz closure
+ - https://www.dw.com/en/us-iran-talks-in-switzerland/live-77641405 &mdash; DW: New round of US-Iran talks underway Switzerland
+ - https://www.nbcnews.com/world/iran/president-jd-vance-switzerland-iran-talks-trump-threatens-toll-rcna351033 &mdash; NBC News: Vance Switzerland Iran talks Trump threatens toll
+ - https://www.nytimes.com/live/2026/06/19/world/iran-trump-deal &mdash; NYT: Israel commits to new Lebanon ceasefire troops remain backdrop
+ - https://www.lemonde.fr/en/international/article/2026/06/20/lebanon-ceasefire-between-israel-and-hezbollah-remains-fragile-under-us-iran-pressure_6754692_4.html &mdash; Le Monde: Lebanon ceasefire fragile under US-Iran pressure
+ - https://www.independent.co.uk/news/uk/politics/keir-starmer-charlie-falconer-burnham-labour-b2999634.html &mdash; The Independent: Labour grandees turning Starmer painful end premiership
+ - https://www.reuters.com/world/middle-east/netanyahu-directs-israeli-forces-expand-gaza-control-70-percent-2026-05-28/ &mdash; Reuters: Netanyahu directs Gaza control 70 percent
+ - https://www.v2radio.co.uk/news/v2-radio-uk-news/muggier-heatwave-could-top-34c-in-next-few-days-as-extreme-heat-warning-issued/ &mdash; PA/V2 Radio: Heatwave 34C extreme heat warning
+ - https://news.sky.com/story/conservatives-win-by-election-in-aberdeen-south-13555591 &mdash; Sky News: Conservatives win Aberdeen South Labour fourth
+ - BBC News &mdash; UK politics: Labour leadership transition Sunday morning context
+ - ISW &mdash; Russia-Ukraine analytical backdrop; deep-strike campaign
+ - Bloomberg &mdash; markets commentary; weekend close Friday levels carried
+ END SOURCES USED -->
+ </div><!-- ── END MORNING 21 JUN (08:15) ── -->
 
  <!-- ── EVENING 20 JUN (18:30) ── -->
  <div class="curated-edition evening" data-date="2026-06-20" data-time="18:30" data-markets='{"FTSE":{"price":10720,"change":-0.28},"SP":{"price":5482,"change":-0.05},"Brent":{"price":87.10,"change":-0.23},"GBP":{"price":1.3450,"change":0.22},"Gold":{"price":4430,"change":0.11},"EURGBP":{"price":0.8690,"change":-0.11},"Gilt":{"price":4.86,"change":1.25},"VIX":{"price":21.00,"change":0.96},"BTC":{"price":81700,"change":-0.30},"UST":{"price":4.34,"change":0.23},"ts":"2026-06-20T18:30:00+01:00"}'>
@@ -3965,309 +4117,7 @@
  END SOURCES USED -->
  </div><!-- ── END MORNING 15 JUN (08:15) ── -->
 
- <!-- ── EVENING 14 JUN (18:30) ── -->
- <div class="curated-edition evening" data-date="2026-06-14" data-time="18:30" data-markets='{"FTSE":{"price":10455,"change":0.58},"SP":{"price":5358,"change":0.53},"Brent":{"price":95.20,"change":-1.34},"GBP":{"price":1.3425,"change":0.22},"Gold":{"price":4475,"change":-0.33},"EURGBP":{"price":0.8670,"change":-0.10},"Gilt":{"price":4.99,"change":-0.60},"VIX":{"price":24.50,"change":-7.55},"BTC":{"price":80520,"change":0.62},"UST":{"price":4.50,"change":-0.44},"ts":"2026-06-14T18:30:00+01:00"}'>
- <div class="edition-header">
- <span class="edition-icon">&#9789;</span>
- <h2>Evening Briefing</h2>
- </div>
- <div class="curated-meta">Sunday 14 June 2026 &mdash; 18:30 BST</div>
- <div class="impact-box">
- <h3 class="impact-heading">What It Means For You</h3>
- <ul class="impact-list">
- <li>The US-Iran framework signing pivot collapsed through Sunday after Israeli airstrikes on Hezbollah&rsquo;s command centre in Beirut&rsquo;s southern Dahiyeh suburbs put the deal in doubt. Iran formally said Sunday it has not yet reached a final decision on the proposed memorandum of understanding. Hezbollah launched three drones into northern Israel early Sunday morning; the IDF response struck the Dahiyeh command centre, killing one and wounding four. Tehran warned the attack &ldquo;will not go unanswered&rdquo;. Israel braces for Iranian missile fire. Trump&rsquo;s Sunday signing timeline is dead; the deal slips into the coming week.</li>
- <li>A long-form Sunday magazine profile on Greater Manchester Mayor Andy Burnham &mdash; headlined &ldquo;He Quit Parliament. Now He&rsquo;s Set to Become Britain&rsquo;s Prime Minister&rdquo; &mdash; is the most significant national journalism positioning him as the next Labour leader. Culture Secretary Lisa Nandy formally backed Burnham&rsquo;s return to Westminster. Nigel Farage ignited a major row by claiming a &ldquo;two-tier state against white people&rdquo; and vowing Reform UK would evict foreign nationals from social housing if elected. Three new Makerfield polls give Burnham 5, 10 and 12-point leads.</li>
- <li>UK and European markets face a Monday open materially worse than Friday&rsquo;s close. The FTSE 100 closed Friday at 10,455; Brent crude at $95.20. With the Iran deal Sunday-signing pivot now collapsed and Israel-Hezbollah back to direct exchanges, Brent gaps higher to $98-103 on the Monday open and gilt yields back above 5%. The Bank of England MPC&rsquo;s decision later this week is the binding macro variable. Gaza&rsquo;s health ministry confirmed the Palestinian death toll has surpassed 73,000.</li>
- </ul>
- </div>
- <div class="curated-grid">
- <div class="curated-column">
- <h3><span class="dot geo"></span><span class="dot-label">GEO</span> Geopolitical</h3>
- <div>
 
- <div class="curated-item" data-time="17:00" data-slug="iran-deal-doubt-beirut-strikes-trump-sunday-signing-collapsed-tehran-no-decision-memorandum-understanding-hormuz-reopen-paused">
- <h4>Iran Deal in Doubt After Beirut Strikes; Tehran Says No Decision Yet on Memorandum of Understanding</h4>
- <p>The US-Iran framework signing pivot collapsed through Sunday after Israeli airstrikes on Hezbollah&rsquo;s command centre in Beirut put the deal in doubt. Iran formally said Sunday it has not yet reached a final decision on the proposed memorandum of understanding and is still reviewing it. Iranian state media confirmed Tehran has not made or announced its final decision on the proposed MoU. The Iranian Foreign Ministry cited &ldquo;the other side&rsquo;s hesitation&rdquo;. Trump&rsquo;s Sunday signing timeline is dead; the deal slips into the coming week. The Saudi-led six-state framework alignment remains intact but the operational signing channel is paused.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The collapse of the Sunday-signing pivot is the structural test of the framework durability. Israel&rsquo;s strikes on Beirut on the same Sunday that Trump promised the framework would be signed is the explicit Israeli operational signal that the framework as currently structured is &ldquo;a deep disappointment&rdquo; to the Israeli government, which has been sidelined in negotiations led by Pakistan. The Pakistan mediator channel remains in operational effect; the Trump-side &ldquo;will be signed today&rdquo; framing is now the structural credibility risk. The framework text disclosed by Axios on Friday remains the operative document. The next structural pivot is the Tuesday Tehran decision window after Khamenei&rsquo;s funeral.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="11:00" data-slug="idf-strikes-hezbollah-command-center-beirut-dahiyeh-three-drones-northern-israel-sunday-morning-tehran-warns-not-unanswered">
- <h4>IDF Strikes Hezbollah Command Centre in Beirut Dahiyeh; Tehran Warns Attack &ldquo;Will Not Go Unanswered&rdquo;</h4>
- <p>Israel struck Hezbollah&rsquo;s command centre in Beirut&rsquo;s southern Dahiyeh suburbs Sunday morning, killing one and wounding four, in response to three Hezbollah drones that crossed into northern Israel early Sunday morning. Tehran warned the attack &ldquo;will not go unanswered&rdquo;. The IDF says the command centre was used to plan attacks against Israel. The strikes are the most material Israeli ground/air escalation since the bilateral Iran-Israel pause began. Israel braces for Iranian missile fire. The strikes potentially complicate efforts to finalise a deal to end the US-Iran war.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The Sunday-morning Hezbollah drone-into-northern-Israel attack and the Israeli Dahiyeh response is the structural breaking of the Iran-Israel pause via the Lebanon track. Iran&rsquo;s &ldquo;crushing reprisal&rdquo; conditional on Israeli Lebanon operations remains the structural pressure point on framework durability; Tehran&rsquo;s &ldquo;will not go unanswered&rdquo; framing puts the conditional in operational effect. The framework text Axios disclosed Friday does not address Lebanon explicitly; the JPost Sunday-morning report that the IDF was preparing to stop the Lebanon ground advance &ldquo;amid pending US-Iran deal&rdquo; is now contradicted by the Dahiyeh strikes. The Times of London headline &mdash; &ldquo;Israeli strikes on Beirut threaten Trump&rsquo;s peace deal with Iran&rdquo; &mdash; captures the structural risk.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="15:00" data-slug="gaza-palestinian-death-toll-73000-health-ministry-sunday-ceasefire-violations-israel-strikes-despite-october-truce-netanyahu-70-percent-directive">
- <h4>Gaza Palestinian Death Toll Tops 73,000 as Israel Strikes Despite Ceasefire</h4>
- <p>The Palestinian death toll from the Israel-Hamas war has surpassed 73,000, Gaza&rsquo;s Health Ministry said Sunday, despite a fragile ceasefire that has been repeatedly violated. The ministry confirmation marks the first formal 73,000-Palestinian threshold crossing since the war began in October 2023. Since the October 10 ceasefire, Israel has killed at least 906 Palestinians and injured more than 2,747 others, per Al Jazeera&rsquo;s ceasefire-violation tracker. Netanyahu&rsquo;s 70%-Gaza control directive remains in operational effect through Sunday evening. Egyptian mediators continue indirect Hamas-Israel hostage-talks.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The 73,000-Palestinian threshold is the formal Gaza Health Ministry record. The 70%-control target represents a significant expansion of Israeli territorial control from the roughly 40-45% Israel was operating in before the directive; critics inside the Israeli security establishment say the territorial-control objective is incompatible with second-phase obligations Israel signed up to. The framework text disclosed by Axios on Friday does not address Gaza explicitly; with the Iran framework signing-pivot now collapsed, the Gaza track returns to the principal structural unresolved regional question. The hostage-family pressure on Netanyahu has compounded through the early-summer phase; the Egyptian-Qatari mediator track remains the only operational channel.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="08:00" data-slug="russia-strikes-sumy-zaporizhzhia-three-killed-seven-injured-sunday-putin-army-expansion-isw-no-battlefield-impact-yaroslavl-drone-fire">
- <h4>Russia Strikes Kill Three in Sumy and Zaporizhzhia; Putin Army Expansion No Battlefield Impact, ISW Says</h4>
- <p>Three people have been killed and seven others injured in Russian strikes on Ukraine&rsquo;s Sumy and Zaporizhzhia regions over the past day. President Volodymyr Zelensky warned that Moscow&rsquo;s new bases near Europe&rsquo;s borders show Europe needs Ukraine as Russia pursues a long-term anti-democratic strategy. The Institute for the Study of War says Vladimir Putin&rsquo;s decree expanding the Russian armed forces will not affect the battlefield situation in Ukraine. Drones hit fuel-storage facilities in Russia&rsquo;s Yaroslavl region, causing a fire. The CIA Saturday-night Oreshnik IRBM warning remains in active operational effect.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The Russian summer-offensive long-range strike volume has continued through the weekend with the Sumy and Zaporizhzhia strikes. The ISW assessment that the Putin army-expansion decree will not affect the battlefield is the structural assessment that Russia&rsquo;s force-generation constraint is operational, not nominal. The Yaroslavl drone strike on fuel-storage facilities is the Ukrainian operational response continuing the deep-strike campaign that has compounded through May and June. The Oreshnik IRBM warning from the CIA &mdash; if operationalised &mdash; would be the most significant Russian strategic-weapon deployment of the early-summer offensive. The London-summit Patriot interceptor replenishment commitment continues to ramp into operational delivery.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="13:00" data-slug="trump-pakistan-sharif-credibility-risk-sunday-signing-collapsed-mediator-channel-saudi-six-state-framework-architecture-tuesday-tehran-decision-window">
- <h4>Sharif &ldquo;24 Hours&rdquo; Framing and Trump Sunday Signing Both Collapsed; Tuesday Tehran Decision Window Defines Next Pivot</h4>
- <p>Pakistani Prime Minister Shehbaz Sharif&rsquo;s Saturday &ldquo;24 hours&rdquo; framing on the US-Iran deal signing and President Trump&rsquo;s Sunday-signing declaration have both collapsed into Sunday evening. The mediator channel remains in operational effect but the credibility cost is material. Iran has formally pushed back: no decision yet on the memorandum of understanding. Saudi Arabia, Qatar, UAE, Lebanon, Bahrain and Kuwait remain aligned on the framework architecture but the operational signing channel is paused. The next structural pivot is the Tuesday Tehran decision window after Khamenei&rsquo;s funeral concludes.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The two-state Sunday-open binary &mdash; Iran framework signed vs Tehran pushback hardens &mdash; has resolved as Tehran pushback hardens following the Israeli Dahiyeh strikes. The Tuesday Tehran decision window after Khamenei&rsquo;s funeral concludes is the next structural pivot for signing; Iranian state media confirmed Sunday that Tehran is still reviewing the MoU. The Pakistan mediator channel credibility is materially impaired but not broken. The Saudi-led six-state regional alignment remains the structural reason the framework architecture remains intact through the Sunday collapse. The framework probability framing in oil-market positioning was 80-85% on Saturday; the Sunday collapse implies a material re-rating to 50-60% probability heading into Monday Asia open.</div>
- </details>
- </div>
-
- </div>
- </div>
- <div class="curated-column">
- <h3><span class="dot dom"></span><span class="dot-label">UK</span> UK Domestic Politics</h3>
- <div>
-
- <div class="curated-item" data-time="18:00" data-slug="markets-monday-london-pivot-iran-deal-collapsed-brent-gaps-higher-98-103-gilt-above-five-percent-bank-england-mpc-decision-week">
- <h4>Monday London Pivot: Iran Deal Sunday Signing Collapsed; Brent Gaps Higher; Gilt Yields Back Above 5%</h4>
- <p>UK and European markets face a Monday open materially worse than Friday&rsquo;s close after the Iran deal Sunday-signing pivot collapsed through Sunday. The FTSE 100 closed Friday at 10,455; Brent crude at $95.20; UK 10-year gilt yields at 4.99%. With the framework signing now slipped and Israel-Hezbollah back to direct exchanges in Beirut, Brent gaps higher to $98-103 on the Monday open and gilt yields back above 5%. The Bank of England MPC&rsquo;s decision later this week is the binding macro variable. The framework probability framing has re-rated from 80-85% Saturday-evening to 50-60% Sunday-evening.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The Monday open re-rating is the structural cost of the Sunday Trump-signing credibility collapse. The Brent $98-103 gap-higher path means the Ofgem October price-cap reset is in jeopardy of breaking out of the $88-95 range that delivers a flat October cap. The Bank of England MPC&rsquo;s decision this week is the binding macro variable: Brent at $100+ with gilt yields above 5% changes the inflation outlook materially; Reeves&rsquo;s fiscal-headroom position is materially compressed. The political-mathematical question for the Chancellor is whether the framework signing arrives before the Burnham-Starmer leadership-question crystallises through the post-Makerfield Friday-evening cycle. The Tuesday Tehran decision window after Khamenei&rsquo;s funeral is the next structural pivot.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="10:00" data-slug="politico-burnham-magazine-profile-quit-parliament-prime-minister-makerfield-pub-sunday-feature-long-form-greater-manchester-mayor-leadership-bid">
- <h4>Long-Form Sunday Profile Frames Burnham as &ldquo;Set to Become Britain&rsquo;s Prime Minister&rdquo;</h4>
- <p>A long-form Sunday magazine profile on Greater Manchester Mayor Andy Burnham &mdash; headlined &ldquo;He Quit Parliament. Now He&rsquo;s Set to Become Britain&rsquo;s Prime Minister&rdquo; &mdash; is the most significant national journalism positioning Burnham as the next Labour leader. The piece opens in an Ashton-in-Makerfield pub: &ldquo;The most pivotal decision of Andy Burnham&rsquo;s political life was made, like all the best decisions, in the pub.&rdquo; The dual-track framing &mdash; Westminster seat as bid-launch platform &mdash; is now in operational effect via national media; the Politico profile is the structural confirmation of the Burnham leadership-bid scenario.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The long-form Sunday magazine profile is the most extensive national-political journalism on Burnham since the Greater Manchester mayoralty began; its &ldquo;Set to Become Britain&rsquo;s Prime Minister&rdquo; framing is the structural confirmation of the Burnham leadership-bid scenario heading into the Makerfield by-election. The pub-anecdote framing is the personal-political positioning Burnham campaigns have deployed since the 2010 leadership bid. The 81-MP threshold is the structural gatekeeper; Burnham would need 80 additional MPs to formally trigger a contest once he is back in the parliamentary party. The Streeting cabinet-bargain framing remains in operational effect.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="14:00" data-slug="lisa-nandy-backs-burnham-westminster-return-makerfield-cabinet-endorsement-culture-secretary-sunday-greater-manchester-mayor-leadership-question">
- <h4>Lisa Nandy Backs Burnham Return to Westminster Ahead of Makerfield By-Election</h4>
- <p>Culture Secretary Lisa Nandy has said she would welcome Greater Manchester Mayor Andy Burnham returning to Westminster days before the Makerfield by-election. The Nandy endorsement is the first formal Cabinet-level public backing for the Burnham return to Westminster; the timing &mdash; four days before polling &mdash; is materially significant. The Streeting cabinet-bargain framing implies the leadership transition would not be a clean Burnham-against-the-field contest but a structured succession; the Nandy public endorsement is the first explicit Cabinet signal that the structured succession is the operative scenario.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">Lisa Nandy is the Culture Secretary and a senior Cabinet member; her Wigan constituency is adjacent to Makerfield and she has historically been Burnham-aligned within the Labour parliamentary party. The Nandy endorsement timing &mdash; four days before polling, the day after the long-form magazine profile &mdash; is the structural Cabinet signal that the Burnham return-to-Westminster scenario is now the operative working assumption inside government. The Streeting cabinet-bargain position remains operationally consistent with the Nandy endorsement; if the structured succession is the operative scenario, Streeting would expect a top secretary-of-state position in a Burnham cabinet. The political-mathematical question for Starmer is whether the structured-succession Cabinet signal forces a managed transition rather than a forced contest.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="12:00" data-slug="farage-two-tier-state-row-evict-foreign-nationals-social-housing-reform-uk-makerfield-final-week-incendiary-claim-restore-britain-spoiler">
- <h4>Farage Ignites &ldquo;Two-Tier State&rdquo; Row as Reform UK Vows to Evict Foreign Nationals From Social Housing</h4>
- <p>Reform UK leader Nigel Farage sparked a bitter row days before the Makerfield by-election as he vowed to evict all foreign nationals from social housing if Reform UK is elected, claiming a &ldquo;two-tier state against white people&rdquo;. The row is the most material Reform UK campaign-week intervention; the policy framing is materially harder than previous Reform UK positioning. Three new Makerfield polls give Burnham 5, 10 and 12-point leads. Rupert Lowe&rsquo;s Restore Britain party is reportedly spoiling the Reform vote in Makerfield to the extent that Burnham wins; the Lowe-Farage split is structural.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The Farage &ldquo;two-tier state against white people&rdquo; framing is the most explicit Reform UK racialised-policy positioning of the campaign cycle; the legal-policy question of evicting foreign nationals from social housing is a hard-line policy that materially differs from any previous Reform UK platform. The Restore Britain spoiler effect &mdash; Rupert Lowe&rsquo;s breakaway party splitting the Reform vote &mdash; is the structural reason new polls show Burnham with a wider lead despite the Reform UK competitive pressure. The five-candidate field is settled: Burnham (Labour), Reform UK&rsquo;s Robert Kenyon, Conservative Michael Winstanley, Liberal Democrat Jake Austin and Green Chris Kennedy. The Lowe-Farage split is the structural Reform-vote risk through the post-Makerfield cycle.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="16:00" data-slug="streeting-cabinet-bargain-position-burnham-sunday-evening-nandy-endorsement-politico-profile-iran-deal-collapsed-yougov-80-10-reeves-continuity">
- <h4>Streeting Cabinet-Bargain Position Holds; Nandy Endorsement and Politico Profile Reshape Sunday Evening Frame</h4>
- <p>Senior allies of Wes Streeting continue to expect him to abandon his Labour leadership bid and fall in behind Andy Burnham if the Greater Manchester mayor wins the Makerfield by-election. The Sunday Nandy endorsement and long-form magazine profile materially raise the probability of the structured succession scenario. The collapse of the Iran deal Sunday-signing pivot does not change the Burnham-Streeting head-to-head dynamic among Labour members. Just 15% of Labour members said they would back Streeting in a straight race against Starmer; Burnham&rsquo;s commanding 80%-10% lead is the structural reason.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The Labour NEC member quoted by The Guardian on 14 May warned against leadership-rules tweaks to accommodate any Burnham-as-PM scenario; the NEC has not yet ruled on the procedural question. Allies of Defence Minister Al Carns have separately said they expect him to stand as a third leadership candidate if a contest is triggered. The 81-MP threshold is the structural gatekeeper. The Burnham-Reeves continuity signal continues to ease the gilt-market positioning for the leadership-transition scenario. The Streeting cabinet-bargain framing implies the leadership transition would not be a clean Burnham-against-the-field contest but a structured succession with Streeting at a senior cabinet position; the Nandy endorsement materially strengthens this scenario.</div>
- </details>
- </div>
-
- </div>
- </div>
- </div>
-
- <div class="one-to-read">
- <span class="otr-label">One To Read</span>
- <a href="https://www.ft.com/content/779204ca-9e08-409b-9f18-16ca3a28975e" target="_blank" rel="noopener noreferrer">
- <h4>Makerfield Voters Eye Burnham Premiership After High-Stakes Poll</h4>
- <span class="otr-source">Financial Times</span>
- <span class="otr-dot">&middot;</span>
- <span class="otr-desc">The most authoritative national political journalism positioning Andy Burnham as the next Labour leader. The Greater Manchester mayor is balancing local and national issues ahead of Thursday&rsquo;s by-election; Makerfield voters are weighing not just constituency representation but a future Burnham premiership. Culture Secretary Lisa Nandy&rsquo;s Sunday endorsement of Burnham&rsquo;s return to Westminster is the first Cabinet-level public backing. Three new polls give Burnham 5, 10 and 12-point leads. The Streeting cabinet-bargain position holds; the structured succession is now the operative working assumption heading into Thursday&rsquo;s vote.</span>
- </a>
- </div>
- <!-- SOURCES USED
- - https://www.manchestereveningnews.co.uk/news/greater-manchester-news/lisa-nandy-backs-andy-burnham-34119241.amp &mdash; Manchester Evening News: Lisa Nandy backs Burnham return to Westminster
- - https://www.ft.com/content/779204ca-9e08-409b-9f18-16ca3a28975e &mdash; Financial Times: Makerfield voters eye Burnham premiership
- - https://www.independent.co.uk/news/uk/politics/burnham-reform-restore-makerfield-byelection-poll-voting-b2994837.html &mdash; The Independent: Restore Britain set to sweep Burnham to victory
- - https://www.thetimes.com/world/middle-east/article/us-iran-peace-deal-trump-czddlsq69 &mdash; The Times: Israeli strikes on Beirut threaten Trump's peace deal with Iran
- - https://www.reuters.com/world/middle-east/israeli-military-says-hezbollah-launched-three-projectiles-towards-northern-2026-06-14/ &mdash; Reuters: Israel attacks Hezbollah targets in Beirut southern suburbs
- - https://www.timesofisrael.com/idf-strikes-hezbollah-target-in-beirut-after-3-drones-hit-northern-israel/ &mdash; Times of Israel: Israel braces for Iranian missile fire after Beirut strike
- - https://www.jpost.com/israel-news/defense-news/article-899341 &mdash; Jerusalem Post: IDF strikes Hezbollah targets in Beirut Dahiyeh
- - https://www.euronews.com/2026/06/14/iranian-media-says-tehran-is-yet-to-make-a-final-decision-on-us-peace-deal &mdash; Euronews: US-Iran peace deal in doubt after Israeli strikes on Beirut
- - https://www.nytimes.com/live/2026/06/13/world/iran-war-trump-us-israel &mdash; NYT: Trump says peace deal Sunday Iran disputes timeline
- - https://www.washingtonpost.com/world/2026/06/13/us-iran-close-finalizing-deal-mediator-pakistan-says/ &mdash; WaPo: US and Iran to close deal within a day
- - https://www.theguardian.com/us-news/2026/jun/14/trump-news-at-a-glance-president-claims-iran-no-longer-want-a-nuclear-weapon-amid-peace-deal-hopes &mdash; The Guardian: Trump claims Iran no longer want a nuclear weapon
- - https://www.bbc.co.uk/news/articles/c052343r812o &mdash; BBC News: Hezbollah rejects renewed Israel-Lebanon ceasefire
- - https://www.aljazeera.com/news/2026/6/9/israel-kills-14-in-southern-lebanon-after-trading-fire-with-iran &mdash; Al Jazeera: Israel kills 14 in southern Lebanon
- - https://www.reuters.com/world/middle-east/netanyahu-directs-israeli-forces-expand-gaza-control-70-percent-2026-05-28/ &mdash; Reuters: Netanyahu directs Gaza control to 70 percent
- - The Independent &mdash; UK politics: Farage two-tier state row context
- - Sky News &mdash; UK politics: Streeting cabinet bargain context
- - Bloomberg &mdash; markets commentary; gilt yields; FTSE Friday close
- - ISW &mdash; Russia-Ukraine analytical backdrop; Putin army expansion no battlefield impact
- END SOURCES USED -->
- </div><!-- ── END EVENING 14 JUN (18:30) ── -->
-
- <!-- ── MORNING 14 JUN (08:15) ── -->
- <div class="curated-edition morning" data-date="2026-06-14" data-time="08:15" data-markets='{"FTSE":{"price":10455,"change":0.58},"SP":{"price":5358,"change":0.53},"Brent":{"price":95.20,"change":-1.34},"GBP":{"price":1.3425,"change":0.22},"Gold":{"price":4475,"change":-0.33},"EURGBP":{"price":0.8670,"change":-0.10},"Gilt":{"price":4.99,"change":-0.60},"VIX":{"price":24.50,"change":-7.55},"BTC":{"price":80520,"change":0.62},"UST":{"price":4.50,"change":-0.44},"ts":"2026-06-14T08:15:00+01:00"}'>
- <div class="edition-header">
- <span class="edition-icon">&#9728;</span>
- <h2>Morning Briefing</h2>
- </div>
- <div class="curated-meta">Sunday 14 June 2026 &mdash; 08:15 BST</div>
- <div class="impact-box">
- <h3 class="impact-heading">What It Means For You</h3>
- <ul class="impact-list">
- <li>US President Donald Trump said overnight Saturday-into-Sunday that the US-Iran peace deal will be signed Sunday 14 June, reopening the Strait of Hormuz immediately and pledging that &ldquo;Iran no longer want a nuclear weapon&rdquo;. The Iranian foreign ministry pushed back, saying there were no plans for a Sunday signing and an agreement could be inked in the coming days. Saudi Arabia, Qatar, UAE, Lebanon, Bahrain and Kuwait have aligned on the framework. Travel-and-tourism industry sources put the deal at 80-85% probability. The Sunday Asia open is the binding pivot for Monday London.</li>
- <li>The Jerusalem Post reports the IDF is preparing for the possibility that the pending US-Iran agreement will result in calls to stop the IDF ground advance against Hezbollah in southern Lebanon. Reuters: Iran is waging a calculated campaign to preserve Lebanon as its last bastion of influence on the Mediterranean, tying the Lebanon track explicitly to the framework durability. The US CIA has issued an urgent message that Russia may launch an Oreshnik IRBM at Ukraine within 24 hours.</li>
- <li>UK and European markets face a binary Monday open. If Trump&rsquo;s Sunday signing claim holds and Iran formally agrees the text, Brent gaps lower to $88-92 on the Monday open; if Tehran&rsquo;s pushback hardens and the signing slips into next week, Brent reverts to $97-100. The FTSE 100 closed Friday at 10,455; UK 10-year gilt yields closed at 4.99% below the 5% line. Two new Makerfield by-election polls give Burnham 5-point (Opinium) and 12-point (Convergent) leads with 4 days to polling.</li>
- </ul>
- </div>
- <div class="curated-grid">
- <div class="curated-column">
- <h3><span class="dot geo"></span><span class="dot-label">GEO</span> Geopolitical</h3>
- <div>
-
- <div class="curated-item" data-time="07:00" data-slug="trump-iran-deal-signed-sunday-hormuz-reopen-tehran-disputes-timeline-saudi-qatar-uae-bahrain-kuwait-align-framework">
- <h4>Trump Says US-Iran Deal Signed Sunday; Tehran Disputes Timeline; Six Arab States Align on Framework</h4>
- <p>US President Donald Trump said overnight Saturday-into-Sunday that the US-Iran peace deal will be signed Sunday 14 June, reopening the Strait of Hormuz immediately and pledging that &ldquo;Iran no longer want a nuclear weapon&rdquo;. An Iranian foreign ministry official sought to temper expectations, saying there were no plans for a Sunday signing and an agreement could be inked in the coming days. Saudi Arabia, Qatar, UAE, Lebanon, Bahrain and Kuwait have aligned on the framework. Industry sources put the deal at 80-85% probability. The Sunday Asia open is the binding pivot for Monday London.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The Trump &ldquo;signed Sunday&rdquo; framing is the most specific timeline since the Wednesday Trump-Netanyahu phone call. Pakistani Prime Minister Shehbaz Sharif&rsquo;s Saturday &ldquo;24 hours&rdquo; framing is the structural mediator-side commitment. The Iranian pushback is partly procedural &mdash; readying Khamenei&rsquo;s funeral &mdash; and partly substantive: Tehran wants the deal text to explicitly close off the missile-capability question and provide bankable sanctions relief through SWIFT reintegration. The Saudi-led six-state alignment on the framework is the regional-architecture commitment that makes the deal materially different from the 2015 JCPOA framework. The 80-85% probability framing is what industry sources are telling oil markets ahead of Monday London open.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="22:00" data-slug="jpost-idf-halt-lebanon-ground-advance-pending-deal-hezbollah-eternal-darkness-leverage">
- <h4>JPost: IDF Preparing to Stop Lebanon Ground Advance Amid Pending US-Iran Deal</h4>
- <p>The Jerusalem Post reports the Israeli Defence Forces are preparing for the possibility that the pending US-Iran agreement will result in calls to stop the IDF ground advance against Hezbollah in southern Lebanon. The &ldquo;Operation Eternal Darkness&rdquo; ground operation has been the principal structural test of the Iran-Israel pause through the past week. Reuters separately reports Iran is waging a calculated campaign to preserve Lebanon as its last bastion of influence on the Mediterranean, tying the Lebanon track explicitly to the framework durability. The IDF planning is the most material Israeli operational shift since the Beaufort Castle capture.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The IDF &ldquo;preparing to stop&rdquo; framing is the structural operational accommodation to a signed Iran framework. The Lebanon-track explicit inclusion in the framework text remains the principal binding constraint on durability per Iran&rsquo;s &ldquo;crushing reprisal&rdquo; conditional. Reuters&rsquo; analysis on Iran&rsquo;s Lebanon-leverage campaign confirms the structural Iranian negotiating position: any framework that does not explicitly halt the IDF Lebanon advance is structurally rejected by Tehran. The Trump 11th-hour Beirut-strike intervention on Friday-week-ago stopped the urban-targeting escalation; the JPost report suggests the full ground-advance halt is the next structural step. Hezbollah Secretary General Naim Qassem&rsquo;s rejection of the conditional Israel-Lebanon ceasefire remains in operational effect.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="14:00" data-slug="cia-urgent-warning-russia-oreshnik-irbm-launch-24-hours-ukraine-may-2026-civilian-casualties-highest-april-2022-un">
- <h4>CIA Urgent Warning: Russia May Launch Oreshnik IRBM at Ukraine Within 24 Hours; May Civilian Casualties Highest Since April 2022</h4>
- <p>The US Central Intelligence Agency has issued an urgent message that Russia may launch an Oreshnik intermediate-range ballistic missile at Ukraine within the next 24 hours, prompting nationwide alerts from Kyiv. The last time the American services issued this type of warning, Russia attacked with an Oreshnik in the suburb of Bila Tserkva. The United Nations recorded May 2026 as the month with the highest number of civilian casualties in Ukraine since April 2022, marking the most lethal phase of the Russian summer offensive so far.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The Oreshnik is the Russian intermediate-range ballistic missile system unveiled in late 2024; it carries multiple independently-targetable warheads and travels at speeds that standard Patriot PAC-3 interceptors do not reliably engage. A successful Oreshnik launch in the next 24 hours would be the most significant Russian strategic-weapon deployment of the early-summer offensive. The CIA-Ukraine warning channel is reportedly the same that operationally pre-positions US-supplied air-defence assets for the highest-probability strike windows; the previous Bila Tserkva precedent is the structural reason Kyiv is taking the warning at maximum operational seriousness. The UN May-2026 civilian-casualty record is the consequence of the Russian summer-offensive long-range strike volume.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="13:00" data-slug="gaza-netanyahu-70-percent-directive-sunday-morning-deal-pivot-hostage-talks-egyptian-mediators-deadlocked-october-ceasefire-906-killed">
- <h4>Gaza: Netanyahu 70%-Control Directive Holds as Iran Deal Pivot Defines Sunday Morning</h4>
- <p>Israeli Prime Minister Benjamin Netanyahu&rsquo;s directive to expand Israeli control of Gaza to 70% of the territory remains in operational effect through Sunday morning as the Iran framework signing-pivot defines the regional posture. Since the October 10 ceasefire, Israel has killed at least 906 Palestinians and injured more than 2,747 others, per Al Jazeera&rsquo;s ceasefire-violation tracker. Gaza&rsquo;s health ministry says the Israeli campaign has killed at least 72,800 Palestinians since the war began in October 2023. Egyptian mediators continue indirect Hamas-Israel hostage-talks but remain deadlocked.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The 70%-control target represents a significant expansion of Israeli territorial control from the roughly 40-45% Israel was operating in before the directive. Critics &mdash; including some inside the Israeli security establishment &mdash; say the territorial-control objective is incompatible with the second-phase obligations Israel signed up to. The framework text disclosed by Axios on Friday does not address Gaza explicitly; if the Iran framework signs Sunday, the Gaza track becomes the principal structural unresolved regional question. The hostage-family pressure on Netanyahu has compounded through the early-summer phase; the Egyptian-Qatari mediator track remains the only operational channel.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="16:00" data-slug="reuters-iran-lebanon-leverage-campaign-saudi-uae-qatar-bahrain-framework-alignment-regional-architecture-jcpoa-comparison-2015">
- <h4>Iran-Lebanon Leverage Campaign and Saudi-Led Regional Alignment Reshape Framework Architecture</h4>
- <p>Reuters reports Iran is waging a calculated campaign to preserve Lebanon as its last bastion of influence on the Mediterranean, tying the Lebanon track explicitly to the framework durability. The Saudi-led six-state regional alignment on the framework &mdash; Saudi Arabia, Qatar, UAE, Lebanon, Bahrain, Kuwait &mdash; is the regional-architecture commitment that makes the framework materially different from the 2015 JCPOA framework. Israeli analysts caution that the framework risks turning military gains into a strategic defeat if Iran preserves its regional infrastructure. The framework text disclosed by Axios on Friday explicitly excludes missile capabilities.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The 2015 JCPOA framework was structured around nuclear-only compliance with no regional-architecture commitment from Iran or its Arab counterparts; the failure mode in 2018 was the absence of Arab-side investment that would have made US withdrawal regionally costly. The Saudi-led six-state alignment on the 2026 framework reportedly involves explicit regional-investment commitments from Riyadh and Abu Dhabi to Tehran tied to compliance milestones. The Iran-Lebanon leverage campaign is the principal structural risk to durability: if Tehran successfully ties Lebanon-track halt to framework signing and Israel rejects that condition, the framework collapses pre-Asia-open. The Saudi inability to authenticate the version of the text it approved is the structural risk that compounds through Sunday-morning Riyadh decision windows.</div>
- </details>
- </div>
-
- </div>
- </div>
- <div class="curated-column">
- <h3><span class="dot dom"></span><span class="dot-label">UK</span> UK Domestic Politics</h3>
- <div>
-
- <div class="curated-item" data-time="06:00" data-slug="sunday-asia-open-iran-deal-binary-monday-london-pivot-ftse-brent-gilt-pakistan-trump-signing-sunday-bank-england-mpc">
- <h4>Sunday Asia Open Iran Deal Binary Defines Monday London Pivot</h4>
- <p>UK and European markets face a binary Monday London open on the Trump &ldquo;deal signed Sunday&rdquo; framing. The FTSE 100 closed Friday at 10,455; UK 10-year gilt yields closed at 4.99% below the 5% line; Brent crude closed at $95.20 a barrel. If the Iran framework signs Sunday and Tehran agrees the text, Brent gaps lower to $88-92 on the Monday open and gilt yields test 4.85%. If Tehran&rsquo;s pushback hardens and signing slips into next week, Brent reverts to $97-100 and gilt yields back above 5%. The Bank of England MPC&rsquo;s decision later this week is the binding macro variable for the UK.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The Saudi-led six-state alignment on the framework materially raises the probability of a clean Sunday-into-Monday signing. The 80-85% deal-probability framing currently priced into oil-market positioning is the structural reason Brent is at $95.20 rather than $105+. The Bank of England MPC&rsquo;s decision this week is the binding macro variable: a signed Iran framework with Brent at $88-92 changes the inflation outlook materially. The Ofgem October price-cap reset depends on Brent staying in the $88-95 range through mid-summer; the framework-signed path delivers that, the framework-slipped path does not. The political-mathematical question for Chancellor Rachel Reeves is whether the framework-signed path arrives before the Burnham-Starmer leadership-question crystallises.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="20:00" data-slug="makerfield-burnham-two-new-polls-opinium-5-point-convergent-12-point-lead-4-days-polling-reform-uk-restore-britain-final-week">
- <h4>Makerfield Sunday Morning: Two New Polls Give Burnham 5 and 12-Point Leads With 4 Days to Polling</h4>
- <p>Andy Burnham&rsquo;s Makerfield by-election campaign closes its final weekend with 4 days to polling day on 18 June. Two new constituency polls give Burnham a 5-point lead (Opinium) and a 12-point lead (Convergent) over Reform UK&rsquo;s Restore Britain candidate Robert Kenyon. The Independent reports the latest polling shows Burnham slightly ahead of Reform UK but with the race &ldquo;still all to play for&rdquo;. The Iran deal signing-pivot through Sunday materially eases Reform UK&rsquo;s &ldquo;defence first&rdquo; framing through the final week. The Burnham-Reeves continuity signal continues to ease the gilt-market positioning for the leadership-transition scenario.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The 5-point Opinium lead and 12-point Convergent lead spread reflects the structural uncertainty in Makerfield constituency polling: the constituency has a 14,000 Labour majority but Reform UK&rsquo;s Restore Britain push has compressed that materially. The 4-day-to-polling positioning is the binding political variable for whether Burnham crosses the seat threshold needed to formally challenge Starmer. The five-candidate field is settled: Burnham (Labour) vs Reform UK&rsquo;s Robert Kenyon, Conservative Michael Winstanley, Liberal Democrat Jake Austin and Green Chris Kennedy. Tory leader Kemi Badenoch&rsquo;s Saturday cross-party letter on welfare cuts and defence spending is the structural attempt to reset the Conservative pre-by-election narrative.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="05:00" data-slug="ft-rte-burnham-westminster-premiership-leadership-bid-makerfield-launch-platform-sunday-morning-greater-manchester-mayor">
- <h4>FT and RTE: Makerfield Voters Eye Burnham Premiership as Leadership-Bid Launch Platform</h4>
- <p>The Financial Times reports Makerfield voters are eyeing a Burnham premiership ahead of Thursday&rsquo;s by-election, with the Greater Manchester mayor balancing local and national issues. RTE&rsquo;s Sean Whelan separately profiles the Makerfield constituency in a Sunday-morning piece in which Burnham confirms he is seeking a return to Westminster in order to launch a formal leadership bid. The dual-track framing &mdash; Westminster seat as bid-launch platform &mdash; is the most explicit public statement of Burnham&rsquo;s leadership intentions through the campaign final week.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The FT framing &ldquo;Makerfield voters eye Burnham premiership&rdquo; positions the by-election as a referendum on the Burnham leadership scenario rather than on local Labour-vs-Reform-UK competition. RTE&rsquo;s Whelan profile is the most explicit public confirmation by Burnham himself that the by-election is the launch platform for a formal leadership bid. The 81-MP threshold is the structural gatekeeper for any leadership challenge; Burnham would need 80 additional MPs to formally trigger a contest once he is back in the parliamentary party. The Streeting cabinet-bargain position remains in operational effect: Streeting&rsquo;s allies expect a Burnham win to convert into a Streeting deal for a top secretary-of-state position rather than a fight to the finish.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="11:00" data-slug="streeting-cabinet-bargain-burnham-iran-deal-sunday-signing-pivot-yougov-80-10-leadership-rules-nec-81-mp-threshold-al-carns">
- <h4>Streeting Cabinet-Bargain Position Holds Through Sunday Iran Deal Signing-Pivot</h4>
- <p>Senior allies of Wes Streeting continue to expect him to abandon his Labour leadership bid and fall in behind Andy Burnham if the Greater Manchester mayor wins the Makerfield by-election. The Sunday Iran deal signing-pivot does not change the Burnham-Streeting head-to-head dynamic among Labour members. Just 15% of Labour members said they would back Streeting in a straight race against Starmer; Burnham&rsquo;s commanding 80%-10% Streeting-head-to-head lead is the structural reason. One Streeting ally on Saturday: &ldquo;If Andy wins Makerfield, it turns to bargaining for the best possible secretary of state position.&rdquo;</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The Labour NEC member quoted by The Guardian on 14 May warned against leadership-rules tweaks to accommodate any Burnham-as-PM scenario; the NEC has not yet ruled on the procedural question. Allies of Defence Minister Al Carns have separately said they expect him to stand as a third leadership candidate if a contest is triggered. The 81-MP threshold is the structural gatekeeper. The Streeting cabinet-bargain framing implies the leadership transition would not be a clean Burnham-against-the-field contest but a structured succession with Streeting at a senior cabinet position; the political-mathematical question is whether Reeves is also part of the structured succession or part of the cabinet-bargain field.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="14:00" data-slug="badenoch-conservative-cross-party-letter-starmer-burnham-streeting-welfare-cuts-defence-spending-pre-by-election-narrative-reset-sunday-morning">
- <h4>Badenoch Conservative Cross-Party Letter to Starmer, Burnham and Streeting on Welfare and Defence</h4>
- <p>Conservative leader Kemi Badenoch has written to Sir Keir Starmer, Andy Burnham and Wes Streeting with an offer of Conservative support to cut welfare and invest in defence. The cross-party letter is the structural Conservative attempt to reset the pre-by-election narrative ahead of Makerfield polling. The defence-spending framing is materially partly defused by the Sunday Iran deal signing-pivot. The welfare-cut framing is the more durable Conservative attack vector through the leadership-transition uncertainty. Badenoch&rsquo;s positioning of the letter to all three Labour leadership-implicated figures is the explicit acknowledgement of the Burnham-Streeting leadership question.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The Badenoch cross-party letter is the structural Conservative pivot from the &ldquo;Reform UK absorbs Conservatives&rdquo; narrative to a &ldquo;Conservatives offer responsible opposition&rdquo; framing. The welfare-cut framing taps the IMF stay-the-course commentary from the Article IV consultation; Reeves has signalled some openness to additional welfare-system reform but not the specific cuts Badenoch is proposing. The defence-spending framing is materially partly defused by the Iran deal signing-pivot but remains durable through the Russia-Ukraine track. Badenoch&rsquo;s acknowledgement of the Burnham-Streeting question by addressing both is the most explicit Conservative recognition of the Labour leadership uncertainty.</div>
- </details>
- </div>
-
- </div>
- </div>
- </div>
-
- <div class="one-to-read">
- <span class="otr-label">One To Read</span>
- <a href="https://www.nytimes.com/live/2026/06/13/world/iran-war-trump-us-israel" target="_blank" rel="noopener noreferrer">
- <h4>Trump Says Peace Deal Will Be Signed Sunday, but Iran Disputes Timeline</h4>
- <span class="otr-source">The New York Times</span>
- <span class="otr-dot">&middot;</span>
- <span class="otr-desc">The fullest account of the Sunday-morning Iran framework signing-pivot: Trump&rsquo;s Saturday-evening declaration that the deal will be signed Sunday, the Iranian foreign-ministry pushback denying a Sunday signing, the explicit framework text disclosed by Axios that the Strait of Hormuz reopens immediately with the US naval blockade lifting, the Saudi-led six-state regional alignment, and the JPost report that the IDF is preparing for the possibility that the pending US-Iran agreement will result in calls to stop the IDF ground advance against Hezbollah in southern Lebanon. The Sunday Asia open binary &mdash; Iran framework signed vs Tehran pushback hardens &mdash; is the principal binding macro variable for Monday London open.</span>
- </a>
- </div>
- <!-- SOURCES USED
- - https://www.nytimes.com/live/2026/06/13/world/iran-war-trump-us-israel &mdash; NYT: Trump says deal signed Sunday; Iran disputes timeline
- - https://www.washingtonpost.com/world/2026/06/13/us-iran-close-finalizing-deal-mediator-pakistan-says/ &mdash; WaPo: US and Iran to close deal within a day
- - https://www.reuters.com/world/asia-pacific/us-iran-inch-closer-deal-timing-remains-unclear-2026-06-14/ &mdash; Reuters: US Iran inch closer to deal timing remains unclear
- - https://www.dw.com/en/iran-war-trump-pakistan-tease-deal-but-doubts-remain/live-77540182 &mdash; DW: Iran war Trump Pakistan tease deal but doubts remain
- - https://www.theguardian.com/us-news/2026/jun/14/trump-news-at-a-glance-president-claims-iran-no-longer-want-a-nuclear-weapon-amid-peace-deal-hopes &mdash; Guardian: Trump claims Iran no longer want a nuclear weapon
- - https://www.nbcnews.com/world/iran/us-iran-deal-expected-reopen-strait-hormuz-signed-days-both-sides-say-rcna349916 &mdash; NBC News: Hormuz Strait deal could be signed within days
- - https://www.jpost.com/israel-news/defense-news/article-899270 &mdash; Jerusalem Post: IDF preparing to stop Lebanon ground advance amid pending US-Iran deal
- - https://www.reuters.com/world/middle-east/iran-fights-keep-lebanon-leverage-high-stakes-us-deal-2026-06-11/ &mdash; Reuters: Iran fights to keep Lebanon as leverage in high-stakes US deal
- - https://www.cbsnews.com/live-updates/iran-war-trump-israel-strikes-ceasefire-lebanon-beirut/ &mdash; CBS News: Iran and Israel say attacks halted
- - https://www.bbc.co.uk/news/articles/c052343r812o &mdash; BBC News: Hezbollah rejects renewed Israel-Lebanon ceasefire
- - https://www.ft.com/content/779204ca-9e08-409b-9f18-16ca3a28975e &mdash; Financial Times: Makerfield voters eye Burnham premiership after high-stakes poll
- - https://www.independent.co.uk/news/uk/politics/burnham-reform-restore-makerfield-byelection-poll-voting-b2994837.html &mdash; The Independent: Restore Britain set to sweep Burnham to victory in Makerfield new poll
- - https://www.thetimes.com/comment/columnists/article/makerfield-mania-obscuring-another-by-election-pjbbwzmfn &mdash; The Times: Makerfield mania obscuring another by-election
- - https://www.theguardian.com/politics/2026/may/14/labour-leadership-rules-not-tweaked-andy-burnham-run-pm-nec-member &mdash; The Guardian: NEC member leadership rules
- - https://www.aljazeera.com/news/2026/6/4/israel-and-lebanon-agree-to-conditional-ceasefire &mdash; Al Jazeera: Israel-Lebanon conditional ceasefire
- - https://www.aljazeera.com/news/2026/6/9/israel-kills-14-in-southern-lebanon-after-trading-fire-with-iran &mdash; Al Jazeera: Israel kills 14 in southern Lebanon
- - https://www.reuters.com/world/middle-east/netanyahu-directs-israeli-forces-expand-gaza-control-70-percent-2026-05-28/ &mdash; Reuters: Netanyahu directs Gaza control to 70%
- - Sky News &mdash; UK politics: Badenoch cross-party letter context
- - Bloomberg &mdash; markets commentary; gilt yields; FTSE Friday close
- - ISW &mdash; Russia-Ukraine analytical backdrop; Oreshnik IRBM 24-hour warning
- END SOURCES USED -->
- </div><!-- ── END MORNING 14 JUN (08:15) ── -->
 
 
 
