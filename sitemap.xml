@@ -3,7 +3,7 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
     <loc>https://thedailybrief.co.uk/</loc>
-    <lastmod>2026-06-21</lastmod>
+    <lastmod>2026-06-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -4978,6 +4978,72 @@
   <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-06-21-morning/us-iran-talks-resume-switzerland-sunday-vance-leading-pezeshkian-side-interim-deal-shore-up-witkoff-mediation-aftermath-ghalibaf-parliament-speaker-negotiator-30-day-compliance-window/</loc>
     <lastmod>2026-06-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-22-morning/</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-22-morning/burnham-westminster-swearing-in-monday-parliament-mp-makerfield-king-north-leadership-coronation-streeting-nandy-coalition-rating-agencies-continuity-economic-plan-building-boom-business-friendly-european-union-relations/</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-22-morning/china-positioning-mediator-monday-iran-deal-aftermath-energy-reserves-belt-road-saudi-six-state-alignment-context-geneva-vienna-nuclear-followup-talks-architecture-trump-narrative-consolidation/</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-22-morning/gaza-73000-monday-morning-post-deal-pressure-netanyahu-political-latitude-egyptian-mediators-hostage-talks-deadlock-70-percent-directive-de-confliction-cell-aftermath-witkoff-mediation/</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-22-morning/iran-important-steps-agreed-final-deal-monday-araghchi-foreign-minister-pezeshkian-aftermath-lake-lucerne-summit-saudi-six-state-alignment-30-day-compliance-window-vance-iranian-delegation-positive-constructive/</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-22-morning/markets-monday-open-ftse-10745-brent-86-40-sterling-1-3470-gilt-yields-4-83-iran-deal-progress-burnham-succession-confirmation-rating-agencies-continuity-bank-england-mpc-august-cut-probability/</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-22-morning/moscow-drones-shot-down-59-monday-airports-suspend-flights-deep-strike-campaign-russia-summer-offensive-isw-oreshnik-warning-still-active-kyiv-independent-strikes-occupied-crimea-power-plant/</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-22-morning/starmer-set-out-resignation-timetable-monday-burnham-sworn-mp-westminster-labour-leadership-succession-mounting-pressure-cabinet-loyalists-90-mps-falconer-grandee-trump-leak-political-realities/</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-22-morning/tories-aberdeen-south-victory-monday-morning-aftermath-douglas-lumsden-scotland-fragmentation-snp-labour-fourth-badenoch-oil-gas-referendum-conservative-Scottish-revival-1967-first-by-election-burnham-electoral-calculus-week-ahead/</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-22-morning/uk-heatwave-monday-38-degrees-london-southern-england-met-office-amber-warning-very-rare-1976-record-fall-schools-closure-guidance-record-breaking-health-warnings-danger-life-network-rail-speed-restrictions/</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-22-morning/us-iran-switzerland-talks-concluded-encouraging-progress-60-day-roadmap-hormuz-communication-line-lebanon-de-confliction-cell-high-level-committee-technical-working-groups-anadolu-mediators-lucerne-summit/</loc>
+    <lastmod>2026-06-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
