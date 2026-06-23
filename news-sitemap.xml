@@ -2,6 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-23-evening/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-23T18:30:00+01:00</news:publication_date>
+      <news:title>Evening Briefing — Tuesday 23 June 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-23-evening/france-hottest-day-ever-44-3-degrees-pissos-tuesday-louvre-eiffel-tower-close-40-drown-heatwave-deadly-europe-buckles-lecornu-prime-minister-spain-italy-extreme-heat-record/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-23T18:30:00+01:00</news:publication_date>
+      <news:title>France Records Hottest Day Ever at 44.3C; 40 Drown Across Country in Deadly European Heatwave</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-23-evening/iran-president-pezeshkian-lands-pakistan-tuesday-us-iran-teams-finalize-war-ending-deal-mediator-shehbaz-sharif-pakistani-side-coordination-60-day-roadmap-architecture-asset-unfreezing-conditionality-vance-warning/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-23T18:30:00+01:00</news:publication_date>
+      <news:title>Iranian President Lands in Pakistan as US-Iran Teams Work to Finalise War-Ending Deal</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-23-evening/israel-lebanon-washington-talks-tuesday-evening-us-hosted-new-round-de-confliction-cell-operative-witkoff-mediation-fiber-optic-killer-drone-southern-lebanon-defense-news-hezbollah-technology-transfer-ukraine-frustrating-israel/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-23T18:30:00+01:00</news:publication_date>
+      <news:title>Israel-Lebanon Washington Talks Proceed; Fiber-Optic Killer Drone Technology Arrives in South Lebanon</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-23-evening/russia-strikes-six-wounded-ukraine-overnight-tuesday-fuel-crisis-spreads-siberia-deep-strike-campaign-ukrainian-drones-moscow-aftermath-isw-summer-offensive-criticalthreats-iran-update-evening-report/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-23T18:30:00+01:00</news:publication_date>
+      <news:title>Russian Strikes Wound Six in Ukraine; Russian Fuel Crisis Continues Spreading Into Siberia</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-23-evening/gaza-73000-tuesday-evening-post-deal-pressure-netanyahu-political-latitude-egyptian-mediators-hostage-talks-deadlock-70-percent-directive-israel-lebanon-washington-talks-aftermath-fiber-optic-drone-context/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-23T18:30:00+01:00</news:publication_date>
+      <news:title>Gaza Death Toll Holds Above 73,000; Netanyahu Position Continues to Compress Under Framework Pressure</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-23-evening/starmer-burnham-first-face-to-face-talks-tuesday-smooth-transition-pledge-bbc-orderly-handover-power-cabinet-bargain-confirmation-streeting-nandy-coalition-structured-succession-coronation-path/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-23T18:30:00+01:00</news:publication_date>
+      <news:title>Starmer and Burnham Hold First Face-to-Face Talks; PM Pledges “Smooth Transition”</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-23-evening/uk-heatwave-tuesday-evening-34-5-degrees-wisley-scotland-northern-ireland-hottest-day-year-bbc-temperatures-build-wednesday-thursday-peak-red-warning-met-office-hundreds-schools-close-record-fall/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-23T18:30:00+01:00</news:publication_date>
+      <news:title>UK Heatwave: 34.5C in Wisley Tuesday; Scotland and Northern Ireland Hottest Days of Year; Peak Wed-Thu</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-23-evening/london-storms-floods-29000-lightning-strikes-fire-brigade-400-calls-southern-england-monday-tuesday-flash-flooding-travel-disruption-essex-amber-warning-pre-peak-heatwave-instability/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-23T18:30:00+01:00</news:publication_date>
+      <news:title>London Storms and 29,000 Lightning Strikes: Fire Brigade Takes 400 Calls; Travel Disruption Spreads</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-23-evening/markets-tuesday-close-ftse-10685-weaker-political-uncertainty-peace-talks-brent-85-40-three-month-low-iran-progress-sterling-1-3460-burnham-reeves-continuity-vix-21-30-rising-bond-markets-caution/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-23T18:30:00+01:00</news:publication_date>
+      <news:title>Markets Tuesday Close: FTSE Slips Further; Brent at Fresh Three-Month Low; VIX Rises Modestly</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-23-evening/burnham-coronation-mid-july-tuesday-evening-pm-track-ap-labour-mps-mull-challenger-prevent-streeting-withdrawal-aftermath-nec-procedural-ruling-king-of-north-cabinet-bargain-economic-plan-building-boom-european-relations/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-23T18:30:00+01:00</news:publication_date>
+      <news:title>Burnham Coronation Path Confirmed by Starmer Meeting; Mid-July PM Trajectory Operative</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-06-23-morning/</loc>
     <news:news>
       <news:publication>
