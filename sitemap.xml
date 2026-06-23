@@ -3,7 +3,7 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
     <loc>https://thedailybrief.co.uk/</loc>
-    <lastmod>2026-06-22</lastmod>
+    <lastmod>2026-06-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -5110,6 +5110,72 @@
   <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-06-22-morning/us-iran-switzerland-talks-concluded-encouraging-progress-60-day-roadmap-hormuz-communication-line-lebanon-de-confliction-cell-high-level-committee-technical-working-groups-anadolu-mediators-lucerne-summit/</loc>
     <lastmod>2026-06-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-23-morning/</loc>
+    <lastmod>2026-06-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-23-morning/burnham-track-prime-minister-mid-july-2026-labour-mps-challenger-prevent-coronation-leadership-race-streeting-withdrawal-aftermath-cabinet-bargain-succession-nec-procedural-ruling-king-of-north-king-welcome-parliament/</loc>
+    <lastmod>2026-06-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-23-morning/china-mediator-positioning-tuesday-iran-deal-implementation-energy-reserves-belt-road-saudi-six-state-alignment-context-eu-uk-summit-reassessment-geopolitical-realignment-architecture-implementation-phase/</loc>
+    <lastmod>2026-06-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-23-morning/gaza-73000-tuesday-morning-post-deal-pressure-netanyahu-political-latitude-egyptian-mediators-hostage-talks-deadlock-70-percent-directive-israel-lebanon-washington-talks-aftermath-de-confliction-cell-operative/</loc>
+    <lastmod>2026-06-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-23-morning/iran-fm-araghchi-progress-war-talks-lebanon-ceasefire-key-test-pakistan-qatar-mediation-tasnim-deputy-fm-arrangements-future-iran-us-talks-deal-implementation-architecture/</loc>
+    <lastmod>2026-06-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-23-morning/israel-lebanon-washington-talks-new-round-us-hosted-dw-tuesday-witkoff-mediation-aftermath-de-confliction-cell-followup-bilateral-negotiations-architecture-vance-asset-unfreezing-condition/</loc>
+    <lastmod>2026-06-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-23-morning/markets-tuesday-open-ftse-10720-brent-85-80-fresh-three-month-low-iran-progress-burnham-succession-clarity-rating-agencies-continuity-bond-markets-state-borrowing-caution-bank-england-mpc-august-cut-probability-above-40-percent/</loc>
+    <lastmod>2026-06-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-23-morning/russia-strikes-six-wounded-ukraine-overnight-zaporizhzhia-sumy-kharkiv-kyiv-air-alert-reuters-fuel-crisis-spreads-siberia-deep-strike-campaign-ukrainian-drones-moscow-aftermath-isw-summer-offensive/</loc>
+    <lastmod>2026-06-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-23-morning/starmer-chaotic-two-years-key-moments-resignation-aftermath-tuesday-cbc-decline-popularity-july-2024-landslide-victory-cycle-analysis-caretaker-pm-burnham-succession-economic-plan-building-boom-european-relations/</loc>
+    <lastmod>2026-06-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-23-morning/tories-aberdeen-south-victory-tuesday-aftermath-douglas-lumsden-scotland-fragmentation-snp-labour-fourth-badenoch-oil-gas-referendum-conservative-Scottish-revival-1967-first-by-election-burnham-electoral-calculus-week-ahead-context/</loc>
+    <lastmod>2026-06-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-23-morning/uk-heatwave-red-warning-wednesday-thursday-38-40-degrees-london-bake-record-met-office-dozens-schools-close-england-wales-1976-record-fall-several-degrees-breakingnews-london-standard-furnace-extreme-heat-humidity/</loc>
+    <lastmod>2026-06-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
