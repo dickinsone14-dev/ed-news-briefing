@@ -3,7 +3,7 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
     <loc>https://thedailybrief.co.uk/</loc>
-    <lastmod>2026-06-23</lastmod>
+    <lastmod>2026-06-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -5242,6 +5242,72 @@
   <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-06-23-morning/uk-heatwave-red-warning-wednesday-thursday-38-40-degrees-london-bake-record-met-office-dozens-schools-close-england-wales-1976-record-fall-several-degrees-breakingnews-london-standard-furnace-extreme-heat-humidity/</loc>
     <lastmod>2026-06-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-24-morning/</loc>
+    <lastmod>2026-06-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-24-morning/burnham-reeves-replace-chancellor-bbc-junior-cabinet-role-defence-spat-threatens-orderly-transition-healey-spending-row-afr-major-decisions-frozen-leadership-challenger-mid-july-pm-coronation-darren-jones-rules-out/</loc>
+    <lastmod>2026-06-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-24-morning/england-0-0-ghana-world-cup-tuesday-night-bbc-draw-tuchel-tournament-management-disappointment-three-lions-group-l-knockout-stage-implications-public-mood-heatwave-context/</loc>
+    <lastmod>2026-06-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-24-morning/france-hottest-day-ever-44-3-degrees-pissos-tuesday-aftermath-european-heatwave-deaths-louvre-eiffel-tower-close-meteo-france-1947-measurements-began-heat-dome-western-europe-spain-italy-buckling-peak/</loc>
+    <lastmod>2026-06-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-24-morning/gaza-73000-wednesday-morning-post-deal-pressure-netanyahu-political-latitude-egyptian-mediators-hostage-talks-deadlock-70-percent-directive-hezbollah-warning-aftermath-de-confliction-cell-operational-pressure/</loc>
+    <lastmod>2026-06-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-24-morning/hezbollah-chief-total-withdrawal-stern-warning-israel-big-attack-wednesday-fiber-optic-killer-drone-aftermath-lebanon-track-pressure-de-confliction-cell-test-times-india-defiant-message/</loc>
+    <lastmod>2026-06-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-24-morning/markets-wednesday-open-ftse-10670-brent-85-20-iran-progress-uk-pmi-shock-bbc-reeves-replacement-gilt-yields-4-86-bond-markets-caution-bank-england-mpc-august-cut-probability-50-percent-burnham-chancellor-question/</loc>
+    <lastmod>2026-06-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-24-morning/uk-business-growth-14-month-low-service-sector-shrinks-pmi-private-sector-activity-wednesday-cardealermagazine-recession-concerns-heatwave-operational-disruption-burnham-economic-plan-pressure-building-boom/</loc>
+    <lastmod>2026-06-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-24-morning/uk-heatwave-peak-wednesday-red-weather-warnings-9am-thursday-9pm-london-swansea-somerset-birmingham-itv-news-40-degrees-record-breaking-thousands-schools-close-classes-online-1976-record-fall-network-rail-speed/</loc>
+    <lastmod>2026-06-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-24-morning/ukraine-strike-cuts-power-crimean-city-sevastopol-wednesday-largest-city-deep-strike-campaign-energy-infrastructure-russia-fuel-crisis-siberia-aftermath-trump-moscow-deal-architecture-isw-summer-offensive/</loc>
+    <lastmod>2026-06-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-24-morning/us-iran-odds-nuclear-inspections-frozen-assets-deal-trump-infinity-claim-tehran-no-concession-cyprus-mail-disagreement-framework-implementation-stress-vance-conditionality-pezeshkian-pakistan-visit-aftermath/</loc>
+    <lastmod>2026-06-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
