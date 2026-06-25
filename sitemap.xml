@@ -3,7 +3,7 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
     <loc>https://thedailybrief.co.uk/</loc>
-    <lastmod>2026-06-24</lastmod>
+    <lastmod>2026-06-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -5374,6 +5374,72 @@
   <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-06-24-morning/us-iran-odds-nuclear-inspections-frozen-assets-deal-trump-infinity-claim-tehran-no-concession-cyprus-mail-disagreement-framework-implementation-stress-vance-conditionality-pezeshkian-pakistan-visit-aftermath/</loc>
     <lastmod>2026-06-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-25-morning/</loc>
+    <lastmod>2026-06-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-25-morning/british-chamber-commerce-north-sea-oil-gas-exploit-burnham-haviland-mass-job-losses-guardian-transition-clean-energy-handled-better-business-pressure-labour-leadership-policy-positioning-burnham-era-climate-trade-off/</loc>
+    <lastmod>2026-06-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-25-morning/gaza-73000-thursday-morning-post-deal-pressure-netanyahu-political-latitude-egyptian-mediators-hostage-talks-deadlock-70-percent-directive-hezbollah-warning-aftermath-de-confliction-cell-operational-pressure-eu-airspace/</loc>
+    <lastmod>2026-06-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-25-morning/macron-europe-us-moment-reconvergence-ahead-nato-ankara-summit-thursday-yeni-safak-transatlantic-realignment-framework-iran-aftermath-russia-ukraine-pressure-architecture/</loc>
+    <lastmod>2026-06-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-25-morning/markets-thursday-open-ftse-10665-brent-85-30-reeves-burnham-backing-clarity-gilt-yields-4-87-sterling-1-3440-bank-england-mpc-august-cut-probability-50-percent-burnham-chancellor-question-pricing-recalibration/</loc>
+    <lastmod>2026-06-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-25-morning/reeves-backs-burnham-next-pm-thursday-bbc-breakfast-defers-own-role-reuters-coronation-path-clear-cabinet-bargain-confirmation-trump-extremely-liberal-warning-north-sea-oil-independent-junior-cabinet-position/</loc>
+    <lastmod>2026-06-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-25-morning/trump-burnham-extremely-liberal-warning-thursday-breaking-news-north-sea-oil-exploration-uk-us-relations-chill-burnham-era-policy-positioning-prime-minister-foreign-policy-divergence/</loc>
+    <lastmod>2026-06-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-25-morning/trump-hormuz-toll-threat-thursday-iran-talks-end-conditionality-yeni-safak-rubio-toll-architecture-framework-durability-stress-pressure-pezeshkian-aftermath-iaea-inspections-disagreement/</loc>
+    <lastmod>2026-06-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-25-morning/uk-june-temperature-record-broken-wednesday-itv-news-red-warning-extended-midnight-thursday-1200-schools-closed-mirror-express-40-degrees-still-possible-network-rail-nhs-pressure-peak-day-dangerous/</loc>
+    <lastmod>2026-06-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-25-morning/venezuela-twin-earthquakes-state-emergency-anadolu-rescue-workers-rubble-collapsed-building-powerful-seismic-event-caracas-region-international-response-disaster-management-thursday-morning/</loc>
+    <lastmod>2026-06-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-25-morning/zelensky-preemptive-strikes-russian-war-facilities-thursday-drone-campaign-intensifies-times-india-ukraine-deep-strike-envelope-sevastopol-aftermath-moscow-refinery-fuel-crisis-siberia/</loc>
+    <lastmod>2026-06-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
