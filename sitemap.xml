@@ -3,7 +3,7 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
     <loc>https://thedailybrief.co.uk/</loc>
-    <lastmod>2026-06-25</lastmod>
+    <lastmod>2026-06-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -5506,6 +5506,72 @@
   <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-06-25-morning/zelensky-preemptive-strikes-russian-war-facilities-thursday-drone-campaign-intensifies-times-india-ukraine-deep-strike-envelope-sevastopol-aftermath-moscow-refinery-fuel-crisis-siberia/</loc>
     <lastmod>2026-06-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-26-morning/</loc>
+    <lastmod>2026-06-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-26-morning/burnham-haldane-vibe-change-uk-economy-friday-cityam-prime-minister-waiting-bolder-brassier-stamp-duty-triple-lock-growth-advice-economic-plan-structural-policy-positioning-coronation-17-july/</loc>
+    <lastmod>2026-06-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-26-morning/burnham-net-zero-targets-stick-friday-guardian-evidence-outside-window-climate-pressure-heatwave-context-cop-targets-uk-2050-policy-positioning-prime-minister-elect-build-boom-tension/</loc>
+    <lastmod>2026-06-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-26-morning/european-heatwave-impossible-without-climate-crisis-scientists-attribution-study-friday-guardian-worst-ever-high-humidity-hundreds-cities-worst-heat-stress-meteorological-empirical-confirmation-climate-acceleration/</loc>
+    <lastmod>2026-06-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-26-morning/gaza-73000-friday-morning-post-deal-pressure-netanyahu-political-latitude-egyptian-mediators-hostage-talks-deadlock-70-percent-directive-israeli-lebanon-withdrawal-aftermath-de-confliction-cell/</loc>
+    <lastmod>2026-06-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-26-morning/iran-deal-friday-morning-framework-implementation-hormuz-communication-line-30-day-compliance-window-saudi-six-state-alignment-pezeshkian-pakistan-aftermath-rubio-warning-trump-toll-threat-pressure-architecture/</loc>
+    <lastmod>2026-06-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-26-morning/israel-withdraws-parts-southern-lebanon-thursday-ceasefire-talks-advance-times-india-de-confliction-cell-operative-witkoff-mediation-aftermath-political-storm-middle-east-us-official-confirms/</loc>
+    <lastmod>2026-06-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-26-morning/markets-friday-open-sterling-seven-month-low-1-3180-gbp-usd-deeper-test-uk-politics-weak-data-collide-ftse-10650-brent-85-10-gilt-yields-4-92-bank-england-mpc-burnham-chancellor-question-pressure/</loc>
+    <lastmod>2026-06-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-26-morning/russia-ballistic-missile-strike-kyiv-mayhem-thursday-night-lavrov-warning-aftermath-times-india-explosions-fires-zelensky-preemptive-doctrine-deep-strike-aftermath-russian-summer-offensive-escalation/</loc>
+    <lastmod>2026-06-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-26-morning/uk-heatwave-friday-red-warning-still-force-38-degrees-still-possible-met-office-extended-thousand-schools-closed-friday-devon-gloucestershire-nhs-pressure-network-rail-disruption-third-day-record/</loc>
+    <lastmod>2026-06-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-26-morning/uk-prime-minister-changing-every-few-years-friday-philippine-star-interaksyon-leadership-transition-volatility-historical-context-starmer-resignation-aftermath-seven-pms-decade-burnham-era-coronation-17-july/</loc>
+    <lastmod>2026-06-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
