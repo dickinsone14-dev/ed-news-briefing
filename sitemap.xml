@@ -3,7 +3,7 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
     <loc>https://thedailybrief.co.uk/</loc>
-    <lastmod>2026-06-26</lastmod>
+    <lastmod>2026-06-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -5638,6 +5638,72 @@
   <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-06-26-morning/uk-prime-minister-changing-every-few-years-friday-philippine-star-interaksyon-leadership-transition-volatility-historical-context-starmer-resignation-aftermath-seven-pms-decade-burnham-era-coronation-17-july/</loc>
     <lastmod>2026-06-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-27-morning/</loc>
+    <lastmod>2026-06-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-27-morning/burnham-distanced-starmer-stuck-policies-times-union-policy-architecture-constraint-fiscal-headroom-pre-coronation-17-july-structural-continuity-mortgage-google-searches-surge-5000-percent-express/</loc>
+    <lastmod>2026-06-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-27-morning/burnham-economic-vision-first-major-speech-monday-leadership-bid-itv-economic-agenda-haldane-advice-big-building-boom-stamp-duty-triple-lock-pre-coronation-17-july-architecture-formal-launch/</loc>
+    <lastmod>2026-06-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-27-morning/gaza-73000-saturday-morning-post-deal-pressure-netanyahu-political-latitude-egyptian-mediators-hostage-talks-deadlock-70-percent-directive-rubio-trilateral-lebanon-aftermath-iran-ceasefire-stress/</loc>
+    <lastmod>2026-06-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-27-morning/germany-mandatory-military-service-mid-2027-russia-threat-times-india-conscription-troop-targets-voluntary-recruitment-fail-defence-spending-european-architecture-nato-positioning-strategic-pivot/</loc>
+    <lastmod>2026-06-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-27-morning/labour-lead-reform-burnham-pm-poll-friday-inews-wafer-thin-edge-pollster-warn-rarely-survive-contact-daily-grind-leading-coronation-momentum-post-makerfield-aftermath-electoral-positioning/</loc>
+    <lastmod>2026-06-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-27-morning/markets-saturday-morning-iran-ceasefire-shaken-brent-89-40-6-percent-jump-gilt-yields-4-96-sterling-1-3145-vix-23-50-spike-ftse-monday-open-binary-burnham-chancellor-question-pressure-architecture/</loc>
+    <lastmod>2026-06-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-27-morning/rubio-brokers-historic-israel-lebanon-deal-trilateral-framework-friday-times-india-months-war-first-step-lasting-peace-de-confliction-cell-aftermath-witkoff-mediation-formal-architecture-bilateral-track-completion/</loc>
+    <lastmod>2026-06-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-27-morning/russian-seeker-drones-burn-ukrainian-railway-train-warehouse-gas-station-army-deployment-point-chernigov-sumy-zhitomir-times-india-deep-strike-campaign-aftermath-660-drone-bombardment-zelensky-preemptive-doctrine/</loc>
+    <lastmod>2026-06-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-27-morning/us-iran-ceasefire-shaken-strikes-friday-hormuz-cargo-ship-attack-irgc-response-broader-counterstrike-times-india-kyiv-post-pakistan-mediator-architecture-pressure-framework-durability-stress/</loc>
+    <lastmod>2026-06-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-27-morning/yorkshire-new-june-temperature-record-friday-bbc-amber-alert-extreme-heat-yellow-warning-thunderstorms-active-heatwave-third-day-record-breaking-pattern-suffolk-37-3-degrees-aftermath-end-sunday/</loc>
+    <lastmod>2026-06-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
