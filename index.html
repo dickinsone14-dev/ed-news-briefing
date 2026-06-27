@@ -1834,19 +1834,21 @@
     .curated-item-accordion {
       display: grid;
       grid-template-rows: auto auto 1fr;
-      transition: grid-template-rows 0.4s ease;
+      transition: grid-template-rows 0.5s cubic-bezier(0.22, 1, 0.36, 1);
     }
     .curated-item-collapsed {
       grid-template-rows: auto auto 0fr;
     }
     .curated-item-body {
       overflow: hidden;
-      transition: opacity 0.35s ease;
+      transition: opacity 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+      transition-delay: 0.1s;
       opacity: 1;
       min-height: 0;
     }
     .curated-item-collapsed .curated-item-body {
       opacity: 0;
+      transition-delay: 0s;
     }
     .curated-item-accordion h4 {
       cursor: pointer;
@@ -1874,9 +1876,10 @@
     }
 
     /* ── Headline teaser preview ──
-       Visible BOTH when collapsed and expanded.
-       When collapsed: muted colour + "Read more" cue visible.
-       When expanded: matches body colour, no cue, body content flows directly beneath. */
+       The teaser is the FULL first paragraph. When collapsed, the rest-of-paragraph
+       span is hidden and the "Read more" cue shows. When expanded, the rest unhides
+       inline (no paragraph break) and the cue disappears. Result: P1 reads as one
+       continuous paragraph on expand, with body P2 onwards flowing beneath. */
     .curated-item-teaser {
       font-family: var(--serif);
       font-size: 14px; line-height: 1.5;
@@ -1884,12 +1887,18 @@
       margin: 4px 0 0 18px;
       padding-bottom: 10px;
       cursor: pointer;
-      transition: color 0.3s ease, padding-bottom 0.3s ease;
+      transition: color 0.5s cubic-bezier(0.22, 1, 0.36, 1), padding-bottom 0.5s cubic-bezier(0.22, 1, 0.36, 1);
     }
     .curated-item-accordion:not(.curated-item-collapsed) .curated-item-teaser {
       color: var(--text-secondary);
       padding-bottom: 0;
       cursor: default;
+    }
+    .teaser-rest {
+      display: none;
+    }
+    .curated-item-accordion:not(.curated-item-collapsed) .teaser-rest {
+      display: inline;
     }
     .read-more-cue {
       display: inline-block;
@@ -1910,9 +1919,9 @@
     @media (hover: hover) {
       .curated-item-accordion:hover .read-more-cue { opacity: 0.8; }
     }
-    /* Body content sits flush against the teaser, indented to match */
+    /* Body content (P2 onwards + dive-deeper) sits flush, indented to match teaser */
     .curated-item-body > p:first-child {
-      margin-top: 0;
+      margin-top: 12px;
       padding-left: 18px;
     }
     .curated-item-body > p {
@@ -5229,29 +5238,28 @@ window._marketData = {};
           // Wrap all non-h4 children into a .curated-item-body for grid animation
           const h4 = item.querySelector('h4');
 
-          // Extract first sentence from body's first <p> for the teaser,
-          // and STRIP it from the body so the expanded view flows seamlessly
-          // from where the teaser ends (no duplicated sentence).
+          // The teaser now holds the FULL first paragraph, split into:
+          //   <span class="teaser-first">first sentence</span>
+          //   <span class="teaser-rest">  rest of paragraph 1</span>
+          //   <span class="read-more-cue">Read more</span>
+          // Body starts from paragraph 2 onwards so there's no paragraph break
+          // between sentence 1 and sentence 2 when expanded — it flows as one P.
           const firstP = item.querySelector('p');
-          let teaserText = '';
+          let teaserFirstText = '';
+          let teaserRestText = '';
           if (firstP) {
             const fullText = firstP.textContent.trim();
             const sentenceMatch = fullText.match(/^([^.!?]+[.!?])\s*([\s\S]*)$/);
-            let remainingText = '';
             if (sentenceMatch) {
-              teaserText = sentenceMatch[1];
-              remainingText = sentenceMatch[2].trim();
+              teaserFirstText = sentenceMatch[1];
+              teaserRestText = sentenceMatch[2].trim();
             } else {
-              teaserText = fullText.split(' ').slice(0, 25).join(' ') + '…';
-              remainingText = '';
+              teaserFirstText = fullText.split(' ').slice(0, 25).join(' ') + '…';
+              teaserRestText = '';
             }
-            if (teaserText.length > 180) teaserText = teaserText.slice(0, 177).trim() + '…';
-            // Mutate firstP: keep only the remaining text so it picks up where teaser ends
-            if (remainingText) {
-              firstP.textContent = remainingText;
-            } else {
-              firstP.remove();
-            }
+            if (teaserFirstText.length > 180) teaserFirstText = teaserFirstText.slice(0, 177).trim() + '…';
+            // Remove the original first paragraph entirely — its content now lives in the teaser
+            firstP.remove();
           }
 
           const body = document.createElement('div');
@@ -5259,16 +5267,26 @@ window._marketData = {};
           while (h4 && h4.nextSibling) body.appendChild(h4.nextSibling);
           item.appendChild(body);
 
-          // Insert teaser between h4 and body — sits in 2nd grid row, ALWAYS visible
-          // CSS changes its colour and hides the "Read more" cue when item expands;
-          // the body content (now starting from sentence 2) flows directly beneath it.
-          if (teaserText && h4) {
+          // Insert teaser between h4 and body
+          if (teaserFirstText && h4) {
             const teaserEl = document.createElement('p');
             teaserEl.className = 'curated-item-teaser';
-            const safeText = teaserText
-              .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
-            teaserEl.innerHTML = safeText + ' <span class="read-more-cue">Read more</span>';
-            teaserEl.addEventListener('click', () => h4.click());
+            const esc = function(s) {
+              return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+            };
+            let inner = '<span class="teaser-first">' + esc(teaserFirstText) + '</span>';
+            if (teaserRestText) {
+              inner += '<span class="teaser-rest"> ' + esc(teaserRestText) + '</span>';
+            }
+            inner += '<span class="read-more-cue">Read more</span>';
+            teaserEl.innerHTML = inner;
+            teaserEl.addEventListener('click', function(e) {
+              // Only trigger expand when the click is on the cue or while collapsed;
+              // when expanded, the teaser is just text and shouldn't toggle.
+              if (item.classList.contains('curated-item-collapsed')) {
+                h4.click();
+              }
+            });
             item.insertBefore(teaserEl, body);
           }
 
