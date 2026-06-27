@@ -1873,7 +1873,10 @@
       .curated-column:last-child .curated-item-collapsed:hover h4 { color: var(--accent-dom); }
     }
 
-    /* ── Headline teaser preview (shown when collapsed, hidden when expanded) ── */
+    /* ── Headline teaser preview ──
+       Visible BOTH when collapsed and expanded.
+       When collapsed: muted colour + "Read more" cue visible.
+       When expanded: matches body colour, no cue, body content flows directly beneath. */
     .curated-item-teaser {
       font-family: var(--serif);
       font-size: 14px; line-height: 1.5;
@@ -1881,16 +1884,12 @@
       margin: 4px 0 0 18px;
       padding-bottom: 10px;
       cursor: pointer;
-      max-height: 200px;
-      overflow: hidden;
-      transition: opacity 0.3s ease, max-height 0.35s ease, padding 0.3s ease, margin 0.3s ease;
+      transition: color 0.3s ease, padding-bottom 0.3s ease;
     }
     .curated-item-accordion:not(.curated-item-collapsed) .curated-item-teaser {
-      opacity: 0;
-      max-height: 0;
+      color: var(--text-secondary);
       padding-bottom: 0;
-      margin-top: 0;
-      pointer-events: none;
+      cursor: default;
     }
     .read-more-cue {
       display: inline-block;
@@ -1905,8 +1904,19 @@
       transition: opacity 0.2s;
     }
     .curated-column:last-child .read-more-cue { color: var(--accent-dom); }
+    .curated-item-accordion:not(.curated-item-collapsed) .read-more-cue {
+      display: none;
+    }
     @media (hover: hover) {
       .curated-item-accordion:hover .read-more-cue { opacity: 0.8; }
+    }
+    /* Body content sits flush against the teaser, indented to match */
+    .curated-item-body > p:first-child {
+      margin-top: 0;
+      padding-left: 18px;
+    }
+    .curated-item-body > p {
+      padding-left: 18px;
     }
 
     /* ── Collapsible impact box ── */
@@ -5219,14 +5229,29 @@ window._marketData = {};
           // Wrap all non-h4 children into a .curated-item-body for grid animation
           const h4 = item.querySelector('h4');
 
-          // Extract first sentence from body's first <p> for collapsed-state teaser
+          // Extract first sentence from body's first <p> for the teaser,
+          // and STRIP it from the body so the expanded view flows seamlessly
+          // from where the teaser ends (no duplicated sentence).
           const firstP = item.querySelector('p');
           let teaserText = '';
           if (firstP) {
             const fullText = firstP.textContent.trim();
-            const sentenceMatch = fullText.match(/^[^.!?]+[.!?]/);
-            teaserText = sentenceMatch ? sentenceMatch[0] : fullText.split(' ').slice(0, 25).join(' ') + '…';
+            const sentenceMatch = fullText.match(/^([^.!?]+[.!?])\s*([\s\S]*)$/);
+            let remainingText = '';
+            if (sentenceMatch) {
+              teaserText = sentenceMatch[1];
+              remainingText = sentenceMatch[2].trim();
+            } else {
+              teaserText = fullText.split(' ').slice(0, 25).join(' ') + '…';
+              remainingText = '';
+            }
             if (teaserText.length > 180) teaserText = teaserText.slice(0, 177).trim() + '…';
+            // Mutate firstP: keep only the remaining text so it picks up where teaser ends
+            if (remainingText) {
+              firstP.textContent = remainingText;
+            } else {
+              firstP.remove();
+            }
           }
 
           const body = document.createElement('div');
@@ -5234,8 +5259,9 @@ window._marketData = {};
           while (h4 && h4.nextSibling) body.appendChild(h4.nextSibling);
           item.appendChild(body);
 
-          // Insert teaser between h4 and body — sits in 2nd grid row, always rendered
-          // CSS hides it (opacity + max-height) when item is expanded
+          // Insert teaser between h4 and body — sits in 2nd grid row, ALWAYS visible
+          // CSS changes its colour and hides the "Read more" cue when item expands;
+          // the body content (now starting from sentence 2) flows directly beneath it.
           if (teaserText && h4) {
             const teaserEl = document.createElement('p');
             teaserEl.className = 'curated-item-teaser';
