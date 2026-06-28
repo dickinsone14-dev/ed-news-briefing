@@ -3,7 +3,7 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
     <loc>https://thedailybrief.co.uk/</loc>
-    <lastmod>2026-06-27</lastmod>
+    <lastmod>2026-06-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -5770,6 +5770,72 @@
   <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-06-27-morning/yorkshire-new-june-temperature-record-friday-bbc-amber-alert-extreme-heat-yellow-warning-thunderstorms-active-heatwave-third-day-record-breaking-pattern-suffolk-37-3-degrees-aftermath-end-sunday/</loc>
     <lastmod>2026-06-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-28-morning/</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-28-morning/economist-weekend-profile-burnham-britain-prime-minister-waiting-sunday-international-coverage-coronation-17-july-architecture-policy-positioning-haldane-haigh-advisory-economic-vision-speech-monday/</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-28-morning/gaza-73000-sunday-morning-post-deal-pressure-netanyahu-political-latitude-egyptian-mediators-hostage-talks-deadlock-70-percent-directive-israel-lebanon-strikes-framework-violation-aftermath-iran-accusation/</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-28-morning/haigh-burnham-adviser-capital-gains-tax-raise-fiscal-rules-loosen-imperial-treasury-rein-times-sunday-economic-vision-speech-monday-preview-haldane-policy-framework-pre-coronation-17-july-architecture/</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-28-morning/hugh-grant-burnham-curb-free-speech-telegraph-labour-war-journalism-social-media-sunday-press-regulation-hacked-off-leveson-architecture-pressure-policy-positioning-burnham-era-media-framework/</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-28-morning/iran-accuses-us-violating-peace-memorandum-un-charter-strikes-saturday-mezha-framework-durability-stress-pakistan-qatar-mediator-pressure-architecture-hormuz-cargo-ship-aftermath-irgc-response/</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-28-morning/israel-lebanon-trilateral-deal-doubt-saturday-strikes-aftermath-sunday-morning-rubio-de-confliction-cell-stress-test-netanyahu-hezbollah-disarmament-precondition-witkoff-mediation-economic-times-questions/</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-28-morning/japan-6-1-earthquake-northeastern-coastline-no-tsunami-warning-sunday-economic-times-seismic-activity-string-significant-pacific-tsunami-warning-centre-natural-disaster-international-response-architecture/</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-28-morning/moscow-test-burnham-ex-defence-chief-wartime-prime-minister-global-threats-times-india-sunday-strategic-defence-architecture-russia-ukraine-iran-framework-stress-context-conscription-german-comparison/</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-28-morning/senior-figures-labour-united-burnham-dismiss-election-prospect-steve-reed-changes-emphasis-fundamentals-irish-news-sunday-housing-secretary-cabinet-bargain-confirmation-coronation-17-july-no-general-election/</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-28-morning/ukraine-strikes-two-russian-oil-refineries-overnight-krasnodar-yaroslavl-zelensky-sunday-al-arabiya-us-news-ap-deep-strike-campaign-titan-barrikady-volgograd-aftermath-energy-infrastructure-fuel-crisis-siberia/</loc>
+    <lastmod>2026-06-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
