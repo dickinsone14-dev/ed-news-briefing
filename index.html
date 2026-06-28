@@ -5626,6 +5626,17 @@ function stripHtml(html) {
   return t.length > 180 ? t.slice(0, 180).trim() + '...' : t;
 }
 
+/* Clean an RSS title for display: parse the HTML to strip embedded tags
+   like <a href>, decode entities via the parser, normalise whitespace.
+   Some feeds (Sky News liveblog body) return titles wrapped in anchor tags;
+   without this, the raw markup is escaped and shown as plain text. */
+function cleanTitle(s) {
+  if (!s) return '';
+  const tmp = document.createElement('div');
+  tmp.innerHTML = String(s);
+  return (tmp.textContent || '').replace(/\s+/g, ' ').trim();
+}
+
 function timeAgo(dateStr) {
   const d = new Date(dateStr);
   if (isNaN(d.getTime())) return '';
@@ -5683,7 +5694,7 @@ function renderSection(articles, accentClass, feeds) {
     html += `
       <a class="top-card" href="${escHtml(a.link)}" target="_blank" rel="noopener noreferrer">
         <span class="card-source ${accentClass}">${escHtml(a.source)}</span>
-        <h3>${escHtml(decodeEntities(a.title))}</h3>
+        <h3>${escHtml(cleanTitle(a.title))}</h3>
         <p>${escHtml(a.description)}</p>
         <div class="card-time">${timeAgo(a.pubDate)}</div>
       </a>`;
@@ -5701,7 +5712,7 @@ function renderSection(articles, accentClass, feeds) {
         <a class="also-item" href="${escHtml(a.link)}" target="_blank" rel="noopener noreferrer">
           <span class="also-source ${accentClass}">${escHtml(a.source)}</span>
           <div>
-            <h4>${escHtml(decodeEntities(a.title))}</h4>
+            <h4>${escHtml(cleanTitle(a.title))}</h4>
             <div class="also-time">${timeAgo(a.pubDate)}</div>
           </div>
         </a>`;
@@ -5714,7 +5725,7 @@ function renderSection(articles, accentClass, feeds) {
           <a class="also-item" href="${escHtml(a.link)}" target="_blank" rel="noopener noreferrer">
             <span class="also-source ${accentClass}">${escHtml(a.source)}</span>
             <div>
-              <h4>${escHtml(decodeEntities(a.title))}</h4>
+              <h4>${escHtml(cleanTitle(a.title))}</h4>
               <div class="also-time">${timeAgo(a.pubDate)}</div>
             </div>
           </a>`;
