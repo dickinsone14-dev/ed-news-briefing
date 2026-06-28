@@ -1876,23 +1876,41 @@
     }
 
     /* ── Headline teaser preview ──
-       The teaser is the FULL first paragraph. When collapsed, the rest-of-paragraph
-       span is hidden and the "Read more" cue shows. When expanded, the rest unhides
-       inline (no paragraph break) and the cue disappears. Result: P1 reads as one
-       continuous paragraph on expand, with body P2 onwards flowing beneath. */
+       COLLAPSED: single-line flex layout. teaser-first truncates with ellipsis,
+       "Read more" cue always shows at the end. Works on both laptop and mobile.
+       EXPANDED: container becomes block, teaser-rest reveals inline, cue hidden.
+       Result: collapsed = one-line preview. Expanded = full paragraph flows naturally. */
     .curated-item-teaser {
+      display: flex;
+      align-items: baseline;
+      gap: 6px;
       font-family: var(--serif);
       font-size: 14px; line-height: 1.5;
       color: var(--text-tertiary);
       margin: 4px 0 0 18px;
       padding-bottom: 10px;
       cursor: pointer;
+      overflow: hidden;
       transition: color 0.5s cubic-bezier(0.22, 1, 0.36, 1), padding-bottom 0.5s cubic-bezier(0.22, 1, 0.36, 1);
     }
+    .teaser-first {
+      flex: 1 1 auto;
+      min-width: 0;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
     .curated-item-accordion:not(.curated-item-collapsed) .curated-item-teaser {
+      display: block;
       color: var(--text-secondary);
       padding-bottom: 0;
       cursor: default;
+      overflow: visible;
+    }
+    .curated-item-accordion:not(.curated-item-collapsed) .teaser-first {
+      overflow: visible;
+      text-overflow: clip;
+      white-space: normal;
     }
     .teaser-rest {
       display: none;
