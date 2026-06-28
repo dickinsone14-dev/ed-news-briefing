@@ -699,6 +699,13 @@
       font-weight: 700;
       letter-spacing: 0.2px;
     }
+    /* Topic-themed subheading colours (applied by JS via keyword match) */
+    .impact-list li strong.impact-tag-politics { color: var(--accent-dom); }
+    .impact-list li strong.impact-tag-markets  { color: #c9a227; }   /* warm gold for money */
+    .impact-list li strong.impact-tag-geo      { color: var(--accent-geo); }
+    .impact-list li strong.impact-tag-energy   { color: #d97706; }   /* warm amber */
+    .impact-list li strong.impact-tag-climate  { color: #2e86ab; }   /* sky blue */
+    .impact-list li strong.impact-tag-defence  { color: #6b4f8b; }   /* muted purple */
     @media (max-width: 768px) {
       .impact-box { margin: 12px 0 16px; padding: 16px 18px 18px; }
       .impact-heading { font-size: 15px; }
@@ -2062,27 +2069,81 @@
       padding-left: 18px;
     }
 
-    /* ── Collapsible impact box ── */
-    .impact-details { margin: 14px 0 18px; }
+    /* ── Collapsible impact box (banner-style summary, not a forgettable button) ── */
+    .impact-details { margin: 18px 0 22px; }
     .impact-details summary {
-      font-family: var(--sans); font-size: 10px; font-weight: 700;
-      letter-spacing: 1.2px; text-transform: uppercase;
-      color: var(--text-muted); cursor: pointer;
-      padding: 12px 16px;
-      background: var(--highlight-bg);
-      border-left: 3px solid rgba(255,255,255,0.25);
-      border-radius: 0 6px 6px 0;
+      font-family: var(--serif);
+      font-size: 16px;
+      font-weight: 800;
+      letter-spacing: -0.2px;
+      text-transform: none;
+      color: var(--accent-geo);
+      cursor: pointer;
+      padding: 16px 22px;
+      background: linear-gradient(to right,
+        rgba(139, 35, 50, 0.10) 0%,
+        rgba(139, 35, 50, 0.04) 50%,
+        var(--bg-section) 100%);
+      border-left: 4px solid var(--accent-geo);
+      border-radius: 0 4px 4px 0;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.04);
       list-style: none;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      transition: background 0.25s ease, transform 0.15s ease;
+      position: relative;
     }
     .impact-details summary::-webkit-details-marker { display: none; }
+    .impact-details summary::before {
+      content: '';
+      flex-shrink: 0;
+      width: 8px; height: 8px;
+      border-radius: 50%;
+      background: var(--accent-geo);
+      box-shadow: 0 0 0 4px rgba(139, 35, 50, 0.15);
+      animation: impactPulse 2.4s ease-in-out infinite;
+    }
     .impact-details summary::after {
-      content: ' \25BC'; font-size: 8px; opacity: 0.5;
+      content: '\25BC';
+      margin-left: auto;
+      font-size: 11px;
+      color: var(--accent-geo);
+      opacity: 0.7;
+      transition: transform 0.25s ease;
+    }
+    @media (hover: hover) {
+      .impact-details summary:hover {
+        background: linear-gradient(to right,
+          rgba(139, 35, 50, 0.16) 0%,
+          rgba(139, 35, 50, 0.08) 50%,
+          var(--bg-section) 100%);
+      }
     }
     .impact-details[open] summary {
-      border-radius: 0 6px 0 0;
+      border-radius: 0 4px 0 0;
+    }
+    .impact-details[open] summary::after {
+      transform: rotate(180deg);
+    }
+    .impact-details[open] summary::before {
+      animation: none;
+    }
+    @keyframes impactPulse {
+      0%, 100% { box-shadow: 0 0 0 4px rgba(139, 35, 50, 0.15); }
+      50%      { box-shadow: 0 0 0 7px rgba(139, 35, 50, 0.05); }
     }
     .impact-details .impact-box {
-      margin: 0; border-radius: 0 0 6px 0;
+      margin: 0;
+      border-radius: 0 0 4px 0;
+      box-shadow: none;
+    }
+    .impact-details[open] .impact-box {
+      border-left-color: transparent;  /* summary already provides the left bar */
+    }
+    @media (max-width: 768px) {
+      .impact-details { margin: 12px 0 16px; }
+      .impact-details summary { font-size: 14px; padding: 14px 16px; gap: 10px; }
     }
 
     /* ── Mobile collapse button at bottom of expanded details ── */
@@ -5351,6 +5412,26 @@ window._marketData = {};
         if (heading) heading.remove();
         box.parentNode.insertBefore(details, box);
         details.appendChild(box);
+
+        // Colour-code each bullet's leading <strong> tag by topic.
+        // Reader sees at a glance which area each bullet covers.
+        box.querySelectorAll('.impact-list li strong').forEach(s => {
+          const t = (s.textContent || '').toLowerCase().replace(':', '').trim();
+          const themes = [
+            ['impact-tag-politics',  ['politics', 'westminster', 'labour', 'tories', 'cabinet', 'pm', 'commons', 'parliament', 'whitehall', 'starmer', 'burnham', 'reform']],
+            ['impact-tag-markets',   ['markets', 'economy', 'sterling', 'gilts', 'gilt', 'bonds', 'ftse', 'pound', 'inflation', 'finance', 'rates', 'rate']],
+            ['impact-tag-geo',       ['iran', 'russia', 'ukraine', 'israel', 'lebanon', 'gaza', 'china', 'taiwan', 'middle east', 'mideast', 'kyiv', 'moscow', 'tehran']],
+            ['impact-tag-energy',    ['energy', 'oil', 'gas', 'brent', 'hormuz', 'fuel', 'petrol']],
+            ['impact-tag-climate',   ['weather', 'climate', 'heatwave', 'heat', 'storm', 'flood']],
+            ['impact-tag-defence',   ['defence', 'military', 'nato', 'army', 'navy', 'war']],
+          ];
+          for (const [cls, keywords] of themes) {
+            if (keywords.some(k => t.includes(k))) {
+              s.classList.add(cls);
+              break;
+            }
+          }
+        });
       });
 
       // Accordion: wrap content in body div, one expanded per column, always keep one open
