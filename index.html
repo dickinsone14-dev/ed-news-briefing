@@ -1883,7 +1883,7 @@
     .curated-item-teaser {
       display: flex;
       align-items: baseline;
-      gap: 6px;
+      gap: 10px;
       font-family: var(--serif);
       font-size: 14px; line-height: 1.5;
       color: var(--text-tertiary);
@@ -1894,8 +1894,9 @@
       transition: color 0.5s cubic-bezier(0.22, 1, 0.36, 1), padding-bottom 0.5s cubic-bezier(0.22, 1, 0.36, 1);
     }
     .teaser-first {
-      flex: 1 1 auto;
+      flex: 0 1 auto;
       min-width: 0;
+      max-width: 60%;
       overflow: hidden;
       text-overflow: ellipsis;
       white-space: nowrap;
