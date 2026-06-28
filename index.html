@@ -1833,22 +1833,20 @@
     /* ── Accordion curated items — chevron on all, smooth expand/collapse ── */
     .curated-item-accordion {
       display: grid;
-      grid-template-rows: auto auto 1fr;
-      transition: grid-template-rows 0.5s cubic-bezier(0.22, 1, 0.36, 1);
+      grid-template-rows: auto 1fr;
+      transition: grid-template-rows 0.4s ease;
     }
     .curated-item-collapsed {
-      grid-template-rows: auto auto 0fr;
+      grid-template-rows: auto 0fr;
     }
     .curated-item-body {
       overflow: hidden;
-      transition: opacity 0.4s cubic-bezier(0.22, 1, 0.36, 1);
-      transition-delay: 0.1s;
+      transition: opacity 0.35s ease;
       opacity: 1;
       min-height: 0;
     }
     .curated-item-collapsed .curated-item-body {
       opacity: 0;
-      transition-delay: 0s;
     }
     .curated-item-accordion h4 {
       cursor: pointer;
@@ -1860,160 +1858,15 @@
       content: '\25BE';
       position: absolute; left: 0; top: 0;
       color: var(--text-muted);
-      transition: color 0.2s, transform 0.25s ease;
+      transition: color 0.2s;
     }
     .curated-item-collapsed h4::before {
       content: '\25B8';
-      color: var(--accent-geo);
-    }
-    .curated-column:last-child .curated-item-collapsed h4::before {
-      color: var(--accent-dom);
     }
     @media (hover: hover) {
-      .curated-item-accordion:hover h4::before { transform: translateX(2px); }
+      .curated-item-accordion:hover h4::before { color: var(--text-tertiary); }
       .curated-item-collapsed:hover h4 { color: var(--accent-geo); }
       .curated-column:last-child .curated-item-collapsed:hover h4 { color: var(--accent-dom); }
-    }
-
-    /* ── Headline teaser preview ──
-       COLLAPSED: single-line flex layout. teaser-first truncates with ellipsis,
-       "Read more" cue always shows at the end. Works on both laptop and mobile.
-       EXPANDED: container becomes block, teaser-rest reveals inline, cue hidden.
-       Result: collapsed = one-line preview. Expanded = full paragraph flows naturally. */
-    .curated-item-teaser {
-      display: flex;
-      align-items: baseline;
-      gap: 10px;
-      font-family: var(--serif);
-      font-size: 14px; line-height: 1.5;
-      color: var(--text-tertiary);
-      margin: 4px 0 0 18px;
-      padding-bottom: 10px;
-      cursor: pointer;
-      overflow: hidden;
-      transition: color 0.5s cubic-bezier(0.22, 1, 0.36, 1), padding-bottom 0.5s cubic-bezier(0.22, 1, 0.36, 1);
-    }
-    .teaser-first {
-      flex: 0 1 auto;
-      min-width: 0;
-      max-width: 60%;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      white-space: nowrap;
-    }
-    .curated-item-accordion:not(.curated-item-collapsed) .curated-item-teaser {
-      display: block;
-      color: var(--text-secondary);
-      padding-bottom: 0;
-      cursor: default;
-      overflow: visible;
-    }
-    .curated-item-accordion:not(.curated-item-collapsed) .teaser-first {
-      display: inline;
-      overflow: visible;
-      text-overflow: clip;
-      white-space: normal;
-      max-width: none;
-    }
-    .teaser-rest {
-      display: none;
-    }
-    .curated-item-accordion:not(.curated-item-collapsed) .teaser-rest {
-      display: inline;
-    }
-    .read-more-cue {
-      display: inline-flex;
-      align-items: baseline;
-      gap: 4px;
-      font-family: var(--serif);
-      font-size: 13px;
-      font-weight: 500;
-      font-style: italic;
-      color: var(--accent-geo);
-      text-transform: none;
-      letter-spacing: 0;
-      padding-bottom: 1px;
-      border-bottom: 1px solid currentColor;
-      opacity: 0.85;
-      transition: opacity 0.2s;
-      white-space: nowrap;
-    }
-    .read-more-cue::after {
-      content: '\2192';   /* → arrow */
-      font-style: normal;
-      font-size: 11px;
-      transition: transform 0.2s ease;
-    }
-    .curated-item-accordion:hover .read-more-cue::after {
-      transform: translateX(2px);
-    }
-    /* On mobile, the italic serif cue feels print-y and unnatural.
-       Switch to sans-serif with a chevron (›) — closer to native iOS / Android UI.
-       Also: allow teaser to wrap to 2 lines (not 1) with Read more cue below. */
-    @media (max-width: 768px) {
-      .curated-item-teaser {
-        display: block;
-      }
-      .teaser-first {
-        display: -webkit-box;
-        -webkit-line-clamp: 2;
-        -webkit-box-orient: vertical;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        max-width: none;
-        white-space: normal;
-      }
-      /* Critical: reset the mobile box-clamp on the teaser-first when expanded.
-         Without this, teaser-first stays -webkit-box clamped to 2 lines, and
-         teaser-rest tries to flow inline AFTER that box — causing the visual
-         text overlap that Ed reported. Setting display inline lets P1 read
-         as one continuous paragraph again. */
-      .curated-item-accordion:not(.curated-item-collapsed) .teaser-first {
-        display: inline;
-        -webkit-line-clamp: unset;
-        -webkit-box-orient: unset;
-        overflow: visible;
-        text-overflow: clip;
-        white-space: normal;
-        max-width: none;
-      }
-      .read-more-cue {
-        display: inline-flex;
-        align-items: center;
-        margin-top: 4px;
-        font-family: var(--sans);
-        font-size: 11px;
-        font-weight: 600;
-        font-style: normal;
-        letter-spacing: 0.3px;
-        text-transform: none;
-        border-bottom: none;
-        opacity: 1;
-        gap: 3px;
-      }
-      .read-more-cue::after {
-        content: '\203A';   /* › chevron right (iOS-style disclosure) */
-        font-size: 16px;
-        font-style: normal;
-        line-height: 1;
-        position: relative;
-        top: 1px;
-      }
-    }
-    .curated-column:last-child .read-more-cue { color: var(--accent-dom); }
-    .curated-item-accordion:not(.curated-item-collapsed) .read-more-cue {
-      display: none;
-    }
-    @media (hover: hover) {
-      .curated-item-accordion:hover .read-more-cue { opacity: 0.8; }
-    }
-    /* Body content (P2 onwards + dive-deeper) sits flush, indented to match teaser */
-    .curated-item-body > p:first-child {
-      margin-top: 12px;
-      padding-left: 18px;
-    }
-    .curated-item-body > p {
-      padding-left: 18px;
     }
 
     /* ── Collapsible impact box ── */
@@ -5313,58 +5166,10 @@ window._marketData = {};
         items.forEach((item, i) => {
           // Wrap all non-h4 children into a .curated-item-body for grid animation
           const h4 = item.querySelector('h4');
-
-          // The teaser now holds the FULL first paragraph, split into:
-          //   <span class="teaser-first">first sentence</span>
-          //   <span class="teaser-rest">  rest of paragraph 1</span>
-          //   <span class="read-more-cue">Read more</span>
-          // Body starts from paragraph 2 onwards so there's no paragraph break
-          // between sentence 1 and sentence 2 when expanded — it flows as one P.
-          const firstP = item.querySelector('p');
-          let teaserFirstText = '';
-          let teaserRestText = '';
-          if (firstP) {
-            const fullText = firstP.textContent.trim();
-            const sentenceMatch = fullText.match(/^([^.!?]+[.!?])\s*([\s\S]*)$/);
-            if (sentenceMatch) {
-              teaserFirstText = sentenceMatch[1];
-              teaserRestText = sentenceMatch[2].trim();
-            } else {
-              teaserFirstText = fullText.split(' ').slice(0, 25).join(' ') + '…';
-              teaserRestText = '';
-            }
-            if (teaserFirstText.length > 180) teaserFirstText = teaserFirstText.slice(0, 177).trim() + '…';
-            // Remove the original first paragraph entirely — its content now lives in the teaser
-            firstP.remove();
-          }
-
           const body = document.createElement('div');
           body.className = 'curated-item-body';
           while (h4 && h4.nextSibling) body.appendChild(h4.nextSibling);
           item.appendChild(body);
-
-          // Insert teaser between h4 and body
-          if (teaserFirstText && h4) {
-            const teaserEl = document.createElement('p');
-            teaserEl.className = 'curated-item-teaser';
-            const esc = function(s) {
-              return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
-            };
-            let inner = '<span class="teaser-first">' + esc(teaserFirstText) + '</span>';
-            if (teaserRestText) {
-              inner += '<span class="teaser-rest"> ' + esc(teaserRestText) + '</span>';
-            }
-            inner += '<span class="read-more-cue">Read more</span>';
-            teaserEl.innerHTML = inner;
-            teaserEl.addEventListener('click', function(e) {
-              // Only trigger expand when the click is on the cue or while collapsed;
-              // when expanded, the teaser is just text and shouldn't toggle.
-              if (item.classList.contains('curated-item-collapsed')) {
-                h4.click();
-              }
-            });
-            item.insertBefore(teaserEl, body);
-          }
 
           item.classList.add('curated-item-accordion');
           item.classList.add('curated-item-collapsed');
