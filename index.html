@@ -1946,9 +1946,25 @@
       transform: translateX(2px);
     }
     /* On mobile, the italic serif cue feels print-y and unnatural.
-       Switch to sans-serif with a chevron (›) — closer to native iOS / Android UI. */
+       Switch to sans-serif with a chevron (›) — closer to native iOS / Android UI.
+       Also: allow teaser to wrap to 2 lines (not 1) with Read more cue below. */
     @media (max-width: 768px) {
+      .curated-item-teaser {
+        display: block;
+      }
+      .teaser-first {
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: none;
+        white-space: normal;
+      }
       .read-more-cue {
+        display: inline-flex;
+        align-items: center;
+        margin-top: 4px;
         font-family: var(--sans);
         font-size: 11px;
         font-weight: 600;
