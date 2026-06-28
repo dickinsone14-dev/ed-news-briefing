@@ -197,6 +197,8 @@
       --border-light: #d6d0c5;
       --accent-geo: #c4354d;
       --accent-dom: #2680bf;
+      --impact-accent: #2d8a7e;        /* teal-jade — distinct from GEO red and UK blue, anchors the impact banner */
+      --impact-accent-soft: 45, 138, 126;  /* RGB triplet for rgba() gradients */
       --text-warm: #2a1f0e;
       --accent-green: #1a7a3a;
       --accent-red: #b32020;
@@ -638,27 +640,80 @@
       color: var(--text-muted); font-size: 14px; font-style: italic;
     }
 
-    /* ── Feature 1: What It Means For You ── */
+    /* ── Feature 1: What It Means For You ──
+       Visual treatment elevated to feel like a banner-quality summary, not an
+       inline note. Heavier left rule, branded burgundy tone, larger serif
+       heading, more breathing room. Each bullet leads with an accent dot. */
     .impact-box {
-      margin: 14px 0 18px; padding: 12px 16px;
-      background: var(--bg-section); border-left: 3px solid var(--border);
-      border-radius: 0 6px 6px 0;
+      margin: 18px 0 22px; padding: 18px 22px 20px;
+      background: linear-gradient(to right,
+        rgba(45, 138, 126, 0.07) 0%,
+        var(--bg-section) 100%);
+      border-left: 4px solid var(--impact-accent);
+      border-radius: 0 4px 4px 0;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+      position: relative;
     }
     .impact-heading {
-      font-family: var(--sans); font-size: 10px; font-weight: 700;
-      letter-spacing: 1.2px; text-transform: uppercase;
-      color: var(--text-tertiary); margin-bottom: 8px;
+      font-family: var(--serif);
+      font-size: 17px;
+      font-weight: 800;
+      letter-spacing: -0.2px;
+      text-transform: none;
+      color: var(--impact-accent);
+      margin-bottom: 12px;
+      display: flex;
+      align-items: baseline;
+      gap: 10px;
+    }
+    .impact-heading::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: var(--impact-accent);
+      opacity: 0.18;
+      transform: translateY(-3px);
     }
     .impact-list { list-style: none; padding: 0; margin: 0; }
     .impact-list li {
-      font-family: var(--sans); font-size: 16px; line-height: 1.5;
-      color: var(--text-secondary); padding: 3px 0;
-      padding-left: 14px; position: relative;
+      font-family: var(--sans);
+      font-size: 16px;
+      line-height: 1.55;
+      color: var(--text-primary);
+      padding: 6px 0;
+      padding-left: 18px;
+      position: relative;
+    }
+    .impact-list li + li {
+      border-top: 1px solid rgba(45, 138, 126, 0.12);
+      margin-top: 4px;
     }
     .impact-list li::before {
-      content: '\203A'; position: absolute; left: 0; color: var(--text-tertiary); font-weight: 700;
+      content: '';
+      position: absolute;
+      left: 0; top: 14px;
+      width: 6px; height: 6px;
+      border-radius: 50%;
+      background: var(--impact-accent);
     }
-    @media (max-width: 768px) { .impact-box { margin: 10px 0 14px; } .impact-list li { text-align: left; } .dive-deeper .deeper-content { text-align: left; } }
+    .impact-list li strong {
+      color: var(--impact-accent);
+      font-weight: 700;
+      letter-spacing: 0.2px;
+    }
+    /* Topic-themed subheading colours (applied by JS via keyword match) */
+    .impact-list li strong.impact-tag-politics { color: var(--accent-dom); }
+    .impact-list li strong.impact-tag-markets  { color: #c9a227; }   /* warm gold for money */
+    .impact-list li strong.impact-tag-geo      { color: var(--accent-geo); }
+    .impact-list li strong.impact-tag-energy   { color: #d97706; }   /* warm amber */
+    .impact-list li strong.impact-tag-climate  { color: #2e86ab; }   /* sky blue */
+    .impact-list li strong.impact-tag-defence  { color: #6b4f8b; }   /* muted purple */
+    @media (max-width: 768px) {
+      .impact-box { margin: 12px 0 16px; padding: 16px 18px 18px; }
+      .impact-heading { font-size: 15px; }
+      .impact-list li { text-align: left; font-size: 15px; }
+      .dive-deeper .deeper-content { text-align: left; }
+    }
 
     /* ── Feature 2: Weekly Roundup ── */
     .curated-edition.weekly {
@@ -2016,27 +2071,81 @@
       padding-left: 18px;
     }
 
-    /* ── Collapsible impact box ── */
-    .impact-details { margin: 14px 0 18px; }
+    /* ── Collapsible impact box (banner-style summary, not a forgettable button) ── */
+    .impact-details { margin: 18px 0 22px; }
     .impact-details summary {
-      font-family: var(--sans); font-size: 10px; font-weight: 700;
-      letter-spacing: 1.2px; text-transform: uppercase;
-      color: var(--text-muted); cursor: pointer;
-      padding: 12px 16px;
-      background: var(--highlight-bg);
-      border-left: 3px solid rgba(255,255,255,0.25);
-      border-radius: 0 6px 6px 0;
+      font-family: var(--serif);
+      font-size: 16px;
+      font-weight: 800;
+      letter-spacing: -0.2px;
+      text-transform: none;
+      color: var(--impact-accent);
+      cursor: pointer;
+      padding: 16px 22px;
+      background: linear-gradient(to right,
+        rgba(45, 138, 126, 0.12) 0%,
+        rgba(45, 138, 126, 0.05) 50%,
+        var(--bg-section) 100%);
+      border-left: 4px solid var(--impact-accent);
+      border-radius: 0 4px 4px 0;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.04);
       list-style: none;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      transition: background 0.25s ease, transform 0.15s ease;
+      position: relative;
     }
     .impact-details summary::-webkit-details-marker { display: none; }
+    .impact-details summary::before {
+      content: '';
+      flex-shrink: 0;
+      width: 8px; height: 8px;
+      border-radius: 50%;
+      background: var(--impact-accent);
+      box-shadow: 0 0 0 4px rgba(45, 138, 126, 0.18);
+      animation: impactPulse 2.4s ease-in-out infinite;
+    }
     .impact-details summary::after {
-      content: ' \25BC'; font-size: 8px; opacity: 0.5;
+      content: '\25BC';
+      margin-left: auto;
+      font-size: 11px;
+      color: var(--impact-accent);
+      opacity: 0.75;
+      transition: transform 0.25s ease;
+    }
+    @media (hover: hover) {
+      .impact-details summary:hover {
+        background: linear-gradient(to right,
+          rgba(45, 138, 126, 0.18) 0%,
+          rgba(45, 138, 126, 0.09) 50%,
+          var(--bg-section) 100%);
+      }
     }
     .impact-details[open] summary {
-      border-radius: 0 6px 0 0;
+      border-radius: 0 4px 0 0;
+    }
+    .impact-details[open] summary::after {
+      transform: rotate(180deg);
+    }
+    .impact-details[open] summary::before {
+      animation: none;
+    }
+    @keyframes impactPulse {
+      0%, 100% { box-shadow: 0 0 0 4px rgba(45, 138, 126, 0.18); }
+      50%      { box-shadow: 0 0 0 7px rgba(45, 138, 126, 0.06); }
     }
     .impact-details .impact-box {
-      margin: 0; border-radius: 0 0 6px 0;
+      margin: 0;
+      border-radius: 0 0 4px 0;
+      box-shadow: none;
+    }
+    .impact-details[open] .impact-box {
+      border-left-color: transparent;  /* summary already provides the left bar */
+    }
+    @media (max-width: 768px) {
+      .impact-details { margin: 12px 0 16px; }
+      .impact-details summary { font-size: 14px; padding: 14px 16px; gap: 10px; }
     }
 
     /* ── Mobile collapse button at bottom of expanded details ── */
@@ -5305,6 +5414,26 @@ window._marketData = {};
         if (heading) heading.remove();
         box.parentNode.insertBefore(details, box);
         details.appendChild(box);
+
+        // Colour-code each bullet's leading <strong> tag by topic.
+        // Reader sees at a glance which area each bullet covers.
+        box.querySelectorAll('.impact-list li strong').forEach(s => {
+          const t = (s.textContent || '').toLowerCase().replace(':', '').trim();
+          const themes = [
+            ['impact-tag-politics',  ['politics', 'westminster', 'labour', 'tories', 'cabinet', 'pm', 'commons', 'parliament', 'whitehall', 'starmer', 'burnham', 'reform']],
+            ['impact-tag-markets',   ['markets', 'economy', 'sterling', 'gilts', 'gilt', 'bonds', 'ftse', 'pound', 'inflation', 'finance', 'rates', 'rate']],
+            ['impact-tag-geo',       ['iran', 'russia', 'ukraine', 'israel', 'lebanon', 'gaza', 'china', 'taiwan', 'middle east', 'mideast', 'kyiv', 'moscow', 'tehran']],
+            ['impact-tag-energy',    ['energy', 'oil', 'gas', 'brent', 'hormuz', 'fuel', 'petrol']],
+            ['impact-tag-climate',   ['weather', 'climate', 'heatwave', 'heat', 'storm', 'flood']],
+            ['impact-tag-defence',   ['defence', 'military', 'nato', 'army', 'navy', 'war']],
+          ];
+          for (const [cls, keywords] of themes) {
+            if (keywords.some(k => t.includes(k))) {
+              s.classList.add(cls);
+              break;
+            }
+          }
+        });
       });
 
       // Accordion: wrap content in body div, one expanded per column, always keep one open
