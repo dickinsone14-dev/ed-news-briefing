@@ -1945,6 +1945,29 @@
     .curated-item-accordion:hover .read-more-cue::after {
       transform: translateX(2px);
     }
+    /* On mobile, the italic serif cue feels print-y and unnatural.
+       Switch to sans-serif with a chevron (›) — closer to native iOS / Android UI. */
+    @media (max-width: 768px) {
+      .read-more-cue {
+        font-family: var(--sans);
+        font-size: 11px;
+        font-weight: 600;
+        font-style: normal;
+        letter-spacing: 0.3px;
+        text-transform: none;
+        border-bottom: none;
+        opacity: 1;
+        gap: 3px;
+      }
+      .read-more-cue::after {
+        content: '\203A';   /* › chevron right (iOS-style disclosure) */
+        font-size: 16px;
+        font-style: normal;
+        line-height: 1;
+        position: relative;
+        top: 1px;
+      }
+    }
     .curated-column:last-child .read-more-cue { color: var(--accent-dom); }
     .curated-item-accordion:not(.curated-item-collapsed) .read-more-cue {
       display: none;
