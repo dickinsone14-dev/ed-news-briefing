@@ -1909,9 +1909,11 @@
       overflow: visible;
     }
     .curated-item-accordion:not(.curated-item-collapsed) .teaser-first {
+      display: inline;
       overflow: visible;
       text-overflow: clip;
       white-space: normal;
+      max-width: none;
     }
     .teaser-rest {
       display: none;
@@ -1960,6 +1962,20 @@
         text-overflow: ellipsis;
         max-width: none;
         white-space: normal;
+      }
+      /* Critical: reset the mobile box-clamp on the teaser-first when expanded.
+         Without this, teaser-first stays -webkit-box clamped to 2 lines, and
+         teaser-rest tries to flow inline AFTER that box — causing the visual
+         text overlap that Ed reported. Setting display inline lets P1 read
+         as one continuous paragraph again. */
+      .curated-item-accordion:not(.curated-item-collapsed) .teaser-first {
+        display: inline;
+        -webkit-line-clamp: unset;
+        -webkit-box-orient: unset;
+        overflow: visible;
+        text-overflow: clip;
+        white-space: normal;
+        max-width: none;
       }
       .read-more-cue {
         display: inline-flex;
