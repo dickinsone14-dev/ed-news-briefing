@@ -638,27 +638,73 @@
       color: var(--text-muted); font-size: 14px; font-style: italic;
     }
 
-    /* ── Feature 1: What It Means For You ── */
+    /* ── Feature 1: What It Means For You ──
+       Visual treatment elevated to feel like a banner-quality summary, not an
+       inline note. Heavier left rule, branded burgundy tone, larger serif
+       heading, more breathing room. Each bullet leads with an accent dot. */
     .impact-box {
-      margin: 14px 0 18px; padding: 12px 16px;
-      background: var(--bg-section); border-left: 3px solid var(--border);
-      border-radius: 0 6px 6px 0;
+      margin: 18px 0 22px; padding: 18px 22px 20px;
+      background: linear-gradient(to right,
+        rgba(139, 35, 50, 0.06) 0%,
+        var(--bg-section) 100%);
+      border-left: 4px solid var(--accent-geo);
+      border-radius: 0 4px 4px 0;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+      position: relative;
     }
     .impact-heading {
-      font-family: var(--sans); font-size: 10px; font-weight: 700;
-      letter-spacing: 1.2px; text-transform: uppercase;
-      color: var(--text-tertiary); margin-bottom: 8px;
+      font-family: var(--serif);
+      font-size: 17px;
+      font-weight: 800;
+      letter-spacing: -0.2px;
+      text-transform: none;
+      color: var(--accent-geo);
+      margin-bottom: 12px;
+      display: flex;
+      align-items: baseline;
+      gap: 10px;
+    }
+    .impact-heading::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: var(--accent-geo);
+      opacity: 0.18;
+      transform: translateY(-3px);
     }
     .impact-list { list-style: none; padding: 0; margin: 0; }
     .impact-list li {
-      font-family: var(--sans); font-size: 16px; line-height: 1.5;
-      color: var(--text-secondary); padding: 3px 0;
-      padding-left: 14px; position: relative;
+      font-family: var(--sans);
+      font-size: 16px;
+      line-height: 1.55;
+      color: var(--text-primary);
+      padding: 6px 0;
+      padding-left: 18px;
+      position: relative;
+    }
+    .impact-list li + li {
+      border-top: 1px solid rgba(139, 35, 50, 0.10);
+      margin-top: 4px;
     }
     .impact-list li::before {
-      content: '\203A'; position: absolute; left: 0; color: var(--text-tertiary); font-weight: 700;
+      content: '';
+      position: absolute;
+      left: 0; top: 14px;
+      width: 6px; height: 6px;
+      border-radius: 50%;
+      background: var(--accent-geo);
     }
-    @media (max-width: 768px) { .impact-box { margin: 10px 0 14px; } .impact-list li { text-align: left; } .dive-deeper .deeper-content { text-align: left; } }
+    .impact-list li strong {
+      color: var(--accent-geo);
+      font-weight: 700;
+      letter-spacing: 0.2px;
+    }
+    @media (max-width: 768px) {
+      .impact-box { margin: 12px 0 16px; padding: 16px 18px 18px; }
+      .impact-heading { font-size: 15px; }
+      .impact-list li { text-align: left; font-size: 15px; }
+      .dive-deeper .deeper-content { text-align: left; }
+    }
 
     /* ── Feature 2: Weekly Roundup ── */
     .curated-edition.weekly {
