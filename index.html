@@ -5303,10 +5303,9 @@ window._marketData = {};
               teaserFirstText = sentenceMatch[1];
               teaserRestText = sentenceMatch[2].trim();
             } else {
-              teaserFirstText = fullText.split(' ').slice(0, 25).join(' ') + '…';
+              teaserFirstText = fullText;
               teaserRestText = '';
             }
-            if (teaserFirstText.length > 180) teaserFirstText = teaserFirstText.slice(0, 177).trim() + '…';
             // Remove the original first paragraph entirely — its content now lives in the teaser
             firstP.remove();
           }
