@@ -3,7 +3,7 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
     <loc>https://thedailybrief.co.uk/</loc>
-    <lastmod>2026-06-28</lastmod>
+    <lastmod>2026-06-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -5902,6 +5902,72 @@
   <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-06-28-morning/ukraine-strikes-two-russian-oil-refineries-overnight-krasnodar-yaroslavl-zelensky-sunday-al-arabiya-us-news-ap-deep-strike-campaign-titan-barrikady-volgograd-aftermath-energy-infrastructure-fuel-crisis-siberia/</loc>
     <lastmod>2026-06-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-29-morning/</loc>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-29-morning/burnham-no-10-in-the-north-monday-major-speech-power-shift-whitehall-itv-economic-vision-devolution-prime-minister-waiting-japan-times-firstpost-rnz-haldane-haigh-architecture/</loc>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-29-morning/gaza-73000-monday-morning-post-deal-pressure-netanyahu-political-latitude-egyptian-mediators-hostage-talks-deadlock-70-percent-directive-multi-track-framework-stress-iran-de-escalation-aftermath/</loc>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-29-morning/iran-us-halt-attacks-resume-talks-qatar-tuesday-tribune-axios-overnight-agreement-pakistan-mediator-architecture-pezeshkian-trump-fragile-ceasefire-restoration/</loc>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-29-morning/labour-leadership-cabinet-monday-burnham-coronation-17-july-path-streeting-withdrawal-nandy-reeves-endorsement-powell-miliband-chancellor-darren-jones-architecture-defining-week-political-transition/</loc>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-29-morning/markets-monday-open-ftse-10650-iran-de-escalation-brent-87-50-falls-back-gbp-1-3200-firmer-burnham-speech-bond-market-watch-gilt-yields-4-94-bank-england-mpc-august-cut-probability/</loc>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-29-morning/rubio-israel-lebanon-trilateral-deal-doubt-monday-strikes-aftermath-hezbollah-disarmament-precondition-witkoff-mediation-de-confliction-cell-stress-test-multi-track-framework-pressure/</loc>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-29-morning/russia-pounds-ukraine-fortress-belt-tbs-news-monday-donetsk-defensive-line-summer-offensive-pokrovsk-kostiantynivka-deep-strike-aftermath-zelensky-preemptive-doctrine/</loc>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-29-morning/uk-destroyers-drone-vessels-monday-common-combat-vessel-future-war-ready-aneuz-defence-spending-architecture-burnham-era-war-bonds-context-strategic-shift-decade-procurement/</loc>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-29-morning/venezuela-earthquake-recovery-international-aid-monday-aftermath-rodriguez-acting-president-death-toll-stabilising-international-response-architecture-disaster-management-latin-america-regional-cooperation/</loc>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-29-morning/vw-volkswagen-100000-job-losses-monday-global-overhaul-cardealermagazine-european-auto-sector-structural-pressure-electric-transition-tariff-context-trump-architecture-jaguar-land-rover-context/</loc>
+    <lastmod>2026-06-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>

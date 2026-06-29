@@ -2,6 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-29-morning/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-29T08:15:00+01:00</news:publication_date>
+      <news:title>Morning Briefing — Monday 29 June 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-29-morning/iran-us-halt-attacks-resume-talks-qatar-tuesday-tribune-axios-overnight-agreement-pakistan-mediator-architecture-pezeshkian-trump-fragile-ceasefire-restoration/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-29T08:15:00+01:00</news:publication_date>
+      <news:title>Iran and US Agree to Halt Attacks and Resume Talks in Qatar Tuesday</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-29-morning/russia-pounds-ukraine-fortress-belt-tbs-news-monday-donetsk-defensive-line-summer-offensive-pokrovsk-kostiantynivka-deep-strike-aftermath-zelensky-preemptive-doctrine/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-29T08:15:00+01:00</news:publication_date>
+      <news:title>Russia Pounds on the Gates of Ukraine’s “Fortress Belt”</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-29-morning/rubio-israel-lebanon-trilateral-deal-doubt-monday-strikes-aftermath-hezbollah-disarmament-precondition-witkoff-mediation-de-confliction-cell-stress-test-multi-track-framework-pressure/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-29T08:15:00+01:00</news:publication_date>
+      <news:title>Israel-Lebanon Ceasefire Deal Remains Fragile After Weekend Strikes</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-29-morning/gaza-73000-monday-morning-post-deal-pressure-netanyahu-political-latitude-egyptian-mediators-hostage-talks-deadlock-70-percent-directive-multi-track-framework-stress-iran-de-escalation-aftermath/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-29T08:15:00+01:00</news:publication_date>
+      <news:title>Gaza Death Toll Still Above 73,000 as Multi-Track Mid-East Peace Strains Continue</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-29-morning/venezuela-earthquake-recovery-international-aid-monday-aftermath-rodriguez-acting-president-death-toll-stabilising-international-response-architecture-disaster-management-latin-america-regional-cooperation/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-29T08:15:00+01:00</news:publication_date>
+      <news:title>Venezuela Recovery Continues After Twin Earthquakes; International Aid Arrives</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-29-morning/burnham-no-10-in-the-north-monday-major-speech-power-shift-whitehall-itv-economic-vision-devolution-prime-minister-waiting-japan-times-firstpost-rnz-haldane-haigh-architecture/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-29T08:15:00+01:00</news:publication_date>
+      <news:title>Burnham to Unveil “No 10 in the North” in Major Speech Today</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-29-morning/uk-destroyers-drone-vessels-monday-common-combat-vessel-future-war-ready-aneuz-defence-spending-architecture-burnham-era-war-bonds-context-strategic-shift-decade-procurement/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-29T08:15:00+01:00</news:publication_date>
+      <news:title>UK Scraps Destroyer Replacement; Switches to Drone Warships</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-29-morning/markets-monday-open-ftse-10650-iran-de-escalation-brent-87-50-falls-back-gbp-1-3200-firmer-burnham-speech-bond-market-watch-gilt-yields-4-94-bank-england-mpc-august-cut-probability/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-29T08:15:00+01:00</news:publication_date>
+      <news:title>Markets Open Calmer on Iran De-Escalation; Bond Markets Watch Burnham Speech</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-29-morning/labour-leadership-cabinet-monday-burnham-coronation-17-july-path-streeting-withdrawal-nandy-reeves-endorsement-powell-miliband-chancellor-darren-jones-architecture-defining-week-political-transition/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-29T08:15:00+01:00</news:publication_date>
+      <news:title>Labour Leadership Transition Enters Defining Week as Burnham Coronation Path Holds</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-29-morning/vw-volkswagen-100000-job-losses-monday-global-overhaul-cardealermagazine-european-auto-sector-structural-pressure-electric-transition-tariff-context-trump-architecture-jaguar-land-rover-context/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-29T08:15:00+01:00</news:publication_date>
+      <news:title>Volkswagen Drawing Up Plans to Cut 100,000 Jobs Globally</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-06-28-evening/</loc>
     <news:news>
       <news:publication>

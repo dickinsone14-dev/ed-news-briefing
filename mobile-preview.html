@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<title>Mobile Preview — The Daily Brief (draft)</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body {
+    background: #1a1a1a;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    color: #f0ece4;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+    gap: 16px;
+  }
+  h1 {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: rgba(240,236,228,0.7);
+  }
+  .controls {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+  }
+  .controls button {
+    background: #8b2332;
+    color: #f0ece4;
+    border: none;
+    padding: 8px 14px;
+    font-family: inherit;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  .controls button:hover { background: #a8293c; }
+  .controls button.active { background: #f0ece4; color: #1a1a1a; }
+  .controls .size-label {
+    font-size: 12px;
+    color: rgba(240,236,228,0.6);
+    margin-left: 12px;
+  }
+
+  .phone-frame {
+    background: #000;
+    border-radius: 36px;
+    padding: 12px 8px;
+    box-shadow: 0 20px 80px rgba(0,0,0,0.6);
+    transition: width 0.3s ease, height 0.3s ease;
+  }
+  .phone-frame iframe {
+    border: none;
+    border-radius: 28px;
+    background: #fff;
+    display: block;
+    transition: width 0.3s ease, height 0.3s ease;
+  }
+
+  /* iPhone 14 Pro: 390 × 844 */
+  .device-iphone .phone-frame iframe { width: 390px; height: 844px; }
+  /* iPhone SE: 375 × 667 */
+  .device-iphone-se .phone-frame iframe { width: 375px; height: 667px; }
+  /* Pixel 7: 412 × 915 */
+  .device-pixel .phone-frame iframe { width: 412px; height: 915px; }
+  /* iPad Mini: 768 × 1024 */
+  .device-ipad .phone-frame iframe { width: 768px; height: 1024px; }
+</style>
+</head>
+<body class="device-iphone">
+
+<h1>Mobile Preview — Draft (expandable headlines)</h1>
+
+<div class="controls">
+  <button data-device="iphone" class="active">iPhone 14 Pro · 390</button>
+  <button data-device="iphone-se">iPhone SE · 375</button>
+  <button data-device="pixel">Pixel 7 · 412</button>
+  <button data-device="ipad">iPad Mini · 768</button>
+  <span class="size-label" id="sizeLabel">390 × 844</span>
+</div>
+
+<div class="phone-frame">
+  <iframe src="/index.html#curatedLabel" title="Draft site mobile preview"></iframe>
+</div>
+
+<script>
+  const sizes = {
+    iphone:    { w: 390, h: 844, label: 'iPhone 14 Pro · 390 × 844' },
+    'iphone-se': { w: 375, h: 667, label: 'iPhone SE · 375 × 667' },
+    pixel:     { w: 412, h: 915, label: 'Pixel 7 · 412 × 915' },
+    ipad:      { w: 768, h: 1024, label: 'iPad Mini · 768 × 1024' },
+  };
+
+  document.querySelectorAll('.controls button').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const device = btn.dataset.device;
+      document.body.className = 'device-' + device;
+      document.querySelectorAll('.controls button').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      document.getElementById('sizeLabel').textContent = sizes[device].label;
+    });
+  });
+</script>
+
+</body>
+</html>

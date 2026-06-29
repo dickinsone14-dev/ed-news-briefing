@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>The Daily Brief — Outro</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800;900&family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #000; overflow: hidden; }
+
+  .story {
+    position: relative;
+    width: 1080px;
+    height: 1920px;
+    background: #000;
+    overflow: hidden;
+  }
+
+  /* Wrapper that holds entire outro and fades it OUT at the end */
+  .outro-wrap {
+    position: absolute; inset: 0;
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    opacity: 1;
+    animation: outroFadeOut 1.3s ease forwards 2.7s;
+  }
+  @keyframes outroFadeOut { to { opacity: 0; } }
+
+  @keyframes fadeIn { to { opacity: 1; } }
+
+  .end-brand {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 92px; font-weight: 800; color: #fff;
+    letter-spacing: 3px; margin-bottom: 60px;
+    opacity: 0; animation: fadeIn 0.4s ease forwards 0.0s;
+  }
+
+  .end-line {
+    width: 0; height: 4px; background: #c8963e; margin-bottom: 60px;
+    animation: endLineExtend 0.6s ease forwards 0.3s;
+  }
+  @keyframes endLineExtend { to { width: 320px; } }
+
+  .end-cta {
+    font-family: 'Inter', sans-serif;
+    font-size: 38px; font-weight: 600; color: rgba(255,255,255,0.7);
+    letter-spacing: 3px; text-transform: uppercase; margin-bottom: 36px;
+    line-height: 1.35; text-align: center; max-width: 900px;
+    opacity: 0; animation: fadeIn 0.4s ease forwards 0.6s;
+  }
+
+  .end-url {
+    font-family: 'Inter', sans-serif;
+    font-size: 60px; font-weight: 800; color: #c8963e; letter-spacing: 3px;
+    opacity: 0; animation: fadeIn 0.4s ease forwards 0.9s;
+  }
+
+  /* Browser preview scaling */
+  @media screen {
+    .story { transform: scale(0.35); transform-origin: top left; margin-bottom: -1248px; margin-right: -702px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="story">
+  <div class="outro-wrap">
+    <div class="end-brand">The Daily Brief</div>
+    <div class="end-line"></div>
+    <div class="end-cta">Keep up to date with<br>everything politics</div>
+    <div class="end-url">thedailybrief.co.uk</div>
+  </div>
+</div>
+
+</body>
+</html>

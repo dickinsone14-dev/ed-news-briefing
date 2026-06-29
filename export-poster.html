@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<title>The Daily Brief — A6 Poster (4-up A4)</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800;900&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+<style>
+  :root {
+    --navy: #1a1a2e;
+    --cream: #f0ece4;
+    --burgundy: #8b2332;
+    --burgundy-bright: #a8293c;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html, body {
+    background: #2a2a35;
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    min-height: 100vh;
+  }
+
+  .controls {
+    position: fixed;
+    top: 16px;
+    right: 16px;
+    z-index: 100;
+    display: flex;
+    gap: 8px;
+  }
+  .controls button {
+    background: var(--burgundy);
+    color: var(--cream);
+    border: none;
+    padding: 10px 18px;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  .controls button:hover { background: var(--burgundy-bright); }
+
+  .a4-page {
+    /* A4 portrait: 210mm × 297mm */
+    width: 210mm;
+    height: 297mm;
+    background: #ffffff;
+    margin: 30px auto;
+    box-shadow: 0 10px 60px rgba(0,0,0,0.5);
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 5mm;
+    gap: 5mm;
+  }
+
+  .poster {
+    background: var(--navy);
+    color: var(--cream);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6mm 5mm;
+    position: relative;
+    overflow: hidden;
+    border: 0.4mm solid var(--burgundy);
+  }
+
+  /* Subtle noise texture */
+  .poster::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: url("data:image/svg+xml;utf8,<svg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3'/></filter><rect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/></svg>");
+    pointer-events: none;
+    opacity: 0.5;
+  }
+
+  .poster > * { position: relative; z-index: 1; }
+
+  /* Crop marks */
+  .crop-mark {
+    position: absolute;
+    background: #888;
+    z-index: 10;
+  }
+  .crop-mark.h { width: 3mm; height: 0.15mm; }
+  .crop-mark.v { width: 0.15mm; height: 3mm; }
+
+  /* ── LOGO BLOCK ── */
+  .logo-block {
+    text-align: center;
+    margin-top: 3mm;
+    width: 100%;
+  }
+  .logo-the {
+    font-family: 'Inter', sans-serif;
+    font-size: 9pt;
+    font-weight: 600;
+    letter-spacing: 6pt;
+    color: rgba(240,236,228,0.55);
+    margin-bottom: 1.5mm;
+    margin-right: -6pt;   /* negative margin compensates for trailing letter-spacing → true visual centre */
+  }
+  .logo-daily-brief {
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    font-size: 33pt;
+    line-height: 0.95;
+    color: var(--cream);
+    white-space: nowrap;
+    letter-spacing: -0.5pt;  /* tighter, more newspaper-masthead feel */
+  }
+  .logo-underline {
+    width: 42mm;
+    height: 1.2mm;
+    background: var(--burgundy);
+    margin: 2mm auto 0;
+  }
+
+  /* ── SLOGAN ── */
+  .slogan-block {
+    text-align: center;
+    margin: 1mm 0;
+  }
+  .slogan {
+    font-family: 'Playfair Display', serif;
+    font-weight: 800;
+    font-style: italic;
+    font-size: 32pt;
+    line-height: 1.05;
+    color: var(--cream);
+    margin-bottom: 3mm;
+  }
+  .subhead {
+    font-family: 'Inter', sans-serif;
+    font-size: 10pt;
+    font-weight: 500;
+    letter-spacing: 0.5pt;
+    color: rgba(240,236,228,0.8);
+  }
+
+  /* ── QR CODE BLOCK ── */
+  .qr-block {
+    background: var(--cream);
+    padding: 2mm;
+    border: 0.5mm solid var(--burgundy);
+    line-height: 0;
+  }
+  .qr-block img {
+    display: block;
+    width: 32mm;
+    height: 32mm;
+  }
+
+  /* ── FOOTER ── */
+  .footer-block {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 1mm;
+  }
+  .url {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 13pt;
+    color: var(--cream);
+    margin-bottom: 1.5mm;
+  }
+  .schedule {
+    font-family: 'Inter', sans-serif;
+    font-size: 8pt;
+    font-weight: 700;
+    letter-spacing: 1.5pt;
+    text-transform: uppercase;
+    color: var(--burgundy-bright);
+  }
+
+  /* Print styles */
+  @media print {
+    body { background: white; }
+    .controls, .info { display: none; }
+    .a4-page { margin: 0; box-shadow: none; page-break-after: always; }
+    @page { size: A4 portrait; margin: 0; }
+  }
+
+  .info {
+    text-align: center;
+    color: rgba(255,255,255,0.6);
+    font-size: 12px;
+    padding: 16px;
+  }
+</style>
+</head>
+<body>
+
+<div class="controls">
+  <button onclick="window.print()">Print / Save PDF</button>
+</div>
+
+<div class="info">The Daily Brief — A6 poster · 4-up on A4 portrait · Cut along the gap between posters</div>
+
+<div class="a4-page" id="page">
+  <!-- Outer crop marks -->
+  <span class="crop-mark h" style="top: 2mm; left: 1mm;"></span>
+  <span class="crop-mark v" style="top: 1mm; left: 2mm;"></span>
+  <span class="crop-mark h" style="top: 2mm; right: 1mm;"></span>
+  <span class="crop-mark v" style="top: 1mm; right: 2mm;"></span>
+  <span class="crop-mark h" style="bottom: 2mm; left: 1mm;"></span>
+  <span class="crop-mark v" style="bottom: 1mm; left: 2mm;"></span>
+  <span class="crop-mark h" style="bottom: 2mm; right: 1mm;"></span>
+  <span class="crop-mark v" style="bottom: 1mm; right: 2mm;"></span>
+  <!-- Centre crop marks -->
+  <span class="crop-mark h" style="top: 49%; left: 1mm;"></span>
+  <span class="crop-mark h" style="top: 49%; right: 1mm;"></span>
+  <span class="crop-mark v" style="left: 49.5%; top: 1mm;"></span>
+  <span class="crop-mark v" style="left: 49.5%; bottom: 1mm;"></span>
+
+  <!-- Poster 1 -->
+  <div class="poster">
+    <div class="logo-block">
+      <div class="logo-the">THE</div>
+      <div class="logo-daily-brief">Daily Brief</div>
+      <div class="logo-underline"></div>
+    </div>
+    <div class="slogan-block">
+      <div class="slogan">Drowning in<br>headlines?</div>
+      <div class="subhead">Daily politics, simplified.</div>
+    </div>
+    <div class="qr-block">
+      <img src="https://api.qrserver.com/v1/create-qr-code/?size=400x400&data=https%3A%2F%2Fthedailybrief.co.uk&ecc=H&margin=0&color=1a1a2e&bgcolor=f0ece4" alt="QR" />
+    </div>
+    <div class="footer-block">
+      <div class="url">thedailybrief.co.uk</div>
+      <div class="schedule">08:00 &nbsp;·&nbsp; 18:00 &nbsp;BST</div>
+    </div>
+  </div>
+
+  <!-- Poster 2 -->
+  <div class="poster">
+    <div class="logo-block">
+      <div class="logo-the">THE</div>
+      <div class="logo-daily-brief">Daily Brief</div>
+      <div class="logo-underline"></div>
+    </div>
+    <div class="slogan-block">
+      <div class="slogan">Drowning in<br>headlines?</div>
+      <div class="subhead">Daily politics, simplified.</div>
+    </div>
+    <div class="qr-block">
+      <img src="https://api.qrserver.com/v1/create-qr-code/?size=400x400&data=https%3A%2F%2Fthedailybrief.co.uk&ecc=H&margin=0&color=1a1a2e&bgcolor=f0ece4" alt="QR" />
+    </div>
+    <div class="footer-block">
+      <div class="url">thedailybrief.co.uk</div>
+      <div class="schedule">08:00 &nbsp;·&nbsp; 18:00 &nbsp;BST</div>
+    </div>
+  </div>
+
+  <!-- Poster 3 -->
+  <div class="poster">
+    <div class="logo-block">
+      <div class="logo-the">THE</div>
+      <div class="logo-daily-brief">Daily Brief</div>
+      <div class="logo-underline"></div>
+    </div>
+    <div class="slogan-block">
+      <div class="slogan">Drowning in<br>headlines?</div>
+      <div class="subhead">Daily politics, simplified.</div>
+    </div>
+    <div class="qr-block">
+      <img src="https://api.qrserver.com/v1/create-qr-code/?size=400x400&data=https%3A%2F%2Fthedailybrief.co.uk&ecc=H&margin=0&color=1a1a2e&bgcolor=f0ece4" alt="QR" />
+    </div>
+    <div class="footer-block">
+      <div class="url">thedailybrief.co.uk</div>
+      <div class="schedule">08:00 &nbsp;·&nbsp; 18:00 &nbsp;BST</div>
+    </div>
+  </div>
+
+  <!-- Poster 4 -->
+  <div class="poster">
+    <div class="logo-block">
+      <div class="logo-the">THE</div>
+      <div class="logo-daily-brief">Daily Brief</div>
+      <div class="logo-underline"></div>
+    </div>
+    <div class="slogan-block">
+      <div class="slogan">Drowning in<br>headlines?</div>
+      <div class="subhead">Daily politics, simplified.</div>
+    </div>
+    <div class="qr-block">
+      <img src="https://api.qrserver.com/v1/create-qr-code/?size=400x400&data=https%3A%2F%2Fthedailybrief.co.uk&ecc=H&margin=0&color=1a1a2e&bgcolor=f0ece4" alt="QR" />
+    </div>
+    <div class="footer-block">
+      <div class="url">thedailybrief.co.uk</div>
+      <div class="schedule">08:00 &nbsp;·&nbsp; 18:00 &nbsp;BST</div>
+    </div>
+  </div>
+</div>
+
+<div class="info">Browser: Cmd+P → Save as PDF or print directly. Set scale to 100%, margins to none.</div>
+
+</body>
+</html>

@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Draft — Google SERP for "streeting resignation"</title>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Arial&display=swap" rel="stylesheet"/>
+<style>
+  * { box-sizing: border-box; }
+  body {
+    background: #fff;
+    color: #202124;
+    font-family: arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  .draft-banner {
+    background: #b8341a;
+    color: #fff;
+    padding: 10px 20px;
+    font-family: Inter, sans-serif;
+    font-size: 13px;
+    text-align: center;
+    letter-spacing: 0.3px;
+  }
+  .draft-banner strong { letter-spacing: 2px; text-transform: uppercase; margin-right: 8px; }
+
+  /* Google header */
+  .header {
+    display: flex;
+    align-items: center;
+    padding: 20px 40px 0;
+    gap: 30px;
+    border-bottom: 1px solid #ebebeb;
+  }
+  .logo {
+    font-family: arial, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: -2px;
+  }
+  .logo .g1 { color: #4285F4; }
+  .logo .o1 { color: #EA4335; }
+  .logo .o2 { color: #FBBC05; }
+  .logo .g2 { color: #4285F4; }
+  .logo .l { color: #34A853; }
+  .logo .e { color: #EA4335; }
+
+  .search-box {
+    flex: 1;
+    max-width: 700px;
+    height: 44px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    box-shadow: 0 1px 6px rgba(32,33,36,0.08);
+  }
+  .search-box input {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #202124;
+  }
+  .search-box .icons {
+    color: #4285F4;
+    font-size: 18px;
+  }
+
+  /* Tabs row */
+  .tabs {
+    padding: 16px 175px 0;
+    display: flex;
+    gap: 26px;
+    font-size: 13px;
+    color: #5f6368;
+  }
+  .tabs .tab.active {
+    color: #1a73e8;
+    border-bottom: 3px solid #1a73e8;
+    padding-bottom: 12px;
+    font-weight: 500;
+  }
+  .tabs .tab {
+    padding-bottom: 12px;
+    cursor: pointer;
+  }
+
+  .results-wrap {
+    max-width: 652px;
+    margin: 0;
+    padding: 20px 0 60px 175px;
+  }
+
+  .stats {
+    color: #70757a;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+
+  /* Single result */
+  .result {
+    margin-bottom: 28px;
+  }
+  .result .source-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 4px;
+  }
+  .result .favicon {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background: #1a1a1a;
+    color: #c8963e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 14px;
+    font-weight: 700;
+  }
+  .result .source-info {
+    display: flex;
+    flex-direction: column;
+  }
+  .result .source-name {
+    font-size: 14px;
+    color: #202124;
+  }
+  .result .source-url {
+    font-size: 12px;
+    color: #5f6368;
+  }
+  .result .more-dots {
+    margin-left: auto;
+    color: #5f6368;
+    cursor: pointer;
+    padding: 4px;
+  }
+  .result h3 {
+    margin: 4px 0 0;
+  }
+  .result h3 a {
+    color: #1a0dab;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    line-height: 1.3;
+  }
+  .result h3 a:visited { color: #681da8; }
+  .result h3 a:hover { text-decoration: underline; }
+  .result .snippet {
+    color: #4d5156;
+    font-size: 14px;
+    line-height: 1.58;
+    margin-top: 4px;
+    max-width: 600px;
+  }
+  .result .snippet .date {
+    color: #70757a;
+  }
+  .result .snippet em {
+    font-style: normal;
+    font-weight: 700;
+  }
+
+  /* Highlight the daily brief result */
+  .result.featured {
+    background: #fffbf2;
+    padding: 18px 22px;
+    border-radius: 8px;
+    border: 1px dashed #c8963e;
+    margin: 0 -22px 28px;
+  }
+  .result.featured::before {
+    content: "How thedailybrief.co.uk would appear in this search";
+    display: block;
+    font-family: 'Inter', sans-serif;
+    font-size: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #8a6f2f;
+    margin-bottom: 12px;
+    font-weight: 700;
+  }
+</style>
+</head>
+<body>
+
+<div class="draft-banner">
+  <strong>Draft</strong> Mock Google search results page — what a visitor searching <em>"streeting resignation"</em> would see. The Daily Brief result is highlighted to show how it'd appear.
+</div>
+
+<div class="header">
+  <div class="logo">
+    <span class="g1">G</span><span class="o1">o</span><span class="o2">o</span><span class="g2">g</span><span class="l">l</span><span class="e">e</span>
+  </div>
+  <div class="search-box">
+    <input value="streeting resignation"/>
+    <span class="icons">⌕</span>
+  </div>
+</div>
+
+<div class="tabs">
+  <div class="tab active">All</div>
+  <div class="tab">News</div>
+  <div class="tab">Images</div>
+  <div class="tab">Videos</div>
+  <div class="tab">Shopping</div>
+  <div class="tab">More</div>
+</div>
+
+<div class="results-wrap">
+  <div class="stats">About 482,000 results (0.42 seconds)</div>
+
+  <!-- Result 1: BBC -->
+  <div class="result">
+    <div class="source-row">
+      <div class="favicon" style="background:#bb1919;color:#fff;font-family:sans-serif;font-size:12px;">B</div>
+      <div class="source-info">
+        <div class="source-name">BBC News</div>
+        <div class="source-url">www.bbc.co.uk › news › uk-politics</div>
+      </div>
+      <div class="more-dots">⋮</div>
+    </div>
+    <h3><a href="#">Wes Streeting resigns from Cabinet, paving way for leadership bid</a></h3>
+    <div class="snippet">
+      <span class="date">14 May 2026 — </span>The health secretary has quit Sir Keir <em>Starmer</em>'s government, telling the prime minister he can no longer support his leadership&hellip;
+    </div>
+  </div>
+
+  <!-- Result 2 — FEATURED — The Daily Brief -->
+  <div class="result featured">
+    <div class="source-row">
+      <div class="favicon">D</div>
+      <div class="source-info">
+        <div class="source-name">The Daily Brief</div>
+        <div class="source-url">thedailybrief.co.uk › briefings › 2026-05-14-morning › streeting-resigns</div>
+      </div>
+      <div class="more-dots">⋮</div>
+    </div>
+    <h3><a href="#">Streeting Expected to Resign and Launch Leadership Bid Today &mdash; The Daily Brief</a></h3>
+    <div class="snippet">
+      <span class="date">14 May 2026 — </span>Health Secretary Wes <em>Streeting</em> is expected to resign from the Cabinet today and launch a formal leadership challenge against Sir Keir <em>Starmer</em>, according to The Times. An ally told the paper on Wednesday evening, &ldquo;He is going for it. He's going tomorrow.&rdquo;&hellip;
+    </div>
+  </div>
+
+  <!-- Result 3: Reuters -->
+  <div class="result">
+    <div class="source-row">
+      <div class="favicon" style="background:#ff8000;color:#fff;font-family:sans-serif;font-size:11px;font-weight:700;">R</div>
+      <div class="source-info">
+        <div class="source-name">Reuters</div>
+        <div class="source-url">www.reuters.com › world › europe</div>
+      </div>
+      <div class="more-dots">⋮</div>
+    </div>
+    <h3><a href="#">UK's <em>Streeting</em> quits cabinet, opening path to challenge Starmer</a></h3>
+    <div class="snippet">
+      <span class="date">14 May 2026 — </span>British health secretary Wes <em>Streeting</em> resigned on Thursday, saying he no longer has confidence in Prime Minister Keir Starmer's leadership&hellip;
+    </div>
+  </div>
+
+  <!-- Result 4: Guardian -->
+  <div class="result">
+    <div class="source-row">
+      <div class="favicon" style="background:#052962;color:#fff;font-family:'Guardian Egyptian','Georgia',serif;font-size:12px;font-weight:700;">G</div>
+      <div class="source-info">
+        <div class="source-name">The Guardian</div>
+        <div class="source-url">www.theguardian.com › politics › 2026 › may › 14</div>
+      </div>
+      <div class="more-dots">⋮</div>
+    </div>
+    <h3><a href="#">Wes <em>Streeting</em> resigns: full text of his letter to Keir <em>Starmer</em></a></h3>
+    <div class="snippet">
+      <span class="date">14 May 2026 — </span>The health secretary said he had &ldquo;lost confidence&rdquo; in <em>Starmer</em>'s leadership and that it would be &ldquo;dishonourable and unprincipled&rdquo;&hellip;
+    </div>
+  </div>
+
+  <!-- Result 5: Times -->
+  <div class="result">
+    <div class="source-row">
+      <div class="favicon" style="background:#000;color:#fff;font-family:'Times New Roman',serif;font-size:11px;font-weight:700;">T</div>
+      <div class="source-info">
+        <div class="source-name">The Times</div>
+        <div class="source-url">www.thetimes.com › uk › politics</div>
+      </div>
+      <div class="more-dots">⋮</div>
+    </div>
+    <h3><a href="#"><em>Streeting</em> prepares to challenge <em>Starmer</em> for No 10</a></h3>
+    <div class="snippet">
+      <span class="date">13 May 2026 — </span>Wes <em>Streeting</em> is expected to quit the government on Thursday and launch his campaign for No 10 in a move that will plunge the Labour Party into civil war&hellip;
+    </div>
+  </div>
+
+  <!-- More results indicator -->
+  <div style="text-align:center;padding-top:20px;color:#5f6368;font-size:13px;">
+    Page 1 of about 482,000 results
+  </div>
+</div>
+
+</body>
+</html>

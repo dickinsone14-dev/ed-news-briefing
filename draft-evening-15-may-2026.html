@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Draft — Evening Briefing 15 May 2026</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800;900&family=Inter:wght@400;500;600;700;800&family=Source+Serif+4:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: #f7f3eb;
+    color: #1a1a1a;
+    font-family: 'Source Serif 4', Georgia, serif;
+    line-height: 1.6;
+    padding: 40px 20px;
+  }
+  .draft-banner {
+    max-width: 1200px;
+    margin: 0 auto 24px;
+    padding: 14px 22px;
+    background: #b8341a;
+    color: #fff;
+    border-radius: 4px;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .draft-banner strong { letter-spacing: 2px; text-transform: uppercase; }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 48px 56px;
+    border: 1px solid #d8d2c5;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+  }
+
+  /* Edition */
+  .curated-edition {
+    border-top: 4px solid #1a1a1a;
+    padding-top: 32px;
+  }
+  .edition-header {
+    display: flex;
+    align-items: baseline;
+    gap: 14px;
+    margin-bottom: 6px;
+  }
+  .edition-icon { font-size: 26px; color: #c8963e; }
+  .edition-header h2 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 32px;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+  }
+  .curated-meta {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    color: #666;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+  }
+
+  /* Impact box */
+  .impact-box {
+    background: #faf6ec;
+    border-left: 4px solid #c8963e;
+    padding: 24px 28px;
+    margin-bottom: 24px;
+  }
+  .impact-heading {
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #8a6f2f;
+    margin-bottom: 14px;
+  }
+  .impact-list { list-style: none; }
+  .impact-list li {
+    margin-bottom: 14px;
+    font-size: 17px;
+    line-height: 1.55;
+  }
+  .impact-list li:last-child { margin-bottom: 0; }
+
+  /* War day count */
+  .war-day-count {
+    background: #1a1a1a;
+    color: #f7f3eb;
+    padding: 22px 28px;
+    margin-bottom: 32px;
+  }
+  .war-day-count strong { color: #c8963e; letter-spacing: 1px; }
+  .war-day-count p { font-size: 16px; line-height: 1.55; }
+
+  /* Grid */
+  .curated-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    margin-bottom: 32px;
+  }
+  .curated-column h3 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 18px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #1a1a1a;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .dot.geo { background: #b8341a; }
+  .dot.dom { background: #2c5282; }
+  .dot-label {
+    font-family: 'Inter', sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    color: #666;
+  }
+
+  /* Curated items */
+  .curated-item {
+    padding: 18px 0;
+    border-bottom: 1px solid #e8e2d2;
+  }
+  .curated-item:last-child { border-bottom: none; }
+  .curated-item h4 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    line-height: 1.3;
+  }
+  .curated-item p {
+    font-size: 15px;
+    line-height: 1.55;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  details.dive-deeper {
+    margin-top: 8px;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+  }
+  details.dive-deeper summary {
+    color: #8a6f2f;
+    cursor: pointer;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    font-size: 12px;
+  }
+  details.dive-deeper .deeper-content {
+    margin-top: 10px;
+    padding: 14px 18px;
+    background: #faf6ec;
+    color: #333;
+    line-height: 1.55;
+    font-size: 14px;
+    border-left: 2px solid #c8963e;
+  }
+
+  /* One to read */
+  .one-to-read {
+    background: #1a1a1a;
+    color: #f7f3eb;
+    padding: 24px 28px;
+    margin-bottom: 24px;
+  }
+  .one-to-read .otr-label {
+    font-family: 'Inter', sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: #c8963e;
+    display: block;
+    margin-bottom: 12px;
+  }
+  .one-to-read a { color: #f7f3eb; text-decoration: none; }
+  .one-to-read h4 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+  .one-to-read .otr-source {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    color: #c8963e;
+  }
+  .one-to-read .otr-dot { margin: 0 6px; color: #c8963e; }
+  .one-to-read .otr-desc {
+    display: block;
+    margin-top: 8px;
+    font-size: 14px;
+    line-height: 1.55;
+    color: #d8d2c5;
+  }
+
+  /* Sources used (visible in draft for review) */
+  .sources-used {
+    background: #faf6ec;
+    border: 1px dashed #b8a778;
+    padding: 18px 24px;
+    margin-top: 24px;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    color: #555;
+  }
+  .sources-used h5 {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #8a6f2f;
+    margin-bottom: 10px;
+  }
+  .sources-used ul { list-style: none; }
+  .sources-used li {
+    margin-bottom: 6px;
+    line-height: 1.4;
+    padding-left: 14px;
+    position: relative;
+  }
+  .sources-used li::before { content: '—'; position: absolute; left: 0; color: #c8963e; }
+  .sources-used a { color: #2c5282; text-decoration: none; word-break: break-all; }
+</style>
+</head>
+<body>
+
+<div class="draft-banner">
+  <span><strong>Draft</strong> &mdash; Evening Briefing 15 May 2026 (not committed, not published)</span>
+  <span>Source diversity: 13 outlets &middot; Direct quotes: 12</span>
+</div>
+
+<div class="container">
+
+<div class="curated-edition evening">
+  <div class="edition-header">
+    <span class="edition-icon">&#9789;</span>
+    <h2>Evening Briefing</h2>
+  </div>
+  <div class="curated-meta">Friday 15 May 2026 &mdash; (draft preview)</div>
+
+  <div class="impact-box">
+    <h3 class="impact-heading">What It Means For You</h3>
+    <ul class="impact-list">
+      <li>President Trump left Beijing this morning after the closing day of his two-day summit with President Xi. The two leaders agreed a &ldquo;constructive China-U.S. relationship of strategic stability&rdquo;, but substantive bilateral deals on trade, Taiwan, tariffs and rare earths were scant; Boeing fell more than 4% on a 200-jet order against the ~500 expected. China&rsquo;s foreign ministry separately said the Iran war &ldquo;should never have happened&rdquo;.</li>
+      <li>The UK Cabinet reshuffle is operationally complete: James Murray is the new Health Secretary; Lucy Rigby takes his old Treasury post. The 81-MP threshold to trigger a formal Labour leadership contest remains unmet. Streeting, Cooper and Burnham are still the three named potential challengers; no consensus among the parliamentary right has emerged.</li>
+      <li>UK markets continued to price the political crisis through Friday. Bloomberg framed UK bonds as &ldquo;plunging on Burnham concerns and inflation fears&rdquo;. Sterling held below $1.30. With Iran allowing more than thirty commercial vessels through the Strait of Hormuz overnight, petrol forecourt prices may begin to ease over the next ten days if the shipping signal holds; long-fix mortgage holders see no immediate relief.</li>
+    </ul>
+  </div>
+
+  <div class="war-day-count">
+    <p><strong>Iran War &mdash; Day 77.</strong> The war started 28 February 2026. The closing day of the Trump-Xi summit produced an explicit US-China alignment on Iran &mdash; Tehran cannot have a nuclear weapon, the Strait of Hormuz must reopen &ldquo;as soon as possible&rdquo;, China pledged no military equipment for Iran &mdash; but no Chinese commitment to do anything specific to deliver those positions. Reuters quotes Brookings fellow Patricia Kim: &ldquo;What&rsquo;s notable is that there&rsquo;s no Chinese commitment to do anything specific with regards to Iran.&rdquo; Iranian Foreign Minister Abbas Araqchi said Tehran &ldquo;does not trust&rdquo; the US but would &ldquo;welcome any Chinese input&rdquo;. The Pakistani mediation track has been on hold for a week.</p>
+  </div>
+
+  <div class="curated-grid">
+
+    <div class="curated-column">
+      <h3><span class="dot geo"></span><span class="dot-label">GEO</span> Geopolitical</h3>
+
+      <div class="curated-item">
+        <h4>Trump-Xi Summit Closes: Strategic-Stability Framework, Few Deals</h4>
+        <p>President Trump departed Beijing on Friday morning after the closing day of his two-day summit with President Xi. The two leaders agreed a &ldquo;constructive China-U.S. relationship of strategic stability&rdquo; framework. Trump told Xi: &ldquo;It&rsquo;s been an incredible visit. I think a lot of good has come of it.&rdquo; Xi: &ldquo;This visit has been a historic and landmark occasion&hellip; it can truly be described as a milestone event.&rdquo; Substantive bilateral deals on Taiwan, tariffs and rare earths were not announced.</p>
+        <details class="dive-deeper">
+          <summary>Dive deeper</summary>
+          <div class="deeper-content">The closing format &mdash; intimate tea session in the leadership compound rather than a public communiqu&eacute; ceremony &mdash; signals that both sides wanted the summit to register as a relationship reset rather than a transactional negotiation. The strategic-stability framing is the most consequential single phrase of the trip, because it commits Beijing to a published guiding principle for the medium term. Chatham House framed the summit as &ldquo;managing US-China rivalry, not resolving it&rdquo;, which is the corridor in which the actual outcome sits.</div>
+        </details>
+      </div>
+
+      <div class="curated-item">
+        <h4>Beijing Publicly Distances From Iran: &ldquo;Should Never Have Happened&rdquo;</h4>
+        <p>China&rsquo;s foreign ministry said on Friday morning the Iran war &ldquo;should never have happened, has no reason to continue&rdquo;. President Xi separately pledged no military equipment to Iran. Chinese Foreign Minister Wang Yi had told his Iranian counterpart on Thursday the Strait of Hormuz should be opened &ldquo;as soon as possible&rdquo;. The combination is the most explicit Chinese material distancing from Tehran since the war began on 28 February.</p>
+        <details class="dive-deeper">
+          <summary>Dive deeper</summary>
+          <div class="deeper-content">A public pledge not to send military equipment is a calibrated, low-cost concession to Washington that nonetheless registers as substantive: the constraint binds Beijing publicly even though it is unlikely Beijing was preparing to send such equipment in the first place. Brookings fellow Patricia Kim told Reuters: &ldquo;What&rsquo;s notable is that there&rsquo;s no Chinese commitment to do anything specific with regards to Iran.&rdquo; The question for next week is whether Tehran reads the Chinese position as binding diplomatic pressure or as a tactical signal.</div>
+        </details>
+      </div>
+
+      <div class="curated-item">
+        <h4>Iran Hardens Public Line: &ldquo;Does Not Trust&rdquo; the US</h4>
+        <p>Iranian Foreign Minister Abbas Araqchi said on Friday Tehran &ldquo;does not trust&rdquo; the United States and would only negotiate &ldquo;if it is serious&rdquo;, though he added Iran would &ldquo;welcome any Chinese input&rdquo;. The army chief, Major General Abdolrahim Mousavi Hatami, said the armed forces would continue defending the country &ldquo;until the last drop of blood&rdquo;. Pakistani-mediated talks have been on hold for a week.</p>
+        <details class="dive-deeper">
+          <summary>Dive deeper</summary>
+          <div class="deeper-content">Araqchi&rsquo;s &ldquo;welcome any Chinese input&rdquo; framing is the most consequential calibration of the day: it positions Beijing as a structurally acceptable mediator while keeping Pakistan as the formal channel. The army chief&rsquo;s &ldquo;until the last drop of blood&rdquo; line is rhetorical anchoring for the negotiation rather than an operational threat. Iran allowed more than thirty commercial vessels through the Strait of Hormuz overnight; the tacit signal will outweigh the public rhetoric for markets.</div>
+        </details>
+      </div>
+
+      <div class="curated-item">
+        <h4>Markets Unimpressed: Hang Seng -2%, Boeing -4%, China Stocks Slide</h4>
+        <p>Asian markets fell on Friday as the summit produced few deals to excite investors. Hong Kong&rsquo;s Hang Seng dropped about 2%; China&rsquo;s blue-chip CSI300 and the Shanghai Composite both fell more than 1%. Boeing shares fell more than 4% after Trump said China had agreed to order 200 jets &mdash; far short of the roughly 500 markets had expected. Morningstar&rsquo;s Lorraine Tan: &ldquo;I remain skeptical given the recent history of ebbs and flows on these meetings.&rdquo;</p>
+        <details class="dive-deeper">
+          <summary>Dive deeper</summary>
+          <div class="deeper-content">The asymmetric reaction in Chinese stocks is the diagnostic feature: aviation stocks fell more than 2% on the Boeing disappointment, while chip stocks jumped 4% on SMIC orders shifting back to China and AMEC surged 17% on its own order outlook. ING strategist Frantisek Taborsky said markets &ldquo;didn&rsquo;t hear enough from Beijing to turn more optimistic on the Gulf&rdquo;. The Economist Intelligence Unit&rsquo;s Chim Lee: &ldquo;For the market, the summit can be strategically reassuring while underwhelming in substance.&rdquo;</div>
+        </details>
+      </div>
+
+      <div class="curated-item">
+        <h4>Israel-Lebanon Washington Talks Day 2; Ceasefire Expires Sunday</h4>
+        <p>The third round of US-mediated Israel-Lebanon talks continued in Washington today, with the formal ceasefire due to expire on Sunday. Lebanon&rsquo;s Ministry of Public Health says at least 2,896 people have been killed in Israeli attacks since the conflict resumed in early March. Lebanese President Joseph Aoun has refused to meet Israeli Prime Minister Benjamin Netanyahu directly until strikes stop, which remains the central structural objection.</p>
+        <details class="dive-deeper">
+          <summary>Dive deeper</summary>
+          <div class="deeper-content">A 2,896 death toll over ten weeks of an officially-extant ceasefire is the structural feature that makes the Washington talks editorially complicated: they are presented as ceasefire-extension negotiations while the ceasefire itself is operationally close to collapse. Sunday&rsquo;s formal expiry is the binding constraint &mdash; either an extension is announced before then or the architecture lapses, in which case Israeli ground operations in southern Lebanon become procedurally easier.</div>
+        </details>
+      </div>
+
+    </div>
+
+    <div class="curated-column">
+      <h3><span class="dot dom"></span><span class="dot-label">UK</span> UK Domestic Politics</h3>
+
+      <div class="curated-item">
+        <h4>Reshuffle Complete: Murray to Health, Rigby to Treasury</h4>
+        <p>Sir Keir Starmer&rsquo;s overnight reshuffle is now operationally complete. James Murray, the former Chief Secretary to the Treasury, is the new Health Secretary in place of Wes Streeting; Lucy Rigby takes Murray&rsquo;s Treasury post. The overnight changes were the minimum-disruption response Number 10 had signalled. No further Cabinet-rank vacancies have been announced; the Government is now operating with a fully-staffed but politically weakened front bench.</p>
+        <details class="dive-deeper">
+          <summary>Dive deeper</summary>
+          <div class="deeper-content">A within-Treasury move for Rigby keeps the Chancellor&rsquo;s machine intact at the moment gilt yields are sitting at multi-decade highs, which was the principal calculation for Number 10. Murray&rsquo;s Health appointment is the more politically loaded one: a Treasury-trained minister opening a brief defined by NHS productivity will face immediate questions about whether the department&rsquo;s spending settlement is now under renegotiation. The first PMQs after the reshuffle, scheduled for next Wednesday, is the next political weather-test.</div>
+        </details>
+      </div>
+
+      <div class="curated-item">
+        <h4>81-MP Threshold Still Unmet; Three Named Challengers Remain</h4>
+        <p>The 81 signatures required to formally trigger a leadership contest under Labour rules have not been submitted to the General Secretary in coordinated form. Wes Streeting, Foreign Secretary Yvette Cooper and Greater Manchester Mayor Andy Burnham remain the three named potential challengers. Burnham still lacks a parliamentary seat; The Times reports Manchester Rusholme MP Afzal Khan is &ldquo;prepared to give up his Westminster seat&rdquo; to allow Burnham to return.</p>
+        <details class="dive-deeper">
+          <summary>Dive deeper</summary>
+          <div class="deeper-content">The published public count above 80 has accumulated in letters and statements rather than as a single formal submission &mdash; which means Number 10 can argue, accurately, that no formal challenge has been triggered. The Burnham-via-Rusholme track requires Labour&rsquo;s NEC to permit his candidacy, which it blocked in January. The decisive sequencing question for next week is whether Streeting&rsquo;s resignation now consolidates the parliamentary right behind a single candidacy or whether the three rivals split signatures and let Starmer survive the immediate test.</div>
+        </details>
+      </div>
+
+      <div class="curated-item">
+        <h4>Bloomberg: &ldquo;UK Bonds Plunge on Burnham Concerns and Inflation Fears&rdquo;</h4>
+        <p>Bloomberg&rsquo;s Friday markets framing read &ldquo;UK Bonds Plunge on Burnham Concerns and Inflation Fears&rdquo;. Bond traders are reportedly bracing for further instability as the leadership crisis continues to displace rates as the dominant pricing variable. Investors fear a more left-leaning Prime Minister could mean higher borrowing, higher public spending and higher debt. Sterling held below $1.30 against the dollar through the session.</p>
+        <details class="dive-deeper">
+          <summary>Dive deeper</summary>
+          <div class="deeper-content">The Burnham-specific framing is significant because it identifies a particular successor scenario as the market&rsquo;s primary risk. Cooper or Streeting would be read by gilts as relatively more orthodox; Burnham would be read as a structural break. The inflation-fear component is the secondary driver and reflects increased US-rate-hike expectations spilling into UK long-end yields. The Bank of England&rsquo;s March 2023 LDI minimum-resilience framework continues to govern desks; the pension-fund stress facility remains pre-activation.</div>
+        </details>
+      </div>
+
+      <div class="curated-item">
+        <h4>NIESR + IFS: &pound;22 Billion Headroom Warning Still Binding</h4>
+        <p>The National Institute of Economic and Social Research&rsquo;s latest UK Economic Outlook framed Chancellor Rachel Reeves&rsquo;s &pound;22 billion fiscal headroom against her stability rule as structurally inadequate. The Institute for Fiscal Studies similarly noted Reeves had &ldquo;chosen to operate her fiscal rules with such teeny tiny headroom&rdquo;. NIESR projects UK GDP growth of 1.4% in 2026 and warns the debt-to-GDP ratio is approaching 100% by decade-end.</p>
+        <details class="dive-deeper">
+          <summary>Dive deeper</summary>
+          <div class="deeper-content">The combination of a tight headroom, rising interest costs and an active leadership crisis is the structural reason gilt yields have been sitting at multi-decade highs through the week. NIESR&rsquo;s 1.4% growth forecast assumes residual fiscal expansion plus steady consumption growth &mdash; both of which could erode under fresh political instability. The IFS framing that &ldquo;run-of-the-mill forecast changes could easily blow her off course&rdquo; is now the operational concern for the autumn Budget. Reeves&rsquo;s scheduled fiscal-headroom statement remains the next material catalyst.</div>
+        </details>
+      </div>
+
+      <div class="curated-item">
+        <h4>Reform UK and Greens Continue to Capitalise</h4>
+        <p>Reform UK and the Greens continue to capitalise on the local-election cycle that triggered the Labour leadership crisis. Labour lost more than 1,400 council seats in last week&rsquo;s English elections, with Reform UK gaining 1,454 seats and taking control of multiple county councils. Conservative leader Kemi Badenoch is reportedly preparing to test whether parts of the centre-right vote can be reconsolidated; the Tories&rsquo; own electoral performance was historically weak.</p>
+        <details class="dive-deeper">
+          <summary>Dive deeper</summary>
+          <div class="deeper-content">The local-election arithmetic is the binding constraint behind the Labour leadership question: 1,400 Labour seats lost in a single cycle is the largest single-day defeat in postwar history, and it cannot be reframed as a midterm protest vote because the swing went to Reform rather than to the Conservatives. The Conservative inability to absorb dissatisfied Labour voters means the right-wing realignment is now structural rather than tactical. Badenoch&rsquo;s next strategic move is the second major political weather-test alongside the Labour leadership question.</div>
+        </details>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="one-to-read">
+    <span class="otr-label">One To Read</span>
+    <a href="https://www.reuters.com/world/trump-china-live-second-day-talks-with-xi-iran-taiwan-trade-2026-05-15/" target="_blank" rel="noopener noreferrer">
+      <h4>Xi and Trump Declare Summit a Success but Differences Remain on Iran and Taiwan</h4>
+      <span class="otr-source">Reuters</span>
+      <span class="otr-dot">&middot;</span>
+      <span class="otr-desc">The clearest single account of Day 2 of the Beijing summit: the strategic-stability framework, the Zhongnanhai garden tour, the Boeing-jet order disappointment, Trump&rsquo;s remarks on Xi&rsquo;s Iran mediation offer, and the analyst readouts from Brookings, Morningstar, ING and the Economist Intelligence Unit on what markets actually heard. Essential before Sunday&rsquo;s Israel-Lebanon ceasefire expiry.</span>
+    </a>
+  </div>
+
+  <div class="sources-used">
+    <h5>Sources Used (visible in draft preview only — normally an HTML comment)</h5>
+    <ul>
+      <li><a href="https://www.reuters.com/world/trump-china-live-second-day-talks-with-xi-iran-taiwan-trade-2026-05-15/">reuters.com</a> &mdash; Trump-Xi Day 2 live blog: closing-meeting quotes, Zhongnanhai context, China FM statement, Boeing/Hang Seng market reaction, analyst quotes (Kim, Tan, Taborsky, Lee, Zhao, Twidale)</li>
+      <li><a href="https://www.reuters.com/world/china/trump-says-he-chinas-xi-agree-iran-cannot-have-nuclear-weapons-2026-05-15/">reuters.com</a> &mdash; Iran nuclear / Hormuz framing, Trump Fox quotes, Iranian army chief and Araqchi quotes</li>
+      <li><a href="https://apnews.com/article/trump-xi-taiwan-iran-trade-e7a3cdf161c608de152ac1c6e5755452">apnews.com</a> &mdash; Trump-Xi wrap-up cross-confirmation</li>
+      <li><a href="https://www.thetimes.com/uk/politics/article/wes-streeting-leadership-contest-challenge-keir-starmer-prime-minister-qs60npnwm">thetimes.com</a> &mdash; Streeting/Cooper/Burnham/MacAlister leadership scenarios; Manchester Rusholme by-election; cabinet warnings</li>
+      <li><a href="https://www.aljazeera.com/news/2026/5/15/iran-war-day-77-trump-xi-discuss-hormuz-as-tehran-rallies-brics">aljazeera.com</a> &mdash; Day 77 anchor, Hormuz traffic, Iran allowed 30+ ships overnight</li>
+      <li><a href="https://www.aljazeera.com/news/2026/5/14/uk-health-secretary-wes-streeting-resigns-from-government">aljazeera.com</a> &mdash; Murray and Rigby appointments</li>
+      <li><a href="https://www.cnbc.com/2026/05/15/trump-xi-summit-energy-purchase-china-iran-war-oil-shock-.html">cnbc.com</a> &mdash; strategic-stability framework, Rubio Taiwan, trade-deal framing</li>
+      <li><a href="https://www.bloomberg.com/news/live-blog/2026-05-15/ftse-100-live-keir-starmer-pound-bonds-gilts-burnham-streeting-iran-hormuz-what-s-moving-uk-markets-right-now-markets-today">bloomberg.com</a> &mdash; "UK bonds plunge on Burnham concerns and inflation fears" (search snippet)</li>
+      <li><a href="https://www.timesofisrael.com/liveblog-may-14-2026/">timesofisrael.com</a> &mdash; Lebanon casualty count, Hezbollah operations</li>
+      <li><a href="https://www.chathamhouse.org/2026/05/trump-xi-summit-can-progress-be-made-iran">chathamhouse.org</a> &mdash; "managing US-China rivalry, not resolving it" framing</li>
+      <li><a href="https://www.atlanticcouncil.org/blogs/new-atlanticist/experts-react/experts-react-what-does-the-trump-xi-meeting-mean-for-trade-technology-security-and-beyond/">atlanticcouncil.org</a> &mdash; named-analyst commentary on summit</li>
+      <li><a href="https://niesr.ac.uk/publication-type/gdp-trackers">niesr.ac.uk</a> &mdash; UK Economic Outlook: 1.4% GDP, &pound;22bn headroom, debt-to-GDP framing</li>
+      <li><a href="https://ifs.org.uk/articles/rachel-reeves-will-need-face-fantasists-both-sides">ifs.org.uk</a> &mdash; "teeny tiny headroom" framing</li>
+    </ul>
+  </div>
+
+</div>
+</div>
+
+</body>
+</html>
