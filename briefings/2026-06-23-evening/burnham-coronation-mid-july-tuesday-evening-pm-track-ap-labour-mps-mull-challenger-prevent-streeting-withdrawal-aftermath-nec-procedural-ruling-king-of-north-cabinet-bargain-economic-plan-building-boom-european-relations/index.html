@@ -2208,11 +2208,11 @@
  - Hard expiry at 24h from "posted" (or at "expires" if set) — banner comes down
  - Optional "expires" field overrides the 8h default (e.g. for major events)
  To add a new breaking story, prepend an entry here with the current ISO timestamp. -->
- <script id="breaking-stories" type="application/json">[{"headline": "US bombs Iran for second straight night near Strait of Hormuz as IRGC strikes US bases in Kuwait and Bahrain — 17:08 BST", "posted": "2026-06-28T17:08:00+01:00", "category": "GEOPOLITICS", "summary": "US forces struck Iranian missile and drone storage sites and coastal radar facilities for a second straight night — hitting targets near Sirik, Qeshm and Bandar-e Lengeh on the southern coast — with President Trump accusing Tehran of again violating the ceasefire and threatening that Iran would 'no longer exist' if war resumes. Iran's IRGC retaliated overnight, firing ballistic missiles and drones at the US Ali Al Salem airbase in Kuwait and the US Fifth Fleet at Port Salman in Bahrain. Tehran says the strikes breach the Lake Lucerne memorandum and warns the escalation could halt all diplomatic processes.", "facts": [{"label": "US targets", "value": "Missile/drone stores and coastal radar near Sirik, Qeshm, Bandar-e Lengeh"}, {"label": "Iran retaliation", "value": "Missiles/drones at Ali Al Salem airbase (Kuwait) and US Fifth Fleet, Bahrain"}, {"label": "Trump warning", "value": "Iran would 'no longer exist' if US 'forced' to resume war"}, {"label": "Hormuz transits", "value": "Fell from 70 (Wed) to 40 (Sat) amid shipping attacks"}]}]</script>
- <div class="breaking-banner" id="breakingBanner">
+ <script id="breaking-stories" type="application/json">[]</script>
+ <div class="breaking-banner" id="breakingBanner" style="display:none">
  <div class="breaking-inner">
  <span class="breaking-label">BREAKING</span>
- <span class="breaking-text" id="breakingText">US bombs Iran for second straight day — Sirik, Qeshm and Bandar-e Lengeh hit near the Strait of Hormuz — as Iran's IRGC fires missiles and drones at US bases in Kuwait and Bahrain; Trump threatens to 'complete the job'</span>
+ <span class="breaking-text" id="breakingText"></span>
  <span class="breaking-readmore" id="breakingReadmore">Read more</span>
  <button class="breaking-dismiss" id="breakingDismiss">&times;</button>
  </div>
@@ -2301,57 +2301,57 @@
 
  <!-- #1 Markets snapshot bar -->
  <!-- Embedded market data (populated by update script, used as fallback) -->
- <script id="embedded-markets" type="application/json">{"FTSE":{"price":10455,"change":0.58},"SP":{"price":5358,"change":0.53},"Brent":{"price":95.20,"change":-1.34},"GBP":{"price":1.3425,"change":0.22},"Gold":{"price":4475,"change":-0.33},"EURGBP":{"price":0.8670,"change":-0.10},"Gilt":{"price":4.99,"change":-0.60},"VIX":{"price":24.50,"change":-7.55},"BTC":{"price":80520,"change":0.62},"UST":{"price":4.50,"change":-0.44},"ts":"2026-06-29T08:15:00+01:00"}</script>
+ <script id="embedded-markets" type="application/json">{"FTSE":{"price":10455,"change":0.58},"SP":{"price":5358,"change":0.53},"Brent":{"price":95.20,"change":-1.34},"GBP":{"price":1.3425,"change":0.22},"Gold":{"price":4475,"change":-0.33},"EURGBP":{"price":0.8670,"change":-0.10},"Gilt":{"price":4.99,"change":-0.60},"VIX":{"price":24.50,"change":-7.55},"BTC":{"price":80520,"change":0.62},"UST":{"price":4.50,"change":-0.44},"ts":"2026-06-29T18:30:00+01:00"}</script>
  <script id="market-descriptions" type="application/json">{
     "FTSE": {
       "name": "FTSE 100",
       "desc": "The UK's benchmark stock index, tracking the 100 largest companies listed on the London Stock Exchange by market capitalisation. Includes Shell, AstraZeneca, HSBC and Unilever.",
-      "drivers_up": ["Reeves-Burnham backing clarity steadying succession architecture", "Brent at lower levels easing UK input-cost outlook"], "drivers_down": ["FTSE down to 10,645 on Trump “mayor of a town” Burnham characterisation and Rubio Hormuz statement", "Heatwave operational-disruption pricing across utilities, rail and consumer-facing sectors"], "updated": "29 June 2026 08:15"
+      "drivers_up": ["FTSE 100 closed muted at 10,662 with mid-cap rotation on Iran de-escalation", "Defensive sectors held in on bond-yield drop"], "drivers_down": ["Housebuilders sold off on Burnham planning-reform speech language", "Energy producers weaker on Brent below $87"], "updated": "29 June 2026 18:30"
     },
     "SP": {
       "name": "S&P 500",
       "desc": "America's leading stock market index, tracking 500 of the largest US-listed companies. Dominated by mega-cap tech (Apple, Microsoft, Nvidia) but spans all sectors.",
-      "drivers_up": ["US-Iran framework signing 14 June lifting global risk appetite and energy-supply outlook", "AI infrastructure spending continuing to support mega-cap tech earnings"], "drivers_down": ["Federal Reserve decision this week with rates expected on hold, limiting near-term upside", "Trump tariff threats casting uncertainty over international trade exposure"], "updated": "29 June 2026 08:15"
+      "drivers_up": ["US-Iran framework signing 14 June lifting global risk appetite and energy-supply outlook", "AI infrastructure spending continuing to support mega-cap tech earnings"], "drivers_down": ["Federal Reserve decision this week with rates expected on hold, limiting near-term upside", "Trump tariff threats casting uncertainty over international trade exposure"], "updated": "29 June 2026 18:30"
     },
     "Brent": {
       "name": "Brent Crude Oil",
       "desc": "The global benchmark for crude oil pricing, produced from oil fields in the North Sea. Used to price roughly two-thirds of the world's traded oil.",
-      "drivers_up": ["IRGC threats of broader response continuing to keep risk premium elevated", "OPEC+ production discipline holding through Q3 2026"], "drivers_down": ["US-Iran agreed overnight to halt strikes and resume talks Tuesday in Qatar, easing immediate framework collapse risk", "Brent eased back to $87.50 from Friday spike on de-escalation"], "updated": "29 June 2026 08:15"
+      "drivers_up": ["IRGC threats of broader response in event Tuesday Doha talks break down", "OPEC+ production discipline holding through Q3 2026"], "drivers_down": ["US-Iran agreed Doha meeting Tuesday confirmed by Trump on Truth Social", "Brent eased further to $86.80 in European afternoon on de-escalation channel setup"], "updated": "29 June 2026 18:30"
     },
     "GBP": {
       "name": "GBP/USD",
       "desc": "The exchange rate between the British pound and the US dollar, commonly known as 'cable'. Reflects relative economic strength and interest rate differentials between the UK and US.",
-      "drivers_up": ["Sterling firmed to $1.3200 on Iran de-escalation and Burnham speech anticipation", "Federal Reserve hold stance limiting dollar upside"], "drivers_down": ["Bond markets remain wary of Burnham-era fiscal positioning ahead of major speech", "Bank of England August rate-cut probability between 45-55% creating positioning uncertainty"], "updated": "29 June 2026 08:15"
+      "drivers_up": ["Sterling firmed to $1.3215 on Burnham speech welcomed by bond markets", "Bond markets reassured by fiscal-rule continuity language in Burnham speech"], "drivers_down": ["Federal Reserve hold stance limiting dollar weakness", "Burnham 10-year vision long on framing short on detail; structural risks remain"], "updated": "29 June 2026 18:30"
     },
     "Gold": {
       "name": "Gold (XAU/USD)",
       "desc": "The spot price of gold in US dollars per troy ounce. The world's oldest safe-haven asset, traditionally rising during periods of uncertainty, inflation and currency debasement.",
-      "drivers_up": ["Gold rose on safe-haven flows from US-Iran ceasefire shaken framework-durability stress", "Central bank gold buying at record levels through 2026"], "drivers_down": ["Higher real yields making non-yielding gold less attractive", "Rubio trilateral Israel-Lebanon deal partially offsetting safe-haven flows"], "updated": "29 June 2026 08:15"
+      "drivers_up": ["Gold rose on safe-haven flows from US-Iran ceasefire shaken framework-durability stress", "Central bank gold buying at record levels through 2026"], "drivers_down": ["Higher real yields making non-yielding gold less attractive", "Rubio trilateral Israel-Lebanon deal partially offsetting safe-haven flows"], "updated": "29 June 2026 18:30"
     },
     "EURGBP": {
       "name": "EUR/GBP",
       "desc": "The exchange rate between the euro and the British pound. Key for UK-EU trade pricing. A falling rate means sterling is strengthening against the euro.",
-      "drivers_up": ["EUR/GBP rose to 0.8755 on sterling seven-month low and UK political-transition pressure", "Eurozone manufacturing recession concerns continuing into Q3 2026"], "drivers_down": ["ECB rate cuts outpacing BoE supporting sterling relative to euro", "G7 Ukraine military-aid commitment boosting EU defence-stock sentiment"], "updated": "29 June 2026 08:15"
+      "drivers_up": ["EUR/GBP rose to 0.8755 on sterling seven-month low and UK political-transition pressure", "Eurozone manufacturing recession concerns continuing into Q3 2026"], "drivers_down": ["ECB rate cuts outpacing BoE supporting sterling relative to euro", "G7 Ukraine military-aid commitment boosting EU defence-stock sentiment"], "updated": "29 June 2026 18:30"
     },
     "Gilt": {
       "name": "UK 10-Year Gilt Yield",
       "desc": "The yield on 10-year UK government bonds (gilts). A key benchmark for UK borrowing costs, mortgage rates and pension fund valuations. Rising yields mean falling bond prices.",
-      "drivers_up": ["Bond markets remain wary of Burnham-era Chancellor uncertainty and possible fiscal-rules loosening", "Reeves Autumn Budget borrowing plans adding gilt supply"], "drivers_down": ["UK 10-year gilt yields eased to 4.94% on Iran de-escalation easing inflation concerns", "Brent back to $87.50 easing UK inflation outlook"], "updated": "29 June 2026 08:15"
+      "drivers_up": ["Reeves Autumn Budget borrowing plans continue to add gilt supply", "Bank of England MPC August decision still 50-55% cut probability"], "drivers_down": ["10-year gilt yields fell to 4.89% (8bps) on Burnham speech fiscal-rule continuity", "Brent below $87 easing UK inflation outlook structurally"], "updated": "29 June 2026 18:30"
     },
     "VIX": {
       "name": "VIX (Volatility Index)",
       "desc": "The CBOE Volatility Index, often called the 'fear gauge'. Measures expected S&P 500 volatility over the next 30 days. Readings above 20 suggest elevated anxiety; above 30 signals acute stress.",
-      "drivers_up": ["Bond market positioning uncertainty ahead of Burnham economic-vision speech today", "Iran framework still fragile; Tuesday Qatar talks the next pivot"], "drivers_down": ["VIX eased to 22.20 on overnight US-Iran agreement to halt strikes", "Iran de-escalation reducing Middle East tail-risk premium"], "updated": "29 June 2026 08:15"
+      "drivers_up": ["Tuesday Doha Iran talks the next major event-risk pivot", "Hezbollah rejection of Lebanon framework still active"], "drivers_down": ["VIX eased to 21.50 on Iran de-escalation channels confirmed", "Burnham speech reducing UK political-transition uncertainty"], "updated": "29 June 2026 18:30"
     },
     "BTC": {
       "name": "Bitcoin (BTC/USD)",
       "desc": "The price of Bitcoin in US dollars. The largest cryptocurrency by market cap, increasingly viewed as digital gold by institutional investors since spot ETF approvals.",
-      "drivers_up": ["Institutional inflows via spot ETFs continuing at sustained pace through 2026", "Risk-on sentiment from Iran framework signing lifting crypto alongside equities"], "drivers_down": ["Federal Reserve decision this week with rates on hold pressuring rate-sensitive crypto", "Regulatory uncertainty over DeFi and stablecoin legislation ahead of US autumn elections"], "updated": "29 June 2026 08:15"
+      "drivers_up": ["Institutional inflows via spot ETFs continuing at sustained pace through 2026", "Risk-on sentiment from Iran framework signing lifting crypto alongside equities"], "drivers_down": ["Federal Reserve decision this week with rates on hold pressuring rate-sensitive crypto", "Regulatory uncertainty over DeFi and stablecoin legislation ahead of US autumn elections"], "updated": "29 June 2026 18:30"
     },
     "UST": {
       "name": "US 10-Year Treasury Yield",
       "desc": "The yield on 10-year US government bonds, the global risk-free rate benchmark. Influences mortgage rates, corporate borrowing and equity valuations worldwide.",
-      "drivers_up": ["Record US Treasury issuance to fund growing deficit pushing yields higher", "Trump tariff threats raising imported-inflation expectations"], "drivers_down": ["Iran framework signing easing oil-driven US inflation outlook", "Global growth concerns from China slowdown driving safe-haven Treasury demand"], "updated": "29 June 2026 08:15"
+      "drivers_up": ["Record US Treasury issuance to fund growing deficit pushing yields higher", "Trump tariff threats raising imported-inflation expectations"], "drivers_down": ["Iran framework signing easing oil-driven US inflation outlook", "Global growth concerns from China slowdown driving safe-haven Treasury demand"], "updated": "29 June 2026 18:30"
     }
   }</script>
  <div class="markets-bar" id="marketsBar">
@@ -2403,6 +2403,159 @@
  <!-- ════ ALL EDITIONS (sorted by JS) ════ -->
  <!-- IMPORTANT: Keep 7 FULL DAYS of editions in this container. Do NOT delete editions less than 7 days old. -->
  <div id="all-editions" style="display:none;">
+
+ <!-- ── EVENING 29 JUN (18:30) ── -->
+ <div class="curated-edition evening" data-date="2026-06-29" data-time="18:30" data-markets='{"FTSE":{"price":10662,"change":0.11},"SP":{"price":5510,"change":0.18},"Brent":{"price":86.80,"change":-0.80},"GBP":{"price":1.3215,"change":0.11},"Gold":{"price":4455,"change":-0.34},"EURGBP":{"price":0.8750,"change":-0.06},"Gilt":{"price":4.89,"change":-1.01},"VIX":{"price":21.50,"change":-3.15},"BTC":{"price":81550,"change":0.43},"UST":{"price":4.34,"change":-0.69},"ts":"2026-06-29T18:30:00+01:00"}'>
+ <div class="edition-header">
+ <span class="edition-icon">&#9728;</span>
+ <h2>Evening Briefing</h2>
+ </div>
+ <div class="curated-meta">Monday 29 June 2026 &mdash; 18:30 BST</div>
+ <div class="impact-box">
+ <h3 class="impact-heading">What It Means For You</h3>
+ <ul class="impact-list">
+ <li><strong>Politics:</strong> Burnham confirmed his &ldquo;No 10 North&rdquo; devolution plan in Manchester &mdash; expect a major reshaping of how decisions on housing, transport and skills are made if he takes over as PM next month.</li>
+ <li><strong>Markets:</strong> UK gilt yields fell to 4.89% and sterling firmed to $1.3215 after the Burnham speech &mdash; bond markets are reassured, raising the chance of a Bank of England rate cut in August and cheaper mortgage deals.</li>
+ <li><strong>Iran:</strong> The US and Iran confirmed they will meet in Doha on Tuesday &mdash; oil eased further to $86.80, easing the immediate pressure on petrol prices and summer holiday flight costs.</li>
+ </ul>
+ </div>
+ <div class="curated-grid">
+ <div class="curated-column">
+ <h3><span class="dot geo"></span><span class="dot-label">GEO</span> Geopolitical</h3>
+ <div>
+
+ <div class="curated-item" data-time="17:00" data-slug="iran-us-doha-talks-tuesday-confirmed-monday-evening-trump-truth-social-pezeshkian-qatar-venue-reuters-nbc-aljazeera-de-escalation-channels-mediators-frozen-assets-release-leverage-asset-unfreezing-trigger">
+ <h4>Iran-US Doha Talks for Tuesday Confirmed by Trump; Mediators Set Up De-escalation Channels</h4>
+ <p>Donald Trump confirmed in a Truth Social post on Monday that the United States and Iran will hold talks in Doha, Qatar, on Tuesday. The two sides have agreed to halt the recent exchange of strikes that threatened to derail the Lake Lucerne peace deal. Mediators in Pakistan and Qatar have set up de-escalation channels in advance of the meeting, according to a Reuters source. The release of frozen Iranian assets is reported to be one of the key items on the table. Markets responded positively: Brent crude eased further to $86.80 a barrel through the European session.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">Tehran initially denied negotiations were happening before Trump&rsquo;s confirmation, and Iran&rsquo;s position is that nothing on the table affects its control of the Strait of Hormuz. The Doha venue is significant because it is where much of the original Lake Lucerne pre-deal diplomacy took place. Vice President JD Vance&rsquo;s earlier position that any release of frozen Iranian assets must be conditioned on framework compliance gives the US a clear lever for Tuesday. Saudi Arabia, the UAE and the broader six-state regional alignment have all pressed for de-escalation in the past 48 hours. The Tuesday outcome remains the biggest near-term variable for oil prices, sterling and UK gilt markets through July.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="15:00" data-slug="israel-lebanon-deal-entrench-stalemate-reuters-analysis-monday-hezbollah-rejection-disarmament-conditioning-netanyahu-press-conference-freedom-to-strike-500-strikes-since-ceasefire-230-operatives-killed">
+ <h4>Israel-Lebanon Deal Risks Entrenching Stalemate Rather Than Ending War, Analysts Say</h4>
+ <p>The Israel-Lebanon framework agreement signed last Friday risks entrenching a long-term stalemate rather than ending the conflict, Reuters analysts said Monday. The deal ties Israeli withdrawal from southern Lebanon to Hezbollah disarmament, but Hezbollah has rejected the framework outright, calling it surrender. Israel says it has carried out more than 500 strikes in Lebanon since the November 2024 ceasefire, killing 230 Hezbollah operatives. Prime Minister Netanyahu defended the deal Monday but said Israel retains the freedom to strike Hezbollah at will. The structural concern remains that a Lebanon collapse would drag the Iran framework down with it.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The Reuters analysis judges that the framework&rsquo;s reciprocal-step structure &mdash; Israeli withdrawal contingent on Hezbollah disarmament, and vice versa &mdash; creates a stalemate trap where neither side has incentive to move first. Hezbollah leadership view the disarmament demand as existential and have rejected the framework on its own. Israel&rsquo;s Netanyahu government, meanwhile, treats the deal as a Trump-administration-friendly headline that allows continued military action. The five rounds of US-mediated negotiations that produced the deal addressed all the symbolic elements but none of the on-the-ground enforcement architecture. The Tuesday Iran-US Doha talks become the next test of whether the broader regional peace architecture holds.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="14:00" data-slug="russia-bohodarivka-fortress-belt-kostiantynivka-monday-evening-reuters-euromaidan-donetsk-front-grinding-advance-pokrovsk-stalled-elsewhere-deep-strike-crimea-oil-refineries-zelensky-pre-emptive-doctrine-isw-summer-offensive">
+ <h4>Russia Captures Bohodarivka as Forces Slip Into &ldquo;Fortress Belt&rdquo; Anchor Kostiantynivka</h4>
+ <p>Russian forces have captured the village of Bohodarivka in Ukraine&rsquo;s Donetsk region and are slipping into the southern anchor of Ukraine&rsquo;s &ldquo;fortress belt&rdquo;, Kostiantynivka. Reuters and Euromaidan report Russian troops have begun infiltrating the city from the south, with Ukrainian commanders disputing Vladimir Putin&rsquo;s claim it is nearly taken. The fortress belt &mdash; built up since 2014 &mdash; is the backbone of Ukraine&rsquo;s defence in the east. The push is the most concentrated of the Russian summer offensive so far, even as advances elsewhere on the front have stalled. Ukraine&rsquo;s deep-strike campaign on Russian oil infrastructure continues in response.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">Kostiantynivka anchors the southern end of the Ukrainian fortress belt that runs north to Sloviansk and Kramatorsk. If Russia takes the city, the next major Ukrainian defensive position is hundreds of kilometres further west. Russian losses through this offensive have been heavy &mdash; Ukrainian estimates put them at over 50,000 troops in the past quarter. The G7 long-range capability commitment for Ukraine is being tested by the speed of the Russian push. Ukrainian deep strikes on Crimea, Russian oil refineries and ammunition depots remain the principal counter-pressure tool while the eastern defensive line holds.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="11:00" data-slug="gaza-73000-monday-evening-netanyahu-multi-track-mid-east-peace-architecture-no-progress-egyptian-qatari-mediators-deadlock-70-percent-directive-iran-de-escalation-aftermath-vance-leverage">
+ <h4>Gaza Death Toll Still Above 73,000 as Mid-East Multi-Track Peace Architecture Strains</h4>
+ <p>The Palestinian death toll in Gaza remains above 73,000 according to the territory&rsquo;s Health Ministry. Egyptian and Qatari mediation efforts continue but no breakthrough is in sight. Israel&rsquo;s plan to expand control of Gaza to 70% of the territory is still in force. With the Iran track stabilising overnight and Lebanon now provisionally settled in framework form, attention should turn back to the Gaza-track stalemate &mdash; but Netanyahu&rsquo;s domestic political calculations continue to limit how much pressure Washington can apply. The Tuesday Doha meeting may provide an opportunity for Iran to push the Gaza issue onto the table.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">Neither the Lake Lucerne peace deal nor the Rubio Israel-Lebanon trilateral framework includes Gaza explicitly. With the Iran and Lebanon tracks at least nominally stabilising, Gaza becomes the conspicuous outlier in the multi-track architecture. Vice President JD Vance&rsquo;s earlier conditioning of Iranian asset releases on framework compliance gives the US some leverage, but applying it directly to Gaza is structurally harder. Netanyahu&rsquo;s political position depends on continued military operations in Gaza, making meaningful concession difficult. Egyptian and Qatari mediators continue working the hostage-and-aid channel.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="09:00" data-slug="venezuela-earthquake-recovery-monday-update-rodriguez-acting-president-international-aid-channels-active-disaster-architecture-latin-america-regional-cooperation-589-dead-2900-injured-multi-channel-response-maduro-government-coordination">
+ <h4>Venezuela Quake Recovery Continues as International Aid Channels Active</h4>
+ <p>Recovery operations continue in Venezuela following the twin earthquakes earlier this month that killed at least 589 people and injured nearly 3,000. Acting President Delcy Rodriguez said Monday that international humanitarian aid is now flowing through multiple channels despite the country&rsquo;s post-2017 sanctions regime. Brazil, Colombia and Mexico are providing the bulk of the regional response, alongside US and EU contributions. The cooperative international response has held despite the Trump administration&rsquo;s historically tough Venezuela stance. The structural test through July is whether disaster-response coordination continues without political conditions being attached.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The international aid response has been more cooperative than many expected. The disaster &mdash; the deadliest natural event in the Western Hemisphere of 2026 so far &mdash; has temporarily lifted the political conditioning around Venezuela aid that has prevailed since 2017. The Maduro government&rsquo;s decision to accept multi-channel international assistance is materially significant for the broader Latin American regional cooperation framework. Recovery operations are expected to continue at significant scale for several weeks.</div>
+ </details>
+ </div>
+
+ </div>
+ </div>
+ <div class="curated-column">
+ <h3><span class="dot dom"></span><span class="dot-label">UK</span> UK Domestic Politics</h3>
+ <div>
+
+ <div class="curated-item" data-time="13:00" data-slug="burnham-no-10-north-confirmed-major-speech-monday-manchester-circuit-breaker-10-year-plan-devolution-mayoral-power-housing-skills-transport-economic-vision-nyt-bbc-itv-guardian-sky-euronews-good-growth-every-postcode-rebalancing-power">
+ <h4>Burnham Confirms &ldquo;No 10 North&rdquo; Devolution Plan in Defining Manchester Speech</h4>
+ <p>Andy Burnham confirmed in a defining speech in Manchester today that he will set up a &ldquo;No 10 North&rdquo; office and deliver what he called a &ldquo;circuit breaker&rdquo; for the UK economy. The plan, set out as a 10-year vision, would devolve significant power on housing, transport and skills to mayors and local government. The speech is the most substantive statement yet from the man widely expected to take over as PM next month. Reaction from bond markets was positive: gilt yields fell to 4.89% and sterling firmed slightly. Critics warned the speech was thin on detail on funding and fiscal rules.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The Burnham speech was light on detail in several material areas &mdash; particularly capital gains tax reform and fiscal-rule treatment &mdash; but heavy on the devolution-and-rebalancing framing. The &ldquo;No 10 North&rdquo; office would be physically based in Manchester and tasked with monitoring delivery of growth outside London and the southeast. Bond markets read the speech as broadly continuity on the fiscal rules, hence the modest gilt-yield easing. The structural challenge is whether a relocated executive office can actually shift power away from Whitehall given that the civil service, Bank of England, and Treasury are all London-based. The Burnham coronation path for 17 July remains operative.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="17:30" data-slug="markets-monday-close-ftse-10662-gilt-yields-4-89-bond-markets-reassured-burnham-speech-sterling-1-3215-firms-aj-bell-marketscreener-housebuilders-down-bank-england-august-cut-probability-rises-reeves-continuity-bond-market-positioning">
+ <h4>Gilt Yields Fall and Sterling Firms After Burnham Speech; FTSE Closes Muted</h4>
+ <p>UK markets closed Monday with bond markets clearly reassured by Andy Burnham&rsquo;s economic speech. 10-year gilt yields fell to 4.89%, sterling firmed to $1.3215, and the FTSE 100 closed at 10,662, modestly higher. Housebuilders were the day&rsquo;s losers, reading some of the planning-reform language as a threat. Bank of England rate-cut pricing for the 6 August meeting has risen above 50% on the combination of falling oil prices, Burnham continuity on fiscal rules, and easing inflation expectations. The structural Tuesday Iran-US Doha test still hangs over the picture, but UK domestic policy clarity is the day&rsquo;s mover.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The bond-market reaction tells the clearest story: Burnham&rsquo;s commitment to the existing fiscal envelope was the variable bond markets had been waiting for clarification on through June. The 8-basis-point gilt-yield drop is a substantial single-session move and effectively prices in a higher probability of the August cut. Sterling firming on a leadership-transition speech is unusual and reflects how much positioning had built up around fiscal-rule loosening fears. Housebuilders selling off on planning-reform language is the consensus read &mdash; though the longer-term picture is more nuanced given the broader Burnham building-boom positioning. The Bank of England Monetary Policy Report on 6 August is the next major UK macro variable.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="10:00" data-slug="white-working-class-children-failed-education-system-inquiry-report-monday-thousands-young-people-parents-hundreds-teachers-bbc-major-finding-political-significance-attainment-gap-policy-implications">
+ <h4>Inquiry Finds White Working-Class Children &ldquo;Failed&rdquo; by Education System</h4>
+ <p>A major inquiry published Monday has found that white working-class children are being systematically failed by the UK education system. The inquiry spoke to thousands of young people and their parents, as well as hundreds of teachers, building one of the most comprehensive evidence bases yet assembled on the attainment gap. The findings carry significant political weight as Burnham takes over the Labour leadership: white working-class educational underperformance has been one of the cultural-political fault lines that drove the 2024 collapse of Labour&rsquo;s Red Wall vote. Policy responses are expected to feature in the Burnham education-policy framework.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The inquiry&rsquo;s findings reinforce a long-standing concern in UK educational research: that the attainment gap for white working-class boys has been the most stubborn and least addressed of the structural underperformance patterns in English schools. Successive Conservative and Labour governments have framed the problem differently &mdash; Conservatives via the &ldquo;left-behind communities&rdquo; lens, Labour traditionally via deprivation indicators &mdash; without delivering material change in outcomes. The Burnham incoming-leadership team will be under pressure to show how the &ldquo;rebalancing&rdquo; framing addresses educational outcomes specifically, not just regional economic ones. Education Secretary Bridget Phillipson&rsquo;s position remains uncertain through the cabinet transition.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="07:00" data-slug="ni-resident-doctors-strike-24-hour-walkout-pay-itv-utv-monday-7am-tuesday-pre-cabinet-transition-context-streeting-burnham-health-policy-architecture-bma-northern-ireland-context-tom-jones-health-minister-stormont">
+ <h4>Northern Ireland Resident Doctors Stage 24-Hour Walkout Over Pay</h4>
+ <p>Resident doctors in Northern Ireland have begun a 24-hour walkout over pay, with the strike running from 7am Monday until 6.59am Tuesday. The strike is the first major industrial action of the pre-Burnham cabinet transition period and signals trouble ahead for the incoming Labour leadership&rsquo;s health-sector relationships. The British Medical Association says NI resident doctors face a structural pay-restoration gap of around 30% in real terms since 2008. The Stormont Executive has limited fiscal headroom to address the dispute independently. The strike is a sharper warning sign than the headline figures suggest: BMA action in England may follow.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The Northern Ireland resident doctors&rsquo; dispute echoes the wider BMA pay-restoration campaign that has dogged the NHS since 2022. Resident doctors (formerly junior doctors) argue that their pay has fallen ~30% in real terms since 2008 and that without restoration the structural medical workforce risks deteriorating further. Stormont&rsquo;s constrained fiscal position limits its ability to settle independently &mdash; pay is largely determined by central government. Burnham&rsquo;s incoming health policy will need to address the wider BMA pay-restoration question; doing so within fiscal constraints will be one of the structural challenges of the early months of the new administration.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="12:00" data-slug="craig-williams-ex-mp-general-election-betting-guilty-plea-monday-political-betting-offence-sunak-aide-2024-election-context-conservative-pre-election-scandal-political-integrity-legacy-prosecution-completion">
+ <h4>Ex-MP Craig Williams Pleads Guilty Over General Election Betting Offence</h4>
+ <p>Former Conservative MP Craig Williams pleaded guilty Monday over the 2024 general election betting scandal that emerged days before then-Prime Minister Rishi Sunak called the snap election. Williams was MP for Montgomeryshire and an aide to Sunak at the time. The guilty plea closes one chapter of the broader political-integrity scandal that contributed to the Conservative party&rsquo;s electoral collapse in 2024. The case has implications for the wider Gambling Commission investigation into betting on the election date. The Williams plea is the most senior outcome from the inquiry so far and underscores the legacy political-integrity damage to the Conservative party.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The Williams betting case has been one of the most politically damaging legacy scandals from the Conservative party&rsquo;s 2024 election defeat. Several other figures &mdash; including former Conservative party staffers and police officers &mdash; have also been implicated in the wider Gambling Commission inquiry. The integrity dimension &mdash; people with election-date knowledge profiting from that information &mdash; speaks to a broader perception of pre-election political ethics that contributed to the Conservative party&rsquo;s electoral collapse. The current Conservative leadership under Kemi Badenoch continues to face fallout from legacy 2024 scandals as it tries to rebuild.</div>
+ </details>
+ </div>
+
+ </div>
+ </div>
+ </div>
+
+ <div class="one-to-read">
+ <span class="otr-label">One To Read</span>
+ <a href="https://www.nytimes.com/2026/06/29/world/europe/uk-andy-burnham-agenda-speech.html" target="_blank" rel="noopener noreferrer">
+ <h4>Britain&rsquo;s Likely Next Leader Promises Major Shift of Power Out of London</h4>
+ <span class="otr-source">The New York Times</span>
+ <span class="otr-dot">&middot;</span>
+ <span class="otr-desc">Andy Burnham, set to become prime minister next month, said he would set up a new operation in Manchester called &ldquo;No 10 North&rdquo; to give more autonomy to local leaders and rebalance British economic decision-making.</span>
+ </a>
+ </div>
+ <!-- SOURCES USED
+ - https://www.bbc.com/news/live/cgrk4rpxnx7t &mdash; BBC News: Burnham sets out plans to devolve power No 10 North Manchester
+ - https://www.bbc.com/news/articles/cpq3yy48zglo &mdash; BBC News: Henry Zeffman Burnham blueprint premiership analysis
+ - https://www.bbc.com/news/articles/c2ky95ndx92o &mdash; BBC News: Navy drone-equipped warships destroyer replacement
+ - https://www.bbc.com/news/articles/cq51j10q601o &mdash; BBC News: White working-class children failed education inquiry
+ - https://www.bbc.com/news/articles/c3ry1zr8nw2o &mdash; BBC News: Ex-MP Craig Williams guilty plea betting offence
+ - https://www.itv.com/news/utv/2026-06-29/resident-doctors-strike-over-pay &mdash; ITV/UTV News: Resident doctors Northern Ireland 24-hour walkout pay
+ - https://www.nytimes.com/2026/06/29/world/europe/uk-andy-burnham-agenda-speech.html &mdash; New York Times: Britain&rsquo;s likely next leader promises major shift of power out of London
+ - https://www.theguardian.com/politics/live/2026/jun/29/andy-burnham-devolution-speech-keir-starmer-labour-latest-news-updates &mdash; The Guardian: Andy Burnham confirms No 10 North Manchester rebalancing power
+ - https://www.theguardian.com/business/live/2026/jun/29/bank-of-england-inflation-warning-ai-stock-markets-oil-burnham-bond-yields-live-news-updates &mdash; The Guardian: UK government borrowing costs dip pound rises City welcomes Burnham
+ - https://www.aljazeera.com/news/2026/6/29/trump-announces-meeting-with-iran-in-qatar-despite-military-skirmishes &mdash; Al Jazeera: Trump announces Iran meeting Qatar Tuesday despite military skirmishes
+ - https://www.reuters.com/world/middle-east/mediators-set-up-de-escalation-channels-ahead-us-iran-talks-source-says-2026-06-29/ &mdash; Reuters: Mediators set up de-escalation channels ahead US-Iran talks
+ - https://www.reuters.com/3fec1b0a85a0/world/middle-east/israel-lebanon-deal-may-entrench-stalemate-rather-than-end-war-analysts-say-2026-06-29/ &mdash; Reuters: Israel-Lebanon deal may entrench stalemate rather than end war
+ - https://www.reuters.com/world/europe/russia-pounds-gates-ukraines-fortress-belt-2026-06-29/ &mdash; Reuters: Russia pounds on the gates of Ukraine&rsquo;s fortress belt
+ - https://euromaidanpress.com/2026/06/29/russia-grinds-into-ukraines-fortress-belt-even-as-its-advance-stalls-everywhere-else/ &mdash; Euromaidan Press: Russia grinds into fortress belt advance stalls elsewhere
+ - https://www.ajbell.co.uk/news/articles/lunchtime-market-roundup-stocks-mostly-lower-after-burnham-speech &mdash; AJ Bell: Lunchtime market roundup stocks mostly lower after Burnham speech
+ - https://www.marketscreener.com/news/gilt-yields-fall-after-u-k-frontrunner-burnham-s-speech-ce7f5fded08cf227 &mdash; MarketScreener: Gilt yields fall after Burnham speech
+ - https://global.morningstar.com/en-gb/news/alliance-news/1782721445971273000/london-market-open-ftse-100-muted-as-us-and-iran-agree-to-end-attacks &mdash; Morningstar/Alliance News: London market open FTSE 100 muted US-Iran agree end attacks
+ - Sky News &mdash; UK politics Burnham speech coverage
+ - Bloomberg &mdash; Pound steady ahead of Burnham speech market reaction
+ - ISW &mdash; Russia-Ukraine analytical context fortress belt
+ END SOURCES USED -->
+ </div><!-- ── END EVENING 29 JUN (18:30) ── -->
 
  <!-- ── MORNING 29 JUN (08:15) ── -->
  <div class="curated-edition morning" data-date="2026-06-29" data-time="08:15" data-markets='{"FTSE":{"price":10650,"change":0.14},"SP":{"price":5500,"change":0.09},"Brent":{"price":87.50,"change":-2.13},"GBP":{"price":1.3200,"change":0.42},"Gold":{"price":4470,"change":-0.56},"EURGBP":{"price":0.8755,"change":-0.17},"Gilt":{"price":4.94,"change":-0.40},"VIX":{"price":22.20,"change":-5.53},"BTC":{"price":81200,"change":0.37},"UST":{"price":4.37,"change":-0.68},"ts":"2026-06-29T08:15:00+01:00"}'>
@@ -5317,10 +5470,9 @@ window._marketData = {};
               teaserFirstText = sentenceMatch[1];
               teaserRestText = sentenceMatch[2].trim();
             } else {
-              teaserFirstText = fullText.split(' ').slice(0, 25).join(' ') + '…';
+              teaserFirstText = fullText;
               teaserRestText = '';
             }
-            if (teaserFirstText.length > 180) teaserFirstText = teaserFirstText.slice(0, 177).trim() + '…';
             // Remove the original first paragraph entirely — its content now lives in the teaser
             firstP.remove();
           }
