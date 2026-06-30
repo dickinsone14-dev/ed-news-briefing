@@ -3,7 +3,7 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
     <loc>https://thedailybrief.co.uk/</loc>
-    <lastmod>2026-06-29</lastmod>
+    <lastmod>2026-06-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -6034,6 +6034,72 @@
   <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-06-29-morning/vw-volkswagen-100000-job-losses-monday-global-overhaul-cardealermagazine-european-auto-sector-structural-pressure-electric-transition-tariff-context-trump-architecture-jaguar-land-rover-context/</loc>
     <lastmod>2026-06-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-30-morning/</loc>
+    <lastmod>2026-06-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-30-morning/gaza-73000-tuesday-morning-mid-east-multi-track-peace-architecture-pressure-egyptian-qatari-mediators-deadlock-70-percent-directive-iran-de-escalation-context-vance-leverage-asset-conditioning-doha-window-for-pressure-application/</loc>
+    <lastmod>2026-06-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-30-morning/iran-us-doha-talks-today-tuesday-morning-trump-pezeshkian-ap-reuters-aljazeera-nuclear-pact-restoration-60-day-mou-asset-unfreezing-trigger-vance-leverage-hormuz-control-non-negotiable-pakistan-qatar-mediators-active/</loc>
+    <lastmod>2026-06-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-30-morning/israel-lebanon-stalemate-reuters-analysis-tuesday-morning-netanyahu-freedom-to-strike-hezbollah-disarmament-rejection-framework-fragility-aftermath-monday-press-conference-multi-track-pressure-iran-doha-context/</loc>
+    <lastmod>2026-06-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-30-morning/markets-tuesday-open-ftse-10672-gilt-yields-4-88-iran-doha-day-brent-86-50-sterling-1-3225-bank-england-mpc-august-cut-probability-50-percent-burnham-fiscal-rule-continuity-bond-market-positioning-housing-data-zoopla-context/</loc>
+    <lastmod>2026-06-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-30-morning/nhs-maternity-inquiry-baroness-amos-racism-discrimination-patient-safety-tuesday-morning-bbc-independent-inquiry-report-england-services-overhaul-cant-continue-like-this-systemic-failure-streeting-burnham-policy-implications-major-political-significance/</loc>
+    <lastmod>2026-06-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-30-morning/refugees-repay-10000-asylum-support-home-office-tuesday-bbc-new-laws-cost-recovery-immigration-policy-burnham-inheritance-cooper-policy-context-pre-cabinet-transition-immigration-tightening-pattern/</loc>
+    <lastmod>2026-06-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-30-morning/resident-doctors-england-accept-pay-deal-strikes-end-monday-evening-bma-three-year-dispute-nhs-streeting-health-secretary-pay-restoration-context-burnham-inheritance-cabinet-transition-bbc/</loc>
+    <lastmod>2026-06-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-30-morning/russia-367-aerial-weapons-overnight-ukraine-zelensky-zaporizhzhia-kharkiv-sumy-air-alert-zelensky-mocks-putin-kostiantynivka-fortress-belt-grinding-advance-independent-wion-isw-deep-strike-campaign-continues-summer-offensive-second-consecutive-night/</loc>
+    <lastmod>2026-06-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-30-morning/starmer-defence-investment-plan-15bn-extra-5bn-drones-tuesday-bbc-times-independent-sky-jets-warships-drones-13-5bn-increase-jarvis-defence-secretary-burnham-inheritance-2-69-percent-gdp-2030-telegraph-critics-falls-short-mod-28bn/</loc>
+    <lastmod>2026-06-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-30-morning/venezuela-earthquake-recovery-tuesday-update-rodriguez-international-aid-architecture-589-dead-international-channels-active-disaster-response-latin-america-regional-cooperation-trump-administration-stance-context/</loc>
+    <lastmod>2026-06-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>

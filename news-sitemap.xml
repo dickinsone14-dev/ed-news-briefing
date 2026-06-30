@@ -2,6 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-30-morning/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-30T08:15:00+01:00</news:publication_date>
+      <news:title>Morning Briefing — Tuesday 30 June 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-30-morning/iran-us-doha-talks-today-tuesday-morning-trump-pezeshkian-ap-reuters-aljazeera-nuclear-pact-restoration-60-day-mou-asset-unfreezing-trigger-vance-leverage-hormuz-control-non-negotiable-pakistan-qatar-mediators-active/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-30T08:15:00+01:00</news:publication_date>
+      <news:title>Iran-US Talks Take Place in Doha Today After Weekend De-escalation</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-30-morning/russia-367-aerial-weapons-overnight-ukraine-zelensky-zaporizhzhia-kharkiv-sumy-air-alert-zelensky-mocks-putin-kostiantynivka-fortress-belt-grinding-advance-independent-wion-isw-deep-strike-campaign-continues-summer-offensive-second-consecutive-night/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-30T08:15:00+01:00</news:publication_date>
+      <news:title>Russia Fires 367 Aerial Weapons at Ukraine Overnight; Kostiantynivka Push Continues</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-30-morning/israel-lebanon-stalemate-reuters-analysis-tuesday-morning-netanyahu-freedom-to-strike-hezbollah-disarmament-rejection-framework-fragility-aftermath-monday-press-conference-multi-track-pressure-iran-doha-context/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-30T08:15:00+01:00</news:publication_date>
+      <news:title>Israel-Lebanon Deal Still Fragile Ahead of Iran Doha Talks</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-30-morning/gaza-73000-tuesday-morning-mid-east-multi-track-peace-architecture-pressure-egyptian-qatari-mediators-deadlock-70-percent-directive-iran-de-escalation-context-vance-leverage-asset-conditioning-doha-window-for-pressure-application/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-30T08:15:00+01:00</news:publication_date>
+      <news:title>Gaza Death Toll Above 73,000 as Iran De-escalation Opens Window for Mid-East Pressure</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-30-morning/venezuela-earthquake-recovery-tuesday-update-rodriguez-international-aid-architecture-589-dead-international-channels-active-disaster-response-latin-america-regional-cooperation-trump-administration-stance-context/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-30T08:15:00+01:00</news:publication_date>
+      <news:title>Venezuela Earthquake Recovery Continues With International Aid Flowing</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-30-morning/starmer-defence-investment-plan-15bn-extra-5bn-drones-tuesday-bbc-times-independent-sky-jets-warships-drones-13-5bn-increase-jarvis-defence-secretary-burnham-inheritance-2-69-percent-gdp-2030-telegraph-critics-falls-short-mod-28bn/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-30T08:15:00+01:00</news:publication_date>
+      <news:title>Starmer Publishes £15bn Defence Investment Plan in One of His Final Acts as PM</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-30-morning/resident-doctors-england-accept-pay-deal-strikes-end-monday-evening-bma-three-year-dispute-nhs-streeting-health-secretary-pay-restoration-context-burnham-inheritance-cabinet-transition-bbc/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-30T08:15:00+01:00</news:publication_date>
+      <news:title>Resident Doctors in England Accept Pay Deal — Three-Year Strikes End</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-30-morning/nhs-maternity-inquiry-baroness-amos-racism-discrimination-patient-safety-tuesday-morning-bbc-independent-inquiry-report-england-services-overhaul-cant-continue-like-this-systemic-failure-streeting-burnham-policy-implications-major-political-significance/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-30T08:15:00+01:00</news:publication_date>
+      <news:title>NHS Maternity Inquiry: “Unacceptable Racism” Affecting Patient Safety</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-30-morning/markets-tuesday-open-ftse-10672-gilt-yields-4-88-iran-doha-day-brent-86-50-sterling-1-3225-bank-england-mpc-august-cut-probability-50-percent-burnham-fiscal-rule-continuity-bond-market-positioning-housing-data-zoopla-context/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-30T08:15:00+01:00</news:publication_date>
+      <news:title>Markets Open Cautiously Ahead of Iran Doha Talks; Gilt Yields Edge Lower</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-06-30-morning/refugees-repay-10000-asylum-support-home-office-tuesday-bbc-new-laws-cost-recovery-immigration-policy-burnham-inheritance-cooper-policy-context-pre-cabinet-transition-immigration-tightening-pattern/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-30T08:15:00+01:00</news:publication_date>
+      <news:title>Home Office to Reclaim £10,000 in Asylum Support From Refugees Under New Rules</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-06-29-evening/</loc>
     <news:news>
       <news:publication>
@@ -483,127 +604,6 @@
       </news:publication>
       <news:publication_date>2026-06-28T08:15:00+01:00</news:publication_date>
       <news:title>Economist Weekend Profile: Andy Burnham, Britain’s Prime Minister-in-Waiting</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-06-27-evening/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-27T18:30:00+01:00</news:publication_date>
-      <news:title>Evening Briefing — Saturday 27 June 2026</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-06-27-evening/netanyahu-throws-trump-peace-push-window-israel-strikes-lebanon-hours-after-us-deal-times-india-rubio-trilateral-doubt-cast-fragile-agreement-de-confliction-cell-stress-test-saturday-afternoon-violation/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-27T18:30:00+01:00</news:publication_date>
-      <news:title>Israel Strikes Lebanon Hours After Rubio US Deal; Trilateral Agreement Already in Doubt</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-06-27-evening/us-iran-strikes-trade-saturday-hurriyet-canadian-press-cargo-ship-attack-hormuz-framework-durability-stress-irgc-response-broader-counterstrike-pakistan-qatar-mediator-architecture-pressure-rubio-statement/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-27T18:30:00+01:00</news:publication_date>
-      <news:title>US and Iran Trade Strikes: Strain on Mideast Ceasefire Continues Through Saturday</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-06-27-evening/ukraine-cruise-missile-strike-volgograd-titan-barrikady-defence-plant-zelensky-saturday-yeni-safak-arab-news-deep-strike-campaign-russian-industrial-capacity-energy-facilities-zaporizhzhia-six-injured-child/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-27T18:30:00+01:00</news:publication_date>
-      <news:title>Ukraine Strikes Russian Volgograd Defence Plant With Cruise Missiles; Zaporizhzhia Attacked Overnight</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-06-27-evening/europe-heatwave-east-germany-denmark-records-reuters-saturday-extreme-heat-warning-dozens-deaths-eastern-pivot-continental-trajectory-attribution-study-climate-acceleration-uk-end-sunday-thunderstorms/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-27T18:30:00+01:00</news:publication_date>
-      <news:title>Europe Heatwave Moves East: Germany and Denmark Set Fresh Records With Dozens of Deaths</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-06-27-evening/gaza-73000-saturday-evening-post-deal-pressure-netanyahu-political-latitude-egyptian-mediators-hostage-talks-deadlock-70-percent-directive-israel-lebanon-strikes-framework-violation-aftermath-trilateral-doubt/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-27T18:30:00+01:00</news:publication_date>
-      <news:title>Gaza Death Toll Holds Above 73,000; Israeli Lebanon Strikes Materially Stress Framework</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-06-27-evening/burnham-economic-vision-monday-speech-first-major-leadership-itv-haldane-advice-big-building-boom-stamp-duty-triple-lock-pre-coronation-17-july-architecture-formal-launch-policy-framework-saturday-anticipation/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-27T18:30:00+01:00</news:publication_date>
-      <news:title>Burnham Economic-Vision Speech Monday: Pre-Coronation Policy Launch</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-06-27-evening/markets-saturday-evening-iran-strikes-monday-asia-open-binary-brent-89-40-six-percent-gilt-4-96-sterling-1-3145-vix-23-50-spike-burnham-speech-monday-context-bank-england-mpc-august-cut-probability/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-27T18:30:00+01:00</news:publication_date>
-      <news:title>Markets Saturday Evening: Brent Holds at 6% Friday Jump; Monday Asia Open Binary on Iran Escalation</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-06-27-evening/labour-lead-reform-burnham-pm-poll-friday-inews-wafer-thin-edge-pollster-warn-rarely-survive-contact-daily-grind-leading-coronation-momentum-post-makerfield-aftermath-saturday-context-electoral-positioning/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-27T18:30:00+01:00</news:publication_date>
-      <news:title>Labour-Burnham Polling Bounce Holds; Pollster Warns Edge Is “Wafer-Thin”</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-06-27-evening/uk-heatwave-ends-sunday-thunderstorms-forecast-saturday-evening-yorkshire-record-friday-aftermath-met-office-cooler-weather-next-week-experts-warn-more-heat-come-climate-acceleration-trajectory-attribution/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-27T18:30:00+01:00</news:publication_date>
-      <news:title>UK Heatwave Ends Sunday; Thunderstorms Forecast as Heat-Dome Moves East</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-06-27-evening/burnham-mortgage-google-searches-surge-5000-percent-express-burnham-distanced-starmer-times-union-stuck-policies-saturday-evening-context-fiscal-headroom-policy-architecture-constraint-coronation-17-july/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-27T18:30:00+01:00</news:publication_date>
-      <news:title>Burnham-Era Mortgage Searches Surge 5,000% as Households Brace for Policy Shifts</news:title>
     </news:news>
   </url>
 </urlset>
