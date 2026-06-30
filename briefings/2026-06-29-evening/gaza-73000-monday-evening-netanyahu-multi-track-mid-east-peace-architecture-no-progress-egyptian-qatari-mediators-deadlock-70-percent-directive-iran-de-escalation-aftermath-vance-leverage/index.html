@@ -2208,11 +2208,11 @@
  - Hard expiry at 24h from "posted" (or at "expires" if set) — banner comes down
  - Optional "expires" field overrides the 8h default (e.g. for major events)
  To add a new breaking story, prepend an entry here with the current ISO timestamp. -->
- <script id="breaking-stories" type="application/json">[{"headline": "Six killed in shooting at youth welfare facility in Stade, Germany — 19:30 BST", "posted": "2026-06-29T19:30:00+01:00", "category": "WORLD", "summary": "Six people have been killed in a shooting at a youth welfare facility in the northern German city of Stade, near Hamburg, police said Monday evening. Five died at the scene and a sixth later died of their injuries in hospital; the victims were employees of the facility, all adults. A 45-year-old German man has been arrested as the main suspect, with two other people taken into custody.", "facts": [{"label": "Dead", "value": "6 (5 at scene, 1 in hospital)"}, {"label": "Location", "value": "Youth welfare facility, Stade — ~45km west of Hamburg"}, {"label": "Suspect", "value": "45-year-old German man arrested; 2 others in custody"}, {"label": "Victims", "value": "Facility employees, all adults"}]}]</script>
- <div class="breaking-banner" id="breakingBanner">
+ <script id="breaking-stories" type="application/json">[]</script>
+ <div class="breaking-banner" id="breakingBanner" style="display:none">
  <div class="breaking-inner">
  <span class="breaking-label">BREAKING</span>
- <span class="breaking-text" id="breakingText">Six killed in shooting at youth welfare facility in Stade, northern Germany; main suspect arrested</span>
+ <span class="breaking-text" id="breakingText"></span>
  <span class="breaking-readmore" id="breakingReadmore">Read more</span>
  <button class="breaking-dismiss" id="breakingDismiss">&times;</button>
  </div>
@@ -2301,57 +2301,57 @@
 
  <!-- #1 Markets snapshot bar -->
  <!-- Embedded market data (populated by update script, used as fallback) -->
- <script id="embedded-markets" type="application/json">{"FTSE":{"price":10455,"change":0.58},"SP":{"price":5358,"change":0.53},"Brent":{"price":95.20,"change":-1.34},"GBP":{"price":1.3425,"change":0.22},"Gold":{"price":4475,"change":-0.33},"EURGBP":{"price":0.8670,"change":-0.10},"Gilt":{"price":4.99,"change":-0.60},"VIX":{"price":24.50,"change":-7.55},"BTC":{"price":80520,"change":0.62},"UST":{"price":4.50,"change":-0.44},"ts":"2026-06-30T08:15:00+01:00"}</script>
+ <script id="embedded-markets" type="application/json">{"FTSE":{"price":10455,"change":0.58},"SP":{"price":5358,"change":0.53},"Brent":{"price":95.20,"change":-1.34},"GBP":{"price":1.3425,"change":0.22},"Gold":{"price":4475,"change":-0.33},"EURGBP":{"price":0.8670,"change":-0.10},"Gilt":{"price":4.99,"change":-0.60},"VIX":{"price":24.50,"change":-7.55},"BTC":{"price":80520,"change":0.62},"UST":{"price":4.50,"change":-0.44},"ts":"2026-06-30T18:30:00+01:00"}</script>
  <script id="market-descriptions" type="application/json">{
     "FTSE": {
       "name": "FTSE 100",
       "desc": "The UK's benchmark stock index, tracking the 100 largest companies listed on the London Stock Exchange by market capitalisation. Includes Shell, AstraZeneca, HSBC and Unilever.",
-      "drivers_up": ["FTSE 100 opened higher at 10,672 with cautious risk-on into Doha talks", "Defensive sectors held in on bond-yield easing"], "drivers_down": ["Housebuilders still weak from Monday Burnham planning-reform speech", "Energy producers softer on Brent below $87"], "updated": "30 June 2026 08:15"
+      "drivers_up": ["UK defence stocks rallied on DIP unveiling; BAE Rolls-Royce Babcock all higher", "FTSE 100 closed at 10,693 up 0.20% on defence-led rotation"], "drivers_down": ["Housebuilders still soft from Monday Burnham planning-reform speech", "Energy producers softer on Brent near $86"], "updated": "30 June 2026 18:30"
     },
     "SP": {
       "name": "S&P 500",
       "desc": "America's leading stock market index, tracking 500 of the largest US-listed companies. Dominated by mega-cap tech (Apple, Microsoft, Nvidia) but spans all sectors.",
-      "drivers_up": ["US-Iran framework signing 14 June lifting global risk appetite and energy-supply outlook", "AI infrastructure spending continuing to support mega-cap tech earnings"], "drivers_down": ["Federal Reserve decision this week with rates expected on hold, limiting near-term upside", "Trump tariff threats casting uncertainty over international trade exposure"], "updated": "30 June 2026 08:15"
+      "drivers_up": ["US-Iran framework signing 14 June lifting global risk appetite and energy-supply outlook", "AI infrastructure spending continuing to support mega-cap tech earnings"], "drivers_down": ["Federal Reserve decision this week with rates expected on hold, limiting near-term upside", "Trump tariff threats casting uncertainty over international trade exposure"], "updated": "30 June 2026 18:30"
     },
     "Brent": {
       "name": "Brent Crude Oil",
       "desc": "The global benchmark for crude oil pricing, produced from oil fields in the North Sea. Used to price roughly two-thirds of the world's traded oil.",
-      "drivers_up": ["Iran-US Doha outcome still uncertain; breakdown could push Brent above $90", "OPEC+ production discipline holding through Q3 2026"], "drivers_down": ["Iran-US Doha meeting today; constructive outcome could send Brent toward $84", "Mediators in Pakistan and Qatar set up de-escalation channels in advance of talks"], "updated": "30 June 2026 08:15"
+      "drivers_up": ["Iran-US Doha meeting unconfirmed by Tehran; breakdown risk through Wednesday Asia open", "Iran reiterates Hormuz control determination raising stakes"], "drivers_down": ["Brent held steady at $86.20 awaiting Doha outcome", "OPEC+ production discipline holding through Q3 2026"], "updated": "30 June 2026 18:30"
     },
     "GBP": {
       "name": "GBP/USD",
       "desc": "The exchange rate between the British pound and the US dollar, commonly known as 'cable'. Reflects relative economic strength and interest rate differentials between the UK and US.",
-      "drivers_up": ["Sterling firmed to $1.3225 on Burnham fiscal-rule continuity holding overnight", "Bond markets reassured by Burnham speech reducing political-transition uncertainty"], "drivers_down": ["Federal Reserve hold stance limiting dollar weakness", "Burnham 10-year vision still short on funding detail; risks remain"], "updated": "30 June 2026 08:15"
+      "drivers_up": ["Sterling held at $1.3232 with bond markets supportive on DIP defence-spending clarity", "Bond markets reassured by Burnham fiscal-rule continuity holding"], "drivers_down": ["Federal Reserve hold stance limiting dollar weakness", "Doha outcome uncertainty creating defensive sterling positioning"], "updated": "30 June 2026 18:30"
     },
     "Gold": {
       "name": "Gold (XAU/USD)",
       "desc": "The spot price of gold in US dollars per troy ounce. The world's oldest safe-haven asset, traditionally rising during periods of uncertainty, inflation and currency debasement.",
-      "drivers_up": ["Gold rose on safe-haven flows from US-Iran ceasefire shaken framework-durability stress", "Central bank gold buying at record levels through 2026"], "drivers_down": ["Higher real yields making non-yielding gold less attractive", "Rubio trilateral Israel-Lebanon deal partially offsetting safe-haven flows"], "updated": "30 June 2026 08:15"
+      "drivers_up": ["Gold rose on safe-haven flows from US-Iran ceasefire shaken framework-durability stress", "Central bank gold buying at record levels through 2026"], "drivers_down": ["Higher real yields making non-yielding gold less attractive", "Rubio trilateral Israel-Lebanon deal partially offsetting safe-haven flows"], "updated": "30 June 2026 18:30"
     },
     "EURGBP": {
       "name": "EUR/GBP",
       "desc": "The exchange rate between the euro and the British pound. Key for UK-EU trade pricing. A falling rate means sterling is strengthening against the euro.",
-      "drivers_up": ["EUR/GBP rose to 0.8755 on sterling seven-month low and UK political-transition pressure", "Eurozone manufacturing recession concerns continuing into Q3 2026"], "drivers_down": ["ECB rate cuts outpacing BoE supporting sterling relative to euro", "G7 Ukraine military-aid commitment boosting EU defence-stock sentiment"], "updated": "30 June 2026 08:15"
+      "drivers_up": ["EUR/GBP rose to 0.8755 on sterling seven-month low and UK political-transition pressure", "Eurozone manufacturing recession concerns continuing into Q3 2026"], "drivers_down": ["ECB rate cuts outpacing BoE supporting sterling relative to euro", "G7 Ukraine military-aid commitment boosting EU defence-stock sentiment"], "updated": "30 June 2026 18:30"
     },
     "Gilt": {
       "name": "UK 10-Year Gilt Yield",
       "desc": "The yield on 10-year UK government bonds (gilts). A key benchmark for UK borrowing costs, mortgage rates and pension fund valuations. Rising yields mean falling bond prices.",
-      "drivers_up": ["Reeves Autumn Budget borrowing plans continue to add gilt supply", "Bank of England MPC August cut probability now 50-50 pending Doha outcome"], "drivers_down": ["10-year gilt yields eased further to 4.88% on Burnham fiscal-rule continuity", "Brent at $86.50 keeps UK inflation outlook contained"], "updated": "30 June 2026 08:15"
+      "drivers_up": ["Reeves Autumn Budget borrowing plans continue to add gilt supply", "DIP defence spending commitment slightly raises medium-term borrowing requirement"], "drivers_down": ["10-year gilt yields eased to 4.87% extending Burnham speech rally", "Bank of England MPC August cut probability now near 60%"], "updated": "30 June 2026 18:30"
     },
     "VIX": {
       "name": "VIX (Volatility Index)",
       "desc": "The CBOE Volatility Index, often called the 'fear gauge'. Measures expected S&P 500 volatility over the next 30 days. Readings above 20 suggest elevated anxiety; above 30 signals acute stress.",
-      "drivers_up": ["Doha Iran-US talks today the principal event-risk pivot for the week", "Hezbollah rejection of Lebanon framework still active"], "drivers_down": ["VIX eased to 21.20 on Burnham speech reducing UK political uncertainty", "Iran de-escalation channels confirmed by mediators"], "updated": "30 June 2026 08:15"
+      "drivers_up": ["Doha outcome unconfirmed creates Wednesday-open volatility risk", "Kostiantynivka Russian breach raises European-defence event risk"], "drivers_down": ["VIX eased to 21.10 on DIP defence-stocks rally and UK political clarity", "Burnham fiscal-rule continuity reducing UK political uncertainty premium"], "updated": "30 June 2026 18:30"
     },
     "BTC": {
       "name": "Bitcoin (BTC/USD)",
       "desc": "The price of Bitcoin in US dollars. The largest cryptocurrency by market cap, increasingly viewed as digital gold by institutional investors since spot ETF approvals.",
-      "drivers_up": ["Institutional inflows via spot ETFs continuing at sustained pace through 2026", "Risk-on sentiment from Iran framework signing lifting crypto alongside equities"], "drivers_down": ["Federal Reserve decision this week with rates on hold pressuring rate-sensitive crypto", "Regulatory uncertainty over DeFi and stablecoin legislation ahead of US autumn elections"], "updated": "30 June 2026 08:15"
+      "drivers_up": ["Institutional inflows via spot ETFs continuing at sustained pace through 2026", "Risk-on sentiment from Iran framework signing lifting crypto alongside equities"], "drivers_down": ["Federal Reserve decision this week with rates on hold pressuring rate-sensitive crypto", "Regulatory uncertainty over DeFi and stablecoin legislation ahead of US autumn elections"], "updated": "30 June 2026 18:30"
     },
     "UST": {
       "name": "US 10-Year Treasury Yield",
       "desc": "The yield on 10-year US government bonds, the global risk-free rate benchmark. Influences mortgage rates, corporate borrowing and equity valuations worldwide.",
-      "drivers_up": ["Record US Treasury issuance to fund growing deficit pushing yields higher", "Trump tariff threats raising imported-inflation expectations"], "drivers_down": ["Iran framework signing easing oil-driven US inflation outlook", "Global growth concerns from China slowdown driving safe-haven Treasury demand"], "updated": "30 June 2026 08:15"
+      "drivers_up": ["Record US Treasury issuance to fund growing deficit pushing yields higher", "Trump tariff threats raising imported-inflation expectations"], "drivers_down": ["Iran framework signing easing oil-driven US inflation outlook", "Global growth concerns from China slowdown driving safe-haven Treasury demand"], "updated": "30 June 2026 18:30"
     }
   }</script>
  <div class="markets-bar" id="marketsBar">
@@ -2403,6 +2403,156 @@
  <!-- ════ ALL EDITIONS (sorted by JS) ════ -->
  <!-- IMPORTANT: Keep 7 FULL DAYS of editions in this container. Do NOT delete editions less than 7 days old. -->
  <div id="all-editions" style="display:none;">
+
+ <!-- ── EVENING 30 JUN (18:30) ── -->
+ <div class="curated-edition evening" data-date="2026-06-30" data-time="18:30" data-markets='{"FTSE":{"price":10693,"change":0.20},"SP":{"price":5520,"change":0.18},"Brent":{"price":86.20,"change":-0.34},"GBP":{"price":1.3232,"change":0.05},"Gold":{"price":4445,"change":-0.11},"EURGBP":{"price":0.8745,"change":-0.03},"Gilt":{"price":4.87,"change":-0.20},"VIX":{"price":21.10,"change":-0.47},"BTC":{"price":81950,"change":0.18},"UST":{"price":4.32,"change":-0.23},"ts":"2026-06-30T18:30:00+01:00"}'>
+ <div class="edition-header">
+ <span class="edition-icon">&#9728;</span>
+ <h2>Evening Briefing</h2>
+ </div>
+ <div class="curated-meta">Tuesday 30 June 2026 &mdash; 18:30 BST</div>
+ <div class="impact-box">
+ <h3 class="impact-heading">What It Means For You</h3>
+ <ul class="impact-list">
+ <li><strong>Defence:</strong> Starmer unveiled the &pound;15bn Defence Investment Plan today, raising UK defence spending to 2.5% of GDP by 2027 &mdash; for you, a major commitment of taxpayer money, with critics including the military experts who helped draft the strategic review saying it still falls short.</li>
+ <li><strong>Iran:</strong> US envoys Kushner and Witkoff travelled to Doha today but no firm meeting was confirmed by Iran &mdash; for you, the de-escalation is fragile; oil held steady at $86.20 but a breakdown over the next 48 hours could push petrol prices higher.</li>
+ <li><strong>Markets:</strong> UK defence stocks rallied on the DIP and gilt yields eased further to 4.87% &mdash; for you, a Bank of England rate cut on 6 August now looks slightly more likely, easing mortgage costs by autumn.</li>
+ </ul>
+ </div>
+ <div class="curated-grid">
+ <div class="curated-column">
+ <h3><span class="dot geo"></span><span class="dot-label">GEO</span> Geopolitical</h3>
+ <div>
+
+ <div class="curated-item" data-time="16:00" data-slug="iran-doha-talks-tuesday-evening-kushner-witkoff-no-firm-meeting-tehran-hormuz-determination-fox-edge-singapore-fragile-de-escalation-mediators-pakistan-qatar-active-asset-unfreezing-leverage-vance">
+ <h4>US Envoys in Doha but No Firm Meeting With Iran Confirmed</h4>
+ <p>US envoys Jared Kushner and Steve Witkoff travelled to Doha today for what was billed as the most important US-Iran talks since the Lake Lucerne peace deal. By Tuesday evening Iran had still not confirmed any formal meeting had taken place. Tehran reiterated its determination to control maritime traffic through the Strait of Hormuz, raising the stakes of any negotiation. The lack of a confirmed breakthrough leaves the de-escalation visibly fragile entering the second half of the week. Pakistan and Qatar continue to push both sides through the mediator channel. Oil markets, expecting either confirmation or breakdown by Wednesday morning, held steady at $86.20.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The Kushner-Witkoff combination is the same channel that signed the original Lake Lucerne memorandum in April. Iran&rsquo;s public position on the Strait of Hormuz is the principal non-negotiable: Tehran says any agreement must recognise its control of maritime traffic. The US position has been more flexible on this question privately but officially the Vance line conditions any asset unfreezing on framework compliance. Saudi Arabia, the UAE and the wider six-state regional alignment have all pressed both sides for a public confirmation. Markets are watching for an announcement either way before Wednesday&rsquo;s Asia open.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="11:00" data-slug="russia-pushes-into-kostiantynivka-tuesday-580-drones-40-missiles-overnight-zelensky-moscow-satellite-strike-12-civilians-killed-zaporizhzhia-dnipro-fortress-belt-breach">
+ <h4>Russia Pushes Into Kostiantynivka After Massive Overnight Attack on Ukraine</h4>
+ <p>Russian forces have pushed into the city of Kostiantynivka, the southern anchor of Ukraine&rsquo;s eastern fortress belt, after one of the largest single-night attacks of the war &mdash; 40 missiles and around 580 drones fired at multiple Ukrainian cities including Zaporizhzhia and Dnipro. At least 12 civilians were killed. President Zelensky accused Moscow of &ldquo;attacking life itself&rdquo;. In response, Ukrainian forces struck a Russian military satellite intelligence centre near Moscow. The Kostiantynivka breach is the most significant Russian territorial gain of the summer offensive so far. Ukrainian commanders say the urban core is still held but admit the defensive position has been weakened.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">Russia has repeatedly missed deadlines for capturing Kostiantynivka &mdash; the city was supposed to fall by April 25 according to public Russian targets, and Zelensky pointed out today that Moscow has postponed full capture of the Donetsk region 15 times. The new push into the city outskirts does not mean the city has fallen, but it does represent the most significant territorial movement in months. Russian losses across the offensive remain heavy: Ukrainian estimates put them above 50,000 in the past quarter. Ukraine&rsquo;s long-range strike campaign continues unabated &mdash; the satellite intelligence centre near Moscow is a particularly high-value target.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="14:00" data-slug="israel-lebanon-framework-stalemate-tuesday-evening-hezbollah-rejection-netanyahu-freedom-to-strike-doha-iran-context-rubio-framework-pressure-multi-track-regional-architecture-test">
+ <h4>Israel-Lebanon Stalemate Holds as Iran Doha Outcome Remains Unclear</h4>
+ <p>The Israel-Lebanon framework deal signed last Friday remains in stalemate as Hezbollah continues to reject the disarmament conditions. Israel says it retains the freedom to strike Hezbollah at will and Prime Minister Netanyahu defended that position again Monday. The interaction with today&rsquo;s Doha talks is direct: if the Iran track produces a clear reset, US pressure on Israel to honour the Lebanon framework will grow. If it breaks down, Lebanon deteriorates further. The trilateral framework brokered by Marco Rubio is being tested almost daily by ongoing Israeli strikes in southern Lebanon. Reuters analysis published this week warned the deal risks entrenching long-term stalemate rather than ending the war.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The Reuters analysts&rsquo; concern is that the reciprocal-step design of the framework &mdash; Israeli withdrawal contingent on Hezbollah disarmament, and vice versa &mdash; creates a trap where neither side has incentive to move first. Hezbollah leadership treat the disarmament demand as existential and will not move. Israel will not withdraw without disarmament. The Trump-Netanyahu rift over the original Iran framework signing has not closed. Without a clear US-Iran result from Doha, Washington has limited leverage to break the Lebanon impasse this week.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="13:00" data-slug="gaza-73000-tuesday-evening-doha-window-pressure-egyptian-qatari-mediators-deadlock-70-percent-directive-multi-track-architecture-iran-de-escalation-leverage-application-vance-asset-conditioning-window-narrows">
+ <h4>Gaza Death Toll Above 73,000 as Iran Doha Window for Pressure Application Narrows</h4>
+ <p>The Palestinian death toll in Gaza remains above 73,000 according to the territory&rsquo;s Health Ministry. The narrow window created this morning by the Iran de-escalation &mdash; an opportunity for Washington to apply renewed pressure on Israel over Gaza &mdash; has closed without progress as the Doha outcome remains unclear. Egyptian and Qatari mediators continue working the hostage-and-aid channel but have produced no breakthrough. Israel&rsquo;s plan to expand control of Gaza to 70% of the territory remains in force. Without a clear win from Doha, US leverage on Israel over Gaza is limited.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The interaction between the Iran, Lebanon and Gaza tracks is what defines the current Middle East picture. None of the three peace frameworks &mdash; Lake Lucerne, the Rubio Israel-Lebanon framework, or the Egyptian-Qatari hostage track &mdash; includes Gaza explicitly. The political problem is that Netanyahu&rsquo;s domestic survival depends on continued military operations in Gaza, making meaningful Israeli concession difficult. Vance&rsquo;s conditioning of Iranian asset releases on framework compliance gives the US clear leverage on Iran, but applying it transitively to Gaza is harder. Tomorrow&rsquo;s position depends on what Doha produces overnight.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="22:00" data-slug="venezuela-earthquake-recovery-international-aid-ongoing-tuesday-evening-rodriguez-589-dead-2900-injured-disaster-architecture-active-latin-america-regional-cooperation-trump-administration-stance-non-conditioning">
+ <h4>Venezuela Recovery Operations Continue With International Aid Holding</h4>
+ <p>Recovery operations continue in Venezuela following the twin earthquakes that killed at least 589 people earlier this month. International humanitarian aid is now flowing through multiple channels despite the country&rsquo;s post-2017 sanctions regime. Brazil, Colombia and Mexico are providing the bulk of the regional response. The cooperative international response has held without political conditions being attached, despite the Trump administration&rsquo;s historically tough Venezuela stance. The disaster &mdash; the deadliest natural event in the Western Hemisphere of 2026 so far &mdash; has temporarily lifted the political conditioning that has prevailed since 2017. Acting President Delcy Rodriguez confirmed coordination with international agencies is continuing.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The international aid response has been more cooperative than many expected given the Trump administration position. The Maduro government&rsquo;s decision to accept multi-channel international assistance is materially significant for the broader Latin American regional cooperation framework. Recovery operations are expected to continue at significant scale for several weeks. The test through July is whether the disaster-response coordination continues without political conditions being attached &mdash; the early signs are that it will.</div>
+ </details>
+ </div>
+
+ </div>
+ </div>
+ <div class="curated-column">
+ <h3><span class="dot dom"></span><span class="dot-label">UK</span> UK Domestic Politics</h3>
+ <div>
+
+ <div class="curated-item" data-time="11:00" data-slug="starmer-defence-investment-plan-15bn-unveiled-tuesday-2-5-percent-gdp-2027-3-percent-target-bbc-bfbs-manchester-evening-news-jets-warships-drones-5bn-drone-allocation-jarvis-takes-over-implementation-burnham-inheritance">
+ <h4>Starmer Unveils &pound;15bn Defence Investment Plan Raising Spending to 2.5% by 2027</h4>
+ <p>Sir Keir Starmer unveiled the long-delayed Defence Investment Plan today in one of his final major acts as Prime Minister. The plan commits an additional &pound;15bn over the next decade, with &pound;5bn earmarked specifically for drones and unmanned systems. UK defence spending will rise to 2.5% of GDP by 2027, with a longer-term goal of 3%. Starmer told a Manchester press conference that the plan would &ldquo;safeguard Britain into the future&rdquo;. Defence Secretary Dan Jarvis takes over implementation as the Burnham coronation expected on 17 July approaches. The plan includes the destroyer-replacement cancellation announced separately on Monday.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The plan covers procurement of jets, warships and drones over a ten-year horizon. The &pound;5bn drone allocation reflects lessons from the Ukraine war about the central role of unmanned systems. The Ministry of Defence had originally requested &pound;28bn for the funding settlement; the eventual &pound;13.5bn increase agreed with the Treasury was well short of that, though Starmer has since added a further &pound;1bn to push the headline number to &pound;15bn. The Burnham incoming-leadership team will inherit the plan and is widely expected to revise it upward through autumn, particularly the NATO-comparison gap that critics have highlighted.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="14:00" data-slug="dip-criticism-falls-short-military-experts-strategic-defence-review-author-telegraph-2-69-percent-gdp-2030-gb-news-not-worth-paper-bfbs-forces-news-burnham-team-pressure-revise-upward-nato-peer-gap-germany-3-7-poland-4-48">
+ <h4>Defence Investment Plan Critics: Spending Still Falls Short of NATO Peers</h4>
+ <p>Critics of the Defence Investment Plan have argued through Tuesday that the spending still falls well short of what Britain needs. An expert who helped draft the Strategic Defence Review said publicly the plan &ldquo;will not be enough to prepare the country for war&rdquo;. GB News commentary called the plan &ldquo;not worth the paper it&rsquo;s written on&rdquo;. Defence Secretary John Healey had reportedly told Starmer the plan &ldquo;falls well short&rdquo; of what defence requires. UK defence spending will reach 2.69% of GDP by 2030 under the plan, compared with Germany&rsquo;s 3.7% and Poland&rsquo;s 4.48%. The Burnham incoming team will face pressure to revise the envelope upward.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The peer-comparison gap is the principal criticism: with NATO members generally targeting 3% or higher and frontline states such as Poland already at 4.48%, the UK&rsquo;s 2.69% by 2030 puts Britain mid-pack at a time when other allies are accelerating. The 2.5% by 2027 milestone is real but still trails most major European NATO members. The Burnham team has signalled it will treat defence as a priority area for early-administration review &mdash; expect a fresh announcement on the funding envelope within the first three months of the new Prime Minister taking office.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="17:30" data-slug="markets-tuesday-close-uk-defence-stocks-rally-dip-ftse-10693-sterling-1-3232-gilt-yields-4-87-bank-england-mpc-august-cut-probability-higher-iran-doha-uncertainty-aj-bell-investment-week-housing-housebuilders-recovery">
+ <h4>UK Defence Stocks Rally on DIP; Gilt Yields Ease to 4.87% as Markets Hold</h4>
+ <p>UK markets closed Tuesday with defence stocks the day&rsquo;s standout performers, lifted by the Defence Investment Plan and the indication that future spending will rise further under Burnham. BAE Systems, Rolls-Royce, Babcock and Thales UK all closed higher. The FTSE 100 finished at 10,693, up 0.20%. UK 10-year gilt yields eased to 4.87%, extending Monday&rsquo;s post-Burnham speech rally. Sterling held at $1.3232. Bank of England rate-cut pricing for the 6 August meeting has crept up to roughly 60% on the combination of falling oil prices, fiscal-rule continuity, and easing inflation expectations. The biggest near-term risk remains the Doha outcome.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The defence-stocks rally reflects the read-across from a credible long-term spending commitment, even one critics call insufficient. The longer-term picture is more positive for the sector because Burnham&rsquo;s incoming team is expected to revise the envelope upward. Bank of England rate-cut pricing has tightened materially over the past week on the combination of Burnham&rsquo;s fiscal-rule commitment and the Iran de-escalation easing oil-driven inflation pressure. The Bank of England Monetary Policy Report on 6 August is the next major UK macro variable. Sterling positioning still leans defensive into the Labour-leadership transition.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="09:00" data-slug="nhs-maternity-inquiry-baroness-amos-report-detail-tuesday-systemic-failure-racism-discrimination-political-significance-streeting-burnham-policy-implications-bbc-overhaul-demand-trust-by-trust-pattern-shrewsbury-east-kent-nottingham">
+ <h4>NHS Maternity Inquiry Demands Major Overhaul Across England</h4>
+ <p>The independent inquiry into England&rsquo;s NHS maternity services published today has demanded a major overhaul of services across the country. Baroness Amos, who led the inquiry, said maternity services in England are &ldquo;not set up to deliver consistently safe, high-quality and compassionate care&rdquo; and found &ldquo;unacceptable racism and discrimination&rdquo; affecting patient safety. The findings are more damning than any previous inquiry on the subject. The report follows repeated maternity scandals at trusts including Shrewsbury and Telford, East Kent, and Nottingham. The inquiry is expected to feature heavily in early Burnham health-policy announcements as the Labour leadership transition approaches mid-July.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">Baroness Amos&rsquo;s position &mdash; that current services cannot deliver consistently safe care &mdash; is more direct than any previous inquiry has stated. The racism finding is also more explicit than past statements on the issue. Burnham&rsquo;s incoming health policy will face pressure to commit to specific maternity-service reform timelines. Education Secretary Bridget Phillipson&rsquo;s position remains uncertain through the cabinet transition; whoever inherits health will have to absorb both the maternity reform plan and the NHS pay-restoration architecture left by Streeting&rsquo;s settlement of the resident doctors&rsquo; strike.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="08:00" data-slug="domestic-killers-extra-10-years-prison-tuesday-justice-policy-bbc-15-year-25-year-starting-sentence-domestic-violence-political-significance-cabinet-transition-mahmood-justice-secretary-burnham-policy-context">
+ <h4>Domestic Killers to Face Extra 10 Years in Prison Under New Plans</h4>
+ <p>Domestic killers could face an additional 10 years in prison under new sentencing plans announced Tuesday by the Ministry of Justice. The changes would mean the 15-year starting sentence for domestic murder could be increased to 25 years, bringing it into line with other murder categories. The policy responds to long-running campaigning by domestic violence charities that argued the previous starting point understated the seriousness of intimate-partner killings. The change is one of the more significant criminal justice policy moves of the pre-Burnham transition period. Justice Secretary Shabana Mahmood has been pushing for the reform since taking office in 2024.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The previous 15-year starting sentence for domestic murder dates back to a 2003 Sentencing Council guideline that treated intimate-partner killings as a separate category. Domestic violence charities have campaigned for over a decade to bring the starting point into line with the 25-year starting sentence for other murder categories. The change will apply prospectively rather than retroactively. The Burnham team has signalled broad support for the reform and is unlikely to reverse it. Implementation depends on parliamentary time, which will be tight given the leadership transition window.</div>
+ </details>
+ </div>
+
+ </div>
+ </div>
+ </div>
+
+ <div class="one-to-read">
+ <span class="otr-label">One To Read</span>
+ <a href="https://www.independent.co.uk/bulletin/news/starmer-defence-investment-plan-uk-healey-b3005408.html" target="_blank" rel="noopener noreferrer">
+ <h4>Starmer&rsquo;s Defence Investment Plan Revealed &mdash; Critics Say It Falls Short</h4>
+ <span class="otr-source">The Independent</span>
+ <span class="otr-dot">&middot;</span>
+ <span class="otr-desc">Sir Keir Starmer&rsquo;s government has allocated &pound;14.5bn to Britain&rsquo;s defence investment plan, an increase of &pound;1bn following criticism from former defence secretary John Healey, but experts say it still falls well short of NATO peers.</span>
+ </a>
+ </div>
+ <!-- SOURCES USED
+ - https://www.bbc.com/news/live/c3ry1zpyz0et &mdash; BBC News Live: Long-delayed defence spending plan with 5bn for drones
+ - https://www.bbc.com/news/articles/cddlgqpg7mzo &mdash; BBC News: NHS maternity inquiry Baroness Amos racism patient safety
+ - https://www.bbc.com/news/articles/cvgqnzpwrpzo &mdash; BBC News: Domestic killers extra 10 years in prison new plans
+ - https://www.telegraph.co.uk/politics/2026/06/29/starmer-short-changes-defence-in-final-act-as-prime-ministe/ &mdash; The Telegraph: Starmer short-changes defence in final act as Prime Minister
+ - https://www.independent.co.uk/bulletin/news/starmer-defence-investment-plan-uk-healey-b3005408.html &mdash; The Independent: Starmer defence investment plan revealed critics falls short
+ - https://www.theedgesingapore.com/news/us-iran-tensions/iran-ratchets-talk-controlling-hormuz-new-talks &mdash; The Edge Singapore/Bloomberg: Iran ratchets up Hormuz talk before new talks
+ - https://www.reuters.com/3fec1b0a85a0/world/middle-east/israel-lebanon-deal-may-entrench-stalemate-rather-than-end-war-analysts-say-2026-06-29/ &mdash; Reuters: Israel-Lebanon deal may entrench stalemate
+ - https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-putin-zelensky-fuel-shortages-b3005509.html &mdash; The Independent: Ukraine-Russia war live Zelensky Kostiantynivka Moscow satellite centre
+ - https://www.ajbell.co.uk/news/articles/lunchtime-market-roundup-uk-defence-stocks-boosted-government-plan &mdash; AJ Bell: UK defence stocks boosted by government plan
+ - https://www.investmentweek.co.uk/blog/4080428/market-movers-blog &mdash; Investment Week: Market Movers blog Burnham markets calm
+ - https://apnews.com/article/iran-us-war-strait-of-hormuz-june-29-2026-d1c0ec8aa84c0e5693b94f0cf0862bab &mdash; AP News: US Iran pause strikes disagree next steps talks
+ - https://news.sky.com/story/politics-latest-burnham-starmer-labour-tories-badenoch-farage-12593360 &mdash; Sky News: Politics latest Starmer unveil defence investment plan
+ - https://www.aljazeera.com/news/2026/6/29/trump-announces-meeting-with-iran-in-qatar-despite-military-skirmishes &mdash; Al Jazeera: Trump announces Iran meeting Qatar despite military skirmishes
+ - https://www.itv.com/news/utv/2026-06-29/resident-doctors-strike-over-pay &mdash; ITV/UTV News: NI resident doctors strike pay context
+ - https://www.theguardian.com/business/live/2026/jun/29/bank-of-england-inflation-warning-ai-stock-markets-oil-burnham-bond-yields-live-news-updates &mdash; The Guardian: UK government borrowing costs dip pound rises City Burnham
+ - https://www.reuters.com/world/europe/russia-pounds-gates-ukraines-fortress-belt-2026-06-29/ &mdash; Reuters: Russia pounds on the gates of Ukraine fortress belt
+ - https://www.nbcnews.com/world/iran/us-iran-new-talks-trump-hormuz-attacks-peace-deal-doha-qatar-rcna352182 &mdash; NBC News: US and Iran set for new talks Doha Qatar
+ END SOURCES USED -->
+ </div><!-- ── END EVENING 30 JUN (18:30) ── -->
 
  <!-- ── MORNING 30 JUN (08:15) ── -->
  <div class="curated-edition morning" data-date="2026-06-30" data-time="08:15" data-markets='{"FTSE":{"price":10672,"change":0.09},"SP":{"price":5515,"change":0.09},"Brent":{"price":86.50,"change":-0.34},"GBP":{"price":1.3225,"change":0.08},"Gold":{"price":4450,"change":-0.11},"EURGBP":{"price":0.8748,"change":-0.02},"Gilt":{"price":4.88,"change":-0.20},"VIX":{"price":21.20,"change":-1.40},"BTC":{"price":81800,"change":0.31},"UST":{"price":4.33,"change":-0.23},"ts":"2026-06-30T08:15:00+01:00"}'>
