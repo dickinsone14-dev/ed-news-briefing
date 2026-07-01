@@ -3,7 +3,7 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
     <loc>https://thedailybrief.co.uk/</loc>
-    <lastmod>2026-06-30</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -6166,6 +6166,72 @@
   <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-06-30-morning/venezuela-earthquake-recovery-tuesday-update-rodriguez-international-aid-architecture-589-dead-international-channels-active-disaster-response-latin-america-regional-cooperation-trump-administration-stance-context/</loc>
     <lastmod>2026-06-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-01-morning/</loc>
+    <lastmod>2026-07-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-01-morning/burnham-scotland-trip-swinney-devolution-message-independent-tuesday-first-major-scottish-visit-labour-leadership-frontrunner-decentralisation-focus-manchester-model-scottish-application-context-broken-politics-message/</loc>
+    <lastmod>2026-07-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-01-morning/gaza-73000-wednesday-morning-doha-window-narrow-mediators-egyptian-qatari-continued-70-percent-directive-netanyahu-domestic-survival-military-operations-continued-vance-leverage-doha-application/</loc>
+    <lastmod>2026-07-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-01-morning/iran-us-doha-day-two-wednesday-morning-kushner-witkoff-positive-conversations-tehran-denies-formal-meeting-aljazeera-yahoo-cnn-news18-qatar-mediation-ansari-spokesman-hormuz-non-negotiable-mediator-channel-active-oil-holding-86-10/</loc>
+    <lastmod>2026-07-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-01-morning/israel-lebanon-framework-stalemate-wednesday-hezbollah-rejection-continues-netanyahu-freedom-to-strike-doha-iran-context-mediator-track-active-rubio-framework-test-multi-track-regional-architecture/</loc>
+    <lastmod>2026-07-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-01-morning/kirkup-resigns-maternity-review-normal-birth-drive-criticism-removed-scandal-wednesday-morning-bbc-independent-inquiry-report-manipulation-allegation-major-political-significance-baroness-amos-context-streeting-burnham-policy-implications/</loc>
+    <lastmod>2026-07-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-01-morning/markets-wednesday-open-ftse-10705-gilt-yields-4-86-bank-england-mpc-august-cut-probability-60-percent-brent-86-10-sterling-1-3240-defence-stocks-continued-rally-context-doha-outcome-key-variable-through-week/</loc>
+    <lastmod>2026-07-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-01-morning/ofgem-price-cap-13-percent-rise-wednesday-july-1-2026-household-energy-bills-meter-read-cost-of-living-crisis-continued-bbc-direct-debit-adjustment-week-context-burnham-inheritance-energy-policy-review-pressure/</loc>
+    <lastmod>2026-07-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-01-morning/russia-drone-attrition-ukrainian-frontline-20-35-minutes-independent-report-troops-life-expectancy-drone-warfare-summer-offensive-kostiantynivka-fortress-belt-breach-oil-refinery-strikes-slavyansky-kyiv-post-deep-strike-campaign/</loc>
+    <lastmod>2026-07-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-01-morning/starmer-trims-budgets-fund-15bn-defence-bbc-analysis-burnham-inheritance-4-7bn-headache-jarvis-defence-secretary-frank-gardner-analysis-drone-focus-savings-areas-domestic-departments-cut/</loc>
+    <lastmod>2026-07-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-01-morning/venezuela-earthquake-recovery-wednesday-continues-rodriguez-international-aid-latin-america-regional-cooperation-active-disaster-architecture-continued-trump-administration-non-conditioning-holds/</loc>
+    <lastmod>2026-07-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
