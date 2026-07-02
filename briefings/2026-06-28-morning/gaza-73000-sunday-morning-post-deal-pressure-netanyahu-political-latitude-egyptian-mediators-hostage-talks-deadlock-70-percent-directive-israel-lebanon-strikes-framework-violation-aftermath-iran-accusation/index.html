@@ -2301,59 +2301,143 @@
 
  <!-- #1 Markets snapshot bar -->
  <!-- Embedded market data (populated by update script, used as fallback) -->
- <script id="embedded-markets" type="application/json">{"FTSE":{"price":10455,"change":0.58},"SP":{"price":5358,"change":0.53},"Brent":{"price":95.20,"change":-1.34},"GBP":{"price":1.3425,"change":0.22},"Gold":{"price":4475,"change":-0.33},"EURGBP":{"price":0.8670,"change":-0.10},"Gilt":{"price":4.99,"change":-0.60},"VIX":{"price":24.50,"change":-7.55},"BTC":{"price":80520,"change":0.62},"UST":{"price":4.50,"change":-0.44},"ts":"2026-07-01T18:30:00+01:00"}</script>
- <script id="market-descriptions" type="application/json">{
-    "FTSE": {
-      "name": "FTSE 100",
-      "desc": "The UK's benchmark stock index, tracking the 100 largest companies listed on the London Stock Exchange by market capitalisation. Includes Shell, AstraZeneca, HSBC and Unilever.",
-      "drivers_up": ["FTSE 100 closed 10,715 up 0.09% with defence stocks rallying further", "Bond-yield easing supporting broader equity valuations"], "drivers_down": ["Housebuilders still soft from Burnham planning-reform positioning", "Energy producers softer on Brent near $86"], "updated": "1 July 2026 18:30"
-    },
-    "SP": {
-      "name": "S&P 500",
-      "desc": "America's leading stock market index, tracking 500 of the largest US-listed companies. Dominated by mega-cap tech (Apple, Microsoft, Nvidia) but spans all sectors.",
-      "drivers_up": ["US-Iran framework signing 14 June lifting global risk appetite and energy-supply outlook", "AI infrastructure spending continuing to support mega-cap tech earnings"], "drivers_down": ["Federal Reserve decision this week with rates expected on hold, limiting near-term upside", "Trump tariff threats casting uncertainty over international trade exposure"], "updated": "1 July 2026 18:30"
-    },
-    "Brent": {
-      "name": "Brent Crude Oil",
-      "desc": "The global benchmark for crude oil pricing, produced from oil fields in the North Sea. Used to price roughly two-thirds of the world's traded oil.",
-      "drivers_up": ["Doha talks downgraded to technical level; risk of framework breakdown remains", "Iran refused direct US envoy meeting keeping political-tension premium"], "drivers_down": ["Brent held at $86.00 as mediator-driven talks progressing quietly", "OPEC+ production discipline holding through Q3 2026"], "updated": "1 July 2026 18:30"
-    },
-    "GBP": {
-      "name": "GBP/USD",
-      "desc": "The exchange rate between the British pound and the US dollar, commonly known as 'cable'. Reflects relative economic strength and interest rate differentials between the UK and US.",
-      "drivers_up": ["Sterling firmed to $1.3248 on bond-market support and DIP defence clarity", "Bank of England August cut probability holding 60% supporting sterling"], "drivers_down": ["Federal Reserve hold stance limiting dollar weakness", "Ofgem 13% price cap rise creating near-term inflation risk"], "updated": "1 July 2026 18:30"
-    },
-    "Gold": {
-      "name": "Gold (XAU/USD)",
-      "desc": "The spot price of gold in US dollars per troy ounce. The world's oldest safe-haven asset, traditionally rising during periods of uncertainty, inflation and currency debasement.",
-      "drivers_up": ["Gold rose on safe-haven flows from US-Iran ceasefire shaken framework-durability stress", "Central bank gold buying at record levels through 2026"], "drivers_down": ["Higher real yields making non-yielding gold less attractive", "Rubio trilateral Israel-Lebanon deal partially offsetting safe-haven flows"], "updated": "1 July 2026 18:30"
-    },
-    "EURGBP": {
-      "name": "EUR/GBP",
-      "desc": "The exchange rate between the euro and the British pound. Key for UK-EU trade pricing. A falling rate means sterling is strengthening against the euro.",
-      "drivers_up": ["EUR/GBP rose to 0.8755 on sterling seven-month low and UK political-transition pressure", "Eurozone manufacturing recession concerns continuing into Q3 2026"], "drivers_down": ["ECB rate cuts outpacing BoE supporting sterling relative to euro", "G7 Ukraine military-aid commitment boosting EU defence-stock sentiment"], "updated": "1 July 2026 18:30"
-    },
-    "Gilt": {
-      "name": "UK 10-Year Gilt Yield",
-      "desc": "The yield on 10-year UK government bonds (gilts). A key benchmark for UK borrowing costs, mortgage rates and pension fund valuations. Rising yields mean falling bond prices.",
-      "drivers_up": ["Reeves Autumn Budget borrowing plans continue to add gilt supply", "DIP defence spending commitment slightly raises medium-term borrowing"], "drivers_down": ["10-year gilt yields eased to 4.85% extending post-DIP rally 4th session", "Bank of England MPC August cut probability now holding 60%"], "updated": "1 July 2026 18:30"
-    },
-    "VIX": {
-      "name": "VIX (Volatility Index)",
-      "desc": "The CBOE Volatility Index, often called the 'fear gauge'. Measures expected S&P 500 volatility over the next 30 days. Readings above 20 suggest elevated anxiety; above 30 signals acute stress.",
-      "drivers_up": ["Doha technical-only outcome extends Iran-US event risk through July", "Kirkup maternity resignation adds domestic political headline risk"], "drivers_down": ["VIX eased to 20.90 on FTSE gains and gilt-yield easing continuing", "Defence stocks rally and market broadly stable through PMQs session"], "updated": "1 July 2026 18:30"
-    },
-    "BTC": {
-      "name": "Bitcoin (BTC/USD)",
-      "desc": "The price of Bitcoin in US dollars. The largest cryptocurrency by market cap, increasingly viewed as digital gold by institutional investors since spot ETF approvals.",
-      "drivers_up": ["Institutional inflows via spot ETFs continuing at sustained pace through 2026", "Risk-on sentiment from Iran framework signing lifting crypto alongside equities"], "drivers_down": ["Federal Reserve decision this week with rates on hold pressuring rate-sensitive crypto", "Regulatory uncertainty over DeFi and stablecoin legislation ahead of US autumn elections"], "updated": "1 July 2026 18:30"
-    },
-    "UST": {
-      "name": "US 10-Year Treasury Yield",
-      "desc": "The yield on 10-year US government bonds, the global risk-free rate benchmark. Influences mortgage rates, corporate borrowing and equity valuations worldwide.",
-      "drivers_up": ["Record US Treasury issuance to fund growing deficit pushing yields higher", "Trump tariff threats raising imported-inflation expectations"], "drivers_down": ["Iran framework signing easing oil-driven US inflation outlook", "Global growth concerns from China slowdown driving safe-haven Treasury demand"], "updated": "1 July 2026 18:30"
-    }
-  }</script>
+ <script id="embedded-markets" type="application/json">
+{"FTSE":{"price":10478,"change":-0.18},"SP":{"price":7483,"change":-0.22},"Brent":{"price":70.72,"change":-1.19},"GBP":{"price":1.3307,"change":0.43},"Gold":{"price":4084,"change":0.39},"EURGBP":{"price":0.8563,"change":-0.58},"Gilt":{"price":4.77,"change":0.01},"VIX":{"price":16.59,"change":0.85},"BTC":{"price":60188,"change":0.31},"UST":{"price":4.48,"change":0.08},"ts":"2026-07-02T08:14:00+01:00"}
+</script>
+ <script id="market-descriptions" type="application/json">
+{
+ "FTSE": {
+  "name": "FTSE 100",
+  "desc": "The UK's benchmark stock index, tracking the 100 largest companies listed on the London Stock Exchange by market capitalisation. Includes Shell, AstraZeneca, HSBC and Unilever.",
+  "drivers_up": [
+   "Bank of England rate-cut pricing for the 6 August meeting supporting rate-sensitive stocks",
+   "Defence procurement pipeline continuing to underpin industrials"
+  ],
+  "drivers_down": [
+   "Energy majors tracking Brent near $71",
+   "Political transition uncertainty ahead of the mid-July Labour handover"
+  ],
+  "updated": "2 July 2026 08:14"
+ },
+ "SP": {
+  "name": "S&P 500",
+  "desc": "America's leading stock market index, tracking 500 of the largest US-listed companies. Dominated by mega-cap tech (Apple, Microsoft, Nvidia) but spans all sectors.",
+  "drivers_up": [
+   "AI infrastructure spending continuing to support mega-cap tech earnings",
+   "Middle East de-escalation via the Doha technical track supporting risk appetite"
+  ],
+  "drivers_down": [
+   "US decision to block USMCA long-term renewal adding North American trade uncertainty",
+   "US 10-year yields firming toward 4.5%, pressuring valuations"
+  ],
+  "updated": "2 July 2026 08:14"
+ },
+ "Brent": {
+  "name": "Brent Crude Oil",
+  "desc": "The global benchmark for crude oil pricing, produced from oil fields in the North Sea. Used to price roughly two-thirds of the world's traded oil.",
+  "drivers_up": [
+   "Any breakdown in US-Iran technical talks would re-price the Hormuz risk premium quickly",
+   "OPEC+ production discipline holding through Q3 2026"
+  ],
+  "drivers_down": [
+   "Doha technical talks focused on reopening the Strait of Hormuz progressing",
+   "Soft demand signals with crude near $71"
+  ],
+  "updated": "2 July 2026 08:14"
+ },
+ "GBP": {
+  "name": "GBP/USD",
+  "desc": "The exchange rate between the British pound and the US dollar, commonly known as 'cable'. Reflects relative economic strength and interest rate differentials between the UK and US.",
+  "drivers_up": [
+   "Sterling firm near $1.33 as the Labour leadership transition proceeds without fiscal surprises",
+   "UK rate path already largely priced, limiting downside shocks"
+  ],
+  "drivers_down": [
+   "Bank of England August cut probability around 60% capping sterling upside",
+   "Federal Reserve hold stance limiting dollar weakness"
+  ],
+  "updated": "2 July 2026 08:14"
+ },
+ "Gold": {
+  "name": "Gold (XAU/USD)",
+  "desc": "The spot price of gold in US dollars per troy ounce. The world's oldest safe-haven asset, traditionally rising during periods of uncertainty, inflation and currency debasement.",
+  "drivers_up": [
+   "Central bank gold buying remaining strong through 2026",
+   "Residual geopolitical hedging demand while US-Iran talks stay unresolved"
+  ],
+  "drivers_down": [
+   "De-escalation progress in Doha reducing the safe-haven bid",
+   "Firmer real yields making non-yielding gold less attractive"
+  ],
+  "updated": "2 July 2026 08:14"
+ },
+ "EURGBP": {
+  "name": "EUR/GBP",
+  "desc": "The exchange rate between the euro and the British pound. Key for UK-EU trade pricing. A falling rate means sterling is strengthening against the euro.",
+  "drivers_up": [
+   "Narrowing UK-eurozone rate differential if the Bank of England cuts in August",
+   "Soft eurozone growth data limiting euro strength"
+  ],
+  "drivers_down": [
+   "Sterling firmness on UK political transition clarity",
+   "ECB pause keeping euro carry unattractive"
+  ],
+  "updated": "2 July 2026 08:14"
+ },
+ "Gilt": {
+  "name": "UK 10-Year Gilt Yield",
+  "desc": "The yield on 10-year UK government bonds (gilts). A key benchmark for UK borrowing costs, mortgage rates and pension fund valuations. Rising yields mean falling bond prices.",
+  "drivers_up": [
+   "Heavy autumn issuance expectations and Ofgem-driven inflation bump",
+   "Any fiscal loosening signals from the incoming Labour leadership"
+  ],
+  "drivers_down": [
+   "Bank of England August rate-cut pricing pulling yields lower",
+   "Fiscal-rule continuity commitments from the incoming government"
+  ],
+  "updated": "2 July 2026 08:14"
+ },
+ "VIX": {
+  "name": "VIX (Volatility Index)",
+  "desc": "The CBOE Volatility Index, often called the 'fear gauge'. Measures expected S&P 500 volatility over the next 30 days. Readings above 20 suggest elevated anxiety; above 30 signals acute stress.",
+  "drivers_up": [
+   "USMCA rolling-review uncertainty and any Doha talks breakdown",
+   "Headline risk from mass-casualty strikes in Ukraine"
+  ],
+  "drivers_down": [
+   "US-Iran technical track holding, keeping equity volatility subdued",
+   "Calm summer positioning with the index in the mid-teens"
+  ],
+  "updated": "2 July 2026 08:14"
+ },
+ "BTC": {
+  "name": "Bitcoin (BTC/USD)",
+  "desc": "The price of Bitcoin in US dollars. The largest cryptocurrency by market cap, increasingly viewed as digital gold by institutional investors since spot ETF approvals.",
+  "drivers_up": [
+   "Risk appetite recovery as Middle East tensions ease",
+   "Dip-buying interest around the $60,000 level"
+  ],
+  "drivers_down": [
+   "Momentum weak after the retreat from spring levels",
+   "Regulatory overhang and thin summer liquidity"
+  ],
+  "updated": "2 July 2026 08:14"
+ },
+ "UST": {
+  "name": "US 10-Year Treasury Yield",
+  "desc": "The yield on 10-year US government bonds, the global risk-free rate benchmark. Influences mortgage rates, corporate borrowing and equity valuations worldwide.",
+  "drivers_up": [
+   "Resilient US data pushing Federal Reserve cut expectations later into 2026",
+   "Heavy Treasury supply pressuring the long end"
+  ],
+  "drivers_down": [
+   "Safe-haven demand on days of geopolitical escalation",
+   "Any softening in US labour-market data"
+  ],
+  "updated": "2 July 2026 08:14"
+ }
+}
+</script>
  <div class="markets-bar" id="marketsBar">
  <div class="markets-track" id="marketsTrack">
  <div class="market-item" data-market="FTSE"><span class="market-label">FTSE 100</span> <span class="market-value" id="mFTSE">--</span> <span class="market-change" id="mFTSEc"></span></div>
@@ -2403,6 +2487,169 @@
  <!-- ════ ALL EDITIONS (sorted by JS) ════ -->
  <!-- IMPORTANT: Keep 7 FULL DAYS of editions in this container. Do NOT delete editions less than 7 days old. -->
  <div id="all-editions" style="display:none;">
+
+ <!-- ── MORNING 02 JUL (08:14) ── -->
+<div class="curated-edition morning" data-date="2026-07-02" data-time="08:14" data-markets='{"FTSE":{"price":10478,"change":-0.18},"SP":{"price":7483,"change":-0.22},"Brent":{"price":70.72,"change":-1.19},"GBP":{"price":1.3307,"change":0.43},"Gold":{"price":4084,"change":0.39},"EURGBP":{"price":0.8563,"change":-0.58},"Gilt":{"price":4.77,"change":0.01},"VIX":{"price":16.59,"change":0.85},"BTC":{"price":60188,"change":0.31},"UST":{"price":4.48,"change":0.08},"ts":"2026-07-02T08:14:00+01:00"}'>
+ <div class="edition-header">
+ <span class="edition-icon">&#9728;</span>
+ <h2>Morning Briefing</h2>
+ </div>
+ <div class="curated-meta">Thursday 2 July 2026 &mdash; 08:14 BST</div>
+ <div class="impact-box">
+ <h3 class="impact-heading">What It Means For You</h3>
+ <ul class="impact-list">
+ <li><strong>Forced Adoptions:</strong> The state will formally apologise today for the forced adoption of an estimated 185,000 babies between 1949 and 1976 &mdash; if you or your family were affected, watch for the records-access and support arrangements expected alongside the apology.</li>
+ <li><strong>Petrol &amp; Energy:</strong> Oil is trading near $71 a barrel as US-Iran technical talks progress &mdash; sustained lower crude typically reaches forecourt prices within weeks, partially offsetting the 13% energy price cap rise that took effect yesterday.</li>
+ <li><strong>Family Travel:</strong> Children aged eight and nine can use airport eGates from Wednesday 8 July when travelling with an adult &mdash; families flying for the summer holidays should clear the border faster.</li>
+ </ul>
+ </div>
+ <div class="curated-grid">
+ <div class="curated-column">
+ <h3><span class="dot geo"></span><span class="dot-label">GEO</span> Geopolitical</h3>
+ <div>
+
+ <div class="curated-item" data-time="05:10" data-slug="russian-missile-drone-barrage-kyiv-kills">
+ <h4>Russian Missile and Drone Barrage on Kyiv Kills at Least 13</h4>
+ <p>Russia launched its largest attack on the Ukrainian capital in weeks overnight, sending waves of ballistic missiles and drones into residential districts and setting a hotel in the city centre alight. At least 13 people were killed and dozens injured, with children among the casualties, as tolls rose through the early morning. President Zelensky, who had warned of a massive strike hours earlier, cut short a visit to Dublin to return home. Moscow described the barrage as retaliation for recent Ukrainian attacks.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The attack fits a pattern that has hardened over the summer: as Russia&rsquo;s ground offensive grinds forward at heavy cost around Kostiantynivka, Moscow leans on long-range strikes against cities to impose pressure Ukraine cannot answer symmetrically. Hitting the capital&rsquo;s central districts also tests the depth of Ukraine&rsquo;s air defences, which have been rationing interceptors for months. Each mass-casualty strike renews pressure on Kyiv&rsquo;s partners for additional Patriot systems and deeper-strike permissions. Watch whether European capitals announce new air-defence transfers in the coming days.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="21:00" data-slug="us-iran-doha-round-ends-centred">
+ <h4>US-Iran Doha Round Ends Centred on Reopening Strait of Hormuz</h4>
+ <p>Two days of technical talks between American and Iranian delegations concluded in Doha on Wednesday evening, with negotiators focused on restoring maritime traffic through the Strait of Hormuz. Washington is pressing Tehran to abandon plans to charge transit tolls on shipping as the price of reopening the waterway. President Trump said the two sides were &ldquo;getting along well&rdquo;, though no date was announced for a further round. The talks stayed at technical level after Iran declined to meet US envoys directly earlier in the week.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The toll question goes to the heart of what the war changed: Iran emerged from the spring fighting with effective control over the world&rsquo;s most important oil chokepoint and wants to monetise it, while Washington insists free navigation is non-negotiable. Oil trading near $71 a barrel suggests markets increasingly price the de-escalation holding. The technical track&rsquo;s survival despite the diplomatic downgrade suggests both sides want an agreement more than a confrontation. Watch whether the next round is upgraded back to envoy level &mdash; that would signal real progress.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="19:10" data-slug="germany-charges-ukrainian-2022-nord-stream">
+ <h4>Germany Charges Ukrainian Over 2022 Nord Stream Pipeline Blasts</h4>
+ <p>Germany&rsquo;s federal prosecutor has indicted a Ukrainian national over the explosions that crippled the Nord Stream gas pipelines beneath the Baltic Sea in September 2022. The pipelines, built to carry Russian gas directly to Germany, were destroyed by underwater blasts whose authorship has been contested ever since. Kyiv denies any state involvement in the sabotage. A public trial would keep an awkward question &mdash; who attacked German energy infrastructure &mdash; in the headlines while Berlin remains one of Ukraine&rsquo;s largest military backers.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The charge is the first formal indictment in the near four-year investigation, one of Europe&rsquo;s most politically sensitive cases. The timing is uncomfortable for Berlin in both directions: dropping the case would look like political favouritism, while prosecuting a Ukrainian while funding Ukraine&rsquo;s defence hands ammunition to parties opposed to that support. The Kremlin can be expected to amplify whatever emerges in court. Watch how Kyiv manages the diplomatic fallout, and whether trial arrangements and any further indictments are confirmed over the summer.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="20:15" data-slug="us-blocks-renewal-north-american-trade">
+ <h4>US Blocks Renewal of North American Trade Pact</h4>
+ <p>The United States has declined to approve a 16-year extension of the USMCA trade agreement with Canada and Mexico at the pact&rsquo;s scheduled joint review, instead triggering annual rolling reviews while it seeks changes. The decision stops short of ending the agreement, but strips away the long-term certainty that manufacturers and farmers on all three sides had built into their planning. Washington wants concessions before it will lock the deal in again.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The USMCA replaced NAFTA in 2020 with a built-in review mechanism designed as a pressure valve &mdash; this is the first time it has been pulled as a lever. Rolling annual reviews mean terms could in principle be reopened every year until the pact&rsquo;s 2036 sunset, a chilling prospect for cross-border investment in carmaking, agriculture and energy. Canada and Mexico must now decide whether to offer concessions or absorb the uncertainty. Watch for retaliatory positioning from Ottawa and Mexico City, and which sectors Washington names in its demands.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="23:00" data-slug="toddler-pulled-alive-rubble-six-days">
+ <h4>Toddler Pulled Alive From Rubble Six Days After Venezuela Quakes</h4>
+ <p>A two-year-old boy was rescued from a collapsed building on Wednesday, six days after the twin earthquakes that killed at least 589 people in Venezuela &mdash; a rare moment of relief in a recovery effort grinding towards its close. Young survivors are running several of the shelters housing the displaced, and international aid continues to flow through regional channels led by Brazil, Colombia and Mexico. Families of deportees flown in from the United States hours before the quakes struck are still searching for relatives.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">Rescues this long after a collapse are exceptional &mdash; survival past the 72-hour window usually depends on air pockets and access to water, which is why search phases are normally wound down within a week. The political dimension remains as striking as the humanitarian one: aid has kept moving into a heavily sanctioned country without political conditions attached, an arrangement that has now held for more than a week. Watch whether that cooperation outlasts the emergency phase, and whether US deportation flights resume while the recovery continues.</div>
+ </details>
+ </div>
+
+ </div>
+ </div>
+ <div class="curated-column">
+ <h3><span class="dot dom"></span><span class="dot-label">UK</span> UK Domestic Politics</h3>
+ <div>
+
+ <div class="curated-item" data-time="07:00" data-slug="starmer-deliver-state-apology-forced-adoptions">
+ <h4>Starmer to Deliver State Apology for Forced Adoptions Today</h4>
+ <p>The Prime Minister will today apologise on behalf of the state to survivors of forced adoption, acknowledging the harm done when an estimated 185,000 babies were taken from unmarried mothers in England and Wales between 1949 and 1976. Women &mdash; many of them teenagers &mdash; were pressured by social services, churches and mother-and-baby homes into giving up children they wanted to keep. Campaigners have fought for a formal apology for years; ministers signalled last month that it would come before the summer recess.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">An apology from the despatch box carries weight beyond the words: it establishes state responsibility, which shapes everything that follows &mdash; access to records, counselling provision and any future redress framework. Survivors&rsquo; groups have long pointed to Australia, which apologised in 2013 and attached support funding. The timing, in Starmer&rsquo;s final weeks in office, makes this one of the legacy items he wants settled before the mid-July handover. Watch what accompanies the words: a package with money attached would mark the difference between acknowledgment and restitution.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="16:30" data-slug="england-records-its-hottest-june-new">
+ <h4>England Records Its Hottest June as New Heat Alert Issued</h4>
+ <p>Last month was provisionally England&rsquo;s hottest June on record, with daily temperatures passing the previous June peak of 35.6C on three consecutive days last week. A yellow heat-health alert now covers southern and eastern England from Saturday to Wednesday, warning of risks to older people and those with existing conditions. Forecasters say a third heatwave of the summer is increasingly likely as temperatures climb back past 30C.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The June record matters less for the single statistic than for the pattern: benchmarks that stood for decades are now being displaced every few summers, and the health system is adjusting in real time. Yellow alerts trigger preparedness measures across the NHS and care sector; the test is whether this one escalates to amber, which signals expected service strain. Heat deaths in England are concentrated among the over-75s and typically peak two to three days into a hot spell. Watch the UKHSA alert level over the weekend and early-week admissions data.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="16:45" data-slug="prosecutors-decide-charges-against-suspended-mp">
+ <h4>Prosecutors to Decide on Charges Against Suspended MP Dan Norris</h4>
+ <p>Police investigating the suspended Labour MP Dan Norris have passed a file of evidence to the Crown Prosecution Service, which will now decide whether to bring charges. The investigation concerns allegations of rape, sexual assault, voyeurism and upskirting against the 66-year-old, who has been suspended from the party since his arrest. A charging decision has no fixed timetable, and Norris remains an MP while the process runs its course.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The CPS applies a two-stage test &mdash; evidential sufficiency and public interest &mdash; before charging, and cases involving multiple allegations routinely take months at this stage. Norris, formerly the West of England metro mayor, has not been charged with any offence and is entitled to the presumption of innocence. The case sits awkwardly for Labour during a leadership transition it wants kept clean of distractions. Watch for the charging decision and, if it comes, the timetable for a first court appearance.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="17:45" data-slug="boy-16-critically-hurt-shooting-near">
+ <h4>Boy of 16 Critically Hurt in Shooting Near Birmingham Mosque</h4>
+ <p>A 16-year-old boy suffered potentially life-threatening gunshot wounds in a shooting near a mosque in the Alum Rock area of Birmingham on Wednesday evening. Police were called to Bowyer Road shortly before 5.30pm; the boy was taken to hospital, where he remains. West Midlands Police are investigating.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">Gun crime in Britain remains rare by international standards, and shootings of minors are rarer still &mdash; which is why a single incident of this kind commands national attention. The proximity to a mosque will heighten community concern until police establish whether the location was relevant, and forces typically step up visible patrols around places of worship after incidents nearby. Watch for arrests and for West Midlands Police&rsquo;s assessment of the circumstances once initial enquiries conclude.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="07:00" data-slug="airport-egates-open-eight-nine-year">
+ <h4>Airport eGates Open to Eight and Nine-Year-Olds Next Week</h4>
+ <p>Children aged eight and nine will be able to use eGates at UK airports and border ports from next Wednesday, 8 July, provided they are travelling with an adult. The change, confirmed by the Home Office, lowers the minimum age from ten and takes effect just before the school summer holidays &mdash; the point in the year when family queues at the border are longest. More than a dozen airports operate the automated gates.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The change is the latest step in a gradual widening of eGate eligibility, and Border Force capacity is the quiet driver: every family diverted from staffed desks frees officers for casework at the busiest time of year. Automated gates now handle the large majority of arrivals at the biggest hubs, so small eligibility changes move real queue times. Watch how the system copes over the first peak weekends of the holidays &mdash; queue data from Heathrow and Manchester will show quickly whether the change delivers.</div>
+ </details>
+ </div>
+
+ </div>
+ </div>
+ </div>
+
+ <div class="one-to-read">
+ <span class="otr-label">One To Read</span>
+ <a href="https://www.bbc.com/news/articles/clye9zn0y1ro" target="_blank" rel="noopener noreferrer">
+ <h4>The People-Smuggling &lsquo;Godfather&rsquo; Living Quietly in an English Village</h4>
+ <span class="otr-source">BBC News</span>
+ <span class="otr-dot">&middot;</span>
+ <span class="otr-desc">A people smuggler once described as the &ldquo;godfather&rdquo; of the French migrant camps, convicted in France, has been found living and working in a Leicestershire village while seeking asylum in the UK.</span>
+ </a>
+ </div>
+ <!-- SOURCES USED
+ - https://www.bbc.com/news/articles/c4gyv05gk4do &mdash; BBC News: Russian missile and drone strikes on Kyiv kill at least 13
+ - https://www.reuters.com/world/russian-drones-attack-ukrainian-capital-set-central-district-hotel-fire-2026-07-01/ &mdash; Reuters: Russian air strikes Kyiv hotel fire Zelenskiy Dublin
+ - https://www.theguardian.com/world/2026/jul/02/russia-attacks-kyiv-missiles-drones-ukraine &mdash; The Guardian: Russian missile and drone strikes Kyiv
+ - https://www.npr.org/2026/07/02/g-s1-131681/russian-attack-ukraine &mdash; NPR: Russian missiles drones Kyiv damage
+ - https://www.reuters.com/world/asia-pacific/us-iran-enter-technical-talks-secure-peace-deal-restart-shipping-2026-07-01/ &mdash; Reuters: US Iran Doha technical talks Strait of Hormuz shipping
+ - https://www.nytimes.com/live/2026/06/30/world/iran-us-talks-qatar-hormuz &mdash; New York Times: US Iran talks Qatar Hormuz mediators
+ - https://www.iranintl.com/en/202607014054 &mdash; Iran International: Doha technical talks end Trump comment (facts only)
+ - https://www.bbc.com/news/articles/c33yjk0ldkdo &mdash; BBC News: Ukrainian charged in Germany over Nord Stream blasts
+ - https://www.reuters.com/world/germany-indicts-ukrainian-over-nord-stream-pipeline-blasts-german-media-report-2026-07-01/ &mdash; Reuters: Germany indicts Ukrainian Nord Stream
+ - https://www.bbc.com/news/articles/ce8j2lmrvrdo &mdash; BBC News: US blocks long-term renewal North American trade deal
+ - https://www.reuters.com/world/americas/us-canada-mexico-review-trade-pact-likely-putting-it-into-limbo-trump-demands-2026-07-01/ &mdash; Reuters: US declines to extend USMCA rolling reviews
+ - https://www.bbc.com/news/articles/c05yv34qlnlo &mdash; BBC News: Venezuela boy rescued rubble aunt
+ - https://www.bbc.com/news/articles/c3eyxjy01y3o &mdash; BBC News: US deportees Venezuela earthquakes
+ - https://www.reuters.com/world/americas/venezuela-earthquake-victims-shelters-house-homeless-volunteers-survivors-2026-07-01/ &mdash; Reuters: Venezuela quake survivors run shelters
+ - https://news.sky.com/story/politics-latest-burnham-starmer-labour-tories-badenoch-farage-12593360 &mdash; Sky News: Starmer to apologise to survivors of forced adoptions
+ - https://www.telegraph.co.uk/news/2026/06/17/labour-to-apologise-for-shameful-forced-adoption/ &mdash; The Telegraph: Starmer apology forced adoption
+ - https://www.theguardian.com/society/2026/jun/17/forced-adoption-survivors-full-apology-uk-government-bridget-phillipson &mdash; The Guardian: forced adoption survivors full apology Phillipson
+ - https://news.sky.com/story/yellow-health-alert-issued-as-england-records-hottest-june-on-record-13559537 &mdash; Sky News: yellow health alert hottest June on record
+ - https://www.independent.co.uk/news/uk/home-news/june-2026-hottest-on-record-england-met-office-heatwave-b3006783.html &mdash; The Independent: hottest June England Met Office
+ - https://www.bbc.com/weather/articles/c4gyjvpl4eno &mdash; BBC Weather: third UK heatwave increasingly likely
+ - https://www.bbc.co.uk/news/articles/cp8r1x2614eo &mdash; BBC News: police seek charges Dan Norris file CPS
+ - https://news.sky.com/story/file-sent-to-cps-after-sex-offence-allegations-against-suspended-labour-mp-dan-norris-13559570 &mdash; Sky News: file sent to CPS Dan Norris
+ - https://www.independent.co.uk/news/uk/crime/dan-norris-allegations-cps-police-b3006989.html &mdash; The Independent: charges considered Dan Norris investigation
+ - https://www.theguardian.com/uk-news/2026/jul/01/teenager-injured-shooting-birmingham-mosque &mdash; The Guardian: teenager injured shooting Birmingham mosque
+ - https://news.sky.com/story/boy-16-left-with-life-threatening-injuries-after-shooting-near-birmingham-mosque-13556449 &mdash; Sky News: boy 16 shooting Bowyer Road Birmingham
+ - https://www.itv.com/news/central/2026-07-01/teen-left-with-life-threatening-injuries-after-shooting-near-birmingham-mosque &mdash; ITV News: teen life-threatening injuries shooting Birmingham
+ - https://www.gov.uk/government/news/more-children-eligible-for-egates-in-boost-for-families-this-summer &mdash; gov.uk: more children eligible for eGates
+ - https://www.bbc.com/news/articles/c89300l2934o &mdash; BBC News: e-gate access expanded younger children
+ - https://www.bbc.com/news/articles/clye9zn0y1ro &mdash; BBC News: people smuggler godfather Leicestershire village (One To Read)
+ - Market data: Yahoo Finance, Trading Economics, MarketWatch (cross-referenced 2 July 08:00-08:20 BST)
+ END SOURCES USED -->
+ </div><!-- ── END MORNING 02 JUL (08:14) ── -->
 
  <!-- ── EVENING 01 JUL (18:30) ── -->
  <div class="curated-edition evening" data-date="2026-07-01" data-time="18:30" data-markets='{"FTSE":{"price":10715,"change":0.09},"SP":{"price":5530,"change":0.09},"Brent":{"price":86.00,"change":-0.12},"GBP":{"price":1.3248,"change":0.06},"Gold":{"price":4438,"change":-0.09},"EURGBP":{"price":0.8740,"change":-0.02},"Gilt":{"price":4.85,"change":-0.20},"VIX":{"price":20.90,"change":-0.48},"BTC":{"price":82250,"change":0.18},"UST":{"price":4.30,"change":-0.23},"ts":"2026-07-01T18:30:00+01:00"}'>
