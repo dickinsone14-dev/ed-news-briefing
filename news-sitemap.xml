@@ -2,6 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-04-evening/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-04T19:40:00+01:00</news:publication_date>
+      <news:title>Evening Briefing — Saturday 4 July 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-04-evening/ukraine-strikes-st-petersburg-oil-terminal/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-04T19:40:00+01:00</news:publication_date>
+      <news:title>Ukraine Strikes St Petersburg Oil Terminal in Deepest Attack</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-04-evening/crowds-mourn-khamenei-mojtaba-unseen/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-04T19:40:00+01:00</news:publication_date>
+      <news:title>Vast Crowds Mourn Khamenei as His Successor Stays Unseen</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-04-evening/putin-claims-kostyantynivka-kyiv-denies/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-04T19:40:00+01:00</news:publication_date>
+      <news:title>Russia Claims Fortress Town Captured; Zelensky Mocks the Claim</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-04-evening/nato-ankara-summit-eve-security-lockdown/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-04T19:40:00+01:00</news:publication_date>
+      <news:title>NATO Gathers in Ankara Seeking to Steady the Alliance</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-04-evening/trump-caps-250th-mall-rally/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-04T19:40:00+01:00</news:publication_date>
+      <news:title>Trump Caps America’s 250th With Campaign-Style Mall Rally</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-04-evening/week-long-heat-alerts-34c-peak/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-04T19:40:00+01:00</news:publication_date>
+      <news:title>Week-Long Heat Alerts Issued as 34C Peak Forecast</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-04-evening/streeting-demands-parliament-summon-maternity-witnesses/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-04T19:40:00+01:00</news:publication_date>
+      <news:title>Streeting Demands Parliament Summon Maternity Scandal Witnesses</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-04-evening/powell-burnham-end-boys-club-culture/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-04T19:40:00+01:00</news:publication_date>
+      <news:title>Powell Says Burnham Will End No 10 Boys Club Culture</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-04-evening/harry-drops-family-london-visit-security/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-04T19:40:00+01:00</news:publication_date>
+      <news:title>Harry Drops Family From London Visit Over Security Row</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-04-evening/king-hails-truly-historic-milestone-250th/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-04T19:40:00+01:00</news:publication_date>
+      <news:title>King Hails Truly Historic Milestone on America’s 250th</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-07-04-morning/</loc>
     <news:news>
       <news:publication>
@@ -362,127 +483,6 @@
       </news:publication>
       <news:publication_date>2026-07-03T13:34:00+01:00</news:publication_date>
       <news:title>Yellow Heat Alert From Saturday as Third Heatwave Builds</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-02-evening/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-02T19:26:00+01:00</news:publication_date>
-      <news:title>Evening Briefing — Thursday 2 July 2026</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-02-evening/kyiv-death-toll-rises-22-largest-barrage/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-02T19:26:00+01:00</news:publication_date>
-      <news:title>Kyiv Death Toll Rises to 22 After Largest Russian Barrage</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-02-evening/iran-threatens-tankers-defying-hormuz-routes/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-02T19:26:00+01:00</news:publication_date>
-      <news:title>Iran Threatens Force Against Tankers Defying Its Hormuz Routes</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-02-evening/iran-week-mass-mourning-bury-khamenei/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-02T19:26:00+01:00</news:publication_date>
-      <news:title>Iran Stages Week of Mass Mourning to Bury Khamenei</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-02-evening/gaza-war-reaches-1000-days-ceasefire/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-02T19:26:00+01:00</news:publication_date>
-      <news:title>Gaza War Reaches 1,000 Days With Ceasefire Under Strain</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-02-evening/us-jobs-growth-stalls-payrolls-57000/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-02T19:26:00+01:00</news:publication_date>
-      <news:title>US Jobs Growth Stalls as Payrolls Rise Just 57,000</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-02-evening/starmer-delivers-state-apology-forced-adoptions/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-02T19:26:00+01:00</news:publication_date>
-      <news:title>Starmer Delivers State Apology for Forced Adoptions</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-02-evening/burnham-courts-union-leaders-bank-tax/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-02T19:26:00+01:00</news:publication_date>
-      <news:title>Burnham Courts Union Leaders as City Fights Bank Tax</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-02-evening/rochdale-ringleader-freed-ministers-deportation/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-02T19:26:00+01:00</news:publication_date>
-      <news:title>Rochdale Grooming Ringleader Freed as Ministers Pursue Deportation</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-02-evening/labour-failed-prepare-power-mcsweeney-admits/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-02T19:26:00+01:00</news:publication_date>
-      <news:title>Labour Failed to Prepare for Power, McSweeney Admits</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-02-evening/doctors-warn-us-drugs-deal-divert-nhs/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-02T19:26:00+01:00</news:publication_date>
-      <news:title>Doctors Warn US Drugs Deal Will Divert £45bn From NHS</news:title>
     </news:news>
   </url>
 </urlset>
