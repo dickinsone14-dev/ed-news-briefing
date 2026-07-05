@@ -2,6 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-05-morning/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-05T09:35:00+01:00</news:publication_date>
+      <news:title>Morning Briefing — Sunday 5 July 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-05-morning/trump-phones-putin-zelensky-before-ankara/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-05T09:35:00+01:00</news:publication_date>
+      <news:title>Trump Phones Putin and Zelensky Before Ankara Summit</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-05-morning/iran-shuts-down-khamenei-procession-monday/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-05T09:35:00+01:00</news:publication_date>
+      <news:title>Iran Shuts Down for Two Days Ahead of Khamenei Procession</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-05-morning/erdogan-hosts-nato-warns-israel-iran-deal/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-05T09:35:00+01:00</news:publication_date>
+      <news:title>Erdogan Readies NATO Summit With Warning Shot at Israel</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-05-morning/trump-storm-delayed-midnight-rally-250th/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-05T09:35:00+01:00</news:publication_date>
+      <news:title>Storm-Delayed Trump Rally Closes America’s 250th at Midnight</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-05-morning/le-pen-fate-tuesday-appeal-ruling/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-05T09:35:00+01:00</news:publication_date>
+      <news:title>France’s Far Right Braces for Le Pen Ruling on Tuesday</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-05-morning/farage-denies-rules-broken-undeclared-support/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-05T09:35:00+01:00</news:publication_date>
+      <news:title>Farage Denies Breaking Rules Over Undeclared Backer’s Support</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-05-morning/blair-institute-warns-burnham-tax-transition/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-05T09:35:00+01:00</news:publication_date>
+      <news:title>Blair Institute Warns Burnham Against Tax Raid on Investors</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-05-morning/nhs-app-ai-triage-all-patients/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-05T09:35:00+01:00</news:publication_date>
+      <news:title>NHS App Will Use AI to Triage All Patients by 2028</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-05-morning/heatwave-day-one-29c-week-ahead/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-05T09:35:00+01:00</news:publication_date>
+      <news:title>Heatwave Week Begins With 29C Expected Today</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-05-morning/mod-crown-censure-tank-deaths/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-05T09:35:00+01:00</news:publication_date>
+      <news:title>MoD Faces Maximum Sanction Over Fatal Tank Explosion</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-07-04-evening/</loc>
     <news:news>
       <news:publication>
