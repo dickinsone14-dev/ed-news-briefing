@@ -2,6 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-06-morning/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-06T10:55:00+01:00</news:publication_date>
+      <news:title>Morning Briefing — Monday 6 July 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-06-morning/russian-missiles-kill-fourteen-kyiv-summit-eve/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-06T10:55:00+01:00</news:publication_date>
+      <news:title>Russian Missiles Kill Fourteen in Kyiv on Summit Eve</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-06-morning/tehran-throngs-mourn-khamenei-successor-hidden/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-06T10:55:00+01:00</news:publication_date>
+      <news:title>Tehran Throngs Mourn Khamenei as Successor Stays Hidden</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-06-morning/trump-ankara-meetings-zelensky-sharaa/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-06T10:55:00+01:00</news:publication_date>
+      <news:title>Trump Heads to Ankara for Talks With Zelensky and Sharaa</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-06-morning/tankers-stream-hormuz-red-sea-risk/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-06T10:55:00+01:00</news:publication_date>
+      <news:title>Tankers Stream Out of Hormuz as Red Sea Risk Returns</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-06-morning/macron-first-western-visit-post-assad-syria/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-06T10:55:00+01:00</news:publication_date>
+      <news:title>Macron to Make First Western State Visit to Syria</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-06-morning/sky-buys-itv-broadcast-streaming-arm/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-06T10:55:00+01:00</news:publication_date>
+      <news:title>Sky Buys ITV’s Broadcast and Streaming Arm for £1.6bn</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-06-morning/blunkett-commission-police-leadership-overhaul/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-06T10:55:00+01:00</news:publication_date>
+      <news:title>Blunkett Commission Demands Overhaul of Police Leadership</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-06-morning/ministers-cap-overseas-political-donations/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-06T10:55:00+01:00</news:publication_date>
+      <news:title>Ministers Cap Overseas Donations to Shut Out Foreign Money</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-06-morning/farage-threatens-legal-action-sunday-times/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-06T10:55:00+01:00</news:publication_date>
+      <news:title>Farage Threatens Legal Action as Standards Pressure Mounts</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-06-morning/heatwave-builds-34c-peak-midweek/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-06T10:55:00+01:00</news:publication_date>
+      <news:title>Heatwave Builds Towards 34C Peak From Midweek</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-07-05-evening/</loc>
     <news:news>
       <news:publication>
@@ -362,248 +483,6 @@
       </news:publication>
       <news:publication_date>2026-07-04T19:40:00+01:00</news:publication_date>
       <news:title>King Hails Truly Historic Milestone on America’s 250th</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-04-morning/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-04T09:23:00+01:00</news:publication_date>
-      <news:title>Morning Briefing — Saturday 4 July 2026</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-04-morning/iran-funeral-khamenei-begins-tehran-crowds/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-04T09:23:00+01:00</news:publication_date>
-      <news:title>Iran’s Funeral for Khamenei Begins With Vows of Revenge</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-04-morning/trump-opens-250th-communist-menace-warning/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-04T09:23:00+01:00</news:publication_date>
-      <news:title>Trump Opens America’s 250th With Communist Menace Warning</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-04-morning/nato-ankara-summit-ironclad-commitment-ukraine/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-04T09:23:00+01:00</news:publication_date>
-      <news:title>NATO Leaders to Affirm Ironclad Commitment at Ankara Summit</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-04-morning/damascus-bomb-toll-ten-lawyers-dead/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-04T09:23:00+01:00</news:publication_date>
-      <news:title>Damascus Bomb Toll Hits Ten With Six Lawyers Among Dead</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-04-morning/iran-hormuz-leverage-settlement-talks-tolls/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-04T09:23:00+01:00</news:publication_date>
-      <news:title>Iran Wields Hormuz Control as Leverage in Settlement Talks</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-04-morning/starmer-first-interview-since-resigning-warns-burnham/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-04T09:23:00+01:00</news:publication_date>
-      <news:title>Starmer Warns Burnham Diplomacy Cannot Be Delegated</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-04-morning/us-officials-warn-burnham-against-miliband/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-04T09:23:00+01:00</news:publication_date>
-      <news:title>US Officials Warn Burnham Against Miliband as Chancellor</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-04-morning/heat-alerts-activate-midday-heatwave-builds/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-04T09:23:00+01:00</news:publication_date>
-      <news:title>Heat Alerts Activate at Midday as New Heatwave Builds</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-04-morning/parents-told-stop-posting-childrens-photos/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-04T09:23:00+01:00</news:publication_date>
-      <news:title>Parents Told to Stop Posting Children’s Photos Online</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-04-morning/rochdale-ringleader-freed-despite-unsafe-ruling/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-04T09:23:00+01:00</news:publication_date>
-      <news:title>Rochdale Ringleader Was Ruled Unsafe to Release, Reports Say</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-03-evening/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-03T18:58:00+01:00</news:publication_date>
-      <news:title>Evening Briefing — Friday 3 July 2026</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-03-evening/kyiv-mourns-30-dead-rescuers-search/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-03T18:58:00+01:00</news:publication_date>
-      <news:title>Kyiv Mourns 30 Dead as Rescuers Search for Ten Missing</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-03-evening/khamenei-lies-state-iran-funeral-week/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-03T18:58:00+01:00</news:publication_date>
-      <news:title>Khamenei Lies in State as Iran Begins Funeral Week</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-03-evening/hormuz-traffic-quadruples-fee-fight-hardens/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-03T18:58:00+01:00</news:publication_date>
-      <news:title>Hormuz Traffic Quadruples as Fee Fight Hardens</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-03-evening/britain-italy-japan-fighter-jet-contract/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-03T18:58:00+01:00</news:publication_date>
-      <news:title>Britain, Italy and Japan Sign £4.6bn Fighter Jet Contract</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-03-evening/monaco-bomb-suspect-named-ukrainian-woman/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-03T18:58:00+01:00</news:publication_date>
-      <news:title>Monaco Bomb Suspect Named as Ukrainian Woman on the Run</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-03-evening/burnham-rules-out-early-election-triple-lock/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-03T18:58:00+01:00</news:publication_date>
-      <news:title>Burnham Rules Out Early Election and Backs Triple Lock</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-03-evening/britain-threatens-pakistan-sanctions-deportation/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-03T18:58:00+01:00</news:publication_date>
-      <news:title>Britain Threatens Pakistan Sanctions Over Ringleader Deportation</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-03-evening/three-men-cleared-lyra-mckee-murder/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-03T18:58:00+01:00</news:publication_date>
-      <news:title>Three Men Cleared of Journalist Lyra McKee’s Murder</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-03-evening/hosepipe-ban-million-southern-water-customers/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-03T18:58:00+01:00</news:publication_date>
-      <news:title>Hosepipe Ban Hits a Million Southern Water Customers Next Friday</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-03-evening/attorney-general-custody-fordingbridge-rapists/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-03T18:58:00+01:00</news:publication_date>
-      <news:title>Attorney General Wins Custody for Teenage Fordingbridge Rapists</news:title>
     </news:news>
   </url>
 </urlset>
