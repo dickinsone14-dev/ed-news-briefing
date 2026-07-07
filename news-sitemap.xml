@@ -2,6 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-07-morning/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-07T12:02:00+01:00</news:publication_date>
+      <news:title>Morning Briefing — Tuesday 7 July 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-07-morning/damascus-bombs-rock-macron-syria-visit/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-07T12:02:00+01:00</news:publication_date>
+      <news:title>Damascus Bombs Rock Macron’s Landmark Syria Visit</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-07-morning/tanker-ablaze-projectile-strait-hormuz/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-07T12:02:00+01:00</news:publication_date>
+      <news:title>Tanker Set Ablaze by Projectile in Strait of Hormuz</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-07-morning/nato-summit-opens-ankara-trump-lands/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-07T12:02:00+01:00</news:publication_date>
+      <news:title>NATO Summit Opens in Ankara as Trump Flies In</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-07-morning/ukraine-strikes-omsk-deepest-refinery/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-07T12:02:00+01:00</news:publication_date>
+      <news:title>Ukraine Strikes Siberian Refinery in Deepest Attack of War</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-07-morning/khamenei-cortege-qom-heir-invisible/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-07T12:02:00+01:00</news:publication_date>
+      <news:title>Khamenei’s Cortege Reaches Qom as His Heir Stays Invisible</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-07-morning/labour-refers-farage-elections-watchdog/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-07T12:02:00+01:00</news:publication_date>
+      <news:title>Labour Refers Farage to Elections Watchdog Over Gifts</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-07-morning/starmer-final-nato-summit-caretaker/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-07T12:02:00+01:00</news:publication_date>
+      <news:title>Starmer Attends Final NATO Summit as Caretaker PM</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-07-morning/third-heatwave-declared-35c-peak/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-07T12:02:00+01:00</news:publication_date>
+      <news:title>Third Heatwave Declared With 35C Peak Forecast</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-07-morning/house-prices-first-rise-four-months/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-07T12:02:00+01:00</news:publication_date>
+      <news:title>House Prices Rise for First Time in Four Months</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-07-morning/gp-tests-slash-endometriosis-diagnosis/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-07T12:02:00+01:00</news:publication_date>
+      <news:title>GP Tests to Cut Endometriosis Diagnosis to 45 Minutes</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-07-06-evening/</loc>
     <news:news>
       <news:publication>
@@ -362,248 +483,6 @@
       </news:publication>
       <news:publication_date>2026-07-05T17:02:00+01:00</news:publication_date>
       <news:title>Police Examine Claim of Missing £1.5m From Yes Scotland</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-05-morning/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-05T09:35:00+01:00</news:publication_date>
-      <news:title>Morning Briefing — Sunday 5 July 2026</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-05-morning/trump-phones-putin-zelensky-before-ankara/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-05T09:35:00+01:00</news:publication_date>
-      <news:title>Trump Phones Putin and Zelensky Before Ankara Summit</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-05-morning/iran-shuts-down-khamenei-procession-monday/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-05T09:35:00+01:00</news:publication_date>
-      <news:title>Iran Shuts Down for Two Days Ahead of Khamenei Procession</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-05-morning/erdogan-hosts-nato-warns-israel-iran-deal/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-05T09:35:00+01:00</news:publication_date>
-      <news:title>Erdogan Readies NATO Summit With Warning Shot at Israel</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-05-morning/trump-storm-delayed-midnight-rally-250th/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-05T09:35:00+01:00</news:publication_date>
-      <news:title>Storm-Delayed Trump Rally Closes America’s 250th at Midnight</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-05-morning/le-pen-fate-tuesday-appeal-ruling/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-05T09:35:00+01:00</news:publication_date>
-      <news:title>France’s Far Right Braces for Le Pen Ruling on Tuesday</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-05-morning/farage-denies-rules-broken-undeclared-support/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-05T09:35:00+01:00</news:publication_date>
-      <news:title>Farage Denies Breaking Rules Over Undeclared Backer’s Support</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-05-morning/blair-institute-warns-burnham-tax-transition/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-05T09:35:00+01:00</news:publication_date>
-      <news:title>Blair Institute Warns Burnham Against Tax Raid on Investors</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-05-morning/nhs-app-ai-triage-all-patients/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-05T09:35:00+01:00</news:publication_date>
-      <news:title>NHS App Will Use AI to Triage All Patients by 2028</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-05-morning/heatwave-day-one-29c-week-ahead/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-05T09:35:00+01:00</news:publication_date>
-      <news:title>Heatwave Week Begins With 29C Expected Today</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-05-morning/mod-crown-censure-tank-deaths/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-05T09:35:00+01:00</news:publication_date>
-      <news:title>MoD Faces Maximum Sanction Over Fatal Tank Explosion</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-04-evening/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-04T19:40:00+01:00</news:publication_date>
-      <news:title>Evening Briefing — Saturday 4 July 2026</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-04-evening/ukraine-strikes-st-petersburg-oil-terminal/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-04T19:40:00+01:00</news:publication_date>
-      <news:title>Ukraine Strikes St Petersburg Oil Terminal in Deepest Attack</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-04-evening/crowds-mourn-khamenei-mojtaba-unseen/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-04T19:40:00+01:00</news:publication_date>
-      <news:title>Vast Crowds Mourn Khamenei as His Successor Stays Unseen</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-04-evening/putin-claims-kostyantynivka-kyiv-denies/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-04T19:40:00+01:00</news:publication_date>
-      <news:title>Russia Claims Fortress Town Captured; Zelensky Mocks the Claim</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-04-evening/nato-ankara-summit-eve-security-lockdown/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-04T19:40:00+01:00</news:publication_date>
-      <news:title>NATO Gathers in Ankara Seeking to Steady the Alliance</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-04-evening/trump-caps-250th-mall-rally/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-04T19:40:00+01:00</news:publication_date>
-      <news:title>Trump Caps America’s 250th With Campaign-Style Mall Rally</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-04-evening/week-long-heat-alerts-34c-peak/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-04T19:40:00+01:00</news:publication_date>
-      <news:title>Week-Long Heat Alerts Issued as 34C Peak Forecast</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-04-evening/streeting-demands-parliament-summon-maternity-witnesses/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-04T19:40:00+01:00</news:publication_date>
-      <news:title>Streeting Demands Parliament Summon Maternity Scandal Witnesses</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-04-evening/powell-burnham-end-boys-club-culture/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-04T19:40:00+01:00</news:publication_date>
-      <news:title>Powell Says Burnham Will End No 10 Boys Club Culture</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-04-evening/harry-drops-family-london-visit-security/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-04T19:40:00+01:00</news:publication_date>
-      <news:title>Harry Drops Family From London Visit Over Security Row</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-04-evening/king-hails-truly-historic-milestone-250th/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-04T19:40:00+01:00</news:publication_date>
-      <news:title>King Hails Truly Historic Milestone on America’s 250th</news:title>
     </news:news>
   </url>
 </urlset>
