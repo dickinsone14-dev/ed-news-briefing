@@ -1,0 +1,16 @@
+ANCHOR STORIES PRE-CHECK — EVENING EDITION, WEDNESDAY 8 JULY 2026 (~18:00 BST)
+
+Top 5 a competent UK editor would lead with tonight:
+1. US-Iran trade strikes; Trump calls dealing with Iran "a waste of time"; oil to $80 (BBC/Reuters/AP/AJ/NBC — confirmed)
+2. Trump grants Ukraine Patriot manufacturing licence + deep-strike talks (WaPo/AP/NYT — confirmed)
+3. NATO closes summit with $80bn Ukraine pledge, Article 5 reaffirmed (AP/NATO official/Independent — confirmed)
+4. Farage's by-election gamble falters as all parties boycott (BBC-Chris Mason/Times — confirmed)
+5. Ruth Ellis, last woman hanged in UK, granted posthumous pardon (BBC/Guardian/Times/Independent — confirmed)
+
+Broad sweeps run: "world news today", BBC UK homepage top-5 audit (17:35 BST).
+NOTE: model switched Fable5->Opus4.8 mid-run after the first agent trio hit the Fable limit and returned nothing; re-ran all three agents, no data lost.
+Diary rule: Khamenei burial Mashhad TOMORROW (Thu 9 Jul); Trump-Zelensky/Sharaa bilats happened TODAY (reported as done, verified); Burnham handover "within weeks" (Independent+NYT, no official date — hedged "within a fortnight/weeks"); Clacton date "as early as August" (Reform sources — attributed); writ not yet moved.
+Verifications this round: Ruth Ellis confirmed 4 approved sources (search); AP wire grep-confirmed Patriot licence + $80bn + Spain + Greenland + "waste of time" + Sharaa. Syria/Sharaa terror-list = AP-only as standalone → FOLDED into summit-close item, not run single-source. Starmer "stronger and more united"/"thanked us" quotes traced to Irish News (NOT approved; ≠ Irish Times) → softened to Independent-sourced "unity"/"huge privilege"/no-spending-issue.
+Exclusions: MI5 Agent X victim meeting (BBC-only, 3+ days); Alfie Coleman jailing (BBC+PA, 2nd approved not retrieved); Greenland as standalone (folded into Spain item); Gaza NCAG (AJ single); ALL World Cup content (sport — vetoed).
+Markets: major risk-off — FTSE -1.66%, Brent +7.36% to ~$80, gilt 4.97% (+12bp), VIX +8%. Fed minutes (19:00 BST) deliberately excluded — not landed.
+Timestamps forced to Europe/London (system clock still Reykjavik/GMT).
