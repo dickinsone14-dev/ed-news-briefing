@@ -2194,11 +2194,13 @@
  - Hard expiry at 24h from "posted" (or at "expires" if set) — banner comes down
  - Optional "expires" field overrides the 8h default (e.g. for major events)
  To add a new breaking story, prepend an entry here with the current ISO timestamp. -->
- <script id="breaking-stories" type="application/json">[{"headline": "Iran strikes US Fifth Fleet base in Bahrain and airbase in Kuwait in retaliation for American attacks — 21:53 GMT", "posted": "2026-07-08T21:53:00+00:00", "category": "MIDDLE EAST", "summary": "Iran's Islamic Revolutionary Guard Corps said a joint navy and air force operation had struck US military facilities at Salman Port in Bahrain — home of the US Fifth Fleet — and the Ali Al Salem airbase in Kuwait, as air-raid sirens sounded across both Gulf states. The strikes are Tehran's retaliation for a fresh wave of US attacks on more than 80 Iranian targets and Trump's declaration that the ceasefire is \"over\". Trump, speaking at the NATO summit in Ankara, said the US would \"very probably\" hit Iran \"hard again tonight\", pushing the collapse of last month's deal into a direct US-Iran exchange on allied soil.", "facts": [{"label": "IRGC claim", "value": "Struck US Fifth Fleet base at Salman Port (Bahrain) and Ali Al Salem airbase (Kuwait); says it downed an MQ-9 drone"}, {"label": "Trigger", "value": "US hit 80+ Iranian targets after Iran attacked ships in the Strait of Hormuz"}, {"label": "Trump", "value": "Ceasefire \"over\"; will \"very probably\" hit Iran \"hard again tonight\""}, {"label": "Brent crude", "value": "Up ~6% to ~$78/bbl on renewed Hormuz risk"}]}, {"headline": "Trump declares Iran ceasefire 'over' as US launches fresh strikes near Strait of Hormuz — 20:50 GMT", "posted": "2026-07-08T20:50:00+00:00", "category": "MIDDLE EAST", "summary": "President Trump declared the interim ceasefire with Iran \"over\" and US Central Command launched a fresh round of strikes to degrade Iran's ability to threaten shipping in the Strait of Hormuz, after Iranian forces attacked three commercial vessels near the strait. Trump threatened to hit Iran \"very hard\" again tonight from the NATO summit in Ankara, and Washington revoked its waiver on Iranian oil sanctions. Brent crude jumped almost 6% as the collapse of last month's deal reopened the waterway carrying a fifth of the world's oil as a conflict zone.", "facts": [{"label": "Brent crude", "value": "+5.7% to ~$78.41/bbl; WTI +5.9% to $74.60"}, {"label": "CENTCOM", "value": "New strikes to protect freedom of navigation in Strait of Hormuz"}, {"label": "Trigger", "value": "Iran attacked three commercial vessels near Hormuz on Tuesday"}, {"label": "Trump", "value": "Ceasefire \"over\"; threatens to hit Iran \"very hard\" again tonight"}]}]</script>
+ <script id="breaking-stories" type="application/json">
+[{"posted": "2026-07-09T08:30:00+01:00", "headline": "US strikes Iran for second night; Iran hits US bases in Bahrain, Kuwait and Qatar — 08:30 BST", "category": "MIDDLE EAST", "summary": "The US-Iran ceasefire has collapsed into a second consecutive night of American strikes on more than 90 Iranian targets, with Iran retaliating by drone against US bases across three Gulf states. President Trump, declaring the truce over, vowed to answer every Iranian attack twentyfold, while Iran told the UN Security Council the strikes were a “blatant violation” of the UN Charter.", "facts": [{"label": "US strikes", "value": "90+ Iranian targets, second night"}, {"label": "Iranian toll", "value": "at least 14 killed, 78 wounded over two days"}, {"label": "Iran reprisal", "value": "drones on US bases in Bahrain, Kuwait and Qatar"}, {"label": "Trump", "value": "declares ceasefire “over”; “we hit them 20 to 1”"}]}]
+</script>
  <div class="breaking-banner" id="breakingBanner">
  <div class="breaking-inner">
  <span class="breaking-label">BREAKING</span>
- <span class="breaking-text" id="breakingText">Iran strikes US Fifth Fleet base in Bahrain and airbase in Kuwait in retaliation for American attacks; Trump vows to hit Iran &lsquo;hard again tonight&rsquo;</span>
+ <span class="breaking-text" id="breakingText">US strikes Iran for second night; Iran hits US bases in Bahrain, Kuwait and Qatar</span>
  <span class="breaking-readmore" id="breakingReadmore">Read more</span>
  <button class="breaking-dismiss" id="breakingDismiss">&times;</button>
  </div>
@@ -2288,7 +2290,7 @@
  <!-- #1 Markets snapshot bar -->
  <!-- Embedded market data (populated by update script, used as fallback) -->
  <script id="embedded-markets" type="application/json">
-{"FTSE":{"price":10489,"change":-1.66},"SP":{"price":7461,"change":-0.58},"Brent":{"price":79.61,"change":7.36},"GBP":{"price":1.3374,"change":0.16},"Gold":{"price":4055,"change":-2.3},"EURGBP":{"price":0.8527,"change":-0.16},"Gilt":{"price":4.97,"change":0.12},"VIX":{"price":17.45,"change":8.18},"BTC":{"price":61850,"change":-2.29},"UST":{"price":4.59,"change":0.06},"ts":"2026-07-08T17:44:00+01:00"}
+{"FTSE":{"price":10539,"change":0.48},"SP":{"price":7483,"change":-0.28},"Brent":{"price":78.0,"change":-0.06},"GBP":{"price":1.3423,"change":0.26},"Gold":{"price":4116,"change":0.82},"EURGBP":{"price":0.8518,"change":-0.08},"Gilt":{"price":4.94,"change":-0.03},"VIX":{"price":16.63,"change":-1.6},"BTC":{"price":62990,"change":1.28},"UST":{"price":4.57,"change":0.0},"ts":"2026-07-09T08:30:00+01:00"}
 </script>
  <script id="market-descriptions" type="application/json">
 {
@@ -2296,67 +2298,67 @@
   "name": "FTSE 100",
   "desc": "The UK's benchmark stock index, tracking the 100 largest companies listed on the London Stock Exchange by market capitalisation. Includes Shell, AstraZeneca, HSBC and Unilever.",
   "drivers_up": [
-   "Firmer oil majors offered only a partial cushion"
+   "Rebounds ~0.5% at the open, clawing back part of Wednesday's Gulf-strike rout, energy majors leading"
   ],
   "drivers_down": [
-   "One of its weakest sessions in weeks, down 1.66% on broad risk-off and a fresh gilt sell-off"
+   "War risk keeps sentiment fragile"
   ],
-  "updated": "8 July 2026 17:44"
+  "updated": "9 July 2026 08:30"
  },
  "SP": {
   "name": "S&P 500",
   "desc": "America's leading stock market index, tracking 500 of the largest US-listed companies. Dominated by mega-cap tech (Apple, Microsoft, Nvidia) but spans all sectors.",
   "drivers_up": [
-   "Defensives outperformed as investors de-risked"
+   "Rate-cut hopes still underpin the market"
   ],
   "drivers_down": [
-   "Off ~0.6% into the Gulf escalation and ahead of the Fed minutes"
+   "Closed -0.28% Wednesday after Fed minutes flagged caution on further cuts"
   ],
-  "updated": "8 July 2026 17:44"
+  "updated": "9 July 2026 08:30"
  },
  "Brent": {
   "name": "Brent Crude Oil",
   "desc": "The global benchmark for crude oil pricing, produced from oil fields in the North Sea. Used to price roughly two-thirds of the world's traded oil.",
   "drivers_up": [
-   "Spiked ~7% to near $80 on Gulf supply risk after the US-Iran exchange of strikes"
+   "Holding near \\$78, ~\\$6 above pre-escalation levels as the US-Iran war premium stays embedded"
   ],
   "drivers_down": [
-   "OPEC+ output rises the only offset if the strait calms"
+   "No sign of de-escalation as strikes enter a second night"
   ],
-  "updated": "8 July 2026 17:44"
+  "updated": "9 July 2026 08:30"
  },
  "GBP": {
   "name": "GBP/USD",
   "desc": "The exchange rate between the British pound and the US dollar, commonly known as 'cable'. Reflects relative economic strength and interest rate differentials between the UK and US.",
   "drivers_up": [
-   "Marginally firmer at $1.337 on a softer dollar"
+   "Firmer at \\$1.342 on a softer dollar; IMF upgraded UK growth to 1%"
   ],
   "drivers_down": [
-   "Shrugged off the domestic gilt move"
+   "Gulf war the external risk"
   ],
-  "updated": "8 July 2026 17:44"
+  "updated": "9 July 2026 08:30"
  },
  "Gold": {
   "name": "Gold (XAU/USD)",
   "desc": "The spot price of gold in US dollars per troy ounce. The world's oldest safe-haven asset, traditionally rising during periods of uncertainty, inflation and currency debasement.",
   "drivers_up": [
-   "Haven demand present but overwhelmed"
+   "Back above \\$4,100 (+0.8%) on safe-haven demand tied to the Gulf escalation"
   ],
   "drivers_down": [
-   "Fell ~2.3% as a firmer dollar, higher real yields and margin liquidation outweighed the flare-up"
+   "Recovering Wednesday's dip"
   ],
-  "updated": "8 July 2026 17:44"
+  "updated": "9 July 2026 08:30"
  },
  "EURGBP": {
   "name": "EUR/GBP",
   "desc": "The exchange rate between the euro and the British pound. Key for UK-EU trade pricing. A falling rate means sterling is strengthening against the euro.",
   "drivers_up": [
-   "Sterling resilient"
+   "Sterling marginally firmer against the euro"
   ],
   "drivers_down": [
-   "Euro a touch softer at 0.8527"
+   "Little changed at 0.852"
   ],
-  "updated": "8 July 2026 17:44"
+  "updated": "9 July 2026 08:30"
  },
  "Gilt": {
   "name": "UK 10-Year Gilt Yield",
@@ -2365,9 +2367,9 @@
    "Closed at 4.86%, a shade higher, tracking global yields"
   ],
   "drivers_down": [
-   "10-year yield rose to 4.97%, about +12bp on the day on the oil-driven inflation impulse"
+   "Eased to 4.94% as the fiscal-driven sell-off stabilised rather than extended"
   ],
-  "updated": "8 July 2026 17:44"
+  "updated": "9 July 2026 08:30"
  },
  "VIX": {
   "name": "VIX (Volatility Index)",
@@ -2376,20 +2378,20 @@
    "Jumped ~8% to 17.5 as investors bid for protection on the escalation"
   ],
   "drivers_down": [
-   "Pre-Fed-minutes caution added"
+   "Slipped to 16.6 as Wednesday's equity panic faded"
   ],
-  "updated": "8 July 2026 17:44"
+  "updated": "9 July 2026 08:30"
  },
  "BTC": {
   "name": "Bitcoin (BTC/USD)",
   "desc": "The price of Bitcoin in US dollars. The largest cryptocurrency by market cap, increasingly viewed as digital gold by institutional investors since spot ETF approvals.",
   "drivers_up": [
-   "Held near $64,000 in a quiet range"
+   "Firmed ~1.3% to \\$63k, tracking the broad stabilisation"
   ],
   "drivers_down": [
-   "Slipped ~2-3% to ~$61,850 tracking broad risk-off"
+   "Record June ETF outflows still weigh"
   ],
-  "updated": "8 July 2026 17:44"
+  "updated": "9 July 2026 08:30"
  },
  "UST": {
   "name": "US 10-Year Treasury Yield",
@@ -2398,9 +2400,9 @@
    "Rose 5bp to 4.52% ahead of the 3-year auction and Wednesday's Fed minutes"
   ],
   "drivers_down": [
-   "10-year yield up ~6bp to 4.59%, selling off with gilts on the inflation impulse"
+   "10-year flat at 4.57%, holding the post-Fed-minutes level"
   ],
-  "updated": "8 July 2026 17:44"
+  "updated": "9 July 2026 08:30"
  }
 }
  </script>
@@ -2453,6 +2455,166 @@
  <!-- ════ ALL EDITIONS (sorted by JS) ════ -->
  <!-- IMPORTANT: Keep 7 FULL DAYS of editions in this container. Do NOT delete editions less than 7 days old. -->
  <div id="all-editions" style="display:none;">
+
+ <!-- ── MORNING 09 JUL (08:30) ── -->
+<div class="curated-edition morning" data-date="2026-07-09" data-time="08:30" data-markets='{"FTSE":{"price":10539,"change":0.48},"SP":{"price":7483,"change":-0.28},"Brent":{"price":78.00,"change":-0.06},"GBP":{"price":1.3423,"change":0.26},"Gold":{"price":4116,"change":0.82},"EURGBP":{"price":0.8518,"change":-0.08},"Gilt":{"price":4.94,"change":-0.03},"VIX":{"price":16.63,"change":-1.60},"BTC":{"price":62990,"change":1.28},"UST":{"price":4.57,"change":0.00},"ts":"2026-07-09T08:30:00+01:00"}'>
+ <div class="edition-header">
+ <span class="edition-icon">&#9728;</span>
+ <h2>Morning Briefing</h2>
+ </div>
+ <div class="curated-meta">Thursday 9 July 2026 &mdash; 08:30 BST</div>
+ <div class="impact-box">
+ <h3 class="impact-heading">What It Means For You</h3>
+ <ul class="impact-list">
+ <li><strong>The Heat Peaks Today:</strong> Temperatures are forecast to reach 35C, with amber alerts across England and the NHS warning of &ldquo;sustained pressure&rdquo; &mdash; this is the most dangerous day of a heatwave that could prove the longest in fifty years. Keep checking on older relatives, watch for signs of heat exhaustion, and expect rail speed restrictions.</li>
+ <li><strong>Petrol &amp; Energy:</strong> Oil is holding near $78 a barrel as the US-Iran conflict reignites &mdash; roughly $6 above where it sat before the fighting resumed. The war premium is now embedded in the price, so the recent run of falling pump prices has firmly reversed.</li>
+ <li><strong>Disability Benefits:</strong> The minister reviewing Personal Independence Payment says it is &ldquo;not fit for purpose&rdquo; and needs fundamental change, with final recommendations due in the autumn. If you or a family member claims Pip, the shape of the benefit &mdash; which supports four million people &mdash; is now firmly in play.</li>
+ </ul>
+ </div>
+ <div class="curated-grid">
+ <div class="curated-column">
+ <h3><span class="dot geo"></span><span class="dot-label">GEO</span> Geopolitical</h3>
+ <div>
+
+ <div class="curated-item" data-time="04:00" data-slug="us-strikes-iran-second-night-ceasefire-over">
+ <h4>US Strikes Iran for a Second Night as Ceasefire Collapses</h4>
+ <p>American forces hit more than 90 Iranian military targets overnight &mdash; a second consecutive night of strikes on air defences, naval assets and missile stores &mdash; after President Trump declared last month&rsquo;s ceasefire &ldquo;over&rdquo;. Two days of bombing have killed at least 14 Iranians and wounded 78, Tehran&rsquo;s health ministry said. Aboard Air Force One, Trump was unrepentant: &ldquo;We just hit them very hard&hellip; I say we hit them 20 to 1&rdquo;, warning that every Iranian attack would be answered twentyfold.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The trigger was Iran&rsquo;s strikes on three commercial vessels in the Strait of Hormuz, and the American stated aim is to &ldquo;degrade Iran&rsquo;s ability to attack shipping&rdquo; there &mdash; but the rhetoric has run well past that. Trump has floated reimposing a naval blockade, striking Iran&rsquo;s power and water plants, and even seizing Kharg Island, the terminal that handles most of Iran&rsquo;s oil exports; the last would likely require ground troops. The mid-June memorandum that opened a sixty-day negotiating window is, on his own account, finished, though he says he does not want full-scale war. Watch the oil price, the safety of Gulf shipping lanes, and whether any channel to de-escalation survives the funeral week.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="03:30" data-slug="iran-hits-us-bases-bahrain-kuwait-qatar">
+ <h4>Iran Strikes US Bases in Bahrain, Kuwait and Qatar</h4>
+ <p>Iran launched swarms of kamikaze drones at American facilities across the Gulf overnight &mdash; a Patriot interceptor system in Kuwait, an early-warning site in Qatar and fuel tanks in Bahrain &mdash; sending air-raid sirens across the region as Kuwait said its defences had confronted the attack. Tehran told the UN Security Council the American strikes were a &ldquo;blatant violation&rdquo; of the UN Charter. Iran&rsquo;s parliament speaker was defiant on the strait at the heart of the crisis: it &ldquo;will only open with Iranian arrangements, not American threats&hellip; if you strike, you&rsquo;ll get hit&rdquo;.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">This is the regionalisation the Gulf has feared since February: the war is no longer contained to Iranian soil and Hormuz shipping but reaching the American bases that dot the peninsula, with three Gulf states now hit in a single night. Tehran&rsquo;s calculation is visible in the threat &mdash; that it can impose enough cost on US forces and allied economies to force a halt, without triggering the full American response that would follow mass casualties. It is a narrow ledge to balance on, during a week when the country is also burying its supreme leader. Watch for damage and casualty reports from the bases, the Gulf states&rsquo; posture, and whether the exchange escalates or pauses.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="06:00" data-slug="iran-buries-khamenei-mashhad-successor-unseen">
+ <h4>Iran Buries Khamenei in Mashhad as His Successor Stays Hidden</h4>
+ <p>Ayatollah Ali Khamenei is to be buried today at the Shrine of Imam Reza in Mashhad, his home city, ending a days-long procession through Tehran, Qom and the Iraqi holy cities that drew vast crowds; the governor of Mashhad said he expected millions. Khamenei, who ruled Iran from 1989, was killed aged 86 in the opening Israeli strike of the war in February. His son and presumed successor, Mojtaba Khamenei, has made no public appearance throughout the rites and is reported to have been wounded in the same attack.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The burial closes the longest state mourning in the Islamic Republic&rsquo;s history and reopens its most dangerous question at the worst possible moment: who actually leads Iran as it trades strikes with the United States. Mojtaba&rsquo;s complete absence &mdash; through his father&rsquo;s procession across two countries &mdash; has turned from oddity into the defining uncertainty, whether the cause is his injuries, a security calculation, or a succession still being fought over behind closed doors. He is to be buried alongside family members killed in the same February strike. Watch Mashhad for any sign of him today, and for who leads the burial prayers if he does not appear.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="16:00" data-slug="trump-grants-ukraine-patriot-licence-moscow-condemns">
+ <h4>Trump Grants Ukraine a Licence to Build Patriot Systems</h4>
+ <p>President Trump confirmed at the close of the NATO summit in Ankara that the United States will license Ukraine to manufacture its own Patriot air-defence systems, after meeting President Zelensky, and suggested Ukrainian strikes on Russian refineries could help end the war. The alliance pledged fresh billions for Kyiv&rsquo;s defence. Moscow condemned the licensing move. The decisions followed a week in which Russian ballistic missiles struck Kyiv without being intercepted.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">A manufacturing licence changes the dependency rather than merely the inventory: Patriots have been built only in the United States and, under licence, Japan, so letting Kyiv make its own would answer the interceptor shortage the week&rsquo;s strikes exposed &mdash; if the technology transfer is genuine and fast, both still unproven. That Trump paired it with encouragement for Ukraine to hit Russian refineries marks a sharper turn than his summit arrival suggested, and it lands as he simultaneously escalates against Iran &mdash; a president recalibrating two wars in the same forty-eight hours. Watch the licence&rsquo;s terms, how quickly production could begin, and Moscow&rsquo;s response beyond words.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="05:00" data-slug="russia-strikes-kyiv-second-day-running">
+ <h4>Russia Strikes Kyiv for a Second Day Running</h4>
+ <p>Russian drone and missile attacks across Ukraine killed at least four people, including two in Kyiv, the second consecutive day the capital was struck &mdash; the barrages landing as NATO leaders gathered in Ankara and Washington moved to arm Ukraine&rsquo;s air defences. The timing, on the summit&rsquo;s doorstep, fits a pattern of Russian strikes calibrated to the diplomatic calendar.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The strikes are the counterpoint to the Patriot announcement: Moscow demonstrating the very ballistic-missile threat that the interceptors are meant to blunt, at the moment the alliance commits to countering it. Ukraine&rsquo;s answer this week has been asymmetric &mdash; long-range drones on Russian refineries and shadow-fleet tankers, the campaign Trump has now openly encouraged &mdash; a war in which each side escalates precisely because a settlement may be near. The civilian toll in Kyiv is the pressure Zelensky carried into his meeting with Trump. Watch whether the promised air-defence support translates into interceptors on the ground before the next barrage.</div>
+ </details>
+ </div>
+
+ </div>
+ </div>
+ <div class="curated-column">
+ <h3><span class="dot dom"></span><span class="dot-label">UK</span> UK Domestic Politics</h3>
+ <div>
+
+ <div class="curated-item" data-time="00:30" data-slug="burnham-course-coronation-nominations-open">
+ <h4>Burnham on Course for Coronation as Nominations Open</h4>
+ <p>Nominations to succeed Sir Keir Starmer as Labour leader &mdash; and therefore as Prime Minister &mdash; open today, with Andy Burnham the only declared candidate and his last potential rival, Al Carns, ruling himself out overnight. Candidates need the backing of 81 MPs to force a contest. Carns said a challenge was &ldquo;not the best use of Labour&rsquo;s time&rdquo; and that the party needed to &ldquo;get on board&rdquo; with Burnham, who has promised MPs he will not use party discipline to &ldquo;stifle debate&rdquo;.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">A coronation avoids the bloodletting of a contest but denies the incoming Prime Minister the mandate one confers &mdash; Burnham enters Downing Street chosen by his party&rsquo;s machinery rather than tested against a rival, at a moment when the in-tray could hardly be heavier: a reignited war in the Gulf, public finances the watchdog calls unsustainable, and a welfare system his own minister now calls unfit. His pledge not to stifle debate is aimed squarely at the memory of the Starmer operation his allies criticised. Watch whether anyone reaches 81 nominations to force a vote &mdash; unlikely &mdash; and the timing of the handover, expected within days.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="23:30" data-slug="police-investigate-jenrick-leadership-donation">
+ <h4>Police Investigate &pound;37,500 Donation to Jenrick&rsquo;s Leadership Bid</h4>
+ <p>The Metropolitan Police has opened an investigation into a donation of nearly &pound;40,000 to Robert Jenrick&rsquo;s 2024 Conservative leadership campaign, after the Electoral Commission referred allegations the money came from a foreign source &mdash; which electoral law prohibits. Jenrick, who has since defected to Reform UK, called the allegations &ldquo;entirely false&rdquo;. The inquiry opens a second front of financial scrutiny around Reform, alongside the standards affair that prompted Nigel Farage&rsquo;s resignation.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">Two of Reform&rsquo;s most prominent figures now face live investigations into their funding within a fortnight of each other &mdash; Farage over undeclared benefits and a &pound;5m gift flagged to the crime agency, Jenrick over a foreign-source allegation the police are now examining. For a party whose pitch rests on being cleaner than the establishment it attacks, the timing is corrosive, and it lands just as it prepares to fight a by-election framed around exactly that claim. The foreign-donation question also feeds the government&rsquo;s new curbs on overseas political money. Watch whether the probes dent Reform&rsquo;s polling, and the Electoral Commission&rsquo;s next steps.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="23:10" data-slug="pip-disability-benefit-not-fit-for-purpose">
+ <h4>Disability Benefit &ldquo;Not Fit for Purpose&rdquo;, Review Warns</h4>
+ <p>The government&rsquo;s interim review of Personal Independence Payment &mdash; the first comprehensive look at the benefit since it was introduced in 2013, co-chaired by the disability minister Sir Stephen Timms &mdash; concludes it is &ldquo;not fit for purpose&rdquo; and needs bold reform, describing its assessment as dehumanising. Pip supports around four million people in England and Wales with the extra costs of disability, and its cost is forecast to exceed &pound;41bn by 2030; the review drew on nearly 40,000 responses. Timms said &ldquo;fiscal sustainability&hellip; is going to be a concern&rdquo; but insisted he was &ldquo;not expecting&rdquo; the final report to contain &ldquo;crude proposals&rdquo;.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The review reopens the most dangerous domestic fault line of the outgoing government &mdash; last year&rsquo;s attempt at &pound;5bn of welfare cuts collapsed under a backbench revolt &mdash; and hands it, unresolved, to Andy Burnham, who has promised no &ldquo;crude cuts to benefit levels&rdquo;. The tension is structural: a bill rising towards &pound;41bn against a fiscal watchdog warning of an unsustainable path, set against the reality that Pip is what keeps many disabled people out of poverty. The final recommendations land in the autumn, on the new Prime Minister&rsquo;s desk. Watch whether Burnham commits to seeing the review through, and how it squares fiscal restraint with his anti-austerity pitch.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="07:00" data-slug="heatwave-peaks-35c-nhs-sustained-pressure">
+ <h4>Heatwave Peaks Near 35C as NHS Warns of Sustained Pressure</h4>
+ <p>Temperatures are forecast to reach 35C today as the summer&rsquo;s third heatwave peaks, with amber heat-health alerts across England and the NHS warning of &ldquo;sustained pressure&rdquo; on services. Forecasters say a run of ten consecutive days above 30C could make this the longest heatwave in around fifty years. The health agency warns of a rise in deaths, particularly among the over-65s, with the risk concentrated through today and into the weekend.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">Today is the sharp end of a spell whose danger has always been its length rather than any single reading: a fortnight of heat without cool nights accumulates strain on bodies, power grids, water supplies and railways alike, which is why the amber alert now spans the whole of England. Heat deaths lag the peak by two to three days, putting the coming weekend in focus even as the mercury tops out today. Water stress is compounding, with hosepipe bans live and river levels falling. Watch for any escalation to a red alert, transport disruption as tracks heat, and the admissions data that will measure the true cost once the spell breaks.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="14:00" data-slug="imf-upgrades-uk-growth-forecast-one-percent">
+ <h4>IMF Upgrades UK Growth Forecast as War Fears Ease</h4>
+ <p>The International Monetary Fund raised its forecast for UK growth to 1% this year &mdash; up 0.2 points from April, and the only upgrade among the G7 &mdash; making Britain the bloc&rsquo;s third fastest-growing economy behind the United States and Canada, as fears over the economic damage from the Iran war diminished. The upgrade offers a rare piece of good economic news, landing the day after the fiscal watchdog warned that the public finances were on an &ldquo;unsustainable path&rdquo; without tax rises or spending cuts.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The two verdicts are not in conflict so much as different timeframes: the Fund&rsquo;s upgrade is about the next few quarters, in which a receding war premium and resilient consumer help growth edge higher, while the watchdog&rsquo;s warning is about the next few decades, in which debt climbs without correction. Third-in-the-G7 is a low bar cleared &mdash; 1% is modest by any historical standard &mdash; but it eases the immediate pressure on an incoming government facing hard fiscal choices. The renewed Gulf conflict is the obvious risk to even this cautious optimism, through oil. Watch whether the reignited war forces the Fund to revisit the figure, and how Burnham&rsquo;s team frames the inheritance.</div>
+ </details>
+ </div>
+
+ </div>
+ </div>
+ </div>
+
+ <div class="one-to-read">
+ <span class="otr-label">One To Read</span>
+ <a href="https://www.washingtonpost.com/world/2026/07/08/trump-declares-ceasefire-with-iran-has-ended/" target="_blank" rel="noopener noreferrer">
+ <h4>How the Iran Ceasefire Fell Apart in a Week</h4>
+ <span class="otr-source">The Washington Post</span>
+ <span class="otr-dot">&middot;</span>
+ <span class="otr-desc">The account of how a mid-June truce that opened a sixty-day window for negotiations unravelled into two nights of American strikes and Iranian reprisals against Gulf bases &mdash; and why Trump declared it over even as he insisted he does not want a wider war.</span>
+ </a>
+ </div>
+ <!-- SOURCES USED
+ - https://www.aljazeera.com/news/2026/7/8/us-says-conducting-new-wave-of-strikes-on-iran-as-ceasefire-falters-2 &mdash; Al Jazeera: second-night strikes, targets, casualties, Kharg threat
+ - https://www.washingtonpost.com/world/2026/07/08/trump-declares-ceasefire-with-iran-has-ended/ &mdash; Washington Post: ceasefire declared over, Trump quotes (also One To Read)
+ - https://www.npr.org/2026/07/08/nx-s1-5883929/trump-nato-iran-strikes-press-conference &mdash; NPR: Trump press conference, "20 to 1"
+ - https://apnews.com/hub/iran &mdash; AP: two-day casualty toll (14 killed, 78 wounded)
+ - https://www.aljazeera.com/news/2026/7/8/trump-says-us-may-take-over-kharg-island-heres-what-you-need-to-know &mdash; Al Jazeera: Kharg Island threat, Baghaei quote
+ - https://www.afp.com &mdash; AFP: Iran retaliation on Gulf bases, Kuwait/Bahrain, Qatar alerts
+ - https://www.npr.org/2026/07/08/g-s1-132460/us-iran-attacks &mdash; NPR: Iran drone strikes on Kuwait/Qatar/Bahrain, UN Security Council letter
+ - https://www.timesofisrael.com/liveblog_entry/iran-says-it-targeted-sites-in-kuwait-qatar-bahrain-in-response-to-us-strikes/ &mdash; Times of Israel: specific targets (Patriot interceptor, early-warning system, fuel tanks)
+ - https://www.malaymail.com &mdash; AFP (Mashhad dateline): Khamenei burial, governor's turnout expectation, Mojtaba absence
+ - https://www.nytimes.com/live/2026/07/08/world/nato-summit-turkey-trump-ukraine &mdash; New York Times: Patriot licence, Zelensky meeting, refinery-strike remark
+ - https://www.washingtonpost.com/politics/2026/07/08/shift-trump-praises-zelensky-will-let-ukraine-build-patriot-missiles/ &mdash; Washington Post: Patriot manufacturing licence
+ - https://apnews.com/hub/russia-ukraine &mdash; AP: Kyiv second-day strike, casualties
+ - https://www.bbc.co.uk/news/articles/crm0r94mv7jo &mdash; BBC News: Labour nominations, Carns rules out
+ - https://www.theguardian.com/politics/2026/jul/08/andy-burnham-labour-mps-party-discipline-stifle-debate &mdash; The Guardian: Burnham "stifle debate" pledge
+ - https://www.independent.co.uk/news/uk/home-news/andy-burnham-mps-keir-starmer-labour-greater-manchester-b3011564.html &mdash; The Independent: leadership process
+ - https://www.ft.com/content/1527f27d-9d27-424a-b1f4-a0eb4717e28f &mdash; Financial Times: Jenrick donation investigation
+ - https://www.telegraph.co.uk/politics/2026/07/09/police-37k-donation-jenrick-tory-leadership-campaign/ &mdash; The Telegraph: Met investigation
+ - https://www.theguardian.com/politics/2026/jul/08/police-investigate-37500-donation-to-jenrick-leadership-campaign &mdash; The Guardian: donation probe, foreign-source referral
+ - https://www.bbc.co.uk/news/articles/cgev4jq4jngo &mdash; BBC News: Jenrick "entirely false"
+ - https://www.itv.com/news/2026-07-09/robert-jenricks-tory-leadership-campaign-donation-under-investigation &mdash; ITV News: investigation opened
+ - https://www.bbc.com/news/articles/czrxj5vvey0o &mdash; BBC News: Pip review "not fit for purpose", Timms quotes, £41bn forecast
+ - https://www.gov.uk/government/news/first-comprehensive-review-into-pip-finds-it-is-not-fit-for-purpose &mdash; gov.uk (official): Timms Review interim report, ~40,000 responses, first since 2013
+ - https://www.bbc.com/weather/articles/ce3e443e1yko &mdash; BBC Weather: 35C peak, longest-heatwave outlook
+ - https://www.bbc.com/news/live/cn8qnw3xl97t &mdash; BBC News: NHS "sustained pressure", amber alerts
+ - https://www.theguardian.com/business/2026/jul/08/imf-upgrades-uk-growth-forecast-as-fears-over-impact-of-iran-war-diminish &mdash; The Guardian: IMF UK growth upgrade to 1%
+ - https://www.imf.org/en/Publications/WEO &mdash; IMF (official): July World Economic Outlook update, UK +0.2pp to 1%, only G7 upgrade
+ - Market data: Yahoo Finance, CNBC, Trading Economics (cross-referenced 9 July 08:10-08:20 BST)
+ END SOURCES USED -->
+ </div><!-- ── END MORNING 09 JUL (08:30) ── -->
 
  <!-- ── EVENING 08 JUL (17:44) ── -->
 <div class="curated-edition evening" data-date="2026-07-08" data-time="17:44" data-markets='{"FTSE":{"price":10489,"change":-1.66},"SP":{"price":7461,"change":-0.58},"Brent":{"price":79.61,"change":7.36},"GBP":{"price":1.3374,"change":0.16},"Gold":{"price":4055,"change":-2.30},"EURGBP":{"price":0.8527,"change":-0.16},"Gilt":{"price":4.97,"change":0.12},"VIX":{"price":17.45,"change":8.18},"BTC":{"price":61850,"change":-2.29},"UST":{"price":4.59,"change":0.06},"ts":"2026-07-08T17:44:00+01:00"}'>
@@ -4758,305 +4920,9 @@
  END SOURCES USED -->
  </div><!-- ── END MORNING 02 JUL (08:14) ── -->
 
- <!-- ── EVENING 01 JUL (18:30) ── -->
- <div class="curated-edition evening" data-date="2026-07-01" data-time="18:30" data-markets='{"FTSE":{"price":10715,"change":0.09},"SP":{"price":5530,"change":0.09},"Brent":{"price":86.00,"change":-0.12},"GBP":{"price":1.3248,"change":0.06},"Gold":{"price":4438,"change":-0.09},"EURGBP":{"price":0.8740,"change":-0.02},"Gilt":{"price":4.85,"change":-0.20},"VIX":{"price":20.90,"change":-0.48},"BTC":{"price":82250,"change":0.18},"UST":{"price":4.30,"change":-0.23},"ts":"2026-07-01T18:30:00+01:00"}'>
- <div class="edition-header">
- <span class="edition-icon">&#9728;</span>
- <h2>Evening Briefing</h2>
- </div>
- <div class="curated-meta">Wednesday 1 July 2026 &mdash; 18:30 BST</div>
- <div class="impact-box">
- <h3 class="impact-heading">What It Means For You</h3>
- <ul class="impact-list">
- <li><strong>Politics:</strong> Starmer&rsquo;s penultimate PMQs saw Badenoch attack the &pound;5bn defence funding gap &mdash; &ldquo;the Kremlin can count; how can the PM possibly say this is enough?&rdquo; &mdash; the political weight of the defence question will now sit with Burnham within two weeks.</li>
- <li><strong>Health:</strong> The government announced 14 NHS maternity units will be the focus of a national investigation, following Baroness Amos&rsquo;s report and Dr Bill Kirkup&rsquo;s resignation &mdash; if you or a family member uses one of these units, expect a formal inquiry to be launched within weeks.</li>
- <li><strong>Iran:</strong> The Doha talks were downgraded to &ldquo;technical level&rdquo; only, with no direct US-Iran meeting &mdash; Trump called it &ldquo;very good meetings&rdquo; but Iran refused to meet US envoys, leaving the de-escalation running through mediators alone; oil held at $86.00.</li>
- </ul>
- </div>
- <div class="curated-grid">
- <div class="curated-column">
- <h3><span class="dot geo"></span><span class="dot-label">GEO</span> Geopolitical</h3>
- <div>
 
- <div class="curated-item" data-time="15:00" data-slug="iran-doha-technical-talks-wednesday-evening-no-direct-meeting-vance-core-mission-trump-very-good-meetings-cnn-cbs-aljazeera-hormuz-shipping-restart-qatari-pm-al-thani-mediator-track-only-tehran-firm-conditions">
- <h4>Doha Talks Downgraded to Technical Level as Iran Refuses to Meet US Envoys</h4>
- <p>Iran refused to meet US envoys Jared Kushner and Steve Witkoff in Doha, forcing what Trump had originally announced as direct bilateral talks to be downgraded to a &ldquo;technical level&rdquo; mediator-driven process. Qatar&rsquo;s Prime Minister Sheikh Mohammed bin Abdulrahman Al Thani met the US envoys separately and reiterated Qatar&rsquo;s commitment to mediating. Vice President JD Vance said the US had accomplished its &ldquo;core mission&rdquo; in Iran. President Trump hailed &ldquo;very good meetings&rdquo; in Qatar. Technical talks are focused on restarting Strait of Hormuz shipping and the broader Lake Lucerne peace deal implementation. Oil held steady at $86.00 with markets waiting for concrete outcomes.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The gap between what Trump announced (a bilateral meeting) and what happened (mediator-driven technical talks) is the biggest concrete indicator yet of how fragile the Iran-US peace architecture has become. Iran&rsquo;s refusal to meet the top US envoys reflects Tehran&rsquo;s domestic political constraint: after last week&rsquo;s US strikes on Iranian military sites, being seen to negotiate directly would be politically untenable for the Pezeshkian government. Vance&rsquo;s &ldquo;core mission accomplished&rdquo; framing gives the US administration a way to declare victory even if the framework remains fragile. Real progress will be measurable in the coming days by Strait of Hormuz shipping traffic and by any announcements from the Qatar-Pakistan mediator channel.</div>
- </details>
- </div>
 
- <div class="curated-item" data-time="04:00" data-slug="russia-drone-attrition-continued-kostiantynivka-wednesday-evening-summer-offensive-frontline-ukraine-independent-reuters-fpv-drone-density-tank-crew-summer-temperatures-ukrainian-frontline-slavyansky-refinery-strikes">
- <h4>Russian Frontline Attrition Continues as Kostiantynivka Push Grinds On</h4>
- <p>The pattern of Russian frontline attrition continued through Wednesday as Moscow&rsquo;s push into Kostiantynivka in eastern Donetsk grinds on. Ukrainian FPV drone density around active sectors means Russian troops in some positions can expect to survive only 20-35 minutes according to Ukrainian estimates. Ukrainian tank crews told Reuters that scorching summer temperatures are making already demanding frontline conditions dangerous. Ukraine&rsquo;s long-range strike campaign on Russian oil refineries, ammunition depots and satellite intelligence centres continues to escalate. Russian losses across the summer offensive are estimated above 50,000. The Kostiantynivka breach represents the most concentrated Russian territorial movement of the summer so far, even as advances elsewhere on the front have stalled.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The Slavyansky oil refinery hit overnight by Ukrainian long-range strikes is one of Russia&rsquo;s largest and its extended offline period will materially affect Russian fuel supplies for both military and civilian use through July. The G7 long-range capability commitment for Ukraine remains active. Zelensky signalled Wednesday that if Russian strikes continue, the scale of Ukrainian attacks on Russian territory will grow further. The interaction with the Doha Iran-US talks is limited but not zero: any Iran-Russia coordination on drone technology transfer through Belarus remains a Western-intelligence concern.</div>
- </details>
- </div>
 
- <div class="curated-item" data-time="14:00" data-slug="israel-lebanon-framework-wednesday-evening-stalemate-doha-outcome-hezbollah-rejection-continues-netanyahu-freedom-strike-technical-only-iran-doha-limited-lebanon-pressure-application-mediator-track-window">
- <h4>Israel-Lebanon Stalemate Holds as Iran Doha Downgrade Limits Pressure Options</h4>
- <p>The Israel-Lebanon framework deal signed last Friday remains in stalemate on Wednesday evening with Hezbollah continuing to reject the disarmament conditions. Israel says it retains the freedom to strike Hezbollah at will. The downgrade of the Iran-US talks to technical level in Doha has limited the coordination options for applying US pressure on Israel over the Lebanon question. Without a clear Iran reset, Washington has less leverage to demand Israeli compliance. Reuters analysts published this week that the framework risks entrenching long-term stalemate rather than ending the war. The Kushner-Witkoff channel may create some new pathways on Lebanon but the immediate window has narrowed.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The reciprocal-step design of the framework &mdash; Israeli withdrawal contingent on Hezbollah disarmament, and vice versa &mdash; creates a trap where neither side has incentive to move first. Hezbollah leadership treat the disarmament demand as existential and will not move. Israel will not withdraw without disarmament. The Trump-Netanyahu rift over the original Iran framework signing has not closed. Egyptian and Qatari mediators continue working the hostage-and-aid channel but the multi-track Middle East peace architecture remains under continuous pressure.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="16:00" data-slug="gaza-73000-wednesday-evening-multi-track-architecture-doha-window-technical-only-egyptian-qatari-mediators-continued-70-percent-directive-vance-leverage-application-difficult-netanyahu-domestic-survival-military-operations">
- <h4>Gaza Death Toll Above 73,000 as Doha Downgrade Closes Israel Pressure Window</h4>
- <p>The Palestinian death toll in Gaza remains above 73,000 according to the territory&rsquo;s Health Ministry. The narrow window created earlier this week by the Iran de-escalation for applying US pressure on Israel over Gaza has effectively closed with the Doha talks being downgraded to technical level. Egyptian and Qatari mediators continue working the hostage-and-aid channel but have produced no breakthrough. Israel&rsquo;s plan to expand control of Gaza to 70% of the territory remains in force. Without a clear Iran-US result from Doha, US leverage on Israel over Gaza remains limited going into the second half of the week.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">None of the three peace frameworks &mdash; Lake Lucerne, the Rubio Israel-Lebanon framework, or the Egyptian-Qatari hostage track &mdash; includes Gaza explicitly. The political problem is that Netanyahu&rsquo;s domestic survival depends on continued military operations in Gaza, making meaningful Israeli concession difficult. Vance&rsquo;s conditioning of Iranian asset releases on framework compliance gives the US leverage on Iran, but applying it transitively to Gaza is harder. The Egyptian-Qatari mediators continue to focus on incremental hostage releases and humanitarian corridors.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="12:00" data-slug="venezuela-earthquake-recovery-wednesday-evening-continued-rodriguez-international-aid-latin-america-cooperation-active-disaster-architecture-holds-trump-administration-non-conditioning-sustainable-through-summer">
- <h4>Venezuela Recovery Continues as International Aid Cooperation Holds</h4>
- <p>Recovery operations continue in Venezuela following the twin earthquakes that killed at least 589 people earlier this month. International humanitarian aid is flowing through multiple channels despite the country&rsquo;s post-2017 sanctions regime. Brazil, Colombia and Mexico are providing the bulk of the regional response. The cooperative international response has held without political conditions being attached, despite the Trump administration&rsquo;s historically tough Venezuela stance. Acting President Delcy Rodriguez confirmed coordination with international agencies continuing at scale. Recovery operations are expected to continue at significant scale for several weeks.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The international aid response has been more cooperative than many expected. The Maduro government&rsquo;s decision to accept multi-channel international assistance is materially significant for the broader Latin American regional cooperation framework. The disaster is the deadliest natural event in the Western Hemisphere of 2026 so far. The test through July is whether the disaster-response coordination continues without political conditions being attached &mdash; the early signs are that it will.</div>
- </details>
- </div>
-
- </div>
- </div>
- <div class="curated-column">
- <h3><span class="dot dom"></span><span class="dot-label">UK</span> UK Domestic Politics</h3>
- <div>
-
- <div class="curated-item" data-time="12:00" data-slug="pmqs-wednesday-starmer-badenoch-defence-gap-5bn-kremlin-can-count-penultimate-pmqs-beth-rigby-one-foot-out-door-sky-news-labour-transition-context-burnham-17-july-defence-inheritance">
- <h4>Starmer Grilled Over &pound;5bn Defence Gap in Penultimate PMQs</h4>
- <p>Sir Keir Starmer faced Conservative leader Kemi Badenoch across the despatch box in his penultimate Prime Minister&rsquo;s Questions today. Badenoch focused sharp fire on the defence funding gap identified by BBC analysis: &ldquo;The Kremlin can count. How can the PM possibly say this is enough?&rdquo; Starmer defended the Defence Investment Plan as the largest generation-defining commitment in decades. Sky&rsquo;s Beth Rigby said Starmer &ldquo;fired back with one foot out of the door&rdquo; &mdash; his coronation-handover to Burnham is expected on 17 July, leaving only one more PMQs. The defence question will then sit with the incoming administration.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">Badenoch&rsquo;s attack landed because the numbers back her: UK defence spending will reach 2.69% of GDP by 2030 under the DIP compared with Germany&rsquo;s 3.7% and Poland&rsquo;s 4.48%. The BBC-identified &pound;4.7bn funding gap is the specific figure Badenoch used, and Starmer had no clean answer beyond the political framing that Labour has done more than any Conservative predecessor. The Burnham incoming team is widely expected to revise the defence envelope upward within the first three months, potentially in the autumn budget. Reform UK MPs also pressed on immigration but the defence exchange was the moment of the session.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="10:00" data-slug="14-nhs-maternity-units-national-investigation-toxic-cover-up-culture-baroness-amos-recommendation-maternity-commissioner-sky-news-itv-news-meridian-oxford-university-hospitals-blackpool-victoria-jeremy-vine-39-percent-substandard-context">
- <h4>14 NHS Maternity Units to Face National Investigation Into &ldquo;Toxic&rdquo; Culture</h4>
- <p>Fourteen NHS maternity units will be the focus of a national investigation aiming to end what has been described as a &ldquo;toxic&rdquo; cover-up culture that is causing babies to die avoidably. The move follows Baroness Amos&rsquo;s inquiry findings published Tuesday and Dr Bill Kirkup&rsquo;s resignation from the review over the removal of &ldquo;normal birth drive&rdquo; criticism. Amos has also recommended the creation of a Maternity Commissioner role. 39% of maternity units have been rated as substandard. Blackpool Victoria&rsquo;s unit is one of those flagged in fresh local reports. The Kirkup resignation and the national-investigation move together represent the sharpest public accountability push on NHS maternity in years.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The 14 units targeted for national investigation will be named in the coming days by NHS England. The Amos report calls for a Maternity Commissioner role to sit outside NHS England&rsquo;s existing governance chain and report directly to the Secretary of State. The Kirkup resignation over the &ldquo;normal birth drive&rdquo; omission adds a further pressure vector: it suggests the Amos report may itself have been softened during the drafting process. The Burnham incoming team will inherit both the national investigation and the pressure to commission additional independent review work. Health Secretary Wes Streeting has said the government will act &mdash; specifics are expected before the leadership transition.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="17:30" data-slug="markets-wednesday-close-ftse-10715-gilt-yields-4-85-sterling-1-3248-doha-technical-level-oil-holding-bank-england-mpc-august-cut-probability-60-percent-defence-stocks-continued-rally-context">
- <h4>UK Markets Close Higher; Gilt Yields Ease to 4.85% and Sterling Firms</h4>
- <p>UK markets closed Wednesday with modest gains across the board. The FTSE 100 closed at 10,715, up 0.09%. UK 10-year gilt yields eased to 4.85%, extending the post-Burnham speech rally into a fourth consecutive session. Sterling firmed to $1.3248. Bank of England rate-cut pricing for the 6 August meeting has held around 60% probability on the combination of falling oil prices, Burnham fiscal-rule continuity, and easing inflation expectations. Defence stocks continued their post-DIP rally with BAE Systems, Rolls-Royce and Babcock all higher on the day. The Doha technical-talks downgrade did not materially disturb markets: oil held at $86.00 and volatility measures ticked lower.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">Bank of England rate-cut pricing has tightened materially over the past week on the combination of Burnham&rsquo;s fiscal-rule commitment and the Iran de-escalation easing oil-driven inflation pressure. The Ofgem 13% price cap rise that took effect today will feed into UK headline inflation figures but is already largely priced in by markets. The Bank of England Monetary Policy Report on 6 August is the next major UK macro variable. Sterling positioning has firmed materially since Monday as clarity has emerged on both the Burnham economic framework and the DIP defence commitment.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="07:00" data-slug="kirkup-resignation-maternity-review-normal-birth-drive-context-follow-up-amos-14-units-investigation-national-scandal-cabinet-transition-streeting-burnham-policy-response-pressure-major-political-follow-up">
- <h4>Kirkup Resignation Adds Weight to Maternity Investigation Announcement</h4>
- <p>Dr Bill Kirkup&rsquo;s resignation from the government-commissioned maternity review became a central factor in the announcement Wednesday of the 14-unit national investigation. Kirkup&rsquo;s public accusation that criticism of the &ldquo;normal birth drive&rdquo; ideology was removed from the final Amos report gave political cover for a bigger-than-expected response. Health Secretary Wes Streeting said the government will act on both the immediate scandal and the underlying culture. The interaction with the incoming Burnham health team means significant new commitments are likely before the coronation on 17 July. The Kirkup resignation, coming from someone who led the Morecambe Bay, East Kent and Nottingham inquiries, carries exceptional weight.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The &ldquo;normal birth drive&rdquo; refers to the maternity ideology that emphasised avoiding medical interventions where possible, which several inquiries have found contributed to preventable stillbirths and maternal injuries. Kirkup&rsquo;s decision to resign publicly rather than accept the softened final report was designed to force the wider political response we saw Wednesday. The 14-unit investigation is the immediate consequence. The Amos report&rsquo;s Maternity Commissioner recommendation may accelerate. The Burnham incoming health team will face pressure to commit to specific reform timelines within the first weeks of taking office.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="15:00" data-slug="ofgem-price-cap-13-percent-rise-today-cost-of-living-jolt-household-energy-bills-warm-home-discount-context-burnham-inheritance-energy-policy-review-pressure-standing-charges-rising-summer-heat-context">
- <h4>Ofgem 13% Price Cap Rise Takes Effect &mdash; Households Feel Immediate Cost Jolt</h4>
- <p>Ofgem&rsquo;s new energy price cap took effect from today, with household energy bills up 13% year-on-year for the average dual-fuel household. The rise is the largest single-quarter cost-of-living jolt of 2026 so far and immediately becomes political territory for the incoming Burnham government. Standing charges are rising alongside unit rates, meaning even low-usage households will see meaningful bill increases through the summer. The Warm Home Discount scheme has been extended but critics say the expansion is not enough given the scale of the price rise. Fixed-tariff customers are protected until their deal ends. The Burnham team is expected to review the price-cap architecture as an early policy priority.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The Ofgem price cap has become the effective benchmark for domestic UK energy pricing since 2019. The 13% rise reflects the delayed pass-through of Q1 wholesale gas price rises and the impact of higher network costs. The cost-of-living angle will be politically significant given the timing of the Burnham leadership transition &mdash; the incoming Prime Minister will inherit an immediate policy question about whether to reform the price-cap architecture, extend the Warm Home Discount further, or accelerate the switch to smart-meter time-of-use pricing. Warm Home Discount reform is one of the areas Burnham has flagged in speeches as a priority.</div>
- </details>
- </div>
-
- </div>
- </div>
- </div>
-
- <div class="one-to-read">
- <span class="otr-label">One To Read</span>
- <a href="https://news.sky.com/video/beths-breakdown-starmer-fires-back-with-one-foot-out-of-the-door-13559583" target="_blank" rel="noopener noreferrer">
- <h4>Beth&rsquo;s Breakdown: Starmer Fires Back &ldquo;With One Foot Out of the Door&rdquo;</h4>
- <span class="otr-source">Sky News</span>
- <span class="otr-dot">&middot;</span>
- <span class="otr-desc">Sir Keir Starmer and Tory leader Kemi Badenoch clashed over the government&rsquo;s defence investment plan at prime minister&rsquo;s questions in what Sky political editor Beth Rigby called Starmer&rsquo;s penultimate PMQs before the Burnham handover.</span>
- </a>
- </div>
- <!-- SOURCES USED
- - https://news.sky.com/video/beths-breakdown-starmer-fires-back-with-one-foot-out-of-the-door-13559583 &mdash; Sky News: Beth Rigby Starmer one foot out of the door PMQs
- - https://news.sky.com/video/badenoch-the-kremlin-can-count-how-can-the-pm-possibly-say-this-is-enough-13559511 &mdash; Sky News: Badenoch Kremlin can count PM defence spending PMQs clash
- - https://www.bbc.com/news/articles/cwy0rw5dx1ko &mdash; BBC News: Starmer trims budgets fund extra 15bn defence
- - https://www.bbc.com/news/articles/c9q250511neo &mdash; BBC News: Starmer defence plan next PM 4.7bn headache
- - https://www.bbc.com/news/articles/c5yzqrpw2g8o &mdash; BBC News: Ofgem energy price cap 13 percent rise households read meter
- - https://www.bbc.com/news/articles/c3eywv0np13o &mdash; BBC News: Kirkup resigns maternity review normal birth drive criticism removed
- - https://www.the-independent.com/news/world/europe/russian-soldiers-losses-ukraine-frontline-drone-attack-b3006348.html &mdash; The Independent: Russian soldiers surviving 20-35 minutes frontline drone attack
- - https://www.aljazeera.com/news/liveblog/2026/7/1/iran-war-live-qatars-pm-meets-us-envoys-tehran-holds-firm-on-conditions &mdash; Al Jazeera: Iran war live Qatar PM meets US envoys Tehran holds firm
- - https://www.cnn.com/2026/07/01/world/live-news/iran-war-trump &mdash; CNN: Qatari leaders meet senior US and Iranian officials effort
- - https://www.cbsnews.com/live-updates/us-iran-war-vance-talks-resuming-core-mission-war-achieved/ &mdash; CBS News: Trump very good meetings Qatar indirect negotiations Vance core mission
- - https://www.reuters.com/world/europe/russia-pounds-gates-ukraines-fortress-belt-2026-06-29/ &mdash; Reuters: Russia pounds gates Ukraine fortress belt
- - https://www.itv.com/news/utv/2026-06-29/resident-doctors-strike-over-pay &mdash; ITV News: NI resident doctors strike pay context
- - https://finance.yahoo.com/energy/articles/witkoff-kushner-set-hold-indirect-130100939.html &mdash; Yahoo Finance/Bloomberg: Witkoff Kushner indirect Iran talks Qatar
- - https://apnews.com/article/iran-us-war-strait-of-hormuz-june-29-2026-d1c0ec8aa84c0e5693b94f0cf0862bab &mdash; AP News: US Iran pause strikes disagree next steps
- - https://www.telegraph.co.uk/politics/2026/06/30/burnham-manchester-home-makerfield-work-no10/ &mdash; The Telegraph: Burnham Manchester one day a week PM No 10 North
- - https://www.theguardian.com/politics/2026/jun/30/the-challenges-lying-in-wait-for-burnham &mdash; The Guardian: Challenges lying in wait for Burnham
- END SOURCES USED -->
- </div><!-- ── END EVENING 01 JUL (18:30) ── -->
-
- <!-- ── MORNING 01 JUL (08:15) ── -->
- <div class="curated-edition morning" data-date="2026-07-01" data-time="08:15" data-markets='{"FTSE":{"price":10705,"change":0.11},"SP":{"price":5525,"change":0.09},"Brent":{"price":86.10,"change":-0.12},"GBP":{"price":1.3240,"change":0.06},"Gold":{"price":4442,"change":-0.07},"EURGBP":{"price":0.8742,"change":-0.03},"Gilt":{"price":4.86,"change":-0.20},"VIX":{"price":21.00,"change":-0.47},"BTC":{"price":82100,"change":0.18},"UST":{"price":4.31,"change":-0.23},"ts":"2026-07-01T08:15:00+01:00"}'>
- <div class="edition-header">
- <span class="edition-icon">&#9728;</span>
- <h2>Morning Briefing</h2>
- </div>
- <div class="curated-meta">Wednesday 1 July 2026 &mdash; 08:15 BST</div>
- <div class="impact-box">
- <h3 class="impact-heading">What It Means For You</h3>
- <ul class="impact-list">
- <li><strong>Cost of Living:</strong> Ofgem&rsquo;s new energy price cap kicks in today, with household bills rising 13% year-on-year &mdash; expect higher direct debit letters this week; the watchdog is urging everyone to read their meter today to avoid being over-billed.</li>
- <li><strong>Defence:</strong> Starmer trimmed other government budgets to fund the extra &pound;15bn for defence &mdash; other departments will see cuts, and Burnham inherits an estimated &pound;4.7bn defence funding gap on top when he takes over in mid-July.</li>
- <li><strong>Iran:</strong> US-Iran Doha talks continue today without a formal meeting confirmed &mdash; oil held steady at $86.10; if talks break down over the next 48 hours, expect petrol and airline prices to move within days.</li>
- </ul>
- </div>
- <div class="curated-grid">
- <div class="curated-column">
- <h3><span class="dot geo"></span><span class="dot-label">GEO</span> Geopolitical</h3>
- <div>
-
- <div class="curated-item" data-time="06:00" data-slug="iran-us-doha-day-two-wednesday-morning-kushner-witkoff-positive-conversations-tehran-denies-formal-meeting-aljazeera-yahoo-cnn-news18-qatar-mediation-ansari-spokesman-hormuz-non-negotiable-mediator-channel-active-oil-holding-86-10">
- <h4>Iran-US Doha Talks Continue Without Confirmed Formal Meeting</h4>
- <p>US envoys Jared Kushner and Steve Witkoff remain in Doha today for what has become a mediator-driven diplomatic effort rather than the direct US-Iran meeting Trump originally announced. A senior US source described Tuesday&rsquo;s conversations as &ldquo;very positive&rdquo;, but Iran officially rejected any formal negotiations, calling reports of direct talks speculation. Qatar&rsquo;s foreign ministry spokesman Majed Al Ansari confirmed the US envoys came to meet mediators and Qatari officials on regional issues. Iran continues to insist any deal must recognise its control of the Strait of Hormuz. Oil held steady at $86.10 as markets waited for any confirmation of substance in either direction.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">Kushner and Witkoff are the same channel that signed the original Lake Lucerne memorandum in April, so their presence in Doha carries real weight even if the format has shifted from bilateral to mediator-driven. Iran&rsquo;s position on the Strait of Hormuz remains its principal non-negotiable point: Tehran says any agreement must recognise its control of maritime traffic. Vice President JD Vance&rsquo;s line that any asset unfreezing must be conditioned on framework compliance gives Washington its main lever. Saudi Arabia, the UAE and the wider six-state regional alignment have all pressed both sides for a public confirmation. The next 24-48 hours will decide whether the de-escalation holds or breaks.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="04:00" data-slug="russia-drone-attrition-ukrainian-frontline-20-35-minutes-independent-report-troops-life-expectancy-drone-warfare-summer-offensive-kostiantynivka-fortress-belt-breach-oil-refinery-strikes-slavyansky-kyiv-post-deep-strike-campaign">
- <h4>Russian Troops Living Only 20-35 Minutes on Frontline Due to Drone Attacks</h4>
- <p>Russian troops on some parts of the Ukrainian frontline can expect to survive only 20 to 35 minutes due to rising drone attacks, according to an estimate reported by The Independent. The finding underlines how drone warfare has transformed the Russian invasion into an attritional slaughter for Moscow, even as its forces continue to press into Kostiantynivka in eastern Donetsk. Overnight, Ukraine attacked two bridges used to supply Russian forces and confirmed extensive damage to the Slavyansky oil refinery. Russian losses across the summer offensive are estimated above 50,000. The Kostiantynivka push is the most concentrated of the summer offensive so far, even as advances elsewhere on the front have stalled.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The 20-35 minute survival estimate reflects the density of Ukrainian FPV drone coverage along active sectors of the frontline, particularly around Pokrovsk and Kostiantynivka. Ukrainian tank crews interviewed by Reuters said scorching summer temperatures are making already demanding frontline conditions dangerous. Ukraine&rsquo;s long-range strike campaign on Russian oil refineries, ammunition depots and satellite intelligence centres continues to escalate. The Slavyansky refinery is one of Russia&rsquo;s largest and its extended offline period will materially affect Russian fuel supplies for military and civilian use through July.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="06:00" data-slug="israel-lebanon-framework-stalemate-wednesday-hezbollah-rejection-continues-netanyahu-freedom-to-strike-doha-iran-context-mediator-track-active-rubio-framework-test-multi-track-regional-architecture">
- <h4>Israel-Lebanon Framework Still in Stalemate as Iran Doha Outcome Awaited</h4>
- <p>The Israel-Lebanon framework deal signed last Friday remains in stalemate on Wednesday morning as Hezbollah continues to reject the disarmament conditions. Israel says it retains the freedom to strike Hezbollah at will and Prime Minister Netanyahu has defended that position repeatedly. The link with today&rsquo;s Doha talks remains direct: if Iran produces a clear reset, US pressure on Israel to honour the Lebanon framework will grow. If Doha breaks down, Lebanon deteriorates further too. Reuters analysis published this week warned the framework risks entrenching long-term stalemate rather than ending the war. The mediator-track approach in Doha may create new leverage on the Lebanon question.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The Reuters analysts&rsquo; concern is that the reciprocal-step design of the framework &mdash; Israeli withdrawal contingent on Hezbollah disarmament, and vice versa &mdash; creates a trap where neither side has incentive to move first. Hezbollah leadership treat the disarmament demand as existential and will not move. Israel will not withdraw without disarmament. The Trump-Netanyahu rift over the original Iran framework signing has not closed. The Kushner-Witkoff Doha channel may create new coordination pathways on Lebanon as a side-effect of the Iran mediation.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="14:00" data-slug="gaza-73000-wednesday-morning-doha-window-narrow-mediators-egyptian-qatari-continued-70-percent-directive-netanyahu-domestic-survival-military-operations-continued-vance-leverage-doha-application">
- <h4>Gaza Death Toll Above 73,000 as Doha Window Narrows for Israel Pressure</h4>
- <p>The Palestinian death toll in Gaza remains above 73,000 according to the territory&rsquo;s Health Ministry. The narrow window created by the Iran de-escalation earlier this week &mdash; an opportunity for Washington to apply renewed pressure on Israel over Gaza &mdash; is closing without progress. Egyptian and Qatari mediators continue working the hostage-and-aid channel but have produced no breakthrough. Israel&rsquo;s plan to expand control of Gaza to 70% of the territory remains in force. Without a clear Doha result today, US leverage on Israel over Gaza is limited going into the weekend. The Kushner-Witkoff channel remains the principal opportunity.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The interaction between the Iran, Lebanon and Gaza tracks is what defines the current Middle East picture. None of the three peace frameworks &mdash; Lake Lucerne, the Rubio Israel-Lebanon framework, or the Egyptian-Qatari hostage track &mdash; includes Gaza explicitly. The political problem is that Netanyahu&rsquo;s domestic survival depends on continued military operations in Gaza, making meaningful Israeli concession difficult. Vance&rsquo;s conditioning of Iranian asset releases on framework compliance gives the US clear leverage on Iran, but applying it transitively to Gaza is harder.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="22:00" data-slug="venezuela-earthquake-recovery-wednesday-continues-rodriguez-international-aid-latin-america-regional-cooperation-active-disaster-architecture-continued-trump-administration-non-conditioning-holds">
- <h4>Venezuela Recovery Operations Continue as International Aid Holds</h4>
- <p>Recovery operations continue in Venezuela following the twin earthquakes that killed at least 589 people earlier this month. International humanitarian aid is now flowing through multiple channels despite the country&rsquo;s post-2017 sanctions regime. Brazil, Colombia and Mexico are providing the bulk of the regional response. The cooperative international response has held without political conditions being attached, despite the Trump administration&rsquo;s historically tough Venezuela stance. The disaster is the deadliest natural event in the Western Hemisphere of 2026 so far. Acting President Delcy Rodriguez confirmed coordination with international agencies is continuing without political conditions being attached.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The international aid response has been more cooperative than many expected given the Trump administration position. The Maduro government&rsquo;s decision to accept multi-channel international assistance is materially significant for the broader Latin American regional cooperation framework. Recovery operations are expected to continue at significant scale for several weeks. The test through July is whether the disaster-response coordination continues without political conditions being attached &mdash; the early signs are that it will.</div>
- </details>
- </div>
-
- </div>
- </div>
- <div class="curated-column">
- <h3><span class="dot dom"></span><span class="dot-label">UK</span> UK Domestic Politics</h3>
- <div>
-
- <div class="curated-item" data-time="06:00" data-slug="ofgem-price-cap-13-percent-rise-wednesday-july-1-2026-household-energy-bills-meter-read-cost-of-living-crisis-continued-bbc-direct-debit-adjustment-week-context-burnham-inheritance-energy-policy-review-pressure">
- <h4>Ofgem Energy Price Cap Rises 13% From Today &mdash; Households Urged to Read Meters</h4>
- <p>Ofgem&rsquo;s new energy price cap takes effect from today, with household energy bills up 13% year-on-year for the average dual-fuel household. The regulator is urging every UK household to read their meters today to avoid being over-billed when suppliers apply the new tariffs. The rise is the largest single-quarter cost-of-living jolt of 2026 so far and will feed directly into political pressure on the incoming Burnham government to review UK energy policy. Fixed-tariff customers are protected until their deal ends. Standing charges are also rising, meaning even low-users will see meaningful bill increases through the summer.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The Ofgem price cap has become the effective benchmark for domestic UK energy pricing since 2019. The 13% rise reflects the delayed pass-through of Q1 wholesale gas price rises and the impact of higher network costs. The cost-of-living angle will be politically significant given the timing of the Burnham leadership transition &mdash; the incoming Prime Minister will inherit an immediate policy question about whether to reform the price-cap architecture, extend the Warm Home Discount, or accelerate the switch to smart-meter time-of-use pricing. The Warm Home Discount reform is one of the areas Burnham has flagged in speeches as a priority.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="22:00" data-slug="starmer-trims-budgets-fund-15bn-defence-bbc-analysis-burnham-inheritance-4-7bn-headache-jarvis-defence-secretary-frank-gardner-analysis-drone-focus-savings-areas-domestic-departments-cut">
- <h4>Starmer Trims Domestic Budgets to Fund Extra &pound;15bn for Defence</h4>
- <p>Details of how Sir Keir Starmer&rsquo;s &pound;15bn Defence Investment Plan will be funded emerged overnight: other government budgets have been trimmed to reallocate spending to defence. BBC analysis by security correspondent Frank Gardner shows the plan focuses heavily on drones and unmanned systems but leaves the incoming Burnham government with an estimated &pound;4.7bn defence funding gap on top of the announced envelope. Domestic departments including transport, culture and business face reduced budgets to fund the reallocation. Burnham&rsquo;s incoming team is expected to revisit both the size of the defence envelope and the pattern of domestic budget cuts within the first three months.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">Frank Gardner&rsquo;s BBC analysis highlights that the plan covers procurement of jets, warships and drones over a ten-year horizon but assumes revenues from areas the incoming Labour team may not want to preserve. The Red Arrows will get new jets to replace the ageing Hawk under a &ldquo;British Jet Trainer System&rdquo; announcement. The &pound;4.7bn funding gap identified by BBC analysis represents the shortfall against what the Ministry of Defence originally requested (&pound;28bn) versus what was actually allocated. The Burnham team will face pressure to close the gap through the Autumn Budget process, potentially requiring either tax rises or further borrowing.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="07:00" data-slug="kirkup-resigns-maternity-review-normal-birth-drive-criticism-removed-scandal-wednesday-morning-bbc-independent-inquiry-report-manipulation-allegation-major-political-significance-baroness-amos-context-streeting-burnham-policy-implications">
- <h4>Expert Resigns From NHS Maternity Review Over Removed &ldquo;Normal Birth Drive&rdquo; Criticism</h4>
- <p>Dr Bill Kirkup has resigned from a government-commissioned review into NHS maternity services, saying criticism of the &ldquo;normal birth drive&rdquo; ideology was removed from the final report against his objections. Kirkup, who led inquiries into the Morecambe Bay, East Kent and Nottingham maternity scandals, told the BBC he could not stand behind a report that omitted what he sees as a central cause of many maternity failings. The revelation follows Tuesday&rsquo;s publication of the Baroness Amos-led inquiry into NHS maternity services. The scandal significantly amplifies the political pressure on Health Secretary Wes Streeting and on the incoming Burnham administration to deliver credible maternity-service reform.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The &ldquo;normal birth drive&rdquo; refers to the maternity ideology that emphasised avoiding medical interventions where possible, which several inquiries have found contributed to preventable stillbirths and maternal injuries at trusts including Morecambe Bay and Shrewsbury. Kirkup&rsquo;s resignation implies the final Amos report will be seen as insufficiently critical of that ideology and will trigger fresh calls for a further independent review. The interaction with the maternity-policy politics ahead of the Burnham transition means the incoming health team will face immediate pressure to commission additional review work.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="07:00" data-slug="burnham-scotland-trip-swinney-devolution-message-independent-tuesday-first-major-scottish-visit-labour-leadership-frontrunner-decentralisation-focus-manchester-model-scottish-application-context-broken-politics-message">
- <h4>Burnham in Scotland Tells Swinney He Offers &ldquo;Change&rdquo; From Westminster Politics</h4>
- <p>Andy Burnham travelled to Scotland yesterday for his first major cross-border trip since launching his leadership bid, telling First Minister John Swinney he offers &ldquo;change&rdquo; from Westminster politics. Speaking to Scottish audiences, Burnham said he would &ldquo;do things differently&rdquo; and emphasised his decentralisation-focused agenda. The Scotland trip is significant because Labour needs to arrest a slide against the SNP that has widened over the past year. Burnham is expected in Manchester today for a follow-up event on his &ldquo;No 10 North&rdquo; devolution announcement. The Labour leadership coronation timeline of 17 July remains operative.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The Burnham approach to Scotland differs from Starmer&rsquo;s: where Starmer treated Scotland as a management challenge, Burnham has framed it as a laboratory for the same devolution-first political framework he wants to apply across the UK. The Scottish audience is receptive to the &ldquo;power away from London&rdquo; message but wary of any perception that a Manchester-led premiership repeats London-centrism in a different form. Burnham&rsquo;s pledge to work in Manchester one day a week as PM, reported by the Telegraph, is designed to counter that concern.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="06:00" data-slug="markets-wednesday-open-ftse-10705-gilt-yields-4-86-bank-england-mpc-august-cut-probability-60-percent-brent-86-10-sterling-1-3240-defence-stocks-continued-rally-context-doha-outcome-key-variable-through-week">
- <h4>Markets Open Cautiously Higher; Gilt Yields Ease to 4.86% Extending Rally</h4>
- <p>UK and European markets opened cautiously higher Wednesday. The FTSE 100 opened at 10,705, up 0.11%. UK 10-year gilt yields eased to 4.86%, extending Tuesday&rsquo;s post-DIP rally. Sterling firmed to $1.3240. Bank of England rate-cut pricing for the 6 August meeting has now firmed to around 60% probability on the combination of falling oil prices, Burnham fiscal-rule continuity, and easing inflation expectations. Brent held at $86.10 awaiting the Doha outcome. Defence stocks continued to draw buying interest after Tuesday&rsquo;s DIP-driven rally. The biggest near-term market mover today remains what Doha produces.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The Bank of England rate-cut pricing has tightened materially over the past week on the combination of Burnham&rsquo;s fiscal-rule commitment and the Iran de-escalation easing oil-driven inflation pressure. The Ofgem price cap rise of 13% will feed into UK headline inflation figures but is already largely priced in by markets. The Bank of England Monetary Policy Report on 6 August is the next major UK macro variable. Sterling positioning still leans defensive into the Labour leadership transition but is firming as clarity emerges on the Burnham economic framework.</div>
- </details>
- </div>
-
- </div>
- </div>
- </div>
-
- <div class="one-to-read">
- <span class="otr-label">One To Read</span>
- <a href="https://www.bbc.com/news/articles/c9q250511neo" target="_blank" rel="noopener noreferrer">
- <h4>Why Starmer&rsquo;s Defence Plan Leaves Next PM With &pound;4.7bn Headache</h4>
- <span class="otr-source">BBC News</span>
- <span class="otr-dot">&middot;</span>
- <span class="otr-desc">Keir Starmer announces extra defence spending, but the subject will still be one of the trickiest issues in his successor&rsquo;s in-tray with an estimated &pound;4.7bn funding gap identified by BBC analysis.</span>
- </a>
- </div>
- <!-- SOURCES USED
- - https://www.bbc.com/news/articles/cwy0rw5dx1ko &mdash; BBC News: Starmer trims budgets to fund extra 15bn for defence
- - https://www.bbc.com/news/articles/c9q250511neo &mdash; BBC News: Starmer defence plan next PM 4.7bn headache
- - https://www.bbc.com/news/articles/c5yzqrpw2g8o &mdash; BBC News: Ofgem energy price cap 13 percent rise households read meter
- - https://www.bbc.com/news/articles/c3eywv0np13o &mdash; BBC News: Kirkup resigns maternity review normal birth drive criticism removed
- - https://www.bbc.com/news/articles/cn0vzjn54eeo &mdash; BBC News: Frank Gardner defence spending plan key points analysis
- - https://www.bbc.com/news/articles/cn94e1l8wp2o &mdash; BBC News: Red Arrows new jets British Jet Trainer System
- - https://www.the-independent.com/news/uk/home-news/andy-burnham-manchester-john-swinney-keir-starmer-westminster-b3005601.html &mdash; The Independent: Burnham Scotland Swinney change Westminster
- - https://www.telegraph.co.uk/politics/2026/06/30/burnham-manchester-home-makerfield-work-no10/ &mdash; The Telegraph: Burnham Manchester one day a week PM No 10 North
- - https://www.the-independent.com/news/world/europe/russian-soldiers-losses-ukraine-frontline-drone-attack-b3006348.html &mdash; The Independent: Russian soldiers surviving 20-35 minutes frontline drone attack
- - https://www.kyivpost.com/post/79303 &mdash; Kyiv Post: Ukraine attacks bridges Slavyansky refinery deep strike campaign
- - https://www.aljazeera.com/news/2026/6/29/trump-announces-meeting-with-iran-in-qatar-despite-military-skirmishes &mdash; Al Jazeera: Trump Iran meeting Qatar military skirmishes despite
- - https://finance.yahoo.com/energy/articles/witkoff-kushner-set-hold-indirect-130100939.html &mdash; Yahoo Finance/Bloomberg: Witkoff Kushner indirect Iran talks Qatar
- - https://news.sky.com/story/politics-latest-burnham-starmer-labour-tories-badenoch-farage-12593360 &mdash; Sky News: Politics latest defence investment plan Burnham
- - https://www.reuters.com/world/europe/russia-pounds-gates-ukraines-fortress-belt-2026-06-29/ &mdash; Reuters: Russia pounds gates Ukraine fortress belt
- - https://www.theguardian.com/politics/2026/jun/30/the-challenges-lying-in-wait-for-burnham &mdash; The Guardian: Challenges lying in wait for Burnham
- - https://apnews.com/article/iran-us-war-strait-of-hormuz-june-29-2026-d1c0ec8aa84c0e5693b94f0cf0862bab &mdash; AP News: US Iran pause strikes disagree next steps
- - https://www.itv.com/news/utv/2026-06-29/resident-doctors-strike-over-pay &mdash; ITV/UTV News: NI resident doctors strike pay context
- - https://www.nbcnews.com/world/iran/us-iran-new-talks-trump-hormuz-attacks-peace-deal-doha-qatar-rcna352182 &mdash; NBC News: US Iran new talks Doha Qatar Hormuz attacks
- END SOURCES USED -->
- </div><!-- ── END MORNING 01 JUL (08:15) ── -->
 
 
 

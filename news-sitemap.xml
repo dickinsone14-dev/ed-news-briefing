@@ -2,6 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-09-morning/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-09T08:30:00+01:00</news:publication_date>
+      <news:title>Morning Briefing — Thursday 9 July 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-09-morning/us-strikes-iran-second-night-ceasefire-over/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-09T08:30:00+01:00</news:publication_date>
+      <news:title>US Strikes Iran for a Second Night as Ceasefire Collapses</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-09-morning/iran-hits-us-bases-bahrain-kuwait-qatar/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-09T08:30:00+01:00</news:publication_date>
+      <news:title>Iran Strikes US Bases in Bahrain, Kuwait and Qatar</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-09-morning/iran-buries-khamenei-mashhad-successor-unseen/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-09T08:30:00+01:00</news:publication_date>
+      <news:title>Iran Buries Khamenei in Mashhad as His Successor Stays Hidden</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-09-morning/trump-grants-ukraine-patriot-licence-moscow-condemns/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-09T08:30:00+01:00</news:publication_date>
+      <news:title>Trump Grants Ukraine a Licence to Build Patriot Systems</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-09-morning/russia-strikes-kyiv-second-day-running/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-09T08:30:00+01:00</news:publication_date>
+      <news:title>Russia Strikes Kyiv for a Second Day Running</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-09-morning/burnham-course-coronation-nominations-open/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-09T08:30:00+01:00</news:publication_date>
+      <news:title>Burnham on Course for Coronation as Nominations Open</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-09-morning/police-investigate-jenrick-leadership-donation/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-09T08:30:00+01:00</news:publication_date>
+      <news:title>Police Investigate £37,500 Donation to Jenrick’s Leadership Bid</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-09-morning/pip-disability-benefit-not-fit-for-purpose/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-09T08:30:00+01:00</news:publication_date>
+      <news:title>Disability Benefit “Not Fit for Purpose”, Review Warns</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-09-morning/heatwave-peaks-35c-nhs-sustained-pressure/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-09T08:30:00+01:00</news:publication_date>
+      <news:title>Heatwave Peaks Near 35C as NHS Warns of Sustained Pressure</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-09-morning/imf-upgrades-uk-growth-forecast-one-percent/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-09T08:30:00+01:00</news:publication_date>
+      <news:title>IMF Upgrades UK Growth Forecast as War Fears Ease</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-07-08-evening/</loc>
     <news:news>
       <news:publication>
@@ -483,127 +604,6 @@
       </news:publication>
       <news:publication_date>2026-07-07T12:02:00+01:00</news:publication_date>
       <news:title>GP Tests to Cut Endometriosis Diagnosis to 45 Minutes</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-06-evening/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-06T18:52:00+01:00</news:publication_date>
-      <news:title>Evening Briefing — Monday 6 July 2026</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-06-evening/hamas-dissolves-gaza-government-two-decades/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-06T18:52:00+01:00</news:publication_date>
-      <news:title>Hamas Dissolves Its Gaza Government After Two Decades</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-06-evening/kyiv-toll-fifteen-zelensky-air-defence/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-06T18:52:00+01:00</news:publication_date>
-      <news:title>Kyiv Toll Reaches Fifteen as Zelensky Demands Air Defences</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-06-evening/nato-leaders-ankara-fraught-summit/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-06T18:52:00+01:00</news:publication_date>
-      <news:title>NATO Leaders Fly Into Ankara for Most Fraught Summit in Years</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-06-evening/erdogan-crackdown-eve-ankara-summit/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-06T18:52:00+01:00</news:publication_date>
-      <news:title>Erdogan Intensifies Crackdown as Summit Guests Arrive</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-06-evening/le-pen-verdict-tomorrow-election-ban/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-06T18:52:00+01:00</news:publication_date>
-      <news:title>France Holds Its Breath for Le Pen Verdict Tomorrow</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-06-evening/amber-heat-alerts-six-regions-wednesday/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-06T18:52:00+01:00</news:publication_date>
-      <news:title>Heat Alerts Raised to Amber for Six Regions From Wednesday</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-06-evening/donation-curbs-farage-second-inquiry/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-06T18:52:00+01:00</news:publication_date>
-      <news:title>Donation Curbs Unveiled as Farage Faces Second Inquiry Call</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-06-evening/easyjet-backs-castlelake-takeover/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-06T18:52:00+01:00</news:publication_date>
-      <news:title>easyJet Backs £5.5bn Takeover by US Investment Firm</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-06-evening/healey-treasury-defence-drain-not-driver/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-06T18:52:00+01:00</news:publication_date>
-      <news:title>Healey Says Treasury Treats Defence as Drain, Not Driver</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-06-evening/burnham-camp-split-cost-living/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-06T18:52:00+01:00</news:publication_date>
-      <news:title>Burnham Camp Split Over Cost of Living Before Handover</news:title>
     </news:news>
   </url>
 </urlset>
