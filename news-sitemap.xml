@@ -2,6 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-09-evening/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-09T17:31:00+01:00</news:publication_date>
+      <news:title>Evening Briefing — Thursday 9 July 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-09-evening/us-iran-trade-strikes-second-night-170-targets/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-09T17:31:00+01:00</news:publication_date>
+      <news:title>US and Iran Trade Strikes for a Second Night</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-09-evening/oil-falls-despite-strikes-iran-hormuz-grip/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-09T17:31:00+01:00</news:publication_date>
+      <news:title>Oil Falls Despite the Strikes as Iran Keeps Grip on Hormuz</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-09-evening/iran-buries-khamenei-successor-barred-funeral/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-09T17:31:00+01:00</news:publication_date>
+      <news:title>Iran Buries Khamenei as His Successor Is Barred From the Funeral</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-09-evening/imf-cuts-global-growth-middle-east-war/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-09T17:31:00+01:00</news:publication_date>
+      <news:title>IMF Cuts Global Growth Forecast as the War Bites</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-09-evening/trump-confirms-ukraine-patriot-licence-summit-close/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-09T17:31:00+01:00</news:publication_date>
+      <news:title>Trump Confirms Ukraine Can Build Patriots as Summit Closes</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-09-evening/burnham-course-no-10-nominations-open/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-09T17:31:00+01:00</news:publication_date>
+      <news:title>Burnham on Course for No 10 as Nominations Open</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-09-evening/pip-review-not-fit-purpose-charities-react/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-09T17:31:00+01:00</news:publication_date>
+      <news:title>Disability Benefit “Not Working”, Review Finds as Charities Respond</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-09-evening/astrazeneca-19bn-heart-drug-trial-fails/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-09T17:31:00+01:00</news:publication_date>
+      <news:title>AstraZeneca Sheds £19bn as Heart-Drug Trial Fails</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-09-evening/heatwave-peaks-35c-rail-water-nhs/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-09T17:31:00+01:00</news:publication_date>
+      <news:title>Heatwave Peaks Near 35C as Rail and Water Feel the Strain</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-09-evening/jenrick-donation-donor-chain-revealed/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-09T17:31:00+01:00</news:publication_date>
+      <news:title>Foreign-Source Claim Detailed in Jenrick Donation Probe</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-07-09-morning/</loc>
     <news:news>
       <news:publication>
@@ -483,127 +604,6 @@
       </news:publication>
       <news:publication_date>2026-07-07T18:10:00+01:00</news:publication_date>
       <news:title>Amber Heat Alerts Activate at 9am as 35C Approaches</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-07-morning/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-07T12:02:00+01:00</news:publication_date>
-      <news:title>Morning Briefing — Tuesday 7 July 2026</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-07-morning/damascus-bombs-rock-macron-syria-visit/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-07T12:02:00+01:00</news:publication_date>
-      <news:title>Damascus Bombs Rock Macron’s Landmark Syria Visit</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-07-morning/tanker-ablaze-projectile-strait-hormuz/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-07T12:02:00+01:00</news:publication_date>
-      <news:title>Tanker Set Ablaze by Projectile in Strait of Hormuz</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-07-morning/nato-summit-opens-ankara-trump-lands/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-07T12:02:00+01:00</news:publication_date>
-      <news:title>NATO Summit Opens in Ankara as Trump Flies In</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-07-morning/ukraine-strikes-omsk-deepest-refinery/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-07T12:02:00+01:00</news:publication_date>
-      <news:title>Ukraine Strikes Siberian Refinery in Deepest Attack of War</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-07-morning/khamenei-cortege-qom-heir-invisible/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-07T12:02:00+01:00</news:publication_date>
-      <news:title>Khamenei’s Cortege Reaches Qom as His Heir Stays Invisible</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-07-morning/labour-refers-farage-elections-watchdog/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-07T12:02:00+01:00</news:publication_date>
-      <news:title>Labour Refers Farage to Elections Watchdog Over Gifts</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-07-morning/starmer-final-nato-summit-caretaker/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-07T12:02:00+01:00</news:publication_date>
-      <news:title>Starmer Attends Final NATO Summit as Caretaker PM</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-07-morning/third-heatwave-declared-35c-peak/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-07T12:02:00+01:00</news:publication_date>
-      <news:title>Third Heatwave Declared With 35C Peak Forecast</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-07-morning/house-prices-first-rise-four-months/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-07T12:02:00+01:00</news:publication_date>
-      <news:title>House Prices Rise for First Time in Four Months</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-07-morning/gp-tests-slash-endometriosis-diagnosis/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-07T12:02:00+01:00</news:publication_date>
-      <news:title>GP Tests to Cut Endometriosis Diagnosis to 45 Minutes</news:title>
     </news:news>
   </url>
 </urlset>
