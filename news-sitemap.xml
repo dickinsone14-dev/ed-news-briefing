@@ -2,6 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-10-morning/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-10T08:45:00+01:00</news:publication_date>
+      <news:title>Morning Briefing — Friday 10 July 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-10-morning/mediators-scramble-save-us-iran-truce/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-10T08:45:00+01:00</news:publication_date>
+      <news:title>Mediators Scramble to Save the US-Iran Truce as Strikes Trade</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-10-morning/hormuz-shipping-halt-oil-steady/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-10T08:45:00+01:00</news:publication_date>
+      <news:title>Shipping Through Hormuz Grinds to a Halt as Oil Holds Steady</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-10-morning/germany-buy-station-us-tomahawk-missiles/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-10T08:45:00+01:00</news:publication_date>
+      <news:title>Germany to Buy and Station US Tomahawk Missiles</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-10-morning/le-pen-vows-2027-run-despite-monitor/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-10T08:45:00+01:00</news:publication_date>
+      <news:title>Le Pen Vows to Run for President Despite Court-Ordered Monitor</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-10-morning/abbas-calls-first-palestinian-elections-20-years/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-10T08:45:00+01:00</news:publication_date>
+      <news:title>Abbas Calls First Palestinian Elections in Twenty Years</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-10-morning/burnham-322-nominations-nears-no10/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-10T08:45:00+01:00</news:publication_date>
+      <news:title>Burnham Secures 322 Nominations and Nears No 10</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-10-morning/police-investigate-500k-reform-cottrell-donations/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-10T08:45:00+01:00</news:publication_date>
+      <news:title>Police Investigate £500,000 in Reform Donations</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-10-morning/doctors-urged-reject-pay-offer-strike-threat/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-10T08:45:00+01:00</news:publication_date>
+      <news:title>Doctors Urged to Reject Pay Offer, Reopening Strike Threat</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-10-morning/heatwave-peaks-weekend-amber-alert/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-10T08:45:00+01:00</news:publication_date>
+      <news:title>Heatwave Peaks This Weekend as Amber Alert Holds</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-10-morning/channel-crossings-fall-38-percent-2026/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-10T08:45:00+01:00</news:publication_date>
+      <news:title>Channel Small-Boat Crossings Fall 38% This Year</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-07-09-evening/</loc>
     <news:news>
       <news:publication>
@@ -483,127 +604,6 @@
       </news:publication>
       <news:publication_date>2026-07-08T09:30:00+01:00</news:publication_date>
       <news:title>Virgin Media Fined Record £28m for Blocking Cancellations</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-07-evening/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-07T18:10:00+01:00</news:publication_date>
-      <news:title>Evening Briefing — Tuesday 7 July 2026</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-07-evening/le-pen-cleared-2027-ankle-tag/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-07T18:10:00+01:00</news:publication_date>
-      <news:title>Le Pen Cleared to Run in 2027 — With an Ankle Tag</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-07-evening/trump-woos-erdogan-berates-allies-ankara/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-07T18:10:00+01:00</news:publication_date>
-      <news:title>Trump Woos Erdogan and Berates Allies as Summit Opens</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-07-evening/three-tankers-hit-hormuz-irgc-blamed/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-07T18:10:00+01:00</news:publication_date>
-      <news:title>Three Tankers Hit Near Hormuz as US Blames Iran’s Guards</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-07-evening/damascus-bombs-wound-eighteen-macron-visit/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-07T18:10:00+01:00</news:publication_date>
-      <news:title>Damascus Bombs Wound Eighteen During Macron’s Visit</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-07-evening/zelensky-air-defence-key-outcome-summit/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-07T18:10:00+01:00</news:publication_date>
-      <news:title>Zelensky Makes Air Defence the Summit’s Test</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-07-evening/farage-resigns-mp-clacton-byelection/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-07T18:10:00+01:00</news:publication_date>
-      <news:title>Farage Resigns as MP to Fight His Own By-Election</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-07-evening/harry-loses-privacy-case-mail-publisher/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-07T18:10:00+01:00</news:publication_date>
-      <news:title>Harry Loses Landmark Privacy Case Against Mail Publisher</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-07-evening/million-more-homeowners-higher-mortgages/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-07T18:10:00+01:00</news:publication_date>
-      <news:title>Million More Homeowners Face Higher Mortgages, Bank Warns</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-07-evening/robertson-warns-starmer-frosty-nato-welcome/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-07T18:10:00+01:00</news:publication_date>
-      <news:title>Robertson Warns Starmer of Frosty Welcome at NATO</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-07-evening/amber-alerts-activate-tomorrow-35c/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-07T18:10:00+01:00</news:publication_date>
-      <news:title>Amber Heat Alerts Activate at 9am as 35C Approaches</news:title>
     </news:news>
   </url>
 </urlset>
