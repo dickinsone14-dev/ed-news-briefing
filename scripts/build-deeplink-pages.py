@@ -291,15 +291,26 @@ def make_news_article_schema(*,
     schema = {
         "@context": "https://schema.org",
         "@type": "NewsArticle",
-        "headline": headline,
+        "headline": headline[:110],
         "description": description,
+        "image": [f"{SITE_URL}/og-image.png"],
         "datePublished": published_iso,
         "dateModified": published_iso,
-        "author": {"@type": "Organization", "name": "The Daily Brief"},
+        "author": {
+            "@type": "Organization",
+            "name": "The Daily Brief",
+            "url": SITE_URL,
+        },
         "publisher": {
             "@type": "Organization",
             "name": "The Daily Brief",
             "url": SITE_URL,
+            "logo": {
+                "@type": "ImageObject",
+                "url": f"{SITE_URL}/icon-512.png",
+                "width": 512,
+                "height": 512,
+            },
         },
         "mainEntityOfPage": {
             "@type": "WebPage",
