@@ -2209,12 +2209,12 @@
  - Optional "expires" field overrides the 8h default (e.g. for major events)
  To add a new breaking story, prepend an entry here with the current ISO timestamp. -->
  <script id="breaking-stories" type="application/json">
-[{"posted": "2026-07-10T08:45:00+01:00", "headline": "US and Iran trade strikes for a second night as mediators scramble to save the truce — 08:45 BST", "category": "MIDDLE EAST", "summary": "American forces struck scores of Iranian targets over two nights and Iran fired back at US bases across the Gulf, leaving June's ceasefire hanging by a thread. Pakistan, Qatar and Gulf mediators are working to bring both sides back to talks as President Trump wavers. Shipping through the Strait of Hormuz has all but halted, though oil held steady near $76.", "facts": [{"label": "US strikes", "value": "scores of Iranian targets over two nights"}, {"label": "Iran reprisal", "value": "missiles and drones at US bases in Bahrain, Kuwait, Qatar and Jordan"}, {"label": "Diplomacy", "value": "Pakistan, Qatar, Saudi, Turkey and Oman mediating"}, {"label": "Hormuz", "value": "large-tanker traffic halted; Brent steady near $76"}]}]
+[]
 </script>
  <div class="breaking-banner" id="breakingBanner">
  <div class="breaking-inner">
  <span class="breaking-label">BREAKING</span>
- <span class="breaking-text" id="breakingText">US and Iran trade strikes for a second night as mediators scramble to save the truce; Hormuz shipping halts, oil steady near $76</span>
+ <span class="breaking-text" id="breakingText"></span>
  <span class="breaking-readmore" id="breakingReadmore">Read more</span>
  <button class="breaking-dismiss" id="breakingDismiss">&times;</button>
  </div>
@@ -2304,7 +2304,7 @@
  <!-- #1 Markets snapshot bar -->
  <!-- Embedded market data (populated by update script, used as fallback) -->
  <script id="embedded-markets" type="application/json">
-{"FTSE":{"price":10500,"change":0.27},"SP":{"price":7544,"change":0.81},"Brent":{"price":75.71,"change":-0.77},"GBP":{"price":1.3426,"change":0.14},"Gold":{"price":4123,"change":-0.19},"EURGBP":{"price":0.8521,"change":-0.12},"Gilt":{"price":4.95,"change":0.04},"VIX":{"price":15.84,"change":-1.37},"BTC":{"price":63928,"change":1.6},"UST":{"price":4.54,"change":-0.01},"ts":"2026-07-10T08:45:00+01:00"}
+{"FTSE":{"price":10497,"change":0.24},"SP":{"price":7544,"change":0.1},"Brent":{"price":75.9,"change":-0.8},"GBP":{"price":1.3418,"change":0.1},"Gold":{"price":4115,"change":1.2},"EURGBP":{"price":0.8523,"change":-0.04},"Gilt":{"price":4.95,"change":0.02},"VIX":{"price":15.53,"change":-2.0},"BTC":{"price":64000,"change":1.3},"UST":{"price":4.55,"change":0.01},"ts":"2026-07-10T17:00:00+01:00"}
 </script>
  <script id="market-descriptions" type="application/json">
 {
@@ -2312,111 +2312,111 @@
   "name": "FTSE 100",
   "desc": "The UK's benchmark stock index, tracking the 100 largest companies listed on the London Stock Exchange by market capitalisation. Includes Shell, AstraZeneca, HSBC and Unilever.",
   "drivers_up": [
-   "Opened firmer ~0.3% at 10,500, tracking Wall Street's chip-led rally"
+   "Firmer at the open near 10,500, defensives steady and a soft pound aiding exporters"
   ],
   "drivers_down": [
-   "Firmer gilt yields and Middle East risk cap the upside after a soft Thursday"
+   "Oil-heavy index capped ahead of the Wall Street open"
   ],
-  "updated": "10 July 2026 08:45"
+  "updated": "10 July 2026 17:00"
  },
  "SP": {
   "name": "S&P 500",
   "desc": "America's leading stock market index, tracking 500 of the largest US-listed companies. Dominated by mega-cap tech (Apple, Microsoft, Nvidia) but spans all sectors.",
   "drivers_up": [
-   "Rose 0.8% to 7,544 on a semiconductor-led advance that overrode the renewed US-Iran strikes"
+   "Chip and AI megacaps lead futures higher as US-Iran fears ease"
   ],
   "drivers_down": [
-   "Fear the ceasefire has collapsed the standing overhang"
+   "Cash session yet to open; traders cautious before the US bell"
   ],
-  "updated": "10 July 2026 08:45"
+  "updated": "10 July 2026 17:00"
  },
  "Brent": {
   "name": "Brent Crude Oil",
   "desc": "The global benchmark for crude oil pricing, produced from oil fields in the North Sea. Used to price roughly two-thirds of the world's traded oil.",
   "drivers_up": [
-   "A live US-Iran war keeps a premium floor under prices"
+   "Hormuz shipping disruption keeps a war-week supply premium in the price"
   ],
   "drivers_down": [
-   "Slipped ~0.8% to ~\\$75.7, a third day lower, as Hormuz flows largely continued and supply fears faded"
+   "Eased ~0.8% to ~\\$76 as US-Iran talks continue and markets bet on containment"
   ],
-  "updated": "10 July 2026 08:45"
+  "updated": "10 July 2026 17:00"
  },
  "GBP": {
   "name": "GBP/USD",
   "desc": "The exchange rate between the British pound and the US dollar, commonly known as 'cable'. Reflects relative economic strength and interest rate differentials between the UK and US.",
   "drivers_up": [
-   "Firmer at ~\\$1.343 on a third straight weekly dollar decline"
+   "Firmer near \\$1.342 on a softer dollar and BoE-on-hold bets"
   ],
   "drivers_down": [
-   "No UK data today; the Gulf war the external risk"
+   "Oil-driven UK growth worries cap the gains"
   ],
-  "updated": "10 July 2026 08:45"
+  "updated": "10 July 2026 17:00"
  },
  "Gold": {
   "name": "Gold (XAU/USD)",
   "desc": "The spot price of gold in US dollars per troy ounce. The world's oldest safe-haven asset, traditionally rising during periods of uncertainty, inflation and currency debasement.",
   "drivers_up": [
-   "The war backdrop keeps a safe-haven bid in play"
+   "Up ~1.2% to ~\\$4,115 on a softer dollar and lingering Middle East hedging"
   ],
   "drivers_down": [
-   "Near \\$4,120, softer for a third session as receding oil-supply fears trim the haven premium"
+   "Risk-on de-escalation and firmer yields cap the rally"
   ],
-  "updated": "10 July 2026 08:45"
+  "updated": "10 July 2026 17:00"
  },
  "EURGBP": {
   "name": "EUR/GBP",
   "desc": "The exchange rate between the euro and the British pound. Key for UK-EU trade pricing. A falling rate means sterling is strengthening against the euro.",
   "drivers_up": [
-   "Euro steadier against a firm pound"
+   "Euro steady as the ECB holds"
   ],
   "drivers_down": [
-   "Eased to ~0.852 as sterling modestly outperformed the euro"
+   "Near 0.852 as sterling modestly outperforms the euro"
   ],
-  "updated": "10 July 2026 08:45"
+  "updated": "10 July 2026 17:00"
  },
  "Gilt": {
   "name": "UK 10-Year Gilt Yield",
   "desc": "The yield on 10-year UK government bonds (gilts). A key benchmark for UK borrowing costs, mortgage rates and pension fund valuations. Rising yields mean falling bond prices.",
   "drivers_up": [
-   "Yield ~4.95%, highest since June, as the oil-driven inflation scare fuels bets the BoE stays on hold"
+   "Yield ~4.95%, highest since June, on oil-fed inflation and BoE-hold bets"
   ],
   "drivers_down": [
-   "Global bond demand a partial offset"
+   "Safe-haven demand a partial offset"
   ],
-  "updated": "10 July 2026 08:45"
+  "updated": "10 July 2026 17:00"
  },
  "VIX": {
   "name": "VIX (Volatility Index)",
   "desc": "The CBOE Volatility Index, often called the 'fear gauge'. Measures expected S&P 500 volatility over the next 30 days. Readings above 20 suggest elevated anxiety; above 30 signals acute stress.",
   "drivers_up": [
-   "Middle East headlines keep a floor under demand for protection"
+   "Residual war-premium jitters before the US open"
   ],
   "drivers_down": [
-   "Eased to 15.8 as equity calm held despite the Gulf escalation"
+   "Slid ~2% to 15.5 as US-Iran de-escalation drains fear"
   ],
-  "updated": "10 July 2026 08:45"
+  "updated": "10 July 2026 17:00"
  },
  "BTC": {
   "name": "Bitcoin (BTC/USD)",
   "desc": "The price of Bitcoin in US dollars. The largest cryptocurrency by market cap, increasingly viewed as digital gold by institutional investors since spot ETF approvals.",
   "drivers_up": [
-   "Rebounded ~1.6% to near \\$64k on dollar weakness, soft US jobs data and the AI/chip rally"
+   "Rebounded ~1.3% to ~\\$64k, up ~3% on the week, on risk-on flows"
   ],
   "drivers_down": [
-   "War-risk headlines a periodic drag"
+   "Firmer yields and a dollar bid cap the upside"
   ],
-  "updated": "10 July 2026 08:45"
+  "updated": "10 July 2026 17:00"
  },
  "UST": {
   "name": "US 10-Year Treasury Yield",
   "desc": "The yield on 10-year US government bonds, the global risk-free rate benchmark. Influences mortgage rates, corporate borrowing and equity valuations worldwide.",
   "drivers_up": [
-   "Long end firm on oil-inflation concerns, 10Y ~4.54%"
+   "10Y ~4.55%, edging up as sticky inflation trims Fed-cut odds"
   ],
   "drivers_down": [
-   "Little changed as the flight-to-quality bid stayed mild"
+   "Safe-haven demand if geopolitics resurges"
   ],
-  "updated": "10 July 2026 08:45"
+  "updated": "10 July 2026 17:00"
  }
 }
  </script>
@@ -2470,6 +2470,158 @@
  <!-- IMPORTANT: Keep 7 FULL DAYS of editions in this container. Do NOT delete editions less than 7 days old. -->
  <div id="all-editions" style="display:none;">
 
+ <!-- ── EVENING 10 JUL (17:00) ── -->
+<div class="curated-edition evening" data-date="2026-07-10" data-time="17:00" data-markets='{"FTSE":{"price":10497,"change":0.24},"SP":{"price":7544,"change":0.1},"Brent":{"price":75.9,"change":-0.8},"GBP":{"price":1.3418,"change":0.1},"Gold":{"price":4115,"change":1.2},"EURGBP":{"price":0.8523,"change":-0.04},"Gilt":{"price":4.95,"change":0.02},"VIX":{"price":15.53,"change":-2.0},"BTC":{"price":64000,"change":1.3},"UST":{"price":4.55,"change":0.01},"ts":"2026-07-10T17:00:00+01:00"}'>
+ <div class="edition-header">
+ <span class="edition-icon">&#9789;</span>
+ <h2>Evening Briefing</h2>
+ </div>
+ <div class="curated-meta">Friday 10 July 2026 &mdash; 17:00 BST</div>
+ <div class="impact-box">
+ <h3 class="impact-heading">What It Means For You</h3>
+ <ul class="impact-list">
+ <li><strong>A New Prime Minister on 20 July:</strong> Andy Burnham is set to enter Downing Street on 20 July, unopposed &mdash; a change of government without an election. The welfare, tax and NHS choices he inherits will start shaping household budgets from the autumn.</li>
+ <li><strong>Petrol &amp; Energy:</strong> Oil slipped back towards $76 a barrel today even as the US-Iran war grinds on, but the war premium of recent weeks is now baked into pump and energy prices rather than easing. Don&rsquo;t expect the earlier fall in fuel costs to resume soon.</li>
+ <li><strong>A Dangerous Weekend of Heat:</strong> An amber alert covers England until Sunday, with temperatures in the mid-30s and a real risk to older and vulnerable people. Check on elderly relatives, stay out of the afternoon sun, and expect rail delays as tracks overheat.</li>
+ </ul>
+ </div>
+ <div class="curated-grid">
+ <div class="curated-column">
+ <h3><span class="dot geo"></span><span class="dot-label">GEO</span> Geopolitical</h3>
+ <div>
+
+ <div class="curated-item" data-time="09:00" data-slug="us-iran-fight-talks-continue-behind-scenes">
+ <h4>US and Iran Keep Trading Blows as Talks Grind On in Secret</h4>
+ <p>The war and the negotiation are now running in parallel. Even as American forces strike Iran and Tehran fires back at Gulf bases, US officials say technical talks on Iran&rsquo;s nuclear programme are quietly continuing, with Washington striking and then pausing to avoid tipping the confrontation over the edge. President Trump, who declared last month&rsquo;s memorandum &ldquo;over&rdquo;, has let negotiations go on while casting doubt on their outcome. Pakistani, Qatari and Gulf mediators are pressing both sides to hold the line.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The pattern that has emerged this week is deliberate: a burst of strikes, a pause, a back-channel message, then another burst. Both capitals appear to be using force to shape a negotiation neither has walked away from, which is why the sixty-day window opened in June, due to run until 21 August, remains technically alive despite Trump&rsquo;s &ldquo;over&rdquo;. The knot is the Strait of Hormuz: who administers passage, and on whose terms &mdash; the question that turned a ceasefire into open fighting. Iran&rsquo;s foreign minister has worked the phones with Saudi, Turkish and Omani counterparts and Pakistan&rsquo;s army chief; US envoys have been in Doha. For Britain the exposure is concrete, at the naval base in Bahrain and the air hub in Qatar, and through the oil price that feeds every household bill. Watch whether the strike-and-pause rhythm holds, whether the technical talks yield anything on the nuclear file, and whether a single miscalculation turns a managed confrontation into the wider war both sides say they want to avoid.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="15:30" data-slug="hormuz-tankers-frozen-oil-eases">
+ <h4>Tankers Stay Frozen in Hormuz as Oil Slips Back</h4>
+ <p>The Strait of Hormuz remains all but impassable for large tankers, with owners keeping ships away from a waterway that carries a fifth of the world&rsquo;s oil &mdash; yet the crude price is drifting lower rather than spiking. Brent eased towards $76 a barrel, down on the day and below its late-Thursday level, as traders judged the disruption contained and bet that neither side wants the strait closed for good. Maritime trackers say tracked crossings have effectively stopped since Tuesday.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The market&rsquo;s composure in the face of a frozen chokepoint is the week&rsquo;s most revealing signal. Insured, tracked tanker traffic through the strait has ground to a halt, a handful of ships crossing &ldquo;dark&rdquo; aside, and analysts have called the paralysis one of the biggest supply disruptions on record &mdash; yet Brent is falling. The logic is that closure would choke Iran&rsquo;s own exports and invite the overwhelming American response Tehran has so far avoided, so the strangulation reads as leverage rather than a permanent cut. Washington insists Iran &ldquo;does not control&rdquo; the strait; Tehran says passage will come only under &ldquo;Iranian arrangements&rdquo;. The risk sits in the tail: a vessel struck in error, an insurer pulling cover, a mediation collapse. For UK households the war premium of recent weeks is now embedded in petrol and gas rather than climbing. Watch tanker-tracking data, war-risk insurance premiums, and whether the market&rsquo;s bet on containment survives another night of strikes.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="13:00" data-slug="china-shoe-factory-fire-28-dead-jinjiang">
+ <h4>Fire Kills 28 at Chinese Shoe Factory</h4>
+ <p>At least 28 people were killed when a fire tore through a shoe factory in Jinjiang, in China&rsquo;s south-eastern Fujian province, one of the country&rsquo;s deadliest industrial blazes in years. The fire broke out around midday in a store of flammable materials and spread fast through adhesives and raw stock, with rescuers hampered by goods piled in the stairwells. Of the 239 people inside, 213 were evacuated. Company managers have been detained and the firm&rsquo;s bank accounts frozen as an investigation begins.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The death toll points to the failings that recur in China&rsquo;s industrial accidents: flammable materials stored in workplaces, blocked or overloaded escape routes, and safety rules honoured on paper more than in practice. That the fire started in a materials store and raced through shoe adhesives, while stairwells clogged with stock trapped workers, is a near-textbook account of how a survivable blaze becomes a mass-casualty one. Beijing&rsquo;s swift move to detain the company&rsquo;s managers and freeze its accounts follows a familiar pattern after such disasters, in which visible punishment substitutes for the harder work of enforcement across millions of small manufacturers. Jinjiang is a hub of China&rsquo;s footwear industry, much of it in exactly the kind of densely packed, thin-margin plants where inspections are sporadic. Watch the official cause findings, whether prosecutions follow, and whether this prompts another national safety campaign of the sort that has followed previous factory fires without ending them.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="22:00" data-slug="germany-tomahawk-deal-strategic-gap">
+ <h4>Germany Strikes Deal to Buy and Base US Tomahawks</h4>
+ <p>Germany will buy American Tomahawk cruise missiles and station them on its own soil, Chancellor Friedrich Merz announced, describing the move as a way to &ldquo;close an important strategic gap&rdquo; in the country&rsquo;s defences. Agreed on the sidelines of this week&rsquo;s NATO summit in Ankara, the deal makes Berlin the third European operator of the long-range weapon after Britain and the Netherlands. Washington is expected to clear the sale in August; the missiles, able to reach targets 1,550 miles away, will be German-owned and operated, with no US troops to run them.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The significance is less the hardware than the taboo it retires. Germany has spent the post-war decades wary of long-range strike weapons on its own territory, and a chancellor announcing their purchase to plug a &ldquo;strategic gap&rdquo; marks how far the calculus has shifted since Russia&rsquo;s full-scale invasion of Ukraine. A Tomahawk with a 2,500-kilometre reach puts much of western Russia within range from German soil, which is precisely the deterrent signal Berlin intends and precisely what Moscow will read into it. That the missiles will be German-owned and operated, with no US personnel deployed, is the politically essential detail: this is European rearmament under national control, not an American base by another name. It lands in the same week Washington licensed Ukraine to build its own Patriots. Watch the size of the order when US approval comes in August, and Moscow&rsquo;s response beyond the condemnation already issued.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="20:00" data-slug="le-pen-2027-run-appeal-suspends-tag">
+ <h4>Le Pen to Stand for President Despite Embezzlement Ruling</h4>
+ <p>Marine Le Pen has said she will run in France&rsquo;s 2027 presidential election, days after an appeals court convicted her party of embezzling &euro;2.8m in European Parliament funds and ordered her to wear an electronic monitor for a year. Crucially, the ruling cut an earlier ban on holding office to a length she has largely served, clearing her path to stand. Le Pen said she would appeal to France&rsquo;s highest court, a step that suspends the tag: &ldquo;I will therefore campaign without an electronic bracelet,&rdquo; she told French television.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The verdict was supposed to end her career and may instead have relaunched it. An earlier court had barred Le Pen from office for five years, a sentence that would have ruled her out of 2027; the appeal reduced the ban to a length she has effectively already served, removing the obstacle at the moment it looked insurmountable. Her National Rally was found to have paid party staff for more than a decade with money earmarked for parliamentary assistants in Brussels, a scheme the court valued at &euro;2.8m &mdash; but the political mathematics now favour her. France&rsquo;s far right leads many national polls, and a candidate who can cast a conviction as establishment persecution has a ready-made campaign narrative. The lowering of the office ban, not the bracelet, is the decisive fact. Watch whether the appeal to the Cour de cassation holds, who else the National Rally readies should it fail, and how the mainstream parties respond to her return.</div>
+ </details>
+ </div>
+
+ </div>
+ </div>
+ <div class="curated-column">
+ <h3><span class="dot dom"></span><span class="dot-label">UK</span> UK Domestic Politics</h3>
+ <div>
+
+ <div class="curated-item" data-time="16:00" data-slug="burnham-unopposed-pm-20-july-makerfield">
+ <h4>Burnham Set to Enter No 10 on 20 July, Unopposed</h4>
+ <p>Andy Burnham is on course to become Prime Minister on 20 July, running unopposed for the Labour leadership after his last potential rival stood aside. With nominations open until Wednesday and no challenger in the field, the Greater Manchester mayor &mdash; who returned to Parliament only weeks ago through a by-election in Makerfield, after a decade away &mdash; is expected to be declared leader at a party event at the end of next week. He has sketched a decentralising blueprint, including a new No 10 unit based in Manchester to hand local government more control over housing and transport.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The speed of Burnham&rsquo;s ascent is without modern precedent: a man who was outside Parliament in June looks set to hold the keys to Downing Street by late July, elevated by his party&rsquo;s machinery rather than a contest or a membership vote. What he lacks in mandate he will have to make up in early definition, and the signals so far &mdash; a Manchester-based No 10 unit, more power pushed to town halls, a promise not to run the centre as his predecessor did &mdash; sketch a devolutionary instinct at odds with the Treasury&rsquo;s centralising habits. The in-tray is unforgiving: a reignited Gulf war, public finances the watchdog calls unsustainable, a welfare review that has just declared the disability benefit unfit, and an NHS bracing for a summer of possible strikes. His route back ran through Makerfield, a safe seat vacated to return him to the Commons. Watch the handover timetable around 20 July, the audience with the King, and the first cabinet, which will show whether the devolutionary talk survives contact with power.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="23:00" data-slug="met-500k-reform-cottrell-probe">
+ <h4>Met Investigates &pound;500,000 in Reform Donations</h4>
+ <p>The Metropolitan Police is investigating at least &pound;500,000 given to Reform UK by Fiona Cottrell, the mother of a convicted fraudster who has secretly bankrolled Nigel Farage&rsquo;s political operation. Detectives are examining two &pound;250,000 payments that reached the party weeks before the 2024 general election, over concerns they may breach rules barring donations from impermissible sources or concealing a donation&rsquo;s true origin. Two people have been interviewed under caution; no arrests have been made. The inquiry opens a second front of financial scrutiny around Reform as it prepares to fight a by-election.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The questions in the Cottrell case run beyond the party to the donor: how a woman with no history of political giving came to make two of the largest cheques Reform has banked, and whether the money&rsquo;s true source was disclosed as electoral law requires. It sits alongside a separate police inquiry into &pound;37,500 given to Robert Jenrick&rsquo;s 2024 Conservative leadership campaign, so that two of Reform&rsquo;s financial threads are now live investigations within a fortnight of one another. For a party whose entire pitch is that it is cleaner than the establishment it attacks, the timing is corrosive, and it lands as it prepares to contest a by-election framed around exactly that claim. The wider Cottrell relationship, worth an estimated &pound;1.75m to Farage&rsquo;s operation over the years, has long drawn scrutiny. Watch the Electoral Commission&rsquo;s role, whether the interviews under caution move towards charges, and whether the twin investigations dent Reform&rsquo;s standing before polling day.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="17:00" data-slug="heatwave-weekend-peak-amber-nhs">
+ <h4>Heat Set to Peak This Weekend Under Amber Alert</h4>
+ <p>The summer&rsquo;s heatwave is forecast to reach its peak this weekend, with temperatures in the mid-30s across southern England and an amber heat-health alert in force until Sunday evening. The health agency, which escalated the alert this week, warns of a likely rise in deaths, particularly among the over-65s, and of sustained pressure on the NHS. Yellow alerts cover the north of England. Forecasters say the length of the spell, rather than any single reading, is what makes it dangerous, with little respite overnight.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The amber alert, the first of the year, reflects a judgement that the risk is now cumulative: a run of hot days without cool nights accumulates strain on bodies, hospitals, power grids, water supplies and railways alike, which is why the warning spans most of England rather than a single region. Heat deaths lag the peak by two to three days, which keeps the danger live into next week even once temperatures ease. Water stress is compounding, with hosepipe bans already live for millions of households and river levels falling through a dry summer. The over-65s, the very young and those with heart or lung conditions carry most of the risk, and the advice is unglamorous but effective: keep out of the afternoon sun, stay hydrated, and check on older neighbours. Watch for any escalation to a red alert, transport disruption as tracks and overhead lines heat, and the hospital admissions data that will measure the true cost once the spell breaks.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="09:00" data-slug="police-37500-jenrick-leadership-donation">
+ <h4>Police Investigate &pound;37,500 Donation to Jenrick&rsquo;s Tory Bid</h4>
+ <p>The Metropolitan Police is investigating a donation of nearly &pound;40,000 to Robert Jenrick&rsquo;s 2024 Conservative leadership campaign, after the Electoral Commission referred allegations the money originated with a US businessman, which electoral law bars as a foreign source. Jenrick, who has since defected to Reform UK, called the allegations &ldquo;entirely false&rdquo; and said he had had &ldquo;no contact with the Met police whatsoever&rdquo;, accusing &ldquo;an establishment determined to stop Reform&rdquo;. The inquiry runs alongside a separate probe into &pound;500,000 given to Reform by a donor&rsquo;s family.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The &pound;37,500 is alleged to have originated with a US businessman before being routed through a UK donor, the arrangement that prompted the foreign-source referral, since donations from overseas are barred. Jenrick&rsquo;s response, casting the investigation itself as establishment sabotage, is the same move Farage has made over his own funding, and it is a gamble: it rallies supporters while handing the inquiry a hostile subject. That two of Reform&rsquo;s most prominent figures now face live financial investigations within a fortnight cuts directly against a party whose pitch is that it is cleaner than the establishment it attacks. The foreign-money question also feeds the government&rsquo;s new curbs on overseas political donations. Watch the Electoral Commission&rsquo;s next step, whether the probe advances beyond initial inquiries, and whether the twin cases move Reform&rsquo;s polling before the by-election.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="06:30" data-slug="doctors-reject-pay-ballot-strike-autumn">
+ <h4>Doctors Urged to Reject Pay Deal, Raising Strike Risk</h4>
+ <p>The committee representing resident doctors in England has urged its members to reject the government&rsquo;s latest pay offer &mdash; a 5.4% rise plus a &pound;750 lump sum &mdash; calling it &ldquo;pay restoration in name only&rdquo;. A consultative ballot closes on 22 July; rejection would trigger a formal strike ballot, with fresh walkouts possible from mid-September. The union says junior doctors remain around a fifth worse off in real terms than in 2008. The offer would lift a first-year doctor&rsquo;s basic pay from &pound;36,616 to &pound;38,593, backdated to April.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The dispute lands on the desk of an incoming prime minister who has yet to take office, and its timing is the danger. A rejection this month sets up a strike ballot over the summer and the prospect of industrial action in September, precisely as the NHS moves from a heatwave into the autumn pressures that strain it every year. The resident doctors&rsquo; committee argues that a below-inflation settlement leaves untouched the real-terms erosion it calls the heart of the dispute, and that anything short of a credible multi-year path back to 2008 levels merely defers the confrontation. The government will counter that the award, above current inflation and on top of last year&rsquo;s settlement, is as far as stretched public finances allow. For patients the read-through is direct, in the appointments and operations that strikes postpone. Watch the ballot result on 22 July, whether the committee&rsquo;s recommendation carries the membership, and how Burnham&rsquo;s team handles a fight it inherits rather than started.</div>
+ </details>
+ </div>
+
+ </div>
+ </div>
+ </div>
+
+ <div class="one-to-read">
+ <span class="otr-label">One To Read</span>
+ <a href="https://www.washingtonpost.com/world/2026/07/09/andy-burnham-labour-leadership-election-nominations/347a9312-7b65-11f1-b194-f872dd4ec5aa_story.html" target="_blank" rel="noopener noreferrer">
+ <h4>The Fastest Route to No 10 in Modern Times</h4>
+ <span class="otr-source">The Washington Post</span>
+ <span class="otr-dot">&middot;</span>
+ <span class="otr-desc">How Andy Burnham went from outside Parliament in June to the threshold of Downing Street in weeks &mdash; the by-election that brought him back, the rival who stood aside, and the unopposed path to becoming Prime Minister on 20 July.</span>
+ </a>
+ </div>
+ <!-- SOURCES USED
+ - https://abcnews.com/International/live-updates/iran-live-updates-thousands-throng-tehran-streets-khamenei/?id=134509610 &mdash; ABC News: Trump lets talks continue, ceasefire "over", technical nuclear talks
+ - https://www.npr.org/2026/07/09/g-s1-132670/us-iran-strikes &mdash; NPR: strikes/retaliation, mediation
+ - https://www.cbsnews.com/live-updates/us-iran-war-peace-talks-timetable-unclear-strait-of-hormuz-clashes/ &mdash; CBS News: strike-and-pause, US officials to Doha
+ - https://www.aljazeera.com/economy/2026/7/10/strait-of-hormuz-shipping-grinds-to-halt-as-us-iran-resume-fighting &mdash; Al Jazeera: Hormuz shipping halt, Lloyd's List, Brent ~$76
+ - https://www.cnbc.com/2026/07/09/trump-iran-war-strikes-hormuz.html &mdash; CNBC: oil moves, Hormuz standoff
+ - https://www.nbcnews.com/world/china/major-casualties-fire-shoe-factory-china-rcna353646 &mdash; NBC News: Jinjiang factory fire, 28 dead, evacuations, detentions
+ - https://www.washingtontimes.com/news/2026/jul/9/fire-shoe-factory-kills-28-people-one-chinas-deadliest-blazes-recent/ &mdash; Washington Post/AP wire: deadliest blaze, flammable adhesives, stairwells
+ - https://www.aljazeera.com/news/2026/7/9/at-least-28-people-killed-as-fire-engulfs-shoe-factory-in-china &mdash; Al Jazeera: Huiteng factory, accounts frozen, cause
+ - https://www.washingtonpost.com/world/2026/07/09/germany-merz-trump-us-tomahawk-nato-russia-ukraine/ &mdash; Washington Post: Germany Tomahawk deal, "strategic gap"
+ - https://abcnews.com/International/wireStory/germany-reaches-deal-us-buy-long-range-tomahawk-134615916 &mdash; ABC News (AP): German-owned/operated, range, August approval
+ - https://www.npr.org/2026/07/08/g-s1-132467/le-pen-court-ordered-monitor &mdash; NPR: Le Pen 2027 run, monitor, appeal
+ - https://www.pbs.org/newshour/world/le-pen-to-run-for-french-presidency-despite-court-ordered-monitor-after-embezzlement-conviction &mdash; PBS News: &euro;2.8m embezzlement, reduced ban
+ - https://www.washingtonpost.com/world/2026/07/09/andy-burnham-labour-leadership-election-nominations/347a9312-7b65-11f1-b194-f872dd4ec5aa_story.html &mdash; Washington Post: Burnham unopposed, 20 July, Makerfield, Manchester No 10 unit (also One To Read)
+ - https://www.nbcnews.com/world/iran/us-iran-new-talks-trump-hormuz-attacks-peace-deal-doha-qatar-rcna352182 &mdash; NBC News: Burnham Gaza line, leadership timeline
+ - https://www.lbc.co.uk/article/met-police-reform-uk-donation-probe-fiona-george-cottrell-fraudster-nigel-farage-5HjddPx_2/ &mdash; LBC: Cottrell £500k Met investigation, two £250k payments, interviews under caution
+ - https://www.itv.com/news/2026-07-09/robert-jenricks-tory-leadership-campaign-donation-under-investigation &mdash; ITV News: Jenrick £37,500 probe, "entirely false", foreign-source referral
+ - https://www.bma.org.uk/our-campaigns/resident-doctor-campaigns/pay-in-england/government-offer-to-resident-doctors-in-england-to-end-the-dispute-on-jobs-and-pay-june-2026 &mdash; BMA: 5.4% + £750 offer, "pay restoration in name only", ballot to 22 July
+ - https://www.gov.uk/government/news/ukhsa-updates-heat-health-alerts-across-england &mdash; gov.uk / UKHSA: amber alert to Sunday, over-65s risk
+ - https://www.metoffice.gov.uk/about-us/news-and-media/media-centre/weather-and-climate-news/2026/amber-warning-extended-though-heatwave-easing-for-some &mdash; Met Office: mid-30s peak, spell length
+ - Market data: Yahoo Finance, CNBC, Trading Economics (cross-referenced 10 July ~09:00 BST)
+ END SOURCES USED -->
+ </div><!-- ── END EVENING 10 JUL (17:00) ── -->
  <!-- ── MORNING 10 JUL (08:45) ── -->
 <div class="curated-edition morning" data-date="2026-07-10" data-time="08:45" data-markets='{"FTSE":{"price":10500,"change":0.27},"SP":{"price":7544,"change":0.81},"Brent":{"price":75.71,"change":-0.77},"GBP":{"price":1.3426,"change":0.14},"Gold":{"price":4123,"change":-0.19},"EURGBP":{"price":0.8521,"change":-0.12},"Gilt":{"price":4.95,"change":0.04},"VIX":{"price":15.84,"change":-1.37},"BTC":{"price":63928,"change":1.60},"UST":{"price":4.54,"change":-0.01},"ts":"2026-07-10T08:45:00+01:00"}'>
  <div class="edition-header">
