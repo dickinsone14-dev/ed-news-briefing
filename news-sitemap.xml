@@ -2,6 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-12-evening/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-12T18:51:00+01:00</news:publication_date>
+      <news:title>Evening Briefing — Sunday 12 July 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-12-evening/us-third-strike-wave-iran-hormuz-closed-standoff/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-12T18:51:00+01:00</news:publication_date>
+      <news:title>US Strikes Iran a Third Time as a Hormuz Standoff Hardens</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-12-evening/iran-attacks-five-gulf-states-us-bases/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-12T18:51:00+01:00</news:publication_date>
+      <news:title>Iran Attacks Five Gulf States and US Bases Across the Region</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-12-evening/world-alarm-un-allies-hormuz-reopen/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-12T18:51:00+01:00</news:publication_date>
+      <news:title>UN Warns of “Catastrophe” as Allies Refuse to Help Reopen Hormuz</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-12-evening/russia-barrage-kills-eight-ukraine-evening/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-12T18:51:00+01:00</news:publication_date>
+      <news:title>Russian Barrage Kills Eight in Ukraine as Sumy Is Struck</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-12-evening/gaza-strikes-kill-five-including-child/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-12T18:51:00+01:00</news:publication_date>
+      <news:title>Israeli Strikes Kill Five in Gaza, Including a Nine-Year-Old</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-12-evening/reeves-warns-burnham-shocks-challenges/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-12T18:51:00+01:00</news:publication_date>
+      <news:title>Reeves Warns Burnham to Expect “Shocks and Challenges” in No 10</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-12-evening/exceptional-wildfire-risk-north-wales-major-incident/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-12T18:51:00+01:00</news:publication_date>
+      <news:title>“Exceptional” Wildfire Risk as North Wales Declares a Major Incident</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-12-evening/uk-braces-fuel-energy-hormuz-closure/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-12T18:51:00+01:00</news:publication_date>
+      <news:title>UK Braces for Higher Fuel and Energy as Hormuz Closure Bites</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-12-evening/clacton-by-election-13-august-boycott/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-12T18:51:00+01:00</news:publication_date>
+      <news:title>Clacton By-Election Set for 13 August as Rivals Boycott Farage</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-12-evening/hosepipe-bans-widen-drought-risk/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-12T18:51:00+01:00</news:publication_date>
+      <news:title>Hosepipe Bans Widen as Drought Risk Grows</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-07-12-morning/</loc>
     <news:news>
       <news:publication>
@@ -362,127 +483,6 @@
       </news:publication>
       <news:publication_date>2026-07-11T08:45:00+01:00</news:publication_date>
       <news:title>Burnham Weighs His Cabinet as the Handover Nears</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-10-evening/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-10T17:00:00+01:00</news:publication_date>
-      <news:title>Evening Briefing — Friday 10 July 2026</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-10-evening/us-iran-fight-talks-continue-behind-scenes/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-10T17:00:00+01:00</news:publication_date>
-      <news:title>US and Iran Keep Trading Blows as Talks Grind On in Secret</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-10-evening/hormuz-tankers-frozen-oil-eases/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-10T17:00:00+01:00</news:publication_date>
-      <news:title>Tankers Stay Frozen in Hormuz as Oil Slips Back</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-10-evening/china-shoe-factory-fire-28-dead-jinjiang/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-10T17:00:00+01:00</news:publication_date>
-      <news:title>Fire Kills 28 at Chinese Shoe Factory</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-10-evening/germany-tomahawk-deal-strategic-gap/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-10T17:00:00+01:00</news:publication_date>
-      <news:title>Germany Strikes Deal to Buy and Base US Tomahawks</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-10-evening/le-pen-2027-run-appeal-suspends-tag/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-10T17:00:00+01:00</news:publication_date>
-      <news:title>Le Pen to Stand for President Despite Embezzlement Ruling</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-10-evening/burnham-unopposed-pm-20-july-makerfield/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-10T17:00:00+01:00</news:publication_date>
-      <news:title>Burnham Set to Enter No 10 on 20 July, Unopposed</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-10-evening/met-500k-reform-cottrell-probe/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-10T17:00:00+01:00</news:publication_date>
-      <news:title>Met Investigates £500,000 in Reform Donations</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-10-evening/heatwave-weekend-peak-amber-nhs/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-10T17:00:00+01:00</news:publication_date>
-      <news:title>Heat Set to Peak This Weekend Under Amber Alert</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-10-evening/police-37500-jenrick-leadership-donation/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-10T17:00:00+01:00</news:publication_date>
-      <news:title>Police Investigate £37,500 Donation to Jenrick’s Tory Bid</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-10-evening/doctors-reject-pay-ballot-strike-autumn/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-10T17:00:00+01:00</news:publication_date>
-      <news:title>Doctors Urged to Reject Pay Deal, Raising Strike Risk</news:title>
     </news:news>
   </url>
 </urlset>
