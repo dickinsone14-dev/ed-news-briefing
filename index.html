@@ -2195,12 +2195,12 @@
  - Optional "expires" field overrides the 8h default (e.g. for major events)
  To add a new breaking story, prepend an entry here with the current ISO timestamp. -->
  <script id="breaking-stories" type="application/json">
-[{"posted": "2026-07-11T21:18:00+01:00", "headline": "Iran's new Supreme Leader vows 'inevitable' revenge for his father's killing, even as its foreign minister holds Hormuz talks in Oman — 21:18 BST", "category": "MIDDLE EAST", "summary": "Mojtaba Khamenei, Iran's new supreme leader, issued his first message since his father's funeral, vowing that revenge against the US and Israel 'must inevitably be carried out'. Yet the diplomacy has not collapsed: foreign minister Abbas Araghchi met Oman's counterpart in Muscat on Saturday on a mechanism to guarantee safe passage through the Strait of Hormuz. Trump, who declared the June truce 'over', threatened to 'completely decimate' Iran over a reported plot to assassinate him.", "facts": [{"label": "Revenge vow", "value": "Mojtaba Khamenei: vengeance 'must inevitably be carried out'"}, {"label": "Diplomacy", "value": "FM Araghchi held Strait of Hormuz talks in Oman on Saturday"}, {"label": "Trump", "value": "threatened to 'completely decimate' Iran over a reported assassination plot"}, {"label": "Oil", "value": "Brent steady near $76 as markets bet the talks hold"}]}]
+[{"posted": "2026-07-12T09:53:00+01:00", "headline": "US and Iran trade strikes across the Gulf as Iran declares the Strait of Hormuz closed — 09:53 BST", "category": "MIDDLE EAST", "summary": "The US-Iran war widened overnight into Sunday. Iran declared the Strait of Hormuz — which carries a fifth of the world's oil — closed 'until further notice' after firing on a container ship, and struck at US bases and Gulf states; US Central Command said it hit about 140 Iranian targets in a third round of strikes, more than 300 this week. Gulf states reported intercepting Iranian missiles and drones. Oil is braced to spike when markets reopen on Monday.", "facts": [{"label": "Hormuz", "value": "IRGC declares the strait closed 'until further notice'; ship fired on"}, {"label": "US strikes", "value": "~140 Iranian targets overnight; 300+ this week (CENTCOM)"}, {"label": "Gulf hit", "value": "Iran struck at US bases; UAE and Jordan report interceptions"}, {"label": "Oil", "value": "a fifth of the world's oil transits Hormuz — prices set to jump Monday"}]}]
 </script>
  <div class="breaking-banner" id="breakingBanner">
  <div class="breaking-inner">
  <span class="breaking-label">BREAKING</span>
- <span class="breaking-text" id="breakingText">Iran's new Supreme Leader vows 'inevitable' revenge for his father's killing, even as its foreign minister holds Strait of Hormuz talks in Oman</span>
+ <span class="breaking-text" id="breakingText">US and Iran trade strikes across the Gulf as Iran declares the Strait of Hormuz closed and fires on a ship; US hits ~140 targets</span>
  <span class="breaking-readmore" id="breakingReadmore">Read more</span>
  <button class="breaking-dismiss" id="breakingDismiss">&times;</button>
  </div>
@@ -2290,7 +2290,7 @@
  <!-- #1 Markets snapshot bar -->
  <!-- Embedded market data (populated by update script, used as fallback) -->
  <script id="embedded-markets" type="application/json">
-{"FTSE":{"price":10497,"change":0.24},"SP":{"price":7575,"change":0.42},"Brent":{"price":76.01,"change":-0.38},"GBP":{"price":1.3394,"change":-0.05},"Gold":{"price":4112,"change":-0.3},"EURGBP":{"price":0.8516,"change":0.05},"Gilt":{"price":4.88,"change":-0.02},"VIX":{"price":15.84,"change":-6.3},"BTC":{"price":64150,"change":1.5},"UST":{"price":4.54,"change":-0.03},"ts":"2026-07-11T21:18:00+01:00"}
+{"FTSE":{"price":10497,"change":0.24},"SP":{"price":7575,"change":0.42},"Brent":{"price":76.01,"change":-0.38},"GBP":{"price":1.3394,"change":-0.05},"Gold":{"price":4112,"change":-0.3},"EURGBP":{"price":0.8516,"change":0.05},"Gilt":{"price":4.88,"change":-0.02},"VIX":{"price":15.84,"change":-6.3},"BTC":{"price":63725,"change":-0.66},"UST":{"price":4.54,"change":-0.03},"ts":"2026-07-12T09:53:00+01:00"}
 </script>
  <script id="market-descriptions" type="application/json">
 {
@@ -2301,31 +2301,31 @@
    "Closed +0.2% at 10,497 Friday; markets shut for the weekend, reopen Monday"
   ],
   "drivers_down": [
-   "Oil-risk and a soft week capped the upside"
+   "Braced for an oil shock after Iran declared Hormuz closed"
   ],
-  "updated": "11 July 2026 21:18 (Fri close, markets shut)"
+  "updated": "12 July 2026 09:53 (Fri close, markets shut)"
  },
  "SP": {
   "name": "S&P 500",
   "desc": "America's leading stock market index, tracking 500 of the largest US-listed companies. Dominated by mega-cap tech (Apple, Microsoft, Nvidia) but spans all sectors.",
   "drivers_up": [
-   "Closed +0.4% at 7,575 Friday on tech gains and Iran de-escalation hopes"
+   "Closed +0.4% at 7,575 Friday"
   ],
   "drivers_down": [
-   "Weekend close; July rotation out of mega-cap winners"
+   "Weekend close; Gulf war escalation the risk into Monday"
   ],
-  "updated": "11 July 2026 21:18 (Fri close, markets shut)"
+  "updated": "12 July 2026 09:53 (Fri close, markets shut)"
  },
  "Brent": {
   "name": "Brent Crude Oil",
   "desc": "The global benchmark for crude oil pricing, produced from oil fields in the North Sea. Used to price roughly two-thirds of the world's traded oil.",
   "drivers_up": [
-   "Hormuz risk keeps a premium; up ~5% on the week"
+   "Iran's declared Hormuz closure set to spike prices at Monday's open"
   ],
   "drivers_down": [
-   "Closed ~\\$76 Friday as US-Iran talks continued in Oman"
+   "Closed ~\\$76 Friday before the weekend escalation; no weekend trading"
   ],
-  "updated": "11 July 2026 21:18 (Fri close, markets shut)"
+  "updated": "12 July 2026 09:53 (Fri close, markets shut)"
  },
  "GBP": {
   "name": "GBP/USD",
@@ -2334,20 +2334,20 @@
    "Held above \\$1.34 Friday as the dollar softened"
   ],
   "drivers_down": [
-   "Fiscal worries and gilt jitters weighed slightly"
+   "An oil shock would pressure a net energy importer"
   ],
-  "updated": "11 July 2026 21:18 (Fri close, markets shut)"
+  "updated": "12 July 2026 09:53 (Fri close, markets shut)"
  },
  "Gold": {
   "name": "Gold (XAU/USD)",
   "desc": "The spot price of gold in US dollars per troy ounce. The world's oldest safe-haven asset, traditionally rising during periods of uncertainty, inflation and currency debasement.",
   "drivers_up": [
-   "Geopolitical haven bid intact near record highs"
+   "Haven bid likely to strengthen on the Gulf escalation"
   ],
   "drivers_down": [
-   "Eased ~0.3% to \\$4,112 Friday as war-risk fears cooled"
+   "Closed ~\\$4,112 Friday; no weekend trading"
   ],
-  "updated": "11 July 2026 21:18 (Fri close, markets shut)"
+  "updated": "12 July 2026 09:53 (Fri close, markets shut)"
  },
  "EURGBP": {
   "name": "EUR/GBP",
@@ -2358,51 +2358,51 @@
   "drivers_down": [
    "Near 0.852 as elevated gilt yields support the pound"
   ],
-  "updated": "11 July 2026 21:18 (Fri close, markets shut)"
+  "updated": "12 July 2026 09:53 (Fri close, markets shut)"
  },
  "Gilt": {
   "name": "UK 10-Year Gilt Yield",
   "desc": "The yield on 10-year UK government bonds (gilts). A key benchmark for UK borrowing costs, mortgage rates and pension fund valuations. Rising yields mean falling bond prices.",
   "drivers_up": [
-   "Sticky inflation and BoE tightening expectations"
+   "An oil-driven inflation scare could lift yields Monday"
   ],
   "drivers_down": [
-   "Eased to 4.88% Friday as falling oil calmed inflation fears"
+   "Eased to 4.88% Friday before the weekend escalation"
   ],
-  "updated": "11 July 2026 21:18 (Fri close, markets shut)"
+  "updated": "12 July 2026 09:53 (Fri close, markets shut)"
  },
  "VIX": {
   "name": "VIX (Volatility Index)",
   "desc": "The CBOE Volatility Index, often called the 'fear gauge'. Measures expected S&P 500 volatility over the next 30 days. Readings above 20 suggest elevated anxiety; above 30 signals acute stress.",
   "drivers_up": [
-   "Lingering US-Iran war and Hormuz supply risk"
+   "Gulf war and Hormuz closure set to lift volatility Monday"
   ],
   "drivers_down": [
-   "Dropped ~6% Friday to 15.8 as talks resumed and equities calmed"
+   "Closed 15.8 Friday before the weekend escalation"
   ],
-  "updated": "11 July 2026 21:18 (Fri close, markets shut)"
+  "updated": "12 July 2026 09:53 (Fri close, markets shut)"
  },
  "BTC": {
   "name": "Bitcoin (BTC/USD)",
   "desc": "The price of Bitcoin in US dollars. The largest cryptocurrency by market cap, increasingly viewed as digital gold by institutional investors since spot ETF approvals.",
   "drivers_up": [
-   "Firm ~\\$64k on weekend risk appetite (crypto trades 24/7)"
+   "Trades 24/7; steady near \\$64k over the weekend"
   ],
   "drivers_down": [
-   "Still below highs after the early-July risk-off slump"
+   "Slipped ~0.7% on the Gulf escalation; risk-off tone"
   ],
-  "updated": "11 July 2026 21:18 (Fri close, markets shut)"
+  "updated": "12 July 2026 09:53 (Fri close, markets shut)"
  },
  "UST": {
   "name": "US 10-Year Treasury Yield",
   "desc": "The yield on 10-year US government bonds, the global risk-free rate benchmark. Influences mortgage rates, corporate borrowing and equity valuations worldwide.",
   "drivers_up": [
-   "Heavy issuance and firm growth data"
+   "Oil-inflation risk versus a flight-to-quality bid into Monday"
   ],
   "drivers_down": [
-   "Eased to 4.54% Friday as lower oil trimmed inflation bets"
+   "Closed 4.54% Friday before the weekend escalation"
   ],
-  "updated": "11 July 2026 21:18 (Fri close, markets shut)"
+  "updated": "12 July 2026 09:53 (Fri close, markets shut)"
  }
 }
  </script>
@@ -2456,6 +2456,158 @@
  <!-- IMPORTANT: Keep 7 FULL DAYS of editions in this container. Do NOT delete editions less than 7 days old. -->
  <div id="all-editions" style="display:none;">
 
+ <!-- ── MORNING 12 JUL (09:53) ── -->
+<div class="curated-edition morning" data-date="2026-07-12" data-time="09:53" data-markets='{"FTSE":{"price":10497,"change":0.24},"SP":{"price":7575,"change":0.42},"Brent":{"price":76.01,"change":-0.38},"GBP":{"price":1.3394,"change":-0.05},"Gold":{"price":4112,"change":-0.3},"EURGBP":{"price":0.8516,"change":0.05},"Gilt":{"price":4.88,"change":-0.02},"VIX":{"price":15.84,"change":-6.3},"BTC":{"price":63725,"change":-0.66},"UST":{"price":4.54,"change":-0.03},"ts":"2026-07-12T09:53:00+01:00"}'>
+ <div class="edition-header">
+ <span class="edition-icon">&#9728;</span>
+ <h2>Morning Briefing</h2>
+ </div>
+ <div class="curated-meta">Sunday 12 July 2026 &mdash; 09:53 BST</div>
+ <div class="impact-box">
+ <h3 class="impact-heading">What It Means For You</h3>
+ <ul class="impact-list">
+ <li><strong>Petrol &amp; Energy:</strong> Iran has declared the Strait of Hormuz &mdash; which carries a fifth of the world&rsquo;s oil &mdash; closed, and prices are set to jump when markets reopen on Monday. Expect pump and energy costs to rise; the recent easing in fuel prices is firmly over.</li>
+ <li><strong>A New Prime Minister Next Week:</strong> Andy Burnham is on course to be declared Labour leader on 17 July and Prime Minister around 20 July &mdash; and he has now pledged fiscal discipline and welfare cuts to reassure markets, an early signal of the choices ahead for household budgets.</li>
+ <li><strong>Heat, Fire &amp; Water:</strong> The heatwave is now extended into midweek, not breaking tonight, with an amber alert to 15 July, the highest wildfire risk today across southern England, and hosepipe bans enforced for millions. Avoid open water, ditch disposable barbecues, save water, and check on the vulnerable.</li>
+ </ul>
+ </div>
+ <div class="curated-grid">
+ <div class="curated-column">
+ <h3><span class="dot geo"></span><span class="dot-label">GEO</span> Geopolitical</h3>
+ <div>
+
+ <div class="curated-item" data-time="03:00" data-slug="us-iran-strikes-gulf-war-goes-regional">
+ <h4>US and Iran Trade Strikes Across the Gulf as the War Goes Regional</h4>
+ <p>The US-Iran war widened sharply overnight into Sunday. American forces carried out a third round of strikes this week, hitting about 140 Iranian targets &mdash; more than 300 in total, US Central Command said &mdash; from missile and drone sites to naval assets and coastal radars. Iran struck back at US bases and allied Gulf states, with the United Arab Emirates and Jordan reporting they had intercepted Iranian missiles and drones. &ldquo;Iran made a poor choice,&rdquo; the US defence secretary, Pete Hegseth, said as the strikes were announced.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">This is the escalation the week had been building towards, and the turn Mojtaba Khamenei&rsquo;s written vow of &ldquo;inevitable&rdquo; revenge foreshadowed: from limited, calibrated exchanges to strikes reaching across the Gulf and back into Iran on a far larger scale. Washington&rsquo;s framing is narrow &mdash; that the strikes are meant to degrade Iran&rsquo;s ability to threaten shipping &mdash; but 300 targets in a week is a campaign, not a warning, and Iran&rsquo;s decision to fire at the American bases and Gulf monarchies that host Western forces widens the war&rsquo;s geography and its risk. Britain&rsquo;s own forces sit inside that map, at the naval base in Bahrain and the air hub in Qatar. The Oman diplomatic track that flickered on Saturday now looks overtaken by events. Watch for casualty and damage reports from the Gulf bases, whether any Western personnel are hit, and whether either side signals a pause or the exchange ratchets higher.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="02:00" data-slug="iran-declares-hormuz-closed-ship-attacked-oil">
+ <h4>Iran Declares the Strait of Hormuz Closed and Fires on a Ship</h4>
+ <p>Iran&rsquo;s Revolutionary Guard declared the Strait of Hormuz closed &ldquo;until further notice&rdquo; after firing on the GFS Galaxy, a Cyprus-flagged container ship it said was using an unauthorised route through the waterway. India said eleven of its nationals were aboard; ten were rescued and one is missing. Roughly a fifth of the world&rsquo;s oil passes through the strait, and with no weekend trading the closure leaves crude braced to spike when markets reopen: Brent was already near $76 and heading for a weekly gain after a week of strikes.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">A declared closure of Hormuz is the scenario the oil market has feared for decades, because there is no quick alternative route for the 13m-or-so barrels a day that pass through it; pipelines bypassing the strait carry only a fraction. Whether Iran can actually enforce a closure, against the US Navy and its own interest in exporting oil, is the open question &mdash; but even the threat, backed by a strike on a commercial vessel, is enough to send insurers, shipowners and traders scrambling and to put a war premium into every barrel. For British households the transmission is direct and quick, through petrol, diesel and the gas price that sets energy bills. The strike on the GFS Galaxy, and the Indian sailor still missing, is a reminder that the cost falls first on the crews who move the world&rsquo;s trade. Watch the oil price at Monday&rsquo;s open, tanker traffic and war-risk insurance, and whether the US moves to reopen the strait by force.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="05:00" data-slug="russia-barrage-kills-eight-ukraine-sumy">
+ <h4>Russian Barrage Kills Eight in Ukraine as Sumy Is Hit</h4>
+ <p>Russia launched another mass overnight attack on Ukraine &mdash; ballistic and cruise missiles and more than 120 drones &mdash; killing at least eight people and wounding dozens. Two glide bombs struck a crowded area of Sumy, killing five and injuring around thirty, while a dozen were wounded in Kyiv and port infrastructure at Odesa was hit again. Ukraine&rsquo;s air force said it downed most of the drones but not the ballistic missiles, as President Zelensky renewed his plea for the air defences promised at this week&rsquo;s NATO summit.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The glide bombs that hit Sumy are the weapon Ukraine can do least about: cheap, heavy and launched from Russian aircraft standing off beyond the front, they fall on border cities faster than warnings can clear the streets. It is why Zelensky&rsquo;s demand at the Ankara summit was specifically for interceptors and the licence to build Patriots, and why the gap between promises and deliveries is measured in lives. Ukraine&rsquo;s answer remains asymmetric and economic: its drone commander said units struck more than twenty fuel tankers overnight, part of a campaign that has hit dozens of vessels this week to make Russia&rsquo;s oil exports too costly to run. More than sixty people have been killed across the Kyiv region since the start of the month. Watch whether the promised air defences arrive before the next barrage, and whether the tanker war and the Gulf crisis together lift the oil price further.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="20:00" data-slug="spain-deadliest-wildfire-12-dead-europe-heat">
+ <h4>Spain&rsquo;s Deadliest Wildfire Kills 12 as Europe Bakes</h4>
+ <p>A wildfire in Almer&iacute;a, in southern Spain, has killed at least twelve people with more than twenty missing, in what regional authorities are calling Andalusia&rsquo;s most devastating fire on record. Several victims were found in burnt-out vehicles after failing to heed evacuation orders. It is the sharpest edge of a continent-wide heat emergency: red alerts stretch across Spain, France, Germany, Switzerland and the UK, a fire in the Pyrenees forced thousands to flee, and Portugal is burning too.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The death toll makes Almer&iacute;a a warning about the specific lethality of fast-moving wildfire in a heatwave: fire driven by wind across tinder-dry land outruns people in cars, and the deadliest moments come when residents try to flee too late or return for possessions. The same anticyclone baking Britain has settled over the whole of western Europe, delivering the third major heatwave since May and turning the Mediterranean summer into a season of evacuations and landmark closures. The pattern &mdash; hotter, drier, earlier &mdash; is stretching the firefighting and civil-protection systems built for a cooler climate, and the human cost is compounding across borders. For Britain, still under its own alerts, the Spanish deaths are a grim preview of what extreme heat and dry ground can do. Watch the search for the missing, the containment of the Pyrenees and Portuguese fires, and whether the heat dome finally breaks next week.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="18:00" data-slug="us-congressman-khanna-detained-settlers-west-bank">
+ <h4>US Congressman Says He Was Detained by Settlers in the West Bank</h4>
+ <p>The Democratic congressman Ro Khanna says his vehicle was surrounded by armed Israeli settlers near a village in the southern occupied West Bank, and that he was held for more than an hour before police intervened. He said the settlers carried US-made rifles and criticised nearby soldiers for appearing at ease with them. The Israeli military denied detaining any visitors but said it had dispersed civilians unlawfully blocking vehicles. The incident, surfacing over the weekend, has drawn attention to settler violence in the territory.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">A sitting US lawmaker held at gunpoint by settlers of an allied state is the kind of episode that punctures the abstraction of the debate over the West Bank, and it lands as settler violence against Palestinians has surged and as Washington&rsquo;s own weapons turn up in settler hands. Khanna, a prominent progressive critic of Israeli government policy, has used the incident to press for accountability and to question the military&rsquo;s posture towards the settlers it is meant to police. The Israeli denial, and the narrower admission that troops dispersed people blocking a road, is the familiar gap between the official account and the eyewitness one. It feeds a widening rift in American politics over unconditional support for the Israeli government, and over the occupied territories where the ceasefire in Gaza has done nothing to slow the settlements. Watch whether the episode draws a formal US response, and how it plays into the Congressional argument over arms.</div>
+ </details>
+ </div>
+
+ </div>
+ </div>
+ <div class="curated-column">
+ <h3><span class="dot dom"></span><span class="dot-label">UK</span> UK Domestic Politics</h3>
+ <div>
+
+ <div class="curated-item" data-time="08:00" data-slug="heatwave-extended-midweek-wildfire-risk-peaks">
+ <h4>Heatwave Extended Into Midweek as Wildfire Risk Peaks</h4>
+ <p>The heatwave will not break tonight as forecast but is being extended into the middle of next week: the health agency has issued a fresh amber heat-health alert running until Tuesday evening across most of England, warning of a rise in deaths among the over-65s. The wildfire risk is at its highest today across much of southern England, with London rated &ldquo;extreme&rdquo; through Monday; fire crews spent the weekend tackling moorland blazes near Glossop in the Peak District. Temperatures reach the mid-30s, with warm &ldquo;tropical&rdquo; nights offering little relief.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The extension is the story: a spell whose danger was always its length is now longer still, and the health agency&rsquo;s alert has been rolled forward rather than lifted, keeping most of England under warning into the working week. The wildfire risk is the acute edge &mdash; ground dried by a fortnight of heat and the second-driest spring on record ignites easily, and a single moorland fire can close roads and threaten homes, as the Peak District blazes and last week&rsquo;s lineside fire at Stratford showed. Warm nights above 20C compound the strain, denying bodies and buildings the chance to cool. The heat is forecast to ease only slightly early next week, with a growing chance of thunderstorms that bring their own risks. Watch for any escalation to a red alert, the spread of wildfires across the dry south and east, and the excess-death figures that will follow once the spell finally breaks.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="07:00" data-slug="hosepipe-bans-enforced-millions-south-east">
+ <h4>Hosepipe Bans Now Enforced for Millions Across the South and East</h4>
+ <p>Hosepipe bans are now in force for millions of households as the dry summer bites: Anglian Water&rsquo;s ban across the East of England, its first in a decade, took effect this weekend, alongside restrictions already live for South East Water&rsquo;s customers in Kent and Hampshire. Thames Water&rsquo;s appeal to its 15 million customers in London and the Thames Valley remains an advisory for now. Much of southern and eastern England is now under some form of water restriction after the second-driest spring on record.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The spread from advisory to enforced bans is a measure of how fast a dry winter and a hot summer drain a system with little slack. Hosepipe bans are a blunt tool &mdash; outdoor use is a small share of consumption &mdash; but cutting it preserves reservoir levels and signals to households that the shortage is real, while the companies buy time. The deeper problem is structural: decades of under-investment in reservoirs and leaking pipes have left England unable to store enough water for summers that are getting hotter and drier, and the failure is now colliding with public anger over sewage discharges and executive pay. It hands the incoming government an early test on a sector already in crisis. Watch whether Thames hardens its advisory into a formal ban, how many more regions follow, and whether the water debate feeds into Burnham&rsquo;s first weeks.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="09:00" data-slug="burnham-pledges-fiscal-discipline-coronation">
+ <h4>Burnham Pledges Fiscal Discipline as Coronation Nears</h4>
+ <p>Andy Burnham has moved to reassure the markets and the centre of his party, pledging fiscal discipline and a commitment to cut the welfare bill as he closes in on Downing Street. Backed by around 322 of Labour&rsquo;s 403 MPs and facing no rival, the Greater Manchester mayor is set to be declared leader when nominations close on 15 July, confirmed at a special conference on 17 July, and appointed prime minister around 20 July. The promise to hold to the government&rsquo;s borrowing limits is aimed at dispelling fears that his arrival heralds a spending splurge.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The fiscal pledge is the tell of how Burnham intends to govern: a soft-left figure associated with anti-austerity politics, arriving without a contest, is pre-emptively reassuring the bond market and his own Treasury-minded MPs that there will be no dash for the chequebook. It is also a hostage to fortune, because the welfare bill he promises to cut runs through the disability benefit his own party&rsquo;s review has just declared unfit, and last year&rsquo;s attempt at welfare savings collapsed under a backbench revolt. Squaring fiscal discipline with the devolutionary, town-hall-empowering agenda his allies have trailed is the central tension of the government he is about to lead, into an in-tray that now includes a regional war in the Gulf and the oil shock it threatens. Watch the nomination close on 15 July, whether he keeps Rachel Reeves at the Treasury, and how the welfare promise survives contact with his backbenches.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="06:00" data-slug="farage-standards-investigation-cottrell-benefits">
+ <h4>Farage Faces Standards Inquiry Over Fraudster&rsquo;s Support</h4>
+ <p>The parliamentary standards commissioner is investigating benefits Nigel Farage received from George Cottrell, a man convicted of wire fraud in the United States, including staffing, security and the use of a London townhouse in the period before Farage became an MP in July 2024. A separate £5m donation to Reform from the businessman Christopher Harborne is also under scrutiny. Farage denies any wrongdoing and is said to be weighing legal action over the reporting. The inquiry adds to a widening set of questions over Reform&rsquo;s finances.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The standards inquiry runs alongside the police and crime-agency interest in Reform&rsquo;s donations, and together they form a pattern that cuts against the party&rsquo;s central claim to be cleaner than the establishment it attacks. The Cottrell relationship is the thread that keeps reappearing: a convicted fraudster whose money and support have flowed around Farage&rsquo;s operation for years, now the subject of both a standards investigation into undeclared benefits and crime-agency referrals over the source of funds. Reform&rsquo;s response &mdash; denial, and the threat of legal action against the newspapers reporting it &mdash; is the same combative posture it has taken throughout, betting that its supporters read the scrutiny as establishment persecution rather than genuine wrongdoing. It lands as the party rides high in the polls and prepares to fight a by-election. Watch the commissioner&rsquo;s findings, whether the legal threats materialise, and whether the drip of disclosures finally moves Reform&rsquo;s standing.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="08:30" data-slug="heat-toll-drownings-nhs-strain-warnings">
+ <h4>Heat&rsquo;s Toll Mounts With Water Deaths and NHS Under Strain</h4>
+ <p>The human cost of the heat is mounting as it persists, with police and fire services renewing warnings about open water after a series of drownings during the hot spell, and the NHS under sustained pressure. Officials have urged people not to cool off in reservoirs, rivers and lakes, where cold-water shock can incapacitate even strong swimmers, and to reserve 999 for life-threatening emergencies. The highest risk is to the very young, the over-65s and those with existing conditions, the groups the heat-health alerts are designed to protect.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">Heat kills quietly and mostly out of sight: not in the dramatic wildfire but in the reservoir that looks inviting on a hot afternoon, the overheated flat where an elderly resident lives alone, and the ambulance queue lengthened by dehydration and cardiac emergencies. Open-water drownings spike in every heatwave as people seek to cool down, which is why the warnings are repeated even as they go unheeded; cold water beneath a warm surface triggers a gasp reflex that can drown a swimmer in minutes. The strain on the NHS is the slower burn &mdash; higher demand meeting an estate that itself overheats, with wards, equipment and staff all tested. The true toll of a heatwave is only ever counted afterwards, in the excess-death statistics that lag the peak by days. Watch the drowning-prevention warnings, hospital pressure through the extended alert, and the mortality data once the heat breaks.</div>
+ </details>
+ </div>
+
+ </div>
+ </div>
+ </div>
+
+ <div class="one-to-read">
+ <span class="otr-label">One To Read</span>
+ <a href="https://www.washingtonpost.com/world/2026/07/11/us-strikes-iran-it-declares-strait-hormuz-closed-fires-ship/" target="_blank" rel="noopener noreferrer">
+ <h4>The Night the Gulf War Went Regional</h4>
+ <span class="otr-source">The Washington Post</span>
+ <span class="otr-dot">&middot;</span>
+ <span class="otr-desc">The account of the overnight escalation that widened the US-Iran war &mdash; Iran declaring the Strait of Hormuz closed and firing on a container ship, the American strikes on some 140 targets in reply, and why a fifth of the world&rsquo;s oil now hangs on what happens next.</span>
+ </a>
+ </div>
+ <!-- SOURCES USED
+ - https://www.bloomberg.com/news/articles/2026-07-11/iran-declares-strait-of-hormuz-closed-until-further-notice &mdash; Bloomberg: Hormuz closed, fresh US strikes
+ - https://www.washingtonpost.com/world/2026/07/11/us-strikes-iran-it-declares-strait-hormuz-closed-fires-ship/ &mdash; Washington Post: US strikes, Hormuz closure, ship fired on (also One To Read)
+ - https://abcnews.com/International/live-updates/iran-live-updates-thousands-throng-tehran-streets-khamenei/?id=134509610 &mdash; ABC News: Gulf countries under attack, third round of strikes, Hegseth quote
+ - https://www.cnn.com/2026/07/11/world/live-news/iran-war-trump &mdash; CNN: GFS Galaxy attack, Indian sailors, 140 targets, 300+ this week
+ - https://www.aljazeera.com/news/liveblog/2026/7/12/iran-war-live-irgc-declares-strait-of-hormuz-closed-over-us-interference &mdash; Al Jazeera: IRGC Hormuz closure, Gulf strikes, interceptions
+ - https://www.npr.org/sections/world &mdash; NPR: Ukraine overnight strikes, Sumy casualties
+ - https://abcnews.com/International/wireStory/11-wounded-overnight-russian-missile-drone-strikes-kyiv-134672177 &mdash; ABC News (AP): Russian barrage, Kyiv/Odesa, Ukraine tanker strikes
+ - https://www.aljazeera.com/news/2026/7/10/wildfires-in-southern-spain-kill-at-least-12 &mdash; Al Jazeera: Almería wildfire, 12 dead, missing
+ - https://www.cnn.com/2026/07/10/europe/wildfires-southern-spain-deaths-intl &mdash; CNN: Spain wildfire deaths, European heat emergency
+ - https://www.pbs.org/newshour/politics/rep-ro-khanna-says-he-was-detained-by-the-israeli-military-and-settlers-in-the-west-bank &mdash; PBS News: Ro Khanna detained, IDF denial
+ - https://www.nbcnews.com/politics &mdash; NBC News: Khanna West Bank account, settler rifles
+ - https://www.gov.uk/government/news/ukhsa-updates-heat-health-alerts-across-england &mdash; gov.uk / UKHSA (official): amber alert extended to 15 July, over-65s risk
+ - https://ukhsa-dashboard.data.gov.uk/weather-health-alerts/heat &mdash; UKHSA (official): regional alert levels
+ - https://www.metoffice.gov.uk/about-us/news-and-media/media-centre/weather-and-climate-news/2026/heatwave-continues-as-uk-records-unprecedented-run-of-35c-days &mdash; Met Office (official): temperatures, tropical nights, not record-breaking Sunday
+ - https://www.anglianwater.co.uk/news/hosepipe-ban-announcement &mdash; Anglian Water (official): hosepipe ban in force, first in a decade
+ - https://www.washingtonpost.com/world/2026/07/09/andy-burnham-labour-leadership-election-nominations/347a9312-7b65-11f1-b194-f872dd4ec5aa_story.html &mdash; Washington Post: Burnham 322 MPs, fiscal-discipline pledge, timeline
+ - https://www.pbs.org/newshour/world/andy-burnham-prepares-for-a-uk-labour-leadership-contest-that-may-be-a-coronation &mdash; PBS News: coronation, nominations close 15 July
+ - https://www.bloomberg.com/news/articles/2026-07-06/farage-denies-wrongdoing-over-benefits-from-us-convicted-fraudster &mdash; Bloomberg: Farage standards inquiry, Cottrell benefits, Harborne £5m, denial
+ - https://www.itv.com/news &mdash; ITV News: heat health guidance, NHS pressure, water-safety warnings
+ - Market data (Friday 10 July close; markets shut for the weekend, BTC live): Yahoo Finance, CNBC, Trading Economics (cross-referenced 12 July ~09:45 BST)
+ END SOURCES USED -->
+ </div><!-- ── END MORNING 12 JUL (09:53) ── -->
  <!-- ── EVENING 11 JUL (21:18) ── -->
 <div class="curated-edition evening" data-date="2026-07-11" data-time="21:18" data-markets='{"FTSE":{"price":10497,"change":0.24},"SP":{"price":7575,"change":0.42},"Brent":{"price":76.01,"change":-0.38},"GBP":{"price":1.3394,"change":-0.05},"Gold":{"price":4112,"change":-0.3},"EURGBP":{"price":0.8516,"change":0.05},"Gilt":{"price":4.88,"change":-0.02},"VIX":{"price":15.84,"change":-6.3},"BTC":{"price":64150,"change":1.5},"UST":{"price":4.54,"change":-0.03},"ts":"2026-07-11T21:18:00+01:00"}'>
  <div class="edition-header">
@@ -4680,331 +4832,7 @@
  END SOURCES USED -->
  </div><!-- ── END MORNING 05 JUL (09:35) ── -->
 
- <!-- ── EVENING 04 JUL (19:40) ── -->
-<div class="curated-edition evening" data-date="2026-07-04" data-time="19:40" data-markets='{"FTSE":{"price":10679,"change":0.25},"SP":{"price":7483,"change":0.00},"Brent":{"price":72.13,"change":0.46},"GBP":{"price":1.3351,"change":0.04},"Gold":{"price":4187,"change":1.81},"EURGBP":{"price":0.8566,"change":-0.06},"Gilt":{"price":4.79,"change":0.00},"VIX":{"price":16.15,"change":-2.65},"BTC":{"price":63072,"change":1.48},"UST":{"price":4.49,"change":0.01},"ts":"2026-07-04T19:40:00+01:00"}'>
- <div class="edition-header">
- <span class="edition-icon">&#9789;</span>
- <h2>Evening Briefing</h2>
- </div>
- <div class="curated-meta">Saturday 4 July 2026 &mdash; 19:40 BST</div>
- <div class="impact-box">
- <h3 class="impact-heading">What It Means For You</h3>
- <ul class="impact-list">
- <li><strong>A Hot Week Ahead:</strong> The heat-health alerts that began at midday run until next Saturday evening, with 29C tomorrow, the low 30s through the week and a peak near 34C in the South East on Thursday or Friday &mdash; check on older relatives daily, and take the water-safety warning seriously: the UKHSA is explicitly warning of cold-water shock and drowning risk.</li>
- <li><strong>Hosepipe Ban:</strong> Southern Water&rsquo;s ban starts at 00:01 on Friday 10 July for Hampshire and the Isle of Wight &mdash; no garden watering, paddling pools or car washing &mdash; so the coming days are the window to prepare gardens for a dry spell.</li>
- <li><strong>High Street &amp; Taxes:</strong> Burnham&rsquo;s first concrete fiscal plan is firming up &mdash; a 20% business-rates cut for high-street premises funded by higher rates on warehouses &mdash; the clearest signal yet of where his first Budget is heading before a chancellor is even named.</li>
- </ul>
- </div>
- <div class="curated-grid">
- <div class="curated-column">
- <h3><span class="dot geo"></span><span class="dot-label">GEO</span> Geopolitical</h3>
- <div>
 
- <div class="curated-item" data-time="07:55" data-slug="ukraine-strikes-st-petersburg-oil-terminal">
- <h4>Ukraine Strikes St Petersburg Oil Terminal in Deepest Attack</h4>
- <p>Ukraine struck Russia&rsquo;s second city overnight in what Moscow said was an attack by some 500 long-range drones, setting the St Petersburg Oil Terminal ablaze and targeting the Kronstadt naval base, more than 850km from Ukraine&rsquo;s border. President Zelensky said his forces &ldquo;struck port oil infrastructure that generates revenue for Russia&rsquo;s war&rdquo;. One person was killed in Bryansk and one in Crimea. President Putin signed emergency tax changes to prop up Russia&rsquo;s domestic fuel market the same day.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">Two days after Moscow&rsquo;s deadliest strike on Kyiv killed at least 30, Ukraine has answered at scale &mdash; and the target choice is the strategy: the terminal ships 12.5m tonnes of petroleum products a year, and Ukraine&rsquo;s long-range campaign has produced fuel queues and shortages across Russia, with Kyiv claiming a large share of Russian refining capacity is now out of action. Putin&rsquo;s tax-code intervention is a rare tacit admission the shortages bite. The escalation spiral on both sides frames the air-defence and aid agenda at next week&rsquo;s NATO summit. Watch Russia&rsquo;s retaliation, and fuel-market data from both countries.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="12:00" data-slug="crowds-mourn-khamenei-mojtaba-unseen">
- <h4>Vast Crowds Mourn Khamenei as His Successor Stays Unseen</h4>
- <p>Tens of thousands filed through Tehran&rsquo;s Grand Mosalla mosque to view Ayatollah Khamenei&rsquo;s coffin, displayed under glass beside his daughter, son-in-law and 14-month-old granddaughter, all killed in February&rsquo;s opening strikes. Supreme Leader Mojtaba Khamenei, wounded in the same attack, made no appearance on the funeral&rsquo;s first day. President Trump said that with Iran&rsquo;s leadership gathered in one place Washington could strike with &ldquo;one shot&rdquo; &mdash; &ldquo;but we are not going to do that because then we would have nobody to negotiate with&rdquo;.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The choreography continues through the week &mdash; lying in state until Sunday evening, a mass procession through Tehran on Monday, Qom on Tuesday, Najaf and Kerbala on Wednesday, burial near Mashhad on Thursday &mdash; and the regime is staging it as proof the state survived the war intact, months after protests were violently crushed. Mojtaba&rsquo;s absence from his own father&rsquo;s funeral is the detail that matters: four months into his succession there is still no new image of him, feeding questions about his condition and his grip. The peace talks, and their asset-unfreezing provisions, resume only after the burial. Watch Monday&rsquo;s procession numbers.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="15:00" data-slug="putin-claims-kostyantynivka-kyiv-denies">
- <h4>Russia Claims Fortress Town Captured; Zelensky Mocks the Claim</h4>
- <p>Russia&rsquo;s military claimed the capture of Kostyantynivka, the anchor of Ukraine&rsquo;s fortress belt in Donetsk, a day after President Putin first asserted control &mdash; without offering evidence. Ukraine&rsquo;s military said the town &ldquo;remains under the control of the Defence Forces of Ukraine&rdquo;, acknowledging infiltration by small infantry groups. President Zelensky replied that if the town were truly in Russian hands, &ldquo;Putin will probably have no problem meeting me there and finding diplomatic solutions to finally end the war&rdquo;.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">Were it real, Kostyantynivka would be Moscow&rsquo;s first significant battlefield gain this year &mdash; which is precisely why the claim arrives now, two days before NATO leaders meet in Ankara, from a military that independent analysts assess as barely advancing at extraordinary cost. A think-tank study this week put Russian casualties near 1.4 million, including up to 450,000 dead. The information war matters because summit decisions on aid urgency are shaped by perceptions of momentum. Watch for visual confirmation either way in the coming days &mdash; and whether the claim is quietly dropped, as previous ones have been.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="16:30" data-slug="nato-ankara-summit-eve-security-lockdown">
- <h4>NATO Gathers in Ankara Seeking to Steady the Alliance</h4>
- <p>NATO&rsquo;s 32 leaders converge on Ankara for Tuesday and Wednesday&rsquo;s summit under a sweeping security lockdown, with a draft declaration affirming an &ldquo;ironclad commitment&rdquo; to collective defence under Article 5 and European allies preparing a Ukraine military aid package expected to reach &euro;70bn a year. Canada aims to announce around ten founding nations for a global defence bank. Presidents Trump and Zelensky both attend, days after the week&rsquo;s escalation on both sides of the air war.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The first alliance summit since the Iran war has one question under all the communiqu&eacute; language: whether American security guarantees still mean what the treaty says, with European capitals aiming to keep disputes over Iran and Greenland off the table and get Trump&rsquo;s signature on the Article 5 text. The Ukraine file is the concrete test &mdash; air-defence supply, the Patriot-licence request, and an aid number big enough to signal endurance. The choice of Ankara gives Turkey&rsquo;s President Erdogan a hosting role he has already begun using. Watch the final aid figure and any language on Ukraine&rsquo;s path to membership.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="17:30" data-slug="trump-caps-250th-mall-rally">
- <h4>Trump Caps America&rsquo;s 250th With Campaign-Style Mall Rally</h4>
- <p>President Trump is closing America&rsquo;s 250th-anniversary day with a campaign-style rally on Washington&rsquo;s National Mall, extending his attack on what he calls a resurgent communism ahead of a record fireworks display &mdash; the first Independence Day show designated a National Special Security Event. It follows his Mount Rushmore address declaring &ldquo;a resurgence of the communist menace in our land&rdquo; and demanding the Senate filibuster&rsquo;s abolition to pass federal voter-identification law.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The anniversary&rsquo;s conversion into a sustained campaign platform &mdash; Mount Rushmore on Friday, the Mall tonight &mdash; sets the tone for a midterm cycle in which immigration and voting rules anchor the message, and the filibuster demand carries constitutional weight well beyond the anniversary. The security designation and the centralisation of the celebrations around the President himself are departures from how previous administrations marked the day. For Britain, the temperature in Washington shapes the NATO summit it feeds directly into next week. Watch the Mall speech&rsquo;s targets tonight and Republican senators&rsquo; response to the filibuster call.</div>
- </details>
- </div>
-
- </div>
- </div>
- <div class="curated-column">
- <h3><span class="dot dom"></span><span class="dot-label">UK</span> UK Domestic Politics</h3>
- <div>
-
- <div class="curated-item" data-time="12:00" data-slug="week-long-heat-alerts-34c-peak">
- <h4>Week-Long Heat Alerts Issued as 34C Peak Forecast</h4>
- <p>Yellow heat-health alerts covering six English regions came into force at midday and run until next Saturday evening, with the Met Office forecasting 29C tomorrow, the low 30s through the week and a peak near 34C in the South East on Thursday or Friday. The UK Health Security Agency warns of greater risk to life for vulnerable people and of &ldquo;an increase in water-related incidents due to a raised risk of cold water shock and drowning&rdquo;. Unlike June&rsquo;s record spell, the heat will be drier &mdash; but longer.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The escalation is in the duration, not the colour: the alerts stayed yellow rather than amber, but an eight-day window is a different kind of test for the NHS and care sector than June&rsquo;s short, humid spike that set a provisional UK June record of 37.7C. The water infrastructure is already responding &mdash; Southern Water&rsquo;s hosepipe ban for a million customers starts Friday, with the River Test down a third in a month &mdash; and heat deaths typically peak two to three days into a spell, putting midweek in focus. Watch for amber escalation around the Thursday-Friday peak, and reservoir announcements from other water companies.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="01:30" data-slug="streeting-demands-parliament-summon-maternity-witnesses">
- <h4>Streeting Demands Parliament Summon Maternity Scandal Witnesses</h4>
- <p>Wes Streeting called on Parliament&rsquo;s health committee to summon the senior NHS managers who refused to give evidence to the Nottingham maternity review, saying their &ldquo;cowardice&hellip; is an insult to the Nottingham families&rdquo; and accusing the health service of a cover-up culture. The former Health Secretary wrote to committee chair Layla Moran urging her to &ldquo;summon those who refused to give evidence to Donna&rdquo; &mdash; Donna Ockenden, whose review into deaths and injuries at Nottingham University Hospitals is the largest maternity inquiry in NHS history.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">Select committees hold formal powers to compel witnesses that a non-statutory review lacks &mdash; which is the gap Streeting is asking Parliament to close, after dozens of senior staff approached by the review declined to co-operate voluntarily. Some bereaved families back the language but want a statutory public inquiry instead, and worry about prejudicing the ongoing police investigation; the government has already legislated for compelled evidence in future maternity reviews. For Streeting, who resigned as Health Secretary in May, the intervention keeps him central during a transition in which every cabinet post is in play. Watch Moran&rsquo;s response and whether the committee issues summonses.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="17:40" data-slug="powell-burnham-end-boys-club-culture">
- <h4>Powell Says Burnham Will End No 10 Boys Club Culture</h4>
- <p>Deputy Labour leader Lucy Powell said Andy Burnham will change the &ldquo;boys club&rdquo; culture of factional briefings in Downing Street, describing the current culture as &ldquo;unpleasant&rdquo; and saying No 10 must become &ldquo;more meritocratic&rdquo;. Her intervention landed alongside a letter from female Labour MPs urging Burnham to give half of all government posts to women if he becomes Prime Minister this month.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The demands are the first organised attempt to shape the composition of a Burnham government rather than merely its leader &mdash; and they interact directly with the chancellor question, where the leading names in circulation are men and Washington has already been briefing against one of them. Powell&rsquo;s critique of the briefing culture doubles as a verdict on the McSweeney-era Downing Street whose own architect conceded this week that Labour never prepared properly for power. Cabinet formation now carries two simultaneous tests: gender balance and geographic balance, with the chancellor expected to split time between London and the north. Watch the first appointments &mdash; they will be read against the fifty-per-cent demand.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="15:40" data-slug="harry-drops-family-london-visit-security">
- <h4>Harry Drops Family From London Visit Over Security Row</h4>
- <p>Prince Harry will travel to London next week without Meghan and their children after confirmation that the family would not receive police protection in the capital, according to multiple reports. His security team had explored ways to make the trip work for the whole family, but the arrangements will not cover London; the family may join him elsewhere in the UK. The visit had been billed as a possible reconciliation trip.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The decision is the practical consequence of Harry&rsquo;s long legal fight over the downgrading of his taxpayer-funded protection after he stepped back from royal duties &mdash; a dispute that has effectively partitioned the country into places his family will and will not visit. A reconciliation visit conducted alone changes its character, and the security question now sits with a caretaker government weeks from handover. The Ravec framework that decides protective security for public figures has never been designed for a case like this. Watch whether the King meets his son during the trip, and whether the incoming government revisits the security ruling.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="14:40" data-slug="king-hails-truly-historic-milestone-250th">
- <h4>King Hails Truly Historic Milestone on America&rsquo;s 250th</h4>
- <p>The King sent his &ldquo;warmest congratulations&rdquo; to President Trump and the American people on the 250th anniversary of the Declaration of Independence, calling it a &ldquo;truly historic milestone&rdquo; and describing a relationship &ldquo;founded on friendship, trust and a belief in liberty&rdquo;. He confirmed a forthcoming state visit, saying he and the Queen were &ldquo;proud, and honoured, to be able to celebrate this special anniversary during our visit to the United States&rdquo;.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">A British monarch offering warm congratulations on independence from Britain is a diplomatic set-piece with deliberate purpose: the royal relationship is one of the few stable channels to this White House, and the confirmed state visit gives whoever occupies Downing Street after 20 July an anchor for the relationship that does not depend on personal chemistry. The message lands in the same week Washington privately intervened in the chancellor appointment &mdash; a reminder of how asymmetric the &ldquo;special relationship&rdquo; currently runs. Watch the state-visit dates, and how an incoming Burnham government choreographs its own first contact with the administration.</div>
- </details>
- </div>
-
- </div>
- </div>
- </div>
-
- <div class="one-to-read">
- <span class="otr-label">One To Read</span>
- <a href="https://www.reuters.com/world/middle-east/israel-hasnt-said-who-its-soldiers-abused-two-gaza-mothers-think-its-their-son-2026-07-04/" target="_blank" rel="noopener noreferrer">
- <h4>The Photograph Israel Has Not Explained</h4>
- <span class="otr-source">Reuters</span>
- <span class="otr-dot">&middot;</span>
- <span class="otr-desc">Reuters investigates the image of a Gaza man shown blindfolded, stripped and restrained in Israeli custody &mdash; a man Israel has never identified, and whom two Gaza mothers each believe is their missing son.</span>
- </a>
- </div>
- <!-- SOURCES USED
- - https://www.reuters.com/world/st-petersburg-region-hit-by-major-ukrainian-drone-attack-russian-officials-say-2026-07-04/ &mdash; Reuters: St Petersburg attack, Beglov, casualties
- - https://www.bbc.co.uk/news/articles/c8j2vmzxezro &mdash; BBC News: verified terminal strike, Kostyantynivka claim and denial, Kovalyov quote
- - https://apnews.com/article/russia-ukraine-war-oil-st-petersburg-c95b97c0ab5ca8d06050f09e54ea69a9 &mdash; AP: drone attack scale, Zelensky quote
- - https://abcnews.com/International/ukraine-launches-major-drone-attack-russia/story?id=134470108 &mdash; ABC News: attack coverage, Zelensky Kostyantynivka riposte
- - https://www.reuters.com/business/media-telecom/iranians-flock-week-long-funeral-rites-khamenei-2026-07-04/ &mdash; Reuters: funeral crowds, itinerary, Trump one-shot quote
- - https://www.bbc.com/news/articles/c0ky2zen1kgo &mdash; BBC News: funeral first day
- - https://www.nytimes.com/live/2026/07/04/world/iran-funeral-ayatollah-khamenei &mdash; New York Times: funeral live coverage
- - https://www.timesofisrael.com/mourners-chant-death-to-america-and-israel-as-iran-begins-days-long-khamenei-funeral/ &mdash; Times of Israel: funeral scenes
- - https://www.reuters.com/business/aerospace-defense/nato-leaders-affirm-ironclad-commitment-collective-defence-ankara-summit-text-2026-07-03/ &mdash; Reuters: draft summit text
- - https://www.reuters.com/business/aerospace-defense/nato-leaders-gather-ankara-aiming-smooth-over-tensions-with-trump-2026-07-03/ &mdash; Reuters: summit preview, aid package, defence bank
- - https://apnews.com/article/turkey-nato-summit-tight-security-c2423abfaa605dbfb8228972047c1dbf &mdash; AP: Ankara security lockdown
- - https://www.reuters.com/world/us/trump-extols-america-rails-communism-us-250th-celebration-2026-07-04/ &mdash; Reuters: 250th rally remarks
- - https://www.reuters.com/world/us/trump-mark-us-250th-anniversary-with-campaign-style-rally-national-mall-2026-07-04/ &mdash; Reuters: Mall rally
- - https://www.theguardian.com/us-news/2026/jul/04/trump-launches-americas-250th-birthday-celebrations-with-partisan-attack &mdash; The Guardian: Mount Rushmore speech
- - https://www.cnbc.com/2026/07/04/trump-makes-darkly-political-speech-to-usher-in-uss-250-anniversary.html &mdash; CNBC: speech analysis
- - https://www.cnn.com/2026/07/03/politics/july-fourth-fireworks-trump-what-we-know &mdash; CNN: security designation, fireworks
- - https://www.reuters.com/world/middle-east/israel-hasnt-said-who-its-soldiers-abused-two-gaza-mothers-think-its-their-son-2026-07-04/ &mdash; Reuters: Gaza detainee investigation (One To Read)
- - https://www.theguardian.com/uk-news/2026/jul/04/week-long-heatwave-due-in-england-with-34c-peak-in-south-east &mdash; The Guardian: 34C forecast, alert details
- - https://www.itv.com/news/2026-07-04/another-heatwave-on-way-with-34c-peak-forecast-as-fresh-hosepipe-ban-announced &mdash; ITV News: heatwave and hosepipe ban
- - https://www.bbc.com/weather/articles/c621j44jwe1o &mdash; BBC Weather: heatwave outlook
- - https://www.bbc.co.uk/news/articles/cx2d9x8rvd9o &mdash; BBC News: Streeting letter, quotes
- - https://www.telegraph.co.uk/news/2026/07/04/streeting-accuses-nhs-of-cover-up-over-maternity-scandal/ &mdash; The Telegraph: cover-up accusation
- - https://www.itv.com/news/central/2026-07-04/force-nhs-bosses-to-face-mps-over-maternity-scandal-streeting-urges &mdash; ITV News: summons call
- - https://www.independent.co.uk/news/uk/home-news/wes-streeting-mps-layla-moran-nottingham-families-b3008844.html &mdash; The Independent: Moran letter
- - https://www.theguardian.com/politics/2026/jul/04/burnham-will-change-no-10-boys-club-briefing-culture-says-lucy-powell &mdash; The Guardian: Powell quotes
- - https://www.independent.co.uk/news/uk/politics/keir-starmer-boys-club-briefing-culture-andy-burnham-lucy-powell-b3008990.html &mdash; The Independent: Powell, women MPs letter
- - https://www.bbc.co.uk/news/articles/cr5jpzn2814o &mdash; BBC News: Harry London visit
- - https://news.sky.com/story/prince-harry-wont-bring-family-to-london-when-he-visits-uk-next-week-sky-news-understands-13560394 &mdash; Sky News: security arrangements
- - https://www.cnn.com/2026/07/04/uk/prince-harry-meghan-uk-visit-intl &mdash; CNN: visit coverage
- - https://www.cbsnews.com/news/prince-harry-to-travel-without-meghan-to-london-amid-security-flap/ &mdash; CBS News: family may join outside London
- - https://www.bbc.co.uk/news/articles/cy9r2pnj4j7o &mdash; BBC News: King's 250th message
- - https://www.independent.co.uk/news/uk/home-news/king-charles-trump-american-independence-day-2026-b3008926.html &mdash; The Independent: message text, state visit
- - https://news.sky.com/story/politics-latest-burnham-starmer-labour-makerfield-by-election-12593360 &mdash; Sky News: business-rates plan detail (impact box)
- - Market data: Yahoo Finance, CNBC, Coinbase (weekend closes stand; Bitcoin verified live 4 July 19:40-19:45 BST)
- END SOURCES USED -->
- </div><!-- ── END EVENING 04 JUL (19:40) ── -->
-
- <!-- ── MORNING 04 JUL (09:23) ── -->
-<div class="curated-edition morning" data-date="2026-07-04" data-time="09:23" data-markets='{"FTSE":{"price":10679,"change":0.25},"SP":{"price":7483,"change":0.00},"Brent":{"price":72.13,"change":0.46},"GBP":{"price":1.3351,"change":0.04},"Gold":{"price":4187,"change":1.81},"EURGBP":{"price":0.8566,"change":-0.06},"Gilt":{"price":4.79,"change":0.00},"VIX":{"price":16.15,"change":-2.65},"BTC":{"price":62481,"change":1.58},"UST":{"price":4.49,"change":0.01},"ts":"2026-07-04T09:23:00+01:00"}'>
- <div class="edition-header">
- <span class="edition-icon">&#9728;</span>
- <h2>Morning Briefing</h2>
- </div>
- <div class="curated-meta">Saturday 4 July 2026 &mdash; 09:23 BST</div>
- <div class="impact-box">
- <h3 class="impact-heading">What It Means For You</h3>
- <ul class="impact-list">
- <li><strong>Heat From Midday:</strong> Yellow heat-health alerts covering the East and West Midlands, London, the East, South East and South West activate at noon today and run until next Saturday evening, with temperatures near or above 30C &mdash; check on older relatives, and take care around open water: seven people died in water incidents during June&rsquo;s heatwave.</li>
- <li><strong>Children&rsquo;s Photos:</strong> The National Crime Agency&rsquo;s first-ever guidance of its kind asks parents not to post children&rsquo;s images publicly and to set social accounts to private, responding to a surge in AI-generated abuse material &mdash; a five-minute privacy check this weekend covers it.</li>
- <li><strong>Summer Travel:</strong> From Wednesday 8 July, children aged eight and nine can use airport eGates when travelling with an adult &mdash; families flying at the start of the school holidays should clear the border faster.</li>
- </ul>
- </div>
- <div class="curated-grid">
- <div class="curated-column">
- <h3><span class="dot geo"></span><span class="dot-label">GEO</span> Geopolitical</h3>
- <div>
-
- <div class="curated-item" data-time="06:05" data-slug="iran-funeral-khamenei-begins-tehran-crowds">
- <h4>Iran&rsquo;s Funeral for Khamenei Begins With Vows of Revenge</h4>
- <p>Iran&rsquo;s days-long funeral for Ayatollah Ali Khamenei began this morning at Tehran&rsquo;s Grand Mosalla mosque, his casket displayed in a glass case beside the coffins of family members killed with him in February&rsquo;s opening strikes. Crowds chanted &ldquo;Revenge! Revenge!&rdquo; and &ldquo;Death to America!&rdquo; at ceremonies Iran deliberately began on America&rsquo;s 250th birthday. President Trump, speaking at Mount Rushmore, said: &ldquo;We knocked the hell out of Iran&hellip; They want to settle so badly. We gave them a week off for a funeral.&rdquo;</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">Tehran&rsquo;s streets, airspace and daily life have shut down for a mobilisation intended to echo Khomeini&rsquo;s 1989 funeral, when millions filled the capital &mdash; and turnout is the measure everyone will read, six months after protests were violently suppressed. The unresolved question is whether new Supreme Leader Mojtaba Khamenei appears at his father&rsquo;s funeral at all: Israel has repeatedly threatened to kill him, and Iran&rsquo;s military command has warned Washington and Israel &ldquo;to avoid any miscalculation&rdquo; during the rites. A strong showing strengthens Tehran&rsquo;s hand in the settlement talks that resume after the burial on Thursday. Watch the procession crowds on Monday.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="03:00" data-slug="trump-opens-250th-communist-menace-warning">
- <h4>Trump Opens America&rsquo;s 250th With Communist Menace Warning</h4>
- <p>President Trump launched the United States&rsquo; semiquincentennial with a partisan address at Mount Rushmore, declaring &ldquo;a resurgence of the communist menace in our land&rdquo; that he tied to immigration, and telling the crowd: &ldquo;You can be a communist, or you can be a patriot. You cannot be both.&rdquo; He called for abolishing the Senate filibuster to pass legislation requiring proof of citizenship to register to vote and photo identification to cast a ballot. He headlines a rally on Washington&rsquo;s National Mall today.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The speech converted a national anniversary into a midterms platform four months before Americans vote &mdash; and the legislative asks are concrete: filibuster abolition would remove the Senate&rsquo;s main brake on majority rule, and federal voter-identification law has been a partisan battleground for two decades. The framing of &ldquo;newcomers&rdquo; as carriers of un-American ideas signals immigration will anchor the campaign. For Britain, the temperature of Washington politics shapes everything from NATO burden-sharing at next week&rsquo;s summit to trade. Watch today&rsquo;s Mall rally, and how Republican senators respond to the filibuster demand.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="15:00" data-slug="nato-ankara-summit-ironclad-commitment-ukraine">
- <h4>NATO Leaders to Affirm Ironclad Commitment at Ankara Summit</h4>
- <p>NATO leaders including President Trump will affirm an &ldquo;ironclad commitment&rdquo; to collective defence under Article 5 at next week&rsquo;s summit in Ankara, according to the draft summit text. President Zelensky, who also attends, arrives pressing for faster air-defence deliveries and licences to build Patriot interceptors in Ukraine after the week&rsquo;s attacks on Kyiv killed at least 30 people. European allies are expected to set out fresh military aid commitments for Ukraine.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The summit convenes Tuesday and Wednesday with the alliance&rsquo;s two live anxieties on one table: whether American security guarantees hold under a president openly sceptical of them, and whether Europe can arm Ukraine at the pace Russia&rsquo;s escalating air war demands. The &ldquo;ironclad&rdquo; language in the draft text is aimed at the first; the air-defence file tests the second, with Kyiv arguing that roughly a third of what Russia now fires is ballistic and only Patriot systems intercept it reliably. Watch the aid numbers that emerge, and whether the Patriot-licence request advances beyond warm words.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="19:00" data-slug="damascus-bomb-toll-ten-lawyers-dead">
- <h4>Damascus Bomb Toll Hits Ten With Six Lawyers Among Dead</h4>
- <p>The death toll from Thursday&rsquo;s cafe bombing in central Damascus rose to ten, with more than twenty injured, as mourners buried victims and Syria&rsquo;s Bar Association confirmed six lawyers were among those killed. The cafe sits beside the Palace of Justice, where cases against former Assad regime officials are being heard. No group has claimed the attack; the Interior Ministry investigation continues, with officials suspecting Islamic State sleeper cells.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The victims sharpen the reading of the target: six lawyers dead beside the courthouse trying Assad-era officials makes this look like an attack on transitional justice itself, not a random strike on civilian life. Islamic State has declared a &ldquo;new phase&rdquo; of operations against President Ahmed al-Sharaa&rsquo;s government, and a May car bomb outside the defence ministry fits the same pattern of urban pressure on the new state&rsquo;s credibility. Regional condemnation &mdash; Jordan, Qatar, Egypt, Iraq &mdash; underlines how much neighbouring capitals have invested in the transition holding. Watch for attribution, arrests, and whether courthouse security changes how the trials proceed.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="16:00" data-slug="iran-hormuz-leverage-settlement-talks-tolls">
- <h4>Iran Wields Hormuz Control as Leverage in Settlement Talks</h4>
- <p>Iran is explicitly using its hold over the Strait of Hormuz as leverage in negotiations with Washington over a permanent end to the war, with Tehran and Oman exploring transit charges that could reach $40bn a year. All tankers have been ordered to use Iranian-approved routes or face a &ldquo;forceful response&rdquo;. The talks are paused for the funeral week; shipping traffic, though recovering strongly, remains well below the pre-war norm.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The $40bn figure explains why Tehran will not simply trade the strait away: annualised, it would rival the country&rsquo;s entire pre-war oil revenue, converting a military position into a permanent income stream. Washington insists free navigation is non-negotiable, but European capitals are reported to be resigned to some form of charge, and every day tankers comply with Iranian routing concedes a little more of the principle. The strait carried a fifth of global oil and liquefied gas before the war; the outcome will set petrol and energy prices for years. Watch the first negotiating session after Thursday&rsquo;s burial in Mashhad.</div>
- </details>
- </div>
-
- </div>
- </div>
- <div class="curated-column">
- <h3><span class="dot dom"></span><span class="dot-label">UK</span> UK Domestic Politics</h3>
- <div>
-
- <div class="curated-item" data-time="22:00" data-slug="starmer-first-interview-since-resigning-warns-burnham">
- <h4>Starmer Warns Burnham Diplomacy Cannot Be Delegated</h4>
- <p>Sir Keir Starmer used his first interview since resigning to warn his successor that foreign affairs cannot be set aside, saying of Andy Burnham&rsquo;s domestic-first pitch: &ldquo;It is not sensible to think you can just separate these two things out.&rdquo; Asked whether a prime minister could spend less time on diplomacy, he replied: &ldquo;No, I don&rsquo;t think it is possible.&rdquo; He called the decision to quit &ldquo;intensely personal&rdquo; and &ldquo;really, really tough&rdquo;, taken over two days with his family at Chequers.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The interview, marking what would have been his second anniversary in office this weekend, is both valediction and warning shot: Starmer claims he &ldquo;saved the Labour Party&rdquo; from a state he describes as politically, financially and morally bankrupt, places his 2024 landslide alongside Attlee&rsquo;s and Blair&rsquo;s, and says MPs removed him because they no longer believed he could win the next election. He will stay on as an MP, &ldquo;keeping my mouth shut&rdquo;. The diplomacy warning lands directly on Burnham&rsquo;s &ldquo;No 10 North&rdquo; prospectus. Watch whether Burnham answers the challenge in his first days &mdash; the in-tray (NATO, Iran, Washington) will answer it for him otherwise.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="22:30" data-slug="us-officials-warn-burnham-against-miliband">
- <h4>US Officials Warn Burnham Against Miliband as Chancellor</h4>
- <p>Senior officials in President Trump&rsquo;s administration have privately warned that appointing Ed Miliband as chancellor would be a &ldquo;mistake&rdquo;, with concern centring on his opposition to new North Sea oil and gas drilling. Miliband&rsquo;s allies counter that he is the only candidate radical enough to turn the economy around. The City has separately warned that leaving the appointment open risks stifling investment, and whoever takes No 11 must find at least &pound;4.7bn in savings at the autumn Budget to fund the defence plan.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">A foreign government privately briefing against a potential British chancellor is an extraordinary intervention in a domestic appointment &mdash; and it hands Burnham a dilemma with no clean exit: choosing Miliband now looks like defiance of Washington, passing him over looks like deference. The unions have already drawn their lines, with Unite warning against Miliband and Unison backing him, and one newspaper has editorialised for him. The chancellor is expected to split time between No 11 and the north of England, itself a signal about how this government intends to work. Watch for the announcement before the 20 July handover, and Washington&rsquo;s reaction to it.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="16:00" data-slug="heat-alerts-activate-midday-heatwave-builds">
- <h4>Heat Alerts Activate at Midday as New Heatwave Builds</h4>
- <p>Yellow heat-health alerts covering six regions &mdash; the East and West Midlands, London, the East, South East and South West of England &mdash; come into force at noon today and run until 8pm next Saturday, an eight-day window. The UK Health Security Agency warns of &ldquo;greater risk to life&rdquo; for vulnerable groups and of water-related incidents, after seven people died in the water during June&rsquo;s heatwave. Temperatures close to or above 30C are expected, in drier heat than June&rsquo;s record spell.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">This is the third heat episode of a summer that has already delivered England&rsquo;s hottest June on record and a provisional 37.7C at Lingwood in Norfolk &mdash; and the infrastructure is responding in sequence: health alerts yesterday, a hosepipe ban for a million Southern Water customers from Friday, and the River Test down a third in a month. The alert system&rsquo;s test is whether yellow escalates to amber, which signals expected strain on health services rather than only risk to the vulnerable. Water-safety deaths are the grimly consistent feature of British heatwaves. Watch the UKHSA level early next week and Sunday&rsquo;s temperatures &mdash; the earliest possible formal heatwave declaration.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="13:00" data-slug="parents-told-stop-posting-childrens-photos">
- <h4>Parents Told to Stop Posting Children&rsquo;s Photos Online</h4>
- <p>The National Crime Agency issued landmark guidance asking parents and carers not to post images of their children publicly online and to switch social media accounts to private, in response to a surge in AI-generated child sexual abuse material. It is the first national guidance of its kind, drawn up with the child-safety watchdog, and reflects investigators&rsquo; assessment that ordinary family photographs are now source material for abuse imagery.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The guidance formalises a shift in official thinking: the risk is no longer only who sees a photograph, but what generative tools can do with it &mdash; and once an image is public, that risk cannot be recalled. It puts fresh pressure on the platforms, whose default settings and recommendation systems determine how far a child&rsquo;s image travels, and it will feed the argument over whether the Online Safety Act&rsquo;s enforcement powers match AI-era harms. The advice is deliberately practical rather than punitive. Watch how schools and platforms respond, and whether ministers attach regulation to what is currently guidance.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="19:30" data-slug="rochdale-ringleader-freed-despite-unsafe-ruling">
- <h4>Rochdale Ringleader Was Ruled Unsafe to Release, Reports Say</h4>
- <p>Shabir Ahmed, the Rochdale grooming gang ringleader freed this week, was judged unsafe for release into the community just twenty months before he walked out of prison, according to newspaper reports. The disclosure raises questions about the release decision itself, alongside the deportation stand-off: the Government says it is prepared to sanction Pakistan, which has blocked his removal, and talks between London and Islamabad continue.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The &ldquo;unsafe&rdquo; assessment moves scrutiny from the Foreign Office to the justice system: a release that automatic sentencing rules required, against a risk assessment that pointed the other way, is exactly the kind of case that drives sentencing-reform arguments. Ahmed renounced his Pakistani citizenship years ago, which is why removal requires either Islamabad&rsquo;s cooperation or an amendment to decades-old nationality law &mdash; both now being pursued simultaneously. The pressure lands on an incoming government that has said &ldquo;nothing is off the table&rdquo;. Watch what licence conditions constrain Ahmed now, and whether the sanctions threat produces movement from Pakistan before legislation does.</div>
- </details>
- </div>
-
- </div>
- </div>
- </div>
-
- <div class="one-to-read">
- <span class="otr-label">One To Read</span>
- <a href="https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-july-3-2026/" target="_blank" rel="noopener noreferrer">
- <h4>What Putin Claims and What the Map Shows</h4>
- <span class="otr-source">Institute for the Study of War</span>
- <span class="otr-dot">&middot;</span>
- <span class="otr-desc">ISW&rsquo;s daily campaign assessment examines Putin&rsquo;s claim to have seized the fortress town of Kostyantynivka &mdash; a claim it finds contrary to all available evidence &mdash; and what the gap between rhetoric and frontline reality signals before the NATO summit.</span>
- </a>
- </div>
- <!-- SOURCES USED
- - https://www.npr.org/2026/07/04/nx-s1-5882083/iran-funeral-ayatollah-ali-khamenei &mdash; NPR/AP: funeral scenes, chants, Trump quote, Hormuz leverage line
- - https://www.timesofisrael.com/khamenei-lies-in-state-in-tehran-as-iran-begins-week-of-mass-funeral-ceremonies/ &mdash; Times of Israel: funeral programme corroboration
- - https://www.cbsnews.com/news/trump-mount-rushmore-speech-july-4-communism/ &mdash; CBS News: Mount Rushmore speech quotes
- - https://www.theguardian.com/us-news/2026/jul/04/trump-launches-americas-250th-birthday-celebrations-with-partisan-attack &mdash; The Guardian: 250th launch coverage
- - https://www.bbc.com/news/articles/cp36l4e6v9po &mdash; BBC News: Mount Rushmore address
- - https://www.reuters.com/business/aerospace-defense/nato-leaders-affirm-ironclad-commitment-collective-defence-ankara-summit-text-2026-07-03/ &mdash; Reuters: Ankara summit draft text
- - https://apnews.com/article/russia-ukraine-war-kyiv-missile-drone-attack-384d5b6bcdfc6e7d8c18f25130332ef7 &mdash; AP: Kyiv toll, Zelensky air-defence appeal, summit attendance
- - https://www.aljazeera.com/news/2026/7/3/mourners-bury-victims-of-damascus-cafe-bombing-with-six-lawyers-among-dead &mdash; Al Jazeera: toll of ten, lawyers among dead
- - https://abcnews.com/International/wireStory/mourners-damascus-bury-cafe-blast-victims-officials-promise-134439394 &mdash; ABC News (AP): burials, officials' pledge
- - https://www.nytimes.com/2026/07/03/business/strait-malacca-hormuz.html &mdash; New York Times: Iran-Oman transit charges, $40bn figure
- - https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-july-3-2026/ &mdash; ISW: campaign assessment (One To Read)
- - https://www.bbc.com/news/articles/c0qy2zxjkwvo &mdash; BBC News: Starmer interview quotes
- - https://www.theguardian.com/politics/2026/jul/03/starmer-warns-burnham-he-cannot-spend-less-time-on-diplomacy &mdash; The Guardian: Starmer diplomacy warning
- - https://www.independent.co.uk/bulletin/news/keir-starmer-andy-burnham-interview-b3008723.html &mdash; The Independent: interview coverage
- - https://www.thetimes.com/uk/politics/article/trump-us-allies-ed-miliband-sqncl5zjw &mdash; The Times: US warning on Miliband (front page)
- - https://www.bbc.co.uk/news/articles/cnv9p35z866o &mdash; BBC News: Saturday front pages
- - https://www.telegraph.co.uk/politics/2026/07/03/burnham-new-chancellor-split-time-between-no-11-north/ &mdash; The Telegraph: chancellor to split time north
- - https://www.theguardian.com/commentisfree/2026/jul/03/the-guardian-view-on-labours-next-chancellor-send-for-ed-miliband &mdash; The Guardian: chancellor editorial
- - https://news.sky.com/story/uk-weather-parts-of-country-braced-for-another-heatwave-as-temperatures-could-soar-to-30c-13560092 &mdash; Sky News: heat alert details, water deaths
- - https://www.bbc.com/weather/articles/c621j44jwe1o &mdash; BBC Weather: heatwave outlook
- - https://www.theguardian.com/society/2026/jul/03/ai-sexual-abuse-fears-uk-parents-warned-posting-images-children-national-crime-agency &mdash; The Guardian: NCA guidance
- - https://www.bbc.co.uk/news/articles/cd7wj7d0jzzo &mdash; BBC News: parents' photo warning
- - https://www.telegraph.co.uk/news/2026/07/03/rochdale-rapist-shabir-ahmed-released-despite-warnings/ &mdash; The Telegraph: unsafe-release assessment
- - https://www.thetimes.com/uk/crime/article/rochdale-grooming-gang-leader-shahir-ahmed-pakistan-3z8vpvjtq &mdash; The Times: Pakistan sanctions option
- - https://www.gov.uk/government/news/more-children-eligible-for-egates-in-boost-for-families-this-summer &mdash; gov.uk: eGates age change from 8 July (impact box)
- - Market data: Yahoo Finance, CNBC, Trading Economics (cross-referenced 4 July 09:10-09:20 BST; weekend — Friday/Thursday closes stand, Bitcoin live)
- END SOURCES USED -->
- </div><!-- ── END MORNING 04 JUL (09:23) ── -->
 
 
 
