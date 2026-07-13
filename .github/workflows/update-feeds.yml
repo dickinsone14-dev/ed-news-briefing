@@ -1,0 +1,47 @@
+name: Update live feeds
+
+# Pre-fetches the RSS feeds server-side and commits feeds.json, which the site
+# reads same-origin (reliable, no CORS) as the first strategy for "Live Updates".
+# Replaces reliance on flaky public CORS proxies.
+#
+# Guarded to the ORG repo only: it serves the live custom domain, and committing
+# here (not the origin mirror) keeps the two repos from double-committing the same
+# file. Commits touch feeds.json only, so they never trigger push-notify.yml
+# (which is path-filtered to index.html) — no accidental reader notifications.
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'   # every ~30 minutes (GitHub best-effort; may be delayed)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-feeds
+  cancel-in-progress: false
+
+jobs:
+  update:
+    if: github.repository == 'thedailybrief-uk/thedailybrief-uk.github.io'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install feedparser
+        run: pip install --quiet feedparser
+      - name: Fetch feeds -> feeds.json
+        run: python3 scripts/build-feeds.py
+      - name: Commit if changed
+        run: |
+          if git diff --quiet -- feeds.json; then
+            echo "No feed changes; nothing to commit."
+            exit 0
+          fi
+          git config user.name "daily-brief-feeds-bot"
+          git config user.email "feeds-bot@users.noreply.github.com"
+          git add feeds.json
+          git commit -m "chore: refresh live feeds [skip ci]"
+          git push
