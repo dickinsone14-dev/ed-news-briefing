@@ -97,8 +97,6 @@
  <link rel="preconnect" href="https://api.rss2json.com" />
  <link rel="preconnect" href="https://api.allorigins.win" />
  <link rel="preconnect" href="https://corsproxy.io" />
- <link rel="preconnect" href="https://query1.finance.yahoo.com" />
- <link rel="preconnect" href="https://query2.finance.yahoo.com" />
  <!-- Fonts self-hosted from /fonts/ -->
  <!-- Stripe preconnect (uncomment when payments go live) -->
  <!-- <link rel="preconnect" href="https://js.stripe.com" /> -->
@@ -5176,7 +5174,11 @@ window._marketData = {};
       try { const consent = JSON.parse(localStorage.getItem('db_cookie_consent') || '{}'); if (consent.accepted) localStorage.setItem('db_markets', JSON.stringify({ ts: Date.now(), data: window._marketData })); } catch(e) {}
     }
   }
-  fetchLive().then(setupTicker);
+  // Yahoo live-fetch intentionally NOT called: the browser CORS-blocks it every
+  // time (logging ~18 failed requests + console errors), and the embedded values
+  // — verified and pushed with each edition — are authoritative. Ticker runs on
+  // those directly. (fetchLive kept above for reference / future proxied source.)
+  setupTicker();
 
   // Build seamless ticker: clone items, measure width, create pixel-based animation
   function setupTicker() {
