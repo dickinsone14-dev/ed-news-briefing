@@ -2,6 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-13-morning/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-13T07:45:00+01:00</news:publication_date>
+      <news:title>Morning Briefing — Monday 13 July 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-13-morning/us-strikes-iran-again-hormuz-battle/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-13T07:45:00+01:00</news:publication_date>
+      <news:title>US Strikes Iran Again as the Battle Over Hormuz Rages</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-13-morning/oil-jumps-asian-markets-slip-war-reopens/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-13T07:45:00+01:00</news:publication_date>
+      <news:title>Oil Jumps and Asian Markets Slip as the War Reopens</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-13-morning/oman-talks-two-corridor-hormuz-plan/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-13T07:45:00+01:00</news:publication_date>
+      <news:title>Talks Go On in Oman With a Plan to Split the Strait in Two</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-13-morning/wildfires-mass-evacuations-southern-europe/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-13T07:45:00+01:00</news:publication_date>
+      <news:title>Wildfires and Mass Evacuations Sweep Southern Europe</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-13-morning/ukraine-patriot-stocks-run-dry-russia-presses/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-13T07:45:00+01:00</news:publication_date>
+      <news:title>Ukraine’s Patriot Stocks Run Dry as Russia Presses On</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-13-morning/immigration-bill-commons-labour-revolt/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-13T07:45:00+01:00</news:publication_date>
+      <news:title>Immigration Bill Faces the Commons as 80 Labour MPs Rebel</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-13-morning/heatwave-holds-midweek-wildfire-exceptional/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-13T07:45:00+01:00</news:publication_date>
+      <news:title>Heatwave Holds Into Midweek as Wildfire Risk Stays “Exceptional”</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-13-morning/burnham-coronation-week-nominations-close/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-13T07:45:00+01:00</news:publication_date>
+      <news:title>Burnham’s Coronation Week Begins as Nominations Close</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-13-morning/oil-jump-uk-petrol-energy-pressure/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-13T07:45:00+01:00</news:publication_date>
+      <news:title>Oil’s Jump Renews the Pressure on Petrol and Energy Bills</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-13-morning/hosepipe-bans-widen-drought-stress/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-13T07:45:00+01:00</news:publication_date>
+      <news:title>Hosepipe Bans Widen as Drought Stress Deepens</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-07-12-evening/</loc>
     <news:news>
       <news:publication>
