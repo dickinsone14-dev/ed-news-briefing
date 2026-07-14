@@ -2194,14 +2194,12 @@
  - Optional "expires" field overrides the 8h default (e.g. for major events)
  To add a new breaking story, prepend an entry here with the current ISO timestamp. -->
  <script id="breaking-stories" type="application/json">
-[
-{"headline": "Trump abandons his 20% Hormuz toll after global backlash — 19:16 BST", "posted": "2026-07-14T19:16:00+01:00", "category": "GEOPOLITICS", "summary": "President Trump has dropped his plan to charge a 20% \"protection fee\" on all cargo transiting the Strait of Hormuz, only a day after unveiling it, saying he will instead replace the levy with \"Trade and Investment Deals\" that Gulf states will make into the United States. The U-turn followed fierce international pushback: the UN's maritime body (IMO) said there was \"no legal basis\" for the tolls and China branded the move \"dangerous and irresponsible\". Oil eased back from session highs on the news, though the US naval blockade of Iran and the nightly exchange of strikes both continue.", "facts": [{"label": "Toll abandoned", "value": "20% fee replaced by Gulf trade and investment deals"}, {"label": "Brent crude", "value": "$84.95, up 1.98% but off session highs near $87"}, {"label": "WTI crude", "value": "$79.56, up 1.82%"}, {"label": "UN maritime body (IMO)", "value": "\"No legal basis\" for mandatory Hormuz tolls"}]}
-]
+[{"posted": "2026-07-14T19:26:00+01:00", "headline": "Trump drops his 20% Hormuz toll but presses ahead with a blockade on Iran; oil eases off its one-month high — 19:26 BST", "category": "MIDDLE EAST", "summary": "After near-universal rejection — from the UN's maritime body to China and Brazil's Lula, who called it 'piracy' — President Trump scrapped the 20% toll he had put on all Strait of Hormuz shipping, replacing it with promised Gulf 'trade and investment deals'. But he is pressing ahead with a US naval blockade of ships to and from Iranian ports, due to begin tonight. Oil eased back below $85 a barrel on the climbdown.", "facts": [{"label": "Toll dropped", "value": "Trump scraps the 20% Hormuz shipping fee after global backlash"}, {"label": "Blockade kept", "value": "full US blockade of Iranian-linked ships, starting tonight"}, {"label": "Oil", "value": "Brent eased below $85 on the climbdown"}, {"label": "Reaction", "value": "UN and China rejected the toll; Brazil's Lula called it 'piracy'"}]}]
 </script>
  <div class="breaking-banner" id="breakingBanner">
  <div class="breaking-inner">
  <span class="breaking-label">BREAKING</span>
- <span class="breaking-text" id="breakingText">Trump abandons his 20% Hormuz toll after global backlash as oil eases from one-month highs</span>
+ <span class="breaking-text" id="breakingText">Trump drops his 20% Hormuz toll but presses ahead with a blockade on Iran; oil eases off its one-month high</span>
  <span class="breaking-readmore" id="breakingReadmore">Read more</span>
  <button class="breaking-dismiss" id="breakingDismiss">&times;</button>
  </div>
@@ -2291,7 +2289,7 @@
  <!-- #1 Markets snapshot bar -->
  <!-- Embedded market data (populated by update script, used as fallback) -->
  <script id="embedded-markets" type="application/json">
-{"FTSE":{"price":10489,"change":-0.1},"SP":{"price":7563,"change":0.4},"Brent":{"price":85.1,"change":5.8},"GBP":{"price":1.3358,"change":-0.3},"Gold":{"price":4075,"change":-1.1},"EURGBP":{"price":0.8528,"change":0.0},"Gilt":{"price":4.91,"change":-0.02},"VIX":{"price":17.2,"change":12.9},"BTC":{"price":63560,"change":1.5},"UST":{"price":4.61,"change":0.02},"ts":"2026-07-14T08:33:00+01:00"}
+{"FTSE":{"price":10529,"change":0.3},"SP":{"price":7552,"change":0.49},"Brent":{"price":84.5,"change":1.4},"GBP":{"price":1.3407,"change":0.44},"Gold":{"price":4088,"change":0.2},"EURGBP":{"price":0.8515,"change":-0.2},"Gilt":{"price":4.92,"change":0.01},"VIX":{"price":17.3,"change":0.6},"BTC":{"price":62800,"change":-1.2},"UST":{"price":4.62,"change":0.01},"ts":"2026-07-14T19:26:00+01:00"}
 </script>
  <script id="market-descriptions" type="application/json">
 {
@@ -2299,111 +2297,111 @@
   "name": "FTSE 100",
   "desc": "The UK's benchmark stock index, tracking the 100 largest companies listed on the London Stock Exchange by market capitalisation. Includes Shell, AstraZeneca, HSBC and Unilever.",
   "drivers_up": [
-   "Energy majors Shell and BP rally on the Brent surge"
+   "Recovered to close +0.3% at 10,529 as oil eased and US CPI cooled"
   ],
   "drivers_down": [
-   "Opened a shade lower on rate-hike fears and Middle East risk-off"
+   "Oil majors and miners the main support amid Middle East risk"
   ],
-  "updated": "14 July 2026 08:33 (live)"
+  "updated": "14 July 2026 19:26 (live)"
  },
  "SP": {
   "name": "S&P 500",
   "desc": "America's leading stock market index, tracking 500 of the largest US-listed companies. Dominated by mega-cap tech (Apple, Microsoft, Nvidia) but spans all sectors.",
   "drivers_up": [
-   "US energy names lift futures ~0.4%"
+   "Up ~0.5% as cooler June CPI shut the door on a Fed hike"
   ],
   "drivers_down": [
-   "Oil-driven inflation clouds the outlook for Fed easing"
+   "Middle East war premium caps risk appetite"
   ],
-  "updated": "14 July 2026 08:33 (live)"
+  "updated": "14 July 2026 19:26 (live)"
  },
  "Brent": {
   "name": "Brent Crude Oil",
   "desc": "The global benchmark for crude oil pricing, produced from oil fields in the North Sea. Used to price roughly two-thirds of the world's traded oil.",
   "drivers_up": [
-   "Above \\$85, a one-month high, on Trump's 20% Hormuz toll and the blockade"
+   "Still up ~10% on the week on the Hormuz blockade and strikes"
   ],
   "drivers_down": [
-   "No actual tanker disruption yet keeps a lid on further gains"
+   "Eased to ~\\$84 after Trump dropped the 20% toll"
   ],
-  "updated": "14 July 2026 08:33 (live)"
+  "updated": "14 July 2026 19:26 (live)"
  },
  "GBP": {
   "name": "GBP/USD",
   "desc": "The exchange rate between the British pound and the US dollar, commonly known as 'cable'. Reflects relative economic strength and interest rate differentials between the UK and US.",
   "drivers_up": [
-   "Firmer UK yields lend some support"
+   "Firmed to ~\\$1.341 as soft US CPI weakened the dollar"
   ],
   "drivers_down": [
-   "Eased to ~\\$1.336 on a dollar haven bid and the oil-import hit"
+   "Oil-import exposure and political uncertainty weigh"
   ],
-  "updated": "14 July 2026 08:33 (live)"
+  "updated": "14 July 2026 19:26 (live)"
  },
  "Gold": {
   "name": "Gold (XAU/USD)",
   "desc": "The spot price of gold in US dollars per troy ounce. The world's oldest safe-haven asset, traditionally rising during periods of uncertainty, inflation and currency debasement.",
   "drivers_up": [
-   "Geopolitical haven demand from the Hormuz crisis"
+   "Haven demand from the Hormuz crisis keeps a bid"
   ],
   "drivers_down": [
-   "Slipped ~1% below \\$4,100 as oil-led rate-hike bets weigh"
+   "Cooler CPI and firmer real yields cap the rally near \\$4,088"
   ],
-  "updated": "14 July 2026 08:33 (live)"
+  "updated": "14 July 2026 19:26 (live)"
  },
  "EURGBP": {
   "name": "EUR/GBP",
   "desc": "The exchange rate between the euro and the British pound. Key for UK-EU trade pricing. A falling rate means sterling is strengthening against the euro.",
   "drivers_up": [
-   "Euro-zone energy exposure weighs on the single currency"
+   "Euro-zone energy exposure a periodic drag on the single currency"
   ],
   "drivers_down": [
-   "Broadly flat near 0.853 as both feel the oil hit"
+   "Eased to ~0.852 as sterling outperformed the euro"
   ],
-  "updated": "14 July 2026 08:33 (live)"
+  "updated": "14 July 2026 19:26 (live)"
  },
  "Gilt": {
   "name": "UK 10-Year Gilt Yield",
   "desc": "The yield on 10-year UK government bonds (gilts). A key benchmark for UK borrowing costs, mortgage rates and pension fund valuations. Rising yields mean falling bond prices.",
   "drivers_up": [
-   "Oil-inflation premium keeps yields firm"
+   "Oil-driven inflation fears keep yields near two-month highs"
   ],
   "drivers_down": [
-   "A haven duration bid nudged the 10Y to ~4.91%"
+   "Cooler global CPI eased rate-hike bets, leaving 4.92% flat"
   ],
-  "updated": "14 July 2026 08:33 (live)"
+  "updated": "14 July 2026 19:26 (live)"
  },
  "VIX": {
   "name": "VIX (Volatility Index)",
   "desc": "The CBOE Volatility Index, often called the 'fear gauge'. Measures expected S&P 500 volatility over the next 30 days. Readings above 20 suggest elevated anxiety; above 30 signals acute stress.",
   "drivers_up": [
-   "Jumped ~13% to 17.2 on the Hormuz blockade and escalation"
+   "The Hormuz conflict keeps hedging demand firm near 17"
   ],
   "drivers_down": [
-   "No broad equity sell-off yet caps the spike"
+   "Soft CPI and easing oil calmed equity nerves"
   ],
-  "updated": "14 July 2026 08:33 (live)"
+  "updated": "14 July 2026 19:26 (live)"
  },
  "BTC": {
   "name": "Bitcoin (BTC/USD)",
   "desc": "The price of Bitcoin in US dollars. The largest cryptocurrency by market cap, increasingly viewed as digital gold by institutional investors since spot ETF approvals.",
   "drivers_up": [
-   "Firmed ~1.5% to ~\\$63.6k on an alternative-asset haven bid"
+   "A weaker dollar and cooler CPI aid risk assets"
   ],
   "drivers_down": [
-   "Risk-off from the Gulf war a periodic drag"
+   "Slipped ~1% to ~\\$62.8k on war-driven risk-off"
   ],
-  "updated": "14 July 2026 08:33 (live)"
+  "updated": "14 July 2026 19:26 (live)"
  },
  "UST": {
   "name": "US 10-Year Treasury Yield",
   "desc": "The yield on 10-year US government bonds, the global risk-free rate benchmark. Influences mortgage rates, corporate borrowing and equity valuations worldwide.",
   "drivers_up": [
-   "Oil-inflation risk lifts the 10Y to ~4.61%"
+   "Oil-inflation fears pin the 10Y near two-month highs at 4.62%"
   ],
   "drivers_down": [
-   "Flight-to-quality Treasury demand a partial offset"
+   "Cooler June CPI shut the door on a hike"
   ],
-  "updated": "14 July 2026 08:33 (live)"
+  "updated": "14 July 2026 19:26 (live)"
  }
 }
  </script>
@@ -2457,6 +2455,157 @@
  <!-- IMPORTANT: Keep 7 FULL DAYS of editions in this container. Do NOT delete editions less than 7 days old. -->
  <div id="all-editions" style="display:none;">
 
+ <!-- ── EVENING 14 JUL (19:26) ── -->
+<div class="curated-edition evening" data-date="2026-07-14" data-time="19:26" data-markets='{"FTSE":{"price":10529,"change":0.3},"SP":{"price":7552,"change":0.49},"Brent":{"price":84.5,"change":1.4},"GBP":{"price":1.3407,"change":0.44},"Gold":{"price":4088,"change":0.2},"EURGBP":{"price":0.8515,"change":-0.2},"Gilt":{"price":4.92,"change":0.01},"VIX":{"price":17.3,"change":0.6},"BTC":{"price":62800,"change":-1.2},"UST":{"price":4.62,"change":0.01},"ts":"2026-07-14T19:26:00+01:00"}'>
+ <div class="edition-header">
+ <span class="edition-icon">&#9789;</span>
+ <h2>Evening Briefing</h2>
+ </div>
+ <div class="curated-meta">Tuesday 14 July 2026 &mdash; 19:26 BST</div>
+ <div class="impact-box">
+ <h3 class="impact-heading">What It Means For You</h3>
+ <ul class="impact-list">
+ <li><strong>Petrol &amp; Energy:</strong> Oil eased back below $85 a barrel today after Trump dropped his 20% Hormuz toll, taking some of the immediate heat out of pump prices. But with the war and a blockade of Iranian ships continuing, the risk of fresh spikes has not gone away.</li>
+ <li><strong>A New Prime Minister Next Week:</strong> Andy Burnham addressed his MPs today as prime minister-in-waiting, with speculation swirling over his cabinet &mdash; Ed Miliband is tipped as chancellor and Rachel Reeves&rsquo;s future is in doubt. Those choices, from 20 July, will shape the economy.</li>
+ <li><strong>Heat, Fire &amp; Water:</strong> The heatwave &mdash; now linked to an estimated 2,700 excess deaths this summer &mdash; holds into Wednesday, with major wildfire incidents and hosepipe bans spreading. Keep away from open water, ditch disposable barbecues, and save water.</li>
+ </ul>
+ </div>
+ <div class="curated-grid">
+ <div class="curated-column">
+ <h3><span class="dot geo"></span><span class="dot-label">GEO</span> Geopolitical</h3>
+ <div>
+
+ <div class="curated-item" data-time="16:00" data-slug="trump-drops-hormuz-toll-keeps-blockade">
+ <h4>Trump Drops the Hormuz Toll but Keeps a Blockade on Iran</h4>
+ <p>President Trump reversed course on Tuesday, scrapping the 20% toll on Strait of Hormuz shipping he had announced only a day earlier, after it drew near-universal rejection &mdash; from the UN&rsquo;s maritime body, which said there was no legal basis for it, to China and Brazil&rsquo;s president, Lula, who called it &ldquo;piracy&rdquo;. He said he would &ldquo;replace&rdquo; the fee with &ldquo;trade and investment deals&rdquo; from the Gulf states. But he is pressing ahead with a US naval blockade &mdash; now aimed only at ships to and from Iranian ports &mdash; due to begin tonight.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The climbdown on the toll is a rare, rapid retreat, and a telling one: a levy on the world&rsquo;s most important oil chokepoint proved unenforceable against the united opposition of the shippers, the great powers and international law, and even Trump&rsquo;s own secretary of state had said no country may charge to transit a strait. Recasting it as future Gulf &ldquo;investment&rdquo; lets him claim a win while dropping the fee. What remains is still serious: a blockade of Iranian-linked shipping, set to start this evening, on top of a war in which the US has struck Iran for three straight nights and Iran has hit back at the Gulf bases that host Western forces. As of this edition the blockade had not yet formally begun, and no interception of a ship had been reported. Britain&rsquo;s forces sit inside the Gulf. Watch whether the blockade sparks a fresh confrontation tonight, whether the promised Gulf investment materialises, and where the oil price settles.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="15:00" data-slug="oil-eases-off-high-as-toll-scrapped">
+ <h4>Oil Eases Off Its One-Month High as the Toll Is Scrapped</h4>
+ <p>Oil pulled back from a one-month high after Trump dropped the Hormuz toll, with Brent crude easing to around $84 a barrel having touched almost $86 earlier in the day. The market had jumped nearly 10% on Monday on the blockade and toll threat; softer US inflation figures and the climbdown on the fee took some heat out of it. Shipping through the strait remains sharply reduced, however, with transits down more than half on the week, keeping a war premium in the price.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The market&rsquo;s swing captures the day in miniature: up hard on the threat of a 20% toll and a blockade, then back as the toll was withdrawn and cooler American inflation data eased fears of higher interest rates. But &ldquo;off the high&rdquo; is not &ldquo;calm&rdquo; &mdash; Brent is still up around 10% on the week and near a fifth above its level before the war reignited, because the physical reality has not changed: a chokepoint carrying a fifth of the world&rsquo;s oil is moving at a trickle, insurers are pulling cover, and a US blockade of Iranian ships begins tonight. One analyst said $100 oil is &ldquo;quite possible&rdquo; if a genuine shortage materialises, with strategic reserves already depleted. For British households the read-through is the same as ever, through petrol and gas. Watch where crude settles as New York closes, whether the blockade disrupts traffic further, and whether OPEC moves to fill any gap.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="13:00" data-slug="britain-ukraine-europe-missile-defence-coalition">
+ <h4>Britain Joins Ukraine and Europe in a Missile-Defence Coalition</h4>
+ <p>Ukraine and nine European countries, including Britain, France and Germany, have announced a coalition to build a shared, integrated missile-defence capability against the ballistic weapons Russia fires in ever greater numbers. The pact, unveiled in Paris, would pool technology, research and industry, and help fund and accelerate Ukraine&rsquo;s home-grown &ldquo;Freya&rdquo; interceptor, which Kyiv hopes can one day rival the American Patriot. Hours after the announcement, Russia struck Kyiv again with ballistic missiles.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The coalition is Europe&rsquo;s answer to two hard lessons of this war: that Russia&rsquo;s ballistic missiles are the weapon Ukraine can least counter, and that the interceptors to stop them are made nowhere near the rate they are fired &mdash; a shortage laid bare by Kyiv&rsquo;s recently emptied Patriot stocks. Building a shared European system, and backing Ukraine&rsquo;s own Freya, is an attempt to close that gap without depending solely on American supply, and it deepens the pattern of European militaries planning outside the formal NATO structure. For Britain, a named participant, it is another step in the rearmament the war has forced, alongside this month&rsquo;s Patriot-production licence for Kyiv. The joint declaration stressed the effort is &ldquo;purely defensive&rdquo;. Watch how quickly the shared architecture takes shape, whether Freya can be made to work at scale, and how Moscow responds to a Europe building its own shield.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="12:00" data-slug="europe-wildfires-fontainebleau-evacuated">
+ <h4>Wildfires Spread Across Europe as Fontainebleau Is Evacuated</h4>
+ <p>A wildfire tore through the historic Fontainebleau forest south of Paris, forcing evacuations and disrupting road and rail as it spread across more than 1,300 hectares, in France&rsquo;s third heatwave in three months. In Spain, ten people were still missing after a southern wildfire that killed thirteen, with extreme heat, drought and wind driving fires across the country and beyond. It is the same heat dome that is baking Britain, now settled over much of the continent.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">A fire in Fontainebleau &mdash; a royal forest for centuries, an hour from the French capital &mdash; is the kind of scene that makes the abstraction of a warming climate concrete, and it is being repeated across southern and western Europe in a summer of successive heatwaves that dry the land to tinder. The cross-border firefighting effort, aircraft and crews moving between countries, is the measure of a continent stretching systems built for a cooler age. The human cost accumulates twice over, in the immediate danger of the flames and the slower toll of the heat, which has already killed thousands across Europe this summer. For the many British holidaymakers heading to France, Spain and Greece this month, the fires are a direct concern, and for a country under its own alerts they are a preview. Watch the containment of the French and Spanish fires, the confirmed death toll, and whether the heat breaks across the continent this week.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="10:00" data-slug="eu-one-billion-gaza-recovery-fund">
+ <h4>EU Rallies $1bn for Gaza&rsquo;s Recovery</h4>
+ <p>The European Union has launched a fund of around a billion dollars to help rebuild Gaza after more than two years of war, rallying donors including Britain, France, Germany, Japan and the World Bank behind a &ldquo;Team Gaza&rdquo; initiative. The money is to go on clearing debris and restoring water, sanitation, health and energy systems. It is a substantial gesture, but a fraction of the more than $70bn the EU and UN estimate the territory will need over the next decade.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The fund is a marker of intent as much as a solution: a billion dollars begins the clearing and the basic services, but set against a reconstruction bill north of seventy billion it is a down payment, and the deeper obstacles are political rather than financial. Nine months into a fragile ceasefire, with Israel still controlling most of the territory and the plan for who governs Gaza unresolved, reconstruction cannot proceed far without a settlement, and donors are wary of funding rebuilding that a return to fighting could undo. That Europe, rather than Washington, is convening the effort reflects both a division of diplomatic labour and European anxiety to shape a recovery the US-brokered ceasefire left vague. Watch whether the pledges are actually disbursed, whether the governance question moves, and whether the ceasefire holds long enough for any of it to be spent.</div>
+ </details>
+ </div>
+
+ </div>
+ </div>
+ <div class="curated-column">
+ <h3><span class="dot dom"></span><span class="dot-label">UK</span> UK Domestic Politics</h3>
+ <div>
+
+ <div class="curated-item" data-time="14:00" data-slug="burnham-addresses-mps-cabinet-jockeying">
+ <h4>Burnham Addresses His MPs as Cabinet Jockeying Begins</h4>
+ <p>Andy Burnham addressed the parliamentary Labour party today for the first time as prime minister-in-waiting, telling MPs his cabinet would reflect &ldquo;a broad church of ideas&rdquo;. With his path to Downing Street secured, the jockeying for jobs has begun in earnest: Ed Miliband is being tipped as a possible chancellor and the future of Rachel Reeves is openly in doubt, while Wes Streeting and the deputy leader, Lucy Powell, are among those linked to senior roles. He is expected to be confirmed leader this week and to take office on 20 July.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The cabinet is the first real substance of a Burnham government, and the speculation &mdash; it is only that, since he cannot appoint anyone until he is prime minister &mdash; captures the central tension of his project. Keeping Reeves would signal continuity and reassure the markets; moving her for a figure like Miliband would signal the looser, more interventionist &ldquo;Manchesterism&rdquo; his allies favour, and the bond market would notice. His &ldquo;broad church&rdquo; language is an attempt to hold his party together after a leadership handed to him without a contest, and after last night&rsquo;s immigration vote showed the left will not simply fall into line. The in-tray is unforgiving: a Gulf war and its oil shock, stretched public finances, and a welfare system his own party calls unfit. Watch the nomination close this week, Reeves&rsquo;s fate, and the first names Burnham actually appoints once the King has asked him to form a government.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="11:00" data-slug="heatwave-2700-excess-deaths-tintwistle-major-incident">
+ <h4>Heatwave Linked to 2,700 Excess Deaths as Fires Spread</h4>
+ <p>This summer&rsquo;s heatwaves are estimated to have caused more than 2,700 excess deaths in England and Wales across May and June, according to a study by scientists at Imperial College, the Met Office and the London School of Hygiene and Tropical Medicine, which attributes around 1,100 of them to human-caused climate change. It lands as the heat holds into midweek: a moorland fire at Tintwistle in the Peak District has been declared a major incident, one of several large wildfires burning across England and Wales, with the peak forecast for Thursday and Friday.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The death estimate is the number that should reframe how the heat is understood: not a summer novelty but a lethal event, killing quietly and mostly out of sight &mdash; the elderly in overheated flats, those with heart and lung conditions, the drownings that spike as people seek to cool off. That researchers can now attribute a specific share of the deaths to climate change is the sharp edge of attribution science, turning a general warning into a countable toll. The fires are the visible danger: ground dried by the second-driest spring on record catches from the smallest spark, and crews are fighting blazes on many fronts, with the worst of the heat still to come later this week. Hosepipe bans are spreading as the drought deepens. Watch for any escalation to a red alert, the peak temperatures on Thursday and Friday, and the admissions and mortality data that will measure the true cost once the heat finally breaks.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="09:00" data-slug="fourteen-labour-mps-defy-whip-immigration-bill">
+ <h4>Fourteen Labour MPs Defy the Whip on the Immigration Bill</h4>
+ <p>The 14 Labour MPs who voted against the government&rsquo;s immigration Bill at its second reading last night have been named, among them the veteran left-wingers John McDonnell and Rebecca Long Bailey. Diane Abbott, who still sits without the Labour whip, spoke against the Bill in the debate. McDonnell said he was &ldquo;appalled&rdquo; at the inclusion of trafficking provisions and at &ldquo;the narrative developed by those on the Labour front bench&rdquo;. The Bill still passed comfortably, by 264 votes to 90, with Andy Burnham voting in favour.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">Fourteen votes against, out of a parliamentary party of more than 400, is a modest rebellion by historical standards, and it settles the immediate question &mdash; the revolt that nearly eighty MPs&rsquo; letter had threatened did not materialise on the night. But the names matter: this is the Corbyn-era left, the MPs least reconciled to the party&rsquo;s move rightwards on migration, and their defiance is a marker of the fault line Burnham will govern across. Abbott&rsquo;s intervention, from outside the whip, framed the Bill as the latest in forty years of immigration legislation sold on the same promises and delivering the same failures. The Bill now goes to committee, where amendments &mdash; including the government&rsquo;s own, to enable the deportation of the Rochdale ringleader Shabir Ahmed &mdash; will be fought over. Watch the committee stage, whether the rebellion grows at later readings, and how Burnham manages his left once in office.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="12:30" data-slug="south-west-water-new-hosepipe-ban">
+ <h4>South West Water Imposes a New Hosepipe Ban</h4>
+ <p>South West Water became the latest company to restrict supply, imposing a hosepipe ban across parts of Devon from midday today as the drought deepens, after demand ran millions of litres a day above normal through two heatwaves in three weeks. It joins bans already in force across the East of England, Cambridge, Kent, Hampshire and the Isle of Wight, with further restrictions from other suppliers due later this week, taking the number of people affected towards eleven million.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">A ban in the usually wet South West is a striking marker of how far the drought has spread, and how quickly a dry winter and a run of heatwaves have drained a system with little slack. Hosepipe bans are a blunt instrument &mdash; outdoor use is a small share of demand &mdash; but they protect reservoir levels and signal that the shortage is real. Behind them lies the structural failure for which the water companies are being pilloried: decades of under-investment in reservoirs and leaking pipes, now colliding with public fury over sewage and executive pay. A formal drought declaration by the Environment Agency would bring tighter rules and more scrutiny, handing the incoming government an early test on a sector in crisis. Watch whether Thames Water hardens its advisory into a ban, whether drought is formally declared, and how many more suppliers follow before the autumn.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="16:30" data-slug="petrol-pressure-eases-trump-drops-toll">
+ <h4>Petrol Pressure Eases as Trump Drops the Hormuz Toll</h4>
+ <p>The immediate threat of another jump at the pumps eased today after Trump abandoned his 20% Hormuz toll and oil slipped back below $85 a barrel. This morning&rsquo;s warning that a fresh spike was coming has, for now, softened. But British drivers are not off the hook: pump prices remain near 151p a litre, among the highest in over two years, and with a US blockade of Iranian ships still going ahead, the war premium in oil has not disappeared.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The day is a reminder of how tightly a British forecourt is now tied to a Gulf chokepoint: a single social-media post withdrawing a toll was enough to take a couple of dollars off crude and ease the immediate pressure on pumps, and a single strike could put it back. For the incoming government the volatility is the danger as much as the level, complicating the fiscal and monetary choices it inherits &mdash; a chancellor-in-waiting pledged to discipline, a Bank of England weighing oil-driven inflation against a slowing economy. The 5p fuel-duty cut, frozen to the end of the year, is the main thing holding pump prices down, and pressure to extend it will grow if oil stays high. For households the practical read is that the recent easing has paused rather than resumed. Watch where oil settles this week, whether ministers signal more duty relief, and the read-through to the next inflation figures.</div>
+ </details>
+ </div>
+
+ </div>
+ </div>
+ </div>
+
+ <div class="one-to-read">
+ <span class="otr-label">One To Read</span>
+ <a href="https://www.npr.org/2026/07/14/nx-s1-5893257/us-iran-updates" target="_blank" rel="noopener noreferrer">
+ <h4>Trump Drops the Hormuz Toll &mdash; but Not the Blockade</h4>
+ <span class="otr-source">NPR</span>
+ <span class="otr-dot">&middot;</span>
+ <span class="otr-desc">How a 20% toll on the world&rsquo;s most important oil chokepoint collapsed within a day under the weight of near-universal opposition &mdash; and why Trump is pressing ahead anyway with a US naval blockade of Iranian shipping, even as oil and the markets swing on his every post.</span>
+ </a>
+ </div>
+ <!-- SOURCES USED
+ - https://www.npr.org/2026/07/14/nx-s1-5893257/us-iran-updates &mdash; NPR: Trump drops 20% toll, keeps blockade, exact wording (also One To Read)
+ - https://www.cnbc.com/2026/07/14/cnbc-daily-open-hormuz-blockade-iran-trump-oil-tolls.html &mdash; CNBC: toll reversal, blockade, oil
+ - https://www.cbsnews.com/live-updates/us-iran-war-trump-ceasefire-attacks-strait-of-hormuz/ &mdash; CBS News: toll reversal, "trade deals", strikes, tankers
+ - https://www.pbs.org/newshour/world/trump-backs-away-from-plans-to-charge-fees-in-the-strait-of-hormuz &mdash; PBS: Trump backs away from Hormuz fees
+ - https://www.aljazeera.com/economy/2026/7/14/oil-hits-1-month-high-as-us-iran-fighting-clouds-strait-of-hormuz-outlook &mdash; Al Jazeera: oil one-month high then eases, transits down, $100 analyst view
+ - https://www.cnn.com/2026/07/14/world/live-news/iran-war-trump &mdash; CNN: third night of US strikes, Iran hits Gulf bases, Lula "piracy"
+ - https://www.pbs.org/newshour/world/ukraine-and-9-other-countries-form-coalition-to-protect-europe-from-ballistic-missiles &mdash; PBS: Ukraine + 9 states (incl UK) missile-defence coalition, Freya
+ - https://www.aljazeera.com/news/2026/7/13/eu-unveils-1bn-fund-for-gaza-war-recovery &mdash; Al Jazeera: EU $1bn "Team Gaza" fund, participants incl UK, $71bn need
+ - https://www.aljazeera.com/economy/2026/7/13/oil-prices-jump-as-us-and-iran-trade-attacks-over-strait-of-hormuz &mdash; Al Jazeera: Europe wildfires context, oil
+ - https://www.usnews.com/news/world/articles/2026-07-10/andy-burnham-poised-to-become-britains-next-pm-after-most-labour-lawmakers-support-him &mdash; US News (AP): Burnham PLP, 322 nominations, timeline
+ - https://www.bloomberg.com/news/newsletters/2026-07-08/reform-s-farage-looks-weakened-but-uk-inflation-worries-mount-for-burnham &mdash; Bloomberg: Burnham chancellor/cabinet speculation
+ - https://www.washingtonpost.com/world/2026/07/09/andy-burnham-labour-leadership-election-nominations/347a9312-7b65-11f1-b194-f872dd4ec5aa_story.html &mdash; Washington Post: Burnham leadership, "broad church", timetable
+ - https://www.metoffice.gov.uk/about-us/news-and-media/media-centre/weather-and-climate-news/2026/more-than-2700-excess-deaths-estimated-in-england-and-wales &mdash; Met Office (official): 2,700 excess deaths study, climate attribution
+ - https://www.itv.com/news/2026-07-12/heatwave-emergency-services-warn-of-wildfire-risk &mdash; ITV News: heatwave, wildfires, major incidents
+ - https://votes.parliament.uk/votes/commons/division/2406 &mdash; UK Parliament (official): second-reading division 264-90, 14 rebels
+ - https://hansard.parliament.uk/Commons/2026-07-13/debates/ &mdash; Hansard (official): rebel speeches, McDonnell/Abbott quotes
+ - https://www.itv.com/news/2026-07-13/mahmood-to-change-law-to-allow-deportation-of-rochdale-grooming-gang-leader &mdash; ITV News: committee amendment, Shabir Ahmed
+ - https://www.southwestwater.co.uk/ &mdash; South West Water (official): temporary use ban from midday 14 July, Devon
+ - Market data (LIVE, Tuesday 14 July ~19:xx BST; Brent verified via Trading Economics/Al Jazeera): Yahoo Finance, CNBC, Trading Economics
+ END SOURCES USED -->
+ </div><!-- ── END EVENING 14 JUL (19:26) ── -->
  <!-- ── MORNING 14 JUL (08:33) ── -->
 <div class="curated-edition morning" data-date="2026-07-14" data-time="08:33" data-markets='{"FTSE":{"price":10489,"change":-0.1},"SP":{"price":7563,"change":0.4},"Brent":{"price":85.1,"change":5.8},"GBP":{"price":1.3358,"change":-0.3},"Gold":{"price":4075,"change":-1.1},"EURGBP":{"price":0.8528,"change":0.0},"Gilt":{"price":4.91,"change":-0.02},"VIX":{"price":17.2,"change":12.9},"BTC":{"price":63560,"change":1.5},"UST":{"price":4.61,"change":0.02},"ts":"2026-07-14T08:33:00+01:00"}'>
  <div class="edition-header">
