@@ -2,6 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-15-evening/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-15T18:00:00+01:00</news:publication_date>
+      <news:title>Evening Briefing — Wednesday 15 July 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-15-evening/us-fresh-strikes-iran-disables-first-tanker-blockade/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-15T18:00:00+01:00</news:publication_date>
+      <news:title>US Steps Up Strikes on Iran and Disables First Tanker Under the Blockade</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-15-evening/iran-widens-retaliation-gulf-states-bahrain-kuwait-jordan/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-15T18:00:00+01:00</news:publication_date>
+      <news:title>Iran Widens Its Retaliation to the Gulf States</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-15-evening/irgc-threatens-halt-all-regional-energy-exports/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-15T18:00:00+01:00</news:publication_date>
+      <news:title>Iran Threatens to Halt All Regional Energy Exports as Oil Holds Near $85</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-15-evening/fontainebleau-fire-spain-toll-europe-heat/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-15T18:00:00+01:00</news:publication_date>
+      <news:title>Fire Grips Fontainebleau Forest as Spain’s Wildfire Toll Reaches 13</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-15-evening/ukraine-europe-air-defence-coalition-russia-kyiv/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-15T18:00:00+01:00</news:publication_date>
+      <news:title>Europe’s Air-Defence Coalition Takes Shape as Russia Strikes Kyiv</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-15-evening/starmer-final-pmqs-valedictory-goodbye/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-15T18:00:00+01:00</news:publication_date>
+      <news:title>Starmer Bids Farewell at His Final PMQs</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-15-evening/burnham-confirmed-leader-pm-monday/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-15T18:00:00+01:00</news:publication_date>
+      <news:title>Burnham Confirmed as Leader-in-Waiting, PM on Monday</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-15-evening/mahmood-tipped-chancellor-burnham-cabinet/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-15T18:00:00+01:00</news:publication_date>
+      <news:title>Mahmood Tipped for Chancellor as Burnham’s Cabinet Takes Shape</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-15-evening/widdecombe-murder-counter-terror-investigation/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-15T18:00:00+01:00</news:publication_date>
+      <news:title>Counter-Terror Police Lead Widdecombe Murder Inquiry</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-15-evening/heatwave-peak-amber-hosepipe-bans-widen/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-15T18:00:00+01:00</news:publication_date>
+      <news:title>Heatwave Nears Its Peak as Hosepipe Bans Widen</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-07-15-morning/</loc>
     <news:news>
       <news:publication>
@@ -362,127 +483,6 @@
       </news:publication>
       <news:publication_date>2026-07-14T08:33:00+01:00</news:publication_date>
       <news:title>Hosepipe Bans Widen as Drought Deepens</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-13-evening/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-13T17:57:00+01:00</news:publication_date>
-      <news:title>Evening Briefing — Monday 13 July 2026</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-13-evening/trump-guardian-hormuz-blockade-20-percent-toll/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-13T17:57:00+01:00</news:publication_date>
-      <news:title>Trump Declares the US “Guardian” of Hormuz and Demands a 20% Toll</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-13-evening/fourth-us-strike-wave-iran-hits-gulf-bases/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-13T17:57:00+01:00</news:publication_date>
-      <news:title>US Strikes Iran a Fourth Time as Iran Hits Bases Across the Gulf</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-13-evening/oil-surges-past-80-hormuz-shipping-collapse/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-13T17:57:00+01:00</news:publication_date>
-      <news:title>Oil Surges Past $80 as Hormuz Shipping Collapses</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-13-evening/europe-wildfires-record-heat-evacuations/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-13T17:57:00+01:00</news:publication_date>
-      <news:title>Wildfires and Record Heat Force Mass Evacuations Across Europe</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-13-evening/russia-barrage-kills-eight-ukraine-defences/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-13T17:57:00+01:00</news:publication_date>
-      <news:title>Russia’s Barrage Kills Eight in Ukraine as Defences Run Low</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-13-evening/immigration-bill-commons-burnham-backs-vote-tonight/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-13T17:57:00+01:00</news:publication_date>
-      <news:title>Burnham Backs the Immigration Bill as 80 MPs Press Him to Soften It</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-13-evening/mahmood-deport-rochdale-ringleader-shabir-ahmed/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-13T17:57:00+01:00</news:publication_date>
-      <news:title>Government Moves to Deport Rochdale Grooming Ringleader</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-13-evening/heatwave-holds-conwy-major-incident-amber/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-13T17:57:00+01:00</news:publication_date>
-      <news:title>Heatwave Holds Into Wednesday as North Wales Fights a Major Fire</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-13-evening/burnham-coronation-week-manchesterism/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-13T17:57:00+01:00</news:publication_date>
-      <news:title>Burnham’s Coronation Week: 322 Nominations and “Manchesterism”</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-13-evening/hosepipe-bans-widen-england/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-13T17:57:00+01:00</news:publication_date>
-      <news:title>Hosepipe Bans Widen Across England as Drought Deepens</news:title>
     </news:news>
   </url>
 </urlset>
