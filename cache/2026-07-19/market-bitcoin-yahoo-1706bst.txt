@@ -1,0 +1,14 @@
+URL: https://finance.yahoo.com/quote/BTC-USD/
+Retrieved Sunday 19 July 2026 via WebFetch, ~18:05 BST.
+LIVE: Bitcoin USD $64,514.08, +$437.20 (+0.68%).
+As-of timestamp on page: "As of 3:06:31 PM UTC. Market Open." (= 16:06 BST Sunday 19 July 2026).
+Page carried a notice: "We are experiencing some temporary issues. The market data on this page is currently delayed."
+Supersedes market-bitcoin-yahoo-1400bst.txt ($64,384.94, +0.34%, 14:00 BST) as the freshest Sunday print.
+
+ALL OTHER MARKET KEYS: equity, bond, currency and commodity markets were CLOSED for the
+weekend. Friday 17 July 2026 closes are carried in the data-markets fallback, sourced as
+cached in market-ftse-yahoo.txt, market-us-equities-vix-gold-yahoo.txt,
+market-brent-tradingeconomics.txt, market-gbpusd-tradingeconomics.txt,
+market-gold-tradingeconomics.txt, market-eurgbp-tradingeconomics.txt,
+market-gilt-10y-tradingeconomics.txt and market-ust-10y-tradingeconomics.txt.
+NO Sunday intraday figure has been invented for any of them.
