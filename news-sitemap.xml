@@ -2,6 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-21-morning/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-21T08:00:00+01:00</news:publication_date>
+      <news:title>Morning Briefing — Tuesday 21 July 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-21-morning/us-tenth-night-strikes-iran-kuwait/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-21T08:00:00+01:00</news:publication_date>
+      <news:title>US Strikes Iran for a Tenth Night as Tehran Hits Kuwait</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-21-morning/mediators-ten-day-truce-iran-us/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-21T08:00:00+01:00</news:publication_date>
+      <news:title>Mediators Table a Ten-Day Truce as Iran Signals Openness to Talks</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-21-morning/oil-retreats-ceasefire-hopes-hormuz/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-21T08:00:00+01:00</news:publication_date>
+      <news:title>Oil Retreats From a Five-Week High on Ceasefire Hopes</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-21-morning/russian-strike-grain-ship-odesa-moscow-drones/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-21T08:00:00+01:00</news:publication_date>
+      <news:title>Russian Missiles Kill Ten on a Grain Ship Off Odesa</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-21-morning/ukraine-civilian-record-crimea-highway-isw/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-21T08:00:00+01:00</news:publication_date>
+      <news:title>Ukrainian Civilian Toll Hits a Wartime Record as Crimea Link Is Cut</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-21-morning/healey-chancellor-cabinet-confirmed/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-21T08:00:00+01:00</news:publication_date>
+      <news:title>Healey Made Chancellor as Burnham Purges Starmer’s Ministers</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-21-morning/burnham-scraps-electricity-vat/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-21T08:00:00+01:00</news:publication_date>
+      <news:title>Burnham Scraps VAT on Electricity in His First Act as PM</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-21-morning/gilt-yields-two-month-high/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-21T08:00:00+01:00</news:publication_date>
+      <news:title>Markets Take Fright as Gilt Yields Hit a Two-Month High</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-21-morning/trump-poverty-stricken-north-sea/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-21T08:00:00+01:00</news:publication_date>
+      <news:title>Trump Brands Britain “Poverty Stricken” as Burnham Courts the President</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-21-morning/farage-badenoch-attack-burnham/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-21T08:00:00+01:00</news:publication_date>
+      <news:title>Farage Demands a Snap Election as Badenoch Attacks “Airy Fairy” Plans</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-07-20-evening/</loc>
     <news:news>
       <news:publication>
