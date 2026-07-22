@@ -2,6 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-22-evening/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-22T18:15:00+01:00</news:publication_date>
+      <news:title>Evening Briefing — Wednesday 22 July 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-22-evening/trump-bridge-power-plant-doctrine/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-22T18:15:00+01:00</news:publication_date>
+      <news:title>Trump Vows to Bomb a Bridge or Power Plant for Every Ship Hit</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-22-evening/brent-oil-past-93-dual-strait/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-22T18:15:00+01:00</news:publication_date>
+      <news:title>Oil Hits a Six-Week High as War Chokes Two Sea Routes</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-22-evening/iran-gulf-retaliation-rubio-asean/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-22T18:15:00+01:00</news:publication_date>
+      <news:title>Iran Strikes Back Across the Gulf as Rubio Warns Asia on Hormuz</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-22-evening/ukraine-molochka-southern-russia-strikes/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-22T18:15:00+01:00</news:publication_date>
+      <news:title>Ukraine Turns Its Drones on Southern Russia’s Oil and Supply Lines</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-22-evening/afghanistan-nuristan-flash-floods/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-22T18:15:00+01:00</news:publication_date>
+      <news:title>Flash Floods Kill 23 and Leave 100 Missing in Afghanistan</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-22-evening/burnham-rules-out-tax-rises-personal-allowance/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-22T18:15:00+01:00</news:publication_date>
+      <news:title>Burnham Rules Out Budget Tax Rises and Cools Allowance Talk</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-22-evening/digital-id-scheme-scrapped-vat-cut/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-22T18:15:00+01:00</news:publication_date>
+      <news:title>Burnham Axes Starmer’s Digital ID Scheme to Fund Cheaper Bills</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-22-evening/burnham-reviews-prisoner-early-release-scheme/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-22T18:15:00+01:00</news:publication_date>
+      <news:title>Burnham Orders Early-Release Review After Harper Killers Outcry</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-22-evening/ftse-five-month-high-gilts-pinned/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-22T18:15:00+01:00</news:publication_date>
+      <news:title>FTSE Hits a Five-Month High as Gilts Stay Pinned Near 5 Per Cent</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-22-evening/burnham-devolution-reset-sarwar-peerage/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-22T18:15:00+01:00</news:publication_date>
+      <news:title>Burnham Courts Scotland and Wales as Sarwar Heads to the Lords</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-07-22-morning/</loc>
     <news:news>
       <news:publication>
@@ -362,248 +483,6 @@
       </news:publication>
       <news:publication_date>2026-07-21T08:00:00+01:00</news:publication_date>
       <news:title>Farage Demands a Snap Election as Badenoch Attacks “Airy Fairy” Plans</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-20-evening/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-20T17:55:00+01:00</news:publication_date>
-      <news:title>Evening Briefing — Monday 20 July 2026</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-20-evening/us-strikes-iran-ninth-night-third-death/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-20T17:55:00+01:00</news:publication_date>
-      <news:title>US Strikes Iran for a Ninth Night as Third American Dies</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-20-evening/iran-signals-talks-suspends-commitments/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-20T17:55:00+01:00</news:publication_date>
-      <news:title>Iran Signals Openness to Talks Yet Suspends Its Commitments</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-20-evening/brent-breaks-90-then-eases-hormuz/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-20T17:55:00+01:00</news:publication_date>
-      <news:title>Oil Breaks $90 Then Retreats as Iran Hints at Diplomacy</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-20-evening/russian-strike-odesa-grain-ship-kills-ten/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-20T17:55:00+01:00</news:publication_date>
-      <news:title>Russian Strike on Grain Ship Near Odesa Kills Ten</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-20-evening/ukraine-400-drones-moscow-oil-depot/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-20T17:55:00+01:00</news:publication_date>
-      <news:title>Ukraine Launches 400 Drones at Moscow, Hitting an Oil Depot</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-20-evening/burnham-becomes-pm-circuit-breaker/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-20T17:55:00+01:00</news:publication_date>
-      <news:title>Burnham Becomes PM, Vowing a ‘Circuit-Breaker for Britain’</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-20-evening/reeves-lammy-out-burnham-reshuffle/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-20T17:55:00+01:00</news:publication_date>
-      <news:title>Reeves and Lammy Out as Burnham Reshapes the Cabinet</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-20-evening/burnham-fiscal-in-tray-debt-interest/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-20T17:55:00+01:00</news:publication_date>
-      <news:title>New PM Inherits £110bn Debt Bill and a Stalled Economy</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-20-evening/trump-north-sea-poverty-stricken/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-20T17:55:00+01:00</news:publication_date>
-      <news:title>Trump Hails North Sea Plan, Calls Britain ‘Poverty Stricken’</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-20-evening/reform-labour-level-polls-burnham/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-20T17:55:00+01:00</news:publication_date>
-      <news:title>Reform Leads or Levels With Labour as Burnham Takes Over</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-20-morning/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-20T08:00:00+01:00</news:publication_date>
-      <news:title>Morning Briefing — Monday 20 July 2026</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-20-morning/ninth-night-us-strikes-iran/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-20T08:00:00+01:00</news:publication_date>
-      <news:title>America Bombs Iran for a Ninth Night as Tabriz Is Hit</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-20-morning/iran-retaliation-bahrain-kuwait-jordan/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-20T08:00:00+01:00</news:publication_date>
-      <news:title>Iran Strikes Bahrain, Kuwait and Jordan in Gulf-Wide Retaliation</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-20-morning/brent-crude-tops-ninety-hormuz/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-20T08:00:00+01:00</news:publication_date>
-      <news:title>Brent Tops $90 as Tankers Burn and Hormuz Shipping Seizes Up</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-20-morning/russia-largest-missile-barrage-kyiv/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-20T08:00:00+01:00</news:publication_date>
-      <news:title>Russia Unleashes One of the War’s Largest Barrages on Kyiv</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-20-morning/ukraine-drones-black-sea-fuel/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-20T08:00:00+01:00</news:publication_date>
-      <news:title>Ukrainian Drones Cripple Russia’s Black Sea Fuel Lifeline</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-20-morning/burnham-becomes-prime-minister-handover/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-20T08:00:00+01:00</news:publication_date>
-      <news:title>Burnham to Enter Downing Street as Britain’s Seventh PM in a Decade</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-20-morning/burnham-cabinet-mahmood-chancellor-tipped/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-20T08:00:00+01:00</news:publication_date>
-      <news:title>Mahmood Tipped for Chancellor as Burnham Keeps the Cabinet Guessing</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-20-morning/burnham-scrap-digital-id-cost-living/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-20T08:00:00+01:00</news:publication_date>
-      <news:title>Burnham to Axe Starmer’s Digital ID Scheme on Day One</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-20-morning/burnham-cost-of-living-energy-bills-package/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-20T08:00:00+01:00</news:publication_date>
-      <news:title>New PM to Promise “Breathing Space” With Energy Bills in His Sights</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-20-morning/farage-badenoch-burnham-election-mandate/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-20T08:00:00+01:00</news:publication_date>
-      <news:title>Farage Demands an Immediate Election as Burnham “Has No Mandate”</news:title>
     </news:news>
   </url>
 </urlset>
