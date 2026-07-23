@@ -2,6 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-23-evening/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-23T22:31:00+01:00</news:publication_date>
+      <news:title>Evening Briefing — Thursday 23 July 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-23-evening/trump-massive-strike-oil-tops-100/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-23T22:31:00+01:00</news:publication_date>
+      <news:title>Trump Threatens a ‘Massive’ Strike on Iran as Oil Tops $100</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-23-evening/us-strikes-iran-casualties-retaliation/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-23T22:31:00+01:00</news:publication_date>
+      <news:title>US Presses Its Strikes as Iran Claims Hits on Gulf Bases</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-23-evening/rubio-lavrov-manila-ukraine/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-23T22:31:00+01:00</news:publication_date>
+      <news:title>Rubio and Lavrov Meet in Manila to Test Ukraine Peace Hopes</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-23-evening/europe-wildfires-firefighters-die/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-23T22:31:00+01:00</news:publication_date>
+      <news:title>Two Firefighters Die as Wildfires Sweep Southern Europe</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-23-evening/saudi-suspends-red-sea-oil-shipping/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-23T22:31:00+01:00</news:publication_date>
+      <news:title>Saudi Arabia Halts Some Red Sea Oil as the Blockade Bites</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-23-evening/healey-fiscal-buffer-city-speech/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-23T22:31:00+01:00</news:publication_date>
+      <news:title>Healey Vows a ‘Fiscal Buffer’ as Gilt Yields Hit a Two-Month High</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-23-evening/ftse-falls-oil-100-markets/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-23T22:31:00+01:00</news:publication_date>
+      <news:title>Oil at $100 Sends the FTSE Lower and Rattles Global Markets</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-23-evening/pump-prices-jump-burnham-cost-of-living/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-23T22:31:00+01:00</news:publication_date>
+      <news:title>Pump Prices Jump as $100 Oil Squeezes Burnham’s Cost-of-Living Plan</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-23-evening/resident-doctors-strike-streeting/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-23T22:31:00+01:00</news:publication_date>
+      <news:title>Resident Doctors to Strike for Five Days as Waiting Lists Fall</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-23-evening/heatwave-hosepipe-bans-england/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-23T22:31:00+01:00</news:publication_date>
+      <news:title>Heat Alerts and Hosepipe Bans Widen as the Summer Bakes On</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-07-23-morning/</loc>
     <news:news>
       <news:publication>
@@ -362,127 +483,6 @@
       </news:publication>
       <news:publication_date>2026-07-22T08:00:00+01:00</news:publication_date>
       <news:title>Sacked Starmer Loyalists Nurse Their Wounds on the Backbenches</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-21-evening/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-21T18:00:00+01:00</news:publication_date>
-      <news:title>Evening Briefing — Tuesday 21 July 2026</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-21-evening/iran-us-ten-day-truce-weighed/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-21T18:00:00+01:00</news:publication_date>
-      <news:title>Iran Weighs a Ten-Day Truce as Trump Demands Tehran Pay</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-21-evening/oil-rebounds-houthi-red-sea-blockade/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-21T18:00:00+01:00</news:publication_date>
-      <news:title>Oil Rebounds Above $91 as the Houthis Blockade the Red Sea</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-21-evening/asean-manila-hormuz-appeal/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-21T18:00:00+01:00</news:publication_date>
-      <news:title>ASEAN Demands a Hormuz Truce as Rubio Lands in Manila</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-21-evening/kazakhstan-halts-black-sea-oil/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-21T18:00:00+01:00</news:publication_date>
-      <news:title>Kazakhstan Halts Black Sea Oil Exports After Tanker Drone Strikes</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-21-evening/ukraine-russia-overnight-drone-barrage/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-21T18:00:00+01:00</news:publication_date>
-      <news:title>Russia and Ukraine Trade Heavy Drone Barrages as Talks Stall</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-21-evening/burnham-first-cabinet-cost-living/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-21T18:00:00+01:00</news:publication_date>
-      <news:title>Burnham Tells His First Cabinet: We Are a Cost-of-Living Government</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-21-evening/starmer-ally-unfunded-attack/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-21T18:00:00+01:00</news:publication_date>
-      <news:title>Sacked Starmer Ally Brands Burnham’s Energy Cut “Unfunded”</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-21-evening/recess-shields-pm-until-september/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-21T18:00:00+01:00</news:publication_date>
-      <news:title>Recess Shields Burnham From the Commons Until September</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-21-evening/trump-call-manchester-visit/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-21T18:00:00+01:00</news:publication_date>
-      <news:title>Trump Signals a Manchester Visit After a “Very Good” First Call</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-21-evening/no-ten-north-whitehall-merger/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-21T18:00:00+01:00</news:publication_date>
-      <news:title>Burnham Sets Up “No 10 North” and Merges Whitehall Departments</news:title>
     </news:news>
   </url>
 </urlset>
