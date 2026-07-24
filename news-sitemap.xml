@@ -2,6 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-24-morning/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-24T08:00:00+01:00</news:publication_date>
+      <news:title>Morning Briefing — Friday 24 July 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-24-morning/us-strikes-iran-thirteenth-night/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-24T08:00:00+01:00</news:publication_date>
+      <news:title>US Strikes Iran for a 13th Night as Trump Vows More Pain</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-24-morning/oil-holds-near-100-gulf-war/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-24T08:00:00+01:00</news:publication_date>
+      <news:title>Oil Holds Near $100 as the Gulf War Grinds On</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-24-morning/wildfires-heat-spain-france/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-24T08:00:00+01:00</news:publication_date>
+      <news:title>Wildfires and Record Heat Grip Spain and France</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-24-morning/kremlin-mobilisation-ukraine-isw/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-24T08:00:00+01:00</news:publication_date>
+      <news:title>Kremlin Lays Ground for Mobilisation, War Institute Says</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-24-morning/israel-strikes-gaza-displacement-orders/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-24T08:00:00+01:00</news:publication_date>
+      <news:title>Israel Strikes Gaza After Fresh Displacement Orders</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-24-morning/retail-sales-jump-june-warm-weather/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-24T08:00:00+01:00</news:publication_date>
+      <news:title>Retail Sales Jump in June as the Warm Weather Lifts Spending</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-24-morning/gilts-two-month-high-rate-hikes/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-24T08:00:00+01:00</news:publication_date>
+      <news:title>Gilt Yields Hit a Two-Month High as Markets Bet on Rate Rises</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-24-morning/doctors-strike-eve-talks/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-24T08:00:00+01:00</news:publication_date>
+      <news:title>Resident Doctors Poised to Strike as Last-Ditch Talks Continue</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-24-morning/amber-heat-alert-weekend-england/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-24T08:00:00+01:00</news:publication_date>
+      <news:title>Amber Heat Alert Covers Much of England This Weekend</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-24-morning/burnham-narrows-reform-lead-polls/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-24T08:00:00+01:00</news:publication_date>
+      <news:title>Labour Narrows Reform’s Lead as Burnham Settles In</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-07-23-evening/</loc>
     <news:news>
       <news:publication>

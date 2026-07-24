@@ -3,7 +3,7 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
     <loc>https://thedailybrief.co.uk/</loc>
-    <lastmod>2026-07-23</lastmod>
+    <lastmod>2026-07-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -9196,6 +9196,72 @@
   <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-07-23-morning/zelensky-sacks-army-chief-syrskyi/</loc>
     <lastmod>2026-07-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-24-morning/</loc>
+    <lastmod>2026-07-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-24-morning/amber-heat-alert-weekend-england/</loc>
+    <lastmod>2026-07-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-24-morning/burnham-narrows-reform-lead-polls/</loc>
+    <lastmod>2026-07-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-24-morning/doctors-strike-eve-talks/</loc>
+    <lastmod>2026-07-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-24-morning/gilts-two-month-high-rate-hikes/</loc>
+    <lastmod>2026-07-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-24-morning/israel-strikes-gaza-displacement-orders/</loc>
+    <lastmod>2026-07-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-24-morning/kremlin-mobilisation-ukraine-isw/</loc>
+    <lastmod>2026-07-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-24-morning/oil-holds-near-100-gulf-war/</loc>
+    <lastmod>2026-07-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-24-morning/retail-sales-jump-june-warm-weather/</loc>
+    <lastmod>2026-07-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-24-morning/us-strikes-iran-thirteenth-night/</loc>
+    <lastmod>2026-07-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-24-morning/wildfires-heat-spain-france/</loc>
+    <lastmod>2026-07-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
