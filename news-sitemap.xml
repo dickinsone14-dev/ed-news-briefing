@@ -2,6 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-24-evening/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-24T16:29:00+01:00</news:publication_date>
+      <news:title>Evening Briefing — Friday 24 July 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-24-evening/spain-emergency-wildfires-europe/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-24T16:29:00+01:00</news:publication_date>
+      <news:title>Spain Declares Emergency as Wildfires Force Tens of Thousands to Flee</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-24-evening/iran-strikes-gulf-bases-trump-weighs/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-24T16:29:00+01:00</news:publication_date>
+      <news:title>Iran Strikes US Gulf Bases as Trump Weighs a Bigger Attack</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-24-evening/oil-retreats-below-100-premium-unwinds/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-24T16:29:00+01:00</news:publication_date>
+      <news:title>Oil Retreats Below $100 as the War-Risk Premium Unwinds</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-24-evening/russia-strike-kyiv-ukraine-kirov/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-24T16:29:00+01:00</news:publication_date>
+      <news:title>Russian Strike on a Kyiv Event Kills 10 as Both Sides Trade Blows</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-24-evening/west-bank-gunfight-nablus-israel/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-24T16:29:00+01:00</news:publication_date>
+      <news:title>Six Killed in West Bank Gunfight as Israel Raids Nablus</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-24-evening/burnham-number-ten-north-manchester/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-24T16:29:00+01:00</news:publication_date>
+      <news:title>Burnham Launches ‘Number 10 North’ in Manchester</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-24-evening/burnham-business-rates-cut-pubs/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-24T16:29:00+01:00</news:publication_date>
+      <news:title>Burnham Cuts Business Rates for Pubs and Music Venues</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-24-evening/ftse-rebounds-oil-panic-fades/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-24T16:29:00+01:00</news:publication_date>
+      <news:title>FTSE Rebounds and Gilts Steady as the Oil Panic Fades</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-24-evening/uk-business-activity-three-month-high/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-24T16:29:00+01:00</news:publication_date>
+      <news:title>Business Activity Hits a Three-Month High, Survey Shows</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-24-evening/airbus-satellite-contract-pressure/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-24T16:29:00+01:00</news:publication_date>
+      <news:title>Ministers Pressed to Award £2.4bn Satellite Deal to Airbus</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-07-24-morning/</loc>
     <news:news>
       <news:publication>
@@ -483,127 +604,6 @@
       </news:publication>
       <news:publication_date>2026-07-22T18:15:00+01:00</news:publication_date>
       <news:title>Burnham Courts Scotland and Wales as Sarwar Heads to the Lords</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-22-morning/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-22T08:00:00+01:00</news:publication_date>
-      <news:title>Morning Briefing — Wednesday 22 July 2026</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-22-morning/us-strikes-iran-eleventh-night/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-22T08:00:00+01:00</news:publication_date>
-      <news:title>US Bombs Iran for an Eleventh Night as Trump Threatens Natanz</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-22-morning/rubio-iran-not-serious-talks/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-22T08:00:00+01:00</news:publication_date>
-      <news:title>Rubio Says Iran Is “Not Serious” About Talks as Strikes Go On</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-22-morning/oil-nears-93-houthi-blockade/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-22T08:00:00+01:00</news:publication_date>
-      <news:title>Oil Nears $93 as the Houthis Turn Back Saudi Tankers</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-22-morning/ukraine-400-drone-moscow-raid/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-22T08:00:00+01:00</news:publication_date>
-      <news:title>Ukraine Launches a 400-Drone Raid on the Moscow Region</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-22-morning/france-record-wildfires-firefighters-die/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-22T08:00:00+01:00</news:publication_date>
-      <news:title>Two Firefighters Die as Record Wildfires Ravage France</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-22-morning/two-pound-bus-fare-cap-england/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-22T08:00:00+01:00</news:publication_date>
-      <news:title>Burnham Caps Bus Fares at £2 in a Fresh Cost-of-Living Blitz</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-22-morning/inflation-falls-15-month-low/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-22T08:00:00+01:00</news:publication_date>
-      <news:title>Inflation Slips to 2.6 Per Cent, a 15-Month Low, as Fuel Falls</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-22-morning/cost-of-living-blitz-tax-rise-warning/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-22T08:00:00+01:00</news:publication_date>
-      <news:title>Economists Warn Burnham’s Giveaways Point to Autumn Tax Rises</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-22-morning/gilts-near-five-percent-boe-watch/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-22T08:00:00+01:00</news:publication_date>
-      <news:title>Gilts Hold Near 5 Per Cent as Markets Eye the Bank of England</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-22-morning/starmerite-backbench-loyalty-strains/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-22T08:00:00+01:00</news:publication_date>
-      <news:title>Sacked Starmer Loyalists Nurse Their Wounds on the Backbenches</news:title>
     </news:news>
   </url>
 </urlset>
