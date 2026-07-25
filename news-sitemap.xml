@@ -2,6 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-25-morning/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-25T07:55:00+01:00</news:publication_date>
+      <news:title>Morning Briefing — Saturday 25 July 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-25-morning/trump-rules-out-iran-deal/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-25T07:55:00+01:00</news:publication_date>
+      <news:title>Trump Rules Out Iran Deal ‘For Now’ as Strikes Continue</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-25-morning/us-fires-tanker-hormuz-blockade/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-25T07:55:00+01:00</news:publication_date>
+      <news:title>US Fires on Tanker Running Iran’s Hormuz Blockade</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-25-morning/wildfires-france-spain-evacuations/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-25T07:55:00+01:00</news:publication_date>
+      <news:title>Wildfires Force 166,000 to Flee Across France and Spain</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-25-morning/russia-ukraine-strikes-chernihiv/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-25T07:55:00+01:00</news:publication_date>
+      <news:title>Russia and Ukraine Trade Strikes as Blackout Hits Chernihiv</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-25-morning/west-bank-settler-rampages-nablus/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-25T07:55:00+01:00</news:publication_date>
+      <news:title>West Bank Settler Rampages Follow Deadly Nablus Clashes</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-25-morning/trump-burnham-north-sea-drilling/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-25T07:55:00+01:00</news:publication_date>
+      <news:title>Trump Cheers Burnham’s North Sea Drilling Amid Green Backlash</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-25-morning/burnham-bounce-narrows-reform/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-25T07:55:00+01:00</news:publication_date>
+      <news:title>‘Burnham Bounce’ Narrows Reform’s Lead in the Polls</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-25-morning/bank-of-england-hold-rates/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-25T07:55:00+01:00</news:publication_date>
+      <news:title>Bank of England Set to Hold Rates on Thursday</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-25-morning/thames-water-bill-rise/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-25T07:55:00+01:00</news:publication_date>
+      <news:title>Thames Water Seeks Fresh Bill Rise as Burnham Vows Reform</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-25-morning/small-boat-arrivals-burnham-test/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-25T07:55:00+01:00</news:publication_date>
+      <news:title>Small-Boat Arrivals Remain Burnham’s Toughest Political Test</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-07-24-evening/</loc>
     <news:news>
       <news:publication>
@@ -362,248 +483,6 @@
       </news:publication>
       <news:publication_date>2026-07-23T22:31:00+01:00</news:publication_date>
       <news:title>Heat Alerts and Hosepipe Bans Widen as the Summer Bakes On</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-23-morning/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-23T08:00:00+01:00</news:publication_date>
-      <news:title>Morning Briefing — Thursday 23 July 2026</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-23-morning/us-strikes-iran-twelfth-night/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-23T08:00:00+01:00</news:publication_date>
-      <news:title>US Bombs Iran for a Twelfth Night as Oil Spikes Anew</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-23-morning/oil-tops-95-houthi-tanker-fire/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-23T08:00:00+01:00</news:publication_date>
-      <news:title>Oil Tops $95 as a Saudi Tanker Burns in the Red Sea</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-23-morning/pickaxe-mountain-nuclear-threat/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-23T08:00:00+01:00</news:publication_date>
-      <news:title>Trump Threatens Iran’s ‘Pickaxe Mountain’ as Tehran Denies Nuclear Work</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-23-morning/zelensky-sacks-army-chief-syrskyi/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-23T08:00:00+01:00</news:publication_date>
-      <news:title>Zelensky Sacks His Army Chief After Days of Kyiv Protests</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-23-morning/europe-wildfires-spain-france-heat/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-23T08:00:00+01:00</news:publication_date>
-      <news:title>Wildfires Rage Across Spain and France Amid Another Heatwave</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-23-morning/burnham-north-sea-rosebank-jackdaw/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-23T08:00:00+01:00</news:publication_date>
-      <news:title>Burnham Weighs North Sea Drilling in a Manifesto Reckoning</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-23-morning/uk-gilts-g7-high-sterling-slips/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-23T08:00:00+01:00</news:publication_date>
-      <news:title>UK Borrowing Costs Stay Highest in the G7 as Sterling Slips</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-23-morning/burnham-preferred-pm-poll/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-23T08:00:00+01:00</news:publication_date>
-      <news:title>Burnham Governs as Preferred PM but Faces a Sceptical Public</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-23-morning/hosepipe-bans-drought-england/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-23T08:00:00+01:00</news:publication_date>
-      <news:title>Millions More Face Hosepipe Bans as England Dries Out</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-23-morning/oil-surge-threatens-uk-inflation/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-23T08:00:00+01:00</news:publication_date>
-      <news:title>Oil’s Surge Threatens to Undo Britain’s Inflation Relief</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-22-evening/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-22T18:15:00+01:00</news:publication_date>
-      <news:title>Evening Briefing — Wednesday 22 July 2026</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-22-evening/trump-bridge-power-plant-doctrine/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-22T18:15:00+01:00</news:publication_date>
-      <news:title>Trump Vows to Bomb a Bridge or Power Plant for Every Ship Hit</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-22-evening/brent-oil-past-93-dual-strait/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-22T18:15:00+01:00</news:publication_date>
-      <news:title>Oil Hits a Six-Week High as War Chokes Two Sea Routes</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-22-evening/iran-gulf-retaliation-rubio-asean/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-22T18:15:00+01:00</news:publication_date>
-      <news:title>Iran Strikes Back Across the Gulf as Rubio Warns Asia on Hormuz</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-22-evening/ukraine-molochka-southern-russia-strikes/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-22T18:15:00+01:00</news:publication_date>
-      <news:title>Ukraine Turns Its Drones on Southern Russia’s Oil and Supply Lines</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-22-evening/afghanistan-nuristan-flash-floods/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-22T18:15:00+01:00</news:publication_date>
-      <news:title>Flash Floods Kill 23 and Leave 100 Missing in Afghanistan</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-22-evening/burnham-rules-out-tax-rises-personal-allowance/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-22T18:15:00+01:00</news:publication_date>
-      <news:title>Burnham Rules Out Budget Tax Rises and Cools Allowance Talk</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-22-evening/digital-id-scheme-scrapped-vat-cut/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-22T18:15:00+01:00</news:publication_date>
-      <news:title>Burnham Axes Starmer’s Digital ID Scheme to Fund Cheaper Bills</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-22-evening/burnham-reviews-prisoner-early-release-scheme/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-22T18:15:00+01:00</news:publication_date>
-      <news:title>Burnham Orders Early-Release Review After Harper Killers Outcry</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-22-evening/ftse-five-month-high-gilts-pinned/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-22T18:15:00+01:00</news:publication_date>
-      <news:title>FTSE Hits a Five-Month High as Gilts Stay Pinned Near 5 Per Cent</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-22-evening/burnham-devolution-reset-sarwar-peerage/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-22T18:15:00+01:00</news:publication_date>
-      <news:title>Burnham Courts Scotland and Wales as Sarwar Heads to the Lords</news:title>
     </news:news>
   </url>
 </urlset>
