@@ -2,6 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-25-evening/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-25T16:25:00+01:00</news:publication_date>
+      <news:title>Evening Briefing — Saturday 25 July 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-25-evening/europe-wildfires-267000-flee/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-25T16:25:00+01:00</news:publication_date>
+      <news:title>Wildfires Force More Than 267,000 to Flee France and Spain</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-25-evening/houthis-strike-saudi-aramco-sites/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-25T16:25:00+01:00</news:publication_date>
+      <news:title>Houthis Say They Struck Saudi Aramco Oil Sites</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-25-evening/us-halts-strikes-iran-talks/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-25T16:25:00+01:00</news:publication_date>
+      <news:title>US Halts Its Strikes on Iran as Both Sides Signal Talks</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-25-evening/ukraine-russia-strikes-holiday-camp/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-25T16:25:00+01:00</news:publication_date>
+      <news:title>At Least Eleven Killed as Russia and Ukraine Trade Strikes</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-25-evening/west-bank-settler-outposts-nablus/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-25T16:25:00+01:00</news:publication_date>
+      <news:title>Israeli Settlers Set Up New Outposts After Deadly Clash</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-25-evening/cairngorms-wildfire-major-incident/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-25T16:25:00+01:00</news:publication_date>
+      <news:title>Cairngorms Wildfire Declared a Major Incident as a Village Flees</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-25-evening/essex-explosion-firefighters-hospital/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-25T16:25:00+01:00</news:publication_date>
+      <news:title>Twenty Firefighters in Hospital After an Essex Explosion</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-25-evening/burnham-rules-out-snap-election-indyref/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-25T16:25:00+01:00</news:publication_date>
+      <news:title>Burnham Rules Out a Snap Election and an Independence Vote</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-25-evening/record-165-migrants-single-boat/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-25T16:25:00+01:00</news:publication_date>
+      <news:title>Record 165 Migrants Cross the Channel in a Single Boat</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-25-evening/uk-fourth-heatwave-alerts/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-25T16:25:00+01:00</news:publication_date>
+      <news:title>Britain Braces for a Fourth Heatwave as Alerts Widen</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-07-25-morning/</loc>
     <news:news>
       <news:publication>
