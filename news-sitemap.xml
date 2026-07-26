@@ -2,6 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-26-evening/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-26T21:41:00+01:00</news:publication_date>
+      <news:title>Evening Briefing — Sunday 26 July 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-26-evening/iran-threatens-ukraine-caspian-ship/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-26T21:41:00+01:00</news:publication_date>
+      <news:title>Iran Threatens Ukraine After a Strike on a Caspian Ship</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-26-evening/us-pause-oman-talks-hormuz/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-26T21:41:00+01:00</news:publication_date>
+      <news:title>US Pause Holds as Oman Brokers Talks on Hormuz</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-26-evening/wildfires-360000-france-spain/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-26T21:41:00+01:00</news:publication_date>
+      <news:title>Wildfires Displace More Than 360,000 in France and Spain</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-26-evening/israeli-strike-hamas-officer-gaza/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-26T21:41:00+01:00</news:publication_date>
+      <news:title>Israeli Strike Kills a Senior Hamas Officer in Gaza</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-26-evening/berlin-pride-attack-suspect-killed/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-26T21:41:00+01:00</news:publication_date>
+      <news:title>Car Rams the Berlin Pride Parade; Suspect Shot Dead</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-26-evening/burnham-electoral-reform-mayors-tax/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-26T21:41:00+01:00</news:publication_date>
+      <news:title>Burnham Signals Electoral Reform and Tax Powers for Mayors</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-26-evening/cairngorms-chinooks-day-twelve/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-26T21:41:00+01:00</news:publication_date>
+      <news:title>RAF Chinooks Offered as the Cairngorms Fire Enters Day 12</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-26-evening/teenager-charged-record-crossing/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-26T21:41:00+01:00</news:publication_date>
+      <news:title>Teenager Charged Over the Record Channel Crossing</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-26-evening/north-south-life-expectancy-gap/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-26T21:41:00+01:00</news:publication_date>
+      <news:title>North-South Life-Expectancy Gap Widens, Study Finds</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-26-evening/miliband-climate-foreign-policy/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-26T21:41:00+01:00</news:publication_date>
+      <news:title>Miliband Puts Climate at the Centre of Foreign Policy</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-07-26-morning/</loc>
     <news:news>
       <news:publication>
