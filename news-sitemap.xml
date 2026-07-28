@@ -2,6 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-28-morning/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-28T08:00:00+01:00</news:publication_date>
+      <news:title>Morning Briefing — Tuesday 28 July 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-28-morning/drones-strike-saudi-aramco-abqaiq/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-28T08:00:00+01:00</news:publication_date>
+      <news:title>Drones Strike Saudi Aramco’s Giant Abqaiq Oil Plant</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-28-morning/us-iran-pause-fourth-day-trump/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-28T08:00:00+01:00</news:publication_date>
+      <news:title>US-Iran Pause Holds a Fourth Day as Trump Warns Time Is Short</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-28-morning/netanyahu-meets-trump-washington/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-28T08:00:00+01:00</news:publication_date>
+      <news:title>Netanyahu Meets Trump in Washington With Iran Top of the Agenda</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-28-morning/france-megafire-stabilises-spain/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-28T08:00:00+01:00</news:publication_date>
+      <news:title>France’s Megafire Stabilises as Spain’s Emergency Deepens</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-28-morning/zelensky-trump-senate-russia-sanctions/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-28T08:00:00+01:00</news:publication_date>
+      <news:title>Zelensky Meets Trump as the Senate Weighs Russia Sanctions</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-28-morning/burnham-welfare-shakeup-mps-warn/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-28T08:00:00+01:00</news:publication_date>
+      <news:title>Burnham to Unveil His First Welfare Shake-Up as MPs Warn on Cuts</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-28-morning/burnham-phillipson-party-chair/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-28T08:00:00+01:00</news:publication_date>
+      <news:title>Burnham Names Phillipson Party Chair to Steady Labour</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-28-morning/fourth-heatwave-amber-alerts/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-28T08:00:00+01:00</news:publication_date>
+      <news:title>Britain’s Fourth Heatwave Arrives With Amber Alerts</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-28-morning/cairngorms-coalsnaughton-village-flees/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-28T08:00:00+01:00</news:publication_date>
+      <news:title>Cairngorms Fire Burns On as Another Scottish Village Flees</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-28-morning/ftse-record-oil-slips-boe/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-28T08:00:00+01:00</news:publication_date>
+      <news:title>FTSE Holds Near a Record as Oil Slips Again</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-07-27-evening/</loc>
     <news:news>
       <news:publication>

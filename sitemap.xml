@@ -3,7 +3,7 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
     <loc>https://thedailybrief.co.uk/</loc>
-    <lastmod>2026-07-27</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -9724,6 +9724,72 @@
   <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-07-27-morning/zelensky-first-leader-visit-burnham/</loc>
     <lastmod>2026-07-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-28-morning/</loc>
+    <lastmod>2026-07-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-28-morning/burnham-phillipson-party-chair/</loc>
+    <lastmod>2026-07-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-28-morning/burnham-welfare-shakeup-mps-warn/</loc>
+    <lastmod>2026-07-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-28-morning/cairngorms-coalsnaughton-village-flees/</loc>
+    <lastmod>2026-07-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-28-morning/drones-strike-saudi-aramco-abqaiq/</loc>
+    <lastmod>2026-07-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-28-morning/fourth-heatwave-amber-alerts/</loc>
+    <lastmod>2026-07-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-28-morning/france-megafire-stabilises-spain/</loc>
+    <lastmod>2026-07-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-28-morning/ftse-record-oil-slips-boe/</loc>
+    <lastmod>2026-07-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-28-morning/netanyahu-meets-trump-washington/</loc>
+    <lastmod>2026-07-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-28-morning/us-iran-pause-fourth-day-trump/</loc>
+    <lastmod>2026-07-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-28-morning/zelensky-trump-senate-russia-sanctions/</loc>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
