@@ -2,6 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-29-evening/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-29T18:30:00+01:00</news:publication_date>
+      <news:title>Evening Briefing — Wednesday 29 July 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-29-evening/trump-vows-hit-iran-us-strikes-iraq/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-29T18:30:00+01:00</news:publication_date>
+      <news:title>Trump Vows to Hit Iran Hard as US Strikes Iraqi Militias</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-29-evening/drone-strikes-tanker-egyptian-port/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-29T18:30:00+01:00</news:publication_date>
+      <news:title>Drone Strikes a Tanker at an Egyptian Port</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-29-evening/ukraine-strikes-russian-refineries/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-29T18:30:00+01:00</news:publication_date>
+      <news:title>Ukraine Strikes Russian Refineries and Industrial Sites</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-29-evening/japan-earthquake-toll-rises-18/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-29T18:30:00+01:00</news:publication_date>
+      <news:title>Japan Earthquake Death Toll Rises to 18</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-29-evening/wildfires-sweep-southern-europe/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-29T18:30:00+01:00</news:publication_date>
+      <news:title>Deadly Wildfires Sweep Across Southern Europe</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-29-evening/burnham-wont-rule-out-tax-rises/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-29T18:30:00+01:00</news:publication_date>
+      <news:title>Burnham Will Not Rule Out Tax Rises for Social Care</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-29-evening/cyber-attack-education-department-607k/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-29T18:30:00+01:00</news:publication_date>
+      <news:title>Cyber-Attack Steals 607,000 Records from Education Department</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-29-evening/drought-declared-half-england/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-29T18:30:00+01:00</news:publication_date>
+      <news:title>Drought Declared Across More Than Half of England</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-29-evening/heatwave-peaks-35c-wildfire-severe/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-29T18:30:00+01:00</news:publication_date>
+      <news:title>Heatwave Peaks at 35C Amid Severe Wildfire Warnings</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-29-evening/uk-lending-fastest-2018-rate-call/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-29T18:30:00+01:00</news:publication_date>
+      <news:title>UK Lending Surges to Fastest Since 2018 Before Rate Call</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-07-29-morning/</loc>
     <news:news>
       <news:publication>
@@ -362,248 +483,6 @@
       </news:publication>
       <news:publication_date>2026-07-28T08:00:00+01:00</news:publication_date>
       <news:title>FTSE Holds Near a Record as Oil Slips Again</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-27-evening/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-27T18:09:00+01:00</news:publication_date>
-      <news:title>Evening Briefing — Monday 27 July 2026</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-27-evening/us-iran-talks-progress-trump-ultimatum/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-27T18:09:00+01:00</news:publication_date>
-      <news:title>US and Iran Report Progress in Talks as Trump Issues an Ultimatum</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-27-evening/netanyahu-washington-trump-talks/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-27T18:09:00+01:00</news:publication_date>
-      <news:title>Netanyahu Flies to Washington for Talks With Trump</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-27-evening/wildfires-bordeaux-spain-emergency/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-27T18:09:00+01:00</news:publication_date>
-      <news:title>Wildfires Reach the Edge of Bordeaux as Spain Declares an Emergency</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-27-evening/west-bank-mosques-israel-raids/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-27T18:09:00+01:00</news:publication_date>
-      <news:title>Settlers Burn Mosques as Israel Raids Across the West Bank</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-27-evening/ukraine-drones-strike-belgorod/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-27T18:09:00+01:00</news:publication_date>
-      <news:title>Ukrainian Drones Strike the Russian City of Belgorod</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-27-evening/britain-arms-ukraine-drones-zelensky-burnham/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-27T18:09:00+01:00</news:publication_date>
-      <news:title>Britain Arms Ukraine’s Drones as Zelensky Visits Burnham</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-27-evening/ftse-five-month-high-oil-tumbles/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-27T18:09:00+01:00</news:publication_date>
-      <news:title>FTSE Closes at a Five-Month High as Oil Tumbles</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-27-evening/burnham-welfare-crackdown-labour-clash/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-27T18:09:00+01:00</news:publication_date>
-      <news:title>Burnham’s Welfare Crackdown Sets Up a Clash With Labour MPs</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-27-evening/minister-defends-refusing-army-cairngorms/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-27T18:09:00+01:00</news:publication_date>
-      <news:title>Minister Defends Refusing Army Help for the Cairngorms Fire</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-27-evening/amber-heat-alert-fourth-heatwave/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-27T18:09:00+01:00</news:publication_date>
-      <news:title>Amber Heat Alert Issued as a Fourth Heatwave Nears</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-27-morning/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-27T08:00:00+01:00</news:publication_date>
-      <news:title>Morning Briefing — Monday 27 July 2026</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-27-morning/us-halts-iran-strikes-second-day/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-27T08:00:00+01:00</news:publication_date>
-      <news:title>US Pause on Iran Holds as Tehran Warns of a Wider War</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-27-morning/israel-approves-gaza-international-force/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-27T08:00:00+01:00</news:publication_date>
-      <news:title>Israel Approves a Limited International Force for Gaza</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-27-morning/russia-ukraine-overnight-strikes-ten-killed/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-27T08:00:00+01:00</news:publication_date>
-      <news:title>Russia and Ukraine Trade Overnight Strikes, Killing Ten</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-27-morning/trump-ai-images-ammo-shortage-denial/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-27T08:00:00+01:00</news:publication_date>
-      <news:title>Trump Shares Fake AI Images of Strikes and Denies an Ammo Shortage</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-27-morning/ebola-dr-congo-surge/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-27T08:00:00+01:00</news:publication_date>
-      <news:title>Ebola Surges in DR Congo, Killing More Than 1,400</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-27-morning/burnham-nhs-collapse-welfare-crackdown/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-27T08:00:00+01:00</news:publication_date>
-      <news:title>Burnham Warns the NHS Will Collapse and Signals a Welfare Crackdown</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-27-morning/zelensky-first-leader-visit-burnham/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-27T08:00:00+01:00</news:publication_date>
-      <news:title>Zelensky Becomes the First Leader to Visit Burnham as PM</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-27-morning/oil-slides-ftse-rallies-rate-fears/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-27T08:00:00+01:00</news:publication_date>
-      <news:title>Oil Slides and the FTSE Rallies as the Iran Truce Holds</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-27-morning/cairngorms-day-thirteen-heatwave/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-27T08:00:00+01:00</news:publication_date>
-      <news:title>Cairngorms Fire Burns Into Day 13 as a Fourth Heatwave Looms</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-27-morning/bev-craig-manchester-mayor-race/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-27T08:00:00+01:00</news:publication_date>
-      <news:title>Bev Craig Leads the Race to Succeed Burnham in Manchester</news:title>
     </news:news>
   </url>
 </urlset>
