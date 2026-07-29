@@ -2,6 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-29-morning/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-29T08:00:00+01:00</news:publication_date>
+      <news:title>Morning Briefing — Wednesday 29 July 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-29-morning/us-iran-truce-collapses-missiles/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-29T08:00:00+01:00</news:publication_date>
+      <news:title>US-Iran Truce Collapses as Iran Fires Missiles at US Forces</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-29-morning/iran-rejects-hormuz-deal-oil-jumps/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-29T08:00:00+01:00</news:publication_date>
+      <news:title>Iran Rejects a Hormuz Deal and Oil Jumps</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-29-morning/japan-earthquake-kills-thirteen/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-29T08:00:00+01:00</news:publication_date>
+      <news:title>Japan Earthquake Kills at Least 13</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-29-morning/senate-advances-russia-iran-sanctions/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-29T08:00:00+01:00</news:publication_date>
+      <news:title>US Senate Advances Sanctions on Russia and Iran</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-29-morning/russia-ukraine-heavy-overnight-strikes/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-29T08:00:00+01:00</news:publication_date>
+      <news:title>Russia and Ukraine Trade Heavy Overnight Strikes</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-29-morning/burnham-cross-party-social-care-talks/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-29T08:00:00+01:00</news:publication_date>
+      <news:title>Burnham Opens Cross-Party Talks on Fixing Social Care</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-29-morning/boe-decision-oil-spike-inflation/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-29T08:00:00+01:00</news:publication_date>
+      <news:title>Bank of England to Decide as an Oil Spike Revives Inflation Fears</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-29-morning/niesr-inflation-24bn-spending/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-29T08:00:00+01:00</news:publication_date>
+      <news:title>Inflation to Wipe £24bn Off Public Spending, Think-Tank Warns</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-29-morning/heatwave-peaks-35c-wildfire-warnings/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-29T08:00:00+01:00</news:publication_date>
+      <news:title>Heatwave Peaks at 35C as Wildfire Warnings Spread</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-29-morning/labour-catches-reform-polls/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-29T08:00:00+01:00</news:publication_date>
+      <news:title>Labour Catches Reform in the Polls, Surveys Suggest</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-07-28-evening/</loc>
     <news:news>
       <news:publication>
@@ -483,127 +604,6 @@
       </news:publication>
       <news:publication_date>2026-07-27T08:00:00+01:00</news:publication_date>
       <news:title>Bev Craig Leads the Race to Succeed Burnham in Manchester</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-26-evening/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-26T21:41:00+01:00</news:publication_date>
-      <news:title>Evening Briefing — Sunday 26 July 2026</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-26-evening/iran-threatens-ukraine-caspian-ship/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-26T21:41:00+01:00</news:publication_date>
-      <news:title>Iran Threatens Ukraine After a Strike on a Caspian Ship</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-26-evening/us-pause-oman-talks-hormuz/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-26T21:41:00+01:00</news:publication_date>
-      <news:title>US Pause Holds as Oman Brokers Talks on Hormuz</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-26-evening/wildfires-360000-france-spain/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-26T21:41:00+01:00</news:publication_date>
-      <news:title>Wildfires Displace More Than 360,000 in France and Spain</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-26-evening/israeli-strike-hamas-officer-gaza/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-26T21:41:00+01:00</news:publication_date>
-      <news:title>Israeli Strike Kills a Senior Hamas Officer in Gaza</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-26-evening/berlin-pride-attack-suspect-killed/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-26T21:41:00+01:00</news:publication_date>
-      <news:title>Car Rams the Berlin Pride Parade; Suspect Shot Dead</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-26-evening/burnham-electoral-reform-mayors-tax/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-26T21:41:00+01:00</news:publication_date>
-      <news:title>Burnham Signals Electoral Reform and Tax Powers for Mayors</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-26-evening/cairngorms-chinooks-day-twelve/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-26T21:41:00+01:00</news:publication_date>
-      <news:title>RAF Chinooks Offered as the Cairngorms Fire Enters Day 12</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-26-evening/teenager-charged-record-crossing/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-26T21:41:00+01:00</news:publication_date>
-      <news:title>Teenager Charged Over the Record Channel Crossing</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-26-evening/north-south-life-expectancy-gap/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-26T21:41:00+01:00</news:publication_date>
-      <news:title>North-South Life-Expectancy Gap Widens, Study Finds</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-26-evening/miliband-climate-foreign-policy/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-26T21:41:00+01:00</news:publication_date>
-      <news:title>Miliband Puts Climate at the Centre of Foreign Policy</news:title>
     </news:news>
   </url>
 </urlset>
