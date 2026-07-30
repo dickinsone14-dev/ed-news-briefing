@@ -2,6 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-30-morning/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-30T08:00:00+01:00</news:publication_date>
+      <news:title>Morning Briefing — Thursday 30 July 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-30-morning/us-launches-direct-strikes-iran/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-30T08:00:00+01:00</news:publication_date>
+      <news:title>US Launches Direct Strikes on Iran</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-30-morning/jordan-intercepts-five-iranian-missiles/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-30T08:00:00+01:00</news:publication_date>
+      <news:title>Jordan Intercepts Five Iranian Missiles Overnight</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-30-morning/russian-missiles-kill-seven-kyiv/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-30T08:00:00+01:00</news:publication_date>
+      <news:title>Russian Missiles Kill Seven in Kyiv</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-30-morning/japan-quake-rescuers-toll-18/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-30T08:00:00+01:00</news:publication_date>
+      <news:title>Japan Quake Rescuers Search On as Toll Stands at 18</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-30-morning/iraq-condemns-us-strikes-sovereignty/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-30T08:00:00+01:00</news:publication_date>
+      <news:title>Iraq Condemns US Strikes as Violation of Sovereignty</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-30-morning/boe-decision-oil-spike-inflation-fears/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-30T08:00:00+01:00</news:publication_date>
+      <news:title>Bank of England to Decide as Oil Spike Revives Inflation Fears</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-30-morning/burnham-nuclear-submarine-8bn/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-30T08:00:00+01:00</news:publication_date>
+      <news:title>Burnham to Unveil £8.4bn Nuclear-Submarine Investment</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-30-morning/manchester-votes-mayor-replace-burnham/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-30T08:00:00+01:00</news:publication_date>
+      <news:title>Manchester Votes for a Mayor to Replace Burnham</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-30-morning/heatwave-eases-drought-grips-england/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-30T08:00:00+01:00</news:publication_date>
+      <news:title>Heatwave Eases but Drought Still Grips England</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-30-morning/reform-donor-2m-mother-donations/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-30T08:00:00+01:00</news:publication_date>
+      <news:title>Reform Donor Moved $2m to Mother Before Party Gifts</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-07-29-evening/</loc>
     <news:news>
       <news:publication>
