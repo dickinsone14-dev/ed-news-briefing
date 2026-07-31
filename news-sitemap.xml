@@ -2,6 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-31-morning/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-31T08:00:00+01:00</news:publication_date>
+      <news:title>Morning Briefing — Friday 31 July 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-31-morning/us-strikes-iran-again-tehran-vows-revenge/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-31T08:00:00+01:00</news:publication_date>
+      <news:title>US Strikes Iran Again as Tehran Vows Revenge</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-31-morning/trump-hamas-disarm-israel-objects/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-31T08:00:00+01:00</news:publication_date>
+      <news:title>Trump Says Hamas Has Agreed to Disarm; Israel Objects</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-31-morning/japan-earthquake-toll-34-hopes-fade/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-31T08:00:00+01:00</news:publication_date>
+      <news:title>Japan Earthquake Toll Stands at 34 as Hopes Fade</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-31-morning/ten-climbers-missing-broad-peak/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-31T08:00:00+01:00</news:publication_date>
+      <news:title>Ten Climbers Missing on Pakistan&#x27;s Broad Peak</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-31-morning/us-investigates-iran-cyberattack-water/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-31T08:00:00+01:00</news:publication_date>
+      <news:title>US Investigates Suspected Iranian Cyberattack on Water</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-31-morning/burnham-mayors-share-income-tax/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-31T08:00:00+01:00</news:publication_date>
+      <news:title>Burnham to Give Mayors a Share of Income Tax</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-31-morning/manchester-awaits-result-replace-burnham/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-31T08:00:00+01:00</news:publication_date>
+      <news:title>Manchester Awaits Result in Vote to Replace Burnham</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-31-morning/diane-abbott-readmitted-labour/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-31T08:00:00+01:00</news:publication_date>
+      <news:title>Diane Abbott Readmitted to Labour After Suspension</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-31-morning/england-record-heat-deaths-warning/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-31T08:00:00+01:00</news:publication_date>
+      <news:title>England Faces Record Summer of Heat Deaths, Officials Warn</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-07-31-morning/burnham-early-wave-popularity/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-31T08:00:00+01:00</news:publication_date>
+      <news:title>Burnham Rides an Early Wave of Popularity</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-07-30-evening/</loc>
     <news:news>
       <news:publication>
@@ -483,127 +604,6 @@
       </news:publication>
       <news:publication_date>2026-07-29T08:00:00+01:00</news:publication_date>
       <news:title>Labour Catches Reform in the Polls, Surveys Suggest</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-28-evening/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-28T18:51:00+01:00</news:publication_date>
-      <news:title>Evening Briefing — Tuesday 28 July 2026</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-28-evening/earthquake-southern-japan-kyushu/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-28T18:51:00+01:00</news:publication_date>
-      <news:title>Powerful Earthquake Strikes Southern Japan</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-28-evening/netanyahu-trump-productive-iran-talks/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-28T18:51:00+01:00</news:publication_date>
-      <news:title>Netanyahu and Trump Hold ‘Productive’ Talks on Iran</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-28-evening/zelensky-trump-air-defence-pledges/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-28T18:51:00+01:00</news:publication_date>
-      <news:title>Zelensky Secures Air-Defence Pledges in Trump Talks</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-28-evening/oil-sinks-oman-hormuz-deal/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-28T18:51:00+01:00</news:publication_date>
-      <news:title>Oil Sinks Further as Oman Floats a Hormuz Deal</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-28-evening/wildfires-heatwave-france-spain/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-28T18:51:00+01:00</news:publication_date>
-      <news:title>Wildfires and a Fresh Heatwave Grip France and Spain</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-28-evening/burnham-welfare-package-labour-rebel/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-28T18:51:00+01:00</news:publication_date>
-      <news:title>Burnham Unveils Welfare Package as Labour MPs Rebel</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-28-evening/french-warship-shots-philp-channel/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-28T18:51:00+01:00</news:publication_date>
-      <news:title>French Warship Fires Shots Near a Tory MP in the Channel</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-28-evening/ftse-record-oil-slides-further/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-28T18:51:00+01:00</news:publication_date>
-      <news:title>FTSE Climbs to a Five-Month High as Oil Slides</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-28-evening/fourth-heatwave-peaks-amber/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-28T18:51:00+01:00</news:publication_date>
-      <news:title>Amber Alerts as the Fourth Heatwave Peaks Near 35C</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-28-evening/cairngorms-wildfire-could-take-months/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-28T18:51:00+01:00</news:publication_date>
-      <news:title>Cairngorms Wildfire ‘Could Take Months’ to Put Out</news:title>
     </news:news>
   </url>
 </urlset>
