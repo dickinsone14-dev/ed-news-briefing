@@ -2,6 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-01-morning/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-01T08:00:00+01:00</news:publication_date>
+      <news:title>Morning Briefing — Saturday 1 August 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-01-morning/us-israel-weigh-strikes-iran-oil-sites/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-01T08:00:00+01:00</news:publication_date>
+      <news:title>US and Israel Weigh Strikes on Iran&#x27;s Oil Sites</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-01-morning/russian-strike-kyiv-kills-nine/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-01T08:00:00+01:00</news:publication_date>
+      <news:title>Russian Strike on Kyiv Kills Nine, Traps Residents</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-01-morning/trump-netanyahu-split-gaza-disarmament/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-01T08:00:00+01:00</news:publication_date>
+      <news:title>Trump and Netanyahu Split Over Gaza Disarmament Deal</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-01-morning/ceuta-death-toll-climbs-spain-deports/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-01T08:00:00+01:00</news:publication_date>
+      <news:title>Ceuta Death Toll Climbs as Spain Deports Thousands</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-01-morning/six-climbers-missing-broad-peak-search/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-01T08:00:00+01:00</news:publication_date>
+      <news:title>Six Climbers Still Missing on Pakistan&#x27;s Broad Peak</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-01-morning/labour-craig-wins-manchester-mayoralty/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-01T08:00:00+01:00</news:publication_date>
+      <news:title>Labour&#x27;s Craig Wins Greater Manchester Mayoralty</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-01-morning/chancellor-sets-first-budget-october/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-01T08:00:00+01:00</news:publication_date>
+      <news:title>Chancellor Sets First Budget for Late October</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-01-morning/burnham-first-party-revolt-north-sea/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-01T08:00:00+01:00</news:publication_date>
+      <news:title>Burnham Faces First Party Revolt Over North Sea Oil</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-01-morning/wildfire-major-incident-drought-spreads/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-01T08:00:00+01:00</news:publication_date>
+      <news:title>Wildfire Declared a Major Incident as Drought Spreads</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-01-morning/london-population-falls-first-37-years/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-01T08:00:00+01:00</news:publication_date>
+      <news:title>London&#x27;s Population Falls for the First Time in 37 Years</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-07-31-evening/</loc>
     <news:news>
       <news:publication>
@@ -362,248 +483,6 @@
       </news:publication>
       <news:publication_date>2026-07-30T18:30:00+01:00</news:publication_date>
       <news:title>Drought Grips England as the Heatwave Eases</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-30-morning/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-30T08:00:00+01:00</news:publication_date>
-      <news:title>Morning Briefing — Thursday 30 July 2026</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-30-morning/us-launches-direct-strikes-iran/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-30T08:00:00+01:00</news:publication_date>
-      <news:title>US Launches Direct Strikes on Iran</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-30-morning/jordan-intercepts-five-iranian-missiles/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-30T08:00:00+01:00</news:publication_date>
-      <news:title>Jordan Intercepts Five Iranian Missiles Overnight</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-30-morning/russian-missiles-kill-seven-kyiv/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-30T08:00:00+01:00</news:publication_date>
-      <news:title>Russian Missiles Kill Seven in Kyiv</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-30-morning/japan-quake-rescuers-toll-18/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-30T08:00:00+01:00</news:publication_date>
-      <news:title>Japan Quake Rescuers Search On as Toll Stands at 18</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-30-morning/iraq-condemns-us-strikes-sovereignty/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-30T08:00:00+01:00</news:publication_date>
-      <news:title>Iraq Condemns US Strikes as Violation of Sovereignty</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-30-morning/boe-decision-oil-spike-inflation-fears/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-30T08:00:00+01:00</news:publication_date>
-      <news:title>Bank of England to Decide as Oil Spike Revives Inflation Fears</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-30-morning/burnham-nuclear-submarine-8bn/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-30T08:00:00+01:00</news:publication_date>
-      <news:title>Burnham to Unveil £8.4bn Nuclear-Submarine Investment</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-30-morning/manchester-votes-mayor-replace-burnham/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-30T08:00:00+01:00</news:publication_date>
-      <news:title>Manchester Votes for a Mayor to Replace Burnham</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-30-morning/heatwave-eases-drought-grips-england/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-30T08:00:00+01:00</news:publication_date>
-      <news:title>Heatwave Eases but Drought Still Grips England</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-30-morning/reform-donor-2m-mother-donations/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-30T08:00:00+01:00</news:publication_date>
-      <news:title>Reform Donor Moved $2m to Mother Before Party Gifts</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-29-evening/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-29T18:30:00+01:00</news:publication_date>
-      <news:title>Evening Briefing — Wednesday 29 July 2026</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-29-evening/trump-vows-hit-iran-us-strikes-iraq/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-29T18:30:00+01:00</news:publication_date>
-      <news:title>Trump Vows to Hit Iran Hard as US Strikes Iraqi Militias</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-29-evening/drone-strikes-tanker-egyptian-port/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-29T18:30:00+01:00</news:publication_date>
-      <news:title>Drone Strikes a Tanker at an Egyptian Port</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-29-evening/ukraine-strikes-russian-refineries/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-29T18:30:00+01:00</news:publication_date>
-      <news:title>Ukraine Strikes Russian Refineries and Industrial Sites</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-29-evening/japan-earthquake-toll-rises-18/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-29T18:30:00+01:00</news:publication_date>
-      <news:title>Japan Earthquake Death Toll Rises to 18</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-29-evening/wildfires-sweep-southern-europe/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-29T18:30:00+01:00</news:publication_date>
-      <news:title>Deadly Wildfires Sweep Across Southern Europe</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-29-evening/burnham-wont-rule-out-tax-rises/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-29T18:30:00+01:00</news:publication_date>
-      <news:title>Burnham Will Not Rule Out Tax Rises for Social Care</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-29-evening/cyber-attack-education-department-607k/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-29T18:30:00+01:00</news:publication_date>
-      <news:title>Cyber-Attack Steals 607,000 Records from Education Department</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-29-evening/drought-declared-half-england/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-29T18:30:00+01:00</news:publication_date>
-      <news:title>Drought Declared Across More Than Half of England</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-29-evening/heatwave-peaks-35c-wildfire-severe/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-29T18:30:00+01:00</news:publication_date>
-      <news:title>Heatwave Peaks at 35C Amid Severe Wildfire Warnings</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-07-29-evening/uk-lending-fastest-2018-rate-call/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-29T18:30:00+01:00</news:publication_date>
-      <news:title>UK Lending Surges to Fastest Since 2018 Before Rate Call</news:title>
     </news:news>
   </url>
 </urlset>
