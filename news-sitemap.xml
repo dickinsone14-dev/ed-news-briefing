@@ -2,6 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-03-evening/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-03T18:00:00+01:00</news:publication_date>
+      <news:title>Evening Briefing — Monday 3 August 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-03-evening/iran-says-not-negotiating-washington/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-03T18:00:00+01:00</news:publication_date>
+      <news:title>Iran Says It Is Not Negotiating With Washington</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-03-evening/israel-rules-out-gaza-pullback-peace-plan/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-03T18:00:00+01:00</news:publication_date>
+      <news:title>Israel Rules Out Gaza Pullback as Peace Plan Wobbles</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-03-evening/ukraine-reports-record-russian-missile-barrage/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-03T18:00:00+01:00</news:publication_date>
+      <news:title>Ukraine Reports Record Russian Missile Barrage</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-03-evening/record-low-danube-threatens-europe-power/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-03T18:00:00+01:00</news:publication_date>
+      <news:title>Record-Low Danube Threatens Eastern Europe&#x27;s Power</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-03-evening/thousands-flee-into-sudan-border-clashes/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-03T18:00:00+01:00</news:publication_date>
+      <news:title>Thousands Flee into Sudan After Border Clashes</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-03-evening/farage-navy-plan-anger-home-abroad/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-03T18:00:00+01:00</news:publication_date>
+      <news:title>Farage&#x27;s Navy Plan Draws Anger at Home and Abroad</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-03-evening/apple-challenges-uk-encrypted-data/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-03T18:00:00+01:00</news:publication_date>
+      <news:title>Apple Challenges UK Over Access to Encrypted Data</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-03-evening/uk-factory-output-picks-up-tariff-fears-ease/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-03T18:00:00+01:00</news:publication_date>
+      <news:title>UK Factory Output Picks Up as Tariff Fears Ease</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-03-evening/reform-tice-standards-investigation-evening/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-03T18:00:00+01:00</news:publication_date>
+      <news:title>Reform&#x27;s Tice Faces Standards Investigation</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-03-evening/amber-alerts-heat-nears-35c-storms-loom/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-03T18:00:00+01:00</news:publication_date>
+      <news:title>Amber Alerts as Heat Nears 35C, Storms Loom</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-08-03-morning/</loc>
     <news:news>
       <news:publication>
