@@ -2,6 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-03-morning/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-03T13:45:00+01:00</news:publication_date>
+      <news:title>Morning Briefing — Monday 3 August 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-03-morning/iran-denies-deal-trump-announces-talks/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-03T13:45:00+01:00</news:publication_date>
+      <news:title>Iran Denies Deal as Trump Announces Fresh Talks</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-03-morning/israel-escalates-gaza-strikes-peace-plan/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-03T13:45:00+01:00</news:publication_date>
+      <news:title>Israel Escalates Gaza Strikes, Threatening Peace Plan</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-03-morning/nationwide-blackout-plunges-cuba-darkness/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-03T13:45:00+01:00</news:publication_date>
+      <news:title>Nationwide Blackout Plunges Cuba into Darkness</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-03-morning/british-woman-body-suitcase-greece/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-03T13:45:00+01:00</news:publication_date>
+      <news:title>British Woman&#x27;s Body Found in Suitcase in Greece</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-03-morning/wildfires-force-60000-flee-washington-state/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-03T13:45:00+01:00</news:publication_date>
+      <news:title>Wildfires Force 60,000 to Flee in Washington State</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-03-morning/farage-plan-navy-against-small-boats/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-03T13:45:00+01:00</news:publication_date>
+      <news:title>Farage Unveils Plan to Use the Navy Against Small Boats</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-03-morning/reform-deputy-tice-standards-investigation/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-03T13:45:00+01:00</news:publication_date>
+      <news:title>Reform Deputy Tice Faces Standards Investigation</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-03-morning/amber-alerts-35c-heat-returns-england/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-03T13:45:00+01:00</news:publication_date>
+      <news:title>Amber Alerts as 35C Heat Returns to England</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-03-morning/fuel-theft-surges-petrol-prices-high/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-03T13:45:00+01:00</news:publication_date>
+      <news:title>Fuel Theft Surges as Petrol Prices Stay High</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-03-morning/burnham-rewire-britain-power-shift-north/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-03T13:45:00+01:00</news:publication_date>
+      <news:title>Burnham Pushes to &quot;Rewire Britain&quot; With Power Shift North</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-08-02-evening/</loc>
     <news:news>
       <news:publication>
@@ -362,127 +483,6 @@
       </news:publication>
       <news:publication_date>2026-08-01T18:30:00+01:00</news:publication_date>
       <news:title>Manhunt Ends as Escaped Prisoner Recaptured</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-01-morning/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-01T08:00:00+01:00</news:publication_date>
-      <news:title>Morning Briefing — Saturday 1 August 2026</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-01-morning/us-israel-weigh-strikes-iran-oil-sites/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-01T08:00:00+01:00</news:publication_date>
-      <news:title>US and Israel Weigh Strikes on Iran&#x27;s Oil Sites</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-01-morning/russian-strike-kyiv-kills-nine/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-01T08:00:00+01:00</news:publication_date>
-      <news:title>Russian Strike on Kyiv Kills Nine, Traps Residents</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-01-morning/trump-netanyahu-split-gaza-disarmament/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-01T08:00:00+01:00</news:publication_date>
-      <news:title>Trump and Netanyahu Split Over Gaza Disarmament Deal</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-01-morning/ceuta-death-toll-climbs-spain-deports/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-01T08:00:00+01:00</news:publication_date>
-      <news:title>Ceuta Death Toll Climbs as Spain Deports Thousands</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-01-morning/six-climbers-missing-broad-peak-search/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-01T08:00:00+01:00</news:publication_date>
-      <news:title>Six Climbers Still Missing on Pakistan&#x27;s Broad Peak</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-01-morning/labour-craig-wins-manchester-mayoralty/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-01T08:00:00+01:00</news:publication_date>
-      <news:title>Labour&#x27;s Craig Wins Greater Manchester Mayoralty</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-01-morning/chancellor-sets-first-budget-october/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-01T08:00:00+01:00</news:publication_date>
-      <news:title>Chancellor Sets First Budget for Late October</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-01-morning/burnham-first-party-revolt-north-sea/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-01T08:00:00+01:00</news:publication_date>
-      <news:title>Burnham Faces First Party Revolt Over North Sea Oil</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-01-morning/wildfire-major-incident-drought-spreads/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-01T08:00:00+01:00</news:publication_date>
-      <news:title>Wildfire Declared a Major Incident as Drought Spreads</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-01-morning/london-population-falls-first-37-years/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-01T08:00:00+01:00</news:publication_date>
-      <news:title>London&#x27;s Population Falls for the First Time in 37 Years</news:title>
     </news:news>
   </url>
 </urlset>
