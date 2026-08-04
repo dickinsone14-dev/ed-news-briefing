@@ -2,6 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-04-morning/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-04T11:45:00+01:00</news:publication_date>
+      <news:title>Morning Briefing — Tuesday 4 August 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-04-morning/ship-hit-hormuz-trump-threatens-decapitation/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-04T11:45:00+01:00</news:publication_date>
+      <news:title>Ship Hit in Hormuz as Trump Threatens &quot;Decapitation&quot;</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-04-morning/israel-hardens-gaza-terms-strikes-continue/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-04T11:45:00+01:00</news:publication_date>
+      <news:title>Israel Hardens Gaza Terms as Strikes Continue</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-04-morning/israel-lebanon-open-direct-talks-rome/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-04T11:45:00+01:00</news:publication_date>
+      <news:title>Israel and Lebanon Open Direct Talks in Rome</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-04-morning/ukrainian-drones-strike-russian-warehouses/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-04T11:45:00+01:00</news:publication_date>
+      <news:title>Ukrainian Drones Strike Russian Warehouses, Killing Five</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-04-morning/venezuela-earthquake-toll-passes-6000/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-04T11:45:00+01:00</news:publication_date>
+      <news:title>Venezuela Earthquake Toll Passes 6,000</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-04-morning/burnham-bars-sex-offenders-early-release/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-04T11:45:00+01:00</news:publication_date>
+      <news:title>Burnham Bars Sex Offenders from Early Prison Release</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-04-morning/driest-july-record-water-bans-widen/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-04T11:45:00+01:00</news:publication_date>
+      <news:title>Driest July on Record as Water Bans Widen</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-04-morning/court-orders-return-migrant-removed-france/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-04T11:45:00+01:00</news:publication_date>
+      <news:title>Court Orders Return of Migrant Removed to France</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-04-morning/150-migrants-rescued-channel-boat-fire/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-04T11:45:00+01:00</news:publication_date>
+      <news:title>150 Migrants Rescued After Channel Boat Fire</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-04-morning/trump-calls-uk-bankrupt-north-sea-drilling/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-04T11:45:00+01:00</news:publication_date>
+      <news:title>Trump Calls UK &quot;Bankrupt&quot; and Urges North Sea Drilling</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-08-03-evening/</loc>
     <news:news>
       <news:publication>
@@ -483,127 +604,6 @@
       </news:publication>
       <news:publication_date>2026-08-02T12:30:00+01:00</news:publication_date>
       <news:title>Burnham Offers Spain Help Over Ceuta Crossings</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-01-evening/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-01T18:30:00+01:00</news:publication_date>
-      <news:title>Evening Briefing — Saturday 1 August 2026</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-01-evening/us-israel-poised-strike-iran-americans-leave/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-01T18:30:00+01:00</news:publication_date>
-      <news:title>US and Israel Poised to Strike Iran as Americans Told to Leave</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-01-evening/israel-rejects-gaza-pullout-disarmament-unravels/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-01T18:30:00+01:00</news:publication_date>
-      <news:title>Israel Rejects Gaza Pullout as Disarmament Claim Unravels</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-01-evening/ceuta-death-toll-rises-67-spain-seals/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-01T18:30:00+01:00</news:publication_date>
-      <news:title>Ceuta Death Toll Rises to 67 as Spain Seals Border</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-01-evening/nirmal-purja-confirmed-dead-broad-peak/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-01T18:30:00+01:00</news:publication_date>
-      <news:title>Climber Nirmal Purja Confirmed Dead on Broad Peak</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-01-evening/nine-confirmed-dead-russian-strike-kyiv/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-01T18:30:00+01:00</news:publication_date>
-      <news:title>Nine Confirmed Dead in Russian Strike on Kyiv</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-01-evening/craig-wins-manchester-turnout-slumps/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-01T18:30:00+01:00</news:publication_date>
-      <news:title>Craig Wins Manchester Comfortably as Turnout Slumps</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-01-evening/wildfire-near-sizewell-drought-widens/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-01T18:30:00+01:00</news:publication_date>
-      <news:title>Wildfire Burns Near Sizewell Plant as Drought Widens</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-01-evening/healey-warns-budget-cuts-burnham-pledges/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-01T18:30:00+01:00</news:publication_date>
-      <news:title>Healey Warns of Budget Cuts to Fund Burnham&#x27;s Pledges</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-01-evening/thousands-without-water-main-bursts/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-01T18:30:00+01:00</news:publication_date>
-      <news:title>Thousands Left Without Water After Main Bursts</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-01-evening/manhunt-ends-escaped-prisoner-recaptured/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-01T18:30:00+01:00</news:publication_date>
-      <news:title>Manhunt Ends as Escaped Prisoner Recaptured</news:title>
     </news:news>
   </url>
 </urlset>
