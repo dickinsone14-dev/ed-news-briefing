@@ -2,6 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-05-morning/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-05T09:35:00+01:00</news:publication_date>
+      <news:title>Morning Briefing — Wednesday 5 August 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-05-morning/russian-barrage-kyiv-kills-at-least-17/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-05T09:35:00+01:00</news:publication_date>
+      <news:title>Russian Barrage on Kyiv Kills at Least 17</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-05-morning/hormuz-deal-unsigned-markets-bet-peace/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-05T09:35:00+01:00</news:publication_date>
+      <news:title>Hormuz Deal Still Unsigned as Markets Bet on Peace</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-05-morning/netanyahu-rejects-us-plan-disarm-hamas/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-05T09:35:00+01:00</news:publication_date>
+      <news:title>Netanyahu Rejects US Plan to Disarm Hamas</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-05-morning/fuego-volcano-spews-lava-villages-flee/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-05T09:35:00+01:00</news:publication_date>
+      <news:title>Fuego Volcano Spews Lava as Villages Flee</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-05-morning/drones-disrupt-flights-german-airport/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-05T09:35:00+01:00</news:publication_date>
+      <news:title>Drones Disrupt Flights at Major German Airport</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-05-morning/government-drops-green-targets-british-jobs/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-05T09:35:00+01:00</news:publication_date>
+      <news:title>Government Drops Green Targets to Back British Jobs</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-05-morning/antisemitic-incidents-rise-sharply-charity/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-05T09:35:00+01:00</news:publication_date>
+      <news:title>Antisemitic Incidents Rise Sharply, Charity Warns</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-05-morning/burnham-weighs-inquiry-epstein-uk-links/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-05T09:35:00+01:00</news:publication_date>
+      <news:title>Burnham Weighs Public Inquiry into Epstein&#x27;s UK Links</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-05-morning/pressure-mounts-release-officers-killers/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-05T09:35:00+01:00</news:publication_date>
+      <news:title>Pressure Mounts Over Release of Officer&#x27;s Killers</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-05-morning/drought-uk-harvest-heading-record-low/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-05T09:35:00+01:00</news:publication_date>
+      <news:title>Drought Leaves UK Harvest Heading for Record Low</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-08-04-evening/</loc>
     <news:news>
       <news:publication>
@@ -483,127 +604,6 @@
       </news:publication>
       <news:publication_date>2026-08-03T13:45:00+01:00</news:publication_date>
       <news:title>Burnham Pushes to &quot;Rewire Britain&quot; With Power Shift North</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-02-evening/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-02T22:40:00+01:00</news:publication_date>
-      <news:title>Evening Briefing — Sunday 2 August 2026</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-02-evening/iran-dismisses-trump-deal-psychological-operations/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-02T22:40:00+01:00</news:publication_date>
-      <news:title>Iran Dismisses Trump&#x27;s Deal Claim as &quot;Psychological Operations&quot;</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-02-evening/ceuta-death-toll-climbs-past-67/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-02T22:40:00+01:00</news:publication_date>
-      <news:title>Ceuta Death Toll Climbs Past 67</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-02-evening/firefighting-helicopters-collide-greece/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-02T22:40:00+01:00</news:publication_date>
-      <news:title>Firefighting Helicopters Collide Over Greece, Killing Two</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-02-evening/israel-vows-keep-striking-gaza-disarmament/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-02T22:40:00+01:00</news:publication_date>
-      <news:title>Israel Vows to Keep Striking Gaza Despite Disarmament Deal</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-02-evening/suicide-bomber-kills-14-pakistan-swat/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-02T22:40:00+01:00</news:publication_date>
-      <news:title>Suicide Bomber Kills 14 Outside Pakistan Police Station</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-02-evening/burnham-vows-relentless-crackdown-small-boats/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-02T22:40:00+01:00</news:publication_date>
-      <news:title>Burnham Vows &quot;Relentless&quot; Crackdown on Small Boats</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-02-evening/drought-could-cause-food-shortages-farmers-warn/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-02T22:40:00+01:00</news:publication_date>
-      <news:title>Drought Could Cause Food Shortages, Farmers Warn</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-02-evening/eu-citizens-settled-status-granted-error/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-02T22:40:00+01:00</news:publication_date>
-      <news:title>EU Citizens Told Settled Status Granted &quot;in Error&quot;</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-02-evening/ministers-finalise-prisoner-early-release/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-02T22:40:00+01:00</news:publication_date>
-      <news:title>Ministers Finalise Prisoner Early-Release Scheme</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-02-evening/healey-price-warning-risks-row-retailers/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-02T22:40:00+01:00</news:publication_date>
-      <news:title>Healey&#x27;s Price Warning Risks Row With Retailers</news:title>
     </news:news>
   </url>
 </urlset>
