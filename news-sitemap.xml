@@ -2,6 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-07-evening/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-07T19:00:00+01:00</news:publication_date>
+      <news:title>Evening Briefing — Friday 7 August 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-07-evening/saudi-turkey-pakistan-sign-defence-pact/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-07T19:00:00+01:00</news:publication_date>
+      <news:title>Saudi Arabia, Turkey and Pakistan Sign Defence Pact</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-07-evening/hormuz-stays-shut-oil-climbs-no-deal/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-07T19:00:00+01:00</news:publication_date>
+      <news:title>Hormuz Stays Shut as Oil Climbs and No Deal Signed</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-07-evening/battle-marib-yemen-tolls-disputed/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-07T19:00:00+01:00</news:publication_date>
+      <news:title>Battle for Marib Rages as Casualty Tolls Clash</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-07-evening/us-senate-passes-russia-sanctions-bill/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-07T19:00:00+01:00</news:publication_date>
+      <news:title>US Senate Passes Long-Stalled Russia Sanctions Bill</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-07-evening/spain-led-raid-mediterranean-smuggling-network/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-07T19:00:00+01:00</news:publication_date>
+      <news:title>Spanish-Led Raid Smashes Mediterranean Smuggling Network</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-07-evening/sex-offender-convicted-double-murder-failures/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-07T19:00:00+01:00</news:publication_date>
+      <news:title>Sex Offender Convicted of Double Murder After Police Failures</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-07-evening/thetford-disorder-arrests-charges-third-night/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-07T19:00:00+01:00</news:publication_date>
+      <news:title>Arrests and Charges as Thetford Disorder Continues</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-07-evening/burnham-warned-water-nationalisation-140bn/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-07T19:00:00+01:00</news:publication_date>
+      <news:title>Water Nationalisation Would Cost £140bn, Burnham Warned</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-07-evening/uk-admits-afghans-at-risk-taliban/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-07T19:00:00+01:00</news:publication_date>
+      <news:title>UK Admits Afghans Awaiting Relocation Are at Risk</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-07-evening/hosepipe-ban-south-west-heat-returns/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-07T19:00:00+01:00</news:publication_date>
+      <news:title>Hosepipe Ban in the South West as Heat Returns</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-08-07-morning/</loc>
     <news:news>
       <news:publication>
