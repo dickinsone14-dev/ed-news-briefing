@@ -2,6 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-07-morning/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-07T11:50:00+01:00</news:publication_date>
+      <news:title>Morning Briefing — Friday 7 August 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-07-morning/iran-oman-reach-hormuz-framework-us-holds-back/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-07T11:50:00+01:00</news:publication_date>
+      <news:title>Iran and Oman Reach Hormuz Framework as US Holds Back</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-07-morning/thailand-school-shooting-kills-at-least-six/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-07T11:50:00+01:00</news:publication_date>
+      <news:title>Thailand School Shooting Kills at Least Six</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-07-morning/yemen-fighting-toll-climbs-fresh-houthi-strikes/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-07T11:50:00+01:00</news:publication_date>
+      <news:title>Yemen Fighting Toll Climbs Amid Fresh Houthi Strikes</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-07-morning/israeli-ministers-weigh-defying-gaza-plan/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-07T11:50:00+01:00</news:publication_date>
+      <news:title>Israeli Ministers Weigh Defying US Gaza Plan</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-07-morning/israeli-raid-west-bank-injures-dozens/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-07T11:50:00+01:00</news:publication_date>
+      <news:title>Israeli Raid in the West Bank Injures Dozens</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-07-morning/burnham-orders-review-grooming-gang-releases/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-07T11:50:00+01:00</news:publication_date>
+      <news:title>Burnham Orders Review to Block Grooming-Gang Releases</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-07-morning/tories-pledge-bar-foreign-nationals-social-housing/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-07T11:50:00+01:00</news:publication_date>
+      <news:title>Tories Pledge to Bar Foreign Nationals from Social Housing</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-07-morning/thetford-disorder-third-night-arrests/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-07T11:50:00+01:00</news:publication_date>
+      <news:title>Thetford Disorder Enters Third Night With More Arrests</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-07-morning/illegal-working-arrests-double-two-years/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-07T11:50:00+01:00</news:publication_date>
+      <news:title>Illegal-Working Arrests Have Doubled in Two Years</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-07-morning/rail-disruption-north-west-second-day/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-07T11:50:00+01:00</news:publication_date>
+      <news:title>Rail Disruption Hits North-West for a Second Day</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-08-06-evening/</loc>
     <news:news>
       <news:publication>
@@ -362,248 +483,6 @@
       </news:publication>
       <news:publication_date>2026-08-05T19:30:00+01:00</news:publication_date>
       <news:title>Robotaxis Cleared to Operate in London</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-05-morning/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-05T09:35:00+01:00</news:publication_date>
-      <news:title>Morning Briefing — Wednesday 5 August 2026</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-05-morning/russian-barrage-kyiv-kills-at-least-17/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-05T09:35:00+01:00</news:publication_date>
-      <news:title>Russian Barrage on Kyiv Kills at Least 17</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-05-morning/hormuz-deal-unsigned-markets-bet-peace/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-05T09:35:00+01:00</news:publication_date>
-      <news:title>Hormuz Deal Still Unsigned as Markets Bet on Peace</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-05-morning/netanyahu-rejects-us-plan-disarm-hamas/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-05T09:35:00+01:00</news:publication_date>
-      <news:title>Netanyahu Rejects US Plan to Disarm Hamas</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-05-morning/fuego-volcano-spews-lava-villages-flee/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-05T09:35:00+01:00</news:publication_date>
-      <news:title>Fuego Volcano Spews Lava as Villages Flee</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-05-morning/drones-disrupt-flights-german-airport/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-05T09:35:00+01:00</news:publication_date>
-      <news:title>Drones Disrupt Flights at Major German Airport</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-05-morning/government-drops-green-targets-british-jobs/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-05T09:35:00+01:00</news:publication_date>
-      <news:title>Government Drops Green Targets to Back British Jobs</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-05-morning/antisemitic-incidents-rise-sharply-charity/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-05T09:35:00+01:00</news:publication_date>
-      <news:title>Antisemitic Incidents Rise Sharply, Charity Warns</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-05-morning/burnham-weighs-inquiry-epstein-uk-links/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-05T09:35:00+01:00</news:publication_date>
-      <news:title>Burnham Weighs Public Inquiry into Epstein&#x27;s UK Links</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-05-morning/pressure-mounts-release-officers-killers/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-05T09:35:00+01:00</news:publication_date>
-      <news:title>Pressure Mounts Over Release of Officer&#x27;s Killers</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-05-morning/drought-uk-harvest-heading-record-low/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-05T09:35:00+01:00</news:publication_date>
-      <news:title>Drought Leaves UK Harvest Heading for Record Low</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-04-evening/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-04T18:50:00+01:00</news:publication_date>
-      <news:title>Evening Briefing — Tuesday 4 August 2026</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-04-evening/us-says-hormuz-deal-could-come-within-days/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-04T18:50:00+01:00</news:publication_date>
-      <news:title>US Says a Hormuz Deal Could Come Within Days</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-04-evening/israel-lebanon-talks-grind-on-rome/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-04T18:50:00+01:00</news:publication_date>
-      <news:title>Israel-Lebanon Talks Grind On in Rome</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-04-evening/gaza-peace-terms-shift-strikes-continue/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-04T18:50:00+01:00</news:publication_date>
-      <news:title>Gaza Peace Terms Shift as Strikes Continue</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-04-evening/guatemala-fuego-volcano-more-explosive/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-04T18:50:00+01:00</news:publication_date>
-      <news:title>Guatemala&#x27;s Fuego Volcano Turns More Explosive</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-04-evening/shooting-kills-four-russian-held-crimea/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-04T18:50:00+01:00</news:publication_date>
-      <news:title>Shooting Kills Four in Russian-Held Crimea</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-04-evening/early-release-scaled-back-harper-killers-eligible/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-04T18:50:00+01:00</news:publication_date>
-      <news:title>Early-Release Scheme Scaled Back but Harper&#x27;s Killers Eligible</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-04-evening/burnham-under-fire-holiday-two-weeks-office/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-04T18:50:00+01:00</news:publication_date>
-      <news:title>Burnham Under Fire for Holiday Two Weeks into Office</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-04-evening/migrant-returns-deal-sends-back-4-percent/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-04T18:50:00+01:00</news:publication_date>
-      <news:title>Migrant Returns Deal Sends Back Just 4%</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-04-evening/gatwick-second-runway-cleared-challenge-fails/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-04T18:50:00+01:00</news:publication_date>
-      <news:title>Gatwick Second Runway Cleared as Challenge Fails</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-04-evening/storms-floods-warned-heatwave-breaks/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-04T18:50:00+01:00</news:publication_date>
-      <news:title>Storms and Floods Warned as Heatwave Breaks</news:title>
     </news:news>
   </url>
 </urlset>
