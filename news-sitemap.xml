@@ -2,6 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-08-morning/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-08T11:30:00+01:00</news:publication_date>
+      <news:title>Morning Briefing — Saturday 8 August 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-08-morning/us-hits-iran-fresh-sanctions-hormuz-shut/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-08T11:30:00+01:00</news:publication_date>
+      <news:title>US Hits Iran With Fresh Sanctions as Hormuz Stays Shut</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-08-morning/russian-strikes-near-kyiv-kill-child/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-08T11:30:00+01:00</news:publication_date>
+      <news:title>Russian Strikes Near Kyiv Kill a Child</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-08-morning/houthi-strikes-marib-un-warns-civil-war/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-08T11:30:00+01:00</news:publication_date>
+      <news:title>Houthi Strikes on Marib as UN Warns of Civil War</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-08-morning/us-claims-israel-lebanon-progress-flare-up/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-08T11:30:00+01:00</news:publication_date>
+      <news:title>US Claims Israel-Lebanon Progress Despite Border Flare-Up</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-08-morning/un-warns-sudan-war-threatens-generation/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-08T11:30:00+01:00</news:publication_date>
+      <news:title>UN Warns Sudan&#x27;s War Threatens a Generation</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-08-morning/burnham-u-turn-block-harper-killers-release/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-08T11:30:00+01:00</news:publication_date>
+      <news:title>Burnham Signals U-Turn to Block Harper Killers&#x27; Release</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-08-morning/labour-looks-soften-net-zero-ev-targets/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-08T11:30:00+01:00</news:publication_date>
+      <news:title>Labour Looks to Soften Net Zero and EV Targets</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-08-morning/farage-tice-sue-nca-data-leak/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-08T11:30:00+01:00</news:publication_date>
+      <news:title>Farage and Tice Sue the NCA Over Data Leak</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-08-morning/thetford-crowd-storm-asylum-house-arrests/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-08T11:30:00+01:00</news:publication_date>
+      <news:title>Crowd Tries to Storm Asylum House in Thetford Unrest</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-08-morning/fifth-heatwave-looms-heat-alerts-return/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-08T11:30:00+01:00</news:publication_date>
+      <news:title>Fifth Heatwave Looms as Heat Alerts Return</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-08-07-evening/</loc>
     <news:news>
       <news:publication>
@@ -483,127 +604,6 @@
       </news:publication>
       <news:publication_date>2026-08-06T11:45:00+01:00</news:publication_date>
       <news:title>Four Stabbed Near Covent Garden, Suspect Held</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-05-evening/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-05T19:30:00+01:00</news:publication_date>
-      <news:title>Evening Briefing — Wednesday 5 August 2026</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-05-evening/hormuz-deal-stalls-iran-adds-conditions/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-05T19:30:00+01:00</news:publication_date>
-      <news:title>Hormuz Deal Stalls as Iran Adds Conditions</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-05-evening/deadly-flare-up-south-lebanon-talks/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-05T19:30:00+01:00</news:publication_date>
-      <news:title>Deadly Flare-Up in South Lebanon as Talks Go On</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-05-evening/netanyahu-seeks-rewrite-us-gaza-plan/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-05T19:30:00+01:00</news:publication_date>
-      <news:title>Netanyahu Seeks to Rewrite US Gaza Plan</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-05-evening/imran-khan-jailed-three-years-supporters-rally/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-05T19:30:00+01:00</news:publication_date>
-      <news:title>Imran Khan Jailed Three Years as Supporters Rally</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-05-evening/zelensky-decries-kyiv-toll-strikes-go-on/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-05T19:30:00+01:00</news:publication_date>
-      <news:title>Zelensky Decries Kyiv Toll as Strikes Go On</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-05-evening/government-u-turns-epstein-inquiry/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-05T19:30:00+01:00</news:publication_date>
-      <news:title>Government U-Turns on Epstein Inquiry</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-05-evening/single-sex-spaces-code-comes-into-force/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-05T19:30:00+01:00</news:publication_date>
-      <news:title>Single-Sex Spaces Code Comes into Force</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-05-evening/police-weigh-legal-action-harper-killers/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-05T19:30:00+01:00</news:publication_date>
-      <news:title>Police Weigh Legal Action Over Harper Killers&#x27; Release</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-05-evening/drought-vegetables-smaller-dearer/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-05T19:30:00+01:00</news:publication_date>
-      <news:title>Drought to Make Vegetables Smaller and Dearer</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-05-evening/robotaxis-cleared-operate-london/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-05T19:30:00+01:00</news:publication_date>
-      <news:title>Robotaxis Cleared to Operate in London</news:title>
     </news:news>
   </url>
 </urlset>
