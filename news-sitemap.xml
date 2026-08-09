@@ -2,6 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-09-morning/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-09T11:15:00+01:00</news:publication_date>
+      <news:title>Morning Briefing — Sunday 9 August 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-09-morning/houthis-strike-saudi-aramco-refinery-jizan/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-09T11:15:00+01:00</news:publication_date>
+      <news:title>Houthis Strike Saudi Aramco Refinery in Jizan</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-09-morning/hormuz-shut-iran-denies-direct-us-talks/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-09T11:15:00+01:00</news:publication_date>
+      <news:title>Hormuz Stays Shut as Iran Denies Direct US Talks</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-09-morning/turkey-says-mecca-pact-not-aimed-at-iran/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-09T11:15:00+01:00</news:publication_date>
+      <news:title>Turkey Says Mecca Pact Is Not Aimed at Iran</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-09-morning/ukraine-denies-targeting-bulgaria-drone-blast/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-09T11:15:00+01:00</news:publication_date>
+      <news:title>Ukraine Denies Targeting Bulgaria After Drone Blast</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-09-morning/british-columbia-wildfires-20000-flee/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-09T11:15:00+01:00</news:publication_date>
+      <news:title>British Columbia Wildfires Force 20,000 to Flee</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-09-morning/burnham-cost-of-living-tour-rip-off-crackdown/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-09T11:15:00+01:00</news:publication_date>
+      <news:title>Burnham Launches Cost-of-Living Tour and &quot;Rip-Off&quot; Crackdown</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-09-morning/asylum-hotel-protests-spread-another-town/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-09T11:15:00+01:00</news:publication_date>
+      <news:title>Asylum-Hotel Protests Spread to Another Town</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-09-morning/burnham-handed-plan-rejoin-single-market/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-09T11:15:00+01:00</news:publication_date>
+      <news:title>Burnham Handed a Plan to Rejoin the Single Market</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-09-morning/badenoch-offenders-can-be-rehabilitated/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-09T11:15:00+01:00</news:publication_date>
+      <news:title>Badenoch Says Offenders Can Be Rehabilitated</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-09-morning/drought-extended-fifth-heatwave-builds/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-09T11:15:00+01:00</news:publication_date>
+      <news:title>Drought to Be Extended as Fifth Heatwave Builds</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-08-08-evening/</loc>
     <news:news>
       <news:publication>
