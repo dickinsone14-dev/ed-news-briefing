@@ -2,6 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-11-morning/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-11T09:45:00+01:00</news:publication_date>
+      <news:title>Morning Briefing — Tuesday 11 August 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-11-morning/colombia-earthquake-toll-rises-111/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-11T09:45:00+01:00</news:publication_date>
+      <news:title>Colombia Earthquake Toll Rises to at Least 111</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-11-morning/trump-claims-hormuz-open-oil-surges/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-11T09:45:00+01:00</news:publication_date>
+      <news:title>Trump Claims Hormuz Open as Oil Surges to $90</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-11-morning/netanyahu-rejects-gaza-plan-trump-plays-down-rift/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-11T09:45:00+01:00</news:publication_date>
+      <news:title>Netanyahu Rejects Gaza Plan as Trump Plays Down Rift</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-11-morning/china-long-march-rocket-explodes/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-11T09:45:00+01:00</news:publication_date>
+      <news:title>China&#x27;s Long March Rocket Explodes After Launch</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-11-morning/israeli-drone-strike-south-lebanon/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-11T09:45:00+01:00</news:publication_date>
+      <news:title>Israeli Drone Strike Hits Vehicle in South Lebanon</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-11-morning/burnham-moves-block-harper-killers-release/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-11T09:45:00+01:00</news:publication_date>
+      <news:title>Burnham Moves to Block Release of PC Harper&#x27;s Killers</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-11-morning/almost-three-quarters-england-drought/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-11T09:45:00+01:00</news:publication_date>
+      <news:title>Almost Three-Quarters of England Now in Drought</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-11-morning/burnham-councils-powers-vape-betting-shops/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-11T09:45:00+01:00</news:publication_date>
+      <news:title>Councils to Get Powers Over Vape and Betting Shops</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-11-morning/reform-pledges-deport-prisoners-el-salvador/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-11T09:45:00+01:00</news:publication_date>
+      <news:title>Reform Pledges to Deport Foreign Prisoners to El Salvador</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-11-morning/heathrow-loses-busiest-airport-europe-title/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-11T09:45:00+01:00</news:publication_date>
+      <news:title>Heathrow Loses Its &quot;Busiest in Europe&quot; Crown</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-08-10-evening/</loc>
     <news:news>
       <news:publication>
@@ -483,127 +604,6 @@
       </news:publication>
       <news:publication_date>2026-08-09T11:15:00+01:00</news:publication_date>
       <news:title>Drought to Be Extended as Fifth Heatwave Builds</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-08-evening/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-08T18:30:00+01:00</news:publication_date>
-      <news:title>Evening Briefing — Saturday 8 August 2026</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-08-evening/uae-accuses-iran-striking-adnoc-tanker-hormuz/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-08T18:30:00+01:00</news:publication_date>
-      <news:title>UAE Accuses Iran of Striking a Tanker in Hormuz</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-08-evening/iran-sets-six-conditions-reopen-hormuz/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-08T18:30:00+01:00</news:publication_date>
-      <news:title>Iran Sets Six Conditions to Reopen Hormuz</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-08-evening/pakistan-minister-calls-israel-illegitimate-pact/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-08T18:30:00+01:00</news:publication_date>
-      <news:title>Pakistan Minister Calls Israel &quot;Illegitimate&quot; After Pact</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-08-evening/unexplained-drones-nato-sites-bulgaria-germany/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-08T18:30:00+01:00</news:publication_date>
-      <news:title>Unexplained Drones Near NATO Sites Stoke Fears</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-08-evening/us-pledges-1bn-colombia-new-president/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-08T18:30:00+01:00</news:publication_date>
-      <news:title>US Pledges $1bn to Colombia as New President Sworn In</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-08-evening/mod-navy-tracked-russian-warship-fired/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-08T18:30:00+01:00</news:publication_date>
-      <news:title>Navy Tracked Russian Warship That Opened Fire, MoD Says</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-08-evening/firebomb-inquiry-farage-home-widdecombe-probe/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-08T18:30:00+01:00</news:publication_date>
-      <news:title>Firebomb Inquiry at Farage&#x27;s Home Reopened</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-08-evening/police-step-up-response-asylum-protests/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-08T18:30:00+01:00</news:publication_date>
-      <news:title>Police Step Up Response to Asylum-Hotel Protests</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-08-evening/khan-presses-burnham-commit-climate/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-08T18:30:00+01:00</news:publication_date>
-      <news:title>Khan Presses Burnham to Commit on Climate</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-08-evening/arron-banks-accused-hiring-detective-journalist/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-08T18:30:00+01:00</news:publication_date>
-      <news:title>Reform Backer Accused of Hiring Detective on Reporter</news:title>
     </news:news>
   </url>
 </urlset>
