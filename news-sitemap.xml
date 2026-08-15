@@ -2,6 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-15-morning/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-15T08:45:00+01:00</news:publication_date>
+      <news:title>Morning Briefing — Saturday 15 August 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-15-morning/hormuz-standoff-trump-iran-oil/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-15T08:45:00+01:00</news:publication_date>
+      <news:title>Hormuz Standoff Deepens as Iran Stays Defiant and Oil Climbs</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-15-morning/indonesia-earthquake-77/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-15T08:45:00+01:00</news:publication_date>
+      <news:title>Powerful Earthquake Strikes Eastern Indonesia</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-15-morning/colombia-quake-toll-281/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-15T08:45:00+01:00</news:publication_date>
+      <news:title>Colombia Quake Toll Passes 281 as Recovery Begins</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-15-morning/russia-rejects-ukraine-black-sea-truce/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-15T08:45:00+01:00</news:publication_date>
+      <news:title>Russia Rejects Ukraine&#x27;s Black Sea Truce Offer</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-15-morning/who-congo-ebola-deadliest/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-15T08:45:00+01:00</news:publication_date>
+      <news:title>WHO Warns Congo Ebola Outbreak Could Be Deadliest Ever</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-15-morning/wildfires-emergency-alert-army-britain/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-15T08:45:00+01:00</news:publication_date>
+      <news:title>Emergency Alert Sent to Phones as Wildfires Spread</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-15-morning/farage-clacton-standards-probe-second-byelection/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-15T08:45:00+01:00</news:publication_date>
+      <news:title>Farage Holds Clacton but Could Face a Second By-Election</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-15-morning/asylum-appeals-24-week-target/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-15T08:45:00+01:00</news:publication_date>
+      <news:title>Government Sets 24-Week Target for Asylum Appeals</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-15-morning/burnham-65m-drought-farmers-package/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-15T08:45:00+01:00</news:publication_date>
+      <news:title>Burnham Announces 65 Million Pound Package for Drought-Hit Farmers</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-15-morning/government-waters-down-ev-target/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-15T08:45:00+01:00</news:publication_date>
+      <news:title>Government Consults on Weakening 2030 Electric-Car Target</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-08-14-evening/</loc>
     <news:news>
       <news:publication>
@@ -483,127 +604,6 @@
       </news:publication>
       <news:publication_date>2026-08-13T08:45:00+01:00</news:publication_date>
       <news:title>Live Facial Recognition Cameras to Scan Oxford Street</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-12-evening/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-12T18:30:00+01:00</news:publication_date>
-      <news:title>Evening Briefing — Wednesday 12 August 2026</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-12-evening/colombia-earthquake-mourning-toll-passes-250/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-12T18:30:00+01:00</news:publication_date>
-      <news:title>Colombia Declares Mourning as Quake Toll Passes 250</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-12-evening/hormuz-standoff-us-iran-talks-stall/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-12T18:30:00+01:00</news:publication_date>
-      <news:title>US-Iran Talks Stall as Hormuz Standoff Drags On</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-12-evening/israel-first-gaza-airstrike-in-week/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-12T18:30:00+01:00</news:publication_date>
-      <news:title>Israel Launches First Gaza Airstrike in Over a Week</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-12-evening/putin-vessel-seizure-threat-nk-missiles/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-12T18:30:00+01:00</news:publication_date>
-      <news:title>Putin Threatens to Seize European Vessels in Retaliation</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-12-evening/dr-congo-ebola-toll-passes-2000/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-12T18:30:00+01:00</news:publication_date>
-      <news:title>DR Congo Ebola Toll Passes 2,000 in Record Outbreak</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-12-evening/cobra-heatwave-wildfires-emergency/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-12T18:30:00+01:00</news:publication_date>
-      <news:title>Cobra Meeting Held as Heatwave and Record Wildfires Grip England</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-12-evening/probation-watchdog-early-release-warning/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-12T18:30:00+01:00</news:publication_date>
-      <news:title>Watchdog Warns Early-Release Scheme Risks Serious Reoffending</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-12-evening/swinney-burnham-chinese-wind-factory/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-12T18:30:00+01:00</news:publication_date>
-      <news:title>Swinney Urges Rethink on Blocked Chinese Wind Factory</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-12-evening/pylon-neighbours-energy-bill-discount/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-12T18:30:00+01:00</news:publication_date>
-      <news:title>Households Near New Pylons to Get Money Off Energy Bills</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-12-evening/defra-climate-adaptation-staff/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-12T18:30:00+01:00</news:publication_date>
-      <news:title>Few Officials Working on Climate Adaptation as Crisis Bites</news:title>
     </news:news>
   </url>
 </urlset>
