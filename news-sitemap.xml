@@ -2,6 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-16-evening/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-16T18:30:00+01:00</news:publication_date>
+      <news:title>Evening Briefing — Sunday 16 August 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-16-evening/us-blockade-iran-indefinitely-hormuz-stalled/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-16T18:30:00+01:00</news:publication_date>
+      <news:title>US Says It Can Blockade Iran Indefinitely as Talks Stall</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-16-evening/israel-strikes-lebanon-katz-settle-scores/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-16T18:30:00+01:00</news:publication_date>
+      <news:title>Israel Strikes Lebanon Again and Vows to &quot;Settle Scores&quot;</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-16-evening/indonesia-quake-toll-53/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-16T18:30:00+01:00</news:publication_date>
+      <news:title>Indonesia Quake Toll Rises to 53 as Search Goes On</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-16-evening/colombia-girl-rescued-100-hours/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-16T18:30:00+01:00</news:publication_date>
+      <news:title>Girl of Three Pulled Alive From Colombia Rubble After 100 Hours</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-16-evening/kariba-ferry-toll-80/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-16T18:30:00+01:00</news:publication_date>
+      <news:title>Lake Kariba Ferry Toll Rises to 80, Police Say</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-16-evening/gurkhas-welsh-wildfires-stourbridge-returns/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-16T18:30:00+01:00</news:publication_date>
+      <news:title>Gurkhas Join Wildfire Fight as Families Return to Ruined Homes</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-16-evening/reform-pip-plan-dominates-sunday/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-16T18:30:00+01:00</news:publication_date>
+      <news:title>Reform&#x27;s Plan to Scrap PIP Dominates Sunday Politics</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-16-evening/rayner-planning-rules-protect-pubs/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-16T18:30:00+01:00</news:publication_date>
+      <news:title>New Planning Rules to Stop Pubs Being Turned Into Flats</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-16-evening/emergency-alert-domestic-abuse-criteria/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-16T18:30:00+01:00</news:publication_date>
+      <news:title>Alert Backlash Deepens Over Risk to Domestic Abuse Victims</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-16-evening/early-release-row-both-directions/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-16T18:30:00+01:00</news:publication_date>
+      <news:title>Early-Release Scheme Attacked From Both Directions</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-08-16-morning/</loc>
     <news:news>
       <news:publication>
@@ -483,127 +604,6 @@
       </news:publication>
       <news:publication_date>2026-08-14T18:30:00+01:00</news:publication_date>
       <news:title>Pressure Builds Over Tax Rises Before October Budget</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-14-morning/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-14T11:15:00+01:00</news:publication_date>
-      <news:title>Morning Briefing — Friday 14 August 2026</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-14-morning/uae-accuses-iran-adnoc-tankers-hormuz/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-14T11:15:00+01:00</news:publication_date>
-      <news:title>UAE Accuses Iran of Attacking Two of Its Tankers in Hormuz</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-14-morning/ukraine-offers-black-sea-truce-novorossiysk/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-14T11:15:00+01:00</news:publication_date>
-      <news:title>Ukraine Offers Russia a Black Sea Truce After Port Strike</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-14-morning/colombia-quake-toll-281/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-14T11:15:00+01:00</news:publication_date>
-      <news:title>Colombia Earthquake Toll Climbs to at Least 281</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-14-morning/who-congo-ebola-deadliest-sixth-province/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-14T11:15:00+01:00</news:publication_date>
-      <news:title>WHO Warns Congo Ebola Could Become Deadliest on Record</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-14-morning/poland-thwarts-kremlin-assassination-plot/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-14T11:15:00+01:00</news:publication_date>
-      <news:title>Poland Says It Foiled Russian Plot to Kill an American</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-14-morning/farage-holds-clacton-by-election/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-14T11:15:00+01:00</news:publication_date>
-      <news:title>Farage Holds Clacton in By-Election Snubbed by Main Parties</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-14-morning/farage-5m-gift-probe-reopens/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-14T11:15:00+01:00</news:publication_date>
-      <news:title>Standards Inquiry Into Farage&#x27;s 5 Million Pound Gift Reopens</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-14-morning/uk-heatwave-breaks-thunderstorms-floods/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-14T11:15:00+01:00</news:publication_date>
-      <news:title>Heatwave Breaks in Thunderstorms and Flood Warnings</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-14-morning/budget-tax-tensions-healey-starmer-allies/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-14T11:15:00+01:00</news:publication_date>
-      <news:title>Labour Tensions Build Over Tax Rises Before Autumn Budget</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-14-morning/burnham-asylum-sites-affluent-areas-row/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-14T11:15:00+01:00</news:publication_date>
-      <news:title>Burnham Under Fire Over Plan to Spread Asylum Sites to Affluent Areas</news:title>
     </news:news>
   </url>
 </urlset>
