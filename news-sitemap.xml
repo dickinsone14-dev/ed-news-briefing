@@ -2,6 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-17-evening/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-17T18:00:00+01:00</news:publication_date>
+      <news:title>Evening Briefing — Monday 17 August 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-17-evening/trump-threatens-oman-iran-hormuz-offensive/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-17T18:00:00+01:00</news:publication_date>
+      <news:title>Trump Threatens Oman as Iran Warns of Hormuz Offensive</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-17-evening/kushner-meets-hamas-cairo/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-17T18:00:00+01:00</news:publication_date>
+      <news:title>Kushner Meets Hamas Leaders in Cairo to Push Gaza Plan</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-17-evening/seoul-urges-us-nk-talks-drills/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-17T18:00:00+01:00</news:publication_date>
+      <news:title>Seoul Urges Trump to Turn Drill Cuts Into Peace Talks</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-17-evening/indonesia-quake-toll-68/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-17T18:00:00+01:00</news:publication_date>
+      <news:title>Indonesia Quake Toll Rises to 68 as Thousands Await Aid</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-17-evening/russia-fuel-shortages-second-wave/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-17T18:00:00+01:00</news:publication_date>
+      <news:title>Fuel Shortages Sweep Russia as Ukraine&#x27;s Drone Campaign Bites</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-17-evening/white-house-denies-breach-burnham-impersonator/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-17T18:00:00+01:00</news:publication_date>
+      <news:title>White House Denies Breach After Burnham Hoax Messages</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-17-evening/reform-community-work-benefits-scrutiny/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-17T18:00:00+01:00</news:publication_date>
+      <news:title>Reform Adds Work Requirement as Welfare Sums Questioned</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-17-evening/government-defends-wildfire-alert/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-17T18:00:00+01:00</news:publication_date>
+      <news:title>Government Defends Phone Alert as Wildfires Burn On</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-17-evening/labour-mp-suspended-covid-loans/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-17T18:00:00+01:00</news:publication_date>
+      <news:title>Labour MP Suspended Over Covid Loan Questions</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-17-evening/ministers-drop-affordable-housing-relaxation/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-17T18:00:00+01:00</news:publication_date>
+      <news:title>Ministers Drop Plan to Relax Affordable Housing Rules</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-08-17-morning/</loc>
     <news:news>
       <news:publication>
@@ -241,248 +362,6 @@
       </news:publication>
       <news:publication_date>2026-08-16T18:30:00+01:00</news:publication_date>
       <news:title>Early-Release Scheme Attacked From Both Directions</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-16-morning/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-16T08:45:00+01:00</news:publication_date>
-      <news:title>Morning Briefing — Sunday 16 August 2026</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-16-morning/hormuz-iran-third-tanker-gcc-trump/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-16T08:45:00+01:00</news:publication_date>
-      <news:title>UAE Reports Third Tanker Struck in Hormuz as Crisis Escalates</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-16-morning/israel-strikes-lebanon-again-second-commander/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-16T08:45:00+01:00</news:publication_date>
-      <news:title>Israel Strikes Southern Lebanon Again as Toll Rises</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-16-morning/indonesia-quake-toll-at-least-47/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-16T08:45:00+01:00</news:publication_date>
-      <news:title>Indonesia Earthquake Kills at Least 47 as Toll Climbs</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-16-morning/colombia-quake-toll-294/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-16T08:45:00+01:00</news:publication_date>
-      <news:title>Colombia Earthquake Toll Rises to Around 294</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-16-morning/who-congo-ebola-deadliest/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-16T08:45:00+01:00</news:publication_date>
-      <news:title>WHO Warns Congo Ebola Is on Track to Be Deadliest Ever</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-16-morning/wildfires-homes-destroyed-emergency-alert/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-16T08:45:00+01:00</news:publication_date>
-      <news:title>Homes Destroyed as Wildfires Grip Britain</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-16-morning/emergency-alert-backlash/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-16T08:45:00+01:00</news:publication_date>
-      <news:title>Backlash Grows Over Emergency Alert Sent to Millions</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-16-morning/reform-50bn-welfare-pip/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-16T08:45:00+01:00</news:publication_date>
-      <news:title>Reform Proposes 50 Billion Pound Welfare Overhaul</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-16-morning/farage-clacton-standards-probe/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-16T08:45:00+01:00</news:publication_date>
-      <news:title>Farage Re-Elected in Clacton as Standards Probe Reignites</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-16-morning/burnham-summer-tour-snap-election/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-16T08:45:00+01:00</news:publication_date>
-      <news:title>Burnham Launches Summer Tour Amid Snap-Election Talk</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-15-evening/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-15T18:30:00+01:00</news:publication_date>
-      <news:title>Evening Briefing — Saturday 15 August 2026</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-15-evening/hormuz-third-tanker-trump-us-territory/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-15T18:30:00+01:00</news:publication_date>
-      <news:title>Hormuz Crisis Deepens as UAE Reports Another Tanker Struck</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-15-evening/israel-strikes-kill-11-south-lebanon/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-15T18:30:00+01:00</news:publication_date>
-      <news:title>Israeli Strikes Kill 11 in Southern Lebanon</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-15-evening/indonesia-quake-kills-47/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-15T18:30:00+01:00</news:publication_date>
-      <news:title>Indonesia Earthquake Kills at Least 47 Off Flores</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-15-evening/colombia-quake-toll-294/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-15T18:30:00+01:00</news:publication_date>
-      <news:title>Colombia Quake Toll Rises to Around 294</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-15-evening/who-congo-ebola-deadliest-response/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-15T18:30:00+01:00</news:publication_date>
-      <news:title>UN Warns Congo Ebola Is Killing One Person Every 30 Minutes</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-15-evening/wildfires-37-fires-arson-arrests-army/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-15T18:30:00+01:00</news:publication_date>
-      <news:title>Wildfires Hit Record Levels as Teenagers Arrested Over Blaze</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-15-evening/farage-clacton-standards-probe-resumes/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-15T18:30:00+01:00</news:publication_date>
-      <news:title>Farage Holds Clacton as Standards Watchdog Probe Resumes</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-15-evening/backlash-burnham-asylum-dispersal-plan/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-15T18:30:00+01:00</news:publication_date>
-      <news:title>Backlash Grows Over Plan to Spread Asylum Housing to Villages</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-15-evening/healey-budget-war-footing-fuel-duty-freeze/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-15T18:30:00+01:00</news:publication_date>
-      <news:title>Healey Guards Budget Amid Tax-Rise Speculation</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-08-15-evening/khan-urges-burnham-net-zero-ev/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-15T18:30:00+01:00</news:publication_date>
-      <news:title>Khan Urges Burnham Not to Retreat on Net Zero</news:title>
     </news:news>
   </url>
 </urlset>
