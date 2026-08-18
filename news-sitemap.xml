@@ -2,6 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-18-morning/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-18T13:30:00+01:00</news:publication_date>
+      <news:title>Morning Briefing — Tuesday 18 August 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-18-morning/hormuz-ship-struck-trump-oman-threat/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-18T13:30:00+01:00</news:publication_date>
+      <news:title>Ship Struck in Strait of Hormuz as Trump Renews Oman Threat</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-18-morning/ukraine-620-drones-moscow-uk-warning/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-18T13:30:00+01:00</news:publication_date>
+      <news:title>Ukraine Launches Huge Drone Attack on Moscow Region</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-18-morning/gaza-talks-stall-hamas-netanyahu/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-18T13:30:00+01:00</news:publication_date>
+      <news:title>Gaza Talks Stall as Hamas Accepts Plan Netanyahu Rejects</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-18-morning/russia-summons-japan-ambassador-kurils/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-18T13:30:00+01:00</news:publication_date>
+      <news:title>Russia Summons Japan&#x27;s Ambassador in Kuril Islands Row</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-18-morning/indonesia-quake-toll-77/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-18T13:30:00+01:00</news:publication_date>
+      <news:title>Indonesia Quake Toll Climbs Towards 77</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-18-morning/ons-unemployment-pay-vacancies-five-year-low/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-18T13:30:00+01:00</news:publication_date>
+      <news:title>Pay Growth Slows and Vacancies Hit Five-Year Low</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-18-morning/ministers-phone-numbers-online-impersonation/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-18T13:30:00+01:00</news:publication_date>
+      <news:title>Ministers&#x27; Phone Numbers Found Online After Hoax</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-18-morning/reform-welfare-plan-child-poverty-warning/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-18T13:30:00+01:00</news:publication_date>
+      <news:title>Reform Welfare Plan Draws Child-Poverty Warning</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-18-morning/rain-arrives-hosepipe-ban-1976/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-18T13:30:00+01:00</news:publication_date>
+      <news:title>Rain Arrives as Heatwave Breaks and Hosepipe Ban Begins</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-08-18-morning/conservatives-traveller-sites-crackdown/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-18T13:30:00+01:00</news:publication_date>
+      <news:title>Conservatives Pledge Crackdown on Illegal Traveller Sites</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-08-17-evening/</loc>
     <news:news>
       <news:publication>
