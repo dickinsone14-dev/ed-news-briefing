@@ -14,6 +14,15 @@ on:
         required: false
         default: 'edition'
 
+# Serialise runs on the same ref. Duplicate push events (e.g. a retried push of the
+# same commit, which has bitten breaking-news posts) would otherwise fire two parallel
+# runs and send the notification twice. Queueing (cancel-in-progress: false) lets the
+# first run finish and save its dedup cache before the second run starts, so the
+# per-commit dedup below reliably skips the duplicate.
+concurrency:
+  group: push-notify-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
   notify:
     # The same workflow file lives in both remotes (origin: dickinsone14-dev/ed-news-briefing,
@@ -36,55 +45,89 @@ jobs:
       - name: Install web-push
         run: npm install web-push
 
-      - name: Detect notification type and send (with deduplication)
-        env:
-          PUSH_AUTH_TOKEN: ${{ secrets.PUSH_AUTH_TOKEN }}
-          VAPID_PRIVATE_KEY: ${{ secrets.VAPID_PRIVATE_KEY }}
-          VAPID_PUBLIC_KEY: "BJ8KRLYBThmYGP1dcFNbMpWRJSTnZfe0nWu7cQKxxwK8-wESiXKk6OfJhYI28MykLxj5xSzggp8whn_DYaEWAKw"
-          VAPID_SUBJECT: "mailto:ed@thedailybrief.co.uk"
-          PUSH_WORKER_URL: "https://daily-brief-push.thedailybrief.workers.dev"
+      - name: Determine notification type
+        id: notif
         run: |
-          # Manual dispatch — always send, no dedup needed
+          # Manual dispatch — always send, skip dedup
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            echo "Manual dispatch"
-            node scripts/push-notify.js "${{ github.event.inputs.message }}" --type "${{ github.event.inputs.type }}" --no-verify
+            {
+              echo "message<<NOTIF_EOF"
+              echo "${{ github.event.inputs.message }}"
+              echo "NOTIF_EOF"
+              echo "type=${{ github.event.inputs.type }}"
+              echo "dedup=false"
+            } >> "$GITHUB_OUTPUT"
             exit 0
           fi
 
           # Only check the LATEST commit message (not all commits in push)
           LATEST_MSG=$(git log -1 --pretty=%B)
           DIFF=$(git diff HEAD~1 HEAD -- index.html)
+          MESSAGE=""
+          TYPE=""
 
           # --- BREAKING NEWS ---
-          # Trigger if commit message contains "Breaking banner" and headline was added
           if echo "$LATEST_MSG" | grep -qiE 'breaking banner|breaking news'; then
             if echo "$DIFF" | grep '^+' | grep -q '"headline"'; then
-              echo "Detected: Breaking news update"
               HEADLINE=$(echo "$DIFF" | grep '^+' | grep -oP '"headline"\s*:\s*"\K[^"]+' | head -1)
               if [ -z "$HEADLINE" ]; then
                 HEADLINE="Breaking news on The Daily Brief"
               fi
               HEADLINE=$(echo "$HEADLINE" | sed 's/ — [0-9][0-9]:[0-9][0-9] GMT$//')
-              node scripts/push-notify.js "$HEADLINE" --type breaking
-              exit 0
+              MESSAGE="$HEADLINE"
+              TYPE="breaking"
             fi
-          fi
-
           # --- MORNING BRIEFING ---
-          # Trigger on any commit containing "morning briefing" (feat:, Update, etc.)
-          if echo "$LATEST_MSG" | grep -qiE 'morning briefing'; then
-            echo "Detected: Morning briefing"
-            node scripts/push-notify.js "The Morning Briefing is live" --type edition
-            exit 0
-          fi
-
+          elif echo "$LATEST_MSG" | grep -qiE 'morning briefing'; then
+            MESSAGE="The Morning Briefing is live"
+            TYPE="edition"
           # --- EVENING BRIEFING ---
-          # Trigger on any commit containing "evening briefing" (feat:, Update, etc.)
-          if echo "$LATEST_MSG" | grep -qiE 'evening briefing'; then
-            echo "Detected: Evening briefing"
-            node scripts/push-notify.js "The Evening Briefing is live" --type edition
-            exit 0
+          elif echo "$LATEST_MSG" | grep -qiE 'evening briefing'; then
+            MESSAGE="The Evening Briefing is live"
+            TYPE="edition"
           fi
 
-          # Skip chore:, fix:, and other non-content commits
-          echo "No notification trigger detected — skipping"
+          if [ -z "$MESSAGE" ]; then
+            echo "No notification trigger detected — skipping"
+          fi
+
+          {
+            echo "message<<NOTIF_EOF"
+            echo "$MESSAGE"
+            echo "NOTIF_EOF"
+            echo "type=$TYPE"
+            echo "dedup=true"
+          } >> "$GITHUB_OUTPUT"
+
+      # Dedup by commit SHA: each commit notifies at most once, even if the commit is
+      # pushed to origin more than once (retry / duplicate push event). On the first run
+      # for this SHA the cache key is absent (cache-hit=false) and gets saved at job end;
+      # any later run for the same SHA finds it (cache-hit=true) and skips the send below.
+      - name: Deduplicate by commit
+        id: dedup
+        if: steps.notif.outputs.message != '' && steps.notif.outputs.dedup == 'true'
+        uses: actions/cache@v4
+        with:
+          path: .notify-sent-marker
+          key: notified-${{ github.sha }}
+
+      - name: Send notification
+        if: steps.notif.outputs.message != '' && steps.dedup.outputs.cache-hit != 'true'
+        env:
+          PUSH_AUTH_TOKEN: ${{ secrets.PUSH_AUTH_TOKEN }}
+          VAPID_PRIVATE_KEY: ${{ secrets.VAPID_PRIVATE_KEY }}
+          VAPID_PUBLIC_KEY: "BJ8KRLYBThmYGP1dcFNbMpWRJSTnZfe0nWu7cQKxxwK8-wESiXKk6OfJhYI28MykLxj5xSzggp8whn_DYaEWAKw"
+          VAPID_SUBJECT: "mailto:ed@thedailybrief.co.uk"
+          PUSH_WORKER_URL: "https://daily-brief-push.thedailybrief.workers.dev"
+          MESSAGE: ${{ steps.notif.outputs.message }}
+          NOTIF_TYPE: ${{ steps.notif.outputs.type }}
+          EVENT_NAME: ${{ github.event_name }}
+        run: |
+          FLAGS=""
+          if [ "$EVENT_NAME" = "workflow_dispatch" ]; then
+            FLAGS="--no-verify"
+          fi
+          node scripts/push-notify.js "$MESSAGE" --type "$NOTIF_TYPE" $FLAGS
+          # Marker content is irrelevant; its presence is what actions/cache persists
+          # under the per-SHA key so the duplicate run can detect it.
+          echo "sent sha=${{ github.sha }}" > .notify-sent-marker
