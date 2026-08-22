@@ -2194,12 +2194,12 @@
  - Optional "expires" field overrides the 8h default (e.g. for major events)
  To add a new breaking story, prepend an entry here with the current ISO timestamp. -->
  <script id="breaking-stories" type="application/json">
-[{"headline": "Russia strikes Kryvyi Rih shopping mall in 'double-tap' drone attack, killing at least 14 — 21:58 BST", "posted": "2026-08-21T21:58:00+01:00", "category": "UKRAINE-RUSSIA", "summary": "Russian drones struck the largest shopping complex in Kryvyi Rih, President Zelensky's central-Ukrainian hometown, killing at least 14 people and wounding more than 130, including 22 children. Zelensky said the attack came in two waves — a second strike hitting rescuers about 30 minutes after the first — and condemned it as a 'cynical and despicable' terrorist act. It is the deadliest single strike on the city this year and follows an overnight barrage on Kyiv that killed at least 17.", "facts": [{"label": "Killed", "value": "At least 14 (some officials say 15)"}, {"label": "Wounded", "value": "More than 130, incl. 22 children"}, {"label": "Target", "value": "Kryvyi Rih's largest shopping mall, ~60km from front"}, {"label": "Method", "value": "'Double-tap' — 2nd drone wave hit responders ~30 min later"}]}]
+[]
 </script>
  <div class="breaking-banner" id="breakingBanner">
  <div class="breaking-inner">
  <span class="breaking-label">BREAKING</span>
- <span class="breaking-text" id="breakingText">Russia strikes Kryvyi Rih shopping mall in a &lsquo;double-tap&rsquo; drone attack, killing at least 14 and wounding 130+</span>
+ <span class="breaking-text" id="breakingText"></span>
  <span class="breaking-readmore" id="breakingReadmore">Read more</span>
  <button class="breaking-dismiss" id="breakingDismiss">&times;</button>
  </div>
@@ -2289,7 +2289,7 @@
  <!-- #1 Markets snapshot bar -->
  <!-- Embedded market data (populated by update script, used as fallback) -->
  <script id="embedded-markets" type="application/json">
-{"FTSE": {"price": 10816.6, "change": 0.6}, "SP": {"price": 7650.0, "change": -0.87}, "Brent": {"price": 93.37, "change": 0.5}, "GBP": {"price": 1.3675, "change": 0.3}, "Gold": {"price": 4594, "change": 0.5}, "EURGBP": {"price": 0.8564, "change": -0.05}, "Gilt": {"price": 5.05, "change": -0.02}, "VIX": {"price": 15.75, "change": -1.62}, "BTC": {"price": 78000, "change": 8.5}, "UST": {"price": 4.69, "change": -0.02}, "ts": "2026-08-21T18:02:00+01:00"}
+{"FTSE": {"price": 10817.0, "change": 0.64}, "SP": {"price": 7674.0, "change": 0.43}, "Brent": {"price": 94.2, "change": 0.5}, "GBP": {"price": 1.3643, "change": 0.1}, "Gold": {"price": 4606, "change": 2.0}, "EURGBP": {"price": 0.856, "change": -0.11}, "Gilt": {"price": 5.07, "change": 0.01}, "VIX": {"price": 15.13, "change": 0.0}, "BTC": {"price": 77200, "change": -0.9}, "UST": {"price": 4.74, "change": 0.03}, "ts": "2026-08-22T10:30:00+01:00"}
 </script>
  <script id="market-descriptions" type="application/json">
 {
@@ -2297,100 +2297,100 @@
   "name": "FTSE 100",
   "desc": "The UK's benchmark stock index, tracking the 100 largest companies listed on the London Stock Exchange by market capitalisation. Includes Shell, AstraZeneca, HSBC and Unilever.",
   "drivers_up": [
-   "Firmer open, with miners and energy steady as gilt yields eased"
+   "Closed at a record high on Friday, buoyed by the post-Jackson-Hole rally and firmer rate-cut hopes"
   ],
   "drivers_down": [
-   "Global caution ahead of the Fed chair's Jackson Hole speech capped gains"
+   "Markets are closed for the weekend; this is Friday's close"
   ],
-  "updated": "21 August 2026 10:15"
+  "updated": "22 August 2026 (Friday close)"
  },
  "SP": {
   "name": "S&P 500",
   "desc": "America's leading stock market index, tracking 500 of the largest US-listed companies. Dominated by mega-cap tech (Apple, Microsoft, Nvidia) but spans all sectors.",
   "drivers_up": [
-   "Dip-buyers await a steer on rate cuts from Jackson Hole"
+   "Powell's dovish Jackson Hole remarks and strong US activity data lifted equities on Friday"
   ],
   "drivers_down": [
-   "Closed lower as investors turned cautious before the Fed chair's speech"
+   "Weekend close; a new US-Canada trade war is a fresh risk for Monday"
   ],
-  "updated": "21 August 2026 10:15"
+  "updated": "22 August 2026 (Friday close)"
  },
  "Brent": {
   "name": "Brent Crude Oil",
   "desc": "The global benchmark for crude oil pricing, produced from oil fields in the North Sea. Used to price roughly two-thirds of the world's traded oil.",
   "drivers_up": [
-   "Iran sanctions rhetoric and the Hormuz blockade keep a floor under prices"
+   "A weaker dollar and Gulf supply risk kept crude near $94 at Friday's close"
   ],
   "drivers_down": [
-   "Slipped, giving back Thursday's spike on demand-outlook wariness"
+   "Demand-outlook caution limited the gains"
   ],
-  "updated": "21 August 2026 10:15"
+  "updated": "22 August 2026 (Friday close)"
  },
  "GBP": {
   "name": "GBP/USD",
   "desc": "The exchange rate between the British pound and the US dollar, commonly known as 'cable'. Reflects relative economic strength and interest rate differentials between the UK and US.",
   "drivers_up": [
-   "Firmer as the dollar softened into the Jackson Hole speech"
+   "Firmed on Friday as the dollar softened after Powell"
   ],
   "drivers_down": [
-   "A large UK borrowing overshoot is a longer-term drag"
+   "Weekend close; UK borrowing concerns are a longer-term drag"
   ],
-  "updated": "21 August 2026 10:15"
+  "updated": "22 August 2026 (Friday close)"
  },
  "Gold": {
   "name": "Gold (XAU/USD)",
   "desc": "The spot price of gold in US dollars per troy ounce. The world's oldest safe-haven asset, traditionally rising during periods of uncertainty, inflation and currency debasement.",
   "drivers_up": [
-   "Surged to fresh highs on a softer dollar and safe-haven demand, a third straight weekly gain"
+   "Hit a three-month high on Friday, up over 5% on the week on rate-cut bets and safe-haven demand"
   ],
   "drivers_down": [
-   "A hawkish surprise from the Fed could prompt profit-taking"
+   "A sharp run higher leaves it prone to profit-taking"
   ],
-  "updated": "21 August 2026 10:15"
+  "updated": "22 August 2026 (Friday close)"
  },
  "EURGBP": {
   "name": "EUR/GBP",
   "desc": "The exchange rate between the euro and the British pound. Key for UK-EU trade pricing. A falling rate means sterling is strengthening against the euro.",
   "drivers_up": [
-   "Sterling edged firmer against the euro"
+   "Sterling modestly outperformed the euro into Friday's close"
   ],
   "drivers_down": [
-   "Move contained with no fresh euro-area catalyst"
+   "Rangebound with no fresh catalyst"
   ],
-  "updated": "21 August 2026 10:15"
+  "updated": "22 August 2026 (Friday close)"
  },
  "Gilt": {
   "name": "UK 10-Year Gilt Yield",
   "desc": "The yield on 10-year UK government bonds (gilts). A key benchmark for UK borrowing costs, mortgage rates and pension fund valuations. Rising yields mean falling bond prices.",
   "drivers_up": [
-   "Sticky inflation and heavy issuance keep yields near a 19-month high"
+   "Sticky inflation keeps yields near cycle highs"
   ],
   "drivers_down": [
-   "Yields eased about 2bp as global bond markets firmed"
+   "Little changed at Friday's close; markets shut for the weekend"
   ],
-  "updated": "21 August 2026 10:15"
+  "updated": "22 August 2026 (Friday close)"
  },
  "VIX": {
   "name": "VIX (Volatility Index)",
   "desc": "The CBOE Volatility Index, often called the 'fear gauge'. Measures expected S&P 500 volatility over the next 30 days. Readings above 20 suggest elevated anxiety; above 30 signals acute stress.",
   "drivers_up": [
-   "A surprise from Jackson Hole could lift it"
+   "The US-Canada trade escalation could lift it on Monday"
   ],
   "drivers_down": [
-   "Subdued near 16 as equities held broadly steady"
+   "Subdued near 15 as equities rallied into Friday's close"
   ],
-  "updated": "21 August 2026 10:15"
+  "updated": "22 August 2026 (Friday close)"
  },
  "BTC": {
   "name": "Bitcoin (BTC/USD)",
   "desc": "The price of Bitcoin in US dollars. The largest cryptocurrency by market cap, increasingly viewed as digital gold by institutional investors since spot ETF approvals.",
   "drivers_up": [
-   "Surged past $78,000, extending a powerful multi-day rally"
+   "Still holding the mid-$70k range after a strong week"
   ],
   "drivers_down": [
-   "Such sharp gains are prone to sharp reversals"
+   "Drifted lower in a mild weekend pullback (crypto trades 24/7)"
   ],
-  "updated": "21 August 2026 10:15"
+  "updated": "22 August 2026 (Friday close)"
  },
  "UST": {
   "name": "US 10-Year Treasury Yield",
@@ -2399,9 +2399,9 @@
    "Inflation and heavy supply argue for higher yields over time"
   ],
   "drivers_down": [
-   "Eased slightly as investors awaited the Fed chair's Jackson Hole remarks"
+   "Ticked up at Friday's close despite the dovish Fed tone"
   ],
-  "updated": "21 August 2026 10:15"
+  "updated": "22 August 2026 (Friday close)"
  }
 }
  </script>
@@ -2454,6 +2454,154 @@
  <!-- ════ ALL EDITIONS (sorted by JS) ════ -->
  <!-- IMPORTANT: Keep 7 FULL DAYS of editions in this container. Do NOT delete editions less than 7 days old. -->
  <div id="all-editions" style="display:none;">
+
+ <!-- ── MORNING 22 AUG (10:30) ── -->
+<div class="curated-edition morning" data-date="2026-08-22" data-time="10:30" data-markets='{"FTSE":{"price":10817.0,"change":0.64},"SP":{"price":7674.0,"change":0.43},"Brent":{"price":94.2,"change":0.5},"GBP":{"price":1.3643,"change":0.1},"Gold":{"price":4606,"change":2.0},"EURGBP":{"price":0.856,"change":-0.11},"Gilt":{"price":5.07,"change":0.01},"VIX":{"price":15.13,"change":0.0},"BTC":{"price":77200,"change":-0.9},"UST":{"price":4.74,"change":0.03},"ts":"2026-08-22T10:30:00+01:00"}'>
+ <div class="edition-header">
+ <span class="edition-icon">&#9728;</span>
+ <h2>Morning Briefing</h2>
+ </div>
+ <div class="curated-meta">Saturday 22 August 2026 &mdash; 10:30 BST</div>
+ <div class="impact-box">
+ <h3 class="impact-heading">What It Means For You</h3>
+ <ul class="impact-list">
+ <li><strong>Savings and mortgages:</strong> Gold hit a three-month high and shares closed at records on Friday after the US Federal Reserve chair&rsquo;s speech was read as pointing towards rate cuts. Lower US rates, if they follow, could in time feed through to cheaper mortgages.</li>
+ <li><strong>Prices:</strong> A new US-Canada trade war &mdash; 50 per cent tariffs each way &mdash; adds fresh strain to global supply chains, while Brent crude held near $94 on the Gulf standoff. Both point to lingering upward pressure on prices.</li>
+ <li><strong>Water and wildfires:</strong> With firefighter numbers down since 2008 and the drought persisting, water restrictions and wildfire risk are set to continue across much of England.</li>
+ </ul>
+ </div>
+ <div class="curated-grid">
+ <div class="curated-column">
+ <h3><span class="dot geo"></span><span class="dot-label">GEO</span> Geopolitical</h3>
+ <div>
+
+ <div class="curated-item" data-time="21:58" data-slug="kryvyi-rih-mall-double-tap-strike-16-killed">
+ <h4>Kryvyi Rih Mall Strike Kills 16 in 'Double-Tap' Attack</h4>
+ <p>At least 16 people were killed and about 130 injured, some of them children, in a Russian &ldquo;double-tap&rdquo; drone strike on a shopping mall in the Ukrainian city of Kryvyi Rih, with nine still missing as rescuers searched through the night. The tactic, striking twice to hit those who rush to help, drew accusations from President Zelensky that Russia was deliberately targeting civilians. The attack came over Russia&rsquo;s Flag Day weekend.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The &ldquo;double-tap&rdquo; method, a second strike timed to catch first responders and survivors, is among the most cynical tactics of the war, designed to maximise both casualties and terror. That a crowded shopping mall was hit underlines how far Russia&rsquo;s campaign has shifted towards civilian targets as the front lines barely move, part of a strategy to break Ukrainian morale that has so far hardened it. Kryvyi Rih, Mr Zelensky&rsquo;s home city, has been struck repeatedly, and each attack deepens Ukraine&rsquo;s pleas for the air defences it says it desperately lacks. With Western interceptor supplies thinning, more missiles get through. Watch the final toll and whether the strike spurs fresh air-defence commitments from allies.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="05:00" data-slug="us-canada-50-percent-tariffs-talks-collapse">
+ <h4>US Imposes 50% Tariffs on Canada as Talks Collapse</h4>
+ <p>A 50 per cent US tariff on around $20bn of Canadian goods took effect overnight after last-minute trade talks collapsed minutes before the deadline. Canada&rsquo;s prime minister, Mark Carney, vowed to retaliate &ldquo;dollar for dollar&rdquo; with matching levies on American imports, opening a full trade war between the two neighbours. Just weeks ago Mr Trump had paused the same tariffs, claiming a deal was close.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The collapse turns months of brinkmanship into an actual trade war between the United States and its closest ally and largest trading partner, with deeply integrated economies now facing tit-for-tat barriers. For Canada the stakes are close to existential, given how much of its economy depends on selling into the US market; for American consumers and manufacturers, retaliation and higher input costs will bite too. Mr Trump&rsquo;s pattern of threatening, pausing and then imposing tariffs has left partners unable to plan, and this escalation will reverberate through supply chains and, eventually, prices. Whether it is another negotiating gambit or a durable rupture is unclear. Watch the scope of Canada&rsquo;s retaliation and whether talks resume.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="08:00" data-slug="dr-congo-ebola-2500-deaths-vaccine-trial">
+ <h4>Congo Ebola Deaths Pass 2,500 as Vaccine Trial Nears</h4>
+ <p>More than 2,500 people have now died in the Democratic Republic of Congo&rsquo;s Ebola outbreak, the UN said, with roughly half the deaths in the past three weeks as the epidemic accelerates. It has spread across an area larger than France, and a vaccine trial is due to begin as the World Health Organization warns of the speed of transmission. It ranks among the deadliest Ebola outbreaks on record.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The scale is staggering: an epidemic that has killed more people than almost any Ebola outbreak in history is now moving faster, not slower, tearing through a vast and hard-to-reach region where conflict, weak health systems and mistrust hamper the response. That half the deaths have come in the last three weeks points to a transmission chain running ahead of the teams trying to trace it. The launch of a vaccine trial is a rare hopeful note, but vaccines work only where they can be delivered, and much of the affected area is remote or insecure. Watch whether the vaccine reaches enough people to bend the curve, and whether the virus crosses more borders.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="12:59" data-slug="sweden-school-sword-attack-one-killed">
+ <h4>One Killed in Sword Attack at Swedish School</h4>
+ <p>One person was killed and three injured in a sword attack at a school in Sweden, police said, with an 18-year-old male suspect shot and arrested at the scene. Nearby schools were placed under lockdown as officers secured the area. The motive was not immediately clear. It is the latest violent incident to shake a country grappling with a rise in youth and gang violence.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">A fatal school attack is a rare and shocking event in Sweden, and it will sharpen a national anxiety that has grown as the country confronts levels of violence it once considered foreign. Sweden has spent recent years battling gang crime, shootings and bombings that have shaken its image as a haven of calm, and each high-profile attack feeds a fierce political argument over integration, policing and the roots of the disorder. With the motive unknown, speculation will outrun the facts. What matters first is the victims and what police establish about the 18-year-old. Watch for the motive and how the debate over Swedish violence resumes.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="23:52" data-slug="myanmar-military-monastery-airstrike-14-killed">
+ <h4>Myanmar Military Air Strike on Monastery Kills 14</h4>
+ <p>A Myanmar military air strike on a Buddhist monastery killed at least 14 people, according to opposition groups, in a village in the Sagaing region where more than 100 people had gathered for a religious retreat. The junta has increasingly used air power against civilian targets since the 2021 coup. The report could not be independently verified.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The strike fits a grim pattern in Myanmar&rsquo;s civil war, in which a military losing ground on the battlefield has turned ever more to air strikes on villages, schools, hospitals and places of worship, killing civilians it accuses of sheltering resistance fighters. Sagaing has been among the hardest-hit regions, a heartland of opposition to the junta. That a monastery sheltering a religious retreat was hit will deepen international revulsion, though the generals have long been indifferent to it, insulated by ties to Russia and China. Independent verification is near-impossible in a country that has sealed itself off. Watch whether the toll is confirmed and whether it draws any meaningful response.</div>
+ </details>
+ </div>
+
+ </div>
+ </div>
+ <div class="curated-column">
+ <h3><span class="dot dom"></span><span class="dot-label">UK</span> UK Domestic Politics</h3>
+ <div>
+
+ <div class="curated-item" data-time="09:37" data-slug="oneill-declines-burnham-economic-adviser">
+ <h4>O'Neill Declines Burnham Adviser Role but Backs Devolution</h4>
+ <p>Lord O&rsquo;Neill, the former Goldman Sachs chief economist who coined the term &ldquo;BRICs&rdquo;, has turned down a role as chief economic adviser to the prime minister, while publicly backing Andrew Burnham&rsquo;s drive to devolve power to the regions. His decision denies Mr Burnham a prominent name for his economic team, even as the peer endorsed the substance of the agenda. It was the leading Westminster story of an otherwise quiet weekend.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The episode is a small setback dressed as an endorsement: Lord O&rsquo;Neill&rsquo;s backing for devolution lends intellectual weight to Mr Burnham&rsquo;s central project, but his refusal to take the job denies the government a marquee hire at a moment when it is trying to show economic seriousness. A respected, independent-minded figure, he has drifted in and out of the orbit of governments of both parties, and his reluctance may reflect either the constraints of the role or scepticism about how much power will really shift. For a prime minister who has staked his premiership on rewiring the state around the regions, the search for credible economic voices matters. Watch who Mr Burnham appoints instead and whether other names follow O&rsquo;Neill&rsquo;s lead.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="08:45" data-slug="uk-first-terror-victims-day-memorial">
+ <h4>Burnham Pledges Memorial as UK Marks First Terror Victims Day</h4>
+ <p>The United Kingdom marked its first National Day for Victims and Survivors of Terrorism, with the prime minister, Andrew Burnham, pledging to consult survivors on a permanent national memorial. Survivors gathered at commemoration events across the country. The new annual day is intended to give lasting recognition to those killed and injured in terrorist attacks, and to the families they leave behind.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">Britain has endured a long roll-call of terrorist atrocities, from Lockerbie and the IRA campaign to 7/7, Manchester and Fishmongers&rsquo; Hall, yet survivors have long complained of being forgotten once the headlines fade. A dedicated national day, and the promise of a permanent memorial, is an attempt to institutionalise remembrance in the way other nations mark their dead. The test, survivors will say, is whether recognition is matched by practical support: the long-term medical, psychological and financial help many have struggled to secure. Mr Burnham&rsquo;s pledge to consult them directly is a start. Watch what form the memorial takes and whether promised support follows.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="07:14" data-slug="firefighter-numbers-wildfire-preparedness">
+ <h4>Firefighter Numbers Down Since 2008 as Wildfire Threat Grows</h4>
+ <p>Fire-service leaders warned that England is under-prepared for a worsening wildfire season, noting that firefighter numbers have fallen since 2008 even as blazes escalate. A union official said &ldquo;there should have been more planning&rdquo; for a summer of record heat and drought that has stretched crews. One major route reopened, under speed limits, after repairs to wildfire damage. The warnings add to pressure over cuts to the emergency services.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The wildfires that have scorched British hills and heaths this summer are a new kind of threat for a fire service built around buildings and road accidents, and the warning over staffing exposes how a decade of budget pressure has thinned the very capacity now most in demand. Wildfires require large numbers of crews for long, exhausting deployments, exactly what a shrunken workforce struggles to sustain. The union&rsquo;s complaint about planning echoes a wider unease that Britain&rsquo;s emergency services and infrastructure were designed for a milder, more predictable climate. As hotter, drier summers become the norm, the mismatch will grow. Watch whether the government funds more firefighters and dedicated wildfire capability.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="15:55" data-slug="beacon-fen-solar-farm-consent">
+ <h4>Government Approves Large Solar Farm Despite Local Objections</h4>
+ <p>The government granted consent for the Beacon Fen Energy Park, a 400-megawatt solar farm with substantial battery storage, overriding objections from local residents. The decision, taken under the rules for nationally significant infrastructure, is part of a wave of clean-energy projects being pushed through to meet the government&rsquo;s power targets. It is one of scores of such schemes approved as ministers try to accelerate the shift to renewables.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The approval captures the tension at the heart of the clean-energy drive: national goals for cheap, low-carbon power collide with local objections to the land such projects consume. Large solar farms and their banks of batteries can cover great swathes of countryside, and communities often feel decisions are imposed from Whitehall through a planning process built for speed over consent. The government argues the climate and energy-security stakes justify pressing ahead, and that battery storage makes solar far more useful by smoothing supply. But each contested approval hardens a backlash that could slow the very build-out ministers want. Watch whether local resistance forces changes to the process.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="19:44" data-slug="ofcom-sky-news-farage-family-investigation">
+ <h4>Ofcom Investigates Sky News Over Farage Family Claims</h4>
+ <p>The media regulator Ofcom has opened an investigation into Sky News over allegations that reporters were sent to a home where the adult daughter of the Reform UK leader, Nigel Farage, lives. The inquiry will examine whether the broadcaster&rsquo;s conduct breached rules on privacy. It is an unusual regulatory challenge to a major broadcaster over its treatment of a politician&rsquo;s family.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The case touches a perennial tension between press scrutiny of public figures and the privacy of their relatives, who did not choose public life. For Reform UK, whose leader has often accused broadcasters of hostility, the investigation feeds a narrative of media persecution that plays well with its supporters. For Sky News, a regulatory inquiry into its news-gathering methods is a reputational risk, whatever the outcome. Ofcom&rsquo;s privacy rules are strict, and how it rules could shape where the line falls between legitimate journalism and intrusion. Watch the regulator&rsquo;s finding and whether it prompts wider scrutiny of doorstepping.</div>
+ </details>
+ </div>
+
+ </div>
+ </div>
+ </div>
+
+ <div class="one-to-read">
+ <span class="otr-label">One To Read</span>
+ <a href="https://www.bbc.co.uk/news/articles/czxe9n0vxzdo" target="_blank" rel="noopener noreferrer">
+ <h4>Ebola's Fastest Surge Yet, in a Region Bigger Than France</h4>
+ <span class="otr-source">BBC News</span>
+ <span class="otr-dot">&middot;</span>
+ <span class="otr-desc">More than 2,500 are dead, half of them in the last three weeks, as the deadliest Ebola outbreak on record accelerates across a vast, conflict-torn stretch of the Democratic Republic of Congo &mdash; outpacing the teams racing to contain it.</span>
+ </a>
+ </div>
+ <!-- SOURCES USED
+ - https://www.bbc.co.uk/news/articles/c39egw7nmk2o &mdash; BBC News: Kryvyi Rih mall strike, toll 16; Canada tariffs; Ebola; Swedish attack; O'Neill; firefighters; Beacon Fen; Ofcom/Sky
+ - https://www.aljazeera.com/video/newsfeed/2026/8/22/several-killed-in-russias-double-tap-drone-strike-on-ukraine-mall &mdash; Al Jazeera: Kryvyi Rih double-tap strike; Myanmar monastery strike
+ - https://news.sky.com/story/donald-trumps-50-us-tariffs-on-canada-to-be-matched-dollar-for-dollar-after-trade-talks-collapse-13575681 &mdash; Sky News: US-Canada 50% tariffs; Ebola; Swedish attack; firefighters
+ - https://www.npr.org/2026/08/22/nx-s1-5941584/us-canada-tariffs &mdash; NPR: US-Canada tariffs take effect
+ - https://www.reuters.com/world/ &mdash; Reuters: Kryvyi Rih strike; US-Canada tariffs; DR Congo Ebola
+ - https://apnews.com/hub/ &mdash; AP: US-Canada tariffs; Ebola; Sweden school attack
+ - https://www.cnn.com/world &mdash; CNN: Kryvyi Rih strike; US-Canada trade war
+ - https://www.cnbc.com/world/ &mdash; CNBC: US-Canada tariffs and market impact; gold and Fed
+ - https://www.bloomberg.com/ &mdash; Bloomberg: Jackson Hole market reaction; US-Canada tariffs
+ - https://www.gov.uk/government/news/first-national-day-for-victims-and-survivors-of-terrorism-marked &mdash; GOV.UK: first terror victims day; Burnham memorial pledge
+ - https://www.channel4.com/news/survivors-gather-to-mark-the-uks-first-national-day-for-terror-victims &mdash; Channel 4 News: terror victims day commemoration
+ - https://www.bbc.co.uk/news/articles/cwym4m4j848o &mdash; BBC News: O'Neill declines Burnham adviser role
+ - https://www.bbc.co.uk/news/articles/c77gpd51064o &mdash; BBC News: firefighter numbers down / wildfire preparedness
+ - https://www.gov.uk/government/news/beacon-fen-energy-park-development-consent-decision-announced &mdash; GOV.UK: Beacon Fen solar farm consent
+ - https://www.bbc.co.uk/news/articles/ce8k52186mmo &mdash; BBC News: Ofcom investigates Sky News over Farage family
+ END SOURCES USED -->
+ </div><!-- ── END MORNING 22 AUG (10:30) ── -->
 
  <!-- ── EVENING 21 AUG (18:02) ── -->
 <div class="curated-edition evening" data-date="2026-08-21" data-time="18:02" data-markets='{"FTSE":{"price":10816.6,"change":0.6},"SP":{"price":7650.0,"change":-0.87},"Brent":{"price":93.37,"change":0.5},"GBP":{"price":1.3675,"change":0.3},"Gold":{"price":4594,"change":0.5},"EURGBP":{"price":0.8564,"change":-0.05},"Gilt":{"price":5.05,"change":-0.02},"VIX":{"price":15.75,"change":-1.62},"BTC":{"price":78000,"change":8.5},"UST":{"price":4.69,"change":-0.02},"ts":"2026-08-21T18:02:00+01:00"}'>
@@ -4540,297 +4688,6 @@
  - https://www.investing.com/crypto/bitcoin/btc-usd &mdash; Investing.com: live Bitcoin
  END SOURCES USED -->
  </div><!-- ── END MORNING 15 AUG (08:45) ── -->
- <!-- ── EVENING 14 AUG (18:30) ── -->
-<div class="curated-edition evening" data-date="2026-08-14" data-time="18:30" data-markets='{"FTSE":{"price":10750.0,"change":-0.21},"SP":{"price":7782.0,"change":-0.21},"Brent":{"price":88.0,"change":1.07},"GBP":{"price":1.3547,"change":0.45},"Gold":{"price":4386,"change":0.83},"EURGBP":{"price":0.8544,"change":-0.05},"Gilt":{"price":5.05,"change":0.09},"VIX":{"price":14.47,"change":-1.1},"BTC":{"price":63000,"change":-0.5},"UST":{"price":4.69,"change":0.04},"ts":"2026-08-14T18:30:00+01:00"}'>
- <div class="edition-header">
- <span class="edition-icon">&#127769;</span>
- <h2>Evening Briefing</h2>
- </div>
- <div class="curated-meta">Friday 14 August 2026 &mdash; 18:30 BST</div>
- <div class="impact-box">
- <h3 class="impact-heading">What It Means For You</h3>
- <ul class="impact-list">
- <li><strong>Petrol:</strong> Oil climbed to around $88 a barrel, its best week in months, as the standoff over the Strait of Hormuz deepened after the tanker attack. With the strait still shut over the weekend, pump prices are likely to stay high or rise.</li>
- <li><strong>Mortgages:</strong> UK borrowing costs jumped, with the 10-year gilt yield back above 5 per cent, on renewed inflation and debt concerns. Fixed mortgage rates are likely to stay high or edge up.</li>
- <li><strong>Cars:</strong> The government is set to water down electric-vehicle sales targets after pressure from carmakers &mdash; a shift that could reshape car prices and the pace of the switch to electric.</li>
- </ul>
- </div>
- <div class="curated-grid">
- <div class="curated-column">
- <h3><span class="dot geo"></span><span class="dot-label">GEO</span> Geopolitical</h3>
- <div>
-
- <div class="curated-item" data-time="16:00" data-slug="us-threatens-blockade-iran-uae-tanker-attack">
- <h4>US Threatens Indefinite Blockade of Iran After Tanker Attack</h4>
- <p>The standoff over the Strait of Hormuz escalated sharply, with the United States saying it could sustain an &ldquo;indefinite&rdquo; naval blockade of Iran after the UAE accused Tehran of a drone attack on two of its tankers. Saudi Arabia announced a 13-nation Red Sea defence alliance in response, and the Arab League condemned Iran, which has not commented on the attack. Oil climbed towards $88 a barrel, its strongest week in months.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The rapid hardening of positions &mdash; an American blockade threat, a new Gulf military bloc, a chorus of Arab condemnation &mdash; marks the most dangerous turn yet in a confrontation centred on the waterway through which about a fifth of the world&rsquo;s oil passes. That Gulf states have moved to coordinate their defences reflects how exposed they feel, while Washington&rsquo;s talk of an open-ended blockade raises the stakes of any miscalculation at sea. Iran, which has vowed to keep the strait shut until its demands are met, has neither claimed nor denied the tanker attack, leaving its next move uncertain. Every step tightens the squeeze on global oil supply, and prices have risen accordingly. Watch whether Iran responds and whether the blockade threat is acted on.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="14:00" data-slug="ukraine-black-sea-truce-russia-rejects">
- <h4>Russia Rejects Ukraine's Offer of a Black Sea Truce</h4>
- <p>Russia rejected Ukraine&rsquo;s proposal for a mutual halt to attacks on civilian shipping in the Black Sea, dismissing the offer within hours of it being made. Kyiv had framed the truce as a way to protect global food supplies after its strike on the Russian port of Novorossiysk shut grain export terminals. Both countries are among the world&rsquo;s largest wheat exporters.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">Ukraine&rsquo;s offer, and Moscow&rsquo;s swift rejection, leaves the Black Sea a live front in a war that keeps rattling global grain markets. Kyiv&rsquo;s strike on Novorossiysk had already halted the port&rsquo;s grain terminals, and by proposing a shipping truce Ukraine sought to cast itself as the party protecting food supplies while putting the onus on Russia. By turning it down, Moscow signals it intends to keep pressing its own attacks on Ukrainian ports and infrastructure rather than concede any easing. The stand-off matters well beyond the two countries, since disruption to Black Sea exports feeds through to bread prices from North Africa to the Middle East. A negotiated corridor once held; its collapse would hurt the poorest hardest. Watch whether either side escalates strikes on ports.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="12:00" data-slug="colombia-quake-toll-passes-281">
- <h4>Colombia Earthquake Toll Passes 281 as Hope Fades</h4>
- <p>The death toll from the earthquake in western Colombia has risen to at least 281, with reports it is climbing past 285 and hundreds still missing, as the search moves past the 72-hour survival window. More than 12,000 homes are reported destroyed. Rescuers are still digging through the rubble, but hope of finding more survivors is fading.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The magnitude-7.4 quake, which struck on Monday and devastated the city of Cali, is now the deadliest disaster to hit Colombia in decades, and the toll has climbed steadily as crews reached communities cut off by landslides. With the critical window for survival passed, the operation is shifting from rescue to recovery, and the hundreds still unaccounted for will shape how much higher the toll rises. The scale of the destruction &mdash; more than twelve thousand homes flattened &mdash; points to a reconstruction effort spanning years in an impoverished, mountainous region. President Abelardo de la Espriella, only weeks into office, faces a defining early test as international aid arrives. Watch for the final casualty count and the shape of the rebuilding.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="10:00" data-slug="who-congo-ebola-deadliest-sixth-province">
- <h4>WHO Says Congo Ebola on Track to Be Deadliest Ever</h4>
- <p>The World Health Organization warned the Ebola outbreak in the Democratic Republic of Congo is on track to become the deadliest on record and is spreading faster than any before it, having now reached a sixth province. More than 2,000 people have died. Aid agencies say responders on the ground lack the resources they need.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The spread to a sixth province, Bas-Uele in the north-east, signals that containment is slipping, and the WHO&rsquo;s director-general has cautioned the epidemic could surpass the West African outbreak of 2014 to 2016, which killed more than 11,000. Effective vaccines exist this time, but deploying them across a vast, insecure region with weak health infrastructure is a formidable task, and Oxfam has warned of a shortfall in resources. Mistrust of health workers and porous borders have helped the virus outrun the response. International agencies are scaling up support against a narrowing window, wary of the outbreak reaching neighbouring countries or major cities. Watch whether the response can finally slow the spread before it becomes the worst on record.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="08:00" data-slug="poland-foils-russian-plot-nato-soil">
- <h4>Poland Foils Russian Plot to Kill Man on NATO Soil</h4>
- <p>Poland&rsquo;s prime minister, Donald Tusk, said security services had thwarted a Russian-orchestrated plot to assassinate a Ukrainian-American citizen in Warsaw, with one man detained. It is reportedly the first alleged Russian attempt to kill a NATO citizen on NATO territory. Mr Tusk said the suspect had been recruited by Russian intelligence.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">Poland, a frontline NATO state and the main conduit for military aid to Ukraine, has repeatedly accused Russia of running covert operations on its soil, from arson to sabotage, and an alleged assassination plot marks a serious escalation of that shadow campaign. Recruiting local proxies for such work, as Mr Tusk described, is a pattern Western agencies say Moscow uses across Europe to sow fear while preserving deniability. Targeting a person with American citizenship risks drawing Washington more directly into the confrontation. Russia routinely denies such accusations, and independent verification is difficult. The case sharpens fears that the war&rsquo;s violence is reaching deeper into NATO territory. Watch for any American response and further detail on the alleged plot.</div>
- </details>
- </div>
-
- </div>
- </div>
- <div class="curated-column">
- <h3><span class="dot dom"></span><span class="dot-label">UK</span> UK Domestic Politics</h3>
- <div>
-
- <div class="curated-item" data-time="15:00" data-slug="burnham-army-barbecue-ban-wildfires-tinderbox">
- <h4>Army Called In and Barbecues Banned as Wildfires Spread</h4>
- <p>Prime Minister Andy Burnham declared Britain a &ldquo;tinderbox&rdquo; and announced an emergency response as wildfires spread during the extreme heat, calling in the army to help fight the fires and imposing a temporary ban on the sale of disposable barbecues. Fire services have been stretched across the country. It follows this week&rsquo;s Cobra meeting on the heat and drought.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">Deploying troops and moving to ban a consumer product mark a sharp escalation of the government&rsquo;s response, casting the summer&rsquo;s fires as a national emergency rather than a seasonal nuisance. Disposable barbecues, cheap and often abandoned still hot on dry ground, have long alarmed fire chiefs, and a sales ban answers their calls while sparing ministers the delay of full legislation. Military help reflects how thinly firefighters are stretched after weeks of blazes across parched countryside, with reservoirs low and much of England in drought. Critics will ask whether the measures are enough, or come too late in a summer of record fires; supporters say decisive action was overdue. The politics of climate resilience have moved up the agenda. Watch whether a permanent ban follows and how the fires develop.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="13:00" data-slug="government-slashes-ev-sales-targets-zev">
- <h4>Government Moves to Water Down Electric-Car Targets</h4>
- <p>The government is moving to soften the UK&rsquo;s electric-vehicle sales targets, launching a consultation on relaxing the Zero Emission Vehicle mandate after lobbying from carmakers. Charging-infrastructure firms warned they could pull billions of pounds of planned investment if net-zero commitments are watered down. The move reopens a fight between industry, drivers and climate campaigners.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The mandate requires carmakers to sell a rising share of electric vehicles each year or face penalties, and manufacturers have argued the targets are unrealistic given softer-than-hoped demand and the price gap with petrol cars. Easing them would relieve the industry but risks slowing the rollout of chargers and the shift to cleaner transport, and providers of charging points warn that watering down the commitment would undermine the case for their investment. Ministers must weigh the health of a struggling car sector against climate goals and the interests of drivers weighing whether to go electric. Consumer groups warn that any backsliding could keep running costs higher for longer. The consultation will set the terms of the fight. Watch where the targets land and how industry responds.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="09:00" data-slug="farage-holds-clacton-standards-probe-reopens">
- <h4>Farage Holds Clacton as Standards Inquiry Reopens</h4>
- <p>Nigel Farage was re-elected as MP for Clacton, winning comfortably in a by-election the main parties declined to contest, with the novelty candidate Count Binface taking over a quarter of the vote. Mr Farage did not attend the count, citing a security threat police disputed. Hours after the win, the parliamentary standards inquiry into an undisclosed gift of about 5 million pounds resumed.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The contest was a strange one, triggered when Mr Farage resigned the seat last month amid the standards inquiry, only to stand again, and the main parties&rsquo; decision to sit it out handed him an easy return. His refusal to appear at his own victory declaration, and the police&rsquo;s pointed rejection of his stated reason, lent an odd note to the win and gave opponents an opening. The reopened inquiry, into a large undisclosed gift from a donor whose affairs have drawn law-enforcement interest, ensures the questions that prompted his resignation follow him back into Parliament. For Reform UK, holding the leader&rsquo;s seat steadies a party bruised by internal rows, without resolving the doubts around him. Watch how the standards process unfolds and how Reform capitalises on the win.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="07:00" data-slug="asylum-accommodation-higher-rents-affluent-areas">
- <h4>Government May Pay Higher Rents to Spread Asylum Housing</h4>
- <p>The government could pay above-market rents to disperse asylum accommodation more widely across the country, including into wealthier areas, according to reports. It is a fresh cost angle on a dispersal plan that has already drawn a backlash and warnings of legal challenges. Critics accuse ministers of housing asylum seekers in affluent areas at extra expense to the taxpayer.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">Asylum accommodation has become one of the most combustible issues in British politics, with hotels and large sites concentrated in poorer areas that ministers concede have borne an unfair share. Spreading placements into wealthier districts is meant to share that burden, but paying over the odds to secure properties invites the charge of throwing money at a problem the government has struggled to grip. Resistance in the shires, and the threat of legal action from councils and residents, could bog the plan down. With Reform pressing hard on immigration after its by-election win, the politics are treacherous, and every extra pound spent will be scrutinised. Watch how councils in affluent areas respond and whether the cost figures hold up.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="06:00" data-slug="tax-rise-pressure-october-budget">
- <h4>Pressure Builds Over Tax Rises Before October Budget</h4>
- <p>Pressure is mounting over possible tax rises in the autumn budget, due on 28 October, with the Conservatives demanding the government rule out increases. Confirmation this week that the economy grew just 0.4 per cent has sharpened the debate over how Chancellor John Healey will balance the books. The Treasury has declined to rule anything out.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">Budgets are always exercises in tension between the need to fund public services and the political cost of raising taxes, and this one arrives with the public finances tight and growth soft. Refusing to rule out tax rises keeps the Chancellor&rsquo;s options open but hands opponents an opening to warn of a coming squeeze on households and business. Within Labour, allies of the former prime minister have cautioned against choking off a fragile recovery, while others argue only higher taxes can steady the books. Mr Healey must reconcile those pressures while markets, already nudging borrowing costs higher, watch for signs of discipline. The choices he makes on 28 October will define the government&rsquo;s economic character. Watch which taxes, if any, are targeted and how the party manages the strain.</div>
- </details>
- </div>
-
- </div>
- </div>
- </div>
-
- <div class="one-to-read">
- <span class="otr-label">One To Read</span>
- <a href="https://www.aljazeera.com/video/newsfeed/2026/8/14/colombias-rescuers-search-rubble-as-hope-fades-on-finding-survivors" target="_blank" rel="noopener noreferrer">
- <h4>Digging On as Hope Fades in Colombia</h4>
- <span class="otr-source">Al Jazeera</span>
- <span class="otr-dot">&middot;</span>
- <span class="otr-desc">The 72-hour window has passed, but rescuers keep searching the rubble of western Colombia&rsquo;s shattered towns, where the earthquake has killed more than 280 and left hundreds still missing.</span>
- </a>
- </div>
- <!-- SOURCES USED
- - https://www.aljazeera.com/news/ &mdash; Al Jazeera: US blockade threat/Hormuz; Ukraine Black Sea truce; Colombia toll; Ebola; Poland plot
- - https://www.cbsnews.com/world/ &mdash; CBS News: Colombia final-phase search; Hormuz standoff
- - https://abcnews.go.com/International &mdash; ABC News: Colombia toll 281, 12,000+ homes
- - https://www.reuters.com/ &mdash; Reuters: Russia rejects Black Sea truce; Ebola Bas-Uele spread; Hormuz
- - https://www.bbc.co.uk/news &mdash; BBC News: Clacton (Binface over a quarter); Ebola WHO; EV mandate consultation
- - https://www.theguardian.com/uk &mdash; The Guardian: army called in/wildfires; EV targets; asylum higher rents; Poland plot
- - https://www.telegraph.co.uk/news/ &mdash; The Telegraph: army called in; EV mandate; asylum accommodation cost
- - https://www.independent.co.uk/news/uk &mdash; The Independent: wildfire emergency; Clacton
- - https://news.sky.com/ &mdash; Sky News: Clacton result
- - https://www.ft.com/ &mdash; Financial Times: Farage standards inquiry; budget/tax pressure
- - https://www.thetimes.com/uk &mdash; The Times: Farage standards; EV/ZEV mandate
- - https://tradingeconomics.com/commodity/brent-crude-oil &mdash; Trading Economics: Brent, FTSE, gilt, gold, VIX
- - https://www.investing.com/commodities/brent-oil &mdash; Investing.com: Brent, S&P, GBP, gold spot
- END SOURCES USED -->
- </div><!-- ── END EVENING 14 AUG (18:30) ── -->
- <!-- ── MORNING 14 AUG (11:15) ── -->
-<div class="curated-edition morning" data-date="2026-08-14" data-time="11:15" data-markets='{"FTSE":{"price":10767.0,"change":-0.05},"SP":{"price":7827.0,"change":0.05},"Brent":{"price":87.35,"change":0.35},"GBP":{"price":1.3526,"change":0.30},"Gold":{"price":4357,"change":0.16},"EURGBP":{"price":0.8542,"change":-0.08},"Gilt":{"price":4.98,"change":0.02},"VIX":{"price":14.56,"change":-0.48},"BTC":{"price":62800,"change":-1.2},"UST":{"price":4.66,"change":0.015},"ts":"2026-08-14T11:15:00+01:00"}'>
- <div class="edition-header">
- <span class="edition-icon">&#9728;</span>
- <h2>Morning Briefing</h2>
- </div>
- <div class="curated-meta">Friday 14 August 2026 &mdash; 11:15 BST</div>
- <div class="impact-box">
- <h3 class="impact-heading">What It Means For You</h3>
- <ul class="impact-list">
- <li><strong>Petrol:</strong> A fresh attack on oil tankers in the Strait of Hormuz has kept crude elevated, up more than 5 per cent this week. Petrol and diesel prices are likely to stay high, and could rise further if the strait stays shut.</li>
- <li><strong>Tax and the budget:</strong> With the economy growing just 0.4 per cent and the autumn budget approaching, a fight is brewing over whether to raise taxes. The decisions ahead could squeeze household finances.</li>
- <li><strong>Mortgages:</strong> UK borrowing costs edged up, with the 10-year gilt yield near 4.98 per cent, even as inflation cooled abroad. Fixed mortgage rates are likely to stay high for now.</li>
- </ul>
- </div>
- <div class="curated-grid">
- <div class="curated-column">
- <h3><span class="dot geo"></span><span class="dot-label">GEO</span> Geopolitical</h3>
- <div>
-
- <div class="curated-item" data-time="07:00" data-slug="uae-accuses-iran-adnoc-tankers-hormuz">
- <h4>UAE Accuses Iran of Attacking Two of Its Tankers in Hormuz</h4>
- <p>The United Arab Emirates said two tankers belonging to its state oil company were struck by drones in the Strait of Hormuz, with no injuries reported, and blamed Iran. Saudi Arabia and Bahrain condemned the attack, which sharpens the standoff over the vital waterway that Iran has vowed to keep shut. Tehran had not commented. Oil, already up more than 5 per cent this week, held near $87 a barrel.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The strait, through which about a fifth of the world&rsquo;s oil normally passes, has become the most dangerous flashpoint of the confrontation with Iran, and a direct hit on Emirati vessels marks a significant escalation. That Gulf states usually cautious about pointing the finger at Tehran did so openly reflects how alarmed the region has become. Iran has insisted the strait will stay closed until its demands are met, including compensation for an earlier tanker spill, while President Trump has vowed to keep Iranian ports under blockade. Each incident risks dragging more players into a confrontation with global consequences, since any sustained disruption to Gulf oil feeds through to prices worldwide. Watch whether Iran responds and how far the Gulf states escalate.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="06:00" data-slug="ukraine-offers-black-sea-truce-novorossiysk">
- <h4>Ukraine Offers Russia a Black Sea Truce After Port Strike</h4>
- <p>Ukraine has offered Russia a mutual halt to attacks on civilian ships in the Black Sea, days after its strike on the Russian port of Novorossiysk shut all three of the port&rsquo;s grain export terminals. Kyiv framed the offer as a way to protect global food supplies. Moscow, which has vowed to retaliate for the strike, gave no immediate response.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The truce offer is a striking move that lets Ukraine present itself as the responsible party after an attack that rattled global grain markets, since both countries are major wheat exporters and the Black Sea is the artery for much of that trade. It also puts Moscow on the spot: reject it and Russia risks blame for any further disruption to food supplies; accept it and it concedes Kyiv&rsquo;s growing reach into waters it once dominated. The strike on Novorossiysk, which halted the terminals and damaged warships, showed Ukraine can hit strategic targets far from the front. Whether the offer is genuine diplomacy or a bid to shape the narrative is unclear. Watch whether Russia engages or presses ahead with reprisals.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="08:00" data-slug="colombia-quake-toll-281">
- <h4>Colombia Earthquake Toll Climbs to at Least 281</h4>
- <p>The death toll from the earthquake in western Colombia has risen to at least 281, with around 379 people still missing, according to Colombian authorities, as the search moves into its final phase past the 72-hour survival window. More than 12,000 homes are reported destroyed. Isolated rescues, including a baby pulled alive from the rubble in Cali, are still being recorded, but hope is fading.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The magnitude-7.4 quake, which struck on Monday, has become the deadliest disaster to hit Colombia in decades, and the toll has risen steadily as rescuers reached communities cut off by landslides. With the critical window for finding survivors now passed, the grim work is shifting from rescue to recovery, and the missing figure &mdash; still in the hundreds &mdash; will shape how much further the toll climbs. The scale of the destruction, with thousands of homes flattened, points to a reconstruction effort that will stretch over years in an impoverished, mountainous region. President Abelardo de la Espriella, only weeks into office, faces an early test of his government amid international offers of aid. Watch for the final casualty count and the scale of the rebuilding.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="05:00" data-slug="who-congo-ebola-deadliest-sixth-province">
- <h4>WHO Warns Congo Ebola Could Become Deadliest on Record</h4>
- <p>The World Health Organization warned that the Ebola outbreak in the Democratic Republic of Congo is on course to become the deadliest ever, having now spread to a sixth province. More than 2,000 people have died, and aid agencies warn of a lack of resources on the ground. Officials have linked the outbreak to a new animal source of infection.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The WHO&rsquo;s director-general has cautioned that the epidemic could surpass the West African outbreak of 2014 to 2016, which killed more than 11,000, and its spread to a sixth province signals that containment is slipping. Effective vaccines exist, unlike in that earlier disaster, but deploying them across a vast, insecure region with weak health infrastructure is a formidable task, and Oxfam has warned that responders lack the resources they need. Mistrust of health workers and porous borders have helped the virus spread. The link to a fresh animal source underlines how such outbreaks begin and recur. International agencies are scaling up support against a narrowing window. Watch whether the response can finally slow the outbreak.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="04:00" data-slug="poland-thwarts-kremlin-assassination-plot">
- <h4>Poland Says It Foiled Russian Plot to Kill an American</h4>
- <p>Poland&rsquo;s prime minister, Donald Tusk, said security services had thwarted a Russian-orchestrated plot to assassinate an American citizen on Polish soil. The would-be attacker had been recruited by Russian intelligence, Mr Tusk alleged. It is the latest in a run of suspected Russian sabotage and hybrid-warfare operations on NATO territory.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">Poland, a frontline NATO state and a hub for military aid to Ukraine, has repeatedly accused Russia of running covert operations on its soil, from arson to sabotage, and an alleged assassination plot marks a serious escalation of that shadow campaign. Recruiting local proxies for such operations, as Mr Tusk described, is a pattern Western agencies say Moscow has used across Europe to sow fear and deniability. The targeting of an American citizen risks drawing Washington more directly into the confrontation. Russia routinely denies such accusations, and independent verification of the details is difficult. The episode adds to alarm about how far the war&rsquo;s tentacles now reach beyond Ukraine&rsquo;s borders. Watch for any American response and further detail on the alleged plot.</div>
- </details>
- </div>
-
- </div>
- </div>
- <div class="curated-column">
- <h3><span class="dot dom"></span><span class="dot-label">UK</span> UK Domestic Politics</h3>
- <div>
-
- <div class="curated-item" data-time="03:00" data-slug="farage-holds-clacton-by-election">
- <h4>Farage Holds Clacton in By-Election Snubbed by Main Parties</h4>
- <p>Nigel Farage was re-elected as MP for Clacton in the early hours, winning comfortably in a by-election that Labour, the Conservatives and the Greens all declined to contest. The novelty candidate Count Binface finished second in a field of 34. Mr Farage did not attend the declaration, citing a credible security threat &mdash; an account police publicly disputed.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The contest was an unusual one, triggered when Mr Farage resigned the seat last month amid a standards inquiry, only to stand again, and the decision by the main parties to sit it out handed him an easy path back. His refusal to appear at the count, and the police&rsquo;s pointed rejection of his stated reason, lent a strange note to the victory and gave opponents an opening to question his account. For Reform UK, bruised by weeks of internal rows and slipping polls, holding the leader&rsquo;s own seat steadies the ship without settling the wider questions about the party&rsquo;s momentum. The circumstances make it a poor guide to national mood. Watch how Mr Farage uses the win and whether the standards cloud over him darkens.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="09:00" data-slug="farage-5m-gift-probe-reopens">
- <h4>Standards Inquiry Into Farage's 5 Million Pound Gift Reopens</h4>
- <p>The parliamentary standards process examining Nigel Farage resumed hours after his by-election win, reopening scrutiny of an undisclosed gift of about 5 million pounds from a crypto-industry donor. The matter had earlier been referred to the National Crime Agency over money-laundering concerns. Mr Farage resigned the seat last month amid the inquiry, triggering the by-election he has now won.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The timing is awkward for Mr Farage, whose return to Parliament comes with the very questions that prompted his resignation still unresolved. Rules on declaring gifts and donations are meant to guard against hidden influence over MPs, and a sum of this size, tied to a donor whose affairs have drawn law-enforcement interest, makes the case unusually serious. Reform UK casts the scrutiny as politically motivated harassment of its leader; critics say it goes to the heart of transparency in public life. How the standards commissioner and, separately, the National Crime Agency proceed will shape whether this remains a background irritant or becomes a genuine threat to Mr Farage. Watch for the outcome of both processes and how Reform responds.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="07:30" data-slug="uk-heatwave-breaks-thunderstorms-floods">
- <h4>Heatwave Breaks in Thunderstorms and Flood Warnings</h4>
- <p>The heatwave that pushed temperatures to 38.1C is breaking in thunderstorms, with the Met Office warning of hail, lightning and flash flooding across much of the country. London is still forecast to reach around 30C on the changeover day. Forecasters caution that sudden downpours on drought-hardened ground raise the risk of flash floods.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The abrupt switch from record heat to storms is characteristic of a warming climate, in which longer dry spells are punctuated by more violent rainfall, and the danger now inverts: baked, compacted ground sheds water rather than absorbing it, so heavy rain can trigger flash floods and overwhelm drains. The break brings relief to firefighters who have battled a summer of blazes and to farmers whose crops have wilted, but it will not quickly refill depleted reservoirs or lift the drought declared across much of England. Transport disruption from surface water and lightning is likely. The episode caps a fraught fortnight that forced the government to convene emergency meetings. Watch how severe the storms prove and whether the drought eases.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="06:30" data-slug="budget-tax-tensions-healey-starmer-allies">
- <h4>Labour Tensions Build Over Tax Rises Before Autumn Budget</h4>
- <p>Tensions within Labour are building over the autumn budget, with allies of the former prime minister Sir Keir Starmer warning Chancellor John Healey against raising taxes and squandering what they call a strong economic inheritance. The friction follows confirmation that the economy grew 0.4 per cent in the second quarter. The Treasury is weighing how to balance the books amid pressure on spending.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The budget is shaping up as the first major test of the Burnham government&rsquo;s economic direction, and the public jockeying reveals a party still working out what it stands for after a turbulent year and a change of leader. Those around Sir Keir argue that tax rises would choke off a recovery that is real but fragile, while others contend that only higher taxes can fund public services and steady the public finances. Mr Healey must reconcile those camps while markets, wary after the soft growth figures, watch for signs of discipline. The choices &mdash; on income tax, on wealth, on spending &mdash; will define the government&rsquo;s relationship with voters and business alike. Watch how the Chancellor frames the budget and whether the party rifts widen.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="08:30" data-slug="burnham-asylum-sites-affluent-areas-row">
- <h4>Burnham Under Fire Over Plan to Spread Asylum Sites to Affluent Areas</h4>
- <p>Prime Minister Andy Burnham is facing a backlash over plans to open asylum accommodation in more affluent parts of the country, with reports that the government would pay higher rents to disperse arrivals more widely. Critics accuse ministers of bypassing local opposition, and legal challenges are anticipated. It reopens a fraught argument over where asylum seekers are housed.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">Asylum accommodation has become one of the most combustible issues in British politics, with hotels and large sites concentrated in poorer areas that ministers say have shouldered an unfair share, fuelling local anger and protests. Mr Burnham&rsquo;s push to spread placements into wealthier districts is an attempt to share that burden more evenly, but it risks provoking resistance in the shires and a wave of legal challenges from councils and residents. Paying higher rents to secure properties invites the charge of throwing money at a problem the government has struggled to control. With Reform pressing hard on immigration after its by-election win, the politics are treacherous. Watch how councils in affluent areas respond and whether the plan survives the courts.</div>
- </details>
- </div>
-
- </div>
- </div>
- </div>
-
- <div class="one-to-read">
- <span class="otr-label">One To Read</span>
- <a href="https://www.cbsnews.com/news/russian-plot-kill-american-thwarted-poland/" target="_blank" rel="noopener noreferrer">
- <h4>The Assassination Plot Poland Says It Stopped</h4>
- <span class="otr-source">CBS News</span>
- <span class="otr-dot">&middot;</span>
- <span class="otr-desc">Poland says it foiled a Russian-orchestrated plot to kill an American citizen in Warsaw, with the would-be attacker allegedly recruited by Moscow&rsquo;s intelligence services &mdash; the latest in a widening shadow war on NATO soil.</span>
- </a>
- </div>
- <!-- SOURCES USED
- - https://www.aljazeera.com/news/ &mdash; Al Jazeera: UAE/Iran Hormuz tanker attack; Novorossiysk strike/toll; Ebola animal source
- - https://www.cbsnews.com/world/ &mdash; CBS News: UAE Hormuz attack; Colombia final-phase search/baby rescued; Poland assassination plot (also One To Read)
- - https://abcnews.go.com/International &mdash; ABC News: Colombia toll 281, 379 missing
- - https://www.timesofisrael.com/ &mdash; Times of Israel: UAE Hormuz attack, Iran standoff
- - https://www.bbc.co.uk/news &mdash; BBC News: Clacton result; Ebola WHO/Oxfam; heatwave breaks/storm warnings
- - https://www.theguardian.com/uk &mdash; The Guardian: Clacton; Farage standards probe; Ukraine Black Sea truce offer; asylum accommodation rents
- - https://www.reuters.com/ &mdash; Reuters: Clacton result; Hormuz standoff
- - https://www.thetimes.com/uk &mdash; The Times: Farage standards inquiry; Burnham asylum-sites row; budget/tax tensions
- - https://www.independent.co.uk/news/uk &mdash; The Independent: Clacton; heatwave breaks
- - https://www.telegraph.co.uk/news/ &mdash; The Telegraph: Farage standards probe; Burnham asylum legal challenge
- - https://www.ft.com/ &mdash; Financial Times: Starmer allies warn Healey on tax; Q2 GDP
- - https://news.sky.com/ &mdash; Sky News: Clacton by-election result
- - https://tradingeconomics.com/commodity/brent-crude-oil &mdash; Trading Economics: Brent, FTSE, gilt, gold, UST
- - https://www.investing.com/commodities/brent-oil &mdash; Investing.com: Brent, GBP, S&P futures, BTC
- END SOURCES USED -->
- </div><!-- ── END MORNING 14 AUG (11:15) ── -->
 </div><!-- /all-editions -->
 
  </div>
