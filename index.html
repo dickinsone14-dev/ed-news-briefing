@@ -2289,122 +2289,11 @@
  <!-- #1 Markets snapshot bar -->
  <!-- Embedded market data (populated by update script, used as fallback) -->
  <script id="embedded-markets" type="application/json">
-{"FTSE": {"price": 10817.0, "change": 0.64}, "SP": {"price": 7674.0, "change": 0.43}, "Brent": {"price": 94.4, "change": 0.65}, "GBP": {"price": 1.3642, "change": 0.08}, "Gold": {"price": 4607, "change": 2.03}, "EURGBP": {"price": 0.856, "change": -0.09}, "Gilt": {"price": 5.06, "change": -0.01}, "VIX": {"price": 15.13, "change": 0.0}, "BTC": {"price": 76800, "change": -0.1}, "UST": {"price": 4.74, "change": 0.03}, "ts": "2026-08-23T11:45:00+01:00"}
+{"FTSE":{"price":10817.0,"change":0.64},"SP":{"price":7674.0,"change":0.43},"Brent":{"price":94.4,"change":0.65},"GBP":{"price":1.3648,"change":0.12},"Gold":{"price":4607,"change":2.03},"EURGBP":{"price":0.8561,"change":-0.07},"Gilt":{"price":5.07,"change":0.0},"VIX":{"price":15.13,"change":-5.5},"BTC":{"price":77240,"change":0.3},"UST":{"price":4.74,"change":0.03},"ts":"2026-08-23T19:30:00+01:00"}
 </script>
  <script id="market-descriptions" type="application/json">
-{
- "FTSE": {
-  "name": "FTSE 100",
-  "desc": "The UK's benchmark stock index, tracking the 100 largest companies listed on the London Stock Exchange by market capitalisation. Includes Shell, AstraZeneca, HSBC and Unilever.",
-  "drivers_up": [
-   "Closed at a record high on Friday, buoyed by the post-Jackson-Hole rally and firmer rate-cut hopes"
-  ],
-  "drivers_down": [
-   "Markets are closed for the weekend; this is Friday's close"
-  ],
-  "updated": "23 August 2026 11:45 (Friday close)"
- },
- "SP": {
-  "name": "S&P 500",
-  "desc": "America's leading stock market index, tracking 500 of the largest US-listed companies. Dominated by mega-cap tech (Apple, Microsoft, Nvidia) but spans all sectors.",
-  "drivers_up": [
-   "Powell's dovish Jackson Hole remarks and strong US activity data lifted equities on Friday"
-  ],
-  "drivers_down": [
-   "Weekend close; a new US-Canada trade war is a fresh risk for Monday"
-  ],
-  "updated": "23 August 2026 11:45 (Friday close)"
- },
- "Brent": {
-  "name": "Brent Crude Oil",
-  "desc": "The global benchmark for crude oil pricing, produced from oil fields in the North Sea. Used to price roughly two-thirds of the world's traded oil.",
-  "drivers_up": [
-   "A weaker dollar and Gulf supply risk kept crude near $94 at Friday's close"
-  ],
-  "drivers_down": [
-   "Demand-outlook caution limited the gains"
-  ],
-  "updated": "23 August 2026 11:45 (Friday close)"
- },
- "GBP": {
-  "name": "GBP/USD",
-  "desc": "The exchange rate between the British pound and the US dollar, commonly known as 'cable'. Reflects relative economic strength and interest rate differentials between the UK and US.",
-  "drivers_up": [
-   "Firmed on Friday as the dollar softened after Powell"
-  ],
-  "drivers_down": [
-   "Weekend close; UK borrowing concerns are a longer-term drag"
-  ],
-  "updated": "23 August 2026 11:45 (Friday close)"
- },
- "Gold": {
-  "name": "Gold (XAU/USD)",
-  "desc": "The spot price of gold in US dollars per troy ounce. The world's oldest safe-haven asset, traditionally rising during periods of uncertainty, inflation and currency debasement.",
-  "drivers_up": [
-   "Hit a three-month high on Friday, up over 5% on the week on rate-cut bets and safe-haven demand"
-  ],
-  "drivers_down": [
-   "A sharp run higher leaves it prone to profit-taking"
-  ],
-  "updated": "23 August 2026 11:45 (Friday close)"
- },
- "EURGBP": {
-  "name": "EUR/GBP",
-  "desc": "The exchange rate between the euro and the British pound. Key for UK-EU trade pricing. A falling rate means sterling is strengthening against the euro.",
-  "drivers_up": [
-   "Sterling modestly outperformed the euro into Friday's close"
-  ],
-  "drivers_down": [
-   "Rangebound with no fresh catalyst"
-  ],
-  "updated": "23 August 2026 11:45 (Friday close)"
- },
- "Gilt": {
-  "name": "UK 10-Year Gilt Yield",
-  "desc": "The yield on 10-year UK government bonds (gilts). A key benchmark for UK borrowing costs, mortgage rates and pension fund valuations. Rising yields mean falling bond prices.",
-  "drivers_up": [
-   "Sticky inflation keeps yields near cycle highs"
-  ],
-  "drivers_down": [
-   "Little changed at Friday's close; markets shut for the weekend"
-  ],
-  "updated": "23 August 2026 11:45 (Friday close)"
- },
- "VIX": {
-  "name": "VIX (Volatility Index)",
-  "desc": "The CBOE Volatility Index, often called the 'fear gauge'. Measures expected S&P 500 volatility over the next 30 days. Readings above 20 suggest elevated anxiety; above 30 signals acute stress.",
-  "drivers_up": [
-   "The US-Canada trade escalation could lift it on Monday"
-  ],
-  "drivers_down": [
-   "Subdued near 15 as equities rallied into Friday's close"
-  ],
-  "updated": "23 August 2026 11:45 (Friday close)"
- },
- "BTC": {
-  "name": "Bitcoin (BTC/USD)",
-  "desc": "The price of Bitcoin in US dollars. The largest cryptocurrency by market cap, increasingly viewed as digital gold by institutional investors since spot ETF approvals.",
-  "drivers_up": [
-   "Still holding the mid-$70k range after a strong week"
-  ],
-  "drivers_down": [
-   "Drifted lower in a mild weekend pullback (crypto trades 24/7)"
-  ],
-  "updated": "23 August 2026 11:45 (Friday close)"
- },
- "UST": {
-  "name": "US 10-Year Treasury Yield",
-  "desc": "The yield on 10-year US government bonds, the global risk-free rate benchmark. Influences mortgage rates, corporate borrowing and equity valuations worldwide.",
-  "drivers_up": [
-   "Inflation and heavy supply argue for higher yields over time"
-  ],
-  "drivers_down": [
-   "Ticked up at Friday's close despite the dovish Fed tone"
-  ],
-  "updated": "23 August 2026 11:45 (Friday close)"
- }
-}
- </script>
+{"FTSE":{"name":"FTSE 100","desc":"The UK's benchmark stock index, tracking the 100 largest companies listed on the London Stock Exchange by market capitalisation. Includes Shell, AstraZeneca, HSBC and Unilever.","drivers_up":["Closed at a record high on Friday, buoyed by the post-Jackson-Hole rally and firmer rate-cut hopes"],"drivers_down":["Markets are closed for the weekend; this is Friday's close"],"updated":"23 August 2026 19:30 (Friday close)"},"SP":{"name":"S&P 500","desc":"America's leading stock market index, tracking 500 of the largest US-listed companies. Dominated by mega-cap tech (Apple, Microsoft, Nvidia) but spans all sectors.","drivers_up":["Powell's dovish Jackson Hole remarks and strong US activity data lifted equities on Friday"],"drivers_down":["Weekend close; a new US-Canada trade war is a fresh risk for Monday"],"updated":"23 August 2026 19:30 (Friday close)"},"Brent":{"name":"Brent Crude Oil","desc":"The global benchmark for crude oil pricing, produced from oil fields in the North Sea. Used to price roughly two-thirds of the world's traded oil.","drivers_up":["New US sanctions on Iran take effect &mdash; fresh supply risk into Monday's open"],"drivers_down":["Demand-outlook caution limited Friday's gains"],"updated":"23 August 2026 19:30 (Friday close)"},"GBP":{"name":"GBP/USD","desc":"The exchange rate between the British pound and the US dollar, commonly known as 'cable'. Reflects relative economic strength and interest rate differentials between the UK and US.","drivers_up":["Firmed on Friday as the dollar softened after Powell"],"drivers_down":["Weekend close; UK borrowing concerns are a longer-term drag"],"updated":"23 August 2026 19:30 (Friday close)"},"Gold":{"name":"Gold (XAU/USD)","desc":"The spot price of gold in US dollars per troy ounce. The world's oldest safe-haven asset, traditionally rising during periods of uncertainty, inflation and currency debasement.","drivers_up":["Hit a three-month high on Friday, up over 5% on the week on rate-cut bets and safe-haven demand"],"drivers_down":["A sharp run higher leaves it prone to profit-taking"],"updated":"23 August 2026 19:30 (Friday close)"},"EURGBP":{"name":"EUR/GBP","desc":"The exchange rate between the euro and the British pound. Key for UK-EU trade pricing. A falling rate means sterling is strengthening against the euro.","drivers_up":["Sterling modestly outperformed the euro into Friday's close"],"drivers_down":["Rangebound with no fresh catalyst"],"updated":"23 August 2026 19:30 (Friday close)"},"Gilt":{"name":"UK 10-Year Gilt Yield","desc":"The yield on 10-year UK government bonds (gilts). A key benchmark for UK borrowing costs, mortgage rates and pension fund valuations. Rising yields mean falling bond prices.","drivers_up":["Sticky inflation keeps yields near cycle highs"],"drivers_down":["Little changed at Friday's close; markets shut for the weekend"],"updated":"23 August 2026 19:30 (Friday close)"},"VIX":{"name":"VIX (Volatility Index)","desc":"The CBOE Volatility Index, often called the 'fear gauge'. Measures expected S&P 500 volatility over the next 30 days. Readings above 20 suggest elevated anxiety; above 30 signals acute stress.","drivers_up":["The US-Canada trade escalation could lift it on Monday"],"drivers_down":["Subdued near 15 as equities rallied into Friday's close"],"updated":"23 August 2026 19:30 (Friday close)"},"BTC":{"name":"Bitcoin (BTC/USD)","desc":"The price of Bitcoin in US dollars. The largest cryptocurrency by market cap, increasingly viewed as digital gold by institutional investors since spot ETF approvals.","drivers_up":["Recovered to the low-$77,000s over the weekend (crypto trades 24/7)"],"drivers_down":["Rangebound in the mid-$70k zone with no fresh catalyst"],"updated":"23 August 2026 19:30 (Friday close)"},"UST":{"name":"US 10-Year Treasury Yield","desc":"The yield on 10-year US government bonds, the global risk-free rate benchmark. Influences mortgage rates, corporate borrowing and equity valuations worldwide.","drivers_up":["Inflation and heavy supply argue for higher yields over time"],"drivers_down":["Ticked up at Friday's close despite the dovish Fed tone"],"updated":"23 August 2026 19:30 (Friday close)"}}
+</script>
  <div class="markets-bar" id="marketsBar">
  <div class="markets-track" id="marketsTrack">
  <div class="market-item" data-market="FTSE"><span class="market-label">FTSE 100</span> <span class="market-value" id="mFTSE">--</span> <span class="market-change" id="mFTSEc"></span></div>
@@ -2454,6 +2343,152 @@
  <!-- ════ ALL EDITIONS (sorted by JS) ════ -->
  <!-- IMPORTANT: Keep 7 FULL DAYS of editions in this container. Do NOT delete editions less than 7 days old. -->
  <div id="all-editions" style="display:none;">
+
+ <div class="curated-edition evening" data-date="2026-08-23" data-time="19:30" data-markets='{"FTSE":{"price":10817.0,"change":0.64},"SP":{"price":7674.0,"change":0.43},"Brent":{"price":94.4,"change":0.65},"GBP":{"price":1.3648,"change":0.12},"Gold":{"price":4607,"change":2.03},"EURGBP":{"price":0.8561,"change":-0.07},"Gilt":{"price":5.07,"change":0.0},"VIX":{"price":15.13,"change":-5.5},"BTC":{"price":77240,"change":0.3},"UST":{"price":4.74,"change":0.03},"ts":"2026-08-23T19:30:00+01:00"}'>
+ <div class="edition-header">
+ <span class="edition-icon">&#127769;</span>
+ <h2>Evening Briefing</h2>
+ </div>
+ <div class="curated-meta">Sunday 23 August 2026 &mdash; 19:30 BST</div>
+ <div class="impact-box">
+ <h3 class="impact-heading">What It Means For You</h3>
+ <ul class="impact-list">
+ <li><strong>Travel:</strong> CrossCountry has cancelled almost all trains after a control-centre power cut &mdash; check before travelling Monday. Sunday tickets are valid until Wednesday and other operators are accepting them.</li>
+ <li><strong>Energy:</strong> An Iran-linked cyber-attack shut a small UK power station for four days. There was no risk to supply, but expect tighter cyber rules and a new energy resilience strategy this year.</li>
+ <li><strong>Fuel:</strong> New US sanctions on Iran take effect with Brent already at $94 a barrel &mdash; worth watching pump prices over the coming weeks.</li>
+ </ul>
+ </div>
+ <div class="curated-grid">
+ <div class="curated-column">
+ <h3><span class="dot geo"></span><span class="dot-label">GEO</span> Geopolitical</h3>
+ <div class="curated-item" data-time="13:19" data-slug="zelensky-rejects-wartime-elections">
+ <h4>Zelensky Says Wartime Elections Would 'Destroy' Ukraine</h4>
+ <p>President Zelensky rejected his sacked defence minister&rsquo;s call for elections, saying a wartime vote would be a &ldquo;tsunami&rdquo; that would &ldquo;split&rdquo; and &ldquo;destroy the country&rdquo;. He also detailed his rift with the dismissed minister, saying some of his actions &ldquo;were wrong&rdquo;. The exchange deepens the most public split at the top of Ukraine&rsquo;s wartime leadership, a day after the minister said Mr Zelensky had &ldquo;questions to answer&rdquo; on corruption.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">What began as a sacking is now a running public feud, and it cuts to the awkward heart of Ukraine&rsquo;s wartime politics: a president governing without electoral renewal, under martial law, while corruption inquiries circle his government. Mr Zelensky&rsquo;s case against a vote is genuinely strong &mdash; millions are displaced, soldiers cannot campaign from trenches, and Moscow would relish the disruption &mdash; but every month it stands, his critics gain a grievance and Russia gains a talking point. The recovery at the Kryvyi Rih shopping centre, where Friday&rsquo;s strike killed sixteen, is a reminder of what the country is voting about not voting. Watch whether other senior figures break ranks and how Washington reacts to the feud.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="16:38" data-slug="iran-fuel-price-hike-sanctions-eve">
+ <h4>Iran Signals Fuel Price Rise on Eve of New US Sanctions</h4>
+ <p>Iran&rsquo;s government signalled a rise in fuel prices on the eve of new US sanctions taking effect, as President Pezeshkian defended the abandoned memorandum with Washington, insisting &ldquo;there is not a single provision in this agreement that amounts to capitulation&rdquo;. The new head of Iran&rsquo;s security council warned that countries joining the US &ldquo;economic war&rdquo; would be treated as enemies. Tehran also announced a major natural gas discovery in Fars province.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">Fuel prices are the most combustible issue in Iranian politics &mdash; the 2019 increase triggered nationwide unrest in which hundreds died &mdash; and that the government is contemplating one on the eve of fresh sanctions shows how hard the economic squeeze is biting. Mr Pezeshkian&rsquo;s defence of a dead agreement reads as a message to hardliners that diplomacy was worth attempting, and perhaps still is. The gas find, even at 200 billion cubic metres, changes little in the near term: extraction is years away and the infrastructure to exploit it has been damaged by strikes. Watch the streets once prices move, and whether Gulf states respond to being called legitimate targets.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="13:35" data-slug="baltic-cyclone-latvia-lithuania-power">
+ <h4>Cyclone Kills Two, Cuts Power to 500,000 in the Baltics</h4>
+ <p>A powerful cyclone struck Latvia and Lithuania on Sunday, killing two people and leaving more than half a million without electricity, officials said. The storm brought down power lines across both countries as crews worked to restore supply. It is one of the most disruptive storms to hit the Baltic states this year.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">Half a million people without power is an enormous figure for two countries with a combined population of under five million, and the outage is a stress test of grids the Baltic states have only recently rewired. Since desynchronising from the Russian-controlled electricity system in 2025, Latvia and Lithuania depend on interconnections with the Nordic countries and Poland &mdash; a deliberate act of energy independence that now has to prove itself in a storm. Scientists expect a warming Baltic to feed more intense autumn storms, making resilience a recurring bill rather than a one-off. Watch how quickly supply is restored and whether the death toll rises as the damage is assessed.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="17:12" data-slug="mbs-paris-macron-talks">
+ <h4>Macron Hosts Saudi Crown Prince for Two Days of Talks</h4>
+ <p>Saudi Arabia&rsquo;s crown prince, Mohammed bin Salman, arrived in Paris for a two-day visit, with talks with President Macron covering energy, regional conflicts and bilateral co-operation. The visit comes with the Gulf at the centre of the US&ndash;Iran standoff &mdash; on the same day Tehran repeated that Gulf states hosting American military assets are legitimate targets.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The timing is the story. With Washington waging economic war on Iran and Tehran threatening the Gulf, Riyadh is hedging &mdash; deepening ties with a European power that talks to everyone while its American security guarantor turns the screws next door. For Mr Macron, the visit is a chance to position France as a broker on regional de-escalation and to court Saudi investment, which now reaches well beyond oil into gaming, sport and entertainment, including the kingdom&rsquo;s $55bn purchase of Electronic Arts. The awkwardness that once shadowed the crown prince&rsquo;s European visits has largely given way to realpolitik. Watch the joint statements for any language on Iran &mdash; and any French contracts signed.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="16:05" data-slug="china-change7-lunar-mission-postponed">
+ <h4>China Abruptly Postpones Chang'e-7 Moon Mission</h4>
+ <p>China postponed the launch of its Chang&rsquo;e-7 lunar mission, designed to search for water ice at the Moon&rsquo;s south pole, after it &ldquo;failed to meet launch conditions&rdquo;. No new date was announced. The delay is a rare public setback in a programme that has become the pacesetter in the accelerating race with the United States to reach the lunar south pole.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The Moon&rsquo;s south pole matters because of what may be frozen in its permanently shadowed craters: water ice that could one day supply drinking water, oxygen and rocket fuel for a permanent base. Whoever confirms and reaches those deposits first shapes the rules for everyone who follows. China&rsquo;s lunar programme has been strikingly reliable &mdash; a run of successful Chang&rsquo;e missions including the first far-side sample return &mdash; which makes an abrupt scrub unusual and suggests engineers found something worth stopping for. With America&rsquo;s Artemis programme facing its own delays, the race remains open. Watch for a rescheduled date and any official explanation of the fault.</div>
+ </details>
+ </div>
+ </div>
+ <div class="curated-column">
+ <h3><span class="dot dom"></span><span class="dot-label">UK</span> UK Domestic Politics</h3>
+ <div class="curated-item" data-time="14:58" data-slug="a66-crash-iopc-pursuit-findings">
+ <h4>Police Aborted Pursuit Seconds Before Fatal A66 Crash</h4>
+ <p>The police watchdog said officers abandoned their pursuit of a Volkswagen Passat about ten seconds before it struck a police car on the A66 near Middlesbrough, killing all seven people involved &mdash; PC Matthew Blades, 37, PC Tom Clough, 38, and the car&rsquo;s five occupants, aged 17 to 23. The car, believed to be on cloned plates, had been followed for almost seven minutes after triggering a number-plate camera. The prime minister said he was &ldquo;devastated&rdquo;.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The IOPC&rsquo;s early account frames the questions the inquiry must now answer: whether the pursuit was properly authorised and conducted, why the car went the wrong way down a dual carriageway, and whether anything could have prevented what followed. The watchdog has officers&rsquo; initial accounts, the incident log and in-car footage, so the factual record should be unusually complete. Two officers killed on duty is the gravest loss a force can suffer, and the deaths of five young men &mdash; two of them seventeen &mdash; compound a tragedy that has left Cleveland in mourning. Tributes to both officers poured in throughout Sunday. Watch the IOPC&rsquo;s formal findings on the pursuit&rsquo;s conduct, likely months away.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="13:14" data-slug="crosscountry-cancels-services-power-cut">
+ <h4>CrossCountry Cancels Almost All Trains After Power Cut</h4>
+ <p>CrossCountry cancelled &ldquo;almost all&rdquo; services after a power failure at its Birmingham control centre knocked out the systems used to run the railway, hitting routes from Glasgow to Penzance. Transport Secretary Heidi Alexander asked publicly owned operators to provide extra services. Sunday tickets remain valid until Wednesday and other operators are accepting them. Asked whether trains would run on Monday, the company said it hoped so but had &ldquo;no further updates&rdquo;.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">That a single power failure could flatten an operator serving more than a hundred stations from Scotland to Cornwall says something uncomfortable about the resilience of Britain&rsquo;s rail infrastructure &mdash; one control centre, it turns out, was a single point of failure for a national network. CrossCountry was already ranked the country&rsquo;s worst operator in June, and a Monday-morning meltdown would sharpen the political argument over its future as the government takes franchises into public hands. Passengers delayed more than thirty minutes can claim Delay Repay, and the Peterborough&ndash;Stansted route is the only one running near normally. Watch Monday&rsquo;s first trains &mdash; and how long &ldquo;until further notice&rdquo; lasts.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="02:48" data-slug="iran-hackers-uk-power-plant-cyber-attack">
+ <h4>Iran-Linked Hackers Blamed for Attack on UK Power Plant</h4>
+ <p>Hackers affiliated to the Iranian regime were blamed for a cyber-attack that shut down a small UK power station for four days last month. The government said there was at no point a risk to the wider energy system, and has contacted power companies to warn of the threat, though neither ministers nor the National Cyber Security Centre would identify the site. Conservative energy spokesperson Claire Coutinho called it &ldquo;a new kind of warfare&rdquo;.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The significance is less the outage &mdash; a small generator, offline for four days, with no wider disruption &mdash; than the precedent: a state-linked attack that physically stopped a piece of British energy infrastructure. It lands amid escalation, after the UK permitted American &ldquo;defensive&rdquo; operations against Tehran from British bases and the Revolutionary Guard declared any base used against Iran a legitimate target. Cyber-attack is the retaliation of choice for a state that wants to hurt without triggering armed response, and the grid&rsquo;s smaller, newer, distributed sites are its softest edge. The government is already updating cyber regulations and preparing an energy resilience strategy for later this year. Watch whether attribution hardens and further intrusions surface.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="13:01" data-slug="russia-withdraws-ambassador-uk">
+ <h4>Russia Withdraws Its Ambassador to the UK</h4>
+ <p>Russia has recalled its ambassador to London, Andrey Kelin, ending a seven-year posting, and has put forward no replacement. Its embassy said relations had &ldquo;deteriorated to an unprecedentedly low level entirely on London&rsquo;s initiative&rdquo;, though insisted the move was not a downgrade. It comes a week after Moscow warned of &ldquo;consequences&rdquo; over Britain supplying attack drones to Kyiv. The Foreign Office said it stood &ldquo;shoulder to shoulder with Ukraine&rdquo;.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">Leaving an embassy in the hands of a charg&eacute; d&rsquo;affaires, with no ambassador nominated, is one of diplomacy&rsquo;s classic signals &mdash; one notch short of severing relations, and a state of affairs that can quietly become permanent. Mr Kelin&rsquo;s mission was actually concluded in July; that it surfaced only now, through embassy statements, suggests Moscow is content to let the downgrade speak for itself. Even hostile powers usually keep ambassadors in place, because wartime channels matter &mdash; for deconfliction, detained nationals and the day the fighting stops. Britain&rsquo;s drone supplies to Ukraine have evidently touched a nerve. Watch whether a successor is ever named; the longer the post sits empty, the clearer the message.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="11:26" data-slug="labour-conference-gaza-genocide-motion">
+ <h4>Burnham Faces Conference Push to Recognise Gaza 'Genocide'</h4>
+ <p>Grassroots Labour groups, including Momentum, are circulating a model motion for next month&rsquo;s party conference &mdash; Andrew Burnham&rsquo;s first as prime minister &mdash; that would commit the government to accepting the UN inquiry&rsquo;s finding of genocide in Gaza and impose comprehensive sanctions, including a full arms embargo. Mr Burnham has apologised for Labour&rsquo;s earlier handling of Gaza but says the term genocide is for international courts to decide.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">This is the first real test of Mr Burnham&rsquo;s promise not to &ldquo;stifle debate&rdquo; in a party whose membership has long been well ahead of its leadership on Gaza. Last September, some thirty Palestine motions from local parties were struck off the agenda, yet conference still passed an emergency motion to suspend the arms trade with Israel &mdash; a warning of what happens when procedure meets conviction. The government is not without an answer: Foreign Secretary Ed Miliband has promised a &ldquo;comprehensive set of measures&rdquo; after Israel&rsquo;s E1 settlement decision, and more than a hundred former British and French diplomats want tougher action still. Watch whether the motion reaches the floor &mdash; and what Mr Miliband announces first.</div>
+ </details>
+ </div>
+ </div>
+ </div>
+ <div class="one-to-read">
+ <span class="otr-label">One To Read</span>
+ <a href="https://www.theguardian.com/environment/2026/aug/23/onshore-windfarm-applications-10-year-high-england" target="_blank" rel="noopener noreferrer">
+ <h4>England's Quiet Onshore Wind Revival</h4>
+ <span class="otr-source">The Guardian</span>
+ <span class="otr-dot">&middot;</span>
+ <span class="otr-desc">Applications for new onshore windfarms in England hit a ten-year high &mdash; about 45 in the year to March &mdash; after the de facto ban was lifted, though English schemes remain a fraction of the size of Scotland's.</span>
+ </a>
+ </div>
+ <!-- SOURCES USED
+ - https://www.aljazeera.com/news/2026/8/23/zelenskyy-says-wartime-elections-could-destroy-ukraine &mdash; Al Jazeera: Zelensky elections
+ - https://www.aljazeera.com/economy/2026/8/23/iran-government-signals-fuel-price-hike-on-eve-of-new-us-sanctions &mdash; Al Jazeera: Iran fuel prices
+ - https://www.aljazeera.com/economy/2026/8/23/french-president-macron-to-host-saudi-crown-prince-mbs-in-paris-for-talks &mdash; Al Jazeera: MBS Paris visit
+ - https://www.france24.com/en/europe/20260823-wartime-elections-would-destroy-ukraine-says-zelensky &mdash; France 24: Zelensky elections
+ - https://www.cbsnews.com/news/ukraine-election-war-russia-zelenskyy/ &mdash; CBS News: Ukraine elections
+ - https://www.cbsnews.com/news/china-postpones-lunar-launch-mission-fails-to-meet-launch-conditions/ &mdash; CBS News: Chang'e-7 postponement
+ - https://www.france24.com/en/asia-pacific/20260823-china-abruptly-delays-ambitious-chang-e-7-mission-to-find-water-ice-on-moon &mdash; France 24: Chang'e-7
+ - https://abcnews.com/International/wireStory/zelenskyy-details-rift-dismissed-defense-minister-actions-misguided-135879534 &mdash; AP via ABC News: Zelensky rift
+ - https://abcnews.com/International/wireStory/powerful-storm-hits-baltic-countries-killing-2-leaving-135879854 &mdash; AP via ABC News: Baltic cyclone
+ - https://www.bbc.co.uk/news/articles/cwy4ypzvd7po &mdash; BBC News: Fedorov interview
+ - https://www.bbc.com/news/articles/cdj0j8enpzyo &mdash; BBC News: A66 IOPC findings
+ - https://www.bbc.com/news/articles/c4gvgy3de37o &mdash; BBC News: PC Clough tributes
+ - https://www.bbc.com/news/articles/cy9w9y0lz5go &mdash; BBC News: CrossCountry cancellations
+ - https://www.bbc.com/news/articles/ce9793g34yvo &mdash; BBC News: Iran-linked cyber-attack
+ - https://news.sky.com/story/crosscountry-cancels-trains-across-uk-after-control-centre-power-outage-in-birmingham-13576246 &mdash; Sky News: CrossCountry cancellations
+ - https://www.theguardian.com/uk-news/2026/aug/23/tributes-paid-cleveland-police-killed-a66-crash-south-bank &mdash; The Guardian: A66 tributes
+ - https://www.theguardian.com/world/2026/aug/23/iran-linked-hackers-blamed-cyber-attack-british-power-plant &mdash; The Guardian: Iran cyber-attack
+ - https://www.theguardian.com/world/2026/aug/23/russia-withdraws-ambassador-uk-kremlin-pressure-ukraine-andrey-kelin &mdash; The Guardian: Russia ambassador
+ - https://www.theguardian.com/politics/2026/aug/23/andy-burnham-pressure-labour-conference-recognise-israel-actions-gaza-genocide &mdash; The Guardian: Labour Gaza motion
+ - https://www.theguardian.com/environment/2026/aug/23/onshore-windfarm-applications-10-year-high-england &mdash; The Guardian: onshore wind analysis
+ - https://www.telegraph.co.uk/ &mdash; Sunday Telegraph: Iran power-plant attack (original report, cited by BBC and Guardian)
+ - https://www.thetimes.com/ &mdash; Sunday Times: Russian embassy statement (cited within Guardian report)
+ END SOURCES USED -->
+ </div><!-- ── END EVENING 23 AUG (19:30) ── -->
+
 
  <!-- ── MORNING 23 AUG (11:45) ── -->
 <div class="curated-edition morning" data-date="2026-08-23" data-time="11:45" data-markets='{"FTSE":{"price":10817.0,"change":0.64},"SP":{"price":7674.0,"change":0.43},"Brent":{"price":94.4,"change":0.65},"GBP":{"price":1.3642,"change":0.08},"Gold":{"price":4607,"change":2.03},"EURGBP":{"price":0.856,"change":-0.09},"Gilt":{"price":5.06,"change":-0.01},"VIX":{"price":15.13,"change":0.0},"BTC":{"price":76800,"change":-0.1},"UST":{"price":4.74,"change":0.03},"ts":"2026-08-23T11:45:00+01:00"}'>
