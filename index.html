@@ -2194,12 +2194,37 @@
  - Optional "expires" field overrides the 8h default (e.g. for major events)
  To add a new breaking story, prepend an entry here with the current ISO timestamp. -->
  <script id="breaking-stories" type="application/json">
-[]
+[
+  {
+    "posted": "2026-09-01T22:58:00+01:00",
+    "headline": "US resumes strikes on Iran \u2014 four killed at wedding party; IRGC missiles target US base in Jordan; Brent surges past $95 \u2014 22:58 BST",
+    "category": "IRAN WAR",
+    "summary": "The United States resumed striking Iran at 17:00 BST, ending a three-day lull. Shrapnel from one missile hit a home hosting a wedding in Sirik, southern Iran, killing four people including a young child and injuring more than fifty, the Iranian Red Crescent said. The IRGC fired ballistic missiles at a US Marine base in Aqaba, Jordan, with no casualties reported. President Trump called the strikes 'large and powerful' and warned a bigger attack is 'waiting in the wings'; the IAEA says it has lost verification of Iran's nuclear material. Brent crude surged 5.2% to $95.22.",
+    "facts": [
+      {
+        "label": "Strikes",
+        "value": "Resumed 17:00 BST \u2014 six sites hit after a three-day lull"
+      },
+      {
+        "label": "Casualties",
+        "value": "Four dead incl. a child at a Sirik wedding; 50+ injured \u2014 Iranian Red Crescent"
+      },
+      {
+        "label": "Retaliation",
+        "value": "IRGC ballistic missiles at US Marine base in Aqaba, Jordan \u2014 no casualties"
+      },
+      {
+        "label": "Markets",
+        "value": "Brent +5.2% to $95.22; gilts at 52-week highs; VIX +9.5%"
+      }
+    ]
+  }
+]
 </script>
  <div class="breaking-banner" id="breakingBanner">
  <div class="breaking-inner">
  <span class="breaking-label">BREAKING</span>
- <span class="breaking-text" id="breakingText"></span>
+ <span class="breaking-text" id="breakingText">US resumes strikes on Iran — four killed at wedding party; IRGC missiles target US base in Jordan; Brent surges past $95 — 22:58 BST</span>
  <span class="breaking-readmore" id="breakingReadmore">Read more</span>
  <button class="breaking-dismiss" id="breakingDismiss">&times;</button>
  </div>
@@ -2289,10 +2314,121 @@
  <!-- #1 Markets snapshot bar -->
  <!-- Embedded market data (populated by update script, used as fallback) -->
  <script id="embedded-markets" type="application/json">
-{"FTSE":{"price":10766.0,"change":-0.54},"SP":{"price":7686.0,"change":-0.33},"Brent":{"price":92.03,"change":1.7},"GBP":{"price":1.3533,"change":-0.11},"Gold":{"price":4385,"change":-1.3},"EURGBP":{"price":0.8565,"change":-0.09},"Gilt":{"price":5.23,"change":0.08},"VIX":{"price":15.41,"change":3.3},"BTC":{"price":78150,"change":0.3},"UST":{"price":4.79,"change":0.03},"ts":"2026-09-01T09:33:00+01:00"}
+{"FTSE":{"price":10789.0,"change":-0.32},"SP":{"price":7631.0,"change":-0.71},"Brent":{"price":95.22,"change":5.23},"GBP":{"price":1.3514,"change":-0.27},"Gold":{"price":4328,"change":-2.5},"EURGBP":{"price":0.8575,"change":-0.05},"Gilt":{"price":5.25,"change":0.03},"VIX":{"price":16.34,"change":9.5},"BTC":{"price":77115,"change":-2.4},"UST":{"price":4.8,"change":0.04},"ts":"2026-09-01T22:58:00+01:00"}
 </script>
  <script id="market-descriptions" type="application/json">
-{"FTSE":{"name":"FTSE 100","desc":"The UK's benchmark stock index, tracking the 100 largest companies listed on the London Stock Exchange by market capitalisation. Includes Shell, AstraZeneca, HSBC and Unilever.","drivers_up":["Oil majors Shell and BP cushioning the index as Brent tops $92"],"drivers_down":["Down ~0.5% in the first session since Friday, pricing the Iran escalation"],"updated":"1 September 2026 09:33 (live)"},"SP":{"name":"S&P 500","desc":"America's leading stock market index, tracking 500 of the largest US-listed companies. Dominated by mega-cap tech (Apple, Microsoft, Nvidia) but spans all sectors.","drivers_up":["Monday's dip was measured at -0.33%"],"drivers_down":["Hawkish Fed bets building as oil feeds inflation expectations"],"updated":"1 September 2026 09:33 (live)"},"Brent":{"name":"Brent Crude Oil","desc":"The global benchmark for crude oil pricing, produced from oil fields in the North Sea. Used to price roughly two-thirds of the world's traded oil.","drivers_up":["Above $92 as Hormuz transits collapse to a handful of ships"],"drivers_down":["Pezeshkian's reciprocation offer hints at an off-ramp"],"updated":"1 September 2026 09:33 (live)"},"GBP":{"name":"GBP/USD","desc":"The exchange rate between the British pound and the US dollar, commonly known as 'cable'. Reflects relative economic strength and interest rate differentials between the UK and US.","drivers_up":["Holding mid-1.35s despite the gilt sell-off"],"drivers_down":["Budget arithmetic worsens with every basis point on gilts"],"updated":"1 September 2026 09:33 (live)"},"Gold":{"name":"Gold (XAU/USD)","desc":"The spot price of gold in US dollars per troy ounce. The world's oldest safe-haven asset, traditionally rising during periods of uncertainty, inflation and currency debasement.","drivers_up":["A genuine escalation would eventually force the haven bid"],"drivers_down":["Down 1.3% &mdash; still no haven demand; the trade is inflation, not fear"],"updated":"1 September 2026 09:33 (live)"},"EURGBP":{"name":"EUR/GBP","desc":"The exchange rate between the euro and the British pound. Key for UK-EU trade pricing. A falling rate means sterling is strengthening against the euro.","drivers_up":["Sterling steadier against the euro than the dollar"],"drivers_down":["Weekend close; little net movement"],"updated":"1 September 2026 09:33 (live)"},"Gilt":{"name":"UK 10-Year Gilt Yield","desc":"The yield on 10-year UK government bonds (gilts). A key benchmark for UK borrowing costs, mortgage rates and pension fund valuations. Rising yields mean falling bond prices.","drivers_up":["10-year at its highest since 2008; 30-year at a 28-year high &mdash; the war priced as inflation"],"drivers_down":["A de-escalation in Hormuz would unwind part of the move"],"updated":"1 September 2026 09:33 (live)"},"VIX":{"name":"VIX (Volatility Index)","desc":"The CBOE Volatility Index, often called the 'fear gauge'. Measures expected S&P 500 volatility over the next 30 days. Readings above 20 suggest elevated anxiety; above 30 signals acute stress.","drivers_up":["Ticked up to 15.4 on the escalation"],"drivers_down":["Still low by any historical standard"],"updated":"1 September 2026 09:33 (live)"},"BTC":{"name":"Bitcoin (BTC/USD)","desc":"The price of Bitcoin in US dollars. The largest cryptocurrency by market cap, increasingly viewed as digital gold by institutional investors since spot ETF approvals.","drivers_up":["Flat and steady through the escalation"],"drivers_down":["No haven role; rangebound near $78,000"],"updated":"1 September 2026 09:33 (live)"},"UST":{"name":"US 10-Year Treasury Yield","desc":"The yield on 10-year US government bonds, the global risk-free rate benchmark. Influences mortgage rates, corporate borrowing and equity valuations worldwide.","drivers_up":["Yields at 4.79% as the global bond rout extends"],"drivers_down":["A risk event that finally scares equities would reverse the flow"],"updated":"1 September 2026 09:33 (live)"}}
+{
+  "FTSE": {
+    "name": "FTSE 100",
+    "desc": "The UK's benchmark stock index, tracking the 100 largest companies listed on the London Stock Exchange by market capitalisation. Includes Shell, AstraZeneca, HSBC and Unilever.",
+    "drivers_up": [
+      "Defence and energy names cushioned the index as oil surged"
+    ],
+    "drivers_down": [
+      "Closed lower as US strikes on Iran resumed before the London close"
+    ],
+    "updated": "1 September 2026 22:58 (close)"
+  },
+  "SP": {
+    "name": "S&P 500",
+    "desc": "America's leading stock market index, tracking 500 of the largest US-listed companies. Dominated by mega-cap tech (Apple, Microsoft, Nvidia) but spans all sectors.",
+    "drivers_up": [
+      "Energy majors rallied with crude at $95"
+    ],
+    "drivers_down": [
+      "Extended Monday's slide as US strikes on Iran resumed"
+    ],
+    "updated": "1 September 2026 22:58 (close)"
+  },
+  "Brent": {
+    "name": "Brent Crude Oil",
+    "desc": "The global benchmark for crude oil pricing, produced from oil fields in the North Sea. Used to price roughly two-thirds of the world's traded oil.",
+    "drivers_up": [
+      "Surged past $95 as US strikes resumed and the IRGC hit back at Aqaba"
+    ],
+    "drivers_down": [
+      "Any ceasefire signal would unwind a large war premium"
+    ],
+    "updated": "1 September 2026 22:58 (close)"
+  },
+  "GBP": {
+    "name": "GBP/USD",
+    "desc": "The exchange rate between the British pound and the US dollar, commonly known as 'cable'. Reflects relative economic strength and interest rate differentials between the UK and US.",
+    "drivers_up": [
+      "Rate-differential support limited sterling's losses"
+    ],
+    "drivers_down": [
+      "Dollar bid on Gulf escalation pushed the pound lower"
+    ],
+    "updated": "1 September 2026 22:58 (close)"
+  },
+  "Gold": {
+    "name": "Gold (XAU/USD)",
+    "desc": "The spot price of gold in US dollars per troy ounce. The world's oldest safe-haven asset, traditionally rising during periods of uncertainty, inflation and currency debasement.",
+    "drivers_up": [
+      "Renewed escalation could yet reignite the haven bid"
+    ],
+    "drivers_down": [
+      "Falling despite the war — surging bond yields raise the cost of holding it"
+    ],
+    "updated": "1 September 2026 22:58 (close)"
+  },
+  "EURGBP": {
+    "name": "EUR/GBP",
+    "desc": "The exchange rate between the euro and the British pound. Key for UK-EU trade pricing. A falling rate means sterling is strengthening against the euro.",
+    "drivers_up": [
+      "Euro steady as Germany's formal attribution of Leipzig to Russia landed"
+    ],
+    "drivers_down": [
+      "Little changed — pound and euro fell in tandem against the dollar"
+    ],
+    "updated": "1 September 2026 22:58 (close)"
+  },
+  "Gilt": {
+    "name": "UK 10-Year Gilt Yield",
+    "desc": "The yield on 10-year UK government bonds (gilts). A key benchmark for UK borrowing costs, mortgage rates and pension fund valuations. Rising yields mean falling bond prices.",
+    "drivers_up": [
+      "Closed at the day's high — a 52-week peak — as $95 oil stoked inflation fears"
+    ],
+    "drivers_down": [
+      "Budget consolidation signals could steady the long end"
+    ],
+    "updated": "1 September 2026 22:58 (close)"
+  },
+  "VIX": {
+    "name": "VIX (Volatility Index)",
+    "desc": "The CBOE Volatility Index, often called the 'fear gauge'. Measures expected S&P 500 volatility over the next 30 days. Readings above 20 suggest elevated anxiety; above 30 signals acute stress.",
+    "drivers_up": [
+      "Jumped 9.5% as US strikes on Iran resumed"
+    ],
+    "drivers_down": [
+      "Still moderate by crisis standards — hedging, not panic"
+    ],
+    "updated": "1 September 2026 22:58 (close)"
+  },
+  "BTC": {
+    "name": "Bitcoin (BTC/USD)",
+    "desc": "The price of Bitcoin in US dollars. The largest cryptocurrency by market cap, increasingly viewed as digital gold by institutional investors since spot ETF approvals.",
+    "drivers_up": [
+      "A softer dollar would revive the alternative-asset bid"
+    ],
+    "drivers_down": [
+      "Slid with risk assets as global bond yields climbed"
+    ],
+    "updated": "1 September 2026 22:58 (close)"
+  },
+  "UST": {
+    "name": "US 10-Year Treasury Yield",
+    "desc": "The yield on 10-year US government bonds, the global risk-free rate benchmark. Influences mortgage rates, corporate borrowing and equity valuations worldwide.",
+    "drivers_up": [
+      "$95 oil revived inflation worry — Treasuries sold off alongside gilts"
+    ],
+    "drivers_down": [
+      "A deeper flight to safety would send yields lower"
+    ],
+    "updated": "1 September 2026 22:58 (close)"
+  }
+}
 </script>
  <div class="markets-bar" id="marketsBar">
  <div class="markets-track" id="marketsTrack">
@@ -2343,6 +2479,165 @@
  <!-- ════ ALL EDITIONS (sorted by JS) ════ -->
  <!-- IMPORTANT: Keep 7 FULL DAYS of editions in this container. Do NOT delete editions less than 7 days old. -->
  <div id="all-editions" style="display:none;">
+
+<div class="curated-edition evening" data-date="2026-09-01" data-time="22:58" data-markets='{"FTSE":{"price":10789.0,"change":-0.32},"SP":{"price":7631.0,"change":-0.71},"Brent":{"price":95.22,"change":5.23},"GBP":{"price":1.3514,"change":-0.27},"Gold":{"price":4328,"change":-2.5},"EURGBP":{"price":0.8575,"change":-0.05},"Gilt":{"price":5.25,"change":0.03},"VIX":{"price":16.34,"change":9.5},"BTC":{"price":77115,"change":-2.4},"UST":{"price":4.8,"change":0.04},"ts":"2026-09-01T22:58:00+01:00"}'>
+ <div class="edition-header">
+ <span class="edition-icon">&#127769;</span>
+ <h2>Evening Briefing</h2>
+ </div>
+ <div class="curated-meta">Tuesday 1 September 2026 &mdash; 22:58 BST</div>
+ <div class="impact-box">
+ <h3 class="impact-heading">What It Means For You</h3>
+ <ul class="impact-list">
+ <li><strong>Fuel and prices:</strong> Oil surged 5 per cent to $95 as the US resumed strikes on Iran &mdash; pump prices and winter energy costs will feel it, and markets open tomorrow to price the escalation further.</li>
+ <li><strong>Borrowing:</strong> Gilt yields closed at fresh highs &mdash; the 10-year at levels last seen in 2008 &mdash; squeezing the Budget&rsquo;s room and keeping fixed-rate mortgage pricing under pressure.</li>
+ <li><strong>The record:</strong> Summer 2026 is officially the UK&rsquo;s hottest ever &mdash; 16.5C average, forty days above 30C &mdash; and the Met Office says climate change made it about 130 times more likely.</li>
+ </ul>
+ </div>
+ <div class="curated-grid">
+ <div class="curated-column">
+ <h3><span class="dot geo"></span><span class="dot-label">GEO</span> Geopolitical</h3>
+ <div class="curated-item" data-time="17:40" data-slug="us-resumes-strikes-iran-wedding">
+ <h4>US Resumes Strikes on Iran; Four Killed at Wedding Party</h4>
+ <p>The United States resumed striking Iran at five o&rsquo;clock this evening, ending the three-day lull &mdash; and shrapnel from one missile hit a home hosting a wedding in southern Iran, killing four people including a young child and injuring more than fifty, the Iranian Red Crescent said. The IRGC fired ballistic missiles at a US Marine base in Aqaba, Jordan, causing no casualties. President Trump called the strikes &ldquo;large and powerful&rdquo; and warned a bigger attack is &ldquo;waiting in the wings&rdquo;.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The pattern that reasserted itself yesterday broke today, and with it the fiction that this phase could stay calibrated: a wedding party bleeding in Sirik is the image that will travel through the region regardless of what CENTCOM intended to hit, and it hands Tehran the moral currency its own escalations spent. The tit-for-tat now runs strike-for-strike on a same-day cycle &mdash; Larak Sunday, Jordan Monday, six Iranian sites today, Aqaba tonight &mdash; each round arriving faster than the mediators can shuttle. The IAEA&rsquo;s late-evening warning that it has lost verification of Iran&rsquo;s nuclear material adds the darkest thread: a war of attrition around an unmonitored programme. Watch tonight&rsquo;s hours &mdash; Mr Trump&rsquo;s &ldquo;waiting in the wings&rdquo; is either deterrence or a schedule.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="16:43" data-slug="germany-blames-russia-leipzig">
+ <h4>Germany Formally Blames Russia for Leipzig Drone Attack</h4>
+ <p>Germany formally attributed the attempted drone attack on a Ukrainian cargo plane at Leipzig airport to Russia, closing the Russian consulate in Bonn, tightening entry controls and summoning Moscow&rsquo;s ambassador. The interior minister said forensics and intelligence prove Russian involvement in a &ldquo;well-established pattern of hybrid operations&rdquo;. NATO&rsquo;s secretary-general declared &ldquo;full solidarity&rdquo;; Brussels is preparing further sanctions. Moscow called the allegation &ldquo;absurd&rdquo; and promised a &ldquo;mirror-image&rdquo; response.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">Attribution is the step European governments have flinched from through two years of arson, sabotage and severed cables &mdash; naming Russia formally obliges a response, which is why it so rarely happens and why today matters: Germany has converted suspicion into state policy, with consequences attached and the EU&rsquo;s sanctions machinery now engaged. The measures themselves are calibrated &mdash; a consulate, a cultural contract, visa rules &mdash; but the precedent is the weapon: the next attributed attack starts from here, not from zero. Poland&rsquo;s parallel investigation into its drone-factory fire suggests the pattern is still being written. For Britain, watching after its own &ldquo;unknown sources&rdquo; threats last week, the template is instructive. Watch Moscow&rsquo;s mirror response &mdash; and which country attributes next.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="19:18" data-slug="nepal-900-hydropower-workers">
+ <h4>Nepal Races to Reach 900 Missing Hydropower Workers</h4>
+ <p>Rescuers made the search for at least 900 workers missing across twelve flooded hydropower projects their priority, as the death toll held above 1,000 and heavy rain turned relief roads to mud. A survivor gave the first detailed account from inside the tunnels &mdash; floodwater &ldquo;smashed into the tunnel and chased me for twenty minutes&rdquo;. Officials made contact with a missing American, one thread of good news in a count of roughly four thousand still unaccounted for.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The survivor&rsquo;s account matters beyond its terror: a man outran the water for twenty minutes inside a tunnel and lived, which means the geometry of these systems &mdash; access shafts, high galleries, equipment bays &mdash; offered survivable refuges when the surge came, and that is the hope the blasting crews are working towards at eleven other sites. Against it stands the arithmetic of the sixth day: falling oxygen, mud-choked roads strangling the supply of drilling equipment, and monsoon rain that keeps grounding helicopters. The contacted American shows the missing lists still contain the living. Watch the first tunnel to yield survivors in numbers &mdash; or the moment the operation quietly changes its name from rescue to recovery.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="21:24" data-slug="israel-captures-hamas-security-chief">
+ <h4>Israel Says Hamas Security Chief Captured in Gaza City Raid</h4>
+ <p>Israeli special forces captured the head of Hamas&rsquo;s internal security service in a ground raid in Gaza City, Mr Netanyahu announced, saying the man was working to restore Hamas&rsquo;s governance and deceive monitors about demilitarisation. Air strikes covering the raid killed at least four Palestinians, including two children, medics said. Hamas called the operation a &ldquo;grave crime&rdquo; and a ceasefire violation; witnesses described minutes of indiscriminate fire in the K&auml;tiba district.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">A ground raid into Gaza City to seize a named official is the ceasefire&rsquo;s contradiction made explicit: an arrangement that permits enforcement operations inside territory it supposedly pacified will be called a truce by one side and an occupation&rsquo;s licence by the other, and both descriptions fit the day&rsquo;s facts &mdash; a high-value capture for Israeli intelligence, two dead children for the families beneath the covering strikes. The prisoner himself may matter: Hamas&rsquo;s internal security service holds the organisation&rsquo;s secrets about tunnels, hostages past and governance plans. The UN&rsquo;s same-day announcement of slashed food aid completes the grim frame. Watch what interrogation yields &mdash; and whether Hamas answers the raid in kind, testing a ceasefire already worn to threads.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="16:48" data-slug="carney-start-being-serious">
+ <h4>Carney Tells Washington to 'Start Being Serious' on Trade</h4>
+ <p>Mark Carney rebuked the Trump administration days before Canada&rsquo;s retaliatory tariffs take effect, urging American officials to &ldquo;start being serious&rdquo; about resolving the dispute and condemning their insults towards Canada: &ldquo;It is beneath their office.&rdquo; The C$27.6bn counter-tariff package begins within the week; analysts now expect the trade war to drag past the American midterms.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">Mr Carney&rsquo;s register &mdash; the disappointed central banker addressing unserious counterparties &mdash; is itself the strategy: he cannot out-escalate Washington, but he can out-dignify it, and every &ldquo;beneath their office&rdquo; plays to a Canadian public whose patriotism this war has ignited and to American audiences weary of the Lake Ontario theatrics. The timing is deliberate, a final offer of an off-ramp before the September the eighth tariffs make retreat expensive for both sides. The analysis that this now runs past the midterms reflects the underlying incentive problem: both leaders profit politically from standing firm, and the costs land on supply chains too slowly to force them back. Watch September the eighth &mdash; implementation, or an eleventh-hour call.</div>
+ </details>
+ </div>
+ </div>
+ <div class="curated-column">
+ <h3><span class="dot dom"></span><span class="dot-label">UK</span> UK Domestic Politics</h3>
+ <div class="curated-item" data-time="18:50" data-slug="burnham-commons-debut-public-control">
+ <h4>Burnham Promises 'Stronger Public Control' in Commons Debut</h4>
+ <p>In a three-and-a-half-hour first statement as PM, Mr Burnham blamed &ldquo;a series of wrong turns&rdquo; since the 1980s for centralising power and privatising the economy &mdash; calling the water industry &ldquo;a leaking monument to that approach&rdquo; &mdash; and promised plans for &ldquo;stronger public control&rdquo; of water and energy this year, plus a devolution offer to every part of England, starting with Cornwall. Kemi Badenoch retorted that he offered &ldquo;more government control, more taxes and more politicians&rdquo; and that his &ldquo;theory of growth is completely wrong&rdquo;.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The debut delivered the ideological clarity the summer&rsquo;s announcements only implied: Mr Burnham is running against forty years of consensus, Brexit included &mdash; which he blamed for &ldquo;compounding the damage&rdquo; in language no recent Labour leader has risked &mdash; and offering public control as growth strategy rather than rescue. &ldquo;Stronger public control&rdquo; short of nationalisation is the phrase to watch; it must eventually mean something specific about Thames Water and the energy retailers. The Cornwall gambit is shrewd politics, extending devolution without demanding mayors, explicitly against a &ldquo;two-tier England&rdquo;. Ms Badenoch&rsquo;s reply previewed the next election&rsquo;s argument in a single line. Watch the water and energy plans &ldquo;later in the year&rdquo; &mdash; the statement wrote a cheque the autumn must cash.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="12:22" data-slug="starmer-stands-down-mp">
+ <h4>Starmer to Stand Down as MP, Triggering a By-Election</h4>
+ <p>Sir Keir Starmer will resign as MP for Holborn and St Pancras less than two months after leaving Downing Street, saying it is &ldquo;the right time to pass the baton&rdquo; as he turns to international work on defence, security, trade and technology. Mr Burnham told the Commons he &ldquo;has given this country a lifetime of public service&rdquo;. The Greens &mdash; second across the seat&rsquo;s wards at this year&rsquo;s locals &mdash; hinted their leader may contest the by-election.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">Leaving Parliament entirely, rather than brooding on the backbenches, follows the Cameron-Johnson route and spares both men the spectacle of a deposed prime minister watching his successor dismantle his caution &mdash; which Mr Burnham did again within hours, blaming Brexit and promising public ownership in terms Sir Keir never permitted himself. The by-election is the sting: Holborn and St Pancras looks safe on paper, but the Greens&rsquo; local-election surge and a possible Polanski candidacy make it a genuine test of whether Labour&rsquo;s left flank holds under a leader supposedly recapturing it. Ms Badenoch&rsquo;s barb about Labour MPs who &ldquo;treated him so badly&rdquo; carried just enough truth to land. Watch the Green decision &mdash; and the majority arithmetic when the writ moves.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="21:20" data-slug="ipp-ended-once-and-for-all">
+ <h4>IPP Sentences to End 'Once and for All', Commons Told</h4>
+ <p>Justice Secretary Alex Norris pledged legislation to end IPP sentences &ldquo;once and for all&rdquo; by the end of this Parliament, with a cross-party group overseeing how releases are handled &mdash; 2,271 people remain on the abolished sentences, 856 never released, and 96 have taken their own lives. Male prison spaces have fallen to around 1,500. The shadow justice secretary called it a &ldquo;fag packet policy&rdquo; &mdash; &ldquo;the Government&rsquo;s fifth early release policy in just six weeks&rdquo;.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">A former Lord Chief Justice supplied the sentence history will keep: IPP prisoners were punished &ldquo;grossly excessively&rdquo; under &ldquo;preventative detention&hellip; absolutely contrary to the principles of justice&rdquo; &mdash; and Parliament, which created the sentence in 2003 and abolished it prospectively in 2012, has finally been told the remainder will be unwound. The cross-party oversight group is the mechanism&rsquo;s cleverest feature, spreading ownership of every release decision that later goes wrong. Mr Timothy&rsquo;s &ldquo;fifth policy in six weeks&rdquo; count is fair as arithmetic and hollow as critique; churn is what repairing a collapsing system looks like from outside. Fifteen hundred spare cells is the number beneath everything. Watch the bill&rsquo;s release test when drafted &mdash; and October&rsquo;s first tranche meeting reality.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="18:33" data-slug="swinney-programme-cap-survives">
+ <h4>Swinney's Programme: Food Cap Survives, Health Boards Cut to Two</h4>
+ <p>John Swinney&rsquo;s programme for government kept the food price cap alive despite the business revolt &mdash; legislation will impose ceilings on up to fifty essential items in large supermarkets &mdash; while cutting Scotland&rsquo;s fourteen health boards to two, extending the &pound;2 bus fare across the west of Scotland, promising a misogyny bill, and lighting a &ldquo;bonfire of the quangos&rdquo; against a looming &pound;5bn shortfall.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The cap&rsquo;s survival &mdash; in the document, though barely in the speech &mdash; is the day&rsquo;s tell: Mr Swinney would rather fight retailers than be seen retreating from food prices, but burying it in the small print suggests a policy kept for the argument more than the statute book. The health-board consolidation is the genuinely radical act, the largest NHS Scotland reorganisation in decades sold as reform but driven by the &pound;5bn arithmetic, and every closed board is a future constituency grievance. The bus-fare race with Mr Burnham &mdash; each extending &pound;2 caps across their territories &mdash; is devolution working exactly as intended: competitive imitation. Watch the health-board map when it is drawn &mdash; and whether the cap ever reaches a shelf.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="17:18" data-slug="sheffield-newborn-stab-wounds">
+ <h4>Sheffield Newborn Died From Stab Wounds, Police Confirm</h4>
+ <p>The newborn girl found dead at a house in Wincobank on Sunday died from stab wounds, a post-mortem found &mdash; a revelation that transforms the investigation. Five people remain in custody on suspicion of murder after a further-detention warrant; two others were bailed. &ldquo;Our commitment to this little girl is unwavering,&rdquo; the senior detective said. &ldquo;We will confront every difficult and distressing challenge&hellip; to secure justice for her.&rdquo;</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">Sunday&rsquo;s case allowed for tragedies of panic and concealment; a post-mortem finding of stab wounds forecloses them, and the investigation is now unambiguously a murder inquiry into the violent death of a child on her first day of life &mdash; among the darkest categories the law knows. The detention warrant for five suspects suggests police still cannot isolate a hand from a household, and the forensic work &mdash; whose wounds, whose weapon, who was present &mdash; will decide charges more than any interview. The detective&rsquo;s language, addressed almost to the child herself, reflects how such cases mark the officers who work them. Watch the charging decisions as the warrant clock runs &mdash; and honour, as police ask, the space between fact and speculation.</div>
+ </details>
+ </div>
+ </div>
+ </div>
+ <div class="one-to-read">
+ <span class="otr-label">One To Read</span>
+ <a href="https://www.bbc.co.uk/news/articles/cg49590v6k1o" target="_blank" rel="noopener noreferrer">
+ <h4>'The Water Chased Me for Twenty Minutes'</h4>
+ <span class="otr-source">BBC News</span>
+ <span class="otr-dot">&middot;</span>
+ <span class="otr-desc">A survivor's account from inside Nepal's flooded hydropower tunnels &mdash; the first detailed testimony of what happened when the river came through, and why rescuers still believe others may be alive in the galleries above the waterline.</span>
+ </a>
+ </div>
+ <!-- SOURCES USED
+ - https://www.bbc.co.uk/news/articles/cj06q4ynpmjo &mdash; BBC News: US resumes strikes
+ - https://www.cbsnews.com/live-updates/iran-war-us-strikes-strait-of-hormuz-larak-island/ &mdash; CBS News: Iran live updates
+ - https://www.politico.com/news/2026/09/01/us-iran-war-strikes &mdash; Politico: US strikes
+ - https://www.aljazeera.com/video/newsfeed/2026/9/1/the-us-military-began-striking-targets-in-iran-centcom-says &mdash; Al Jazeera: CENTCOM confirmation
+ - https://www.aljazeera.com/news/2026/9/1/urgent-need-for-access-to-iranian-sites-cautions-un-nuclear-watchdog &mdash; Al Jazeera: IAEA warning
+ - https://www.bbc.co.uk/news/articles/c5ylm3m67n2o &mdash; BBC News: Germany blames Russia
+ - https://news.sky.com/story/attempted-drone-attack-at-leipzig-airport-blamed-on-russia-german-government-says-13579937 &mdash; Sky News: Leipzig attribution
+ - https://www.politico.eu/article/germany-blames-russia-leipzig-drone-attack-retaliatory-measures/ &mdash; Politico: retaliatory measures
+ - https://www.aljazeera.com/video/newsfeed/2026/9/1/nepal-rescuers-race-to-reach-900-missing-hydropower-workers &mdash; Al Jazeera: 900 workers
+ - https://www.cbsnews.com/news/nepal-flood-missing-american-contacted-nepali-officials-tell-cbs-news/ &mdash; CBS News: American contacted
+ - https://www.bbc.co.uk/news/articles/cg49590v6k1o &mdash; BBC News: tunnel survivor account
+ - https://www.npr.org/2026/09/01/g-s1-141349/hindu-pilgrims-on-arduous-trek-among-nepals-missing &mdash; NPR: pilgrims missing
+ - https://www.bbc.co.uk/news/articles/c1wxex4vg35o &mdash; BBC News: Gaza City raid
+ - https://www.aljazeera.com/video/newsfeed/2026/9/1/palestinians-mourn-children-killed-in-israeli-airstrikes-on-gaza-city &mdash; Al Jazeera: Gaza strikes
+ - https://www.theguardian.com/us-news/2026/sep/01/trump-mark-carney-trade-war-canada &mdash; The Guardian: Carney rebuke
+ - https://www.aljazeera.com/news/2026/9/1/canadas-carney-says-us-must-start-being-serious-to-resolve-trade-dispute &mdash; Al Jazeera: trade dispute
+ - https://www.bbc.co.uk/news/articles/cx2z528rdp6o &mdash; BBC News: Burnham Commons statement
+ - https://www.bbc.co.uk/news/articles/c2e0rdkrjw0o &mdash; BBC News: five takeaways
+ - https://www.theguardian.com/politics/2026/sep/01/burnham-promises-to-bring-optimism-and-substantial-change-in-first-commons-speech-as-pm &mdash; The Guardian: Commons debut
+ - https://www.bbc.co.uk/news/articles/cvgy4258kgyo &mdash; BBC News: Starmer stands down
+ - https://news.sky.com/story/sir-keir-starmer-to-stand-down-as-mp-triggering-london-by-election-13579870 &mdash; Sky News: by-election
+ - https://www.independent.co.uk/news/uk/politics/keir-starmer-quits-mp-holborn-st-pancras-andy-burnham-b3042695.html &mdash; The Independent: Starmer resignation
+ - https://www.bbc.co.uk/news/articles/ce8ey8kzk3no &mdash; BBC News: IPP statement
+ - https://www.independent.co.uk/news/uk/crime/ipp-sentence-prisons-burnham-lord-thomas-b3042916.html &mdash; The Independent: Lord Thomas verdict
+ - https://www.bbc.co.uk/news/articles/cddvy492m7po &mdash; BBC News: Swinney programme
+ - https://news.sky.com/story/scotlands-first-minister-john-swinney-unveils-plans-to-cut-health-boards-introduce-misogyny-bill-and-roll-out-2-bus-fare-cap-13579768 &mdash; Sky News: programme contents
+ - https://www.theguardian.com/uk-news/2026/sep/01/john-swinney-snp-prices-cap-food-scotland &mdash; The Guardian: food cap
+ - https://www.theguardian.com/uk-news/2026/sep/01/five-held-by-police-after-newborn-baby-dies-from-stab-wounds-in-south-yorkshire &mdash; The Guardian: Sheffield post-mortem
+ - https://news.sky.com/story/baby-found-dead-in-sheffield-died-of-stab-wounds-police-say-with-seven-arrested-13579957 &mdash; Sky News: stab wounds finding
+ - https://www.bbc.co.uk/weather/articles/c99dypl3jgmo &mdash; BBC Weather: hottest summer confirmed
+ - https://www.bbc.co.uk/news/articles/c8d39vq779no &mdash; BBC News: gilt close
+ - https://www.nbcnews.com/world/iran/us-launched-large-powerful-strikes-iran-trump-says-rcna595581 &mdash; NBC News: 'large and powerful' strikes
+ - https://www.nbcnews.com/world/asia/nepal-floods-deaths-pass-1000-death-smell-rcna595469 &mdash; NBC News: Nepal toll passes 1,000
+ - https://www.cnbc.com/2026/09/01/us-strikes-iran-after-new-hormuz-strait-shipping-attacks-centcom.html &mdash; CNBC: US strikes, Tehran retaliates
+ - https://www.cnbc.com/2026/09/01/bond-yields-iran-inflation-treasurys-japan-uk.html &mdash; CNBC: global bond yields at multi-decade highs
+ END SOURCES USED -->
+ </div><!-- ── END EVENING 01 SEP (22:58) ── -->
+
 
  <div class="curated-edition morning" data-date="2026-09-01" data-time="09:33" data-markets='{"FTSE":{"price":10766.0,"change":-0.54},"SP":{"price":7686.0,"change":-0.33},"Brent":{"price":92.03,"change":1.7},"GBP":{"price":1.3533,"change":-0.11},"Gold":{"price":4385,"change":-1.3},"EURGBP":{"price":0.8565,"change":-0.09},"Gilt":{"price":5.23,"change":0.08},"VIX":{"price":15.41,"change":3.3},"BTC":{"price":78150,"change":0.3},"UST":{"price":4.79,"change":0.03},"ts":"2026-09-01T09:33:00+01:00"}'>
  <div class="edition-header">
