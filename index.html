@@ -2194,12 +2194,37 @@
  - Optional "expires" field overrides the 8h default (e.g. for major events)
  To add a new breaking story, prepend an entry here with the current ISO timestamp. -->
  <script id="breaking-stories" type="application/json">
-[]
+[
+  {
+    "posted": "2026-09-02T22:45:00+01:00",
+    "headline": "Iran retaliates against US bases in five countries; Tehran says 18 dead in American strikes; Saudi tanker deaths confirmed \u2014 22:45 BST",
+    "category": "IRAN WAR",
+    "summary": "Iran fired ballistic missiles and drones at US bases in Bahrain, Iraq, Jordan, Kuwait and the UAE overnight, retaliating for Tuesday's American bombardment. Iran's health minister said 18 people were killed and 108 injured in the US strikes, including four named victims \u2014 two women and two children \u2014 at a wedding in Kuhestak. President Trump said the US is 'prepared to do another one any time we want'. Saudi Arabia confirmed two Filipino sailors died in Monday's attack on its supertanker Sidr and directly condemned Iran, joined by Kuwait and Qatar. Brent held above $95, a six-week high, after touching $97 overnight.",
+    "facts": [
+      {
+        "label": "Retaliation",
+        "value": "Missiles and drones at US bases in five countries; Jordan downed 10 of 13"
+      },
+      {
+        "label": "Casualties",
+        "value": "Tehran: 18 dead, 108 injured in US strikes incl. four at Kuhestak wedding"
+      },
+      {
+        "label": "Tanker",
+        "value": "Two Filipino sailors killed on Saudi VLCC Sidr \u2014 Riyadh condemns Iran"
+      },
+      {
+        "label": "Trump",
+        "value": "'Prepared to do another one any time we want'; Brent above $95"
+      }
+    ]
+  }
+]
 </script>
- <div class="breaking-banner" id="breakingBanner" style="display:none">
+ <div class="breaking-banner" id="breakingBanner">
  <div class="breaking-inner">
  <span class="breaking-label">BREAKING</span>
- <span class="breaking-text" id="breakingText"></span>
+ <span class="breaking-text" id="breakingText">Iran retaliates against US bases in five countries; Tehran says 18 dead in American strikes; Saudi tanker deaths confirmed — 22:45 BST</span>
  <span class="breaking-readmore" id="breakingReadmore">Read more</span>
  <button class="breaking-dismiss" id="breakingDismiss">&times;</button>
  </div>
@@ -2289,7 +2314,7 @@
  <!-- #1 Markets snapshot bar -->
  <!-- Embedded market data (populated by update script, used as fallback) -->
  <script id="embedded-markets" type="application/json">
-{"FTSE":{"price":10789.0,"change":-0.32},"SP":{"price":7631.0,"change":-0.71},"Brent":{"price":95.22,"change":5.23},"GBP":{"price":1.3514,"change":-0.27},"Gold":{"price":4328,"change":-2.5},"EURGBP":{"price":0.8575,"change":-0.05},"Gilt":{"price":5.25,"change":0.03},"VIX":{"price":16.34,"change":9.5},"BTC":{"price":77115,"change":-2.4},"UST":{"price":4.8,"change":0.04},"ts":"2026-09-01T22:58:00+01:00"}
+{"FTSE":{"price":10756.0,"change":-0.3},"SP":{"price":7667.0,"change":0.46},"Brent":{"price":95.23,"change":0.0},"GBP":{"price":1.3492,"change":-0.16},"Gold":{"price":4388,"change":1.4},"EURGBP":{"price":0.8585,"change":0.12},"Gilt":{"price":5.23,"change":-0.02},"VIX":{"price":15.2,"change":-7.0},"BTC":{"price":77268,"change":0.2},"UST":{"price":4.8,"change":0.0},"ts":"2026-09-02T22:45:00+01:00"}
 </script>
  <script id="market-descriptions" type="application/json">
 {
@@ -2297,111 +2322,111 @@
     "name": "FTSE 100",
     "desc": "The UK's benchmark stock index, tracking the 100 largest companies listed on the London Stock Exchange by market capitalisation. Includes Shell, AstraZeneca, HSBC and Unilever.",
     "drivers_up": [
-      "Defence and energy names cushioned the index as oil surged"
+      "Energy names supported by $95 oil"
     ],
     "drivers_down": [
-      "Closed lower as US strikes on Iran resumed before the London close"
+      "Third straight decline — gilt-yield pressure outweighed Wall Street's relief bounce"
     ],
-    "updated": "1 September 2026 22:58 (close)"
+    "updated": "2 September 2026 22:45 (close)"
   },
   "SP": {
     "name": "S&P 500",
     "desc": "America's leading stock market index, tracking 500 of the largest US-listed companies. Dominated by mega-cap tech (Apple, Microsoft, Nvidia) but spans all sectors.",
     "drivers_up": [
-      "Energy majors rallied with crude at $95"
+      "Relief rally as no third strike wave followed; VIX fell 7%"
     ],
     "drivers_down": [
-      "Extended Monday's slide as US strikes on Iran resumed"
+      "Bond yields at multi-decade highs cap the rebound"
     ],
-    "updated": "1 September 2026 22:58 (close)"
+    "updated": "2 September 2026 22:45 (close)"
   },
   "Brent": {
     "name": "Brent Crude Oil",
     "desc": "The global benchmark for crude oil pricing, produced from oil fields in the North Sea. Used to price roughly two-thirds of the world's traded oil.",
     "drivers_up": [
-      "Surged past $95 as US strikes resumed and the IRGC hit back at Aqaba"
+      "Held above $95, a six-week high, after touching $97 overnight on Iran's five-country retaliation"
     ],
     "drivers_down": [
-      "Any ceasefire signal would unwind a large war premium"
+      "A pause in strikes would unwind a large war premium"
     ],
-    "updated": "1 September 2026 22:58 (close)"
+    "updated": "2 September 2026 22:45 (close)"
   },
   "GBP": {
     "name": "GBP/USD",
     "desc": "The exchange rate between the British pound and the US dollar, commonly known as 'cable'. Reflects relative economic strength and interest rate differentials between the UK and US.",
     "drivers_up": [
-      "Rate-differential support limited sterling's losses"
+      "Three BoE rate rises to 4.5% now priced in — rate support builds"
     ],
     "drivers_down": [
-      "Dollar bid on Gulf escalation pushed the pound lower"
+      "Slipped as gilt turmoil kept UK assets under a cloud"
     ],
-    "updated": "1 September 2026 22:58 (close)"
+    "updated": "2 September 2026 22:45 (close)"
   },
   "Gold": {
     "name": "Gold (XAU/USD)",
     "desc": "The spot price of gold in US dollars per troy ounce. The world's oldest safe-haven asset, traditionally rising during periods of uncertainty, inflation and currency debasement.",
     "drivers_up": [
-      "Renewed escalation could yet reignite the haven bid"
+      "Haven bid returned — up 1.4% as Iran retaliated; Dutch central bank moved 86 tonnes to London citing geopolitical unrest"
     ],
     "drivers_down": [
-      "Falling despite the war — surging bond yields raise the cost of holding it"
+      "Multi-decade-high bond yields raise the cost of holding it"
     ],
-    "updated": "1 September 2026 22:58 (close)"
+    "updated": "2 September 2026 22:45 (close)"
   },
   "EURGBP": {
     "name": "EUR/GBP",
     "desc": "The exchange rate between the euro and the British pound. Key for UK-EU trade pricing. A falling rate means sterling is strengthening against the euro.",
     "drivers_up": [
-      "Euro steady as Germany's formal attribution of Leipzig to Russia landed"
+      "Euro firmer as the EU readied 1,600 new Russia sanctions targets"
     ],
     "drivers_down": [
-      "Little changed — pound and euro fell in tandem against the dollar"
+      "UK rate-rise expectations limit sterling's slide"
     ],
-    "updated": "1 September 2026 22:58 (close)"
+    "updated": "2 September 2026 22:45 (close)"
   },
   "Gilt": {
     "name": "UK 10-Year Gilt Yield",
     "desc": "The yield on 10-year UK government bonds (gilts). A key benchmark for UK borrowing costs, mortgage rates and pension fund valuations. Rising yields mean falling bond prices.",
     "drivers_up": [
-      "Closed at the day's high — a 52-week peak — as $95 oil stoked inflation fears"
+      "Touched 5.29% intraday — highest since 2008 — with the 30-year at 5.92% before a late rally"
     ],
     "drivers_down": [
-      "Budget consolidation signals could steady the long end"
+      "Closed slightly lower at 5.23% as buyers returned late in the session"
     ],
-    "updated": "1 September 2026 22:58 (close)"
+    "updated": "2 September 2026 22:45 (close)"
   },
   "VIX": {
     "name": "VIX (Volatility Index)",
     "desc": "The CBOE Volatility Index, often called the 'fear gauge'. Measures expected S&P 500 volatility over the next 30 days. Readings above 20 suggest elevated anxiety; above 30 signals acute stress.",
     "drivers_up": [
-      "Jumped 9.5% as US strikes on Iran resumed"
+      "One escalation headline away from 20"
     ],
     "drivers_down": [
-      "Still moderate by crisis standards — hedging, not panic"
+      "Fell 7% as Wall Street staged a relief session"
     ],
-    "updated": "1 September 2026 22:58 (close)"
+    "updated": "2 September 2026 22:45 (close)"
   },
   "BTC": {
     "name": "Bitcoin (BTC/USD)",
     "desc": "The price of Bitcoin in US dollars. The largest cryptocurrency by market cap, increasingly viewed as digital gold by institutional investors since spot ETF approvals.",
     "drivers_up": [
-      "A softer dollar would revive the alternative-asset bid"
+      "Steadied near $77,000 through the escalation"
     ],
     "drivers_down": [
-      "Slid with risk assets as global bond yields climbed"
+      "Rising real yields sap the speculative bid"
     ],
-    "updated": "1 September 2026 22:58 (close)"
+    "updated": "2 September 2026 22:45 (close)"
   },
   "UST": {
     "name": "US 10-Year Treasury Yield",
     "desc": "The yield on 10-year US government bonds, the global risk-free rate benchmark. Influences mortgage rates, corporate borrowing and equity valuations worldwide.",
     "drivers_up": [
-      "$95 oil revived inflation worry — Treasuries sold off alongside gilts"
+      "$95 oil keeps inflation worry — and yields — pinned at 4.80%"
     ],
     "drivers_down": [
-      "A deeper flight to safety would send yields lower"
+      "A deeper flight to safety would pull yields lower"
     ],
-    "updated": "1 September 2026 22:58 (close)"
+    "updated": "2 September 2026 22:45 (close)"
   }
 }
 </script>
@@ -2454,6 +2479,299 @@
  <!-- ════ ALL EDITIONS (sorted by JS) ════ -->
  <!-- IMPORTANT: Keep 7 FULL DAYS of editions in this container. Do NOT delete editions less than 7 days old. -->
  <div id="all-editions" style="display:none;">
+
+<div class="curated-edition evening" data-date="2026-09-02" data-time="22:45" data-markets='{"FTSE":{"price":10756.0,"change":-0.3},"SP":{"price":7667.0,"change":0.46},"Brent":{"price":95.23,"change":0.0},"GBP":{"price":1.3492,"change":-0.16},"Gold":{"price":4388,"change":1.4},"EURGBP":{"price":0.8585,"change":0.12},"Gilt":{"price":5.23,"change":-0.02},"VIX":{"price":15.2,"change":-7.0},"BTC":{"price":77268,"change":0.2},"UST":{"price":4.8,"change":0.0},"ts":"2026-09-02T22:45:00+01:00"}'>
+ <div class="edition-header">
+ <span class="edition-icon">&#127769;</span>
+ <h2>Evening Briefing</h2>
+ </div>
+ <div class="curated-meta">Wednesday 2 September 2026 &mdash; 22:45 BST</div>
+ <div class="impact-box">
+ <h3 class="impact-heading">What It Means For You</h3>
+ <ul class="impact-list">
+ <li><strong>Mortgages:</strong> Markets now expect three Bank of England rate rises to 4.5% within a year &mdash; anyone remortgaging should budget for higher fixed rates, with the 10-year gilt touching its highest since 2008 today.</li>
+ <li><strong>Taxes:</strong> Up to half the Budget&rsquo;s &pound;24bn headroom may already be gone, and the OBR takes its borrowing-cost snapshot about now &mdash; tax rises on 28 October look likelier by the day.</li>
+ <li><strong>Prisons:</strong> Around 700 prisoners will be freed on 1 October under the early-release schedule signed into law today &mdash; 71 offences including rape and grooming are excluded.</li>
+ </ul>
+ </div>
+ <div class="curated-grid">
+ <div class="curated-column">
+ <h3><span class="dot geo"></span><span class="dot-label">GEO</span> Geopolitical</h3>
+ <div class="curated-item" data-time="16:33" data-slug="iran-day-two-eighteen-dead">
+ <h4>Iran Says 18 Dead in US Strikes; Trump 'Prepared to Do Another One Any Time'</h4>
+ <p>Iran&rsquo;s health minister said 18 people were killed and 108 injured in the American attacks, as officials named the four dead at the Kuhestak wedding &mdash; two women and two children, the youngest four years old &mdash; and called the strike a &ldquo;war crime&rdquo;. Verified footage suggests a cruise-missile remnant landed 112 metres from a telecoms tower. &ldquo;It was a very heavy attack last night, and we&rsquo;re prepared to do another one any time we want,&rdquo; President Trump said, later musing about renaming the waterway &ldquo;Trump Strait&rdquo;.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The named dead &mdash; a fifty-year-old woman, a forty-three-year-old woman, a boy of sixteen, a child of four &mdash; are doing what casualty counts cannot: giving Iran&rsquo;s narrative faces at precisely the moment Washington&rsquo;s spokesman insists the military &ldquo;never targets civilians&rdquo;. Both can be true &mdash; a precision weapon aimed at a telecoms tower, a wedding a hundred metres away &mdash; and it will not matter; the father of the bride on state television is worth more to Tehran than a missile battery. Mr Trump&rsquo;s register, meanwhile, oscillated between menace and real estate, dismissing any &ldquo;worthless&rdquo; agreement while inviting Iranians to &ldquo;rise up&rdquo;. The economics tighten regardless: petrol at $4.12 a gallon in America, the rial at record lows, Brent up thirty per cent since February. Watch whether tonight passes without a third round.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="18:33" data-slug="saudi-tanker-filipino-sailors">
+ <h4>Saudi Arabia Condemns Iran After Tanker Attack Kills Two Sailors</h4>
+ <p>Saudi carrier Bahri confirmed &ldquo;with profound sadness&rdquo; that two Filipino seafarers died when its supertanker Sidr was struck transiting the Strait of Hormuz on Monday night &mdash; and Riyadh directly condemned &ldquo;Iran&rsquo;s targeting of the Saudi tanker&rdquo;, joined by Kuwait and Qatar, which rejected using Hormuz as a &ldquo;bargaining chip&rdquo;. Maritime trackers logged projectile strikes on two tankers near Khasab, each laden with two million barrels of Saudi crude. The IRGC insists both vessels struck mines on an &ldquo;illegal route&rdquo;.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The first confirmed seafarer deaths of the Hormuz campaign change its diplomatic geometry: until Monday, Gulf Arab states could deplore the disruption while blaming nobody, but a Saudi flag, Saudi crude and two dead Filipino crewmen forced Riyadh to name Iran &mdash; the sharpest Saudi-Iranian language since their d&eacute;tente, and a data point for whether the region&rsquo;s hedging survives a lengthening war. The IRGC&rsquo;s counter-story, mines on an &ldquo;illegal route&rdquo;, is the same claim CENTCOM called disinformation on Monday; it now has to explain two dead sailors on a neutral ship. Manila&rsquo;s stake matters too &mdash; Filipinos crew the world&rsquo;s tankers, and their government&rsquo;s response will echo through crewing agencies already pricing Hormuz danger money. Watch insurance rates and the next Saudi statement; both measure how alone Tehran is becoming.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="17:49" data-slug="eu-nato-leipzig-response">
+ <h4>EU Readies 1,600 New Russia Sanctions Targets Over Leipzig 'Escalation'</h4>
+ <p>Ursula von der Leyen called the Leipzig drone plot &ldquo;a new escalation on European Union soil directly attributed to Russia&rdquo;, as the EU prepared sanctions on 1,600 additional individuals and entities and Kaja Kallas branded the attack &ldquo;state-sponsored terrorism&rdquo;. NATO&rsquo;s Mark Rutte declared &ldquo;full solidarity with Germany&rdquo;. France, Belgium and the Netherlands summoned Russian ambassadors, while German investigators probed fresh sabotage at two electricity substations that knocked five power-station units offline. Moscow&rsquo;s deputy foreign minister, asked if relations with Berlin might be severed: &ldquo;maybe&rdquo;.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">Germany&rsquo;s attribution has done what attributions are for &mdash; unlocked a collective response: within a day the Commission president adopted the finding as the EU&rsquo;s own, sixteen hundred names entered the sanctions pipeline, and three more capitals summoned ambassadors. The substation attacks, if state-directed, suggest Moscow&rsquo;s answer to exposure is tempo &mdash; six launching devices in a field near Cologne while the Leipzig evidence is still being catalogued. The unresolved question sits in Brussels&rsquo; vault: &pound;165bn of frozen Russian assets, with Sweden, the Netherlands, Poland and Spain pushing to spend them on Ukraine and Belgium still blocking. Escalation on EU soil is the argument the holdouts have not yet answered. Watch the substation forensics &mdash; a second attributed attack in a week would move the assets question from taboo to timetable.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="17:12" data-slug="zelensky-russian-airspace-warning">
+ <h4>Zelensky Warns Airlines Russian Skies Are 'Becoming Completely Dangerous'</h4>
+ <p>Ukraine formally notified the UN aviation body that Russian airspace is unsafe, as President Zelensky warned &ldquo;every airline, every insurer&rdquo; that &ldquo;there will simply be drones in Russia&rsquo;s skies on a scale that has to be taken into account&rdquo;. Turkish carrier Pegasus cancelled Russia flights. Mr Putin called it &ldquo;a declaration of state terrorism&rdquo; &mdash; and, asked whether Russia might strike British military sites over UK missile support, answered only: &ldquo;That&rsquo;s a secret, a military secret.&rdquo; Kyiv was attacked for a seventh consecutive day.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">Ukraine has found an escalation that costs nothing and compounds daily: it need not down a single airliner &mdash; the warning itself, filed formally with ICAO, forces every insurer and safety officer to re-price Russian routes, and Pegasus cancelling within hours shows the mechanism working. Aviation isolation was among the first sanctions of 2022; Kyiv is now extending it by deterrence. Mr Putin&rsquo;s Bishkek performance repaid study: the shark metaphor, the shift from &ldquo;special military operation&rdquo; to the plain word &ldquo;war&rdquo;, warm words for Mr Kushner and Mr Witkoff as negotiating partners &mdash; and, for Britain, a theatrical &ldquo;military secret&rdquo; pause over whether UK military sites are targets, while a Moscow tabloid wrote that Mr Burnham should see Russia &ldquo;in his nightmares&rdquo;. Watch which carriers follow Pegasus; each cancellation deepens Russia&rsquo;s isolation at nobody&rsquo;s expense but Moscow&rsquo;s.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="20:05" data-slug="malta-fenech-acquitted">
+ <h4>Malta Acquits Businessman of Masterminding Journalist's Car-Bomb Murder</h4>
+ <p>A Valletta jury found Yorgen Fenech not guilty of complicity and conspiracy in the 2017 assassination of investigative journalist Daphne Caruana Galizia, who was killed by a car bomb after exposing corruption at the heart of Maltese politics. Fenech, the last of six people charged, left court to hecklers. Her family said the verdict denied her the &ldquo;justice she deserves&rdquo;: &ldquo;Our country failed to protect Daphne. It owes it to her to prevent other lives being lost.&rdquo;</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">Nine years on, the ledger reads: the bombers convicted, the middleman pardoned in exchange for testimony, a government toppled, a public inquiry finding the Maltese state &ldquo;has to bear responsibility&rdquo; &mdash; and now the man accused of ordering and paying for the killing walking free, with no alternative mastermind on any charge sheet. An acquittal is not innocence proven but a case unproven, and this one rested heavily on a pardoned fixer&rsquo;s credibility; juries are entitled to doubt such witnesses, which is precisely why states that murder by proxy prefer them. For Europe&rsquo;s press-freedom architecture, built substantially on Caruana Galizia&rsquo;s name, the message received by every corrupt interest on the continent is chilling: the trigger-pullers are expendable, the commissioning class is unreachable. Watch whether prosecutors appeal &mdash; Malta allows it &mdash; and whether the EU&rsquo;s anti-SLAPP and journalist-protection directives, both born of this case, gain new urgency.</div>
+ </details>
+ </div>
+ </div>
+ <div class="curated-column">
+ <h3><span class="dot dom"></span><span class="dot-label">UK</span> UK Domestic Politics</h3>
+ <div class="curated-item" data-time="14:15" data-slug="burnham-first-pmqs">
+ <h4>Burnham's First PMQs: 'Fiscal Responsibility' Pledge Meets 'Spendthrift' Charge</h4>
+ <p>Facing Kemi Badenoch for the first time as the bond market squeezed his Budget, the Prime Minister promised &ldquo;a government grounded in fiscal responsibility&rdquo; that &ldquo;will stick to the fiscal rules&rdquo;. Ms Badenoch said markets fear &ldquo;a spendthrift prime minister who wants to say yes to everyone but cannot tell us where the money is coming from&rdquo; &mdash; demanding &ldquo;is he preparing to raise taxes again, yes or no?&rdquo; &mdash; and jibed that a PM should be &ldquo;a leader, not a people pleaser&rdquo;. Mr Burnham declined to &ldquo;write the Budget here&rdquo;, and noted her new shadow chancellor &ldquo;helped to write the Truss mini budget&rdquo;.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">Both leaders arrived with the same script conceit &mdash; the other is the market risk &mdash; and the session sketched the argument that will run to the next election: Ms Badenoch&rsquo;s cleverest weapon was borrowed authority, quoting Lord O&rsquo;Neill, the Prime Minister&rsquo;s own former adviser, on the statement investors least wanted to hear; Mr Burnham&rsquo;s was history, welding her new economic team to the Truss mini-Budget to Tory cries of &ldquo;point-scoring&rdquo;. His answer on defence &mdash; NATO commitments met &ldquo;by 2035&rdquo; &mdash; conceded no ground to her call for 3% now. What the exchange could not disguise is that October&rsquo;s Budget will resolve the argument one way: with yields where they are, &ldquo;fiscal responsibility&rdquo; and &ldquo;no tax rises&rdquo; cannot both survive contact with the arithmetic. Watch which pledge gives way on the 28th.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="19:28" data-slug="gilt-yields-2008-high-headroom">
+ <h4>Ten-Year Gilt Touches Highest Since 2008; Half of Budget Headroom Feared Gone</h4>
+ <p>The 10-year gilt yield hit 5.29% &mdash; its highest since 2008 &mdash; before a late rally pulled it back to close slightly down at 5.23%, with the 30-year touching 5.92%. Analysts believe higher rates could wipe out up to half of the &pound;24bn headroom against the fiscal rules, just as the OBR takes its Budget snapshot; investors now expect three Bank of England rises to 4.5% within a year. &ldquo;Debt interest is now one in every &pound;12 the government is spending,&rdquo; said the IFS&rsquo;s Helen Miller.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The late rally was the day&rsquo;s only mercy, and its timing is everything: the OBR&rsquo;s yield snapshot &mdash; the number that becomes the Budget&rsquo;s baseline &mdash; is being taken about now, meaning this fortnight&rsquo;s trading writes October&rsquo;s tax policy more directly than any cabinet meeting. Government insiders conceding the Chancellor cannot credibly present a Budget with less than double-digit headroom tells markets what to expect: consolidation, and the search for revenue that does not breach manifesto language. The crueller twist is monetary: three expected rate rises would lift mortgage costs precisely as Mr Burnham campaigns on cutting the cost of living &mdash; the bond market unpicking his programme from both ends. Thursday brings Mr Macron to Downing Street and Monday a growth speech from the Chancellor; both are now market events. Watch the 30-year &mdash; it moved first all week.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="14:10" data-slug="early-release-schedule-published">
+ <h4>Early-Release Schedule Becomes Law: 700 Prisoners Freed on 1 October</h4>
+ <p>The revised early-release plan was signed into law: about 700 offenders leave prisons in England and Wales on the morning of 1 October, roughly 2,550 by year-end, and ~4,500 in monthly tranches to June 2027. The ministerial order exempts 71 offences including manslaughter, rape and grooming &mdash; about 1,400 fewer releases than first planned. Mr Burnham said he understood victims&rsquo; &ldquo;anguish&rdquo; and had &ldquo;asked for changes&hellip; we excluded rape, grooming, and child sex offences&rdquo;. Probation now has under a fortnight to prepare each tranche.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">Publication converts an argument into a calendar: seven hundred releases on a single October morning, then monthly tranches whose dates every probation office, victim liaison unit and local newsroom now knows in advance &mdash; transparency that is both honest and hostage-giving, since any serious offence by any released prisoner carries its tranche number with it. The 71-offence exemption list is the government&rsquo;s armour, bought at the price of 1,400 fewer releases from a system with fifteen hundred spare cells; the arithmetic still points the wrong way, which is why the halfway-point release change for longer sentences matters more than the headlines suggest. Probation&rsquo;s compressed fortnight is the weakest link &mdash; supervision failures, not release decisions, are where such schemes break. Watch 1 October itself; the scheme&rsquo;s survival depends on its first morning passing quietly.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="16:44" data-slug="sheffield-baby-four-charged">
+ <h4>Four Charged With Murdering Newborn Found With 33 Stab Wounds</h4>
+ <p>Four people &mdash; a woman of 20, a man of 19 and his parents, all from Slovakia &mdash; were charged with murdering the newborn girl known as Baby S, found dead in an outbuilding in Wincobank, Sheffield, on Sunday. Magistrates heard she died from 33 wounds from 15 separate stabbings. A 15-year-old girl is charged with perverting the course of justice. All four adults were remanded and appear at crown court on Thursday. Police asked the public &ldquo;to avoid speculating&hellip; while the legal process takes its course&rdquo;.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The charging decisions answer Tuesday&rsquo;s question &mdash; prosecutors believe they can isolate responsibility within the household &mdash; and the charge sheet&rsquo;s architecture shows how: murder for four, joined by causing-or-allowing counts that hold everyone present accountable even if a single hand cannot be proven, and concealment charges that criminalise the silence afterwards. The detail heard in court forecloses every innocent explanation the weekend permitted. A sobbing fifteen-year-old in youth custody, charged only with the cover-up, is the case&rsquo;s bleakest thread &mdash; a child recruited into concealing a child&rsquo;s death. From here the reporting narrows sharply: with five now charged, contempt law rightly closes the speculation police warned against. Watch Thursday&rsquo;s crown court listing and the eventual trial timetable &mdash; likely next year &mdash; and little else can properly be said.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="18:43" data-slug="farage-complainants-society">
+ <h4>Farage Dismisses Donation Probes on Conference Eve: 'We Live in a Complainants' Society'</h4>
+ <p>Nigel Farage brushed aside the investigations shadowing Reform&rsquo;s Birmingham conference, insisting &ldquo;I firmly believe I have broken no rules&rdquo; over the &pound;5m from donor Christopher Harborne, and casting the scrutiny as establishment fightback: &ldquo;The old two-party system&hellip; feels for the first time it faces an existential threat.&rdquo; Of the standards committee: &ldquo;Have you seen who&rsquo;s on the committee? I think we know the outcome already.&rdquo; The Met is separately examining whether pre-election payments to Reform complied with donation law. He conceded the party is &ldquo;down a bit&rdquo; in the polls.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">Mr Farage is running the play that has never failed him &mdash; convert every investigation into evidence of persecution &mdash; but the terrain has shifted: pre-emptively declaring a parliamentary process &ldquo;rigged&rdquo; risks a stiffer penalty if the committee finds against him, and a Metropolitan Police inquiry into donation compliance cannot be waved off as complainants complaining. The deeper tell is strategic: &ldquo;down a bit&rdquo; in the polls, banning three critical journalists from his own conference, and predicting a market-forced spring election &mdash; the behaviour of a party that expected to be further ahead once Labour changed leader. Mr Burnham&rsquo;s arrival has compressed Reform&rsquo;s space on exactly the ground &mdash; class, place, grievance with Westminster &mdash; Mr Farage thought was his. Watch the conference&rsquo;s tone: insurgent confidence or wagon-circling will be visible from the platform by Friday.</div>
+ </details>
+ </div>
+ </div>
+ </div>
+ <div class="one-to-read">
+ <span class="otr-label">One To Read</span>
+ <a href="https://www.bbc.co.uk/news/articles/c0rez9zegj5o" target="_blank" rel="noopener noreferrer">
+ <h4>Why the Bond Market Wildfire Is Keeping World Leaders Up at Night</h4>
+ <span class="otr-source">BBC News</span>
+ <span class="otr-dot">&middot;</span>
+ <span class="otr-desc">Faisal Islam on the global sell-off squeezing governments from Tokyo to London &mdash; and why Britain sits at the sharp end of it.</span>
+ </a>
+ </div>
+ <!-- SOURCES USED
+ - https://www.bbc.co.uk/news/articles/cj06q4ynpmjo &mdash; BBC News: Iran day two
+ - https://www.nbcnews.com/politics/national-security/us-launched-large-powerful-strikes-iran-trump-says-rcna595581 &mdash; NBC News: strikes and retaliation
+ - https://www.npr.org/2026/09/02/nx-s1-5954013/us-iran-war-latest-updates &mdash; NPR: war latest
+ - https://www.aljazeera.com/news/2026/9/2/trump-suggests-renaming-strait-of-hormuz-as-trump-strait-amid-iran &mdash; Al Jazeera: Trump Strait
+ - https://www.cbsnews.com/live-updates/us-iran-war-trump-dismisses-diplomacy-tehran-says-wedding-hit-in-strike/ &mdash; CBS News: Trump 'anytime we want'
+ - https://www.bbc.co.uk/news/articles/cx2zxgg4mx9o &mdash; BBC News: Sidr tanker deaths
+ - https://www.aljazeera.com/news/2026/9/2/saudi-arabia-condemns-deadly-iranian-attack-on-tanker-in-strait-of-hormuz &mdash; Al Jazeera: Saudi condemnation
+ - https://www.cnbc.com/2026/09/02/energy-secretary-chris-wright-tells-cnbc-that-more-than-17-million-barrels-of-oil-transited-hormuz-on-monday.html &mdash; CNBC: Hormuz transits
+ - https://www.bbc.co.uk/news/articles/ce9e810pg7ko &mdash; BBC News: EU response
+ - https://www.aljazeera.com/news/2026/9/2/eu-pursuing-more-russia-sanctions-after-failed-airport-attack-kallas &mdash; Al Jazeera: Kallas sanctions
+ - https://news.sky.com/story/germany-probes-possible-acts-of-sabotage-after-explosives-found-at-substation-13580446 &mdash; Sky News: substation sabotage
+ - https://www.npr.org/2026/09/02/g-s1-141502/germany-russia-attempted-drone-attack &mdash; NPR: Moscow response
+ - https://www.bbc.co.uk/news/articles/c9v9yydy2wvo &mdash; BBC News: airspace warning
+ - https://apnews.com/article/russia-ukraine-war-drones-missiles-kyiv-odesa-7564a892bfb99a853aa150c8710b7985 &mdash; AP: Kyiv attacks
+ - https://www.bbc.co.uk/news/articles/c62j50n131mo &mdash; BBC News: Putin press conference
+ - https://www.bbc.co.uk/news/articles/c5ye295pxgxo &mdash; BBC News: Fenech verdict
+ - https://www.npr.org/2026/09/02/nx-s1-5954420/daphne-caruana-galizia-case-yorgen-fenech-acquitted-malta &mdash; NPR: Caruana Galizia case
+ - https://www.aljazeera.com/news/2026/9/2/malta-businessman-acquitted-of-plotting-journalist-caruana-galizia-murder &mdash; Al Jazeera: acquittal
+ - https://www.bbc.co.uk/news/articles/cn9wv7pene2o &mdash; BBC News: first PMQs
+ - https://www.theguardian.com/politics/2026/sep/02/burnhams-first-pmqs-showed-a-leader-who-wants-to-please-but-knows-how-to-push-back &mdash; The Guardian: PMQs analysis
+ - https://www.theguardian.com/business/2026/sep/02/burnham-tries-to-calm-bond-market-fears-as-sell-off-threatens-budget &mdash; The Guardian: bond market fears
+ - https://www.cnbc.com/2026/09/02/global-bond-yields-inflation-rates.html &mdash; CNBC: global bond rout
+ - https://www.bbc.co.uk/news/articles/c0rez9zegj5o &mdash; BBC News: Faisal Islam analysis
+ - https://www.bbc.co.uk/news/articles/cj4jnqvdny0o &mdash; BBC News: release schedule
+ - https://www.theguardian.com/uk-news/2026/sep/02/charged-newborn-baby-stabbed-death-sheffield &mdash; The Guardian: Sheffield charges
+ - https://news.sky.com/story/four-people-charged-with-murder-after-death-of-newborn-baby-girl-in-sheffield-13580290 &mdash; Sky News: murder charges
+ - https://www.bbc.co.uk/news/articles/cn458wx1w0eo &mdash; BBC News: court appearance
+ - https://www.bbc.co.uk/news/articles/cd6857j2v1qo &mdash; BBC News: Farage interview
+ - https://www.independent.co.uk/news/uk/politics/nigel-farage-crypto-billionaire-gift-standards-committee-b3043501.html &mdash; The Independent: Farage penalty warning
+ END SOURCES USED -->
+ </div><!-- ── END EVENING 02 SEP (22:45) ── -->
+
+<div class="curated-edition morning" data-date="2026-09-02" data-time="22:44" data-markets='{"FTSE":{"price":10752.0,"change":-0.34},"SP":{"price":7631.0,"change":0.0},"Brent":{"price":94.84,"change":-0.4},"GBP":{"price":1.3509,"change":-0.04},"Gold":{"price":4328,"change":0.0},"EURGBP":{"price":0.8569,"change":-0.07},"Gilt":{"price":5.25,"change":0.0},"VIX":{"price":16.34,"change":0.0},"BTC":{"price":77544,"change":0.6},"UST":{"price":4.8,"change":0.0},"ts":"2026-09-02T22:44:00+01:00"}'>
+ <div class="edition-header">
+ <span class="edition-icon">&#9728;&#65039;</span>
+ <h2>Morning Briefing</h2>
+ </div>
+ <div class="curated-meta">Wednesday 2 September 2026 &mdash; 22:44 BST</div>
+ <div class="impact-box">
+ <h3 class="impact-heading">What It Means For You</h3>
+ <ul class="impact-list">
+ <li><strong>Borrowing:</strong> The 30-year gilt yield is at a 28-year high and the 10-year jumped towards 5.3% in early trading &mdash; mortgage pricing and the Chancellor&rsquo;s 28 October Budget arithmetic both tighten.</li>
+ <li><strong>Fuel:</strong> Brent touched $97 overnight as Iran retaliated across the Gulf before easing to $95 &mdash; pump prices follow crude with roughly a fortnight&rsquo;s lag.</li>
+ <li><strong>Water bills:</strong> Mr Burnham says water privatisation will be &ldquo;very difficult to reverse&rdquo; &mdash; bills already up 20 per cent-plus are central to the &ldquo;public control&rdquo; plans promised this year.</li>
+ </ul>
+ </div>
+ <div class="curated-grid">
+ <div class="curated-column">
+ <h3><span class="dot geo"></span><span class="dot-label">GEO</span> Geopolitical</h3>
+ <div class="curated-item" data-time="07:42" data-slug="iran-retaliates-five-countries">
+ <h4>Iran Retaliates Against US Bases in Five Countries Overnight</h4>
+ <p>Iran fired ballistic missiles and drones at US bases in Bahrain, Iraq, Jordan, Kuwait and the UAE overnight, answering Tuesday&rsquo;s American bombardment &mdash; which Tehran says struck a home hosting a wedding on the Hormuz coast, killing at least four people including a child, with initial reports saying five. Jordan destroyed ten of thirteen missiles; Kurdish authorities intercepted ten drones near Irbil. &ldquo;Make no mistake: these crimes will not go unpunished,&rdquo; said Ebrahim Azizi, chair of Iran&rsquo;s parliamentary security committee. The rial hit a record 2.2 million to the dollar.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The geography of the retaliation is the message: five countries in one night converts a bilateral exchange into a region-wide war, and every Gulf state hosting American forces has now been reminded that hosting carries a price. Yet the choreography still shows restraint of a kind &mdash; missiles mostly intercepted, casualties near zero on the American side &mdash; while the wedding deaths at Kuhestak hand Tehran a grievance it will spend heavily. The IRGC&rsquo;s language, an &ldquo;engagement&rdquo; turned &ldquo;mourning ceremony&rdquo;, is built for the region&rsquo;s airwaves. The Crisis Group&rsquo;s warning names the trap: each side may eventually escalate simply to break the cycle, and that is the definition of a full-scale war. Watch the currency &mdash; a rial in freefall pressures Tehran&rsquo;s decisions faster than any missile.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="06:56" data-slug="egypt-sinai-bus-crash">
+ <h4>Bus Crash on Egypt's Sinai Coast Kills at Least 21</h4>
+ <p>A bus carrying 43 people crashed on the Dahab&ndash;Nuweiba road along the Sinai Peninsula&rsquo;s Red Sea coast this morning, killing at least 21 &mdash; a toll that rose through the morning from an initial 16 &mdash; and injuring more than 20. Jordanian state media said ten of the dead were Jordanian nationals; 22 of those aboard were Jordanian. Twenty ambulances were dispatched and hospitals placed on raised preparedness. Egypt recorded nearly 6,000 road deaths last year.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The Dahab&ndash;Nuweiba road threads the resorts that anchor Sinai&rsquo;s tourism economy, and a bus of Jordanian visitors dying on it is both a human tragedy and a blow to an industry Egypt has spent years coaxing back after insurgency and pandemic. The deeper story is the country&rsquo;s road-safety record: nearly six thousand deaths a year, a crash killing eighteen in Ismailia only last month, and a pattern of overloaded vehicles, long overnight drives and patchy enforcement that officials lament after every disaster and reform after none. For Jordan, ten dead in a neighbouring country compounds a week in which Iranian missiles have twice crossed its airspace. Watch the injured toll &mdash; and whether Cairo&rsquo;s promised investigation outlives the news cycle.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="03:16" data-slug="joshua-wong-guilty-plea">
+ <h4>Joshua Wong Pleads Guilty in Second Security Case; Faces Up to Life</h4>
+ <p>Hong Kong democracy activist Joshua Wong, 29, pleaded guilty to conspiring to seek foreign sanctions against Hong Kong and China &mdash; a national security charge carrying up to life imprisonment if deemed &ldquo;of a grave nature&rdquo;. Prosecutors accuse him of working with exiled activist Nathan Law to urge foreign powers to impose sanctions. Wong has been imprisoned continuously since November 2020 and had been due for release in January 2027. Supporters queued overnight for courtroom seats; he waved from the dock.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The timing is the cruelty: a second prosecution landing months before Wong&rsquo;s release date, converting a sentence with an end into one without &mdash; the pattern Hong Kong&rsquo;s security apparatus has refined for its best-known dissidents, where each freedom date approaches and a fresh charge arrives. A guilty plea under such a system is not an admission but an actuarial calculation; as one supporter put it outside court, &ldquo;a forced reality&rdquo; in a process with &ldquo;zero space for a fair trial&rdquo;. Wong was 23 when the door closed; he is 29 now, and the charge sheet reaches back to activity that was ordinary politics when he did it. Watch the sentence &mdash; the gap between three years and life will measure how completely Beijing wants the city&rsquo;s most famous face erased.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="07:49" data-slug="kyiv-sixth-day-bombardment">
+ <h4>Russia Pounds Kyiv for Twelve Hours on Sixth Straight Day of Attacks</h4>
+ <p>Russia bombarded Kyiv with cruise and ballistic missiles, jet-powered drones, glide bombs and artillery for more than twelve hours, killing at least a dozen people and wounding more across nine regions &mdash; an unprecedented sixth consecutive day of heavy attacks on the capital, timed as millions of children returned for the fifth school year since the invasion. &ldquo;Russia&rsquo;s army is bogged down on the ground, and that is why they are killing civilians from the skies,&rdquo; said the EU&rsquo;s Kaja Kallas.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">Six consecutive days is a change of doctrine, not a bad week: sustained bombardment of a capital at this tempo requires stockpiles, production and a decision that terror is the strategy &mdash; Kallas&rsquo;s formulation, cruel and accurate, is that the skies compensate for the ground. The first-day-of-school timing reads as deliberate; Russia has repeatedly chosen symbolic calendars for its heaviest strikes. What should worry Europe&rsquo;s capitals is the arithmetic on the other side of the ledger: air defence interceptors are consumed faster than the West replaces them, and every twelve-hour night drains a finite pool. With the world&rsquo;s attention consumed by the Gulf, Moscow is testing how much escalation goes unanswered. Watch interceptor resupply announcements &mdash; and whether the seventh day follows the sixth.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="08:00" data-slug="nepal-mass-graves">
+ <h4>Nepal Digs Mass Graves as Toll Passes 1,100; Nearly 4,000 Missing</h4>
+ <p>Nepal&rsquo;s death toll passed 1,114 with 3,916 missing &mdash; including at least 583 foreign nationals, among them 75 unaccounted-for Americans &mdash; as a bulldozer dug a mass grave in Bidur and hazmat-suited workers unloaded bodies. More than 10,000 people have been rescued, but blocked highways still strangle access a week after the glacial flood. &ldquo;I have posted so much that my fingers started shaking,&rdquo; said a Kathmandu nurse with ten missing relatives. &ldquo;My mind has stopped working. But we have not stopped posting.&rdquo;</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">Mass graves mark the moment a disaster&rsquo;s arithmetic overwhelms its rituals: Bidur is burying unidentified dead because the living cannot keep pace, and the &ldquo;overwhelming stench&rdquo; reported from the valley is doing what no official statement will &mdash; telling families the search has changed character. Yet the missing lists still hold the living: ten thousand rescued so far, a contacted American this week, and hundreds of hydropower workers whose tunnel geometry may yet have sheltered them. This is now Nepal&rsquo;s deadliest disaster since the 2015 earthquake, and the questions about warning systems &mdash; a flood that took ninety minutes to reach its first victims after being detected &mdash; are sharpening into a reckoning. Watch the foreign-national count; 583 missing visitors will internationalise the inquiry that follows.</div>
+ </details>
+ </div>
+ </div>
+ <div class="curated-column">
+ <h3><span class="dot dom"></span><span class="dot-label">UK</span> UK Domestic Politics</h3>
+ <div class="curated-item" data-time="08:15" data-slug="gilt-yields-28-year-high">
+ <h4>Borrowing Costs at 28-Year High as Bond Sell-Off Goes Global</h4>
+ <p>The 30-year gilt yield stands at its highest since 1998 and the 10-year jumped towards 5.3% in early London trading, after Asian markets fell sharply overnight &mdash; the Nikkei down 2.85% &mdash; in a global bond rout driven by the Gulf war, oil near $95 and inflation fears. Deutsche Bank reckons the Chancellor&rsquo;s &pound;26bn of Budget headroom could be under &pound;14bn by 28 October. &ldquo;This is red lights flashing,&rdquo; said XTB&rsquo;s Kathleen Brooks.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The uncomfortable truth in the overnight moves is that Britain sits at the sharp end of a global problem: every indebted government is paying more to borrow, but the UK pays most, because markets are pricing a new prime minister whose instincts are expansive against a fiscal position with no slack. Lord O&rsquo;Neill &mdash; Mr Burnham&rsquo;s own former adviser &mdash; saying the Commons statement was the &ldquo;last thing&rdquo; investors needed, and that the triple lock and &ldquo;excessive&rdquo; welfare spending must now be confronted, is friendly fire of the most damaging kind. The transmission is direct: gilt yields set the price of fixed mortgages and the size of the tax rises available to avoid them. Watch this morning&rsquo;s auction appetite and the Chancellor&rsquo;s language from the G20 &mdash; reassurance is now a market event.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="20:27" data-slug="israel-uk-retaliation-threat">
+ <h4>Israel Warns It Will 'Act Against Britain' Over Settlement Sanctions Plan</h4>
+ <p>Israeli foreign minister Gideon Saar warned &ldquo;If Britain acts against Israel, Israel will act against Britain&rdquo; after Ed Miliband told the Commons the UK will &ldquo;reset&rdquo; Israel policy within weeks &mdash; including possible bans on British firms financing or advertising West Bank settlements and on trade with illegal settlements. &ldquo;This Government will not acquiesce in the destruction of the two-state solution,&rdquo; the Foreign Secretary said. Mr Burnham told MPs the E1 settlement tender &ldquo;could imperil, if not end&rdquo; a two-state outcome.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">Two governments heading towards elections are talking past each other to their own electorates: Mr Saar&rsquo;s threat plays to an Israeli campaign season in which toughness towards Europe is cheap, while Mr Miliband&rsquo;s &ldquo;reset&rdquo; answers a Labour membership and a public that has moved decisively on Gaza. What makes this more than rhetoric is the specificity &mdash; settlement-finance bans are a genuine economic instrument, not a communiqu&eacute;, and Britain moving first would create a template Brussels could follow, which is precisely why Jerusalem is threatening costs now, before the measures are drafted. The E1 tender gives the argument a deadline: decisions expected before Israel&rsquo;s October election. Watch what &ldquo;act against Britain&rdquo; turns out to mean &mdash; intelligence cooperation, trade, or merely volume.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="21:20" data-slug="prison-spaces-1500">
+ <h4>Male Prison Spaces Fall to 1,500 as &pound;110m 'Laundry Rooms to Cells' Plan Lands</h4>
+ <p>Available spaces across the male prison estate in England and Wales fell to about 1,500 on 1 September &mdash; under half June&rsquo;s figure, with prisons at 97% capacity &mdash; as ministers found &pound;110m to convert offices, laundry rooms and storage into cells. Justice Secretary Alex Norris expects between 200 and 900 extra places. &ldquo;Where are the staff coming from to supervise people? Nobody wants to be a prison officer anymore,&rdquo; said POA chair Mark Fairhurst.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">Fifteen hundred spaces against a system holding eighty-odd thousand is not headroom; it is the distance between an ordinary bad fortnight and courts being told to stop sending people. That is the real driver of every early-release decision this government has taken, and the &pound;110m conversion plan &mdash; laundry rooms into cells, found from existing budgets &mdash; is what improvisation looks like when the honest options are years away. Mr Fairhurst&rsquo;s question is the one the plan cannot answer: cells without officers are storage, and recruitment is the system&rsquo;s deepest failure. The deportation figures ministers prefer to cite &mdash; 5,962 foreign offenders removed, the most since 2017 &mdash; buy arithmetic but not time. Watch October&rsquo;s first release tranche meet a system with a fortnight&rsquo;s slack and no staff margin.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="23:42" data-slug="burnham-water-reversal-difficult">
+ <h4>Burnham: Water Privatisation 'Very Difficult to Reverse'</h4>
+ <p>The Prime Minister cooled expectations of water nationalisation overnight, telling MPs privatisation has left the country &ldquo;in a position where we&rsquo;re going to find it very difficult to reverse&rdquo; &mdash; because &ldquo;funding has left through salaries and dividends&hellip; it&rsquo;s the billpayers who are being asked to pay 20 per cent-plus on their bills, not those who siphoned the money out in the first place. It&rsquo;s an industry where the shareholders never lose and the billpayers never win.&rdquo; Ministers are assessing &ldquo;all possible solutions&rdquo;.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">Read alongside Tuesday&rsquo;s &ldquo;stronger public control&rdquo; pledge, this is the sound of a promise meeting a balance sheet: Defra has previously put nationalisation near &pound;100bn, and a prime minister being punished by the bond market for ambition cannot add a nationalisation bill to it. The interesting phrase is &ldquo;very difficult&rdquo;, not impossible &mdash; and his diagnosis, that shareholders extracted the equity while billpayers now fund the repair, is the argument for taking utilities back, deployed to explain why he may not. Expect the eventual plan to live in the space between: special administration regimes, dividend controls, mutualisation of failing companies rather than purchase of solvent ones. Watch whether Thames Water &mdash; the leaking monument itself &mdash; forces the question before the plan is ready.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="07:00" data-slug="badenoch-reshuffle-pmqs-day">
+ <h4>Badenoch's Rebuilt Front Bench Faces Burnham at First PMQs Today</h4>
+ <p>Kemi Badenoch&rsquo;s reshuffled shadow cabinet has its first outing at noon as Mr Burnham takes Prime Minister&rsquo;s Questions for the first time. Andrew Griffith replaces Mel Stride as shadow chancellor, Tom Tugendhat takes foreign affairs from the sacked Priti Patel, and Katie Lam moves to communities after James Cleverly quit to run for London mayor. &ldquo;Kemi has to change tack because she&rsquo;s facing different opposition,&rdquo; said Tory polling expert Lord Hayward. &ldquo;Everyone in the party knows she will have to adapt.&rdquo;</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">Reshuffles are usually about the reshuffler, and this one tells us Ms Badenoch believes her survival depends on an economic argument: a new Treasury unit under Mr Griffith, built to prosecute the coming Budget, is a bet that Mr Burnham&rsquo;s spending instincts &mdash; and a bond market already in revolt &mdash; will hand the Conservatives their opening. The risk sits in the same appointment: Mr Griffith helped write the Truss mini-Budget, a fact Labour&rsquo;s attack unit will have rehearsed before lunch. The subtext her allies volunteer &mdash; being &ldquo;battle-ready&rdquo; for a snap 2027 election &mdash; concedes how quickly politics has accelerated under a new prime minister. Watch today&rsquo;s exchanges: first PMQs meetings set a template that tends to endure, and both leaders know it.</div>
+ </details>
+ </div>
+ </div>
+ </div>
+ <div class="one-to-read">
+ <span class="otr-label">One To Read</span>
+ <a href="https://www.theguardian.com/politics/2026/sep/02/conservative-reshuffle-is-a-response-to-shifting-political-tides" target="_blank" rel="noopener noreferrer">
+ <h4>The Reshuffle Is a Response to Shifting Political Tides</h4>
+ <span class="otr-source">The Guardian</span>
+ <span class="otr-dot">&middot;</span>
+ <span class="otr-desc">Why Badenoch rebuilt her front bench for a different opponent &mdash; and what the choices reveal about where the Conservatives think the next election will be fought.</span>
+ </a>
+ </div>
+ <!-- SOURCES USED
+ - https://apnews.com/article/iran-us-strikes-hormuz-trump-september-2-2026-cc891e22860d7a53bf7ade9a3d74c0ae &mdash; AP: Iran retaliation wrap
+ - https://www.nbcnews.com/politics/national-security/us-launched-large-powerful-strikes-iran-trump-says-rcna595581 &mdash; NBC News: US strikes
+ - https://www.cbsnews.com/live-updates/iran-war-us-strikes-strait-of-hormuz-larak-island/ &mdash; CBS News: Iran attacks Jordan and Bahrain
+ - https://www.aljazeera.com/news/2026/9/2/at-least-16-dead-28-injured-in-egypt-bus-crash &mdash; Al Jazeera: Sinai bus crash
+ - https://news.sky.com/story/egypt-bus-crash-21-people-killed-in-area-popular-with-tourists-13580237 &mdash; Sky News: crash toll
+ - https://www.theguardian.com/world/2026/sep/02/hong-kong-pro-democracy-activist-joshua-wong-pleads-guilty-collusion-china &mdash; The Guardian: Wong plea
+ - https://news.sky.com/story/joshua-wong-pleads-guilty-under-hong-kongs-security-law-13580218 &mdash; Sky News: Wong hearing
+ - https://apnews.com/article/russia-ukraine-war-drones-missiles-kyiv-odesa-7564a892bfb99a853aa150c8710b7985 &mdash; AP: Kyiv bombardment
+ - https://www.nbcnews.com/world/asia/nepal-floods-deaths-pass-1000-death-smell-rcna595469 &mdash; NBC News: Nepal mass graves
+ - https://www.bbc.co.uk/news/articles/c8d39vq779no &mdash; BBC News: gilt yields
+ - https://www.theguardian.com/business/2026/sep/02/global-bond-sell-off-us-iran-tensions-inflation-fears &mdash; The Guardian: global bond sell-off
+ - https://www.independent.co.uk/news/uk/politics/uk-israel-sanctions-burnham-ed-miliband-gideon-saar-b3043100.html &mdash; The Independent: Saar warning
+ - https://www.bbc.co.uk/news/articles/cr7degkkv5go &mdash; BBC News: Israel reset
+ - https://www.bbc.co.uk/news/articles/ce8ey8kzk3no &mdash; BBC News: prison spaces
+ - https://www.independent.co.uk/news/uk/politics/burnham-water-companies-privatisation-sewage-tourism-b3043094.html &mdash; The Independent: water rowback
+ - https://www.theguardian.com/politics/2026/sep/02/conservative-reshuffle-is-a-response-to-shifting-political-tides &mdash; The Guardian: reshuffle analysis
+ - https://www.bbc.co.uk/news/articles/c7507z4enq6o &mdash; BBC News: PMQs preview
+ END SOURCES USED -->
+ </div><!-- ── END MORNING 02 SEP (22:44) ── -->
+
 
 <div class="curated-edition evening" data-date="2026-09-01" data-time="22:58" data-markets='{"FTSE":{"price":10789.0,"change":-0.32},"SP":{"price":7631.0,"change":-0.71},"Brent":{"price":95.22,"change":5.23},"GBP":{"price":1.3514,"change":-0.27},"Gold":{"price":4328,"change":-2.5},"EURGBP":{"price":0.8575,"change":-0.05},"Gilt":{"price":5.25,"change":0.03},"VIX":{"price":16.34,"change":9.5},"BTC":{"price":77115,"change":-2.4},"UST":{"price":4.8,"change":0.04},"ts":"2026-09-01T22:58:00+01:00"}'>
  <div class="edition-header">
@@ -4596,305 +4914,10 @@
  </div><!-- ── END MORNING 26 AUG (08:50) ── -->
 
 
- <div class="curated-edition evening" data-date="2026-08-25" data-time="18:45" data-markets='{"FTSE":{"price":10886.0,"change":0.29},"SP":{"price":7676.0,"change":0.31},"Brent":{"price":87.41,"change":-3.46},"GBP":{"price":1.3639,"change":0.01},"Gold":{"price":4643,"change":-0.17},"EURGBP":{"price":0.8558,"change":0.07},"Gilt":{"price":4.99,"change":-0.07},"VIX":{"price":15.5,"change":-2.2},"BTC":{"price":79200,"change":-0.3},"UST":{"price":4.65,"change":-0.05},"ts":"2026-08-25T18:45:00+01:00"}'>
- <div class="edition-header">
- <span class="edition-icon">&#127769;</span>
- <h2>Evening Briefing</h2>
- </div>
- <div class="curated-meta">Tuesday 25 August 2026 &mdash; 18:45 BST</div>
- <div class="impact-box">
- <h3 class="impact-heading">What It Means For You</h3>
- <ul class="impact-list">
- <li><strong>Energy:</strong> Ofgem announces the winter price cap tomorrow &mdash; forecasts point to a rise of around 4 per cent to &pound;1,729 a year. The energy secretary signalled more targeted support is coming for vulnerable households.</li>
- <li><strong>Pensions:</strong> The DWP has begun reviewing pension credit claims. Being contacted does not mean wrongdoing &mdash; but have bank statements ready if asked.</li>
- <li><strong>Fuel:</strong> Oil fell again to $87 a barrel &mdash; its lowest in weeks &mdash; as Hormuz de-escalation talks gain traction. If sustained, pump prices should ease.</li>
- </ul>
- </div>
- <div class="curated-grid">
- <div class="curated-column">
- <h3><span class="dot geo"></span><span class="dot-label">GEO</span> Geopolitical</h3>
- <div class="curated-item" data-time="16:08" data-slug="cia-director-ratcliffe-moscow-visit">
- <h4>CIA Director Makes Unannounced Visit to Moscow</h4>
- <p>CIA Director John Ratcliffe flew into Moscow unannounced aboard a US military aircraft &mdash; his first known visit to Russia in the role, and among the highest-level American visits of the Trump presidency. Neither capital confirmed the purpose or who he met. Washington reportedly asked Kyiv to pause long-range strikes on major Russian cities during the visit. Flight data showed the C-17 on the ground at Vnukovo for roughly nine hours.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">Spy chiefs travel when governments want channels that do not appear on any schedule, and the choreography here &mdash; a military transport landing openly in Moscow, a diplomatic motorcade, a requested pause in Ukrainian strikes &mdash; suggests something both sides wanted to protect. The possibilities run from the stalled Ukraine peace track to the Iran war to a detainee exchange, the CIA&rsquo;s traditional lane; what is striking is that it comes days after Moscow threatened Britain over missile blueprints and withdrew its London ambassador, a reminder that Russia freezes relations with Europe even as it keeps its American channel warm. Europeans will note who was not in the room. Watch for what surfaces in the next fortnight &mdash; visits like this are usually explained by what follows them.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="16:00" data-slug="canada-dollar-for-dollar-retaliation">
- <h4>Canada Hits Back With Tariffs on C$27.6bn of US Goods</h4>
- <p>Canada announced retaliatory tariffs matching Washington &ldquo;dollar for dollar, rate for rate&rdquo; &mdash; levies of 15 to 50 per cent on more than 700 categories of American goods worth C$27.6bn, from steel and dairy to appliances and electronics, effective 8 September. &ldquo;When the United States asked too much and offered too little, we chose to stand up for Canadians,&rdquo; said Finance Minister Fran&ccedil;ois-Philippe Champagne. Ottawa added C$7bn in support for affected businesses.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The list is built for political pain rather than economic symmetry &mdash; dairy, appliances and consumer goods from states whose representatives might lobby the White House &mdash; and the &ldquo;buy Canadian&rdquo; campaign that ministers launched alongside it turns a tariff schedule into a national project. That is the deeper shift: each round of this war makes de-escalation harder because standing firm is now domestic politics on both sides, with the president floating the renaming of Lake Ontario while Ottawa talks of being &ldquo;masters of our own home&rdquo;. The September and January dates give the escalation a calendar with two exits. Markets, notably, shrugged &mdash; Wall Street absorbed the announcement within the hour. Watch whether talks resume before the 8 September start &mdash; and what happens to prices on both sides if they do not.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="17:30" data-slug="iran-oman-hormuz-corridor-china">
- <h4>Iran and Oman Discuss Hormuz Corridor as China Rejects Sanctions</h4>
- <p>Iran and Oman announced discussions on a &ldquo;joint temporary corridor&rdquo; through the Strait of Hormuz with mine-clearing efforts &mdash; the first concrete de-escalation step on the waterway since the crisis began. China vowed &ldquo;all necessary measures&rdquo; against Washington&rsquo;s &ldquo;illegal unilateral sanctions&rdquo;, while President Trump warned that any Iranian ship laying mines would be &ldquo;immediately and systematically destroyed&rdquo;. Iran&rsquo;s rial slid further as petrol queues formed in Tehran.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">Two currents are pulling in opposite directions. The corridor talks &mdash; backed by Pakistani mediation relaying Tehran&rsquo;s ceasefire conditions &mdash; are the most practical de-escalation on offer, and oil&rsquo;s slide towards $87 shows markets believe them. But China&rsquo;s response to the sanctions package is the strategic story: Beijing buys most of Iran&rsquo;s oil, a Trump-Xi meeting is planned for next month, and Washington&rsquo;s threat to sanction Chinese banks collides head-on with its need for that summit to succeed. &ldquo;Operation Economic Outcast&rdquo; only works if the world&rsquo;s second economy co-operates, and it has just said it will not. Watch whether the corridor talks produce something written &mdash; and whether the Chinese-bank threat survives contact with the summit diary.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="16:18" data-slug="russia-uk-factories-threat-refinery-strikes">
- <h4>Ex-Russian Official Warns UK Factories Face 'Unknown' Attacks</h4>
- <p>Andrei Fedorov, Russia&rsquo;s former deputy foreign minister, said UK factories producing missiles and drones for Ukraine &ldquo;could be attacked &mdash; not by Russia, but from unknown sources&rdquo;, and floated cyberattacks &mdash; escalating Moscow&rsquo;s threats over the Storm Shadow blueprint transfer. Ukraine, meanwhile, struck the Afipsky oil refinery in Krasnodar, killing two, and hit a gas plant, an airfield and jamming systems in a broad overnight campaign. Zelensky said he wants to &ldquo;raise production&rdquo; for &ldquo;more attacks&rdquo;.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">&ldquo;Not by Russia, but from unknown sources&rdquo; is the language of deniable sabotage, and Britain has heard it before &mdash; a wave of unattributed arson and disruption across Europe has been laid at the door of Russian intelligence by multiple governments. Aimed at defence plants on British soil, the threat marks a rung above rhetoric about Ukrainian factories, and it lands two days after an Iran-linked cyber-attack on a UK power station showed how the deniable playbook works in practice. Ukraine&rsquo;s refinery campaign, meanwhile, keeps grinding at Russia&rsquo;s fuel economy with evident effect. The pattern on both sides is the same: escalation kept carefully below the threshold of open confrontation. Watch UK security advice to defence contractors &mdash; and whether &ldquo;unknown sources&rdquo; stay unknown.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="16:58" data-slug="echr-orders-turkey-free-kavala">
- <h4>European Court Orders Turkey to Free Osman Kavala</h4>
- <p>The European Court of Human Rights ruled that Turkey must immediately release Osman Kavala, the philanthropist detained since 2017 and serving an aggravated life sentence over the Gezi Park protests. The court found his detention was &ldquo;predominantly motivated by an ulterior purpose&hellip; to punish him&hellip; and to silence him&rdquo;, called his sentence inhuman and degrading, and said his case exposed a &ldquo;systemic problem&rdquo; in Turkey&rsquo;s treatment of political opponents. Ankara insists its courts are independent.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The court already ordered Kavala&rsquo;s release once, in 2019, and Turkey&rsquo;s refusal triggered rare infringement proceedings &mdash; so the question tonight is not legal but political: whether a Council of Europe member can simply keep ignoring the court that anchors the continent&rsquo;s human-rights system. Kavala has become the emblematic case, a man imprisoned for life over protests he attended and a coup he condemned, and every year of defiance corrodes the convention system for everyone else under it. Turkey&rsquo;s Western partners have largely subordinated the issue to migration and NATO politics, which is precisely why Ankara has paid no price. Watch whether the ruling shifts anything in Strasbourg&rsquo;s infringement track &mdash; and whether any Western capital spends capital on it.</div>
- </details>
- </div>
- </div>
- <div class="curated-column">
- <h3><span class="dot dom"></span><span class="dot-label">UK</span> UK Domestic Politics</h3>
- <div class="curated-item" data-time="14:20" data-slug="a66-seventeen-arrests-tribute-row">
- <h4>A66 Arrests Reach 17 as Minister's Tribute Sparks Row</h4>
- <p>Cleveland Police arrested five more people over the A66 crash, bringing the total to 17, as Kai Beattie, 19, was charged with possessing a firearm with intent to endanger life. The house of one victim&rsquo;s father was rammed and its windows smashed. A political row erupted after Home Office minister Anna Turley paid tribute to all seven who died; the shadow justice secretary accused her of equating the men in the car with the officers &mdash; conduct she called &ldquo;beneath contempt&rdquo;.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">Seventeen arrests, a firearms charge and a ransacked house describe a live organised-crime conflict, not the aftermath of a road accident &mdash; and the attack on a grieving father&rsquo;s home suggests scores are being settled faster than police can contain them. The tribute row is the story&rsquo;s political shadow: whether a minister may mourn five men with 37 convictions between them alongside the officers they collided with is exactly the kind of question that burns without illuminating, and both parties reached for it within hours. Ms Turley says the force asked her to honour all the victims; the force declined to confirm. A &pound;750,000 fund for the officers&rsquo; families speaks more plainly. Watch the charge sheet grow &mdash; and whether the retaliation stops.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="16:30" data-slug="brent-civic-centre-stabbing">
- <h4>Man Stabbed to Death Inside Brent Council Headquarters</h4>
- <p>A young man &mdash; believed to be a teenager or in his early twenties &mdash; was stabbed to death inside Brent Civic Centre in Wembley, which houses the council&rsquo;s headquarters and a public library. No arrests have been made; the Met authorised additional stop-and-search powers and increased patrols. The council leader said the borough had been &ldquo;shaken by an appalling and deeply tragic incident&rdquo;, and the building will remain closed.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">A killing inside a civic centre &mdash; a building that exists to be the safest, most public of spaces, shared by a library, a register office and council staff &mdash; lands differently from violence on the street, and the Met&rsquo;s rapid authorisation of expanded stop-and-search says it fears retaliation. London&rsquo;s knife-crime debate tends to move in surges of attention after single shocking cases, and this one, beside Wembley Stadium in the borough that hosts England&rsquo;s national occasions, will carry further than most. The victim has not yet been named; the investigation is hours old. Watch for an identification and arrests overnight &mdash; and whether this becomes, as such cases do, the week&rsquo;s argument about policing, youth services and knives.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="11:39" data-slug="badenoch-sunak-seldon-book-claims">
- <h4>Badenoch 'Plotted to Remove Sunak' Before Election, Book Claims</h4>
- <p>Kemi Badenoch phoned cabinet colleagues in late 2023 asking &ldquo;if anyone was interested in changing the captain&rdquo;, according to Anthony Seldon&rsquo;s new book on the Sunak premiership, which claims she discussed resigning over the Rwanda policy and held back partly for fear of becoming &ldquo;a fag-end prime minister&rdquo;. The book quotes Mr Sunak telling allies: &ldquo;They probably want me to tell them to fuck off&hellip; but I have a country to run.&rdquo; An ally of Ms Badenoch called the claims &ldquo;total bollocks&rdquo;.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">Every fallen government gets its Seldon book, and the ritual matters less for the history than for the present: these claims land on a Conservative leader whose party sits behind Reform in the polls, and they hand every internal critic a framed portrait of disloyalty at the exact moment loyalty is her scarcest commodity. The specifics &mdash; soundings taken, a promise to &ldquo;take him out&rdquo;, calculations about blame for a coming defeat &mdash; are denied, but the picture of a cabinet openly gaming the succession while the government died is not seriously contested by anyone who lived through it. For a party still asking why it lost, the book supplies an uncomfortable answer: it had stopped governing long before the country stopped listening. Watch which colleagues corroborate &mdash; and which stay silent.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="15:25" data-slug="energy-support-price-cap-eve">
- <h4>Minister Signals Bill Support on Eve of Price Cap Rise</h4>
- <p>Energy Secretary Miatta Fahnbulleh said the government is looking at &ldquo;long-term targeted bill support&rdquo; and home upgrades worth over &pound;500 a year for vulnerable households, on the eve of Ofgem&rsquo;s winter price cap announcement &mdash; forecast to rise around 4 per cent to &pound;1,729, the highest winter level in three years. She acknowledged standing charges are &ldquo;too expensive&rdquo; for many. The rise would more than offset the VAT cut on electricity taking effect in October.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The arithmetic is uncomfortable for a government that made cheaper bills a signature: the Iran war has pushed wholesale gas up faster than policy can push bills down, so the &pound;45 VAT cut arrives just as the cap adds roughly &pound;66, and the record &pound;6bn of household energy debt we reported yesterday meets a winter of higher prices with support still at the &ldquo;looking at a range of options&rdquo; stage. The minister&rsquo;s candour on standing charges &mdash; the fixed costs that fall hardest on low users &mdash; hints where reform lands next. Tomorrow&rsquo;s announcement turns forecasts into facts, and the Budget eight weeks later is where &ldquo;targeted support&rdquo; becomes real money or does not. Watch the cap figure at 7am &mdash; and whether the Treasury blinks before October&rsquo;s bills land.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="16:32" data-slug="dwp-pension-credit-reviews">
- <h4>DWP Begins Pension Credit Reviews to Claw Back £370m</h4>
- <p>The Department for Work and Pensions has begun contacting pension credit claimants in a case-review campaign expected to save &pound;370m by 2031, with &pound;15m due to be recovered this year from around 10,700 claimants averaging &pound;1,400 in overpayments. Some will be asked for bank statements. The department stressed that &ldquo;being selected for a review does not mean the customer has done anything wrong&rdquo;. A third of pension credit claims were overpaid last year.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">Two numbers sit awkwardly beside each other in this story: the 33 per cent of claims now overpaid, which makes the case for checking, and the estimated 761,000 eligible pensioners who claim nothing at all &mdash; money the state keeps through silence rather than scrutiny. A review campaign that recovers &pound;370m from claimants while the larger sum of unclaimed entitlement goes unpursued is defensible bookkeeping and revealing politics; letters demanding bank statements land differently at 80 than at 40, and welfare-rights groups will watch how many pensioners simply give up their claims under review rather than navigate the process. The department&rsquo;s reassurance is genuine &mdash; overpayment is usually the system&rsquo;s error, not the claimant&rsquo;s. Watch the appeal and abandonment rates as the letters go out.</div>
- </details>
- </div>
- </div>
- </div>
- <div class="one-to-read">
- <span class="otr-label">One To Read</span>
- <a href="https://www.aljazeera.com/features/2026/8/25/trumps-latest-wave-of-iran-sanctions-which-60-entities-are-targeted" target="_blank" rel="noopener noreferrer">
- <h4>Operation Economic Outcast: The 60 Targets</h4>
- <span class="otr-source">Al Jazeera</span>
- <span class="otr-dot">&middot;</span>
- <span class="otr-desc">A breakdown of the 60 entities in Washington's new Iran sanctions wave &mdash; the banks, shipping networks and middlemen that keep Tehran's economy breathing, and what targeting them actually does.</span>
- </a>
- </div>
- <!-- SOURCES USED
- - https://www.bbc.co.uk/news/articles/c87vg9x5d7do &mdash; BBC News: CIA director Moscow visit
- - https://www.theguardian.com/us-news/2026/aug/25/cia-director-john-ratcliffe-moscow-russia &mdash; The Guardian: Ratcliffe Moscow
- - https://www.cbsnews.com/news/cia-director-john-ratcliffe-russia-secret-trip/ &mdash; CBS News: Ratcliffe trip (first report)
- - https://www.ft.com/ &mdash; Financial Times: Kyiv strike-pause request (cited by Guardian)
- - https://www.npr.org/2026/08/25/nx-s1-5944240/canada-us-tariffs &mdash; NPR: Canada retaliation
- - https://www.theguardian.com/world/2026/aug/25/canada-retaliatory-tariffs-on-range-of-us-goods &mdash; The Guardian: Canada tariffs
- - https://news.sky.com/story/canada-announces-retaliatory-tariffs-as-trade-war-with-us-heats-up-13577017 &mdash; Sky News: Canada retaliation
- - https://www.lemonde.fr/en/international/article/2026/08/25/canada-unveils-counter-tariffs-of-15-to-50-on-us-goods-as-trade-war-intensifies_6756837_4.html &mdash; Le Monde: Canada counter-tariffs
- - https://www.aljazeera.com/news/2026/8/25/trump-floats-renaming-lake-ontario-to-lake-america-during-canada-trade-war &mdash; Al Jazeera: Lake Ontario remark
- - https://www.bbc.co.uk/news/articles/clyl8965j5go &mdash; BBC News: China response to Iran sanctions
- - https://www.cbsnews.com/live-updates/iran-war-us-trump-sanctions-strait-of-hormuz/ &mdash; CBS News: Hormuz corridor, Trump mine threat
- - https://www.aljazeera.com/economy/2026/8/25/china-says-will-safeguard-its-own-interests-as-us-expands-iran-sanctions &mdash; Al Jazeera: China safeguards
- - https://www.aljazeera.com/features/2026/8/25/trumps-latest-wave-of-iran-sanctions-which-60-entities-are-targeted &mdash; Al Jazeera: 60 entities feature
- - https://www.cbsnews.com/news/ukraine-war-russia-uk-threat-drone-factories-attacks-unknown-sources/ &mdash; CBS News: Fedorov factory threat
- - https://www.aljazeera.com/news/2026/8/25/two-killed-refinery-on-fire-in-russias-krasnodar-after-drone-attack &mdash; Al Jazeera: Afipsky refinery strike
- - https://www.bbc.co.uk/news/articles/cn5drvyg92no &mdash; BBC News: ECHR Kavala ruling
- - https://abcnews.com/International/wireStory/european-court-turkish-judiciary-systematic-problem-ruling-philanthropist-135928995 &mdash; AP via ABC News: Kavala ruling
- - https://www.theguardian.com/uk-news/2026/aug/25/more-people-arrested-over-a66-crash &mdash; The Guardian: A66 arrests reach 17
- - https://www.bbc.co.uk/news/articles/crk3my26mk2o &mdash; BBC News: A66 tribute row
- - https://www.bbc.co.uk/news/articles/cevwjww8p08o &mdash; BBC News: father's house rammed
- - https://www.independent.co.uk/news/uk/crime/a66-crash-arrests-teesside-middlesbrough-b3038869.html &mdash; The Independent: A66 arrests
- - https://www.bbc.co.uk/news/articles/cm2qnmepryjo &mdash; BBC News: Brent Civic Centre stabbing
- - https://www.independent.co.uk/news/uk/crime/brent-civic-centre-stabbing-wembley-b3039033.html &mdash; The Independent: Wembley stabbing
- - https://www.theguardian.com/politics/2026/aug/25/kemi-badenoch-rishi-sunak-conservatives-anthony-seldon-book &mdash; The Guardian: Seldon book claims
- - https://www.independent.co.uk/news/uk/politics/kemi-badenoch-rishi-sunak-anthony-seldon-book-b3037222.html &mdash; The Independent: book serialisation
- - https://www.independent.co.uk/news/uk/politics/energy-bills-support-andy-burnham-b3038942.html &mdash; The Independent: energy support signals
- - https://www.independent.co.uk/news/uk/home-news/dwp-pension-credit-overpayment-letter-changes-b3038845.html &mdash; The Independent: pension credit reviews
- END SOURCES USED -->
- </div><!-- ── END EVENING 25 AUG (18:45) ── -->
+ 
 
 
- <div class="curated-edition morning" data-date="2026-08-25" data-time="10:45" data-markets='{"FTSE":{"price":10865.0,"change":0.1},"SP":{"price":7653.0,"change":-0.28},"Brent":{"price":88.5,"change":-2.3},"GBP":{"price":1.3646,"change":0.1},"Gold":{"price":4630,"change":-0.45},"EURGBP":{"price":0.8552,"change":-0.05},"Gilt":{"price":5.05,"change":-0.01},"VIX":{"price":15.85,"change":4.8},"BTC":{"price":79700,"change":3.3},"UST":{"price":4.69,"change":-0.01},"ts":"2026-08-25T10:45:00+01:00"}'>
- <div class="edition-header">
- <span class="edition-icon">&#9728;</span>
- <h2>Morning Briefing</h2>
- </div>
- <div class="curated-meta">Tuesday 25 August 2026 &mdash; 10:45 BST</div>
- <div class="impact-box">
- <h3 class="impact-heading">What It Means For You</h3>
- <ul class="impact-list">
- <li><strong>Housing:</strong> Sites for more than 70,000 social and affordable homes have been named across England&rsquo;s city regions &mdash; the first &pound;10bn tranche of a &pound;39bn programme, with 60 per cent for social rent.</li>
- <li><strong>Taxes:</strong> The prime minister has declined to rule out tax rises in the 28 October Budget. Nothing is decided &mdash; but the signals are worth watching if you are planning ahead.</li>
- <li><strong>Health:</strong> From today, women aged 30&ndash;65 in England who are overdue cervical screening can order a free home HPV testing kit via the NHS app &mdash; around four million are not up to date.</li>
- </ul>
- </div>
- <div class="curated-grid">
- <div class="curated-column">
- <h3><span class="dot geo"></span><span class="dot-label">GEO</span> Geopolitical</h3>
- <div class="curated-item" data-time="00:17" data-slug="us-removes-syria-terror-list">
- <h4>US Removes Syria From Terrorism List After 47 Years</h4>
- <p>The United States removed Syria from its list of state sponsors of terrorism after 47 years, lifting what Washington called the final major barriers to investment and Syria&rsquo;s return to the global economy. Secretary of State Marco Rubio said the move recognised the government&rsquo;s &ldquo;positive actions&rdquo;; President al-Sharaa&rsquo;s former group was simultaneously removed from the global terrorist list. Syria&rsquo;s foreign minister called it a &ldquo;historic step&rdquo;.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">Forty-seven years of designation ended with a signature, and with it the architecture of sanctions that made Syria untouchable for banks, insurers and investors through the civil war. The bet in Washington is strategic as much as moral: a Syria rebuilding with Western and Gulf money is a Syria that does not drift back towards Moscow or Beijing, and delisting the president&rsquo;s former movement &mdash; once al-Qaeda&rsquo;s Syrian affiliate, disavowed a decade ago &mdash; is the price of that wager. The risks are not subtle. Syria has no representative government, sits between Israel and Turkey&rsquo;s competing ambitions, and its reconstruction needs dwarf any plausible inflow. Watch whether investment actually follows the ink &mdash; and how Israel reads a rehabilitated Damascus.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="07:30" data-slug="iran-fully-prepared-sanctions-response">
- <h4>Iran Says It Is 'Fully Prepared' as Sanctions Noose Tightens</h4>
- <p>Iran declared itself &ldquo;fully prepared&rdquo; to withstand the American sanctions package, with its economy minister citing a &ldquo;two-year plan&rdquo; and predicting &ldquo;another defeat&rdquo; for Washington, which has warned that any bank or business dealing with Tehran will &ldquo;share its isolation&rdquo;. The rial hit a fresh record low; gold touched a three-month high and Bitcoin passed $80,000 for the first time since May. Pakistan&rsquo;s army chief claimed &ldquo;significant progress&rdquo; after a day of mediation in Tehran.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The package&rsquo;s teeth are the secondary sanctions &mdash; the threat to cut off any third country&rsquo;s banks from the dollar system if they keep trading with Iran &mdash; and its weakness is the same as ever: China, Iran&rsquo;s biggest oil customer, has ignored every previous round, and Tehran says neither Beijing nor Moscow accepts these. Hence the two-year plan, which is really a bet on outlasting American attention. The more interesting thread runs through Islamabad, whose army chief shuttled into Tehran claiming progress on reopening Hormuz and reviving the dead ceasefire framework &mdash; the first mediation with any traction since June. Oil, notably, fell this morning. Watch whether the Pakistani channel produces anything written &mdash; and whether the rial&rsquo;s collapse forces choices the sanctions alone could not.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="04:20" data-slug="canada-retaliation-announcement-today">
- <h4>Canada to Announce Tariff Retaliation Today</h4>
- <p>Canada will set out its response to Washington&rsquo;s escalating tariffs at a news conference this afternoon, after President Trump said levies on Canadian cars, trucks and parts would double to 50 per cent from January. Mark Carney accused the president of wanting to &ldquo;destroy&rdquo; Canada&rsquo;s car industry and said talks would resume only when the US arrives with the &ldquo;right attitude&rdquo;. Among the sticking points: American negotiators reportedly called French-language protections an &ldquo;irritant&rdquo;; in Quebec, Carney noted, &ldquo;these are rights&rdquo;.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The choreography matters: Ottawa announcing a response before the American measures even take effect is designed to show a government that will not negotiate under duress, while Mr Carney&rsquo;s hint that Canada may move beyond pure dollar-for-dollar matching suggests the next phase could target politically sensitive American exports rather than simply mirroring the tariff wall. The French-language detail is telling &mdash; a reminder that these talks foundered not only on cars and steel but on demands that touched Canadian identity itself, which is the terrain on which Mr Carney&rsquo;s government is strongest at home. Watch this afternoon&rsquo;s announcement for what is targeted and when &mdash; and whether either side leaves a door open before January.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="07:55" data-slug="lockerbie-trial-postponed-new-evidence">
- <h4>Lockerbie Trial Postponed Days Before Start Over New Evidence</h4>
- <p>The US trial of Abu Agila Mohammad Kheir Al-Marimi, the Libyan accused of building the bomb that destroyed Pan Am Flight 103 over Lockerbie in 1988, killing 270 people, has been postponed for a third time &mdash; days before jury selection was due to begin. Defence lawyers said &ldquo;newly discovered evidence&rdquo; unknown to both sides emerged from the US government on Friday. The trial is now expected to start in January, with a verdict perhaps not until spring &mdash; more than 38 years after the attack.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">That the judge agreed to vacate the date after months of marathon pre-trial battles suggests the new material is not trivial, and for the families the delay lands hard: many have waited nearly four decades for someone to face a jury over the deadliest terror attack in British history, and some who campaigned for this trial have died waiting. The case itself has always been contested terrain &mdash; the 2001 conviction of Abdelbaset al-Megrahi never silenced doubts about the full story of the bombing, and evidence surfacing from within the US government days before trial will feed every one of them. Al-Marimi, in American custody since 2022, denies the charges. Watch what the new evidence turns out to be; it may matter more than the schedule.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="01:15" data-slug="france-tornado-pomas-village">
- <h4>Tornado Devastates French Village, Injuring 39</h4>
- <p>A rare tornado tore through Pomas, a village south of Carcassonne in the Aude department, injuring 39 people &mdash; two critically &mdash; and damaging an estimated 300 homes, with residents saying half the village had been destroyed. Winds reached 117km/h, partially collapsing a thousand-year-old castle and cutting power to some 2,800 homes across ten villages. More than 120 emergency workers were deployed overnight.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">Tornadoes of this destructive force are genuinely rare in France, and one levelling half a village in the Aude &mdash; wine country better acquainted with drought and wildfire &mdash; will sharpen a question European meteorologists increasingly ask: whether a warming Mediterranean is loading the dice for violent convective storms far from where building codes and emergency planning expect them. The same weather system forced the Vuelta a Espa&ntilde;a to abandon a stage under hail. France&rsquo;s summer has already swung between record heat and violent storms, a whiplash pattern climate models predict with tedious consistency. Watch the final damage assessment &mdash; and whether &ldquo;rare&rdquo; keeps meaning what it used to.</div>
- </details>
- </div>
- </div>
- <div class="curated-column">
- <h3><span class="dot dom"></span><span class="dot-label">UK</span> UK Domestic Politics</h3>
- <div class="curated-item" data-time="22:30" data-slug="social-homes-70000-sites-named">
- <h4>Sites Named for 70,000 Social Homes as Pledge Row Brews</h4>
- <p>Ministers named where more than 70,000 social and affordable homes will be built across England&rsquo;s city regions over ten years, allocating almost &pound;10bn as the first tranche of the &pound;39bn housing programme &mdash; with 60 per cent for social rent. That figure drew accusations of backtracking: before entering No 10, Mr Burnham had said he would devote all of it to social housing. Housing minister Matthew Pennycook defended a &ldquo;pragmatic approach&rdquo; to &ldquo;get money out the door&rdquo;.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The gap between &ldquo;all of it&rdquo; and 60 per cent is where this story lives. Social rent &mdash; typically half of market rates &mdash; is the only tenure that touches the record 177,530 children in temporary accommodation, and every percentage point diverted to &ldquo;affordable&rdquo; products serves a different, better-off constituency. The government&rsquo;s defence is speed and pragmatism, with a promise that the next tranche leans harder into council housing; its critics note that promises about next tranches are what pre-No 10 Burnham made too. The regional allocation &mdash; Manchester, the Midlands, Yorkshire, the North East, Liverpool &mdash; at least matches the rhetoric of devolution. Watch the tenure split when spades actually hit ground, and whether homelessness numbers bend before the next allocation.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="01:00" data-slug="burnham-tax-rises-budget-not-ruled-out">
- <h4>Burnham Declines to Rule Out Tax Rises in October Budget</h4>
- <p>The prime minister refused to rule out tax rises in the 28 October Budget, saying he &ldquo;won&rsquo;t be unrealistic&rdquo; about the &ldquo;challenging&rdquo; state of the public finances. &ldquo;I won&rsquo;t take risks with people&rsquo;s jobs or their livelihoods or their family finances,&rdquo; he said, citing his record running Greater Manchester with &ldquo;rock solid finances&rdquo;. July borrowing overshot forecasts despite record income-tax receipts, and inflation hit a four-month high of 2.9 per cent.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">Every chancellor&rsquo;s autumn begins with this dance, but the arithmetic behind this one is unusually unforgiving: borrowing overshooting even as income-tax receipts set records means the state is spending faster than a fully employed economy can fund, and war-driven energy costs are pushing inflation the wrong way just as the Bank might have cut. Mr Burnham&rsquo;s chosen defence &mdash; reprioritisation, the shelved digital ID scheme, the funded bus-fare cap &mdash; is the language of a leader who knows the easy savings are spent. Both he and Chancellor John Healey have locked themselves to the existing fiscal rules, which leaves tax as the live variable. Watch the pre-Budget kite-flying from here to October; the banks, as they warned the Chancellor two days ago, are watching too.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="23:30" data-slug="care-leavers-deaths-review-112">
- <h4>Review Finds 112 Care Leavers Died in a Year Amid Support 'Drop-Off'</h4>
- <p>A government-commissioned review into the deaths of 112 care leavers aged 18 to 24 in a single year found an &ldquo;immense drop-off&rdquo; in support when young people leave the care system, calling the toll a national tragedy. A fifth of the deaths were at age 18; more than a third were probably suicides. &ldquo;All of us have failed,&rdquo; said children&rsquo;s minister Josh MacAlister. The reviewers backed a service supporting care leavers from birth to 25.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The state is these young people&rsquo;s parent, and the numbers describe a parent that stops answering the phone on their eighteenth birthday: death rates three to four times the general population, suicide rates among young women leaving care possibly fifteen times higher, and a fifth of deaths in the first year of legal adulthood &mdash; precisely when the scaffolding of social workers, placements and oversight is dismantled. No family treats 18 as the end of parenting; only the corporate parent does. The 0-to-25 service the reviewers propose has an obvious logic and an obvious cost, and it arrives in the same week the prime minister declined to rule out tax rises. Watch whether the government commits to the recommendation &mdash; or files the tragedy under noted.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="05:00" data-slug="cervical-screening-home-kits-rollout">
- <h4>NHS Begins Offering At-Home Cervical Screening Kits</h4>
- <p>From today, women in England aged 30 to 65 who are overdue cervical screening will be invited to order free home HPV testing kits via the NHS app, text or letter &mdash; a self-swab posted back to NHS labs. Only 68.8 per cent of women attend screening when invited, leaving around four million not up to date. NHS England&rsquo;s women&rsquo;s health director called home testing &ldquo;a gamechanger&rdquo; in the drive to eliminate cervical cancer by 2040.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">Screening is one of the rare corners of medicine where the science is essentially solved &mdash; high-risk HPV causes 99.7 per cent of cervical cancers, and the vaccine plus screening can, in principle, eliminate the disease &mdash; so the remaining problem is entirely human: embarrassment, inconvenience, trauma, childcare, work. A swab done at home removes most of those barriers at a stroke, which is why trials suggested self-sampling reaches precisely the women clinics do not. The 2040 elimination target is genuinely achievable; Australia expects to get there years earlier. The quiet test is uptake among the four million &mdash; a kit ordered is not a kit returned. Watch the return rates when the first data lands, and whether the app-first invitation misses the women furthest from the system.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="10:02" data-slug="a66-first-charge-drug-supply">
- <h4>First Charge Brought in A66 Crash Investigation</h4>
- <p>A 26-year-old man has become the first of the twelve people arrested in the A66 investigation to be charged &mdash; with possession with intent to supply class A drugs and possession of criminal property &mdash; and has been remanded in custody. Several others have been bailed. Police also revealed a second vehicle had been seen ramming properties in Middlesbrough before the crash, and that both cars ran cloned plates picked up by number-plate cameras.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The first charge is for drugs, not driving &mdash; a detail that tells you where this investigation is heading. What began as a catastrophic pursuit is being worked as an organised-crime case, with the crash the visible surface of something larger: cloned plates on two vehicles, properties rammed in the hours beforehand, a firearm among the arrest grounds. The Independent Office for Police Conduct continues its separate, mandatory examination of the seven-minute pursuit, with in-car footage and the incident log secured. Two tracks, two timescales: charges will come quickly, the pursuit findings slowly. Watch what further charges follow &mdash; and whether the organised-crime picture the police are assembling reaches court intact.</div>
- </details>
- </div>
- </div>
- </div>
- <div class="one-to-read">
- <span class="otr-label">One To Read</span>
- <a href="https://www.aljazeera.com/news/2026/8/25/pakistan-says-significant-progress-made-in-talks-on-iran-us-war" target="_blank" rel="noopener noreferrer">
- <h4>The Back-Channel Trying to Stop the Iran War</h4>
- <span class="otr-source">Al Jazeera</span>
- <span class="otr-dot">&middot;</span>
- <span class="otr-desc">Pakistan's army chief spent Monday shuttling between Tehran's president, foreign minister and security council, and claims significant progress on preventing escalation and reopening the Strait of Hormuz &mdash; the first mediation with any traction since June.</span>
- </a>
- </div>
- <!-- SOURCES USED
- - https://www.bbc.co.uk/news/articles/c33knmyl0y5o &mdash; BBC News: Syria removed from terror list
- - https://www.aljazeera.com/video/newsfeed/2026/8/25/syrian-president-thanks-nation-for-getting-off-us-state-terror-list &mdash; Al Jazeera: al-Sharaa response
- - https://www.bbc.co.uk/news/articles/c0qxew81y83o &mdash; BBC News: Iran sanctions response
- - https://www.aljazeera.com/news/2026/8/25/pakistan-says-significant-progress-made-in-talks-on-iran-us-war &mdash; Al Jazeera: Pakistan mediation
- - https://www.cbsnews.com/live-updates/iran-war-us-trump-sanctions-strait-of-hormuz/ &mdash; CBS News: Iran live updates
- - https://abcnews.com/International/wireStory/irans-rial-currency-hits-new-record-low-us-135895333 &mdash; AP via ABC News: rial record low
- - https://www.theguardian.com/business/2026/aug/25/gold-price-high-iran-war-donald-trump-economy-us &mdash; The Guardian: gold and bitcoin reaction
- - https://www.npr.org/2026/08/24/g-s1-139743/treasury-secretary-scott-bessent-to-unveil-new-economic-sanctions-on-iran &mdash; NPR: sanctions package
- - https://www.bbc.co.uk/news/articles/c93vpd60654o &mdash; BBC News: Canada retaliation presser
- - https://www.theguardian.com/us-news/2026/aug/24/canada-tariff-increase-trump-auto &mdash; The Guardian: Trump auto tariffs
- - https://www.independent.co.uk/news/world/americas/us-politics/canada-tariffs-us-carney-trump-trade-war-b3038556.html &mdash; The Independent: Carney response
- - https://www.bbc.co.uk/news/articles/cq63rmj1zl1o &mdash; BBC News: Lockerbie trial postponed
- - https://www.cbsnews.com/news/lockerbie-bombing-suspect-us-trial-postponed-new-evidence/ &mdash; CBS News: Lockerbie postponement
- - https://www.bbc.co.uk/news/articles/c0m3npvpgdno &mdash; BBC News: Pomas tornado
- - https://abcnews.com/International/wireStory/tornado-tears-village-southern-france-injuring-39-wrecking-135927647 &mdash; AP via ABC News: tornado toll
- - https://www.independent.co.uk/news/world/europe/aude-tornado-france-verzeille-weather-b3038634.html &mdash; The Independent: Aude tornado
- - https://www.bbc.co.uk/news/articles/cnvly73jrrdo &mdash; BBC News: 70,000 social homes
- - https://www.theguardian.com/society/2026/aug/24/andy-burnham-social-homes-backtrack &mdash; The Guardian: social-rent pledge row
- - https://www.independent.co.uk/news/uk/politics/andy-burnham-housing-build-council-houses-labour-b3038369.html &mdash; The Independent: housing allocation
- - https://www.bbc.co.uk/news/articles/cj06818jgzlo &mdash; BBC News: Burnham on tax rises
- - https://www.itv.com/news &mdash; ITV News: Burnham interview (originating broadcaster)
- - https://www.theguardian.com/society/2026/aug/25/care-leaver-deaths-isolation-drop-off-support-review &mdash; The Guardian: care leavers review
- - https://news.sky.com/story/young-people-leaving-care-are-dying-at-a-troubling-rate-and-one-age-stands-out-13576817 &mdash; Sky News: care leavers deaths
- - https://www.theguardian.com/society/2026/aug/25/nhs-england-to-offer-women-gamechanging-free-home-testing-kits-for-cervical-cancer &mdash; The Guardian: cervical screening kits
- - https://news.sky.com/story/millions-of-women-to-be-invited-to-order-at-home-cervical-screening-kits-13576682 &mdash; Sky News: screening rollout
- - https://www.bbc.co.uk/news/articles/c36d6975dzno &mdash; BBC News: A66 first charge
- END SOURCES USED -->
- </div><!-- ── END MORNING 25 AUG (10:45) ── -->
+ 
 
 
  
