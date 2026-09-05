@@ -215,7 +215,11 @@ def main() -> int:
     dates = sorted(set(re.findall(r'data-date="([0-9-]+)"', html)))
     if dates:
         try:
-            today = date.today()
+            # Site runs on UK time. The machine's local timezone has drifted before
+            # (e.g. set to US Central), so never trust the system-local date here.
+            from datetime import datetime
+            from zoneinfo import ZoneInfo
+            today = datetime.now(ZoneInfo("Europe/London")).date()
             cutoff = today - timedelta(days=7)
             stale = [d for d in dates if date.fromisoformat(d) < cutoff]
             if stale:
