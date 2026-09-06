@@ -2289,7 +2289,7 @@
  <!-- #1 Markets snapshot bar -->
  <!-- Embedded market data (populated by update script, used as fallback) -->
  <script id="embedded-markets" type="application/json">
-{"FTSE":{"price":10831.0,"change":0.0},"SP":{"price":7719.0,"change":-0.38},"Brent":{"price":96.28,"change":0.8},"GBP":{"price":1.3517,"change":-0.07},"Gold":{"price":4430,"change":-1.0},"EURGBP":{"price":0.859,"change":0.0},"Gilt":{"price":5.13,"change":-0.02},"VIX":{"price":14.53,"change":1.5},"BTC":{"price":79565,"change":-1.6},"UST":{"price":4.78,"change":0.02},"ts":"2026-09-05T05:11:00+01:00"}
+{"FTSE":{"price":10831.0,"change":0.0},"SP":{"price":7719.0,"change":-0.38},"Brent":{"price":96.28,"change":0.8},"GBP":{"price":1.3517,"change":-0.1},"Gold":{"price":4430,"change":-1.0},"EURGBP":{"price":0.859,"change":-0.1},"Gilt":{"price":5.14,"change":-0.02},"VIX":{"price":14.53,"change":1.5},"BTC":{"price":79930,"change":0.3},"UST":{"price":4.78,"change":0.02},"ts":"2026-09-06T03:42:00+01:00"}
 </script>
  <script id="market-descriptions" type="application/json">
 {
@@ -2302,7 +2302,7 @@
     "drivers_down": [
       "Flat Friday and a flat week — bond stress offset the energy-sector war premium"
     ],
-    "updated": "5 September 2026 05:11 (weekend — Friday closes)"
+    "updated": "6 September 2026 03:42 (weekend — Friday closes)"
   },
   "SP": {
     "name": "S&P 500",
@@ -2313,18 +2313,18 @@
     "drivers_down": [
       "Hot August payrolls (+162k vs 56k) put a September Fed hike near 60% priced"
     ],
-    "updated": "5 September 2026 05:11 (weekend — Friday closes)"
+    "updated": "6 September 2026 03:42 (weekend — Friday closes)"
   },
   "Brent": {
     "name": "Brent Crude Oil",
     "desc": "The global benchmark for crude oil pricing, produced from oil fields in the North Sea. Used to price roughly two-thirds of the world's traded oil.",
     "drivers_up": [
-      "Settled at 96.28 — up 7.8% on the week, the strongest since July, on the Iran war premium"
+      "Settled at 96.28, up 9.3% on the week — strongest since July; Saturday's US-Iran tanker exchange lands on Sunday's futures open"
     ],
     "drivers_down": [
       "A ceasefire signal would unwind a large premium"
     ],
-    "updated": "5 September 2026 05:11 (weekend — Friday closes)"
+    "updated": "6 September 2026 03:42 (weekend — Friday closes)"
   },
   "GBP": {
     "name": "GBP/USD",
@@ -2335,7 +2335,7 @@
     "drivers_down": [
       "Eased against a payrolls-boosted dollar"
     ],
-    "updated": "5 September 2026 05:11 (weekend — Friday closes)"
+    "updated": "6 September 2026 03:42 (weekend — Friday closes)"
   },
   "Gold": {
     "name": "Gold (XAU/USD)",
@@ -2346,7 +2346,7 @@
     "drivers_down": [
       "Fell 1% as Fed rate-hike odds jumped"
     ],
-    "updated": "5 September 2026 05:11 (weekend — Friday closes)"
+    "updated": "6 September 2026 03:42 (weekend — Friday closes)"
   },
   "EURGBP": {
     "name": "EUR/GBP",
@@ -2357,7 +2357,7 @@
     "drivers_down": [
       "Both currencies eased against the dollar"
     ],
-    "updated": "5 September 2026 05:11 (weekend — Friday closes)"
+    "updated": "6 September 2026 03:42 (weekend — Friday closes)"
   },
   "Gilt": {
     "name": "UK 10-Year Gilt Yield",
@@ -2366,9 +2366,9 @@
       "Hot US data keeps global yield pressure alive into the 17 September BoE decision"
     ],
     "drivers_down": [
-      "Closed the week at its low, 5.13% — decoupled from rising Treasuries"
+      "Eased to 5.14% at Friday's close — decoupled from rising Treasuries"
     ],
-    "updated": "5 September 2026 05:11 (weekend — Friday closes)"
+    "updated": "6 September 2026 03:42 (weekend — Friday closes)"
   },
   "VIX": {
     "name": "VIX (Volatility Index)",
@@ -2379,18 +2379,18 @@
     "drivers_down": [
       "Still far below Tuesday's war spike"
     ],
-    "updated": "5 September 2026 05:11 (weekend — Friday closes)"
+    "updated": "6 September 2026 03:42 (weekend — Friday closes)"
   },
   "BTC": {
     "name": "Bitcoin (BTC/USD)",
     "desc": "The price of Bitcoin in US dollars. The largest cryptocurrency by market cap, increasingly viewed as digital gold by institutional investors since spot ETF approvals.",
     "drivers_up": [
-      "Steady through the weekend session near $79,600"
+      "Firmed through the weekend session to near $79,900"
     ],
     "drivers_down": [
       "Under $80k as rate-hike odds jumped"
     ],
-    "updated": "5 September 2026 05:11 (weekend — Friday closes)"
+    "updated": "6 September 2026 03:42 (weekend — Friday closes)"
   },
   "UST": {
     "name": "US 10-Year Treasury Yield",
@@ -2401,7 +2401,7 @@
     "drivers_down": [
       "A dovish Fed voice would cool the front end"
     ],
-    "updated": "5 September 2026 05:11 (weekend — Friday closes)"
+    "updated": "6 September 2026 03:42 (weekend — Friday closes)"
   }
 }
 </script>
@@ -2454,6 +2454,155 @@
  <!-- ════ ALL EDITIONS (sorted by JS) ════ -->
  <!-- IMPORTANT: Keep 7 FULL DAYS of editions in this container. Do NOT delete editions less than 7 days old. -->
  <div id="all-editions" style="display:none;">
+
+<div class="curated-edition evening" data-date="2026-09-06" data-time="03:42" data-markets='{"FTSE":{"price":10831.0,"change":0.0},"SP":{"price":7719.0,"change":-0.38},"Brent":{"price":96.28,"change":0.8},"GBP":{"price":1.3517,"change":-0.1},"Gold":{"price":4430,"change":-1.0},"EURGBP":{"price":0.859,"change":-0.1},"Gilt":{"price":5.14,"change":-0.02},"VIX":{"price":14.53,"change":1.5},"BTC":{"price":79930,"change":0.3},"UST":{"price":4.78,"change":0.02},"ts":"2026-09-06T03:42:00+01:00"}'>
+ <div class="edition-header">
+ <span class="edition-icon">&#127769;</span>
+ <h2>Evening Briefing</h2>
+ </div>
+ <div class="curated-meta">Sunday 6 September 2026 &mdash; 03:42 BST (late edition)</div>
+ <div class="impact-box">
+ <h3 class="impact-heading">What It Means For You</h3>
+ <ul class="impact-list">
+ <li><strong>Fuel:</strong> Brent ended the week at $96.28 &mdash; up more than 9%, the strongest weekly gain since July &mdash; and the war is now aimed at the tankers themselves; pump prices are climbing from records already set.</li>
+ <li><strong>Mortgages and rates:</strong> Gilts closed the week at 5.14% with a Bank Rate rise fully priced by year-end &mdash; the decision comes on 17 September; America&rsquo;s hot jobs report has put a Fed rise in play the same week.</li>
+ <li><strong>Jobs:</strong> Jaguar Land Rover&rsquo;s voluntary redundancy scheme &mdash; with reports of up to 4,000 roles at risk &mdash; is the clearest sign yet that tariffs, weak sales and energy costs are reaching manufacturing employment.</li>
+ </ul>
+ </div>
+ <div class="curated-grid">
+ <div class="curated-column">
+ <h3><span class="dot geo"></span><span class="dot-label">GEO</span> Geopolitical</h3>
+ <div class="curated-item" data-time="14:45" data-slug="hormuz-tanker-war">
+ <h4>US Destroys Three Iranian Tankers; Tehran Claims Strikes on Six Ships</h4>
+ <p>American fighters and drones struck three Iranian crude carriers on Saturday after the IRGC fired ballistic missiles at a US carrier and destroyer &mdash; both evaded, with no casualties. &ldquo;If you shoot at two of our ships, we will impose an even higher economic cost &mdash; taking out three of yours,&rdquo; said Admiral Brad Cooper. By evening Tehran claimed retaliatory strikes on three tankers using &ldquo;unauthorised&rdquo; Hormuz routes and three US-linked vessels &mdash; unconfirmed by Washington.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The war&rsquo;s centre of gravity has moved from missiles to manifests: Washington calls the struck carriers part of a &ldquo;multibillion-dollar shadow network&rdquo; funding the IRGC, and the defence secretary has promised a tanker destroyed every time an American ship is fired on &mdash; an exchange rate designed to price Iranian escalation in barrels. Tehran&rsquo;s answer is a toll regime: its warning that any vessel on &ldquo;unauthorised&rdquo; routes will be targeted asserts ownership of the strait through which a fifth of the world&rsquo;s oil moves. Neither side&rsquo;s claims are fully verifiable; both sides&rsquo; incentives now run through shipping insurance markets. Watch Sunday night&rsquo;s futures open &mdash; Brent closed at $96.28 before the exchange, and Monday will price the weekend.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="16:10" data-slug="putin-witkoff-kushner-kremlin">
+ <h4>Putin Talks Three Hours With US Envoys; Capitals Spared Until Monday</h4>
+ <p>Vladimir Putin received Steve Witkoff and Jared Kushner in the Kremlin for three hours of talks his aide Yuri Ushakov called &ldquo;substantive, constructive, exceptionally candid&rdquo;. Both belligerents agreed to spare each other&rsquo;s capitals until Monday: Mr Zelensky pledged no strikes on Moscow &ldquo;from now&rdquo;, the Kremlin&rsquo;s pause on Kyiv began at midnight. The envoys travel to Kyiv on Sunday for the first negotiations held inside Ukraine. &ldquo;The situation is, of course, not simple,&rdquo; Mr Putin told them.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">After months of frozen diplomacy, the choreography is doing the talking: a truce measured in days and limited to two cities is less a ceasefire than a security perimeter for the mediators &mdash; while Friday&rsquo;s missile strike on a Kharkiv factory and the 53 drones Russia says it downed overnight show the war proceeding everywhere the pause does not reach. The substance moved less: the Kremlin restated on Friday that Ukraine must surrender four claimed regions and forswear NATO, terms Kyiv cannot accept, and Mr Ushakov says only that the envoys &ldquo;formulated a number of ideas&rdquo;. The sequencing gives Moscow first draft &mdash; Sunday&rsquo;s Kyiv session opens with whatever Mr Putin chose to send along. Watch whether the capitals&rsquo; pause survives Monday, the first measurable product of the week.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="17:00" data-slug="afd-saxony-anhalt-eve">
+ <h4>Far Right Eyes First German State as Saxony-Anhalt Votes Sunday</h4>
+ <p>Saxony-Anhalt votes on Sunday in a state election that could deliver the strongest result in Alternative f&uuml;r Germany&rsquo;s history &mdash; and, if its polling lead converts to an outright majority, the first far-right control of a German state since the Second World War. Thousands rallied against the party on Saturday. Every rival maintains its firewall against coalition with the AfD, so only a majority would make its candidate, Ulrich Siegmund, state premier.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The firewall has become the election&rsquo;s own mechanism: because no party will govern with the AfD, every vote for it tightens the arithmetic for everyone else &mdash; and an outright majority would remove the question entirely, handing the party its first governing record and a laboratory for policies it has only ever promised. The candidate&rsquo;s foreign-policy instincts show what that record might look like: &ldquo;an especially good relationship with Russia, of course, but also with the United States,&rdquo; as Mr Siegmund puts it &mdash; a formulation that splits his own party. Eastern state politics has led national politics before; a far-right premiership would test the federal republic&rsquo;s institutions in ways the postwar settlement never has. Watch turnout tonight &mdash; and whether the majority materialises or the firewall holds one more time.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="17:30" data-slug="egypt-death-sentences">
+ <h4>Egypt Sentences TV Presenter and 11 Others to Death Over Drugs</h4>
+ <p>A Cairo criminal court sentenced television presenter Sarah Khalifa and eleven co-defendants to death by hanging for forming an organised gang to manufacture and traffic narcotics, and for possessing unlicensed firearms. The court consulted Egypt&rsquo;s Grand Mufti, as capital cases require; the verdict can be appealed. Khalifa, 39, known for the crime programme Mission Impossible, also received five years in a separate case involving the kidnapping and assault of a young man.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The spectacle of a celebrity crime presenter condemned for the crimes she covered is the point: Egyptian courts issued 541 death sentences in 2025, according to the Egyptian Commission for Rights and Freedoms, but few land with this publicity, and the state&rsquo;s message on synthetic drugs &mdash; a growing regional trade &mdash; is deterrence by example. The mandatory referral to the Grand Mufti gives capital verdicts a religious imprimatur, though his opinion is advisory; the appeal courts are the real test, and high-profile sentences have been softened there before. The parallel five-year kidnapping conviction suggests a prosecution built to survive appeal on multiple fronts. Watch the cassation stage &mdash; whether Egypt&rsquo;s judiciary confirms its most prominent capital verdict in years.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="15:20" data-slug="huckabee-settler-terror">
+ <h4>US Ambassador Calls Israeli Settler Attacks 'Acts of Terror'</h4>
+ <p>America&rsquo;s ambassador to Israel took his bluntest language yet to the West Bank village of Turmus Ayya: settlers who seize property, burn cars, torch mosques or vandalise homes commit &ldquo;a criminal act. It&rsquo;s an act of terror.&rdquo; Mike Huckabee &mdash; long a champion of the settlement movement &mdash; called violent settlers &ldquo;terrorists&rdquo; and said Washington would press Israel over &ldquo;specific crimes and acts of terror that cannot continue&rdquo;. He also said &ldquo;categorically&rdquo; that Israel has no plan to expel Gazans.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">&ldquo;Terrorist&rdquo; is a word American officials have historically reserved for Palestinian militants, and hearing it from the most pro-settlement ambassador Washington has ever sent is the measure of how far the violence has travelled: Turmus Ayya, home to many Palestinian Americans, has buried citizens of the country Mr Huckabee represents, and in Bazariya settlers answered his last rebuke by torching a mosque and leaving graffiti reading &ldquo;Huckabee regards from the terrorists&rdquo;. Paired with Friday&rsquo;s State Department rejection of Gaza expulsion talk, the administration is now policing both flanks of its own ceasefire plan in the run-up to Israel&rsquo;s October election. The gap remains enforcement: the embassy investigates nothing. Watch whether the accountability &ldquo;mechanism&rdquo; Washington says it is working on ever acquires a name.</div>
+ </details>
+ </div>
+ </div>
+ <div class="curated-column">
+ <h3><span class="dot dom"></span><span class="dot-label">UK</span> UK Domestic Politics</h3>
+ <div class="curated-item" data-time="15:45" data-slug="farage-wasnt-listening">
+ <h4>Farage: 'I Wasn't Listening' as Aides Discussed Foreign Money</h4>
+ <p>The Reform leader told the BBC he &ldquo;frankly wasn&rsquo;t listening&rdquo; while his former chief of staff and an undercover reporter discussed routing an American donor&rsquo;s &pound;500,000 through his UK-resident son &mdash; and told ITV he is &ldquo;100% confident&rdquo; the party has never taken illegal donations, dismissing the film as &ldquo;loose pub talk&rdquo;. Dan Jukes and James Orr have been removed pending an internal investigation. Mr Farage added that, for the first time, his family are &ldquo;begging&rdquo; him to walk away.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The defence has moved twice in twenty-four hours &mdash; Friday&rsquo;s vetting failure and &ldquo;loose pub talk&rdquo;, Saturday&rsquo;s inattention &mdash; and each version concedes the same underlying fact: the conversation happened with the leader in the room. Electoral law is unforgiving on the mechanics &mdash; foreign money routed through a UK resident is impermissible however it is described afterwards &mdash; which is why Labour and the Liberal Democrats want the Met to test the film rather than the explanations. The family line is the more human tell: &ldquo;they would rather I packed it up and walked away&rdquo; is simultaneously a plea for sympathy and the construction of an exit that would be his choice rather than the scandal&rsquo;s. Watch the Met&rsquo;s decision on a formal investigation &mdash; and Sunday&rsquo;s front pages.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="09:10" data-slug="dover-masked-protest">
+ <h4>Masked 'Stop the Boats' Protesters Blockade Dover; Government Condemns</h4>
+ <p>Several hundred masked men in black, arriving overnight in rental vans, blocked the roads into Britain&rsquo;s busiest ferry port on Saturday morning, bringing Dover to a standstill for hours before marching through the town chanting &ldquo;whose streets?&rdquo;. The government said it condemned &ldquo;the behaviour in Dover and the travel disruption it has caused&rdquo;; the local MP Mike Tapp said he was &ldquo;fed up with idiots coming to Dover to cause disruption&rdquo;. Port operations returned to normal by afternoon.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">No placards, no faces, no organisation claiming credit: this was closer to a show of force than a protest, and the logistics &mdash; rental vans, coordinated road choices, a morning timetable &mdash; are what investigators will pursue, because they imply an organising network rather than a spontaneous crowd. Dover has been the movement&rsquo;s magnet since the summer&rsquo;s anti-migrant demonstrations, but masked blockades of critical infrastructure cross a line every party rushed to draw &mdash; including Mr Farage, who &ldquo;deplored&rdquo; the masks on the day his party&rsquo;s returns pact dominated its conference. The gap between condemning the method and courting the cause now defines the small-boats debate. Watch whether the tactic spreads to other ports &mdash; and whether anyone is charged for Saturday.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="12:55" data-slug="jlr-job-cuts">
+ <h4>Jaguar Land Rover Opens Redundancy Scheme in &pound;1.7bn Savings Drive</h4>
+ <p>Jaguar Land Rover confirmed a voluntary redundancy programme for salaried and management staff as it seeks roughly &pound;1.7bn of savings over two years &mdash; a year after a cyber attack halted production for more than a month. The Times reported as many as 4,000 jobs may go; the firm has not confirmed numbers. Ministers are to meet chief executive PB Balaji next week, and Unite said it is working &ldquo;round the clock&rdquo; for the best outcome.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">In July the company expected fewer than 300 people to leave under its savings plan; the escalation to an open-ended, company-wide scheme says the recovery is running behind the plan &mdash; tariffs, soft sales and the cyber attack&rsquo;s long tail compounding rather than resolving. The West Midlands stakes are larger than the headline: every JLR salary supports several more in the supply chain, which is why the business secretary was on the phone to the mayor within hours and why &ldquo;intensive&rdquo; weekend talks preceded next week&rsquo;s meeting with the chief executive. A voluntary scheme with a &pound;1.7bn target has a way of becoming less voluntary. Watch the take-up figure when the scheme closes &mdash; and whether a government support package follows.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="18:35" data-slug="paddington-fire-heathrow">
+ <h4>Trackside Fire Cuts Every Rail Link Between London and Heathrow</h4>
+ <p>A grass fire beside the track near Paddington knocked out the electricity supply on Saturday evening, blocking all lines to Heathrow and Reading: no Elizabeth line or Heathrow Express services ran to the airport, Great Western cancelled Reading trains, and departure boards at Paddington went blank. Hours earlier, Heathrow&rsquo;s southern runway had closed while crews fought a separate grass fire on the airfield &mdash; weeks after another blaze there forced eighteen flights to divert.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">Two grass fires in one day against the same airport&rsquo;s runway and rail access is less coincidence than climate signal: a hot, dry summer has turned lineside verges into tinder, and Britain&rsquo;s busiest airport discovered that its entire rail connection hangs on a single electrified corridor out of Paddington &mdash; one fire, one power failure, zero trains. The repeat pattern matters as much as the day&rsquo;s chaos; the August blaze that diverted eighteen flights burned the same southern-runway grassland now scorched again. Infrastructure designed for a cooler climate is being stress-tested in real time, and the resilience question &mdash; redundant power, fire breaks, second routes &mdash; is now a spending question. Watch Sunday morning&rsquo;s reopening, and how long the repairs actually take.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="16:20" data-slug="reform-conference-fallout">
+ <h4>Reform Counts Conference Cost as Police Seek Assaulted Protester</h4>
+ <p>Police appealed for the woman filmed having her hair pulled as she was ejected during Nigel Farage&rsquo;s speech to come forward; Reform&rsquo;s Zia Yusuf condemned the members involved. Climate Resistance claimed the interruptions, and a Greenpeace banner was unfurled on stage during Richard Tice&rsquo;s speech. Party insiders told the BBC that Reform needs a stronger, better-vetted operation if it is serious about power; Mr Tice and Robert Jenrick have pledged to resign if a Reform government misses its first-100-days promises.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The conference was wallpapered with &ldquo;Reform &mdash; the first 100 days&rdquo; and ends being remembered for the party&rsquo;s conduct over three: a donations film, protesters manhandled on camera, and a police appeal attached to the leader&rsquo;s own keynote. The membership&rsquo;s split reaction is the interesting data &mdash; &ldquo;it&rsquo;s the blob, it&rsquo;s all against him&rdquo; from one activist, &ldquo;it&rsquo;s all documented and there on camera&rdquo; from another &mdash; because insurgent parties professionalise only when their own base demands it. The resign-pledges from Mr Tice and Mr Jenrick raise the price of every promise made under conference pressure. Watch the first post-conference polling: Reform&rsquo;s bounces are its speciality, and the absence of one would say the sting has cut through to voters.</div>
+ </details>
+ </div>
+ </div>
+ </div>
+ <div class="one-to-read">
+ <span class="otr-label">One To Read</span>
+ <a href="https://www.cnn.com/2026/09/05/europe/germany-state-election-afd-trump-russia-intl" target="_blank" rel="noopener noreferrer">
+ <h4>Poised for Power: Inside the AfD on the Eve of Saxony-Anhalt</h4>
+ <span class="otr-source">CNN</span>
+ <span class="otr-dot">&middot;</span>
+ <span class="otr-desc">Reporting from the state that may hand Germany its first far-right government since the war &mdash; and the split inside the AfD over whether its future runs through Washington or Moscow.</span>
+ </a>
+ </div>
+ <!-- SOURCES USED
+ - https://www.bbc.co.uk/news/articles/cj64rrne643o &mdash; BBC News: US-Iran ship attacks
+ - https://www.cnn.com/2026/09/05/middleeast/iran-us-tanker-kharg-intl &mdash; CNN: tanker strikes
+ - https://www.npr.org/2026/09/05/nx-s1-5959159/us-iran-warships-targeted &mdash; NPR: CENTCOM strikes
+ - https://apnews.com/article/russia-ukraine-war-kushner-witkoff-visit-36a991feaff241bb8f24857ac159202a &mdash; AP: Kremlin talks
+ - https://www.bbc.com/news/articles/cx2zqp46g8eo &mdash; BBC News: envoys meet Putin
+ - https://www.theguardian.com/world/2026/sep/05/steve-witkoff-jared-kushner-russia-revive-ukraine-talks &mdash; The Guardian: capitals pause
+ - https://abcnews.com/International/witkoff-kushner-meet-putin-discuss-ukraine-war/story?id=136231643 &mdash; ABC News: Ushakov readout
+ - https://www.washingtonpost.com/world/2026/09/05/witkoff-kushner-arrive-moscow-talks-with-putin/ &mdash; Washington Post: talks context
+ - https://www.aljazeera.com/news/2026/9/5/russias-putin-meets-us-envoys-to-discuss-trump-proposal-to-end-ukraine-war &mdash; Al Jazeera: mediation
+ - https://www.nytimes.com/2026/09/05/world/europe/germany-afd-saxony-anhalt.html &mdash; New York Times: AfD surge
+ - https://www.cnn.com/2026/09/05/europe/germany-state-election-afd-trump-russia-intl &mdash; CNN: AfD split on Trump
+ - https://www.bbc.com/news/articles/cvgypkzgy4wo &mdash; BBC News: AfD state vote
+ - https://www.bbc.co.uk/news/articles/c5y7gk9knnlo &mdash; BBC News: Egypt sentences
+ - https://www.theguardian.com/world/2026/sep/05/egyptian-tv-presenter-among-12-sentenced-to-death-for-drug &mdash; The Guardian: Khalifa verdict
+ - https://www.cbsnews.com/news/mike-huckabee-west-bank-settler-violence/ &mdash; CBS News: Huckabee terror remarks
+ - https://apnews.com/article/israel-palestinians-west-bank-ambassador-settlers-e33f8c97f368e7babd37c6d8c0a5759d &mdash; AP: Huckabee Turmus Ayya visit
+ - https://www.bbc.co.uk/news/articles/c0qxgn7q1vdo &mdash; BBC News: Farage interview
+ - https://www.itv.com/news/2026-09-05/nigel-farage-100-confident-his-party-has-never-taken-illegal-donations &mdash; ITV News: Peston interview
+ - https://www.bbc.co.uk/news/articles/cy8znyzgkjjo &mdash; BBC News: Dover protest
+ - https://www.itv.com/news/meridian/2026-09-05/masked-protesters-block-port-of-dover &mdash; ITV News: Dover blockade
+ - https://www.bbc.co.uk/news/articles/c4gkr3p0ql7o &mdash; BBC News: JLR job cuts
+ - https://news.sky.com/story/jaguar-land-rover-confirms-job-cuts-as-manufacturer-looks-to-save-1-7bn-13581834 &mdash; Sky News: JLR redundancies
+ - https://www.bbc.co.uk/news/articles/cnvl1r1080go &mdash; BBC News: Heathrow rail fire
+ - https://www.theguardian.com/uk-news/2026/sep/05/london-paddington-fire-causes-rail-chaos-heathrow-trains-cancelled &mdash; The Guardian: Paddington fire
+ - https://www.bbc.co.uk/news/articles/cwyznj31l3no &mdash; BBC News: conference incident
+ - https://www.bbc.co.uk/news/articles/cje87w9j342o &mdash; BBC News: Reform insiders
+ END SOURCES USED -->
+</div><!-- ── END EVENING 6 SEP (03:42) ── -->
 
 <div class="curated-edition morning" data-date="2026-09-05" data-time="05:11" data-markets='{"FTSE":{"price":10831.0,"change":0.0},"SP":{"price":7719.0,"change":-0.38},"Brent":{"price":96.28,"change":0.8},"GBP":{"price":1.3517,"change":-0.07},"Gold":{"price":4430,"change":-1.0},"EURGBP":{"price":0.859,"change":0.0},"Gilt":{"price":5.13,"change":-0.02},"VIX":{"price":14.53,"change":1.5},"BTC":{"price":79565,"change":-1.6},"UST":{"price":4.78,"change":0.02},"ts":"2026-09-05T05:11:00+01:00"}'>
  <div class="edition-header">
@@ -4557,159 +4706,6 @@
  </div><!-- ── END EVENING 30 AUG (00:55) ── -->
 
 
- <div class="curated-edition morning" data-date="2026-08-29" data-time="10:15" data-markets='{"FTSE":{"price":10824.0,"change":0.29},"SP":{"price":7712.0,"change":-0.25},"Brent":{"price":88.1,"change":-0.47},"GBP":{"price":1.3537,"change":-0.44},"Gold":{"price":4454,"change":-3.2},"EURGBP":{"price":0.8559,"change":-0.14},"Gilt":{"price":5.07,"change":0.03},"VIX":{"price":14.43,"change":-0.55},"BTC":{"price":77520,"change":-2.9},"UST":{"price":4.72,"change":0.04},"ts":"2026-08-29T10:15:00+01:00"}'>
- <div class="edition-header">
- <span class="edition-icon">&#9728;</span>
- <h2>Morning Briefing</h2>
- </div>
- <div class="curated-meta">Saturday 29 August 2026 &mdash; 10:15 BST</div>
- <div class="impact-box">
- <h3 class="impact-heading">What It Means For You</h3>
- <ul class="impact-list">
- <li><strong>London travel:</strong> No Metropolitan line service between Harrow-on-the-Hill and Aldgate until around 18:00 today after the Neasden fire, with the Jubilee line curtailed &mdash; tickets accepted on buses, the Elizabeth line and Thameslink.</li>
- <li><strong>Weather:</strong> Torrential, thundery showers sweep England and Wales today with 40&ndash;50mph gusts in the south &mdash; the weekend&rsquo;s strongest winds &mdash; and a flash-flood risk across the Midlands and north.</li>
- <li><strong>Fuel:</strong> Washington&rsquo;s Venezuela oil deal is aimed squarely at petrol prices &mdash; but any relief is months away. UK petrol remains at 161.6p a litre, its highest since 2022.</li>
- </ul>
- </div>
- <div class="curated-grid">
- <div class="curated-column">
- <h3><span class="dot geo"></span><span class="dot-label">GEO</span> Geopolitical</h3>
- <div class="curated-item" data-time="00:34" data-slug="trump-venezuela-oil-deal-announced">
- <h4>Trump Announces 'Biggest Oil Deal in History' With Venezuela</h4>
- <p>President Trump announced a deal giving the United States control of more than 65 billion barrels of Venezuelan oil &mdash; a 55 per cent government stake in a joint venture, under a 100-year concession covering seventeen strategic fields granted by interim president Delcy Rodr&iacute;guez. He claimed it &ldquo;more than doubles American oil reserves&rdquo; and would lower petrol prices; Caracas says it brings over $100bn of investment. The official text has not been released.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">Strip the superlatives and the structure is remarkable enough: the American government itself &mdash; not its oil majors &mdash; taking majority ownership of another nation&rsquo;s subsoil for a century, negotiated with an interim administration installed after US forces seized the elected-ish president in January. It goes beyond anything attempted in post-2003 Iraq, and the unpublished text will be scrutinised for what Venezuela actually receives beyond survival. The strategic logic runs through Hormuz: with Iranian oil bottled up, Venezuelan crude re-anchors American supply and prices before the midterms. The opposition calls it predatory; a future Venezuelan government may call it void. Watch the text when it surfaces, the legal challenges &mdash; and whether petrol prices actually move.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="01:56" data-slug="iceland-votes-eu-referendum">
- <h4>Iceland Votes Today on Reopening Its Path to the EU</h4>
- <p>Icelanders are voting on whether to restart EU accession talks frozen in 2013, with the final poll putting No narrowly ahead at 51.6 per cent &mdash; too close to call, with over a fifth of voters having cast ballots early. Fishing remains the crux, with marine industries around 40 per cent of exports; the economic case for Yes rests on 8 per cent interest rates and prices 87 per cent above the EU average. Results are expected in the early hours of tomorrow.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The arithmetic of small-country referendums is brutal: some 250,000 voters will settle a question watched from Brussels to Washington, and the margin may be a fishing village or two. Iceland&rsquo;s dilemma is the North Atlantic&rsquo;s in miniature &mdash; a NATO founder with no army, squeezed between a resurgent Russia, an unpredictable America eyeing Greenland next door, and a European bloc offering shelter at the price of the fish that built the nation. Twenty-seven of thirty-five negotiating chapters were already open when talks froze, so a Yes could move fast by accession standards. A No settles nothing but postpones everything. Watch the coastal constituencies tonight &mdash; and Brussels&rsquo; fisheries language if Yes sneaks home.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="04:35" data-slug="nepal-toll-633-foreign-help-uturn">
- <h4>Nepal Toll Passes 600 as Kathmandu Accepts Foreign Help</h4>
- <p>The flood death toll passed 600 &mdash; 633 by the latest counts, with nearly 3,000 missing &mdash; as Nepal reversed its refusal of foreign rescue teams, requesting specialist help &ldquo;to fill gaps&rdquo;; Indian and Chinese teams are expected today, and a British crisis-response team is due in Kathmandu following the UK&rsquo;s &pound;5m pledge. Rescue operations resumed around the unstable barrier lake, which experts now hope will drain naturally. Thirty-three Britons remain missing.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The U-turn on foreign help is quiet vindication for everyone who bit their tongue on Thursday: national pride and coordination fears are real considerations, but a toll trebling in three days makes its own argument, and the specialist capabilities arriving &mdash; tunnel rescue, swift-water teams &mdash; are precisely the gaps Nepal named. The missing count near three thousand is the number to watch with dread and hope in equal measure; registers inflate in chaos and deflate as survivors surface, and a 97-year-old woman pulled alive from the mud yesterday is the argument for continuing. For the British families now in Kathmandu, the crisis team&rsquo;s arrival at least gives grief a place to queue. Watch the lake&rsquo;s drainage &mdash; Tuesday remains the forecast peak.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="06:58" data-slug="russia-icbm-test-drone-escalation">
- <h4>Russia Tests Nuclear-Capable ICBM; Kyiv Triples Drone Target</h4>
- <p>Russia&rsquo;s defence ministry announced the successful test of a nuclear-capable intercontinental ballistic missile &mdash; days after the CIA director&rsquo;s Moscow visit to warn against testing NATO &mdash; as President Zelensky ordered long-range drone strikes on Russia tripled to a thousand a day. Western officials assess Moscow is escalating rhetoric while avoiding war with NATO, and estimate Russia is losing six thousand more troops a month than it can recruit.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">An ICBM test announced with fanfare days after a private American warning is an answer of sorts &mdash; the strategic-signalling equivalent of replying to a quiet word with a shout &mdash; but the harder numbers point the other way: a recruitment deficit of six thousand a month, over a hundred thousand men crossing into Georgia in a week amid mobilisation rumours, and Kyiv planning for a Russia that must conscript six hundred thousand more to keep pace. Zelensky&rsquo;s thousand-drones-a-day order industrialises the refinery campaign that has been quietly working all month. Between the missile theatre and the drone arithmetic sits the CIA channel, still warm. Watch whether mobilisation rumours harden &mdash; conscription is the decision Putin has spent three years avoiding.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="04:41" data-slug="hezbollah-rejects-lebanon-framework">
- <h4>Hezbollah Chief Vows 'No Surrender' on Israel-Lebanon Deal</h4>
- <p>Hezbollah leader Naim Qassem rejected the US-sponsored framework agreement between Israel and Lebanon outright, calling it &ldquo;illegitimate, unlawful, humiliating&rdquo; and demanding its downfall: &ldquo;We will keep our heads high and we will not surrender.&rdquo; The deal provides for Hezbollah&rsquo;s disarmament, phased Israeli withdrawal and Lebanese army deployment in pilot zones &mdash; each element Qassem specifically refused. The Lebanese government continues to back the agreement.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The deal&rsquo;s design always contained this collision: it commits the Lebanese state to disarming an organisation that considers itself the state&rsquo;s shield, and Qassem&rsquo;s speech makes explicit that Hezbollah will not walk into that arrangement voluntarily. What has changed since June is the context &mdash; six months of the Iran war have drained Hezbollah&rsquo;s patron, thinned its arsenal and hardened Beirut&rsquo;s calculation that the deal is Lebanon&rsquo;s way out of everyone else&rsquo;s wars. The pilot zones are where theory meets ground: army deployments Qassem rejects are scheduled to begin there, with verification mechanisms he calls humiliation. Watch the first pilot-zone deployment date &mdash; whether it proceeds, stalls or sparks is the next chapter.</div>
- </details>
- </div>
- </div>
- <div class="curated-column">
- <h3><span class="dot dom"></span><span class="dot-label">UK</span> UK Domestic Politics</h3>
- <div class="curated-item" data-time="22:50" data-slug="big-church-festival-sign-death">
- <h4>Man Dies as Sign Falls at Christian Festival; Event Cancelled</h4>
- <p>A 41-year-old man from Eastbourne died and at least seven people were injured when a large sign fell at the Big Church Festival at Wiston Park in West Sussex, the UK&rsquo;s biggest Christian festival. Organisers cancelled the rest of the weekend event, saying they were &ldquo;devastated&rdquo; and working with police and the Health and Safety Executive &ldquo;as they establish the circumstances&rdquo;. A witness described a large wooden sign collapsing near a tented area&rsquo;s entrance.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">Festival deaths from infrastructure &mdash; stages, rigging, signage &mdash; are mercifully rare in Britain precisely because the regulatory framework born of past tragedies is dense: temporary demountable structures have their own guidance, wind loading calculations, sign-off regimes. That is why the HSE&rsquo;s involvement matters more than the criminal inquiry; if a wooden sign could fall into a crowd at a major licensed event, something failed on paper before it failed in the field, and yesterday&rsquo;s 40mph gusts will be central to the question of what was checked and when. For a volunteer-heavy community festival, the grief is doubled by the implication. Watch the HSE&rsquo;s findings &mdash; and whether this weekend&rsquo;s other festivals, in the same winds, review their own structures.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="00:01" data-slug="healey-shelves-defence-target">
- <h4>Healey to Shelve the 3% Defence Target He Resigned Over</h4>
- <p>Chancellor John Healey will not set a date for spending 3 per cent of GDP on defence in his October Budget, the Treasury confirmed &mdash; deferring the roadmap to next year&rsquo;s spending review. In June, as defence secretary, he resigned over precisely this, writing that &ldquo;a headmark date for 3% of GDP on defence in 2030 is what Britain must set&rdquo;. Now he says fiscal discipline comes first: &ldquo;We simply can&rsquo;t deal with the problems we face as a country by maxing out the country&rsquo;s credit card.&rdquo;</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">Politics rarely supplies irony this clean: the man who resigned because the Treasury would not commit to 3 per cent now runs the Treasury and will not commit to 3 per cent. The charitable reading is that he has seen the books; the unkind one leads every front page. The substance beneath the irony is genuinely hard &mdash; a &pound;1.2bn annual hole in the existing defence investment plan, a NATO pledge of 3.5 per cent by 2035 hovering above it, and reports of Washington preparing pressure tactics that reportedly reach as far as questioning Falklands sovereignty. This week&rsquo;s &ldquo;beyond critical&rdquo; Patriot disclosure is the backdrop that makes the date matter. Watch the spending review timeline &mdash; and whether the resignation letter gets quoted back at him across the despatch box.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="22:00" data-slug="a66-arrests-24-king-letter">
- <h4>A66 Arrests Reach 24 as King Writes to Officers' Families</h4>
- <p>Seven more arrests brought the total to 24 in the organised-crime investigation spanning the A66 crash and its aftermath, after a vehicle stop in Grangetown yielded Class A drugs and arrests for arson and criminal damage with intent to endanger life. Two men remain held on suspicion of murder over the fire that killed Natalie McDonald and seven-year-old Valentina Foster, with no charges yet. The King has written to the families of PCs Matthew Blades and Tom Clough, reportedly &ldquo;shocked by the devastating events&rdquo;.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">Twenty-four arrests in a week describes a police operation dismantling a network in real time rather than investigating a crash &mdash; recalls to prison, drug seizures, arson and threats charges accumulating around the original tragedy like scaffolding around a ruin. The police commissioner&rsquo;s phrase &mdash; the most tragic week in the force&rsquo;s history &mdash; is not rhetoric: two officers buried, five young men identified by fingerprints, a woman and a child dead in a fire still officially unexplained, and a community whose vigils have twice turned disorderly. The King&rsquo;s letter places the national institution&rsquo;s weight behind a force running on mutual aid. Watch the murder-charge decision above all &mdash; the custody extensions cannot run much longer.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="06:00" data-slug="gordon-brown-ireland-united">
- <h4>Gordon Brown: 'In the Long Term, Ireland Will Be United'</h4>
- <p>Gordon Brown said a united Ireland is inevitable &mdash; &ldquo;of course, in the long term, Ireland will be united&rdquo;, though through &ldquo;a long process where people have got to come together&rdquo; &mdash; while restating his opposition to Scottish independence, days after Mr Burnham declared a border poll &ldquo;off the table&rdquo;. The former prime minister, who was chancellor when the Good Friday Agreement was signed, also backed continued North Sea drilling to fund the energy transition.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">When the architect-generation of the peace process says unification is a matter of &ldquo;when&rdquo;, it moves the Overton window in a way no Sinn F&eacute;in press release can &mdash; and the timing, days after the current prime minister took the question off the table in Belfast, turns an interview aside into an intervention. Brown&rsquo;s distinction is characteristically worked out: Ireland united by demography and geography&rsquo;s logic, Scotland bound by Britain&rsquo;s; unionists will note that both arguments once sounded confident the other way. His North Sea position gives cover to ministers weighing the Rosebank and Jackdaw decisions with consultations now closed. Watch how Dublin, Stormont &mdash; and Number 10 &mdash; respond to being handed a timetable-shaped question by Labour&rsquo;s elder statesman.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="00:01" data-slug="oneill-cgt-warning-labour-poll">
- <h4>Burnham Warned Capital Gains Rise Would Be 'Stupid'</h4>
- <p>Lord Jim O&rsquo;Neill warned that raising capital gains tax in the October Budget would be &ldquo;stupid&rdquo; &mdash; &ldquo;if you push it up too much you end up losing money&hellip; they just don&rsquo;t sell anything&rdquo; &mdash; as senior Burnham allies reportedly press for an increase. The former Treasury minister accused tax-raising ministers of &ldquo;being scared and lazy&rdquo;. Weekend polling meanwhile put Labour ahead of Reform for the first time in months, with Mr Burnham the only leader holding a positive approval rating.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The CGT debate is the Budget&rsquo;s intellectual fault line in miniature: the theoretical revenue is large, the behavioural response &mdash; simply not selling &mdash; is well documented, and O&rsquo;Neill&rsquo;s &ldquo;lazy&rdquo; charge lands because wealth taxes poll well while growing an economy is hard. That he says he declined the role of Mr Burnham&rsquo;s economic adviser gives the criticism the sting of the courted. Yet the polling explains the government&rsquo;s room to ignore him: leapfrogging Reform, a leader in positive approval, and Farage reportedly leaking a tenth of his voters rightward to Restore Britain &mdash; the political weather has shifted just as the fiscal choices harden. Watch which taxes survive the next eight weeks of kite-flying; the Budget is on 28 October and parliament returns next week.</div>
- </details>
- </div>
- </div>
- </div>
- <div class="one-to-read">
- <span class="otr-label">One To Read</span>
- <a href="https://www.aljazeera.com/news/2026/8/29/ecuador-sentences-ex-president-moreno-to-five-years-in-jail-in-bribery-case" target="_blank" rel="noopener noreferrer">
- <h4>The Dam, the Bribes and the President</h4>
- <span class="otr-source">Al Jazeera</span>
- <span class="otr-dot">&middot;</span>
- <span class="otr-desc">Ecuador sentenced ex-president Len&iacute;n Moreno to five years over $76m in bribes tied to a Chinese-built mega-dam &mdash; with his wife, daughter and brothers convicted alongside him, and a former ambassador jailed too.</span>
- </a>
- </div>
- <!-- SOURCES USED
- - https://www.bbc.co.uk/news/articles/cx2zlwe7qj1o &mdash; BBC News: Venezuela oil deal announced
- - https://www.theguardian.com/us-news/2026/aug/28/trump-venezuela-oil-agreement &mdash; The Guardian: Venezuela agreement
- - https://www.aljazeera.com/news/2026/8/29/trump-announces-biggest-oil-deal-in-world-history-with-venezuela &mdash; Al Jazeera: Venezuela deal
- - https://www.npr.org/2026/08/28/nx-s1-5948229/trump-says-u-s-has-entered-deal-with-venezuela-to-take-control-of-65-billion-barrels-of-oil-reserves &mdash; NPR: Venezuela reserves
- - https://www.nbcnews.com/world/venezuela/us-entered-deal-venezuela-take-control-65-billion-barrels-oil-reserves-rcna594966 &mdash; NBC News: Venezuela deal
- - https://www.cbsnews.com/news/trump-venezuela-oil-u-s-majority-control-65-billion-barrels/ &mdash; CBS News: deal structure
- - https://www.bbc.co.uk/news/articles/cn45vdxyvvlo &mdash; BBC News: Iceland votes
- - https://www.aljazeera.com/news/2026/8/29/why-is-iceland-considering-joining-the-eu &mdash; Al Jazeera: Iceland explainer
- - https://www.lemonde.fr/en/international/article/2026/08/28/in-iceland-the-prospect-of-joining-the-eu-generates-little-enthusiasm-ahead-of-referendum_6756945_4.html &mdash; Le Monde: Iceland mood
- - https://www.aljazeera.com/news/2026/8/29/nepal-and-china-resume-flood-rescue-as-death-toll-nears-600 &mdash; Al Jazeera: Nepal rescue resumes
- - https://www.cbsnews.com/news/nepal-flash-flood-death-missing-americans-rescue/ &mdash; CBS News: Nepal toll
- - https://www.bbc.co.uk/news/articles/c93v70w79gxo &mdash; BBC News: Britons missing, UK crisis team
- - https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-putin-zelensky-uk-nato-missile-b3041389.html &mdash; The Independent: ICBM test, drone order
- - https://www.bbc.co.uk/news/articles/cz0zm2j7ld1o &mdash; BBC News: Russia-NATO assessment
- - https://www.theguardian.com/world/2026/aug/28/russia-losing-6000-more-troops-than-it-can-recruit-each-month-in-ukraine-says-west &mdash; The Guardian: Russian recruitment deficit
- - https://www.timesofisrael.com/hezbollah-chief-vows-no-surrender-as-he-again-rejects-israel-lebanon-deal/ &mdash; Times of Israel: Qassem speech
- - https://www.lemonde.fr/en/international/article/2026/08/28/hezbollah-chief-again-rejects-lebanon-israel-deal-refuses-surrender_6756948_4.html &mdash; Le Monde: Hezbollah rejection
- - https://www.bbc.co.uk/news/articles/c158939pz4do &mdash; BBC News: festival death
- - https://www.theguardian.com/uk-news/2026/aug/29/man-41-dies-after-large-sign-falls-at-christian-festival-in-west-sussex &mdash; The Guardian: festival death
- - https://news.sky.com/story/six-people-injured-after-serious-incident-at-festival-13578171 &mdash; Sky News: festival incident
- - https://www.independent.co.uk/news/uk/home-news/big-church-festival-sign-falls-injuries-wiston-park-steyning-west-sussex-b3041215.html &mdash; The Independent: festival injuries
- - https://www.theguardian.com/business/2026/aug/28/john-healey-uk-defence-spending-target-budget &mdash; The Guardian: defence target shelved
- - https://www.bbc.co.uk/news/articles/cgl74j7jdlno &mdash; BBC News: Saturday papers review
- - https://www.theguardian.com/uk-news/2026/aug/28/police-arrest-seven-more-men-in-aftermath-of-deadly-a66-crash &mdash; The Guardian: A66 arrests reach 24
- - https://www.independent.co.uk/news/uk/crime/a66-crash-seven-arrests-organised-crime-middlesbrough-b3041236.html &mdash; The Independent: seven more arrests
- - https://www.theguardian.com/uk-news/2026/aug/29/ireland-will-be-united-says-gordon-brown &mdash; The Guardian: Brown interview
- - https://www.independent.co.uk/news/uk/politics/burnham-capital-gains-tax-labour-b3041399.html &mdash; The Independent: O'Neill warning
- - https://www.thetimes.com/ &mdash; The Times: O'Neill interview (original, cited by Independent)
- - https://api.tfl.gov.uk/line/metropolitan,jubilee/status &mdash; TfL (primary): line status
- - https://www.bbc.co.uk/weather/articles/c1l6g7gqm37o &mdash; BBC Weather: bank holiday conditions
- - https://www.aljazeera.com/news/2026/8/29/ecuador-sentences-ex-president-moreno-to-five-years-in-jail-in-bribery-case &mdash; Al Jazeera: Moreno sentenced
- END SOURCES USED -->
- </div><!-- ── END MORNING 29 AUG (10:15) ── -->
 
 
  
