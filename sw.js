@@ -1,4 +1,4 @@
-const CACHE_NAME = 'daily-brief-v377';
+const CACHE_NAME = 'daily-brief-v378';
 const STATIC_ASSETS = [
   '/',
   '/index.html',
