@@ -1,0 +1,11 @@
+# Yahoo Finance chart API, range=2d interval=1d, fetched 2026-09-22T07:01Z
+^FTSE | live 10739.01 | chartPrevClose 10659.1 | closes [('09-21', 10739.0), ('09-22', None)] | asof 2026-09-21T15:35Z
+^GSPC | live 7764.7 | chartPrevClose 7637.76 | closes [('09-18', 7650.5), ('09-21', 7764.7001953125)] | asof 2026-09-21T20:51Z
+BZ=F | live 97.51 | chartPrevClose 100.34 | closes [('09-21', 100.33999633789062), ('09-22', 97.51000213623047)] | asof 2026-09-22T06:50Z
+GBPUSD=X | live 1.337 | chartPrevClose 1.3389 | closes [('09-20', 1.3388673067092896), ('09-21', None), ('09-22', 1.3369520902633667)] | asof 2026-09-22T07:01Z
+GC=F | live 4357.5 | chartPrevClose 4383.9 | closes [('09-21', 4383.89990234375), ('09-22', 4357.5)] | asof 2026-09-22T06:51Z
+EURGBP=X | live 0.8574 | chartPrevClose 0.8573 | closes [('09-20', 0.85725998878479), ('09-21', None), ('09-22', 0.8574000000953674)] | asof 2026-09-22T07:01Z
+^VIX | live 14.87 | chartPrevClose 14.87 | closes [('09-21', 14.869999885559082), ('09-22', None)] | asof 2026-09-21T20:15Z
+BTC-USD | live 85351.8 | chartPrevClose 86597.82 | closes [('09-22', 85351.796875)] | asof 2026-09-22T07:01Z
+^TNX | live 4.963 | chartPrevClose 4.998 | closes [('09-18', 4.998000144958496), ('09-21', 4.9629998207092285)] | asof 2026-09-21T18:59Z
+[('09-16', 17.71), ('09-17', 15.44), ('09-18', 14.81), ('09-21', 14.87), ('09-22', None)]
