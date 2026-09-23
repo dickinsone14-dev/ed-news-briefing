@@ -1,0 +1,11 @@
+URL: https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=BTC.CM= (CNBC/Coin Metrics, 2026-09-23 07:57 BST)
+BTC.CM= Bitcoin/USD | last 86,455.19 | chg +88.38 | pct +0.10% | prev 86,366.81 (24h-ago ref)
+
+URL: https://query1.finance.yahoo.com/v8/finance/chart/BTC-USD?range=5d&interval=1d (via WebFetch)
+BTC-USD regularMarketPrice 86458.98 | daily UTC closes 81233.7, 81142.6, 86602.9, null, 86458.98
+
+URL: https://www.kucoin.com/news/articles/crypto-daily-market-report-september-23-2026 (not approved; reference only)
+BTC $86,194.5 (-0.48%) as of 2026-09-23 00:00 UTC
+
+URL: https://www.cnbc.com/2026/09/21/bitcoin-price-crypto-rally.html
+Bitcoin above $86,000 Monday, highest since 29 Jan; +8% on week, +34% over 3 months; Clarity Act blocked in Senate; Bitwise: rotation out of AI stocks into crypto

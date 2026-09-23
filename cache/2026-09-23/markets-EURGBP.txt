@@ -1,0 +1,11 @@
+URL: https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=EURGBP= (CNBC, 2026-09-23 07:57 BST)
+EURGBP= | last 0.8577 | chg +0.0001 | pct +0.01% | prev 0.8576
+
+URL: https://query1.finance.yahoo.com/v8/finance/chart/EURGBP%3DX?range=5d&interval=1d (via WebFetch)
+EURGBP=X regularMarketPrice 0.8578
+
+URL: https://tradingeconomics.com/united-kingdom/currency (crosses table)
+EURGBP 0.8581 | +0.0002 | +0.03% | Sep/23   (tradingeconomics.com/eurgbp:cur page was stale at Sep 21: 0.85782)
+
+URL: https://www.reuters.com/world/asia-pacific/dollar-holds-near-2-month-high-markets-weigh-rate-hikes-iran-diplomacy-2026-09-23/
+euro $1.1446 near weakest since late July; sterling $1.3337 -> implied EUR/GBP ~0.858

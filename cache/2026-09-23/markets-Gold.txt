@@ -1,0 +1,15 @@
+URL: https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=XAU=|@GC.1 (CNBC, 2026-09-23 07:57 BST)
+XAU= Gold/USD SPOT | last 4,332.85 | chg -21.89 | pct -0.50% | prev 4,354.74
+@GC.1 Gold COMEX Dec'26 FUTURES | last 4,370.10 | chg -6.30 | pct -0.14% | prev 4,376.40
+
+URL: https://query1.finance.yahoo.com/v8/finance/chart/GC%3DF?range=5d&interval=1d (via WebFetch) -- FUTURES Dec 26, not spot
+GC=F regularMarketPrice 4370.0 | prior closes 4383.9, 4376.4
+
+URL: https://tradingeconomics.com/commodity/gold (spot CFD)
+Gold 4335.13 | -29.19 | -0.67% (02:07); stats 4,334.03 Sep 23 -0.69%, prev 4,364.32
+
+URL: https://www.reuters.com/world/china/global-markets-global-markets-2026-09-23/
+gold eased 0.3% to $4,341 an ounce (early Asia)
+
+URL: https://www.reuters.com/world/india/gold-lacklustre-higher-for-longer-rate-outlook-weighs-sentiment-2026-09-23/
+Spot gold fell 0.2% to $4,345.55/oz as of 0435 GMT; Dec futures +0.2% at $4,383.10; dollar near 2-month high; Fed's Collins backed hike; Fed raised to 3.75-4.00% last week and signalled another; BMI 2026 avg forecast $4,400

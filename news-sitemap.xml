@@ -2,6 +2,248 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-23-morning/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-23T08:10:00+01:00</news:publication_date>
+      <news:title>Morning Briefing — Wednesday 23 September 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-23-morning/us-iran-talks-new-york/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-23T08:10:00+01:00</news:publication_date>
+      <news:title>Three Hours of US-Iran Talks in New York; Tehran Names Its Price</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-23-morning/zelensky-energy-ceasefire-rubio-lavrov/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-23T08:10:00+01:00</news:publication_date>
+      <news:title>Zelensky Offers an Energy Ceasefire After Trump Talks; Rubio Meets Lavrov Today</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-23-morning/trump-xi-red-lines/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-23T08:10:00+01:00</news:publication_date>
+      <news:title>Xi Lands in Washington Today as Beijing Draws Four &#x27;Red Lines&#x27;</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-23-morning/greenland-text-golden-dome/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-23T08:10:00+01:00</news:publication_date>
+      <news:title>Greenland Text Published: Golden Dome, No End Date, No Non-NATO Bases</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-23-morning/macron-gaza-shame/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-23T08:10:00+01:00</news:publication_date>
+      <news:title>Macron&#x27;s UN Farewell: Gaza a &#x27;Spectacle That Should Shame Us All&#x27;</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-23-morning/chagos-review-trump-terrible/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-23T08:10:00+01:00</news:publication_date>
+      <news:title>Trump Calls Chagos Deal &#x27;Terrible&#x27;; Burnham Agrees to Look Again</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-23-morning/burnham-un-information-defence/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-23T08:10:00+01:00</news:publication_date>
+      <news:title>Burnham to the UN: Russia Spends £1.3bn a Year Poisoning Britain&#x27;s Debate</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-23-morning/manchester-jewish-plot-foiled/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-23T08:10:00+01:00</news:publication_date>
+      <news:title>Police Foil &#x27;Imminent&#x27; Plot Against Manchester&#x27;s Jewish Community; Two Held</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-23-morning/dover-dinghy-gosport-protest/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-23T08:10:00+01:00</news:publication_date>
+      <news:title>Migrants Land at Dover After 33 Hours at Sea; Six Held at Gosport</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-23-morning/yougov-reform-lowest/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-23T08:10:00+01:00</news:publication_date>
+      <news:title>Reform Falls to 21%, Its Lowest Since January 2025, as Greens Surge</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-22-evening/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-22T18:00:00+01:00</news:publication_date>
+      <news:title>Evening Briefing — Tuesday 22 September 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-22-evening/trump-unga-ultimatum/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-22T18:00:00+01:00</news:publication_date>
+      <news:title>Trump to the UN: &#x27;Do I Annihilate the Islamic Republic… Or a Deal Right After the Election?&#x27;</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-22-evening/iran-hormuz-offer/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-22T18:00:00+01:00</news:publication_date>
+      <news:title>Iran Offers to Reopen Hormuz Within Seven Days — and Oil Dives Below $100</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-22-evening/greenland-signed/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-22T18:00:00+01:00</news:publication_date>
+      <news:title>Greenland Deal Signed at the UN: Two New American Bases, Sovereignty &#x27;Respected&#x27;</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-22-evening/ukraine-refineries-sanctions/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-22T18:00:00+01:00</news:publication_date>
+      <news:title>Kyiv Burns Refineries 1,300km Inside Russia; EU Renews Sanctions but Frees Two Oligarchs</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-22-evening/gulf-two-fears/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-22T18:00:00+01:00</news:publication_date>
+      <news:title>The Gulf Six Meet Trump With &#x27;Two Fears: More War and Less US Protection&#x27;</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-22-evening/burnham-trump-hour/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-22T18:00:00+01:00</news:publication_date>
+      <news:title>&#x27;Manchester Isn&#x27;t Some Town&#x27;: Burnham&#x27;s Trump Moment Arrives</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-22-evening/davey-17bn/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-22T18:00:00+01:00</news:publication_date>
+      <news:title>Davey Closes With a £17bn Income Tax Cut — and a Treaty Against &#x27;Super-Intelligent AI&#x27;</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-22-evening/rwanda-court-brown/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-22T18:00:00+01:00</news:publication_date>
+      <news:title>London Doctor Accused in Court of Overseeing Six Killings in Rwanda&#x27;s Genocide</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-22-evening/raf-saudi-scrutiny/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-22T18:00:00+01:00</news:publication_date>
+      <news:title>The RAF&#x27;s Saudi Mission Meets Its First Day of Scrutiny</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-22-evening/sterling-two-month-low/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-22T18:00:00+01:00</news:publication_date>
+      <news:title>Sterling Sinks to a Two-Month Low as Oil&#x27;s Relief Rally Bypasses the Pound</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-09-22-morning/</loc>
     <news:news>
       <news:publication>

@@ -1,0 +1,17 @@
+URL: https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=.VIX (CNBC, 2026-09-23 07:57 BST)
+.VIX CBOE Volatility Index | last 14.21 | chg UNCH (prev rolled to 14.21) | time 2026-09-22
+
+URL: https://query1.finance.yahoo.com/v8/finance/chart/%5EVIX?range=5d&interval=1d (via WebFetch)
+^VIX regularMarketPrice 14.21 | prior daily closes 17.71, 15.44, 14.81, 14.87 (Mon) -> Tue 14.21 = -0.66 pts = -4.44%
+
+URL: https://tradingeconomics.com/vix:ind
+USVIX 14.21 | daily change -0.66 | Sep 22
+
+URL: https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-22-133900165.html (Zacks via Yahoo, Monday recap)
+VIX was up 0.41% to 14.87 on Monday 21 Sep
+
+URL: https://www.reuters.com/commentary/reuters-open-interest/global-markets-trading-day-graphic-2026-09-22/
+S&P 500 flat, Nasdaq record on AI momentum and oil decline; Treasuries little-changed; 2-year auction soft
+
+URL: https://www.cnbc.com/2026/09/22/stock-market-today-live-updates.html
+At 14.21, the VIX is low considering uncertainty around the Iran war and a new Fed hiking cycle (First Franklin's Brett Ewing); Nasdaq record close, S&P marginally lower ~0.7% off record; futures flat late Tuesday as oil and yields eased on de-escalation hopes

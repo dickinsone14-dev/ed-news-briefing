@@ -1,0 +1,11 @@
+URL: https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=US10Y (CNBC, 2026-09-23 07:57 BST)
+US10Y U.S. 10 Year Treasury | last 4.947% (live Wed) | chg -0.02 | prev_day_closing 4.967%
+
+URL: https://query1.finance.yahoo.com/v8/finance/chart/%5ETNX?range=5d&interval=1d (via WebFetch)
+^TNX regularMarketPrice 4.968 (Tue close) | prior closes 5.006, 4.947, 4.998, 4.963
+
+URL: https://tradingeconomics.com/united-states/government-bond-yield
+US 10Y 4.97 | +0.014 | Sep/22 ; prev 4.96
+
+URL: https://www.reuters.com/world/china/global-markets-global-markets-2026-09-23/
+dip in oil helped Treasury futures nudge higher, keeping 10-year yields below the 5.0% pain barrier; 2-year 4.7879% highest since mid-2024; futures 54% chance of Oct Fed hike, 33bp by year-end; Barkin and Collins backed last week's hike

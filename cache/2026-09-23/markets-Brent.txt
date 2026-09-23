@@ -1,0 +1,15 @@
+URL: https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=@LCO.1|@LCO.2 (CNBC, 2026-09-23 07:47 BST)
+@LCO.1 ICE Brent Crude (Nov'26) | last 98.50 | chg -0.75 | pct -0.76% | prev settle 99.25
+@LCO.2 ICE Brent Crude (Dec'26) | last 94.71 | chg -0.70 | pct -0.73% | prev settle 95.41
+
+URL: https://query1.finance.yahoo.com/v8/finance/chart/BZ%3DF?range=5d&interval=1d (via WebFetch)
+BZ=F regularMarketPrice 98.49 | daily closes 103.87, 100.34, 99.25 (Tue settle), 98.49 (Wed in-progress) -> Yahoo BZ=F is tracking the Nov'26 front month here (matches CNBC @LCO.1 settle 99.25)
+
+URL: https://tradingeconomics.com/commodity/brent-crude-oil
+Brent CFD 98.537 | -0.713 | -0.72% (00:00) ; stats: 98.27 on Sep 23, prev 99.25
+
+URL: https://www.reuters.com/business/energy/oil-falls-increased-gulf-supply-hopes-us-iran-talks-2026-09-23/
+Brent fell $1.09 (1.1%) to $98.16 at 0421 GMT; WTI $89.01; six straight declines; Tuesday close below $100 first time since Sep 8; Saudi East-West pipeline restarted; Iraq exports up; API crude +1.8m bbl
+
+URL: https://www.bostonherald.com/2026/09/22/wall-street-oil-prices-bond-yields/ (AP, 22 Sep)
+Brent settled at $99.25 per barrel Tuesday, down 1.1%; briefly below $98 in morning
