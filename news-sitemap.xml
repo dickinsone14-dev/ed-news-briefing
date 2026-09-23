@@ -2,6 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-23-evening/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-23T17:53:00+01:00</news:publication_date>
+      <news:title>Evening Briefing — Wednesday 23 September 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-23-evening/pezeshkian-no-surrender/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-23T17:53:00+01:00</news:publication_date>
+      <news:title>&#x27;We Will Never Bow&#x27;: Pezeshkian Answers Trump, and Oil Jumps 3.5%</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-23-evening/rubio-lavrov-limited-ceasefire/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-23T17:53:00+01:00</news:publication_date>
+      <news:title>Rubio: Russia and Ukraine Both Want a &#x27;Limited Ceasefire&#x27; on Grain and Energy</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-23-evening/kyiv-drone-barrage-petrol/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-23T17:53:00+01:00</news:publication_date>
+      <news:title>Kyiv Pounded for Hours: Two Killed, Thirty Hurt, Petrol Stations Ablaze</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-23-evening/tigray-war-restarts/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-23T17:53:00+01:00</news:publication_date>
+      <news:title>Ethiopia&#x27;s Tigray War Restarts: Forces Seize Airports, Peace Deal Shattered</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-23-evening/xi-arrives-washington/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-23T17:53:00+01:00</news:publication_date>
+      <news:title>Xi Lands in Washington for Three Days of Pomp and Low Expectations</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-23-evening/chagos-payments-paused/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-23T17:53:00+01:00</news:publication_date>
+      <news:title>Chagos Payments Paused: Deal &#x27;Can&#x27;t Go Ahead Without American Support&#x27;</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-23-evening/kremlin-hits-back-burnham/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-23T17:53:00+01:00</news:publication_date>
+      <news:title>Kremlin Hits Back at Burnham: Britain Is Fostering &#x27;Total Russophobia&#x27;</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-23-evening/kent-landings-review/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-23T17:53:00+01:00</news:publication_date>
+      <news:title>Two Boats Land Undetected in Kent; Home Secretary Orders Urgent Review</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-23-evening/oecd-imf-budget-warning/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-23T17:53:00+01:00</news:publication_date>
+      <news:title>OECD Cuts Growth and the IMF Warns on Debt, Five Weeks From the Budget</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-23-evening/scotland-drug-deaths-rise/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-23T17:53:00+01:00</news:publication_date>
+      <news:title>Scottish Drug Deaths Rise 11% to 1,133, Still the Worst in Europe</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-09-23-morning/</loc>
     <news:news>
       <news:publication>
