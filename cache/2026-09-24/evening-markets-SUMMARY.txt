@@ -1,0 +1,27 @@
+URL: (compiled from evening-markets-*.txt in this directory) — 2026-09-24 ~18:58 BST
+
+FINAL ADOPTED VALUES (evening push, Thursday 24 September 2026)
+FTSE   10,679.99  -0.24%   close 16:35 BST  [CNBC + MarketWatch exact match]
+SP      7,692.97  -0.17%   13:46 EDT live   [CNBC; MW 7,694.94 -0.14%]
+Brent     106.61  +3.42%   Nov'26 @LCO.1, 18:36 BST  [CNBC + MW Nov'26 106.64 +3.45%]
+GBP       1.3213  -0.18%   vs 1.3237        [CNBC + MW identical level]
+Gold    4,258.98  -0.65%   spot XAU, 13:45 EDT [CNBC; Investing 4,262.73 -0.57%]
+EURGBP    0.8602  +0.12%   [CNBC; MW 0.8604]
+Gilt      5.3476  -0.04pp  [Investing + TradingEconomics + CNBC prev-close all agree; MW STALE]
+VIX        15.79  +4.02%   vs 15.18         [CNBC; MW 15.64 +3.03% at earlier stamp]
+BTC       84,145  -0.16%   24h              [CoinGecko; Coinbase 84,157.5; CNBC 84,147.84]
+UST        5.158  +0.045pp vs 5.114         [CNBC; MW 5.161 +0.045]
+
+TRAPS HIT TODAY
+- Yahoo Finance v7 AND v8 both fully blocked (404/challenge). Stooq also dead. Not usable.
+- BRENT ROLL: MarketWatch BRN00 page shows Nov'26 (106.64) in the quote block but its
+  metadata carries the continuous series already rolled to Dec'26 ($100.69, +2.62%).
+  Nov'26 retained because prev settle 103.08 matches the published Wednesday reference.
+  Dec'26 trades ~$5.95 lower. Nov'26 expires 30 Sep — roll the series next week.
+- GILT REVERSAL vs prior guidance: MarketWatch (tmbmkgb-10y) is the STALE source today.
+  MW showed 5.385% "Sep 24 5:07 p.m. BST" — but 5.3851 is what CNBC, Investing.com and
+  Trading Economics all carry as WEDNESDAY's close. Investing + TE both put Thursday at 5.3476.
+  3-to-1 against MarketWatch. ADOPTED 5.3476 (-0.0375pp vs 5.3851).
+  CAVEAT: the brief's stated Wed close of 5.350 disagrees with all three sources (5.3851).
+  If continuity with the published 5.35 is preferred, change reads ~0.00 instead of -0.04.
+- CNBC .VIX change fields WORKING today (change +0.61, +4.02%), not "UNCH" as on prior runs.

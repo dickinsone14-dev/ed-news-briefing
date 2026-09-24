@@ -1,0 +1,47 @@
+URL: https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=... (CNBC quote API, fetched 2026-09-24 ~18:50 BST)
+
+=== CNBC ===
+{
+ "symbol": ".VIX",
+ "symbolType": "symbol",
+ "code": 0,
+ "name": "CBOE Volatility Index",
+ "shortName": "VIX",
+ "onAirName": "CBOE Volatility Index",
+ "altName": "CBOE MKT VOLATILITY IDX",
+ "last": "15.79",
+ "last_timedate": "1:46 PM EDT",
+ "last_time": "2026-09-24T13:46:01.000-0400",
+ "changetype": "UP",
+ "type": "INDEX",
+ "subType": "Index",
+ "exchange": "Exchange",
+ "source": "Exchange",
+ "open": "15.83",
+ "high": "16.57",
+ "low": "15.34",
+ "change": "+0.61",
+ "change_pct": "+4.02%",
+ "currencyCode": "USD",
+ "provider": "CNBC Quote Cache",
+ "previous_day_closing": "15.18",
+ "altSymbol": ".VIX",
+ "realTime": "true",
+ "curmktstatus": "REG_MKT",
+ "yrhiprice": "35.30",
+ "yrhidate": "03/09/26",
+ "yrloprice": "13.38",
+ "yrlodate": "12/24/25",
+ "streamable": "1",
+ "issue_id": "601065",
+ "countryCode": "CH",
+ "timeZone": "EDT",
+ "feedSymbol": ".VIX",
+ "portfolioindicator": "N"
+}
+
+=== MarketWatch VIX — scraped 2026-09-24 ~18:54 BST ===
+URL: https://www.marketwatch.com/investing/index/vix
+15.64 | +0.46 | +3.03% | quoteTime "Sep 24, 2026 12:33 p.m. CDT" (=13:33 EDT) | prevClose 15.18
+CNBC .VIX (fresher, 13:46 EDT): 15.79 | +0.61 | +4.02% | prevClose 15.18.
+NOTE: CNBC .VIX change fields ARE working today (not "UNCH"). Both agree prevClose 15.18.

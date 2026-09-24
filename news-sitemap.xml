@@ -2,6 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-24-evening/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-24T18:54:00+01:00</news:publication_date>
+      <news:title>Evening Briefing — Thursday 24 September 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-24-evening/trump-xi-summit-taiwan-ai/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-24T18:54:00+01:00</news:publication_date>
+      <news:title>Xi Presses Trump on Taiwan; Both Agree to Leave AI Alone</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-24-evening/us-iran-phased-hormuz-deal/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-24T18:54:00+01:00</news:publication_date>
+      <news:title>Washington and Tehran Discussing a Phased Deal: Hormuz for the Blockade</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-24-evening/iran-flights-grounded-sanctions/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-24T18:54:00+01:00</news:publication_date>
+      <news:title>Gulf States Ground Iran&#x27;s Airlines as American Sanctions Bite</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-24-evening/tigray-full-blown-war/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-24T18:54:00+01:00</news:publication_date>
+      <news:title>Tigray Declares Full-Blown War as Its Own Commanders Are Detained</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-24-evening/kyiv-maternity-hospital-strike/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-24T18:54:00+01:00</news:publication_date>
+      <news:title>Maternity Hospital Hit in Kyiv; Russian Drones Cross Into Moldova and Romania</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-24-evening/boe-sparks-tinderbox/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-24T18:54:00+01:00</news:publication_date>
+      <news:title>Bank of England Turns Towards a Rate Rise: &#x27;Sparks in the Tinderbox&#x27;</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-24-evening/channel-crossings-record-day/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-24T18:54:00+01:00</news:publication_date>
+      <news:title>781 Cross the Channel in a Single Day, the Highest This Year</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-24-evening/council-tax-london-subsidy/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-24T18:54:00+01:00</news:publication_date>
+      <news:title>Council Tax Hands London a £3bn Subsidy, Resolution Foundation Finds</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-24-evening/court-backlog-record-jury/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-24T18:54:00+01:00</news:publication_date>
+      <news:title>Crown Court Backlog Hits a Record as Ministers Rethink Jury Curbs</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-24-evening/breast-cancer-review-4500/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-24T18:54:00+01:00</news:publication_date>
+      <news:title>NHS Trust to Re-examine 4,500 More Breast Cancer Cases Back to 2015</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-09-24-morning/</loc>
     <news:news>
       <news:publication>
@@ -362,127 +483,6 @@
       </news:publication>
       <news:publication_date>2026-09-23T08:10:00+01:00</news:publication_date>
       <news:title>Reform Falls to 21%, Its Lowest Since January 2025, as Greens Surge</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-09-22-evening/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-22T18:00:00+01:00</news:publication_date>
-      <news:title>Evening Briefing — Tuesday 22 September 2026</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-09-22-evening/trump-unga-ultimatum/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-22T18:00:00+01:00</news:publication_date>
-      <news:title>Trump to the UN: &#x27;Do I Annihilate the Islamic Republic… Or a Deal Right After the Election?&#x27;</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-09-22-evening/iran-hormuz-offer/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-22T18:00:00+01:00</news:publication_date>
-      <news:title>Iran Offers to Reopen Hormuz Within Seven Days — and Oil Dives Below $100</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-09-22-evening/greenland-signed/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-22T18:00:00+01:00</news:publication_date>
-      <news:title>Greenland Deal Signed at the UN: Two New American Bases, Sovereignty &#x27;Respected&#x27;</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-09-22-evening/ukraine-refineries-sanctions/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-22T18:00:00+01:00</news:publication_date>
-      <news:title>Kyiv Burns Refineries 1,300km Inside Russia; EU Renews Sanctions but Frees Two Oligarchs</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-09-22-evening/gulf-two-fears/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-22T18:00:00+01:00</news:publication_date>
-      <news:title>The Gulf Six Meet Trump With &#x27;Two Fears: More War and Less US Protection&#x27;</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-09-22-evening/burnham-trump-hour/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-22T18:00:00+01:00</news:publication_date>
-      <news:title>&#x27;Manchester Isn&#x27;t Some Town&#x27;: Burnham&#x27;s Trump Moment Arrives</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-09-22-evening/davey-17bn/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-22T18:00:00+01:00</news:publication_date>
-      <news:title>Davey Closes With a £17bn Income Tax Cut — and a Treaty Against &#x27;Super-Intelligent AI&#x27;</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-09-22-evening/rwanda-court-brown/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-22T18:00:00+01:00</news:publication_date>
-      <news:title>London Doctor Accused in Court of Overseeing Six Killings in Rwanda&#x27;s Genocide</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-09-22-evening/raf-saudi-scrutiny/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-22T18:00:00+01:00</news:publication_date>
-      <news:title>The RAF&#x27;s Saudi Mission Meets Its First Day of Scrutiny</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-09-22-evening/sterling-two-month-low/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-22T18:00:00+01:00</news:publication_date>
-      <news:title>Sterling Sinks to a Two-Month Low as Oil&#x27;s Relief Rally Bypasses the Pound</news:title>
     </news:news>
   </url>
 </urlset>

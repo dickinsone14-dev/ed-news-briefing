@@ -1,0 +1,46 @@
+URL: https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=... (CNBC quote API, fetched 2026-09-24 ~18:50 BST)
+
+=== CNBC ===
+{
+ "symbol": ".SPX",
+ "symbolType": "symbol",
+ "code": 0,
+ "name": "S&P 500 Index",
+ "shortName": "S&P 500",
+ "onAirName": "S&P 500",
+ "altName": "S&P 500 INDEX",
+ "last": "7,692.97",
+ "last_timedate": "1:46 PM EDT",
+ "last_time": "2026-09-24T13:46:04.000-0400",
+ "changetype": "DOWN",
+ "type": "INDEX",
+ "subType": "Index",
+ "exchange": "INDEX",
+ "source": "Exchange",
+ "open": "7,666.99",
+ "high": "7,719.01",
+ "low": "7,662.57",
+ "change": "-13.06",
+ "change_pct": "-0.17%",
+ "currencyCode": "USD",
+ "provider": "CNBC Quote Cache",
+ "previous_day_closing": "7,706.03",
+ "altSymbol": ".SPX",
+ "realTime": "true",
+ "curmktstatus": "REG_MKT",
+ "yrhiprice": "7,816.70",
+ "yrhidate": "08/13/26",
+ "yrloprice": "6,316.91",
+ "yrlodate": "03/30/26",
+ "streamable": "1",
+ "issue_id": "593933",
+ "countryCode": "US",
+ "timeZone": "EDT",
+ "feedSymbol": ".SPX",
+ "portfolioindicator": "N"
+}
+
+=== MarketWatch SPX — scraped 2026-09-24 ~18:53 BST ===
+URL: https://www.marketwatch.com/investing/index/spx
+7,694.94 | -11.09 | -0.14% | quoteTime "Sep 24, 2026 1:47 p.m. EDT" | prevClose 7,706.03
+CNBC .SPX: 7,692.97 | -13.06 | -0.17% | 1:46 PM EDT | prevClose 7,706.03. Agree within 0.03%.

@@ -2289,7 +2289,7 @@
  <!-- #1 Markets snapshot bar -->
  <!-- Embedded market data (populated by update script, used as fallback) -->
  <script id="embedded-markets" type="application/json">
-{"FTSE":{"price":10705.3,"change":-0.03},"SP":{"price":7706.0,"change":-0.75},"Brent":{"price":103.65,"change":0.55},"GBP":{"price":1.3244,"change":0.04},"Gold":{"price":4276,"change":-0.26},"EURGBP":{"price":0.8597,"change":0.03},"Gilt":{"price":5.35,"change":0.11},"VIX":{"price":15.18,"change":6.8},"BTC":{"price":84106,"change":-2.4},"UST":{"price":5.12,"change":0.01},"ts":"2026-09-24T08:05:00+01:00"}
+{"FTSE":{"price":10680.0,"change":-0.24},"SP":{"price":7693.0,"change":-0.17},"Brent":{"price":106.61,"change":3.42},"GBP":{"price":1.3213,"change":-0.18},"Gold":{"price":4259,"change":-0.65},"EURGBP":{"price":0.8602,"change":0.12},"Gilt":{"price":5.35,"change":-0.04},"VIX":{"price":15.79,"change":4.02},"BTC":{"price":84145,"change":-0.16},"UST":{"price":5.16,"change":0.05},"ts":"2026-09-24T18:54:00+01:00"}
 </script>
  <script id="market-descriptions" type="application/json">
 {
@@ -2297,115 +2297,117 @@
     "name": "FTSE 100",
     "desc": "The UK's benchmark stock index, tracking the 100 largest companies listed on the London Stock Exchange by market capitalisation. Includes Shell, AstraZeneca, HSBC and Unilever.",
     "drivers_up": [
-      "Cheaper energy input costs if the oil spike unwinds"
+      "Energy majors lifted by Brent's surge above $106 a barrel"
     ],
     "drivers_down": [
-      "Closed all but flat at 10,705 on Wednesday as the Iran talks stalled"
+      "Closed 0.24% lower at 10,680 as Bank deputies signalled a rate rise"
     ],
-    "updated": "24 September 2026 08:05 (Wednesday closes; oil, FX and crypto live)"
+    "updated": "24 September 2026 18:54 (Thursday closes; oil, FX and crypto live)"
   },
   "SP": {
     "name": "S&P 500",
     "desc": "America's leading stock market index, tracking 500 of the largest US-listed companies. Dominated by mega-cap tech (Apple, Microsoft, Nvidia) but spans all sectors.",
     "drivers_up": [
-      "US-China trade truce extended to 10 January, removing a November cliff edge"
+      "Trump and Xi opened their Washington summit with warm trade language"
     ],
     "drivers_down": [
-      "Fell 0.75% on Wednesday as Treasury yields pushed above 5.1%"
+      "Slipped as ten-year Treasury yields hit their highest since 2007"
     ],
-    "updated": "24 September 2026 08:05 (Wednesday closes; oil, FX and crypto live)"
+    "updated": "24 September 2026 18:54 (Thursday closes; oil, FX and crypto live)"
   },
   "Brent": {
     "name": "Brent Crude Oil",
     "desc": "The global benchmark for crude oil pricing, produced from oil fields in the North Sea. Used to price roughly two-thirds of the world's traded oil.",
     "drivers_up": [
-      "Hormuz still shut to most traffic — ten vessels against a ten-day average of seventeen",
-      "Iran says the strait stays closed until its conditions are met"
+      "Jumped 3.4% to $106.61 as US sanctions grounded Iranian airlines across the Gulf",
+      "An Iranian official warned 'our fingers are on the trigger' over Hormuz"
     ],
     "drivers_down": [
-      "US crude stocks rose three million barrels against an expected draw",
-      "Saudi Arabia's East-West pipeline is rerouting about 4m barrels a day"
+      "Reports of a phased deal to reopen Hormuz trimmed the day's spike",
+      "Higher prices are stoking demand-destruction fears across Asia"
     ],
-    "updated": "24 September 2026 08:05 (Wednesday closes; oil, FX and crypto live)"
+    "updated": "24 September 2026 18:54 (Thursday closes; oil, FX and crypto live)"
   },
   "GBP": {
     "name": "GBP/USD",
     "desc": "The exchange rate between the British pound and the US dollar, commonly known as 'cable'. Reflects relative economic strength and interest rate differentials between the UK and US.",
     "drivers_up": [
-      "Steady near $1.3244 after Wednesday's slide"
+      "Bank of England hike expectations rose to 75% for November"
     ],
     "drivers_down": [
-      "OECD growth downgrade and IMF debt warning still weigh before the Budget"
+      "Fell to $1.3213 as climbing US Treasury yields drew flows into the dollar"
     ],
-    "updated": "24 September 2026 08:05 (Wednesday closes; oil, FX and crypto live)"
+    "updated": "24 September 2026 18:54 (Thursday closes; oil, FX and crypto live)"
   },
   "Gold": {
     "name": "Gold (XAU/USD)",
     "desc": "The spot price of gold in US dollars per troy ounce. The world's oldest safe-haven asset, traditionally rising during periods of uncertainty, inflation and currency debasement.",
     "drivers_up": [
-      "War risk and central-bank buying keep a floor under the price"
+      "Iran sanctions escalation keeps safe-haven demand underpinned"
     ],
     "drivers_down": [
-      "Spot eased to $4,276 as real yields climbed above 5%"
+      "Spot fell 0.65% to $4,259 as rising real yields raised the cost of holding bullion"
     ],
-    "updated": "24 September 2026 08:05 (Wednesday closes; oil, FX and crypto live)"
+    "updated": "24 September 2026 18:54 (Thursday closes; oil, FX and crypto live)"
   },
   "EURGBP": {
     "name": "EUR/GBP",
     "desc": "The exchange rate between the euro and the British pound. Key for UK-EU trade pricing. A falling rate means sterling is strengthening against the euro.",
     "drivers_up": [
-      "Sterling carries more Budget and debt risk than the euro"
+      "UK Budget and borrowing risks weigh on sterling more than the euro"
     ],
     "drivers_down": [
-      "Euro capped near a two-month low against a firm dollar"
+      "Two Bank deputies moved closer to backing a November rate rise"
     ],
-    "updated": "24 September 2026 08:05 (Wednesday closes; oil, FX and crypto live)"
+    "updated": "24 September 2026 18:54 (Thursday closes; oil, FX and crypto live)"
   },
   "Gilt": {
     "name": "UK 10-Year Gilt Yield",
     "desc": "The yield on 10-year UK government bonds (gilts). A key benchmark for UK borrowing costs, mortgage rates and pension fund valuations. Rising yields mean falling bond prices.",
     "drivers_up": [
-      "Jumped 11 basis points on Wednesday to 5.35% on the OECD and IMF warnings",
-      "August's £18.3bn borrowing overshoot still sits under next month's Budget"
+      "Energy-driven inflation risks have pushed Bank rate-rise pricing to 75%",
+      "August borrowing of £18.3bn keeps the gilt supply question alive"
     ],
     "drivers_down": [
-      "A credible fiscal plan from Healey would pull yields back"
+      "Eased to 5.35% as reports of a phased Hormuz deal calmed the inflation outlook",
+      "Swati Dhingra's caution tempered expectations of rapid tightening"
     ],
-    "updated": "24 September 2026 08:05 (Wednesday closes; oil, FX and crypto live)"
+    "updated": "24 September 2026 18:54 (Thursday closes; oil, FX and crypto live)"
   },
   "VIX": {
     "name": "VIX (Volatility Index)",
     "desc": "The CBOE Volatility Index, often called the 'fear gauge'. Measures expected S&P 500 volatility over the next 30 days. Readings above 20 suggest elevated anxiety; above 30 signals acute stress.",
     "drivers_up": [
-      "Rose nearly 7% on Wednesday as oil spiked and the Iran talks produced nothing"
+      "Rose 4% as global bond yields surged to multi-decade highs",
+      "Fresh US sanctions on Iran raised fears of further escalation"
     ],
     "drivers_down": [
-      "Still low by historical standards; the trade-truce extension calms equities"
+      "A cordial Trump-Xi opening eased trade-war anxiety"
     ],
-    "updated": "24 September 2026 08:05 (Wednesday closes; oil, FX and crypto live)"
+    "updated": "24 September 2026 18:54 (Thursday closes; oil, FX and crypto live)"
   },
   "BTC": {
     "name": "Bitcoin (BTC/USD)",
     "desc": "The price of Bitcoin in US dollars. The largest cryptocurrency by market cap, increasingly viewed as digital gold by institutional investors since spot ETF approvals.",
     "drivers_up": [
-      "Touched $87,000 this week, the highest since January"
+      "Steady near $84,000; Iran risk supports non-sovereign stores of value"
     ],
     "drivers_down": [
-      "Down about 2.4% over 24 hours to $84,106 as yields rose"
+      "Rising global yields draw money towards high-paying government bonds"
     ],
-    "updated": "24 September 2026 08:05 (Wednesday closes; oil, FX and crypto live)"
+    "updated": "24 September 2026 18:54 (Thursday closes; oil, FX and crypto live)"
   },
   "UST": {
     "name": "US 10-Year Treasury Yield",
     "desc": "The yield on 10-year US government bonds, the global risk-free rate benchmark. Influences mortgage rates, corporate borrowing and equity valuations worldwide.",
     "drivers_up": [
-      "Above 5.12% — oil's surge has revived the inflation premium",
-      "Fed officials continue to back last week's rise"
+      "Touched 5.16%, the highest since 2007, on renewed inflation fears",
+      "Crude above $106 raised expectations of further Fed rises"
     ],
     "drivers_down": [
-      "A dated US-Iran second round would pull yields lower quickly"
+      "Reports of US-Iran progress on Hormuz eased the inflation outlook"
     ],
-    "updated": "24 September 2026 08:05 (Wednesday closes; oil, FX and crypto live)"
+    "updated": "24 September 2026 18:54 (Thursday closes; oil, FX and crypto live)"
   }
 }
 </script>
@@ -2458,6 +2460,151 @@
  <!-- ════ ALL EDITIONS (sorted by JS) ════ -->
  <!-- IMPORTANT: Keep 7 FULL DAYS of editions in this container. Do NOT delete editions less than 7 days old. -->
  <div id="all-editions" style="display:none;">
+<!-- ── EVENING 24 SEP (18:54) ── -->
+<div class="curated-edition evening" data-date="2026-09-24" data-time="18:54" data-markets='{"FTSE":{"price":10680.0,"change":-0.24},"SP":{"price":7693.0,"change":-0.17},"Brent":{"price":106.61,"change":3.42},"GBP":{"price":1.3213,"change":-0.18},"Gold":{"price":4259,"change":-0.65},"EURGBP":{"price":0.8602,"change":0.12},"Gilt":{"price":5.35,"change":-0.04},"VIX":{"price":15.79,"change":4.02},"BTC":{"price":84145,"change":-0.16},"UST":{"price":5.16,"change":0.05},"ts":"2026-09-24T18:54:00+01:00"}'>
+ <div class="edition-header">
+ <span class="edition-icon">&#127769;</span>
+ <h2>Evening Briefing</h2>
+ </div>
+ <div class="curated-meta">Thursday 24 September 2026 &mdash; 18:54 BST</div>
+ <div class="impact-box">
+ <h3 class="impact-heading">What It Means For You</h3>
+ <ul class="impact-list">
+ <li><strong>Your mortgage:</strong> Two Bank of England deputy governors who voted to hold rates last week signalled today that they are moving towards a rise. Markets now price a 75% chance of an increase in November, with a second fully priced by February.</li>
+ <li><strong>Fuel:</strong> Brent jumped 3.4% to $106.61 as Gulf states grounded Iranian airlines under American sanctions &mdash; with diesel already less than 2p below its all-time record. Reports of a phased deal to reopen Hormuz pulled the price off its high.</li>
+ <li><strong>Council tax:</strong> New analysis finds London underpays residential property tax by &pound;3.1bn a year while most of the country overpays &mdash; and by 2030-31 six households in ten would be paying an average &pound;430 too much.</li>
+ </ul>
+ </div>
+ <div class="curated-grid">
+ <div class="curated-column">
+ <h3><span class="dot geo"></span><span class="dot-label">GEO</span> Geopolitical</h3>
+ <div class="curated-item" data-time="17:30" data-slug="trump-xi-summit-taiwan-ai">
+ <h4>Xi Presses Trump on Taiwan; Both Agree to Leave AI Alone</h4>
+ <p>China&rsquo;s leader used his White House bilateral to urge Washington to oppose Taiwanese independence, according to a Chinese readout issued afterwards; the White House published none of its own. On artificial intelligence the two found an easier agreement &mdash; to do nothing. &ldquo;Super Intelligence will be a big topic of discussion, but I want to leave it exactly where it is. That is China&rsquo;s position also,&rdquo; Mr Trump wrote before the meeting. Mr Xi offered a gentler frame: &ldquo;The Thucydides trap can be overcome.&rdquo; Mr Trump called it a &ldquo;great meeting&rdquo; and said the two countries had made &ldquo;tremendous strides&rdquo;.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">Two superpowers agreeing to leave the most consequential technology of the age unregulated is the most significant thing to come out of the day, and it was announced on social media rather than negotiated. Mr Xi&rsquo;s own formulation was warmer than the substance &mdash; both countries have &ldquo;the capability and responsibility to develop and manage AI for good, and ensure that the development of AI is always under human control&rdquo; &mdash; but nothing binding attaches to it, on the very day Australia was still counting which of its government systems an AI agent had walked into. On Taiwan the asymmetry is unchanged: Washington holds a $14bn arms package in abeyance as what the president calls a negotiating chip. A footnote with weight: no American network carried the remarks live, in protest at the White House press ban a judge had just ordered lifted.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="17:18" data-slug="us-iran-phased-hormuz-deal">
+ <h4>Washington and Tehran Discussing a Phased Deal: Hormuz for the Blockade</h4>
+ <p>The shape of an agreement has emerged, according to Reuters, citing two Iranian and two regional officials and two Western diplomats: Iran reopens the Strait of Hormuz to navigation, America lifts its economic blockade, and Tehran may regain access to frozen assets &mdash; in stages rather than at once. Iran is willing to move its demand for transit fees, which the Gulf states reject outright, into a side attachment. &ldquo;One way forward would be to solve the crisis in stages,&rdquo; a senior Iranian official said.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">This is the first reported substance behind Tuesday&rsquo;s three hours of mediated contact, and it explains the sequencing both sides have hinted at: ending the blockade first, because that is what is actually hurting. Dennis Ross put it plainly &mdash; &ldquo;The blockade is what&rsquo;s really squeezing the Iranians. It&rsquo;s strangling them&rdquo; &mdash; and he puts the odds of a deal before the 3 November midterms at about three in ten. The counter-case came from the same reporting: Alan Eyre, a former American negotiator, warned the squeeze &ldquo;is likely to drive them to escalate because they believe that if they soften their position, they are dead&rdquo;. The Iranian official&rsquo;s own words carried both halves &mdash; a phased path, and &ldquo;our fingers are on the trigger&rdquo;. Watch whether any second round gets a date.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="15:37" data-slug="iran-flights-grounded-sanctions">
+ <h4>Gulf States Ground Iran's Airlines as American Sanctions Bite</h4>
+ <p>The United Arab Emirates suspended all Iranian airline flights until further notice, and Iranian state media reported shutdowns to Oman, Georgia, Azerbaijan and Baghdad, after Washington&rsquo;s deadline passed for global firms to stop dealing with Iran&rsquo;s carriers. Tehran&rsquo;s main airport still lists flights to Afghanistan, Armenia, China, Iraq, Pakistan, Tajikistan and Turkey &mdash; but none to the Gulf. Brent jumped 3.4% to $106.61. Saudi Arabia intercepted six Houthi ballistic missiles after emergency alerts for Mecca, Jeddah and Yanbu.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">This is the first concrete bite of the measures the administration has called an economic D-Day, and it lands precisely where the diplomacy is happening: the Gulf capitals hosting the mediation are the ones now turning Iranian aircraft away, a day after a senior Iranian security official threatened to make the airports of any complying country unusable. The effect on ordinary Iranians is immediate and total &mdash; a retired Tehran teacher, texting Reuters, said simply: &ldquo;We are living in an open-air prison.&rdquo; Meanwhile the war&rsquo;s other front kept moving: the Saudi-led coalition promised any Houthi escalation would &ldquo;be dealt with firmly&rdquo;, with the United Nations counting more than 700 killed and about 130,000 displaced in the latest Yemen fighting. Watch whether Turkey and Iraq hold out.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="16:50" data-slug="tigray-full-blown-war">
+ <h4>Tigray Declares Full-Blown War as Its Own Commanders Are Detained</h4>
+ <p>Armed men detained four veteran Tigrayan military leaders overnight, including the former commander-in-chief of the Tigray Defence Forces, Tadesse Werede &mdash; all of them men who had questioned the new offensive. Tigrayan forces have seized the region&rsquo;s main airports and local reports say they have taken Abala in Afar; Ethiopian Airlines has suspended flights to Tigray and to Lalibela. Seven armed groups formed an alliance on Sunday aimed at removing Abiy Ahmed&rsquo;s government.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The detentions are the tell: a leadership that has to arrest its own most experienced commanders to start a war is not one that has settled the argument at home. Magnus Taylor of the International Crisis Group judged the movement weaker than before, its forces depleted since the last war ended, even as it gains allies &mdash; Amhara Fano, the Oromo Liberation Army and movements from three other regions. The TPLF&rsquo;s own explanation, from central committee member Abdisalam Balema, is encirclement: &ldquo;We don&rsquo;t want a repeat of 2020 when we were encircled and alone.&rdquo; The human arithmetic is already grim before this round &mdash; more than 600,000 dead in the last war by African Union estimates, and some 750,000 people displaced within Tigray. A resident of Mekelle described a society sorting itself into &ldquo;patriots&rdquo; and &ldquo;traitors&rdquo;. Watch Eritrea.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="06:30" data-slug="kyiv-maternity-hospital-strike">
+ <h4>Maternity Hospital Hit in Kyiv; Russian Drones Cross Into Moldova and Romania</h4>
+ <p>Russia fired 282 drones along with ballistic and hypersonic missiles overnight, killing two and injuring eight in Kyiv, where a maternity hospital&rsquo;s facade, windows and doors were damaged and one of the dead was found in its car park. No patients or staff were hurt. Six more people were killed at a farm storage facility in the Kharkiv region. Moldova&rsquo;s president Maia Sandu said four Russian drones entered its airspace, at least one exploding; Romania reported one crashing on its territory.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The spillover is the part that should worry Europe. Drones crossing into Moldova and Romania on the same night, with Poland scrambling aircraft twice during the day, turns a bombardment of Ukraine into a recurring test of NATO&rsquo;s eastern edge &mdash; and it comes while Washington is brokering a limited truce covering exactly the infrastructure being hit. Mr Zelensky listed the night&rsquo;s targets himself: &ldquo;residential buildings, a maternity hospital, energy infrastructure, and logistics&rdquo;, and asked for the one thing that would change the arithmetic before winter &mdash; &ldquo;We need ballistic interceptors to protect lives.&rdquo; Moscow&rsquo;s account was that it struck defence, logistics and telecommunications facilities. Both cannot be true of the same maternity hospital. Watch whether the energy-truce talks survive the week.</div>
+ </details>
+ </div>
+ </div>
+ <div class="curated-column">
+ <h3><span class="dot dom"></span><span class="dot-label">UK</span> UK Domestic Politics</h3>
+ <div class="curated-item" data-time="16:44" data-slug="boe-sparks-tinderbox">
+ <h4>Bank of England Turns Towards a Rate Rise: 'Sparks in the Tinderbox'</h4>
+ <p>Two deputy governors who voted to hold rates at 3.75% last week signalled they are now considering a rise. Sarah Breeden put it in one image: &ldquo;The more sparks we&rsquo;re throwing in the tinderbox, the more likely we might have to turn the hose on it.&rdquo; Markets now price a 75% chance of a quarter-point increase in November and a second by February. The Bank expects inflation to top 4% early next year, more than double its target.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">This is the war arriving in the mortgage market. Clare Lombardelli, speaking in Warsaw, set out the mechanism: &ldquo;The longer higher energy prices persist, the greater the risk that indirect effects build and that inflation expectations, wage bargaining and price-setting behaviour begin to adjust in response.&rdquo; In other words, a shock that began at the Strait of Hormuz stops being a one-off once people start bargaining around it. Not everyone agrees on the timing &mdash; Swati Dhingra argued the winter will be decisive, that this is not the broad-based surge of 2022 and that the jobs market is weaker than the headline suggests. The Governor's own warning last week was that &ldquo;the longer this goes on, the more difficult this becomes&rdquo;. Watch the November meeting, and what a rate rise does to a Chancellor already borrowing more than forecast.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="07:29" data-slug="channel-crossings-record-day">
+ <h4>781 Cross the Channel in a Single Day, the Highest This Year</h4>
+ <p>Ten boats carried 781 people on Wednesday, beating July&rsquo;s 752 and setting the highest single-day total of 2026. That takes the year to 18,565 and the number since the Prime Minister took office to 6,096, with the annual total still down about 42% on last year. The record comes days after two boats landed undetected in Kent and the Home Secretary ordered an urgent review. Nigel Farage said Reform would deploy the Royal Navy.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The number is real and the framing is contested. Chris Philp, the shadow home secretary, said Labour &ldquo;has let an entire army-sized population cross the Channel illegally&hellip; That is completely bonkers.&rdquo; The government&rsquo;s reply was that its progress this year is &ldquo;indisputable&rdquo; but that it must &ldquo;push further and harder in order to eradicate this vile trade&rdquo;. Two pieces of context cut against the politics of the day: this was only the thirty-first highest 24-hour total since 2018, and the 2022 record stood above 1,300; and on a like-for-like count of days in office, 83,279 people have crossed under this government against 83,500 under the Conservatives' final equivalent period &mdash; 221 more under the previous government. A single day&rsquo;s weather window does not reverse a 42% annual fall. Watch what the Border Security Command review concludes.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="15:30" data-slug="council-tax-london-subsidy">
+ <h4>Council Tax Hands London a &pound;3bn Subsidy, Resolution Foundation Finds</h4>
+ <p>London underpaid residential property tax by &pound;3.1bn in 2024-25, according to new analysis, with every region outside the south-east and east overpaying. On current course 61% of households would be overpaying by an average &pound;430 a year by 2030-31, while 36% underpay by &pound;680. A household in Hull pays more than &pound;1,800 a year above what it would owe at Richmond-upon-Thames&rsquo;s effective rate. The foundation wants council tax replaced by a 0.7% proportional levy and stamp duty abolished.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The unfairness is structural rather than accidental: council tax still rests on 1991 valuations, so three decades of divergence between London and everywhere else has been frozen into the bills. That makes it the most regressive major tax in the system and, awkwardly for a government elected on northern votes, one that transfers money from poorer regions to richer ones every year. Hannah Aldridge of the Resolution Foundation was blunt: the two main housing taxes &ldquo;are terribly designed, grossly unfair and economically harmful&hellip; the chancellor should set out a sensible roadmap to reform in the budget next month&rdquo;. The politics are the obstacle &mdash; revaluation creates visible losers in marginal southern seats, which is why every government since 1991 has declined it. Watch whether the Budget mentions property tax at all.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="09:30" data-slug="court-backlog-record-jury">
+ <h4>Crown Court Backlog Hits a Record as Ministers Rethink Jury Curbs</h4>
+ <p>Ministry of Justice figures published today show 80,829 cases waiting in the crown courts at the end of June, a record and 3% up, with the median wait rising by a fifth to 203 days. Magistrates&rsquo; court cases rose 9% to 380,230. Nearly 24,000 crown court cases have now waited more than a year. The Justice Secretary Alex Norris signalled a retreat on restricting jury trials: &ldquo;people have raised really important concerns&hellip; We are looking at that again.&rdquo;</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The retreat is the news. Curbing jury trial was the government&rsquo;s central answer to the backlog, and Mr Norris now says the bill returning in October &ldquo;will reflect those things that we&rsquo;ve heard&rdquo; &mdash; which leaves the record backlog without its headline remedy. The shadow justice secretary Nick Timothy accused ministers of spending their time &ldquo;attacking our ancient right to a jury trial, rather than taking effective action to tackle the courts crisis&rdquo;. Behind the numbers sits a practical collapse: a 203-day median wait means witnesses who move, memories that fade and complainants who withdraw, which is how a backlog becomes an acquittal rate. Rape and serious sexual offence cases wait longest of all. Watch what replaces the jury clause when the bill returns next month.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="09:47" data-slug="breast-cancer-review-4500">
+ <h4>NHS Trust to Re-examine 4,500 More Breast Cancer Cases Back to 2015</h4>
+ <p>County Durham and Darlington NHS Foundation Trust is extending its review of breast cancer care by a decade, adding up to 4,500 cases in work expected to take five years. Of 538 cases examined so far, 321 patients were found to have been harmed, including one death, and around 640 people have called the trust&rsquo;s helpline. The board chair Alison Marshall offered &ldquo;a sincere apology to all the women and their families who have been affected by the failings in our breast services&rdquo;.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">A harm rate of 321 in 538 is the figure that should stop a reader, because it suggests the original sample was not an unlucky tail but a representative slice &mdash; which is precisely why the lookback has been pushed back to 2015. The five-year timetable is its own problem: women who may have been harmed a decade ago will wait years to learn whether they were, and the solicitor acting for some of them, Chloe Gibson, reached for the obvious phrase, &ldquo;justice delayed is justice denied&rdquo;. Reviews on this scale have a pattern &mdash; each widening of the window finds more, and the trust has already widened it once. The national question is whether the failure was local or systemic. Watch for the Care Quality Commission&rsquo;s position and whether other trusts are asked to check.</div>
+ </details>
+ </div>
+ </div>
+ </div>
+ <div class="one-to-read">
+ <span class="otr-label">One To Read</span>
+ <a href="https://www.reuters.com/world/africa/flush-with-allies-tigrays-leaders-face-internal-discord-new-ethiopia-war-2026-09-24/" target="_blank" rel="noopener noreferrer">
+ <h4>Tigray's Leaders Have Allies Abroad and Discord at Home</h4>
+ <span class="otr-source">Reuters</span>
+ <span class="otr-dot">&middot;</span>
+ <span class="otr-desc">Ethiopia's Tigray region is at war again, four years after the peace deal that ended the last one. Reuters finds the TPLF has gained six allied armed groups but faces a fractured home front: hunger protests, defections, forced recruitment and the detention of commanders who questioned the offensive.</span>
+ </a>
+ </div>
+ <!-- SOURCES USED
+ - https://www.reuters.com/world/china/trump-welcomes-xi-washington-looking-trade-win-2026-09-24/ &mdash; Reuters: Trump-Xi bilateral, Taiwan readout, AI remarks, networks' protest
+ - https://www.cnbc.com/2026/09/24/trump-xi-meeting-china-washington.html &mdash; CNBC: summit coverage
+ - https://www.npr.org/2026/09/24/g-s1-144806/trump-xi-summit &mdash; NPR: summit coverage
+ - https://www.bbc.com/news/live/cwy8zglv08ymt &mdash; BBC News: Trump on the meeting, &ldquo;tremendous strides&rdquo;
+ - https://www.reuters.com/world/asia-pacific/us-iran-discuss-phased-deal-reopen-hormuz-end-us-blockade-sources-say-2026-09-24/ &mdash; Reuters: phased Hormuz deal, Ross and Eyre quotes
+ - https://www.reuters.com/world/middle-east/iranian-flights-cancelled-new-us-d-day-sanctions-take-effect-saudis-say-they-2026-09-24/ &mdash; Reuters: UAE and Oman flight bans, Saudi interceptions
+ - https://apnews.com/article/iran-us-israel-yemen-houthis-hormuz-un-september-24-2026-8d8f9e371ad3772420f534ed86fc3eac &mdash; AP: Middle East roundup, Yemen casualty figures
+ - https://www.reuters.com/world/africa/flush-with-allies-tigrays-leaders-face-internal-discord-new-ethiopia-war-2026-09-24/ &mdash; Reuters: Tigray commanders detained, Taylor quote
+ - https://www.aljazeera.com/news/2026/9/24/fighting-widens-across-ethiopia-as-tigray-clashes-escalate &mdash; Al Jazeera: Abala, Balema quote, displacement figures
+ - https://www.nytimes.com/2026/09/23/world/africa/ethiopia-tigray-airport.html &mdash; The New York Times: airport seizures
+ - https://www.reuters.com/world/kyiv-under-missile-attack-emergency-crews-dispatched-two-districts-mayor-says-2026-09-23/ &mdash; Reuters: Kyiv barrage, maternity hospital, Moldova and Romania
+ - https://www.reuters.com/world/europe/russia-says-strikes-hit-ukrainian-military-linked-facilities-vessels-2026-09-24/ &mdash; Reuters: Russian defence ministry account
+ - https://www.reuters.com/world/uk/bank-england-rate-setters-warn-sparks-tinderbox-2026-09-24/ &mdash; Reuters: Breeden, Lombardelli and Dhingra remarks, rate pricing
+ - https://news.sky.com/story/politics-latest-burnham-un-speech-new-york-trump-chagos-12593360 &mdash; Sky News: Channel crossings record, Philp and government reaction, Norris on jury trials
+ - https://www.bbc.com/news/articles/cwz0z597m471o &mdash; BBC News: crossings figures
+ - https://www.theguardian.com/politics/live/2026/sep/24/labour-reform-conservatives-yougov-mrp-poll-burnham-badenoch-farage-blair-brexit-latest-news-updates &mdash; The Guardian: Resolution Foundation analysis, court backlog, Timothy quote
+ - https://www.gov.uk/government/statistics/criminal-court-statistics-quarterly-april-to-june-2026/criminal-court-statistics-quarterly-april-to-june-2026 &mdash; Ministry of Justice: criminal court statistics
+ - https://www.resolutionfoundation.org/app/uploads/2026/09/home-economics.pdf &mdash; Resolution Foundation: council tax and stamp duty report
+ - https://www.bbc.com/news/articles/ckddvje77m2zo &mdash; BBC News: breast cancer review, Marshall apology
+ - https://news.sky.com/story/nhs-trust-to-review-breast-cancer-cases-over-more-than-a-decade-after-failings-13591349 &mdash; Sky News: breast cancer review
+ - https://www.ft.com/content/2d87f8bf-d529-4997-90c5-393ef65d280c (search snippet &mdash; paywalled) &mdash; Financial Times: global bond yields
+ - https://www.theguardian.com/world/live/2026/sep/24/netanyahu-mamdani-abbas-trump-unga-un-general-assembly-speech-new-york-israel-palestine-latest-updates &mdash; The Guardian: UN General Assembly live
+ END SOURCES USED -->
+</div><!-- ── END EVENING 24 SEP (18:54) ── -->
 <!-- ── MORNING 24 SEP (08:05) ── -->
 <div class="curated-edition morning" data-date="2026-09-24" data-time="08:05" data-markets='{"FTSE":{"price":10705.3,"change":-0.03},"SP":{"price":7706.0,"change":-0.75},"Brent":{"price":103.65,"change":0.55},"GBP":{"price":1.3244,"change":0.04},"Gold":{"price":4276,"change":-0.26},"EURGBP":{"price":0.8597,"change":0.03},"Gilt":{"price":5.35,"change":0.11},"VIX":{"price":15.18,"change":6.8},"BTC":{"price":84106,"change":-2.4},"UST":{"price":5.12,"change":0.01},"ts":"2026-09-24T08:05:00+01:00"}'>
  <div class="edition-header">

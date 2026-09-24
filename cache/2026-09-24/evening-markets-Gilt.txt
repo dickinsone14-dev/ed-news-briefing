@@ -1,0 +1,69 @@
+URL: https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=... (CNBC quote API, fetched 2026-09-24 ~18:50 BST)
+
+=== CNBC ===
+{
+ "symbol": "GB10Y-GB",
+ "symbolType": "symbol",
+ "code": 0,
+ "name": "British 10 Year Gilt",
+ "shortName": "UK 10-YR",
+ "onAirName": "UK Gilt 10-yr",
+ "altName": "",
+ "last": "5.3671%",
+ "last_timedate": "5:45 PM GMT",
+ "last_time": "2026-09-24T17:45:59.000+0000",
+ "changetype": "DOWN",
+ "type": "BOND",
+ "subType": "Government Bond",
+ "exchange": "United Kingdom",
+ "source": "Exchange",
+ "open": "5.3524%",
+ "high": "5.397%",
+ "low": "5.3152%",
+ "change": "-0.018",
+ "change_pct": "-0.3343%",
+ "volume": "0",
+ "volume_alt": "0.0",
+ "provider": "CNBC Quote Cache",
+ "previous_day_closing": "5.3851%",
+ "altSymbol": "21213187",
+ "realTime": "true",
+ "curmktstatus": "REG_MKT",
+ "yrhiprice": "5.44",
+ "yrhidate": "09/14/26",
+ "yrloprice": "4.23",
+ "yrlodate": "02/27/26",
+ "streamable": "1",
+ "bond_last_price": "96.267",
+ "bond_change_price": "+0.133",
+ "bond_change_pct_price": "+0.1383%",
+ "bond_open_price": "96.376",
+ "bond_high_price": "96.652",
+ "bond_low_price": "96.046",
+ "bond_prev_day_closing_price": "96.134",
+ "bond_changetype": "UP",
+ "maturity_date": "2036-07-31",
+ "coupon": "4.875%",
+ "issue_id": "5767337",
+ "countryCode": "GB",
+ "timeZone": "GMT",
+ "feedSymbol": "GB10YT=RR",
+ "portfolioindicator": "N"
+}
+
+=== MarketWatch (tmbmkgb-10y) — scraped 2026-09-24 ~18:55 BST ===
+URL: https://www.marketwatch.com/investing/bond/tmbmkgb-10y?countrycode=bx
+price 5.385% | priceChange 0.034 | quoteTime "Sep 24, 2026 5:07 p.m. BST"
+NOTE: value equals other sources' WEDNESDAY close -> MarketWatch appears one day stale today.
+
+=== Investing.com UK 10Y — scraped 2026-09-24 ~18:56 BST ===
+URL: https://www.investing.com/rates-bonds/uk-10-year-bond-yield
+currentYield 5.3476 | change -0.0375 | pct -0.70% | previousClose 5.3851 | lastUpdated 12:58:31 London
+
+=== Trading Economics UK 10Y — scraped 2026-09-24 ~18:56 BST ===
+URL: https://tradingeconomics.com/united-kingdom/government-bond-yield
+currentYield 5.3476 | dailyChange -0.01 | lastUpdated 2026-09-24T13:48:00Z
+desc: "yield on United Kingdom 10Y Bond Yield eased to 5.35% on September 24, 2026"
+
+RESOLUTION: 3 sources (CNBC prev_close, Investing, TradingEconomics) agree prev close = 5.3851 and
+today ~5.348. MarketWatch is the outlier/stale. ADOPTED: 5.35, change -0.04pp.

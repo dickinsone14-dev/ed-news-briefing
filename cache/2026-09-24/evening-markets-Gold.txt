@@ -1,0 +1,46 @@
+URL: https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=... (CNBC quote API, fetched 2026-09-24 ~18:50 BST)
+
+=== CNBC ===
+{
+ "symbol": "XAU=",
+ "symbolType": "symbol",
+ "code": 0,
+ "name": "Gold / US Dollar Spot",
+ "shortName": "Gold / US Dollar Spot",
+ "onAirName": "Gold Spot- USD",
+ "altName": "",
+ "last": "4,258.98",
+ "last_timedate": "1:45 PM EDT",
+ "last_time": "2026-09-24T13:45:42.852-0400",
+ "changetype": "DOWN",
+ "type": "INDEX",
+ "subType": "CNBC Synthetic",
+ "exchange": "Exchange",
+ "source": "",
+ "open": "4,297.19",
+ "high": "4,302.495",
+ "low": "4,244.75",
+ "change": "-27.90",
+ "change_pct": "-0.65%",
+ "currencyCode": "USD",
+ "provider": "CNBC Quote Cache",
+ "previous_day_closing": "4,286.887",
+ "altSymbol": "135115355",
+ "realTime": "true",
+ "curmktstatus": "REG_MKT",
+ "yrhiprice": "4,302.50",
+ "yrhidate": "09/24/26",
+ "yrloprice": "0.00",
+ "streamable": "1",
+ "issue_id": "135115355",
+ "countryCode": "CH",
+ "timeZone": "EDT",
+ "feedSymbol": "XAU=",
+ "portfolioindicator": "N"
+}
+
+=== Investing.com XAU/USD spot — scraped 2026-09-24 ~18:56 BST ===
+URL: https://www.investing.com/currencies/xau-usd
+4,262.73 | -24.62 | -0.57% | prevClose 4,287.35 | 13:38:54 UTC
+CNBC XAU= (fresher, 13:45 EDT): 4,258.98 | -27.90 | -0.65% | prevClose 4,286.887. Agree within 0.09%.
+(MarketWatch /investing/metal/xauusd returned 404.)

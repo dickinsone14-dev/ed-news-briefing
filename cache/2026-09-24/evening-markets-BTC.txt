@@ -1,0 +1,51 @@
+URL: https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=... (CNBC quote API, fetched 2026-09-24 ~18:50 BST)
+
+=== CNBC ===
+{
+ "symbol": "BTC=",
+ "symbolType": "symbol",
+ "code": 0,
+ "name": "Bitcoin/US Dollar FX Spot Rate",
+ "shortName": "BTC=",
+ "onAirName": "Bitcoin/US Dollar FX Spot Rate",
+ "altName": "Bitcoin/US Dollar FX Spot Rate",
+ "last": "84,147.84",
+ "last_timedate": "1:45 PM EDT",
+ "last_time": "2026-09-24T13:45:00.000-0400",
+ "changetype": "DOWN",
+ "type": "CURRENCY",
+ "subType": "FOREX",
+ "exchange": "Exchange",
+ "source": "Exchange",
+ "open": "84,231.84",
+ "high": "84,875.26",
+ "low": "82,927.77",
+ "change": "-82.54",
+ "change_pct": "-0.098%",
+ "volume": "4,980",
+ "volume_alt": "5.0K",
+ "provider": "CNBC Quote Cache",
+ "previous_day_closing": "84,230.38",
+ "altSymbol": "843171251",
+ "realTime": "true",
+ "curmktstatus": "REG_MKT",
+ "yrhiprice": "97,866.77",
+ "yrhidate": "01/14/26",
+ "yrloprice": "57,775.84",
+ "yrlodate": "07/01/26",
+ "streamable": "1",
+ "issue_id": "843171251",
+ "countryCode": "EU",
+ "timeZone": "EDT",
+ "feedSymbol": "BTC=",
+ "portfolioindicator": "N"
+}
+
+=== CoinGecko — 2026-09-24 ~18:51 BST ===
+URL: https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd&include_24hr_change=true
+{"bitcoin":{"usd":84145,"usd_24h_change":-0.1589979156353118,"last_updated_at":1790271870}}
+
+=== Coinbase spot — 2026-09-24 ~18:51 BST ===
+URL: https://api.coinbase.com/v2/prices/BTC-USD/spot
+{"data":{"amount":"84157.505","base":"BTC","currency":"USD"}}
+CNBC BTC=: 84,147.84 | -0.098%. Three-way agreement within 0.02%.

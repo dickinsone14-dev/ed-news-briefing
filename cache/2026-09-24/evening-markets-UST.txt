@@ -1,0 +1,55 @@
+URL: https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=... (CNBC quote API, fetched 2026-09-24 ~18:50 BST)
+
+=== CNBC ===
+{
+ "symbol": "US10Y",
+ "symbolType": "symbol",
+ "code": 0,
+ "name": "U.S. 10 Year Treasury",
+ "shortName": "US 10-YR",
+ "onAirName": "U.S. 10 Year Treasury",
+ "altName": "",
+ "last": "5.158%",
+ "last_timedate": "1:45 PM EDT",
+ "last_time": "2026-09-24T13:45:54.000-0400",
+ "changetype": "UP",
+ "type": "BOND",
+ "subType": "Government Bond",
+ "exchange": "Tradeweb",
+ "source": "Exchange",
+ "open": "5.108%",
+ "high": "5.168%",
+ "low": "5.087%",
+ "change": "+0.044",
+ "change_pct": "+0.8604%",
+ "provider": "CNBC Quote Cache",
+ "previous_day_closing": "5.114%",
+ "altSymbol": "US10YT=XX",
+ "realTime": "true",
+ "curmktstatus": "REG_MKT",
+ "yrhiprice": "5.17",
+ "yrhidate": "09/24/26",
+ "yrloprice": "3.93",
+ "yrlodate": "03/02/26",
+ "streamable": "1",
+ "bond_last_price": "95.9063",
+ "bond_change_price": "-0.3281",
+ "bond_change_pct_price": "-0.341%",
+ "bond_open_price": "96.2813",
+ "bond_high_price": "96.4375",
+ "bond_low_price": "95.8281",
+ "bond_prev_day_closing_price": "96.2344",
+ "bond_changetype": "DOWN",
+ "maturity_date": "2036-08-15",
+ "coupon": "4.625%",
+ "issue_id": "5093160",
+ "countryCode": "US",
+ "timeZone": "EDT",
+ "feedSymbol": "US10YT=TWEB",
+ "portfolioindicator": "N"
+}
+
+=== MarketWatch TMUBMUSD10Y — scraped 2026-09-24 ~18:53 BST ===
+URL: https://www.marketwatch.com/investing/bond/tmubmusd10y?countrycode=bx
+5.161% | +0.045 | quoteTime "Sep 24, 2026 1:47 p.m. EDT" | prevClose 5.116
+CNBC US10Y: 5.158% | +0.044 | prevClose 5.114. Agree within 0.003pp.

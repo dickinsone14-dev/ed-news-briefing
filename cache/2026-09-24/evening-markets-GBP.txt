@@ -1,0 +1,47 @@
+URL: https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=... (CNBC quote API, fetched 2026-09-24 ~18:50 BST)
+
+=== CNBC ===
+{
+ "symbol": "GBP=",
+ "symbolType": "symbol",
+ "code": 0,
+ "name": "GBP/USD",
+ "shortName": "GBP/USD",
+ "onAirName": "Pound/US $",
+ "altName": "Pound/US $",
+ "last": "1.3213",
+ "last_timedate": "1:46 PM EDT",
+ "last_time": "2026-09-24T13:46:00.000-0400",
+ "changetype": "DOWN",
+ "type": "CURRENCY",
+ "subType": "FOREX",
+ "exchange": "Exchange",
+ "source": "Exchange",
+ "open": "1.3237",
+ "high": "1.3256",
+ "low": "1.321",
+ "change": "-0.0024",
+ "change_pct": "-0.1813%",
+ "volume": "62,832",
+ "volume_alt": "62.8K",
+ "provider": "CNBC Quote Cache",
+ "previous_day_closing": "1.3237",
+ "altSymbol": "618341",
+ "realTime": "true",
+ "curmktstatus": "REG_MKT",
+ "yrhiprice": "1.39",
+ "yrhidate": "01/27/26",
+ "yrloprice": "1.31",
+ "yrlodate": "06/24/26",
+ "streamable": "1",
+ "issue_id": "618341",
+ "countryCode": "EU",
+ "timeZone": "EDT",
+ "feedSymbol": "GBP=",
+ "portfolioindicator": "N"
+}
+
+=== MarketWatch GBPUSD — scraped 2026-09-24 ~18:54 BST ===
+URL: https://www.marketwatch.com/investing/currency/gbpusd
+1.3213 | -0.0028 | -0.21% | quoteTime "Sep 24, 2026 1:47 p.m. EDT" | prevClose 1.3241
+CNBC GBP=: 1.3213 | -0.0024 | -0.1813% | prevClose 1.3237. Level identical.

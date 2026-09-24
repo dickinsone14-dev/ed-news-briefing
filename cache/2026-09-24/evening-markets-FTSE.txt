@@ -1,0 +1,48 @@
+URL: https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=... (CNBC quote API, fetched 2026-09-24 ~18:50 BST)
+
+=== CNBC ===
+{
+ "symbol": ".FTSE",
+ "symbolType": "symbol",
+ "code": 0,
+ "name": "FTSE 100",
+ "shortName": "FTSE",
+ "onAirName": "FTSE 100",
+ "altName": "FTSE 100 IDX",
+ "last": "10,679.99",
+ "last_timedate": "4:35 PM BST",
+ "last_time": "2026-09-24T16:35:00.000+0100",
+ "changetype": "DOWN",
+ "type": "INDEX",
+ "subType": "Index",
+ "exchange": "FTSE International",
+ "source": "Exchange",
+ "open": "10,705.47",
+ "high": "10,741.11",
+ "low": "10,666.91",
+ "change": "-25.27",
+ "change_pct": "-0.24%",
+ "currencyCode": "GBP",
+ "volume": "971,886,864",
+ "volume_alt": "971.9M",
+ "provider": "CNBC Quote Cache",
+ "previous_day_closing": "10,705.26",
+ "altSymbol": ".FTSE",
+ "realTime": "false",
+ "curmktstatus": "REG_MKT",
+ "yrhiprice": "10,989.45",
+ "yrhidate": "07/31/26",
+ "yrloprice": "9,177.09",
+ "yrlodate": "09/24/25",
+ "streamable": "1",
+ "issue_id": "572009",
+ "countryCode": "GB",
+ "timeZone": "BST",
+ "feedSymbol": "/.FTSE",
+ "portfolioindicator": "N"
+}
+
+=== MarketWatch UKX — scraped 2026-09-24 ~18:53 BST ===
+URL: https://www.marketwatch.com/investing/index/ukx?countrycode=uk
+10,679.99 | -25.27 | -0.24% | quoteTime "Sep 24, 2026 4:35 p.m. BST" | prevClose 10,705.26
+EXACT MATCH with CNBC.
