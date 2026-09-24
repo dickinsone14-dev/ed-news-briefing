@@ -1,0 +1,55 @@
+URL: https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=...&output=json (fetched 2026-09-24 07:53 BST)
+SOURCE A: CNBC quote endpoint
+
+{
+ "symbol": ".SPX",
+ "symbolType": "symbol",
+ "code": 0,
+ "name": "S&P 500 Index",
+ "shortName": "S&P 500",
+ "onAirName": "S&P 500",
+ "altName": "S&P 500 INDEX",
+ "last": "7,706.03",
+ "last_timedate": "09/23/26 EDT",
+ "last_time": "2026-09-23",
+ "changetype": "DOWN",
+ "type": "INDEX",
+ "subType": "Index",
+ "exchange": "INDEX",
+ "source": "Exchange",
+ "open": "7,761.94",
+ "high": "7,761.94",
+ "low": "7,694.89",
+ "change": "-58.61",
+ "change_pct": "-0.75%",
+ "currencyCode": "USD",
+ "provider": "CNBC Quote Cache",
+ "previous_day_closing": "7,706.03",
+ "altSymbol": ".SPX",
+ "realTime": "true",
+ "curmktstatus": "REG_MKT",
+ "yrhiprice": "7,816.70",
+ "yrhidate": "08/13/26",
+ "yrloprice": "6,316.91",
+ "yrlodate": "03/30/26",
+ "streamable": "1",
+ "issue_id": "593933",
+ "countryCode": "US",
+ "timeZone": "EDT",
+ "feedSymbol": ".SPX",
+ "portfolioindicator": "N"
+}
+
+=== SOURCE B: Yahoo Finance chart API ^GSPC ===
+URL: https://query1.finance.yahoo.com/v8/finance/chart/%5EGSPC?range=5d&interval=1d
+regularMarketPrice 7706.03 ; Wed 23 Sep daily close 7706.0298
+Bars (NY): Thu 17 Sep 7637.76 | Fri 18 Sep 7650.50 | Mon 21 Sep 7764.70 | Tue 22 Sep null | Wed 23 Sep 7706.03
+
+=== SOURCE C: Newsquawk 23 Sep 2026 (Tuesday US closes) ===
+URL: https://www.newsquawk.com/headlines/newsquawk-daily-european-equity-opening-news---23rd-september-2026
+"US CLOSES: SPX +0.00% at 7,765" => Tuesday 22 Sep close 7,764.64 (CNBC implied)
+=> Wednesday change 7706.03/7764.64-1 = -0.755%
+
+=== SOURCE D: MarketWatch market-data strip ===
+| S&P 500 | 7,706.03 | -58.61 | -0.75% |
+VERDICT: 7,706.03, -0.75%. Confidence HIGH (CNBC + Yahoo + MarketWatch + Newsquawk all agree).

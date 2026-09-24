@@ -1,0 +1,50 @@
+URL: https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=...&output=json (fetched 2026-09-24 07:53 BST)
+SOURCE A: CNBC quote endpoint
+
+{
+ "symbol": "BTC=",
+ "symbolType": "symbol",
+ "code": 0,
+ "name": "Bitcoin/US Dollar FX Spot Rate",
+ "shortName": "BTC=",
+ "onAirName": "Bitcoin/US Dollar FX Spot Rate",
+ "altName": "Bitcoin/US Dollar FX Spot Rate",
+ "last": "84,110.34",
+ "last_timedate": "2:53 AM EDT",
+ "last_time": "2026-09-24T02:53:00.000-0400",
+ "changetype": "DOWN",
+ "type": "CURRENCY",
+ "subType": "FOREX",
+ "exchange": "Exchange",
+ "source": "Exchange",
+ "open": "84,231.84",
+ "high": "84,640.14",
+ "low": "83,744.80",
+ "change": "-120.04",
+ "change_pct": "-0.1425%",
+ "volume": "2,373",
+ "volume_alt": "2.4K",
+ "provider": "CNBC Quote Cache",
+ "previous_day_closing": "84,230.38",
+ "altSymbol": "843171251",
+ "realTime": "true",
+ "curmktstatus": "REG_MKT",
+ "yrhiprice": "97,866.77",
+ "yrhidate": "01/14/26",
+ "yrloprice": "57,775.84",
+ "yrlodate": "07/01/26",
+ "streamable": "1",
+ "issue_id": "843171251",
+ "countryCode": "EU",
+ "timeZone": "EDT",
+ "feedSymbol": "BTC=",
+ "portfolioindicator": "N"
+}
+
+=== SOURCE B: Yahoo Finance chart API BTC-USD (hourly) ===
+URL: https://query1.finance.yahoo.com/v8/finance/chart/BTC-USD?range=3d&interval=1h
+regularMarketPrice 84105.73 @ 1790232820 = Thu 24 Sep 07:53 BST
+Close 24h earlier (1790146800 = Wed 23 Sep 08:00 BST) = 86128.16 => 24h change -2.35%
+meta.chartPreviousClose 86172.28 => -2.40%
+Agrees with CNBC BTC= 84,105.56 (diff 0.0002%)
+VERDICT: 84,106, -2.4% over 24h. Confidence HIGH (CNBC and Yahoo agree on level to 0.0002%).

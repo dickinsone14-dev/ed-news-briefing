@@ -1,0 +1,81 @@
+URL: https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=...&output=json (fetched 2026-09-24 07:53 BST)
+SOURCE A: CNBC quote endpoint
+
+{
+ "symbol": "GB10Y-GB",
+ "symbolType": "symbol",
+ "code": 0,
+ "name": "British 10 Year Gilt",
+ "shortName": "UK 10-YR",
+ "onAirName": "UK Gilt 10-yr",
+ "altName": "",
+ "last": "5.3501%",
+ "last_timedate": "6:53 AM GMT",
+ "last_time": "2026-09-24T06:53:26.000+0000",
+ "changetype": "DOWN",
+ "type": "BOND",
+ "subType": "Government Bond",
+ "exchange": "United Kingdom",
+ "source": "Exchange",
+ "open": "5.2151%",
+ "high": "5.3877%",
+ "low": "5.2084%",
+ "change": "-0.001",
+ "change_pct": "-0.0187%",
+ "volume": "0",
+ "volume_alt": "0.0",
+ "provider": "CNBC Quote Cache",
+ "previous_day_closing": "5.3511%",
+ "altSymbol": "21213187",
+ "realTime": "true",
+ "curmktstatus": "REG_MKT",
+ "yrhiprice": "5.44",
+ "yrhidate": "09/14/26",
+ "yrloprice": "4.23",
+ "yrlodate": "02/27/26",
+ "streamable": "1",
+ "bond_last_price": "96.393",
+ "bond_change_price": "+0.008",
+ "bond_change_pct_price": "+0.0083%",
+ "bond_open_price": "97.399",
+ "bond_high_price": "97.45",
+ "bond_low_price": "96.114",
+ "bond_prev_day_closing_price": "96.385",
+ "bond_changetype": "UP",
+ "maturity_date": "2036-07-31",
+ "coupon": "4.875%",
+ "issue_id": "5767337",
+ "countryCode": "GB",
+ "timeZone": "GMT",
+ "feedSymbol": "GB10YT=RR",
+ "portfolioindicator": "N"
+}
+
+=== SOURCE B: Trading Economics UK 10Y (Firecrawl scrape, maxAge=0, 2026-09-24 ~07:57 BST) ===
+URL: https://tradingeconomics.com/united-kingdom/government-bond-yield
+Actual 5.3511 | Previous 5.36 | Daily change -0.01% | Table row: UK 10Y 5.35, Day -0.007%, Sep/24
+News 2026-09-23 "UK Gilt Yield Climbs as Rate-Hike Bets Persist": "UK 10-year gilt yields
+  surged back above 5.3% as oil prices rebounded and investors assessed preliminary September PMI"
+News 2026-09-23 (earlier) "UK Gilt Yields Hold Near Recent Lows as Oil Prices Ease": "stabilized
+  around 5.23%, close to their lowest level since September 8"
+News 2026-09-22 "UK Gilt Yields Fall as Oil Slides Below $100": "reversed an early rise to fall
+  to 5.20% on Tuesday, their lowest level since September 8"
+CNBC session O/H/L for the Wed session: open 5.2151 / high 5.3877 / low 5.2084 / close ~5.3501-5.3511
+=> Wednesday 23 Sep close ~5.35%, up ~+0.14pp from Tuesday's ~5.21%.
+
+=== SOURCE C (DECISIVE): MarketWatch / Tullett Prebon TMBMKGB-10Y (Firecrawl scrape, maxAge=0) ===
+URL: https://www.marketwatch.com/investing/bond/tmbmkgb-10y?countrycode=bx
+"U.K. 10 Year Gilt -- TMBMKGB-10Y BX -- Tullett Prebon"
+"Last Updated: Sep 23, 2026 5:00 p.m. BST"
+%5.350   +0.108
+Previous Close 5.350%   |  Day Range 5.350-5.350  |  52 Week Range 4.229 - 5.416
+=> WEDNESDAY 23 SEP CLOSE = 5.350%, CHANGE +0.108pp (implies Tuesday close 5.242%,
+   which matches the previously verified Tuesday close of 5.244).
+=> CNBC previous_day_closing 5.3511% and TE Actual 5.3511 both corroborate the ~5.35 level.
+   TE news line "fell to 5.20% on Tuesday" was an INTRADAY LOW, not the close.
+VERDICT: 5.35%, +0.11pp. Confidence HIGH (3 sources on level, MarketWatch decisive on change).
+
+=== SOURCE D: Reuters, 23 Sep 2026 ===
+URL: https://www.reuters.com/world/uk/uks-ftse-100-up-banks-gain-oil-prices-steady-2026-09-23/
+"Benchmark British gilt yield rose to 5.353%."
+=> FOURTH source on the Wednesday close. 5.350 (MarketWatch) / 5.3501 (CNBC) / 5.3511 (TE) / 5.353 (Reuters).

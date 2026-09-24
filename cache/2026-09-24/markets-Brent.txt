@@ -1,0 +1,106 @@
+URL: https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=...&output=json (fetched 2026-09-24 07:53 BST)
+SOURCE A: CNBC quote endpoint
+
+{
+ "symbol": "@LCO.1",
+ "symbolType": "symbol",
+ "code": 0,
+ "name": "ICE Brent Crude (Nov'26)",
+ "shortName": "BRENT",
+ "onAirName": "ICE Brent Crude (Nov'26)",
+ "altName": "Brent Crude",
+ "last": "103.66",
+ "last_timedate": "7:43 AM BST",
+ "last_time": "2026-09-24T07:43:27.000+0100",
+ "changetype": "UP",
+ "type": "DERIVATIVE",
+ "subType": "Future",
+ "exchange": "Intercontinental Exchange Europe",
+ "source": "Exchange",
+ "open": "103.08",
+ "high": "103.78",
+ "low": "101.83",
+ "change": "+0.58",
+ "change_pct": "+0.56%",
+ "currencyCode": "USD",
+ "volume": "21,136",
+ "volume_alt": "21.1K",
+ "provider": "CNBC Quote Cache",
+ "previous_day_closing": "103.08",
+ "altSymbol": "LCOX6",
+ "realTime": "false",
+ "curmktstatus": "REG_MKT",
+ "yrhiprice": "126.41",
+ "yrhidate": "04/30/26",
+ "yrloprice": "58.72",
+ "yrlodate": "12/16/25",
+ "streamable": "1",
+ "open_interest": "363973",
+ "expiration_date": "2026-09-30",
+ "settlePrice": "103.08",
+ "settleDate": "2026-09-23",
+ "issue_id": "49031014",
+ "countryCode": "GB",
+ "timeZone": "BST",
+ "feedSymbol": "/LCOX6",
+ "portfolioindicator": "N"
+}
+
+=== SOURCE A2: CNBC quote page @LCO.2 (ICE Brent Crude Dec'26) ===
+URL: https://www.cnbc.com/quotes/@LCO.2  (Firecrawl scrape, maxAge=0, 2026-09-24 ~07:56 BST)
+Last 7:44 AM BST: 98.61  +0.49 (+0.50%)
+Open 98.06 | Day High 98.75 | Day Low 97.09 | Prev Close 98.12
+Open Interest 527,288 | Exp Date 2026-10-30
+
+=== SOURCE B: Yahoo Finance chart API BZ=F ===
+URL: https://query1.finance.yahoo.com/v8/finance/chart/BZ=F?range=5d&interval=1d
+meta.regularMarketPrice 98.66 ; meta.chartPreviousClose 100.34
+Daily bars (London): Mon 21 Sep 100.34 | Tue 22 Sep 99.25 | Wed 23 Sep 103.08 | Thu 24 Sep 98.66
+NOTE: Yahoo BZ=F = "Brent Crude Oil Last Day Financial Futures". Its Wed bar (103.08) is the
+Nov'26 contract; its Thu bar (98.66) is Dec'26 -- Yahoo HAS ALREADY ROLLED. The apparent
+-4.3% drop is a CONTRACT ROLL ARTEFACT, not a price move.
+RECONCILIATION: Yahoo 98.66 (Dec) == CNBC @LCO.2 98.61 (Dec), diff 0.05%. Two sources agree
+on Dec. CNBC @LCO.1 Nov'26 103.65 vs Wed settle 103.08 = +0.55% on the true front month.
+Nov'26 expires 2026-09-30. Nov/Dec backwardation ~= $5.04 (4.9%).
+
+=== SOURCE C (DECISIVE on front month): Trading Economics Brent (Firecrawl scrape, maxAge=0) ===
+URL: https://tradingeconomics.com/commodity/brent-crude-oil
+Actual 103.825 | Daily Change 0.74 (0.72%) | chart print 103.70 | table Brent 103.82 +0.745 +0.72% Sep/24
+Stats: "Brent rose to 103.64 USD/Bbl on September 24, 2026, up 0.54% from the previous day."
+Bottom table: Actual 103.64 | Previous 103.08
+=> TE's Brent benchmark tracks the NOVEMBER contract. Its previous close (103.08) is IDENTICAL
+   to CNBC's Nov'26 settle (103.08). TE 103.64 / +0.54% vs CNBC 103.65 / +0.55% -- agree to 0.01%.
+
+--- CONTRACT RECONCILIATION (as requested) ---
+Nov'26 (LCOX6, front month, EXPIRES 30 SEP 2026):
+  CNBC @LCO.1 : 103.65  +0.57 (+0.55%)  vs Wed 23 Sep settle 103.08   [07:42 BST]
+  Trading Economics: 103.64  (+0.54%)   vs previous 103.08
+  Yahoo BZ=F Wed 23 Sep daily bar: 103.08  (matches the Nov settle)
+Dec'26 (LCOZ6):
+  CNBC @LCO.2 : 98.61  +0.49 (+0.50%)  vs prev close 98.12  [07:44 BST]
+  Yahoo BZ=F  : 98.66  (Yahoo has ALREADY ROLLED to Dec)
+Nov/Dec backwardation ~ $5.04 (4.9%).
+WARNING FOR NEXT WEEK: when Nov expires on 30 Sep the published Brent series will drop ~$5
+(~-4.9%) purely from the roll. That is NOT a price move -- do not report it as one.
+
+VERDICT: use the front month (Nov'26): 103.6, +0.5%. Confidence HIGH (CNBC + TE agree to 0.01%).
+Do NOT use Yahoo BZ=F's 98.66 as "Brent today" -- different contract.
+
+=== SOURCE D: Reuters, 24 Sep 2026 (cached this session) ===
+URL: https://www.reuters.com/business/energy/oil-prices-edge-lower-iran-says-it-is-open-diplomacy-end-war-2026-09-24/
+"Oil prices retreated on Thursday after climbing 4% in the previous session as Iran said it
+ remained open to diplomacy to end the US-Iran war... Brent crude futures fell 92 cents, or 0.9%,
+ to $102.16 a barrel at 0400 GMT, while WTI eased 77 cents, or 0.8%, to $91.39."
+=> 102.16 + 0.92 = 103.08 -- Reuters' implied previous settle MATCHES the Nov'26 settle exactly.
+=> Reuters' 102.16 is a 04:00 GMT print; Brent then recovered. CNBC day range 101.83-103.78
+   brackets it. Latest at 07:42 BST is 103.65.
+=> Reuters "climbing 4% in the previous session" corroborates Wednesday's rally
+   (Tue settle 99.25 -> Wed settle 103.08 = +3.9%).
+CAUTION: Brent is swinging intraday on Iran diplomacy headlines. The 103.6 figure is a
+07:42 BST print and may move before an 18:00 BST publish -- RE-CHECK BEFORE PUBLISHING.
+
+=== SOURCE E: Reuters, 23 Sep 2026 (Wednesday settlement) ===
+URL: https://www.reuters.com/business/energy/oil-falls-increased-gulf-supply-hopes-us-iran-talks-2026-09-23/
+"Brent settled +$3.83, or +3.86%, at $103.08. WTI +$1.64, or +1.81%, at $92.16."
+"Tuesday: Brent hit its lowest since 8 September at $97.36."
+=> Wednesday settle 103.08 confirmed by Reuters directly. Four sources now agree on the Nov'26 settle.

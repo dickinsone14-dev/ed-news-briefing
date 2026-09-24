@@ -1,0 +1,56 @@
+URL: https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=...&output=json (fetched 2026-09-24 07:53 BST)
+SOURCE A: CNBC quote endpoint
+
+{
+ "symbol": "GBP=",
+ "symbolType": "symbol",
+ "code": 0,
+ "name": "GBP/USD",
+ "shortName": "GBP/USD",
+ "onAirName": "Pound/US $",
+ "altName": "Pound/US $",
+ "last": "1.3242",
+ "last_timedate": "2:53 AM EDT",
+ "last_time": "2026-09-24T02:53:00.000-0400",
+ "changetype": "UP",
+ "type": "CURRENCY",
+ "subType": "FOREX",
+ "exchange": "Exchange",
+ "source": "Exchange",
+ "open": "1.3237",
+ "high": "1.325",
+ "low": "1.3224",
+ "change": "+0.0005",
+ "change_pct": "+0.04%",
+ "volume": "22,901",
+ "volume_alt": "22.9K",
+ "provider": "CNBC Quote Cache",
+ "previous_day_closing": "1.3237",
+ "altSymbol": "618341",
+ "realTime": "true",
+ "curmktstatus": "REG_MKT",
+ "yrhiprice": "1.39",
+ "yrhidate": "01/27/26",
+ "yrloprice": "1.31",
+ "yrlodate": "06/24/26",
+ "streamable": "1",
+ "issue_id": "618341",
+ "countryCode": "EU",
+ "timeZone": "EDT",
+ "feedSymbol": "GBP=",
+ "portfolioindicator": "N"
+}
+
+=== SOURCE B: Trading Economics GBP/USD (Firecrawl scrape, maxAge=0, 2026-09-24 ~08:02 BST) ===
+URL: https://tradingeconomics.com/united-kingdom/currency
+Exchange Rate 1.32436 | Daily Change 0.0005 (0.03%) | Table GBPUSD 1.3244 +0.0005 0.03% Sep/24
+Stats: "The GBP/USD exchange rate rose to 1.3244 on September 24, 2026, up 0.04% from the previous session"
+News 2026-09-23 "Sterling Falls as Strong US Data Boosts Dollar": "weakened sharply to around $1.325,
+  reaching its lowest level since late June, as the US dollar strengthened following stronger-than-
+  expected PMI data and a series of hawkish comments from Federal Reserve policymakers"
+
+=== SOURCE C: Yahoo Finance chart API GBPUSD=X ===
+URL: https://query1.finance.yahoo.com/v8/finance/chart/GBPUSD=X?range=2d&interval=15m
+regularMarketPrice 1.3244 @ 1790232910 (Thu 24 Sep 07:55 BST)
+=> CNBC 1.3241 / TE 1.32436 / Yahoo 1.3244 -- agree within 0.02%. Change +0.03% to +0.05%.
+VERDICT: 1.3244, +0.04%. Confidence HIGH (CNBC 1.3241 / TE 1.32436 / Yahoo 1.3244).

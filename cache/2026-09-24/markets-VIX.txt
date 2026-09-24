@@ -1,0 +1,71 @@
+URL: https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=...&output=json (fetched 2026-09-24 07:53 BST)
+SOURCE A: CNBC quote endpoint
+
+{
+ "symbol": ".VIX",
+ "symbolType": "symbol",
+ "code": 0,
+ "name": "CBOE Volatility Index",
+ "shortName": "VIX",
+ "onAirName": "CBOE Volatility Index",
+ "altName": "CBOE MKT VOLATILITY IDX",
+ "last": "15.18",
+ "last_timedate": "09/23/26 EDT",
+ "last_time": "2026-09-23",
+ "changetype": "UNCH",
+ "type": "INDEX",
+ "subType": "Index",
+ "exchange": "Exchange",
+ "source": "Exchange",
+ "open": "0.00",
+ "high": "0.00",
+ "low": "0.00",
+ "change": "UNCH",
+ "change_pct": "UNCH",
+ "currencyCode": "USD",
+ "provider": "CNBC Quote Cache",
+ "previous_day_closing": "15.18",
+ "altSymbol": ".VIX",
+ "realTime": "true",
+ "curmktstatus": "REG_MKT",
+ "yrhiprice": "35.30",
+ "yrhidate": "03/09/26",
+ "yrloprice": "13.38",
+ "yrlodate": "12/24/25",
+ "streamable": "1",
+ "issue_id": "601065",
+ "countryCode": "CH",
+ "timeZone": "EDT",
+ "feedSymbol": ".VIX",
+ "portfolioindicator": "N"
+}
+
+=== SOURCE B: Yahoo Finance chart API ^VIX ===
+URL: https://query1.finance.yahoo.com/v8/finance/chart/%5EVIX?range=5d&interval=1d (and range=1mo)
+regularMarketPrice 15.18 ; Wed 23 Sep close 15.18
+5d bars: Thu 17 Sep 15.44 | Fri 18 Sep 14.81 | Mon 21 Sep 14.87 | Tue 22 Sep null | Wed 23 Sep 15.18
+1mo bars fill Tue 22 Sep = 14.81
+
+=== SOURCE C: Trading Economics VIX (Firecrawl scrape, maxAge=0) ===
+URL: https://tradingeconomics.com/vix:ind
+Actual 15.18 | Daily Change 0.97 | "traded at 15.18 this Wednesday September 23rd" | date Sep/23
+=> implies prior close 14.21 (+6.83%)
+CONFLICT: Yahoo implies Tue close 14.81 (+2.50%); TE implies 14.21 (+6.83%). Third source needed.
+
+=== SOURCE D (DECISIVE): MarketWatch market-data strip (Firecrawl scrape, maxAge=0) ===
+URL: https://www.marketwatch.com/investing/bond/tmbmkgb-10y?countrycode=bx  (front market-data table)
+| VIX | 15.18 | 0.97 | 6.83% |
+| S&P 500 | 7,706.03 | -58.61 | -0.75% |
+| Dow | 51,511.59 | -352.10 | -0.68% |
+| Nasdaq | 26,936.04 | -308.24 | -1.13% |
+=> RESOLVED: Wednesday 23 Sep VIX close 15.18, +0.97 (+6.83%). Tuesday close = 14.21.
+   Trading Economics agrees (Actual 15.18, Daily Change 0.97).
+   Yahoo's implied +2.50% was WRONG: Yahoo's daily series has a NULL bar for Tue 22 Sep
+   across EVERY instrument checked (^FTSE, ^GSPC, ^TNX, ^VIX) -- a Yahoo data hole for
+   22 Sep, not a real print. Yahoo's 14.81 is the Fri 18 Sep close, mis-shifted.
+VERDICT: 15.18, +6.83%. Confidence HIGH.
+
+=== SOURCE E: Investing.com market data widget, captured 24 Sep ~07:00 BST ===
+URL: https://www.investing.com/news/economy-news/analysisas-5-treasury-yields-lose-shock-value-investors-start-worrying-about-6-4913678
+CBOE VIX 15.18, +0.97, +6.83%
+=> THIRD independent source. VIX +6.83% is settled.

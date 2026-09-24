@@ -1,0 +1,59 @@
+URL: https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=...&output=json (fetched 2026-09-24 07:53 BST)
+SOURCE A: CNBC quote endpoint
+
+{
+ "symbol": ".FTSE",
+ "symbolType": "symbol",
+ "code": 0,
+ "name": "FTSE 100",
+ "shortName": "FTSE",
+ "onAirName": "FTSE 100",
+ "altName": "FTSE 100 IDX",
+ "last": "10,705.26",
+ "last_timedate": "09/23/26 BST",
+ "last_time": "2026-09-23",
+ "changetype": "DOWN",
+ "type": "INDEX",
+ "subType": "Index",
+ "exchange": "FTSE International",
+ "source": "Exchange",
+ "open": "10,708.79",
+ "high": "10,762.52",
+ "low": "10,682.73",
+ "change": "-3.07",
+ "change_pct": "-0.03%",
+ "currencyCode": "GBP",
+ "volume": "642,518,632",
+ "volume_alt": "642.5M",
+ "provider": "CNBC Quote Cache",
+ "previous_day_closing": "10,708.33",
+ "altSymbol": ".FTSE",
+ "realTime": "false",
+ "curmktstatus": "REG_MKT",
+ "yrhiprice": "10,989.45",
+ "yrhidate": "07/31/26",
+ "yrloprice": "9,177.09",
+ "yrlodate": "09/24/25",
+ "streamable": "1",
+ "issue_id": "572009",
+ "countryCode": "GB",
+ "timeZone": "BST",
+ "feedSymbol": "/.FTSE",
+ "portfolioindicator": "N"
+}
+
+=== SOURCE B: Newsquawk Daily European Equity Opening News, 23 Sep 2026 (TUESDAY closes) ===
+URL: https://www.newsquawk.com/headlines/newsquawk-daily-european-equity-opening-news---23rd-september-2026
+"CLOSES: Euro Stoxx 50 +0.08% at 6,323, Dax 40 +0.10% at 25,600, FTSE 100 -0.29% at 10,708,
+ CAC 40 +0.20% at 8,155 ... US CLOSES: SPX +0.00% at 7,765, NDX +0.82% at 30,732, DJI -0.36% at 51,869"
+=> confirms Tuesday 22 Sep FTSE close 10,708 (CNBC prev_day_closing 10,708.33)
+
+=== SOURCE C: Share Talk, 24 Sep 2026 07:20 BST ===
+URL: https://www.share-talk.com/ftse-100-set-for-flat-open-as-bond-sell-off-and-higher-oil-weigh/
+"The FTSE 100 is expected to open marginally lower on Thursday, 24 September 2026, at around
+ 10702, after closing at 10705.26 on Wednesday."
+
+=== SOURCE D: Yahoo Finance chart API ^FTSE ===
+URL: https://query1.finance.yahoo.com/v8/finance/chart/%5EFTSE?range=5d&interval=1d
+regularMarketPrice 10705.26 ; Wed 23 Sep daily close 10705.30
+VERDICT: 10,705.26, -0.03% (Tuesday close 10,708.33). Confidence HIGH -- 4 sources.
