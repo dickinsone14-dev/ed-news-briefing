@@ -1,0 +1,121 @@
+URL: https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=...&output=json [symbol=@LCO.1]
+SOURCE A: CNBC quote endpoint (browser UA required; plain curl returned Access Denied)
+fetched_at: 2026-09-25T17:32 BST
+
+{
+  "symbol": "@LCO.1",
+  "symbolType": "symbol",
+  "code": 0,
+  "name": "ICE Brent Crude (Nov'26)",
+  "shortName": "BRENT",
+  "onAirName": "ICE Brent Crude (Nov'26)",
+  "altName": "Brent Crude",
+  "last": "103.78",
+  "last_timedate": "5:21 PM BST",
+  "last_time": "2026-09-25T17:21:34.000+0100",
+  "changetype": "DOWN",
+  "type": "DERIVATIVE",
+  "subType": "Future",
+  "exchange": "Intercontinental Exchange Europe",
+  "source": "Exchange",
+  "open": "106.30",
+  "high": "106.59",
+  "low": "103.16",
+  "change": "-2.82",
+  "change_pct": "-2.65%",
+  "currencyCode": "USD",
+  "volume": "201,389",
+  "volume_alt": "201.4K",
+  "provider": "CNBC Quote Cache",
+  "previous_day_closing": "106.60",
+  "altSymbol": "LCOX6",
+  "realTime": "false",
+  "curmktstatus": "REG_MKT",
+  "yrhiprice": "126.41",
+  "yrhidate": "04/30/26",
+  "yrloprice": "58.72",
+  "yrlodate": "12/16/25",
+  "streamable": "1",
+  "open_interest": "319357",
+  "expiration_date": "2026-09-30",
+  "settlePrice": "106.60",
+  "settleDate": "2026-09-24",
+  "issue_id": "49031014",
+  "countryCode": "GB",
+  "timeZone": "BST",
+  "feedSymbol": "/LCOX6",
+  "portfolioindicator": "N"
+}
+
+--- @LCO.2 (Dec'26, for roll spread check) ---
+{
+  "symbol": "@LCO.2",
+  "symbolType": "symbol",
+  "code": 0,
+  "name": "ICE Brent Crude (Dec'26)",
+  "shortName": "ICE Brent Crude",
+  "onAirName": "ICE Brent Crude (Dec'26)",
+  "altName": "ICE Brent Crude",
+  "last": "96.95",
+  "last_timedate": "5:21 PM BST",
+  "last_time": "2026-09-25T17:21:35.000+0100",
+  "changetype": "DOWN",
+  "type": "DERIVATIVE",
+  "subType": "Future",
+  "exchange": "Intercontinental Exchange Europe",
+  "source": "Exchange",
+  "open": "99.70",
+  "high": "99.76",
+  "low": "96.38",
+  "change": "-3.27",
+  "change_pct": "-3.26%",
+  "currencyCode": "USD",
+  "volume": "365,524",
+  "volume_alt": "365.5K",
+  "provider": "CNBC Quote Cache",
+  "previous_day_closing": "100.22",
+  "altSymbol": "LCOZ6",
+  "realTime": "false",
+  "curmktstatus": "REG_MKT",
+  "yrhiprice": "99.76",
+  "yrhidate": "09/25/26",
+  "yrloprice": "0.00",
+  "streamable": "1",
+  "open_interest": "557519",
+  "expiration_date": "2026-10-30",
+  "settlePrice": "100.22",
+  "settleDate": "2026-09-24",
+  "issue_id": "59455772",
+  "countryCode": "GB",
+  "timeZone": "BST",
+  "feedSymbol": "/LCOZ6",
+  "portfolioindicator": "N"
+}
+
+=== CONTRACT-MONTH RESOLUTION (the critical issue) ===
+CNBC @LCO.1 = ICE Brent Crude (Nov'26)  <- FRONT MONTH, prev settle 106.60
+CNBC @LCO.2 = ICE Brent Crude (Dec'26)  <- prev settle 100.22
+Nov-Dec spread = 103.25 - 96.49 = 6.76  (matches the expected ~$6.75 roll gap)
+
+--- MarketWatch BRN00: NOT USABLE AS A NOV SOURCE TODAY ---
+URL: https://www.marketwatch.com/investing/future/brn00
+quoteTime: Sep 25, 2026 5:24 p.m. BST
+last $97.26  chg -2.96  pct -2.95%  prev close $100.22  range $96.38-$99.76
+settlement $100.22 on 09/24/2026 ; page shows BOTH labels "Brent Crude Nov 2026" and "Brent Crude Dec 2026"
+>>> Its prev close (100.22) and day range (96.38-99.76) match CNBC's DEC'26 EXACTLY.
+>>> MarketWatch's continuous contract has FULLY ROLLED to Dec'26 - both quote block AND
+>>> metadata now serve Dec, unlike earlier this week when they were split. DISCARDED for front month.
+
+=== SOURCE B (valid Nov'26): Investing.com Brent Oil Futures (fresh, maxAge=0) ===
+URL: https://www.investing.com/commodities/brent-oil
+contract month: "Nov 26"   SYMBOL LCO1!   SETTLEMENT_DATE 09/29/2026  LAST_ROLLOVER 08/22/2026
+internal timestamp: "Real-time Data 12:33:50" EDT (= 17:33 BST, fresh - not the stale-cache failure)
+last 103.35  chg -3.25  pct -3.05%  PREV_CLOSE 106.60  range 103.15-107.17  vol 373,283
+
+=== ADJUDICATION ===
+CNBC Nov'26 @17:27 BST: 103.25, -3.14%, prev settle 106.60
+Investing Nov'26 @17:33 BST: 103.35, -3.05%, prev settle 106.60
+Both carry the IDENTICAL previous settle 106.60, confirming the same series.
+Level spread 0.10 (0.1%) - well inside tolerance. This morning's published 105.56/-0.98%
+also implies prev 106.60, so the Nov series is internally consistent all day.
+FINAL: 103.30, -3.10% (Nov'26 front month).  CONFIDENCE: HIGH

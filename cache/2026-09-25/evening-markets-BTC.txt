@@ -1,0 +1,65 @@
+URL: https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=...&output=json [symbol=BTC=]
+SOURCE A: CNBC quote endpoint (browser UA required; plain curl returned Access Denied)
+fetched_at: 2026-09-25T17:32 BST
+
+{
+  "symbol": "BTC=",
+  "symbolType": "symbol",
+  "code": 0,
+  "name": "Bitcoin/US Dollar FX Spot Rate",
+  "shortName": "BTC=",
+  "onAirName": "Bitcoin/US Dollar FX Spot Rate",
+  "altName": "Bitcoin/US Dollar FX Spot Rate",
+  "last": "83,969.82",
+  "last_timedate": "12:31 PM EDT",
+  "last_time": "2026-09-25T12:31:00.000-0400",
+  "changetype": "DOWN",
+  "type": "CURRENCY",
+  "subType": "FOREX",
+  "exchange": "Exchange",
+  "source": "Exchange",
+  "open": "84,351.21",
+  "high": "85,214.68",
+  "low": "83,230.62",
+  "change": "-379.21",
+  "change_pct": "-0.4496%",
+  "volume": "4,685",
+  "volume_alt": "4.7K",
+  "provider": "CNBC Quote Cache",
+  "previous_day_closing": "84,349.03",
+  "altSymbol": "843171251",
+  "realTime": "true",
+  "curmktstatus": "REG_MKT",
+  "yrhiprice": "97,866.77",
+  "yrhidate": "01/14/26",
+  "yrloprice": "57,775.84",
+  "yrlodate": "07/01/26",
+  "streamable": "1",
+  "issue_id": "843171251",
+  "countryCode": "EU",
+  "timeZone": "EDT",
+  "feedSymbol": "BTC=",
+  "portfolioindicator": "N"
+}
+
+=== SOURCE B: CoinGecko simple/price (direct curl, no block) ===
+URL: https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd&include_24hr_change=true
+17:31 BST: 83,966  (rolling 24h -0.691%)
+17:37 BST: 83,836  (rolling 24h -0.888%)
+
+=== SOURCE C: Coinbase spot ===
+URL: https://api.coinbase.com/v2/prices/BTC-USD/spot   ->  83,951.98
+
+=== SOURCE D: Kraken XBTUSD ===
+URL: https://api.kraken.com/0/public/Ticker?pair=XBTUSD  ->  last 83,942.10, 24h open 84,380.00
+implied 24h change -0.52%
+
+=== ADJUDICATION ===
+Four independent sources: CNBC 83,863 | CoinGecko 83,836 | Coinbase 83,952 | Kraken 83,942.
+Full spread 116 = 0.14%. Price is solid.
+The 24h % varies by WINDOW CONVENTION, not by disagreement on price:
+  CNBC   -0.58% (vs previous NY close 84,349)
+  Kraken -0.52% (vs 24h open 84,380)
+  CoinGecko -0.89% (true rolling 24h)
+CNBC/Kraken basis chosen for consistency with the morning edition's methodology.
+FINAL: 83900, -0.58%.  CONFIDENCE: HIGH on price, MEDIUM on % (convention-dependent)

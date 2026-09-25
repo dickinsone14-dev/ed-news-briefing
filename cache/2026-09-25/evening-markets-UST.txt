@@ -1,0 +1,81 @@
+URL: https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=...&output=json [symbol=US10Y]
+SOURCE A: CNBC quote endpoint (browser UA required; plain curl returned Access Denied)
+fetched_at: 2026-09-25T17:32 BST
+
+{
+  "symbol": "US10Y",
+  "symbolType": "symbol",
+  "code": 0,
+  "name": "U.S. 10 Year Treasury",
+  "shortName": "US 10-YR",
+  "onAirName": "U.S. 10 Year Treasury",
+  "altName": "",
+  "last": "5.179%",
+  "last_timedate": "12:31 PM EDT",
+  "last_time": "2026-09-25T12:31:29.000-0400",
+  "changetype": "UP",
+  "type": "BOND",
+  "subType": "Government Bond",
+  "exchange": "Tradeweb",
+  "source": "Exchange",
+  "open": "5.192%",
+  "high": "5.23%",
+  "low": "5.154%",
+  "change": "+0.017",
+  "change_pct": "+0.3293%",
+  "provider": "CNBC Quote Cache",
+  "previous_day_closing": "5.162%",
+  "altSymbol": "US10YT=XX",
+  "realTime": "true",
+  "curmktstatus": "REG_MKT",
+  "yrhiprice": "5.23",
+  "yrhidate": "09/25/26",
+  "yrloprice": "3.93",
+  "yrlodate": "03/02/26",
+  "streamable": "1",
+  "bond_last_price": "95.75",
+  "bond_change_price": "-0.125",
+  "bond_change_pct_price": "-0.1304%",
+  "bond_open_price": "95.6563",
+  "bond_high_price": "95.9375",
+  "bond_low_price": "95.375",
+  "bond_prev_day_closing_price": "95.875",
+  "bond_changetype": "DOWN",
+  "maturity_date": "2036-08-15",
+  "coupon": "4.625%",
+  "issue_id": "5093160",
+  "countryCode": "US",
+  "timeZone": "EDT",
+  "feedSymbol": "US10YT=TWEB",
+  "portfolioindicator": "N"
+}
+
+=== SOURCE B: MarketWatch TMUBMUSD10Y (fresh, maxAge=0) ===
+URL: https://www.marketwatch.com/investing/bond/tmubmusd10y?countrycode=bx
+quoteTime: Sep 25, 2026 12:33 p.m. EDT
+last: 5.179%   change: -0.026   prev close: 5.205   day range 5.157 - 5.232
+
+=== SOURCE C: Trading Economics US 10Y (fresh, maxAge=0) ===
+URL: https://tradingeconomics.com/united-states/government-bond-yield
+last: 5.182   change: -0.02   prev close: 5.19   high 5.182 low 5.17
+lastUpdated: 2026-09-25 12:33
+text: "The yield on the US 10-year Treasury note rose again on Friday, topping 5.2% to reach
+       a fresh high since mid-2007, extending a sharp sell-off over the previous three sessions
+       that had pushed the benchmark yield up by 23 basis points."
+       (intraday narrative - yield hit 5.23 then eased back)
+
+=== ADJUDICATION (3 sources) ===
+LEVEL: CNBC 5.179 | MW 5.179 | TE 5.182 -> exact agreement CNBC/MW. Use 5.18.
+CHANGE: MW -0.026 | TE -0.02 | CNBC +0.017 -> CNBC OUTLIER, WRONG SIGN.
+CNBC previous_day_closing = 5.162 is WRONG. MW says 5.205, TE says 5.19,
+morning brief implied ~5.21. CNBC overruled 2-1, same failure mode as this morning.
+TRUSTED: MarketWatch + Trading Economics. FINAL: 5.18, change -0.03 pp (MW -0.026).
+
+=== TE RE-READ / CORRECTION ===
+The extracted "previousClose: 5.19" from Trading Economics was a MIS-PARSE.
+TE's own sentence reads: "eased to 5.19% on September 25, 2026, marking a 0.02 percentage
+points decrease from the previous session." => 5.19 is TODAY's rounded level, so TE's
+implied THURSDAY close is 5.21 - which AGREES with MarketWatch (5.205) and with this
+morning's published 5.17/-0.04 (implied Thursday 5.21). CNBC's 5.162 stands alone.
+Thursday 24 Sep close = 5.205-5.21 (3-way agreement). CNBC prev close REJECTED.
+FINAL: 5.18, -0.03 pp.  CONFIDENCE: HIGH

@@ -1,0 +1,53 @@
+URL: https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=...&output=json [symbol=.VIX]
+SOURCE A: CNBC quote endpoint (browser UA required; plain curl returned Access Denied)
+fetched_at: 2026-09-25T17:32 BST
+
+{
+  "symbol": ".VIX",
+  "symbolType": "symbol",
+  "code": 0,
+  "name": "CBOE Volatility Index",
+  "shortName": "VIX",
+  "onAirName": "CBOE Volatility Index",
+  "altName": "CBOE MKT VOLATILITY IDX",
+  "last": "14.93",
+  "last_timedate": "12:31 PM EDT",
+  "last_time": "2026-09-25T12:31:31.000-0400",
+  "changetype": "DOWN",
+  "type": "INDEX",
+  "subType": "Index",
+  "exchange": "Exchange",
+  "source": "Exchange",
+  "open": "15.61",
+  "high": "15.94",
+  "low": "14.93",
+  "change": "-0.74",
+  "change_pct": "-4.72%",
+  "currencyCode": "USD",
+  "provider": "CNBC Quote Cache",
+  "previous_day_closing": "15.67",
+  "altSymbol": ".VIX",
+  "realTime": "true",
+  "curmktstatus": "REG_MKT",
+  "yrhiprice": "35.30",
+  "yrhidate": "03/09/26",
+  "yrloprice": "13.38",
+  "yrlodate": "12/24/25",
+  "streamable": "1",
+  "issue_id": "601065",
+  "countryCode": "CH",
+  "timeZone": "EDT",
+  "feedSymbol": ".VIX",
+  "portfolioindicator": "N"
+}
+
+=== SOURCE B: MarketWatch VIX (fresh, maxAge=0) ===
+URL: https://www.marketwatch.com/investing/index/vix
+quoteTime: Sep 25, 2026 11:22 a.m. CDT (= 12:22 EDT)
+last 15.15  chg -0.52  pct -3.32%  prev close 15.67  range 14.98-15.94
+=== ADJUDICATION ===
+Both sources carry prev close 15.67, matching the brief's reference exactly.
+CNBC @12:37 EDT: 14.90, -4.91%.  MarketWatch @12:22 EDT: 15.15, -3.32%.
+Level spread 0.25 = 1.6% - inside the 2% rule but notable. Explained by the 15-min gap:
+VIX drifted lower through the session (CNBC day low 14.93 -> 14.90). CNBC is fresher.
+FINAL: 14.90, -4.91%.  CONFIDENCE: MEDIUM (fast-moving; % depends heavily on read time)

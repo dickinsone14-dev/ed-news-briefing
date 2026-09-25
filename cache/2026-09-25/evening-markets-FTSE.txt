@@ -1,0 +1,52 @@
+URL: https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=...&output=json [symbol=.FTSE]
+SOURCE A: CNBC quote endpoint (browser UA required; plain curl returned Access Denied)
+fetched_at: 2026-09-25T17:32 BST
+
+{
+  "symbol": ".FTSE",
+  "symbolType": "symbol",
+  "code": 0,
+  "name": "FTSE 100",
+  "shortName": "FTSE",
+  "onAirName": "FTSE 100",
+  "altName": "FTSE 100 IDX",
+  "last": "10,695.25",
+  "last_timedate": "4:35 PM BST",
+  "last_time": "2026-09-25T16:35:00.000+0100",
+  "changetype": "UP",
+  "type": "INDEX",
+  "subType": "Index",
+  "exchange": "FTSE International",
+  "source": "Exchange",
+  "open": "10,679.89",
+  "high": "10,753.35",
+  "low": "10,666.95",
+  "change": "+15.26",
+  "change_pct": "+0.14%",
+  "currencyCode": "GBP",
+  "volume": "642,066,732",
+  "volume_alt": "642.1M",
+  "provider": "CNBC Quote Cache",
+  "previous_day_closing": "10,679.99",
+  "altSymbol": ".FTSE",
+  "realTime": "false",
+  "curmktstatus": "REG_MKT",
+  "yrhiprice": "10,989.45",
+  "yrhidate": "07/31/26",
+  "yrloprice": "9,203.17",
+  "yrlodate": "09/25/25",
+  "streamable": "1",
+  "issue_id": "572009",
+  "countryCode": "GB",
+  "timeZone": "BST",
+  "feedSymbol": "/.FTSE",
+  "portfolioindicator": "N"
+}
+
+=== SOURCE B: MarketWatch UKX (fresh, maxAge=0) ===
+URL: https://www.marketwatch.com/investing/index/ukx?countrycode=uk
+quoteTime: Sep 25, 2026 4:35 p.m. BST (Delayed quote / closed)
+last 10,695.25  chg +15.26  pct +0.14%  prev 10,679.99  range 10,666.95-10,753.35
+=== ADJUDICATION ===
+CNBC and MarketWatch match EXACTLY on all six fields. Close confirmed 16:35 BST.
+FINAL: 10695.25, +0.14%.  CONFIDENCE: HIGH

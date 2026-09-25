@@ -1,0 +1,55 @@
+URL: https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=...&output=json [symbol=XAU=]
+SOURCE A: CNBC quote endpoint (browser UA required; plain curl returned Access Denied)
+fetched_at: 2026-09-25T17:32 BST
+
+{
+  "symbol": "XAU=",
+  "symbolType": "symbol",
+  "code": 0,
+  "name": "Gold / US Dollar Spot",
+  "shortName": "Gold / US Dollar Spot",
+  "onAirName": "Gold Spot- USD",
+  "altName": "",
+  "last": "4,291.45",
+  "last_timedate": "12:30 PM EDT",
+  "last_time": "2026-09-25T12:30:44.526-0400",
+  "changetype": "UP",
+  "type": "INDEX",
+  "subType": "CNBC Synthetic",
+  "exchange": "Exchange",
+  "source": "",
+  "open": "4,281.89",
+  "high": "4,314.63",
+  "low": "4,256.06",
+  "change": "+13.47",
+  "change_pct": "+0.31%",
+  "currencyCode": "USD",
+  "provider": "CNBC Quote Cache",
+  "previous_day_closing": "4,277.983",
+  "altSymbol": "135115355",
+  "realTime": "true",
+  "curmktstatus": "REG_MKT",
+  "yrhiprice": "4,314.63",
+  "yrhidate": "09/25/26",
+  "yrloprice": "0.00",
+  "streamable": "1",
+  "issue_id": "135115355",
+  "countryCode": "CH",
+  "timeZone": "EDT",
+  "feedSymbol": "XAU=",
+  "portfolioindicator": "N"
+}
+
+=== SOURCE B: Investing.com XAU/USD SPOT (fresh scrape, maxAge=0) ===
+URL: https://www.investing.com/currencies/xau-usd
+FULL_NAME "Gold Spot US Dollar" (spot, NOT futures) ; EXCHANGE Forex
+internal timestamp: 12:07:25 EDT  <-- ~28 MIN STALE vs CNBC's 12:35. Flagged.
+last 4,296.33  chg +22.66  pct +0.53%  prev close 4,273.67  range 4,255.00-4,315.73
+bid 4,299.66 / ask 4,300.00
+=== ADJUDICATION ===
+CNBC XAU= (spot) @12:35 EDT: 4,289.20, +0.26%, prev 4,277.983
+Investing spot @12:07 EDT:   4,296.33, +0.53%, prev 4,273.67
+Level spread 7.13 = 0.17%, inside tolerance. Prev closes differ 0.1% (spot fixing convention).
+Both agree gold is UP on the day. CNBC preferred: fresher by 28 min and its prev close
+(4,277.98) is the baseline this morning's published 4,278 was built on.
+FINAL: 4289.2, +0.26%.  CONFIDENCE: MEDIUM-HIGH (source spread on the % is 0.26 vs 0.53)

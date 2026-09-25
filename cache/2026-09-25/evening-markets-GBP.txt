@@ -1,0 +1,53 @@
+URL: https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=...&output=json [symbol=GBP=]
+SOURCE A: CNBC quote endpoint (browser UA required; plain curl returned Access Denied)
+fetched_at: 2026-09-25T17:32 BST
+
+{
+  "symbol": "GBP=",
+  "symbolType": "symbol",
+  "code": 0,
+  "name": "GBP/USD",
+  "shortName": "GBP/USD",
+  "onAirName": "Pound/US $",
+  "altName": "Pound/US $",
+  "last": "1.3249",
+  "last_timedate": "12:31 PM EDT",
+  "last_time": "2026-09-25T12:31:00.000-0400",
+  "changetype": "UP",
+  "type": "CURRENCY",
+  "subType": "FOREX",
+  "exchange": "Exchange",
+  "source": "Exchange",
+  "open": "1.3219",
+  "high": "1.3263",
+  "low": "1.321",
+  "change": "+0.0034",
+  "change_pct": "+0.26%",
+  "volume": "63,986",
+  "volume_alt": "64.0K",
+  "provider": "CNBC Quote Cache",
+  "previous_day_closing": "1.3215",
+  "altSymbol": "618341",
+  "realTime": "true",
+  "curmktstatus": "REG_MKT",
+  "yrhiprice": "1.39",
+  "yrhidate": "01/27/26",
+  "yrloprice": "1.31",
+  "yrlodate": "06/24/26",
+  "streamable": "1",
+  "issue_id": "618341",
+  "countryCode": "EU",
+  "timeZone": "EDT",
+  "feedSymbol": "GBP=",
+  "portfolioindicator": "N"
+}
+
+=== SOURCE B: Investing.com GBP/USD (fresh, maxAge=0) ===
+URL: https://www.investing.com/currencies/gbp-usd
+internal timestamp: 12:19:35 EDT
+last 1.3251  chg +0.0029  pct +0.22%  prev close 1.3222  range 1.3209-1.3264
+=== ADJUDICATION ===
+CNBC 1.3242 (+0.20%, prev 1.3215) @12:36 EDT vs Investing 1.3251 (+0.22%, prev 1.3222) @12:19 EDT.
+Level spread 0.0009 = 0.07%. Prev closes differ by 7 pips (different NY cut-off conventions).
+Direction and magnitude agree. CNBC is the fresher print and matches this morning's baseline.
+FINAL: 1.3242, +0.20%.  CONFIDENCE: HIGH
