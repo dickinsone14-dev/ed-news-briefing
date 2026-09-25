@@ -1,0 +1,86 @@
+URL: https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=.FTSE|.SPX|@LCO.1|@LCO.2|GBP=|XAU=|EURGBP=|GB10Y-GB|.VIX|BTC=|US10Y&requestMethod=itv&noform=1&partnerId=2&fund=1&exthrs=1&output=json
+Fetched: 2026-09-25 07:58 BST
+WANTED: Thursday 24 Sep CLOSE and change in percentage points.
+Per brief: do NOT hard-code a preferred gilt source. FOUR sources checked below.
+
+--- SOURCE A: CNBC (GB10Y-GB "British 10 Year Gilt") ---
+{
+ "symbol": "GB10Y-GB",
+ "symbolType": "symbol",
+ "code": 0,
+ "name": "British 10 Year Gilt",
+ "shortName": "UK 10-YR",
+ "onAirName": "UK Gilt 10-yr",
+ "altName": "",
+ "last": "5.3412%",
+ "last_timedate": "6:58 AM GMT",
+ "last_time": "2026-09-25T06:58:20.000+0000",
+ "changetype": "DOWN",
+ "type": "BOND",
+ "subType": "Government Bond",
+ "exchange": "United Kingdom",
+ "source": "Exchange",
+ "open": "5.3524%",
+ "high": "5.397%",
+ "low": "5.3152%",
+ "change": "-0.0439",
+ "change_pct": "-0.8152%",
+ "volume": "0",
+ "volume_alt": "0.0",
+ "provider": "CNBC Quote Cache",
+ "previous_day_closing": "5.3851%",
+ "altSymbol": "21213187",
+ "realTime": "true",
+ "curmktstatus": "REG_MKT",
+ "yrhiprice": "5.44",
+ "yrhidate": "09/14/26",
+ "yrloprice": "4.23",
+ "yrlodate": "02/27/26",
+ "streamable": "1",
+ "bond_last_price": "96.461",
+ "bond_change_price": "+0.327",
+ "bond_change_pct_price": "+0.3402%",
+ "bond_open_price": "96.376",
+ "bond_high_price": "96.652",
+ "bond_low_price": "96.046",
+ "bond_prev_day_closing_price": "96.134",
+ "bond_changetype": "UP",
+ "maturity_date": "2036-07-31",
+ "coupon": "4.875%",
+ "issue_id": "5767337",
+ "countryCode": "GB",
+ "timeZone": "GMT",
+ "feedSymbol": "GB10YT=RR",
+ "portfolioindicator": "N"
+}
+  -> live 5.3412%, previous_day_closing 5.3851%
+
+--- SOURCE B: Investing.com UK ---
+URL: https://uk.investing.com/rates-bonds/uk-10-year-bond-yield
+current 5.3401% | change -0.045 | pct -0.84% | PREVIOUS CLOSE 5.3851
+day open 5.3363 | high 5.3449 | low 5.3363 | timestamp 07:55:24
+
+--- SOURCE C: Trading Economics ---
+URL: https://tradingeconomics.com/united-kingdom/government-bond-yield
+"The yield on United Kingdom 10Y Bond Yield rose to 5.38% on September 24, 2026, marking a
+0.03 percentage points increase from the previous session."
+current_value 5.3845 | daily change +0.03 pp | previous close 5.36 | date 2026-09-24
+
+--- SOURCE D: Guardian business live, Thu 24 Sep 2026 (independent editorial) ---
+URL: https://www.theguardian.com/business/live/2026/sep/24/global-bond-sell-off-us-economy-fears-stock-markets-ftse-dollar-pound-latest-news-updates
+"The UK's 10-year bond yields, which had subsided earlier, are back up to 5.385%, a gain of
+seven basis points." (intraday Thursday afternoon)
+Also: https://www.theguardian.com/business/2026/sep/24/global-bond-sell-off-pressures-uk-borrowing-costs-budget
+"The yield on 10-year UK bonds, known as gilts, rose to 5.39% on Thursday, approaching the
+19-year high set last week."
+
+ADJUDICATION:
+  LEVEL  -- FOUR-WAY agreement on Thursday's close at 5.385% (CNBC prev-close 5.3851,
+            Investing prev-close 5.3851, Trading Economics 5.3845, Guardian 5.385/5.39).
+            No source is lagged today. Confidence HIGH.
+  CHANGE -- Trading Economics gives the only clean close-to-close figure (+0.03pp, prev 5.36).
+            Guardian's "+7bp" was an intraday reading taken mid-afternoon, not a close.
+            TRUSTED: Trading Economics, because it states an explicit session-over-session
+            comparison and its level agrees with the other three.
+REPORTED: 5.38, +0.03 pp. MarketWatch not used for the gilt today (it was the lagged source
+on Thursday); no source required it, as four others concur.

@@ -1,0 +1,120 @@
+URL: https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=.FTSE|.SPX|@LCO.1|@LCO.2|GBP=|XAU=|EURGBP=|GB10Y-GB|.VIX|BTC=|US10Y&requestMethod=itv&noform=1&partnerId=2&fund=1&exthrs=1&output=json
+Fetched: 2026-09-25 07:58 BST
+
+*** CONTRACT-MONTH AUDIT ***
+
+--- SOURCE A: CNBC @LCO.1 = ICE Brent Crude (Nov'26) -- FRONT MONTH ---
+{
+ "symbol": "@LCO.1",
+ "symbolType": "symbol",
+ "code": 0,
+ "name": "ICE Brent Crude (Nov'26)",
+ "shortName": "BRENT",
+ "onAirName": "ICE Brent Crude (Nov'26)",
+ "altName": "Brent Crude",
+ "last": "105.56",
+ "last_timedate": "7:48 AM BST",
+ "last_time": "2026-09-25T07:48:22.000+0100",
+ "changetype": "DOWN",
+ "type": "DERIVATIVE",
+ "subType": "Future",
+ "exchange": "Intercontinental Exchange Europe",
+ "source": "Exchange",
+ "open": "106.30",
+ "high": "106.30",
+ "low": "104.91",
+ "change": "-1.04",
+ "change_pct": "-0.98%",
+ "currencyCode": "USD",
+ "volume": "26,426",
+ "volume_alt": "26.4K",
+ "provider": "CNBC Quote Cache",
+ "previous_day_closing": "106.60",
+ "altSymbol": "LCOX6",
+ "realTime": "false",
+ "curmktstatus": "REG_MKT",
+ "yrhiprice": "126.41",
+ "yrhidate": "04/30/26",
+ "yrloprice": "58.72",
+ "yrlodate": "12/16/25",
+ "streamable": "1",
+ "open_interest": "342945",
+ "expiration_date": "2026-09-30",
+ "settlePrice": "106.60",
+ "settleDate": "2026-09-24",
+ "issue_id": "49031014",
+ "countryCode": "GB",
+ "timeZone": "BST",
+ "feedSymbol": "/LCOX6",
+ "portfolioindicator": "N"
+}
+
+--- SOURCE A2: CNBC @LCO.2 = ICE Brent Crude (Dec'26) -- SECOND MONTH ---
+{
+ "symbol": "@LCO.2",
+ "symbolType": "symbol",
+ "code": 0,
+ "name": "ICE Brent Crude (Dec'26)",
+ "shortName": "ICE Brent Crude",
+ "onAirName": "ICE Brent Crude (Dec'26)",
+ "altName": "ICE Brent Crude",
+ "last": "98.81",
+ "last_timedate": "7:48 AM BST",
+ "last_time": "2026-09-25T07:48:20.000+0100",
+ "changetype": "DOWN",
+ "type": "DERIVATIVE",
+ "subType": "Future",
+ "exchange": "Intercontinental Exchange Europe",
+ "source": "Exchange",
+ "open": "99.70",
+ "high": "99.76",
+ "low": "98.22",
+ "change": "-1.41",
+ "change_pct": "-1.41%",
+ "currencyCode": "USD",
+ "volume": "34,578",
+ "volume_alt": "34.6K",
+ "provider": "CNBC Quote Cache",
+ "previous_day_closing": "100.22",
+ "altSymbol": "LCOZ6",
+ "realTime": "false",
+ "curmktstatus": "REG_MKT",
+ "yrhiprice": "99.76",
+ "yrhidate": "09/25/26",
+ "yrloprice": "0.00",
+ "streamable": "1",
+ "open_interest": "555020",
+ "expiration_date": "2026-10-30",
+ "settlePrice": "100.22",
+ "settleDate": "2026-09-24",
+ "issue_id": "59455772",
+ "countryCode": "GB",
+ "timeZone": "BST",
+ "feedSymbol": "/LCOZ6",
+ "portfolioindicator": "N"
+}
+
+--- SOURCE B: Investing.com UK "Brent Oil Futures (LCO1!)" ---
+URL: https://uk.investing.com/commodities/brent-oil
+LAST_PRICE 105.77 | change -0.83 | pct -0.78% | PREV_CLOSE 106.60
+OPEN 107.06 | DAY_RANGE 104.91 - 107.17 | VOLUME 373,283
+SETTLEMENT_DATE 29/09/2026  <-- confirms this is the Nov'26 contract (front month, expiring 30 Sep)
+LAST_ROLLOVER_DATE 22/08/2026 | timestamp 07:56:25
+
+--- SOURCE C: Guardian business live, Thu 24 Sep (narrative) ---
+URL: https://www.theguardian.com/business/live/2026/sep/24/global-bond-sell-off-us-economy-fears-stock-markets-ftse-dollar-pound-latest-news-updates
+"Brent crude is now up almost 4% at $107.13 a barrel" (intraday Thu)
+AJ Bell: "The black stuff jumped 2.6% to nearly $106 a barrel."
+XTB: "Brent crude spiked to as high as $106 per barrel earlier, before dropping 3%, and futures
+prices are now back below $100 per barrel." <-- the sub-$100 reference is the Dec'26 contract,
+illustrating exactly the two-series confusion flagged in the brief.
+
+CONTRACT SPREAD: Nov'26 105.56 vs Dec'26 98.81 = $6.75 backwardation. A source quoting ~$98-99
+is on Dec'26, NOT the front month.
+
+RESOLVED (FRONT MONTH = Nov'26):
+  latest      105.56 (CNBC, 07:48 BST) / 105.77 (Investing, 07:56 BST) - 0.2% apart, timing only
+  prev settle 106.60 -- IDENTICAL on both sources. High confidence in the denominator.
+  change      -0.98% (CNBC) / -0.78% (Investing)
+  REPORTED:   105.56, -0.98%
+Confidence HIGH on contract identification and previous settle.

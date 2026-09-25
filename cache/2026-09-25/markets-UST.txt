@@ -1,0 +1,82 @@
+URL: https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=.FTSE|.SPX|@LCO.1|@LCO.2|GBP=|XAU=|EURGBP=|GB10Y-GB|.VIX|BTC=|US10Y&requestMethod=itv&noform=1&partnerId=2&fund=1&exthrs=1&output=json
+Fetched: 2026-09-25 07:58 BST
+
+--- SOURCE A: CNBC (US10Y) ---
+{
+ "symbol": "US10Y",
+ "symbolType": "symbol",
+ "code": 0,
+ "name": "U.S. 10 Year Treasury",
+ "shortName": "US 10-YR",
+ "onAirName": "U.S. 10 Year Treasury",
+ "altName": "",
+ "last": "5.167%",
+ "last_timedate": "2:56 AM EDT",
+ "last_time": "2026-09-25T02:56:29.000-0400",
+ "changetype": "UP",
+ "type": "BOND",
+ "subType": "Government Bond",
+ "exchange": "Tradeweb",
+ "source": "Exchange",
+ "open": "5.192%",
+ "high": "5.20%",
+ "low": "5.163%",
+ "change": "+0.005",
+ "change_pct": "+0.0969%",
+ "provider": "CNBC Quote Cache",
+ "previous_day_closing": "5.162%",
+ "altSymbol": "US10YT=XX",
+ "realTime": "true",
+ "curmktstatus": "REG_MKT",
+ "yrhiprice": "5.20",
+ "yrhidate": "09/25/26",
+ "yrloprice": "3.93",
+ "yrlodate": "03/02/26",
+ "streamable": "1",
+ "bond_last_price": "95.8438",
+ "bond_change_price": "-0.0313",
+ "bond_change_pct_price": "-0.0326%",
+ "bond_open_price": "95.6563",
+ "bond_high_price": "95.875",
+ "bond_low_price": "95.5938",
+ "bond_prev_day_closing_price": "95.875",
+ "bond_changetype": "DOWN",
+ "maturity_date": "2036-08-15",
+ "coupon": "4.625%",
+ "issue_id": "5093160",
+ "countryCode": "US",
+ "timeZone": "EDT",
+ "feedSymbol": "US10YT=TWEB",
+ "portfolioindicator": "N"
+}
+  -> 5.167%, previous_day_closing 5.162%, change +0.005
+  WARNING: CNBC's previous_day_closing (5.162%) is contradicted by two other sources and by
+  Guardian reporting of Thursday's sell-off. Treated as unreliable; CNBC used for LEVEL only.
+
+--- SOURCE B: MarketWatch TMUBMUSD10Y (Tullett Prebon) ---
+URL: https://www.marketwatch.com/investing/bond/tmubmusd10y?countrycode=bx
+price 5.178% | priceChange -0.027 | previous close 5.205% | quoteTime "Sep 25, 2026 1:50 a.m. EDT"
+
+--- SOURCE C: Trading Economics ---
+URL: https://tradingeconomics.com/united-states/government-bond-yield
+"The yield on US 10 Year Note Bond Yield eased to 5.17% on September 25, 2026, marking a
+0.04 percentage points decrease from the previous session."
+current 5.168 | change -0.037 pp | previous close 5.21 | date 2026-09-25
+
+--- SOURCE D (rejected): Investing.com US 10Y ---
+URL: https://uk.investing.com/rates-bonds/u.s.-10-year-bond-yield
+Returned a STALE cached page (cachedAt 2026-09-24T20:01Z, internal timestamp "Tue, 22 Sep 2026").
+Discarded -- would have been the wrong day.
+
+--- SOURCE E: Guardian, Thu 24 Sep (narrative confirmation of the Thursday sell-off) ---
+URL: https://www.theguardian.com/business/2026/sep/24/global-bond-sell-off-pressures-uk-borrowing-costs-budget
+"yields on 10-year US treasury bonds surged to 5.17%, the highest level since 2007"
+Live blog: "the yield on 30-year US Treasury bonds hitting a fresh 22-year high of 5.4583%"
+
+ADJUDICATION: MarketWatch and Trading Economics independently agree the previous close was
+~5.205-5.21 and that the yield is DOWN about 3-4bp this morning. CNBC is the outlier (its
+prev-close field implies a small rise) and is overruled 2-1.
+TRUSTED: MarketWatch + Trading Economics, because they agree with each other on both the
+previous close and the direction, and are consistent with Thursday's reported surge.
+LEVEL: 5.168 (TE) / 5.167 (CNBC) / 5.178 (MW) -> 5.17 (two of three).
+REPORTED: 5.17, -0.04 pp. Confidence MEDIUM-HIGH.

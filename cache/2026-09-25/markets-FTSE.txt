@@ -1,0 +1,54 @@
+URL: https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=.FTSE|.SPX|@LCO.1|@LCO.2|GBP=|XAU=|EURGBP=|GB10Y-GB|.VIX|BTC=|US10Y&requestMethod=itv&noform=1&partnerId=2&fund=1&exthrs=1&output=json
+Fetched: 2026-09-25 07:58 BST
+
+--- SOURCE A: CNBC quote endpoint (.FTSE) ---
+{
+ "symbol": ".FTSE",
+ "symbolType": "symbol",
+ "code": 0,
+ "name": "FTSE 100",
+ "shortName": "FTSE",
+ "onAirName": "FTSE 100",
+ "altName": "FTSE 100 IDX",
+ "last": "10,679.99",
+ "last_timedate": "09/24/26 BST",
+ "last_time": "2026-09-24",
+ "changetype": "DOWN",
+ "type": "INDEX",
+ "subType": "Index",
+ "exchange": "FTSE International",
+ "source": "Exchange",
+ "open": "10,705.47",
+ "high": "10,741.11",
+ "low": "10,666.91",
+ "change": "-25.27",
+ "change_pct": "-0.24%",
+ "currencyCode": "GBP",
+ "volume": "1,223",
+ "volume_alt": "1.2K",
+ "provider": "CNBC Quote Cache",
+ "previous_day_closing": "10,705.26",
+ "altSymbol": ".FTSE",
+ "realTime": "false",
+ "curmktstatus": "REG_MKT",
+ "yrhiprice": "10,989.45",
+ "yrhidate": "07/31/26",
+ "yrloprice": "9,177.09",
+ "yrlodate": "09/24/25",
+ "streamable": "1",
+ "issue_id": "572009",
+ "countryCode": "GB",
+ "timeZone": "BST",
+ "feedSymbol": "/.FTSE",
+ "portfolioindicator": "N"
+}
+
+--- SOURCE B: Reuters markets page (independent) ---
+URL: https://www.reuters.com/markets/rates-bonds/
+"As of Sep 24, 2026 | Index | FTSE 100 | 10,679.99 | -0.24% Negative"
+
+--- SOURCE C: Guardian business live blog, Thu 24 Sep 2026 (narrative confirmation) ---
+URL: https://www.theguardian.com/business/live/2026/sep/24/global-bond-sell-off-us-economy-fears-stock-markets-ftse-dollar-pound-latest-news-updates
+"The FTSE 100 index fell by 25 points or 0.24% to close at 10,679 points."
+
+RESOLVED: Thursday 24 Sep close 10,679.99, -0.24%. Three-source exact agreement. Confidence HIGH.

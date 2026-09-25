@@ -1,0 +1,55 @@
+URL: https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=.FTSE|.SPX|@LCO.1|@LCO.2|GBP=|XAU=|EURGBP=|GB10Y-GB|.VIX|BTC=|US10Y&requestMethod=itv&noform=1&partnerId=2&fund=1&exthrs=1&output=json
+Fetched: 2026-09-25 07:58 BST
+
+--- SOURCE A: CNBC (GBP=) ---
+{
+ "symbol": "GBP=",
+ "symbolType": "symbol",
+ "code": 0,
+ "name": "GBP/USD",
+ "shortName": "GBP/USD",
+ "onAirName": "Pound/US $",
+ "altName": "Pound/US $",
+ "last": "1.3224",
+ "last_timedate": "2:58 AM EDT",
+ "last_time": "2026-09-25T02:58:00.000-0400",
+ "changetype": "UP",
+ "type": "CURRENCY",
+ "subType": "FOREX",
+ "exchange": "Exchange",
+ "source": "Exchange",
+ "open": "1.3219",
+ "high": "1.3229",
+ "low": "1.321",
+ "change": "+0.0009",
+ "change_pct": "+0.07%",
+ "volume": "18,257",
+ "volume_alt": "18.3K",
+ "provider": "CNBC Quote Cache",
+ "previous_day_closing": "1.3215",
+ "altSymbol": "618341",
+ "realTime": "true",
+ "curmktstatus": "REG_MKT",
+ "yrhiprice": "1.39",
+ "yrhidate": "01/27/26",
+ "yrloprice": "1.31",
+ "yrlodate": "06/24/26",
+ "streamable": "1",
+ "issue_id": "618341",
+ "countryCode": "EU",
+ "timeZone": "EDT",
+ "feedSymbol": "GBP=",
+ "portfolioindicator": "N"
+}
+
+--- SOURCE B: Investing.com UK ---
+URL: https://uk.investing.com/currencies/gbp-usd
+LAST_PRICE 1.3228 | change +0.0006 | pct +0.05% | PREV_CLOSE 1.3222
+OPEN 1.3222 | DAY_RANGE 1.3209 - 1.3230 | BID 1.3227 ASK 1.3228 | timestamp 07:57:30
+
+--- CONTEXT: Guardian business live, Thu 24 Sep ---
+"Sterling has slipped by 0.1% to $1.322, its lowest level since 1 July, as traders anticipate
+the US Federal Reserve is more likely to raise interest rates in October."
+
+RESOLVED: 1.3224, +0.07% (CNBC) / 1.3228, +0.05% (Investing). Levels 4 pips apart, same direction.
+REPORTED: 1.3224, +0.07%. Confidence HIGH.

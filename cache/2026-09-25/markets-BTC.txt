@@ -1,0 +1,57 @@
+URL: https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=.FTSE|.SPX|@LCO.1|@LCO.2|GBP=|XAU=|EURGBP=|GB10Y-GB|.VIX|BTC=|US10Y&requestMethod=itv&noform=1&partnerId=2&fund=1&exthrs=1&output=json
+Fetched: 2026-09-25 07:58 BST
+
+--- SOURCE A: CNBC (BTC=) ---
+{
+ "symbol": "BTC=",
+ "symbolType": "symbol",
+ "code": 0,
+ "name": "Bitcoin/US Dollar FX Spot Rate",
+ "shortName": "BTC=",
+ "onAirName": "Bitcoin/US Dollar FX Spot Rate",
+ "altName": "Bitcoin/US Dollar FX Spot Rate",
+ "last": "84,020.84",
+ "last_timedate": "2:58 AM EDT",
+ "last_time": "2026-09-25T02:58:00.000-0400",
+ "changetype": "DOWN",
+ "type": "CURRENCY",
+ "subType": "FOREX",
+ "exchange": "Exchange",
+ "source": "Exchange",
+ "open": "84,351.21",
+ "high": "84,845.52",
+ "low": "83,934.04",
+ "change": "-328.19",
+ "change_pct": "-0.3891%",
+ "volume": "2,393",
+ "volume_alt": "2.4K",
+ "provider": "CNBC Quote Cache",
+ "previous_day_closing": "84,349.03",
+ "altSymbol": "843171251",
+ "realTime": "true",
+ "curmktstatus": "REG_MKT",
+ "yrhiprice": "97,866.77",
+ "yrhidate": "01/14/26",
+ "yrloprice": "57,775.84",
+ "yrlodate": "07/01/26",
+ "streamable": "1",
+ "issue_id": "843171251",
+ "countryCode": "EU",
+ "timeZone": "EDT",
+ "feedSymbol": "BTC=",
+ "portfolioindicator": "N"
+}
+
+--- SOURCE B: Coinbase spot API ---
+URL: https://api.coinbase.com/v2/prices/BTC-USD/spot
+{"data":{"amount":"84042.945","base":"BTC","currency":"USD"}}
+
+--- SOURCE C: CoinGecko simple price API ---
+URL: https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd&include_24hr_change=true
+{"bitcoin":{"usd":84024,"usd_24h_change":-0.08947568197037292}}
+
+RESOLVED: three independent sources within $22 (0.03%): 84,021 / 84,043 / 84,024. Confidence HIGH.
+CHANGE CONVENTION NOTE: CNBC's -0.39% is a calendar-day change off a fixed 00:00 EDT snapshot
+(84,349.03). CoinGecko's -0.09% is a true rolling 24-hour change. Reported -0.39% to stay
+consistent with the calendar-day convention used for every other ticker in the strip.
+REPORTED: 84,021, -0.39%.

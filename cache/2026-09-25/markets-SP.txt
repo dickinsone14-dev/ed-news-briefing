@@ -1,0 +1,55 @@
+URL: https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=.FTSE|.SPX|@LCO.1|@LCO.2|GBP=|XAU=|EURGBP=|GB10Y-GB|.VIX|BTC=|US10Y&requestMethod=itv&noform=1&partnerId=2&fund=1&exthrs=1&output=json
+Fetched: 2026-09-25 07:58 BST
+
+--- SOURCE A: CNBC quote endpoint (.SPX) ---
+{
+ "symbol": ".SPX",
+ "symbolType": "symbol",
+ "code": 0,
+ "name": "S&P 500 Index",
+ "shortName": "S&P 500",
+ "onAirName": "S&P 500",
+ "altName": "S&P 500 INDEX",
+ "last": "7,704.13",
+ "last_timedate": "09/24/26 EDT",
+ "last_time": "2026-09-24",
+ "changetype": "DOWN",
+ "type": "INDEX",
+ "subType": "Index",
+ "exchange": "INDEX",
+ "source": "Exchange",
+ "open": "7,666.99",
+ "high": "7,719.01",
+ "low": "7,662.57",
+ "change": "-1.90",
+ "change_pct": "-0.02%",
+ "currencyCode": "USD",
+ "provider": "CNBC Quote Cache",
+ "previous_day_closing": "7,704.13",
+ "altSymbol": ".SPX",
+ "realTime": "true",
+ "curmktstatus": "REG_MKT",
+ "yrhiprice": "7,816.70",
+ "yrhidate": "08/13/26",
+ "yrloprice": "6,316.91",
+ "yrlodate": "03/30/26",
+ "streamable": "1",
+ "issue_id": "593933",
+ "countryCode": "US",
+ "timeZone": "EDT",
+ "feedSymbol": ".SPX",
+ "portfolioindicator": "N"
+}
+NOTE: CNBC previous_day_closing field has ROLLED to Thursday's own close (7,704.13) and is
+therefore unusable for day arithmetic. The `change` field (-1.90 / -0.02%) is the reliable one,
+implying a Wednesday close of 7,706.03.
+
+--- SOURCE B: Investing.com UK ---
+URL: https://uk.investing.com/indices/us-spx-500
+LAST_PRICE 7,704.13 | change -1.90 | pct -0.02% | OPEN 7,666.99
+DAY_RANGE 7,662.57 - 7,719.01 | PREV_CLOSE field 7,704.23 (also rolled/unreliable)
+LAST_PRE_MARKET_PRICE 7,706.03  <-- matches the -1.90 change baseline
+CURRENT_DATE 25/09/2026
+
+RESOLVED: Thursday 24 Sep close 7,704.13, -0.02%. Two sources agree exactly on level and change.
+Both sites' "previous close" fields have rolled; change field used instead. Confidence HIGH.

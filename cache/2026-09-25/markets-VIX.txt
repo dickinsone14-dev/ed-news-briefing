@@ -1,0 +1,54 @@
+URL: https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=.FTSE|.SPX|@LCO.1|@LCO.2|GBP=|XAU=|EURGBP=|GB10Y-GB|.VIX|BTC=|US10Y&requestMethod=itv&noform=1&partnerId=2&fund=1&exthrs=1&output=json
+Fetched: 2026-09-25 07:58 BST
+
+--- SOURCE A: CNBC (.VIX) ---
+{
+ "symbol": ".VIX",
+ "symbolType": "symbol",
+ "code": 0,
+ "name": "CBOE Volatility Index",
+ "shortName": "VIX",
+ "onAirName": "CBOE Volatility Index",
+ "altName": "CBOE MKT VOLATILITY IDX",
+ "last": "15.67",
+ "last_timedate": "09/24/26 EDT",
+ "last_time": "2026-09-24",
+ "changetype": "UNCH",
+ "type": "INDEX",
+ "subType": "Index",
+ "exchange": "Exchange",
+ "source": "Exchange",
+ "open": "0.00",
+ "high": "0.00",
+ "low": "0.00",
+ "change": "UNCH",
+ "change_pct": "UNCH",
+ "currencyCode": "USD",
+ "provider": "CNBC Quote Cache",
+ "previous_day_closing": "15.67",
+ "altSymbol": ".VIX",
+ "realTime": "true",
+ "curmktstatus": "REG_MKT",
+ "yrhiprice": "35.30",
+ "yrhidate": "03/09/26",
+ "yrloprice": "13.38",
+ "yrlodate": "12/24/25",
+ "streamable": "1",
+ "issue_id": "601065",
+ "countryCode": "CH",
+ "timeZone": "EDT",
+ "feedSymbol": ".VIX",
+ "portfolioindicator": "N"
+}
+NOTE: CNBC shows last 15.67 with change "UNCH" and previous_day_closing 15.67 -- the prev-close
+field has rolled to Thursday's own close, so CNBC gives the LEVEL only, not the change.
+
+--- SOURCE B: Investing.com UK ---
+URL: https://uk.investing.com/indices/volatility-s-p-500
+last 15.67 | change +0.49 | pct +3.23% | OPEN_PRICE 15.83
+DAY_RANGE 15.34 - 16.57 | 52WK 13.38 - 35.30 | CURRENT_DATE 25/09/2026
+(PREV_CLOSE field also rolled to 15.67; the change field implies a Wednesday close of 15.18.)
+
+RESOLVED: Thursday 24 Sep close 15.67, +3.23%. Level confirmed on both sources; change taken
+from Investing's change field, the only non-rolled day-change available. Confidence HIGH on
+level, MEDIUM-HIGH on change.

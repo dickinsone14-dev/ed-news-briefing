@@ -1,0 +1,59 @@
+URL: https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=.FTSE|.SPX|@LCO.1|@LCO.2|GBP=|XAU=|EURGBP=|GB10Y-GB|.VIX|BTC=|US10Y&requestMethod=itv&noform=1&partnerId=2&fund=1&exthrs=1&output=json
+Fetched: 2026-09-25 07:58 BST
+INSTRUMENT: SPOT gold (XAU/USD), not futures.
+
+--- SOURCE A: CNBC (XAU= "Gold / US Dollar Spot") ---
+{
+ "symbol": "XAU=",
+ "symbolType": "symbol",
+ "code": 0,
+ "name": "Gold / US Dollar Spot",
+ "shortName": "Gold / US Dollar Spot",
+ "onAirName": "Gold Spot- USD",
+ "altName": "",
+ "last": "4,277.64",
+ "last_timedate": "2:58 AM EDT",
+ "last_time": "2026-09-25T02:58:00.949-0400",
+ "changetype": "DOWN",
+ "type": "INDEX",
+ "subType": "CNBC Synthetic",
+ "exchange": "Exchange",
+ "source": "",
+ "open": "4,281.89",
+ "high": "4,295.377",
+ "low": "4,256.71",
+ "change": "-0.34",
+ "change_pct": "-0.01%",
+ "currencyCode": "USD",
+ "provider": "CNBC Quote Cache",
+ "previous_day_closing": "4,277.983",
+ "altSymbol": "135115355",
+ "realTime": "true",
+ "curmktstatus": "REG_MKT",
+ "yrhiprice": "4,295.38",
+ "yrhidate": "09/25/26",
+ "yrloprice": "0.00",
+ "streamable": "1",
+ "issue_id": "135115355",
+ "countryCode": "CH",
+ "timeZone": "EDT",
+ "feedSymbol": "XAU=",
+ "portfolioindicator": "N"
+}
+
+--- SOURCE B: Investing.com UK XAU/USD spot ---
+URL: https://uk.investing.com/currencies/xau-usd
+FULL_NAME "Gold Spot US Dollar" | LAST_PRICE 4,277.83 | change +4.16 | pct +0.10%
+PREV_CLOSE 4,273.67 | OPEN 4,273.67 | DAY_RANGE 4,256.61 - 4,295.89
+BID 4,276.79 ASK 4,277.13 | timestamp 07:57:01
+
+--- SOURCE C: Reuters markets page (GOLD FUTURES GCc1, for direction only) ---
+URL: https://www.reuters.com/markets/rates-bonds/
+"As of Sep 24, 2026 | Gold | 4,271.50 | -0.23% Negative"
+
+DISCREPANCY: levels agree to within $0.20 (4,277.64 vs 4,277.83) = HIGH confidence on price.
+Day-change differs by sign because the two providers cut the spot "day" differently:
+Investing rolls at 00:00 (prev close 4,273.67 = its day open); CNBC uses 4,277.98.
+Spot rose overnight from roughly 4,259 (Thu evening) to 4,278, which is coherent with
+Investing's +0.10% rather than CNBC's flat reading.
+REPORTED: 4,278, +0.10%. Confidence HIGH on level, MEDIUM on change.

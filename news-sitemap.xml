@@ -2,6 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-25-morning/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-25T08:04:00+01:00</news:publication_date>
+      <news:title>Morning Briefing — Friday 25 September 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-25-morning/netanyahu-unga-walkout/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-25T08:04:00+01:00</news:publication_date>
+      <news:title>Dozens Walk Out as Netanyahu Calls His Critics &#x27;Moral Cowards&#x27;</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-25-morning/taiwan-rejects-xi-remarks/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-25T08:04:00+01:00</news:publication_date>
+      <news:title>Taiwan Rejects Xi&#x27;s White House Remarks as a &#x27;Distortion of the Facts&#x27;</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-25-morning/mecca-defence-pact-triggered/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-25T08:04:00+01:00</news:publication_date>
+      <news:title>Saudi Arabia Invokes Its Defence Pact With Turkey and Pakistan</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-25-morning/kyiv-drone-kills-child/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-25T08:04:00+01:00</news:publication_date>
+      <news:title>Russian Drone Kills a 14-Year-Old in Central Kyiv</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-25-morning/carney-extreme-tail-risk/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-25T08:04:00+01:00</news:publication_date>
+      <news:title>Carney Says Canada Has Prepared for the &#x27;Extreme Tail Risk&#x27; of US Action</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-25-morning/ae-overcrowding-deaths/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-25T08:04:00+01:00</news:publication_date>
+      <news:title>A&amp;E Overcrowding Linked to Hundreds of Deaths a Week</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-25-morning/labour-conference-hope-again/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-25T08:04:00+01:00</news:publication_date>
+      <news:title>Burnham&#x27;s First Conference as Prime Minister Opens on Sunday</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-25-morning/oil-gilts-budget-squeeze/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-25T08:04:00+01:00</news:publication_date>
+      <news:title>Oil and Bond Sell-off Wipe Out Half the Chancellor&#x27;s Budget Buffer</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-25-morning/chagos-back-to-drawing-board/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-25T08:04:00+01:00</news:publication_date>
+      <news:title>Ministers Prepare to Reopen Chagos Talks With Mauritius</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-25-morning/glasgow-fire-and-rehire/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-25T08:04:00+01:00</news:publication_date>
+      <news:title>Glasgow to Dismiss and Re-engage 23,000 Staff on New Contracts</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-09-24-evening/</loc>
     <news:news>
       <news:publication>
