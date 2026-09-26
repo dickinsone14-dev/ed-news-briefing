@@ -1,0 +1,110 @@
+URL: https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=... (CNBC restQuote, fetched 2026-09-26 16:55 BST)
+{
+ "symbol": "@LCO.1",
+ "symbolType": "symbol",
+ "code": 0,
+ "name": "ICE Brent Crude (Nov'26)",
+ "shortName": "BRENT",
+ "onAirName": "ICE Brent Crude (Nov'26)",
+ "altName": "Brent Crude",
+ "last": "104.32",
+ "last_timedate": "6:00 AM BST",
+ "last_time": "2026-09-26T06:00:00.000+0100",
+ "changetype": "UNCH",
+ "type": "DERIVATIVE",
+ "subType": "Future",
+ "exchange": "Intercontinental Exchange Europe",
+ "source": "Exchange",
+ "open": "0.00",
+ "high": "0.00",
+ "low": "0.00",
+ "change": "UNCH",
+ "change_pct": "UNCH",
+ "currencyCode": "USD",
+ "volume": "0",
+ "volume_alt": "0.0",
+ "provider": "CNBC Quote Cache",
+ "previous_day_closing": "104.32",
+ "altSymbol": "LCOX6",
+ "realTime": "false",
+ "curmktstatus": "REG_MKT",
+ "yrhiprice": "126.41",
+ "yrhidate": "04/30/26",
+ "yrloprice": "58.72",
+ "yrlodate": "12/16/25",
+ "streamable": "1",
+ "open_interest": "319357",
+ "expiration_date": "2026-09-30",
+ "settlePrice": "104.32",
+ "settleDate": "2026-09-25",
+ "issue_id": "49031014",
+ "countryCode": "GB",
+ "timeZone": "BST",
+ "feedSymbol": "/LCOX6",
+ "portfolioindicator": "N"
+}
+
+{
+ "symbol": "@LCO.2",
+ "symbolType": "symbol",
+ "code": 0,
+ "name": "ICE Brent Crude (Dec'26)",
+ "shortName": "ICE Brent Crude",
+ "onAirName": "ICE Brent Crude (Dec'26)",
+ "altName": "ICE Brent Crude",
+ "last": "97.44",
+ "last_timedate": "6:00 AM BST",
+ "last_time": "2026-09-26T06:00:00.000+0100",
+ "changetype": "UNCH",
+ "type": "DERIVATIVE",
+ "subType": "Future",
+ "exchange": "Intercontinental Exchange Europe",
+ "source": "Exchange",
+ "open": "0.00",
+ "high": "0.00",
+ "low": "0.00",
+ "change": "UNCH",
+ "change_pct": "UNCH",
+ "currencyCode": "USD",
+ "volume": "0",
+ "volume_alt": "0.0",
+ "provider": "CNBC Quote Cache",
+ "previous_day_closing": "97.44",
+ "altSymbol": "LCOZ6",
+ "realTime": "false",
+ "curmktstatus": "REG_MKT",
+ "yrhiprice": "97.44",
+ "yrhidate": "09/26/26",
+ "yrloprice": "0.00",
+ "streamable": "1",
+ "open_interest": "557519",
+ "expiration_date": "2026-10-30",
+ "settlePrice": "97.44",
+ "settleDate": "2026-09-25",
+ "issue_id": "59455772",
+ "countryCode": "GB",
+ "timeZone": "BST",
+ "feedSymbol": "/LCOZ6",
+ "portfolioindicator": "N"
+}
+
+===== SOURCE B: Investing.com Brent Oil Futures =====
+URL: https://www.investing.com/commodities/brent-oil
+CONTRACT LABEL: "Nov 26"   SETTLEMENT_DATE: 09/29/2026   SYMBOL: LCO1!
+LAST_PRICE 104.45   change -2.15   pct -2.02%   PREV_CLOSE 106.60
+OPEN 107.06  DAY RANGE 103.15 - 107.17  VOLUME 373,283
+Page quote stamp: "Fri, 25 Sep 2026 20:30:31 GMT"
+
+===== RECONCILIATION (front month = Nov'26) =====
+CNBC @LCO.1  = ICE Brent Crude (Nov'26), expiration_date 2026-09-30,
+               settlePrice 104.32, settleDate 2026-09-25  <-- OFFICIAL ICE SETTLE
+CNBC @LCO.2  = ICE Brent Crude (Dec'26), expiration_date 2026-10-30, settle 97.44
+               Nov'26 minus Dec'26 = 104.32 - 97.44 = 6.88  (matches the expected ~$6.88 spread)
+Investing.com Nov'26 LAST TRADE = 104.45 (not the settle); its PREV_CLOSE = 106.60.
+Official settle 104.32 CONFIRMED (CNBC settlePrice field, settleDate 25 Sep).
+% change on official settle basis: 104.32 / 106.60 - 1 = -2.139% => -2.14%
+% change on Investing last-trade basis: 104.45 / 106.60 - 1 = -2.02%
+PUBLISH: 104.32, -2.14% (official ICE settle for Nov'26, which expires 30 Sep).
+CNBC's own previous_day_closing for @LCO.1 (104.32) is a weekend CARRY artifact - unusable;
+Thursday's close of 106.60 comes from Investing.com.
+MarketWatch BRN00 NOT USED - it has fully rolled to Dec'26.

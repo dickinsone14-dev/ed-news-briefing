@@ -1,0 +1,52 @@
+URL: https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=... (CNBC restQuote, fetched 2026-09-26 16:55 BST)
+{
+ "symbol": ".VIX",
+ "symbolType": "symbol",
+ "code": 0,
+ "name": "CBOE Volatility Index",
+ "shortName": "VIX",
+ "onAirName": "CBOE Volatility Index",
+ "altName": "CBOE MKT VOLATILITY IDX",
+ "last": "14.87",
+ "last_timedate": "09/25/26 EDT",
+ "last_time": "2026-09-25",
+ "changetype": "DOWN",
+ "type": "INDEX",
+ "subType": "Index",
+ "exchange": "Exchange",
+ "source": "Exchange",
+ "open": "15.61",
+ "high": "15.94",
+ "low": "14.68",
+ "change": "-0.80",
+ "change_pct": "-5.11%",
+ "currencyCode": "USD",
+ "provider": "CNBC Quote Cache",
+ "previous_day_closing": "15.67",
+ "altSymbol": ".VIX",
+ "realTime": "true",
+ "curmktstatus": "REG_MKT",
+ "yrhiprice": "35.30",
+ "yrhidate": "03/09/26",
+ "yrloprice": "13.38",
+ "yrlodate": "12/24/25",
+ "streamable": "1",
+ "issue_id": "601065",
+ "countryCode": "CH",
+ "timeZone": "EDT",
+ "feedSymbol": ".VIX",
+ "portfolioindicator": "N"
+}
+
+===== SOURCE B: Cboe official delayed-quote API =====
+URL: https://cdn.cboe.com/api/global/delayed_quotes/quotes/_VIX.json
+{"timestamp":"2026-09-26 15:59:30","current_price":14.87,"price_change":-0.8,
+ "price_change_percent":-5.38,"open":15.32,"high":15.94,"low":14.68,"close":14.87,
+ "prev_day_close":14.87,"last_trade_time":"2026-09-25T16:15:01"}
+NOTE: Cboe's prev_day_close (14.87) is a weekend CARRY artifact = its own close, so its
+-5.38% percent field is unreliable. Its absolute change (-0.80) and close (14.87) match CNBC exactly.
+
+===== SOURCE C: Google Finance (VIX:INDEXCBOE) =====
+URL: https://www.google.com/finance/quote/VIX:INDEXCBOE
+VIX 14.87  -5.11% (-0.80)  "Today Sep 25, 3:15:01 PM GMT-5"
+CONCLUSION: 14.87, -5.11%. Level + absolute change agreed by 3 sources; -5.11% by 2 of 3.

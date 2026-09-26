@@ -2,6 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-26-evening/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-26T17:07:00+01:00</news:publication_date>
+      <news:title>Evening Briefing — Saturday 26 September 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-26-evening/trump-rejects-iran-proposal-onrecord/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-26T17:07:00+01:00</news:publication_date>
+      <news:title>&#x27;I Reject Their Proposal&#x27;: Trump Turns Down Iran&#x27;s Hormuz Offer</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-26-evening/pezeshkian-no-trust-washington/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-26T17:07:00+01:00</news:publication_date>
+      <news:title>Pezeshkian: Iran No Longer Trusts Washington</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-26-evening/seven-dead-russia-ukraine-strikes/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-26T17:07:00+01:00</news:publication_date>
+      <news:title>Seven Killed as Russia and Ukraine Trade Strikes Overnight</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-26-evening/athens-plaka-explosion-british/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-26T17:07:00+01:00</news:publication_date>
+      <news:title>British Man and Greek Wife Among Six Killed in Athens Blast</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-26-evening/tigray-airports-seized-spreads/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-26T17:07:00+01:00</news:publication_date>
+      <news:title>Tigray Forces Seize Three Airports as the Fighting Spreads</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-26-evening/burnham-arrives-liverpool-drift/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-26T17:07:00+01:00</news:publication_date>
+      <news:title>Burnham Arrives in Liverpool Promising to End &#x27;a Decade of Drift&#x27;</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-26-evening/heathrow-runway-slips-2039/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-26T17:07:00+01:00</news:publication_date>
+      <news:title>Heathrow&#x27;s Third Runway Slips Four Years to 2039</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-26-evening/rayner-stands-by-care-workers/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-26T17:07:00+01:00</news:publication_date>
+      <news:title>Rayner Stands By Her Attack as Ministers Deny a Cabinet Rift</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-26-evening/milburn-fast-track-disability/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-26T17:07:00+01:00</news:publication_date>
+      <news:title>Review to Urge Fast-Track Benefits for Severely Disabled Young People</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-26-evening/treloars-infected-blood-memorial/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-26T17:07:00+01:00</news:publication_date>
+      <news:title>Memorial Unveiled to the Schoolboys Killed by Infected Blood</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-09-26-morning/</loc>
     <news:news>
       <news:publication>
@@ -483,127 +604,6 @@
       </news:publication>
       <news:publication_date>2026-09-24T18:54:00+01:00</news:publication_date>
       <news:title>NHS Trust to Re-examine 4,500 More Breast Cancer Cases Back to 2015</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-09-24-morning/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-24T08:05:00+01:00</news:publication_date>
-      <news:title>Morning Briefing — Thursday 24 September 2026</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-09-24-morning/us-china-truce-extended/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-24T08:05:00+01:00</news:publication_date>
-      <news:title>Trade Truce Extended to January as Trump Welcomes Xi to Washington</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-09-24-morning/oil-slips-hormuz-traffic/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-24T08:05:00+01:00</news:publication_date>
-      <news:title>Hormuz Stays Shut to Most Traffic as Iran Holds to Its Terms</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-09-24-morning/pakistan-strikes-afghanistan/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-24T08:05:00+01:00</news:publication_date>
-      <news:title>Pakistan Strikes Ten Sites Inside Afghanistan After Drone Attacks</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-09-24-morning/tigray-au-us-deescalation/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-24T08:05:00+01:00</news:publication_date>
-      <news:title>African Union and Washington Demand De-escalation as Tigray Fighting Spreads</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-09-24-morning/openai-agent-medicare-breach/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-24T08:05:00+01:00</news:publication_date>
-      <news:title>OpenAI Agent Broke Into an Australian Government Portal, Albanese Says</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-09-24-morning/yougov-mrp-hung-parliament/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-24T08:05:00+01:00</news:publication_date>
-      <news:title>Reform Slumps to Third in First Seat Projection for a Year</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-09-24-morning/badenoch-universal-credit-card/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-24T08:05:00+01:00</news:publication_date>
-      <news:title>Badenoch Would Cut Universal Credit by a Third and Bar Spending on Alcohol</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-09-24-morning/vocational-gcses-2029/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-24T08:05:00+01:00</news:publication_date>
-      <news:title>Vocational GCSEs in Construction and Digital Planned From 2029</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-09-24-morning/diesel-near-record/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-24T08:05:00+01:00</news:publication_date>
-      <news:title>Diesel Within 1.78p of Its All-Time Record; £2 a Litre &#x27;In Sight&#x27;</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-09-24-morning/blair-rejoin-europe/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-24T08:05:00+01:00</news:publication_date>
-      <news:title>Blair Urges Burnham to Make Rejoining Europe a Ten-Year Goal</news:title>
     </news:news>
   </url>
 </urlset>

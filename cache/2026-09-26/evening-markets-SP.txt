@@ -1,0 +1,44 @@
+URL: https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=... (CNBC restQuote, fetched 2026-09-26 16:55 BST)
+{
+ "symbol": ".SPX",
+ "symbolType": "symbol",
+ "code": 0,
+ "name": "S&P 500 Index",
+ "shortName": "S&P 500",
+ "onAirName": "S&P 500",
+ "altName": "S&P 500 INDEX",
+ "last": "7,743.41",
+ "last_timedate": "09/25/26 EDT",
+ "last_time": "2026-09-25",
+ "changetype": "UP",
+ "type": "INDEX",
+ "subType": "Index",
+ "exchange": "INDEX",
+ "source": "Exchange",
+ "open": "7,709.86",
+ "high": "7,752.07",
+ "low": "7,693.08",
+ "change": "+39.28",
+ "change_pct": "+0.51%",
+ "currencyCode": "USD",
+ "provider": "CNBC Quote Cache",
+ "previous_day_closing": "7,704.13",
+ "altSymbol": ".SPX",
+ "realTime": "true",
+ "curmktstatus": "REG_MKT",
+ "yrhiprice": "7,816.70",
+ "yrhidate": "08/13/26",
+ "yrloprice": "6,316.91",
+ "yrlodate": "03/30/26",
+ "streamable": "1",
+ "issue_id": "593933",
+ "countryCode": "US",
+ "timeZone": "EDT",
+ "feedSymbol": ".SPX",
+ "portfolioindicator": "N"
+}
+
+===== SOURCE B: Google Finance (.INX:INDEXSP) =====
+URL: https://www.google.com/finance/quote/.INX:INDEXSP
+S&P 500 7,743.41  +0.51% (+39.28)  "Today Sep 25, 4:39:57 PM GMT-4"
+EXACT MATCH with CNBC. Friday 25 Sep close. Market shut all weekend.

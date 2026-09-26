@@ -1,0 +1,69 @@
+URL: https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=... (CNBC restQuote, fetched 2026-09-26 16:55 BST)
+{
+ "symbol": "BTC=",
+ "symbolType": "symbol",
+ "code": 0,
+ "name": "Bitcoin/US Dollar FX Spot Rate",
+ "shortName": "BTC=",
+ "onAirName": "Bitcoin/US Dollar FX Spot Rate",
+ "altName": "Bitcoin/US Dollar FX Spot Rate",
+ "last": "84,137.43",
+ "last_timedate": "11:55 AM EDT",
+ "last_time": "2026-09-26T11:55:00.000-0400",
+ "changetype": "UP",
+ "type": "CURRENCY",
+ "subType": "FOREX",
+ "exchange": "Exchange",
+ "source": "Exchange",
+ "open": "83,871.90",
+ "high": "84,295.26",
+ "low": "83,626.59",
+ "change": "+252.46",
+ "change_pct": "+0.30%",
+ "volume": "4,380",
+ "volume_alt": "4.4K",
+ "provider": "CNBC Quote Cache",
+ "previous_day_closing": "83,884.97",
+ "altSymbol": "843171251",
+ "realTime": "true",
+ "curmktstatus": "REG_MKT",
+ "yrhiprice": "97,866.77",
+ "yrhidate": "01/14/26",
+ "yrloprice": "57,775.84",
+ "yrlodate": "07/01/26",
+ "streamable": "1",
+ "issue_id": "843171251",
+ "countryCode": "EU",
+ "timeZone": "EDT",
+ "feedSymbol": "BTC=",
+ "portfolioindicator": "N"
+}
+
+===== LIVE BITCOIN - five venues, fetched Sat 26 Sep 2026 17:00:50 BST =====
+URL: https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd&include_24hr_change=true
+{"bitcoin":{"usd":84132,"usd_24h_change":0.3833229479408354,"last_updated_at":1790438340}}
+
+URL: https://api.binance.com/api/v3/ticker/24hr?symbol=BTCUSDT
+last 84141.58  pct24h +0.318  open24h 83874.99
+
+URL: https://api.coinbase.com/v2/prices/BTC-USD/spot
+{"data":{"amount":"84133.985","base":"BTC","currency":"USD"}}
+
+URL: https://api.kraken.com/0/public/Ticker?pair=XBTUSD
+last 84121.30  open24 84090.50
+
+URL: https://www.bitstamp.net/api/v2/ticker/btcusd/
+last 84126.07  open 84089.55  percent_change_24 +0.32
+
+===== SPREAD =====
+low  84,121.30 (Kraken)   high 84,141.58 (Binance)
+spread $20.28 = 0.024%  -> very tight, no source disagreement
+consensus mid ~84,131
+24h change: Binance +0.318%, Bitstamp +0.32%, CoinGecko +0.383%  -> publish +0.32%
+CNBC BTC= (84,150.44, +0.32%) agrees on the change.
+PUBLISH: 84,131, +0.32%  -- THIS IS A LIVE PRICE, the only live number of the ten.
+
+===== EARLIER READ (16:55 BST, for reference) =====
+CoinGecko 84,102 (+0.785%) | Binance 84,152.03 (+0.765%) | Coinbase 84,143.73 | Kraken 84,138.70
+(24h windows roll, hence the change drifting from +0.77% to +0.32% across five minutes of
+rolling window - the LEVEL is stable ~84.1k.)

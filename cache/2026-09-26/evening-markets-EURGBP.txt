@@ -1,0 +1,67 @@
+URL: https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=... (CNBC restQuote, fetched 2026-09-26 16:55 BST)
+{
+ "symbol": "EURGBP=",
+ "symbolType": "symbol",
+ "code": 0,
+ "name": "Euro/UK Pound Sterling FX Cross Rate",
+ "shortName": "EUR/GBP",
+ "onAirName": "Euro/Pound",
+ "altName": "Euro/UK Pound Sterling FX Cross Rate",
+ "last": "0.8594",
+ "last_timedate": "4:59 PM EDT",
+ "last_time": "2026-09-25T16:59:00.000-0400",
+ "changetype": "DOWN",
+ "type": "CURRENCY",
+ "subType": "FOREX",
+ "exchange": "Exchange",
+ "source": "Exchange",
+ "open": "0.00",
+ "high": "0.00",
+ "low": "0.00",
+ "change": "-0.0011",
+ "change_pct": "-0.128%",
+ "volume": "0",
+ "volume_alt": "0.0",
+ "provider": "CNBC Quote Cache",
+ "previous_day_closing": "0.8594",
+ "altSymbol": "612458",
+ "realTime": "true",
+ "curmktstatus": "REG_MKT",
+ "yrhiprice": "0.88",
+ "yrhidate": "02/27/26",
+ "yrloprice": "0.85",
+ "yrlodate": "07/15/26",
+ "streamable": "1",
+ "issue_id": "612458",
+ "countryCode": "EU",
+ "timeZone": "EDT",
+ "feedSymbol": "EURGBP=R",
+ "portfolioindicator": "N"
+}
+
+===== SOURCE B: Investing.com EUR/GBP =====
+URL: https://www.investing.com/currencies/eur-gbp
+LAST 0.8601  change -0.0005  pct -0.06%  PREV_CLOSE 0.8606
+DAY RANGE 0.8600 - 0.8613  BID 0.8600 / ASK 0.8601  stamp 25/09
+
+===== SOURCE C: ECB reference rates via Frankfurter (official 14:15 CET fix) =====
+URL: https://api.frankfurter.dev/v1/2026-09-25?base=EUR&symbols=GBP  -> 0.86045
+URL: https://api.frankfurter.dev/v1/2026-09-24?base=EUR&symbols=GBP  -> 0.85986
+ECB direct: https://data-api.ecb.europa.eu/service/data/EXR/D.GBP.EUR.SP00.A
+  2026-09-23 0.8595 | 2026-09-24 0.85986 | 2026-09-25 0.86045
+=> ECB Thu->Fri = +0.00059 = +0.069% (UP) - but this is a 14:15 CET FIX, not a 17:00 close,
+   so it is the wrong convention for a "close and % change" field.
+
+===== SOURCE D: Google Finance EUR-GBP (weekend carry, LEVEL ONLY) =====
+URL: https://www.google.com/finance/quote/EUR-GBP
+0.8598, 0.00% (0.0000), "Sep 26, 3:53:19 PM UTC" => weekend carry.
+
+===== RECONCILIATION =====
+Levels: CNBC 0.8594 | Google 0.8598 | Investing 0.8601 | ECB 0.86045
+        span 0.0011 = 0.13%; median 0.85995 => 0.8600
+Direction: both close-convention sources say DOWN (CNBC -0.128%, Investing -0.06%).
+ECB's +0.07% is an intraday fix, different convention - NOT used for the day change.
+CNBC's previous_day_closing (0.8594) equals its own last => carry artifact, self-inconsistent
+with its stated -0.0011 change, so CNBC's -0.128% is the outlier.
+PUBLISH: 0.8600, -0.06%  (median level; Investing.com's self-consistent Friday set).
+CONFIDENCE MEDIUM - this is the weakest of the ten; sources disagree on sign of the move.

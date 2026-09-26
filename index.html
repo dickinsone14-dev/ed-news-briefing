@@ -2289,7 +2289,7 @@
  <!-- #1 Markets snapshot bar -->
  <!-- Embedded market data (populated by update script, used as fallback) -->
  <script id="embedded-markets" type="application/json">
-{"FTSE":{"price":10695.25,"change":0.14},"SP":{"price":7743.41,"change":0.51},"Brent":{"price":104.32,"change":-2.14},"GBP":{"price":1.3251,"change":0.24},"Gold":{"price":4286.25,"change":0.29},"EURGBP":{"price":0.8601,"change":-0.06},"Gilt":{"price":5.36,"change":-0.02},"VIX":{"price":14.87,"change":-5.11},"BTC":{"price":83915,"change":-0.13},"UST":{"price":5.17,"change":-0.04},"ts":"2026-09-26T08:03:00+01:00"}
+{"FTSE":{"price":10695.25,"change":0.14},"SP":{"price":7743.41,"change":0.51},"Brent":{"price":104.32,"change":-2.14},"GBP":{"price":1.3249,"change":0.26},"Gold":{"price":4286.25,"change":0.29},"EURGBP":{"price":0.8601,"change":-0.06},"Gilt":{"price":5.35,"change":-0.02},"VIX":{"price":14.87,"change":-5.11},"BTC":{"price":84137,"change":0.3},"UST":{"price":5.17,"change":-0.04},"ts":"2026-09-26T17:07:00+01:00"}
 </script>
  <script id="market-descriptions" type="application/json">
 {
@@ -2297,14 +2297,14 @@
     "name": "FTSE 100",
     "desc": "The UK's benchmark stock index, tracking the 100 largest companies listed on the London Stock Exchange by market capitalisation. Includes Shell, AstraZeneca, HSBC and Unilever.",
     "drivers_up": [
-      "Banks and miners advanced, offsetting the drag from energy shares",
+      "Banks and miners advanced on Friday, offsetting the drag from energy shares",
       "A second consecutive weekly gain; the FTSE 250 climbed 0.44%"
     ],
     "drivers_down": [
-      "Energy stocks fell as Brent crude slid about 2%",
+      "Energy stocks fell as Brent slid about 2% on Friday",
       "Gilt yields near multi-decade highs keep domestic sentiment fragile"
     ],
-    "updated": "26 September 2026 08:03 (Friday closes; bitcoin live)"
+    "updated": "26 September 2026 17:07 (Friday closes; bitcoin live)"
   },
   "SP": {
     "name": "S&P 500",
@@ -2314,23 +2314,22 @@
       "Oil's retreat trimmed the inflation risk hanging over equities"
     ],
     "drivers_down": [
-      "Treasury yields still sat at their highest since June 2007",
-      "Hawkish Fed commentary kept further rate increases in play"
+      "Treasury yields still sat at their highest since June 2007"
     ],
-    "updated": "26 September 2026 08:03 (Friday closes; bitcoin live)"
+    "updated": "26 September 2026 17:07 (Friday closes; bitcoin live)"
   },
   "Brent": {
     "name": "Brent Crude Oil",
     "desc": "The global benchmark for crude oil pricing, produced from oil fields in the North Sea. Used to price roughly two-thirds of the world's traded oil.",
     "drivers_up": [
-      "Houthi attacks on Saudi Arabia keep supply disruption risk alive",
-      "Iran has refused nuclear flexibility, so Hormuz stays shut"
+      "Trump has publicly rejected Iran's offer to reopen Hormuz, so the blockade stands",
+      "Houthi attacks on Saudi Arabia keep supply disruption risk alive"
     ],
     "drivers_down": [
-      "Settled 2.1% lower at $104.32 as US and Iranian negotiators explored a path out of war",
+      "Settled Friday at $104.32, down 2.1%, while a path out of the war still looked open",
       "Talk of a possible US ban on diesel exports pressured the complex"
     ],
-    "updated": "26 September 2026 08:03 (Friday closes; bitcoin live)"
+    "updated": "26 September 2026 17:07 (Friday closes; bitcoin live)"
   },
   "GBP": {
     "name": "GBP/USD",
@@ -2343,7 +2342,7 @@
       "Still near its weakest level in three months",
       "Firming Fed rate-rise expectations continue to support the dollar"
     ],
-    "updated": "26 September 2026 08:03 (Friday closes; bitcoin live)"
+    "updated": "26 September 2026 17:07 (Friday closes; bitcoin live)"
   },
   "Gold": {
     "name": "Gold (XAU/USD)",
@@ -2353,10 +2352,9 @@
       "Bargain hunters stepped in to close a bruising week"
     ],
     "drivers_down": [
-      "Treasury yields near 5.2% raise the opportunity cost of holding bullion",
-      "A stronger dollar makes dollar-priced metal costlier abroad"
+      "Treasury yields near 5.2% raise the opportunity cost of holding bullion"
     ],
-    "updated": "26 September 2026 08:03 (Friday closes; bitcoin live)"
+    "updated": "26 September 2026 17:07 (Friday closes; bitcoin live)"
   },
   "EURGBP": {
     "name": "EUR/GBP",
@@ -2367,7 +2365,7 @@
     "drivers_down": [
       "Hawkish Bank of England signals firmed sterling against the euro"
     ],
-    "updated": "26 September 2026 08:03 (Friday closes; bitcoin live)"
+    "updated": "26 September 2026 17:07 (Friday closes; bitcoin live)"
   },
   "Gilt": {
     "name": "UK 10-Year Gilt Yield",
@@ -2377,34 +2375,33 @@
       "The 28 October Budget keeps long-dated gilts under pressure"
     ],
     "drivers_down": [
-      "Eased to 5.36% from multi-decade highs as oil retreated",
+      "Eased from multi-decade highs on Friday as oil retreated",
       "The global bond selloff slowed; eurozone yields also fell"
     ],
-    "updated": "26 September 2026 08:03 (Friday closes; bitcoin live)"
+    "updated": "26 September 2026 17:07 (Friday closes; bitcoin live)"
   },
   "VIX": {
     "name": "VIX (Volatility Index)",
     "desc": "The CBOE Volatility Index, often called the 'fear gauge'. Measures expected S&P 500 volatility over the next 30 days. Readings above 20 suggest elevated anxiety; above 30 signals acute stress.",
     "drivers_up": [
       "Yields at multi-decade highs remain a standing risk to equities",
-      "Unresolved Hormuz negotiations keep event risk on the calendar"
+      "Iran's rejected offer puts the war premium back on the calendar"
     ],
     "drivers_down": [
-      "Fell below 15 as the global bond rout lost momentum",
-      "Oil's 2% slide removed an immediate inflation worry"
+      "Closed below 15 on Friday as the global bond rout lost momentum"
     ],
-    "updated": "26 September 2026 08:03 (Friday closes; bitcoin live)"
+    "updated": "26 September 2026 17:07 (Friday closes; bitcoin live)"
   },
   "BTC": {
     "name": "Bitcoin (BTC/USD)",
     "desc": "The price of Bitcoin in US dollars. The largest cryptocurrency by market cap, increasingly viewed as digital gold by institutional investors since spot ETF approvals.",
     "drivers_up": [
-      "Holding near $84,000 through the weekend, the only market open"
+      "Edged up to about $84,100 over the weekend, the only market open"
     ],
     "drivers_down": [
-      "Barely moved; no approved market reporting published this weekend"
+      "Range-bound; no approved market reporting published this weekend"
     ],
-    "updated": "26 September 2026 08:03 (Friday closes; bitcoin live)"
+    "updated": "26 September 2026 17:07 (Friday closes; bitcoin live)"
   },
   "UST": {
     "name": "US 10-Year Treasury Yield",
@@ -2414,10 +2411,9 @@
       "The purchasing managers' index hit its highest in more than four years"
     ],
     "drivers_down": [
-      "Eased to 5.17% from Thursday's highest level since June 2007",
-      "Selling pressure faded as oil prices retreated"
+      "Eased on Friday from Thursday's highest level since June 2007"
     ],
-    "updated": "26 September 2026 08:03 (Friday closes; bitcoin live)"
+    "updated": "26 September 2026 17:07 (Friday closes; bitcoin live)"
   }
 }
 </script>
@@ -2470,6 +2466,150 @@
  <!-- ════ ALL EDITIONS (sorted by JS) ════ -->
  <!-- IMPORTANT: Keep 7 FULL DAYS of editions in this container. Do NOT delete editions less than 7 days old. -->
  <div id="all-editions" style="display:none;">
+<!-- ── EVENING 26 SEP (17:07) ── -->
+<div class="curated-edition evening" data-date="2026-09-26" data-time="17:07" data-markets='{"FTSE":{"price":10695.25,"change":0.14},"SP":{"price":7743.41,"change":0.51},"Brent":{"price":104.32,"change":-2.14},"GBP":{"price":1.3249,"change":0.26},"Gold":{"price":4286.25,"change":0.29},"EURGBP":{"price":0.8601,"change":-0.06},"Gilt":{"price":5.35,"change":-0.02},"VIX":{"price":14.87,"change":-5.11},"BTC":{"price":84137,"change":0.3},"UST":{"price":5.17,"change":-0.04},"ts":"2026-09-26T17:07:00+01:00"}'>
+ <div class="edition-header">
+ <span class="edition-icon">&#127769;</span>
+ <h2>Evening Briefing</h2>
+ </div>
+ <div class="curated-meta">Saturday 26 September 2026 &mdash; 17:07 BST</div>
+ <div class="impact-box">
+ <h3 class="impact-heading">What It Means For You</h3>
+ <ul class="impact-list">
+ <li><strong>Fuel:</strong> The week&rsquo;s one route to cheaper fuel has closed. Mr Trump said on the record that he rejects Iran&rsquo;s offer to reopen the Strait of Hormuz, so the blockade and the war premium both stay. Brent settled Friday at $104.32.</li>
+ <li><strong>Care work:</strong> A decision on settlement rules is due &ldquo;imminently&rdquo;. Around 180,000 care workers who arrived between 2022 and 2024 face waiting up to fifteen years for indefinite leave instead of five, with many otherwise qualifying in 2027.</li>
+ <li><strong>Disability benefits:</strong> A review due next month will recommend that severely disabled 16 to 24-year-olds get swift, unconditional support instead of repeated assessments. It lands three weeks before the Budget on 28 October.</li>
+ </ul>
+ </div>
+ <div class="curated-grid">
+ <div class="curated-column">
+ <h3><span class="dot geo"></span><span class="dot-label">GEO</span> Geopolitical</h3>
+ <div class="curated-item" data-time="13:38" data-slug="trump-rejects-iran-proposal-onrecord">
+ <h4>'I Reject Their Proposal': Trump Turns Down Iran's Hormuz Offer</h4>
+ <p>What was a briefed account this morning is now on the record. Speaking to reporters at the White House, the president said: &ldquo;I reject their proposal&hellip; I rejected their deal.&rdquo; He added: &ldquo;They want to make a deal to open the Hormuz Strait immediately because they&rsquo;re losing so badly. We&rsquo;re winning tremendously.&rdquo; Iran had asked for the naval blockade lifted, oil sanctions waived, an estimated $12bn in frozen assets released and a ceasefire covering Lebanon and Yemen.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The refusal closes the week&rsquo;s one apparent opening and leaves the blockade doing the work the president thinks is winning. On Friday evening he posted a graphic renaming the waterway the &ldquo;Trump Strait&rdquo;, which tells you how he reads the balance of leverage. The harder obstacle sits behind the theatre: a senior Iranian official has told Reuters Tehran would make no nuclear concessions even if the deal were accepted &mdash; no flexibility on enrichment, no shipping out its highly enriched uranium &mdash; so the offer on the table was always about the strait, not the programme. Saudi Arabia is meanwhile reported to be uneasy that the shipping arrangement was struck bilaterally between Iran and Oman, with the Gulf states not signatories. Watch whether the bombing the president has privately predicted actually resumes.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="12:06" data-slug="pezeshkian-no-trust-washington">
+ <h4>Pezeshkian: Iran No Longer Trusts Washington</h4>
+ <p>Iran&rsquo;s president flew home saying the door is open but the faith is gone. &ldquo;We have no trust in the American side and do not know on what basis an understanding can be reached with it,&rdquo; he said, adding after meeting the UN Secretary-General that Iran &ldquo;has not walked away from the negotiating table, but given past experiences, it no longer trusts the United States&rdquo;. Qatar and Pakistan are relaying messages. He denied Iran closed the strait, saying America &ldquo;closed the routes before us&rdquo;.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The interview is most revealing where it distances Tehran from its own proxies. On Yemen he said Houthi actions are &ldquo;not connected to Iran&rdquo;, urged direct Houthi-Saudi dialogue on the grounds that &ldquo;a brother should not fight his brother&rdquo;, and insisted &ldquo;we will not be warmongers&rdquo; &mdash; a striking set of disavowals in the week Saudi Arabia invoked a mutual-defence pact over Houthi missiles. He also rejected the idea of any state policing the region: &ldquo;we do not need a regional policeman.&rdquo; The June memorandum lapsed last month and he says Washington must clarify where it stands on it. With the American answer now a public refusal, the question is whether the Qatari and Pakistani channels stay open or close with it. Watch for any Iranian move at the strait itself.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="11:29" data-slug="seven-dead-russia-ukraine-strikes">
+ <h4>Seven Killed as Russia and Ukraine Trade Strikes Overnight</h4>
+ <p>Four people were killed in Ukraine, two of them women trapped under the rubble of their destroyed home in Zaporizhzhia and two in Sumy, with four more injured across Kyiv districts. Three were killed and two wounded in Russia&rsquo;s Krasnodar region by a Ukrainian drone attack, with fires at two industrial sites and Russian media later reporting a local oil refinery as the target. Russia&rsquo;s defence ministry said its Kyiv strike damaged a data centre supporting mobile internet and Starlink for Ukrainian forces.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The target sets are converging on each other&rsquo;s infrastructure, which is exactly what the limited ceasefire under discussion this week was meant to stop: Ukraine hitting refineries, Russia hitting the systems that keep Ukrainian communications alive. Mr Zelensky&rsquo;s appeal on Saturday morning was aimed less at Moscow than at his backers: &ldquo;It is essential that our partners not forget: Russia is escalating every single day. If the Russians have chosen to make their strikes even more brutal, the world must choose stronger responses to keep the war from spreading further.&rdquo; Washington has proposed technical-level trilateral talks and floated the United Arab Emirates as a venue, and the Kremlin says a meeting could happen in the near future with no details settled. No date exists. Watch whether one is fixed before the grid comes under winter pressure.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="14:20" data-slug="athens-plaka-explosion-british">
+ <h4>British Man and Greek Wife Among Six Killed in Athens Blast</h4>
+ <p>Rescue workers recovered six bodies from a three-storey building destroyed by an explosion in Plaka, the tourist quarter between the Acropolis and the Temple of Olympian Zeus. A British man and his Greek wife, both reportedly in their seventies, lived on the second floor and are believed to be among the dead, though authorities have not confirmed the identities. Four American tourists in a short-term let on the first floor also died. Athens&rsquo;s mayor Haris Doukas said a large gas leak was the likely cause.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The Americans were missed before they were found: police realised they were unaccounted for when they failed to board a three o&rsquo;clock flight from Athens airport. Teams worked through Friday night and Saturday with cameras, sensors and dogs, using excavators and thermal imaging, while rubble and shattered glass were thrown up to three blocks, damaging nearby homes, shops and vehicles. Investigators from the fire service&rsquo;s crime unit are examining reports of a gas smell in a district dense with hotels and short-term rentals &mdash; which is the wider question here, since the building housed a holiday let and the regulation of such properties in historic centres is contested across southern Europe. The Foreign Office has been contacted. Watch the cause finding, and whether it points at the gas network or an individual installation.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="14:50" data-slug="tigray-airports-seized-spreads">
+ <h4>Tigray Forces Seize Three Airports as the Fighting Spreads</h4>
+ <p>Tigrayan forces have taken the airports at Mekelle, Axum and Shire, disrupting civilian flights, and the fighting has spread from southern Tigray into the Afar and Amhara regions, with overnight combat in the Afar border town of Abala. Ethiopia&rsquo;s army claims to have killed more than 270 rebel fighters, a figure that cannot be verified. Around three-quarters of a million people were already displaced inside Tigray before this escalation began.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The Pretoria agreement that ended the last war has been eroding for years rather than collapsing this week. Jervin Naidoo of Oxford Economics Africa put it plainly: &ldquo;since the end of the war, while the Pretoria Agreement has held, there have been consistent violations on both sides.&rdquo; The regional dimension is the one to watch. Addis Ababa accuses Eritrea of backing the seven-group alliance and Asmara denies it, while Abiy Ahmed has pressed for ownership of Eritrea&rsquo;s port at Assab, some sixty kilometres from the border, and has hinted he would take it by force. That is a territorial ambition sitting alongside an insurgency its neighbour is accused of funding. Watch Assab, and whether the African Union moves at all.</div>
+ </details>
+ </div>
+ </div>
+ <div class="curated-column">
+ <h3><span class="dot dom"></span><span class="dot-label">UK</span> UK Domestic Politics</h3>
+ <div class="curated-item" data-time="15:57" data-slug="burnham-arrives-liverpool-drift">
+ <h4>Burnham Arrives in Liverpool Promising to End 'a Decade of Drift'</h4>
+ <p>The Prime Minister reached his first conference as leader pledging &ldquo;good growth in every postcode, hope in every heart&rdquo;, and framing the week around a break with the recent past: &ldquo;We&rsquo;ve had a decade since Brexit and it&rsquo;s been a decade of too much drift, too much division, and we need to draw a line on that.&rdquo; Standing on the docks, he added: &ldquo;My granddad drove a lorry for Tate &amp; Lyle up and down these docks &mdash; I wonder what he would make of this right now.&rdquo;</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">A leader three months into the job who spent Friday killing off election speculation arrives with the luxury and the trap of a poll bounce. The party chair Bridget Phillipson set the tone against complacency while claiming the change of leader as the cause: &ldquo;what we have seen with Andy Burnham is a real sense of connection with the public, taking things to the next level&rdquo;. Lisa Nandy was more candid about why it happened at all &mdash; &ldquo;we all felt that people need to feel the change in their lives that we promised in 2024 much more quickly&rdquo;. The arithmetic behind the optimism is thinner than the rhetoric: projections put Labour first but short of a majority, ahead only because the right is split. Watch Tuesday&rsquo;s speech for whether a decade of drift gets a policy to answer it.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="15:03" data-slug="heathrow-runway-slips-2039">
+ <h4>Heathrow's Third Runway Slips Four Years to 2039</h4>
+ <p>Airport bosses have told ministers the 2035 opening date set by the previous chancellor cannot be met, pushing the runway to 2039. The scheme is costed at &pound;49bn, with planning permission sought by 2029 and the parliamentary vote on the planning framework possibly slipping to 2027. Expansion would lift the annual flight cap from 480,000 to 720,000, demolish hundreds of homes and tunnel the M25 between junctions 14 and 15. The airport says it would create at least 108,000 jobs.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The timing is unkind: a growth project announced as a symbol of momentum, slipping four years on the eve of the conference meant to showcase momentum. The transport department&rsquo;s response was to disown the deadline rather than defend it &mdash; there is &ldquo;currently no live planning application&rdquo; and &ldquo;the timeline has always been ambitious&rdquo;. Heathrow&rsquo;s own framing is that &ldquo;it&rsquo;s right that ambitious targets were set&rdquo;, which is what an airport says when it has just missed one. The politics are awkward in a second way: the Prime Minister opposed expansion before taking office and described himself as &ldquo;open-minded&rdquo; on arrival, so a delay spares him a decision he would rather not make. Watch whether the planning vote is scheduled before the next election or after it.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="13:01" data-slug="rayner-stands-by-care-workers">
+ <h4>Rayner Stands By Her Attack as Ministers Deny a Cabinet Rift</h4>
+ <p>Angela Rayner repeated that the fifteen-year settlement rule is &ldquo;very disruptive&rdquo; for care workers &ldquo;asked to come to this country to care for some of our most vulnerable&rdquo;, and that the Home Office &ldquo;changed the goalposts years down the line&rdquo;. The Prime Minister is understood to be uneasy and is weighing an exemption for those already here. Shabana Mahmood says a decision is coming &ldquo;imminently&rdquo;. Around 180,000 foreign care workers arrived between 2022 and 2024, many of whom would otherwise qualify for permanent residency in 2027.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The 2027 date is what makes this urgent rather than merely awkward. A cohort recruited under one set of rules reaches the five-year threshold in eighteen months, which is precisely why the government is changing the rules now and precisely why more than a hundred of its own MPs object. Rachael Maskell has said she expects the plans to be amended so they do not apply retrospectively, which would be the face-saving landing. Ms Mahmood&rsquo;s own words concede the problem &mdash; &ldquo;a lot of people wondering what rules will apply to them&rdquo; &mdash; while insisting the balance is right. Ministers spent the afternoon denying any cabinet rift, which is rarely necessary when there is not one. Watch whether the exemption is announced from the platform this week.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="10:00" data-slug="milburn-fast-track-disability">
+ <h4>Review to Urge Fast-Track Benefits for Severely Disabled Young People</h4>
+ <p>Alan Milburn&rsquo;s youth-employment review, due next month, will recommend that 16 to 24-year-olds with the most severe lifelong needs receive swift, unconditional support rather than repeated assessments. It could cover profound and multiple learning disabilities, severe neurological conditions and those on NHS continuing healthcare. &ldquo;Too often they&rsquo;re having to battle through dehumanising tick-box assessments designed to catch people out, not care for them,&rdquo; Mr Milburn said. Nearly a million people aged 16 to 24 are not in education, employment or training.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">This lands three weeks before a Budget in which welfare is one of the few places a chancellor short of headroom can look, and it points in the opposite direction to savings &mdash; towards spending less effort on assessment and more on support. The precedent is already set: the Timms review found the personal independence payment process &ldquo;soul-destroying&rdquo; and not fit for purpose. Mr Milburn&rsquo;s argument is about sequencing rather than generosity &mdash; &ldquo;by right they should get faster support rather than having to prove it over and over again&rdquo; &mdash; which is cheaper administratively and harder to attack politically. The caution came from the charity Sense, whose Harriet Edwards warned: &ldquo;we must not write young disabled people off.&rdquo; Watch whether the Budget pre-empts the review or waits for it.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="10:35" data-slug="treloars-infected-blood-memorial">
+ <h4>Memorial Unveiled to the Schoolboys Killed by Infected Blood</h4>
+ <p>A bronze memorial was unveiled at Lord Mayor Treloar School in Alton to the haemophiliac pupils infected with HIV and hepatitis through contaminated blood products. Of 122 who attended between 1970 and 1987, only around thirty were still alive when the infected blood inquiry reported in 2024. The inquiry found the children had been treated as &ldquo;objects for research&rdquo; and experimented on without their knowledge by clinicians who knew the dangers. &ldquo;We left school with death sentences,&rdquo; said one survivor.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">One survivor&rsquo;s line carries the whole scale of it: &ldquo;I&rsquo;m the last remaining boy in that room.&rdquo; Another put the betrayal where it belongs &mdash; &ldquo;my parents put their trust in the school and they were betrayed.&rdquo; Money has moved, slowly: more than &pound;1.4bn in interim government compensation and over &pound;2.2bn through the compensation authority. What has not moved is accountability, and the specific figure drawing anger is the &pound;60,000 offered for the unethical research itself, which the Hepatitis C Trust&rsquo;s Rachel Halford called &ldquo;pitifully low&rdquo;, adding: &ldquo;Decades later, still no one has been prosecuted.&rdquo; That is the unresolved half of the scandal &mdash; a state that has accepted liability in cash while nobody has answered for the conduct. Watch whether any prosecution file is ever opened.</div>
+ </details>
+ </div>
+ </div>
+ </div>
+ <div class="one-to-read">
+ <span class="otr-label">One To Read</span>
+ <a href="https://www.theguardian.com/us-news/2026/sep/26/donald-trump-oil-deal-with-venezuela" target="_blank" rel="noopener noreferrer">
+ <h4>The Truth Behind the 'Biggest Oil Deal in World History'</h4>
+ <span class="otr-source">The Guardian</span>
+ <span class="otr-dot">&middot;</span>
+ <span class="otr-desc">An investigation into the Venezuela oil agreement Mr Trump called the biggest in world history, reached after the United States seized Nicol&aacute;s Maduro. It sets out the legal and logistical obstacles that make the terms close to impossible to implement.</span>
+ </a>
+ </div>
+ <!-- SOURCES USED
+ - https://www.reuters.com/world/middle-east/iran-awaits-us-move-after-wsj-report-says-trump-rejects-peace-plan-2026-09-26/ &mdash; Reuters: Trump rejection quotes, no nuclear concessions
+ - https://www.theguardian.com/world/2026/sep/26/trump-dismiss-iran-seven-day-peace-deal-hormuz &mdash; The Guardian: rejection, Trump Strait graphic, Saudi unease
+ - https://www.cnn.com/2026/09/26/middleeast/trump-rejects-iran-proposal-hormuz-intl &mdash; CNN: rejection
+ - https://www.aljazeera.com/news/2026/9/26/pezeshkian-says-iran-no-longer-trusts-talks-with-washington &mdash; Al Jazeera: Pezeshkian interview, Yemen and Hormuz remarks
+ - https://www.nbcnews.com/world/iran/iran-says-choice-reopening-hormuz-rests-united-states-offer-rcna599956 &mdash; NBC News: Iran's terms
+ - https://www.independent.co.uk/news/moscow-ukraine-russia-kyiv-zaporizhzhia-b3056827.html &mdash; The Independent and AP: casualties, Krasnodar, Zelensky quote
+ - https://abcnews.com/International/wireStory/7-dead-russia-ukraine-exchange-strikes-aerial-war-136777763 &mdash; ABC News and AP: strike toll
+ - https://news.sky.com/story/ukraine-war-latest-two-killed-after-russian-drone-hits-border-crossing-12541713 &mdash; Sky News: trilateral venue, EU funds
+ - https://www.bbc.co.uk/news/articles/c6p3kk78l4l1o &mdash; BBC News: Athens explosion, nationalities, gas leak suspected
+ - https://www.independent.co.uk/news/uk/home-news/athens-explosion-acropolis-british-man-dead-b3056859.html &mdash; The Independent: six bodies, British couple, Doukas
+ - https://www.aljazeera.com/news/2026/9/26/is-ethiopia-on-the-verge-of-another-civil-war-as-fighting-erupts-in-tigray &mdash; Al Jazeera: airports, Abala, Naidoo quote
+ - https://www.bbc.co.uk/news/articles/c6d94wywx0ypo &mdash; BBC News: Eritrea, Assab
+ - https://www.theguardian.com/us-news/2026/sep/26/donald-trump-oil-deal-with-venezuela &mdash; The Guardian: Venezuela oil investigation
+ - https://www.independent.co.uk/news/uk/home-news/labour-party-andy-burnham-prime-minister-prime-liverpool-b3056853.html &mdash; The Independent and PA: Burnham in Liverpool, Phillipson and Nandy
+ - https://news.sky.com/story/heathrow-airports-third-runway-delayed-for-four-years-until-2039-13592098 &mdash; Sky News: runway to 2039
+ - https://www.bbc.com/news/articles/crx2zz401935o &mdash; BBC News: Heathrow delay, costs, flight cap
+ - https://www.theguardian.com/politics/2026/sep/26/angela-rayner-care-worker-visa-reforms-labour-conference &mdash; The Guardian: Rayner, Mahmood, 180,000 figure
+ - https://www.theguardian.com/society/2026/sep/26/severely-disabled-young-people-fast-track-benefits-milburn &mdash; The Guardian: Milburn review, Sense
+ - https://www.bbc.com/news/articles/ck9dww05y4p6o &mdash; BBC News: Treloar's memorial, survivors, compensation
+ - https://news.sky.com/story/infected-blood-scandal-memorial-to-haemophiliac-children-infected-from-experimental-treatments-13592005 &mdash; Sky News: memorial, Halford quote
+ - https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol &mdash; CNBC: ticker quotes
+ END SOURCES USED -->
+</div><!-- ── END EVENING 26 SEP (17:07) ── -->
 <!-- ── MORNING 26 SEP (08:03) ── -->
 <div class="curated-edition morning" data-date="2026-09-26" data-time="08:03" data-markets='{"FTSE":{"price":10695.25,"change":0.14},"SP":{"price":7743.41,"change":0.51},"Brent":{"price":104.32,"change":-2.14},"GBP":{"price":1.3251,"change":0.24},"Gold":{"price":4286.25,"change":0.29},"EURGBP":{"price":0.8601,"change":-0.06},"Gilt":{"price":5.36,"change":-0.02},"VIX":{"price":14.87,"change":-5.11},"BTC":{"price":83915,"change":-0.13},"UST":{"price":5.17,"change":-0.04},"ts":"2026-09-26T08:03:00+01:00"}'>
  <div class="edition-header">

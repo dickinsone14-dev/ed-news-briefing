@@ -1,0 +1,57 @@
+URL: https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=... (CNBC restQuote, fetched 2026-09-26 16:55 BST)
+{
+ "symbol": "XAU=",
+ "symbolType": "symbol",
+ "code": 0,
+ "name": "Gold / US Dollar Spot",
+ "shortName": "Gold / US Dollar Spot",
+ "onAirName": "Gold Spot- USD",
+ "altName": "",
+ "last": "4,286.25",
+ "last_timedate": "10:24 AM EDT",
+ "last_time": "2026-09-26T10:24:48.925-0400",
+ "changetype": "UNCH",
+ "type": "INDEX",
+ "subType": "CNBC Synthetic",
+ "exchange": "Exchange",
+ "source": "",
+ "open": "4,286.247",
+ "high": "4,286.247",
+ "low": "4,286.247",
+ "change": "UNCH",
+ "change_pct": "UNCH",
+ "currencyCode": "USD",
+ "provider": "CNBC Quote Cache",
+ "previous_day_closing": "4,286.247",
+ "altSymbol": "135115355",
+ "realTime": "true",
+ "curmktstatus": "REG_MKT",
+ "yrhiprice": "4,286.25",
+ "yrhidate": "09/26/26",
+ "yrloprice": "0.00",
+ "streamable": "1",
+ "issue_id": "135115355",
+ "countryCode": "CH",
+ "timeZone": "EDT",
+ "feedSymbol": "XAU=",
+ "portfolioindicator": "N"
+}
+
+===== SOURCE B: Investing.com XAU/USD (spot) =====
+URL: https://www.investing.com/currencies/xau-usd
+LAST 4,285.37  change +11.70  pct +0.27%  PREV_CLOSE 4,273.67
+DAY RANGE 4,255.00 - 4,315.73   BID 4,284.89 / ASK 4,285.84
+Page quote stamp: "Fri, 25 Sep 2026 16:19:26 GMT"  <-- FRIDAY-DATED
+
+===== SOURCE C: Trading Economics gold =====
+URL: https://tradingeconomics.com/commodity/gold
+"Gold rose to 4,285 USD/t.oz on September 25, 2026, up 0.24% from the previous day."
+last 4285, daily change +10.35, +0.24%, stamp Sep/25
+
+===== RECONCILIATION =====
+CNBC XAU= last 4,286.25 but changetype UNCH, change "UNCH", timestamped
+10:24 AM EDT 2026-09-26 (SATURDAY) => weekend CARRY print, not a live quote.
+Per source rule, PREFERRED the Friday-dated source.
+PUBLISH: 4,285.37, +0.27% (Investing.com, Friday-dated; corroborated by TE 4,285/+0.24%).
+All three levels agree within $0.88 = 0.02%. CNBC carry level would give +0.29% vs
+Thursday 4,273.67 - immaterial difference, noted for transparency.

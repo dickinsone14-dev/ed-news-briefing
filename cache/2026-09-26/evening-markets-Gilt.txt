@@ -1,0 +1,91 @@
+URL: https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=... (CNBC restQuote, fetched 2026-09-26 16:55 BST)
+{
+ "symbol": "GB10Y-GB",
+ "symbolType": "symbol",
+ "code": 0,
+ "name": "British 10 Year Gilt",
+ "shortName": "UK 10-YR",
+ "onAirName": "UK Gilt 10-yr",
+ "altName": "",
+ "last": "5.3528%",
+ "last_timedate": "7:59 PM GMT",
+ "last_time": "2026-09-25T19:59:59.000+0000",
+ "changetype": "DOWN",
+ "type": "BOND",
+ "subType": "Government Bond",
+ "exchange": "United Kingdom",
+ "source": "Exchange",
+ "open": "5.339%",
+ "high": "5.4144%",
+ "low": "5.3324%",
+ "change": "-0.0129",
+ "change_pct": "-0.2404%",
+ "volume": "0",
+ "volume_alt": "0.0",
+ "provider": "CNBC Quote Cache",
+ "previous_day_closing": "5.3657%",
+ "altSymbol": "21213187",
+ "realTime": "true",
+ "curmktstatus": "REG_MKT",
+ "yrhiprice": "5.44",
+ "yrhidate": "09/14/26",
+ "yrloprice": "4.23",
+ "yrlodate": "02/27/26",
+ "streamable": "1",
+ "bond_last_price": "96.375",
+ "bond_change_price": "+0.096",
+ "bond_change_pct_price": "+0.0997%",
+ "bond_open_price": "96.477",
+ "bond_high_price": "96.526",
+ "bond_low_price": "95.92",
+ "bond_prev_day_closing_price": "96.279",
+ "bond_changetype": "UP",
+ "maturity_date": "2036-07-31",
+ "coupon": "4.875%",
+ "issue_id": "5767337",
+ "countryCode": "GB",
+ "timeZone": "GMT",
+ "feedSymbol": "GB10YT=RR",
+ "portfolioindicator": "N"
+}
+
+===== SOURCE B: MarketWatch TMBMKGB-10Y (UK 10 Year Gilt) =====
+URL: https://www.marketwatch.com/investing/bond/tmbmkgb-10y?countrycode=bx
+price 5.355%  priceChange -0.029  percentChange -0.541%
+quoteTime "Sep 25, 2026 5:01 p.m. BST"   exchange Tullett Prebon
+=> implies Thursday close ~5.384%
+
+===== SOURCE C: Trading Economics UK 10Y =====
+URL: https://tradingeconomics.com/united-kingdom/government-bond-yield
+numeric field 5.3593 ; page prose: "The yield on United Kingdom 10Y Bond Yield eased to
+5.35% on September 25, 2026, marking a 0.03 percentage points decrease from the previous
+session."  => change -0.03pp
+
+===== SOURCE D: Investing.com UK 10-Year =====
+URL: https://www.investing.com/rates-bonds/uk-10-year-bond-yield
+last 5.3593  change -0.0252  pct -0.47%  prev close 5.3657  stamp 25/09
+(NB internally inconsistent: 5.3593 - 5.3657 = -0.0064, not -0.0252; its prev-close field
+ is suspect, same 5.3657 figure CNBC carries.)
+
+===== RECONCILIATION (4 sources, CNBC is the outlier AGAIN) =====
+Levels:  CNBC 5.3528 | MarketWatch 5.355 | TE 5.3593 | Investing 5.3593
+Changes: CNBC -0.0129 | MarketWatch -0.029 | TE -0.03 | Investing -0.0252
+MAJORITY on change: MW, TE and Investing all round to -0.03pp. CNBC's -0.0129 is the
+outlier - consistent with the known CNBC gilt previous_day_closing bug (wrong 3x this week).
+CNBC + Investing both carry prev close 5.3657, which is the suspect figure; MW and TE
+independently imply Thursday ~5.384.
+PUBLISH: 5.36, -0.03  (level = 3 of 4 sources at >=5.355 which is 5.36 at 2dp;
+change = majority -0.03pp). This CORRECTS this morning's -0.02.
+
+===== ATTEMPTED SOURCE E: Bank of England IADB (official) - NOT USABLE =====
+URL: https://www.bankofengland.co.uk/boeapps/iadb/fromshowcolumns.asp?SeriesCodes=IUDMNZC
+DATE,IUDMNZC
+21 Sep 2026,5.1935
+22 Sep 2026,5.2113
+23 Sep 2026,5.3055
+Two reasons not used: (1) the series stops at 23 Sep - BoE publishes with a ~2 working-day
+lag, so there is no Thu 24 / Fri 25 observation yet; (2) IUDMNZC is a 10-year NOMINAL PAR
+yield, a different measure from the benchmark gilt redemption yield the ticker quotes
+(5.31 par vs ~5.36 benchmark on 23 Sep), so it is not a like-for-like tiebreak.
+FINAL: 5.36, -0.03 stands on MarketWatch (5.355, -0.029) + Trading Economics (5.3593, -0.03)
++ Investing.com (-0.0252), against CNBC's outlier -0.0129.

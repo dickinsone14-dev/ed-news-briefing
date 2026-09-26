@@ -1,0 +1,64 @@
+URL: https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=... (CNBC restQuote, fetched 2026-09-26 16:55 BST)
+{
+ "symbol": "GBP=",
+ "symbolType": "symbol",
+ "code": 0,
+ "name": "GBP/USD",
+ "shortName": "GBP/USD",
+ "onAirName": "Pound/US $",
+ "altName": "Pound/US $",
+ "last": "1.3249",
+ "last_timedate": "5:00 PM EDT",
+ "last_time": "2026-09-25T17:00:00.000-0400",
+ "changetype": "UP",
+ "type": "CURRENCY",
+ "subType": "FOREX",
+ "exchange": "Exchange",
+ "source": "Exchange",
+ "open": "0.00",
+ "high": "0.00",
+ "low": "0.00",
+ "change": "+0.0034",
+ "change_pct": "+0.26%",
+ "volume": "0",
+ "volume_alt": "0.0",
+ "provider": "CNBC Quote Cache",
+ "previous_day_closing": "1.3249",
+ "altSymbol": "618341",
+ "realTime": "true",
+ "curmktstatus": "REG_MKT",
+ "yrhiprice": "1.39",
+ "yrhidate": "01/27/26",
+ "yrloprice": "1.31",
+ "yrlodate": "06/24/26",
+ "streamable": "1",
+ "issue_id": "618341",
+ "countryCode": "EU",
+ "timeZone": "EDT",
+ "feedSymbol": "GBP=",
+ "portfolioindicator": "N"
+}
+
+===== SOURCE B: Investing.com GBP/USD =====
+URL: https://www.investing.com/currencies/gbp-usd
+LAST 1.3246  change +0.0024  pct +0.18%  PREV_CLOSE 1.3222
+DAY RANGE 1.3209 - 1.3264   stamp 25/09/2026
+
+===== SOURCE C: ECB reference rates via Frankfurter (official, 14:15 CET fix) =====
+URL: https://api.frankfurter.dev/v1/2026-09-25?base=GBP&symbols=USD,EUR
+{"base":"GBP","date":"2026-09-25","rates":{"EUR":1.1622,"USD":1.3252}}
+URL: https://api.frankfurter.dev/v1/2026-09-24?base=GBP&symbols=USD,EUR
+{"base":"GBP","date":"2026-09-24","rates":{"EUR":1.1630,"USD":1.3220}}
+=> Fri 1.3252 vs Thu 1.3220 = +0.0032 = +0.242%
+
+===== SOURCE D: Google Finance GBP-USD (weekend carry, LEVEL ONLY) =====
+URL: https://www.google.com/finance/quote/GBP-USD
+1.3250, -0.00% (-0.000050), "Sep 26, 3:56:19 PM UTC" => weekend carry, no day change.
+
+===== RECONCILIATION =====
+Levels: CNBC 1.3249 (5:00pm EDT Fri close) | Investing 1.3246 | ECB 1.3252 | Google 1.3250
+        range 0.0006 = 0.045%, median 1.32495
+Changes: CNBC +0.26% (implied Thu 1.3215) | Investing +0.18% (Thu 1.3222) | ECB +0.242% (Thu 1.3220)
+        median +0.24%; Investing's +0.18% is the low outlier.
+PUBLISH: 1.3250, +0.24%  (consensus midpoint level; median change, independently
+corroborated by the official ECB Thu->Fri cross).
