@@ -1,0 +1,51 @@
+URL: https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=... (CNBC restQuote, fetched 2026-09-26 ~07:57 BST)
+
+=== SOURCE A: CNBC ===
+{
+ "symbol": ".SPX",
+ "symbolType": "symbol",
+ "code": 0,
+ "name": "S&P 500 Index",
+ "shortName": "S&P 500",
+ "onAirName": "S&P 500",
+ "altName": "S&P 500 INDEX",
+ "last": "7,743.41",
+ "last_timedate": "09/25/26 EDT",
+ "last_time": "2026-09-25",
+ "changetype": "UP",
+ "type": "INDEX",
+ "subType": "Index",
+ "exchange": "INDEX",
+ "source": "Exchange",
+ "open": "7,709.86",
+ "high": "7,752.07",
+ "low": "7,693.08",
+ "change": "+39.28",
+ "change_pct": "+0.51%",
+ "currencyCode": "USD",
+ "provider": "CNBC Quote Cache",
+ "previous_day_closing": "7,704.13",
+ "altSymbol": ".SPX",
+ "realTime": "true",
+ "curmktstatus": "REG_MKT",
+ "yrhiprice": "7,816.70",
+ "yrhidate": "08/13/26",
+ "yrloprice": "6,316.91",
+ "yrlodate": "03/30/26",
+ "streamable": "1",
+ "issue_id": "593933",
+ "countryCode": "US",
+ "timeZone": "EDT",
+ "feedSymbol": ".SPX",
+ "portfolioindicator": "N"
+}
+
+=== SOURCE B: MarketWatch market-data header (scraped 2026-09-26 ~07:54 BST) ===
+URL: https://www.marketwatch.com/investing/bond/tmubmusd10y?countrycode=bx
+| S&P 500 | 7,743.41 | 39.28 | 0.51% |
+| Dow | 51,828.62 | 478.64 | 0.93% |  | Nasdaq | 27,068.72 | 129.34 | 0.48% |
+
+=== SOURCE C: Investing.com index strip ===
+URL: https://www.investing.com/commodities/brent-oil
+S&P 500  7,743.41  +39.28  +0.51%
+=> THREE-SOURCE AGREEMENT: 7,743.41 / +0.51%

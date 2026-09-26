@@ -1,0 +1,65 @@
+URL: https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=... (CNBC restQuote, fetched 2026-09-26 ~07:57 BST)
+
+=== SOURCE A: CNBC ===
+{
+ "symbol": "XAU=",
+ "symbolType": "symbol",
+ "code": 0,
+ "name": "Gold / US Dollar Spot",
+ "shortName": "Gold / US Dollar Spot",
+ "onAirName": "Gold Spot- USD",
+ "altName": "",
+ "last": "4,286.25",
+ "last_timedate": "2:42 AM EDT",
+ "last_time": "2026-09-26T02:42:39.568-0400",
+ "changetype": "UNCH",
+ "type": "INDEX",
+ "subType": "CNBC Synthetic",
+ "exchange": "Exchange",
+ "source": "",
+ "open": "4,286.247",
+ "high": "4,286.247",
+ "low": "4,286.247",
+ "change": "UNCH",
+ "change_pct": "UNCH",
+ "currencyCode": "USD",
+ "provider": "CNBC Quote Cache",
+ "previous_day_closing": "4,286.247",
+ "altSymbol": "135115355",
+ "realTime": "true",
+ "curmktstatus": "REG_MKT",
+ "yrhiprice": "4,286.25",
+ "yrhidate": "09/26/26",
+ "yrloprice": "0.00",
+ "streamable": "1",
+ "issue_id": "135115355",
+ "countryCode": "CH",
+ "timeZone": "EDT",
+ "feedSymbol": "XAU=",
+ "portfolioindicator": "N"
+}
+
+=== NOTE: SPOT gold (XAU/USD), not futures. COMEX Dec futures were 4,320.50 (+0.52%) - DO NOT USE. ===
+CNBC XAU= last 4,286.25 but shows UNCH / no change data (weekend synthetic carry, 2:42 AM EDT Sat).
+
+=== SOURCE B: Investing.com XAU/USD ===
+URL: https://www.investing.com/currencies/xau-usd
+Last 4,285.37  +11.70 (+0.27%)  Prev. Close 4,273.67  status "Closed 25/09"
+
+=== SOURCE C: Kitco PM report, late US trading Friday (21:05 GMT) ===
+URL: https://www.kitco.com/news/article/2026-09-25/gold-caps-weekly-loss-fed-bets-52-yields-limit-rebound-kitco-pm-report
+"spot gold was trading near $4,289.70 an ounce, up 0.38% on the session"
+(0.38% on a 4,273.67 base = 4,289.9 -> corroborates the previous close)
+
+=== SOURCE D: USAGold daily report, Friday midday ===
+URL: https://www.usagold.com/daily-precious-metals-market-report-september-25-2026/
+"Gold spot price is trading at $4,280.19 per ounce, up $4.96 (+0.12%) on the day"
+
+=== SOURCE E: BullionVault - London 3pm auction benchmark ===
+URL: https://www.bullionvault.com/gold-news/gold-price-news/gold-tech-ai-092520261
+"the price of gold dropped 1.8% from last Friday to fix around $4268 per troy ounce" (weekly, 5th weekly fall)
+
+=== ADJUDICATION ===
+Level: CNBC 4,286.25 / Investing 4,285.37 / Kitco 4,289.70 - all within 0.1%. Adopted 4,286.25.
+Previous close 4,273.67 (Investing), corroborated by Kitco's +0.38% arithmetic.
+Change adopted: +0.29% (4,286.25 vs 4,273.67). Source spread on the day change: +0.12% to +0.38%.

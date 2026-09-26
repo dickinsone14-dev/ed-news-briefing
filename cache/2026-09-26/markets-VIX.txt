@@ -1,0 +1,50 @@
+URL: https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=... (CNBC restQuote, fetched 2026-09-26 ~07:57 BST)
+
+=== SOURCE A: CNBC ===
+{
+ "symbol": ".VIX",
+ "symbolType": "symbol",
+ "code": 0,
+ "name": "CBOE Volatility Index",
+ "shortName": "VIX",
+ "onAirName": "CBOE Volatility Index",
+ "altName": "CBOE MKT VOLATILITY IDX",
+ "last": "14.87",
+ "last_timedate": "09/25/26 EDT",
+ "last_time": "2026-09-25",
+ "changetype": "DOWN",
+ "type": "INDEX",
+ "subType": "Index",
+ "exchange": "Exchange",
+ "source": "Exchange",
+ "open": "15.61",
+ "high": "15.94",
+ "low": "14.68",
+ "change": "-0.80",
+ "change_pct": "-5.11%",
+ "currencyCode": "USD",
+ "provider": "CNBC Quote Cache",
+ "previous_day_closing": "15.67",
+ "altSymbol": ".VIX",
+ "realTime": "true",
+ "curmktstatus": "REG_MKT",
+ "yrhiprice": "35.30",
+ "yrhidate": "03/09/26",
+ "yrloprice": "13.38",
+ "yrlodate": "12/24/25",
+ "streamable": "1",
+ "issue_id": "601065",
+ "countryCode": "CH",
+ "timeZone": "EDT",
+ "feedSymbol": ".VIX",
+ "portfolioindicator": "N"
+}
+
+=== SOURCE B: MarketWatch market-data header ===
+URL: https://www.marketwatch.com/investing/bond/tmbmkgb-10y?countrycode=bx
+| VIX | 14.87 | -0.80 | -5.11% |
+
+=== SOURCE C: Investing.com index strip ===
+URL: https://www.investing.com/commodities/brent-oil
+S&P 500 VIX  14.87  -0.80  -5.11%
+=> THREE-SOURCE AGREEMENT: 14.87 / -5.11%  (prev close 15.67)

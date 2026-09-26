@@ -1,0 +1,60 @@
+URL: https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=... (CNBC restQuote, fetched 2026-09-26 ~07:57 BST)
+
+=== SOURCE A: CNBC ===
+{
+ "symbol": "EURGBP=",
+ "symbolType": "symbol",
+ "code": 0,
+ "name": "Euro/UK Pound Sterling FX Cross Rate",
+ "shortName": "EUR/GBP",
+ "onAirName": "Euro/Pound",
+ "altName": "Euro/UK Pound Sterling FX Cross Rate",
+ "last": "0.8594",
+ "last_timedate": "4:59 PM EDT",
+ "last_time": "2026-09-25T16:59:00.000-0400",
+ "changetype": "DOWN",
+ "type": "CURRENCY",
+ "subType": "FOREX",
+ "exchange": "Exchange",
+ "source": "Exchange",
+ "open": "0.00",
+ "high": "0.00",
+ "low": "0.00",
+ "change": "-0.0011",
+ "change_pct": "-0.128%",
+ "volume": "0",
+ "volume_alt": "0.0",
+ "provider": "CNBC Quote Cache",
+ "previous_day_closing": "0.8594",
+ "altSymbol": "612458",
+ "realTime": "true",
+ "curmktstatus": "REG_MKT",
+ "yrhiprice": "0.88",
+ "yrhidate": "02/27/26",
+ "yrloprice": "0.85",
+ "yrlodate": "07/15/26",
+ "streamable": "1",
+ "issue_id": "612458",
+ "countryCode": "EU",
+ "timeZone": "EDT",
+ "feedSymbol": "EURGBP=R",
+ "portfolioindicator": "N"
+}
+
+=== SOURCE B: Investing.com EUR/GBP ===
+URL: https://www.investing.com/currencies/eur-gbp
+Last 0.8601  -0.0005 (-0.06%)  Prev. Close 0.8606  status "Closed"
+
+=== SOURCE C: ECB reference rates via Frankfurter (16:00 CET snap) ===
+URL: https://api.frankfurter.dev/v1/2026-09-25?base=EUR&symbols=USD,GBP
+{"base":"EUR","date":"2026-09-25","rates":{"GBP":0.86045,"USD":1.1403}}
+URL: https://api.frankfurter.dev/v1/2026-09-24?base=EUR&symbols=USD,GBP
+{"base":"EUR","date":"2026-09-24","rates":{"GBP":0.85986,"USD":1.1367}}
+=> ECB day-over-day +0.07% (UP) - but a 15:00 BST snap, not a session close; EUR/GBP fell later.
+
+=== ADJUDICATION ===
+Level: Investing 0.8601 / ECB 0.86045 cluster near 0.860; CNBC 0.8594 is the low outlier (0.08% below).
+Previous close: Investing 0.8606 and CNBC's implied 0.8605 AGREE -> Thursday close 0.8605/0.8606.
+ECB's Thursday 0.85986 differs because of the earlier snap time.
+Adopted: 0.8601 / -0.06% (Investing, internally consistent; level corroborated by ECB, prev by CNBC).
+CNBC alternative: 0.8594 / -0.13%. Spread 0.08% - inside the 2% tolerance.

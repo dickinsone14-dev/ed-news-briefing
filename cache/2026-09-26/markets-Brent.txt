@@ -1,0 +1,117 @@
+URL: https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=... (CNBC restQuote, fetched 2026-09-26 ~07:57 BST)
+
+=== SOURCE A: CNBC ===
+{
+ "symbol": "@LCO.1",
+ "symbolType": "symbol",
+ "code": 0,
+ "name": "ICE Brent Crude (Nov'26)",
+ "shortName": "BRENT",
+ "onAirName": "ICE Brent Crude (Nov'26)",
+ "altName": "Brent Crude",
+ "last": "104.32",
+ "last_timedate": "6:00 AM BST",
+ "last_time": "2026-09-26T06:00:00.000+0100",
+ "changetype": "UNCH",
+ "type": "DERIVATIVE",
+ "subType": "Future",
+ "exchange": "Intercontinental Exchange Europe",
+ "source": "Exchange",
+ "open": "0.00",
+ "high": "0.00",
+ "low": "0.00",
+ "change": "UNCH",
+ "change_pct": "UNCH",
+ "currencyCode": "USD",
+ "volume": "0",
+ "volume_alt": "0.0",
+ "provider": "CNBC Quote Cache",
+ "previous_day_closing": "104.32",
+ "altSymbol": "LCOX6",
+ "realTime": "false",
+ "curmktstatus": "REG_MKT",
+ "yrhiprice": "126.41",
+ "yrhidate": "04/30/26",
+ "yrloprice": "58.72",
+ "yrlodate": "12/16/25",
+ "streamable": "1",
+ "open_interest": "319357",
+ "expiration_date": "2026-09-30",
+ "settlePrice": "104.32",
+ "settleDate": "2026-09-25",
+ "issue_id": "49031014",
+ "countryCode": "GB",
+ "timeZone": "BST",
+ "feedSymbol": "/LCOX6",
+ "portfolioindicator": "N"
+}
+{
+ "symbol": "@LCO.2",
+ "symbolType": "symbol",
+ "code": 0,
+ "name": "ICE Brent Crude (Dec'26)",
+ "shortName": "ICE Brent Crude",
+ "onAirName": "ICE Brent Crude (Dec'26)",
+ "altName": "ICE Brent Crude",
+ "last": "97.44",
+ "last_timedate": "6:00 AM BST",
+ "last_time": "2026-09-26T06:00:00.000+0100",
+ "changetype": "UNCH",
+ "type": "DERIVATIVE",
+ "subType": "Future",
+ "exchange": "Intercontinental Exchange Europe",
+ "source": "Exchange",
+ "open": "0.00",
+ "high": "0.00",
+ "low": "0.00",
+ "change": "UNCH",
+ "change_pct": "UNCH",
+ "currencyCode": "USD",
+ "volume": "0",
+ "volume_alt": "0.0",
+ "provider": "CNBC Quote Cache",
+ "previous_day_closing": "97.44",
+ "altSymbol": "LCOZ6",
+ "realTime": "false",
+ "curmktstatus": "REG_MKT",
+ "yrhiprice": "97.44",
+ "yrhidate": "09/26/26",
+ "yrloprice": "0.00",
+ "streamable": "1",
+ "open_interest": "557519",
+ "expiration_date": "2026-10-30",
+ "settlePrice": "97.44",
+ "settleDate": "2026-09-25",
+ "issue_id": "59455772",
+ "countryCode": "GB",
+ "timeZone": "BST",
+ "feedSymbol": "/LCOZ6",
+ "portfolioindicator": "N"
+}
+
+=== CONTRACT NOTE ===
+CNBC @LCO.1 = ICE Brent Nov'26 (LCOX6), expiration_date 2026-09-30, settlePrice 104.32, settleDate 2026-09-25.
+CNBC @LCO.2 = ICE Brent Dec'26 (LCOZ6), settle 97.44. Nov-Dec spread = +6.88.
+CNBC "previous_day_closing" is unusable (echoes 104.32 because a new session had opened).
+MarketWatch BRN00 NOT USED - rolled to Dec'26 per brief.
+
+=== SOURCE B: Investing.com Brent Oil (LCOX6) ===
+URL: https://www.investing.com/commodities/brent-oil
+Contract label "Month: Nov 26"; Settlement Day 09/29/2026; status "Closed 25/09"
+Last 104.45  -2.15 (-2.02%)  |  Prev. Close 106.60  |  Open 107.06  |  Day range 103.15-107.17  |  Vol 373,283
+(104.45 is Investing's derived last print, 0.13 above the official ICE settlement)
+
+=== SOURCE C: Reuters, 25 Sep 2026 (via lse.co.uk / MarketScreener) ===
+URL: https://www.lse.co.uk/news/oil-prices-slide-about-2-as-us-iran-explore-path-out-of-war-fucra3kxxplgq92.html
+"Brent futures fell $2.28, or 2.1%, to settle at $104.32 a barrel. West Texas Intermediate (WTI)
+crude fell $2.20, or 2.3%, to settle at $92.41."
+
+=== SOURCE D: EnergyNow summary of Reuters ===
+URL: https://energynow.ca/2026/09/oil-ends-week-lower-as-u-s-iran-truce-hopes-hit-wti-while-middle-east-supply-risks-keep-brent-above-100/
+"Brent crude settled at US$104.32 per barrel, down US$2.28, or 2.14%, from Thursday's US$106.60 settlement."
+
+=== SOURCE E: Kitco PM report ===
+URL: https://www.kitco.com/news/article/2026-09-25/gold-caps-weekly-loss-fed-bets-52-yields-limit-rebound-kitco-pm-report
+"Brent crude settled at $104.32 a barrel, down 2.1%"
+
+=> RESOLVED: Brent Nov'26 settle 104.32, prev settle 106.60, change -2.28 = -2.14%. FOUR-SOURCE AGREEMENT.

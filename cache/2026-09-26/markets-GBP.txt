@@ -1,0 +1,62 @@
+URL: https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=... (CNBC restQuote, fetched 2026-09-26 ~07:57 BST)
+
+=== SOURCE A: CNBC ===
+{
+ "symbol": "GBP=",
+ "symbolType": "symbol",
+ "code": 0,
+ "name": "GBP/USD",
+ "shortName": "GBP/USD",
+ "onAirName": "Pound/US $",
+ "altName": "Pound/US $",
+ "last": "1.3251",
+ "last_timedate": "4:59 PM EDT",
+ "last_time": "2026-09-25T16:59:00.000-0400",
+ "changetype": "UP",
+ "type": "CURRENCY",
+ "subType": "FOREX",
+ "exchange": "Exchange",
+ "source": "Exchange",
+ "open": "0.00",
+ "high": "0.00",
+ "low": "0.00",
+ "change": "+0.0036",
+ "change_pct": "+0.27%",
+ "volume": "0",
+ "volume_alt": "0.0",
+ "provider": "CNBC Quote Cache",
+ "previous_day_closing": "1.3251",
+ "altSymbol": "618341",
+ "realTime": "true",
+ "curmktstatus": "REG_MKT",
+ "yrhiprice": "1.39",
+ "yrhidate": "01/27/26",
+ "yrloprice": "1.31",
+ "yrlodate": "06/24/26",
+ "streamable": "1",
+ "issue_id": "618341",
+ "countryCode": "EU",
+ "timeZone": "EDT",
+ "feedSymbol": "GBP=",
+ "portfolioindicator": "N"
+}
+
+=== SOURCE B: ECB reference rates via Frankfurter (official, 16:00 CET snap) ===
+URL: https://api.frankfurter.dev/v1/2026-09-25?base=GBP&symbols=USD
+{"base":"GBP","date":"2026-09-25","rates":{"USD":1.3252}}
+URL: https://api.frankfurter.dev/v1/2026-09-24?base=GBP&symbols=USD
+{"base":"GBP","date":"2026-09-24","rates":{"USD":1.3220}}
+=> official day-over-day 1.3252 / 1.3220 = +0.242%
+
+=== SOURCE C: Investing.com GBP/USD ===
+URL: https://www.investing.com/currencies/gbp-usd
+Last 1.3246  +0.0024 (+0.18%)  Prev. Close 1.3222  status "Closed"
+
+=== SOURCE D: Trading Economics FX note, 25 Sep ===
+URL: https://tradingeconomics.com/united-kingdom/currency/news/586968
+"Sterling edged higher to $1.325 but remained close to its weakest level in three months"
+
+=== ADJUDICATION ===
+Level: CNBC 1.3251 / ECB 1.3252 / Investing 1.3246 / TE "1.325" -> adopted 1.3251.
+Previous close: ECB 1.3220 and Investing 1.3222 agree; CNBC's implied 1.3215 is the outlier.
+Change adopted: +0.24% (ECB official day-over-day). CNBC says +0.27%, Investing +0.18%.

@@ -1,0 +1,51 @@
+URL: https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=... (CNBC restQuote, fetched 2026-09-26 ~07:57 BST)
+
+=== SOURCE A: CNBC ===
+{
+ "symbol": ".FTSE",
+ "symbolType": "symbol",
+ "code": 0,
+ "name": "FTSE 100",
+ "shortName": "FTSE",
+ "onAirName": "FTSE 100",
+ "altName": "FTSE 100 IDX",
+ "last": "10,695.25",
+ "last_timedate": "09/25/26 BST",
+ "last_time": "2026-09-25",
+ "changetype": "UP",
+ "type": "INDEX",
+ "subType": "Index",
+ "exchange": "FTSE International",
+ "source": "Exchange",
+ "open": "10,679.89",
+ "high": "10,753.35",
+ "low": "10,666.95",
+ "change": "+15.26",
+ "change_pct": "+0.14%",
+ "currencyCode": "GBP",
+ "volume": "701,463,862",
+ "volume_alt": "701.5M",
+ "provider": "CNBC Quote Cache",
+ "previous_day_closing": "10,679.99",
+ "altSymbol": ".FTSE",
+ "realTime": "false",
+ "curmktstatus": "REG_MKT",
+ "yrhiprice": "10,989.45",
+ "yrhidate": "07/31/26",
+ "yrloprice": "9,203.17",
+ "yrlodate": "09/25/25",
+ "streamable": "1",
+ "issue_id": "572009",
+ "countryCode": "GB",
+ "timeZone": "BST",
+ "feedSymbol": "/.FTSE",
+ "portfolioindicator": "N"
+}
+
+=== SOURCE B: Reuters (via lse.co.uk) 25 Sep 2026 ===
+URL: https://www.lse.co.uk/news/uk-shares-log-weekly-gains-as-banks-miners-offset-energy-drag-7l6juzi0opdez0m.html
+"Sept 25 (Reuters) - London's FTSE was muted on Friday but notched a second consecutive weekly gain,
+as declines in energy shares from weaker oil prices were offset by gains in banks and miners.
+The blue-chip FTSE 100 index closed 0.14% higher at 10,695.25 points, leaving it in positive
+territory for the week. The midcap FTSE 250 climbed 0.44%, also marking a weekly gain."
+=> CONFIRMS CNBC exactly: 10,695.25 / +0.14%

@@ -1,0 +1,81 @@
+URL: https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=... (CNBC restQuote, fetched 2026-09-26 ~07:57 BST)
+
+=== SOURCE A: CNBC ===
+{
+ "symbol": "US10Y",
+ "symbolType": "symbol",
+ "code": 0,
+ "name": "U.S. 10 Year Treasury",
+ "shortName": "US 10-YR",
+ "onAirName": "U.S. 10 Year Treasury",
+ "altName": "",
+ "last": "5.165%",
+ "last_timedate": "5:03 PM EDT",
+ "last_time": "2026-09-25T17:03:02.000-0400",
+ "changetype": "UP",
+ "type": "BOND",
+ "subType": "Government Bond",
+ "exchange": "Tradeweb",
+ "source": "Exchange",
+ "open": "5.192%",
+ "high": "5.23%",
+ "low": "5.154%",
+ "change": "+0.003",
+ "change_pct": "+0.0581%",
+ "provider": "CNBC Quote Cache",
+ "previous_day_closing": "5.162%",
+ "altSymbol": "US10YT=XX",
+ "realTime": "true",
+ "curmktstatus": "REG_MKT",
+ "yrhiprice": "5.23",
+ "yrhidate": "09/25/26",
+ "yrloprice": "3.93",
+ "yrlodate": "03/02/26",
+ "streamable": "1",
+ "bond_last_price": "95.8594",
+ "bond_change_price": "-0.0156",
+ "bond_change_pct_price": "-0.0163%",
+ "bond_open_price": "95.6563",
+ "bond_high_price": "95.9375",
+ "bond_low_price": "95.375",
+ "bond_prev_day_closing_price": "95.875",
+ "bond_changetype": "DOWN",
+ "maturity_date": "2036-08-15",
+ "coupon": "4.625%",
+ "issue_id": "5093160",
+ "countryCode": "US",
+ "timeZone": "EDT",
+ "feedSymbol": "US10YT=TWEB",
+ "portfolioindicator": "N"
+}
+
+=== SOURCE B: MarketWatch TMUBMUSD10Y (Tullett Prebon) ===
+URL: https://www.marketwatch.com/investing/bond/tmubmusd10y?countrycode=bx
+"U.S. 10 Year Treasury Note"  Last Updated: Sep 25, 2026 5:03 p.m. EDT
+Yield 5.165%   change -0.04   (=> implied previous close 5.205%)
+52wk range 3.923 - 5.227 | Price 95 9/32, Change 3/32 (+0.10%) => price UP so yield DOWN
+
+=== SOURCE C: Trading Economics US 10Y ===
+URL: https://tradingeconomics.com/united-states/government-bond-yield
+last_yield 5.17%  day_change -0.04 pp  previous_close 5.21%  page ts 2026-09-26T05:07:30Z
+
+=== SOURCE D: Investing.com rates strip ===
+URL: https://www.investing.com/commodities/brent-oil
+U.S. 10Y  5.167  +0.004  +0.08%   <-- uses a stale previous close, sign disagrees
+
+=== SOURCE E: Reuters (via Straits Times), THURSDAY 24 Sep close ===
+URL: https://www.straitstimes.com/business/economy/oil-jump-sends-30-year-yields-to-two-decade-high
+"The yield on benchmark US 10-year notes increased 8.17 basis points to 5.196 per cent, the highest since 2007."
+=> Thursday close 5.196% (~5.20), which REFUTES CNBC's previous_day_closing of 5.162%.
+
+=== SOURCE F: Kitco PM report, late Friday US trading ===
+URL: https://www.kitco.com/news/article/2026-09-25/gold-caps-weekly-loss-fed-bets-52-yields-limit-rebound-kitco-pm-report
+"the 10-year Treasury yield rose to the 5.2% area and reached its highest level since 2007"
+
+=== ADJUDICATION ===
+Level: MW 5.165 / TE 5.17 / CNBC 5.165 / Investing 5.167 -> consensus 5.17% (2dp). Unanimous.
+Change: MW -0.04 and TE -0.04 (both explicit). CNBC +0.003 and Investing +0.004 are both built on a
+prev close of ~5.162 that Reuters' documented Thursday close of 5.196% contradicts => both rejected.
+Reuters-derived alternative: 5.165 - 5.196 = -0.031.
+Change adopted: -0.04 pp (majority of the two sources that were right Thu/Fri; prev close 5.21).
+TRUSTED: MarketWatch + Trading Economics. CNBC/Investing rejected (stale prev close, WRONG SIGN).

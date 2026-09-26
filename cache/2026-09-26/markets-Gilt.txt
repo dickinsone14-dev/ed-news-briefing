@@ -1,0 +1,69 @@
+URL: https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=... (CNBC restQuote, fetched 2026-09-26 ~07:57 BST)
+
+=== SOURCE A: CNBC ===
+{
+ "symbol": "GB10Y-GB",
+ "symbolType": "symbol",
+ "code": 0,
+ "name": "British 10 Year Gilt",
+ "shortName": "UK 10-YR",
+ "onAirName": "UK Gilt 10-yr",
+ "altName": "",
+ "last": "5.3528%",
+ "last_timedate": "7:59 PM GMT",
+ "last_time": "2026-09-25T19:59:59.000+0000",
+ "changetype": "DOWN",
+ "type": "BOND",
+ "subType": "Government Bond",
+ "exchange": "United Kingdom",
+ "source": "Exchange",
+ "open": "5.339%",
+ "high": "5.4144%",
+ "low": "5.3324%",
+ "change": "-0.0129",
+ "change_pct": "-0.2404%",
+ "volume": "0",
+ "volume_alt": "0.0",
+ "provider": "CNBC Quote Cache",
+ "previous_day_closing": "5.3657%",
+ "altSymbol": "21213187",
+ "realTime": "true",
+ "curmktstatus": "REG_MKT",
+ "yrhiprice": "5.44",
+ "yrhidate": "09/14/26",
+ "yrloprice": "4.23",
+ "yrlodate": "02/27/26",
+ "streamable": "1",
+ "bond_last_price": "96.375",
+ "bond_change_price": "+0.096",
+ "bond_change_pct_price": "+0.0997%",
+ "bond_open_price": "96.477",
+ "bond_high_price": "96.526",
+ "bond_low_price": "95.92",
+ "bond_prev_day_closing_price": "96.279",
+ "bond_changetype": "UP",
+ "maturity_date": "2036-07-31",
+ "coupon": "4.875%",
+ "issue_id": "5767337",
+ "countryCode": "GB",
+ "timeZone": "GMT",
+ "feedSymbol": "GB10YT=RR",
+ "portfolioindicator": "N"
+}
+
+=== SOURCE B: MarketWatch TMBMKGB-10Y (Tullett Prebon) ===
+URL: https://www.marketwatch.com/investing/bond/tmbmkgb-10y?countrycode=bx
+"U.K. 10 Year Gilt"  Last Updated: Sep 25, 2026 5:01 p.m. BST
+Yield 5.355%   change -0.029   (=> implied previous close 5.384%)
+Open 5.355% | 52wk range 4.229 - 5.423 | Price 96 11/32, Change 7/32 (+0.23%) => price UP so yield DOWN
+
+=== SOURCE C: Trading Economics UK 10Y ===
+URL: https://tradingeconomics.com/united-kingdom/government-bond-yield
+last_yield 5.3593%  day_change -0.02 pp  previous_close 5.38%  page ts 2026-09-26T06:55:34Z
+
+=== ADJUDICATION ===
+CNBC previous_day_closing = 5.3657% is WRONG (third time this week per brief).
+MarketWatch (prev 5.384) and Trading Economics (prev 5.38) agree => Thursday close ~5.38%.
+Friday close: MW 5.355 / TE 5.3593 / CNBC 5.3528 -> consensus 5.36% (2dp).
+Change adopted: -0.02 pp (5.36 vs 5.38). MW's precise figure is -0.029; TE's is -0.021.
+TRUSTED: MarketWatch + Trading Economics (majority, and both right Thu/Fri per brief). CNBC rejected on prev close.
