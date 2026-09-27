@@ -2289,7 +2289,7 @@
  <!-- #1 Markets snapshot bar -->
  <!-- Embedded market data (populated by update script, used as fallback) -->
  <script id="embedded-markets" type="application/json">
-{"FTSE":{"price":10695.25,"change":0.14},"SP":{"price":7743.41,"change":0.51},"Brent":{"price":104.32,"change":-2.14},"GBP":{"price":1.3249,"change":0.26},"Gold":{"price":4286.25,"change":0.29},"EURGBP":{"price":0.8601,"change":-0.06},"Gilt":{"price":5.35,"change":-0.02},"VIX":{"price":14.87,"change":-5.11},"BTC":{"price":84137,"change":0.3},"UST":{"price":5.17,"change":-0.04},"ts":"2026-09-26T17:07:00+01:00"}
+{"FTSE":{"price":10695.25,"change":0.14},"SP":{"price":7743.41,"change":0.51},"Brent":{"price":104.32,"change":-2.14},"GBP":{"price":1.3249,"change":0.26},"Gold":{"price":4286.25,"change":0.29},"EURGBP":{"price":0.8601,"change":-0.06},"Gilt":{"price":5.35,"change":-0.03},"VIX":{"price":14.87,"change":-5.11},"BTC":{"price":84521,"change":0.62},"UST":{"price":5.17,"change":-0.04},"ts":"2026-09-27T08:17:00+01:00"}
 </script>
  <script id="market-descriptions" type="application/json">
 {
@@ -2304,7 +2304,7 @@
       "Energy stocks fell as Brent slid about 2% on Friday",
       "Gilt yields near multi-decade highs keep domestic sentiment fragile"
     ],
-    "updated": "26 September 2026 17:07 (Friday closes; bitcoin live)"
+    "updated": "27 September 2026 08:17 (Friday closes; bitcoin live)"
   },
   "SP": {
     "name": "S&P 500",
@@ -2316,20 +2316,20 @@
     "drivers_down": [
       "Treasury yields still sat at their highest since June 2007"
     ],
-    "updated": "26 September 2026 17:07 (Friday closes; bitcoin live)"
+    "updated": "27 September 2026 08:17 (Friday closes; bitcoin live)"
   },
   "Brent": {
     "name": "Brent Crude Oil",
     "desc": "The global benchmark for crude oil pricing, produced from oil fields in the North Sea. Used to price roughly two-thirds of the world's traded oil.",
     "drivers_up": [
-      "Trump has publicly rejected Iran's offer to reopen Hormuz, so the blockade stands",
+      "Trump has rejected Iran's offer to reopen Hormuz, so the blockade stands",
       "Houthi attacks on Saudi Arabia keep supply disruption risk alive"
     ],
     "drivers_down": [
       "Settled Friday at $104.32, down 2.1%, while a path out of the war still looked open",
       "Talk of a possible US ban on diesel exports pressured the complex"
     ],
-    "updated": "26 September 2026 17:07 (Friday closes; bitcoin live)"
+    "updated": "27 September 2026 08:17 (Friday closes; bitcoin live)"
   },
   "GBP": {
     "name": "GBP/USD",
@@ -2342,7 +2342,7 @@
       "Still near its weakest level in three months",
       "Firming Fed rate-rise expectations continue to support the dollar"
     ],
-    "updated": "26 September 2026 17:07 (Friday closes; bitcoin live)"
+    "updated": "27 September 2026 08:17 (Friday closes; bitcoin live)"
   },
   "Gold": {
     "name": "Gold (XAU/USD)",
@@ -2354,7 +2354,7 @@
     "drivers_down": [
       "Treasury yields near 5.2% raise the opportunity cost of holding bullion"
     ],
-    "updated": "26 September 2026 17:07 (Friday closes; bitcoin live)"
+    "updated": "27 September 2026 08:17 (Friday closes; bitcoin live)"
   },
   "EURGBP": {
     "name": "EUR/GBP",
@@ -2365,7 +2365,7 @@
     "drivers_down": [
       "Hawkish Bank of England signals firmed sterling against the euro"
     ],
-    "updated": "26 September 2026 17:07 (Friday closes; bitcoin live)"
+    "updated": "27 September 2026 08:17 (Friday closes; bitcoin live)"
   },
   "Gilt": {
     "name": "UK 10-Year Gilt Yield",
@@ -2378,7 +2378,7 @@
       "Eased from multi-decade highs on Friday as oil retreated",
       "The global bond selloff slowed; eurozone yields also fell"
     ],
-    "updated": "26 September 2026 17:07 (Friday closes; bitcoin live)"
+    "updated": "27 September 2026 08:17 (Friday closes; bitcoin live)"
   },
   "VIX": {
     "name": "VIX (Volatility Index)",
@@ -2390,18 +2390,19 @@
     "drivers_down": [
       "Closed below 15 on Friday as the global bond rout lost momentum"
     ],
-    "updated": "26 September 2026 17:07 (Friday closes; bitcoin live)"
+    "updated": "27 September 2026 08:17 (Friday closes; bitcoin live)"
   },
   "BTC": {
     "name": "Bitcoin (BTC/USD)",
     "desc": "The price of Bitcoin in US dollars. The largest cryptocurrency by market cap, increasingly viewed as digital gold by institutional investors since spot ETF approvals.",
     "drivers_up": [
-      "Edged up to about $84,100 over the weekend, the only market open"
+      "Firmed to about $84,500 overnight, the only market trading this weekend",
+      "Up 0.6% on Friday's close, recovering the week's earlier slippage"
     ],
     "drivers_down": [
-      "Range-bound; no approved market reporting published this weekend"
+      "Still range-bound below $85,000 with no new institutional flows reported"
     ],
-    "updated": "26 September 2026 17:07 (Friday closes; bitcoin live)"
+    "updated": "27 September 2026 08:17 (Friday closes; bitcoin live)"
   },
   "UST": {
     "name": "US 10-Year Treasury Yield",
@@ -2413,7 +2414,7 @@
     "drivers_down": [
       "Eased on Friday from Thursday's highest level since June 2007"
     ],
-    "updated": "26 September 2026 17:07 (Friday closes; bitcoin live)"
+    "updated": "27 September 2026 08:17 (Friday closes; bitcoin live)"
   }
 }
 </script>
@@ -2466,6 +2467,156 @@
  <!-- ════ ALL EDITIONS (sorted by JS) ════ -->
  <!-- IMPORTANT: Keep 7 FULL DAYS of editions in this container. Do NOT delete editions less than 7 days old. -->
  <div id="all-editions" style="display:none;">
+<!-- ── MORNING 27 SEP (08:17) ── -->
+<div class="curated-edition morning" data-date="2026-09-27" data-time="08:17" data-markets='{"FTSE":{"price":10695.25,"change":0.14},"SP":{"price":7743.41,"change":0.51},"Brent":{"price":104.32,"change":-2.14},"GBP":{"price":1.3249,"change":0.26},"Gold":{"price":4286.25,"change":0.29},"EURGBP":{"price":0.8601,"change":-0.06},"Gilt":{"price":5.35,"change":-0.03},"VIX":{"price":14.87,"change":-5.11},"BTC":{"price":84521,"change":0.62},"UST":{"price":5.17,"change":-0.04},"ts":"2026-09-27T08:17:00+01:00"}'>
+ <div class="edition-header">
+ <span class="edition-icon">&#9728;&#65039;</span>
+ <h2>Morning Briefing</h2>
+ </div>
+ <div class="curated-meta">Sunday 27 September 2026 &mdash; 08:17 BST</div>
+ <div class="impact-box">
+ <h3 class="impact-heading">What It Means For You</h3>
+ <ul class="impact-list">
+ <li><strong>Energy:</strong> The price cap rises 4% to &pound;1,723 on Thursday. The Bank of England expects the January cap, which is announced on 25 November, to climb by as much as 24% on surging gas costs.</li>
+ <li><strong>First-time buyers:</strong> A new scheme will let you buy a new build in England with a 2.5% deposit, topped up by a government equity loan of 20% that is interest-free at first. Income, deposit and price caps arrive with the Budget on 28 October.</li>
+ <li><strong>Fuel:</strong> The planned fuel duty rise may not go ahead. The Chancellor says he is &ldquo;conscious of these pressures&rdquo; and will decide at the Budget on 28 October.</li>
+ </ul>
+ </div>
+ <div class="curated-grid">
+ <div class="curated-column">
+ <h3><span class="dot geo"></span><span class="dot-label">GEO</span> Geopolitical</h3>
+ <div class="curated-item" data-time="03:16" data-slug="tehran-awaits-formal-us-answer">
+ <h4>Tehran Awaits Washington's Formal Answer After Trump Rejects Hormuz Plan</h4>
+ <p>Iran will wait for an official American response through mediators before deciding its next step, its foreign minister said on Telegram, accusing the president of inconsistency: he &ldquo;has made many good statements, as well as many contradictory ones, which unfortunately we hear frequently&rdquo;. &ldquo;We are waiting for the mediators to convey the definitive views to us,&rdquo; Abbas Araghchi said. Oman, the mediator, urged all parties to keep talking.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">A rejection delivered to reporters is not a rejection delivered through a mediator, and Tehran is using the gap. Mr Araghchi&rsquo;s formulation keeps the proposal technically alive while conceding nothing: &ldquo;only a negotiated solution can get them out of this deadlock. That is our position.&rdquo; He restated that reopening the waterway depends on Iran&rsquo;s conditions being met, which is the sequencing dispute in one sentence &mdash; Iran wants relief before it gives up its leverage, Washington wants the strait open before it offers relief. The armed forces spoke in a different register, their spokesman Abolfazl Shekarchi warning that &ldquo;Americans dream of interfering in the Strait of Hormuz, and if they interfere in the Strait of Hormuz, they will be slapped&rdquo;. Around a fifth of the world&rsquo;s oil and gas normally passes through a channel effectively shut since February. Watch for an answer conveyed through Muscat rather than a microphone.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="04:08" data-slug="economic-outcast-flights-banking">
+ <h4>Flights and Banking Cut Off as 'Economic Outcast' Tightens</h4>
+ <p>Turkey, Oman and the United Arab Emirates have halted flights by Iranian airlines, and some banks in the Emirates and Turkey have stopped transactions with Iran, the American treasury secretary said. Scott Bessent thanked Turkey, Oman, the Emirates and the United Kingdom for their cooperation, saying the campaign was &ldquo;delivering results&rdquo;. The rial is trading at record lows. Washington has named the blockade &ldquo;Operation Economic Outcast&rdquo;.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">Britain&rsquo;s inclusion in that list of thanks is the detail worth noting, since it places London inside an economic campaign the government has said little about publicly. The diplomatic case is being made in numbers: the American ambassador to the UN, Mike Waltz, said a record 146 countries have condemned Iran over attacks on civilian shipping, describing Tehran&rsquo;s maritime operations as &ldquo;acts of desperation&rdquo; and arguing it is increasingly isolated. The obvious hole in the strategy is China, Iran&rsquo;s largest oil customer, which has ignored previous sanctions and kept trading, and which is pushing in the opposite direction &mdash; Xi Jinping told the president last week that Beijing backed a return to the June agreement reached in Islamabad. Economists doubt the measures bite without Beijing. Aviation and banking, though, are where sanctions work fastest. Watch the rial.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="18:19" data-slug="lavrov-wadephul-first-talks-2022">
+ <h4>Russia and Germany's Foreign Ministers Meet for the First Time Since 2022</h4>
+ <p>Sergei Lavrov and Johann Wadephul held talks on the margins of the General Assembly, the first such meeting since before the full-scale invasion of Ukraine. It ran about twenty minutes in a room provided by the Russian side and ended with a handshake. Moscow says Berlin asked for it; the German side says Russia signalled willingness first. Mr Wadephul called on Russia &ldquo;to abandon the dangerous path of escalation vis-&agrave;-vis Germany, Europe, and NATO&rdquo;.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">Twenty minutes and a handshake is the smallest possible unit of diplomacy, and both sides have an interest in reading it differently. Mr Wadephul&rsquo;s own account was unusually direct: &ldquo;It was an intense conversation. Of course, we did not reach agreement on key points. It was important to me to make it clear that Germany does not accept incidents such as the drone attack in Leipzig, and that this is an escalation that is unacceptable.&rdquo; He added a warning: &ldquo;We can defend ourselves, we can fight back. And that&rsquo;s exactly what we&rsquo;ll do.&rdquo; Mr Lavrov&rsquo;s account was deliberately flat &mdash; he had learned nothing his counterpart had not already said in public &mdash; and he then took the rostrum to call Germany Kyiv&rsquo;s &ldquo;main sponsor&rdquo; and rule out any German or Japanese permanent seat on the Security Council. On the Black Sea, where Mr Wadephul pressed hardest, he said Russia had talked to India, Egypt and Turkey about safe navigation but that Ukraine required &ldquo;separate discussions&hellip; not in the language of requests, but rather demands&rdquo;. Watch whether a second meeting follows.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="20:00" data-slug="trump-tells-zelensky-settle-ten-dead">
+ <h4>Trump Tells Zelensky to 'Settle With Putin' as Ten Die</h4>
+ <p>The president urged the Ukrainian leader to reach an agreement, saying both men were &ldquo;going along&rdquo; and that &ldquo;someday, hopefully in the not-too-distant future, maybe before the heavy winter, they&rsquo;ll make a deal&rdquo;. He was blunter on Ukraine&rsquo;s side of it: &ldquo;You know what I want him to do? Make a deal. I want him to settle with Putin, and I want Putin to settle with him.&rdquo; Ten people were killed across both countries on Saturday.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">Four of the dead were in Ukraine and six in Russia and Russian-occupied territory, which is the shape this war has settled into: two women died under the rubble of their home in Zaporizhzhia and two more were killed in Sumy, while a Ukrainian drone attack in Krasnodar killed three and wounded two, setting fires at two industrial sites. Three were killed in occupied Zaporizhzhia. Friday was worse still, with strikes on Kyiv killing seven, injuring fifty-eight and halting production at Ukraine&rsquo;s largest steelmaker. Mr Zelensky&rsquo;s answer was aimed past Moscow at his backers: &ldquo;It is essential that our partners not forget: Russia is escalating every single day. If the Russians have chosen to make their strikes even more brutal, the world must choose stronger responses to keep the war from spreading further.&rdquo; Washington is pushing technical-level three-way talks involving officials rather than leaders, with no date proposed and the Kremlin saying no specific plans exist. Watch for a date.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="05:59" data-slug="ethiopia-army-accuses-eritrea">
+ <h4>Ethiopia's Army Accuses Eritrea of Funding the Armed Alliance</h4>
+ <p>In his first comments on the escalation, the army chief of staff, Field Marshal Berhanu Jula, accused Eritrea of funding and supporting armed groups to weaken Ethiopia, calling the new seven-group alliance the latest in a long pattern of hostile alliances that cannot confront the state without outside backing. Eritrea denied it. He said the army was meeting provocations from the Tigray front with &ldquo;wisdom and restraint&rdquo;.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">Eritrea rejected the accusation, wary that landlocked Ethiopia wants to invade it to reach the Red Sea. Restraint is a strange word for a week in which the army says it killed 272 fighters and wounded 260 in a counter-offensive in North Wollo, and the gap between the language and the casualty claims is the story. The command says it prefers &ldquo;strategic calm&rdquo; to a large-scale confrontation, arguing that support for the Tigray side is dwindling and its leadership divided. The other side describes something else entirely: the Tigray People&rsquo;s Liberation Front says the government launched a &ldquo;full-scale offensive&rdquo; using infantry, mechanised units and drones, and a member of its central committee, Abdisalam Balema, called the situation a &ldquo;full war&rdquo;. The latest battles are around Abala in Afar, with fighting also at Sama, Soqota and Raya Alamata. Seven armed groups have now formed an alliance committed to removing Abiy Ahmed&rsquo;s government, which threatens to connect separate insurgencies into one. The 2022 Pretoria agreement is under severe strain, weeks after Washington lifted the atrocity sanctions imposed over the last war. Watch whether the African Union gets either side to talk.</div>
+ </details>
+ </div>
+ </div>
+
+ <div class="curated-column">
+ <h3><span class="dot dom"></span><span class="dot-label">UK</span> UK Domestic Politics</h3>
+ <div class="curated-item" data-time="05:30" data-slug="rayner-empty-homes-six-months">
+ <h4>Councils to Seize Homes Left Empty for Six Months</h4>
+ <p>The threshold for an empty dwelling management order falls from two years to six, in the first policy of the conference. England has some 300,000 long-term empty homes, and not a single such order has been applied for since 2021. Evidential requirements on anti-social behaviour and community support are being dropped to simplify tribunal applications, and councils will be able to take over management of a property while ownership stays with the owner.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The reason the power has gone unused is the paperwork rather than the threshold, which is why removing the evidential tests may matter more than halving the wait. Angela Rayner framed it as a reversal: &ldquo;with so many children and families still in need of a safe and secure home, we can&rsquo;t sit by and allow 300,000 long-term empty dwellings to be left unused&rdquo;, adding that the government is &ldquo;reversing the Tories&rsquo; damaging changes by supporting councils to intervene and use untapped powers&rdquo;. The two-year threshold was Eric Pickles&rsquo;s 2012 change, trailed a year earlier as a civil-liberties protection. Ministers also want to shield councils from the costs, which is the detail that will decide whether any council actually tries. Watch how many orders are applied for in the first year.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="00:01" data-slug="your-first-home-deposit-scheme">
+ <h4>'Your First Home': A 2.5% Deposit Scheme for First-Time Buyers</h4>
+ <p>Buyers in England will be able to purchase a new build with a minimum deposit of 2.5%, supported by a government equity loan of 20% with an initial interest-free period. Household income, deposit and property price caps will exclude higher earners, developers will pay a fee towards running costs, and the money comes from reprioritising existing budgets. Full detail arrives with the Budget on 28 October, with pre-registration before the end of the year.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">This is help-to-buy in all but name, and the caps are where the politics lives: set them high and it subsidises people who would have bought anyway while pushing new-build prices up, set them low and it helps too few to notice. The Prime Minister&rsquo;s pitch was generational &mdash; too many young people are &ldquo;giving up hope of ever having a home to call their own&rdquo;, and the scheme &ldquo;will get them the keys to their own front door, and give builders the confidence to deliver&rdquo;. Ms Rayner was explicit about the distinction she wants drawn from the last version: &ldquo;we&rsquo;re delivering a new generation of equity loans in a Labour way, targeting support to those first-time buyers who need support the most&rdquo;. That the funding is reprioritised rather than new is the constraint. Watch the caps on 28 October.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="23:10" data-slug="healey-fuel-duty-cgt">
+ <h4>Healey Opens the Door on Fuel Duty and Capital Gains Tax</h4>
+ <p>The Chancellor signalled he is weighing whether the planned fuel duty rise should go ahead: &ldquo;I&rsquo;m conscious of these pressures and I will take them into account when I make my Budget decisions.&rdquo; He also pointed to capital gains tax being the lowest of any European G7 nation, which leaves room to raise it and remain below neighbours. His room for manoeuvre, he acknowledged, is severely constrained by borrowing costs driven up by the war between America and Iran.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">Two signals, pointing opposite ways. Hinting at mercy on fuel duty is the cheap gesture that buys a headline; hinting at capital gains is the expensive one that raises money from a constituency Labour is less worried about losing. Both were trailed on the eve of a conference where the unions want a bank windfall tax, which suggests the Chancellor would rather set the terms himself. He tied it to welfare with unusual moral force: reducing the number of young people out of work is &ldquo;a moral duty that this Government now must pick up again&hellip; before the election&rdquo;, and &ldquo;I refuse to see a generation condemned to a life on benefits&rdquo;. The manifesto still bars income tax, national insurance and VAT rises, which is why everything else is in play. Watch whether fuel duty survives to 28 October.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="00:01" data-slug="energy-cap-rises-1723">
+ <h4>Energy Price Cap Rises 4% to &pound;1,723 on Thursday</h4>
+ <p>The cap increases on 1 October, four days into a conference built around the slogan &ldquo;Hope Again&rdquo;, and the Scottish National Party moved quickly to use the timing. Its Westminster leader Dave Doogan said a plea to hope &ldquo;rings hollow when under the Labour Party&rsquo;s watch the cost-of-living emergency goes from bad to worse&rdquo;. His sharpest line was a comparison: &ldquo;It&rsquo;s all beginning to feel very Keir Starmer.&rdquo;</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">A 4% rise is modest set against what may follow: the Bank of England expects the January cap to climb by as much as 24% on surging gas costs, and that one is announced on 25 November. So Thursday is the small instalment of a much larger bill, arriving in the same week the government asks the country to feel optimistic. Mr Doogan&rsquo;s attack is aimed precisely at that gap &mdash; &ldquo;instead of more vibes and TikTok videos, people are waiting to hear how this latest UK Prime Minister is going to put money in people&rsquo;s pockets&rdquo;. The Prime Minister&rsquo;s own framing for the week is that &ldquo;it&rsquo;s time for Britain to believe again&rdquo;. Whether that survives January depends on decisions taken next month. Watch the Budget for targeted energy support.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="06:20" data-slug="drumcree-garvaghy-road-parade">
+ <h4>Orange Order to March Garvaghy Road After Overnight Court Drama</h4>
+ <p>A Portadown parade blocked for nearly thirty years will go ahead on Sunday morning, after three court hearings in twelve hours. The Court of Appeal found that the judge who granted an injunction against it had &ldquo;unfortunately erred in law&rdquo;, and a second High Court judge then dismissed the residents&rsquo; challenge at a quarter past two. Crowds gathered on the Garvaghy Road through the night, remaining largely peaceful.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">Drumcree is the dispute that came closest to derailing the peace process, producing some of the most serious disorder in Northern Ireland&rsquo;s history across successive summers in the 1990s, and the Orange Order has applied for more than a quarter of a century to complete the walk it was stopped from making in 1998. The Parades Commission reversed its long-standing determination on Friday, to the welcome of unionist parties and the outrage of nationalist and republican ones, and hedged it heavily: departure no later than eight in the morning rather than one in the afternoon, thirty-five participants rather than the sixty requested, no bands and no supporters. Justice Patricia Smyth blocked it on Saturday, warning that the dispute &ldquo;has the potential to escalate&rdquo; across Northern Ireland. Justice Michael Humphreys, hearing it again after midnight, took the narrower view that courts must respect a public body&rsquo;s judgement: &ldquo;This court cannot substitute its own view or anyone else&rsquo;s view for that of the commission.&rdquo; For the residents&rsquo; spokesman Breand&aacute;n Mac Cionnaith the ruling settled nothing: &ldquo;There&rsquo;s no such thing as justice or rights for our community.&rdquo; Watch whether the morning stays calm.</div>
+ </details>
+ </div>
+ </div>
+ </div>
+ <div class="one-to-read">
+ <span class="otr-label">One To Read</span>
+ <a href="https://www.bbc.co.uk/news/articles/c6d94wywx0ypo" target="_blank" rel="noopener noreferrer">
+ <h4>Are Ethiopians Marching Back to War in Tigray?</h4>
+ <span class="otr-source">BBC News</span>
+ <span class="otr-dot">&middot;</span>
+ <span class="otr-desc">Fighting has erupted between Ethiopia&rsquo;s army and Tigrayan forces four years after a brutal two-year war ended. An explainer on who seized which airports, why each side blames the other, and how a new seven-group alliance could connect separate conflicts into one.</span>
+ </a>
+ </div>
+ <!-- SOURCES USED
+ - https://www.bbc.com/news/articles/cmvgyyw2jeego &mdash; BBC News: Iran awaits official response, Trump rejection quotes, Bessent on flights and banking, China caveat
+ - https://www.aljazeera.com/news/liveblog/2026/9/27/iran-war-live-tehran-awaits-official-response-as-trump-rejects-hormuz-plan &mdash; Al Jazeera: Tehran awaits response, seven-day roadmap rejected
+ - https://www.iranintl.com/en/202609275994 &mdash; Iran International: armed forces warning on Hormuz (facts only)
+ - https://www.iranintl.com/en/202609275933 &mdash; Iran International: Waltz on 146 countries, Bessent thanks including the UK, rial at record lows, Xi on the June agreement
+ - https://www.reuters.com/world/europe/un-russia-germanys-top-diplomats-hold-first-talks-since-2022-2026-09-26/ &mdash; Reuters: first Russia-Germany talks since 2022, escalation quote, Black Sea grain
+ - https://www.independent.co.uk/news/ukraine-sergey-lavrov-nato-moscow-united-nations-b3056942.html &mdash; The Independent and AP: twenty-minute meeting, handshake, Lavrov on Security Council seats, trilateral talks, Peskov
+ - https://www.pbs.org/newshour/world/german-and-russian-foreign-ministers-have-rare-meeting-at-united-nations-general-assembly &mdash; PBS News and AP: dpa detail on the room and the handshake, Lavrov UNGA remarks
+ - https://www.politico.eu/article/germany-russia-johann-wadephul-sergey-lavrov-meeting-un/ &mdash; Politico Europe: Wadephul broadcast quotes, German account of who sought the meeting
+ - https://www.aljazeera.com/news/2026/9/27/german-russian-foreign-ministers-hold-rare-talks-amid-rising-tensions &mdash; Al Jazeera: Zakharova on the request, Lavrov on Black Sea navigation, Wadephul message to allies
+ - https://www.independent.co.uk/bulletin/news/trump-zelensky-putin-ukraine-russia-war-b3056956.html &mdash; The Independent and AP: Trump on settling with Putin, Zelensky response
+ - https://www.aljazeera.com/news/2026/9/26/at-least-10-people-killed-in-russian-and-ukrainian-attacks &mdash; Al Jazeera, AFP and AP: ten killed, Zaporizhzhia, Sumy, Krasnodar, Friday's Kyiv strikes
+ - https://www.cbsnews.com/news/russia-europe-ukraine-blocking-peace-un-general-assembly-trump/ &mdash; CBS News and AFP: Lavrov at the General Assembly, Trump on a deal before winter
+ - https://www.aljazeera.com/news/2026/9/27/ethiopias-army-promises-restraint-amid-fears-of-new-civil-war &mdash; Al Jazeera: Berhanu Jula's first comments, Eritrea accusation and denial, strategic calm, Abala
+ - https://www.bbc.co.uk/news/articles/c6d94wywx0ypo &mdash; BBC News: Tigray explainer (One To Read)
+ - https://www.gov.uk/government/news/new-reforms-to-bring-more-long-term-empty-homes-back-into-use--2 &mdash; GOV.UK: empty dwelling management order reform, 300,000 figure, Rayner quotes
+ - https://www.independent.co.uk/news/uk/home-news/angela-rayner-government-labour-england-david-lynch-b3057040.html &mdash; The Independent and PA: empty homes detail, evidential tests dropped
+ - https://www.theguardian.com/politics/2026/sep/26/andy-burnham-announces-new-scheme-for-first-time-home-buyers-england &mdash; The Guardian: Your First Home, 2.5% deposit, equity loan, income and price caps
+ - https://www.telegraph.co.uk/politics/2026/09/26/burnham-set-to-launch-new-help-to-buy-scheme/ &mdash; The Telegraph: Burnham and Rayner quotes, Budget launch, pre-registration
+ - https://www.bbc.co.uk/news/articles/cv8e33gdw17no &mdash; BBC News: first-time buyer scheme detail
+ - https://www.independent.co.uk/news/uk/home-news/john-healey-andy-burnham-budget-labour-chancellor-b3057004.html &mdash; The Independent: Healey on fuel duty and capital gains tax, borrowing costs
+ - https://www.independent.co.uk/news/uk/home-news/andy-burnham-snp-burnham-labour-party-prime-minister-b3057002.html &mdash; The Independent: energy cap timing, Doogan quotes, Burnham conference framing
+ - https://www.ofgem.gov.uk/press-release/energy-price-cap-will-rise-4-october-2026 &mdash; Ofgem: 4% rise to &pound;1,723 from 1 October, 25 November announcement date
+ - https://www.bbc.com/news/articles/c6qjkk55wd47o &mdash; BBC News: Drumcree parade to proceed, Humphreys ruling, Parades Commission restrictions, Mac Cionnaith quote
+ - https://www.independent.co.uk/news/uk/home-news/orange-order-high-court-dame-court-of-appeals-belfast-b3057007.html &mdash; The Independent and PA: Court of Appeal, Keegan "erred in law", Smyth injunction
+ - https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol &mdash; CNBC: ticker quotes
+ END SOURCES USED -->
+</div><!-- ── END MORNING 27 SEP (08:17) ── -->
+
 <!-- ── EVENING 26 SEP (17:07) ── -->
 <div class="curated-edition evening" data-date="2026-09-26" data-time="17:07" data-markets='{"FTSE":{"price":10695.25,"change":0.14},"SP":{"price":7743.41,"change":0.51},"Brent":{"price":104.32,"change":-2.14},"GBP":{"price":1.3249,"change":0.26},"Gold":{"price":4286.25,"change":0.29},"EURGBP":{"price":0.8601,"change":-0.06},"Gilt":{"price":5.35,"change":-0.02},"VIX":{"price":14.87,"change":-5.11},"BTC":{"price":84137,"change":0.3},"UST":{"price":5.17,"change":-0.04},"ts":"2026-09-26T17:07:00+01:00"}'>
  <div class="edition-header">
