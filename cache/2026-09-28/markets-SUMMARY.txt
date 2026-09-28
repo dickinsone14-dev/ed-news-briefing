@@ -1,0 +1,61 @@
+URL: (compiled) Monday 28 September 2026 ticker basis — verified 07:40 BST
+Monday. European equity markets have NOT yet opened (08:00 BST), so FTSE, S&P 500 and VIX carry
+Friday 25 September closes with Friday's changes. Brent, sterling, gold, euro-sterling, both yields
+and bitcoin are LIVE overnight/Asian-session readings. Big overnight moves in oil and gold.
+
+PRIMARY SOURCE: CNBC quote endpoint, read 07:26-07:36 BST with a browser User-Agent and Referer.
+  .FTSE     10,695.25  +0.14%  prev 10,679.99  last_time 2026-09-25 (Friday close, pre-open)
+  .SPX       7,743.41  +0.51%  last_time 2026-09-25 (Friday close)
+  @LCO.1       107.04  +2.61%  prev 104.32   last_time 2026-09-28T07:26:35+0100  ICE Brent Nov'26
+  @LCO.2        98.91  +1.51%  prev  97.44   last_time 2026-09-28T07:26:37+0100  ICE Brent Dec'26
+  GBP=         1.3234  -0.1132% prev 1.3249  last_time 2026-09-28T02:36-0400
+  XAU=       4,176.56  -2.56%  prev 4,286.247 last_time 2026-09-28T02:36-0400
+  EURGBP=      0.8595  +0.01%  prev 0.8594   last_time 2026-09-28T02:36-0400
+  UK10Y-GB    5.3928%  prev 5.3657%  last_time 2026-09-28T06:36Z
+  .VIX          14.87  UNCH    last_time 2026-09-25 (Friday close)
+  BTC.CM=   83,124.40  -1.91%  prev 84,741.15 last_time 2026-09-28T02:36-0400
+  US10Y       5.209%   prev 5.181%   last_time 2026-09-28T02:36-0400
+
+PUBLISHED TICKER: FTSE 10,695.25 +0.14 | SP 7,743.41 +0.51 | Brent 107.04 +2.61 | GBP 1.3234 -0.11
+| Gold 4,176.56 -2.56 | EURGBP 0.8595 +0.01 | Gilt 5.39 +0.03 | VIX 14.87 -5.11 | BTC 83,124 -1.91
+| UST 5.21 +0.03
+Yields are published as percentage-POINT changes (5.3928-5.3657 = +0.027 -> +0.03; 5.209-5.181 ->
++0.03), matching the convention used all week. FTSE, SP and VIX carry Friday's close AND Friday's
+change, since neither has traded today.
+
+CROSS-CHECKS ON THE TWO BIG MOVES (both confirmed, Reuters-originated):
+- GOLD DOWN. Reuters, 28 Sep 03:57 GMT: "Gold prices fell more than 2% on Monday as a rise in oil
+  prices heightened inflation concerns and reinforced expectations of further Federal Reserve
+  interest-rate hikes. Spot gold was down 2.1% at $4,198.10 per ounce... on track for its biggest
+  daily decline since September 1." Tim Waterer, chief market analyst at KCM Trade: "The high bond
+  yields and high oil price tandem continues to act as a thorn in gold's side."
+  Investing.com (approved, data only), 00:42 GMT: XAU/USD -1.1% to $4,236.33; silver -1.7% to
+  $63.24; Dollar Index 100.97. Gold has kept falling into the European morning, so CNBC's
+  4,176.56 / -2.56% at 07:36 BST is the latest and is consistent with the direction and magnitude.
+- OIL UP. Reuters (Florence Tan), 28 Sep 22:02 GMT dateline Singapore: "Brent crude futures rose
+  $1.82, or 1.74%, to $106.14 a barrel by 2202 GMT while US West Texas Intermediate crude was at
+  $93.55 a barrel, up $1.14, or 1.23%." Investing.com, 01:09 GMT: Brent Nov -1.1%... (sic, +1.1%)
+  to $105.48. Oil continued rising through the Asian session to 107.04.
+
+CONTEXT FOR THE DRIVERS (Reuters-originated, carried by Investing.com which is approved for data):
+- The Fed raised rates in mid-September by 25bp to 3.75%-4.00%. Traders price roughly 65-70% odds
+  of another hike in October (CME FedWatch).
+- US 10-year real yield 2.83% on 25 September. The 10y-2y spread narrowed to as little as 17bp last
+  week, the smallest since early 2025.
+- Dollar Index above 101, a two-to-three-month high.
+- Kpler preliminary data: Middle East crude exports rebounded to 12.8m bpd in September, the highest
+  since the war began in February, with Hormuz flows set to reach about 7.4m bpd as Saudi Arabia
+  diverted exports from Yanbu to Ras Tanura after attacks damaged its East-West pipeline.
+- US data this week: job openings, ADP, PCE and nonfarm payrolls.
+
+*** WEDNESDAY WARNING — BRENT CONTRACT ROLL ***
+ICE Brent Nov'26 (@LCO.1) EXPIRES 30 SEPTEMBER. Dec'26 (@LCO.2) is at 98.91, i.e. $8.13 BELOW the
+front month. When the front month rolls, the ticker will appear to fall about $8 overnight. That is
+a contract change, NOT a price fall. Do not write it up as one.
+
+FX NOTE: open.er-api.com (snapshot 28 Sep 00:02 UTC) gives GBPUSD 1.323463, which matches CNBC's
+1.3234 exactly, and EURGBP 0.860225 against CNBC's 0.8595. The two providers have disagreed on
+euro-sterling by roughly 0.0007 all weekend while agreeing exactly on cable. CNBC's reading is the
+later and live one, so it is used. Yesterday evening's edition published 0.8604 on the strength of
+the ECB daily reference rate and er-api; no Monday ECB fixing exists yet.
+Yahoo's chart API returned no parseable JSON on every symbol, second day running.

@@ -2,6 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-28-evening/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-28T17:55:00+01:00</news:publication_date>
+      <news:title>Evening Briefing — Monday 28 September 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-28-evening/oil-rises-trump-rejects-iran-offer/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-28T17:55:00+01:00</news:publication_date>
+      <news:title>Oil Rises as Trump Rejects Iran&#x27;s Hormuz Proposal</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-28-evening/russian-strikes-kyiv-academy-sciences/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-28T17:55:00+01:00</news:publication_date>
+      <news:title>Russian Strikes Hit Kyiv&#x27;s National Academy of Sciences</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-28-evening/us-china-cut-tariffs-60bn-goods/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-28T17:55:00+01:00</news:publication_date>
+      <news:title>US and China Agree Tariff Cuts on $60bn of Goods</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-28-evening/le-pen-hails-senate-breakthrough/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-28T17:55:00+01:00</news:publication_date>
+      <news:title>Le Pen Hails Senate &#x27;Breakthrough&#x27; as National Rally Surges</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-28-evening/idf-completes-mansouri-operation/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-28T17:55:00+01:00</news:publication_date>
+      <news:title>Israel Says It Destroyed 600 Hezbollah Sites in Mansouri</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-28-evening/fairford-five-released-on-bail/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-28T17:55:00+01:00</news:publication_date>
+      <news:title>Five Arrested at RAF Fairford Released on Police Bail</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-28-evening/healey-job-not-benefits-conference/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-28T17:55:00+01:00</news:publication_date>
+      <news:title>Healey Tells Conference: A Job, Not a Benefit Payment</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-28-evening/mahmood-reopens-refugee-resettlement-scheme/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-28T17:55:00+01:00</news:publication_date>
+      <news:title>Mahmood Reopens Refugee Resettlement Scheme</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-28-evening/rayner-public-control-housing/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-28T17:55:00+01:00</news:publication_date>
+      <news:title>Rayner Promises Greater Public Control of Housing</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-28-evening/ai-minister-plan-job-losses/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-28T17:55:00+01:00</news:publication_date>
+      <news:title>AI Minister Wants Plan for &#x27;Unprecedented&#x27; Job Losses</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-09-28-morning/</loc>
     <news:news>
       <news:publication>
@@ -362,248 +483,6 @@
       </news:publication>
       <news:publication_date>2026-09-27T08:17:00+01:00</news:publication_date>
       <news:title>Orange Order to March Garvaghy Road After Overnight Court Drama</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-09-26-evening/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-26T17:07:00+01:00</news:publication_date>
-      <news:title>Evening Briefing — Saturday 26 September 2026</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-09-26-evening/trump-rejects-iran-proposal-onrecord/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-26T17:07:00+01:00</news:publication_date>
-      <news:title>&#x27;I Reject Their Proposal&#x27;: Trump Turns Down Iran&#x27;s Hormuz Offer</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-09-26-evening/pezeshkian-no-trust-washington/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-26T17:07:00+01:00</news:publication_date>
-      <news:title>Pezeshkian: Iran No Longer Trusts Washington</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-09-26-evening/seven-dead-russia-ukraine-strikes/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-26T17:07:00+01:00</news:publication_date>
-      <news:title>Seven Killed as Russia and Ukraine Trade Strikes Overnight</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-09-26-evening/athens-plaka-explosion-british/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-26T17:07:00+01:00</news:publication_date>
-      <news:title>British Man and Greek Wife Among Six Killed in Athens Blast</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-09-26-evening/tigray-airports-seized-spreads/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-26T17:07:00+01:00</news:publication_date>
-      <news:title>Tigray Forces Seize Three Airports as the Fighting Spreads</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-09-26-evening/burnham-arrives-liverpool-drift/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-26T17:07:00+01:00</news:publication_date>
-      <news:title>Burnham Arrives in Liverpool Promising to End &#x27;a Decade of Drift&#x27;</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-09-26-evening/heathrow-runway-slips-2039/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-26T17:07:00+01:00</news:publication_date>
-      <news:title>Heathrow&#x27;s Third Runway Slips Four Years to 2039</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-09-26-evening/rayner-stands-by-care-workers/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-26T17:07:00+01:00</news:publication_date>
-      <news:title>Rayner Stands By Her Attack as Ministers Deny a Cabinet Rift</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-09-26-evening/milburn-fast-track-disability/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-26T17:07:00+01:00</news:publication_date>
-      <news:title>Review to Urge Fast-Track Benefits for Severely Disabled Young People</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-09-26-evening/treloars-infected-blood-memorial/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-26T17:07:00+01:00</news:publication_date>
-      <news:title>Memorial Unveiled to the Schoolboys Killed by Infected Blood</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-09-26-morning/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-26T08:03:00+01:00</news:publication_date>
-      <news:title>Morning Briefing — Saturday 26 September 2026</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-09-26-morning/trump-rejects-iran-plan-report/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-26T08:03:00+01:00</news:publication_date>
-      <news:title>Trump Has Rejected Iran&#x27;s Seven-Day Plan, the Wall Street Journal Reports</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-09-26-morning/houthi-drones-riyadh-mecca-pact/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-26T08:03:00+01:00</news:publication_date>
-      <news:title>Houthi Drones Aimed at Riyadh as Pact Allies Meet in the Capital</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-09-26-morning/putin-proposals-on-table/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-26T08:03:00+01:00</news:publication_date>
-      <news:title>Putin Says Every Peace Proposal Is Still on the Table, Then Promises Retaliation</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-09-26-morning/taipei-presses-arms-package/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-26T08:03:00+01:00</news:publication_date>
-      <news:title>Taipei Presses Washington on the $14bn Arms Package Left Frozen</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-09-26-morning/un-tigray-grave-concern/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-26T08:03:00+01:00</news:publication_date>
-      <news:title>UN Warns on Tigray: Five Schools Struck and a Food Convoy Hit</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-09-26-morning/rayner-attacks-settlement-crackdown/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-26T08:03:00+01:00</news:publication_date>
-      <news:title>Rayner Breaks With Mahmood Over Care Workers on Conference Eve</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-09-26-morning/sas-inquiry-97m-documents/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-26T08:03:00+01:00</news:publication_date>
-      <news:title>Inquiry Into SAS Killings Finds 97 Million Undisclosed MoD Files</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-09-26-morning/kyle-growth-criticism/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-26T08:03:00+01:00</news:publication_date>
-      <news:title>Kyle Says the Government Is Not Acting With Enough Urgency on Growth</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-09-26-morning/burnham-210m-high-streets/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-26T08:03:00+01:00</news:publication_date>
-      <news:title>Burnham Pledges £210m to Reopen Boarded-Up High Streets</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-09-26-morning/labour-palantir-nhs-motion/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-26T08:03:00+01:00</news:publication_date>
-      <news:title>Labour Members Move to Cancel Palantir&#x27;s £330m NHS Contract</news:title>
     </news:news>
   </url>
 </urlset>

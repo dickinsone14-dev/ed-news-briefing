@@ -1,0 +1,68 @@
+URL: (compiled) Monday 28 September 2026 EVENING ticker basis. Verified 17:56-17:58 BST
+Monday evening. London has CLOSED (16:35 BST): the FTSE figure is today's close. Wall Street is
+MID-SESSION (it closes at 21:00 BST), so the S&P 500 and VIX are intraday readings from about 12:58 ET.
+Brent, sterling, gold, euro-sterling, bitcoin and the US 10-year are live. The gilt is the
+post-close London reading.
+
+PRIMARY SOURCE: CNBC quote endpoint (quote.cnbc.com restQuote), queried with curl using a browser
+User-Agent and a cnbc.com Referer. Two reads, at 17:56 and 17:58 BST. The final (17:58) values are below.
+  .FTSE     10,684.88  -10.37  -0.10%  prev 10,695.25  O 10,695.19 H 10,758.74 L 10,684.88
+            last_time 2026-09-28T16:35:00+0100 (CLOSE). It closed on the day's low.
+  .FTMC     24,335.32  +74.18  (+0.31%) prev 24,261.14  H 24,534.47  last_time 16:35 BST (context only)
+  .SPX       7,701.71  -41.70  -0.54%  prev 7,743.41  H 7,724.15 L 7,666.60
+            last_time 2026-09-28T12:58:35-0400 (INTRADAY, not a close)
+  @LCO.1       105.76  +1.44   +1.38%  prev 104.32  O 105.50 H 108.83 L 104.32
+            last_time 2026-09-28T17:48:31+0100  ICE Brent Nov'26 (the 17:56 read was 105.60 +1.23%)
+  @LCO.2        98.25  +0.81   +0.83%  prev 97.44   H 101.24  last_time 17:48:33 BST  ICE Brent Dec'26
+  GBP=         1.3265  +0.0016 +0.12%  prev 1.3249  H 1.3280 L 1.3224  last_time 12:58 ET
+  XAU=       4,130.07  -156.18 -3.64%  prev 4,286.247 H 4,227.09 L 4,113.36  last_time 12:57:44 ET
+  EURGBP=      0.8571  -0.0023 -0.27%  prev 0.8594  last_time 12:58 ET
+  UK10Y-GB    5.4017%  -0.0241 (CNBC's own change)  prev 5.4258%  O 5.3954% H 5.4411% L 5.3702%
+            last_time 2026-09-28T16:58:32Z   *** SEE GILT WARNING BELOW ***
+  .VIX          15.91  +1.04   +6.99%  prev 14.87  H 16.62  last_time 12:58:31 ET (INTRADAY)
+  BTC.CM=   83,676.20  -1,064.95 -1.26% prev 84,741.15  L 82,566.36  last_time 12:58:31 ET
+  US10Y       5.247%   +0.066          prev 5.181%   H 5.274%  last_time 12:58:24 ET
+
+PUBLISHED TICKER (evening): FTSE 10,684.88 -0.10 | SP 7,701.71 -0.54 | Brent 105.76 +1.38 |
+GBP 1.3265 +0.12 | Gold 4,130.07 -3.64 | EURGBP 0.8571 -0.27 | Gilt 5.40 +0.04 | VIX 15.91 +6.99 |
+BTC 83,676 -1.26 | UST 5.25 +0.07
+Yields are shown as percentage-POINT changes, as all week: UST 5.247-5.181 = +0.066, so +0.07.
+
+*** GILT WARNING: CNBC's PREVIOUS CLOSE HAS CHANGED SINCE THIS MORNING ***
+At 07:36 BST CNBC gave UK10Y-GB prev close 5.3657%. By this evening it gives 5.4258% and shows the
+day as -0.024. The 5.4258 figure does not fit the day's own range: today's open was 5.3954 and the
+low was 5.3702, both well below 5.4258. The Friday reference is also backed up elsewhere: TradingEconomics
+says 10y gilt yields "eased slightly to 5.35%" on 25 Sep. And today its narrative says "UK 10-year gilt
+yields rose to 5.4%, their highest level in nearly two decades, as investors priced in a more
+hawkish Bank of England policy stance... BoE Deputy Governor Dave Ramsden said Monday he would support
+rate hikes if 'upside pressures' on inflation persist." TradingEconomics is not an approved outlet,
+so it is used as a cross-check only. Published change is therefore measured against the morning's
+sourced prev close: 5.4017-5.3657 = +0.036, so +0.04. That makes it the morning's own basis carried
+forward. If the desk prefers CNBC's literal field, it is -0.02. DO NOT describe gilts as falling today.
+(UK2Y-GB shows the same pattern: prev 4.9244 vs open 4.8716. CNBC's live blog says "The U.K.'s
+2-year yield rose 5 basis points".) UK30Y-GB 5.8928%.
+
+MOVES SINCE THIS MORNING'S EDITION:
+- FTSE: opened flat, hit 10,758.74 (Investing.com/Reuters had it +0.58% at 0829 GMT), then faded all
+  afternoon to close on its low, -0.10%. Housebuilders surged; miners and precious-metal miners slumped.
+- Brent: high 108.83, then pared gains after CNN/Axios reported Trump open to sanctions relief for Iran
+  (CNBC). Still up on the day.
+- Gold: fell from -2.56% this morning to -3.64%. Seven-week low, the lowest since 5 August (Reuters).
+- Sterling: moved from -0.11% this morning to +0.12%. Euro-sterling -0.27%.
+
+*** WEDNESDAY WARNING: BRENT CONTRACT ROLL (repeat) ***
+ICE Brent Nov'26 (@LCO.1) EXPIRES 30 SEPTEMBER. Dec'26 is 98.25, which is $7.51 below the front month. After the roll
+the ticker will appear to drop by about $7.50. That is a contract change, NOT a price fall.
+
+ENERGY AGENCIES: nothing dated 28 Sep found from IEA, EIA or OPEC. The latest relevant item is the IEA Oil
+Market Report (reported by CNBC on 11 Sep): 2026 world oil supply forecast to fall 5.7m bpd (about 6%) and
+demand to fall 2.5m bpd. Nothing new to cite today.
+
+NARRATIVE FILES SAVED (EVE-MKT-*):
+  EVE-MKT-CNBC-oil-trump-rejects-iran.txt
+  EVE-MKT-Reuters-gold-seven-week-low.txt
+  EVE-MKT-CNBC-stocks-live-yields.txt
+  EVE-MKT-CNBC-housebuilders-scheme.txt
+  EVE-MKT-Reuters-european-shares-homebuilders.txt
+REJECTED: 24/7 Wall St "FTSE closed at 14,230" (plainly wrong level). Share Talk, Proactive and Tickmill
+close reports are not approved outlets, although they agree the index turned negative into the close.
