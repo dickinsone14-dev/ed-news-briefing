@@ -2,6 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-29-morning/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-29T08:10:00+01:00</news:publication_date>
+      <news:title>Morning Briefing — Tuesday 29 September 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-29-morning/iran-awaits-answer-trump-denies-offer/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-29T08:10:00+01:00</news:publication_date>
+      <news:title>Iran Awaits Washington&#x27;s Answer as Trump Denies Offering Anything</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-29-morning/russia-strikes-kyiv-again-academy/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-29T08:10:00+01:00</news:publication_date>
+      <news:title>Russia Strikes Kyiv Again After Hitting the Academy of Sciences</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-29-morning/tariff-deal-no-rate-no-date/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-29T08:10:00+01:00</news:publication_date>
+      <news:title>The $60bn Tariff Deal Has No Rate and No Start Date</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-29-morning/myanmar-rakhine-market-airstrike/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-29T08:10:00+01:00</news:publication_date>
+      <news:title>Myanmar Air Strike on a Rakhine Market Kills at Least 33</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-29-morning/gulf-oil-recovers-diesel-export-ban/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-29T08:10:00+01:00</news:publication_date>
+      <news:title>Gulf Oil Exports Recover as Washington Weighs a Diesel Export Ban</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-29-morning/burnham-end-politics-as-usual/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-29T08:10:00+01:00</news:publication_date>
+      <news:title>Burnham to Promise an End to &#x27;Politics as Usual&#x27;</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-29-morning/ministers-refuse-guarantee-triple-lock/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-29T08:10:00+01:00</news:publication_date>
+      <news:title>Ministers Refuse to Guarantee the Triple Lock Beyond 2029</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-29-morning/mahmood-signals-retreat-settlement/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-29T08:10:00+01:00</news:publication_date>
+      <news:title>Mahmood Signals Retreat on Care-Worker Settlement Rules</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-29-morning/fairford-five-bailed-trump-objects/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-29T08:10:00+01:00</news:publication_date>
+      <news:title>Fairford Five Bailed Under Strict Conditions as Trump Objects</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-29-morning/bryant-drumcree-talks-no-solution/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-29T08:10:00+01:00</news:publication_date>
+      <news:title>Bryant&#x27;s Drumcree Talks End Without a Solution</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-09-28-evening/</loc>
     <news:news>
       <news:publication>
