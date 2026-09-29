@@ -2,6 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-29-evening/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-29T17:15:00+01:00</news:publication_date>
+      <news:title>Evening Briefing — Tuesday 29 September 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-29-evening/washington-answer-fails-to-arrive/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-29T17:15:00+01:00</news:publication_date>
+      <news:title>Washington&#x27;s Answer Fails to Arrive and Araghchi Flies Home</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-29-evening/ghalibaf-no-infrastructure-safe/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-29T17:15:00+01:00</news:publication_date>
+      <news:title>Iran&#x27;s Chief Negotiator: &#x27;No Infrastructure Will Remain Safe&#x27;</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-29-evening/zelensky-ten-thousand-north-koreans/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-29T17:15:00+01:00</news:publication_date>
+      <news:title>Zelensky Says Another Ten Thousand North Koreans Are Being Prepared</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-29-evening/hungary-lifts-magyar-immunity/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-29T17:15:00+01:00</news:publication_date>
+      <news:title>Hungary Lifts the Immunity of Its Prime Minister and Two Ministers</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-29-evening/myanmar-kyauktaw-toll-rises-fifty/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-29T17:15:00+01:00</news:publication_date>
+      <news:title>Myanmar Air Strike Toll Rises to Fifty as More Bodies Found</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-29-evening/burnham-scraps-triple-lock-2030/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-29T17:15:00+01:00</news:publication_date>
+      <news:title>Burnham Scraps the Pensions Triple Lock From 2030</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-29-evening/burnham-commission-first-past-the-post/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-29T17:15:00+01:00</news:publication_date>
+      <news:title>Burnham Opens the Door to Scrapping First Past the Post</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-29-evening/water-nationalisation-ban-lifted/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-29T17:15:00+01:00</news:publication_date>
+      <news:title>Ban on Public Ownership of Water Companies to Be Lifted</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-29-evening/fairford-residents-home-rubio-foreign-actor/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-29T17:15:00+01:00</news:publication_date>
+      <news:title>Fairford Residents Return Home as Rubio Alleges a Foreign Hand</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-09-29-evening/psni-drumcree-dedicated-enquiry-team/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-29T17:15:00+01:00</news:publication_date>
+      <news:title>Police Open a Dedicated Enquiry Team Over the Drumcree Blockade</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-09-29-morning/</loc>
     <news:news>
       <news:publication>
@@ -483,127 +604,6 @@
       </news:publication>
       <news:publication_date>2026-09-27T18:22:00+01:00</news:publication_date>
       <news:title>Scores Arrested Under the Terrorism Act Outside Labour&#x27;s Conference</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-09-27-morning/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-27T08:17:00+01:00</news:publication_date>
-      <news:title>Morning Briefing — Sunday 27 September 2026</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-09-27-morning/tehran-awaits-formal-us-answer/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-27T08:17:00+01:00</news:publication_date>
-      <news:title>Tehran Awaits Washington&#x27;s Formal Answer After Trump Rejects Hormuz Plan</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-09-27-morning/economic-outcast-flights-banking/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-27T08:17:00+01:00</news:publication_date>
-      <news:title>Flights and Banking Cut Off as &#x27;Economic Outcast&#x27; Tightens</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-09-27-morning/lavrov-wadephul-first-talks-2022/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-27T08:17:00+01:00</news:publication_date>
-      <news:title>Russia and Germany&#x27;s Foreign Ministers Meet for the First Time Since 2022</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-09-27-morning/trump-tells-zelensky-settle-ten-dead/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-27T08:17:00+01:00</news:publication_date>
-      <news:title>Trump Tells Zelensky to &#x27;Settle With Putin&#x27; as Ten Die</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-09-27-morning/ethiopia-army-accuses-eritrea/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-27T08:17:00+01:00</news:publication_date>
-      <news:title>Ethiopia&#x27;s Army Accuses Eritrea of Funding the Armed Alliance</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-09-27-morning/rayner-empty-homes-six-months/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-27T08:17:00+01:00</news:publication_date>
-      <news:title>Councils to Seize Homes Left Empty for Six Months</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-09-27-morning/your-first-home-deposit-scheme/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-27T08:17:00+01:00</news:publication_date>
-      <news:title>&#x27;Your First Home&#x27;: A 2.5% Deposit Scheme for First-Time Buyers</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-09-27-morning/healey-fuel-duty-cgt/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-27T08:17:00+01:00</news:publication_date>
-      <news:title>Healey Opens the Door on Fuel Duty and Capital Gains Tax</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-09-27-morning/energy-cap-rises-1723/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-27T08:17:00+01:00</news:publication_date>
-      <news:title>Energy Price Cap Rises 4% to £1,723 on Thursday</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-09-27-morning/drumcree-garvaghy-road-parade/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-27T08:17:00+01:00</news:publication_date>
-      <news:title>Orange Order to March Garvaghy Road After Overnight Court Drama</news:title>
     </news:news>
   </url>
 </urlset>
