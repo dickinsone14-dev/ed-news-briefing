@@ -1,0 +1,227 @@
+URL: https://www.theguardian.com/education/2026/sep/30/mi5-china-alert-uk-universities-funding-financing
+The Guardian, published Wed 30 Sep 2026 13:36 BST
+
+Institutions have for years turned to China for funding opportunities but national security concerns are mounting
+
+MI5 issues spy alert to UK universities over Chinese front company stealing research
+
+Close dialogue1/1Next imagePrevious imageToggle captionPrint subscriptionsSearch jobs Sign indocument.addEventListener('DOMContentLoaded', function () {
+
+					/** The checkbox input element used to toggle the navigation menu. */
+					const navInputCheckbox = document.getElementById('header-nav-input-checkbox');
+
+					/** The veggie burger button element used to open/close the menu. */
+					const veggieBurger = document.getElementById('header-veggie-burger');
+
+					/** List of menu items that should be selectable when the menu is open. */
+					const expandedMenuClickableTags = document.querySelectorAll(
+						'.selectableMenuItem',
+					);
+
+					/** The root element of the expanded menu. */
+					const expandedMenu = document.getElementById('header-expanded-menu-root');
+
+					/** The label for the first column in the menu, assumed to be "News".*/
+					const firstColLabel = document.getElementById('News-button');
+
+					/** The link element in the second list item under news links. */
+					const firstColLink = document.querySelector(
+						'#newsLinks > li:nth-of-type(2) > a',
+					);
+
+					/**
+					 * Focuses on the first navigation element depending on whether the first column label is visible.
+					 *
+					 * If the first column label is not visible, the function focuses on the first link element.
+					 * Otherwise, it focuses on the first column label.
+					 */
+					const focusOnFirstNavElement = () => {
+						if (window.getComputedStyle(firstColLabel).display === 'none') {
+							firstColLink.focus();
+						} else {
+							firstColLabel.focus();
+						}
+					};
+
+					/**
+					 * Updates ARIA attributes and tabindex values based on whether the menu is open or closed.
+					 */
+					const updateAttributesForMenu = (isOpen) => {
+						firstColLabel.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+						veggieBurger.setAttribute(
+							'data-link-name',
+							isOpen
+								? 'header : veggie-burger : hide'
+								: 'header : veggie-burger : show',
+						);
+						expandedMenuClickableTags.forEach((tag) => {
+							tag.setAttribute('tabindex', isOpen ? '0' : '-1');
+						});
+					};
+
+					/** Toggles the navigation menu by simulating a click on the checkbox. */
+					const toggleMainMenu = () => {
+						if (navInputCheckbox) {
+							navInputCheckbox.click();
+						}
+					};
+
+					/**
+					 * Handles keydown events to toggle the menu when the Enter or Space key is pressed.
+					 */
+					const keydownToggleMainMenu = (e) => {
+						if (e.key === 'Enter' || e.key === ' ') {
+							e.preventDefault();
+							toggleMainMenu();
+						}
+					};
+					/**
+					 * Handles click events to manage the state of the navigation menu.
+					 *
+					 * - Toggles the menu open/close state when the menu button (veggieBurger) is clicked.
+					 */
+						const handleMenuClick = (e) => {
+							const menuButtonClicked = navInputCheckbox === e.target;
+							const clickInsideMenu = expandedMenu.contains(e.target);
+							const menuIsOpen = navInputCheckbox.checked
+							if (menuButtonClicked && !menuIsOpen) {
+						    document.body.classList.toggle('nav-is-open')
+
+							firstColLabel.setAttribute('aria-expanded', 'false')
+                            veggieBurger.setAttribute('data-link-name','header : veggie-burger : show')
+                            expandedMenuClickableTags.forEach(function($selectableElement){
+                                $selectableElement.setAttribute('tabindex','-1')
+                            })
+                          } else if (menuButtonClicked && menuIsOpen) {
+						    document.body.classList.toggle('nav-is-open')
+							firstColLabel.setAttribute('aria-expanded', 'true')
+                            veggieBurger.setAttribute('data-link-name','header : veggie-burger : hide')
+                            expandedMenuClickableTags.forEach(function($selectableElement){
+                                $selectableElement.setAttribute('tabindex','0')
+                            })
+                            focusOnFirstNavElement()
+							}
+						};
+
+					/** Adds event listeners to manage the navigation menu. */
+					if (navInputCheckbox) {
+						navInputCheckbox.addEventListener('click', handleMenuClick);
+						veggieBurger.addEventListener('keydown', keydownToggleMainMenu);
+						document.addEventListener('keydown', (e) => {
+							if (e.key === 'Escape' && navInputCheckbox.checked) {
+								toggleMainMenu();
+								veggieBurger.focus();
+							}
+						});
+					/**
+					 * Handles mouse down events to manage the state of the navigation menu.
+					 *
+					 * - Closes the menu if the click occurs outside both the menu button and the expanded menu.
+					 */
+					document.addEventListener('mousedown', function(e){
+						if(navInputCheckbox.checked && !expandedMenu.contains(e.target) && !veggieBurger.contains(e.target)){
+						toggleMainMenu()
+							}
+						});
+					}
+				});UKUK editionUS editionAustralia editionEurope editionInternational editionThe Guardian - Back to homeThe GuardianNewsOpinionSportCultureLifestyleShow moreHide expanded menudocument.addEventListener('DOMContentLoaded', function(){
+                        var columnInput = document.getElementById('News-button');
+
+						if (!columnInput) return; // Sticky nav replaces the nav so element no longer exists for users in test.
+
+						columnInput.addEventListener('keydown', function(e){
+                            // keyCode: 13 => Enter key | keyCode: 32 => Space key
+                            if (e.keyCode === 13 || e.keyCode === 32) {
+                                e.preventDefault()
+                                document.getElementById('News-checkbox-input').click();
+                            }
+                        })
+                    })NewsView all NewsUK newsUS politicsWorld newsClimate crisisMiddle EastUkraineFootballNewslettersBusinessEnvironmentUK politicsScienceTechGlobal developmentObituariesdocument.addEventListener('DOMContentLoaded', function(){
+                        var columnInput = document.getElementById('Opinion-button');
+
+						if (!columnInput) return; // Sticky nav replaces the nav so element no longer exists for users in test.
+
+						columnInput.addEventListener('keydown', function(e){
+                            // keyCode: 13 => Enter key | keyCode: 32 => Space key
+                            if (e.keyCode === 13 || e.keyCode === 32) {
+                                e.preventDefault()
+                                document.getElementById('Opinion-checkbox-input').click();
+                            }
+                        })
+                    })OpinionView all OpinionThe Guardian viewColumnistsCartoonsOpinion videosLettersdocument.addEventListener('DOMContentLoaded', function(){
+                        var columnInput = document.getElementById('Sport-button');
+
+						if (!columnInput) return; // Sticky nav replaces the nav so element no longer exists for users in test.
+
+						columnInput.addEventListener('keydown', function(e){
+                            // keyCode: 13 => Enter key | keyCode: 32 => Space key
+                            if (e.keyCode === 13 || e.keyCode === 32) {
+                                e.preventDefault()
+                                document.getElementById('Sport-checkbox-input').click();
+                            }
+                        })
+                    })SportView all SportFootballCricketRugby unionTennisCyclingF1GolfBoxingRugby leagueRacingUS sportsdocument.addEventListener('DOMContentLoaded', function(){
+                        var columnInput = document.getElementById('Culture-button');
+
+						if (!columnInput) return; // Sticky nav replaces the nav so element no longer exists for users in test.
+
+						columnInput.addEventListener('keydown', function(e){
+                            // keyCode: 13 => Enter key | keyCode: 32 => Space key
+                            if (e.keyCode === 13 || e.keyCode === 32) {
+                                e.preventDefault()
+                                document.getElementById('Culture-checkbox-input').click();
+                            }
+                        })
+                    })CultureView all CultureFilmMusicTV & radioBooksArt & designStageGamesClassicaldocument.addEventListener('DOMContentLoaded', function(){
+                        var columnInput = document.getElementById('Lifestyle-button');
+
+						if (!columnInput) return; // Sticky nav replaces the nav so element no longer exists for users in test.
+
+						columnInput.addEventListener('keydown', function(e){
+                            // keyCode: 13 => Enter key | keyCode: 32 => Space key
+                            if (e.keyCode === 13 || e.keyCode === 32) {
+                                e.preventDefault()
+                                document.getElementById('Lifestyle-checkbox-input').click();
+                            }
+                        })
+                    })LifestyleView all LifestyleThe FilterFashionFoodRecipesTravelHealth & fitnessWomenMenLove & sexBeautyHome & gardenMoneyCarsSearch input google-search SearchSupport usPrint subscriptionsSearch jobsHire with Guardian JobsHolidaysLive eventsAbout UsDigital ArchiveGuardian Print ShopPatronsGuardian LicensingThe Guardian appVideoPodcastsPicturesNewslettersToday's paperInside the GuardianGuardian WeeklyCrosswordsWordiplyCorrectionsTipsSearch input google-search SearchSearch jobsHire with Guardian JobsHolidaysLive eventsAbout UsDigital ArchiveGuardian Print ShopPatronsGuardian LicensingEducationSchoolsTeachersUniversitiesStudents The headquarters of MI5, which has warned researchers to cease work with the China Academy of General Technology. Photograph: Peter Nicholls/ReutersView image in fullscreenThe headquarters of MI5, which has warned researchers to cease work with the China Academy of General Technology. Photograph: Peter Nicholls/ReutersUniversitiesAnalysisMI5 China alert will send chill through UK’s cash-strapped universitiesAmy Hawkins Senior China correspondentInstitutions have for years turned to China for funding opportunities but national security concerns are mounting
+
+The security alert issued by MI5 regarding a Chinese state-owned conglomerate accused of conducting espionage in the UK reveals the extent to which British intelligence remains concerned about Beijing’s influence, and risks casting a shadow over UK-China cooperation at a time when the bilateral relationship is enjoying a revival.
+
+The UK’s domestic security service on Wednesday warned researchers and academics to cease work with the China Academy of General Technology (CAGT), an organisation MI5 described as a “significant threat”.
+
+The CAGT, which is also known as the China General Technology Research Institute, is accused of paying UK academics working in sensitive fields such as artificial intelligence and cybersecurity for “research that directly improves MSS technical capability for espionage”. The MSS is China’s Ministry of State Security, its intelligence agency.
+
+Read moreChina’s approach to intelligence gathering involves hoovering up vast amounts of data, often from unsuspecting individuals who believe they are participating in normal research or consultancy work.
+
+This year the UK’s National Cyber Security Centre warned businesses about Beijing-backed attempts to hack into everyday devices such as wifi routers.
+
+Last year, MI5 issued another China-related security alert, warning parliamentarians about approaches from two LinkedIn profiles thought to be linked to Chinese intelligence.
+
+Wednesday’s alert said academic institutions or researchers should be aware of the 2023 National Security Act, which makes it an offence to engage in conduct that is likely to materially assist a foreign intelligence agency. The warning is likely to send a chill through the UK’s cash-strapped higher education institutions, which have for years turned to China for funding and collaboration opportunities.
+
+The UK is one of the leading countries to partner with China’s higher education sector. In May, China’s education ministry announced 219 new transnational education partnerships, with more than a fifth of the approvals being with British universities. That puts the UK at the top of the list of partner countries, ahead of Russia, France and Italy.
+
+Chinese students are also the largest group of non-EU international students in the UK, generating about £600m a year for the higher education sector.
+
+There has been growing concern in the UK that partnerships with China pose a risk to national security. The 2023 Intelligence and Security Committee report on China said UK academic institutions “provide a rich feeding ground for China to achieve both political influence and economic advantage” and flagged the risk of China “directing or stealing UK academic research”.
+
+In this case, MI5 said that more than 100 academics linked to the UK had contributed to projects funded by the MSS via the front company. The areas of interest were AI, cybersecurity and steganography, the embedding of hidden data in pictures online.
+
+Sam Goodman, the senior policy director at the China Strategic Risks Institute, said UK academics were “between a rock and a hard place” when trying to navigate areas of advanced interest that could be of interest to Chinese intelligence. “There is a lack of a coherent steer from government on something like AI. It isn’t particularly clear on AI at this juncture what levels of collaboration we can have with the Chinese,” Goodman said.
+
+Free newsletter |Every weekdaySign up to First Edition
+
+Our morning email breaks down the key stories of the day, telling you what’s happening and why it matters
+
+Analysts say the UK should do more to highlight which areas are of potentially dual-use interest to Chinese intelligence and provide more guidance to universities and academics.
+
+“It’s all very well issuing these warnings,” says Charles Parton, a senior fellow at the Royal United Services Institute. “Actually far more important, surely, is a consideration of which technologies can be cooperated with China, and which can’t.” He said naming specific Chinese companies as a risk would not help UK researchers to do due diligence on every potential partnership. “The Chinese are not stupid. If they want to hide the origin of someone, they’ll do it,” Parton said.
+
+Meia Nouwens, a senior fellow at the International Institute for Strategic Studies, said more clarity was needed on the UK side to help guide researchers working in sensitive fields.
+
+Nouwens said: “A problem has been that in the past there hasn’t been a great deal of discussion of what areas of research constitute a national security risk. Without understanding the limits are of what the UK seeks to protect, it is impossible to have a conversation about managing risk.”
+
+The MI5 alert specifically accused the CAGT of being a front for China’s intelligence. But any research institution in China is ultimately controlled by the Chinese Communist party. “Research institutes that are conducting research on areas of strategic interest for China such as technology will have oversight from the party-state,” Nouwens notes.
+
+That does not mean any collaboration with Chinese educational institutions is inherently dangerous, but it does mean UK academics working in sensitive fields will feel increasingly uneasy about working with a country that has financially underpinned the UK’s higher education sector for decades.

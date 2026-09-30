@@ -2194,12 +2194,12 @@
  - Optional "expires" field overrides the 8h default (e.g. for major events)
  To add a new breaking story, prepend an entry here with the current ISO timestamp. -->
  <script id="breaking-stories" type="application/json">
-[{"headline": "Flydubai jet to Tel Aviv diverts to Saudi Arabia after co-pilot allegedly attacks captain — 12:16 BST", "posted": "2026-09-30T12:16:00+01:00", "category": "Middle East", "summary": "Flydubai flight FDB1073 from Dubai to Tel Aviv, carrying about 180 passengers including dozens of Israelis, diverted to Tabuk in Saudi Arabia after what Israeli officials describe as a violent incident between the pilots. According to information gathered by Israeli authorities, the co-pilot tried to stab the captain and was restrained with help from an Israeli passenger, while the aircraft dived sharply from 34,000 feet. Israel scrambled fighter jets after the plane broadcast emergency codes. Israeli officials are examining whether it was an attempted terror attack. The airline says all passengers are safe.", "facts": [{"label": "Flight", "value": "Flydubai FDB1073, Boeing 737 MAX, Dubai to Tel Aviv"}, {"label": "Passengers", "value": "About 180, including dozens of Israelis; all safe"}, {"label": "Descent", "value": "From 34,000 ft to about 17,000 ft in under a minute, then below 14,000 ft"}, {"label": "Landed", "value": "Tabuk, Saudi Arabia; captain and co-pilot taken to hospital"}]}]
+[]
 </script>
  <div class="breaking-banner" id="breakingBanner">
  <div class="breaking-inner">
  <span class="breaking-label">BREAKING</span>
- <span class="breaking-text" id="breakingText">Flydubai jet to Tel Aviv diverts to Saudi Arabia after co-pilot allegedly attacks captain — 12:16 BST</span>
+ <span class="breaking-text" id="breakingText"></span>
  <span class="breaking-readmore" id="breakingReadmore">Read more</span>
  <button class="breaking-dismiss" id="breakingDismiss">&times;</button>
  </div>
@@ -2289,7 +2289,7 @@
  <!-- #1 Markets snapshot bar -->
  <!-- Embedded market data (populated by update script, used as fallback) -->
  <script id="embedded-markets" type="application/json">
-{"FTSE":{"price":10636.71,"change":-0.45},"SP":{"price":7670.84,"change":-0.17},"Brent":{"price":103.34,"change":0.73},"GBP":{"price":1.325,"change":0.16},"Gold":{"price":4181.94,"change":0.03},"EURGBP":{"price":0.8565,"change":-0.04},"Gilt":{"price":5.38,"change":-0.03},"VIX":{"price":16.04,"change":-0.19},"BTC":{"price":83035,"change":-0.61},"UST":{"price":5.23,"change":-0.03},"ts":"2026-09-30T07:54:00+01:00"}
+{"FTSE":{"price":10606.0,"change":-0.29},"SP":{"price":7698.31,"change":0.36},"Brent":{"price":103.62,"change":1.0},"GBP":{"price":1.3263,"change":0.26},"Gold":{"price":4149.0,"change":-0.76},"EURGBP":{"price":0.8544,"change":-0.28},"Gilt":{"price":5.44,"change":0.05},"VIX":{"price":15.88,"change":-1.0},"BTC":{"price":83945,"change":0.48},"UST":{"price":5.3,"change":0.05},"ts":"2026-09-30T19:26:00+01:00"}
 </script>
  <script id="market-descriptions" type="application/json">
 {
@@ -2297,123 +2297,124 @@
     "name": "FTSE 100",
     "desc": "The UK's benchmark stock index, tracking the 100 largest companies listed on the London Stock Exchange by market capitalisation. Includes Shell, AstraZeneca, HSBC and Unilever.",
     "drivers_up": [
-      "Gilt yields easing to 5.38% relieves rate-sensitive sectors",
-      "Sterling firmer overnight at 1.3250"
+      "Reached 10,725.31 intraday before giving the gains back",
+      "Sterling's strength has not yet dented the overseas earners"
     ],
     "drivers_down": [
-      "Closed Tuesday down 0.45% at 10,636.71, a second consecutive fall",
-      "Energy majors face a Brent price still $20 below its summer peak"
+      "Closed 0.29% lower at 10,606.00, a third consecutive fall",
+      "Gilt yields ran to their highest since July 2007 during the session"
     ],
-    "updated": "30 September 2026 07:54 (equities pre-open on Tuesday closes; rest live)"
+    "updated": "30 September 2026 19:26 (FTSE closed 16:36; US markets live; gilt change on Trading Economics basis)"
   },
   "SP": {
     "name": "S&P 500",
     "desc": "America's leading stock market index, tracking 500 of the largest US-listed companies. Dominated by mega-cap tech (Apple, Microsoft, Nvidia) but spans all sectors.",
     "drivers_up": [
-      "Treasury yields eased overnight for the first time this week"
+      "Up 0.36% at 7,698.31, breaking a three-day losing run",
+      "Volatility easing, with the VIX back below 16"
     ],
     "drivers_down": [
-      "Closed Tuesday down 0.17%, a third straight decline",
-      "October Fed rate-rise odds remain near 70%"
+      "The US ten-year at 5.30%, its highest level of the year",
+      "Gold's sharp reversal off a 52-week high points to profit-taking across havens"
     ],
-    "updated": "30 September 2026 07:54 (equities pre-open on Tuesday closes; rest live)"
+    "updated": "30 September 2026 19:26 (FTSE closed 16:36; US markets live; gilt change on Trading Economics basis)"
   },
   "Brent": {
     "name": "Brent Crude Oil",
     "desc": "The global benchmark for crude oil pricing, produced from oil fields in the North Sea. Used to price roughly two-thirds of the world's traded oil.",
     "drivers_up": [
-      "Edged up 0.7% to $103.34 with Washington's answer to Iran still undelivered",
-      "The naval blockade and the closure of Hormuz both remain in place"
+      "Up 1.0% to $103.62 with the blockade intact and Washington's answer still undelivered",
+      "December rallied 2.2% to $98.27, the strongest move on the curve"
     ],
     "drivers_down": [
-      "Settled Tuesday at $102.59, well below Monday's level",
-      "Gulf exports have recovered to just under 80% of pre-war volumes"
+      "The November contract expires today; the roll to December implies about $5 lower",
+      "Settled Tuesday at $102.59, still some $23 below April's peak"
     ],
-    "updated": "30 September 2026 07:54 (equities pre-open on Tuesday closes; rest live)"
+    "updated": "30 September 2026 19:26 (FTSE closed 16:36; US markets live; gilt change on Trading Economics basis)"
   },
   "GBP": {
     "name": "GBP/USD",
     "desc": "The exchange rate between the British pound and the US dollar, commonly known as 'cable'. Reflects relative economic strength and interest rate differentials between the UK and US.",
     "drivers_up": [
-      "Firmed 0.16% overnight to 1.3250",
-      "November rate-rise pricing remains close to 80%"
+      "Firmed 0.26% to 1.3263, holding the gain even as gilt yields rose",
+      "Reached 1.3311 at the day's high"
     ],
     "drivers_down": [
-      "The 28 October Budget and the pensions announcement leave questions on the fiscal path"
+      "The 28 October Budget and the unexplained arithmetic of the pensions change"
     ],
-    "updated": "30 September 2026 07:54 (equities pre-open on Tuesday closes; rest live)"
+    "updated": "30 September 2026 19:26 (FTSE closed 16:36; US markets live; gilt change on Trading Economics basis)"
   },
   "Gold": {
     "name": "Gold (XAU/USD)",
     "desc": "The spot price of gold in US dollars per troy ounce. The world's oldest safe-haven asset, traditionally rising during periods of uncertainty, inflation and currency debasement.",
     "drivers_up": [
-      "Held its Tuesday gains near $4,182 as yields eased",
-      "Central bank buying continues to absorb investment outflows"
+      "Touched $4,218.16 during the session, a fresh 52-week high"
     ],
     "drivers_down": [
-      "Flat overnight, still well below January's record"
+      "Reversed hard to $4,149.00, down 0.76% and close to the day's low",
+      "Rising real yields on both sides of the Atlantic raise the cost of holding it"
     ],
-    "updated": "30 September 2026 07:54 (equities pre-open on Tuesday closes; rest live)"
+    "updated": "30 September 2026 19:26 (FTSE closed 16:36; US markets live; gilt change on Trading Economics basis)"
   },
   "EURGBP": {
     "name": "EUR/GBP",
     "desc": "The exchange rate between the euro and the British pound. Key for UK-EU trade pricing. A falling rate means sterling is strengthening against the euro.",
     "drivers_up": [
-      "European Central Bank and market pricing remain closely aligned on the pair"
+      "Euro-area policy settings unchanged, limiting the downside"
     ],
     "drivers_down": [
-      "Slipped to 0.8565 as sterling firmed against both the dollar and the euro"
+      "Slipped 0.28% to 0.8544 as sterling firmed against dollar and euro alike",
+      "The European Central Bank's own reference rate for today, 0.85463, agrees to four decimals"
     ],
-    "updated": "30 September 2026 07:54 (equities pre-open on Tuesday closes; rest live)"
+    "updated": "30 September 2026 19:26 (FTSE closed 16:36; US markets live; gilt change on Trading Economics basis)"
   },
   "Gilt": {
     "name": "UK 10-Year Gilt Yield",
     "desc": "The yield on 10-year UK government bonds (gilts). A key benchmark for UK borrowing costs, mortgage rates and pension fund valuations. Rising yields mean falling bond prices.",
     "drivers_up": [
-      "The 28 October Budget keeps long-dated gilts under pressure"
+      "Ran to 5.4434%, the highest since July 2007, with the thirty-year at 5.9703%",
+      "The 28 October Budget and no published route to the £15bn pensions saving"
     ],
     "drivers_down": [
-      "Eased to 5.38% from 5.41%, the first fall this week",
-      "Cheaper oil has taken some heat out of the inflation trade"
+      "Opened lower at 5.3788% and fell as far as 5.3381% before the afternoon turn"
     ],
-    "updated": "30 September 2026 07:54 (equities pre-open on Tuesday closes; rest live)"
+    "updated": "30 September 2026 19:26 (FTSE closed 16:36; US markets live; gilt change on Trading Economics basis)"
   },
   "VIX": {
     "name": "VIX (Volatility Index)",
     "desc": "The CBOE Volatility Index, often called the 'fear gauge'. Measures expected S&P 500 volatility over the next 30 days. Readings above 20 suggest elevated anxiety; above 30 signals acute stress.",
     "drivers_up": [
-      "Oil above $103 and yields near multi-decade highs remain standing risks"
+      "Yields at multi-decade highs and oil above $103 remain standing risks"
     ],
     "drivers_down": [
-      "Closed Tuesday at 16.04, slightly below Monday",
-      "Still well short of the 20 level that signals real anxiety"
+      "Eased 1.0% to 15.88 as the S&P recovered",
+      "Still comfortably short of the 20 level that signals real anxiety"
     ],
-    "updated": "30 September 2026 07:54 (equities pre-open on Tuesday closes; rest live)"
+    "updated": "30 September 2026 19:26 (FTSE closed 16:36; US markets live; gilt change on Trading Economics basis)"
   },
   "BTC": {
     "name": "Bitcoin (BTC/USD)",
     "desc": "The price of Bitcoin in US dollars. The largest cryptocurrency by market cap, increasingly viewed as digital gold by institutional investors since spot ETF approvals.",
     "drivers_up": [
-      "Holding above $83,000 through the Asian session"
+      "Up 0.48% to about $83,945, with a high of $85,604",
+      "Held above $83,000 through a session that punished gold"
     ],
     "drivers_down": [
-      "Down 0.61% overnight to about $83,035",
-      "Range-bound below $84,000 all week"
+      "Has not closed above $85,000 at any point this week"
     ],
-    "updated": "30 September 2026 07:54 (equities pre-open on Tuesday closes; rest live)"
+    "updated": "30 September 2026 19:26 (FTSE closed 16:36; US markets live; gilt change on Trading Economics basis)"
   },
   "UST": {
     "name": "US 10-Year Treasury Yield",
     "desc": "The yield on 10-year US government bonds, the global risk-free rate benchmark. Influences mortgage rates, corporate borrowing and equity valuations worldwide.",
     "drivers_up": [
-      "The thirty-year reached its highest since 2004 earlier this week",
-      "Two-year yields have risen more than 50 basis points this month"
+      "Rose to 5.302%, touching 5.306% — the highest of the year",
+      "The move came in the afternoon, reversing an overnight retreat to 5.201%"
     ],
     "drivers_down": [
-      "Eased to 5.23% overnight, the first retreat this week",
-      "Traders await Wednesday's inflation reading and Friday's payrolls"
+      "Equities took the yield rise calmly, with no flight to the long end"
     ],
-    "updated": "30 September 2026 07:54 (equities pre-open on Tuesday closes; rest live)"
+    "updated": "30 September 2026 19:26 (FTSE closed 16:36; US markets live; gilt change on Trading Economics basis)"
   }
 }
 </script>
@@ -2466,6 +2467,162 @@
  <!-- ════ ALL EDITIONS (sorted by JS) ════ -->
  <!-- IMPORTANT: Keep 7 FULL DAYS of editions in this container. Do NOT delete editions less than 7 days old. -->
  <div id="all-editions" style="display:none;">
+<!-- ── EVENING 30 SEP (19:26) ── -->
+<div class="curated-edition evening" data-date="2026-09-30" data-time="19:26" data-markets='{"FTSE":{"price":10606.0,"change":-0.29},"SP":{"price":7698.31,"change":0.36},"Brent":{"price":103.62,"change":1.0},"GBP":{"price":1.3263,"change":0.26},"Gold":{"price":4149.0,"change":-0.76},"EURGBP":{"price":0.8544,"change":-0.28},"Gilt":{"price":5.44,"change":0.05},"VIX":{"price":15.88,"change":-1.0},"BTC":{"price":83945,"change":0.48},"UST":{"price":5.3,"change":0.05},"ts":"2026-09-30T19:26:00+01:00"}'>
+ <div class="edition-header">
+ <span class="edition-icon">&#127769;</span>
+ <h2>Evening Briefing</h2>
+ </div>
+ <div class="curated-meta">Wednesday 30 September 2026 &mdash; 19:26 BST</div>
+ <div class="impact-box">
+ <h3 class="impact-heading">What It Means For You</h3>
+ <ul class="impact-list">
+ <li><strong>Your energy bill:</strong> The cap rises to &pound;1,723 a year for a typical household on Thursday, about &pound;60 more, while VAT on electricity is removed until 31 March, worth roughly &pound;45. Forecasters expect &pound;1,999 by January, a further &pound;276.</li>
+ <li><strong>Your mortgage:</strong> The ten-year gilt yield reached its highest since July 2007 today, and fixed-rate pricing follows the gilt market. The Budget is four weeks away, on 28 October.</li>
+ <li><strong>Filling up:</strong> Brent rose 1% to $103.62. The Prime Minister called the cost of petrol and diesel &ldquo;very difficult indeed&rdquo; and said the government was &ldquo;looking at any measure that can give people breathing space&rdquo;.</li>
+ </ul>
+ </div>
+ <div class="curated-grid">
+ <div class="curated-column">
+ <h3><span class="dot geo"></span><span class="dot-label">GEO</span> Geopolitical</h3>
+ <div class="curated-item" data-time="15:09" data-slug="washington-answer-reaches-tehran-sequence">
+ <h4>Washington's Answer Reaches Tehran After Two Missed Deadlines</h4>
+ <p>Iran has confirmed receiving an official American response to its proposal for ending the war, days after the reply was first expected. Officials declined to say whether it amounted to acceptance or rejection. Abbas Araghchi presented it to the president at Wednesday&rsquo;s cabinet meeting, and the response was conciliatory rather than defiant: the agreement &ldquo;must now be based on a win-win strategy&rdquo;, Masoud Pezeshkian said.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The dispute has narrowed to sequence, which is progress of a kind. An official briefed on the negotiations said the two sides &ldquo;largely agree about the steps that are needed but still disagree about the order in which to take them&rdquo;. Tehran wants the blockade lifted, its frozen assets released and oil sanctions waived before it reopens the Strait of Hormuz; Washington wants the strait open first. Neither can move first without appearing to have lost, which is why a week of mediation has produced an argument about order rather than substance. The more telling detail is what Tehran did not do: there was no rejection and no denunciation, only a cabinet readout built around a promise to &ldquo;make every effort to bring the agreement to fruition&rdquo;. The economic clock runs against it. The rial has passed two and a half million to the dollar, and Gulf oil and fuel exports have been rerouted back to roughly 21.8 million barrels a day against a pre-war 23.3 million, steadily draining the value of the chokepoint Iran is holding. Watch whether Qatar shuttles again this week.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="17:53" data-slug="russia-nuclear-warning-kaliningrad">
+ <h4>Russia Warns of a Nuclear Response if Kaliningrad Is Cut Off</h4>
+ <p>Moscow has told NATO in writing that it would be ready to use its entire arsenal, nuclear weapons included, if alliance members tried to isolate its Baltic exclave from the rest of the country. The alliance confirmed receiving the document and said it had replied. &ldquo;We strongly denounce the threat of force, including any irresponsible nuclear rhetoric,&rdquo; the NATO spokesperson Allison Hart said. Russian embassies across Europe issued similar statements this week.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">Kaliningrad is the most awkward geography in the alliance: a heavily militarised Russian salient wedged between Poland and Lithuania, home to the main Baltic naval base and to nuclear-capable Iskander missiles, and reachable overland from Russia only through the narrow corridor between the two. A blockade of it is the standard war-game scenario for a clash between Russia and NATO, which is why Moscow&rsquo;s claim to hold &ldquo;information that NATO is preparing an air and naval blockade&rdquo; does double duty as grievance and as pretext. The embassy in Ireland put the threat plainly on Tuesday: &ldquo;There should be no mistake &mdash; Russia would be ready to use all its arsenal, including nuclear weapons, to defend its territory if NATO countries try to isolate Kaliningrad region from the rest of the country.&rdquo; The reply was narrow and deliberate: Russia &ldquo;sent a non-paper&rdquo;, the alliance responded &ldquo;noting that Nato is a defensive Alliance and none of our activities or exercises pose a risk to any part of Russia&rdquo;. Dmitry Peskov deflected to what he called &ldquo;rampant statements&rdquo; from Poland and other European nations. Watch whether NATO publishes its written reply.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="16:24" data-slug="russia-winter-campaign-ukraine-grid">
+ <h4>Russia Opens Its Winter Campaign Against Ukraine's Power Grid</h4>
+ <p>At least seven people were killed, one of them a child, in the largest attack on Ukraine&rsquo;s energy infrastructure since the spring. Nearly 190 drones and ballistic missiles were launched, of which five missiles and 155 drones were brought down, and the air-raid alert ran for more than twelve hours. Critical infrastructure was damaged in five regions with further damage in five more. Kyiv woke under thick, acrid smoke.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">Russia has gone after the grid every winter of this war, but the significance tonight is calendrical: Ukrainian ministers are describing this as the opening of the 2026-27 campaign, and the weather service forecasts the first overnight frosts from Thursday. The prime minister Serhii Koretskyi said an attack of this scale &ldquo;has occurred for the first time since the end of the last heating season&rdquo;, and that &ldquo;since the summer, there has effectively not been a single day without enemy attacks on our energy infrastructure&rdquo;. Moscow named the Trypilska plant, the largest supplier of electricity to the capital, among its targets, and the operator confirmed damage. The method has evolved &mdash; jet-powered drones by day to exhaust interceptors, ballistic missiles by night to beat them &mdash; with 3,177 jet drones launched in September against 2,850 in August. The foreign minister Andrii Sybiha said Moscow was &ldquo;trying to turn cold, darkness, and disruption into weapons&rdquo;. A drone crossed into Moldova and exploded near a village in the east, and Poland and Romania both scrambled jets. Watch whether air-defence pledges turn into deliveries before the frosts arrive.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="17:51" data-slug="flydubai-copilot-stabbing-diverted">
+ <h4>Co-Pilot Stabs Captain and 'Apparently Tried to Crash' Tel Aviv Flight</h4>
+ <p>A flight from Dubai to Tel Aviv carrying at least 150 people, almost all of them Israeli, was diverted to Saudi Arabia after one pilot stabbed the other and &ldquo;apparently tried to crash the plane&rdquo;, Benjamin Netanyahu said. Both the captain and the first officer were injured and taken to hospital. The pilot accused of the attack was arrested and is being questioned by Saudi authorities. All passengers are safe and accounted for.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The flight data tells the story in transponder codes. Flydubai FZ1073 left Dubai at five past three in the morning and, about two and a half hours later, dropped more than seventeen thousand feet in under two minutes. Minutes after that it signalled the general emergency code 7700, then switched to 7500 &mdash; the code reserved for a hijacking &mdash; briefly crossed into Jordanian airspace, looped back into Saudi Arabia and began a manual descent into Tabuk, prompting Israel to deploy warplanes. The airline&rsquo;s account is narrower than the Prime Minister&rsquo;s. It describes an altercation on the flight deck, says the aircraft was secured by on-duty crew travelling on board, and asks everyone to wait: &ldquo;the underlying reasons and motives behind this event are unknown and remain subject to a formal investigation&hellip; We urge all parties to refrain from premature speculation while authorities gather the facts.&rdquo; The defence minister Israel Katz had already called it an &ldquo;attempted jihadist terror attack&rdquo;. There has still been no official confirmation that it was a hijacking attempt. Watch what the Saudi authorities establish, since the aircraft, the suspect and the evidence are all in their jurisdiction.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="15:04" data-slug="tigray-alamata-52-civilians-killed">
+ <h4>At Least 52 Civilians Killed as Ethiopia Retakes a Tigray Town</h4>
+ <p>Hospital sources put the civilian death toll at 52 after three days of heavy fighting around Alamata in northern Tigray. Government troops appear to have taken the town from regional forces and intend to push north towards Mekelle, the region&rsquo;s main city. Each side accuses the other of breaking the 2022 agreement that ended a two-year civil war, and of starting this round of it.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The Pretoria agreement has been eroding for years rather than collapsing this week, and the argument over who fired first is itself part of the war: the party that runs Tigray says it was answering a federal offensive that included drone strikes, while the government says Tigrayan forces attacked first after seizing airports across the region. Almost none of it can be verified, because communications to the area have been cut. The spread matters more than the town. Fighting has reached neighbouring Amhara, where a local militia has allied itself with Tigrayan fighters, and 33 tourists have been stranded for a week in Lalibela, the Unesco site whose thirteenth-century rock-hewn churches are a holy place for millions of Orthodox Christians; its airport closed to commercial flights last Wednesday and fourteen Israeli visitors were lifted out by military helicopter on Monday. Earlier in September seven armed movements formed an alliance whose stated purpose is removing the government in Addis Ababa, which accuses Eritrea of backing them. Asmara denies it. Watch whether the push north reaches Mekelle.</div>
+ </details>
+ </div>
+ </div>
+
+ <div class="curated-column">
+ <h3><span class="dot dom"></span><span class="dot-label">UK</span> UK Domestic Politics</h3>
+ <div class="curated-item" data-time="15:59" data-slug="burnham-strong-indications-iran-fairford">
+ <h4>Burnham Says There Are 'Strong Indications' Iran Was Involved</h4>
+ <p>The Prime Minister has said the government believes Iran played a part in the incident at RAF Fairford, where five men were arrested and later bailed. &ldquo;There are strong indications that Iran played a part in what happened over the weekend at RAF Fairford,&rdquo; he said, offering no further detail. Tehran denies any involvement, and its London embassy &ldquo;categorically rejects and strongly condemns&rdquo; what it called unfounded and malicious speculation.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">A serving prime minister naming a foreign state while a criminal investigation is live and the suspects are on bail is unusual and legally delicate. If the attribution holds, it makes Fairford the first attempt to act on a threat Iran issued openly: the Gloucestershire base has been a United States Air Force forward operating location for decades, American bombers have flown from it to the Middle East since Britain approved a request to use it for what it called defensive strikes, and in July Tehran said &ldquo;any base used for aggression against Iranian territory constitutes a legitimate target for our forces&rdquo;. What was found in the three vans was petrol, not explosives. The five are British nationals aged between 23 and 25, four living in Westminster and one in Camden, the searches of their homes are complete, and the cordon came down on Wednesday afternoon. On the bail decision the President openly questioned &mdash; &ldquo;I would have said, don&rsquo;t let them have bail&rdquo; &mdash; the Prime Minister insisted on the &ldquo;strictest possible bail conditions&rdquo; and said the authorities &ldquo;have this under the strongest grip and closest control&rdquo;. Watch whether a Commons statement follows when MPs return on 12 October.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="11:08" data-slug="grenfell-file-54-individuals-20-companies">
+ <h4>Police Seek Charges Against 54 People and 20 Companies Over Grenfell</h4>
+ <p>The Metropolitan Police has submitted its final investigation file on the Grenfell Tower fire to the Crown Prosecution Service, seeking charges against 54 individuals and 20 companies. The offences sought include corporate manslaughter, gross negligence manslaughter, health and safety breaches, fraud and misconduct in public office. Kensington and Chelsea council and the housing department have both been referred. Charging decisions are promised before the tenth anniversary on 14 June 2027.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">Seventy-two people died in June 2017, and the investigation behind this file cost &pound;150m and examined the conduct of some 15,000 people across 700 organisations &mdash; which the force describes, without much exaggeration, as one of the most complex investigations ever undertaken by any British law enforcement agency. The council has confirmed the three offences it has been referred for: corporate manslaughter, section 3 of the Health and Safety at Work Act 1974, and acting contrary to the Regulatory Reform (Fire Safety) Order 2005. Its leader Elizabeth Campbell said the authority&rsquo;s &ldquo;commitment to candour, openness, and accountability has not changed&rdquo;. The detail that sits least comfortably is central rather than local: Angela Rayner confirmed that the housing ministry, the department responsible for building safety, has itself been under investigation since 2023. Corporate manslaughter convictions against large organisations remain rare in England, which is why the number of defendants matters less than whether prosecutors are willing to charge an institution rather than only the individuals inside it. Watch which of the twenty companies, if any, is named first.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="16:06" data-slug="burnham-eu-referendum-possible-macron">
+ <h4>Burnham Opens the Door to a New Referendum on EU Membership</h4>
+ <p>The Prime Minister said it is &ldquo;possible&rdquo; that a future Labour manifesto could promise an in-out referendum on the European Union, while insisting a vote &ldquo;wouldn&rsquo;t be the right thing to do right now&rdquo;. He set out the choices as staying exactly as Britain is, a customs union, the single market, &ldquo;or we could go all the way&rdquo;. From Madrid, Emmanuel Macron answered in English: &ldquo;Welcome back.&rdquo;</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">This is the clearest break yet from a manifesto that ruled out the customs union, the single market and freedom of movement, and promised only to make Brexit work. In May, standing in the by-election that returned him to Parliament, he promised not to &ldquo;re-run&rdquo; Brexit arguments and said he was &ldquo;not proposing that the UK considers rejoining the EU&rdquo;. Pressed on Wednesday, the answer was: &ldquo;Yes, things are possible. I think where we are isn&rsquo;t good enough.&rdquo; The French president went well beyond politeness, calling Brexit &ldquo;the biggest lie of the last 30 years&rdquo; and ruling out any halfway house: &ldquo;You cannot choose between the freedoms of the union, nor can you decide to take what suits you and leave the rest. So, come back.&rdquo; Pedro S&aacute;nchez said Spain would open its arms. The technical obstacles are unchanged &mdash; a customs union requires full alignment with European trade policy and tariffs, the single market requires free movement &mdash; and the rebate and opt-outs are gone. Reform&rsquo;s deputy leader Richard Tice accused him of &ldquo;trying to sneak us back into Brussels via the back door&rdquo;. Watch the Commons debate on 12 October and the Brussels summit in November.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="17:11" data-slug="one-in-one-out-france-scrapped">
+ <h4>'One In, One Out' Returns Deal With France Is Scrapped</h4>
+ <p>The pilot under which Britain returned small-boat arrivals to France in exchange for accepting an equal number of people with legitimate claims has been abandoned. About 1,500 people were removed in just over a year, a scale ministers judged insufficient, and the scheme is no longer processing new cases. Removal flights will continue. The French interior ministry said the two sides are &ldquo;discussing&hellip; the terms of exit from the agreement&rdquo;.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The scheme was always defended on deterrence rather than volume, which is what makes ending it awkward. Shabana Mahmood conceded this month that it had &ldquo;not been without its challenges&rdquo; and that &ldquo;the numbers are still relatively small&rdquo;, the difficulty being &ldquo;to scale up very large numbers of removals every week into the French system&rdquo;. But she also argued that the United Nations and other agencies had reported some people declining to board boats because they believed they might be accepted under it &mdash; which is an argument for keeping a scheme, not for scrapping one. The crossing figures are genuinely better: 19,135 people so far this year against 32,188 in the same period of 2025, a fall of 42%. The Home Office says &ldquo;lessons learned&rdquo; will be used to &ldquo;accelerate efforts&rdquo; to return those with no right to remain, which is the language of having nothing ready yet. Watch what replaces the returns mechanism, because it goes with the scheme.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="19:02" data-slug="esther-rantzen-dies-assisted-dying">
+ <h4>Dame Esther Rantzen Dies Nineteen Days After the Assisted Dying Vote</h4>
+ <p>The broadcaster and Childline founder has died aged 86, nineteen days after MPs rejected the bill she had spent her final years campaigning for. Diagnosed with stage four lung cancer in January 2023, she became the most prominent public advocate of a change in the law. Her family paid tribute to the &ldquo;most wonderful mother&rdquo; and a &ldquo;cherished grandmother&rdquo; who will be remembered for her &ldquo;endless capacity for joy&rdquo;.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The politics of her last years were unusually personal, and she made them so deliberately. She joined the Swiss clinic Dignitas in December 2023, and said this month that she had become &ldquo;too physically fragile&rdquo; to travel there despite having &ldquo;spent the money and made the plans&rdquo;. Her verdict on the law that kept her in Britain was unsparing: &ldquo;I knew it would be like this if I died in this country because the current criminal law preventing anyone to help me shorten my death is messy and cruel.&rdquo; She measured the cost in the people around her, who &ldquo;either cannot visit me, or when they do, see me suffering pain or indignity&rdquo;. On 11 September the Commons voted the Terminally Ill Adults (End of Life) Bill down by 286 to 270, reversing the 314 to 291 in favour recorded the previous June. Her response was that it was a &ldquo;tragic day&rdquo;, and that &ldquo;I am sure a change in the law will come. I am deeply sad that it won&rsquo;t come soon enough for many of the people who need it.&rdquo; Watch whether any member brings the bill back in this Parliament.</div>
+ </details>
+ </div>
+ </div>
+ </div>
+ <div class="one-to-read">
+ <span class="otr-label">One To Read</span>
+ <a href="https://www.theguardian.com/education/2026/sep/30/mi5-china-alert-uk-universities-funding-financing" target="_blank" rel="noopener noreferrer">
+ <h4>What MI5's China Alert Means for Cash-Strapped Universities</h4>
+ <span class="otr-source">The Guardian</span>
+ <span class="otr-dot">&middot;</span>
+ <span class="otr-desc">MI5 has warned that more than 100 UK-linked academics unwittingly worked on research funded through a Chinese intelligence front company. This explains why universities turned to Chinese money in the first place, and what cutting those ties will cost a sector already short of funding.</span>
+ </a>
+ </div>
+ <!-- SOURCES USED
+ - https://www.bbc.co.uk/news/articles/cjwyz59k5y75o &mdash; BBC News: Burnham's "strong indications" attribution, the bail exchange with the President, the five suspects, petrol and no explosives, the Iranian embassy rejection, July's "legitimate target" statement
+ - https://www.bbc.co.uk/news/articles/c6j9xmd0730mo &mdash; BBC News: the cordon coming down on Wednesday afternoon and the completed house searches
+ - https://www.bbc.co.uk/news/articles/cmwyz5v5zdpdo &mdash; BBC News: 54 individuals and 20 companies, the offences sought, the council and housing-department referrals, Elizabeth Campbell, Angela Rayner on the ministry investigation, the 14 June 2027 deadline
+ - https://www.bbc.co.uk/news/articles/cmwyz5v5zdpdo &mdash; BBC News: the £150m cost of Operation Northleigh, 15,000 people across 700 organisations, the force's own account of its complexity
+ - https://news.sky.com/story/cps-asked-to-consider-manslaughter-charges-against-firms-and-people-over-grenfell-fire-13593597 &mdash; Sky News: independent corroboration that the CPS referral was public on 30 September and concerns manslaughter charges against firms and individuals; its 11:04 publication is the basis for the item's timestamp (feed-level only, article body blocked)
+ - https://www.bbc.co.uk/news/articles/cmlyewr0lnj3o &mdash; BBC News: "Yes, things are possible", the four options, "wouldn't be the right thing to do right now", Richard Tice and the Conservative response
+ - https://www.theguardian.com/world/2026/sep/30/macron-welcome-back-burnham-suggestion-uk-could-rejoin-eu &mdash; The Guardian: Macron's "Welcome back", "the biggest lie of the last 30 years", "So, come back", Sánchez opening Spain's arms, the November Brussels summit
+ - https://www.bbc.co.uk/news/articles/cmlyewr0lnj3o &mdash; BBC News: Burnham's own wording on the customs union, the single market and "go all the way"
+ - https://www.independent.co.uk/bulletin/news/burnham-brexit-eu-george-osborne-b3059005.html &mdash; The Independent: the Commons debate on UK-EU relations listed for 12 October
+ - https://www.bbc.co.uk/news/articles/c64gvnv4eqylo &mdash; BBC News: the scheme scrapped, about 1,500 removals, the Home Office statement, the French interior ministry, Mahmood's evidence to MPs, 19,135 crossings against 32,188
+ - https://www.bbc.com/news/live/cq2dwn5z7n1lt &mdash; BBC News: the death announced at 19:02, Childline, the January 2023 diagnosis, the family tribute
+ - https://news.sky.com/story/broadcaster-and-campaigner-dame-esther-rantzen-dies-13593676 &mdash; Sky News: independent corroboration of the death and of her standing as a campaigner (feed-level only, article body blocked)
+ - https://www.independent.co.uk/news/uk/politics/assisted-dying-bill-vote-mps-esther-rantzen-b3048780.html &mdash; The Independent: "messy and cruel", "too physically fragile", Dignitas, the 286-270 vote against the previous 314-291, "tragic day"
+ - https://www.bbc.co.uk/news/articles/cwz0zvj4m1myo &mdash; BBC News: the January forecast of £1,999, a £276 and 16% rise, Simone Rossi's "second energy crisis", Craig Lowrey on the timing, the VAT cut worth about £45, Burnham on "breathing space"
+ - https://www.ofgem.gov.uk/your-energy-supply/your-energy-bill/energy-price-cap-unit-rates-and-standing-charges &mdash; Ofgem: the cap at £1,723 from 1 October, VAT removed from electricity 1 October to 31 March 2027, 5% VAT retained on gas
+ - https://www.timesofisrael.com/iran-indicates-it-received-official-us-response-to-latest-offer-on-ending-war &mdash; Times of Israel, carrying Reuters: the US response received, Araghchi presenting it to the cabinet, Pezeshkian's "win-win" statement, the Reuters-sourced sequencing quote, the terms of Iran's offer
+ - https://www.iranintl.com/en/202609302668 &mdash; Iran International (facts only): the rial past 2.5 million to the dollar on 30 September
+ - https://www.cbsnews.com/live-updates/iran-war-us-negotiations-strait-of-hormuz-oil/ &mdash; CBS News: Gulf oil and fuel exports at roughly 21.8m barrels a day against a 23.3m pre-war baseline
+ - https://www.independent.co.uk/news/world/europe/nato-kaliningrad-russia-brussels-moscow-b3059246.html &mdash; The Independent: the written warning, Allison Hart's denunciation, the Russian embassy statement, Peskov's "rampant statements", the Iskander deployment
+ - https://www.theguardian.com/world/2026/sep/30/ukraine-war-briefing-nato-condemns-moscows-irresponsible-nuclear-rhetoric-as-strikes-on-kyiv-intensify &mdash; The Guardian: Hart's full quote confirming the non-paper and NATO's reply
+ - https://www.irishtimes.com/world/europe/2026/09/30/at-least-seven-reported-killed-as-russia-attacks-ukraines-energy-grid/ &mdash; The Irish Times: seven killed including a child, nearly 190 drones, five missiles and 155 drones downed, the twelve-hour alert, five regions, the Moldovan drone, the Polish and Romanian scrambles
+ - https://www.bbc.co.uk/news/articles/ckjw5jx2l393o &mdash; BBC News: the largest attack since spring, Koretskyi's quotes, the Trypilska plant, DTEK's restored supply, the smoke over Kyiv
+ - https://abcnews.com/International/wireStory/russia-pounds-kyiv-region-killing-4-targeting-power-136881645 &mdash; AP wire on ABC News: Sybiha on turning "cold, darkness, and disruption into weapons", 3,177 jet drones in September against 2,850 in August
+ - https://www.bbc.co.uk/news/articles/cqjdv7pmj9dno &mdash; BBC News: Netanyahu's account, the injured captain and first officer, the arrest, the squawk 7700 and 7500 sequence, the rapid descent, Katz's characterisation
+ - https://www.aljazeera.com/news/2026/9/30/what-happened-on-diverted-flydubai-flight-from-dubai-to-tel-aviv &mdash; Al Jazeera, carrying Reuters: the airline's statement against "premature speculation", the aircraft secured by on-duty crew, the landing at Tabuk, Israeli warplanes deployed, no official confirmation of a hijacking
+ - https://www.bbc.co.uk/news/articles/c6grveejg1e2o &mdash; BBC News: 52 civilians killed, Alamata taken, the push towards Mekelle, the 33 stranded tourists in Lalibela, the seven-movement alliance, the Eritrea accusation
+ - https://www.theguardian.com/education/2026/sep/30/mi5-china-alert-uk-universities-funding-financing &mdash; The Guardian &mdash; One To Read: why universities took Chinese funding and what severing the CGTRI link costs a sector already short of money
+ - https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?requestMethod=itv&noform=1&partnerId=2&fund=1&exthrs=1&output=json&symbols=.FTSE|.SPX|GBP=|XAU=|BTC.CM=|US10Y|@LCO.1|@LCO.2|EURGBP=|UK10Y-GB|.VIX &mdash; CNBC quote endpoint: the ticker levels for all ten instruments, read 19:08 BST, all eleven symbols returned with no nulls
+ - https://tradingeconomics.com/united-kingdom/government-bond-yield &mdash; Trading Economics (data only): the ten-year gilt at 5.44%, a 0.05-point rise on the session and its highest since July 2007, used to adjudicate the gilt change after CNBC revised its previous close twice in one day
+ - https://tradingeconomics.com/united-kingdom/30-year-bond-yield &mdash; Trading Economics (data only): the thirty-year gilt at 5.96%, corroborating the same understatement in CNBC's previous-close field
+ - Full ticker adjudication, including the ECB reference-rate cross-check on euro-sterling and the unrolled Brent November contract, recorded in cache/2026-09-30/markets-SUMMARY-EVENING.txt
+ END SOURCES USED -->
+</div><!-- ── END EVENING 30 SEP (19:26) ── -->
+
 <!-- ── MORNING 30 SEP (07:54) ── -->
 <div class="curated-edition morning" data-date="2026-09-30" data-time="07:54" data-markets='{"FTSE":{"price":10636.71,"change":-0.45},"SP":{"price":7670.84,"change":-0.17},"Brent":{"price":103.34,"change":0.73},"GBP":{"price":1.325,"change":0.16},"Gold":{"price":4181.94,"change":0.03},"EURGBP":{"price":0.8565,"change":-0.04},"Gilt":{"price":5.38,"change":-0.03},"VIX":{"price":16.04,"change":-0.19},"BTC":{"price":83035,"change":-0.61},"UST":{"price":5.23,"change":-0.03},"ts":"2026-09-30T07:54:00+01:00"}'>
  <div class="edition-header">

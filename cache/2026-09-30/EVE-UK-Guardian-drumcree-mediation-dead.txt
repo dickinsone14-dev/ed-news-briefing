@@ -1,0 +1,223 @@
+URL: https://www.theguardian.com/uk-news/2026/sep/30/drumcree-parade-mediation-dead-in-the-water-say-nationalists
+The Guardian, published Wed 30 Sep 2026 10:06 BST
+
+Northern Ireland secretary holding talks with both sides as Garvaghy Road group launches fresh legal challenge
+
+UK politics live – latest updates
+
+Close dialogue1/2Next imagePrevious imageToggle captionPrint subscriptionsSearch jobs Sign indocument.addEventListener('DOMContentLoaded', function () {
+
+					/** The checkbox input element used to toggle the navigation menu. */
+					const navInputCheckbox = document.getElementById('header-nav-input-checkbox');
+
+					/** The veggie burger button element used to open/close the menu. */
+					const veggieBurger = document.getElementById('header-veggie-burger');
+
+					/** List of menu items that should be selectable when the menu is open. */
+					const expandedMenuClickableTags = document.querySelectorAll(
+						'.selectableMenuItem',
+					);
+
+					/** The root element of the expanded menu. */
+					const expandedMenu = document.getElementById('header-expanded-menu-root');
+
+					/** The label for the first column in the menu, assumed to be "News".*/
+					const firstColLabel = document.getElementById('News-button');
+
+					/** The link element in the second list item under news links. */
+					const firstColLink = document.querySelector(
+						'#newsLinks > li:nth-of-type(2) > a',
+					);
+
+					/**
+					 * Focuses on the first navigation element depending on whether the first column label is visible.
+					 *
+					 * If the first column label is not visible, the function focuses on the first link element.
+					 * Otherwise, it focuses on the first column label.
+					 */
+					const focusOnFirstNavElement = () => {
+						if (window.getComputedStyle(firstColLabel).display === 'none') {
+							firstColLink.focus();
+						} else {
+							firstColLabel.focus();
+						}
+					};
+
+					/**
+					 * Updates ARIA attributes and tabindex values based on whether the menu is open or closed.
+					 */
+					const updateAttributesForMenu = (isOpen) => {
+						firstColLabel.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+						veggieBurger.setAttribute(
+							'data-link-name',
+							isOpen
+								? 'header : veggie-burger : hide'
+								: 'header : veggie-burger : show',
+						);
+						expandedMenuClickableTags.forEach((tag) => {
+							tag.setAttribute('tabindex', isOpen ? '0' : '-1');
+						});
+					};
+
+					/** Toggles the navigation menu by simulating a click on the checkbox. */
+					const toggleMainMenu = () => {
+						if (navInputCheckbox) {
+							navInputCheckbox.click();
+						}
+					};
+
+					/**
+					 * Handles keydown events to toggle the menu when the Enter or Space key is pressed.
+					 */
+					const keydownToggleMainMenu = (e) => {
+						if (e.key === 'Enter' || e.key === ' ') {
+							e.preventDefault();
+							toggleMainMenu();
+						}
+					};
+					/**
+					 * Handles click events to manage the state of the navigation menu.
+					 *
+					 * - Toggles the menu open/close state when the menu button (veggieBurger) is clicked.
+					 */
+						const handleMenuClick = (e) => {
+							const menuButtonClicked = navInputCheckbox === e.target;
+							const clickInsideMenu = expandedMenu.contains(e.target);
+							const menuIsOpen = navInputCheckbox.checked
+							if (menuButtonClicked && !menuIsOpen) {
+						    document.body.classList.toggle('nav-is-open')
+
+							firstColLabel.setAttribute('aria-expanded', 'false')
+                            veggieBurger.setAttribute('data-link-name','header : veggie-burger : show')
+                            expandedMenuClickableTags.forEach(function($selectableElement){
+                                $selectableElement.setAttribute('tabindex','-1')
+                            })
+                          } else if (menuButtonClicked && menuIsOpen) {
+						    document.body.classList.toggle('nav-is-open')
+							firstColLabel.setAttribute('aria-expanded', 'true')
+                            veggieBurger.setAttribute('data-link-name','header : veggie-burger : hide')
+                            expandedMenuClickableTags.forEach(function($selectableElement){
+                                $selectableElement.setAttribute('tabindex','0')
+                            })
+                            focusOnFirstNavElement()
+							}
+						};
+
+					/** Adds event listeners to manage the navigation menu. */
+					if (navInputCheckbox) {
+						navInputCheckbox.addEventListener('click', handleMenuClick);
+						veggieBurger.addEventListener('keydown', keydownToggleMainMenu);
+						document.addEventListener('keydown', (e) => {
+							if (e.key === 'Escape' && navInputCheckbox.checked) {
+								toggleMainMenu();
+								veggieBurger.focus();
+							}
+						});
+					/**
+					 * Handles mouse down events to manage the state of the navigation menu.
+					 *
+					 * - Closes the menu if the click occurs outside both the menu button and the expanded menu.
+					 */
+					document.addEventListener('mousedown', function(e){
+						if(navInputCheckbox.checked && !expandedMenu.contains(e.target) && !veggieBurger.contains(e.target)){
+						toggleMainMenu()
+							}
+						});
+					}
+				});UKUK editionUS editionAustralia editionEurope editionInternational editionThe Guardian - Back to homeThe GuardianNewsOpinionSportCultureLifestyleShow moreHide expanded menudocument.addEventListener('DOMContentLoaded', function(){
+                        var columnInput = document.getElementById('News-button');
+
+						if (!columnInput) return; // Sticky nav replaces the nav so element no longer exists for users in test.
+
+						columnInput.addEventListener('keydown', function(e){
+                            // keyCode: 13 => Enter key | keyCode: 32 => Space key
+                            if (e.keyCode === 13 || e.keyCode === 32) {
+                                e.preventDefault()
+                                document.getElementById('News-checkbox-input').click();
+                            }
+                        })
+                    })NewsView all NewsUK newsUS politicsWorld newsClimate crisisMiddle EastUkraineFootballNewslettersBusinessEnvironmentUK politicsScienceTechGlobal developmentObituariesdocument.addEventListener('DOMContentLoaded', function(){
+                        var columnInput = document.getElementById('Opinion-button');
+
+						if (!columnInput) return; // Sticky nav replaces the nav so element no longer exists for users in test.
+
+						columnInput.addEventListener('keydown', function(e){
+                            // keyCode: 13 => Enter key | keyCode: 32 => Space key
+                            if (e.keyCode === 13 || e.keyCode === 32) {
+                                e.preventDefault()
+                                document.getElementById('Opinion-checkbox-input').click();
+                            }
+                        })
+                    })OpinionView all OpinionThe Guardian viewColumnistsCartoonsOpinion videosLettersdocument.addEventListener('DOMContentLoaded', function(){
+                        var columnInput = document.getElementById('Sport-button');
+
+						if (!columnInput) return; // Sticky nav replaces the nav so element no longer exists for users in test.
+
+						columnInput.addEventListener('keydown', function(e){
+                            // keyCode: 13 => Enter key | keyCode: 32 => Space key
+                            if (e.keyCode === 13 || e.keyCode === 32) {
+                                e.preventDefault()
+                                document.getElementById('Sport-checkbox-input').click();
+                            }
+                        })
+                    })SportView all SportFootballCricketRugby unionTennisCyclingF1GolfBoxingRugby leagueRacingUS sportsdocument.addEventListener('DOMContentLoaded', function(){
+                        var columnInput = document.getElementById('Culture-button');
+
+						if (!columnInput) return; // Sticky nav replaces the nav so element no longer exists for users in test.
+
+						columnInput.addEventListener('keydown', function(e){
+                            // keyCode: 13 => Enter key | keyCode: 32 => Space key
+                            if (e.keyCode === 13 || e.keyCode === 32) {
+                                e.preventDefault()
+                                document.getElementById('Culture-checkbox-input').click();
+                            }
+                        })
+                    })CultureView all CultureFilmMusicTV & radioBooksArt & designStageGamesClassicaldocument.addEventListener('DOMContentLoaded', function(){
+                        var columnInput = document.getElementById('Lifestyle-button');
+
+						if (!columnInput) return; // Sticky nav replaces the nav so element no longer exists for users in test.
+
+						columnInput.addEventListener('keydown', function(e){
+                            // keyCode: 13 => Enter key | keyCode: 32 => Space key
+                            if (e.keyCode === 13 || e.keyCode === 32) {
+                                e.preventDefault()
+                                document.getElementById('Lifestyle-checkbox-input').click();
+                            }
+                        })
+                    })LifestyleView all LifestyleThe FilterFashionFoodRecipesTravelHealth & fitnessWomenMenLove & sexBeautyHome & gardenMoneyCarsSearch input google-search SearchSupport usPrint subscriptionsSearch jobsHire with Guardian JobsHolidaysLive eventsAbout UsDigital ArchiveGuardian Print ShopPatronsGuardian LicensingThe Guardian appVideoPodcastsPicturesNewslettersToday's paperInside the GuardianGuardian WeeklyCrosswordsWordiplyCorrectionsTipsSearch input google-search SearchSearch jobsHire with Guardian JobsHolidaysLive eventsAbout UsDigital ArchiveGuardian Print ShopPatronsGuardian LicensingUKUK politicsEducationMediaSocietyLawScotlandWalesNorthern Ireland People gathered on Garvaghy Road, a Catholic area in the largely Protestant town of Portadown, on Sunday to protest against the Orange Order march. Photograph: Cathal McNaughton/ReutersView image in fullscreenPeople gathered on Garvaghy Road, a Catholic area in the largely Protestant town of Portadown, on Sunday to protest against the Orange Order march. Photograph: Cathal McNaughton/ReutersNorthern IrelandMediation over Drumcree parade is ‘dead in the water’, say nationalistsNorthern Ireland secretary holding talks with both sides as Garvaghy Road group launches fresh legal challenge
+
+Prefer the Guardian on GoogleTalks to break the deadlock over the controversial Drumcree parade will continue with the Northern Ireland secretary, Chris Bryant, on Wednesday as nationalist protesters declare the prospect of mediation with unionists “dead in the water”.
+
+The nationalist Garvaghy Road Residents’ Coalition has at the same time launched a fresh legal challenge to reimpose the almost 30-year ban on the Orange Order marching down their road, mounting fresh arguments that the Parades Commission has “materially misdirected itself”.
+
+Breandán Mac Cionnaith, the leader of the group, said his goal was “no parade, just no parade, that is what our community wants, that’s what nearly 4,000 people living in our community wants … that’s our mandate”.
+
+After his meeting with Bryant on Tuesday he told residents at the local pastoral centre that mediation was “dead in the water”.
+
+Members of the Portadown Orange Order left Drumcree church, the start point for the parade, overnight on Tuesday for the first time since the dispute over their march erupted on Sunday morning.
+
+View image in fullscreenBreandán Mac Cionnaith of the Garvaghy Road Residents’ Coalition said his community wanted ‘no parade’. Photograph: Liam McBurney/PAThey made a further attempt to walk the route down the nationalist Garvaghy Road just after 10pm on Tuesday night, accompanied by the DUP MP Carla Lockhart, and returned to the church on Wednesday morning having vowed to remain there until the police allowed them to complete the march.
+
+The Orange Order Portadown district master, Nigel Dawson, said he had “constructive” talks after his meeting with the Northern Ireland secretary over the possibility of a mediator on Tuesday night. “We look forward to the law being applied to the parade,” he added.
+
+The two groups will have further talks with Bryant on Wednesday and the Garvaghy Road court hearing is scheduled for Friday, but there is little sign of a breakthrough.
+
+The high court at a special sitting on Saturday heard that the documentation around the decision to allow the parade showed past risk assessments of disorder in relation to parade requests but none looking to the future.
+
+Under a heading on a form listing any risk of public disorder or damage to property, the commission’s information was “directed to the past”, their barrister, Denise Kiley KC, told the judge. “Nowhere do we see any assessment of future risk,” she said adding that it was “not clear who had provided this template” to the Parades Commission.
+
+Free newsletter |Every weekdaySign up to First Edition
+
+Our morning email breaks down the key stories of the day, telling you what’s happening and why it matters
+
+Read moreEfforts to end the dispute, which has heightened sectarian divisions in Northern Ireland, were also brought to Dublin where Sinn Féin’s leader, Mary Lou McDonald, and the Northern Ireland first minister, Michelle O’Neill, met Micheál Martin and Simon Harris, the leader and deputy leader of the Irish government.
+
+Martin has described the Parades Commission decision to allow the parade march down Garvaghy Road for the first time in almost 30 years as “incomprehensible and wrong”.
+
+McDonald said people were “gobsmacked” by the decision as it had “the potential to drag that community and society back to a very bad and very bleak days”.
+
+O’Neill has faced criticism from unionists after she and senior colleagues were among a large crowd that blockaded the road in the predominantly nationalist Garvaghy Road area on Sunday to prevent the parade from passing the route.
+
+Under parading laws in Northern Ireland, protests must be notified to, and approved by, the Parades Commission adjudication body and the gathering at the head of Garvaghy Road, that continues on Wednesday, has not yet been notified. However, police have not tried to break up the protest, fearing it could trigger violence.
+
+Bertie Ahern, the former taoiseach and co-architect of the 1998 peace deal that led to republicans and loyalists laying down their arms after 30 years of violence, warned of the dangers of returning to the “tribal past”.

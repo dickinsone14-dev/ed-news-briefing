@@ -1,0 +1,49 @@
+URL: (compiled) Wednesday 30 September 2026 ticker basis — verified 07:36-07:46 BST
+European equities have not opened (08:00 BST), so FTSE, S&P 500 and VIX carry TUESDAY 29 SEPTEMBER
+closes with Tuesday's changes. Brent, sterling, gold, euro-sterling, both yields and bitcoin are live.
+
+*** BRENT ROLL CHECK — DONE, AND IT HAS NOT ROLLED YET ***
+@LCO.1 still reads "ICE Brent Crude (Nov'26)" and is trading at 103.34, live 07:36 BST. The November
+contract expires TODAY, 30 September, but CNBC's front month has not switched. Dec'26 (@LCO.2) is at
+96.36, which is $6.98 BELOW the front month. So the apparent $7 fall is still ahead of us:
+>>> CHECK THE `name` FIELD ON @LCO.1 AGAIN TOMORROW, 1 OCTOBER. When it reads Dec'26, the ticker will
+>>> show a drop of about $7 that is a CONTRACT CHANGE, NOT A PRICE FALL. Say so in the Brent driver.
+
+PRIMARY SOURCE: CNBC quote endpoint, read 07:36-07:46 BST with a browser User-Agent and Referer.
+  .FTSE     10,636.71  -0.45%  prev 10,684.88  last_time 2026-09-29 (Tuesday close, pre-open)
+  .SPX       7,670.84  -0.17%  last_time 2026-09-29 (Tuesday close)
+  @LCO.1       103.34  +0.73%  prev 102.59   last_time 2026-09-30T07:36+0100  ICE Brent Nov'26
+  @LCO.2        96.36  +0.21%  prev  96.16   last_time 2026-09-30T07:36+0100  ICE Brent Dec'26
+  GBP=        1.3250  +0.16%  prev 1.3229   last_time 2026-09-30T02:45-0400
+  XAU=      4,181.94  +0.03%  prev 4,180.79 last_time 2026-09-30T02:45-0400
+  EURGBP=     0.8565  -0.035% prev 0.8568   last_time 2026-09-30T02:46-0400
+  UK10Y-GB   5.382%   prev 5.4147%  last_time 2026-09-30T06:46Z
+  .VIX         16.04  last_time 2026-09-29 (Tuesday close; CNBC prev field stale at 16.04)
+  BTC.CM=  83,034.83  -0.61%  prev 83,542.93 last_time 2026-09-30T02:45-0400
+  US10Y      5.23%    prev 5.255%   last_time 2026-09-30T02:45-0400
+
+PUBLISHED TICKER: FTSE 10,636.71 -0.45 | SP 7,670.84 -0.17 | Brent 103.34 +0.73 | GBP 1.3250 +0.16
+| Gold 4,181.94 +0.03 | EURGBP 0.8565 -0.04 | Gilt 5.38 -0.03 | VIX 16.04 -0.19 | BTC 83,035 -0.61
+| UST 5.23 -0.03
+Yields published as percentage-POINT changes (5.382-5.4147 = -0.033 -> -0.03; 5.23-5.255 -> -0.03).
+VIX: CNBC's prev field is stale at 16.04, so the change is computed from Monday's verified close of
+16.07 against Tuesday's 16.04, giving -0.19%. Both closes were independently confirmed earlier in the
+week, so this is arithmetic on verified figures rather than an estimate.
+
+THE DAY'S SHAPE: yields are EASING for the first time this week. The ten-year gilt is down to 5.38%
+from 5.4147% and the US ten-year down to 5.23% from 5.255%, after a run that took the thirty-year to
+its highest since 2004. Sterling firmer at 1.3250, gold flat, oil up slightly, bitcoin down 0.6%.
+
+A PARTIAL CNBC FAILURE, WORTH RECORDING: the first multi-symbol request returned NULL for Brent (all
+three contracts), euro-sterling, the gilt and the VIX while returning good data for FTSE, the S&P,
+sterling, gold, bitcoin and the US ten-year. Re-requesting the failed symbols in two smaller groups
+returned all of them correctly. So a null from this endpoint is not a market state; it is a partial
+response, and the fix is to re-request in smaller batches rather than to assume the instrument is not
+trading. This matters because a null on @LCO.1 on expiry day could easily be misread as the roll.
+
+FX CROSS-CHECK: Frankfurter's latest ECB reference is still dated 29 September (EURGBP 0.85718); no
+Wednesday fixing yet, as it publishes about 16:00 CET. CNBC's Tuesday close of 0.8568 agrees with the
+ECB's 0.85718 to four decimals, so the two providers remain aligned after last week's divergence.
+open.er-api.com (00:02 UTC) gives GBPUSD 1.322821 against CNBC's Tuesday close of 1.3229 — an exact
+match — with CNBC's live 1.3250 reflecting the overnight rise.
+Yahoo's chart API remains unusable, fifth day.

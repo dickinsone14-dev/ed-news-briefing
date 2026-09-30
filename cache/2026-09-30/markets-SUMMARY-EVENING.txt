@@ -1,0 +1,63 @@
+URL: (compiled) Wednesday 30 September 2026 EVENING ticker basis — verified 19:08-19:14 BST
+PRIMARY SOURCE: CNBC quote endpoint, read 19:08:15 BST, three batches, ALL 11 SYMBOLS RETURNED, no nulls.
+  Raw JSON saved alongside as evening-markets-CNBC-1908.json (line 1 of that file is the exact URL).
+
+  .FTSE     10,606.00  -0.29%  chg -30.71   prev 10,636.71  hi 10,725.31 lo 10,599.21  CLOSED 16:36 BST
+  .SPX       7,698.31  +0.36%  chg +27.47   prev  7,670.84  hi  7,722.88 lo  7,688.99  live 14:08 EDT
+  @LCO.1       103.62  +1.00%  chg  +1.03   prev   102.59   hi   104.05  lo   101.92   18:58 BST  Nov'26
+  @LCO.2        98.27  +2.19%  chg  +2.11   prev    96.16   hi    99.30  lo    95.12   18:58 BST  Dec'26
+  GBP=         1.3263  +0.26%  prev 1.3229  hi 1.3311 lo 1.3224
+  XAU=       4,149.00  -0.76%  prev 4,180.79 hi 4,218.16 lo 4,147.79
+  EURGBP=      0.8544  -0.28%  prev 0.8568  hi 0.8575 lo 0.8541
+  UK10Y-GB    5.438%   hi 5.4434% lo 5.3381% open 5.3788%  CNBC prev 5.4303%  (DISPUTED — see below)
+  UK30Y-GB    5.9608%  hi 5.9703% lo 5.8427%               CNBC prev 5.9523%  (DISPUTED — see below)
+  .VIX          15.88  -1.00%  prev 16.04   hi 16.32 lo 15.62
+  BTC.CM=   83,944.70  +0.48%  prev 83,542.93 hi 85,604.00 lo 82,920.10
+  US10Y        5.302%  chg +0.047  prev 5.255%  hi 5.306% lo 5.201%
+
+*** BRENT ROLL — STILL HAS NOT ROLLED, ON EXPIRY DAY ITSELF ***
+@LCO.1 still reads "ICE Brent Crude (Nov'26)" at 19:08 BST, expiration_date 2026-09-30, settleDate
+2026-09-29 at 102.59. So the front month has not switched even on its own expiry date. What HAS
+changed since this morning is the spread: Dec'26 rallied 2.19% to 98.27 while Nov'26 rose 1.00% to
+103.62, narrowing the gap from $6.98 this morning to $5.35 now. The step-down when CNBC switches is
+therefore smaller than it was at 07:36 but still material.
+>>> CHECK @LCO.1's `name` FIELD BEFORE THE MORNING BRIEF ON 1 OCTOBER. When it reads Dec'26 the
+>>> ticker will show a fall of roughly $5 that is A CONTRACT CHANGE, NOT A PRICE FALL.
+
+*** GILT ADJUDICATION — CNBC's previous_day_closing REJECTED, SIXTH TIME THIS WEEK ***
+CNBC gave Tuesday's 10-year close as 5.4147% at 07:36 this morning and as 5.4303% at 19:08 tonight.
+Two different values for the same settled close, from the same provider, on the same day. On the
+evening figure today's move would be +0.008pp; on the morning figure +0.023pp.
+INDEPENDENT ADJUDICATOR — Trading Economics, page updated 202609301800 (18:00 BST today), data only:
+  "The yield on United Kingdom 10Y Bond Yield rose to 5.44% on September 30, 2026, marking a 0.05
+   percentage points increase from the previous session." TEChartsMeta last = 5.4374.
+  That implies Tuesday's close was about 5.387%, and it is coherent with our own 07:36 reading of
+  5.382% — i.e. the gilt was roughly flat this morning and has risen through the afternoon.
+CORROBORATION — the same pattern appears on the 30-year, independently: Trading Economics has it
+"rose to 5.96%... marking a 0.04 percentage points increase", where CNBC's prev of 5.9523% would give
+only +0.0085pp. Two maturities, same direction of error, so this is CNBC's prev field being revised
+upward across the gilt curve rather than a one-off.
+DECISION: publish the gilt at 5.44 with a change of +0.05, on the Trading Economics basis. It is
+independently sourced, it is confirmed by the 30-year, and it is the only basis consistent with the
+5.38 this site published at 07:54 this morning. CNBC's level (5.438%) is accepted; only its prev is
+rejected.
+
+FX CROSS-CHECK — CLEAN. ECB daily reference rate via Frankfurter, dated 2026-09-30: EUR/GBP 0.85463.
+CNBC live 0.8544. Agreement to four decimals, so the two providers are aligned. open.er-api.com's
+00:02 UTC GBPUSD of 1.322821 matches CNBC's Tuesday close of 1.3229 exactly; CNBC's live 1.3263
+reflects the day's rise. Investing.com's historical endpoint returned 403; MarketWatch returned no
+parseable values. Yahoo's chart API remains unusable, sixth day.
+
+PUBLISHED TICKER: FTSE 10,606.00 -0.29 | SP 7,698.31 +0.36 | Brent 103.62 +1.00 | GBP 1.3263 +0.26
+| Gold 4,149.00 -0.76 | EURGBP 0.8544 -0.28 | Gilt 5.44 +0.05 | VIX 15.88 -1.00 | BTC 83,945 +0.48
+| UST 5.30 +0.05
+Yields are published as percentage-POINT changes, not percent changes.
+
+THE DAY'S SHAPE — A REVERSAL OF THIS MORNING. Yields eased overnight and then turned hard: the
+ten-year gilt fell to 5.3381% before running to 5.4434%, which Trading Economics records as the
+highest since July 2007, and the thirty-year touched 5.9703%. The US ten-year did the same thing,
+low 5.201% to a high of 5.306% that is its highest of the year (CNBC yrhidate 09/30/26), finishing
+at 5.302%. Gold reached 4,218.16 intraday, a fresh 52-week high (CNBC yrhidate 09/30/26), and then reversed to close near its low
+at 4,149.00, down 0.76% — a sharp turn off a record. The FTSE gave up a 10,725.31 high to finish
+0.29% lower. Sterling firmed to 1.3263 in spite of the gilt move, which is the notable divergence:
+UK fiscal stress usually takes the currency down with the bond, and it did not today.

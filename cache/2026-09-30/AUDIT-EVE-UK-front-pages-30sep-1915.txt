@@ -1,0 +1,16 @@
+URL: https://www.bbc.co.uk/news/uk
+LEAD-STORY AUDIT — live check via headless browser (Browserbase), Wednesday 30 September 2026, 19:14-19:22 BST
+
+BBC News UK homepage (https://www.bbc.co.uk/news/uk), checked 19:14 BST:
+TOP / LEAD ITEM: "LIVE — Dame Esther Rantzen dies aged 86" (red LIVE flag, lead slot, with strapline beginning "Her family paid tribute to her in a statement").
+Second visible item on the lead grid: an image of forensic officers examining a white van (RAF Fairford / Whelford investigation imagery).
+[Screenshot captured: screenshot-bbc-uk-homepage-30sep-1915-2026-09-30T18-12-17.464Z]
+NOTE: WebFetch is blocked for bbc.co.uk/bbc.com by the crawler user agent, and the Exa cached copy of this page was STALE (it served a mixed cache containing a 9/11 25th-anniversary item and "Posted 6 days ago 1 Aug" timestamps). The live browser check above is the reliable one and supersedes it.
+
+SECOND APPROVED UK FRONT PAGE — The Independent, UK section (https://www.independent.co.uk/news/uk), checked 19:22 BST:
+Lead slot: a "UK POLITICS"-tagged lead image of Andy Burnham.
+Second slot: "UK POLITICS" — "Does Britain want to rejoin the [EU]" (video), over an image of the EU flag flying by Big Ben.
+=> The Independent's UK front was led by Burnham and the EU-rejoin story.
+[Screenshot captured: screenshot-independent-uk-front-30sep-1922-2026-09-30T18-14-12.715Z]
+
+Attempted and failed: news.sky.com (HTTP "Access Denied" from the edge/Akamai), theguardian.com/uk (served the US edition behind a full-page privacy overlay).
