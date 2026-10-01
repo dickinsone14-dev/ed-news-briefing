@@ -1,0 +1,233 @@
+URL: https://www.theguardian.com/politics/2026/oct/01/labour-unease-healey-budget
+The Guardian, published Thu 1 Oct 2026 18:33 BST
+
+Chancellor faces global volatility and soaring energy costs as some insiders worry lack of clarity could trigger fresh market shock
+
+Close dialogue1/3Next imagePrevious imageToggle captionPrint subscriptionsSearch jobs Sign indocument.addEventListener('DOMContentLoaded', function () {
+
+					/** The checkbox input element used to toggle the navigation menu. */
+					const navInputCheckbox = document.getElementById('header-nav-input-checkbox');
+
+					/** The veggie burger button element used to open/close the menu. */
+					const veggieBurger = document.getElementById('header-veggie-burger');
+
+					/** List of menu items that should be selectable when the menu is open. */
+					const expandedMenuClickableTags = document.querySelectorAll(
+						'.selectableMenuItem',
+					);
+
+					/** The root element of the expanded menu. */
+					const expandedMenu = document.getElementById('header-expanded-menu-root');
+
+					/** The label for the first column in the menu, assumed to be "News".*/
+					const firstColLabel = document.getElementById('News-button');
+
+					/** The link element in the second list item under news links. */
+					const firstColLink = document.querySelector(
+						'#newsLinks > li:nth-of-type(2) > a',
+					);
+
+					/**
+					 * Focuses on the first navigation element depending on whether the first column label is visible.
+					 *
+					 * If the first column label is not visible, the function focuses on the first link element.
+					 * Otherwise, it focuses on the first column label.
+					 */
+					const focusOnFirstNavElement = () => {
+						if (window.getComputedStyle(firstColLabel).display === 'none') {
+							firstColLink.focus();
+						} else {
+							firstColLabel.focus();
+						}
+					};
+
+					/**
+					 * Updates ARIA attributes and tabindex values based on whether the menu is open or closed.
+					 */
+					const updateAttributesForMenu = (isOpen) => {
+						firstColLabel.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+						veggieBurger.setAttribute(
+							'data-link-name',
+							isOpen
+								? 'header : veggie-burger : hide'
+								: 'header : veggie-burger : show',
+						);
+						expandedMenuClickableTags.forEach((tag) => {
+							tag.setAttribute('tabindex', isOpen ? '0' : '-1');
+						});
+					};
+
+					/** Toggles the navigation menu by simulating a click on the checkbox. */
+					const toggleMainMenu = () => {
+						if (navInputCheckbox) {
+							navInputCheckbox.click();
+						}
+					};
+
+					/**
+					 * Handles keydown events to toggle the menu when the Enter or Space key is pressed.
+					 */
+					const keydownToggleMainMenu = (e) => {
+						if (e.key === 'Enter' || e.key === ' ') {
+							e.preventDefault();
+							toggleMainMenu();
+						}
+					};
+					/**
+					 * Handles click events to manage the state of the navigation menu.
+					 *
+					 * - Toggles the menu open/close state when the menu button (veggieBurger) is clicked.
+					 */
+						const handleMenuClick = (e) => {
+							const menuButtonClicked = navInputCheckbox === e.target;
+							const clickInsideMenu = expandedMenu.contains(e.target);
+							const menuIsOpen = navInputCheckbox.checked
+							if (menuButtonClicked && !menuIsOpen) {
+						    document.body.classList.toggle('nav-is-open')
+
+							firstColLabel.setAttribute('aria-expanded', 'false')
+                            veggieBurger.setAttribute('data-link-name','header : veggie-burger : show')
+                            expandedMenuClickableTags.forEach(function($selectableElement){
+                                $selectableElement.setAttribute('tabindex','-1')
+                            })
+                          } else if (menuButtonClicked && menuIsOpen) {
+						    document.body.classList.toggle('nav-is-open')
+							firstColLabel.setAttribute('aria-expanded', 'true')
+                            veggieBurger.setAttribute('data-link-name','header : veggie-burger : hide')
+                            expandedMenuClickableTags.forEach(function($selectableElement){
+                                $selectableElement.setAttribute('tabindex','0')
+                            })
+                            focusOnFirstNavElement()
+							}
+						};
+
+					/** Adds event listeners to manage the navigation menu. */
+					if (navInputCheckbox) {
+						navInputCheckbox.addEventListener('click', handleMenuClick);
+						veggieBurger.addEventListener('keydown', keydownToggleMainMenu);
+						document.addEventListener('keydown', (e) => {
+							if (e.key === 'Escape' && navInputCheckbox.checked) {
+								toggleMainMenu();
+								veggieBurger.focus();
+							}
+						});
+					/**
+					 * Handles mouse down events to manage the state of the navigation menu.
+					 *
+					 * - Closes the menu if the click occurs outside both the menu button and the expanded menu.
+					 */
+					document.addEventListener('mousedown', function(e){
+						if(navInputCheckbox.checked && !expandedMenu.contains(e.target) && !veggieBurger.contains(e.target)){
+						toggleMainMenu()
+							}
+						});
+					}
+				});UKUK editionUS editionAustralia editionEurope editionInternational editionThe Guardian - Back to homeThe GuardianNewsOpinionSportCultureLifestyleShow moreHide expanded menudocument.addEventListener('DOMContentLoaded', function(){
+                        var columnInput = document.getElementById('News-button');
+
+						if (!columnInput) return; // Sticky nav replaces the nav so element no longer exists for users in test.
+
+						columnInput.addEventListener('keydown', function(e){
+                            // keyCode: 13 => Enter key | keyCode: 32 => Space key
+                            if (e.keyCode === 13 || e.keyCode === 32) {
+                                e.preventDefault()
+                                document.getElementById('News-checkbox-input').click();
+                            }
+                        })
+                    })NewsView all NewsUK newsUS politicsWorld newsClimate crisisMiddle EastUkraineFootballNewslettersBusinessEnvironmentUK politicsScienceTechGlobal developmentObituariesdocument.addEventListener('DOMContentLoaded', function(){
+                        var columnInput = document.getElementById('Opinion-button');
+
+						if (!columnInput) return; // Sticky nav replaces the nav so element no longer exists for users in test.
+
+						columnInput.addEventListener('keydown', function(e){
+                            // keyCode: 13 => Enter key | keyCode: 32 => Space key
+                            if (e.keyCode === 13 || e.keyCode === 32) {
+                                e.preventDefault()
+                                document.getElementById('Opinion-checkbox-input').click();
+                            }
+                        })
+                    })OpinionView all OpinionThe Guardian viewColumnistsCartoonsOpinion videosLettersdocument.addEventListener('DOMContentLoaded', function(){
+                        var columnInput = document.getElementById('Sport-button');
+
+						if (!columnInput) return; // Sticky nav replaces the nav so element no longer exists for users in test.
+
+						columnInput.addEventListener('keydown', function(e){
+                            // keyCode: 13 => Enter key | keyCode: 32 => Space key
+                            if (e.keyCode === 13 || e.keyCode === 32) {
+                                e.preventDefault()
+                                document.getElementById('Sport-checkbox-input').click();
+                            }
+                        })
+                    })SportView all SportFootballCricketRugby unionTennisCyclingF1GolfBoxingRugby leagueRacingUS sportsdocument.addEventListener('DOMContentLoaded', function(){
+                        var columnInput = document.getElementById('Culture-button');
+
+						if (!columnInput) return; // Sticky nav replaces the nav so element no longer exists for users in test.
+
+						columnInput.addEventListener('keydown', function(e){
+                            // keyCode: 13 => Enter key | keyCode: 32 => Space key
+                            if (e.keyCode === 13 || e.keyCode === 32) {
+                                e.preventDefault()
+                                document.getElementById('Culture-checkbox-input').click();
+                            }
+                        })
+                    })CultureView all CultureFilmMusicTV & radioBooksArt & designStageGamesClassicaldocument.addEventListener('DOMContentLoaded', function(){
+                        var columnInput = document.getElementById('Lifestyle-button');
+
+						if (!columnInput) return; // Sticky nav replaces the nav so element no longer exists for users in test.
+
+						columnInput.addEventListener('keydown', function(e){
+                            // keyCode: 13 => Enter key | keyCode: 32 => Space key
+                            if (e.keyCode === 13 || e.keyCode === 32) {
+                                e.preventDefault()
+                                document.getElementById('Lifestyle-checkbox-input').click();
+                            }
+                        })
+                    })LifestyleView all LifestyleThe FilterFashionFoodRecipesTravelHealth & fitnessWomenMenLove & sexBeautyHome & gardenMoneyCarsSearch input google-search SearchSupport usPrint subscriptionsSearch jobsHire with Guardian JobsHolidaysLive eventsAbout UsDigital ArchiveGuardian Print ShopPatronsGuardian LicensingThe Guardian appVideoPodcastsPicturesNewslettersToday's paperInside the GuardianGuardian WeeklyCrosswordsWordiplyCorrectionsTipsSearch input google-search SearchSearch jobsHire with Guardian JobsHolidaysLive eventsAbout UsDigital ArchiveGuardian Print ShopPatronsGuardian LicensingUKUS politicsWorldClimate crisisMiddle EastUkraineFootballNewslettersBusinessEnvironmentUK politicsScienceTechGlobal developmentObituaries John Healey’s party conference speech was criticised by some government insiders and other Labour figures for its lack of detail about policy or pitch-rolling for possible tax rises. Photograph: Gary Roberts/SOPA Images/ShutterstockView image in fullscreenJohn Healey’s party conference speech was criticised by some government insiders and other Labour figures for its lack of detail about policy or pitch-rolling for possible tax rises. Photograph: Gary Roberts/SOPA Images/ShutterstockJohn HealeyLabour figures uneasy about Healey’s ‘underpowered’ approach to budgetChancellor faces global volatility and soaring energy costs as some insiders worry lack of clarity could trigger fresh market shock
+
+Prefer the Guardian on GoogleSenior Labour figures are privately voicing unease about John Healey’s approach to his crucial first budget this month, against the backdrop of volatile global markets and soaring energy costs.
+
+The chancellor’s work has been made significantly harder by the global bond sell-off, which continues to raise the cost of government borrowing, and ever increasing energy prices as Donald Trump continues the US war with Iran.
+
+The yield – in effect the interest rate – on 30-year UK government bonds hit 6% on Thursday for the first time since 1998. Barclays raised some of its mortgage rates for the second time in a week, underlining the impact of these market moves on UK borrowers.
+
+The chancellor’s party conference speech, which centred on the theme of reindustrialisation, was warmly received by Labour members in Liverpool. But government insiders and other Labour figures cast doubt over the lack of detail about policy on investment and growth or any pitch-rolling for possible tax rises.
+
+One senior Labour politician said: “I missed any real sense of growth and investment, which Rachel [Reeves, the former chancellor] often emphasised, despite her faults – when business leaders speak to me, that’s what they were waiting to hear, and we got nothing.”
+
+A Labour MP lamented the fact that on tax and spending Healey had gone little further than reiterating the fiscal rules. “It was Rachel’s speech delivered by John,” they said.
+
+One senior Labour insider said they believed the chancellor was risking a fresh market shock on 28 October if he was not willing to be clearer about his approach to taxation, headroom and spending.
+
+Market moves since the spring are expected to have wiped out at least half of the £24bn “headroom”, or buffer, Reeves had built up against Labour’s fiscal rules.
+
+Healey is believed to be minded to accept a slimmer margin, but he gave no indication of his likely approach in his speech, aside from repeatedly stressing the need for discipline. Rebuilding the headroom in full could require significant tax increases or spending cuts.
+
+Prof Arun Advani, the director of the centre for the analysis of taxation at the University of Warwick, said: “The chancellor didn’t give us a sense of how he’s thinking about these issues. It was a speech where at the end of it we didn’t come away understanding more about the direction of policy, or what he wants to do with the Treasury.”
+
+There are concerns, too, about how Healey will tough out demands to say when the UK will spend 3% of GDP on defence – having resigned as defence secretary three months ago over the issue.
+
+View image in fullscreenTreasury sources have said Healey was intimately involved in some of Burnham’s significant conference announcements.  Photograph: Michael Bowles/ShutterstockTreasury sources stressed that Healey was intimately involved in some of Andy Burnham’s significant conference announcements, with 40 officials working at the department through the weekend on the details of the triple lock pension changes.
+
+They also pointed out that the chancellor opened the door to a renewed attempt to overhaul welfare for the young unemployed – a fraught issue for Labour – and stressed his determination to present an optimistic picture of the UK economy.
+
+Healey’s team are committed to avoiding the rollercoaster of leaks that happened in the run-up to Reeves’s budgets, particularly last year.
+
+The Treasury team have initiated military-style “black boxes” – learned from Healey’s time in the Ministry of Defence – for different teams to work within to avoid accidental leaks.
+
+They also remain committed to what one called a “tightly focused” budget, though they concede that offering voters more “breathing space” on energy costs had become more urgent.
+
+The narrow focus of the statement is expected to rule out radical changes to property and capital gains taxes previously mooted by Burnham supporters including the first secretary, Louise Haigh; though reports that Healey is calling in bank bosses next week has reignited speculation of a windfall tax on the sector.
+
+Labour MPs fear that failing to take more drastic action, particularly on surging energy prices, could leave voters nonplussed. One MP said: “The budget is only a few weeks away. He may want it to be low key but it will send a massive signal of our intent.”
+
+View image in fullscreenSome in Labour circles are concerned that Burnham’s focus on long-term issues such as social care will suck up political airtime without helping the immediate crisis. Photograph: PA Images/AlamyOthers are concerned that Burnham’s focus on long-term issues such as social care and public ownership of utilities will suck up political airtime without helping with the immediate crisis.
+
+Alfie Stirling, the director of policy and insight at the Joseph Rowntree Foundation, said: “The focus on ‘room to breathe’ now, alongside the focus on taking greater control over the costs of essentials over the longer term, is the right strategy for government. But families are currently facing the worst parliament on modern record for real incomes and they simply cannot wait three years for government to grip this in the here and now.”
+
+Several Labour figures pointed to Burnham’s last-minute decision to appoint Healey as one factor making the chancellor’s job harder, giving him little time to build up an effective team before the budget.
+
+Rav Athwal, an economist and the author of Labour’s 2024 manifesto, has only just joined Healey as a senior special adviser. Reeves’s chief economic adviser, Neil Amin-Smith, was poached by No 10.
+
+One Treasury insider said: “He’s slow to get through his boxes and it’s hard to get meetings in the diary because he needs time to prepare before each one. It all feels a bit underpowered.”
+
+But another Labour figure defended him: “John got virtually no notice he was getting this job. He’s not an economist. He didn’t have two years in opposition to prepare. It’s early days and the Treasury is there to support him. He’s very capable – just give him time.”

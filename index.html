@@ -2289,7 +2289,7 @@
  <!-- #1 Markets snapshot bar -->
  <!-- Embedded market data (populated by update script, used as fallback) -->
  <script id="embedded-markets" type="application/json">
-{"FTSE":{"price":10397.41,"change":-1.97},"SP":{"price":7651.54,"change":-0.25},"Brent":{"price":99.94,"change":1.95},"GBP":{"price":1.3224,"change":-0.31},"Gold":{"price":4155.32,"change":-0.02},"EURGBP":{"price":0.8542,"change":0.07},"Gilt":{"price":5.48,"change":0.06},"VIX":{"price":16.98,"change":3.92},"BTC":{"price":83208,"change":-0.56},"UST":{"price":5.33,"change":0.04},"ts":"2026-10-01T09:47:00+01:00"}
+{"FTSE":{"price":10428.27,"change":-1.68},"SP":{"price":7673.55,"change":0.29},"Brent":{"price":102.45,"change":4.51},"GBP":{"price":1.3194,"change":-0.54},"Gold":{"price":4175.67,"change":0.47},"EURGBP":{"price":0.8515,"change":-0.25},"Gilt":{"price":5.39,"change":-0.03},"VIX":{"price":16.33,"change":-0.06},"BTC":{"price":84581,"change":1.08},"UST":{"price":5.24,"change":-0.05},"ts":"2026-10-01T20:38:00+01:00"}
 </script>
  <script id="market-descriptions" type="application/json">
 {
@@ -2297,123 +2297,122 @@
     "name": "FTSE 100",
     "desc": "The UK's benchmark stock index, tracking the 100 largest companies listed on the London Stock Exchange by market capitalisation. Includes Shell, AstraZeneca, HSBC and Unilever.",
     "drivers_up": [
-      "Energy majors supported by a Brent curve higher across all three front contracts",
-      "Found a floor above 10,390 through the opening hour"
+      "Recovered from an intraday low of 10,390.73 as gilt yields retreated"
     ],
     "drivers_down": [
-      "Fell 1.97% to 10,397.41, having opened 1.79% lower",
-      "The global bond rout has pushed UK borrowing costs to multi-decade highs"
+      "Closed 1.68% lower at 10,428.27, a third consecutive fall",
+      "Oil up 4.5% lifts input costs across much of the index"
     ],
-    "updated": "1 October 2026 09:47 (FTSE live; S&P on Wednesday's close; gilt change on Trading Economics basis)"
+    "updated": "1 October 2026 20:38 (FTSE closed 16:41; US markets live; gilt change on Trading Economics basis)"
   },
   "SP": {
     "name": "S&P 500",
     "desc": "America's leading stock market index, tracking 500 of the largest US-listed companies. Dominated by mega-cap tech (Apple, Microsoft, Nvidia) but spans all sectors.",
     "drivers_up": [
-      "Closed Wednesday only 0.25% lower, holding up better than European markets have today"
+      "Up 0.29% at 7,673.55 as Treasury yields came off the day's highs"
     ],
     "drivers_down": [
-      "The ten-year Treasury is at its highest since April 2002 and the thirty-year since July 2002",
-      "The Bank of England governor has warned of a possible correction in AI asset prices"
+      "Touched 7,616.78 at the low before recovering",
+      "The thirty-year Treasury reached 5.693% during the session"
     ],
-    "updated": "1 October 2026 09:47 (FTSE live; S&P on Wednesday's close; gilt change on Trading Economics basis)"
+    "updated": "1 October 2026 20:38 (FTSE closed 16:41; US markets live; gilt change on Trading Economics basis)"
   },
   "Brent": {
     "name": "Brent Crude Oil",
     "desc": "The global benchmark for crude oil pricing, produced from oil fields in the North Sea. Used to price roughly two-thirds of the world's traded oil.",
     "drivers_up": [
-      "Up 1.95% on a like-for-like December basis, with the whole curve higher",
-      "The naval blockade and the closure of Hormuz both remain in place"
+      "Jumped 4.5% to $102.45 on a report that a third American carrier strike group is heading to the Middle East",
+      "At least three tankers were attacked this week trying to transit the Strait of Hormuz"
     ],
     "drivers_down": [
-      "CONTRACT CHANGE, NOT A PRICE FALL: the front month rolled from November to December overnight, so the displayed level drops about $3.70 of its own accord",
-      "December settled at $98.03 on Wednesday; January is $3.41 below the new front month"
+      "Middle East crude flows have effectively recovered to pre-war levels",
+      "SECOND DAY ON THE DECEMBER CONTRACT: tonight's level is not comparable with Wednesday's $103.62, which was November"
     ],
-    "updated": "1 October 2026 09:47 (FTSE live; S&P on Wednesday's close; gilt change on Trading Economics basis)"
+    "updated": "1 October 2026 20:38 (FTSE closed 16:41; US markets live; gilt change on Trading Economics basis)"
   },
   "GBP": {
     "name": "GBP/USD",
     "desc": "The exchange rate between the British pound and the US dollar, commonly known as 'cable'. Reflects relative economic strength and interest rate differentials between the UK and US.",
     "drivers_up": [
-      "Reached 1.3272 overnight before the gilt market reopened"
+      "Reached 1.3272 earlier in the day"
     ],
     "drivers_down": [
-      "Weakened 0.31% to 1.3224 as gilt yields climbed",
-      "The 28 October Budget now falls due with borrowing costs at their highest in decades"
+      "Fell 0.54% to 1.3194 even as gilt yields retreated",
+      "The 28 October Budget still has to be funded"
     ],
-    "updated": "1 October 2026 09:47 (FTSE live; S&P on Wednesday's close; gilt change on Trading Economics basis)"
+    "updated": "1 October 2026 20:38 (FTSE closed 16:41; US markets live; gilt change on Trading Economics basis)"
   },
   "Gold": {
     "name": "Gold (XAU/USD)",
     "desc": "The spot price of gold in US dollars per troy ounce. The world's oldest safe-haven asset, traditionally rising during periods of uncertainty, inflation and currency debasement.",
     "drivers_up": [
-      "Touched $4,191.58 overnight",
-      "Equity weakness and a bond rout are the conditions it usually rises into"
+      "Rose 0.47% to $4,175.67 as yields eased from their highs",
+      "Oil above $102 revives the inflation hedge"
     ],
     "drivers_down": [
-      "Essentially flat at $4,155.32, with real yields climbing worldwide"
+      "Still short of the $4,218.16 reached on Wednesday"
     ],
-    "updated": "1 October 2026 09:47 (FTSE live; S&P on Wednesday's close; gilt change on Trading Economics basis)"
+    "updated": "1 October 2026 20:38 (FTSE closed 16:41; US markets live; gilt change on Trading Economics basis)"
   },
   "EURGBP": {
     "name": "EUR/GBP",
     "desc": "The exchange rate between the euro and the British pound. Key for UK-EU trade pricing. A falling rate means sterling is strengthening against the euro.",
     "drivers_up": [
-      "Firmer at 0.8542 as sterling gave ground against the dollar"
+      "The European Central Bank's reference rate for today, 0.85373, sits above the market after sterling weakened following the fix"
     ],
     "drivers_down": [
-      "French and Italian ten-year yields rose further than gilts today, at 11 and 10 basis points",
-      "The European Central Bank's Wednesday reference rate of 0.85463 remains close to the market"
+      "Eased 0.25% to 0.8515, with a low of 0.8507, the weakest of the week"
     ],
-    "updated": "1 October 2026 09:47 (FTSE live; S&P on Wednesday's close; gilt change on Trading Economics basis)"
+    "updated": "1 October 2026 20:38 (FTSE closed 16:41; US markets live; gilt change on Trading Economics basis)"
   },
   "Gilt": {
     "name": "UK 10-Year Gilt Yield",
     "desc": "The yield on 10-year UK government bonds (gilts). A key benchmark for UK borrowing costs, mortgage rates and pension fund valuations. Rising yields mean falling bond prices.",
     "drivers_up": [
-      "The thirty-year has gone through 6% for the first time, touching 6.0289%",
-      "The 28 October Budget arrives in the middle of a global repricing of government debt"
+      "The thirty-year touched 6.0289% this morning, its highest since 1998",
+      "The 28 October Budget arrives with debt servicing costs elevated"
     ],
     "drivers_down": [
-      "Opened at the day's low of 5.4438% before the selling resumed"
+      "Eased to 5.39%, about twelve basis points off the day's high, as the global rout unwound",
+      "The thirty-year finished back below 6%, at 5.9416%"
     ],
-    "updated": "1 October 2026 09:47 (FTSE live; S&P on Wednesday's close; gilt change on Trading Economics basis)"
+    "updated": "1 October 2026 20:38 (FTSE closed 16:41; US markets live; gilt change on Trading Economics basis)"
   },
   "VIX": {
     "name": "VIX (Volatility Index)",
     "desc": "The CBOE Volatility Index, often called the 'fear gauge'. Measures expected S&P 500 volatility over the next 30 days. Readings above 20 suggest elevated anxiety; above 30 signals acute stress.",
     "drivers_up": [
-      "Up 3.92% to 16.98 as government bonds sold off across every major market",
-      "Equity markets in Europe are taking the yield move harder than Wall Street did"
+      "Touched 17.59 during the session, well above where it settled"
     ],
     "drivers_down": [
-      "Still some way below the 20 level that signals real anxiety"
+      "Finished effectively flat at 16.33 as bond markets calmed",
+      "Still below the 20 level that signals real anxiety"
     ],
-    "updated": "1 October 2026 09:47 (FTSE live; S&P on Wednesday's close; gilt change on Trading Economics basis)"
+    "updated": "1 October 2026 20:38 (FTSE closed 16:41; US markets live; gilt change on Trading Economics basis)"
   },
   "BTC": {
     "name": "Bitcoin (BTC/USD)",
     "desc": "The price of Bitcoin in US dollars. The largest cryptocurrency by market cap, increasingly viewed as digital gold by institutional investors since spot ETF approvals.",
     "drivers_up": [
-      "Held above $83,000 through the overnight session"
+      "Rose 1.08% to about $84,581, with a high of $85,226",
+      "Retreating real yields reduce the cost of holding an asset that pays nothing"
     ],
     "drivers_down": [
-      "Down 0.56% to about $83,208",
-      "Rising real yields raise the cost of holding an asset that pays nothing"
+      "Has still not closed above $85,000 at any point this week"
     ],
-    "updated": "1 October 2026 09:47 (FTSE live; S&P on Wednesday's close; gilt change on Trading Economics basis)"
+    "updated": "1 October 2026 20:38 (FTSE closed 16:41; US markets live; gilt change on Trading Economics basis)"
   },
   "UST": {
     "name": "US 10-Year Treasury Yield",
     "desc": "The yield on 10-year US government bonds, the global risk-free rate benchmark. Influences mortgage rates, corporate borrowing and equity valuations worldwide.",
     "drivers_up": [
-      "Breached a level last seen in April 2002, up four basis points to 5.3338%",
-      "The thirty-year rose three basis points to 5.6702%, its highest since July 2002"
+      "Reached 5.344% intraday, and the thirty-year 5.693%"
     ],
     "drivers_down": [
-      "The two-year rose only two basis points, so the curve is steepening rather than shifting wholesale"
+      "Eased to 5.239%, down five basis points, reversing the morning's rout",
+      "A sharp afternoon turn after the ten-year's highest level since April 2002"
     ],
-    "updated": "1 October 2026 09:47 (FTSE live; S&P on Wednesday's close; gilt change on Trading Economics basis)"
+    "updated": "1 October 2026 20:38 (FTSE closed 16:41; US markets live; gilt change on Trading Economics basis)"
   }
 }
 </script>
@@ -2466,6 +2465,151 @@
  <!-- ════ ALL EDITIONS (sorted by JS) ════ -->
  <!-- IMPORTANT: Keep 7 FULL DAYS of editions in this container. Do NOT delete editions less than 7 days old. -->
  <div id="all-editions" style="display:none;">
+<!-- ── EVENING 1 OCT (20:38) ── -->
+<div class="curated-edition evening" data-date="2026-10-01" data-time="20:38" data-markets='{"FTSE":{"price":10428.27,"change":-1.68},"SP":{"price":7673.55,"change":0.29},"Brent":{"price":102.45,"change":4.51},"GBP":{"price":1.3194,"change":-0.54},"Gold":{"price":4175.67,"change":0.47},"EURGBP":{"price":0.8515,"change":-0.25},"Gilt":{"price":5.39,"change":-0.03},"VIX":{"price":16.33,"change":-0.06},"BTC":{"price":84581,"change":1.08},"UST":{"price":5.24,"change":-0.05},"ts":"2026-10-01T20:38:00+01:00"}'>
+ <div class="edition-header">
+ <span class="edition-icon">&#127769;</span>
+ <h2>Evening Briefing</h2>
+ </div>
+ <div class="curated-meta">Thursday 1 October 2026 &mdash; 20:38 BST</div>
+ <div class="impact-box">
+ <h3 class="impact-heading">What It Means For You</h3>
+ <ul class="impact-list">
+ <li><strong>Fuel:</strong> Diesel is at a record, just under 200p a litre, and Britain is in talks with EU partners about releasing strategic reserves if they are needed. Oil rose more than 4% today.</li>
+ <li><strong>Your mortgage:</strong> The thirty-year gilt yield touched 6% this morning, its highest since 1998, but finished back below that at 5.94%, with the ten-year at 5.39%. Gilt yields set the benchmark for fixed-rate pricing.</li>
+ <li><strong>Your energy bill:</strong> The price cap rose this morning to &pound;1,723 a year for a typical household, with VAT on electricity now zero until 31 March. Forecasters expect &pound;1,999 in January.</li>
+ </ul>
+ </div>
+ <div class="curated-grid">
+ <div class="curated-column">
+ <h3><span class="dot geo"></span><span class="dot-label">GEO</span> Geopolitical</h3>
+ <div class="curated-item" data-time="18:09" data-slug="putin-every-weapon-defend-kaliningrad">
+ <h4>Putin Says Russia Will Use Every Weapon to Defend Kaliningrad</h4>
+ <p>Addressing the Valdai foreign policy forum, Vladimir Putin said Russia would use all the weapons at its disposal if it judged its Baltic exclave had come under direct attack. He insisted Russia was &ldquo;not threatening anyone&rdquo; and was merely answering Western claims that Moscow is preparing for war in 2029 or 2030. It follows a written Russian warning sent to NATO earlier this week.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The memo came first and the president has now put his own name to it, which is the escalation. Moscow has spent the week accusing NATO of preparing to blockade the exclave, which borders Lithuania and Poland, and saying it would be prepared to use nuclear weapons if the West cut it off from the rest of Russia; the alliance has answered that it is defensive and asked Moscow to stop its &ldquo;nuclear threats&rdquo;. The backdrop is a run of hybrid incidents across Poland and the Baltics &mdash; a Russian helicopter straying into Polish territory last week, drones entering Lithuanian airspace, and Lithuania saying its people feel &ldquo;constantly threatened&rdquo;. Germany is bracing for more of it: Friedrich Merz said on Thursday that his country was preparing for further hybrid attacks, &ldquo;including serious ones&rdquo;, after a drone armed with explosives was found in August on the tarmac at Leipzig airport, close to Ukrainian cargo aircraft. Poland&rsquo;s looser rules on engaging airborne threats took effect today. Watch whether any ally formally requests alliance consultations.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="19:29" data-slug="third-us-carrier-gulf-oil-jumps">
+ <h4>A Third American Carrier Heads to the Gulf and Oil Jumps 4%</h4>
+ <p>Brent closed 4.4% higher at $102.31 after a report that the United States is sending a third aircraft carrier strike group to the Middle East, along with Marine Corps ships and up to 10,000 additional troops, expected to arrive by the end of November. The USS Theodore Roosevelt left San Diego on Sunday; two carriers are already on station.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The deployment reads as preparation rather than deterrence. Officials have said the president expects to resume bombing Iran after November&rsquo;s midterm elections, and Scott Modell of Rapidan Energy, a former CIA officer, set out the market&rsquo;s reading: &ldquo;The president I think is going to escalate after the midterms; we keep hearing that the Iranians are going to escalate into the midterms. The direction of travel is toward escalation.&rdquo; What makes the oil move striking is that it happened even though supply has largely recovered &mdash; Middle East crude flows are back near pre-war levels &mdash; which tells you the price is now carrying a risk premium rather than a shortage. The fragility is real enough: at least three tankers were attacked this week attempting to transit the Strait of Hormuz. West Texas Intermediate settled 2.7% higher at $92.87. Watch whether Tehran responds to the deployment before it answers the diplomatic note still sitting in front of it.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="18:48" data-slug="flydubai-attacker-omani-radical-indoctrination">
+ <h4>Flydubai Attacker Was an Omani Who Shouted 'Kill Me', Netanyahu Says</h4>
+ <p>Investigations suggest the co-pilot who stabbed his captain and tried to bring down a Dubai to Tel Aviv flight had undergone &ldquo;Islamist radical indoctrination&rdquo;, the Israeli prime minister said, describing him as an Omani national. Once subdued and tied up he was &ldquo;calling out to the aircrew &lsquo;kill me, kill me&rsquo;, so it&rsquo;s clear he was suicidal&rdquo;. On Iranian involvement he again said it was too early to say.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">Two separate inquiries are converging on intent. Benjamin Netanyahu said it looked &ldquo;very likely&rdquo; the attacker &ldquo;was going to down the plane&rdquo;, and preliminary findings from an Israeli investigation also suggest he meant to crash it. What is still missing is any official account of motive from the authorities actually holding him: he was arrested in Saudi Arabia and is expected to be transferred to the United Arab Emirates, and neither has published findings. That gap matters, because every characterisation so far has come from Israeli ministers &mdash; the defence minister called it an &ldquo;attempted jihadist terror attack&rdquo; on Wednesday &mdash; while the airline has asked everyone to wait for the formal investigation and has suspended its flights to Israel in the meantime. The aircraft fell more than seventeen thousand feet before passengers and crew retook control of it. Watch whether Oman says anything, and whether any evidence of direction emerges rather than radicalisation alone.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="15:05" data-slug="addis-ababa-explosions-war-reaches-capital">
+ <h4>Explosions Strike Addis Ababa as Ethiopia's War Reaches the Capital</h4>
+ <p>Explosions were heard overnight in Ethiopia&rsquo;s capital, some near the military headquarters in the west of the city and another in the south, according to residents and diplomatic sources. They came hours after drone flights were banned over Addis Ababa, and a week after fighting broke out in the north. A source linked to the opposition alliance said its forces had carried out drone strikes.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">A war that began in Tigray has reached the seat of government, which is the threshold this conflict had not previously crossed. A resident living near the secret service base in the south of the city described it simply: &ldquo;It was very loud. It was strong enough to set off car alarms.&rdquo; The ban on drone flights over the capital, imposed only hours earlier, suggests the authorities were expecting precisely this. The fighting began last week when a newly formed alliance of armed groups, including forces from Tigray, took on the army; federal troops have since taken Alamata in southern Tigray and are reported to be moving north towards Mekelle, with 52 civilians reported killed and more than seven hundred wounded admitted to hospitals supported by M&eacute;decins Sans Fronti&egrave;res. Communications to the region remain cut, so almost nothing can be independently checked. Watch whether the government acknowledges the strikes at all, because a denial would be the more worrying answer.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="13:10" data-slug="jagtar-singh-johal-freed-nine-years">
+ <h4>British Sikh Activist Freed After Nine Years in an Indian Jail</h4>
+ <p>Jagtar Singh Johal has been released from a Delhi prison after the Indian high court warned the government it would be held in contempt if it continued to keep him detained despite a bail order issued on 18 September. He had been held for nine years without any full trial. He was released in the late afternoon and greeted by family and friends.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The mechanism of his release is as telling as the fact of it. His lawyers filed a writ of habeas corpus alleging he was being detained against the court&rsquo;s express direction, and documents put before the court showed that messages from the prison to the Ministry of Home Affairs seeking permission to release him had simply gone unanswered. The high court instructed the government to let him go by two o&rsquo;clock; it happened in the late afternoon. The allegation was that he transported &pound;3,000 to France to fund a plot involving targeted killings in the Punjab in 2016 and 2017, and the campaign group Reprieve says the case never reached a full trial largely because the Indian authorities could not assemble credible witnesses to support it. His detention has been a running source of tension between London and Delhi, with campaigners arguing that successive British governments pressed neither for his release nor for a trial. Watch whether the charges against him are now formally dropped.</div>
+ </details>
+ </div>
+ </div>
+
+ <div class="curated-column">
+ <h3><span class="dot dom"></span><span class="dot-label">UK</span> UK Domestic Politics</h3>
+ <div class="curated-item" data-time="17:51" data-slug="uk-iranian-arrested-fairford">
+ <h4>UK-Iranian Dual National Arrested Over the Fairford Incident</h4>
+ <p>A 27-year-old man holding British and Iranian citizenship has been arrested in Westminster on suspicion of preparation of terrorist acts in connection with the events at RAF Fairford. A second man, a 26-year-old British national, has been questioned under caution and two properties searched. The five men detained near the Gloucestershire base on Sunday all remain on police bail.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">This is the first arrest to put an Iranian connection into the investigation itself rather than into ministerial language. The Prime Minister said on Wednesday there were &ldquo;strong indications&rdquo; Iran played a part, which was an unusual thing to say with suspects on bail and nobody charged; today&rsquo;s arrest gives that claim an evidential shape it did not have. Counter Terrorism Policing is careful to keep it at the level of possibility. Its senior national coordinator Vicki Evans said the force is examining &ldquo;all possible angles &mdash; including foreign state involvement&rdquo;, and that the investigation &ldquo;is hugely complex, and our specialist teams are interrogating multiple lines of enquiry&rdquo;. Note what has not changed: the five arrested on Sunday are all British nationals from London, they are still on bail, and police found petrol but no explosives in the three vans. Tehran denies any involvement. Watch whether anyone is charged before the Commons returns on 12 October, because a statement will be demanded either way.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="17:27" data-slug="uk-eu-strategic-fuel-reserves-diesel">
+ <h4>Britain in Talks With the EU on Releasing Strategic Fuel Reserves</h4>
+ <p>Britain is discussing with European partners the release of additional strategic fuel reserves, including diesel, if they are needed. The talks follow Donald Trump&rsquo;s threat to ban American diesel exports to hold down prices at home. British diesel is at a record, hovering just under 200p a litre. The energy minister Martin McCluskey spoke to European counterparts on Thursday.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The exposure is straightforward: the United States exports between 1.2 and 1.5 million barrels of diesel a day, and taking that off the market would push prices up everywhere else, Britain included. Mr Trump said at the weekend that he was &ldquo;thinking about it very seriously&rdquo;. A source familiar with Thursday&rsquo;s discussions said it was prudent to prepare a coordinated response with other countries, and noted that European reserves remain from a joint release earlier this year &mdash; which is the reassuring half of the sentence and also a reminder that the stocks have already been drawn on once in 2026. The pressure is compounding rather than isolated: oil rose more than 4% today on news of a third American carrier heading to the Gulf, Ukrainian strikes on Russian refineries have forced Moscow to ban its own diesel exports, and Iran and the Houthis have attacked refineries in the Middle East. Watch whether a release is actually triggered, and whether fuel duty survives the Budget.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="18:43" data-slug="disability-benefit-under-25s-scrapped">
+ <h4>Ministers Weigh Scrapping a Disability Benefit for Under-25s</h4>
+ <p>Ministers are working on welfare plans that include removing the health element of universal credit for claimants under 25, replacing it with a multibillion-pound package of support into work. The payment has already been almost halved, to &pound;217 a month. The plans await the conclusions of Alan Milburn&rsquo;s review of young people&rsquo;s employment and the Timms panel on personal independence payments.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">Twenty-four hours after the Conservative leader proposed barring most jobless under-25s from universal credit, the government is found to be working on something adjacent, which is the more significant fact: the argument is no longer whether to attach conditions to young people&rsquo;s benefits but how far. A government source framed it as reform rather than retrenchment &mdash; a &ldquo;comprehensive package of support and reform to tackle the scandal of a million young people not in education, employment or training&rdquo; &mdash; and Mr Milburn has called it &ldquo;shameful&rdquo; that the state spends twenty-five times as much on benefits for this group as on helping them into work. The scale explains the attention: welfare spending has reached &pound;333bn this year, with pensioners taking roughly 55% of it. The resistance is already organised. More than forty leading charities wrote to ministers earlier this year warning that cuts or tougher sanctions on disabled young people risked pushing them deeper into poverty and further from employment. Watch whether the Budget pre-empts Milburn.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="15:47" data-slug="farage-brexit-biggest-boost-career">
+ <h4>Farage Calls Burnham's Brexit Reopening the Biggest Boost of His Career</h4>
+ <p>Nigel Farage said the Prime Minister had handed him &ldquo;the biggest boost in my career&rdquo; by reviving the European question, and had opened &ldquo;a huge flank&rdquo; to Reform across the red wall. Addressing hundreds of supporters at Doncaster racecourse, at the first of a series of rallies on what the party would do in its first hundred days, he said: &ldquo;Today is when our general election campaign starts.&rdquo;</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">His answer to the polling is the argument the referendum was won on. Dismissing surveys showing as much as 59% now favour rejoining, he said: &ldquo;Of course they do, until you tell them it&rsquo;ll cost 25bn quid a year, until you tell him it&rsquo;ll mean joining Schengen, until he tells them it will mean actually having to recommit to joining the euro.&rdquo; That is a bet that support for rejoining is soft and collapses once terms are attached, and it is the same bet he made in 2016. His reading of the politics is that the Prime Minister has calculated that warmer language on Europe wins back voters from the Greens in the cities, while costing him in the north and Midlands: &ldquo;Here in Doncaster and across the red wall in the north and Midlands, I think he&rsquo;s opened up a huge flank to us.&rdquo; Watch whether Downing Street narrows its four options before the Brussels summit next month.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="18:33" data-slug="labour-unease-healey-underpowered-budget">
+ <h4>Labour Figures Call Healey's Budget Approach 'Underpowered'</h4>
+ <p>Senior Labour figures are privately uneasy about the Chancellor&rsquo;s approach to his first Budget, with his conference speech criticised for offering little detail on policy or preparation for possible tax rises. One Labour MP complained that on tax and spending he had gone barely further than restating the fiscal rules. He is thought willing to accept a slimmer margin against them.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The market gave him an unusually vivid illustration today. The thirty-year gilt yield touched 6% this morning, its highest since 1998, before the global sell-off unwound and it finished back below that line at 5.94%; the ten-year ended at 5.39%, some twelve basis points off its high. So the headline number reversed, but the episode showed how little room there is between the fiscal rules and the bond market. There is a second awkwardness: Mr Healey resigned as defence secretary three months ago over the timing of the 3% of GDP commitment, and will now be asked when he intends to fund it. Treasury sources push back on the charge of detachment, pointing out that he was closely involved in the conference announcements, with forty officials working through the weekend on the triple lock changes. The Budget is on 28 October. Watch whether he pre-announces any revenue measure before then.</div>
+ </details>
+ </div>
+ </div>
+ </div>
+ <div class="one-to-read">
+ <span class="otr-label">One To Read</span>
+ <a href="https://www.bbc.co.uk/news/articles/ckge4eql4q7eo" target="_blank" rel="noopener noreferrer">
+ <h4>What Happened in the Failed Execution of Christa Pike</h4>
+ <span class="otr-source">BBC News</span>
+ <span class="otr-dot">&middot;</span>
+ <span class="otr-desc">Tennessee administered two syringes of pentobarbital and Pike survived, and is now in a critical condition in hospital. This sets out how the execution failed, what her lawyers argued while it was under way, and what the state can lawfully do next.</span>
+ </a>
+ </div>
+ <!-- SOURCES USED
+ - https://www.bbc.co.uk/news/articles/cmdx5xw36492o &mdash; BBC News: the 27-year-old UK-Iranian arrested in Westminster on suspicion of preparation of terrorist acts, the 26-year-old questioned under caution, the two property searches, the five still on bail, and Vicki Evans on examining "all possible angles — including foreign state involvement"
+ - https://www.aljazeera.com/news/2026/10/1/british-police-arrest-uk-iranian-national-over-airbase-incident &mdash; Al Jazeera, with AFP and Reuters: the arrest confirmed, the suspect a dual UK/Iranian national, the base's use by American bombers, and that petrol but no explosives was recovered from the vans
+ - https://news.sky.com/story/dual-uk-iranian-national-arrested-over-raf-fairford-incident-counter-terror-police-say-13594010 &mdash; Sky News: independent corroboration that the arrest was public by 17:35 BST (feed-level only, article body blocked at the edge)
+ - https://www.bbc.co.uk/news/articles/c5zjzjgdeneeo &mdash; BBC News: the talks with EU partners on releasing strategic fuel reserves, Trump's "thinking about it very seriously", diesel just under 200p a litre on RAC figures, American diesel exports of 1.2 to 1.5 million barrels a day, the energy minister Martin McCluskey's call, and the European reserves left from an earlier joint release
+ - https://www.theguardian.com/politics/2026/oct/01/welfare-changes-under-debate-disability-benefit-young-people-uk &mdash; The Guardian: the plan to remove the health element of universal credit for under-25s, the £217 a month figure, the Milburn and Timms reviews, the government source on "the scandal of a million young people", Milburn's "shameful" line, welfare spending at £333bn, and the warning from more than forty charities
+ - https://www.theguardian.com/politics/2026/oct/01/burnhams-reopening-of-brexit-debate-is-biggest-boost-in-my-career-says-farage &mdash; The Guardian: Farage's "biggest boost in my career" and "huge flank", the Doncaster racecourse rally, his answer to the 59% polling on rejoining, and "today is when our general election campaign starts"
+ - https://www.theguardian.com/politics/2026/oct/01/labour-unease-healey-budget &mdash; The Guardian: the private Labour unease, the criticism of his conference speech, the MP on the fiscal rules, his willingness to accept a slimmer margin, the 3% of GDP defence question and his resignation over it, and the Treasury's forty officials on the triple lock
+ - https://www.bbc.co.uk/news/articles/cqg7k7v499jjo &mdash; BBC News: Putin at the Valdai forum on using all weapons if Kaliningrad is attacked, "not threatening anyone", the 2029-2030 framing, the Polish helicopter and Lithuanian drone incidents, and Friedrich Merz on preparing for further hybrid attacks "including serious ones"
+ - https://www.aljazeera.com/news/2026/9/30/russia-warns-nato-of-possible-nuclear-response-if-kaliningrad-is-cut-off &mdash; Al Jazeera, carrying Reuters: the written Russian warning that preceded Putin's remarks, and Mark Rutte telling Moscow to "stop the nuclear threats"
+ - https://www.washingtonpost.com/world/2026/09/30/nato-russia-nuclear-kaliningrad-hybrid-sabotage/8101f542-bcef-11f1-81fc-9b76f8343b6c_story.html &mdash; The Washington Post and AP: the content of the Russian non-paper and NATO's written reply
+ - https://www.cnbc.com/2026/10/01/oil-prices-today-wti-brent.html &mdash; CNBC, citing US officials speaking to the Wall Street Journal: Brent closing 4.4% higher at $102.31 and WTI settling 2.7% up at $92.87, the third carrier strike group, the Marine Corps ships and up to 10,000 troops by end-November, the USS Theodore Roosevelt, George H.W. Bush and George Washington, Scott Modell of Rapidan Energy on escalation, and three tankers attacked this week
+ - https://www.bbc.co.uk/news/articles/crje8edqyej9o &mdash; BBC News: Netanyahu on "Islamist radical indoctrination", the attacker described as an Omani national, "very likely" he "was going to down the plane", the "kill me, kill me" account, "it's too early to say" on Iran, and the separate Israeli inquiry's preliminary findings
+ - https://www.bbc.co.uk/news/articles/c3vgygpqky9zo &mdash; BBC News, with Reuters: the overnight explosions near the military headquarters and in the south of Addis Ababa, the drone-flight ban hours earlier, the opposition-linked source claiming drone strikes, and the resident on car alarms
+ - https://www.bbc.co.uk/news/articles/c6grveejg1e2o &mdash; BBC News: the 52 civilians killed around Alamata and more than 700 wounded admitted to hospitals supported by Médecins Sans Frontières, and the communications blackout
+ - https://www.theguardian.com/world/2026/oct/01/british-sikh-activist-jagtar-singh-johal-released-delhi-jail-india &mdash; The Guardian: Johal's release, the contempt warning and the 18 September bail order, the habeas corpus writ, the unanswered messages to the Ministry of Home Affairs, the £3,000 allegation, and Reprieve on the absence of credible witnesses
+ - https://www.bbc.co.uk/news/articles/ckge4eql4q7eo &mdash; BBC News — One To Read: what happened in the failed execution and what can follow it
+ - https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?requestMethod=itv&noform=1&partnerId=2&fund=1&exthrs=1&output=json&symbols=.FTSE|.SPX|GBP=|XAU=|BTC.CM=|US10Y|US30Y|@LCO.1|@LCO.2|EURGBP=|UK10Y-GB|UK30Y-GB|.VIX &mdash; CNBC quote endpoint: the ticker levels for all ten instruments, read 20:29 BST, all thirteen symbols returned with no nulls
+ - https://tradingeconomics.com/united-kingdom/government-bond-yield &mdash; Trading Economics (data only): the ten-year gilt easing to 5.39% with a 0.03-point fall on the session, used to adjudicate the change after CNBC gave three different values for Wednesday's close in 25 hours
+ - https://tradingeconomics.com/united-kingdom/30-year-bond-yield &mdash; Trading Economics (data only): the thirty-year gilt easing to 5.95%, confirming it finished back below 6% after touching 6.0289%
+ - Full ticker adjudication, including the second day on the December Brent contract and the ECB reference-rate timing gap, recorded in cache/2026-10-01/markets-SUMMARY-EVENING.txt
+ END SOURCES USED -->
+</div><!-- ── END EVENING 1 OCT (20:38) ── -->
+
 <!-- ── MORNING 1 OCT (09:47) ── -->
 <div class="curated-edition morning" data-date="2026-10-01" data-time="09:47" data-markets='{"FTSE":{"price":10397.41,"change":-1.97},"SP":{"price":7651.54,"change":-0.25},"Brent":{"price":99.94,"change":1.95},"GBP":{"price":1.3224,"change":-0.31},"Gold":{"price":4155.32,"change":-0.02},"EURGBP":{"price":0.8542,"change":0.07},"Gilt":{"price":5.48,"change":0.06},"VIX":{"price":16.98,"change":3.92},"BTC":{"price":83208,"change":-0.56},"UST":{"price":5.33,"change":0.04},"ts":"2026-10-01T09:47:00+01:00"}'>
  <div class="edition-header">

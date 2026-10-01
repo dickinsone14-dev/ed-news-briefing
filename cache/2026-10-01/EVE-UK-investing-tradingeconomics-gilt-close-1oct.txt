@@ -1,0 +1,18 @@
+URL: https://uk.investing.com/rates-bonds/uk-30-year-bond-yield
+URL: https://tradingeconomics.com/united-kingdom/30-year-bond-yield
+URL: https://tradingeconomics.com/united-kingdom/government-bond-yield
+URL: https://tradingeconomics.com/united-kingdom/stock-market
+Investing.com (uk.investing.com) and Trading Economics — both retrieved by WebFetch 1 Oct 2026 between 20:39 and 20:45 BST. Investing.com page stamped "Last Update 19:58:54 (Closed)", 1 October 2026. Trading Economics pages stamped "October 1, 2026".
+
+UK 30-YEAR GILT YIELD (investing.com, close): 5.948%, change on the day +0.014 (+0.24%). DAY'S RANGE 5.913 to 6.029. 52-week high 6.029 — i.e. today's intraday peak IS the 52-week high. Stamped "19:58:54 (Closed)".
+UK 30-YEAR GILT YIELD (Trading Economics): 5.95%, described as having "eased to 5.95% on October 1, 2026, marking a 0.01 percentage points decrease" from the previous session.
+UK 10-YEAR GILT YIELD (Trading Economics): 5.3912%, "eased to 5.39% on October 1, 2026, marking a 0.03 percentage points decrease from the previous session."
+FTSE 100 (Trading Economics): 10,428.27, -177.73 points, -1.68%. Page commentary: "The FTSE 100 fell more than 1.5% to 10,432 on Thursday, its lowest level since June 23, as UK equities followed a broader sell-off across European markets."
+
+CROSS-CHECK against this cache directory's own markets file markets-SUMMARY-EVENING.txt (produced by the markets desk this evening):
+  UK10Y-GB  5.3934%  hi 5.5098%  lo 5.3607%
+  UK30Y-GB  5.9416%  hi 6.0289%  lo 5.9127%   *** BACK BELOW 6% ***
+  FTSE closed 16:41 at 10,428.27, having touched 10,390.73.
+  Published ticker: FTSE 10,428.27 -1.68 | Gilt 5.39 -0.03 | Brent 102.45 +4.51 | GBP 1.3194 -0.54
+
+DISCREPANCY TO FLAG: investing.com puts the 30-year's daily change at +0.014 (i.e. marginally UP on the day); Trading Economics puts it at -0.01 (marginally DOWN). The LEVEL and the INTRADAY HIGH agree across all three sources (close ~5.94-5.95%, high ~6.029%). Safe to publish the level and the intraday 6.03% peak; do NOT publish a direction for the 30-year's daily change.

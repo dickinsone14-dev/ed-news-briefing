@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <atom:link href="https://news-api.cf.sky.com/feeds/rss/politics.xml" rel="self" type="application/rss+xml"/>
+    <title>Political News - International and UK Politics | Sky News</title>
+    <link>https://news.sky.com/politics</link>
+    <image>
+      <title>Political News - International and UK Politics | Sky News</title>
+      <url>https://e3.365dm.com/skynews/logo.png</url>
+      <link>https://news.sky.com/politics</link>
+    </image>
+    <description>Sky news delivers daily politics reports from the UK and worldwide and the latest breaking political news as it happens.</description>
+    <language>en-GB</language>
+    <copyright>Copyright 2026, Sky UK. All Rights Reserved.</copyright>
+    <lastBuildDate>Thu, 01 Oct 2026 11:16:00 +0100</lastBuildDate>
+    <category>Sky News</category>
+    <ttl>1</ttl>
+    <item>
+      <title>Talks between council and union 'break down again' amid fire and rehire plans</title>
+      <link>https://news.sky.com/story/talks-between-glasgow-city-council-and-unison-break-down-again-amid-fire-and-rehire-plans-13593869</link>
+      <description>Talks between Glasgow City Council and trade union Unison have once again "broken down" after plans to fire and rehire 23,000 workers were put on hold.</description>
+      <pubDate>Thu, 01 Oct 2026 08:32:00 +0100</pubDate>
+      <guid>https://news.sky.com/story/talks-between-glasgow-city-council-and-unison-break-down-again-amid-fire-and-rehire-plans-13593869</guid>
+      <enclosure url="https://e3.365dm.com/26/09/1920x1080/skynews-glasgow-city-chambers_7360681.jpg?20261001083957" length="0" type="image/jpeg"/>
+      <media:description type="html">Glasgow City Chambers. Pic: iStock</media:description>
+      <media:thumbnail url="https://e3.365dm.com/26/09/1920x1080/skynews-glasgow-city-chambers_7360681.jpg?20261001083957" width="1920" height="1080"/>
+      <media:content type="image/jpeg" url="https://e3.365dm.com/26/09/1920x1080/skynews-glasgow-city-chambers_7360681.jpg?20261001083957"/>
+    </item>
+    <item>
+      <title>BBC licence fee cost should be cut and expanded beyond TV, MPs recommend</title>
+      <link>https://news.sky.com/story/bbc-should-cut-licence-fee-cost-and-expand-it-beyond-tv-mps-recommend-13593616</link>
+      <description>The BBC licence fee should be reformed so it is no longer "linked to a TV" and coupled with a price drop, MPs have recommended.</description>
+      <pubDate>Thu, 01 Oct 2026 01:00:00 +0100</pubDate>
+      <guid>https://news.sky.com/story/bbc-should-cut-licence-fee-cost-and-expand-it-beyond-tv-mps-recommend-13593616</guid>
+      <enclosure url="https://e3.365dm.com/26/07/1920x1080/skynews-bbc-broadcasting-house_7304409.jpg?20260722171937" length="0" type="image/jpeg"/>
+      <media:description type="html">File picture. Pic: PA </media:description>
+      <media:thumbnail url="https://e3.365dm.com/26/07/1920x1080/skynews-bbc-broadcasting-house_7304409.jpg?20260722171937" width="1920" height="1080"/>
+      <media:content type="image/jpeg" url="https://e3.365dm.com/26/07/1920x1080/skynews-bbc-broadcasting-house_7304409.jpg?20260722171937"/>
+    </item>
+    <item>
+      <title>Ministers hand EY contract to scrutinise Tata Steel funding request</title>
+      <link>https://news.sky.com/story/ministers-hand-ey-contract-to-scrutinise-tata-steel-funding-request-13593946</link>
+      <description>Ministers have awarded a seven-figure contract to scrutinise Tata Steel's request for hundreds of millions of pounds of extra taxpayer funding amid doubts over the timetable for constructing a new electric arc furnace (EAF) in South Wales.</description>
+      <pubDate>Thu, 01 Oct 2026 11:16:00 +0100</pubDate>
+      <guid>https://news.sky.com/story/ministers-hand-ey-contract-to-scrutinise-tata-steel-funding-request-13593946</guid>
+      <enclosure url="https://e3.365dm.com/24/05/1920x1080/skynews-wales-port-talbot-tata-steel_6570313.jpg?20240531110648" length="0" type="image/jpeg"/>
+      <media:description type="html">Pic: PA</media:description>
+      <media:thumbnail url="https://e3.365dm.com/24/05/1920x1080/skynews-wales-port-talbot-tata-steel_6570313.jpg?20240531110648" width="1920" height="1080"/>
+      <media:content type="image/jpeg" url="https://e3.365dm.com/24/05/1920x1080/skynews-wales-port-talbot-tata-steel_6570313.jpg?20240531110648"/>
+    </item>
+    <item>
+      <title>UK-France 'one in, one out' migrant deal scrapped</title>
+      <link>https://news.sky.com/story/uk-france-one-in-one-out-migrant-deal-scrapped-13593740</link>
+      <description>A UK-French pilot scheme known as "one in, one out," set up to cut the number of migrants crossing the English Channel in small boats, has been scrapped.</description>
+      <pubDate>Wed, 30 Sep 2026 22:21:00 +0100</pubDate>
+      <guid>https://news.sky.com/story/uk-france-one-in-one-out-migrant-deal-scrapped-13593740</guid>
+      <enclosure url="https://e3.365dm.com/26/09/1920x1080/skynews-hardelot-france-dinghy_7359295.jpg?20260923113340" length="0" type="image/jpeg"/>
+      <media:description type="html">Migrants on the English Channel off Hardelot, northern France, last week. Pic: AP</media:description>
+      <media:thumbnail url="https://e3.365dm.com/26/09/1920x1080/skynews-hardelot-france-dinghy_7359295.jpg?20260923113340" width="1920" height="1080"/>
+      <media:content type="image/jpeg" url="https://e3.365dm.com/26/09/1920x1080/skynews-hardelot-france-dinghy_7359295.jpg?20260923113340"/>
+    </item>
+    <item>
+      <title>Peter Murrell's legal aid withdrawn after embezzlement conviction</title>
+      <link>https://news.sky.com/story/ex-snp-chief-executive-peter-murrells-legal-aid-withdrawn-after-embezzlement-conviction-13593568</link>
+      <description>Former SNP chief executive Peter Murrell has had his legal aid withdrawn.</description>
+      <pubDate>Wed, 30 Sep 2026 09:39:00 +0100</pubDate>
+      <guid>https://news.sky.com/story/ex-snp-chief-executive-peter-murrells-legal-aid-withdrawn-after-embezzlement-conviction-13593568</guid>
+      <enclosure url="https://e3.365dm.com/26/06/1920x1080/skynews-peter-murrell-snp_7262860.jpg?20260930094450" length="0" type="image/jpeg"/>
+      <media:description type="html">Peter Murrell arriving at the High Court in Edinburgh in May. Pic: PA</media:description>
+      <media:thumbnail url="https://e3.365dm.com/26/06/1920x1080/skynews-peter-murrell-snp_7262860.jpg?20260930094450" width="1920" height="1080"/>
+      <media:content type="image/jpeg" url="https://e3.365dm.com/26/06/1920x1080/skynews-peter-murrell-snp_7262860.jpg?20260930094450"/>
+    </item>
+    <item>
+      <title>Tech firms urged to block nude images on children's smartphones</title>
+      <link>https://news.sky.com/story/tech-firms-urged-to-block-nude-images-on-childrens-smartphones-13593348</link>
+      <description>Tech firms should act urgently to introduce nudity-blocking technology on children's smartphones to prevent exposure to "horrific" abuse, MPs have said.</description>
+      <pubDate>Tue, 29 Sep 2026 16:02:00 +0100</pubDate>
+      <guid>https://news.sky.com/story/tech-firms-urged-to-block-nude-images-on-childrens-smartphones-13593348</guid>
+      <enclosure url="https://e3.365dm.com/26/09/1920x1080/skynews-teenager-abuse-phone_7364289.jpg?20260929161833" length="0" type="image/jpeg"/>
+      <media:description type="html">File pic: iStock</media:description>
+      <media:thumbnail url="https://e3.365dm.com/26/09/1920x1080/skynews-teenager-abuse-phone_7364289.jpg?20260929161833" width="1920" height="1080"/>
+      <media:content type="image/jpeg" url="https://e3.365dm.com/26/09/1920x1080/skynews-teenager-abuse-phone_7364289.jpg?20260929161833"/>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,215 @@
+URL: https://www.theguardian.com/world/2026/oct/01/british-sikh-activist-jagtar-singh-johal-released-delhi-jail-india
+The Guardian, published Thu 1 Oct 2026 13:10 BST
+
+Indian government issued with warning it would be in contempt of court if it failed to release Jagtar Singh Johal
+
+Sign indocument.addEventListener('DOMContentLoaded', function () {
+
+					/** The checkbox input element used to toggle the navigation menu. */
+					const navInputCheckbox = document.getElementById('header-nav-input-checkbox');
+
+					/** The veggie burger button element used to open/close the menu. */
+					const veggieBurger = document.getElementById('header-veggie-burger');
+
+					/** List of menu items that should be selectable when the menu is open. */
+					const expandedMenuClickableTags = document.querySelectorAll(
+						'.selectableMenuItem',
+					);
+
+					/** The root element of the expanded menu. */
+					const expandedMenu = document.getElementById('header-expanded-menu-root');
+
+					/** The label for the first column in the menu, assumed to be "News".*/
+					const firstColLabel = document.getElementById('News-button');
+
+					/** The link element in the second list item under news links. */
+					const firstColLink = document.querySelector(
+						'#newsLinks > li:nth-of-type(2) > a',
+					);
+
+					/**
+					 * Focuses on the first navigation element depending on whether the first column label is visible.
+					 *
+					 * If the first column label is not visible, the function focuses on the first link element.
+					 * Otherwise, it focuses on the first column label.
+					 */
+					const focusOnFirstNavElement = () => {
+						if (window.getComputedStyle(firstColLabel).display === 'none') {
+							firstColLink.focus();
+						} else {
+							firstColLabel.focus();
+						}
+					};
+
+					/**
+					 * Updates ARIA attributes and tabindex values based on whether the menu is open or closed.
+					 */
+					const updateAttributesForMenu = (isOpen) => {
+						firstColLabel.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+						veggieBurger.setAttribute(
+							'data-link-name',
+							isOpen
+								? 'header : veggie-burger : hide'
+								: 'header : veggie-burger : show',
+						);
+						expandedMenuClickableTags.forEach((tag) => {
+							tag.setAttribute('tabindex', isOpen ? '0' : '-1');
+						});
+					};
+
+					/** Toggles the navigation menu by simulating a click on the checkbox. */
+					const toggleMainMenu = () => {
+						if (navInputCheckbox) {
+							navInputCheckbox.click();
+						}
+					};
+
+					/**
+					 * Handles keydown events to toggle the menu when the Enter or Space key is pressed.
+					 */
+					const keydownToggleMainMenu = (e) => {
+						if (e.key === 'Enter' || e.key === ' ') {
+							e.preventDefault();
+							toggleMainMenu();
+						}
+					};
+					/**
+					 * Handles click events to manage the state of the navigation menu.
+					 *
+					 * - Toggles the menu open/close state when the menu button (veggieBurger) is clicked.
+					 */
+						const handleMenuClick = (e) => {
+							const menuButtonClicked = navInputCheckbox === e.target;
+							const clickInsideMenu = expandedMenu.contains(e.target);
+							const menuIsOpen = navInputCheckbox.checked
+							if (menuButtonClicked && !menuIsOpen) {
+						    document.body.classList.toggle('nav-is-open')
+
+							firstColLabel.setAttribute('aria-expanded', 'false')
+                            veggieBurger.setAttribute('data-link-name','header : veggie-burger : show')
+                            expandedMenuClickableTags.forEach(function($selectableElement){
+                                $selectableElement.setAttribute('tabindex','-1')
+                            })
+                          } else if (menuButtonClicked && menuIsOpen) {
+						    document.body.classList.toggle('nav-is-open')
+							firstColLabel.setAttribute('aria-expanded', 'true')
+                            veggieBurger.setAttribute('data-link-name','header : veggie-burger : hide')
+                            expandedMenuClickableTags.forEach(function($selectableElement){
+                                $selectableElement.setAttribute('tabindex','0')
+                            })
+                            focusOnFirstNavElement()
+							}
+						};
+
+					/** Adds event listeners to manage the navigation menu. */
+					if (navInputCheckbox) {
+						navInputCheckbox.addEventListener('click', handleMenuClick);
+						veggieBurger.addEventListener('keydown', keydownToggleMainMenu);
+						document.addEventListener('keydown', (e) => {
+							if (e.key === 'Escape' && navInputCheckbox.checked) {
+								toggleMainMenu();
+								veggieBurger.focus();
+							}
+						});
+					/**
+					 * Handles mouse down events to manage the state of the navigation menu.
+					 *
+					 * - Closes the menu if the click occurs outside both the menu button and the expanded menu.
+					 */
+					document.addEventListener('mousedown', function(e){
+						if(navInputCheckbox.checked && !expandedMenu.contains(e.target) && !veggieBurger.contains(e.target)){
+						toggleMainMenu()
+							}
+						});
+					}
+				});UKUK editionUS editionAustralia editionEurope editionInternational editionThe Guardian - Back to homeThe GuardianNewsOpinionSportCultureLifestyleShow moreHide expanded menudocument.addEventListener('DOMContentLoaded', function(){
+                        var columnInput = document.getElementById('News-button');
+
+						if (!columnInput) return; // Sticky nav replaces the nav so element no longer exists for users in test.
+
+						columnInput.addEventListener('keydown', function(e){
+                            // keyCode: 13 => Enter key | keyCode: 32 => Space key
+                            if (e.keyCode === 13 || e.keyCode === 32) {
+                                e.preventDefault()
+                                document.getElementById('News-checkbox-input').click();
+                            }
+                        })
+                    })NewsView all NewsUK newsUS politicsWorld newsClimate crisisMiddle EastUkraineFootballNewslettersBusinessEnvironmentUK politicsScienceTechGlobal developmentObituariesdocument.addEventListener('DOMContentLoaded', function(){
+                        var columnInput = document.getElementById('Opinion-button');
+
+						if (!columnInput) return; // Sticky nav replaces the nav so element no longer exists for users in test.
+
+						columnInput.addEventListener('keydown', function(e){
+                            // keyCode: 13 => Enter key | keyCode: 32 => Space key
+                            if (e.keyCode === 13 || e.keyCode === 32) {
+                                e.preventDefault()
+                                document.getElementById('Opinion-checkbox-input').click();
+                            }
+                        })
+                    })OpinionView all OpinionThe Guardian viewColumnistsCartoonsOpinion videosLettersdocument.addEventListener('DOMContentLoaded', function(){
+                        var columnInput = document.getElementById('Sport-button');
+
+						if (!columnInput) return; // Sticky nav replaces the nav so element no longer exists for users in test.
+
+						columnInput.addEventListener('keydown', function(e){
+                            // keyCode: 13 => Enter key | keyCode: 32 => Space key
+                            if (e.keyCode === 13 || e.keyCode === 32) {
+                                e.preventDefault()
+                                document.getElementById('Sport-checkbox-input').click();
+                            }
+                        })
+                    })SportView all SportFootballCricketRugby unionTennisCyclingF1GolfBoxingRugby leagueRacingUS sportsdocument.addEventListener('DOMContentLoaded', function(){
+                        var columnInput = document.getElementById('Culture-button');
+
+						if (!columnInput) return; // Sticky nav replaces the nav so element no longer exists for users in test.
+
+						columnInput.addEventListener('keydown', function(e){
+                            // keyCode: 13 => Enter key | keyCode: 32 => Space key
+                            if (e.keyCode === 13 || e.keyCode === 32) {
+                                e.preventDefault()
+                                document.getElementById('Culture-checkbox-input').click();
+                            }
+                        })
+                    })CultureView all CultureFilmMusicTV & radioBooksArt & designStageGamesClassicaldocument.addEventListener('DOMContentLoaded', function(){
+                        var columnInput = document.getElementById('Lifestyle-button');
+
+						if (!columnInput) return; // Sticky nav replaces the nav so element no longer exists for users in test.
+
+						columnInput.addEventListener('keydown', function(e){
+                            // keyCode: 13 => Enter key | keyCode: 32 => Space key
+                            if (e.keyCode === 13 || e.keyCode === 32) {
+                                e.preventDefault()
+                                document.getElementById('Lifestyle-checkbox-input').click();
+                            }
+                        })
+                    })LifestyleView all LifestyleThe FilterFashionFoodRecipesTravelHealth & fitnessWomenMenLove & sexBeautyHome & gardenMoneyCarsSearch input google-search SearchSupport usPrint subscriptionsSearch jobsHire with Guardian JobsHolidaysLive eventsAbout UsDigital ArchiveGuardian Print ShopPatronsGuardian LicensingThe Guardian appVideoPodcastsPicturesNewslettersToday's paperInside the GuardianGuardian WeeklyCrosswordsWordiplyCorrectionsTipsSearch input google-search SearchSearch jobsHire with Guardian JobsHolidaysLive eventsAbout UsDigital ArchiveGuardian Print ShopPatronsGuardian LicensingWorldEuropeUS newsAmericasAsiaAustraliaMiddle EastAfricaInequalityGlobal development Jagtar Singh Johal after being released from prison on bail in India. Photograph: FreeJaggiNow campaign/PAJagtar Singh Johal after being released from prison on bail in India. Photograph: FreeJaggiNow campaign/PAIndiaBritish Sikh activist released from Delhi jail after nine-year detentionIndian government issued with warning it would be in contempt of court if it failed to release Jagtar Singh Johal
+
+Prefer the Guardian on GoogleThe British Sikh activist Jagtar Singh Johal has been released from a Delhi prison after the Indian high court warned the government it would be found in contempt of court if it continued to attempt to keep him in jail despite an 18 September court order releasing him on bail. Johal has been incarcerated for nine years without any full trial.
+
+The court order was issued after Johal’s lawyers issued a writ of habeas corpus alleging he was being detained against the express direction of the court.
+
+Johal’s nine-year detention on alleged terrorist offences, has been a cause of diplomatic tension between the UK and India, but campaigners have claimed the British government has not been active enough to secure his release or, alternatively, a full trial.
+
+The campaign group Reprieve says his case has never come to full trial largely because of the inability of the Indian government to assemble credible witnesses to back their claim that Johal transported £3,000 to France to fund a multinational extremist plot involving targeted killings in the Punjab in 2016-17.
+
+On Thursday morning, the high court in Delhi instructed the Indian government to release Johal by 2.30pm Indian time, giving government officials three hours to comply or find themselves risking contempt proceedings. In the end, he was released in the late afternoon wearing a red T-shirt to be greeted by friends, family and flowers.
+
+Documents shown to the court by Johal’s lawyers on behalf of his father-in-law as petitioner revealed that messages from the prison to the Ministry of Home Affairs seeking permission for his release had been left unanswered.
+
+His lawyers in their petition stated he had met all the bail conditions yet “the detainee has nevertheless not been released, and is being held in custody without the authority of any court, pending a ‘clarification’ sought by the jail from the Ministry of Home Affairs”.
+
+The petition added that no clarification from the ministry had been forthcoming, explaining: “Every day of such detention is a continuing violation of the detainee’s fundamental rights under article 21 of the constitution of India.”
+
+Johal has been detained by Indian authorities since 4 November 2017. He is facing eight charges of terrorism in the federal court, but had been cleared of largely similar charges by a Punjab court. He claims any initial confessions he gave were extracted under torture.
+
+The bail terms last week imposed 11 conditions, including surrender of passport, a personal bond of 500,000 Indian rupees (£3,930) with two sureties, fortnightly reporting to the investigating officer, prior intimation of any change of residence and a ban on travelling to the Punjab. He was also restricted from talking to media about the case directly or indirectly.
+
+The Indian government has alleged the Khalistan Liberation Force undertook the killings and Johal had “complete knowledge of the conspiracy” and was a KLF member.
+
+His Dumbarton-based brother Gurpreet Singh Johal said: “There have been so many setbacks and disappointments in the last nine years that I didn’t dare to believe it until I saw Jagtar walking out of the prison gates with my own eyes. The last two weeks have been torture – knowing that Jagtar had been granted bail, but the authorities were refusing to let him out. I’ll sleep well tonight, knowing that he’s not behind bars.
+
+“Tomorrow morning, the fight continues, because he’s still on trial and facing the death penalty for something he didn’t do, trapped in a sham legal process designed to punish him for standing up for human rights”.
+
+Reprieve’s deputy executive director, Dan Dolan, said: “While tonight is the first night in almost nine years that Jagtar Singh Johal is not caged in a prison cell, he still has the threat of a death sentence hanging over him. It should also be noted that, despite bail being ordered, the prison refused to release Jagtar until his family brought a habeas corpus petition and a judge warned the jail they’d be found in contempt of court”.
+
+The UK Foreign Office is understood to have been supporting recent calls for his release on bail after last week’s court order, as have two campaign groups in the UK Redress and Reprieve.

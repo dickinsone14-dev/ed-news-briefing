@@ -1,0 +1,59 @@
+URL: (compiled) Thursday 1 October 2026 EVENING ticker basis — verified 20:29-20:36 BST
+PRIMARY SOURCE: CNBC quote endpoint, read 20:29:39 BST, three batches, ALL 13 SYMBOLS, no nulls.
+  Raw JSON alongside as evening-markets-CNBC-2029.json (line 1 is the exact URL).
+
+*** THE DAY'S SHAPE: THE BOND ROUT UNWOUND, AND OIL TOOK OVER ***
+This morning's edition led on the thirty-year gilt breaking 6% for the first time since 1998. By the
+close it had gone back under:
+  UK10Y-GB  5.3934%  hi 5.5098%  lo 5.3607%   (down ~11.6bp from the day's high)
+  UK30Y-GB  5.9416%  hi 6.0289%  lo 5.9127%   *** BACK BELOW 6% ***
+  US10Y     5.239%   hi 5.344%   lo 5.205%    chg -0.054 on prev 5.293%
+  US30Y     5.608%   hi 5.693%   lo 5.577%    chg -0.031 on prev 5.639%
+So the 6% print stands as an intraday high that did not hold. Said plainly in the brief: the morning
+edition's lead is now a high-water mark, not a level. Trading Economics agrees on direction for both.
+
+*** OIL IS THE STORY INSTEAD: BRENT +4.5% ON A THIRD US CARRIER ***
+@LCO.1 (Dec'26) 102.45, +4.51%, prev 98.03, hi 103.05, lo 96.55 — read 20:19 BST.
+@LCO.2 (Jan'27)  98.56, +3.65%, prev 95.09.
+CNBC's own market report (cached EVE-MKT-CNBC-brent-jumps-third-carrier.txt, 19:29 BST) gives the
+settle: "Brent crude... jumped 4.4% to close at $102.31 per barrel, while U.S. West Texas Intermediate
+futures climbed 2.7% to settle at $92.87." Cause: the US is sending a THIRD aircraft carrier strike
+group to the Middle East, with Marine Corps ships and up to 10,000 additional troops, expected by the
+end of November. USS Theodore Roosevelt left San Diego Sunday; USS George H.W. Bush and USS George
+Washington are already on station. Sourced by CNBC to US officials speaking to the Wall Street Journal.
+TICKER DECISION: publish the live 102.45 / +4.51% from the quote endpoint (the ticker is a live feed),
+with the 102.31 / +4.4% settle recorded here as corroboration. Both figures are CNBC's.
+NOTE THE SECOND DAY OF THE ROLL: @LCO.1 is December, as it has been since this morning. Yesterday
+evening it was November at 103.62. Today's 102.45 is NOT comparable to that 103.62 — the contract
+changed overnight. On a like-for-like December basis the two-day move is 98.03 -> 102.45.
+
+*** GILT ADJUDICATION — CNBC's previous_day_closing REJECTED FOR THE EIGHTH TIME THIS WEEK ***
+CNBC has now given THREE different values for the ten-year's Wednesday close in 25 hours:
+  5.4147% (Wed 07:36) -> 5.4303% (Wed 19:08 and Thu 09:34) -> 5.4022% (Thu 20:29)
+On tonight's figure the day's move is -0.0088; on this morning's it would be -0.037.
+INDEPENDENT ADJUDICATOR — Trading Economics (data only), read 20:34 BST, both pages dated 1 October:
+  10-year: "eased to 5.39% on October 1, 2026, marking a 0.03 percentage points decrease from the
+           previous session"
+  30-year: "eased to 5.95% on October 1, 2026, marking a 0.01 percentage points decrease"
+DECISION: publish the ten-year gilt at 5.39 with a change of -0.03 on the Trading Economics basis, the
+same basis used this morning and last night. That keeps the published series coherent across the week:
+5.38 -> 5.44 -> 5.48 -> 5.39. CNBC's levels are accepted; only its prev field is rejected.
+
+FX — A GENUINE DIVERGENCE WORTH RECORDING. The ECB daily reference rate now exists for today:
+Frankfurter gives EUR/GBP 0.85373 dated 2026-10-01. CNBC's 20:29 read is 0.8515, about 22 pips lower.
+That is a wider gap than this week's usual agreement to four decimals. The explanation is timing rather
+than disagreement: the ECB fixes at about 16:00 CET (15:00 BST) and sterling went on weakening after
+it, with cable falling to 1.3182 at the low and finishing at 1.3194, down 0.54%. Both figures are
+therefore right for their own moment; the ticker carries the live one.
+THE NOTABLE DIVERGENCE OF THE DAY: sterling fell 0.54% even as gilt yields came DOWN. Yesterday it
+firmed while yields rose; today it fell while they fell. Neither day moved the way the textbook says,
+which is worth not over-explaining.
+Yahoo's chart API unusable, eighth day. Investing.com's historical endpoint 403s.
+
+PUBLISHED TICKER: FTSE 10,428.27 -1.68 | SP 7,673.55 +0.29 | Brent 102.45 +4.51 | GBP 1.3194 -0.54
+| Gold 4,175.67 +0.47 | EURGBP 0.8515 -0.25 | Gilt 5.39 -0.03 | VIX 16.33 -0.06 | BTC 84,581 +1.08
+| UST 5.24 -0.05
+Yields published as percentage-POINT changes. FTSE closed 16:41 at 10,428.27, having touched 10,390.73;
+the S&P and the dollar pairs are live, US markets closing at 21:00 BST.
+VIX finished flat at 16.33 but touched 17.59 intraday, so the calm at the close understates the day.
+Gold rose 0.47% to 4,175.67 and bitcoin 1.08% to 84,581, both consistent with yields retreating.
