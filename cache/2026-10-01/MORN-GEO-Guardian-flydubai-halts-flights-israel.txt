@@ -1,0 +1,221 @@
+URL: https://www.theguardian.com/world/2026/oct/01/netanyahu-flydubai-halts-all-flights-to-israel
+The Guardian, published Thu 1 Oct 2026
+
+Israeli prime minister cautions against early conclusions when asked if there were any signs of Iranian involvement
+
+Close dialogue1/1Next imagePrevious imageToggle captionPrint subscriptionsSearch jobs Sign indocument.addEventListener('DOMContentLoaded', function () {
+
+					/** The checkbox input element used to toggle the navigation menu. */
+					const navInputCheckbox = document.getElementById('header-nav-input-checkbox');
+
+					/** The veggie burger button element used to open/close the menu. */
+					const veggieBurger = document.getElementById('header-veggie-burger');
+
+					/** List of menu items that should be selectable when the menu is open. */
+					const expandedMenuClickableTags = document.querySelectorAll(
+						'.selectableMenuItem',
+					);
+
+					/** The root element of the expanded menu. */
+					const expandedMenu = document.getElementById('header-expanded-menu-root');
+
+					/** The label for the first column in the menu, assumed to be "News".*/
+					const firstColLabel = document.getElementById('News-button');
+
+					/** The link element in the second list item under news links. */
+					const firstColLink = document.querySelector(
+						'#newsLinks > li:nth-of-type(2) > a',
+					);
+
+					/**
+					 * Focuses on the first navigation element depending on whether the first column label is visible.
+					 *
+					 * If the first column label is not visible, the function focuses on the first link element.
+					 * Otherwise, it focuses on the first column label.
+					 */
+					const focusOnFirstNavElement = () => {
+						if (window.getComputedStyle(firstColLabel).display === 'none') {
+							firstColLink.focus();
+						} else {
+							firstColLabel.focus();
+						}
+					};
+
+					/**
+					 * Updates ARIA attributes and tabindex values based on whether the menu is open or closed.
+					 */
+					const updateAttributesForMenu = (isOpen) => {
+						firstColLabel.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+						veggieBurger.setAttribute(
+							'data-link-name',
+							isOpen
+								? 'header : veggie-burger : hide'
+								: 'header : veggie-burger : show',
+						);
+						expandedMenuClickableTags.forEach((tag) => {
+							tag.setAttribute('tabindex', isOpen ? '0' : '-1');
+						});
+					};
+
+					/** Toggles the navigation menu by simulating a click on the checkbox. */
+					const toggleMainMenu = () => {
+						if (navInputCheckbox) {
+							navInputCheckbox.click();
+						}
+					};
+
+					/**
+					 * Handles keydown events to toggle the menu when the Enter or Space key is pressed.
+					 */
+					const keydownToggleMainMenu = (e) => {
+						if (e.key === 'Enter' || e.key === ' ') {
+							e.preventDefault();
+							toggleMainMenu();
+						}
+					};
+					/**
+					 * Handles click events to manage the state of the navigation menu.
+					 *
+					 * - Toggles the menu open/close state when the menu button (veggieBurger) is clicked.
+					 */
+						const handleMenuClick = (e) => {
+							const menuButtonClicked = navInputCheckbox === e.target;
+							const clickInsideMenu = expandedMenu.contains(e.target);
+							const menuIsOpen = navInputCheckbox.checked
+							if (menuButtonClicked && !menuIsOpen) {
+						    document.body.classList.toggle('nav-is-open')
+
+							firstColLabel.setAttribute('aria-expanded', 'false')
+                            veggieBurger.setAttribute('data-link-name','header : veggie-burger : show')
+                            expandedMenuClickableTags.forEach(function($selectableElement){
+                                $selectableElement.setAttribute('tabindex','-1')
+                            })
+                          } else if (menuButtonClicked && menuIsOpen) {
+						    document.body.classList.toggle('nav-is-open')
+							firstColLabel.setAttribute('aria-expanded', 'true')
+                            veggieBurger.setAttribute('data-link-name','header : veggie-burger : hide')
+                            expandedMenuClickableTags.forEach(function($selectableElement){
+                                $selectableElement.setAttribute('tabindex','0')
+                            })
+                            focusOnFirstNavElement()
+							}
+						};
+
+					/** Adds event listeners to manage the navigation menu. */
+					if (navInputCheckbox) {
+						navInputCheckbox.addEventListener('click', handleMenuClick);
+						veggieBurger.addEventListener('keydown', keydownToggleMainMenu);
+						document.addEventListener('keydown', (e) => {
+							if (e.key === 'Escape' && navInputCheckbox.checked) {
+								toggleMainMenu();
+								veggieBurger.focus();
+							}
+						});
+					/**
+					 * Handles mouse down events to manage the state of the navigation menu.
+					 *
+					 * - Closes the menu if the click occurs outside both the menu button and the expanded menu.
+					 */
+					document.addEventListener('mousedown', function(e){
+						if(navInputCheckbox.checked && !expandedMenu.contains(e.target) && !veggieBurger.contains(e.target)){
+						toggleMainMenu()
+							}
+						});
+					}
+				});UKUK editionUS editionAustralia editionEurope editionInternational editionThe Guardian - Back to homeThe GuardianNewsOpinionSportCultureLifestyleShow moreHide expanded menudocument.addEventListener('DOMContentLoaded', function(){
+                        var columnInput = document.getElementById('News-button');
+
+						if (!columnInput) return; // Sticky nav replaces the nav so element no longer exists for users in test.
+
+						columnInput.addEventListener('keydown', function(e){
+                            // keyCode: 13 => Enter key | keyCode: 32 => Space key
+                            if (e.keyCode === 13 || e.keyCode === 32) {
+                                e.preventDefault()
+                                document.getElementById('News-checkbox-input').click();
+                            }
+                        })
+                    })NewsView all NewsUK newsUS politicsWorld newsClimate crisisMiddle EastUkraineFootballNewslettersBusinessEnvironmentUK politicsScienceTechGlobal developmentObituariesdocument.addEventListener('DOMContentLoaded', function(){
+                        var columnInput = document.getElementById('Opinion-button');
+
+						if (!columnInput) return; // Sticky nav replaces the nav so element no longer exists for users in test.
+
+						columnInput.addEventListener('keydown', function(e){
+                            // keyCode: 13 => Enter key | keyCode: 32 => Space key
+                            if (e.keyCode === 13 || e.keyCode === 32) {
+                                e.preventDefault()
+                                document.getElementById('Opinion-checkbox-input').click();
+                            }
+                        })
+                    })OpinionView all OpinionThe Guardian viewColumnistsCartoonsOpinion videosLettersdocument.addEventListener('DOMContentLoaded', function(){
+                        var columnInput = document.getElementById('Sport-button');
+
+						if (!columnInput) return; // Sticky nav replaces the nav so element no longer exists for users in test.
+
+						columnInput.addEventListener('keydown', function(e){
+                            // keyCode: 13 => Enter key | keyCode: 32 => Space key
+                            if (e.keyCode === 13 || e.keyCode === 32) {
+                                e.preventDefault()
+                                document.getElementById('Sport-checkbox-input').click();
+                            }
+                        })
+                    })SportView all SportFootballCricketRugby unionTennisCyclingF1GolfBoxingRugby leagueRacingUS sportsdocument.addEventListener('DOMContentLoaded', function(){
+                        var columnInput = document.getElementById('Culture-button');
+
+						if (!columnInput) return; // Sticky nav replaces the nav so element no longer exists for users in test.
+
+						columnInput.addEventListener('keydown', function(e){
+                            // keyCode: 13 => Enter key | keyCode: 32 => Space key
+                            if (e.keyCode === 13 || e.keyCode === 32) {
+                                e.preventDefault()
+                                document.getElementById('Culture-checkbox-input').click();
+                            }
+                        })
+                    })CultureView all CultureFilmMusicTV & radioBooksArt & designStageGamesClassicaldocument.addEventListener('DOMContentLoaded', function(){
+                        var columnInput = document.getElementById('Lifestyle-button');
+
+						if (!columnInput) return; // Sticky nav replaces the nav so element no longer exists for users in test.
+
+						columnInput.addEventListener('keydown', function(e){
+                            // keyCode: 13 => Enter key | keyCode: 32 => Space key
+                            if (e.keyCode === 13 || e.keyCode === 32) {
+                                e.preventDefault()
+                                document.getElementById('Lifestyle-checkbox-input').click();
+                            }
+                        })
+                    })LifestyleView all LifestyleThe FilterFashionFoodRecipesTravelHealth & fitnessWomenMenLove & sexBeautyHome & gardenMoneyCarsSearch input google-search SearchSupport usPrint subscriptionsSearch jobsHire with Guardian JobsHolidaysLive eventsAbout UsDigital ArchiveGuardian Print ShopPatronsGuardian LicensingThe Guardian appVideoPodcastsPicturesNewslettersToday's paperInside the GuardianGuardian WeeklyCrosswordsWordiplyCorrectionsTipsSearch input google-search SearchSearch jobsHire with Guardian JobsHolidaysLive eventsAbout UsDigital ArchiveGuardian Print ShopPatronsGuardian LicensingUKUS politicsWorldClimate crisisMiddle EastUkraineFootballNewslettersBusinessEnvironmentUK politicsScienceTechGlobal developmentObituaries Israeli passenger Yaniv Hayoun, with blood stains on his shirt, who was aboard a flydubai aircraft that made an emergency landing in Saudi Arabia, is welcomed at  Ben Gurion international airport near Tel Aviv. Photograph: Tomer Appelbaum/APView image in fullscreenIsraeli passenger Yaniv Hayoun, with blood stains on his shirt, who was aboard a flydubai aircraft that made an emergency landing in Saudi Arabia, is welcomed at  Ben Gurion international airport near Tel Aviv. Photograph: Tomer Appelbaum/APIsraelNetanyahu says too early to tell who was behind plane incident as flydubai halts all flights to IsraelIsraeli prime minister cautions against early conclusions when asked if there were any signs of Iranian involvement
+
+Prefer the Guardian on GoogleBenjamin Netanyahu has said it was too early to tell who was ultimately behind the apparent attempt to crash a ⁠Tel Aviv-bound flydubai flight, even as Israel’s ambassador to the United Nations called the incident a “terror attack”, without apportioning blame.
+
+Danny Danon told Fox News on Wednesday night that Israel had “no doubt that it was a terror attack from a radical individual. We still cannot link it to a terror state or terror organisation, but for sure we know there was an intention to bring that plane down.”
+
+Read moreFlydubai said its flights to and from Israel would be suspended while the investigation takes place and urged all parties “to refrain from premature speculation while authorities gather the facts”.
+
+The incident – which began when one pilot stabbed another on the flight deck in an apparent attempt to take control of the aircraft – is under investigation. The flight from Dubai to Tel Aviv had more than 170 people on board, most of them from Israel.
+
+In what have been hailed as acts of tremendous bravery, several passenger rushed the cockpit of the flight and wrestled the controls from the alleged attacker even as the plane descended sharply, managing to eventually taking control and stabilising the plane before making an emergency landing in Saudi Arabia.
+
+Netanyahu, Israel’s prime minister, told Fox News host Sean Hannity: “We’ll get to the root of ⁠this attacker, whether he had accomplices” but cautioned that it was “too early to say” when asked whether there was any indication of Iranian involvement.
+
+The pilot accused of carrying out the stabbing was being questioned by Saudi authorities, the Israeli prime minister said, adding that he expected he would soon be taken to the UAE, where the flight took off from. Netanyahu said earlier that he had spoken with the UAE’s president, who agreed that Israel would join the interrogation of the suspect.
+
+Israeli officials, speaking on condition of anonymity to reporters, said the attacker was an Omani national, but there was no comment from Oman or the UAE.
+
+Israel’s foreign ministry later briefed its diplomats around the world that the incident was an “attempted terrorist attack against Israelis, the United Arab Emirates, and the Abraham Accords,” referring to the deal that normalised relations between the two countries in 2020.
+
+But on Wednesday evening Donald Trump told reporters the incident remained unclear, after he had spoken to Netanyahu. “It seems as though the co-pilot was perhaps a terrorist or perhaps a whack-job, and he stabbed the pilot,” the US president told reporters in the Oval Office.
+
+Netanyahu was among the world leaders celebrating the bravery of the passengers and crew of the flydubai flight on Wednesday.
+
+A video shared by the prime minister’s office showed passenger Yaniv Hayoun, a plumber, speaking to Netanyahu at length about how the events on board played out.
+
+Hayoun told the prime minister how he and other passengers heard screaming and felt the air pressure change as the plane dived before they forced their way into the cockpit and found the attacker at the instrument panel.
+
+1:03Passenger recalls putting pilot in ‘chokehold’ after stabbing on Israel-bound flight - video“I grabbed the attacker, put him in a chokehold, and dragged him out first,” Hayoun said during the meeting with Netanyahu after the plane had landed safely and the passengers were flown to Israel.
+
+As others wrestled with the attacker, Hayoun said he grabbed the controls and pulled them the way he had seen on television. Then other crew members took over.
+
+The stabbed pilot was identified as Indian national Captain Smit Machchhar, who was said to have made the emergency call and opened the door to the cockpit, allowing others to rush in and subdue the attacker.
+
+In a post on X early on Thursday, Indian prime minister Narendra Modi lauded Machchhar a “hero”. “In the face of the gravest danger and despite being seriously ‌injured, he showed immense courage and an unwavering resolve to protect the lives of others. His valour helped save hundreds of lives and avert a great tragedy,” Modi ​said.
+
+Machchhar, an Indian citizen from Mumbai, is being treated in a hospital in Saudi Arabia’s north-western city of Tabuk, where the plane landed safely.

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <atom:link href="https://news-api.cf.sky.com/feeds/rss/uk.xml" rel="self" type="application/rss+xml"/>
+    <title>UK News - The latest headlines from the UK | Sky News</title>
+    <link>https://news.sky.com/uk</link>
+    <image>
+      <title>UK News - The latest headlines from the UK | Sky News</title>
+      <url>https://e3.365dm.com/skynews/logo.png</url>
+      <link>https://news.sky.com/uk</link>
+    </image>
+    <description>Expert comment and analysis on the latest UK news, with headlines from England, Scotland, Northern Ireland and Wales.</description>
+    <language>en-GB</language>
+    <copyright>Copyright 2026, Sky UK. All Rights Reserved.</copyright>
+    <lastBuildDate>Thu, 01 Oct 2026 01:53:00 +0100</lastBuildDate>
+    <category>Sky News</category>
+    <ttl>1</ttl>
+    <item>
+      <title>More than 150 homes evacuated after 'suspicious items' found</title>
+      <link>https://news.sky.com/story/more-than-150-homes-evacuated-in-somerset-after-suspicious-items-found-13593820</link>
+      <description>More than 150 houses have been evacuated after "suspicious substances and items" were found at a property in Somerset. </description>
+      <pubDate>Thu, 01 Oct 2026 01:53:00 +0100</pubDate>
+      <guid>https://news.sky.com/story/more-than-150-homes-evacuated-in-somerset-after-suspicious-items-found-13593820</guid>
+      <enclosure url="https://e3.365dm.com/26/10/1920x1080/skynews-somerset-becket-road_7365366.png?20261001024509" length="0" type="image/png"/>
+      <media:description type="html">Becket Road, in Worle, near Weston-super-Mare. Pic: Google Street View</media:description>
+      <media:thumbnail url="https://e3.365dm.com/26/10/1920x1080/skynews-somerset-becket-road_7365366.png?20261001024509" width="1920" height="1080"/>
+      <media:content type="image/png" url="https://e3.365dm.com/26/10/1920x1080/skynews-somerset-becket-road_7365366.png?20261001024509"/>
+    </item>
+    <item>
+      <title>BBC should cut licence fee cost and expand it beyond TV, MPs recommend</title>
+      <link>https://news.sky.com/story/bbc-should-cut-licence-fee-cost-and-expand-it-beyond-tv-mps-recommend-13593616</link>
+      <description>The BBC should reform the licence fee so it is no longer "linked to a TV" and couple this with a price drop, MPs have recommended.</description>
+      <pubDate>Thu, 01 Oct 2026 01:00:00 +0100</pubDate>
+      <guid>https://news.sky.com/story/bbc-should-cut-licence-fee-cost-and-expand-it-beyond-tv-mps-recommend-13593616</guid>
+      <enclosure url="https://e3.365dm.com/26/07/1920x1080/skynews-bbc-broadcasting-house_7304409.jpg?20260722171937" length="0" type="image/jpeg"/>
+      <media:description type="html">File picture. Pic: PA </media:description>
+      <media:thumbnail url="https://e3.365dm.com/26/07/1920x1080/skynews-bbc-broadcasting-house_7304409.jpg?20260722171937" width="1920" height="1080"/>
+      <media:content type="image/jpeg" url="https://e3.365dm.com/26/07/1920x1080/skynews-bbc-broadcasting-house_7304409.jpg?20260722171937"/>
+    </item>
+    <item>
+      <title>UK-France 'one in, one out' migrant deal scrapped</title>
+      <link>https://news.sky.com/story/uk-france-one-in-one-out-migrant-deal-scrapped-13593740</link>
+      <description>A UK-French pilot scheme known as "one in, one out," set up to cut the number of migrants crossing the English Channel in small boats, has been scrapped.</description>
+      <pubDate>Wed, 30 Sep 2026 22:21:00 +0100</pubDate>
+      <guid>https://news.sky.com/story/uk-france-one-in-one-out-migrant-deal-scrapped-13593740</guid>
+      <enclosure url="https://e3.365dm.com/26/09/1920x1080/skynews-hardelot-france-dinghy_7359295.jpg?20260923113340" length="0" type="image/jpeg"/>
+      <media:description type="html">Migrants on the English Channel off Hardelot, northern France, last week. Pic: AP</media:description>
+      <media:thumbnail url="https://e3.365dm.com/26/09/1920x1080/skynews-hardelot-france-dinghy_7359295.jpg?20260923113340" width="1920" height="1080"/>
+      <media:content type="image/jpeg" url="https://e3.365dm.com/26/09/1920x1080/skynews-hardelot-france-dinghy_7359295.jpg?20260923113340"/>
+    </item>
+    <item>
+      <title>Teenagers killed after car went into River Wear named by police</title>
+      <link>https://news.sky.com/story/teenagers-killed-after-car-went-into-river-wear-in-sunderland-named-by-police-13593730</link>
+      <description>Three teenagers who died when the car they were travelling in drove into the River Wear in Sunderland have been named by police.</description>
+      <pubDate>Wed, 30 Sep 2026 19:20:00 +0100</pubDate>
+      <guid>https://news.sky.com/story/teenagers-killed-after-car-went-into-river-wear-in-sunderland-named-by-police-13593730</guid>
+      <enclosure url="https://e3.365dm.com/26/09/1920x1080/skynews-jackson-duke-zara-shaw-luke-etheridge_7365132.jpg?20260930175352" length="0" type="image/jpeg"/>
+      <media:description type="html">(L-R): Jackson Duke, 17, Zara Shaw and Luke Etheridge, both aged 16, died. Pic: Northumbria Police</media:description>
+      <media:thumbnail url="https://e3.365dm.com/26/09/1920x1080/skynews-jackson-duke-zara-shaw-luke-etheridge_7365132.jpg?20260930175352" width="1920" height="1080"/>
+      <media:content type="image/jpeg" url="https://e3.365dm.com/26/09/1920x1080/skynews-jackson-duke-zara-shaw-luke-etheridge_7365132.jpg?20260930175352"/>
+    </item>
+    <item>
+      <title>Parents warned over potentially deadly baby sleep aids</title>
+      <link>https://news.sky.com/story/parents-warned-over-potentially-deadly-baby-sleep-aids-by-advert-watchdog-13593669</link>
+      <description>Adverts for products that claim to help babies sleep could be putting them at risk of serious harm or death, a watchdog has warned.</description>
+      <pubDate>Thu, 01 Oct 2026 01:05:00 +0100</pubDate>
+      <guid>https://news.sky.com/story/parents-warned-over-potentially-deadly-baby-sleep-aids-by-advert-watchdog-13593669</guid>
+      <enclosure url="https://e3.365dm.com/26/09/1920x1080/skynews-baby-child_7365025.jpg?20260930154615" length="0" type="image/jpeg"/>
+      <media:description type="html">File picture. Pic: iStock</media:description>
+      <media:thumbnail url="https://e3.365dm.com/26/09/1920x1080/skynews-baby-child_7365025.jpg?20260930154615" width="1920" height="1080"/>
+      <media:content type="image/jpeg" url="https://e3.365dm.com/26/09/1920x1080/skynews-baby-child_7365025.jpg?20260930154615"/>
+    </item>
+    <item>
+      <title>Man City's sponsor warns of legal action against Premier League</title>
+      <link>https://news.sky.com/story/man-citys-sponsor-warns-of-potential-legal-action-against-premier-league-13593746</link>
+      <description>Man City's main sponsor, Etihad Airways, has said it could take legal action against the Premier League after the club was found guilty of "serious breaches" of financial rules.</description>
+      <pubDate>Wed, 30 Sep 2026 20:30:00 +0100</pubDate>
+      <guid>https://news.sky.com/story/man-citys-sponsor-warns-of-potential-legal-action-against-premier-league-13593746</guid>
+      <enclosure url="https://e3.365dm.com/26/09/1920x1080/skynews-etihad-man-city-football_7365305.jpg?20260930213937" length="0" type="image/jpeg"/>
+      <media:description type="html">Etihad Airways sponsored Man City's stadium and shirts for many years. Pic: PA</media:description>
+      <media:thumbnail url="https://e3.365dm.com/26/09/1920x1080/skynews-etihad-man-city-football_7365305.jpg?20260930213937" width="1920" height="1080"/>
+      <media:content type="image/jpeg" url="https://e3.365dm.com/26/09/1920x1080/skynews-etihad-man-city-football_7365305.jpg?20260930213937"/>
+    </item>
+    <item>
+      <title>Broadcaster and campaigner Dame Esther Rantzen dies</title>
+      <link>https://news.sky.com/story/broadcaster-and-campaigner-dame-esther-rantzen-dies-13593676</link>
+      <description>Dame Esther Rantzen has died at the age of 86, her family has said in a statement. </description>
+      <pubDate>Wed, 30 Sep 2026 16:04:00 +0100</pubDate>
+      <guid>https://news.sky.com/story/broadcaster-and-campaigner-dame-esther-rantzen-dies-13593676</guid>
+      <enclosure url="https://e3.365dm.com/23/01/1920x1080/skynews-ester-rantzen-buckingham-palace_6039730.jpg?20230129111813" length="0" type="image/jpeg"/>
+      <media:description type="html">Esther Rantzen was made a Dame in 2015. File pic: Steve Parsons/PA Wire</media:description>
+      <media:thumbnail url="https://e3.365dm.com/23/01/1920x1080/skynews-ester-rantzen-buckingham-palace_6039730.jpg?20230129111813" width="1920" height="1080"/>
+      <media:content type="image/jpeg" url="https://e3.365dm.com/23/01/1920x1080/skynews-ester-rantzen-buckingham-palace_6039730.jpg?20230129111813"/>
+    </item>
+    <item>
+      <title>RCN has 'no position' on gender debate, boss tells Sandie Peggie tribunal</title>
+      <link>https://news.sky.com/story/rcn-has-no-position-on-gender-debate-boss-tells-sandie-peggie-employment-tribunal-13593675</link>
+      <description>The Royal College of Nursing has "no position" on the debate around gender ideology and biological sex, a senior executive has told an employment tribunal. </description>
+      <pubDate>Wed, 30 Sep 2026 20:17:00 +0100</pubDate>
+      <guid>https://news.sky.com/story/rcn-has-no-position-on-gender-debate-boss-tells-sandie-peggie-employment-tribunal-13593675</guid>
+      <enclosure url="https://e3.365dm.com/26/09/1920x1080/skynews-sandie-peggie-transgender_7365028.jpg?20260930155448" length="0" type="image/jpeg"/>
+      <media:description type="html">Nurse Sandie Peggie. Pic: PA</media:description>
+      <media:thumbnail url="https://e3.365dm.com/26/09/1920x1080/skynews-sandie-peggie-transgender_7365028.jpg?20260930155448" width="1920" height="1080"/>
+      <media:content type="image/jpeg" url="https://e3.365dm.com/26/09/1920x1080/skynews-sandie-peggie-transgender_7365028.jpg?20260930155448"/>
+    </item>
+  </channel>
+</rss>

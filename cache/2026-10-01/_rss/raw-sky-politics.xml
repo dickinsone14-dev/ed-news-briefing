@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <atom:link href="https://news-api.cf.sky.com/feeds/rss/politics.xml" rel="self" type="application/rss+xml"/>
+    <title>Political News - International and UK Politics | Sky News</title>
+    <link>https://news.sky.com/politics</link>
+    <image>
+      <title>Political News - International and UK Politics | Sky News</title>
+      <url>https://e3.365dm.com/skynews/logo.png</url>
+      <link>https://news.sky.com/politics</link>
+    </image>
+    <description>Sky news delivers daily politics reports from the UK and worldwide and the latest breaking political news as it happens.</description>
+    <language>en-GB</language>
+    <copyright>Copyright 2026, Sky UK. All Rights Reserved.</copyright>
+    <lastBuildDate>Thu, 01 Oct 2026 05:45:00 +0100</lastBuildDate>
+    <category>Sky News</category>
+    <ttl>1</ttl>
+    <item>
+      <title>Who cares if I'm nasty - Kemi Badenoch fights back</title>
+      <link>https://news.sky.com/story/who-cares-if-im-nasty-kemi-badenoch-fights-back-13593827</link>
+      <description>&lt;a href=' https://podfollow.com/politics-at-sam-and-annes'&gt;👉Listen to Politics at Sam and Anne's on your podcast app👈&lt;/a&gt;</description>
+      <pubDate>Thu, 01 Oct 2026 05:45:00 +0100</pubDate>
+      <guid>https://news.sky.com/story/who-cares-if-im-nasty-kemi-badenoch-fights-back-13593827</guid>
+      <enclosure url="https://e3.365dm.com/26/08/1920x1080/skynews-pasaa-sam-and-anne_7332493.png?20260827102415" length="0" type="image/png"/>
+      <media:description type="html">PASAA SEPT 2026 16x9 HERO</media:description>
+      <media:thumbnail url="https://e3.365dm.com/26/08/1920x1080/skynews-pasaa-sam-and-anne_7332493.png?20260827102415" width="1920" height="1080"/>
+      <media:content type="image/png" url="https://e3.365dm.com/26/08/1920x1080/skynews-pasaa-sam-and-anne_7332493.png?20260827102415"/>
+    </item>
+    <item>
+      <title>UK-France 'one in, one out' migrant deal scrapped</title>
+      <link>https://news.sky.com/story/uk-france-one-in-one-out-migrant-deal-scrapped-13593740</link>
+      <description>A UK-French pilot scheme known as "one in, one out," set up to cut the number of migrants crossing the English Channel in small boats, has been scrapped.</description>
+      <pubDate>Wed, 30 Sep 2026 22:21:00 +0100</pubDate>
+      <guid>https://news.sky.com/story/uk-france-one-in-one-out-migrant-deal-scrapped-13593740</guid>
+      <enclosure url="https://e3.365dm.com/26/09/1920x1080/skynews-hardelot-france-dinghy_7359295.jpg?20260923113340" length="0" type="image/jpeg"/>
+      <media:description type="html">Migrants on the English Channel off Hardelot, northern France, last week. Pic: AP</media:description>
+      <media:thumbnail url="https://e3.365dm.com/26/09/1920x1080/skynews-hardelot-france-dinghy_7359295.jpg?20260923113340" width="1920" height="1080"/>
+      <media:content type="image/jpeg" url="https://e3.365dm.com/26/09/1920x1080/skynews-hardelot-france-dinghy_7359295.jpg?20260923113340"/>
+    </item>
+    <item>
+      <title>BBC should cut licence fee cost and expand it beyond TV, MPs recommend</title>
+      <link>https://news.sky.com/story/bbc-should-cut-licence-fee-cost-and-expand-it-beyond-tv-mps-recommend-13593616</link>
+      <description>The BBC should reform the licence fee so it is no longer "linked to a TV" and couple this with a price drop, MPs have recommended.</description>
+      <pubDate>Thu, 01 Oct 2026 01:00:00 +0100</pubDate>
+      <guid>https://news.sky.com/story/bbc-should-cut-licence-fee-cost-and-expand-it-beyond-tv-mps-recommend-13593616</guid>
+      <enclosure url="https://e3.365dm.com/26/07/1920x1080/skynews-bbc-broadcasting-house_7304409.jpg?20260722171937" length="0" type="image/jpeg"/>
+      <media:description type="html">File picture. Pic: PA </media:description>
+      <media:thumbnail url="https://e3.365dm.com/26/07/1920x1080/skynews-bbc-broadcasting-house_7304409.jpg?20260722171937" width="1920" height="1080"/>
+      <media:content type="image/jpeg" url="https://e3.365dm.com/26/07/1920x1080/skynews-bbc-broadcasting-house_7304409.jpg?20260722171937"/>
+    </item>
+    <item>
+      <title>Peter Murrell's legal aid withdrawn after embezzlement conviction</title>
+      <link>https://news.sky.com/story/ex-snp-chief-executive-peter-murrells-legal-aid-withdrawn-after-embezzlement-conviction-13593568</link>
+      <description>Former SNP chief executive Peter Murrell has had his legal aid withdrawn.</description>
+      <pubDate>Wed, 30 Sep 2026 09:39:00 +0100</pubDate>
+      <guid>https://news.sky.com/story/ex-snp-chief-executive-peter-murrells-legal-aid-withdrawn-after-embezzlement-conviction-13593568</guid>
+      <enclosure url="https://e3.365dm.com/26/06/1920x1080/skynews-peter-murrell-snp_7262860.jpg?20260930094450" length="0" type="image/jpeg"/>
+      <media:description type="html">Peter Murrell arriving at the High Court in Edinburgh in May. Pic: PA</media:description>
+      <media:thumbnail url="https://e3.365dm.com/26/06/1920x1080/skynews-peter-murrell-snp_7262860.jpg?20260930094450" width="1920" height="1080"/>
+      <media:content type="image/jpeg" url="https://e3.365dm.com/26/06/1920x1080/skynews-peter-murrell-snp_7262860.jpg?20260930094450"/>
+    </item>
+    <item>
+      <title>Tech firms urged to block nude images on children's smartphones</title>
+      <link>https://news.sky.com/story/tech-firms-urged-to-block-nude-images-on-childrens-smartphones-13593348</link>
+      <description>Tech firms should act urgently to introduce nudity-blocking technology on children's smartphones to prevent exposure to "horrific" abuse, MPs have said.</description>
+      <pubDate>Tue, 29 Sep 2026 16:02:00 +0100</pubDate>
+      <guid>https://news.sky.com/story/tech-firms-urged-to-block-nude-images-on-childrens-smartphones-13593348</guid>
+      <enclosure url="https://e3.365dm.com/26/09/1920x1080/skynews-teenager-abuse-phone_7364289.jpg?20260929161833" length="0" type="image/jpeg"/>
+      <media:description type="html">File pic: iStock</media:description>
+      <media:thumbnail url="https://e3.365dm.com/26/09/1920x1080/skynews-teenager-abuse-phone_7364289.jpg?20260929161833" width="1920" height="1080"/>
+      <media:content type="image/jpeg" url="https://e3.365dm.com/26/09/1920x1080/skynews-teenager-abuse-phone_7364289.jpg?20260929161833"/>
+    </item>
+  </channel>
+</rss>

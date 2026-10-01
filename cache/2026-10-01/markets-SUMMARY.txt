@@ -1,0 +1,67 @@
+URL: (compiled) Thursday 1 October 2026 MORNING ticker basis — verified 09:34-09:40 BST
+PRIMARY SOURCE: CNBC quote endpoint, read 09:34:00 BST, three batches, ALL 13 SYMBOLS RETURNED, no nulls.
+  Raw JSON saved as morning-markets-CNBC-0934.json (line 1 of that file is the exact URL).
+
+*** THE BRENT ROLL HAS HAPPENED — THE TICKER LEVEL FALLS ~$3.70 AND IT IS NOT A PRICE FALL ***
+@LCO.1 now reads "ICE Brent Crude (Dec'26)". Yesterday evening it read Nov'26 at 103.62. The front
+month is now December at 99.94. So the displayed level drops from 103.62 to 99.94, about $3.68, purely
+because the contract changed. CNBC has correctly rebased the comparison: @LCO.1's previous_day_closing
+is 98.03, which is DECEMBER's settlement on 30 September, not November's 103.62. On a like-for-like
+December basis Brent is therefore UP 1.95% (+1.91). The curve has moved up as a whole:
+  @LCO.1  99.94  +1.95%  prev 98.03   hi 100.22  lo 96.55   ICE Brent Dec'26  (NEW FRONT MONTH)
+  @LCO.2  96.53  +1.51%  prev 95.09   hi  96.80  lo 93.77   ICE Brent Jan'27
+  @LCO.3  93.87  +1.10%  prev 92.85   hi  94.19  lo 91.73   ICE Brent Feb'27
+This was flagged in yesterday's two summaries and the handover note. The Brent driver says so explicitly.
+
+  .FTSE     10,397.41  -1.97%  chg -208.59  prev 10,606.00  hi 10,606.39 lo 10,392.12  live 09:18 BST
+  .SPX       7,651.54  -0.25%  chg  -19.30  prev  7,651.54  (WEDNESDAY CLOSE; US opens 14:30 BST)
+  GBP=         1.3224  -0.31%  prev 1.3265  hi 1.3272 lo 1.3223
+  XAU=       4,155.32  -0.02%  prev 4,155.99 hi 4,191.58 lo 4,146.27
+  EURGBP=      0.8542  +0.07%  prev 0.8536  hi 0.8546 lo 0.8531
+  UK10Y-GB    5.4782%  hi 5.5098% lo 5.4438%   CNBC prev 5.4303% (REJECTED — see below)
+  UK30Y-GB    6.0139%  hi 6.0289% lo 5.9664%   CNBC prev 5.9523% (REJECTED — see below)
+  .VIX          16.98  +3.92%  prev 16.34   hi 17.00 lo 16.32
+  BTC.CM=   83,207.80  -0.56%  prev 83,678.87 hi 84,359.90 lo 83,147.49
+  US10Y        5.327%  chg +0.034  prev 5.293%  hi 5.342% lo 5.270%
+
+*** THE DAY'S SHAPE: A GLOBAL BOND ROUT, AND IT IS THE STORY ***
+CNBC (approved, cached as MORN-MKT-CNBC-global-bond-rout.txt), 08:25 BST, citing LSEG:
+  - US 10-year breached a level last seen in APRIL 2002, +4bp to 5.3338%
+  - US 30-year +3bp to 5.6702%, its highest since JULY 2002
+  - US 2-year +2bp to 4.91%
+  - German 10-year bund +4bp to 3.6179%, its HIGHEST SINCE 2008
+  - French 10-year +11bp to 4.9501%; Italian 10-year +10bp to 4.7171%
+  - UK 10-year +5bp to 5.483%
+  CNBC's stated cause: investor concern over higher interest rates, government debt loads and fiscal
+  spending plans. This is what is driving the FTSE's 1.97% fall and the gilt move, so the UK number is
+  not primarily a UK story today — it is the UK leg of a global repricing. Said that way in the brief.
+
+*** GILT ADJUDICATION — CNBC's previous_day_closing REJECTED FOR THE SEVENTH TIME THIS WEEK ***
+CNBC still reports the 10-year's previous close as 5.4303% — the identical value it gave at 19:08 last
+night, i.e. it has not been updated for Wednesday's actual close at all. Same for the 30-year at
+5.9523%. On those stale figures today's moves would be +0.048 and +0.062.
+INDEPENDENT ADJUDICATOR — Trading Economics (data only), read 09:38 BST, both pages dated 1 October:
+  10-year: "rose to 5.48% on October 1, 2026, marking a 0.06 percentage points increase from the
+           previous session" -> implies a Wednesday close near 5.42%
+  30-year: "rose to 6.02% on October 1, 2026, marking a 0.07 percentage points increase from the
+           previous session"
+CNBC's own article independently gives the UK 10-year as +5bp, which sits between the two.
+DECISION: publish the 10-year gilt at 5.48 with a change of +0.06 on the Trading Economics basis, the
+same basis used last night, which keeps the series internally consistent (5.38 -> 5.44 -> 5.48).
+*** THE 30-YEAR GILT HAS GONE THROUGH 6% *** — 6.0139% on CNBC, 6.02% on Trading Economics, with an
+intraday high of 6.0289%. That is the milestone worth reporting. CNBC's change_pct field for the
+30-year is internally contradictory (+0.0616 points shown against -0.8617%), another reason to use the
+point change and Trading Economics' framing rather than CNBC's percentage.
+
+FX CROSS-CHECK: the ECB daily reference rate via Frankfurter is still dated 30 September (EUR/GBP
+0.85463); it publishes about 16:00 CET, so there is no 1 October fixing yet. Yesterday's ECB reference
+of 0.85463 against CNBC's Wednesday close of 0.8536 agrees to three decimals. Sterling is weaker this
+morning at 1.3224, which is the coherent response to a gilt market selling off on fiscal concern —
+unlike yesterday, when sterling firmed through a gilt selloff.
+Yahoo's chart API remains unusable, seventh day. Investing.com's historical endpoint returns 403.
+
+PUBLISHED TICKER: FTSE 10,397.41 -1.97 | SP 7,651.54 -0.25 | Brent 99.94 +1.95 | GBP 1.3224 -0.31
+| Gold 4,155.32 -0.02 | EURGBP 0.8542 +0.07 | Gilt 5.48 +0.06 | VIX 16.98 +3.92 | BTC 83,208 -0.56
+| UST 5.33 +0.04
+Yields published as percentage-POINT changes. UST level and change taken from CNBC's article figure
+(5.3338%, +4bp), which is the better-sourced of the two CNBC readings minutes apart.

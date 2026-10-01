@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+        <title><![CDATA[BBC News]]></title>
+        <description><![CDATA[BBC News - UK]]></description>
+        <link>https://www.bbc.co.uk/news/uk</link>
+        <image>
+            <url>https://news.bbcimg.co.uk/nol/shared/img/bbc_news_120x60.gif</url>
+            <title>BBC News</title>
+            <link>https://www.bbc.co.uk/news/uk</link>
+        </image>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Thu, 01 Oct 2026 08:33:43 GMT</lastBuildDate>
+        <atom:link href="https://feeds.bbci.co.uk/news/uk/rss.xml" rel="self" type="application/rss+xml"/>
+        <copyright><![CDATA[Copyright: (C) British Broadcasting Corporation, see https://www.bbc.co.uk/usingthebbc/terms-of-use/#15metadataandrssfeeds for terms and conditions of reuse.]]></copyright>
+        <language><![CDATA[en-gb]]></language>
+        <ttl>15</ttl>
+        <item>
+            <title><![CDATA[AI boom could trigger market shocks, Bank of England boss warns]]></title>
+            <description><![CDATA[Andrew Bailey says the central bank is watching the waves of cash being invested in artificial intelligence "very carefully".]]></description>
+            <link>https://www.bbc.co.uk/news/articles/cv8e30enrkxyo?at_medium=RSS&amp;at_campaign=rss</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/articles/cv8e30enrkxyo#0</guid>
+            <pubDate>Thu, 01 Oct 2026 04:03:17 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d849/live/8e2b1bb0-bd4c-11f1-a52c-0511052dc036.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Vape tax comes into effect - but prices won't rise yet]]></title>
+            <description><![CDATA[Vaping is about to becoming more expensive due to a new tax on products.]]></description>
+            <link>https://www.bbc.co.uk/news/articles/c6j4jrjgv2j7o?at_medium=RSS&amp;at_campaign=rss</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/articles/c6j4jrjgv2j7o#0</guid>
+            <pubDate>Wed, 30 Sep 2026 23:02:11 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c5bc/live/8492cf80-bd60-11f1-a64c-550be9e3c66b.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Employers should teach primary-age children about work, says Milburn]]></title>
+            <description><![CDATA[The author of a major report into youth activity in the UK says children as young as four should be learning about careers. ]]></description>
+            <link>https://www.bbc.co.uk/news/articles/cr2kwlw0p3v9o?at_medium=RSS&amp;at_campaign=rss</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/articles/cr2kwlw0p3v9o#0</guid>
+            <pubDate>Thu, 01 Oct 2026 07:07:08 GMT</pubDate>
+            <media:thumbnail width="240" height="134" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5972/live/53bea8b0-bcc1-11f1-874a-09d072a27eab.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Conservatives pledge 'tough love' benefit rules for under-25s]]></title>
+            <description><![CDATA[The party says it would bring in new work requirements for young people claiming Universal Credit.]]></description>
+            <link>https://www.bbc.co.uk/news/articles/cklyjy9pv93yo?at_medium=RSS&amp;at_campaign=rss</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/articles/cklyjy9pv93yo#0</guid>
+            <pubDate>Wed, 30 Sep 2026 22:38:33 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5d0a/live/4e3d9760-bd62-11f1-babe-4199b0e7ccea.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Tributes paid to 'inspirational' presenter and campaigner Esther Rantzen]]></title>
+            <description><![CDATA[Dame Esther Rantzen was "an inspirational individual", the director of her Childline helpline says.]]></description>
+            <link>https://www.bbc.co.uk/news/articles/cm3wjwxg3e74o?at_medium=RSS&amp;at_campaign=rss</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/articles/cm3wjwxg3e74o#0</guid>
+            <pubDate>Thu, 01 Oct 2026 07:04:39 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3cda/live/258e7a70-bd6f-11f1-8134-9503562e5ca9.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[BBC should not overspend on shows such as Suits and Schitt's Creek, MPs say]]></title>
+            <description><![CDATA[The issue is one of several raised by an influential committee as debate about the BBC's future continues.]]></description>
+            <link>https://www.bbc.co.uk/news/articles/cr89j4g7v05wo?at_medium=RSS&amp;at_campaign=rss</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/articles/cr89j4g7v05wo#0</guid>
+            <pubDate>Thu, 01 Oct 2026 00:20:51 GMT</pubDate>
+            <media:thumbnail width="240" height="134" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3bb1/live/002a7d10-bc0c-11f1-a524-3125ac41b7f5.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Northern Ireland's young drivers first in UK to get new driving licensing laws]]></title>
+            <description><![CDATA[Northern Ireland becomes the first part of the UK to introduce new rules for new drivers in a bid to reduce fatal road crashes involving young people.]]></description>
+            <link>https://www.bbc.co.uk/news/articles/cqm2rgmn74pro?at_medium=RSS&amp;at_campaign=rss</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/articles/cqm2rgmn74pro#1</guid>
+            <pubDate>Thu, 01 Oct 2026 06:21:06 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9138/live/5a26d9a0-bd68-11f1-bc2e-018d645d8d21.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Holiday lets owner 'devastated' by phishing scam]]></title>
+            <description><![CDATA[Fake property stays were advertised on the website while company was locked out of her account.]]></description>
+            <link>https://www.bbc.co.uk/news/articles/crgqdj119vlgo?at_medium=RSS&amp;at_campaign=rss</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/articles/crgqdj119vlgo#1</guid>
+            <pubDate>Thu, 01 Oct 2026 05:18:50 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/598e/live/2095b2e0-bc16-11f1-bc1f-3f186ca4140c.png"/>
+        </item>
+        <item>
+            <title><![CDATA[Doctors say radical plan to merge Scotland's health boards should be scrapped]]></title>
+            <description><![CDATA[BMA Scotland says there is no evidence that reducing the number of health boards from 14 to two will improve patient care.]]></description>
+            <link>https://www.bbc.co.uk/news/articles/c6lyr7yp0wyno?at_medium=RSS&amp;at_campaign=rss</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/articles/c6lyr7yp0wyno#1</guid>
+            <pubDate>Thu, 01 Oct 2026 05:17:16 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0f21/live/0517faa0-bd10-11f1-a64c-550be9e3c66b.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Tension and violence rising among young people in south London, police tell BBC]]></title>
+            <description><![CDATA[Some children in Lambeth and Southwark are highly vulnerable to gangs operating there.]]></description>
+            <link>https://www.bbc.co.uk/news/articles/cwd089rpl5dno?at_medium=RSS&amp;at_campaign=rss</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/articles/cwd089rpl5dno#1</guid>
+            <pubDate>Thu, 01 Oct 2026 05:08:30 GMT</pubDate>
+            <media:thumbnail width="240" height="134" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/14b9/live/39654f40-bcd6-11f1-afec-ebbb2634c4cd.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[My husband suffered in his final days after catching scabies in hospital]]></title>
+            <description><![CDATA[Kate Baxter says the infection "cast a shadow over" her husband Paul's final days.]]></description>
+            <link>https://www.bbc.co.uk/news/articles/c9zrz5vkz47go?at_medium=RSS&amp;at_campaign=rss</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/articles/c9zrz5vkz47go#1</guid>
+            <pubDate>Thu, 01 Oct 2026 05:02:42 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/15ae/live/a143e9e0-bd72-11f1-bc2e-018d645d8d21.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Midwife's appeal to mum of baby found on shoreline]]></title>
+            <description><![CDATA["There are people to help you," says Fiona Giraud, director of midwifery and women's services. ]]></description>
+            <link>https://www.bbc.co.uk/news/videos/cwvgy28pjl05o?at_medium=RSS&amp;at_campaign=rss</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/videos/cwvgy28pjl05o#2</guid>
+            <pubDate>Wed, 30 Sep 2026 07:49:36 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/65a2/live/aa96c5f0-bc1c-11f1-bd21-bdf910f2cec6.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Miami-inspired London house features on Grand Designs]]></title>
+            <description><![CDATA[Architect Peter Morris spent about a decade developing the homes, which feature duck-egg blue metalwork.]]></description>
+            <link>https://www.bbc.co.uk/news/videos/cmdx51vx9pe0o?at_medium=RSS&amp;at_campaign=rss</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/videos/cmdx51vx9pe0o#2</guid>
+            <pubDate>Wed, 30 Sep 2026 05:12:38 GMT</pubDate>
+            <media:thumbnail width="240" height="134" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fc7b/live/1768b9f0-bc9e-11f1-a430-4d16ee157c41.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Village gets 1990s makeover for Harry Potter shoot]]></title>
+            <description><![CDATA[Period cars line the streets and a fete is staged on the village green.]]></description>
+            <link>https://www.bbc.co.uk/news/videos/cxyvzde4n6p7o?at_medium=RSS&amp;at_campaign=rss</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/videos/cxyvzde4n6p7o#2</guid>
+            <pubDate>Wed, 30 Sep 2026 04:53:51 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3eb4/live/9a897c50-bbf1-11f1-a430-4d16ee157c41.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Celebrity Traitors is back - here's what you need to know ahead of the first show]]></title>
+            <description><![CDATA[Maya Jama, Michael Sheen and Bella Ramsey are among this year's celebrities taking part in the show. ]]></description>
+            <link>https://www.bbc.co.uk/news/articles/ckqxvnpy7e49o?at_medium=RSS&amp;at_campaign=rss</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/articles/ckqxvnpy7e49o#3</guid>
+            <pubDate>Thu, 01 Oct 2026 00:09:38 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/53cb/live/fd18f510-bcc0-11f1-a64c-550be9e3c66b.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[We fear for our lives after being told our abusive exes will be freed from jail early]]></title>
+            <description><![CDATA[Three victims of domestic abuse tell the BBC why they feel let down by the early prisoner release scheme. ]]></description>
+            <link>https://www.bbc.co.uk/news/articles/crz6zq5pew89o?at_medium=RSS&amp;at_campaign=rss</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/articles/crz6zq5pew89o#3</guid>
+            <pubDate>Thu, 01 Oct 2026 05:56:47 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4b05/live/3a04d9b0-bccd-11f1-9f83-d9975ff80416.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Energy bills are rising by £60 a year - here's what you can do about it]]></title>
+            <description><![CDATA[Household energy bills have risen again but there are ways to keep a lid on your expenditure.]]></description>
+            <link>https://www.bbc.co.uk/news/articles/crm4rygl4m3o?at_medium=RSS&amp;at_campaign=rss</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/articles/crm4rygl4m3o#3</guid>
+            <pubDate>Thu, 01 Oct 2026 07:08:22 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b666/live/2db5aca0-bd6a-11f1-babe-4199b0e7ccea.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[How That's Life! gave Esther Rantzen a career-defining moment]]></title>
+            <description><![CDATA[Sir Nicholas Winton's story became national news when he appeared on That's Life! in February 1988.]]></description>
+            <link>https://www.bbc.co.uk/news/articles/c3gr5ynd5p1o?at_medium=RSS&amp;at_campaign=rss</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/articles/c3gr5ynd5p1o#3</guid>
+            <pubDate>Wed, 30 Sep 2026 18:19:30 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5ab8/live/05c78110-bcfb-11f1-babe-4199b0e7ccea.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Son who used AI to help save mum's life hopes case unlocks clues for other Parkinson's patients]]></title>
+            <description><![CDATA[Doctors say clinical trials are needed to understand more after Ed Patrick identified a potential side effect of a Parkinson's drug.]]></description>
+            <link>https://www.bbc.co.uk/news/articles/cmy0zewj483wo?at_medium=RSS&amp;at_campaign=rss</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/articles/cmy0zewj483wo#3</guid>
+            <pubDate>Thu, 01 Oct 2026 00:52:34 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4f41/live/d4a3c950-bccc-11f1-babe-4199b0e7ccea.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Tension and violence rising among young people in south London, police tell BBC]]></title>
+            <description><![CDATA[Some children in Lambeth and Southwark are highly vulnerable to gangs operating there.]]></description>
+            <link>https://www.bbc.co.uk/news/articles/cwd089rpl5dno?at_medium=RSS&amp;at_campaign=rss</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/articles/cwd089rpl5dno#4</guid>
+            <pubDate>Thu, 01 Oct 2026 05:08:30 GMT</pubDate>
+            <media:thumbnail width="240" height="134" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/14b9/live/39654f40-bcd6-11f1-afec-ebbb2634c4cd.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Drumcree resolution document not acceptable, says DUP MP]]></title>
+            <description><![CDATA[The comments from Carla Lockhart came as the Garvaghy Road Residents' Coalition (GRRC) held out the prospect of an arrangement to resolve the dispute.]]></description>
+            <link>https://www.bbc.co.uk/news/articles/c6ge43qx83eno?at_medium=RSS&amp;at_campaign=rss</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/articles/c6ge43qx83eno#4</guid>
+            <pubDate>Thu, 01 Oct 2026 07:51:50 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0c67/live/35a02cf0-bd02-11f1-ae73-153b8464afc4.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Doctors say radical plan to merge Scotland's health boards should be scrapped]]></title>
+            <description><![CDATA[BMA Scotland says there is no evidence that reducing the number of health boards from 14 to two will improve patient care.]]></description>
+            <link>https://www.bbc.co.uk/news/articles/c6lyr7yp0wyno?at_medium=RSS&amp;at_campaign=rss</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/articles/c6lyr7yp0wyno#4</guid>
+            <pubDate>Thu, 01 Oct 2026 05:17:16 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0f21/live/0517faa0-bd10-11f1-a64c-550be9e3c66b.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[My husband suffered in his final days after catching scabies in hospital]]></title>
+            <description><![CDATA[Kate Baxter says the infection "cast a shadow over" her husband Paul's final days.]]></description>
+            <link>https://www.bbc.co.uk/news/articles/c9zrz5vkz47go?at_medium=RSS&amp;at_campaign=rss</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/articles/c9zrz5vkz47go#4</guid>
+            <pubDate>Thu, 01 Oct 2026 05:02:42 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/15ae/live/a143e9e0-bd72-11f1-bc2e-018d645d8d21.jpg"/>
+        </item>
+    </channel>
+</rss>
