@@ -2289,7 +2289,7 @@
  <!-- #1 Markets snapshot bar -->
  <!-- Embedded market data (populated by update script, used as fallback) -->
  <script id="embedded-markets" type="application/json">
-{"FTSE":{"price":10428.27,"change":-1.68},"SP":{"price":7666.45,"change":0.19},"Brent":{"price":101.52,"change":-0.77},"GBP":{"price":1.3205,"change":0.05},"Gold":{"price":4179.95,"change":0.05},"EURGBP":{"price":0.8519,"change":0.07},"Gilt":{"price":5.37,"change":-0.02},"VIX":{"price":16.39,"change":0.0},"BTC":{"price":85934,"change":1.52},"UST":{"price":5.24,"change":0.01},"ts":"2026-10-02T08:12:00+01:00"}
+{"FTSE":{"price":10461.95,"change":0.32},"SP":{"price":7723.31,"change":0.74},"Brent":{"price":102.39,"change":0.08},"GBP":{"price":1.3232,"change":0.25},"Gold":{"price":4138.43,"change":-0.94},"EURGBP":{"price":0.8505,"change":-0.09},"Gilt":{"price":5.38,"change":0.01},"VIX":{"price":15.73,"change":-4.03},"BTC":{"price":85054,"change":0.48},"UST":{"price":5.28,"change":0.04},"ts":"2026-10-02T18:26:00+01:00"}
 </script>
  <script id="market-descriptions" type="application/json">
 {
@@ -2297,115 +2297,119 @@
     "name": "FTSE 100",
     "desc": "The UK's benchmark stock index, tracking the 100 largest companies listed on the London Stock Exchange by market capitalisation. Includes Shell, AstraZeneca, HSBC and Unilever.",
     "drivers_up": [
-      "Gilt yields have kept falling, easing pressure on rate-sensitive sectors"
+      "Closed 0.32% higher at 10,461.95, recovering part of Thursday's 1.68% fall",
+      "Gilt yields were as low as 5.2897% during the session"
     ],
     "drivers_down": [
-      "Closed Thursday 1.68% lower at 10,428.27, its worst daily fall since May",
-      "CNBC's feed had not updated after the 08:00 open"
+      "Still below where it started the week, and 10,503.15 was as far as the rally got"
     ],
-    "updated": "2 October 2026 08:12 (FTSE, S&P and VIX on Thursday closes, feed not yet updated post-open; rest live; gilt change on Trading Economics basis)"
+    "updated": "2 October 2026 18:26 (FTSE closed 16:35; US markets live; gilt change on CNBC basis, whose previous close has finally caught up — see cache summary)"
   },
   "SP": {
     "name": "S&P 500",
     "desc": "America's leading stock market index, tracking 500 of the largest US-listed companies. Dominated by mega-cap tech (Apple, Microsoft, Nvidia) but spans all sectors.",
     "drivers_up": [
-      "Closed Thursday 0.19% higher as Treasury yields retreated from their highs"
+      "Up 0.74% at 7,723.31, with a high of 7,754.67",
+      "Volatility collapsing, the VIX down 4% to 15.73"
     ],
     "drivers_down": [
-      "Touched 7,616.78 at Thursday's low before recovering"
+      "The ten-year Treasury has crept back up to 5.277% after touching 5.157%"
     ],
-    "updated": "2 October 2026 08:12 (FTSE, S&P and VIX on Thursday closes, feed not yet updated post-open; rest live; gilt change on Trading Economics basis)"
+    "updated": "2 October 2026 18:26 (FTSE closed 16:35; US markets live; gilt change on CNBC basis, whose previous close has finally caught up — see cache summary)"
   },
   "Brent": {
     "name": "Brent Crude Oil",
     "desc": "The global benchmark for crude oil pricing, produced from oil fields in the North Sea. Used to price roughly two-thirds of the world's traded oil.",
     "drivers_up": [
-      "Three carriers and two amphibious groups are to be positioned around Iran by the end of November"
+      "Three carriers and two amphibious groups are to ring Iran by the end of November"
     ],
     "drivers_down": [
-      "Down 0.77% to $101.52, giving back about a fifth of Thursday's 4.4% jump",
-      "THIRD DAY ON THE DECEMBER CONTRACT: not comparable with Wednesday's $103.62, which was November"
+      "Finished effectively flat at $102.39, but the day's low of $98.40 means the flat print conceals a round trip",
+      "FOURTH DAY ON THE DECEMBER CONTRACT: still not comparable with Wednesday's $103.62, which was November"
     ],
-    "updated": "2 October 2026 08:12 (FTSE, S&P and VIX on Thursday closes, feed not yet updated post-open; rest live; gilt change on Trading Economics basis)"
+    "updated": "2 October 2026 18:26 (FTSE closed 16:35; US markets live; gilt change on CNBC basis, whose previous close has finally caught up — see cache summary)"
   },
   "GBP": {
     "name": "GBP/USD",
     "desc": "The exchange rate between the British pound and the US dollar, commonly known as 'cable'. Reflects relative economic strength and interest rate differentials between the UK and US.",
     "drivers_up": [
-      "Steadied at 1.3205 overnight after Thursday's 0.54% fall"
+      "Firmed 0.25% to 1.3232, stronger against both the dollar and the euro",
+      "Gilt yields have stayed well below Thursday's highs"
     ],
     "drivers_down": [
-      "The 28 October Budget, with at least half the fiscal headroom thought already gone"
+      "The 28 October Budget, with much of the fiscal headroom thought already gone"
     ],
-    "updated": "2 October 2026 08:12 (FTSE, S&P and VIX on Thursday closes, feed not yet updated post-open; rest live; gilt change on Trading Economics basis)"
+    "updated": "2 October 2026 18:26 (FTSE closed 16:35; US markets live; gilt change on CNBC basis, whose previous close has finally caught up — see cache summary)"
   },
   "Gold": {
     "name": "Gold (XAU/USD)",
     "desc": "The spot price of gold in US dollars per troy ounce. The world's oldest safe-haven asset, traditionally rising during periods of uncertainty, inflation and currency debasement.",
     "drivers_up": [
-      "Holding near $4,180 with a Thursday high of $4,194"
+      "Touched $4,223.95, above Wednesday's 52-week high"
     ],
     "drivers_down": [
-      "Essentially flat, up 0.05%, as the bond rout unwinds and haven demand fades"
+      "Reversed hard to $4,138.43, down 0.94% and near the day's low — the second such turn off a high this week",
+      "Risk appetite returning reduces the case for holding it"
     ],
-    "updated": "2 October 2026 08:12 (FTSE, S&P and VIX on Thursday closes, feed not yet updated post-open; rest live; gilt change on Trading Economics basis)"
+    "updated": "2 October 2026 18:26 (FTSE closed 16:35; US markets live; gilt change on CNBC basis, whose previous close has finally caught up — see cache summary)"
   },
   "EURGBP": {
     "name": "EUR/GBP",
     "desc": "The exchange rate between the euro and the British pound. Key for UK-EU trade pricing. A falling rate means sterling is strengthening against the euro.",
     "drivers_up": [
-      "Firmer at 0.8519 as sterling steadied rather than strengthened"
+      "Euro-area policy settings unchanged"
     ],
     "drivers_down": [
-      "The European Central Bank's 1 October reference rate of 0.85373 sits above the market"
+      "Eased to 0.8505, with the European Central Bank's reference rate for today at 0.85033 — the closest agreement of the week"
     ],
-    "updated": "2 October 2026 08:12 (FTSE, S&P and VIX on Thursday closes, feed not yet updated post-open; rest live; gilt change on Trading Economics basis)"
+    "updated": "2 October 2026 18:26 (FTSE closed 16:35; US markets live; gilt change on CNBC basis, whose previous close has finally caught up — see cache summary)"
   },
   "Gilt": {
     "name": "UK 10-Year Gilt Yield",
     "desc": "The yield on 10-year UK government bonds (gilts). A key benchmark for UK borrowing costs, mortgage rates and pension fund valuations. Rising yields mean falling bond prices.",
     "drivers_up": [
+      "Nudged back to 5.38% after reaching 5.2897% intraday",
       "The 28 October Budget still has to be funded"
     ],
     "drivers_down": [
-      "Down to 5.37%, more than thirteen basis points below Thursday's high of 5.5098%",
-      "The thirty-year is back at 5.9278%, well under the 6.0289% it touched on Thursday"
+      "The thirty-year is at 5.8961%, more than thirteen basis points below the 6.029% it touched on Thursday"
     ],
-    "updated": "2 October 2026 08:12 (FTSE, S&P and VIX on Thursday closes, feed not yet updated post-open; rest live; gilt change on Trading Economics basis)"
+    "updated": "2 October 2026 18:26 (FTSE closed 16:35; US markets live; gilt change on CNBC basis, whose previous close has finally caught up — see cache summary)"
   },
   "VIX": {
     "name": "VIX (Volatility Index)",
     "desc": "The CBOE Volatility Index, often called the 'fear gauge'. Measures expected S&P 500 volatility over the next 30 days. Readings above 20 suggest elevated anxiety; above 30 signals acute stress.",
     "drivers_up": [
-      "Thursday's session reached 17.59 before settling back"
+      "Oil's $4 intraday swing shows the risk has not gone away"
     ],
     "drivers_down": [
-      "Finished Thursday at 16.39 and has no fresh reading until Wall Street opens"
+      "Down 4.03% to 15.73, its lowest in over a week, as the bond rout faded",
+      "Comfortably below the 20 level that signals real anxiety"
     ],
-    "updated": "2 October 2026 08:12 (FTSE, S&P and VIX on Thursday closes, feed not yet updated post-open; rest live; gilt change on Trading Economics basis)"
+    "updated": "2 October 2026 18:26 (FTSE closed 16:35; US markets live; gilt change on CNBC basis, whose previous close has finally caught up — see cache summary)"
   },
   "BTC": {
     "name": "Bitcoin (BTC/USD)",
     "desc": "The price of Bitcoin in US dollars. The largest cryptocurrency by market cap, increasingly viewed as digital gold by institutional investors since spot ETF approvals.",
     "drivers_up": [
-      "Up 1.52% to about $85,934, with a high of $86,845 — the standout move of the morning",
-      "Falling real yields reduce the cost of holding an asset that pays nothing"
+      "Up 0.48% to about $85,054, with a high of $87,186"
     ],
     "drivers_down": [
-      "Has spent the week unable to hold above $85,000"
+      "Gave back most of the morning's gain, and has not held above $85,000 all week"
     ],
-    "updated": "2 October 2026 08:12 (FTSE, S&P and VIX on Thursday closes, feed not yet updated post-open; rest live; gilt change on Trading Economics basis)"
+    "updated": "2 October 2026 18:26 (FTSE closed 16:35; US markets live; gilt change on CNBC basis, whose previous close has finally caught up — see cache summary)"
   },
   "UST": {
     "name": "US 10-Year Treasury Yield",
     "desc": "The yield on 10-year US government bonds, the global risk-free rate benchmark. Influences mortgage rates, corporate borrowing and equity valuations worldwide.",
     "drivers_up": [
-      "The 28 October Budget is not the only fiscal worry; US deficit concerns drove this week's rout"
+      "Back up to 5.277% after an intraday low of 5.157%",
+      "The thirty-year at 5.628%"
     ],
     "drivers_down": [
-      "Steady at 5.243% after touching 5.344% on Thursday, its highest since April 2002"
+      "Still below Thursday's 5.344%, which was its highest since April 2002"
     ],
-    "updated": "2 October 2026 08:12 (FTSE, S&P and VIX on Thursday closes, feed not yet updated post-open; rest live; gilt change on Trading Economics basis)"
+    "updated": "2 October 2026 18:26 (FTSE closed 16:35; US markets live; gilt change on CNBC basis, whose previous close has finally caught up — see cache summary)"
   }
 }
 </script>
@@ -2458,6 +2462,159 @@
  <!-- ════ ALL EDITIONS (sorted by JS) ════ -->
  <!-- IMPORTANT: Keep 7 FULL DAYS of editions in this container. Do NOT delete editions less than 7 days old. -->
  <div id="all-editions" style="display:none;">
+<!-- ── EVENING 2 OCT (18:26) ── -->
+<div class="curated-edition evening" data-date="2026-10-02" data-time="18:26" data-markets='{"FTSE":{"price":10461.95,"change":0.32},"SP":{"price":7723.31,"change":0.74},"Brent":{"price":102.39,"change":0.08},"GBP":{"price":1.3232,"change":0.25},"Gold":{"price":4138.43,"change":-0.94},"EURGBP":{"price":0.8505,"change":-0.09},"Gilt":{"price":5.38,"change":0.01},"VIX":{"price":15.73,"change":-4.03},"BTC":{"price":85054,"change":0.48},"UST":{"price":5.28,"change":0.04},"ts":"2026-10-02T18:26:00+01:00"}'>
+ <div class="edition-header">
+ <span class="edition-icon">&#127769;</span>
+ <h2>Evening Briefing</h2>
+ </div>
+ <div class="curated-meta">Friday 2 October 2026 &mdash; 18:26 BST</div>
+ <div class="impact-box">
+ <h3 class="impact-heading">What It Means For You</h3>
+ <ul class="impact-list">
+ <li><strong>Filling up:</strong> Diesel has passed &pound;2 a litre for the first time, averaging 200.01p, with petrol at 174.71p. Filling a family diesel car now costs &pound;110, almost &pound;32 more than when the war began.</li>
+ <li><strong>Relief, eventually:</strong> The G7 will release up to 100 million barrels through the International Energy Agency, frontloaded with diesel in the first twenty days, and has ruled out export bans between members. None of it reaches a forecourt immediately.</li>
+ <li><strong>Your mortgage:</strong> The ten-year gilt sits at 5.38% and the thirty-year is back to 5.90%, both well below Thursday&rsquo;s highs. Gilt yields set the benchmark for fixed-rate pricing, and the Budget is on 28 October.</li>
+ </ul>
+ </div>
+ <div class="curated-grid">
+ <div class="curated-column">
+ <h3><span class="dot geo"></span><span class="dot-label">GEO</span> Geopolitical</h3>
+ <div class="curated-item" data-time="15:27" data-slug="g7-100m-barrels-no-export-bans">
+ <h4>G7 Unlocks 100 Million Barrels and Rules Out Export Bans</h4>
+ <p>The Group of Seven will release up to 100 million barrels of emergency crude and diesel reserves over four months, coordinated by the International Energy Agency, with &ldquo;a frontloaded substantial diesel release within the first 20 days&rdquo;. In return the leaders committed to &ldquo;refrain from export restrictions on energy and energy products between G7 countries&rdquo; &mdash; which kills the American export ban Donald Trump had been threatening all week.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">That reciprocal clause is the deal. Mr Trump posted that Europe had &ldquo;just agreed to release a massive amount of their heavily stocked Diesel Oil&rdquo; moments before the statement appeared, but Emmanuel Macron, chairing the meeting, set out both halves: &ldquo;We have all committed together to releasing these strategic reserves in the proportions I mentioned, with a focus on diesel, and we are all committed to ensuring there are no export bans, and President Trump, in particular, was very clear on this point.&rdquo; Ursula von der Leyen welcomed &ldquo;the decision of G7 countries not to impose any export bans on allies&rdquo;. So Europe supplied barrels and Washington withdrew a threat, each able to present it as a win. The scepticism is in the small print: the statement also &ldquo;requests the IEA to monitor the immediate and full implementation of the March 2026 commitments&rdquo;, a 400 million-barrel release that officials concede has still not been completed. Watch whether the twenty-day diesel tranche actually moves.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="18:01" data-slug="kyiv-bridges-tearing-city-apart">
+ <h4>Kyiv's Bridges Close as Russia Turns on the Capital Itself</h4>
+ <p>Kyiv&rsquo;s Southern bridge has been struck four times in two days, with all metro and vehicle traffic suspended across it and restrictions on the city&rsquo;s other Dnipro crossings. One person was killed when a residential block was hit overnight. &ldquo;The enemy is tearing Kyiv apart,&rdquo; Vitali Klitschko said after convening the city&rsquo;s defence council. &ldquo;We&rsquo;re talking about survival.&rdquo;</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">Kyiv is a city of about three million split by a river and heavily dependent on its metro, so taking out bridges is a slower and more corrosive attack than hitting power stations. Volodymyr Zelensky described the intent plainly: &ldquo;They want to destroy our bridges&hellip; our data centres, the internet, mobile networks, hospitals, kindergartens, schools, universities &mdash; everything. They want people to flee their cities.&rdquo; The defence is thinning in a specific way &mdash; an acute shortage of Patriot interceptors for ballistic missiles, against a new generation of faster jet-powered drones that are harder to bring down. The contrast with the ground war is the point: the Institute for the Study of War assessed that Russian forces lost more territory than they took across September, and Ukraine&rsquo;s general staff counted 46,320 Russian casualties in the month. Striking cities is what a side does when the front is not moving. Watch whether the bridge reopens, and whether interceptor drones arrive in useful numbers.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="16:47" data-slug="france-schools-talks-fail-tuesday-strike">
+ <h4>France's School Revolt Hardens After Talks With the Minister Fail</h4>
+ <p>Pupil and student organisations called for further mobilisation after meeting the education minister, complaining that no concrete measures were offered; a coalition of unions is now calling for a strike on Tuesday. At least 400 of France&rsquo;s 3,700 high schools were closed, with 560 reporting disruption. About 2,000 people have been detained since the movement began, the vast majority of them children.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The government&rsquo;s language has shifted from education to order. The justice minister G&eacute;rald Darmanin said matters had &ldquo;gone from high-school student demonstrations to a public order disturbance&rdquo; and that prosecutors had been asked to hold parents liable for damage caused by their children. The education minister &Eacute;douard Geffray, having failed to settle it in the room, appealed over the organisations to the parents: &ldquo;What matters now is ensuring our children are no longer out on the streets, because they are in danger,&rdquo; warning them to tell their children not to go. At least 170 pupils have been hurt, along with 65 education staff including 40 head teachers, and more than a hundred schools have sustained severe damage. The grievances remain material rather than ideological &mdash; classes of up to forty, crumbling buildings, exams sat in extreme heat &mdash; which is why a meeting offering nothing concrete hardened rather than cooled it. The presidential election is six months away. Watch Tuesday.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="16:30" data-slug="spain-housing-decrees-defeated-sanchez">
+ <h4>Spain's Right Sinks S&aacute;nchez's Housing Decrees</h4>
+ <p>Congress rejected both of the government&rsquo;s emergency housing decrees, the conservative People&rsquo;s Party, Vox and the Catalan pro-independence Junts voting them down. The measures would have halted evictions of vulnerable people until 2030 and made leases renew indefinitely. They were brought forward after protests over the eviction of an 87-year-old woman, and needed approval to stay in force. Speculation about an early election has sharpened.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">Pedro S&aacute;nchez put it as a plea rather than an argument: &ldquo;I don&rsquo;t ask you, I beg you to be brave and consistent.&rdquo; The People&rsquo;s Party answer was the orthodox one, from its lawmaker Juan Bravo: &ldquo;Housing doesn&rsquo;t become more affordable through decrees; it becomes more affordable by building more homes.&rdquo; Because the decrees were already operative and required ratification, the votes do not block something prospective &mdash; they remove protections that existed this morning. The trigger was the eviction of Maricarmen Abascal, 87, a wheelchair user, from the Madrid flat she had lived in for seventy years, after the investment firm that bought the building raised her rent from &euro;500 to &euro;2,650 against a pension of &euro;1,350. The underlying numbers explain the camp that has grown past 1,500 tents in Puerta del Sol: Spanish rents have risen some 80% in a decade. Mr S&aacute;nchez has governed without a majority for years but could not assemble one on the subject the country is protesting about. Watch whether he goes early.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="12:56" data-slug="drc-ebola-passes-four-thousand-deaths">
+ <h4>Congo's Ebola Epidemic Passes 4,000 Deaths</h4>
+ <p>Figures released on Friday put the death toll at 4,018, with 8,300 confirmed cases across seven provinces &mdash; already the largest and deadliest outbreak in the Democratic Republic of Congo&rsquo;s history. The World Health Organisation warns the epidemic is &ldquo;far from over&rdquo; and on course to surpass the 2014 to 2016 West African outbreak, which killed more than eleven thousand people.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">What makes this one so hard to stop is that it is being fought inside a war. The United Nations reported on Friday that soldiers searching for weapons burned a camp housing a transit centre for infected patients on the outskirts of Bunia, the capital of Ituri province and the epicentre of the outbreak, forcing nineteen thousand people to flee. Displacing that many people from an epicentre is the opposite of containment, and it was done by the state&rsquo;s own forces. The medical problem is as unforgiving: this is the Bundibugyo strain, for which there is no approved vaccine or treatment, with several still in trials &mdash; so the tools that eventually brought earlier Congolese outbreaks under control do not exist here. It is the country&rsquo;s seventeenth outbreak and was declared in May. Watch whether the trial vaccines are authorised for emergency use, because nothing else is likely to change the trajectory.</div>
+ </details>
+ </div>
+ </div>
+
+ <div class="curated-column">
+ <h3><span class="dot dom"></span><span class="dot-label">UK</span> UK Domestic Politics</h3>
+ <div class="curated-item" data-time="16:39" data-slug="burnham-legislate-triple-lock-this-parliament">
+ <h4>Burnham Will Legislate to End the Triple Lock This Parliament</h4>
+ <p>The government will pass legislation scrapping the state pension triple lock during this parliament, even though the guarantee itself remains in place until 2030. Guidance published alongside the Prime Minister&rsquo;s conference speech shows MPs will be required to vote on the change before the election. In future the earnings element will be adjusted to avoid very large increases in years when wages spike.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The timing is the whole of it. Keeping the guarantee until 2030 honours the manifesto; legislating now puts the change on the statute book before anyone has voted on it, and obliges every party to say whether it would keep Labour&rsquo;s version or repeal it. That converts an announcement into a dividing line, and forces the Conservatives and Reform &mdash; both of whom spent this week promising to protect the lock &mdash; to show how a reversal would be paid for. It also means a Commons vote in a parliament that has already seen a welfare rebellion. The mechanism smooths rather than severs: the pension still rises by prices or 2.5%, and the earnings link returns only if its value falls behind. The earnings element becomes a floor instead: officials put it at no less than 30% of average earnings, and the saving at about &pound;15bn a year by the end of the 2030s and &pound;50bn by 2050 &mdash; but the Resolution Foundation&rsquo;s Ruth Curtice has shown how conditional that is: it &ldquo;saves most in a volatile world, and so saves nothing in the 90s or 00s, and &pound;24bn in the 10s&rdquo;. Since the care offer is costed against it, that range matters. Watch when the bill is introduced.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="16:59" data-slug="psni-major-public-safety-operation-drumcree">
+ <h4>Police Mount a Major Public Safety Operation at Drumcree</h4>
+ <p>The Police Service of Northern Ireland said a &ldquo;major public safety operation&rdquo; will continue in Portadown this weekend, and that it is &ldquo;continuing to seek safe and peaceful compliance with the Parades Commission determination&rdquo;. Its investigation into anyone suspected of breaking the law over the dispute is &ldquo;continuing at pace&rdquo;. Sir Chris Bryant urged calm, saying everyone in Northern Ireland wants a peaceful resolution.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">With the talks collapsed and the residents&rsquo; legal challenge not heard until Monday, the weekend falls to the police alone. Assistant Chief Constable Ryan Henderson said the force was doing &ldquo;everything we can to maintain order and ensure the safety of everyone in that area&rdquo;, and thanked officers from England and Scotland who have supported the operation for the past week &mdash; mutual aid on that scale is itself a measure of what is being prepared for. The phrase carrying the most weight is seeking &ldquo;compliance with the determination&rdquo;: the Parades Commission has cleared the march, so compliance means permitting it, and the Chief Constable has already warned that forcing it through &ldquo;could be catastrophic&rdquo;. The Orange Order&rsquo;s Portadown district says it is &ldquo;carefully assessing the position and considering its next steps over the coming days&rdquo;, and no fresh parade has been notified. Thirteen councillors have meanwhile been reported to the standards commissioner over conduct surrounding the dispute. The DUP leader Gavin Robinson said there must be &ldquo;consequences&rdquo; for &ldquo;people who are law makers who are acting as law breakers&rdquo;, and expects the criminal investigation to begin next week. Watch whether anything is notified at all.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="17:04" data-slug="london-fire-brigade-grenfell-charges-file">
+ <h4>London Fire Brigade Among Those Facing Possible Grenfell Charges</h4>
+ <p>The London Fire Brigade and the Kensington and Chelsea Tenant Management Organisation have confirmed they are among the bodies facing possible criminal action over the Grenfell Tower fire. Prosecutors received a file on 20 organisations and 54 individuals this week. Both were criticised over failings relating to the fire and will learn next year whether they are to be charged.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">Naming the fire brigade changes the shape of the case. The public account has centred until now on the firms that supplied and fitted the cladding and the bodies that signed it off; a file that includes the emergency service which attended, and the organisation that managed the block for the council, extends the question from how the tower came to burn to how the night itself was handled. The offences the Metropolitan Police is seeking include corporate manslaughter, gross negligence manslaughter, health and safety offences and fraud, over the deaths of seventy-two people in 2017. Kensington and Chelsea council and the housing ministry have also been referred. Charging decisions are promised before the tenth anniversary next June &mdash; nine years and no one held criminally accountable, as Grenfell United put it this week: &ldquo;We want those responsible to face justice.&rdquo; Watch whether individuals are named rather than only institutions.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="16:00" data-slug="powell-orders-ofsted-back-drawing-board">
+ <h4>Powell Orders Ofsted Back to the Drawing Board on Inspections</h4>
+ <p>School inspections in England will be overhauled for the second time in a year after complaints that the new system was dangerously stressful and was damaging teachers&rsquo; mental health. The education secretary Lucy Powell will tell Ofsted to &ldquo;go back to the drawing board&rdquo;, having concluded that changes made by her predecessor were creating problems for head teachers. The ratings themselves are expected to stay.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">What Ms Powell wants changed is how inspectors weigh context. She is not expected to scrap the ratings that score schools from &ldquo;exceptional&rdquo; to needing &ldquo;urgent improvement&rdquo;, but to require inspectors to take greater account of each school&rsquo;s social and economic background, and in particular to rethink how inclusion is measured. That is a reversal of emphasis rather than structure, aimed at a specific grievance: that a school serving a deprived catchment is marked against the same line as one that is not. This framework was itself Labour&rsquo;s answer to the death of the head teacher Ruth Perry, and revising it within a year invites the charge that the regulator is being redesigned faster than schools can adapt. The evidence against it is blunt: a National Education Union survey found three in four inspected staff said inspections had harmed their mental health. Paul Whiteman of the head teachers&rsquo; union warned that leaders in deprived areas &ldquo;must not be placed at a systemic disadvantage by an inspection framework that fails to properly reflect those contexts&rdquo;. Watch what Ofsted is actually instructed to do.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="16:32" data-slug="polanski-vote-green-watch-labour-move">
+ <h4>Polanski Tells Voters: Vote Green and Watch Labour Move</h4>
+ <p>The Green leader used his conference speech in Brighton to argue that &ldquo;sustained pressure&rdquo; from his party had already forced Labour to shift on climate and on Israel, and that more would follow. &ldquo;Vote Green, and watch Labour move,&rdquo; he told activists, accusing the government of failing to act on housing and calling for a three-year cap on private rent rises. In half an hour he mentioned neither the Conservatives nor Reform.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The omission is the strategy. A leader who spends his whole conference speech attacking the governing party is not contesting the centre ground; he is contesting the same voters as Labour, and the claim of influence is how he justifies asking them to leave. It is also a defensive speech. Zack Polanski arrived in Brighton facing questions about his leadership after signs that last year&rsquo;s Green surge has flattened, and about how to position against a Labour party that has moved onto his territory under a new prime minister &mdash; on electoral reform, on Europe, on sanctioning Israeli settlements. Rent control is the one dividing line Labour has not crossed, which is why it carries the speech: he wants rises capped at whichever is lowest of inflation, wage growth or 2%. He is also the Green candidate in next week&rsquo;s Holborn and St Pancras by-election, which he calls &ldquo;probably 50/50&rdquo; and says his leadership does not depend on. The harder test comes on Saturday, when members debate a motion declaring Zionism racist &mdash; something his speech did not touch, and which Caroline Lucas, Adrian Ramsay and his own co-deputy have all distanced themselves from. Watch that vote.</div>
+ </details>
+ </div>
+ </div>
+ </div>
+ <div class="one-to-read">
+ <span class="otr-label">One To Read</span>
+ <a href="https://www.bbc.co.uk/news/articles/c20zgjzz0e4o" target="_blank" rel="noopener noreferrer">
+ <h4>Why UK Diesel Broke Through &pound;2 a Litre</h4>
+ <span class="otr-source">BBC News</span>
+ <span class="otr-dot">&middot;</span>
+ <span class="otr-desc">Britain refines plenty of petrol but not enough diesel, and the war has taken Gulf supply, Russian exports and Chinese shipments out of the market at once. A clear explanation of why this fuel in particular has broken a record, and what would have to change for it to fall back.</span>
+ </a>
+ </div>
+ <!-- SOURCES USED
+ - https://www.gov.uk/government/news/g7-leaders-statement-on-global-energy-security-and-market-stability &mdash; GOV.UK, the G7 Leaders' Statement in full: the 100 million barrels, the IEA coordination, the "frontloaded substantial diesel release within the first 20 days", the commitment to "refrain from export restrictions on energy and energy products between G7 countries", and the request that the IEA monitor implementation of the March 2026 commitments
+ - https://www.theguardian.com/business/2026/oct/02/g7-release-barrels-oil-diesel-reserves-emergency &mdash; The Guardian: Macron's account of both halves of the deal, Trump's Truth Social post, Simon Williams of the RAC on the £2 threshold, and Brent above $100 against about $72 before the war
+ - https://www.aljazeera.com/news/2026/10/2/trump-says-europe-agrees-to-release-massive-amount-diesel-stockpile &mdash; Al Jazeera: the scale and duration of the release, the March 2026 precedent of 400 million barrels, and the 52 million tonnes of stocks held by EU countries and the United Kingdom
+ - https://www.cnbc.com/2026/10/02/diesel-oil-trump-europe-export-ban.html &mdash; CNBC: the export-restriction clause as agreed, Bessent's demand of European partners, and the American share of EU diesel imports
+ - https://www.theguardian.com/world/live/2026/oct/02/france-schools-protests-violence-ukraine-kallas-rome-pope-latest-news-updates &mdash; The Guardian live blog: von der Leyen welcoming the decision not to impose export bans, Klitschko's "we're talking about survival", and the failure of the French education minister's meeting with pupil organisations followed by a union call for a strike on Tuesday
+ - https://www.bbc.co.uk/news/articles/c6wyv44y4ywjo &mdash; BBC News: the Southern bridge struck four times in two days, Klitschko on the enemy "tearing Kyiv apart" and the defence council meeting, and Putin's "they started it"
+ - https://www.theguardian.com/world/2026/oct/02/terror-kyiv-russia-ramps-up-attacks-ukraine &mdash; The Guardian, carrying Zelensky's interview with the Financial Times: "they want people to flee their cities", the acute shortage of Patriot interceptors, and the new generation of jet-powered Russian drones
+ - https://www.understandingwar.org/backgrounder/russian-offensive-campaign-assessment-october-1-2026 &mdash; Institute for the Study of War, 1 October assessment: Russian forces taking 175.54 square kilometres in September against 256.35 lost, and the Ukrainian general staff's count of 46,320 Russian casualties
+ - https://www.aljazeera.com/news/2026/10/2/protests-shutter-hundreds-of-french-schools-as-violence-flares &mdash; Al Jazeera, with AFP and Reuters: the education ministry's 400 schools closed of 3,700 and 560 disrupted, Darmanin on about 2,000 detained and mostly children, Geffray telling parents to keep children away, and the 170 pupils and 65 staff injured
+ - https://www.bbc.co.uk/news/articles/ck3r5dxxwqzpo &mdash; BBC News: Darmanin on the shift "from high-school student demonstrations to a public order disturbance", the parental-liability move, and the damage to schools
+ - https://www.theguardian.com/world/2026/oct/02/spanish-right-wing-votes-down-housing-crisis-plans-protest-movement-grows &mdash; The Guardian: Sánchez's "I don't ask you, I beg you", Juan Bravo for the People's Party, the Abascal eviction and the rent raised from €500 to €2,650, rents up some 80% in a decade, and the Puerta del Sol camp past 1,500 tents
+ - https://www.aljazeera.com/news/2026/10/2/spains-parliament-rejects-govt-housing-decrees-amid-mass-protests &mdash; Al Jazeera: what the two decrees contained, including halting evictions of vulnerable people until 2030 and indefinite lease renewal, and the People's Party, Vox and Junts voting them down
+ - https://www.bbc.co.uk/news/articles/c623dlk4y75mo &mdash; BBC News: the margins of 178 to 172 and 184 to 166, and the increased pressure on Sánchez to call a snap election
+ - https://www.aljazeera.com/news/2026/10/2/ebola-death-toll-surpasses-4000-as-dr-congo-struggles-to-suppress-outbreak &mdash; Al Jazeera: the toll at 4,018 with 8,300 confirmed cases across seven provinces, the burning of the Bunia transit camp by soldiers and the 19,000 forced to flee, the WHO's "far from over", and the absence of any approved vaccine for the Bundibugyo strain
+ - https://www.theguardian.com/politics/2026/oct/02/burnham-law-pension-triple-lock &mdash; The Guardian: the decision to legislate in this parliament, the official estimate of £15bn a year by the end of the 2030s and £50bn by 2050, Ruth Curtice of the Resolution Foundation on the range from nothing to £24bn, and YouGov showing support by 48% to 28%
+ - https://www.telegraph.co.uk/money/pensions/state-pensions/man-who-masterminded-burnhams-triple-lock-bombshell/ &mdash; The Telegraph: that the replacement mechanism pegs the state pension to a declared share of average earnings, which officials put at no less than 30%, and its resemblance to the Resolution Foundation's long-argued "smooth earnings link"
+ - https://www.bbc.co.uk/news/articles/cr0qxq7jwg9go &mdash; BBC News: Badenoch confirming the Conservatives will keep the triple lock in its current form, and the conference opening in Birmingham
+ - https://www.bbc.co.uk/news/articles/ckp848925lgmo &mdash; BBC News NI: the PSNI's "major public safety operation", Assistant Chief Constable Ryan Henderson, Bryant urging calm, the Portadown district "considering its next steps", the thirteen councillors reported to the standards commissioner, and Gavin Robinson on consequences
+ - https://news.sky.com/story/talks-over-orange-order-parade-between-a-rock-and-a-hard-place-ahead-of-legal-appeal-on-monday-13594150 &mdash; Sky News: independent corroboration from a second approved outlet that the residents' appeal is listed for Monday (feed-level only, body blocked at the edge)
+ - https://www.bbc.co.uk/news/articles/crz98wpqglkeo &mdash; BBC News: the London Fire Brigade and Kensington and Chelsea Tenant Management Organisation confirming they are named, the file covering 20 organisations and 54 individuals, the offences sought, the referrals of the council and the housing ministry, and Grenfell United
+ - https://www.theguardian.com/education/2026/oct/02/school-inspections-england-ofsted-overhaul-complaints &mdash; The Guardian: Lucy Powell sending Ofsted "back to the drawing board", the National Education Union survey on inspections and mental health, and Paul Whiteman of the head teachers' union on systemic disadvantage
+ - https://www.bbc.co.uk/news/articles/cmx239469krpo &mdash; BBC News: "Vote Green, and watch Labour move", the three-year rent brake pegged to the lowest of inflation, wage growth or 2%, and that he mentioned neither the Conservatives nor Reform
+ - https://www.theguardian.com/politics/2026/oct/02/polanski-green-leader-authority-byelection-holborn-pancras &mdash; The Guardian: Polanski calling the Holborn and St Pancras by-election "probably 50/50", saying his leadership does not depend on it, and the Zionism motion from which Caroline Lucas, Adrian Ramsay and his co-deputy have distanced themselves
+ - https://www.bbc.co.uk/news/articles/crn8e86y5n0zo &mdash; BBC News: diesel averaging 200.01p a litre and petrol 174.71p, £110 to fill a family diesel car and almost £32 more than at the start of the war, and Simon Williams of the RAC
+ - https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?requestMethod=itv&noform=1&partnerId=2&fund=1&exthrs=1&output=json&symbols=.FTSE|.SPX|GBP=|XAU=|BTC.CM=|US10Y|US30Y|@LCO.1|@LCO.2|EURGBP=|UK10Y-GB|UK30Y-GB|.VIX &mdash; CNBC quote endpoint: the ticker levels for all ten instruments, read 18:13 BST, all thirteen symbols with no nulls
+ - https://tradingeconomics.com/united-kingdom/government-bond-yield &mdash; Trading Economics (data only): the ten-year gilt, cross-checked against CNBC, whose previous-close field has finally caught up with the figure this site published this morning
+ - Full ticker adjudication, including the sign disagreement on the thirty-year gilt and the fourth day on the December Brent contract, recorded in cache/2026-10-02/markets-SUMMARY-EVENING.txt
+ - https://www.bbc.co.uk/news/articles/c20zgjzz0e4o &mdash; BBC News &mdash; One To Read: why the pump price broke £2, and what would have to change for it to come back down
+ END SOURCES USED -->
+</div><!-- ── END EVENING 2 OCT (18:26) ── -->
+
 <!-- ── MORNING 2 OCT (08:12) ── -->
 <div class="curated-edition morning" data-date="2026-10-02" data-time="08:12" data-markets='{"FTSE":{"price":10428.27,"change":-1.68},"SP":{"price":7666.45,"change":0.19},"Brent":{"price":101.52,"change":-0.77},"GBP":{"price":1.3205,"change":0.05},"Gold":{"price":4179.95,"change":0.05},"EURGBP":{"price":0.8519,"change":0.07},"Gilt":{"price":5.37,"change":-0.02},"VIX":{"price":16.39,"change":0.0},"BTC":{"price":85934,"change":1.52},"UST":{"price":5.24,"change":0.01},"ts":"2026-10-02T08:12:00+01:00"}'>
  <div class="edition-header">

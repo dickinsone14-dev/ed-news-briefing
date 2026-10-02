@@ -1,0 +1,60 @@
+URL: (compiled) Friday 2 October 2026 EVENING ticker basis — verified 18:13-18:18 BST
+PRIMARY SOURCE: CNBC quote endpoint, read 18:13:24 BST, three batches, ALL 13 SYMBOLS, no nulls.
+  Raw JSON alongside as evening-markets-CNBC-1813.json (line 1 is the exact URL).
+
+  .FTSE     10,461.95  +0.32%  chg  +33.68  prev 10,428.27  hi 10,503.15 lo 10,413.37  CLOSED 16:35
+  .SPX       7,723.31  +0.74%  chg  +56.86  prev  7,666.45  hi  7,754.67 lo  7,700.51  live 13:13 EDT
+  @LCO.1       102.39  +0.08%  prev 102.31  hi 102.85 lo 98.40   18:03 BST  ICE Brent Dec'26
+  @LCO.2        98.66  +0.23%  prev  98.43  hi  98.83 lo 95.12   18:03 BST  ICE Brent Jan'27
+  GBP=         1.3232  +0.25%  prev 1.3199  hi 1.3255 lo 1.3182
+  XAU=       4,138.43  -0.94%  prev 4,177.76 hi 4,223.95 lo 4,125.94
+  EURGBP=      0.8505  -0.09%  prev 0.8513  hi 0.8526 lo 0.8487
+  UK10Y-GB    5.3819%  prev 5.3721%  hi 5.3873% lo 5.2897%   (see adjudication)
+  UK30Y-GB    5.8961%  prev 5.8944%  hi 5.9366% lo 5.8242%
+  .VIX          15.73  -4.03%  prev 16.39   hi 16.24 lo 15.42
+  BTC.CM=   85,054.41  +0.48%  prev 84,644.20 hi 87,185.96 lo 84,465.40
+  US10Y        5.277%  chg +0.043  prev 5.234%  hi 5.281% lo 5.157%
+  US30Y        5.628%  chg +0.025  prev 5.603%  hi 5.636% lo 5.552%
+
+*** GILT ADJUDICATION — THE BASIS SWITCHES BACK TO CNBC TONIGHT, AND HERE IS WHY ***
+All week CNBC's previous_day_closing on the ten-year gilt was stale or wrong, and Trading Economics was
+used to adjudicate. Tonight that has reversed. CNBC now reports the previous close as 5.3721%, which is
+effectively the 5.37 this site published at 08:12 this morning — the first time this week its prev field
+has agreed with our own published figure. On that basis the ten-year is 5.3819%, up about 0.01.
+Trading Economics now says "eased to 5.38% on October 2, 2026, marking a 0.01 percentage points
+decrease" — but it said "a 0.02 percentage points decrease" to the same 5.38% level at 08:02 this
+morning, so it has revised its own change while holding its level, and its implied previous close is
+higher than ours.
+*** THE TWO PROVIDERS THEREFORE DISAGREE ON THE SIGN, by about one basis point either way. ***
+DECISION: publish 5.38 with +0.01. The principle has not changed — use the provider whose previous close
+is demonstrably right — only the provider satisfying it has. This keeps the site's published series
+coherent and arithmetically exact: 5.38 -> 5.44 -> 5.48 -> 5.39 -> 5.37 -> 5.38.
+The standing rule from 1 October still applies to the THIRTY-year, where the providers disagree more
+sharply (CNBC +0.0017 against Trading Economics -0.05): the driver gives its level, 5.8961%, and its
+distance below Thursday's 6.029% peak, and asserts no daily direction.
+
+*** GOLD MADE A FRESH HIGH AND REVERSED, FOR THE SECOND TIME THIS WEEK ***
+XAU= touched 4,223.95, above the 4,218.16 that was Wednesday's 52-week high, then fell to 4,138.43,
+down 0.94% and close to the day's low of 4,125.94. The same pattern — new high, hard reversal — occurred
+on Wednesday. Worth saying in the driver without over-reading it.
+
+*** BRENT: FOURTH DAY ON THE DECEMBER CONTRACT, AND A LARGE INTRADAY RANGE ***
+@LCO.1 is Dec'26, prev 102.31 (Thursday's settle), finishing effectively flat at 102.39 — but the day's
+low was 98.40, almost $4 below the close, so the flat print conceals a round trip. Wednesday evening's
+published 103.62 was the NOVEMBER contract and remains non-comparable; the driver says so for the fourth
+edition running, per the standing rule.
+
+FX — CLEAN, AND THE BEST AGREEMENT OF THE WEEK. The ECB daily reference rate now exists for today:
+Frankfurter gives EUR/GBP 0.85033 dated 2026-10-02 against CNBC's live 0.8505, a gap of about two pips.
+Sterling firmed 0.25% to 1.3232 while euro-sterling eased, so sterling was stronger against both.
+Yahoo's chart API unusable, ninth day. Investing.com 403s. Reuters returns 401.
+
+PUBLISHED TICKER: FTSE 10,461.95 +0.32 | SP 7,723.31 +0.74 | Brent 102.39 +0.08 | GBP 1.3232 +0.25
+| Gold 4,138.43 -0.94 | EURGBP 0.8505 -0.09 | Gilt 5.38 +0.01 | VIX 15.73 -4.03 | BTC 85,054 +0.48
+| UST 5.28 +0.04
+Yields published as percentage-POINT changes.
+
+THE SHAPE: risk came back. The FTSE recovered 0.32% after Thursday's 1.68% fall, the S&P is up 0.74%,
+and the VIX dropped 4% to 15.73, its lowest in over a week. Gilts are steady either side of 5.38% having
+been as low as 5.2897% intraday, and the thirty-year is at 5.8961%, more than thirteen basis points below
+Thursday's peak. Gold is the one casualty, down 0.94% after a fresh high. Sterling firmer on both crosses.
