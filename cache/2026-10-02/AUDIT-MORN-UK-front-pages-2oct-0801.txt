@@ -1,0 +1,45 @@
+URL: https://www.bbc.co.uk/news  (live, not cached)
+AUDIT — BBC News UK homepage checked live via curl at 08:01 BST, Friday 2 October 2026
+
+BBC NEWS HOMEPAGE LEAD (top item, position 1):
+"US pressures Europe over diesel reserves as Trump threatens export ban"
+https://www.bbc.co.uk/news/articles/c5zjzjgdeneeo
+
+Homepage order as retrieved 08:01 BST:
+ 1. US pressures Europe over diesel reserves as Trump threatens export ban
+ 2. Crypto thieves attack man in home and threaten to kill pregnant wife's baby in 'horrific' robbery
+ 3. Chris Mason: Why Andy Burnham's about-turn on Manchester City matters  [SPORT-ADJACENT — EXCLUDED PER SITE RULE]
+ 4. Christa Pike in critical condition after surviving two lethal injections, lawyer says
+ 5. UK-Iranian dual national arrested over RAF Fairford incident, police say
+ 6. Chaos, coffins and 'Claudiapatra' steal the show in Celebrity Traitors
+ 7. Spain and China are cosying up - to the anger of many in the EU
+ 8. NY's governor appoints special prosecutor in Cornell frat rape investigation
+ 9. Zack Polanski to call for three-year cap on private rent rises
+10. Seoul warns 'further action' if Ukraine does not apologise over prisoner-of-war row
+12. 'It could cost me £10k but I need the money now': Why Gen Z are opting out of pensions
+15. The Papers: 'Laughing criminals let loose' and 'Return to the castle'
+16. Coroner warns of risk of future deaths at mental health unit where patient was killed
+17. Man City not 'above the rules', says No 10  [EXCLUDED PER SITE RULE]
+18. First minister demands 'new deal' for Wales before Plaid Cymru conference
+
+SECOND APPROVED FRONT PAGE: The Times UK Politics index
+URL: https://www.thetimes.com/uk/politics  (retrieved 08:03 BST, 2 Oct 2026)
+Top items:
+ - Ministers may scrap youth disability benefit for back-to-work plan
+ - Badenoch fired up for battle of the eighties v the seventies
+ - Thousands of housing schemes will not require environmental checks (Natural England planning reform, published 1 Oct 21:33 BST)
+ - Burnham's Brexit gambit has given me my biggest boost yet, says Farage
+ - Prisoners thank PM for early release, but many wonder, what now?
+ - Britain in emergency diesel talks with Europe after Trump ultimatum  <-- TIMES SPLASH
+ - Greens fear Holborn by-election loss as insiders feel Polanski's peaked
+Note: Times article bodies are paywalled to curl — headline and standfirst only were retrievable.
+
+FRONT-PAGE SUMMARY (via BBC press review, https://www.bbc.co.uk/news/articles/c65ymyxlel34o):
+ - The Times: diesel / UK emergency talks (splash)
+ - The Telegraph: UK "at risk of fuel shortages", imports ~55% of its diesel (splash)
+ - The Guardian: ministers working up "sweeping plans" for welfare reform, scrapping health element of UC for under-25s
+ - FT: "Global bond sell-off leaves US trapped in 'vicious loop'"
+ - Metro / Daily Mail: early prisoner release ("Get out of jail free day"; first 700 of ~4,500)
+ - i Paper: Burnham "leaving the door open" to a snap general election in May 2027  [UNAPPROVED OUTLET — reported only via BBC press review]
+ - Daily Express: Badenoch interview, vows to "fight for Brexit and defend the triple lock"  [UNAPPROVED OUTLET]
+ - The Sun / Daily Mirror / Daily Star: excluded (sport, celebrity)

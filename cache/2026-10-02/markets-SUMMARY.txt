@@ -1,0 +1,56 @@
+URL: (compiled) Friday 2 October 2026 MORNING ticker basis — verified 08:01-08:10 BST
+PRIMARY SOURCE: CNBC quote endpoint, read 08:01:32 and again 08:05:52 BST. All symbols returned, no nulls.
+  Raw JSON saved as morning-markets-CNBC-0805.json (line 1 of that file is the exact URL).
+
+PRE-OPEN CAVEAT, STATED PLAINLY: CNBC's feed had NOT updated the FTSE after the 08:00 open on either
+read — it still carried Thursday's close of 10,428.27 stamped 10/01/26. The S&P and the VIX likewise
+carry Thursday's closes, US markets being shut. So FTSE, SP and VIX are Thursday closes with Thursday's
+changes; Brent, both FX pairs, gold, bitcoin and both yields are live. Same convention as 30 September.
+
+  .FTSE     10,428.27  -1.68%  chg -177.73  prev 10,606.00   THURSDAY CLOSE (feed not yet updated)
+  .SPX       7,666.45  +0.19%  chg  +14.91  prev  7,666.45   THURSDAY CLOSE (US shut)
+  @LCO.1       101.52  -0.77%  chg   -0.79  prev   102.31    live 07:55 BST   ICE Brent Dec'26
+  @LCO.2        97.71  -0.73%  chg   -0.72  prev    98.43    live 07:55 BST   ICE Brent Jan'27
+  GBP=         1.3205  +0.05%  prev 1.3199
+  XAU=       4,179.95  +0.05%  prev 4,177.76
+  EURGBP=      0.8519  +0.07%  prev 0.8513
+  UK10Y-GB    5.3744%  CNBC prev 5.4022% (REJECTED — see below)
+  UK30Y-GB    5.9278%  CNBC prev 5.9343%
+  .VIX          16.39  UNCH    prev 16.39   THURSDAY CLOSE, no data yet (hi/lo both 0.00)
+  BTC.CM=   85,934.10  +1.52%  prev 84,644.20
+  US10Y        5.243%  chg +0.009  prev 5.234%
+
+*** THIRD DAY ON THE DECEMBER BRENT CONTRACT — STILL NOT COMPARABLE BACKWARDS ***
+@LCO.1 remains Dec'26. Its prev of 102.31 is December's Thursday settle and matches CNBC's own market
+report exactly, so today's -0.77% is a true like-for-like move. But Wednesday evening's published 103.62
+was the NOVEMBER contract, so anyone comparing this week's editions across the roll still sees a fall
+that is partly mechanical. The Brent driver says so for the third edition running, per the standing rule.
+
+*** GILT ADJUDICATION — CNBC's previous_day_closing REJECTED, NINTH TIME THIS WEEK ***
+CNBC still reports the ten-year's previous close as 5.4022%, unchanged since Thursday evening, so it has
+not ingested Thursday's actual close. On that stale figure today's move would be -0.028.
+INDEPENDENT ADJUDICATOR — Trading Economics (data only), read 08:02 BST, both pages dated 2 October:
+  10-year: "eased to 5.38% on October 2, 2026, marking a 0.02 percentage points decrease"
+  30-year: "eased to 5.93% on October 2, 2026, marking a 0.01 percentage points decrease"
+DECISION: publish the ten-year at 5.37 with a change of -0.02. The level is CNBC's live 5.3744 rounded;
+the change is Trading Economics' stated figure, and the two reconcile exactly against what this site
+published last night: 5.39 - 0.02 = 5.37. The week's published series is therefore coherent throughout:
+  5.38 -> 5.44 -> 5.48 -> 5.39 -> 5.37
+NOTE ON THE THIRTY-YEAR: last night two providers disagreed on the SIGN of its daily change. Today they
+agree it fell (CNBC -0.0065, Trading Economics -0.01), and it sits at 5.9278%, comfortably back below the
+6.029% it touched on Thursday morning. The driver gives the level and that comparison, not a bare change.
+
+FX CROSS-CHECK: the ECB daily reference rate is still dated 1 October (EUR/GBP 0.85373) — it publishes
+about 15:00 BST, so there is no 2 October fixing yet. CNBC's live 0.8519 sits below yesterday's ECB fix,
+consistent with sterling having weakened late on Thursday and steadied overnight.
+Yahoo's chart API unusable, ninth day. Investing.com's historical endpoint 403s. Reuters returns 401.
+
+PUBLISHED TICKER: FTSE 10,428.27 -1.68 | SP 7,666.45 +0.19 | Brent 101.52 -0.77 | GBP 1.3205 +0.05
+| Gold 4,179.95 +0.05 | EURGBP 0.8519 +0.07 | Gilt 5.37 -0.02 | VIX 16.39 0.00 | BTC 85,934 +1.52
+| UST 5.24 +0.01
+Yields published as percentage-POINT changes.
+
+THE SHAPE: the bond market has kept unwinding Thursday's rout. The ten-year gilt is down to 5.3744% from
+a Thursday high of 5.5098%, the thirty-year to 5.9278% from 6.0289%, and the US ten-year is steady at
+5.243% after touching 5.344%. Bitcoin is the standout, up 1.52% to 85,934 with a high of 86,845. Oil has
+given back a fifth of Thursday's 4.4% jump. Sterling and gold are close to flat.
