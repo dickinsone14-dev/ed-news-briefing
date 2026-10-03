@@ -1,0 +1,62 @@
+URL: (compiled) Saturday 3 October 2026 MORNING ticker basis — verified 07:53-07:58 BST
+PRIMARY SOURCE: CNBC quote endpoint, read 07:53:48 BST. All 13 symbols, no nulls.
+  Raw JSON saved as morning-markets-CNBC-0753.json (line 1 of that file is the exact URL).
+
+*** IT IS SATURDAY. EVERY INSTRUMENT BUT BITCOIN CARRIES FRIDAY'S CLOSE. ***
+Equities, both bond markets, oil and the FX pairs are all shut, so the ticker shows Friday 2 October's
+closing levels with FRIDAY'S changes. Bitcoin is the only instrument trading, and its change is today's.
+This is stated here because a reader comparing the Saturday ticker with Friday evening's will see small
+differences: the evening edition carried LIVE intraday values at 18:13, and several instruments moved
+between then and the close. Specifically:
+  Gold  published Friday evening at 4,138.43 (-0.94%) live; CLOSED 4,142.34, so Friday's move was -0.85%
+  VIX   published Friday evening at 15.73 (-0.06%) live;  CLOSED 15.31, so Friday's move was -6.59%
+  S&P   published Friday evening at 7,723.31 (+0.74%) live; CLOSED 7,722.72, +0.73%
+  Brent published Friday evening at 102.39 (+0.08%) live;  SETTLED 102.25, so Friday's move was -0.06%
+None of those evening figures was wrong — they were correct for 18:13 — but the closes supersede them
+and the Saturday edition carries the closes.
+
+  .FTSE     10,461.95  +0.32%  chg  +33.68  prev 10,428.27   FRIDAY CLOSE
+  .SPX       7,722.72  +0.73%  chg  +56.27  prev  7,666.45   FRIDAY CLOSE
+  @LCO.1       102.25  settle, Friday; Thursday's settle was 102.31, so -0.06 / -0.06%   Dec'26
+  @LCO.2        98.71  settle, Friday                                                    Jan'27
+  GBP=         1.3241  +0.32%  chg +0.0042 (Friday's move from 1.3199)
+  XAU=       4,142.34  Friday close; Thursday's close 4,177.76, so -35.42 / -0.85%
+  EURGBP=      0.8497  -0.19%  chg -0.0016
+  UK10Y-GB    5.3770%  prev 5.3721%  (see adjudication)
+  UK30Y-GB    5.8840%  prev 5.8944%
+  .VIX          15.31  -6.59%  prev 16.39   FRIDAY CLOSE
+  BTC.CM=   84,573.23  +0.47%  prev 84,173.72 (Friday close)  — THE ONLY LIVE INSTRUMENT
+  US10Y        5.273%  chg +0.039  prev 5.234%   FRIDAY CLOSE
+  US30Y        5.623%  chg +0.020  prev 5.603%   FRIDAY CLOSE
+
+*** GILT: PROVIDERS DISAGREE ON THE SIGN AGAIN, AND IT DOES NOT MATTER THIS TIME ***
+CNBC has Friday's ten-year close at 5.3770% against a Thursday close of 5.3721%, i.e. +0.005.
+Trading Economics says the ten-year "eased to 5.38% on October 2, 2026, marking a 0.01 percentage points
+decrease". So the two disagree on direction by about one basis point, as they did on 1 October.
+DECISION: publish 5.38 with +0.01, which is exactly what this site published on Friday evening. Because
+the gilt market has not opened since, Friday's close IS Friday evening's figure, so republishing it
+unchanged is the only internally consistent answer and no new adjudication is required. The published
+series for the week therefore reads: 5.38 -> 5.44 -> 5.48 -> 5.39 -> 5.37 -> 5.38 -> 5.38.
+THE THIRTY-YEAR: CNBC has it at 5.8840% and Trading Economics at 5.91%, a wider gap than the ten-year.
+The standing rule from 1 October applies — no daily direction is asserted for the thirty-year, and the
+impact box says only that it is well below the 6.0289% it touched on Thursday, which both providers agree.
+
+*** BRENT: FIFTH DAY ON THE DECEMBER CONTRACT ***
+@LCO.1 remains Dec'26 and settled at 102.25. Wednesday evening's published 103.62 was NOVEMBER and is
+still not comparable; the driver says so for the fifth edition running, per the standing rule. The December
+contract's own week: 98.03 settle on Wednesday, 102.31 Thursday, 102.25 Friday — so the G7 reserve
+announcement on Friday afternoon did not move it materially either way.
+
+FX CROSS-CHECK: the ECB daily reference rate is dated 2 October (EUR/GBP 0.85033) with no weekend fixing.
+CNBC's Friday close of 0.8497 sits about six pips below it, consistent with sterling having firmed into
+the close after the ECB's mid-afternoon fix. Yahoo's chart API unusable, tenth day; Investing.com 403s;
+Reuters 401s.
+
+PUBLISHED TICKER: FTSE 10,461.95 +0.32 | SP 7,722.72 +0.73 | Brent 102.25 -0.06 | GBP 1.3241 +0.32
+| Gold 4,142.34 -0.85 | EURGBP 0.8497 -0.19 | Gilt 5.38 +0.01 | VIX 15.31 -6.59 | BTC 84,573 +0.47
+| UST 5.27 +0.04
+Yields published as percentage-POINT changes.
+
+THE WEEK, IN ONE LINE: gilts spiked to a 28-year high on Thursday and gave it all back; the FTSE lost
+1.68% on Thursday and recovered 0.32% on Friday; diesel broke £2 a litre; and the G7 opened its reserves.
+The VIX ending the week at 15.31, down 6.59% on the day, is the clearest single sign the scare has passed.
