@@ -1,0 +1,19 @@
+URL: (compiled) Sunday 4 October 2026 EVENING ticker basis — edition timestamped 18:08 BST
+NOTE: this run actually executed at about 02:15 BST on Monday 5 October (the scheduled 18:08 run was delayed).
+The ticker is reconstructed AS AT 18:08 BST SUNDAY, not as at production time.
+
+*** SUNDAY: EVERY INSTRUMENT BUT BITCOIN CARRIES FRIDAY 2 OCTOBER'S CLOSE ***
+Equities, bonds, oil and FX were shut at 18:08 on Sunday. Friday closes are those adjudicated in
+cache/2026-10-03/markets-SUMMARY.txt (CNBC quote endpoint), re-confirmed by the CNBC quote endpoint read at
+02:17 BST Monday (evening-markets-CNBC-quote-0217-mon.json): .FTSE last 10,461.95 (+0.32%, 2026-10-02),
+.SPX 7,722.72 (+0.73%, 2026-10-02), .VIX 15.31 (-6.59%, 2026-10-02); previous_day_closing on GBP= 1.3241,
+XAU= 4,142.342, @LCO.1 102.25, EURGBP= 0.8497, US10Y 5.277%. Values after Sunday 23:00 BST (Monday session)
+are deliberately NOT used because they postdate the 18:08 timestamp.
+
+BITCOIN (the only live instrument): CNBC 5-day chart for BTC.CM= (evening-markets-CNBC-BTC-5D.json), bar at
+2026-10-04 18:08 BST closed at 85,308.98; the same bar 24 hours earlier (2026-10-03 18:08 BST) closed at
+84,871.85, so the 24-hour change is +0.52%.
+
+PUBLISHED TICKER: FTSE 10,461.95 +0.32 | SP 7,722.72 +0.73 | Brent 102.25 -0.06 | GBP 1.3241 +0.32
+| Gold 4,142.34 -0.85 | EURGBP 0.8497 -0.19 | Gilt 5.38 +0.01 | VIX 15.31 -6.59 | BTC 85,309 +0.52
+| UST 5.27 +0.04
