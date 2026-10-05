@@ -1,0 +1,97 @@
+{
+ "FTSE": {
+  "up": [
+   "Closed Friday 0.32% higher at 10,461.95, recovering part of Thursday's fall",
+   "Gilt yields ended the week well below Thursday's peak"
+  ],
+  "down": [
+   "Still finished the week lower, and 10,503.15 was as far as Friday's rally reached"
+  ],
+  "updated": "4 October 2026 08:05 (Sunday: all instruments on Friday's closes except bitcoin, which is live)"
+ },
+ "SP": {
+  "up": [
+   "Closed Friday 0.73% higher at 7,722.72",
+   "The VIX fell 6.59% to 15.31, its lowest in weeks"
+  ],
+  "down": [
+   "The ten-year Treasury crept back to 5.273% by the close"
+  ],
+  "updated": "4 October 2026 08:05 (Sunday: all instruments on Friday's closes except bitcoin, which is live)"
+ },
+ "Brent": {
+  "up": [
+   "Gulf supply remains hostage to a war now in its eighth month"
+  ],
+  "down": [
+   "Settled at $102.25, essentially flat on the week's earlier spike, and the G7 reserve release did not move it either way",
+   "Still on the December contract: not comparable with Wednesday's $103.62, which was November"
+  ],
+  "updated": "4 October 2026 08:05 (Sunday: all instruments on Friday's closes except bitcoin, which is live)"
+ },
+ "GBP": {
+  "up": [
+   "Firmed 0.32% to 1.3241 into Friday's close, stronger against the euro too"
+  ],
+  "down": [
+   "The 28 October Budget, with much of the fiscal headroom thought already gone"
+  ],
+  "updated": "4 October 2026 08:05 (Sunday: all instruments on Friday's closes except bitcoin, which is live)"
+ },
+ "Gold": {
+  "up": [
+   "Touched $4,223.95 on Friday, a fresh high for the year"
+  ],
+  "down": [
+   "Closed at $4,142.34, down 0.85%, having given the whole move back — the second such reversal of the week"
+  ],
+  "updated": "4 October 2026 08:05 (Sunday: all instruments on Friday's closes except bitcoin, which is live)"
+ },
+ "EURGBP": {
+  "up": [
+   "Euro-area policy settings unchanged"
+  ],
+  "down": [
+   "Eased 0.19% to 0.8497, about six pips below the European Central Bank's Friday reference rate of 0.85033"
+  ],
+  "updated": "4 October 2026 08:05 (Sunday: all instruments on Friday's closes except bitcoin, which is live)"
+ },
+ "Gilt": {
+  "up": [
+   "The 28 October Budget still has to be funded"
+  ],
+  "down": [
+   "Ended the week at 5.38%, having touched 5.5098% on Thursday",
+   "The thirty-year is well below the 6.0289% it reached on Thursday, its highest since 1998"
+  ],
+  "updated": "4 October 2026 08:05 (Sunday: all instruments on Friday's closes except bitcoin, which is live)"
+ },
+ "VIX": {
+  "up": [
+   "Diesel above £2 a litre and a war in its eighth month remain standing risks"
+  ],
+  "down": [
+   "Fell 6.59% to 15.31 on Friday, the clearest sign the week's bond scare has passed",
+   "Far below the 20 level that signals real anxiety"
+  ],
+  "updated": "4 October 2026 08:05 (Sunday: all instruments on Friday's closes except bitcoin, which is live)"
+ },
+ "BTC": {
+  "up": [
+   "Traded at 85,006 at 08:05 on Sunday, up 0.51% on the same time Saturday"
+  ],
+  "down": [
+   "Weekend trading is thin, with every other market on this ticker shut until Monday"
+  ],
+  "updated": "4 October 2026 08:05 (Sunday: all instruments on Friday's closes except bitcoin, which is live)"
+ },
+ "UST": {
+  "up": [
+   "Ended Friday at 5.273%, up four basis points, and the thirty-year at 5.623%"
+  ],
+  "down": [
+   "Still below Thursday's 5.344%, which was its highest since April 2002"
+  ],
+  "updated": "4 October 2026 08:05 (Sunday: all instruments on Friday's closes except bitcoin, which is live)"
+ }
+}
