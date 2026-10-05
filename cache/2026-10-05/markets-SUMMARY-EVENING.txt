@@ -1,0 +1,21 @@
+URL: (compiled) Monday 5 October 2026 EVENING ticker basis
+Primary: CNBC quote endpoint, read 19:50 BST. Cross-check: Trading Economics (UK 10y).
+
+ALL TEN INSTRUMENTS LIVE OR SETTLED TODAY — unlike this morning, when the FTSE and the S&P were still
+on Friday's close. The FTSE settled at 16:35 BST; Wall Street was still open at the time of the read.
+
+*** GILT DISCREPANCY — READ BEFORE REUSING ***
+CNBC's UK10Y-GB previous_day_closing read **5.3721** at 08:06 this morning but **5.423** at 19:50 this
+evening, for what should be the same Friday 2 October close. The feed's prev field is therefore
+unreliable. Trading Economics independently showed **5.41 with a +0.04 change**, which reconciles against
+5.3721 (5.41 − 0.04 = 5.37). The published change of +0.04 is computed against Friday's 5.3721 close, not
+against the feed's prev field. Direction is corroborated by the US ten-year, also up five basis points,
+and by the five-year fixed mortgage average reaching 6% today.
+
+BRENT: down 2.00% to $100.21, the largest single-day fall of the week, still on the December contract.
+US 10-YEAR: 5.33%, up five basis points from Friday's 5.277%.
+BITCOIN: 85,614, up 0.21%, having given back part of this morning's 86,169.
+
+PUBLISHED TICKER: FTSE 10,497.94 +0.34 | SP 7,779.79 +0.74 | Brent 100.21 -2.00 | GBP 1.3216 -0.19
+ | Gold 4,139.34 -0.07 | EURGBP 0.8483 -0.16 | Gilt 5.41 +0.04 | VIX 15.58 +1.76 | BTC 85,614 +0.21
+ | UST 5.33 +0.05

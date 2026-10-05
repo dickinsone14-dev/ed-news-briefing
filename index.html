@@ -2289,7 +2289,7 @@
  <!-- #1 Markets snapshot bar -->
  <!-- Embedded market data (populated by update script, used as fallback) -->
  <script id="embedded-markets" type="application/json">
-{"FTSE":{"price":10461.95,"change":0.32},"SP":{"price":7722.72,"change":0.73},"Brent":{"price":101.76,"change":-0.48},"GBP":{"price":1.3215,"change":-0.2},"Gold":{"price":4152.08,"change":0.24},"EURGBP":{"price":0.8466,"change":-0.36},"Gilt":{"price":5.36,"change":-0.01},"VIX":{"price":15.31,"change":0.0},"BTC":{"price":86169,"change":0.86},"UST":{"price":5.26,"change":-0.02},"ts":"2026-10-05T08:07:00+01:00"}
+{"FTSE":{"price":10497.94,"change":0.34},"SP":{"price":7779.79,"change":0.74},"Brent":{"price":100.21,"change":-2.0},"GBP":{"price":1.3216,"change":-0.19},"Gold":{"price":4139.34,"change":-0.07},"EURGBP":{"price":0.8483,"change":-0.16},"Gilt":{"price":5.41,"change":0.04},"VIX":{"price":15.58,"change":1.76},"BTC":{"price":85614,"change":0.21},"UST":{"price":5.33,"change":0.05},"ts":"2026-10-05T20:01:00+01:00"}
 </script>
  <script id="market-descriptions" type="application/json">
 {
@@ -2297,62 +2297,60 @@
     "name": "FTSE 100",
     "desc": "The UK's benchmark stock index, tracking the 100 largest companies listed on the London Stock Exchange by market capitalisation. Includes Shell, AstraZeneca, HSBC and Unilever.",
     "drivers_up": [
-      "Gilt yields have eased again, with the ten-year back to 5.36%"
+      "Closed 0.34% higher at 10,497.94, its best level in a week",
+      "Sterling softer, which flatters the index's overseas earners"
     ],
     "drivers_down": [
-      "Still showing Friday's close of 10,461.95 at the time of this edition, with no Monday level published yet",
-      "Finished last week lower overall despite Friday's 0.32% recovery"
+      "Gilt yields rose again, with the ten-year back above 5.4%"
     ],
-    "updated": "5 October 2026 08:07 (FTSE and the S&P on Friday's close; Wall Street shut until 14:30)"
+    "updated": "5 October 2026 20:01"
   },
   "SP": {
     "name": "S&P 500",
     "desc": "America's leading stock market index, tracking 500 of the largest US-listed companies. Dominated by mega-cap tech (Apple, Microsoft, Nvidia) but spans all sectors.",
     "drivers_up": [
-      "Closed Friday 0.73% higher at 7,722.72"
+      "Up 0.74% to 7,779.79 with Wall Street still trading at the time of this edition"
     ],
     "drivers_down": [
-      "Wall Street is shut until 14:30 BST, so this is Friday's close",
-      "The ten-year Treasury has slipped to 5.256% in overnight trade"
+      "The ten-year Treasury rose five basis points to 5.33%",
+      "The VIX ticked up 1.76% to 15.58"
     ],
-    "updated": "5 October 2026 08:07 (FTSE and the S&P on Friday's close; Wall Street shut until 14:30)"
+    "updated": "5 October 2026 20:01"
   },
   "Brent": {
     "name": "Brent Crude Oil",
     "desc": "The global benchmark for crude oil pricing, produced from oil fields in the North Sea. Used to price roughly two-thirds of the world's traded oil.",
     "drivers_up": [
-      "Two more tankers struck over the weekend, one east of Oman and one inside the Strait of Hormuz",
-      "A North Sea strike ballot threatens the Forties pipeline, which carries almost a third of UK oil and gas"
+      "Gulf supply is still hostage to a war in its eighth month, and two tankers were hit over the weekend"
     ],
     "drivers_down": [
-      "Eased 0.48% to $101.76 in early European trade",
+      "Fell 2.00% to $100.21, the largest single-day drop of the week, and back below the G7 release level",
       "Still on the December contract: not comparable with Wednesday's $103.62, which was November"
     ],
-    "updated": "5 October 2026 08:07"
+    "updated": "5 October 2026 20:01"
   },
   "GBP": {
     "name": "GBP/USD",
     "desc": "The exchange rate between the British pound and the US dollar, commonly known as 'cable'. Reflects relative economic strength and interest rate differentials between the UK and US.",
     "drivers_up": [
-      "Firmer against the euro, which fell to a 17-month low against the dollar"
+      "Firmer against the euro, which is weighed down by Spanish and French politics"
     ],
     "drivers_down": [
-      "Slipped 0.20% to 1.3215 overnight",
-      "The 28 October Budget, now three weeks away"
+      "Eased 0.19% to 1.3216",
+      "Rising gilt yields are now feeding straight into mortgage pricing"
     ],
-    "updated": "5 October 2026 08:07"
+    "updated": "5 October 2026 20:01"
   },
   "Gold": {
     "name": "Gold (XAU/USD)",
     "desc": "The spot price of gold in US dollars per troy ounce. The world's oldest safe-haven asset, traditionally rising during periods of uncertainty, inflation and currency debasement.",
     "drivers_up": [
-      "Up 0.24% to $4,152.08, recovering part of Friday's fall",
-      "Two tanker strikes over the weekend kept a bid under safe havens"
+      "Two tanker strikes over the weekend keep a floor under safe havens"
     ],
     "drivers_down": [
-      "Still below the $4,223.95 it touched on Friday"
+      "Slipped 0.07% to $4,139.34, a third session without direction"
     ],
-    "updated": "5 October 2026 08:07"
+    "updated": "5 October 2026 20:01"
   },
   "EURGBP": {
     "name": "EUR/GBP",
@@ -2361,57 +2359,55 @@
       "Euro-area policy settings unchanged"
     ],
     "drivers_down": [
-      "Fell 0.36% to 0.8466 as the euro hit its weakest against the dollar since May 2025",
-      "Spanish and French politics are the named drivers: a possible snap Spanish election and a French budget cutting the deficit only from 5.4% to 5%"
+      "Fell 0.16% to 0.8483 after Pedro Sanchez called a Spanish election for 29 November",
+      "France's central bank governor warned the country risks being strangled by interest rates"
     ],
-    "updated": "5 October 2026 08:07"
+    "updated": "5 October 2026 20:01"
   },
   "Gilt": {
     "name": "UK 10-Year Gilt Yield",
     "desc": "The yield on 10-year UK government bonds (gilts). A key benchmark for UK borrowing costs, mortgage rates and pension fund valuations. Rising yields mean falling bond prices.",
     "drivers_up": [
+      "Rose about four basis points to 5.41%, and the thirty-year is back above 5.94%",
       "The 28 October Budget still has to be funded"
     ],
     "drivers_down": [
-      "Eased to 5.36%, a basis point below Friday's close and well under Thursday's 5.5098%",
-      "Cross-checked at 5.36 against a second provider"
+      "Still below Thursday's 5.5098% peak"
     ],
-    "updated": "5 October 2026 08:07"
+    "updated": "5 October 2026 20:01"
   },
   "VIX": {
     "name": "VIX (Volatility Index)",
     "desc": "The CBOE Volatility Index, often called the 'fear gauge'. Measures expected S&P 500 volatility over the next 30 days. Readings above 20 suggest elevated anxiety; above 30 signals acute stress.",
     "drivers_up": [
-      "A strike ballot threatening UK fuel supply and two tankers hit in the Gulf are standing risks"
+      "Up 1.76% to 15.58 as Treasury yields climbed"
     ],
     "drivers_down": [
-      "Unchanged at 15.31 with Wall Street shut; its last move was Friday's 6.59% fall",
-      "Far below the 20 level that signals real anxiety"
+      "Still far below the 20 level that signals real anxiety"
     ],
-    "updated": "5 October 2026 08:07 (FTSE and the S&P on Friday's close; Wall Street shut until 14:30)"
+    "updated": "5 October 2026 20:01"
   },
   "BTC": {
     "name": "Bitcoin (BTC/USD)",
     "desc": "The price of Bitcoin in US dollars. The largest cryptocurrency by market cap, increasingly viewed as digital gold by institutional investors since spot ETF approvals.",
     "drivers_up": [
-      "Up 0.86% to 86,169, its highest of the weekend and a fourth consecutive rise across the four most recent editions"
+      "Holding above 85,000 and up 0.21% on the day"
     ],
     "drivers_down": [
-      "Weekend volumes were thin and the move has not yet been tested by an open equity market"
+      "Gave back part of this morning's 86,169 as the dollar firmed"
     ],
-    "updated": "5 October 2026 08:07"
+    "updated": "5 October 2026 20:01"
   },
   "UST": {
     "name": "US 10-Year Treasury Yield",
     "desc": "The yield on 10-year US government bonds, the global risk-free rate benchmark. Influences mortgage rates, corporate borrowing and equity valuations worldwide.",
     "drivers_up": [
-      "The thirty-year is also lower, at 5.618%"
+      "Rose five basis points to 5.33%, with the thirty-year at 5.681%"
     ],
     "drivers_down": [
-      "Slipped two basis points to 5.256% overnight",
-      "Still near the highest levels since April 2002 reached on Thursday"
+      "Still short of Thursday's 5.344%, the highest since April 2002"
     ],
-    "updated": "5 October 2026 08:07"
+    "updated": "5 October 2026 20:01"
   }
 }
 </script>
@@ -2464,6 +2460,158 @@
  <!-- ════ ALL EDITIONS (sorted by JS) ════ -->
  <!-- IMPORTANT: Keep 7 FULL DAYS of editions in this container. Do NOT delete editions less than 7 days old. -->
  <div id="all-editions" style="display:none;">
+<!-- ── EVENING 5 OCT (20:01) ── -->
+<div class="curated-edition evening" data-date="2026-10-05" data-time="20:01" data-markets='{"FTSE":{"price":10497.94,"change":0.34},"SP":{"price":7779.79,"change":0.74},"Brent":{"price":100.21,"change":-2.0},"GBP":{"price":1.3216,"change":-0.19},"Gold":{"price":4139.34,"change":-0.07},"EURGBP":{"price":0.8483,"change":-0.16},"Gilt":{"price":5.41,"change":0.04},"VIX":{"price":15.58,"change":1.76},"BTC":{"price":85614,"change":0.21},"UST":{"price":5.33,"change":0.05},"ts":"2026-10-05T20:01:00+01:00"}'>
+ <div class="edition-header">
+ <span class="edition-icon">&#127769;</span>
+ <h2>Evening Briefing</h2>
+ </div>
+ <div class="curated-meta">Monday 5 October 2026 &mdash; 20:01 BST</div>
+ <div class="impact-box">
+ <h3 class="impact-heading">What It Means For You</h3>
+ <ul class="impact-list">
+ <li><strong>Your mortgage:</strong> The average five-year fix passed 6% today for the first time in three years. On a &pound;250,000 loan over twenty-five years that is &pound;1,611 a month against &pound;1,453 at February&rsquo;s average &mdash; &pound;158 more a month, or &pound;1,896 a year. Around half a million homeowners need a new deal before the year is out.</li>
+ <li><strong>Your council tax:</strong> The shadow chancellor has pledged to scrap Labour&rsquo;s High Value Council Tax Surcharge, under which English homes worth more than &pound;2 million pay an extra levy from 2028. No costing has been published for the repeal.</li>
+ <li><strong>If you are self-employed or a landlord:</strong> Six months remain until Making Tax Digital for Income Tax applies to anyone with turnover above &pound;30,000. That threshold counts gross self-employment and property income, before expenses or allowances.</li>
+ </ul>
+ </div>
+ <div class="curated-grid">
+ <div class="curated-column">
+ <h3><span class="dot geo"></span><span class="dot-label">GEO</span> Geopolitical</h3>
+ <div class="curated-item" data-time="08:11" data-slug="sanchez-calls-spanish-election-29-november">
+ <h4>S&aacute;nchez Calls a Spanish Election for 29 November</h4>
+ <p>Pedro S&aacute;nchez has called a snap general election for 29 November, in a televised address three days after parliament threw out his two housing decrees and two days after tens of thousands marched in Madrid, Valencia and Barcelona. Spain was not due to vote until the summer of 2027. He said he needed &ldquo;a broader progressive majority&rdquo; able to &ldquo;overcome the resistance of the elites&rdquo;.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">It is an unusually frank pitch for a sitting prime minister. &ldquo;We have made mistakes and have not achieved everything we had set out to do,&rdquo; Mr S&aacute;nchez said, naming inequality, public services and access to housing as the unfinished work. He has governed since June 2018 and, since 2023, as the leader of a minority coalition that finished second: the People&rsquo;s Party won most seats and fell short, and he survived on Catalan and Basque votes. The decrees that fell on Friday would have suspended evictions of vulnerable tenants until 2030, extended leases expiring before 2028, raised taxes on tourist flats and restricted purchases by investment funds; the second, automatic renewal of rental contracts, was the tenants&rsquo; union&rsquo;s central demand. Behind all of it is one eviction: Maricarmen Abascal, 87, carried out of the Madrid flat she had lived in for more than seventy years on a stretcher on 23 September, after a legal gap let her rent go from &euro;500 to &euro;2,650, later cut to &euro;1,650 &mdash; still some &euro;300 above her pension. Alberto N&uacute;&ntilde;ez Feij&oacute;o welcomed the vote: &ldquo;At last, Spaniards will be able to decide,&rdquo; framing it as a choice between &ldquo;decline or change&rdquo;. Most polls point to his party emerging largest but needing Vox to govern. Watch whether the left&rsquo;s junior partner holds together across a 55-day campaign.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="13:22" data-slug="yemen-sanaa-offensive-mecca-pact-deployment">
+ <h4>Yemen&rsquo;s Government Turns on Sanaa as Turkey and Pakistan Commit Forces</h4>
+ <p>Saudi-backed government forces have declared a &ldquo;battle for liberation&rdquo; and launched an offensive towards the Houthi-held capital, saying they have taken Mocha on the west coast. The claim is not independently confirmed. Separately, a committee of the Mecca defence pact &mdash; Turkey, Saudi Arabia and Pakistan &mdash; agreed to &ldquo;provide the agreed military forces and capabilities and ensure their rapid deployment&rdquo; in the kingdom.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The second half of that is the part with consequences beyond Yemen. Until today the Mecca pact was a signature; activating it commits two non-Arab powers, one of them nuclear-armed and one a NATO member, to putting troops on Saudi soil in answer to what the committee called &ldquo;heinous&rdquo; Houthi attacks. That changes the character of the war from a Saudi-led coalition campaign into something closer to a bloc, and it follows Houthi missile and drone claims against Aramco sites at Riyadh and Khurais at the weekend. On the ground the government&rsquo;s position is more fragile than its language: it declared the offensive only after the Houthis cut the main road linking besieged Taiz to Aden, and taking Mocha, if confirmed, would be the recovery of a port the Houthis seized only last month. Heavy damage was reported at a factory in Sanaa. Every territorial figure in this war is a belligerent claim and almost none of it is independently verified, which is worth holding on to when the numbers get large. The 2022 truce collapsed in July. Watch whether Turkish or Pakistani units actually arrive, because a committee decision and a deployment are not the same thing.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="18:34" data-slug="rubio-plays-down-fairford-bomber-withdrawal">
+ <h4>Washington Plays Down the Fairford Withdrawal; No 10 Says Base Is Safe</h4>
+ <p>Twelve B-1 Lancers left RAF Fairford so quickly that the refuelling aircraft needed to get them across the Atlantic were reportedly still being fuelled as crews were ordered to scramble. Marco Rubio declined to connect the move to last month&rsquo;s security incident &mdash; &ldquo;I wouldn&rsquo;t just directly tie that to the move that was made&rdquo; &mdash; and JD Vance called it &ldquo;an abundance of caution&rdquo;. Downing Street says the base is safe.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The manner of the departure undercuts the explanation offered for it. These aircraft had flown from Gloucestershire for seven months against Iranian missile launch sites, and they left in a hurry. Mr Rubio called it unremarkable &mdash; &ldquo;It&rsquo;s not unusual to see movement of assets to different parts of the world based on exercises, redeployments, people changing out&rdquo; &mdash; while the vice-president put it down to caution and said Iran had spent 49 years engaging in acts of terrorism. British officials were blunter. They would not say what the new intelligence was, but told the BBC there is &ldquo;an ongoing high tempo of threat from Iran to the UK, and it is logical that US airbases would be pretty high on any targeting list&rdquo;. A NATO military source said it is &ldquo;still believed that Iran poses an acute threat to US assets in the UK&rdquo;. Whitehall has not disputed that Washington acted in response to the 27 September incident, and the decision is described as military rather than political, taken at operational level. Ezra Cohen, a defence official in Donald Trump&rsquo;s first administration, called it prudent on practical grounds: the B-1 is a strategic asset, no longer in production and held in limited numbers. Five British men arrested over three suspicious vehicles near the base have been bailed, as has a sixth, a British-Iranian detained separately in London. Iran said in July that any country providing such a facility would be a legitimate target; Tehran denies any role in the incident. Watch whether the B-52s follow.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="16:17" data-slug="russian-drones-sink-turkish-grain-ship-black-sea">
+ <h4>Russian Drones Sink a Turkish-Owned Grain Ship in the Black Sea</h4>
+ <p>Two drones struck the Royad Mammadov, a Turkish-owned vessel carrying corn, which sank about thirty nautical miles south of the Romanian port of Sfantu Gheorghe, inside Romania&rsquo;s exclusive economic zone. Eleven crew, nationals of Azerbaijan and India, were rescued. Volodymyr Zelensky said the captain was killed and called the attack &ldquo;horrific&rdquo;; Romania&rsquo;s interior ministry has identified two dead.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">&ldquo;Russia consistently chooses terror and sinking civilian vessels instead of normal maritime navigation,&rdquo; Mr Zelensky said, noting he had repeatedly proposed steps to de-escalate in the Black Sea, and arguing that &ldquo;pressure is needed to restore global food security&rdquo;. Moscow has not commented on this ship, though its defence ministry said earlier that it had struck two cargo vessels. The casualty accounts do not yet agree: Kyiv describes a captain killed and one sailor unaccounted for, Bucharest two bodies identified. What makes it more than a shipping incident is the geography &mdash; a NATO member&rsquo;s vessel sunk inside an EU member&rsquo;s economic zone &mdash; and the timing. The head of Germany&rsquo;s foreign intelligence service, Martin Jaeger, warned on the same day that Germany &ldquo;is in danger of becoming embroiled in a violent conflict with Russia&rdquo;, which he said was waging a shadow war, with the threat of attacks on German targets &ldquo;real and imminent&rdquo;. Friedrich Merz said last week that Germany was preparing for further hybrid attacks &ldquo;including serious ones&rdquo;, after an explosive-armed drone was found in August on the tarmac at Leipzig airport beside Ukrainian cargo aircraft. Russia&rsquo;s defence ministry said on Sunday it would intensify its strikes. Watch Ankara&rsquo;s response.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="17:32" data-slug="french-school-protests-third-week-teenager-injured">
+ <h4>Teenager Loses a Hand as France&rsquo;s School Protests Enter Week Three</h4>
+ <p>A fifteen-year-old&rsquo;s hand was blown off during a confrontation between school protesters and police at Lens in Pas-de-Calais, in an incident the prefect called &ldquo;very serious&rdquo;; the boy&rsquo;s life is not in danger. The police watchdog is investigating. The protests over teacher shortages and school conditions are now in their third week, with teachers on strike and other unions threatening to join them.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">What began as pupils protesting about the state of their schools has become a national industrial dispute with the school year itself on hold. Up to five hundred schools were shut on Sunday on the education ministry&rsquo;s own safety advice, and a high school in Metz was gutted by fire last weekend, though authorities have never established whether that fire was connected to the protests. The watchdog inquiry is the thing to follow, because the central question is what caused the blast: if it is attributed to a police munition, a dispute about staffing and buildings turns into a dispute about policing, which in France has a way of widening very quickly and drawing in unions that have so far only threatened to act. The government has so far framed the closures as a safety measure rather than a concession. Watch whether the other unions move from threatening action to calling it, and whether the watchdog reports before they decide.</div>
+ </details>
+ </div>
+ </div>
+ <div class="curated-column">
+ <h3><span class="dot dom"></span><span class="dot-label">UK</span> UK Domestic Politics</h3>
+ <div class="curated-item" data-time="10:02" data-slug="five-year-fixed-mortgage-rate-hits-6-per-cent">
+ <h4>The Average Five-Year Fixed Mortgage Rate Hits 6%</h4>
+ <p>The average five-year fix reached 6.00% today, up from 5.98% on Friday and the first time above six in three years. The two-year average is 5.98%, its highest since December 2023. The number of fixed deals priced below 5% has collapsed from 1,494 at the start of September to nine. The Bank rate has not moved since December last year.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">This is not the Bank of England doing it. Rachel Springall of Moneyfacts put the cause plainly: &ldquo;As wholesale funding costs climb on the back of rising gilt yields, fixed rate adjustments are somewhat inevitable&rdquo; &mdash; and gilt yields rose again today, the ten-year adding about four basis points to 5.41%. Barclays has raised selected fixed rates four times in September alone; HSBC, Lloyds, Nationwide, NatWest, Santander and TSB three rounds each. In cash, a &pound;250,000 loan over twenty-five years costs &pound;1,611 a month at 6%, against &pound;1,453 at February&rsquo;s average of 4.94% &mdash; &pound;158 more a month, or &pound;1,896 a year, on the HomeOwners Alliance&rsquo;s figures. Around half a million homeowners need a new deal before the year is out, and the Bank expects just over five million to be paying more by the end of 2028. Ms Springall called the three-year highs &ldquo;disastrous news for borrowers&rdquo;. Note what has not moved in step: sub-5% variable deals have gone only from 411 to 389, so the squeeze is specific to fixed pricing. It arrives in a month that has already brought a 4% rise in energy prices and diesel at a record &pound;2 a litre, with a forecast 16% rise at the January cap. Watch the Budget on 28 October, and Nationwide&rsquo;s finding that annual house price growth halved in September.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="15:30" data-slug="griffith-scraps-family-homes-tax-backs-heathrow">
+ <h4>Griffith Pledges to Scrap the Family Homes Tax and Back Heathrow</h4>
+ <p>The shadow chancellor told the Conservative conference he will abolish Labour&rsquo;s High Value Council Tax Surcharge, under which English homes worth more than &pound;2 million pay an extra levy from 2028. &ldquo;They pretend it&rsquo;s a mansion tax, but it will hit people here in Birmingham, in Manchester,&rdquo; Andrew Griffith said. He later committed a Conservative government to the Heathrow third runway. No costing has been published for either.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">&ldquo;Like Nigel Lawson, it&rsquo;s my ambition to scrap at least one tax every budget,&rdquo; Mr Griffith said, adding the plastic packaging tax to the list and conceding most people have never heard of it. He was careful on sequencing &mdash; &ldquo;we will cut taxes, but only when we can afford to do so&rdquo; &mdash; and said earlier in the day that he and Kemi Badenoch ultimately want to remove inheritance tax but must find the money first, which is a more guarded position than the weekend headlines suggested. He also blamed his own side for losing the argument: in government, he said, the party &ldquo;allowed restrictions on everything from the type of car you could buy, how you could heat your home, to banning adverts for certain types of yogurt&rdquo;. On aviation he promised to &ldquo;do whatever it takes to end the delays&rdquo; and legislate to &ldquo;sweep away the blockers&rdquo;, which immediately exposed a split: Sir James Cleverly said he had &ldquo;always been very sceptical&rdquo; of quick-fix arguments for a third runway, and Andrew Boff, who chairs the London Assembly, called it &ldquo;the most unambitious scheme&rdquo;. Andy Burnham has still not said whether he backs it, amid reports the project could slip by up to four years. Meanwhile the party&rsquo;s claim that deregulation would cut &pound;50,000 from the cost of a new home has been fact-checked as the housebuilding industry&rsquo;s own estimate. Watch Mrs Badenoch&rsquo;s own speech later this week.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="19:06" data-slug="shadow-minister-luton-no-go-zones-claim">
+ <h4>Shadow Home Office Minister Claims &ldquo;No-Go Zones&rdquo; in Luton</h4>
+ <p>Blake Stephenson, the MP for Mid Bedfordshire appointed to the Conservative frontbench a fortnight ago, told a fringe meeting in Birmingham that in parts of Luton &ldquo;white people won&rsquo;t go. They are like no-go zones.&rdquo; He called the town &ldquo;a very dangerous place&rdquo; and said some communities &ldquo;live in ghettoes&rdquo;. Bedfordshire Police have previously said no-go areas do not exist in the county.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">Mr Stephenson returned to the word &ldquo;icky&rdquo; more than once: &ldquo;this is where it gets icky, but we need to make sure we don&rsquo;t have ghettoes where there are no-go zones for anybody&rdquo;. He also told the meeting that &ldquo;there is a consensus, certainly on the right, that mass migration has been an absolute disaster&rdquo;, and said he knows the town because he lives ten or fifteen minutes away, in a village over the county border. The specific claim has a history that makes it combustible. Anders Breivik invoked Luton and more than a thousand supposed Islamic no-go zones in a statement to an Oslo court in 2012, and Tommy Robinson founded the English Defence League in the town in 2009; the force&rsquo;s response then was that no-go areas do not exist in Bedfordshire. A shadow Home Office minister saying it from a conference platform is a different order of claim from a fringe commentator making it, which is why the test now is whether the leadership distances itself. No Conservative response had been issued this evening. Watch for one, and for Luton&rsquo;s own MPs and council.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="08:52" data-slug="andrew-judicial-review-king-funding-ruled-out">
+ <h4>Andrew Challenges the Search Warrants; the King&rsquo;s Money Is Ruled Out</h4>
+ <p>Andrew Mountbatten-Windsor is seeking judicial review of warrants for Sandringham and Royal Lodge, issued at the Central Criminal Court on 18 February, the day before his arrest on his 66th birthday on suspicion of misconduct in public office. A hearing is listed for Thursday afternoon. A royal source says the King&rsquo;s private allowance must not fund the action.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The challenge is against the chief constable of Thames Valley Police and against the Central Criminal Court itself. The force said only that it is &ldquo;engaged in legal proceedings in relation to warrants previously obtained&rdquo; and that it would be inappropriate to comment further; Thursday&rsquo;s hearing begins in private, with the judge first considering a police application to keep some documents from publication. The money question is the one with constitutional edge. The King&rsquo;s private allowance is not the Sovereign Grant, the &pound;138 million of public funding for the monarchy, but his own income including the Duchy of Lancaster &mdash; and the sum involved has not been disclosed. At the time of the arrest the King said the law &ldquo;must take its course&rdquo;. As for what a win would be worth, Nick Vamos, a criminal lawyer and former head of special crime at the Crown Prosecution Service, offered the first substantive public scepticism since February: even if the warrants are quashed, &ldquo;that would not necessarily be the victory it might first appear&rdquo;, because police can apply to the Crown Court to retain the material anyway. Watch Thursday, and whether any of it is heard in open court.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="18:44" data-slug="southport-inquiry-violent-material-online">
+ <h4>Southport Inquiry Told Violent Material Stays Online for Weeks</h4>
+ <p>A review for the Southport Inquiry found that violent material was still available two weeks after being reported in more than 80% of cases, across X, TikTok, Reddit, Instagram and Discord &mdash; the result of a single eight-hour search. Nicholas Moss KC, counsel to the inquiry, set out the finding as its second phase examines violence-fixated individuals and the role of the internet.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The number that will travel is the eight hours. One search, over a single working day, produced a body of material of which the great majority was still reachable a fortnight after being flagged &mdash; which goes directly to the question the Online Safety Act was written to answer, namely whether platforms remove what they are told about. The inquiry&rsquo;s second phase is not re-examining the attack itself but the ecosystem around it: how a violence-fixated individual accumulates material, and what the companies did or did not do. Alice da Silva Aguiar, nine, Bebe King, six, and Elsie Dot Stancombe, seven, were killed at a Taylor Swift-themed dance class in Southport on 29 July 2024, and twenty-three other children were physically or psychologically injured. The practical consequence of a finding like this is regulatory rather than criminal: it hands the regulator a measured, inquiry-sourced figure to set against the platforms&rsquo; own compliance claims, at exactly the point when enforcement powers are being tested for the first time. Watch for Ofcom&rsquo;s response, and whether the inquiry asks the named companies to account for the specific reports.</div>
+ </details>
+ </div>
+ </div>
+ </div>
+ <div class="one-to-read">
+ <span class="otr-label">One To Read</span>
+ <a href="https://www.bbc.co.uk/news/articles/c32l4n8yprglo" target="_blank" rel="noopener noreferrer">
+ <h4>Where the &pound;50,000 Saving on a New Home Actually Comes From</h4>
+ <span class="otr-source">BBC News</span>
+ <span class="otr-dot">&middot;</span>
+ <span class="otr-desc">The Conservatives say scrapping environmental rules would cut &pound;50,000 from the cost of building a home. This traces the figure to the housebuilding industry that produced it, and asks what the saving would be displaced onto.</span>
+ </a>
+ </div>
+ <!-- SOURCES USED
+ - NOTE ON SOURCING TONIGHT: ft.com, sky.com article pages, telegraph.co.uk, thetimes.com, reuters.com, itv.com and channel4.com were all blocked to every available fetcher, and Firecrawl has been out of credits for a fifteenth day. Every fact below traces to a BBC, Guardian, Independent, Al Jazeera, CNBC or gov.uk page that was actually retrieved and read. Three citations are marked as headline-and-timestamp only; no claim in this edition rests on any of them.
+ - https://www.bbc.co.uk/news/articles/cmdx39k49xw0o &mdash; BBC News: Pedro S&aacute;nchez calling a general election for 29 November in a televised address, Spain not otherwise due to vote until summer 2027, his &ldquo;broader progressive majority&rdquo; and &ldquo;overcome the resistance of the elites&rdquo;, his admission that &ldquo;we have made mistakes and have not achieved everything we had set out to do&rdquo; on inequality, public services and housing, his minority coalition and premiership since June 2018, and most polls pointing to the People's Party emerging largest but needing Vox
+ - https://www.aljazeera.com/news/2026/10/5/spanish-prime-minister-pedro-sanchez-announces-snap-election &mdash; Al Jazeera, with Reuters: the two decrees rejected on Friday and what each contained, the tenants' union demand for automatic lease renewal, the eviction of Maricarmen Abascal, 87, on 23 September after more than seventy years in her Madrid flat, her rent going from &euro;500 to &euro;2,650 and then &euro;1,650 against a pension some &euro;300 lower, the weekend protests in Madrid, Valencia and Barcelona, and Alberto N&uacute;&ntilde;ez Feij&oacute;o's &ldquo;At last, Spaniards will be able to decide&rdquo; and his &ldquo;decline or change&rdquo; framing
+ - https://news.sky.com/story/spanish-pm-calls-snap-election-13595243 &mdash; Sky News, 08:11 BST: the first report that the election had been called, which is the break time used on that item. Headline and timestamp only; the page is blocked to direct retrieval
+ - https://www.aljazeera.com/news/liveblog/2026/10/5/iran-war-live-fighting-in-yemen-intensifies-tehran-says-ready-for-us-war &mdash; Al Jazeera live coverage: the government declaration of a &ldquo;battle for liberation&rdquo; and the offensive towards Sanaa, the claim to have taken Mocha, heavy damage reported at a factory in Sanaa, and the Mecca pact committee of Turkiye, Saudi Arabia and Pakistan deciding to &ldquo;provide the agreed military forces and capabilities and ensure their rapid deployment&rdquo; in response to &ldquo;heinous&rdquo; Houthi attacks. Territorial claims here are the government's own and are not independently verified
+ - https://news.sky.com/story/yemen-hundreds-of-houthi-targets-attacked-as-saudi-led-coalition-carries-out-air-campaign-13595382 &mdash; Sky News, 13:22 BST: the coalition air campaign, which is the break time used on that item. Headline and timestamp only, blocked to retrieval; the coalition's claimed target and sortie counts are deliberately not carried in this edition because no approved source carrying them could be read
+ - https://www.bbc.co.uk/news/articles/ck87z09xe82qo &mdash; BBC News, 19:45 BST: twelve B-1 Lancers withdrawn from RAF Fairford, the refuelling aircraft reportedly still being fuelled as crews were ordered to scramble, the seven months of operations against Iranian missile launch sites, Iran's July warning that any country providing such a facility would be a legitimate target, and British officials on &ldquo;an ongoing high tempo of threat from Iran to the UK, and it is logical that US airbases would be pretty high on any targeting list&rdquo;
+ - https://www.bbc.co.uk/news/articles/cmy56yvv1kxxo &mdash; BBC News, published 13:07 BST and updated 17:13: the No 10 spokesperson declining to comment on &ldquo;foreign nations' military operations&rdquo; while insisting the base is safe, Whitehall not disputing that Washington acted in response to the 27 September incident, the decision described as military rather than political and taken at operational level, the five British men and the sixth British-Iranian all bailed, and Ezra Cohen on the B-1 as a strategic asset no longer in production
+ - https://www.aljazeera.com/news/2026/10/5/rubio-no-direct-link-between-us-bombers-removal-and-uk-base-incident &mdash; Al Jazeera, with AFP and Reuters: Marco Rubio's &ldquo;I wouldn't just directly tie that to the move that was made&rdquo; and &ldquo;It's not unusual to see movement of assets to different parts of the world based on exercises, redeployments, people changing out&rdquo;, JD Vance on an &ldquo;abundance of caution&rdquo; and Iran's 49 years of terrorism, and the NATO military source on Iran posing &ldquo;an acute threat to US assets in the UK&rdquo;
+ - https://www.bbc.co.uk/news/articles/cr0j0w3p8453o &mdash; BBC News, 16:17 BST: the Royad Mammadov, Turkish-owned and carrying corn, struck by two drones and sunk about thirty nautical miles south of Sfantu Gheorghe inside Romania's exclusive economic zone, eleven crew of Azerbaijani and Indian nationality rescued, Volodymyr Zelensky on the captain killed and on Russia choosing &ldquo;terror and sinking civilian vessels&rdquo;, Romania's interior ministry identifying two dead, the Russian defence ministry's earlier statement that it struck two cargo vessels, Martin Jaeger of German foreign intelligence on Germany being &ldquo;in danger of becoming embroiled in a violent conflict with Russia&rdquo; and the threat to German targets being &ldquo;real and imminent&rdquo;, Friedrich Merz on preparing for further hybrid attacks &ldquo;including serious ones&rdquo;, and the explosive-armed drone found at Leipzig airport in August. Kyiv's account of one killed and one missing and Bucharest's of two identified dead have not been reconciled
+ - https://www.bbc.co.uk/news/articles/c9zrdmxp4vy6o &mdash; BBC News, with AFP, 17:32 BST: the fifteen-year-old's hand blown off at Lens in Pas-de-Calais, the prefect calling it &ldquo;very serious&rdquo; and saying the boy's life is not in danger, and the police watchdog investigation
+ - https://www.aljazeera.com/news/2026/10/4/france-to-shutter-up-to-500-schools-as-more-student-protests-called &mdash; Al Jazeera: the closure of up to five hundred schools on the education ministry's safety advice, the protests over teacher shortages and school conditions now in a third week, teachers on strike and other unions threatening to act
+ - https://www.bbc.co.uk/news/articles/c8r4yxpry5e9o &mdash; BBC News, 10:02 BST: the average five-year fix at 6.00% against 5.98% on Friday, the first time above six in three years and the highest since 27 September 2023, the two-year average at 5.98%, the collapse in sub-5% fixed deals from 1,494 at the start of September to nine against a near-unchanged 411 to 389 in variable deals, the Moneyfacts data, Rachel Springall on wholesale funding costs climbing on the back of rising gilt yields and on three-year highs being &ldquo;disastrous news for borrowers&rdquo;, the September repricing rounds at Barclays, HSBC, Lloyds, Nationwide, NatWest, Santander and TSB, and the Bank rate unchanged since December last year
+ - https://www.theguardian.com/money/2026/oct/05/five-year-fixed-mortgage-rate-banks-building-societies &mdash; The Guardian, 12:39 BST: the &pound;250,000 loan over twenty-five years costing &pound;1,611 a month at 6% against &pound;1,453 at February's 4.94% average, on HomeOwners Alliance figures, around half a million homeowners needing a new deal in the final quarter and just over five million expected to be paying more by the end of 2028 on Bank of England forecasts, and the 4% energy rise on 1 October with a forecast 16% increase at the January cap
+ - https://www.independent.co.uk/money/moneyfacts-northern-ireland-b3061436.html &mdash; The Independent: the same Moneyfacts series and the comparison with the December 2023 two-year peak
+ - https://www.independent.co.uk/news/uk/home-news/andrew-griffith-conservatives-labour-treasury-rachel-reeves-b3061656.html &mdash; The Independent, 15:41 BST: Andrew Griffith's conference speech, the pledge to scrap the High Value Council Tax Surcharge on English homes worth more than &pound;2 million from 2028, &ldquo;They pretend it's a mansion tax, but it will hit people here in Birmingham, in Manchester&rdquo;, &ldquo;Like Nigel Lawson, it's my ambition to scrap at least one tax every budget&rdquo;, the plastic packaging tax, the admission that in government the party &ldquo;allowed restrictions on everything from the type of car you could buy, how you could heat your home, to banning adverts for certain types of yogurt&rdquo;, and &ldquo;we will cut taxes, but only when we can afford to do so&rdquo;
+ - https://www.independent.co.uk/news/business/andrew-griffith-tories-kemi-badenoch-andy-burnham-birmingham-b3061421.html &mdash; The Independent, 12:20 BST: Griffith confirming that he and Kemi Badenoch ultimately want to remove inheritance tax but must fund it first. Mrs Badenoch's &ldquo;morally right&rdquo; remark dates from a Sunday Times interview published over the weekend and is not a Monday announcement; it is therefore not reported here as one
+ - https://www.bbc.co.uk/news/articles/cwdr8j7vvp8do &mdash; BBC News, 19:21 BST: the commitment to &ldquo;do whatever it takes to end the delays&rdquo; on a Heathrow third runway and to legislate to &ldquo;sweep away the blockers&rdquo;, Sir James Cleverly saying he has &ldquo;always been very sceptical&rdquo;, Andrew Boff calling it &ldquo;the most unambitious scheme&rdquo;, and Andy Burnham declining to say whether he backs it amid reports of a slip of up to four years
+ - https://www.bbc.co.uk/news/articles/c32l4n8yprglo &mdash; BBC News, 16:19 BST: the fact-check establishing that the claim that deregulation would cut &pound;50,000 from the cost of a new home is the housebuilding industry's own estimate, and the warning that savings could be displaced onto public spending and household energy bills
+ - https://www.theguardian.com/politics/2026/oct/05/tory-shadow-minister-luton-no-go-zones-white-people-blake-stephenson &mdash; The Guardian, 19:06 BST: Blake Stephenson, MP for Mid Bedfordshire and a shadow Home Office minister of a fortnight, telling a Centre for Policy Studies fringe meeting that in parts of Luton &ldquo;white people won't go. They are like no-go zones&rdquo;, that the town is &ldquo;a very dangerous place&rdquo;, his repeated use of &ldquo;icky&rdquo; and the &ldquo;ghettoes&rdquo; remark, his line that &ldquo;there is a consensus, certainly on the right, that mass migration has been an absolute disaster&rdquo;, his living ten to fifteen minutes away over the county border, the Breivik and English Defence League history the phrase carries, and Bedfordshire Police's statement that no-go areas do not exist in the county. Single approved source as of this edition; no Conservative Party response had been issued
+ - https://www.bbc.co.uk/news/articles/c689zl5eljdzo &mdash; BBC News, 08:52 BST: Andrew Mountbatten-Windsor seeking judicial review of the Sandringham and Royal Lodge warrants issued at the Central Criminal Court on 18 February, the arrest the following day on his 66th birthday on suspicion of misconduct in public office, the challenge against the chief constable of Thames Valley Police and the court, the force's statement, and Thursday afternoon's hearing beginning in private
+ - https://www.bbc.co.uk/news/articles/c9ly0l028d1go &mdash; BBC News, updated 19:48 BST: the royal source saying the King's private allowance must not fund the action, the distinction from the &pound;138 million Sovereign Grant, the undisclosed sum, the King's &ldquo;law must take its course&rdquo;, and Nick Vamos of Peters and Peters, formerly head of special crime at the Crown Prosecution Service, on a quashing not necessarily being &ldquo;the victory it might first appear&rdquo; because police can apply to retain the material
+ - https://www.telegraph.co.uk/ &mdash; The Telegraph reported the warrant challenge first. Headline attribution only; the page is behind a paywall token and was not retrieved, and no fact here rests on it
+ - https://www.thetimes.com/ &mdash; The Sunday Times carried the pre-conference interview in which Kemi Badenoch called an inheritance tax cut morally right, over the weekend. Referenced only to date that quotation correctly; the page was not retrieved
+ - https://www.bbc.co.uk/news/articles/ckg5j6j1n42ro &mdash; BBC News, 18:44 BST: the review for the Southport Inquiry finding violent material still available two weeks after being reported in more than 80% of cases across X, TikTok, Reddit, Instagram and Discord from a single eight-hour search, Nicholas Moss KC as counsel to the inquiry, the second phase examining violence-fixated individuals and the role of the internet, and the deaths of Alice da Silva Aguiar, Bebe King and Elsie Dot Stancombe with twenty-three other children injured on 29 July 2024
+ - https://www.gov.uk/government/news/domestic-abusers-to-be-marked-and-tracked-in-boost-to-victims-safety &mdash; Ministry of Justice: the requirement in force today that courts state in open court when an offence involved domestic abuse, creating a single record visible across police, probation and prison systems
+ - https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol &mdash; CNBC quote endpoint, read 19:50 BST: the ticker levels for all ten instruments, every one live or settled today
+ - https://tradingeconomics.com/united-kingdom/government-bond-yield &mdash; Trading Economics (data only): the ten-year gilt at 5.41 with a +0.04 change, used to adjudicate a contradiction in the CNBC previous-close field, which reported Friday's close as 5.3721 this morning and 5.423 this evening. Full working in cache/2026-10-05/markets-SUMMARY-EVENING.txt
+ - https://www.bbc.co.uk/news/articles/c32l4n8yprglo &mdash; BBC News &mdash; One To Read: who actually produced the &pound;50,000 figure for cutting the cost of a new home, and what the saving would displace
+ END SOURCES USED -->
+</div><!-- ── END EVENING 5 OCT (20:01) ── -->
 <!-- ── MORNING 5 OCT (08:07) ── -->
 <div class="curated-edition morning" data-date="2026-10-05" data-time="08:07" data-markets='{"FTSE":{"price":10461.95,"change":0.32},"SP":{"price":7722.72,"change":0.73},"Brent":{"price":101.76,"change":-0.48},"GBP":{"price":1.3215,"change":-0.2},"Gold":{"price":4152.08,"change":0.24},"EURGBP":{"price":0.8466,"change":-0.36},"Gilt":{"price":5.36,"change":-0.01},"VIX":{"price":15.31,"change":0.0},"BTC":{"price":86169,"change":0.86},"UST":{"price":5.26,"change":-0.02},"ts":"2026-10-05T08:07:00+01:00"}'>
  <div class="edition-header">

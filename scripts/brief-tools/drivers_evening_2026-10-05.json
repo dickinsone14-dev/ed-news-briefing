@@ -1,0 +1,98 @@
+{
+ "FTSE": {
+  "up": [
+   "Closed 0.34% higher at 10,497.94, its best level in a week",
+   "Sterling softer, which flatters the index's overseas earners"
+  ],
+  "down": [
+   "Gilt yields rose again, with the ten-year back above 5.4%"
+  ],
+  "updated": "5 October 2026 20:01"
+ },
+ "SP": {
+  "up": [
+   "Up 0.74% to 7,779.79 with Wall Street still trading at the time of this edition"
+  ],
+  "down": [
+   "The ten-year Treasury rose five basis points to 5.33%",
+   "The VIX ticked up 1.76% to 15.58"
+  ],
+  "updated": "5 October 2026 20:01"
+ },
+ "Brent": {
+  "up": [
+   "Gulf supply is still hostage to a war in its eighth month, and two tankers were hit over the weekend"
+  ],
+  "down": [
+   "Fell 2.00% to $100.21, the largest single-day drop of the week, and back below the G7 release level",
+   "Still on the December contract: not comparable with Wednesday's $103.62, which was November"
+  ],
+  "updated": "5 October 2026 20:01"
+ },
+ "GBP": {
+  "up": [
+   "Firmer against the euro, which is weighed down by Spanish and French politics"
+  ],
+  "down": [
+   "Eased 0.19% to 1.3216",
+   "Rising gilt yields are now feeding straight into mortgage pricing"
+  ],
+  "updated": "5 October 2026 20:01"
+ },
+ "Gold": {
+  "up": [
+   "Two tanker strikes over the weekend keep a floor under safe havens"
+  ],
+  "down": [
+   "Slipped 0.07% to $4,139.34, a third session without direction"
+  ],
+  "updated": "5 October 2026 20:01"
+ },
+ "EURGBP": {
+  "up": [
+   "Euro-area policy settings unchanged"
+  ],
+  "down": [
+   "Fell 0.16% to 0.8483 after Pedro Sanchez called a Spanish election for 29 November",
+   "France's central bank governor warned the country risks being strangled by interest rates"
+  ],
+  "updated": "5 October 2026 20:01"
+ },
+ "Gilt": {
+  "up": [
+   "Rose about four basis points to 5.41%, and the thirty-year is back above 5.94%",
+   "The 28 October Budget still has to be funded"
+  ],
+  "down": [
+   "Still below Thursday's 5.5098% peak"
+  ],
+  "updated": "5 October 2026 20:01"
+ },
+ "VIX": {
+  "up": [
+   "Up 1.76% to 15.58 as Treasury yields climbed"
+  ],
+  "down": [
+   "Still far below the 20 level that signals real anxiety"
+  ],
+  "updated": "5 October 2026 20:01"
+ },
+ "BTC": {
+  "up": [
+   "Holding above 85,000 and up 0.21% on the day"
+  ],
+  "down": [
+   "Gave back part of this morning's 86,169 as the dollar firmed"
+  ],
+  "updated": "5 October 2026 20:01"
+ },
+ "UST": {
+  "up": [
+   "Rose five basis points to 5.33%, with the thirty-year at 5.681%"
+  ],
+  "down": [
+   "Still short of Thursday's 5.344%, the highest since April 2002"
+  ],
+  "updated": "5 October 2026 20:01"
+ }
+}
