@@ -2289,7 +2289,7 @@
  <!-- #1 Markets snapshot bar -->
  <!-- Embedded market data (populated by update script, used as fallback) -->
  <script id="embedded-markets" type="application/json">
-{"FTSE":{"price":10461.95,"change":0.32},"SP":{"price":7722.72,"change":0.73},"Brent":{"price":102.25,"change":-0.06},"GBP":{"price":1.3241,"change":0.32},"Gold":{"price":4142.34,"change":-0.85},"EURGBP":{"price":0.8497,"change":-0.19},"Gilt":{"price":5.38,"change":0.01},"VIX":{"price":15.31,"change":-6.59},"BTC":{"price":85309,"change":0.52},"UST":{"price":5.27,"change":0.04},"ts":"2026-10-04T18:08:00+01:00"}
+{"FTSE":{"price":10461.95,"change":0.32},"SP":{"price":7722.72,"change":0.73},"Brent":{"price":101.76,"change":-0.48},"GBP":{"price":1.3215,"change":-0.2},"Gold":{"price":4152.08,"change":0.24},"EURGBP":{"price":0.8466,"change":-0.36},"Gilt":{"price":5.36,"change":-0.01},"VIX":{"price":15.31,"change":0.0},"BTC":{"price":86169,"change":0.86},"UST":{"price":5.26,"change":-0.02},"ts":"2026-10-05T08:07:00+01:00"}
 </script>
  <script id="market-descriptions" type="application/json">
 {
@@ -2297,59 +2297,62 @@
     "name": "FTSE 100",
     "desc": "The UK's benchmark stock index, tracking the 100 largest companies listed on the London Stock Exchange by market capitalisation. Includes Shell, AstraZeneca, HSBC and Unilever.",
     "drivers_up": [
-      "Closed Friday 0.32% higher at 10,461.95, recovering part of Thursday's fall",
-      "Gilt yields ended the week well below Thursday's peak"
+      "Gilt yields have eased again, with the ten-year back to 5.36%"
     ],
     "drivers_down": [
-      "Still finished the week lower, and 10,503.15 was as far as Friday's rally reached"
+      "Still showing Friday's close of 10,461.95 at the time of this edition, with no Monday level published yet",
+      "Finished last week lower overall despite Friday's 0.32% recovery"
     ],
-    "updated": "4 October 2026 18:08 (Sunday: all instruments on Friday's closes except bitcoin, which is live)"
+    "updated": "5 October 2026 08:07 (FTSE and the S&P on Friday's close; Wall Street shut until 14:30)"
   },
   "SP": {
     "name": "S&P 500",
     "desc": "America's leading stock market index, tracking 500 of the largest US-listed companies. Dominated by mega-cap tech (Apple, Microsoft, Nvidia) but spans all sectors.",
     "drivers_up": [
-      "Closed Friday 0.73% higher at 7,722.72",
-      "The VIX fell 6.59% to 15.31, its lowest in weeks"
+      "Closed Friday 0.73% higher at 7,722.72"
     ],
     "drivers_down": [
-      "The ten-year Treasury crept back to 5.273% by the close"
+      "Wall Street is shut until 14:30 BST, so this is Friday's close",
+      "The ten-year Treasury has slipped to 5.256% in overnight trade"
     ],
-    "updated": "4 October 2026 18:08 (Sunday: all instruments on Friday's closes except bitcoin, which is live)"
+    "updated": "5 October 2026 08:07 (FTSE and the S&P on Friday's close; Wall Street shut until 14:30)"
   },
   "Brent": {
     "name": "Brent Crude Oil",
     "desc": "The global benchmark for crude oil pricing, produced from oil fields in the North Sea. Used to price roughly two-thirds of the world's traded oil.",
     "drivers_up": [
-      "Gulf supply remains hostage to a war now in its eighth month"
+      "Two more tankers struck over the weekend, one east of Oman and one inside the Strait of Hormuz",
+      "A North Sea strike ballot threatens the Forties pipeline, which carries almost a third of UK oil and gas"
     ],
     "drivers_down": [
-      "Settled at $102.25, essentially flat on the week's earlier spike, and the G7 reserve release did not move it either way",
+      "Eased 0.48% to $101.76 in early European trade",
       "Still on the December contract: not comparable with Wednesday's $103.62, which was November"
     ],
-    "updated": "4 October 2026 18:08 (Sunday: all instruments on Friday's closes except bitcoin, which is live)"
+    "updated": "5 October 2026 08:07"
   },
   "GBP": {
     "name": "GBP/USD",
     "desc": "The exchange rate between the British pound and the US dollar, commonly known as 'cable'. Reflects relative economic strength and interest rate differentials between the UK and US.",
     "drivers_up": [
-      "Firmed 0.32% to 1.3241 into Friday's close, stronger against the euro too"
+      "Firmer against the euro, which fell to a 17-month low against the dollar"
     ],
     "drivers_down": [
-      "The 28 October Budget, with much of the fiscal headroom thought already gone"
+      "Slipped 0.20% to 1.3215 overnight",
+      "The 28 October Budget, now three weeks away"
     ],
-    "updated": "4 October 2026 18:08 (Sunday: all instruments on Friday's closes except bitcoin, which is live)"
+    "updated": "5 October 2026 08:07"
   },
   "Gold": {
     "name": "Gold (XAU/USD)",
     "desc": "The spot price of gold in US dollars per troy ounce. The world's oldest safe-haven asset, traditionally rising during periods of uncertainty, inflation and currency debasement.",
     "drivers_up": [
-      "Touched $4,223.95 on Friday, a fresh high for the year"
+      "Up 0.24% to $4,152.08, recovering part of Friday's fall",
+      "Two tanker strikes over the weekend kept a bid under safe havens"
     ],
     "drivers_down": [
-      "Closed at $4,142.34, down 0.85%, having given the whole move back — the second such reversal of the week"
+      "Still below the $4,223.95 it touched on Friday"
     ],
-    "updated": "4 October 2026 18:08 (Sunday: all instruments on Friday's closes except bitcoin, which is live)"
+    "updated": "5 October 2026 08:07"
   },
   "EURGBP": {
     "name": "EUR/GBP",
@@ -2358,9 +2361,10 @@
       "Euro-area policy settings unchanged"
     ],
     "drivers_down": [
-      "Eased 0.19% to 0.8497, about six pips below the European Central Bank's Friday reference rate of 0.85033"
+      "Fell 0.36% to 0.8466 as the euro hit its weakest against the dollar since May 2025",
+      "Spanish and French politics are the named drivers: a possible snap Spanish election and a French budget cutting the deficit only from 5.4% to 5%"
     ],
-    "updated": "4 October 2026 18:08 (Sunday: all instruments on Friday's closes except bitcoin, which is live)"
+    "updated": "5 October 2026 08:07"
   },
   "Gilt": {
     "name": "UK 10-Year Gilt Yield",
@@ -2369,44 +2373,45 @@
       "The 28 October Budget still has to be funded"
     ],
     "drivers_down": [
-      "Ended the week at 5.38%, having touched 5.5098% on Thursday",
-      "The thirty-year is well below the 6.0289% it reached on Thursday, its highest since 1998"
+      "Eased to 5.36%, a basis point below Friday's close and well under Thursday's 5.5098%",
+      "Cross-checked at 5.36 against a second provider"
     ],
-    "updated": "4 October 2026 18:08 (Sunday: all instruments on Friday's closes except bitcoin, which is live)"
+    "updated": "5 October 2026 08:07"
   },
   "VIX": {
     "name": "VIX (Volatility Index)",
     "desc": "The CBOE Volatility Index, often called the 'fear gauge'. Measures expected S&P 500 volatility over the next 30 days. Readings above 20 suggest elevated anxiety; above 30 signals acute stress.",
     "drivers_up": [
-      "Diesel above £2 a litre and a war in its eighth month remain standing risks"
+      "A strike ballot threatening UK fuel supply and two tankers hit in the Gulf are standing risks"
     ],
     "drivers_down": [
-      "Fell 6.59% to 15.31 on Friday, the clearest sign the week's bond scare has passed",
+      "Unchanged at 15.31 with Wall Street shut; its last move was Friday's 6.59% fall",
       "Far below the 20 level that signals real anxiety"
     ],
-    "updated": "4 October 2026 18:08 (Sunday: all instruments on Friday's closes except bitcoin, which is live)"
+    "updated": "5 October 2026 08:07 (FTSE and the S&P on Friday's close; Wall Street shut until 14:30)"
   },
   "BTC": {
     "name": "Bitcoin (BTC/USD)",
     "desc": "The price of Bitcoin in US dollars. The largest cryptocurrency by market cap, increasingly viewed as digital gold by institutional investors since spot ETF approvals.",
     "drivers_up": [
-      "Traded at 85,309 at 18:08 on Sunday, up 0.52% on the same time Saturday"
+      "Up 0.86% to 86,169, its highest of the weekend and a fourth consecutive rise across the four most recent editions"
     ],
     "drivers_down": [
-      "Weekend trading is thin, with every other market on this ticker shut until Monday"
+      "Weekend volumes were thin and the move has not yet been tested by an open equity market"
     ],
-    "updated": "4 October 2026 18:08 (Sunday: all instruments on Friday's closes except bitcoin, which is live)"
+    "updated": "5 October 2026 08:07"
   },
   "UST": {
     "name": "US 10-Year Treasury Yield",
     "desc": "The yield on 10-year US government bonds, the global risk-free rate benchmark. Influences mortgage rates, corporate borrowing and equity valuations worldwide.",
     "drivers_up": [
-      "Ended Friday at 5.273%, up four basis points, and the thirty-year at 5.623%"
+      "The thirty-year is also lower, at 5.618%"
     ],
     "drivers_down": [
-      "Still below Thursday's 5.344%, which was its highest since April 2002"
+      "Slipped two basis points to 5.256% overnight",
+      "Still near the highest levels since April 2002 reached on Thursday"
     ],
-    "updated": "4 October 2026 18:08 (Sunday: all instruments on Friday's closes except bitcoin, which is live)"
+    "updated": "5 October 2026 08:07"
   }
 }
 </script>
@@ -2459,6 +2464,159 @@
  <!-- ════ ALL EDITIONS (sorted by JS) ════ -->
  <!-- IMPORTANT: Keep 7 FULL DAYS of editions in this container. Do NOT delete editions less than 7 days old. -->
  <div id="all-editions" style="display:none;">
+<!-- ── MORNING 5 OCT (08:07) ── -->
+<div class="curated-edition morning" data-date="2026-10-05" data-time="08:07" data-markets='{"FTSE":{"price":10461.95,"change":0.32},"SP":{"price":7722.72,"change":0.73},"Brent":{"price":101.76,"change":-0.48},"GBP":{"price":1.3215,"change":-0.2},"Gold":{"price":4152.08,"change":0.24},"EURGBP":{"price":0.8466,"change":-0.36},"Gilt":{"price":5.36,"change":-0.01},"VIX":{"price":15.31,"change":0.0},"BTC":{"price":86169,"change":0.86},"UST":{"price":5.26,"change":-0.02},"ts":"2026-10-05T08:07:00+01:00"}'>
+ <div class="edition-header">
+ <span class="edition-icon">&#9728;&#65039;</span>
+ <h2>Morning Briefing</h2>
+ </div>
+ <div class="curated-meta">Monday 5 October 2026 &mdash; 08:07 BST</div>
+ <div class="impact-box">
+ <h3 class="impact-heading">What It Means For You</h3>
+ <ul class="impact-list">
+ <li><strong>Filling up:</strong> Diesel reached a record &pound;2 a litre on Friday. More than 160 offshore workers have now backed action that the union says could take down the Forties pipeline, which carries almost a third of Britain&rsquo;s oil and gas, later this month. The G7 is releasing up to 100 million barrels of emergency crude and diesel.</li>
+ <li><strong>Your broadband:</strong> BT is buying TalkTalk and its two and a half million connections. Ministers intervened within hours on the grounds that a failure would put hospitals, schools and emergency care at risk. Customers need take no action and services continue as normal; the competition authority reports by 19 October.</li>
+ <li><strong>If you live in supported housing:</strong> Rules in force today align the Housing Benefit earnings taper with Universal Credit&rsquo;s, ending an arrangement under which working more hours could leave you worse off. More than 325,000 residents are affected, nearly 50,000 of them young people.</li>
+ </ul>
+ </div>
+ <div class="curated-grid">
+ <div class="curated-column">
+ <h3><span class="dot geo"></span><span class="dot-label">GEO</span> Geopolitical</h3>
+ <div class="curated-item" data-time="01:16" data-slug="flavio-bolsonaro-wins-brazil-first-round">
+ <h4>Fl&aacute;vio Bolsonaro Wins the First Round in Brazil</h4>
+ <p>Fl&aacute;vio Bolsonaro took 47% of the vote to Luiz In&aacute;cio Lula da Silva&rsquo;s 45.1% with 99.9% counted, forcing a run-off on 25 October. Every major poll had put Lula first. The right also took 34 of the 54 Senate seats decided, and the Liberal Party is on course to be the largest force in the lower house. &ldquo;I admit, I was convinced I would win in the first round,&rdquo; Lula said.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The margin is two points, 56.1 million votes to 53.8 million, from an electorate of nearly 159 million who also chose 27 governors, 513 deputies and 54 of the 81 senators. The Senate result is the one the Bolsonaro family wanted most, because senators are the only lawmakers who can impeach supreme court justices, and Jair Bolsonaro is serving 27 years for plotting a coup after losing in 2022. His son has promised him an amnesty, and the same for those who stormed the capital on 8 January 2023. The dynasty did well in its own right: Michelle Bolsonaro won a Senate seat in the Federal District, her first elected office; Carlos Bolsonaro took one in Santa Catarina; Jair Renan Bolsonaro won a seat in the lower house; and Tarc&iacute;sio de Freitas was re-elected governor of S&atilde;o Paulo. The analyst Rafael Favetti argued the upset cuts both ways: &ldquo;The protest vote foreshadows what is to come in the run-off. While this should benefit Flavio Bolsonaro now, his growth potential in the second round drops precisely because that support has already been front-loaded.&rdquo; Mr Bolsonaro called it &ldquo;the end of an era&rdquo; for the Workers&rsquo; Party; Lula said the country had just had &ldquo;a lesson in Brazilian democracy&rdquo; and that &ldquo;in extra time, we will win&rdquo;. Watch the 4.3% that went to the two also-rans, both of whom say they will endorse nobody.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="22:00" data-slug="us-removes-all-bombers-from-raf-fairford">
+ <h4>The US Removes Every Bomber From RAF Fairford</h4>
+ <p>The Pentagon has confirmed that all American bombers at RAF Fairford &mdash; thought to be about a dozen B-1s &mdash; have returned to their home stations in the United States. The withdrawal follows the 27 September incident at the Gloucestershire base, after which six men were arrested and bailed. The BBC was told it was &ldquo;a military rather than a political decision&rdquo;, taken at operational level. The Ministry of Defence has not commented.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">Fairford is a hundred miles west of London and has been the staging post for the longest-range part of the air campaign: B-1s flying from it carried bunker-busting bombs and air-to-surface missiles against deeper Iranian targets, on sorties of twelve to fifteen hours with refuelling in both directions. Running those missions from the continental United States instead is possible &mdash; the Pentagon stresses its bombers can strike &ldquo;anywhere, anytime&rdquo; &mdash; but it is slower and costlier, which is why the move reads as a judgement about risk on the ground rather than about capability. Five men aged 23 to 25, all British nationals from London, were arrested over three suspicious vehicles near the base and bailed; a sixth, a 25-year-old British-Iranian, was arrested on Thursday and bailed on Saturday. Andy Burnham has said there are &ldquo;strong indications&rdquo; Iran played a part and Marco Rubio said the episode &ldquo;clearly&rdquo; involved &ldquo;the hands of a foreign actor&rdquo;; Tehran denies it, and said in July that any base used for aggression against it was a legitimate target. At sea the pressure has not eased: the UK Maritime Trade Operations Centre reported a crude tanker hit by a projectile four nautical miles east of Oman on Saturday and another struck in the Strait of Hormuz on Sunday, its engine room damaged. Watch whether any of the six is charged.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="07:54" data-slug="euro-17-month-low-spain-france-politics">
+ <h4>The Euro Falls to a 17-Month Low on Spanish and French Politics</h4>
+ <p>The euro fell 0.6% against the dollar on Monday to its weakest since 19 May last year, as rising euro-area inflation, interest rates and borrowing costs met political uncertainty in Spain and France. Pedro S&aacute;nchez is widely expected to call a snap Spanish election after losing two housing decrees on Friday, though his office has declined to comment. France&rsquo;s draft budget aims to cut the deficit from 5.4% of national income to 5%.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">Spain is the immediate trigger and the more human story. The decrees fell in the 350-seat lower house on Friday, the Catalan separatists of Junts voting with the People&rsquo;s Party and Vox against measures that would have halted evictions of vulnerable people, curbed short-term lets and made leases renew indefinitely. They had been drafted after the eviction of Mar&iacute;a del Carmen Abascal, 87, from the Madrid home she had lived in for seventy years, after an international investment fund bought the building and raised her rent by more than 200%. Saturday brought about 70,000 onto the streets of Madrid on the government&rsquo;s own count and demonstrations in fifty cities, with rubber bullets and tear gas in Valencia. Mr S&aacute;nchez&rsquo;s term does not expire until the summer of 2027, so an autumn election would be a choice rather than a necessity. France is the slower problem: Barclays economists said French fiscal and political developments &ldquo;cloud the euro area outlook&rdquo; and are &ldquo;unlikely to reach an inflection point before next year&rsquo;s presidential election&rdquo;, while ING said the draft budget would &ldquo;not resolve France&rsquo;s structural fiscal problems&rdquo;. For British readers the currency cuts the other way: sterling has been firming against the euro, which makes a European holiday cheaper and British exports to the bloc dearer. Watch whether Mr S&aacute;nchez actually dissolves parliament.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="21:42" data-slug="dodik-allies-sweep-bosnia-elections">
+ <h4>Dodik&rsquo;s Party Sweeps the Bosnian Elections</h4>
+ <p>Milorad Dodik&rsquo;s ally &#381;eljka Cvijanovi&#263; took more than 55% of the vote for the Serb seat on Bosnia&rsquo;s tripartite presidency, about thirty points clear, with nearly 90% counted. Mr Dodik, barred from office last year after a conviction for defying the international envoy overseeing the Dayton agreement, claims his party and its partners have two-thirds of the Republika Srpska assembly. Turnout fell about eight points to 42%.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">He was not on the ballot and it has made no difference. &ldquo;No one should ask us to change our politics,&rdquo; Mr Dodik told a news conference late on Sunday, crediting Donald Trump&rsquo;s &ldquo;magnificent victory&rdquo; in 2024 and Vladimir Putin&rsquo;s support, and adding: &ldquo;I cannot believe that we smashed it like this.&rdquo; At his final rally in Banja Luka on Friday, attended by the Russian ambassador, he told supporters that Bosnia &ldquo;is dead&rdquo; and &ldquo;an impossible country&rdquo; that &ldquo;doesn&rsquo;t make any sense&rdquo;. The analyst Dragan Bursa&#263; put the lesson plainly: Mr Dodik &ldquo;is still in command. He is everywhere. It is obvious that these measures to ban him from political life are not working, and he is using them.&rdquo; A two-thirds assembly majority is the number that matters, because it is the threshold at which secession steps stop being rhetoric and become legislation. The other two seats went the other way: Darijana Filipovi&#263; of the Croatian Democratic Union led commandingly, and the incumbent Bosniak member Denis Be&#263;irovi&#263; led Bakir Izetbegovi&#263; by fewer than three points. Of about 3.4 million eligible voters, 1,432,269 cast a ballot. The war that ended in 1995 killed more than 100,000 people. Watch for a response from Brussels or the Office of the High Representative, which had not come by this morning.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="07:17" data-slug="tplf-withdraws-from-mekelle-neighbours-declare">
+ <h4>Tigrayan Forces Abandon Mekelle as Four Neighbours Issue a Declaration</h4>
+ <p>The Tigray People&rsquo;s Liberation Front says it has temporarily withdrawn from Mekelle, citing the risk to civilians as the national army closed on the regional capital. Two residents told the BBC that pro-government forces now hold the city and that mobile service has returned in places. The presidents of Egypt, Eritrea, Somalia and Sudan met on Egypt&rsquo;s coast on Sunday and called for &ldquo;respecting the sovereignty, unity and territorial integrity of states&rdquo;.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">Two accounts of the same event sit side by side and both are worth keeping: the government describes retaking the city, the TPLF describes a voluntary and temporary relocation. What is agreed is that a capital has changed hands within about ten days of the offensive beginning, and that the Pretoria agreement, which ended a civil war the African Union&rsquo;s own mediator estimated killed some 600,000 people, is finished. The regional alignment is the harder development. The four presidents who met at El-Alamein all have strained relations with Addis Ababa, and their joint statement rejected &ldquo;unilateral measures&rdquo; harming downstream countries &mdash; language aimed squarely at the Grand Ethiopian Renaissance Dam. Ethiopia and Eritrea severed diplomatic relations last week after Addis Ababa accused Asmara of backing a new rebel alliance that the TPLF joined last month alongside six other armed movements, the Amhara Fano militia among them, with the stated aim of removing Abiy Ahmed&rsquo;s government; Asmara denies it. Ethiopia makes the same accusation against Egypt and Sudan, which they deny, and has expelled an Egyptian diplomat, with Cairo expelling an Ethiopian official in return. The United States has called for restraint and dialogue, and the United Nations warns the fighting is severely disrupting humanitarian work. Watch whether &ldquo;temporarily&rdquo; turns into a counter-offensive.</div>
+ </details>
+ </div>
+ </div>
+ <div class="curated-column">
+ <h3><span class="dot dom"></span><span class="dot-label">UK</span> UK Domestic Politics</h3>
+ <div class="curated-item" data-time="22:00" data-slug="tories-abolish-environment-agency-natural-england">
+ <h4>Tories Would Abolish the Environment Agency and Natural England</h4>
+ <p>Andrew Griffith will use his first conference speech as shadow chancellor to promise the abolition of Natural England and the Environment Agency, the scrapping of the Future Homes Standard and of the packaging producer scheme, a single developer levy in place of section 106 and the infrastructure levy, departure from the Aarhus convention, and a third runway at Heathrow. The party says the housing measures would cut up to &pound;50,000 from the cost of building a home.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">&ldquo;No one else is coming to save our economy,&rdquo; Mr Griffith says in his extracts. &ldquo;Only we can inject reality, tell the hard truths and make this a country we are proud to hand on to the next generation.&rdquo; He calls the tax code &ldquo;a cat&rsquo;s cradle of complexity&rdquo; and Andy Burnham&rsquo;s programme &ldquo;a socialist fever dream of the 1970s&rdquo;, and on aviation refuses &ldquo;to accept for a single moment that the country of Brunel and Bazalgette, of the vaccine taskforce and the Mulberry harbours, has to sit around waiting until the 2040s to get a third runway built&rdquo;. Katie Lam, the new shadow housing secretary, says removing the enforcement bodies means &ldquo;anti-growth ideologues can never again hold our country hostage&rdquo;. The weakness is arithmetic: the &pound;50,000 is the party&rsquo;s own figure, unmodelled and unattributed, and no costing has been published for any of it three weeks before the Budget. The reaction told its own story about where the Conservatives now sit. Robert Jenrick, speaking for Reform, said they were &ldquo;once again copying our policies&rdquo; and still could not match a &pound;15,000 tax-free allowance; Daisy Cooper for the Liberal Democrats called them &ldquo;a pointless anti-growth anti-business party&rdquo;. Watch whether shadow Treasury ministers, told to simplify the tax code line by line, produce a number that survives contact with 28 October.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="07:29" data-slug="bt-rescues-talktalk-nandy-intervenes">
+ <h4>BT Rescues TalkTalk and the Government Intervenes Within Hours</h4>
+ <p>BT has agreed to buy TalkTalk, which had been close to administration over its debts and carries 1.5 million retail and a million wholesale customers. Within hours Lisa Nandy issued a public interest intervention notice under the Enterprise Act, on public health grounds and on new grounds covering continuity of telecoms supply. The competition authority must report to her by 19 October. Customers need do nothing; services continue as normal.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The intervention is unusual in both speed and reasoning. &ldquo;Phone and broadband services are vital national infrastructure,&rdquo; the Culture Secretary said. &ldquo;If TalkTalk services fail, there is a genuine risk to life and public services &mdash; including to hospitals, schools and emergency care. These are unprecedented circumstances that require action now.&rdquo; The grounds she is using for continuity of supply do not yet exist in law: she says she will &ldquo;as a matter of urgency&rdquo; lay an order before Parliament amending the Enterprise Act to add them, which means the legal basis is being built after the notice rather than before it. That is a measure of how close the company was to failing, and of what runs over those two and a half million connections &mdash; among them the lines behind emergency calls, ambulance and hospital communications, and medical alarms in vulnerable households. Alison Kirkby, BT&rsquo;s chief executive, called the deal &ldquo;a safety net for the households and businesses who rely on TalkTalk&rdquo;. No price has been disclosed, and the obvious competition question &mdash; one company taking a larger share of a market it already dominates at the wholesale level &mdash; is precisely what the regulator now has a fortnight to examine. Watch the 19 October report, and whether Parliament waves through a retrospective widening of ministers&rsquo; powers to intervene.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="00:01" data-slug="north-sea-strike-ballot-forties-fuel-supplies">
+ <h4>North Sea Strike Ballot Threatens a Third of UK Oil and Gas</h4>
+ <p>More than 160 Apache offshore workers have backed industrial action that could begin later this month, Unite says, affecting the Forties and Beryl fields. The union warns the Charlie platform could be brought to a standstill and the Forties pipeline system, which handles almost a third of Britain&rsquo;s oil and gas, could go down. It lands on a week in which the average price of diesel reached a record &pound;2 a litre.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The dispute is about a 4% offer. Apache says its offshore staff &ldquo;already place them among the highest earners in the UK&rdquo; on a rota averaging 153 working days a year; its parent company reported $1.4 billion of after-tax profit on $9.2 billion of revenue last year. Sharon Graham, Unite&rsquo;s general secretary, said the union &ldquo;will not tolerate unacceptable pay offers&rdquo;, and the industrial officer Stevie Davies said disruption &ldquo;would have a direct hit on the Forties pipeline and potentially severely affect the UK&rsquo;s fuel supplies&rdquo;. Apache says it has contingency plans and expects no effect on other producers. There is a recent precedent for settlement: Unite called off strikes at Neo Next this summer after a deal worth more than &pound;4,000 on the package. What makes this one matter beyond the rigs is the timing. Diesel is already at a record, the G7 has agreed to release up to a hundred million barrels of emergency crude and diesel after Donald Trump threatened to cut off American supply, and the Strait of Hormuz remains closed. A Forties shutdown would arrive on top of all three. No strike dates have been set, and Ineos, which operates the pipeline, has not commented. Watch for the dates.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="06:35" data-slug="israel-bans-polanski-after-greens-zionism-vote">
+ <h4>Israel Bans Polanski After the Greens&rsquo; Zionism Vote</h4>
+ <p>Israel&rsquo;s foreign ministry has barred the Green leader Zack Polanski from entering the country after members voted 1,022 to 813 in Brighton for a motion defining Zionism as racism and backing a single state in all of historic Palestine. The ministry called it &ldquo;a clear antisemitic text&rdquo; and &ldquo;a stain on the history of the United Kingdom&rdquo;. Mr Polanski did not vote, having left to campaign in Holborn and St Pancras.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The Board of Deputies of British Jews and the Jewish Leadership Council said in a joint statement that &ldquo;Zionism is anti-racism, creating a refuge for Jews in their ancient homeland after millennia of persecution outside it&rdquo;, and that branding most British Jews and Jewish institutions racist &ldquo;stokes anti-Jewish hatred after a year in which British Jews have been murdered attending their synagogue, stabbed in the streets, and seen their community buildings firebombed&rdquo;. They singled out the leader &ldquo;who neither spoke against the motion nor voted&rdquo;. The party is visibly split: four of its five MPs opposed the motion, and Caroline Lucas urged members to reject &ldquo;the over-simplification at the heart of this motion &mdash; a refusal to accept complexities which is leading to so many Jewish members feeling scared and unwelcome in our party&rdquo;. The two deputy leaders took opposite sides, Mothin Ali backing it and Rachel Millward calling the wording problematic, and the chairwoman of Jewish Greens said she could consider her future in the party. Bridget Phillipson said the vote &ldquo;crosses a line&rdquo;; Chris Philp called the Greens &ldquo;toxic to its core&rdquo;. Under Green rules a members&rsquo; motion becomes policy but need not enter the manifesto. Watch Thursday, when Mr Polanski faces voters.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="07:24" data-slug="gosport-landing-protest-stand-off">
+ <h4>Protesters Confront Police as 149 Migrants Land at Gosport</h4>
+ <p>About 150 anti-migrant demonstrators gathered at a marina in Gosport to stop migrants being brought ashore, setting off flares and scuffling with police in a stand-off that ran into the early hours. The Home Office says 149 people were rescued mid-Channel by the RNLI alongside a French vessel and taken by coach to a processing centre in Kent. Hampshire Police imposed Public Order Act conditions and banned face coverings.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">It is only the second known landing of large numbers this far west along the south coast in recent years, and the Home Office has refused to say why Gosport was used, citing operational processes. The local police and crime commissioner, Donna Jones, is calling on the Home Secretary to intervene &ldquo;urgently to ensure that UK Border Force has the capacity and vessels to transfer people on the water to Dover&rdquo;, arguing that &ldquo;no sites across the southern coastline of Britain should be used as landing sites. We are not equipped and we do not have the resources to keep policing this.&rdquo; She puts the cost of each protest at &pound;150,000 from her own budget, which she says means less officer time on the streets of Hampshire and the Isle of Wight; the figure is her own and unaudited. The politics arrived three hours earlier. Shabana Mahmood had said in a podcast interview that &ldquo;we&rsquo;re not in control of this border&rdquo;, that the sifting of people in northern France is done by criminal gangs who are also traffickers, and that &ldquo;you can almost guarantee that every woman that&rsquo;s in the north of France has probably been raped along the journey&rdquo;. Of the masked protesters she said they should &ldquo;sod off&rdquo;. The Refugee Council welcomed the acknowledgment of sexual violence but said protecting women means &ldquo;more safe routes, not fewer&rdquo;. Watch whether Border Force changes its landing practice.</div>
+ </details>
+ </div>
+ </div>
+ </div>
+ <div class="one-to-read">
+ <span class="otr-label">One To Read</span>
+ <a href="https://www.theguardian.com/politics/2026/oct/05/eu-ambassador-uk-interview" target="_blank" rel="noopener noreferrer">
+ <h4>The EU&rsquo;s Ambassador in London on Where the Reset Now Stands</h4>
+ <span class="otr-source">The Guardian</span>
+ <span class="otr-dot">&middot;</span>
+ <span class="otr-desc">Jukka Salovaara on what Brussels wants before the prime minister&rsquo;s first EU summit next month, including the gap between Britain&rsquo;s offer of 50,000 youth-mobility places a year and the 150,000 the bloc has asked for.</span>
+ </a>
+ </div>
+ <!-- SOURCES USED
+ - https://www.theguardian.com/world/2026/oct/05/brazil-presidential-race-election-result-second-round-lula-flavio-bolsonaro &mdash; The Guardian, 01:16 BST: Fl&aacute;vio Bolsonaro on 47% and 56.1m votes against Lula's 45.1% and 53.8m with 99.9% counted, the 25 October run-off, 34 of the 54 Senate seats decided going to the right or far right, Michelle Bolsonaro's Senate seat in the Federal District, Carlos Bolsonaro in Santa Catarina, Jair Renan Bolsonaro in the lower house, Tarc&iacute;sio de Freitas re-elected in S&atilde;o Paulo, and Lula's "I admit, I was convinced I would win in the first round", "we are in extra time" and "a lesson in Brazilian democracy"
+ - https://www.bbc.co.uk/news/articles/ck1l34ed592no &mdash; BBC News, updated 04:16 BST: the result at 47.03% to 45.16% with almost all counted, the electorate of nearly 159 million also choosing 27 governors, 513 deputies and 54 of 81 senators, and the 50% threshold
+ - https://www.aljazeera.com/news/2026/10/5/brazils-presidential-race-three-key-takeaways-from-the-first-round &mdash; Al Jazeera, 02:55 BST: the Liberal Party on course to be the largest force in the lower house and its Senate gains, and Fl&aacute;vio Bolsonaro's "the end of an era" for the Workers' Party. Its earlier figures of 47% to 44.9% at about 99% counted are superseded by the Guardian's 99.9% count used here
+ - https://www.cnbc.com/2026/10/04/brazil-presidential-election-lula-bolsonaro.html &mdash; CNBC, carrying Reuters: private surveys having put Lula about three points ahead in the first round, the analyst Rafael Favetti on the protest vote being front-loaded and capping second-round growth, and Brazilian public debt above 82% of national income. Fl&aacute;vio Bolsonaro's "a modern government" line is carried via AFP. No approved source published a first-round turnout figure, so none is given here
+ - https://www.bbc.co.uk/news/articles/cmwyve191dlko &mdash; BBC News, 22:23 BST Sunday, refreshed 05:58 BST: the Pentagon confirming all American bombers have left RAF Fairford for their home stations, the estimate of about a dozen B-1s, the 27 September incident and three suspicious vehicles, the five men aged 23 to 25 and the sixth, a 25-year-old British-Iranian, the base being 100 miles west of London, the twelve to fifteen hour sorties with refuelling both ways, "a military rather than a political decision" taken at operational level, the Ministry of Defence declining to comment, Andy Burnham's "strong indications", Marco Rubio on "the hands of a foreign actor", and Iran's July warning about legitimate targets
+ - https://news.sky.com/story/us-removes-all-air-force-bombers-from-raf-fairford-after-suspected-terror-plot-13595162 &mdash; Sky News, 22:00 BST Sunday: the first report of the withdrawal, which is the break time used on that item. Headline and timestamp only; the page is blocked to direct retrieval and no fact here rests on it
+ - https://www.cnbc.com/2026/10/04/more-tankers-struck-in-gulf-waters-as-iran-reiterates-conditions.html &mdash; CNBC, with Reuters and AP: the UK Maritime Trade Operations Centre reporting a crude tanker hit four nautical miles east of Oman on Saturday and another struck in the Strait of Hormuz on Sunday with its engine room damaged, and Mohammad Bagher Ghalibaf saying the strait will not open until Iran's seven conditions are met
+ - https://www.cnbc.com/2026/10/05/euro-dollar-spain-france-risk.html &mdash; CNBC, 07:54 BST: the euro down 0.6% to its weakest against the dollar since 19 May 2025 on LSEG data, the combination of rising euro-area inflation, rates and borrowing costs with political uncertainty in Spain and France, France's draft budget cutting the deficit from 5.4% to 5% of national income, Barclays on French developments clouding the euro-area outlook and ING on the budget not resolving structural problems. CNBC's line that Pedro S&aacute;nchez is expected to call a snap election on Monday is its own and uncorroborated in any other approved source; his office has declined to comment, and it is carried here as expectation, not fact
+ - https://www.aljazeera.com/news/2026/10/4/spain-protests-flare-after-housing-bill-rejected-will-it-cause-snap-poll &mdash; Al Jazeera: the two housing decrees voted down on Friday in the 350-seat lower house with Junts, the People's Party and Vox against, what each decree would have done, the eviction of Mar&iacute;a del Carmen Abascal, 87, after seventy years in her Madrid home when a fund raised her rent by more than 200%, and the Spanish term running to the summer of 2027
+ - https://www.cnbc.com/2026/10/04/tens-of-thousands-protest-across-spain-over-housing-crisis.html &mdash; CNBC: about 70,000 in Madrid on the government's count, demonstrations in fifty cities, and the rubber bullets and tear gas in Valencia
+ - https://www.theguardian.com/world/2026/oct/04/bosnian-serb-nationalist-dodik-declares-party-victory-in-bosnia-election &mdash; The Guardian, 21:42 BST Sunday, carrying AP: &#381;eljka Cvijanovi&#263; above 55% with nearly 90% counted and about thirty points clear, Milorad Dodik barred from office after last year's conviction for defying the international envoy, his claim of two-thirds of the Republika Srpska assembly, turnout of 1,432,269 at 42% against about 3.4 million eligible, Darijana Filipovi&#263; leading for the Croat seat and Denis Be&#263;irovi&#263; leading Bakir Izetbegovi&#263; by fewer than three points, Dodik's "No one should ask us to change our politics", "I cannot believe that we smashed it like this", his crediting of Donald Trump and Vladimir Putin, his Banja Luka remarks that Bosnia "is dead" and is "an impossible country", the Russian ambassador's attendance, the analyst Dragan Bursa&#263; on the ban not working, and the more than 100,000 killed in the war that ended in 1995. No reaction from Brussels or the Office of the High Representative could be found in any approved source
+ - https://www.bbc.co.uk/news/articles/cqm249v07j4xo &mdash; BBC News, 07:17 BST: the TPLF saying it has temporarily withdrawn from Mekelle over the risk to civilians, two residents saying pro-government forces hold the city and that mobile service has returned in parts, and fighting across Tigray, Afar and Amhara
+ - https://www.aljazeera.com/news/2026/10/5/four-african-leaders-issue-joint-declaration-as-ethiopia-war-escalates &mdash; Al Jazeera, 01:33 BST: the presidents of Egypt, Eritrea, Somalia and Sudan meeting at El-Alamein, their call for "respecting the sovereignty, unity and territorial integrity of states" and rejection of "unilateral measures" harming downstream countries, the United States calling for restraint and dialogue, the Pretoria agreement and the African Union mediator's estimate of some 600,000 dead, the TPLF joining six other armed movements including the Amhara Fano militia, the severing of Ethiopian and Eritrean diplomatic relations last week and the reciprocal expulsions with Egypt
+ - https://www.aljazeera.com/news/2026/10/5/ethiopias-forces-retake-mekelle-amid-renewed-tigray-fighting &mdash; Al Jazeera, 02:03 BST: the government account of retaking Mekelle, carried here alongside the TPLF's own framing rather than in place of it
+ - https://www.theguardian.com/politics/2026/oct/04/tories-scrap-environment-agency-natural-england-conservative-conference &mdash; The Guardian, 22:00 BST Sunday: the abolition of Natural England and the Environment Agency, scrapping the Future Homes Standard and the Extended Producer Responsibility packaging scheme, the single developer levy replacing section 106 and the Community Infrastructure Levy, leaving the Aarhus convention, the Heathrow third runway, the party's own claim of up to &pound;50,000 off the cost of a new home, Katie Lam on "anti-growth ideologues", Robert Jenrick on the Conservatives "once again copying our policies" and the &pound;15,000 allowance, and Daisy Cooper's "a pointless anti-growth anti-business party"
+ - https://www.bbc.co.uk/news/articles/cqj9kje82jm1o &mdash; BBC News, 22:35 BST Sunday: Andrew Griffith's extracts, including "No one else is coming to save our economy", "a cat's cradle of complexity", "a socialist fever dream of the 1970s" and the passage on Brunel, Bazalgette and the Mulberry harbours, and shadow Treasury ministers being tasked with simplifying the tax code line by line. No costing has been published for any of the package
+ - https://www.gov.uk/government/news/secretary-of-state-for-digital-culture-media-and-sport-intervenes-under-enterprise-act-powers-in-talktalk-deal--2 &mdash; Department for Culture, Media and Sport, 07:29 BST: the public interest intervention notice under section 42 of the Enterprise Act 2002 on public health grounds and on new grounds covering continuity of telecoms supply, the Competition and Markets Authority reporting by 19 October 2026, the undertaking to lay an amending order before Parliament "as a matter of urgency", Lisa Nandy's quotation in full, and the advice that customers need take no action
+ - https://www.bbc.co.uk/news/articles/cvze4g06526ro &mdash; BBC News, 07:37 BST: BT's agreement to buy TalkTalk, its 1.5 million retail and one million wholesale customers, its position close to administration over its debts, and Alison Kirkby's "a safety net for the households and businesses who rely on TalkTalk". No price has been disclosed in any approved source
+ - https://news.sky.com/story/bt-strikes-deal-to-rescue-ailing-broadband-talktalk-13595205 &mdash; Sky News, 06:09 BST: the first report of the deal. Headline and timestamp only; the page is blocked to direct retrieval
+ - https://www.theguardian.com/business/2026/oct/05/strikes-by-north-sea-oil-workers-could-severely-disrupt-uk-fuel-supplies &mdash; The Guardian, 00:01 BST: more than 160 Apache offshore workers backing action that could begin later this month, the Forties and Beryl fields, the Charlie platform and the Forties pipeline system handling almost a third of UK oil and gas, the 4% offer, Apache's 153-day average rota and its parent's $1.4bn after-tax profit on $9.2bn of revenue, Sharon Graham and Stevie Davies quoted, the Neo Next settlement worth more than &pound;4,000, the record &pound;2 average diesel price reached on Friday, and the G7 release of up to 100 million barrels. No strike dates have been set and Ineos has not commented
+ - https://www.bbc.co.uk/news/articles/c6jdm5n1vy7go &mdash; BBC News, revised 06:35 BST: Israel's foreign ministry barring Zack Polanski, its "a clear antisemitic text" and "a stain on the history of the United Kingdom", the motion passing 1,022 to 813 and its terms, Mr Polanski not voting having left to campaign in Holborn and St Pancras, four of the five Green MPs opposing, Caroline Lucas quoted in full, the split between the two deputy leaders, the chairwoman of Jewish Greens considering her position, and Bridget Phillipson's "crosses a line" and Chris Philp's "toxic to its core"
+ - https://www.theguardian.com/politics/2026/oct/04/green-party-votes-adopt-policy-zionism-racism &mdash; The Guardian, 18:40 BST Sunday: the vote itself, the rejected amendments, and the joint statement of the Board of Deputies of British Jews and the Jewish Leadership Council quoted here in full
+ - https://www.bbc.co.uk/news/articles/cmrly809n8p6o &mdash; BBC News, 22:02 BST Sunday, substantially rewritten 07:24 BST: about 150 demonstrators at the Gosport marina, the flares and scuffles and the stand-off running into the early hours, the Home Office figure of 149 people rescued mid-Channel by the RNLI alongside a French vessel and taken by coach to Kent, the Public Order Act conditions and face-covering ban, this being only the second known landing of large numbers this far west in recent years, the Home Office declining to say why Gosport was used, and Donna Jones quoted on Border Force capacity and on the &pound;150,000 cost of each protest, a figure of her own that is unaudited
+ - https://www.theguardian.com/uk-news/2026/oct/04/women-small-boats-raped-shabana-mahmood-asylum-migration &mdash; The Guardian, 19:00 BST Sunday: Shabana Mahmood's podcast remarks, quoted here in her own hedged wording about women in northern France rather than about arrivals, her "sod off" to masked protesters, and Imran Hussain of the Refugee Council on safe routes. No policy accompanied the remarks and no other approved source carried them
+ - https://www.gov.uk/government/news/supported-housing-residents-to-keep-more-of-what-they-earn-as-new-rules-come-into-force &mdash; Department for Work and Pensions, 00:01 BST: the Housing Benefit (Earned Income Disregards) Regulations 2026 coming into force today, aligning the Housing Benefit earnings taper with Universal Credit's, affecting more than 325,000 residents including nearly 50,000 young people, and Sir Stephen Timms quoted. No per-household figure is published, so none is given here
+ - https://www.bbc.co.uk/news/articles/ck5yn30zn288o &mdash; BBC News review of the Monday front pages, 01:18 BST: consulted for news judgement and for the only available sight of The Times, The Telegraph and other titles that are blocked to direct retrieval here. No claim in this edition rests on any of them
+ - https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol &mdash; CNBC quote endpoint, read at 08:04 BST: the ticker levels for all ten instruments
+ - https://tradingeconomics.com/united-kingdom/government-bond-yield &mdash; Trading Economics (data only): the ten-year gilt, cross-checked against CNBC and agreeing within a basis point
+ - Full ticker adjudication, including which instruments were still on Friday's close with Wall Street shut, recorded in cache/2026-10-05/markets-SUMMARY.txt
+ - https://www.theguardian.com/politics/2026/oct/05/eu-ambassador-uk-interview &mdash; The Guardian &mdash; One To Read: the European Union's ambassador in London on where the reset now stands, before the prime minister's first EU summit
+ END SOURCES USED -->
+</div><!-- ── END MORNING 5 OCT (08:07) ── -->
 <!-- ── MORNING 4 OCT (08:05) ── -->
 <div class="curated-edition morning" data-date="2026-10-04" data-time="08:05" data-markets='{"FTSE":{"price":10461.95,"change":0.32},"SP":{"price":7722.72,"change":0.73},"Brent":{"price":102.25,"change":-0.06},"GBP":{"price":1.3241,"change":0.32},"Gold":{"price":4142.34,"change":-0.85},"EURGBP":{"price":0.8497,"change":-0.19},"Gilt":{"price":5.38,"change":0.01},"VIX":{"price":15.31,"change":-6.59},"BTC":{"price":85006,"change":0.51},"UST":{"price":5.27,"change":0.04},"ts":"2026-10-04T08:05:00+01:00"}'>
  <div class="edition-header">

@@ -1,0 +1,23 @@
+URL: (compiled) Monday 5 October 2026 MORNING ticker basis
+Primary: CNBC quote endpoint, read 08:04 and 08:06 BST. Cross-check: Trading Economics (UK 10y).
+
+*** WHAT IS LIVE AND WHAT IS NOT, AT 08:06 BST MONDAY ***
+LIVE (Monday prices): Brent (@LCO.1, December contract) 101.76 -0.48 | GBP= 1.3215 -0.20 | EURGBP= 0.8466 -0.36
+  | XAU= 4,152.08 +0.24 | UK10Y-GB 5.3607% (prev 5.3721%, so -0.01) | US10Y 5.256% (prev 5.277%, so -0.02)
+  | BTC.CM= 86,169 +0.86
+NOT LIVE: .SPX and .VIX both carry Friday 2 October's close (7,722.72 +0.73 and 15.31) because Wall Street
+  is shut until 14:30 BST. VIX change recorded as 0.00, not Friday's -6.59, because the index has not moved
+  since that close.
+*** FTSE CAVEAT — READ BEFORE REUSING ***
+.FTSE still returned Friday's close (10,461.95, stamped 2026-10-02) on three separate reads at 07:54, 08:04
+and 08:06 BST, i.e. after the London open. Trading Economics independently showed 10,462 at the same time.
+So the published FTSE level is Friday's close, not a Monday intraday price, and the edition's drivers say so.
+Do NOT present it as a Monday move.
+
+CROSS-CHECK: Trading Economics ten-year gilt 5.36 against CNBC 5.3607 — agreement to within a basis point.
+Yahoo Finance returned HTTP 429 (rate limited) on two attempts and Investing.com returned 403, so Trading
+Economics is the second source for this edition.
+
+PUBLISHED TICKER: FTSE 10,461.95 +0.32 | SP 7,722.72 +0.73 | Brent 101.76 -0.48 | GBP 1.3215 -0.20
+ | Gold 4,152.08 +0.24 | EURGBP 0.8466 -0.36 | Gilt 5.36 -0.01 | VIX 15.31 0.00 | BTC 86,169 +0.86
+ | UST 5.26 -0.02

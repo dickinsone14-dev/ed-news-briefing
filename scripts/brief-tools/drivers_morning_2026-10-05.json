@@ -1,0 +1,102 @@
+{
+ "FTSE": {
+  "up": [
+   "Gilt yields have eased again, with the ten-year back to 5.36%"
+  ],
+  "down": [
+   "Still showing Friday's close of 10,461.95 at the time of this edition, with no Monday level published yet",
+   "Finished last week lower overall despite Friday's 0.32% recovery"
+  ],
+  "updated": "5 October 2026 08:07 (FTSE and the S&P on Friday's close; Wall Street shut until 14:30)"
+ },
+ "SP": {
+  "up": [
+   "Closed Friday 0.73% higher at 7,722.72"
+  ],
+  "down": [
+   "Wall Street is shut until 14:30 BST, so this is Friday's close",
+   "The ten-year Treasury has slipped to 5.256% in overnight trade"
+  ],
+  "updated": "5 October 2026 08:07 (FTSE and the S&P on Friday's close; Wall Street shut until 14:30)"
+ },
+ "Brent": {
+  "up": [
+   "Two more tankers struck over the weekend, one east of Oman and one inside the Strait of Hormuz",
+   "A North Sea strike ballot threatens the Forties pipeline, which carries almost a third of UK oil and gas"
+  ],
+  "down": [
+   "Eased 0.48% to $101.76 in early European trade",
+   "Still on the December contract: not comparable with Wednesday's $103.62, which was November"
+  ],
+  "updated": "5 October 2026 08:07"
+ },
+ "GBP": {
+  "up": [
+   "Firmer against the euro, which fell to a 17-month low against the dollar"
+  ],
+  "down": [
+   "Slipped 0.20% to 1.3215 overnight",
+   "The 28 October Budget, now three weeks away"
+  ],
+  "updated": "5 October 2026 08:07"
+ },
+ "Gold": {
+  "up": [
+   "Up 0.24% to $4,152.08, recovering part of Friday's fall",
+   "Two tanker strikes over the weekend kept a bid under safe havens"
+  ],
+  "down": [
+   "Still below the $4,223.95 it touched on Friday"
+  ],
+  "updated": "5 October 2026 08:07"
+ },
+ "EURGBP": {
+  "up": [
+   "Euro-area policy settings unchanged"
+  ],
+  "down": [
+   "Fell 0.36% to 0.8466 as the euro hit its weakest against the dollar since May 2025",
+   "Spanish and French politics are the named drivers: a possible snap Spanish election and a French budget cutting the deficit only from 5.4% to 5%"
+  ],
+  "updated": "5 October 2026 08:07"
+ },
+ "Gilt": {
+  "up": [
+   "The 28 October Budget still has to be funded"
+  ],
+  "down": [
+   "Eased to 5.36%, a basis point below Friday's close and well under Thursday's 5.5098%",
+   "Cross-checked at 5.36 against a second provider"
+  ],
+  "updated": "5 October 2026 08:07"
+ },
+ "VIX": {
+  "up": [
+   "A strike ballot threatening UK fuel supply and two tankers hit in the Gulf are standing risks"
+  ],
+  "down": [
+   "Unchanged at 15.31 with Wall Street shut; its last move was Friday's 6.59% fall",
+   "Far below the 20 level that signals real anxiety"
+  ],
+  "updated": "5 October 2026 08:07 (FTSE and the S&P on Friday's close; Wall Street shut until 14:30)"
+ },
+ "BTC": {
+  "up": [
+   "Up 0.86% to 86,169, its highest of the weekend and a fourth consecutive rise across the four most recent editions"
+  ],
+  "down": [
+   "Weekend volumes were thin and the move has not yet been tested by an open equity market"
+  ],
+  "updated": "5 October 2026 08:07"
+ },
+ "UST": {
+  "up": [
+   "The thirty-year is also lower, at 5.618%"
+  ],
+  "down": [
+   "Slipped two basis points to 5.256% overnight",
+   "Still near the highest levels since April 2002 reached on Thursday"
+  ],
+  "updated": "5 October 2026 08:07"
+ }
+}
