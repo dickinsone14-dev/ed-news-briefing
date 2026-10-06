@@ -1,0 +1,101 @@
+{
+ "FTSE": {
+  "up": [
+   "Gilt yields eased back, with the ten-year down about four basis points to 5.38%"
+  ],
+  "down": [
+   "Still showing Monday's close of 10,497.94 at the time of this edition",
+   "Wall Street is shut until 14:30, so there is no overnight lead"
+  ],
+  "updated": "6 October 2026 08:06 (FTSE and the S&P on Monday's close; Wall Street shut until 14:30)"
+ },
+ "SP": {
+  "up": [
+   "Closed Monday 0.66% higher at 7,773.95"
+  ],
+  "down": [
+   "Wall Street is shut until 14:30 BST, so this is Monday's close",
+   "The ten-year Treasury is a shade lower at 5.303%"
+  ],
+  "updated": "6 October 2026 08:06 (FTSE and the S&P on Monday's close; Wall Street shut until 14:30)"
+ },
+ "Brent": {
+  "up": [
+   "Two tankers were struck near Hormuz at the weekend and the strait remains closed"
+  ],
+  "down": [
+   "Fell below $100 to $99.66, down 0.66% and extending Monday's 2% drop",
+   "The G7 release of up to 100 million barrels is still working through the market"
+  ],
+  "updated": "6 October 2026 08:06"
+ },
+ "GBP": {
+  "up": [
+   "Steady against the euro"
+  ],
+  "down": [
+   "Slipped 0.03% to 1.3215 overnight",
+   "The 28 October Budget is three weeks away"
+  ],
+  "updated": "6 October 2026 08:06"
+ },
+ "Gold": {
+  "up": [
+   "The war in its eighth month keeps a floor under safe havens"
+  ],
+  "down": [
+   "Down 0.20% to $4,131.30, a fourth session without direction"
+  ],
+  "updated": "6 October 2026 08:06"
+ },
+ "EURGBP": {
+  "up": [
+   "Euro-area policy settings unchanged"
+  ],
+  "down": [
+   "Barely moved at 0.8480",
+   "Spain votes on 29 November and France's budget is still unresolved"
+  ],
+  "updated": "6 October 2026 08:06"
+ },
+ "Gilt": {
+  "up": [
+   "The 28 October Budget still has to be funded",
+   "Mortgage pricing follows swap rates with a lag, so yesterday's 6% five-year fix will not unwind today"
+  ],
+  "down": [
+   "Eased about four basis points to 5.38%, the first retreat after the run-up that pushed fixed rates through six",
+   "Cross-checked against a second provider, which showed 5.39 at the same time"
+  ],
+  "updated": "6 October 2026 08:06"
+ },
+ "VIX": {
+  "up": [
+   "Brent below $100 and a closed Strait of Hormuz remain standing risks"
+  ],
+  "down": [
+   "Unchanged at 15.52 with Wall Street shut",
+   "Far below the 20 level that signals real anxiety"
+  ],
+  "updated": "6 October 2026 08:06 (FTSE and the S&P on Monday's close; Wall Street shut until 14:30)"
+ },
+ "BTC": {
+  "up": [
+   "Still above 85,000"
+  ],
+  "down": [
+   "Down 0.49% to 85,285, a second session of drift after Monday morning's 86,169"
+  ],
+  "updated": "6 October 2026 08:06"
+ },
+ "UST": {
+  "up": [
+   "The thirty-year is unchanged at 5.664%"
+  ],
+  "down": [
+   "A shade lower at 5.303%",
+   "Still near the highest levels since April 2002 reached last Thursday"
+  ],
+  "updated": "6 October 2026 08:06"
+ }
+}
