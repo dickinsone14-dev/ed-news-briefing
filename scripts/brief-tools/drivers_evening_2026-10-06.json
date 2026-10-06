@@ -1,0 +1,101 @@
+{
+ "FTSE": {
+  "up": [
+   "Closed 0.42% higher at 10,541.69, its best level in weeks",
+   "Sterling's strength did not hold the index back"
+  ],
+  "down": [
+   "Gilt yields edged up again, with the ten-year at 5.40%"
+  ],
+  "updated": "6 October 2026 17:51"
+ },
+ "SP": {
+  "up": [
+   "Up 0.73% to 7,830.48 and at a record high during the session",
+   "The VIX fell 3.54% to 14.97, its lowest in weeks"
+  ],
+  "down": [
+   "The rally is increasingly concentrated in a handful of technology stocks"
+  ],
+  "updated": "6 October 2026 17:51"
+ },
+ "Brent": {
+  "up": [
+   "Back at $100.04 after dipping below the hundred mark this morning",
+   "The Strait of Hormuz remains closed and tanker capacity is tight"
+  ],
+  "down": [
+   "Still down 0.28% on the day and well below last week's levels",
+   "Still on the December contract: not comparable with Wednesday's $103.62, which was November"
+  ],
+  "updated": "6 October 2026 17:51"
+ },
+ "GBP": {
+  "up": [
+   "Firmed 0.39% to 1.3271, the strongest move of the week"
+  ],
+  "down": [
+   "The 28 October Budget is three weeks away and the Chancellor is giving nothing away on tax"
+  ],
+  "updated": "6 October 2026 17:51"
+ },
+ "Gold": {
+  "up": [
+   "Up 0.49% to $4,159.66, recovering this morning's slip"
+  ],
+  "down": [
+   "Still short of the $4,223.95 touched on Friday"
+  ],
+  "updated": "6 October 2026 17:51"
+ },
+ "EURGBP": {
+  "up": [
+   "Euro-area policy settings unchanged"
+  ],
+  "down": [
+   "Barely moved at 0.8479 as sterling gained against the dollar instead",
+   "French borrowing costs remain the euro area's live problem"
+  ],
+  "updated": "6 October 2026 17:51"
+ },
+ "Gilt": {
+  "up": [
+   "Edged up about two basis points to 5.40%",
+   "The 28 October Budget still has to be funded"
+  ],
+  "down": [
+   "Still below Thursday's 5.5098% peak",
+   "Cross-checked at 5.40 against a second provider"
+  ],
+  "updated": "6 October 2026 17:51"
+ },
+ "VIX": {
+  "up": [
+   "A closed Strait of Hormuz and a tanker shortage remain standing risks"
+  ],
+  "down": [
+   "Fell 3.54% to 14.97 as Wall Street set a record",
+   "Far below the 20 level that signals real anxiety"
+  ],
+  "updated": "6 October 2026 17:51"
+ },
+ "BTC": {
+  "up": [
+   "Holding above 85,000"
+  ],
+  "down": [
+   "Down 0.10% to 85,620, a third session of drift"
+  ],
+  "updated": "6 October 2026 17:51"
+ },
+ "UST": {
+  "up": [
+   "The thirty-year also eased, to 5.641%"
+  ],
+  "down": [
+   "Fell about four basis points to 5.275%",
+   "Still near the highest levels since April 2002 reached last Thursday"
+  ],
+  "updated": "6 October 2026 17:51"
+ }
+}

@@ -1,0 +1,19 @@
+URL: (compiled) Tuesday 6 October 2026 EVENING ticker basis
+Primary: CNBC quote endpoint, read 17:42 BST. Cross-check: Trading Economics (UK 10y) showing 5.40.
+
+ALL TEN LIVE OR SETTLED. The FTSE settled properly at 16:35 (10,541.69 +0.42%) — unlike the last two
+mornings, when the feed returned the previous close after the London open. Wall Street was still trading.
+
+*** GILT PREV FIELD UNSTABLE FOR A THIRD READING ***
+CNBC's UK10Y-GB previous_day_closing has now reported Monday's close as 5.423 (this morning) and 5.3775
+(this evening). It also gave two different values for Friday's close on 5 October. The field cannot be
+trusted. Published change of +0.02 is computed against the 5.3775 prev in tonight's read, and is
+corroborated by Trading Economics showing 5.40 at the same time and by this morning's published 5.38.
+Direction — slightly higher on the day — is consistent across both providers.
+
+NOTABLE: sterling firmed 0.39% to 1.3271, its strongest move of the week. The S&P was at a record high
+during the session. Brent is back at $100.04 after dipping below $100 this morning.
+
+PUBLISHED TICKER: FTSE 10,541.69 +0.42 | SP 7,830.48 +0.73 | Brent 100.04 -0.28 | GBP 1.3271 +0.39
+ | Gold 4,159.66 +0.49 | EURGBP 0.8479 -0.05 | Gilt 5.40 +0.02 | VIX 14.97 -3.54 | BTC 85,620 -0.10
+ | UST 5.28 -0.04
