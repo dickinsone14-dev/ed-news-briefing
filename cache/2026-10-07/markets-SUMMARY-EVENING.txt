@@ -1,0 +1,35 @@
+URL: (compiled) Wednesday 7 October 2026 EVENING ticker basis
+Primary: CNBC quote endpoint, read 17:51 and 18:05 BST. Cross-check: Trading Economics (UK 10y, Brent).
+
+ALL LIVE. FTSE closed 16:35 BST at 10,458.50 -0.79 — the feed returned the live close correctly, unlike the
+last three mornings, which confirms the lag is confined to the first half-hour after the London open.
+Wall Street open, so .SPX and .VIX are live intraday values, not carried closes.
+
+GILT — basis declared, because the feed is unusable here.
+CNBC's previous_day_closing for UK10Y-GB read 5.4493 at 17:51, IDENTICAL to the live price, i.e. the field
+had become self-referential. It cannot be used to compute a daily change. Trading Economics showed 5.45
+with a change of +0.048, which implies a prior of 5.401 and does NOT reconcile with Tuesday's close.
+Published change is computed against Tuesday's independently established close of 5.3775, the same basis
+this morning's edition used:
+  this morning  5.4333 - 5.3775 = +0.0558 -> +0.06 (published 5.43)
+  this evening  5.4362 - 5.3775 = +0.0587 -> +0.06 (published 5.44)
+Both round to +0.06, so the series is internally consistent across today's two editions.
+Intraday high was 5.4493 at 17:51; it eased to 5.4362 by 18:05.
+
+UST: 5.292 against Tuesday's 5.271 = +0.021 -> +0.02. The 10-year touched its highest since 2002 during
+the session and the 30-year a 24-year high at 5.684%, per CNBC, read 16:39. NOTE: an ft.com headline said
+the 30-year hit its highest since 2002; CNBC, whose page was actually opened, attributes that to the
+10-year and calls the 30-year a 24-year high. CNBC's version is the one used.
+
+BRENT CROSS-CHECK: Trading Economics 101.549 +0.97 at 17:51 against CNBC 101.53; by 18:05 CNBC read
+100.72 +0.14. Published the 18:05 value.
+
+PUBLISHED TICKER: FTSE 10,458.50 -0.79 | SP 7,795.44 -0.30 | Brent 100.72 +0.14 | GBP 1.3210 -0.47
+ | Gold 4,113.19 -1.21 | EURGBP 0.8471 -0.07 | Gilt 5.44 +0.06 | VIX 15.31 +2.00 | BTC 83,471 -2.42
+ | UST 5.29 +0.02
+
+ADDENDUM after corroboration pass (NBC, 15:47 BST): the earlier ft.com-vs-CNBC conflict is resolved —
+BOTH were right, on different snapshots. Session highs were 10-year 5.35% and 30-year 5.73%, the highest
+for each since 2002; CNBC's 5.307/5.684 at 16:39 were later settled levels. The drivers carry the session
+highs and the published ticker carries the 18:05 level (5.292). Also new: the UK 30-year gilt reached its
+highest since 1998, which is the sharper domestic line and is now in the Gilt driver.

@@ -1,0 +1,103 @@
+{
+ "FTSE": {
+  "up": [
+   "Still up on the week despite today's fall"
+  ],
+  "down": [
+   "Closed 0.79% lower at 10,458.50, giving back Tuesday's gain",
+   "Pennon fell as much as 22% after a £550m fundraising and a dividend cut"
+  ],
+  "updated": "7 October 2026 __TIME__"
+ },
+ "SP": {
+  "up": [
+   "Still up 14% so far this year and near record territory"
+  ],
+  "down": [
+   "Off 0.30% as the global bond sell-off resumed",
+   "France and Italy are on course for their biggest one-day yield jump since the war with Iran began"
+  ],
+  "updated": "7 October 2026 __TIME__"
+ },
+ "Brent": {
+  "up": [
+   "Holding above $100 with the Strait of Hormuz still effectively closed",
+   "Gulf oil flows excluding Iran were back above 81% of pre-war levels in September"
+  ],
+  "down": [
+   "Up only 0.14% to $100.72, a quiet day by recent standards",
+   "Still on the December contract: not comparable with last Wednesday's $103.62, which was November"
+  ],
+  "updated": "7 October 2026 __TIME__"
+ },
+ "GBP": {
+  "up": [
+   "Still above 1.32"
+  ],
+  "down": [
+   "Fell 0.47% to 1.3210, the sharpest drop of the week",
+   "The 28 October Budget is three weeks away"
+  ],
+  "updated": "7 October 2026 __TIME__"
+ },
+ "Gold": {
+  "up": [
+   "A tanker attack in Hormuz this week keeps a floor under safe havens"
+  ],
+  "down": [
+   "Fell 1.21% to $4,113.19, a second day of losses",
+   "Rising real yields are working against it"
+  ],
+  "updated": "7 October 2026 __TIME__"
+ },
+ "EURGBP": {
+  "up": [
+   "Euro-area policy settings unchanged"
+  ],
+  "down": [
+   "Barely moved at 0.8471",
+   "France's prime minister addresses the nation tonight with the deficit at 5.1% of GDP"
+  ],
+  "updated": "7 October 2026 __TIME__"
+ },
+ "Gilt": {
+  "up": [
+   "At 5.44%, about six basis points above Tuesday's close, with the 28 October Budget still to be funded",
+   "The thirty-year gilt reached its highest level since 1998 during the session"
+  ],
+  "down": [
+   "Eased back from 5.4493% earlier in the session",
+   "Still below Thursday's 5.5098% peak"
+  ],
+  "updated": "7 October 2026 __TIME__"
+ },
+ "VIX": {
+  "up": [
+   "Rose 2.00% to 15.31 as equities slipped and yields climbed"
+  ],
+  "down": [
+   "Still far below the 20 level that signals real anxiety"
+  ],
+  "updated": "7 October 2026 __TIME__"
+ },
+ "BTC": {
+  "up": [
+   "Still the only instrument on this ticker that trades overnight"
+  ],
+  "down": [
+   "Fell 2.42% to 83,471, a third straight day of losses and the weakest since Friday",
+   "Down more than 2,000 since this morning's edition"
+  ],
+  "updated": "7 October 2026 __TIME__"
+ },
+ "UST": {
+  "up": [
+   "The ten-year rose as high as 5.35% and the thirty-year to 5.73%, the highest for each since 2002"
+  ],
+  "down": [
+   "Settled about two basis points higher at 5.292%",
+   "The ten-year has risen about sixty basis points since the end of July"
+  ],
+  "updated": "7 October 2026 __TIME__"
+ }
+}

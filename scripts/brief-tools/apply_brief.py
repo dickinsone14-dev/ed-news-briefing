@@ -45,7 +45,10 @@ html, n = re.subn(r'(<script id="embedded-markets" type="application/json">)\s*.
 assert n == 1, "embedded-markets not replaced"
 
 UPDATED = f"{DATE} {TIME} (reviewed at publication)"
-drivers = json.loads((S / f"drivers_{suffix}.json").read_text())
+drivers_raw = (S / f"drivers_{suffix}.json").read_text()
+drivers_raw = drivers_raw.replace("__TIME__", TIME)
+assert "__TIME__" not in drivers_raw, "unsubstituted placeholder in drivers"
+drivers = json.loads(drivers_raw)
 m = re.search(r'(<script id="market-descriptions" type="application/json">)\s*\n(.*?)\n(</script>)', html, re.DOTALL)
 desc = json.loads(m.group(2))
 assert set(desc) == set(drivers), set(desc) ^ set(drivers)
