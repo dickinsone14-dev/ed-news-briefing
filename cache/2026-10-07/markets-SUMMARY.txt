@@ -1,0 +1,30 @@
+URL: (compiled) Wednesday 7 October 2026 MORNING ticker basis
+Primary: CNBC quote endpoint, read 07:54, 08:01 and 08:09 BST. Cross-check: Trading Economics (UK 10y, Brent).
+
+LIVE (Wednesday prices): Brent (@LCO.1, December contract) 101.53 +0.94, stamped 07:59 BST | GBP= 1.3251
+  -0.16 | EURGBP= 0.8468 -0.11 | XAU= 4,134.48 -0.70 | UK10Y-GB 5.4333% against Tuesday's 5.3775% close,
+  so +0.06 | US10Y 5.311% against 5.271%, so +0.04 | BTC.CM= 84,131 -1.65
+NOT LIVE: .SPX and .VIX carry Tuesday's closes (7,818.93 +0.58 and 15.01) because Wall Street is shut
+  until 14:30 BST. VIX change recorded as 0.00, not Tuesday's move, because the index has not traded.
+
+*** FTSE CAVEAT — THIRD MORNING RUNNING ***
+.FTSE returned the previous session's close (10,541.69, stamped 2026-10-06) on all three reads at 07:54,
+08:01 and 08:09 BST, i.e. after the London open. The same happened on 5 and 6 October. Three mornings in
+a row is no longer a one-off: the CNBC .FTSE feed lags the first half-hour of the London session. The
+published FTSE level is therefore Tuesday's close, +0.42% on Monday, and the drivers say so explicitly.
+ACTION: find a second FTSE provider before the next morning edition.
+
+GILT: Tuesday's close reads 5.3775% in the prev field, consistent with the 5.3836 published at 08:06
+yesterday morning. Published 5.43 +0.06. Trading Economics independently shows UK 10Y at 5.42, up 0.039
+on the day, stamped Oct/07 — same level to two decimals, same direction, slightly smaller move.
+DISCREPANCY NOTED: the Guardian business live blog at 07:51 BST said gilts were "down slightly to 5.37%".
+That matches Tuesday's close, not a Wednesday print, and is contradicted by two independent live reads.
+Not used; the sources block records that it was set aside and why.
+
+BRENT CROSS-CHECK: Trading Economics shows Brent 101.549 +0.97 against CNBC's 101.53 +0.94. Consistent.
+
+OTHER: US 30-year read separately at 5.687% (prev 5.641%), used in the UST driver.
+
+PUBLISHED TICKER: FTSE 10,541.69 +0.42 | SP 7,818.93 +0.58 | Brent 101.53 +0.94 | GBP 1.3251 -0.16
+ | Gold 4,134.48 -0.70 | EURGBP 0.8468 -0.11 | Gilt 5.43 +0.06 | VIX 15.01 0.00 | BTC 84,131 -1.65
+ | UST 5.31 +0.04

@@ -1,0 +1,103 @@
+{
+ "FTSE": {
+  "up": [
+   "Closed Tuesday 0.42% higher at 10,541.69, its best level in weeks"
+  ],
+  "down": [
+   "Still showing Tuesday's close at the time of this edition",
+   "Gilt yields have risen again, with the ten-year back above 5.4%"
+  ],
+  "updated": "7 October 2026 __TIME__ (FTSE on Tuesday's close; the S&P and VIX also Tuesday, Wall Street shut until 14:30)"
+ },
+ "SP": {
+  "up": [
+   "Closed Tuesday 0.58% higher at 7,818.93, a record",
+   "Up 14% so far this year, on course for a fourth straight year of double-digit returns"
+  ],
+  "down": [
+   "Wall Street is shut until 14:30 BST, so this is Tuesday's close",
+   "The rally is narrow, resting on a handful of technology stocks"
+  ],
+  "updated": "7 October 2026 __TIME__ (FTSE on Tuesday's close; the S&P and VIX also Tuesday, Wall Street shut until 14:30)"
+ },
+ "Brent": {
+  "up": [
+   "Rose 0.94% to $101.53 after another tanker was attacked in the Strait of Hormuz",
+   "At least seven other tanker incidents have been reported in the past week"
+  ],
+  "down": [
+   "Middle East crude exports are back to pre-war volumes, so this is risk premium rather than shortage",
+   "Still on the December contract: not comparable with last Wednesday's $103.62, which was November"
+  ],
+  "updated": "7 October 2026 __TIME__"
+ },
+ "GBP": {
+  "up": [
+   "Held most of Tuesday's gain, which was the strongest move of the week"
+  ],
+  "down": [
+   "Eased 0.16% to 1.3251 overnight",
+   "The 28 October Budget is three weeks away"
+  ],
+  "updated": "7 October 2026 __TIME__"
+ },
+ "Gold": {
+  "up": [
+   "A tanker attack in Hormuz keeps a floor under safe havens"
+  ],
+  "down": [
+   "Fell 0.70% to $4,134.48, the sharpest drop in a week",
+   "Rising real yields are working against it"
+  ],
+  "updated": "7 October 2026 __TIME__"
+ },
+ "EURGBP": {
+  "up": [
+   "Euro-area policy settings unchanged"
+  ],
+  "down": [
+   "Eased to 0.8468",
+   "Spain votes in November and French borrowing costs remain unresolved"
+  ],
+  "updated": "7 October 2026 __TIME__"
+ },
+ "Gilt": {
+  "up": [
+   "Rose about six basis points to 5.43%, the highest this week, and the 28 October Budget still has to be funded",
+   "A 2028 gilt auction at 11:30 this morning is the next read on demand"
+  ],
+  "down": [
+   "Still below Thursday's 5.5098% peak"
+  ],
+  "updated": "7 October 2026 __TIME__"
+ },
+ "VIX": {
+  "up": [
+   "A tanker attack in Hormuz and a closed strait remain standing risks"
+  ],
+  "down": [
+   "Unchanged at 15.01 with Wall Street shut",
+   "Far below the 20 level that signals real anxiety"
+  ],
+  "updated": "7 October 2026 __TIME__ (FTSE on Tuesday's close; the S&P and VIX also Tuesday, Wall Street shut until 14:30)"
+ },
+ "BTC": {
+  "up": [
+   "Still the only instrument on this ticker trading overnight"
+  ],
+  "down": [
+   "Fell 1.65% to 84,131, its weakest in a week and below 85,000 for the first time since Friday"
+  ],
+  "updated": "7 October 2026 __TIME__"
+ },
+ "UST": {
+  "up": [
+   "The thirty-year also rose, to 5.687%"
+  ],
+  "down": [
+   "Up about four basis points to 5.311%",
+   "Near the highest levels since April 2002 reached last Thursday"
+  ],
+  "updated": "7 October 2026 __TIME__"
+ }
+}
