@@ -76,13 +76,28 @@ def filter_stories(stories: list) -> tuple[list, bool]:
     return kept, changed
 
 
+def sync_banner_text(html: str, new_stories: list) -> str:
+    """Keep the inline #breakingText fallback in step with the JSON.
+
+    The banner renders from the JSON at runtime, but the inline span is what
+    shows without JavaScript and is what the validator checks. If the two drift
+    apart the pre-commit validator rejects the change, so they are always
+    written together.
+    """
+    headline = new_stories[0].get("headline", "") if new_stories else ""
+    pattern = r'(<span class="breaking-text" id="breakingText">)(.*?)(</span>)'
+    replacement = r"\g<1>" + headline.replace("\\", "\\\\") + r"\g<3>"
+    return re.sub(pattern, replacement, html, count=1, flags=re.DOTALL)
+
+
 def update_html(html: str, new_stories: list, start: int, end: int) -> str:
-    """Replace the JSON array in the HTML."""
+    """Replace the JSON array in the HTML and resync the inline banner text."""
     if new_stories:
         new_json = json.dumps(new_stories, indent=4, ensure_ascii=False)
     else:
         new_json = "[]"
-    return html[:start] + new_json + html[end:]
+    html = html[:start] + new_json + html[end:]
+    return sync_banner_text(html, new_stories)
 
 
 def git_commit_push():
