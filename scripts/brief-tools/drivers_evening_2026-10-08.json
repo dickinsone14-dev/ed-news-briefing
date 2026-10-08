@@ -1,0 +1,98 @@
+{
+ "FTSE": {
+  "up": [
+   "Oil and defence shares held up with Brent above $103"
+  ],
+  "down": [
+   "Closed 0.16% lower at 10,441.60, a third day of losses"
+  ],
+  "updated": "8 October 2026 __TIME__"
+ },
+ "SP": {
+  "up": [
+   "Still up about 13% so far this year"
+  ],
+  "down": [
+   "Off 0.57% as the VIX climbed and bitcoin slid",
+   "The rally remains narrow, resting on a handful of technology stocks"
+  ],
+  "updated": "8 October 2026 __TIME__"
+ },
+ "Brent": {
+  "up": [
+   "Up 3.07% to $103.28 after further tanker attacks and slowing flows through the Strait of Hormuz",
+   "Nine tankers have been attacked in and around the strait in the past week"
+  ],
+  "down": [
+   "Touched $105.30 at midday and gave back more than a dollar after Donald Trump said he would not attack Iran before the November midterms",
+   "About 500,000 barrels a day of Gulf of Mexico output is shut in for a hurricane, which is weather rather than war"
+  ],
+  "updated": "8 October 2026 __TIME__"
+ },
+ "GBP": {
+  "up": [
+   "Firmed 0.09% to 1.3222, steadying after three days of falls"
+  ],
+  "down": [
+   "The 28 October Budget is three weeks away"
+  ],
+  "updated": "8 October 2026 __TIME__"
+ },
+ "Gold": {
+  "up": [
+   "Rose 0.59% to $4,134.99 as the Gulf risk premium widened"
+  ],
+  "down": [
+   "Still short of the $4,223.95 touched last week"
+  ],
+  "updated": "8 October 2026 __TIME__"
+ },
+ "EURGBP": {
+  "up": [
+   "Barely moved at 0.8473"
+  ],
+  "down": [
+   "French borrowing costs remain the open question in the euro area"
+  ],
+  "updated": "8 October 2026 __TIME__"
+ },
+ "Gilt": {
+  "up": [
+   "Reached 5.515% during the session, the highest since July 2007, and the thirty-year passed 6% before retreating"
+  ],
+  "down": [
+   "Ended at 5.42%, a shade below Wednesday's close, after Donald Trump ruled out striking Iran before the midterms",
+   "The round trip was the day's real market story"
+  ],
+  "updated": "8 October 2026 __TIME__"
+ },
+ "VIX": {
+  "up": [
+   "Rose 4.24% to 15.72, the sharpest move on this ticker after bitcoin"
+  ],
+  "down": [
+   "Still below the 20 level that signals real anxiety"
+  ],
+  "updated": "8 October 2026 __TIME__"
+ },
+ "BTC": {
+  "up": [
+   "Still the only instrument here that trades overnight"
+  ],
+  "down": [
+   "Fell 3.01% to 80,854, a fourth straight day of losses and the weakest since the spring",
+   "Has lost more than 4,500 since Tuesday"
+  ],
+  "updated": "8 October 2026 __TIME__"
+ },
+ "UST": {
+  "up": [
+   "Still near the highest levels since 2002 reached on Wednesday"
+  ],
+  "down": [
+   "Eased about three basis points to 5.246% as the Iran risk premium came out",
+   "The thirty-year fell back to 5.621%"
+  ],
+  "updated": "8 October 2026 __TIME__"
+ }
+}

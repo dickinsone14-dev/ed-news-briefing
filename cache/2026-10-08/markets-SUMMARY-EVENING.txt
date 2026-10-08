@@ -1,0 +1,27 @@
+URL: (compiled) Thursday 8 October 2026 EVENING ticker basis
+Primary: CNBC quote endpoint, read 18:15 BST. Cross-check: Trading Economics (UK 10y/30y, Brent).
+
+ALL LIVE. FTSE closed 16:35 at 10,441.60 -0.16. Wall Street open, so .SPX and .VIX are live intraday.
+
+*** THE DAY'S STORY IS A ROUND TRIP, NOT A LEVEL ***
+Gilts spiked and reversed. The Guardian reported at midday that the UK 10-year hit 5.515%, the highest
+since July 2007, and the 30-year 6.0117% after touching 6.036% on Wednesday, the highest since January
+1998. By the 18:15 close CNBC reads the 10-year at 5.4248 and Trading Economics at 5.43 (-0.006 on the
+day); TE has the 30-year back at 5.94 (-0.041). The reversal tracks Donald Trump's Truth Social post
+ruling out a strike on Iran before the 3 November midterms, which also pulled Brent back from an intraday
+$105.30 to about $103. The drivers carry the intraday highs AND the close, because publishing only the
+close would hide the actual event.
+
+GILT BASIS: CNBC's previous_day_closing read 5.4852 — that is THIS MORNING's level, not Wednesday's close,
+so the field is unusable again. Computed against Wednesday's established close of 5.4362:
+  5.4248 - 5.4362 = -0.0114 -> -0.01
+Trading Economics independently gives -0.006, which also rounds to -0.01. Agreement on direction and size.
+
+UST: 5.246 against Wednesday's close of 5.277 = -0.031 -> -0.03. US30Y 5.621 (prev 5.661).
+
+BRENT CROSS-CHECK: Trading Economics 103.42 +3.22% against CNBC 103.28 +3.07%. Agreement to within 0.15.
+The intraday $105.30 high is the Guardian's, timed to midday, and is attributed as such in the driver.
+
+PUBLISHED TICKER: FTSE 10,441.60 -0.16 | SP 7,757.65 -0.57 | Brent 103.28 +3.07 | GBP 1.3222 +0.09
+ | Gold 4,134.99 +0.59 | EURGBP 0.8473 +0.04 | Gilt 5.42 -0.01 | VIX 15.72 +4.24 | BTC 80,854 -3.01
+ | UST 5.25 -0.03
