@@ -1,0 +1,33 @@
+URL: (compiled) Thursday 8 October 2026 MORNING ticker basis
+Primary: CNBC quote endpoint, read 07:54, 08:02 and 08:07 BST. Cross-check: Trading Economics (UK 10y, Brent).
+
+LIVE (Thursday prices): Brent (@LCO.1, December contract) 103.37 +3.16 stamped 07:57 | GBP= 1.3188 -0.17
+  | EURGBP= 0.8478 +0.09 | XAU= 4,120.72 +0.25 | UK10Y-GB 5.4867% | US10Y 5.328% | BTC.CM= 82,926 -0.53
+NOT LIVE: .SPX and .VIX carry Wednesday's closes (7,801.77 -0.22 and 15.08) with Wall Street shut until
+  14:30 BST. VIX change recorded as 0.00 because the index has not traded since.
+
+*** FTSE CAVEAT — FOURTH MORNING RUNNING ***
+.FTSE returned Wednesday's close (10,458.50, stamped 2026-10-07) on all three reads at 07:54, 08:02 and
+08:07 BST. Same on 5, 6 and 7 October. BUT last night's evening read at 17:51 returned the live 16:35
+close correctly. The lag is therefore confined to the first half-hour or so after the London open, not a
+general fault in the feed. A second provider is only needed for morning editions.
+
+GILT — clean for once, and both bases agree.
+Wednesday's close, established from the 18:05 read for last night's edition, was 5.4362 (published 5.44).
+  5.4867 - 5.4362 = +0.0505 -> +0.05
+Trading Economics independently shows UK 10Y at 5.49 with a daily change of +0.053, dated Oct/08. Same
+level to two decimals and the same change to two decimals. This is the first day this week the two bases
+have agreed. NOTE the CNBC previous_day_closing field read 5.4493, which was yesterday's 17:51 intraday
+high and not the close — still unusable, but it did not matter today because TE corroborated.
+UK 30Y on Trading Economics: 6.01, +0.029. Above 6%. NBC reported on Wednesday that the 30-year gilt had
+reached its highest since 1998; "above 6%" is stated, "first time" is NOT claimed because no source says so.
+
+BRENT CROSS-CHECK: Trading Economics 103.38 +3.183 (+3.18%) against CNBC 103.37 +3.16. Agreement to two
+decimals on the level. Driver attributes the move to the tanker struck off Qatar and the Saudi airport
+deaths, both independently sourced in the edition.
+
+UST: 5.328 against Wednesday's 5.277 = +0.051 -> +0.05. US30Y read separately at 5.72%.
+
+PUBLISHED TICKER: FTSE 10,458.50 -0.79 | SP 7,801.77 -0.22 | Brent 103.37 +3.16 | GBP 1.3188 -0.17
+ | Gold 4,120.72 +0.25 | EURGBP 0.8478 +0.09 | Gilt 5.49 +0.05 | VIX 15.08 0.00 | BTC 82,926 -0.53
+ | UST 5.33 +0.05

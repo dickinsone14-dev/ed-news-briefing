@@ -1,0 +1,102 @@
+{
+ "FTSE": {
+  "up": [
+   "Oil and defence shares should find support with Brent above $103"
+  ],
+  "down": [
+   "Still showing Wednesday's close at the time of this edition, down 0.79%",
+   "Gilt yields have risen again, with the ten-year near 5.49%"
+  ],
+  "updated": "8 October 2026 __TIME__ (FTSE on Wednesday's close; the S&P and VIX also Wednesday, Wall Street shut until 14:30)"
+ },
+ "SP": {
+  "up": [
+   "Still up about 14% so far this year"
+  ],
+  "down": [
+   "Closed Wednesday 0.22% lower as the global bond sell-off resumed",
+   "Wall Street is shut until 14:30 BST, so this is Wednesday's close"
+  ],
+  "updated": "8 October 2026 __TIME__ (FTSE on Wednesday's close; the S&P and VIX also Wednesday, Wall Street shut until 14:30)"
+ },
+ "Brent": {
+  "up": [
+   "Jumped 3.16% to $103.37 after a tanker was hit by projectiles off the north coast of Qatar",
+   "Three people were killed in Houthi strikes on two Saudi airports"
+  ],
+  "down": [
+   "Middle East crude exports are back at pre-war volumes on Kpler data, so this is risk premium rather than shortage",
+   "Still on the December contract: not directly comparable with last Wednesday's $103.62, which was November"
+  ],
+  "updated": "8 October 2026 __TIME__"
+ },
+ "GBP": {
+  "up": [
+   "Still above 1.31"
+  ],
+  "down": [
+   "Eased 0.17% to 1.3188, a third day of losses",
+   "The 28 October Budget is three weeks away"
+  ],
+  "updated": "8 October 2026 __TIME__"
+ },
+ "Gold": {
+  "up": [
+   "Firmed 0.25% to $4,120.72 as the Gulf risk premium widened"
+  ],
+  "down": [
+   "Still short of the $4,223.95 touched a week ago",
+   "Rising real yields are working against it"
+  ],
+  "updated": "8 October 2026 __TIME__"
+ },
+ "EURGBP": {
+  "up": [
+   "Edged up to 0.8478 as sterling slipped"
+  ],
+  "down": [
+   "France's prime minister has yet to steady either the schools or the deficit"
+  ],
+  "updated": "8 October 2026 __TIME__"
+ },
+ "Gilt": {
+  "up": [
+   "Rose about five basis points to 5.49%, the highest this week, with the 28 October Budget still to be funded",
+   "The thirty-year gilt is now above 6%, having reached its highest since 1998 on Wednesday"
+  ],
+  "down": [
+   "Still below the 5.5098% peak of last Thursday"
+  ],
+  "updated": "8 October 2026 __TIME__"
+ },
+ "VIX": {
+  "up": [
+   "A widening Gulf risk premium and a bond sell-off are standing risks"
+  ],
+  "down": [
+   "Unchanged at 15.08 with Wall Street shut",
+   "Far below the 20 level that signals real anxiety"
+  ],
+  "updated": "8 October 2026 __TIME__ (FTSE on Wednesday's close; the S&P and VIX also Wednesday, Wall Street shut until 14:30)"
+ },
+ "BTC": {
+  "up": [
+   "Steadied overnight after three days of falls"
+  ],
+  "down": [
+   "Down a further 0.53% to 82,926, the weakest in a fortnight",
+   "Has lost more than 2,600 since Tuesday's edition"
+  ],
+  "updated": "8 October 2026 __TIME__"
+ },
+ "UST": {
+  "up": [
+   "The thirty-year is at 5.72%, close to the twenty-four-year high reached on Wednesday"
+  ],
+  "down": [
+   "Up about five basis points to 5.328%, near its highest since 2002",
+   "The ten-year has risen about sixty basis points since the end of July"
+  ],
+  "updated": "8 October 2026 __TIME__"
+ }
+}
