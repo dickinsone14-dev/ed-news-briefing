@@ -2289,7 +2289,7 @@
  <!-- #1 Markets snapshot bar -->
  <!-- Embedded market data (populated by update script, used as fallback) -->
  <script id="embedded-markets" type="application/json">
-{"FTSE":{"price":10441.6,"change":-0.16},"SP":{"price":7757.65,"change":-0.57},"Brent":{"price":103.28,"change":3.07},"GBP":{"price":1.3222,"change":0.09},"Gold":{"price":4134.99,"change":0.59},"EURGBP":{"price":0.8473,"change":0.04},"Gilt":{"price":5.42,"change":-0.01},"VIX":{"price":15.72,"change":4.24},"BTC":{"price":80854,"change":-3.01},"UST":{"price":5.25,"change":-0.03},"ts":"2026-10-08T18:21:00+01:00"}
+{"FTSE":{"price":10537.7,"change":0.92},"SP":{"price":7765.36,"change":-0.47},"Brent":{"price":102.93,"change":-1.29},"GBP":{"price":1.3234,"change":0.08},"Gold":{"price":4184.08,"change":1.21},"EURGBP":{"price":0.847,"change":-0.01},"Gilt":{"price":5.44,"change":0.02},"VIX":{"price":15.24,"change":-1.1},"BTC":{"price":82571,"change":1.1},"UST":{"price":5.25,"change":0.02},"ts":"2026-10-09T11:30:00+01:00"}
 </script>
  <script id="market-descriptions" type="application/json">
 {
@@ -2297,12 +2297,13 @@
     "name": "FTSE 100",
     "desc": "The UK's benchmark stock index, tracking the 100 largest companies listed on the London Stock Exchange by market capitalisation. Includes Shell, AstraZeneca, HSBC and Unilever.",
     "drivers_up": [
-      "Oil and defence shares held up with Brent above $103"
+      "Up 0.92% to 10,537.70, recovering the week's losses",
+      "Gold miners are leading as bullion passes $4,180"
     ],
     "drivers_down": [
-      "Closed 0.16% lower at 10,441.60, a third day of losses"
+      "Gilt yields are still near the highest since 2007"
     ],
-    "updated": "8 October 2026 18:21"
+    "updated": "9 October 2026 11:30 (the S&P carries Thursday's close; Wall Street shut until 14:30)"
   },
   "SP": {
     "name": "S&P 500",
@@ -2311,103 +2312,102 @@
       "Still up about 13% so far this year"
     ],
     "drivers_down": [
-      "Off 0.57% as the VIX climbed and bitcoin slid",
-      "The rally remains narrow, resting on a handful of technology stocks"
+      "Closed Thursday 0.47% lower",
+      "Wall Street is shut until 14:30 BST, so this is Thursday's close"
     ],
-    "updated": "8 October 2026 18:21"
+    "updated": "9 October 2026 11:30 (the S&P carries Thursday's close; Wall Street shut until 14:30)"
   },
   "Brent": {
     "name": "Brent Crude Oil",
     "desc": "The global benchmark for crude oil pricing, produced from oil fields in the North Sea. Used to price roughly two-thirds of the world's traded oil.",
     "drivers_up": [
-      "Up 3.07% to $103.28 after further tanker attacks and slowing flows through the Strait of Hormuz",
-      "Nine tankers have been attacked in and around the strait in the past week"
+      "Still above $100 with the Strait of Hormuz running about 30% below pre-war volumes"
     ],
     "drivers_down": [
-      "Touched $105.30 at midday and gave back more than a dollar after Donald Trump said he would not attack Iran before the November midterms",
-      "About 500,000 barrels a day of Gulf of Mexico output is shut in for a hurricane, which is weather rather than war"
+      "Fell 1.29% to $102.93 after Donald Trump ruled out striking Iran before the November midterms",
+      "Closed Thursday at $104.28 and has given that back"
     ],
-    "updated": "8 October 2026 18:21"
+    "updated": "9 October 2026 11:30"
   },
   "GBP": {
     "name": "GBP/USD",
     "desc": "The exchange rate between the British pound and the US dollar, commonly known as 'cable'. Reflects relative economic strength and interest rate differentials between the UK and US.",
     "drivers_up": [
-      "Firmed 0.09% to 1.3222, steadying after three days of falls"
+      "Firmed 0.08% to 1.3234, steadier after a volatile week"
     ],
     "drivers_down": [
-      "The 28 October Budget is three weeks away"
+      "The 28 October Budget is under three weeks away"
     ],
-    "updated": "8 October 2026 18:21"
+    "updated": "9 October 2026 11:30"
   },
   "Gold": {
     "name": "Gold (XAU/USD)",
     "desc": "The spot price of gold in US dollars per troy ounce. The world's oldest safe-haven asset, traditionally rising during periods of uncertainty, inflation and currency debasement.",
     "drivers_up": [
-      "Rose 0.59% to $4,134.99 as the Gulf risk premium widened"
+      "Rose 1.21% to $4,184.08, the strongest move on this ticker and a fresh high for the week",
+      "Safe-haven demand is holding up even as oil falls"
     ],
     "drivers_down": [
-      "Still short of the $4,223.95 touched last week"
+      "Rising real yields remain the standing argument against it"
     ],
-    "updated": "8 October 2026 18:21"
+    "updated": "9 October 2026 11:30"
   },
   "EURGBP": {
     "name": "EUR/GBP",
     "desc": "The exchange rate between the euro and the British pound. Key for UK-EU trade pricing. A falling rate means sterling is strengthening against the euro.",
     "drivers_up": [
-      "Barely moved at 0.8473"
+      "Flat at 0.8470"
     ],
     "drivers_down": [
-      "French borrowing costs remain the open question in the euro area"
+      "France is on the tenth day of school protests with a budget still to pass"
     ],
-    "updated": "8 October 2026 18:21"
+    "updated": "9 October 2026 11:30"
   },
   "Gilt": {
     "name": "UK 10-Year Gilt Yield",
     "desc": "The yield on 10-year UK government bonds (gilts). A key benchmark for UK borrowing costs, mortgage rates and pension fund valuations. Rising yields mean falling bond prices.",
     "drivers_up": [
-      "Reached 5.515% during the session, the highest since July 2007, and the thirty-year passed 6% before retreating"
+      "At 5.44%, about two basis points above Thursday's close and still near the highest since 2007",
+      "The thirty-year is at 5.95%, having passed 6% on Thursday"
     ],
     "drivers_down": [
-      "Ended at 5.42%, a shade below Wednesday's close, after Donald Trump ruled out striking Iran before the midterms",
-      "The round trip was the day's real market story"
+      "Well below Thursday's intraday 5.515%, which was the highest since July 2007"
     ],
-    "updated": "8 October 2026 18:21"
+    "updated": "9 October 2026 11:30"
   },
   "VIX": {
     "name": "VIX (Volatility Index)",
     "desc": "The CBOE Volatility Index, often called the 'fear gauge'. Measures expected S&P 500 volatility over the next 30 days. Readings above 20 suggest elevated anxiety; above 30 signals acute stress.",
     "drivers_up": [
-      "Rose 4.24% to 15.72, the sharpest move on this ticker after bitcoin"
+      "A Gulf airport where staff were killed at work is a standing risk"
     ],
     "drivers_down": [
-      "Still below the 20 level that signals real anxiety"
+      "Eased 1.10% to 15.24 after Trump ruled out a strike on Iran",
+      "Far below the 20 level that signals real anxiety"
     ],
-    "updated": "8 October 2026 18:21"
+    "updated": "9 October 2026 11:30"
   },
   "BTC": {
     "name": "Bitcoin (BTC/USD)",
     "desc": "The price of Bitcoin in US dollars. The largest cryptocurrency by market cap, increasingly viewed as digital gold by institutional investors since spot ETF approvals.",
     "drivers_up": [
-      "Still the only instrument here that trades overnight"
+      "Recovered 1.10% to 82,571 after four days of falls"
     ],
     "drivers_down": [
-      "Fell 3.01% to 80,854, a fourth straight day of losses and the weakest since the spring",
-      "Has lost more than 4,500 since Tuesday"
+      "Still more than 2,500 below Monday's level"
     ],
-    "updated": "8 October 2026 18:21"
+    "updated": "9 October 2026 11:30"
   },
   "UST": {
     "name": "US 10-Year Treasury Yield",
     "desc": "The yield on 10-year US government bonds, the global risk-free rate benchmark. Influences mortgage rates, corporate borrowing and equity valuations worldwide.",
     "drivers_up": [
-      "Still near the highest levels since 2002 reached on Wednesday"
+      "Up about two basis points to 5.253%, still near the highest since 2002"
     ],
     "drivers_down": [
-      "Eased about three basis points to 5.246% as the Iran risk premium came out",
-      "The thirty-year fell back to 5.621%"
+      "The thirty-year has eased back to 5.624% from Wednesday's twenty-four-year high"
     ],
-    "updated": "8 October 2026 18:21"
+    "updated": "9 October 2026 11:30"
   }
 }
 </script>
@@ -2460,6 +2460,159 @@
  <!-- ════ ALL EDITIONS (sorted by JS) ════ -->
  <!-- IMPORTANT: Keep 7 FULL DAYS of editions in this container. Do NOT delete editions less than 7 days old. -->
  <div id="all-editions" style="display:none;">
+<!-- ── MORNING 9 OCT (11:30) ── -->
+<div class="curated-edition morning" data-date="2026-10-09" data-time="11:30" data-markets='{"FTSE":{"price":10537.7,"change":0.92},"SP":{"price":7765.36,"change":-0.47},"Brent":{"price":102.93,"change":-1.29},"GBP":{"price":1.3234,"change":0.08},"Gold":{"price":4184.08,"change":1.21},"EURGBP":{"price":0.847,"change":-0.01},"Gilt":{"price":5.44,"change":0.02},"VIX":{"price":15.24,"change":-1.1},"BTC":{"price":82571,"change":1.1},"UST":{"price":5.25,"change":0.02},"ts":"2026-10-09T11:30:00+01:00"}'>
+ <div class="edition-header">
+ <span class="edition-icon">&#9728;&#65039;</span>
+ <h2>Morning Briefing</h2>
+ </div>
+ <div class="curated-meta">Friday 9 October 2026 &mdash; 11:30 BST</div>
+ <div class="impact-box">
+ <h3 class="impact-heading">What It Means For You</h3>
+ <ul class="impact-list">
+ <li><strong>If you rent privately:</strong> the government has opened a consultation on extending Awaab&rsquo;s Law &mdash; legal deadlines forcing landlords to fix severe damp and mould &mdash; to England&rsquo;s 11 million private renters. It would more than double the homes covered, from about 4 million to 9 million. The consultation closes on 18 December.</li>
+ <li><strong>If you are waiting for an ADHD or autism assessment:</strong> all diagnostic assessments are to become regulated by the Care Quality Commission, NHS and private alike, after an independent review found diagnosis had become &ldquo;a very narrow pathway to finding support&rdquo;.</li>
+ <li><strong>If you are travelling to Saudi Arabia:</strong> the Foreign Office updated its advice last night and now warns against all but essential travel to Riyadh province and several others, after three Saudi nationals were killed at Riyadh&rsquo;s main airport. Travelling against that advice can invalidate your insurance.</li>
+ </ul>
+ </div>
+ <div class="curated-grid">
+ <div class="curated-column">
+ <h3><span class="dot geo"></span><span class="dot-label">GEO</span> Geopolitical</h3>
+ <div class="curated-item" data-time="10:04" data-slug="nobel-peace-prize-navi-pillay">
+ <h4>Nobel Peace Prize Goes to Navi Pillay, and to the Courts</h4>
+ <p>The Norwegian Nobel Committee has given the 2026 Peace Prize to Navi Pillay, 85, the South African judge who defended Nelson Mandela, helped establish rape as a component of genocide at the Rwanda tribunal, and served as United Nations human rights chief. Asked whether the award was a message to states attacking international courts, the committee chair said it was.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">J&oslash;rgen Watne Frydnes did not soften it: &ldquo;This is definitely a message to those who are attacking, undermin[ing] the international system, the international rules-based system and the institutions.&rdquo; His citation made the same argument at length &mdash; &ldquo;The system of international law is under tremendous pressure, and its institutions are under attack. We see a shift towards power politics at the expense of legal frameworks&hellip; Whenever might overtakes right, it undermines stability, trust and peaceful coexistence.&rdquo; The context is the United States sanctioning International Criminal Court staff after the court sought an arrest warrant for Benjamin Netanyahu. Pillay was unreachable when the committee rang; Frydnes appealed on air: &ldquo;If you see a Norwegian number calling, please pick up.&rdquo; Filmed at the Palace of Justice in Nuremberg, she joked, &ldquo;If you clap a little bit louder I may share this prize with Trump,&rdquo; then added the lawyer&rsquo;s caveat: &ldquo;being a lawyer and a judge I still want to verify this thing&rdquo;. She is the first Black woman to have served on South Africa&rsquo;s High Court and now sits as an ad hoc judge at the International Court of Justice in the Rohingya genocide case. The award is not uncontested: she chaired the United Nations inquiry that found Israel&rsquo;s conduct in Gaza amounted to genocide, a report Israel called &ldquo;scandalous&rdquo;. No government had responded to the prize itself by this edition. There were 287 nominations; Donald Trump was among them.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="11:07" data-slug="three-saudis-killed-riyadh-airport-fcdo-advice">
+ <h4>Three Saudis Killed at Riyadh Airport as Britain Warns Travellers</h4>
+ <p>Saudi Arabia&rsquo;s civil aviation authority says three Saudi nationals were killed in two Houthi attacks on King Khalid International Airport on Thursday, the second striking a parked Saudia aircraft. The airline says one of its employees was among the dead. The Foreign Office updated its travel advice last night to warn against all but essential travel to Riyadh province.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">This is the first time the Houthi campaign against Saudi airports has killed people at Riyadh itself, and it changes what the war means for anyone with a reason to fly there. The Foreign Office now advises against all travel within ten kilometres of the Yemeni border and against all but essential travel to Riyadh, Aseer, Najran and Jizan provinces and to Taif. Its notice is explicit about the consequence: &ldquo;Your travel insurance could be invalidated if you travel against advice.&rdquo; It records a heightened threat to airports, military bases, ports and energy infrastructure across the kingdom, including Jeddah and Yanbu, as well as to Red Sea shipping. The Houthis say they used two cruise missiles and also claimed strikes at Najran and the Khamis Mushait airbase, which the Saudis have not confirmed; the coalition says it destroyed three rocket-launch platforms and that attacks on civilians &ldquo;will be met with resolve&rdquo;. Airlines have drawn their own conclusions: Air India has cancelled Riyadh flights to at least the weekend and Lufthansa has suspended them through 16 October. Multinationals in the King Abdullah Financial District told staff to work from home, and some schools were told to shelter in place with no public alert. Turkey is sending defensive and technical support and Pakistan has deployed troops; the mutual defence pact the two signed with Riyadh this summer has still not been ratified in Ankara.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="00:42" data-slug="kramatorsk-toll-rises-zelensky-starlink">
+ <h4>Kramatorsk Toll Rises to Thirty-Five as Zelensky Turns on Washington</h4>
+ <p>Volodymyr Zelensky says Thursday&rsquo;s strike on two public buses killed at least thirty-five, up from the thirty reported when it happened, and puts the two-day national toll at seventy-eight killed and 215 wounded. He accused the United States of being unwilling to help while pursuing economic ties with Moscow. Ukrainian negotiators fly to Florida today.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">His specific demand is Starlink: &ldquo;Open Starlink for Ukraine. You did open it when you were responding to Iran&hellip; I&rsquo;ve said quite openly &mdash; give it to us, help us defend our skies and dominate there. And then Putin will sit down at the negotiating table.&rdquo; He wants expanded access in order to target Russian ballistic-missile launchers. One correction worth making plainly: this edition and others described the weapon on Thursday as a glide bomb, and the approved record does not support that &mdash; four sources give three different descriptions, so it is reported here simply as a Russian strike. Volker T&uuml;rk, the United Nations human rights commissioner, said he was &ldquo;appalled by the wave of attacks killing civilians across Ukraine over the past four days&hellip; The scale and manner of these attacks &mdash; killing and injuring people on buses, at their homes and work in different areas of the country &mdash; is reprehensible.&rdquo; Talks begin in Florida today and tomorrow with Steve Witkoff and Jared Kushner, covering security guarantees and a post-war plan. Britain moved yesterday: Ed Miliband, on his first visit to Ukraine as Foreign Secretary, announced about forty new sanctions designations across Russian finance, oil and technology, &pound;54m in energy and humanitarian funding and &pound;6.3m for war-crimes accountability, telling Moscow &ldquo;You cannot wait us out.&rdquo;</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="07:22" data-slug="trump-rules-out-iran-strike-tehran-to-reply">
+ <h4>Trump Rules Out an Iran Strike and Tehran Says It Will Reply</h4>
+ <p>&ldquo;We will not be attacking Iran at any time prior to the midterm elections to be held in the United States on November 3rd,&rdquo; Donald Trump wrote, saying discussions were productive. Iran&rsquo;s foreign minister Abbas Araghchi says Tehran is reviewing the American response to its seven-day plan for reopening the Strait of Hormuz and will answer within days. Brent has fallen back below $103.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The sequence is the interesting part. Brent closed Thursday up 4% at $104.28 on reports the White House had asked the Pentagon for strike options; it gave that back after the post and fell again this morning, which some analysts read as the point of the exercise. On Monday President Masoud Pezeshkian had called talks with Washington &ldquo;futile&rdquo;, accusing the United States of using negotiations as cover for an attack, so Araghchi&rsquo;s undertaking to respond is a shift inside a week. JD Vance said on Tuesday that Iran must make a &ldquo;meaningful&rdquo; reduction in enrichment capacity, which reads as a retreat from the earlier demand that it abandon enrichment altogether. The underlying numbers have not improved: nine tankers were attacked in and around the strait in the past week, and throughput was 9.5 million barrels a day in the week to Tuesday, about 30% below the pre-war norm, with total Middle East flows near normal only because of pipeline workarounds. Ryan McKay of TD Securities explains why the price stays elevated anyway: the need for naval escorts, higher costs, logistical friction and &ldquo;constant risk of being attacked&rdquo; together &ldquo;warrant a sticky risk premium to remain in pricing&rdquo;. Vladimir Putin told Mr Pezeshkian on Thursday that Russia would &ldquo;do everything&rdquo; to help end the war.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="05:44" data-slug="south-africa-anti-migrant-violence-asylum-ruling">
+ <h4>Vehicles Torched in South Africa as a Court Ruling Meets the Street</h4>
+ <p>At least twenty-four vehicles were set alight, fourteen in Durban and ten in Soweto, and foreign-owned shops looted as anti-immigration protests turned violent on Thursday. Police fired rubber bullets outside a refugee reception centre in Durban where protesters demanded it stop accepting asylum applications. The Department of Home Affairs now says it will change how it complies with a Constitutional Court ruling.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The ruling, handed down in July, struck down restrictions that barred some people from seeking asylum because of how they entered the country or because they had missed immigration deadlines &mdash; meaning applications must now be accepted even from those who arrived without documents. Long queues followed at immigration centres. On Friday the department said staff had been &ldquo;overwhelmed&rdquo; and that &ldquo;serious threats to public safety and order had emerged&rdquo;, and that it would change its approach while still abiding by the court; it gave no details. A government spokesman, William Baloyi, said people had deliberately spread false claims that undocumented migrants would automatically be granted legal status, and that applications will still be assessed individually. A senior police officer, Xolani Fihla, reported clashes between South African and foreign nationals with no injuries; three foreign nationals were arrested over an alleged assault on a protester, which is what tipped Thursday&rsquo;s demonstration over. Unemployment runs at roughly a third of the workforce, and researchers say the claims made against migrants are not supported by evidence. The xenophobic attacks of 2008 killed more than sixty people. The retired South African constitutional court justice Edwin Cameron, reacting to this morning&rsquo;s Nobel award to his compatriot, named the same wound: his country has been &ldquo;wrecked by anguish about cross-border migration&rdquo; and by movements &ldquo;distributing toxic untruths&rdquo;.</div>
+ </details>
+ </div>
+ </div>
+ <div class="curated-column">
+ <h3><span class="dot uk"></span><span class="dot-label">UK</span> Domestic</h3>
+ <div class="curated-item" data-time="03:06" data-slug="labour-holds-holborn-majority-cut-by-71-percent">
+ <h4>Labour Holds Holborn and St Pancras With Its Majority Cut by 71%</h4>
+ <p>Sagal Abdi-Wali took 12,292 votes to Zack Polanski&rsquo;s 8,928, a Labour majority of 3,364 against the 11,572 Keir Starmer won in 2024. The swing from Labour to Green was 13.06 points. Turnout fell 15.5 points to 38.6%, the lowest at any English by-election this parliament.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">Chris Mason&rsquo;s reading is the right one: this &ldquo;falls in the column marked &lsquo;relief&rsquo; for Downing Street rather than &lsquo;jubilation&rsquo;&rdquo;. Ms Abdi-Wali, leader of Camden council and a child refugee from Somalia in the 1990s, used her declaration speech to answer a Reform UK spokesman who had questioned whether she was British: &ldquo;I hope this moment also says something about who gets to belong&hellip; This is Camden, and this is Britain.&rdquo; She won, she said, &ldquo;not by making people afraid of each other, but by bringing people together&rdquo;, and named homelessness as the thing that drove her into politics and Thames Water as a company that &ldquo;failed residents up and down our constituency&rdquo;. Two numbers are being spun in opposite directions and both are true. The Green share more than tripled, from 10.44% to 32.81%; the Green vote count did not, rising from 4,030 to 8,928, slightly more than double. The sharper comparison is that in 2024 the Greens and the pro-Gaza independent Andrew Feinstein together took 11,342 votes in this seat &mdash; 2,414 more than Mr Polanski managed alone. The Greens consolidated an existing bloc rather than growing one. One other result deserves recording: the Conservatives finished third on 1,922, beating Reform UK for the first time at an English by-election this parliament, though Reform and Restore Britain between them would have been ahead of them.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="09:48" data-slug="polanski-pressed-on-israels-right-to-exist">
+ <h4>Polanski Pressed Four Times on Whether Israel Has a Right to Exist</h4>
+ <p>Asked directly on the Today programme, the Green leader answered: &ldquo;I don&rsquo;t believe any state has the right to oppress or to commit apartheid and certainly not genocide on another people.&rdquo; Pressed for a yes or no, he said he wanted &ldquo;equal rights for Israelis and Palestinians&rdquo;. He says he will stay as leader. Caroline Lucas says the jury is out.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">On the motion itself he has now set out where he stands: &ldquo;The motion as amended, I would have voted for. The motion unamended, I wouldn&rsquo;t have voted for.&rdquo; His objection is to one clause &mdash; &ldquo;the Green Party of England and Wales or indeed even the British government deciding that there should be a single state. I think that&rsquo;s up to the Israelis and the Palestinians&rdquo; &mdash; while he maintains that &ldquo;the displacement and genocide of the Palestinian people is clearly underpinned by a racist ideology&rdquo;. Both amendments he favoured were rejected by members, and he left before the vote. Caroline Lucas, his predecessor, called the motion &ldquo;dangerous&rdquo;, &ldquo;divisive&rdquo; and &ldquo;flawed from top to bottom&rdquo;, and withheld judgement on his leadership: &ldquo;I want him to show the leadership that was frankly missing on Sunday. I think the jury is out about whether he will do that.&rdquo; Jonathan Bartley, a former co-leader, says he should &ldquo;put his hands up&rdquo; and apologise, and speaks of &ldquo;a certain toxicity now from the Green Party&rdquo;, but has not called for him to go. Vivien Lichtenstein of the Jewish Greens has: he &ldquo;should resign&rdquo;, and dodging the debate was a &ldquo;big mistake&rdquo;. Four of the party&rsquo;s five MPs opposed the motion, one of two deputy leaders opposed it, the Welsh deputy leader and some councillors have resigned, and the European Green Party has distanced itself. The next scheduled leadership ballot is in the summer of 2027.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="00:01" data-slug="fonagy-review-adhd-autism-assessments-regulated">
+ <h4>All ADHD and Autism Assessments to Be Regulated After Review</h4>
+ <p>An independent review chaired by Professor Peter Fonagy has found that diagnosis has become &ldquo;a very narrow pathway to finding support&rdquo;, with referrals rising sharply while underlying prevalence stays broadly stable. The health secretary Yvette Cooper will make every diagnostic assessment regulated by the Care Quality Commission, whether NHS, private or self-funded.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">Fonagy is careful about what he is and is not saying: &ldquo;Our findings show a system under immense strain, where diagnosis has increasingly become a very narrow pathway to finding support&hellip; Diagnosis remains essential and must be protected &mdash; what has to change is that it is no longer the only door through which help can be reached.&rdquo; That distinction matters, because the review has been reported both as a warning about over-diagnosis and as a warning about system failure, and the reconcilable fact underneath is that diagnoses and referrals have risen steeply while the share of the population with these conditions has not. The numbers around it are stark: the proportion of sixteen to sixty-four-year-olds with a common mental disorder rose from 15.5% in 1993 to 22.6% in 2024, and children diagnosed with autism or ADHD before seventeen are around four times more likely to be out of education, employment and training between sixteen and twenty-four. Ms Cooper&rsquo;s regulatory change is aimed squarely at the private market that has grown in the gap: assessments will be inspected &ldquo;so people can be confident that assessments are high quality and that the NHS is not being overcharged by independent or private providers&rdquo;. The review also recommends banning direct-to-public advertising of NHS-funded assessments. A Mental Health Strategy follows, alongside a &pound;4bn package for special educational needs.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="22:30" data-slug="awaabs-law-to-be-extended-to-private-renters">
+ <h4>Awaab&rsquo;s Law to Be Extended to England&rsquo;s Private Renters</h4>
+ <p>The government has opened a consultation on extending Awaab&rsquo;s Law, which sets legal deadlines for landlords to fix severe damp and mould, from social housing to the private rented sector, temporary accommodation for homeless families, and housing for care leavers. It would more than double the homes covered, from about four million to nine million. The consultation closes on 18 December.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The law is named for Awaab Ishak, who died in 2020 at the age of two after prolonged exposure to damp and mould in a Rochdale flat his parents had repeatedly complained about. England has eleven million private renters and around one in ten privately rented homes has what the housing health and safety system classes as a category one hazard &mdash; a risk capable of causing death or serious harm. Matthew Pennycook, the housing minister, puts the principle plainly: &ldquo;Irrespective of tenure, all renters have the right to live in a safe and decent home&hellip; We&rsquo;re now moving to extend it to private landlords so that England&rsquo;s 11 million private renters can enjoy the same protections.&rdquo; Holly Williamson of Generation Rent describes what the deadlines are meant to fix: &ldquo;too many renters live in homes that are harmful to our health and often wait months for landlords to act.&rdquo; The Renters&rsquo; Rights Act already raised the maximum fine for the worst offences to &pound;7,000. The practical point for anyone affected is that this is a consultation, not a commencement &mdash; the duty does not exist for private tenants yet, and the window to respond runs to 18 December.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="07:00" data-slug="tory-net-zero-costing-overstated-by-479bn">
+ <h4>Tory Net Zero Costing Overstates the Bill by &pound;479bn</h4>
+ <p>Kemi Badenoch&rsquo;s hundred-page conference document says the Climate Change Committee put the cost of reaching net zero at &pound;957bn. The committee&rsquo;s own figures total &pound;478bn &mdash; half that. The apparent cause is a spreadsheet tally that counted the row of column totals as well as the costs. The Conservatives had not responded.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The committee&rsquo;s response, on the record, is drier than the error deserves: &ldquo;We don&rsquo;t recognise this number. The committee has previously offered to meet with Ms Badenoch and talk her through our advice. That offer is, of course, still open.&rdquo; Its most recent estimate of the net cost is about &pound;110bn, or roughly &pound;4bn a year, which is 0.2% of GDP &mdash; a different order of magnitude from the figure in the document. The mistake was spotted by the research outfit Carbon Brief, and the number appears to have travelled into the document from a think tank report and a magazine article rather than from the committee itself. The reason this is more than a clerical matter is that the figure is doing work: it is the headline cost used to justify scrapping the 2050 target, and it is wrong by a factor of two. There is also an unfortunate symmetry with the document&rsquo;s own framing. Mrs Badenoch&rsquo;s foreword notes that &ldquo;as an engineer&rdquo; she is used to correctly diagnosing problems, and the text argues that &ldquo;to fix a problem we must first have an accurate understanding of what is causing it&rdquo;. This rests on one outlet&rsquo;s reporting, but the committee&rsquo;s quotation is on the record and the arithmetic is checkable against its published budget.</div>
+ </details>
+ </div>
+ </div>
+ </div>
+ <div class="one-to-read">
+ <span class="otr-label">One To Read</span>
+ <a href="https://www.bbc.co.uk/news/articles/c6zjx7jexz1do" target="_blank" rel="noopener noreferrer">
+ <h4>The Kyiv Families Packing Their Bags Before Winter Arrives</h4>
+ <span class="otr-source">BBC News</span>
+ <span class="otr-dot">&middot;</span>
+ <span class="otr-desc">One mother is taking her children to the Egyptian coast because it is warmer and cheaper than Europe; another is weighing Poland after a blast left her three-year-old unable to sleep. A September survey found 40% of Ukrainians would relocate if conditions worsen.</span>
+ </a>
+ </div>
+ <!-- SOURCES USED
+ - NOTE ON SOURCING: this edition published late because the scheduled overnight run hung without producing anything; the time stamp is the actual publication time. Firecrawl is out of credits and returns HTTP 402 on every call, so retrieval was direct fetch plus JSON-LD extraction. Article pages at ft.com, reuters.com, apnews.com, telegraph.co.uk and itv.com were blocked; sky.com, thetimes.com and channel4.com returned a homepage but are on the blocked list and no article was read from them. Where an agency is credited below it is because the page actually read carries that agency's attribution. One figure in an earlier edition is corrected in the text.
+ - https://www.aljazeera.com/news/2026/10/9/navi-pillay-wins-2026-nobel-peace-prize &mdash; Al Jazeera, 10:06 BST: the award to Navi Pillay, her chairing of the United Nations inquiry on the Occupied Palestinian Territory, and the 287 nominations
+ - https://www.theguardian.com/world/live/2026/oct/09/nobel-peace-prize-2026-live &mdash; The Guardian live coverage, entry at 10:04 BST: J&oslash;rgen Watne Frydnes's citation in full, including &ldquo;The system of international law is under tremendous pressure, and its institutions are under attack&hellip; Whenever might overtakes right, it undermines stability, trust and peaceful coexistence&rdquo;, his answer that the award is &ldquo;definitely a message to those who are attacking, undermin[ing] the international system&rdquo;, his appeal &ldquo;If you see a Norwegian number calling, please pick up&rdquo;, Pillay's remarks filmed at the Palace of Justice in Nuremberg including &ldquo;If you clap a little bit louder I may share this prize with Trump&rdquo; and &ldquo;being a lawyer and a judge I still want to verify this thing&rdquo;, Ursula von der Leyen's reaction, and Edwin Cameron on South Africa being &ldquo;wrecked by anguish about cross-border migration&rdquo; and movements &ldquo;distributing toxic untruths&rdquo;
+ - https://www.theguardian.com/world/2026/oct/09/navi-pillay-nobel-peace-prize &mdash; The Guardian, 10:32 BST, which records that Pillay told Agence France-Presse (AFP) at the time that her team had shared &ldquo;thousands of pieces of information&rdquo; with the International Criminal Court
+ - https://edition.cnn.com/2026/10/09/europe/nobel-peace-prize-2026-intl &mdash; CNN, updated 11:05 BST: Pillay as the first Black woman to serve on South Africa's High Court, her defence of Nelson Mandela, the Rwanda tribunal and International Criminal Court service, and her current role as an ad hoc judge at the International Court of Justice
+ - https://www.cbsnews.com/news/nobel-peace-prize-2026-navi-pillay/ &mdash; CBS News, 10:12 BST updated 11:10: Israel dismissing her commission's genocide finding as &ldquo;scandalous&rdquo;, the United States sanctioning International Criminal Court staff after the 2024 arrest warrant sought for Benjamin Netanyahu, and the court's statement that the sanctions were meant to &ldquo;harm [its] independent and impartial judicial work&rdquo;. No government reaction to the prize itself existed in any approved source at the time of publication, and none is implied here
+ - https://www.npr.org/2026/10/09/nx-s1-5995401/nobel-peace-prize-navi-pillay &mdash; NPR, 09:23 BST, and https://www.nbcnews.com/world/nobel-peace-prize-favorites-include-yulia-navalnaya-donald-trump-downp-rcna602462 &mdash; NBC News, 08:48 BST updated 09:05: the field of nominees, the prize money of 12 million Swedish kronor, and Donald Trump's nomination by the leaders of Israel, Pakistan and Cambodia
+ - https://www.bbc.co.uk/news/articles/cx2p9zd0v7go &mdash; BBC News, 11:07 BST: Saudi Arabia's General Authority of Civil Aviation confirming three Saudi nationals killed in two attacks on King Khalid International Airport on Thursday, the second striking a parked Saudia aircraft, injuries ranging from minor to severe among Saudi citizens and residents of various nationalities, Saudia saying a pilot was among the dead, and air traffic returning to normal
+ - https://www.nbcnews.com/world/saudi-arabia-riyadh-airport-houthi-attack-killed-rcna602489 &mdash; NBC News, 10:44 BST: the Houthi claim of two cruise missiles, their further claims at Najran and the Khamis Mushait airbase which Saudi authorities have not confirmed, and the coalition's statement that it destroyed three rocket-launch platforms and that attacks on civilians &ldquo;will be met with resolve&rdquo;
+ - https://www.cnbc.com/2026/10/09/saudi-arabia-riyadh-explosions-flights-houthi.html &mdash; CNBC, carrying wire copy whose own text records that Reuters could not identify the source of the booms: multinationals in the King Abdullah Financial District telling staff to work from home, some Riyadh schools told to shelter in place with no public alert issued, Turkey's offer of mainly defensive and technical support, Pakistan's deployment, and the Mecca Pact remaining unratified in Ankara
+ - https://www.aljazeera.com/news/liveblog/2026/10/9/hormuz-live &mdash; Al Jazeera live coverage, updated 11:00 BST: Saudia's own statement that an employee was killed and that the aircraft was damaged on the ground with no passengers aboard, operations resuming at 18:00 local on Thursday, Air India cancelling Riyadh flights to at least the weekend and Lufthansa suspending them through 16 October. The same file's headline refers to Iranian state media reporting explosions and possible sea mines in the southern strait; that chain rests on unnamed military sources quoted by a source outside the approved list and is not carried here
+ - https://www.gov.uk/foreign-travel-advice/saudi-arabia &mdash; Foreign, Commonwealth and Development Office travel advice, updated 19:35 BST on 8 October: advice against all travel within 10km of the Yemen border and against all but essential travel to Riyadh province, Aseer, Najran and Jizan provinces and Taif city and airport; the heightened threat to airports, military bases, ports and energy infrastructure including Abha, Jizan, Najran, Riyadh, Jeddah and Yanbu and to Red Sea shipping; and the warning that &ldquo;Your travel insurance could be invalidated if you travel against advice&rdquo;
+ - https://www.theguardian.com/world/2026/oct/09/ukraine-war-briefing-zelenskyy-starlink &mdash; The Guardian, 00:42 BST updated 04:19: Volodymyr Zelensky putting the Kramatorsk toll at at least 35 and the two-day national toll at 78 killed and 215 wounded, his accusation that the United States is unwilling to help while pursuing economic ties with Moscow, his Starlink appeal in full, Volker T&uuml;rk's statement that he was &ldquo;appalled by the wave of attacks killing civilians across Ukraine over the past four days&rdquo;, the Ukrainian delegation travelling to Florida today and tomorrow for talks with Steve Witkoff and Jared Kushner, and NATO's annual nuclear deterrence exercises in Italy from 13 to 23 October. On the weapon: the BBC, CBS News, this source and the government release each describe Thursday's strike differently, so it is reported here simply as a Russian strike and the earlier description of a glide bomb is withdrawn
+ - https://www.gov.uk/government/news/foreign-secretary-visits-ukraine &mdash; gov.uk, 18:25 BST on 8 October: Ed Miliband's first visit to Ukraine as Foreign Secretary, about forty new sanctions designations across Russian finance, oil and technology, &pound;54m of combined energy and humanitarian funding and &pound;6.3m for war-crimes accountability, and &ldquo;My message to Putin is clear &mdash; You cannot wait us out&rdquo;. The release gives the accountability figure as both &pound;6m and &pound;6.3m; the more precise figure is used
+ - https://www.aljazeera.com/news/2026/10/9/trump-says-us-will-not-strike-iran-before-midterm-elections &mdash; Al Jazeera, 07:22 BST updated 07:35: Donald Trump's post in full, Abbas Araghchi saying Iran is reviewing the American response to its seven-day plan and will respond within days, Masoud Pezeshkian calling talks &ldquo;futile&rdquo; on Monday, JD Vance's call for a &ldquo;meaningful&rdquo; reduction in enrichment capacity, Brent falling again in early Friday trading, and Vladimir Putin telling Mr Pezeshkian that Russia will &ldquo;do everything&rdquo; to help end the war
+ - https://www.cnbc.com/2026/10/08/oil-prices-brent-wti-hormuz-tanker-attacks.html &mdash; CNBC, 02:46 BST on 8 October updated 20:00: Brent closing Thursday up 4% at $104.28 and WTI up 3.6% at $91.49, nine tankers attacked in and around the Strait of Hormuz in the past week, Kpler data putting throughput at 9.5 million barrels a day in the week to Tuesday against a pre-war norm about 30% higher with total Middle East flows at 16.4 million, and Ryan McKay of TD Securities on why a &ldquo;sticky risk premium&rdquo; remains in pricing
+ - https://www.bbc.co.uk/news/articles/cz9dq4j0g38o &mdash; BBC News, 05:44 BST updated 09:28: at least 24 vehicles set alight across Durban and Soweto, foreign-owned shops looted, rubber bullets fired outside the Durban refugee reception centre, the July Constitutional Court ruling striking down restrictions on who may seek asylum, the Department of Home Affairs saying staff had been &ldquo;overwhelmed&rdquo; and that it would change how it complies, William Baloyi on false claims about automatic legal status, Xolani Fihla's account of the clashes, the three arrests that preceded the violence, unemployment at roughly a third of the workforce, the 2008 attacks that killed more than sixty, and researchers' finding that the claims made against migrants are not supported by evidence
+ - https://www.bbc.co.uk/news/articles/cqly3xjy1g11o &mdash; BBC News, 03:06 BST updated 10:32: Labour holding Holborn and St Pancras, Sagal Abdi-Wali's declaration speech including &ldquo;I hope this moment also says something about who gets to belong&hellip; This is Camden, and this is Britain&rdquo; and winning &ldquo;not by making people afraid of each other&rdquo;, Andy Burnham's and Keir Starmer's congratulations, and the seat having been Labour since its creation in 1983
+ - https://www.theguardian.com/politics/2026/oct/09/labour-wins-holborn-st-pancras-byelection-green-party &mdash; The Guardian, 03:03 BST updated 10:52, with its declaration table: Abdi-Wali 12,292 (45.17%), Polanski 8,928 (32.81%), Cameron 1,922 (7.06%), Newman 1,612 (5.92%), Stillman 924 (3.40%), Johnson 692 (2.54%), Galloway 314 (1.15%), Kapoor 236 (0.87%); majority 3,364; electorate 70,449; valid votes 27,211; turnout 38.63%, down 15.52 points; the 2024 comparison of an 11,572 majority on 54.14% turnout with the Greens on 4,030 and the independent Andrew Feinstein on 7,312; and its own observation that the Greens have not significantly expanded their base in the constituency. Camden Council's official release gives turnout as 38.76%, which counts all ballots cast rather than valid votes only; the 38.6% figure is used here because it reconciles with the vote numbers printed
+ - https://news.camden.gov.uk/holborn-and-st-pancras-parliamentary-by-election-results/ &mdash; Camden Council, the returning authority, 03:18 BST: the official declaration
+ - https://www.bbc.co.uk/news/articles/cm70p821d6w4o &mdash; BBC News, Chris Mason, 05:54 BST: the result falling &ldquo;in the column marked &lsquo;relief&rsquo; for Downing Street rather than &lsquo;jubilation&rsquo;&rdquo;, and the Conservatives beating Reform UK for the first time at an English by-election this parliament with Reform's result hampered by Restore Britain
+ - https://www.bbc.co.uk/news/articles/cm2d6x11l6pko &mdash; BBC News, first published 22:00 BST on 8 October and substantially rewritten at 09:48 BST today, which is when the Today programme exchange was added: Zack Polanski's answers to Nick Robinson in full, &ldquo;The motion as amended, I would have voted for. The motion unamended, I wouldn't have voted for&rdquo;, his objection to a party or government &ldquo;deciding that there should be a single state&rdquo;, his view that the displacement of Palestinians is &ldquo;underpinned by a racist ideology&rdquo;, Caroline Lucas on the motion being &ldquo;dangerous&rdquo;, &ldquo;divisive&rdquo; and &ldquo;flawed from top to bottom&rdquo; and on the jury being out, Jonathan Bartley on apologising and on &ldquo;a certain toxicity&rdquo;, and Vivien Lichtenstein of the Jewish Greens saying he should resign
+ - https://www.bbc.co.uk/news/articles/cmewe5lvl2rqo &mdash; BBC News, 11:11 BST: &ldquo;Of course I can carry on as leader of the Green Party&rdquo; and that the movement is &ldquo;so much bigger than one election or one motion&rdquo;
+ - https://www.bbc.co.uk/news/articles/crkg7n1ypj24o and https://www.theguardian.com/society/2026/oct/09/nhs-fonagy-review-autism-adhd-mental-health-conditions-care &mdash; BBC News and The Guardian, both 00:01 BST: the independent review chaired by Professor Peter Fonagy with Professor Sir Simon Wessely and Professor Gillian Baird as vice chairs, Fonagy's quotation in full, the rise in common mental disorders among 16 to 64-year-olds from 15.5% in 1993 to 22.6% in 2024, and children diagnosed with autism or ADHD before seventeen being around four times more likely to be out of education, employment or training between sixteen and twenty-four
+ - https://www.gov.uk/government/news/government-pledges-earlier-support-to-tackle-mental-health-crises &mdash; gov.uk, 08:17 BST: Yvette Cooper's commitment to make all ADHD and autism diagnostic assessments regulated by the Care Quality Commission &ldquo;so people can be confident that assessments are high quality and that the NHS is not being overcharged by independent or private providers&rdquo;, the recommendation to ban direct-to-public advertising of NHS-funded assessments, the finding that population-level prevalence appears broadly stable, and the &pound;4bn special educational needs package
+ - https://www.gov.uk/government/news/clampdown-on-dangerous-homes-to-protect-more-tenants-and-families &mdash; gov.uk, 22:30 BST on 8 October: the consultation on extending Awaab's Law to the private rented sector, temporary accommodation and housing for care leavers, closing 18 December 2026; more than five million additional households potentially covered and the total rising from about four million to around nine million; England's eleven million private renters; around one in ten privately rented homes having a category one hazard; the &pound;7,000 maximum fine under the Renters' Rights Act; Matthew Pennycook's and Holly Williamson's quotations; and the law being named for Awaab Ishak, who died in 2020 aged two
+ - https://www.theguardian.com/politics/2026/oct/09/tories-overstate-net-zero-cost-500bn-spreadsheet-error &mdash; The Guardian, 07:00 BST updated 08:55: the conference document's &pound;957bn figure against the Climate Change Committee's own total of &pound;478bn, the apparent spreadsheet cause, the committee's on-the-record response in full and its current estimate of about &pound;110bn or &pound;4bn a year at 0.2% of GDP, the finding being made by Carbon Brief, the figure's apparent origin outside the committee, and the Conservatives not having responded. Single-outlet reporting, which the item states
+ - https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol &mdash; CNBC quote endpoint, read 11:12 and 11:24 BST: the ticker levels for all ten instruments. The FTSE returned a live intraday price today, unlike the past four mornings, because this edition published three hours after the open
+ - https://tradingeconomics.com/united-kingdom/government-bond-yield and https://tradingeconomics.com/commodity/brent-crude-oil &mdash; Trading Economics (data only): the ten-year gilt at 5.44 up 0.014, the thirty-year at 5.95, Brent at 103.01 and gold at 4,183.94 up 1.23%, all corroborating the CNBC reads. Full adjudication in cache/2026-10-09/markets-SUMMARY.txt
+ - https://www.bbc.co.uk/news/articles/c6zjx7jexz1do &mdash; BBC News, 05:53 BST &mdash; One To Read: Kyiv families leaving before winter, the named women interviewed, the Gradus survey finding 40% of Ukrainians would relocate if conditions worsen, and Vitali Klitschko on the attacks tearing the city apart
+ END SOURCES USED -->
+</div><!-- ── END MORNING 9 OCT (11:30) ── -->
 <!-- ── EVENING 8 OCT (18:21) ── -->
 <div class="curated-edition evening" data-date="2026-10-08" data-time="18:21" data-markets='{"FTSE":{"price":10441.6,"change":-0.16},"SP":{"price":7757.65,"change":-0.57},"Brent":{"price":103.28,"change":3.07},"GBP":{"price":1.3222,"change":0.09},"Gold":{"price":4134.99,"change":0.59},"EURGBP":{"price":0.8473,"change":0.04},"Gilt":{"price":5.42,"change":-0.01},"VIX":{"price":15.72,"change":4.24},"BTC":{"price":80854,"change":-3.01},"UST":{"price":5.25,"change":-0.03},"ts":"2026-10-08T18:21:00+01:00"}'>
  <div class="edition-header">
@@ -4554,307 +4707,6 @@
  - https://www.cnbc.com/2026/10/02/brexit-uk-rejoin-eu-referendum.html &mdash; CNBC &mdash; One To Read: where a reversal of Brexit would actually have to start, ten years on from the vote
  END SOURCES USED -->
 </div><!-- ── END MORNING 2 OCT (08:12) ── -->
-
-<!-- ── EVENING 1 OCT (20:38) ── -->
-<div class="curated-edition evening" data-date="2026-10-01" data-time="20:38" data-markets='{"FTSE":{"price":10428.27,"change":-1.68},"SP":{"price":7673.55,"change":0.29},"Brent":{"price":102.45,"change":4.51},"GBP":{"price":1.3194,"change":-0.54},"Gold":{"price":4175.67,"change":0.47},"EURGBP":{"price":0.8515,"change":-0.25},"Gilt":{"price":5.39,"change":-0.03},"VIX":{"price":16.33,"change":-0.06},"BTC":{"price":84581,"change":1.08},"UST":{"price":5.24,"change":-0.05},"ts":"2026-10-01T20:38:00+01:00"}'>
- <div class="edition-header">
- <span class="edition-icon">&#127769;</span>
- <h2>Evening Briefing</h2>
- </div>
- <div class="curated-meta">Thursday 1 October 2026 &mdash; 20:38 BST</div>
- <div class="impact-box">
- <h3 class="impact-heading">What It Means For You</h3>
- <ul class="impact-list">
- <li><strong>Fuel:</strong> Diesel is at a record, just under 200p a litre, and Britain is in talks with EU partners about releasing strategic reserves if they are needed. Oil rose more than 4% today.</li>
- <li><strong>Your mortgage:</strong> The thirty-year gilt yield touched 6% this morning, its highest since 1998, but finished back below that at 5.94%, with the ten-year at 5.39%. Gilt yields set the benchmark for fixed-rate pricing.</li>
- <li><strong>Your energy bill:</strong> The price cap rose this morning to &pound;1,723 a year for a typical household, with VAT on electricity now zero until 31 March. Forecasters expect &pound;1,999 in January.</li>
- </ul>
- </div>
- <div class="curated-grid">
- <div class="curated-column">
- <h3><span class="dot geo"></span><span class="dot-label">GEO</span> Geopolitical</h3>
- <div class="curated-item" data-time="18:09" data-slug="putin-every-weapon-defend-kaliningrad">
- <h4>Putin Says Russia Will Use Every Weapon to Defend Kaliningrad</h4>
- <p>Addressing the Valdai foreign policy forum, Vladimir Putin said Russia would use all the weapons at its disposal if it judged its Baltic exclave had come under direct attack. He insisted Russia was &ldquo;not threatening anyone&rdquo; and was merely answering Western claims that Moscow is preparing for war in 2029 or 2030. It follows a written Russian warning sent to NATO earlier this week.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The memo came first and the president has now put his own name to it, which is the escalation. Moscow has spent the week accusing NATO of preparing to blockade the exclave, which borders Lithuania and Poland, and saying it would be prepared to use nuclear weapons if the West cut it off from the rest of Russia; the alliance has answered that it is defensive and asked Moscow to stop its &ldquo;nuclear threats&rdquo;. The backdrop is a run of hybrid incidents across Poland and the Baltics &mdash; a Russian helicopter straying into Polish territory last week, drones entering Lithuanian airspace, and Lithuania saying its people feel &ldquo;constantly threatened&rdquo;. Germany is bracing for more of it: Friedrich Merz said on Thursday that his country was preparing for further hybrid attacks, &ldquo;including serious ones&rdquo;, after a drone armed with explosives was found in August on the tarmac at Leipzig airport, close to Ukrainian cargo aircraft. Poland&rsquo;s looser rules on engaging airborne threats took effect today. Watch whether any ally formally requests alliance consultations.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="19:29" data-slug="third-us-carrier-gulf-oil-jumps">
- <h4>A Third American Carrier Heads to the Gulf and Oil Jumps 4%</h4>
- <p>Brent closed 4.4% higher at $102.31 after a report that the United States is sending a third aircraft carrier strike group to the Middle East, along with Marine Corps ships and up to 10,000 additional troops, expected to arrive by the end of November. The USS Theodore Roosevelt left San Diego on Sunday; two carriers are already on station.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The deployment reads as preparation rather than deterrence. Officials have said the president expects to resume bombing Iran after November&rsquo;s midterm elections, and Scott Modell of Rapidan Energy, a former CIA officer, set out the market&rsquo;s reading: &ldquo;The president I think is going to escalate after the midterms; we keep hearing that the Iranians are going to escalate into the midterms. The direction of travel is toward escalation.&rdquo; What makes the oil move striking is that it happened even though supply has largely recovered &mdash; Middle East crude flows are back near pre-war levels &mdash; which tells you the price is now carrying a risk premium rather than a shortage. The fragility is real enough: at least three tankers were attacked this week attempting to transit the Strait of Hormuz. West Texas Intermediate settled 2.7% higher at $92.87. Watch whether Tehran responds to the deployment before it answers the diplomatic note still sitting in front of it.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="18:48" data-slug="flydubai-attacker-omani-radical-indoctrination">
- <h4>Flydubai Attacker Was an Omani Who Shouted 'Kill Me', Netanyahu Says</h4>
- <p>Investigations suggest the co-pilot who stabbed his captain and tried to bring down a Dubai to Tel Aviv flight had undergone &ldquo;Islamist radical indoctrination&rdquo;, the Israeli prime minister said, describing him as an Omani national. Once subdued and tied up he was &ldquo;calling out to the aircrew &lsquo;kill me, kill me&rsquo;, so it&rsquo;s clear he was suicidal&rdquo;. On Iranian involvement he again said it was too early to say.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">Two separate inquiries are converging on intent. Benjamin Netanyahu said it looked &ldquo;very likely&rdquo; the attacker &ldquo;was going to down the plane&rdquo;, and preliminary findings from an Israeli investigation also suggest he meant to crash it. What is still missing is any official account of motive from the authorities actually holding him: he was arrested in Saudi Arabia and is expected to be transferred to the United Arab Emirates, and neither has published findings. That gap matters, because every characterisation so far has come from Israeli ministers &mdash; the defence minister called it an &ldquo;attempted jihadist terror attack&rdquo; on Wednesday &mdash; while the airline has asked everyone to wait for the formal investigation and has suspended its flights to Israel in the meantime. The aircraft fell more than seventeen thousand feet before passengers and crew retook control of it. Watch whether Oman says anything, and whether any evidence of direction emerges rather than radicalisation alone.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="15:05" data-slug="addis-ababa-explosions-war-reaches-capital">
- <h4>Explosions Strike Addis Ababa as Ethiopia's War Reaches the Capital</h4>
- <p>Explosions were heard overnight in Ethiopia&rsquo;s capital, some near the military headquarters in the west of the city and another in the south, according to residents and diplomatic sources. They came hours after drone flights were banned over Addis Ababa, and a week after fighting broke out in the north. A source linked to the opposition alliance said its forces had carried out drone strikes.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">A war that began in Tigray has reached the seat of government, which is the threshold this conflict had not previously crossed. A resident living near the secret service base in the south of the city described it simply: &ldquo;It was very loud. It was strong enough to set off car alarms.&rdquo; The ban on drone flights over the capital, imposed only hours earlier, suggests the authorities were expecting precisely this. The fighting began last week when a newly formed alliance of armed groups, including forces from Tigray, took on the army; federal troops have since taken Alamata in southern Tigray and are reported to be moving north towards Mekelle, with 52 civilians reported killed and more than seven hundred wounded admitted to hospitals supported by M&eacute;decins Sans Fronti&egrave;res. Communications to the region remain cut, so almost nothing can be independently checked. Watch whether the government acknowledges the strikes at all, because a denial would be the more worrying answer.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="13:10" data-slug="jagtar-singh-johal-freed-nine-years">
- <h4>British Sikh Activist Freed After Nine Years in an Indian Jail</h4>
- <p>Jagtar Singh Johal has been released from a Delhi prison after the Indian high court warned the government it would be held in contempt if it continued to keep him detained despite a bail order issued on 18 September. He had been held for nine years without any full trial. He was released in the late afternoon and greeted by family and friends.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The mechanism of his release is as telling as the fact of it. His lawyers filed a writ of habeas corpus alleging he was being detained against the court&rsquo;s express direction, and documents put before the court showed that messages from the prison to the Ministry of Home Affairs seeking permission to release him had simply gone unanswered. The high court instructed the government to let him go by two o&rsquo;clock; it happened in the late afternoon. The allegation was that he transported &pound;3,000 to France to fund a plot involving targeted killings in the Punjab in 2016 and 2017, and the campaign group Reprieve says the case never reached a full trial largely because the Indian authorities could not assemble credible witnesses to support it. His detention has been a running source of tension between London and Delhi, with campaigners arguing that successive British governments pressed neither for his release nor for a trial. Watch whether the charges against him are now formally dropped.</div>
- </details>
- </div>
- </div>
-
- <div class="curated-column">
- <h3><span class="dot dom"></span><span class="dot-label">UK</span> UK Domestic Politics</h3>
- <div class="curated-item" data-time="17:51" data-slug="uk-iranian-arrested-fairford">
- <h4>UK-Iranian Dual National Arrested Over the Fairford Incident</h4>
- <p>A 27-year-old man holding British and Iranian citizenship has been arrested in Westminster on suspicion of preparation of terrorist acts in connection with the events at RAF Fairford. A second man, a 26-year-old British national, has been questioned under caution and two properties searched. The five men detained near the Gloucestershire base on Sunday all remain on police bail.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">This is the first arrest to put an Iranian connection into the investigation itself rather than into ministerial language. The Prime Minister said on Wednesday there were &ldquo;strong indications&rdquo; Iran played a part, which was an unusual thing to say with suspects on bail and nobody charged; today&rsquo;s arrest gives that claim an evidential shape it did not have. Counter Terrorism Policing is careful to keep it at the level of possibility. Its senior national coordinator Vicki Evans said the force is examining &ldquo;all possible angles &mdash; including foreign state involvement&rdquo;, and that the investigation &ldquo;is hugely complex, and our specialist teams are interrogating multiple lines of enquiry&rdquo;. Note what has not changed: the five arrested on Sunday are all British nationals from London, they are still on bail, and police found petrol but no explosives in the three vans. Tehran denies any involvement. Watch whether anyone is charged before the Commons returns on 12 October, because a statement will be demanded either way.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="17:27" data-slug="uk-eu-strategic-fuel-reserves-diesel">
- <h4>Britain in Talks With the EU on Releasing Strategic Fuel Reserves</h4>
- <p>Britain is discussing with European partners the release of additional strategic fuel reserves, including diesel, if they are needed. The talks follow Donald Trump&rsquo;s threat to ban American diesel exports to hold down prices at home. British diesel is at a record, hovering just under 200p a litre. The energy minister Martin McCluskey spoke to European counterparts on Thursday.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The exposure is straightforward: the United States exports between 1.2 and 1.5 million barrels of diesel a day, and taking that off the market would push prices up everywhere else, Britain included. Mr Trump said at the weekend that he was &ldquo;thinking about it very seriously&rdquo;. A source familiar with Thursday&rsquo;s discussions said it was prudent to prepare a coordinated response with other countries, and noted that European reserves remain from a joint release earlier this year &mdash; which is the reassuring half of the sentence and also a reminder that the stocks have already been drawn on once in 2026. The pressure is compounding rather than isolated: oil rose more than 4% today on news of a third American carrier heading to the Gulf, Ukrainian strikes on Russian refineries have forced Moscow to ban its own diesel exports, and Iran and the Houthis have attacked refineries in the Middle East. Watch whether a release is actually triggered, and whether fuel duty survives the Budget.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="18:43" data-slug="disability-benefit-under-25s-scrapped">
- <h4>Ministers Weigh Scrapping a Disability Benefit for Under-25s</h4>
- <p>Ministers are working on welfare plans that include removing the health element of universal credit for claimants under 25, replacing it with a multibillion-pound package of support into work. The payment has already been almost halved, to &pound;217 a month. The plans await the conclusions of Alan Milburn&rsquo;s review of young people&rsquo;s employment and the Timms panel on personal independence payments.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">Twenty-four hours after the Conservative leader proposed barring most jobless under-25s from universal credit, the government is found to be working on something adjacent, which is the more significant fact: the argument is no longer whether to attach conditions to young people&rsquo;s benefits but how far. A government source framed it as reform rather than retrenchment &mdash; a &ldquo;comprehensive package of support and reform to tackle the scandal of a million young people not in education, employment or training&rdquo; &mdash; and Mr Milburn has called it &ldquo;shameful&rdquo; that the state spends twenty-five times as much on benefits for this group as on helping them into work. The scale explains the attention: welfare spending has reached &pound;333bn this year, with pensioners taking roughly 55% of it. The resistance is already organised. More than forty leading charities wrote to ministers earlier this year warning that cuts or tougher sanctions on disabled young people risked pushing them deeper into poverty and further from employment. Watch whether the Budget pre-empts Milburn.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="15:47" data-slug="farage-brexit-biggest-boost-career">
- <h4>Farage Calls Burnham's Brexit Reopening the Biggest Boost of His Career</h4>
- <p>Nigel Farage said the Prime Minister had handed him &ldquo;the biggest boost in my career&rdquo; by reviving the European question, and had opened &ldquo;a huge flank&rdquo; to Reform across the red wall. Addressing hundreds of supporters at Doncaster racecourse, at the first of a series of rallies on what the party would do in its first hundred days, he said: &ldquo;Today is when our general election campaign starts.&rdquo;</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">His answer to the polling is the argument the referendum was won on. Dismissing surveys showing as much as 59% now favour rejoining, he said: &ldquo;Of course they do, until you tell them it&rsquo;ll cost 25bn quid a year, until you tell him it&rsquo;ll mean joining Schengen, until he tells them it will mean actually having to recommit to joining the euro.&rdquo; That is a bet that support for rejoining is soft and collapses once terms are attached, and it is the same bet he made in 2016. His reading of the politics is that the Prime Minister has calculated that warmer language on Europe wins back voters from the Greens in the cities, while costing him in the north and Midlands: &ldquo;Here in Doncaster and across the red wall in the north and Midlands, I think he&rsquo;s opened up a huge flank to us.&rdquo; Watch whether Downing Street narrows its four options before the Brussels summit next month.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="18:33" data-slug="labour-unease-healey-underpowered-budget">
- <h4>Labour Figures Call Healey's Budget Approach 'Underpowered'</h4>
- <p>Senior Labour figures are privately uneasy about the Chancellor&rsquo;s approach to his first Budget, with his conference speech criticised for offering little detail on policy or preparation for possible tax rises. One Labour MP complained that on tax and spending he had gone barely further than restating the fiscal rules. He is thought willing to accept a slimmer margin against them.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The market gave him an unusually vivid illustration today. The thirty-year gilt yield touched 6% this morning, its highest since 1998, before the global sell-off unwound and it finished back below that line at 5.94%; the ten-year ended at 5.39%, some twelve basis points off its high. So the headline number reversed, but the episode showed how little room there is between the fiscal rules and the bond market. There is a second awkwardness: Mr Healey resigned as defence secretary three months ago over the timing of the 3% of GDP commitment, and will now be asked when he intends to fund it. Treasury sources push back on the charge of detachment, pointing out that he was closely involved in the conference announcements, with forty officials working through the weekend on the triple lock changes. The Budget is on 28 October. Watch whether he pre-announces any revenue measure before then.</div>
- </details>
- </div>
- </div>
- </div>
- <div class="one-to-read">
- <span class="otr-label">One To Read</span>
- <a href="https://www.bbc.co.uk/news/articles/ckge4eql4q7eo" target="_blank" rel="noopener noreferrer">
- <h4>What Happened in the Failed Execution of Christa Pike</h4>
- <span class="otr-source">BBC News</span>
- <span class="otr-dot">&middot;</span>
- <span class="otr-desc">Tennessee administered two syringes of pentobarbital and Pike survived, and is now in a critical condition in hospital. This sets out how the execution failed, what her lawyers argued while it was under way, and what the state can lawfully do next.</span>
- </a>
- </div>
- <!-- SOURCES USED
- - https://www.bbc.co.uk/news/articles/cmdx5xw36492o &mdash; BBC News: the 27-year-old UK-Iranian arrested in Westminster on suspicion of preparation of terrorist acts, the 26-year-old questioned under caution, the two property searches, the five still on bail, and Vicki Evans on examining "all possible angles — including foreign state involvement"
- - https://www.aljazeera.com/news/2026/10/1/british-police-arrest-uk-iranian-national-over-airbase-incident &mdash; Al Jazeera, with AFP and Reuters: the arrest confirmed, the suspect a dual UK/Iranian national, the base's use by American bombers, and that petrol but no explosives was recovered from the vans
- - https://news.sky.com/story/dual-uk-iranian-national-arrested-over-raf-fairford-incident-counter-terror-police-say-13594010 &mdash; Sky News: independent corroboration that the arrest was public by 17:35 BST (feed-level only, article body blocked at the edge)
- - https://www.bbc.co.uk/news/articles/c5zjzjgdeneeo &mdash; BBC News: the talks with EU partners on releasing strategic fuel reserves, Trump's "thinking about it very seriously", diesel just under 200p a litre on RAC figures, American diesel exports of 1.2 to 1.5 million barrels a day, the energy minister Martin McCluskey's call, and the European reserves left from an earlier joint release
- - https://www.theguardian.com/politics/2026/oct/01/welfare-changes-under-debate-disability-benefit-young-people-uk &mdash; The Guardian: the plan to remove the health element of universal credit for under-25s, the £217 a month figure, the Milburn and Timms reviews, the government source on "the scandal of a million young people", Milburn's "shameful" line, welfare spending at £333bn, and the warning from more than forty charities
- - https://www.theguardian.com/politics/2026/oct/01/burnhams-reopening-of-brexit-debate-is-biggest-boost-in-my-career-says-farage &mdash; The Guardian: Farage's "biggest boost in my career" and "huge flank", the Doncaster racecourse rally, his answer to the 59% polling on rejoining, and "today is when our general election campaign starts"
- - https://www.theguardian.com/politics/2026/oct/01/labour-unease-healey-budget &mdash; The Guardian: the private Labour unease, the criticism of his conference speech, the MP on the fiscal rules, his willingness to accept a slimmer margin, the 3% of GDP defence question and his resignation over it, and the Treasury's forty officials on the triple lock
- - https://www.bbc.co.uk/news/articles/cqg7k7v499jjo &mdash; BBC News: Putin at the Valdai forum on using all weapons if Kaliningrad is attacked, "not threatening anyone", the 2029-2030 framing, the Polish helicopter and Lithuanian drone incidents, and Friedrich Merz on preparing for further hybrid attacks "including serious ones"
- - https://www.aljazeera.com/news/2026/9/30/russia-warns-nato-of-possible-nuclear-response-if-kaliningrad-is-cut-off &mdash; Al Jazeera, carrying Reuters: the written Russian warning that preceded Putin's remarks, and Mark Rutte telling Moscow to "stop the nuclear threats"
- - https://www.washingtonpost.com/world/2026/09/30/nato-russia-nuclear-kaliningrad-hybrid-sabotage/8101f542-bcef-11f1-81fc-9b76f8343b6c_story.html &mdash; The Washington Post and AP: the content of the Russian non-paper and NATO's written reply
- - https://www.cnbc.com/2026/10/01/oil-prices-today-wti-brent.html &mdash; CNBC, citing US officials speaking to the Wall Street Journal: Brent closing 4.4% higher at $102.31 and WTI settling 2.7% up at $92.87, the third carrier strike group, the Marine Corps ships and up to 10,000 troops by end-November, the USS Theodore Roosevelt, George H.W. Bush and George Washington, Scott Modell of Rapidan Energy on escalation, and three tankers attacked this week
- - https://www.bbc.co.uk/news/articles/crje8edqyej9o &mdash; BBC News: Netanyahu on "Islamist radical indoctrination", the attacker described as an Omani national, "very likely" he "was going to down the plane", the "kill me, kill me" account, "it's too early to say" on Iran, and the separate Israeli inquiry's preliminary findings
- - https://www.bbc.co.uk/news/articles/c3vgygpqky9zo &mdash; BBC News, with Reuters: the overnight explosions near the military headquarters and in the south of Addis Ababa, the drone-flight ban hours earlier, the opposition-linked source claiming drone strikes, and the resident on car alarms
- - https://www.bbc.co.uk/news/articles/c6grveejg1e2o &mdash; BBC News: the 52 civilians killed around Alamata and more than 700 wounded admitted to hospitals supported by Médecins Sans Frontières, and the communications blackout
- - https://www.theguardian.com/world/2026/oct/01/british-sikh-activist-jagtar-singh-johal-released-delhi-jail-india &mdash; The Guardian: Johal's release, the contempt warning and the 18 September bail order, the habeas corpus writ, the unanswered messages to the Ministry of Home Affairs, the £3,000 allegation, and Reprieve on the absence of credible witnesses
- - https://www.bbc.co.uk/news/articles/ckge4eql4q7eo &mdash; BBC News — One To Read: what happened in the failed execution and what can follow it
- - https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?requestMethod=itv&noform=1&partnerId=2&fund=1&exthrs=1&output=json&symbols=.FTSE|.SPX|GBP=|XAU=|BTC.CM=|US10Y|US30Y|@LCO.1|@LCO.2|EURGBP=|UK10Y-GB|UK30Y-GB|.VIX &mdash; CNBC quote endpoint: the ticker levels for all ten instruments, read 20:29 BST, all thirteen symbols returned with no nulls
- - https://tradingeconomics.com/united-kingdom/government-bond-yield &mdash; Trading Economics (data only): the ten-year gilt easing to 5.39% with a 0.03-point fall on the session, used to adjudicate the change after CNBC gave three different values for Wednesday's close in 25 hours
- - https://tradingeconomics.com/united-kingdom/30-year-bond-yield &mdash; Trading Economics (data only): the thirty-year gilt easing to 5.95%, confirming it finished back below 6% after touching 6.0289%
- - Full ticker adjudication, including the second day on the December Brent contract and the ECB reference-rate timing gap, recorded in cache/2026-10-01/markets-SUMMARY-EVENING.txt
- END SOURCES USED -->
-</div><!-- ── END EVENING 1 OCT (20:38) ── -->
-
-<!-- ── MORNING 1 OCT (09:47) ── -->
-<div class="curated-edition morning" data-date="2026-10-01" data-time="09:47" data-markets='{"FTSE":{"price":10397.41,"change":-1.97},"SP":{"price":7651.54,"change":-0.25},"Brent":{"price":99.94,"change":1.95},"GBP":{"price":1.3224,"change":-0.31},"Gold":{"price":4155.32,"change":-0.02},"EURGBP":{"price":0.8542,"change":0.07},"Gilt":{"price":5.48,"change":0.06},"VIX":{"price":16.98,"change":3.92},"BTC":{"price":83208,"change":-0.56},"UST":{"price":5.33,"change":0.04},"ts":"2026-10-01T09:47:00+01:00"}'>
- <div class="edition-header">
- <span class="edition-icon">&#9728;&#65039;</span>
- <h2>Morning Briefing</h2>
- </div>
- <div class="curated-meta">Thursday 1 October 2026 &mdash; 09:47 BST</div>
- <div class="impact-box">
- <h3 class="impact-heading">What It Means For You</h3>
- <ul class="impact-list">
- <li><strong>Your energy bill:</strong> The cap rose 4% this morning to &pound;1,723 a year for a typical household, about &pound;5 a month, and VAT on electricity is now zero until 31 March, worth roughly &pound;45. Forecasters expect &pound;1,999 by January.</li>
- <li><strong>Your mortgage:</strong> The thirty-year gilt yield reached 6% for the first time since 1998 and the ten-year went through 5.5%. Gilt yields set the benchmark for fixed-rate pricing, and the Budget is on 28 October.</li>
- <li><strong>Fuel and heating:</strong> Oil rose nearly 2% this morning, and high wholesale gas is the reason bills are climbing. The headline Brent price looks about $3.70 lower than last night only because the futures contract rolled from November to December.</li>
- </ul>
- </div>
- <div class="curated-grid">
- <div class="curated-column">
- <h3><span class="dot geo"></span><span class="dot-label">GEO</span> Geopolitical</h3>
- <div class="curated-item" data-time="03:56" data-slug="tehran-studies-reply-delegation-expelled">
- <h4>Tehran Studies Washington's Reply as Its Delegation Is Expelled</h4>
- <p>Iran is weighing the American response to its proposal for ending the war, presented to the president at Wednesday&rsquo;s cabinet meeting; officials will not say what it contains. Overnight it emerged that Marco Rubio had ordered the Iranian delegation out of New York after the talks stalled, one American official saying they had &ldquo;overstayed their welcome&rdquo;. Tehran&rsquo;s United Nations mission rejects that account.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The disagreement is now explicitly about order rather than content. An official briefed on the negotiations said the document circulating is a seven-day trust-building sequence that would return both sides to an enhanced version of the June memorandum agreed in Islamabad, including concrete steps on the nuclear programme, and that &ldquo;the disagreement centres on the sequencing of the steps rather than the components of the plan&rdquo;. Tehran wants the blockade lifted, oil sanctions waived and an estimated $12bn in frozen assets released, with the strait reopening on the sixth day; Washington wants the whole thing settled at once and the strait open first. In public Abbas Araghchi gave nothing: &ldquo;there has been no change in Iran&rsquo;s position&hellip; At present, there has been no discussion at all about flexibility.&rdquo; Mohsen Rezaei was blunter about the other side, calling Mr Trump &ldquo;trapped in a quagmire where he can neither negotiate nor fight&rdquo;. Iran&rsquo;s mission says its departure was scheduled and notified on 17 September. Watch whether Tehran answers formally rather than through leaks.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="08:25" data-slug="netanyahu-too-early-iran-flight-attack">
- <h4>Netanyahu Says It Is Too Early to Link Iran to Flight Attack</h4>
- <p>Passengers and crew overpowered the co-pilot who stabbed the captain of a Dubai to Tel Aviv flight and tried to bring the aircraft down, and it landed safely in Saudi Arabia after plunging more than 17,000 feet. Asked whether Iran was involved, Benjamin Netanyahu said: &ldquo;It&rsquo;s too early to say.&rdquo; The airline has suspended its flights to and from Israel while the investigation proceeds.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The account of how it was stopped is the part that has firmed up overnight. The stabbed captain, the Indian national Smit Machchhar, is stable in hospital and was described by the Israeli prime minister as a &ldquo;true hero&rdquo;: &ldquo;Despite being stabbed and seriously injured, he fought back, resisted, opened the cockpit door, and enabled passengers and crew to overpower the attacker &mdash; preventing a catastrophic mid-air disaster.&rdquo; One passenger, Yaniv Hayun, described putting the attacker into a chokehold while others pinned him down, on an aircraft carrying 174 people. Israel had no advance warning or intelligence, Mr Netanyahu said. His caution about Iran is notable for the week it lands in: the defence minister Israel Katz had already called this an &ldquo;attempted jihadist terror attack&rdquo; without offering detail, and Britain&rsquo;s prime minister attributed a separate plot at RAF Fairford to Iran only yesterday. The suspect, arrested in Saudi Arabia, is expected to be transferred to the United Arab Emirates. Watch which country actually conducts the investigation, because that will determine how much is disclosed.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="04:16" data-slug="pakistan-air-strikes-afghanistan-kunar-helmand">
- <h4>Pakistani Air Strikes Kill Nine in Afghanistan, Kabul Says</h4>
- <p>Pakistan&rsquo;s information ministry said it had hit &ldquo;camps and hideouts&rdquo; used by armed groups in two Afghan provinces and killed an estimated 22 fighters. Kabul gave an entirely different account, saying the strikes on Kunar and Helmand late on Wednesday killed nine people, all of them women and children, wounded eleven and destroyed three houses. Neither set of claims has been independently verified.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The two accounts cannot be reconciled, and that is the established pattern rather than a novelty: Islamabad counts fighters, Kabul counts civilians, and nobody independent has the access to establish which is nearer the truth. The Taliban government&rsquo;s spokesman Zabihullah Mujahid condemned the strikes as &ldquo;an aggression and crime in violation of all accepted principles&rdquo;. The geography is the detail worth holding: Shultan district sits in Kunar in the north-east, on the Pakistani border, and Garmser in Helmand is in the deep south, so striking both on the same night points to a planned operation rather than a reprisal for one incident. It also breaks roughly three months of relative calm. Pakistan&rsquo;s standing grievance is that the Tehrik-i-Taliban Pakistan, which mounts attacks inside Pakistan, shelters across the Afghan border; Kabul denies hosting it, and each round of strikes hardens the denial. Watch whether Kabul closes the Torkham or Chaman crossings, the lever it reaches for and the one that does most damage to Pakistani trade.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="07:30" data-slug="poland-shoot-down-rules-kaliningrad-memo">
- <h4>Poland Loosens Its Shoot-Down Rules as Moscow's Nuclear Memo Lands</h4>
- <p>From the start of October Polish pilots no longer need to identify an airborne threat visually before engaging it, a change the defence minister said is intended to speed up decisions. It follows a written Russian warning to NATO that Moscow would be ready to use its entire arsenal, nuclear weapons included, if its Baltic exclave at Kaliningrad were cut off from the rest of the country.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The substance of the change is the evidential threshold. Visual identification gives way to what the deputy defence minister Cezary Tomczyk called &ldquo;positive verification&rdquo; &mdash; a radar reading, an object entering a no-fly zone, or information passed from the Ukrainian side &mdash; and Wladyslaw Kosiniak-Kamysz confirmed no new legislation was needed to bring it in, which tells you this was always a matter of standing orders rather than law. His justification was about clarity under pressure: in conversations with crews &ldquo;it was crucial to achieve clarity and precision of action and interpretation, for the times we find ourselves in today&rdquo;. The context is a drone that crossed into Moldova and exploded this week, with Polish and Romanian jets scrambled and two Polish airports briefly closed. On the Russian memo, which claimed Moscow has information that NATO is preparing a blockade of the exclave, Mark Rutte called the document unhelpful, told Russia to &ldquo;stop the nuclear threats&rdquo; and deflated it: &ldquo;Putin knows that he can never win.&rdquo; Watch the first engagement under the new rules.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="07:01" data-slug="tennessee-inmate-survives-execution-attempt">
- <h4>Tennessee Inmate Survives an Execution by Two Lethal Injections</h4>
- <p>Christa Pike, 50, was taken to hospital and given life-saving treatment after an attempt to execute her with two syringes of pentobarbital failed, her lawyers said. Her legal team filed an emergency motion while it was under way, stating that she &ldquo;has lost consciousness and still has a heartbeat and is audibly snoring&rdquo;. The Supreme Court had cleared the execution to proceed hours earlier.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">Pike was sentenced to death in 1996 for the murder of 19-year-old Colleen Slemmer, whom she and her then boyfriend Tadaryl Shipp beat, tortured and killed when Pike was 18; the three had met at a job training camp for troubled teenagers. The legal position now is genuinely unsettled. A prisoner who has survived a completed attempt and is being kept alive in hospital raises a question American courts have rarely had to answer, which is whether the state may try a second time. The victim&rsquo;s mother, May Martinez, who had wanted the execution carried out, summarised the evening in three words: &ldquo;It was a mess.&rdquo; Pentobarbital has sat at the centre of repeated contested executions as legitimate supplies have narrowed and states have turned to compounded versions made to order. Watch whether Tennessee seeks a fresh death warrant, and whether any court is willing to stop it.</div>
- </details>
- </div>
- </div>
-
- <div class="curated-column">
- <h3><span class="dot dom"></span><span class="dot-label">UK</span> UK Domestic Politics</h3>
- <div class="curated-item" data-time="08:30" data-slug="seven-hundred-prisoners-released-early">
- <h4>Around 700 Prisoners Released Early as Jails Hit 98% Capacity</h4>
- <p>The first tranche of the expanded early release scheme began this morning, with about 700 offenders leaving prison in England and Wales and a further 3,800 scheduled over the next year. Those serving up to nineteen months now go after a third of their sentence rather than 40%. Prisons are at 98% capacity, with 1,134 vacant beds left in the adult male estate. The Domestic Abuse Commissioner calls the scheme &ldquo;shameful&rdquo;.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The weak point is not the release decision but what happens after it. The government&rsquo;s answer is tagging and new restriction zones, yet the probation inspectorate found this week that only 55% of tags were fitted on time, with one in ten offenders waiting five months. Hostel capacity is the second failure point: one probation source said &ldquo;we have a handful of places for ex-offenders and they are full. We are now looking at releasing some people straight on to the street.&rdquo; Napo&rsquo;s national chair Ben Cockburn said the prison service is in &ldquo;absolute denial&rdquo; about a service with &ldquo;massive staff shortages, unsustainable and dangerously high workloads&rdquo;. The Justice Secretary Alex Norris said the government &ldquo;would have liked to have gone further in terms of restricting&rdquo; who qualifies. Dame Nicole Jacobs said she had &ldquo;no assurance that the danger perpetrators pose has been properly considered and assessed with meaningful input from victims&rdquo;. Watch the second tranche of 650 on 13 October, the day after the Commons returns.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="09:27" data-slug="thirty-year-gilt-six-percent-28-year-high">
- <h4>Thirty-Year Gilt Yield Hits 6%, a Twenty-Eight-Year High</h4>
- <p>The yield on Britain&rsquo;s thirty-year bonds reached 6% this morning for the first time since 1998, as a global bond sell-off intensified on fears that the American deficit is becoming unsustainable. The ten-year gilt went through 5.5%. London fell 1.7% in early trading, with Frankfurt and Paris each down 1.1%. The Budget is three and a half weeks away.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The move is global, which cuts both ways for ministers: they can fairly say it is not a verdict on them, and they equally cannot borrow their way around it. The American ten-year reached its highest since 2002, the German ten-year its highest since 2008 at 3.6179%, while the French ten-year jumped eleven basis points and the Italian ten. Mohit Kumar of Jefferies set out the mechanics: &ldquo;Inflation, deficit and issuance concerns continue to weigh on the bond market,&rdquo; with &ldquo;a buyers&rsquo; strike as investors do not want to step in till we get some form of stability&rdquo; and hedge funds too bruised to trade against the move. Axel Rudolph of IG pointed at oil, warning that persistent inflation and higher crude &ldquo;could keep rates elevated for longer&rdquo;. For the Chancellor the arithmetic is unforgiving: a thirty-year yield beginning with a six raises the cost of servicing debt and shrinks his headroom weeks before he must fund a national care service. Watch gilt auction demand between now and 28 October.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="00:01" data-slug="price-cap-1723-electricity-vat-zero">
- <h4>Energy Price Cap Rises to &pound;1,723 as Electricity VAT Goes to Zero</h4>
- <p>The cap rose 4% this morning, about &pound;60 a year or &pound;5 a month, taking a typical dual-fuel bill to &pound;1,723 for roughly 20 million households. Gas does the damage, up 8%, while electricity holds broadly stable only because VAT on it falls from 5% to zero today and stays there until 31 March. Households that use no gas face a rise of under 1%.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">Prepayment customers go from &pound;1,620 to &pound;1,678, those on standard credit from &pound;1,796 to &pound;1,861 and Economy 7 from &pound;1,039 to &pound;1,046. Without the VAT removal this morning&rsquo;s figure would have been about &pound;45 higher, and the discount is applied automatically, reaching the eleven million households on fixed tariffs as well. The Energy Secretary Miatta Fahnbulleh said the cut &ldquo;will give households some much-needed breathing space&rdquo;, following &ldquo;the &pound;150 of costs we removed from bills earlier this year&rdquo;. The Prime Minister said the energy bill is &ldquo;the one they dread the most&rdquo; and that he does not accept &ldquo;it has to be this way&rdquo;, having conceded on Wednesday that there was not &ldquo;huge room for manoeuvre&rdquo;. A coalition of charities and think tanks including the Joseph Rowntree Foundation has written to the Chancellor arguing that the VAT cut &ldquo;does not go far enough&rdquo;. The January forecast is &pound;1,999, a 16% step rather than a &pound;5 one. Watch whether the VAT holiday is extended on 28 October.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="23:38" data-slug="badenoch-under-25s-universal-credit">
- <h4>Badenoch Would Bar Most Jobless Under-25s From Universal Credit</h4>
- <p>Eighteen to 24-year-olds who have not previously worked six continuous months would be moved off universal credit and onto a conditional &ldquo;Get to Work Allowance&rdquo;, requiring daily job centre attendance, training or community work. Those still out of work after six months would drop to 70% of the standard allowance, paid onto a card that blocks spending on alcohol, cigarettes and gambling. No costing has been published.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The exemptions matter as much as the rule: people with health conditions or caring responsibilities, those who have worked before, and young people without parental support including the estranged would all sit outside it. The Conservative leader&rsquo;s case is about fairness to workers &mdash; &ldquo;It&rsquo;s unfair to the people who get up and go to work, having others earn more than them for not working&rdquo; &mdash; and about who moves first: &ldquo;no one wants to be the one to get off the treadmill first. We need to force that.&rdquo; The shadow work and pensions secretary Helen Whately called it &ldquo;tough love&rdquo;, arguing too many young people leave school and sign &ldquo;straight onto benefits&rdquo;. What lifts this above conference positioning is that both parties are converging on conditionality: Alan Milburn&rsquo;s government-commissioned review of young people out of work, due before the Budget, is expected to recommend more conditions too. Some 981,000 people aged 16 to 24 were not in education, employment or training between April and June. Watch her conference speech this weekend.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="08:51" data-slug="orange-order-rejects-drumcree-deal">
- <h4>Orange Order Rejects Drumcree Deal Days Before Sunday's Parade</h4>
- <p>Talks to settle the Drumcree dispute are on a knife-edge after the Orange Order rejected a resolution document drawn up by the Northern Ireland Secretary. The Garvaghy Road residents indicated they would accept it if the Order did. The DUP MP Carla Lockhart told a rally in Portadown that the document was &ldquo;not acceptable&rdquo;. The parade is due on Sunday.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The asymmetry is the whole difficulty: one side has said yes-if, the other has said never. Jamie Bryson, legal adviser to the Portadown district, said it &ldquo;will not surrender the fundamental principle, not now, not last week, not next week, not ever&rdquo;. Breand&aacute;n Mac Cionnaith, for the residents, emerged from seven hours of talks at Hillsborough Castle saying that &ldquo;if it&rsquo;s accepted by the Orange Order, it will be accepted by us&rdquo;. Sir Chris Bryant called a resolution &ldquo;tantalisingly close&rdquo; and appealed to everyone to &ldquo;search deep in their souls for another chunk of compromise&rdquo;. The district master Nigel Dawson said there are &ldquo;currently no proposals on the table&rdquo; and that the Order&rsquo;s position is simply that the law be applied. Underneath it sits a constitutional problem rather than a public-order one: the Parades Commission&rsquo;s authority, which held this dispute for twenty-eight years, has been displaced by the courts, and nobody has agreed what replaces it. Watch the Court of Appeal hearing listed for Friday.</div>
- </details>
- </div>
- </div>
- </div>
- <div class="one-to-read">
- <span class="otr-label">One To Read</span>
- <a href="https://www.bbc.co.uk/news/articles/cv8e30enrkxyo" target="_blank" rel="noopener noreferrer">
- <h4>The Bank of England Governor on What Happens if the AI Bets Fail</h4>
- <span class="otr-source">BBC News</span>
- <span class="otr-dot">&middot;</span>
- <span class="otr-desc">Andrew Bailey says the Bank is watching the money going into artificial intelligence &ldquo;very carefully&rdquo; and that &ldquo;not everybody always wins&rdquo;. He makes the case for the growth potential and the risk of an asset-price correction in the same breath.</span>
- </a>
- </div>
- <!-- SOURCES USED
- - https://abcnews.com/International/wireStory/iran-received-official-us-response-latest-offer-ending-136882729 &mdash; AP wire on ABC News: Iran confirming receipt of the American response, Araghchi presenting it to the cabinet, officials declining to say what it contained
- - https://www.aljazeera.com/news/2026/9/30/economic-war-is-iran-losing-its-leverage-over-the-strait-of-hormuz &mdash; Al Jazeera, carrying Reuters: the sequencing quote, the seven-day plan and the enhanced Islamabad memorandum, the $12bn in frozen assets, Araghchi's "no change in Iran's position", the Qatari briefing in Doha
- - https://www.cbsnews.com/live-updates/iran-war-us-negotiations-strait-of-hormuz-oil/ &mdash; CBS News: Mohsen Rezaei on Trump being "trapped in a quagmire", the Revolutionary Guards' position, vessels struck this week
- - https://www.iranintl.com/en/202610015558 &mdash; Iran International (facts only): Rubio ordering the Iranian delegation out of New York, the "overstayed their welcome" line, two American officials confirming it, and Iran's UN mission rejecting the account with its 17 September notification
- - https://www.bbc.co.uk/news/articles/cqgmrm7xd8wyo &mdash; BBC News: Netanyahu's "It's too early to say", Captain Smit Machchhar named and in a stable condition, the "true hero" post, Yaniv Hayun's chokehold, 174 people aboard, no advance intelligence, the expected transfer to the UAE
- - https://www.cnbc.com/2026/10/01/dubai-israel-flight-pilot-crash-indian.html &mdash; CNBC: passengers and crew foiling the attempt, and the full text of Netanyahu's post
- - https://www.theguardian.com/world/2026/oct/01/netanyahu-flydubai-halts-all-flights-to-israel &mdash; The Guardian: Flydubai suspending its flights to and from Israel while the investigation takes place
- - https://www.reuters.com/world/asia-pacific/pakistani-airstrikes-afghanistan-kill-nine-kabul-says-2026-10-01/ &mdash; Reuters: nine killed and eleven wounded, three houses destroyed in Kunar and Helmand, the break in roughly three months of calm, Mujahid on X
- - https://www.aljazeera.com/news/2026/10/1/afghanistan-says-nine-killed-in-pakistani-air-raids-on-kunar-helmand &mdash; Al Jazeera: Pakistan's "camps and hideouts" claim and its estimate of 22 fighters, the Shultan and Garmser districts, Mujahid's condemnation, and the caveat that neither account could be verified
- - https://www.reuters.com/business/aerospace-defense/poland-set-quicker-air-defence-procedures-defence-minister-says-2026-09-30/ &mdash; Reuters: Poland's new rules of engagement from the beginning of October, the lifting of visual identification, Cezary Tomczyk's "positive verification", Kosiniak-Kamysz's quote, and that no new legislation was required
- - https://www.aljazeera.com/news/2026/9/30/russia-warns-nato-of-possible-nuclear-response-if-kaliningrad-is-cut-off &mdash; Al Jazeera, carrying Reuters: the Russian written warning over Kaliningrad, and Mark Rutte telling Russia to "stop the nuclear threats" and saying "Putin knows that he can never win"
- - https://www.washingtonpost.com/world/2026/09/30/nato-russia-nuclear-kaliningrad-hybrid-sabotage/8101f542-bcef-11f1-81fc-9b76f8343b6c_story.html &mdash; The Washington Post and AP: the content of the Russian memo and NATO's response to it
- - https://www.bbc.co.uk/news/articles/cq8r6rjdvlx6o &mdash; BBC News: Christa Pike surviving two syringes of pentobarbital, the emergency motion's wording, the 1996 sentence and the killing of Colleen Slemmer, and May Martinez's "It was a mess"
- - https://www.bbc.co.uk/news/live/c3j4jg0z4j5nt &mdash; BBC News: the releases beginning this morning, about 700 today and a further 3,800 over the next year
- - https://www.bbc.co.uk/news/articles/crz6zq5pew89o &mdash; BBC News: Dame Nicole Jacobs calling the scheme "shameful" and her lack of assurance on risk assessment, prisons at 98% capacity with 1,134 vacant beds
- - https://www.theguardian.com/society/2026/oct/01/prisoners-early-release-england-wales-probation-officers &mdash; The Guardian: the probation source on full hostels, Ben Cockburn of Napo on "absolute denial", the inspectorate's tagging figures, and Alex Norris on wanting to restrict eligibility further
- - https://www.theguardian.com/business/2026/oct/01/global-bond-sell-off-uk-long-term-borrowing-costs-us-bond-yield &mdash; The Guardian: the thirty-year gilt at 6% for the first time since 1998, a 28-year high, London down 1.7% with Frankfurt and Paris each 1.1% lower, and the Mohit Kumar and Axel Rudolph quotes
- - https://www.cnbc.com/2026/10/01/us-treasury-bond-yield.html &mdash; CNBC: the American ten-year breaching a level last seen in April 2002 at 5.3338%, the thirty-year at 5.6702% and its highest since July 2002, the German bund at 3.6179% and its highest since 2008, the French and Italian moves, and the UK ten-year at 5.483%
- - https://www.bbc.co.uk/news/articles/crm4rygl4m3o &mdash; BBC News: the 4% rise worth about £60 a year, the £1,723 typical bill, 20 million households affected, and the 16% January forecast
- - https://www.theguardian.com/money/2026/oct/01/john-healey-uk-energy-bills-rise-support-budget-great-britain &mdash; The Guardian: Miatta Fahnbulleh's statement on the VAT cut and the £150 removed earlier this year, Burnham on the bill people "dread the most" and the lack of "huge room for manoeuvre", and the campaigners' letter signed by the Joseph Rowntree Foundation
- - https://www.bbc.co.uk/news/articles/cklyjy9pv93yo &mdash; BBC News: the Get to Work scheme and allowance, the drop to 70% of the standard allowance, the card blocking alcohol, cigarettes and gambling, and Helen Whately's "tough love"
- - https://www.theguardian.com/politics/live/2026/oct/01/universal-credit-benefits-welfare-conservatives-kemi-badenoch-andy-burnham-labour-latest-news-updates &mdash; The Guardian: Badenoch's own words on fairness and the treadmill, the exemptions, and the absence of any published costing
- - https://www.bbc.co.uk/news/articles/cr2kwlw0p3v9o &mdash; BBC News: 981,000 people aged 16 to 24 not in education, employment or training between April and June, and Milburn's review due before the Budget
- - https://news.sky.com/story/who-cares-if-im-nasty-kemi-badenoch-fights-back-13593827 &mdash; Sky News: independent corroboration that Badenoch's welfare intervention was running overnight, timed at 05:45 (feed-level only, article body blocked at the edge)
- - https://www.theguardian.com/uk-news/2026/sep/30/garvaghy-road-march-talks-tantalisingly-close-to-resolution-says-minister &mdash; The Guardian: Jamie Bryson's "will not surrender the fundamental principle", and Carla Lockhart calling the document "not acceptable"
- - https://www.bbc.co.uk/news/articles/c6ge43qx83eno &mdash; BBC News: Sir Chris Bryant's "tantalisingly close" and his appeal for "another chunk of compromise", Breandán Mac Cionnaith's conditional acceptance, and Nigel Dawson's "currently no proposals on the table"
- - https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?requestMethod=itv&noform=1&partnerId=2&fund=1&exthrs=1&output=json&symbols=.FTSE|.SPX|GBP=|XAU=|BTC.CM=|US10Y|@LCO.1|@LCO.2|@LCO.3|EURGBP=|UK10Y-GB|UK30Y-GB|.VIX &mdash; CNBC quote endpoint: the ticker levels for all ten instruments, read 09:34 BST, all thirteen symbols returned with no nulls, confirming the Brent front month has rolled to December
- - https://www.ofgem.gov.uk/your-energy-supply/your-energy-bill/energy-price-cap-unit-rates-and-standing-charges &mdash; Ofgem: the cap moving from &pound;1,663 to &pound;1,723, gas bills up 8% against under 1% for households without gas, the prepayment, standard-credit and Economy 7 levels, the roughly &pound;45 VAT effect, and the 11 million households on fixed tariffs (cached 30 September, figures published 26 August)
- - https://tradingeconomics.com/united-kingdom/government-bond-yield &mdash; Trading Economics (data only): the ten-year gilt at 5.48% and a 0.06-point rise on the session, used to adjudicate the gilt change after CNBC left its previous-close field unchanged from last night
- - https://tradingeconomics.com/united-kingdom/30-year-bond-yield &mdash; Trading Economics (data only): the thirty-year gilt at 6.02% and a 0.07-point rise, corroborating the move through 6%
- - Full ticker adjudication, including the Brent contract roll from November to December and the ECB reference-rate position, recorded in cache/2026-10-01/markets-SUMMARY.txt
- END SOURCES USED -->
-</div><!-- ── END MORNING 1 OCT (09:47) ── -->
 
 </div><!-- /all-editions -->
 

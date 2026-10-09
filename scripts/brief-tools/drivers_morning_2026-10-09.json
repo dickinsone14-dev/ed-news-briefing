@@ -1,0 +1,98 @@
+{
+ "FTSE": {
+  "up": [
+   "Up 0.92% to 10,537.70, recovering the week's losses",
+   "Gold miners are leading as bullion passes $4,180"
+  ],
+  "down": [
+   "Gilt yields are still near the highest since 2007"
+  ],
+  "updated": "9 October 2026 __TIME__ (the S&P carries Thursday's close; Wall Street shut until 14:30)"
+ },
+ "SP": {
+  "up": [
+   "Still up about 13% so far this year"
+  ],
+  "down": [
+   "Closed Thursday 0.47% lower",
+   "Wall Street is shut until 14:30 BST, so this is Thursday's close"
+  ],
+  "updated": "9 October 2026 __TIME__ (the S&P carries Thursday's close; Wall Street shut until 14:30)"
+ },
+ "Brent": {
+  "up": [
+   "Still above $100 with the Strait of Hormuz running about 30% below pre-war volumes"
+  ],
+  "down": [
+   "Fell 1.29% to $102.93 after Donald Trump ruled out striking Iran before the November midterms",
+   "Closed Thursday at $104.28 and has given that back"
+  ],
+  "updated": "9 October 2026 __TIME__"
+ },
+ "GBP": {
+  "up": [
+   "Firmed 0.08% to 1.3234, steadier after a volatile week"
+  ],
+  "down": [
+   "The 28 October Budget is under three weeks away"
+  ],
+  "updated": "9 October 2026 __TIME__"
+ },
+ "Gold": {
+  "up": [
+   "Rose 1.21% to $4,184.08, the strongest move on this ticker and a fresh high for the week",
+   "Safe-haven demand is holding up even as oil falls"
+  ],
+  "down": [
+   "Rising real yields remain the standing argument against it"
+  ],
+  "updated": "9 October 2026 __TIME__"
+ },
+ "EURGBP": {
+  "up": [
+   "Flat at 0.8470"
+  ],
+  "down": [
+   "France is on the tenth day of school protests with a budget still to pass"
+  ],
+  "updated": "9 October 2026 __TIME__"
+ },
+ "Gilt": {
+  "up": [
+   "At 5.44%, about two basis points above Thursday's close and still near the highest since 2007",
+   "The thirty-year is at 5.95%, having passed 6% on Thursday"
+  ],
+  "down": [
+   "Well below Thursday's intraday 5.515%, which was the highest since July 2007"
+  ],
+  "updated": "9 October 2026 __TIME__"
+ },
+ "VIX": {
+  "up": [
+   "A Gulf airport where staff were killed at work is a standing risk"
+  ],
+  "down": [
+   "Eased 1.10% to 15.24 after Trump ruled out a strike on Iran",
+   "Far below the 20 level that signals real anxiety"
+  ],
+  "updated": "9 October 2026 __TIME__"
+ },
+ "BTC": {
+  "up": [
+   "Recovered 1.10% to 82,571 after four days of falls"
+  ],
+  "down": [
+   "Still more than 2,500 below Monday's level"
+  ],
+  "updated": "9 October 2026 __TIME__"
+ },
+ "UST": {
+  "up": [
+   "Up about two basis points to 5.253%, still near the highest since 2002"
+  ],
+  "down": [
+   "The thirty-year has eased back to 5.624% from Wednesday's twenty-four-year high"
+  ],
+  "updated": "9 October 2026 __TIME__"
+ }
+}
