@@ -1,0 +1,25 @@
+URL: (compiled) Friday 9 October 2026 EVENING ticker basis
+Primary: CNBC quote endpoint, read 18:02 BST. Cross-check: Trading Economics (UK 10y/30y, Brent, gold).
+
+ALL LIVE. FTSE closed 16:35 at 10,552.05 +1.06, its best day of the week. Wall Street open, so .SPX and
+.VIX are live intraday values.
+
+GILT — both bases agree today, which is the first time this week they have agreed cleanly twice in a day.
+Thursday's close, established from Thursday's 18:15 read, was 5.4248 (published 5.42).
+  5.4396 - 5.4248 = +0.0148 -> +0.01
+Trading Economics independently gives UK 10Y 5.44 with a daily change of +0.013, which also rounds to +0.01.
+CNBC's previous_day_closing read 5.4478 — an intraday value from earlier today, neither Thursday's close nor
+this morning's published level — and was unusable for the sixth day running. TE has UK 30Y at 5.94 (+0.003),
+settled back after passing 6% on Thursday.
+
+UST: 5.246 against CNBC's prev of 5.233 (the actual Thursday close) = +0.013 -> +0.01. US30Y 5.604.
+
+BRENT CROSS-CHECK: Trading Economics 103.84 -0.42% against CNBC 103.85 -0.41%. Agreement to one penny.
+Note the intraday shape: Brent was 102.93 at the 11:24 read this morning and recovered through the
+afternoon on reports of tanker attacks beyond the strait. The driver carries both ends.
+
+GOLD CROSS-CHECK: Trading Economics 4191.87 +1.42% against CNBC 4191.09 +1.38%. Agreement.
+
+PUBLISHED TICKER: FTSE 10,552.05 +1.06 | SP 7,810.55 +0.58 | Brent 103.85 -0.41 | GBP 1.3227 +0.02
+ | Gold 4,191.09 +1.38 | EURGBP 0.8459 -0.14 | Gilt 5.44 +0.01 | VIX 14.85 -3.63 | BTC 82,654 +1.20
+ | UST 5.25 +0.01

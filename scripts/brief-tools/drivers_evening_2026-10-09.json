@@ -1,0 +1,99 @@
+{
+ "FTSE": {
+  "up": [
+   "Closed 1.06% higher at 10,552.05, the best day of the week",
+   "Gold miners led as bullion passed $4,190"
+  ],
+  "down": [
+   "Gilt yields remain near the highest since 2007"
+  ],
+  "updated": "9 October 2026 __TIME__"
+ },
+ "SP": {
+  "up": [
+   "Up 0.58% as the VIX fell back below 15"
+  ],
+  "down": [
+   "The rally remains narrow, resting on a handful of technology stocks"
+  ],
+  "updated": "9 October 2026 __TIME__"
+ },
+ "Brent": {
+  "up": [
+   "Recovered through the afternoon to $103.85 after falling below $103 this morning",
+   "Reports of tanker attacks beyond the Strait of Hormuz put the risk premium back"
+  ],
+  "down": [
+   "Still down 0.41% on Thursday's close",
+   "Donald Trump has ruled out striking Iran before the November midterms"
+  ],
+  "updated": "9 October 2026 __TIME__"
+ },
+ "GBP": {
+  "up": [
+   "Steady at 1.3227 to close a volatile week"
+  ],
+  "down": [
+   "The 28 October Budget is under three weeks away"
+  ],
+  "updated": "9 October 2026 __TIME__"
+ },
+ "Gold": {
+  "up": [
+   "Rose 1.38% to $4,191.09, a second day of strong gains and the best performer this week",
+   "Demand is holding up even with oil lower and equities higher"
+  ],
+  "down": [
+   "Rising real yields remain the standing argument against it"
+  ],
+  "updated": "9 October 2026 __TIME__"
+ },
+ "EURGBP": {
+  "up": [
+   "Sterling firmed against the euro"
+  ],
+  "down": [
+   "Eased 0.14% to 0.8459",
+   "France has promised 3,000 extra teachers but has still to pass a budget"
+  ],
+  "updated": "9 October 2026 __TIME__"
+ },
+ "Gilt": {
+  "up": [
+   "At 5.44%, barely changed on the day but still near the highest since 2007",
+   "The 28 October Budget has yet to be funded"
+  ],
+  "down": [
+   "Well below Thursday's intraday 5.515%, which was the highest since July 2007",
+   "The thirty-year has settled back to 5.94% after passing 6% on Thursday"
+  ],
+  "updated": "9 October 2026 __TIME__"
+ },
+ "VIX": {
+  "up": [
+   "A week that included deaths at a Gulf airport has ended calmer than it began"
+  ],
+  "down": [
+   "Fell 3.63% to 14.85, the sharpest move on this ticker and the lowest in a fortnight"
+  ],
+  "updated": "9 October 2026 __TIME__"
+ },
+ "BTC": {
+  "up": [
+   "Rose 1.20% to 82,654, a second day of recovery"
+  ],
+  "down": [
+   "Still well below the 85,000 it held on Monday"
+  ],
+  "updated": "9 October 2026 __TIME__"
+ },
+ "UST": {
+  "up": [
+   "Edged up to 5.246%, still near the highest since 2002"
+  ],
+  "down": [
+   "The thirty-year eased to 5.604%, further below Wednesday's twenty-four-year high"
+  ],
+  "updated": "9 October 2026 __TIME__"
+ }
+}
