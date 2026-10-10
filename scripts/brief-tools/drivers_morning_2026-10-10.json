@@ -1,0 +1,98 @@
+{
+ "FTSE": {
+  "up": [
+   "Closed Friday 1.06% higher at 10,552.05, its best day of the week"
+  ],
+  "down": [
+   "Markets are shut until Monday",
+   "Gilt yields remain near the highest since 2007"
+  ],
+  "updated": "10 October 2026 __TIME__ (markets closed for the weekend; these are Friday's closes)"
+ },
+ "SP": {
+  "up": [
+   "Closed Friday 0.59% higher as the VIX fell below 15"
+  ],
+  "down": [
+   "Markets are shut until Monday"
+  ],
+  "updated": "10 October 2026 __TIME__ (markets closed for the weekend; these are Friday's closes)"
+ },
+ "Brent": {
+  "up": [
+   "Settled Friday at $104.72, up 0.42% on Thursday",
+   "Iran has said it will pursue shipping beyond the Strait of Hormuz"
+  ],
+  "down": [
+   "Donald Trump has agreed a deal for Russia to release diesel onto the global market, which should ease supply",
+   "Still on the December contract: not directly comparable with last week's November prices"
+  ],
+  "updated": "10 October 2026 __TIME__ (markets closed for the weekend; these are Friday's closes)"
+ },
+ "GBP": {
+  "up": [
+   "Firmed 0.05% to 1.3231 by Friday's close"
+  ],
+  "down": [
+   "The 28 October Budget is under three weeks away"
+  ],
+  "updated": "10 October 2026 __TIME__ (markets closed for the weekend; these are Friday's closes)"
+ },
+ "Gold": {
+  "up": [
+   "Rose 1.45% to $4,193.83 on Friday, the strongest week of the autumn so far",
+   "Sanctions on the International Criminal Court added to a week of institutional stress"
+  ],
+  "down": [
+   "Rising real yields remain the standing argument against it"
+  ],
+  "updated": "10 October 2026 __TIME__ (markets closed for the weekend; these are Friday's closes)"
+ },
+ "EURGBP": {
+  "up": [
+   "Barely moved at 0.8464"
+  ],
+  "down": [
+   "France has conceded 3,000 teachers but has still to pass a budget"
+  ],
+  "updated": "10 October 2026 __TIME__ (markets closed for the weekend; these are Friday's closes)"
+ },
+ "Gilt": {
+  "up": [
+   "Ended the week at 5.44%, near the highest since 2007, with the Budget still to be funded"
+  ],
+  "down": [
+   "Well below Thursday's intraday 5.515%, the highest since July 2007",
+   "The thirty-year has settled back to 5.94% after passing 6%"
+  ],
+  "updated": "10 October 2026 __TIME__ (markets closed for the weekend; these are Friday's closes)"
+ },
+ "VIX": {
+  "up": [
+   "A week that began with deaths at a Gulf airport ended calmer than it started"
+  ],
+  "down": [
+   "Fell 3.70% to 14.84 on Friday, the lowest in a fortnight"
+  ],
+  "updated": "10 October 2026 __TIME__ (markets closed for the weekend; these are Friday's closes)"
+ },
+ "BTC": {
+  "up": [
+   "Up 0.52% to 82,752 and the only instrument on this ticker trading this weekend"
+  ],
+  "down": [
+   "Still well below the 85,000 it held on Monday"
+  ],
+  "updated": "10 October 2026 __TIME__"
+ },
+ "UST": {
+  "up": [
+   "Ended Friday at 5.242%, still near the highest since 2002"
+  ],
+  "down": [
+   "The thirty-year eased to 5.60%",
+   "Markets are shut until Monday"
+  ],
+  "updated": "10 October 2026 __TIME__ (markets closed for the weekend; these are Friday's closes)"
+ }
+}

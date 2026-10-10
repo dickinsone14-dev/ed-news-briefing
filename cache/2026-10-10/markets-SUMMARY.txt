@@ -1,0 +1,38 @@
+URL: (compiled) Saturday 10 October 2026 MORNING ticker basis
+Primary: CNBC quote endpoint, read 07:47 BST. Cross-check: Trading Economics.
+
+*** SATURDAY — EVERY MARKET EXCEPT BITCOIN IS SHUT ***
+Nine of the ten instruments carry Friday's closes. CNBC's change_pct is UNCH or self-referential on a
+closed day because previous_day_closing equals last, so every change below is COMPUTED against Thursday's
+close rather than taken from the feed. The drivers say explicitly that markets are closed and these are
+Friday's closes. Bitcoin is the only live price.
+
+COMPUTED CHANGES (Friday's session move, against Thursday's close):
+  Brent   104.72 vs 104.28 = +0.42
+  GBP     1.3231 vs 1.3224 = +0.05
+  Gold    4,193.83 vs 4,133.93 = +1.45
+  UST     5.242 vs 5.233 = +0.01
+  EURGBP  0.8464 vs 0.8461 = +0.04
+FTSE (+1.06), SP (+0.59) and VIX (-3.70) carry the session changes the feed itself reports for Friday.
+
+GILT — a genuine three-way spread, declared rather than averaged.
+  CNBC final Friday read: 5.4226, stamped 19:59 BST — after the cash market closed at about 17:15,
+    so this looks like a post-close or futures-implied print rather than the settle.
+  Trading Economics: 5.45, change +0.020, dated Oct/09.
+  Published at Friday's close in last night's edition: 5.44 (from a 5.4396 read at 18:02).
+The published figure here is 5.44 with +0.01, carried forward unchanged from last night's edition, because
+that is the number taken at the close from a live read and it keeps our own series consistent across the
+weekend. The spread is 5.42 to 5.45 and is recorded here rather than smoothed away.
+
+BRENT DISCREPANCY: CNBC 104.72 against Trading Economics 104.43 (+0.14%). The two have tracked within
+about 0.15 all week and are now 0.29 apart; CNBC's @LCO.1 is the December contract and TE quotes front
+month, which widens near a roll. CNBC's figure is published because the whole series this week is CNBC's.
+NOTE Brent ROSE after the 18:02 read that informed last night's edition (103.85) to settle at 104.72 —
+the move came after the Trump-Putin diesel announcement at about 20:30, which is counter-intuitive and
+worth watching on Monday.
+
+GOLD CROSS-CHECK: Trading Economics 4,193.87 +1.47% against CNBC 4,193.83 and a computed +1.45. Agreement.
+
+PUBLISHED TICKER: FTSE 10,552.05 +1.06 | SP 7,811.54 +0.59 | Brent 104.72 +0.42 | GBP 1.3231 +0.05
+ | Gold 4,193.83 +1.45 | EURGBP 0.8464 +0.04 | Gilt 5.44 +0.01 | VIX 14.84 -3.70 | BTC 82,752 +0.52
+ | UST 5.24 +0.01
