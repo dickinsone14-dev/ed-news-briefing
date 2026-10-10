@@ -1,0 +1,11 @@
+URL: (compiled) Saturday 10 October 2026 EVENING ticker basis
+Primary: CNBC quote endpoint (EVE-markets-CNBC.json), read 17:58 BST.
+
+Saturday: every instrument except bitcoin is shut. Nine of ten keys are carried UNCHANGED from this morning's
+edition (Friday's closes; working in markets-SUMMARY.txt). Re-read at 17:58 confirms FTSE 10,552.05, SP 7,811.54,
+Brent 104.72, GBP 1.3231, EURGBP 0.8464, VIX 14.84, UST 5.242 — identical to the morning basis.
+Gold: CNBC @GC.1 now shows 4,220.30 — that is the front-month FUTURES contract, not the spot series used all week;
+the published 4,193.83 (Friday spot close) is retained for series consistency.
+Gilt: retained at 5.44 (+0.01) as declared this morning.
+
+BTC: CNBC BTC.CM= 82,934.21, +0.74% against 82,322.43, stamped 12:58 EDT (17:58 BST). Published 82,934 / +0.74.
