@@ -1,0 +1,28 @@
+URL: (compiled) Sunday 11 October 2026 EVENING ticker basis
+Primary: CNBC quote endpoint, read 20:19 BST.
+
+*** MIXED STATE — THREE DIFFERENT BASES, DECLARED RATHER THAN BLENDED ***
+1. SHUT, carrying Friday's close with Friday's session move: FTSE +1.06, SP +0.59, Gold +1.45,
+   Brent +0.42, Gilt +0.01, VIX -3.70, UST +0.01. Identical to this morning's edition.
+2. REOPENED for the Asian session this evening: GBP 1.3232 (+0.01 against Friday's 1.3231) and
+   EURGBP 0.8462 (-0.02 against 0.8464). Both timestamped 19:20 BST, so these are genuine live prices,
+   not carried closes. The moves are trivial but they are real.
+3. TRADED ALL WEEKEND: BTC 83,638.70 against Friday's close of 82,322.43 = +1.60. This morning's
+   edition published 83,055 (+0.89 on the same basis), so bitcoin has added about 580 through Sunday.
+
+The drivers say which instruments are shut and which are live. Mixing bases on one ticker is unavoidable
+on a Sunday evening; what is avoidable is doing it silently, so the "updated" strings differ accordingly.
+
+WHY MONDAY MATTERS MORE THAN USUAL: Brent settled on Friday before almost everything that has happened
+since. Since that settle there have been two further strikes on Riyadh airport, a US jet disabling a
+cargo ship in the Gulf of Oman, about 69% of US Gulf of Mexico output still shut after Hurricane Isaias,
+a suspension of US sanctions on Russian diesel, and a presidential claim that Ukraine and Russia have
+agreed an energy ceasefire. Those pull in opposite directions and none of them is in the price yet.
+
+GILT: unchanged from Friday's published 5.44. The three-way spread recorded on Friday — CNBC 5.4226 after
+the cash close, Trading Economics 5.45, our own live read 5.4396 — is still unresolved and will only
+settle on Monday's open.
+
+PUBLISHED TICKER: FTSE 10,552.05 +1.06 | SP 7,811.54 +0.59 | Brent 104.72 +0.42 | GBP 1.3232 +0.01
+ | Gold 4,193.83 +1.45 | EURGBP 0.8462 -0.02 | Gilt 5.44 +0.01 | VIX 14.84 -3.70 | BTC 83,639 +1.60
+ | UST 5.24 +0.01

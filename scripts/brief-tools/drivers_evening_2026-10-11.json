@@ -1,0 +1,95 @@
+{
+ "FTSE": {
+  "up": [
+   "Closed Friday 1.06% higher at 10,552.05"
+  ],
+  "down": [
+   "Shut until Monday, when a week of Gulf escalation and a Russian diesel deal all price at once"
+  ],
+  "updated": "11 October 2026 __TIME__ (equities, oil and bonds shut until Monday; this is Friday's close)"
+ },
+ "SP": {
+  "up": [
+   "Closed Friday 0.59% higher"
+  ],
+  "down": [
+   "Shut until Monday"
+  ],
+  "updated": "11 October 2026 __TIME__ (equities, oil and bonds shut until Monday; this is Friday's close)"
+ },
+ "Brent": {
+  "up": [
+   "Settled Friday at $104.72, before most of this weekend's news",
+   "Riyadh airport has been struck twice more since, and about 69% of US Gulf output is still shut after Hurricane Isaias"
+  ],
+  "down": [
+   "Washington has suspended sanctions on Russian diesel until April and now says an energy ceasefire has been agreed",
+   "Monday's open is the first genuine read on which of those weighs more"
+  ],
+  "updated": "11 October 2026 __TIME__ (equities, oil and bonds shut until Monday; this is Friday's close)"
+ },
+ "GBP": {
+  "up": [
+   "Reopened for the Asian session essentially unchanged at 1.3232"
+  ],
+  "down": [
+   "The 28 October Budget is seventeen days away"
+  ],
+  "updated": "11 October 2026 __TIME__"
+ },
+ "Gold": {
+  "up": [
+   "Closed Friday at $4,193.83, up 1.45% and the best performer of that week"
+  ],
+  "down": [
+   "Shut until Monday"
+  ],
+  "updated": "11 October 2026 __TIME__ (equities, oil and bonds shut until Monday; this is Friday's close)"
+ },
+ "EURGBP": {
+  "up": [
+   "Sterling a shade firmer against the euro on the reopen"
+  ],
+  "down": [
+   "Eased to 0.8462"
+  ],
+  "updated": "11 October 2026 __TIME__"
+ },
+ "Gilt": {
+  "up": [
+   "Ended the week at 5.44%, near the highest since 2007"
+  ],
+  "down": [
+   "Shut until Monday, with the Budget still to be funded"
+  ],
+  "updated": "11 October 2026 __TIME__ (equities, oil and bonds shut until Monday; this is Friday's close)"
+ },
+ "VIX": {
+  "up": [
+   "A weekend of Gulf escalation is not yet priced"
+  ],
+  "down": [
+   "Closed Friday at 14.84, the lowest in a fortnight"
+  ],
+  "updated": "11 October 2026 __TIME__ (equities, oil and bonds shut until Monday; this is Friday's close)"
+ },
+ "BTC": {
+  "up": [
+   "Up 1.60% against Friday's close to 83,639, and the only instrument here that has traded all weekend",
+   "Has recovered about 1,300 since Friday"
+  ],
+  "down": [
+   "Still below the 85,000 it held at the start of last week"
+  ],
+  "updated": "11 October 2026 __TIME__"
+ },
+ "UST": {
+  "up": [
+   "Ended Friday at 5.242%, near the highest since 2002"
+  ],
+  "down": [
+   "Shut until Monday"
+  ],
+  "updated": "11 October 2026 __TIME__ (equities, oil and bonds shut until Monday; this is Friday's close)"
+ }
+}

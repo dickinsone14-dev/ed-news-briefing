@@ -2287,7 +2287,7 @@
  <!-- #1 Markets snapshot bar -->
  <!-- Embedded market data (populated by update script, used as fallback) -->
  <script id="embedded-markets" type="application/json">
-{"FTSE":{"price":10552.05,"change":1.06},"SP":{"price":7811.54,"change":0.59},"Brent":{"price":104.72,"change":0.42},"GBP":{"price":1.3231,"change":0.05},"Gold":{"price":4193.83,"change":1.45},"EURGBP":{"price":0.8464,"change":0.04},"Gilt":{"price":5.44,"change":0.01},"VIX":{"price":14.84,"change":-3.7},"BTC":{"price":83055,"change":0.89},"UST":{"price":5.24,"change":0.01},"ts":"2026-10-11T08:17:00+01:00"}
+{"FTSE":{"price":10552.05,"change":1.06},"SP":{"price":7811.54,"change":0.59},"Brent":{"price":104.72,"change":0.42},"GBP":{"price":1.3232,"change":0.01},"Gold":{"price":4193.83,"change":1.45},"EURGBP":{"price":0.8462,"change":-0.02},"Gilt":{"price":5.44,"change":0.01},"VIX":{"price":14.84,"change":-3.7},"BTC":{"price":83639,"change":1.6},"UST":{"price":5.24,"change":0.01},"ts":"2026-10-11T20:26:00+01:00"}
 </script>
  <script id="market-descriptions" type="application/json">
 {
@@ -2295,13 +2295,12 @@
     "name": "FTSE 100",
     "desc": "The UK's benchmark stock index, tracking the 100 largest companies listed on the London Stock Exchange by market capitalisation. Includes Shell, AstraZeneca, HSBC and Unilever.",
     "drivers_up": [
-      "Closed Friday 1.06% higher at 10,552.05, its best day of that week"
+      "Closed Friday 1.06% higher at 10,552.05"
     ],
     "drivers_down": [
-      "Markets are shut until Monday",
-      "European foreign ministers meet on Monday to approve a new Russia sanctions package"
+      "Shut until Monday, when a week of Gulf escalation and a Russian diesel deal all price at once"
     ],
-    "updated": "11 October 2026 08:17 (markets closed for the weekend; these are Friday's closes)"
+    "updated": "11 October 2026 20:26 (equities, oil and bonds shut until Monday; this is Friday's close)"
   },
   "SP": {
     "name": "S&P 500",
@@ -2310,100 +2309,100 @@
       "Closed Friday 0.59% higher"
     ],
     "drivers_down": [
-      "Markets are shut until Monday"
+      "Shut until Monday"
     ],
-    "updated": "11 October 2026 08:17 (markets closed for the weekend; these are Friday's closes)"
+    "updated": "11 October 2026 20:26 (equities, oil and bonds shut until Monday; this is Friday's close)"
   },
   "Brent": {
     "name": "Brent Crude Oil",
     "desc": "The global benchmark for crude oil pricing, produced from oil fields in the North Sea. Used to price roughly two-thirds of the world's traded oil.",
     "drivers_up": [
-      "Settled Friday at $104.72",
-      "Twelve people were killed at Riyadh airport on Saturday and a US jet disabled a tanker in the Gulf of Oman"
+      "Settled Friday at $104.72, before most of this weekend's news",
+      "Riyadh airport has been struck twice more since, and about 69% of US Gulf output is still shut after Hurricane Isaias"
     ],
     "drivers_down": [
-      "Washington has suspended sanctions on Russian diesel exports until April, which should add supply",
-      "About 69% of US Gulf of Mexico oil output remains shut in after Hurricane Isaias, and an emergency reserve release has been authorised"
+      "Washington has suspended sanctions on Russian diesel until April and now says an energy ceasefire has been agreed",
+      "Monday's open is the first genuine read on which of those weighs more"
     ],
-    "updated": "11 October 2026 08:17 (markets closed for the weekend; these are Friday's closes)"
+    "updated": "11 October 2026 20:26 (equities, oil and bonds shut until Monday; this is Friday's close)"
   },
   "GBP": {
     "name": "GBP/USD",
     "desc": "The exchange rate between the British pound and the US dollar, commonly known as 'cable'. Reflects relative economic strength and interest rate differentials between the UK and US.",
     "drivers_up": [
-      "Ended Friday at 1.3231"
+      "Reopened for the Asian session essentially unchanged at 1.3232"
     ],
     "drivers_down": [
       "The 28 October Budget is seventeen days away"
     ],
-    "updated": "11 October 2026 08:17 (markets closed for the weekend; these are Friday's closes)"
+    "updated": "11 October 2026 20:26"
   },
   "Gold": {
     "name": "Gold (XAU/USD)",
     "desc": "The spot price of gold in US dollars per troy ounce. The world's oldest safe-haven asset, traditionally rising during periods of uncertainty, inflation and currency debasement.",
     "drivers_up": [
-      "Rose 1.45% on Friday to $4,193.83, its strongest week of the autumn",
-      "A week of attacks on institutions and infrastructure has kept safe-haven demand firm"
+      "Closed Friday at $4,193.83, up 1.45% and the best performer of that week"
     ],
     "drivers_down": [
-      "Rising real yields remain the standing argument against it"
+      "Shut until Monday"
     ],
-    "updated": "11 October 2026 08:17 (markets closed for the weekend; these are Friday's closes)"
+    "updated": "11 October 2026 20:26 (equities, oil and bonds shut until Monday; this is Friday's close)"
   },
   "EURGBP": {
     "name": "EUR/GBP",
     "desc": "The exchange rate between the euro and the British pound. Key for UK-EU trade pricing. A falling rate means sterling is strengthening against the euro.",
     "drivers_up": [
-      "Unchanged at 0.8464 since Friday's close"
+      "Sterling a shade firmer against the euro on the reopen"
     ],
     "drivers_down": [
-      "France has promised 3,000 extra teachers but has still to pass a budget"
+      "Eased to 0.8462"
     ],
-    "updated": "11 October 2026 08:17 (markets closed for the weekend; these are Friday's closes)"
+    "updated": "11 October 2026 20:26"
   },
   "Gilt": {
     "name": "UK 10-Year Gilt Yield",
     "desc": "The yield on 10-year UK government bonds (gilts). A key benchmark for UK borrowing costs, mortgage rates and pension fund valuations. Rising yields mean falling bond prices.",
     "drivers_up": [
-      "Ended the week at 5.44%, near the highest since 2007, with the Budget still to be funded"
+      "Ended the week at 5.44%, near the highest since 2007"
     ],
     "drivers_down": [
-      "Below the intraday 5.515% of Thursday last week, which was the highest since July 2007"
+      "Shut until Monday, with the Budget still to be funded"
     ],
-    "updated": "11 October 2026 08:17 (markets closed for the weekend; these are Friday's closes)"
+    "updated": "11 October 2026 20:26 (equities, oil and bonds shut until Monday; this is Friday's close)"
   },
   "VIX": {
     "name": "VIX (Volatility Index)",
     "desc": "The CBOE Volatility Index, often called the 'fear gauge'. Measures expected S&P 500 volatility over the next 30 days. Readings above 20 suggest elevated anxiety; above 30 signals acute stress.",
     "drivers_up": [
-      "A Gulf airport attack that killed twelve is a standing risk for Monday"
+      "A weekend of Gulf escalation is not yet priced"
     ],
     "drivers_down": [
       "Closed Friday at 14.84, the lowest in a fortnight"
     ],
-    "updated": "11 October 2026 08:17 (markets closed for the weekend; these are Friday's closes)"
+    "updated": "11 October 2026 20:26 (equities, oil and bonds shut until Monday; this is Friday's close)"
   },
   "BTC": {
     "name": "Bitcoin (BTC/USD)",
     "desc": "The price of Bitcoin in US dollars. The largest cryptocurrency by market cap, increasingly viewed as digital gold by institutional investors since spot ETF approvals.",
     "drivers_up": [
-      "Up 0.89% against Friday's close to 83,055, and the only instrument here trading this weekend"
+      "Up 1.60% against Friday's close to 83,639, and the only instrument here that has traded all weekend",
+      "Has recovered about 1,300 since Friday"
     ],
     "drivers_down": [
       "Still below the 85,000 it held at the start of last week"
     ],
-    "updated": "11 October 2026 08:17"
+    "updated": "11 October 2026 20:26"
   },
   "UST": {
     "name": "US 10-Year Treasury Yield",
     "desc": "The yield on 10-year US government bonds, the global risk-free rate benchmark. Influences mortgage rates, corporate borrowing and equity valuations worldwide.",
     "drivers_up": [
-      "Ended Friday at 5.242%, still near the highest since 2002"
+      "Ended Friday at 5.242%, near the highest since 2002"
     ],
     "drivers_down": [
-      "Markets are shut until Monday"
+      "Shut until Monday"
     ],
-    "updated": "11 October 2026 08:17 (markets closed for the weekend; these are Friday's closes)"
+    "updated": "11 October 2026 20:26 (equities, oil and bonds shut until Monday; this is Friday's close)"
   }
 }
 </script>
@@ -2456,6 +2455,155 @@
  <!-- ════ ALL EDITIONS (sorted by JS) ════ -->
  <!-- IMPORTANT: Keep 7 FULL DAYS of editions in this container. Do NOT delete editions less than 7 days old. -->
  <div id="all-editions" style="display:none;">
+<!-- ── EVENING 11 OCT (20:26) ── -->
+<div class="curated-edition evening" data-date="2026-10-11" data-time="20:26" data-markets='{"FTSE":{"price":10552.05,"change":1.06},"SP":{"price":7811.54,"change":0.59},"Brent":{"price":104.72,"change":0.42},"GBP":{"price":1.3232,"change":0.01},"Gold":{"price":4193.83,"change":1.45},"EURGBP":{"price":0.8462,"change":-0.02},"Gilt":{"price":5.44,"change":0.01},"VIX":{"price":14.84,"change":-3.7},"BTC":{"price":83639,"change":1.6},"UST":{"price":5.24,"change":0.01},"ts":"2026-10-11T20:26:00+01:00"}'>
+ <div class="edition-header">
+ <span class="edition-icon">&#127769;</span>
+ <h2>Evening Briefing</h2>
+ </div>
+ <div class="curated-meta">Sunday 11 October 2026 &mdash; 20:26 BST</div>
+ <div class="impact-box">
+ <h3 class="impact-heading">What It Means For You</h3>
+ <ul class="impact-list">
+ <li><strong>Flu is early this year:</strong> activity through September was higher than in each of the past four seasons, driven by cases in 18 to 24-year-olds. Free jabs go to children and higher-risk groups; everyone else pays about &pound;20 at most pharmacies, or under &pound;10 on some retailer schemes. Last winter&rsquo;s programme is estimated to have prevented 100,000 hospital admissions.</li>
+ <li><strong>If you vote:</strong> a bill now going through Parliament would let you use a bank card without a photograph as identification and lower the voting age to 16. The Electoral Commission says about 16,000 people who tried to vote in person were turned away for lack of identification and did not return.</li>
+ <li><strong>Filling up:</strong> Brent settled on Friday at $104.72, before a weekend in which Riyadh airport was struck twice more, a US jet disabled a cargo ship in the Gulf of Oman, and Washington declared an energy ceasefire that Moscow has not confirmed. None of it is in the price yet. Monday is the first real read.</li>
+ </ul>
+ </div>
+ <div class="curated-grid">
+ <div class="curated-column">
+ <h3><span class="dot geo"></span><span class="dot-label">GEO</span> Geopolitical</h3>
+ <div class="curated-item" data-time="16:02" data-slug="trump-declares-an-energy-ceasefire-kyiv-asks-when">
+ <h4>Trump Declares an Energy Ceasefire and Kyiv Asks When It Starts</h4>
+ <p>&ldquo;Effective immediately, there is an ENERGY CEASEFIRE in the War between Russia and Ukraine. Both parties have agreed,&rdquo; the president wrote. Volodymyr Zelensky said it &ldquo;was news for me&rdquo; and asked Washington to say when it begins. Moscow has not confirmed it, and Russian strikes on Ukrainian energy continued through the day.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The post contained no scope, no verification mechanism and no start time. Mr Zelensky&rsquo;s position hardened into a conditional yes: &ldquo;Ukraine supports the ceasefire, and it is important that Russia support it as well. We are awaiting details from the American side,&rdquo; and on American television, &ldquo;Don&rsquo;t attack us. Don&rsquo;t kill our children. We will stop attack your diesel.&rdquo; What there is no sign of is Russian observance. Mr Zelensky says drones flew throughout the day and that Kharkiv thermal power station number five was hit, the latest of more than two hundred strikes this week on generation and transmission, alongside seventeen on gas and oil facilities. A month ago the president made a near-identical announcement and both sides kept striking each other&rsquo;s energy infrastructure. Running underneath it is a harder form of pressure, reported by one newspaper citing European officials and carried here at second hand: that Washington is threatening to halt the procurement system supplying Ukraine with weapons unless Kyiv stops hitting Russian refineries. Oleksandr Merezhko, who chairs Ukraine&rsquo;s parliamentary foreign affairs committee, says a parallel threat to cut intelligence sharing would &ldquo;blind&rdquo; Ukrainian air defences and would be &ldquo;an act of complicity&hellip; It would mean more dead civilians and dead children.&rdquo; Andy Burnham and Mr Zelensky called for precisely this ceasefire on Saturday night. Twelve hours later one was announced over Kyiv&rsquo;s head.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="17:41" data-slug="riyadh-struck-again-as-houthis-claim-both-attacks">
+ <h4>Riyadh Struck Again as the Houthis Claim Both Attacks</h4>
+ <p>A cruise missile was intercepted near King Khalid International on Sunday while firefighters tackled a blaze caused by a projectile that hit Passenger Hall Four. Dammam&rsquo;s King Fahd International was attacked too. The Houthis have now claimed both days and warn that every Saudi airport except those at Mecca and Medina is a target.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">Saturday&rsquo;s toll has risen to thirteen, after an Indian man died of his wounds on Sunday; 308 remain injured. The dead include four Saudis, two Bangladeshis and one national each from America, Jordan, Palestine, Syria, Sudan and Egypt. Brigadier General Yahya Saree says the group used &ldquo;a mix of ballistic and cruise missiles, as well as drones in the past 24 hours&rdquo; and will keep &ldquo;escalating operations deep inside Saudi Arabia&rdquo;, with a warning addressed to the industry: &ldquo;We renew our warning to all airlines, experts, employees, workers and travellers against using Saudi airports and airspace, as they are vulnerable to attack and have become a theatre of operations for our forces.&rdquo; Riyadh&rsquo;s schools move online until Thursday. Britain is edging closer: the defence secretary Wes Streeting said the United Kingdom could &ldquo;potentially&rdquo; provide more support for Saudi Arabia, and the foreign secretary said he was &ldquo;appalled&rdquo;. Around two hundred American military advisers are already in the kingdom on intelligence and targeting, though the United States has not yet fought the Houthis directly. If it does, the group has previously attacked shipping at Bab al-Mandab, through which roughly a tenth of the world&rsquo;s seaborne goods pass. Houthi-run television says a Saudi strike on Sanaa killed a child; Saudi Arabia has not confirmed it and it is not independently verified.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="18:27" data-slug="poland-detains-suspect-in-plot-against-tusk">
+ <h4>Poland Detains a Suspect in a Plot Against Tusk</h4>
+ <p>&ldquo;The man threatening an attack has been detained,&rdquo; Donald Tusk wrote, thanking police for &ldquo;swift and decisive action&rdquo;. The plot targeted the prime minister and his deputy, the defence minister W&#322;adys&#322;aw Kosiniak-Kamysz. A Polish national was arrested in Lower Silesia after an email about the planned attack reached the state protection service.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">Jacek Dobrzy&#324;ski, spokesman for the minister coordinating Poland&rsquo;s special services, did not soften it: &ldquo;We are treating this matter as deadly serious&hellip; In this case we are talking about a strong likelihood that these threats could actually be carried out.&rdquo; Police, the protection service and the internal security agency all attended an emergency meeting on Sunday; Mr Tusk was told first thing. It lands in a week of school attacks. Three violent incidents at Polish schools have left a 37-year-old caretaker at a primary school north of Warsaw dead and others injured, among them children, and police have arrested 117 people nationwide for carrying weapons or threatening attacks after searching tens of thousands of schools. Mr Tusk&rsquo;s diagnosis is the part that travels: &ldquo;These are very often spontaneous actions inspired by online activity&hellip; We are not dealing with any group organized on a big scale,&rdquo; and &ldquo;In the past years and months, we have noted &mdash; globally and in Poland &mdash; a rise in the fascination with violence.&rdquo; He called it nihilistic violence associated with the extreme right and said some of those detained are active in that milieu. Last year he reported threats after the attempt on the Slovak prime minister Robert Fico.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="11:53" data-slug="pope-leo-to-have-lung-surgery-next-week">
+ <h4>Pope Leo to Have Lung Surgery After a Nodule Is Found</h4>
+ <p>&ldquo;The doctors found an early, well-localised nodule on my lung,&rdquo; the Pope told crowds at the Angelus in St Peter&rsquo;s Square, announcing it himself. His doctors &ldquo;believe it would be right to intervene&rdquo; and he has agreed. The operation is scheduled for the first days of next week, with about a week&rsquo;s recovery.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">He described the mass as well contained and caught at an early stage, thanked the crowds for their &ldquo;spiritual closeness&rdquo; and entrusted himself to their prayers. The Holy See press office says the surgery will take place at the Gemelli Hospital in Rome, which has kept a papal suite since the attempt on John Paul II in 1981. Leo XIV is 71, has no known previous health problems and is regarded as physically active, which is part of why the announcement carries weight: this is not the continuation of a known condition. Born Robert Francis Prevost, ordained in 1982 and a missionary in Peru for years, he is the 267th pope and the first American citizen to hold the office, elected a year and a half ago. His predecessor also had lung trouble requiring hospital treatment. Giorgia Meloni expressed personal solidarity, President Sergio Mattarella sent wishes for a peaceful recovery and Israel&rsquo;s president wished him a full and speedy one. One wording note for anyone comparing reports: some outlets render the finding as a nodular lesion, attributing that phrasing to the Vatican. The word used here is the one the Pope used himself.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="13:05" data-slug="at-least-139-dead-as-migrant-boat-capsizes">
+ <h4>At Least 139 Dead as a Migrant Boat Capsizes off Djibouti</h4>
+ <p>The International Organization for Migration says at least 139 people died, fifteen of them children, when a boat carrying 305 capsized near Obock on Thursday night. Eighty-four are missing and about 82 were rescued, all Ethiopian nationals. The toll was revised up from 109 after thirty more bodies were recovered.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">It is expected to rise again. Alexandre Coissac, who heads the organisation&rsquo;s mission in Djibouti, says the count includes only bodies buried by the Djiboutian authorities; others buried by migrants themselves are not yet counted pending verification. &ldquo;This is a devastating loss of life,&rdquo; he said. &ldquo;Our thoughts are with the survivors and the families who have lost loved ones or remain without news of their relatives&hellip; This tragedy is a stark reminder of the dangers faced by migrants along this migration corridor as they seek economic opportunities.&rdquo; Sixty-four survivors are being helped at a response centre at Obock. The route is busier than it looks: the organisation logged more than 20,000 movements from Ethiopia to Djibouti in the month to 10 September, and more than 900 people died or disappeared on this crossing during 2025, a year in which attempts rose by 18%. A comparable sinking in March killed nine with 45 missing. The detail that should stop a reader is the direction of travel. This boat was going from Djibouti to Yemen &mdash; people paying to cross into a country at war, through the Bab al-Mandab strait that the Houthis are threatening and that carries about a tenth of the world&rsquo;s seaborne trade.</div>
+ </details>
+ </div>
+ </div>
+ <div class="curated-column">
+ <h3><span class="dot uk"></span><span class="dot-label">UK</span> Domestic</h3>
+ <div class="curated-item" data-time="16:33" data-slug="burnham-says-russia-interfered-in-brexit-vote">
+ <h4>Burnham Says Russia Interfered in the Brexit Referendum</h4>
+ <p>&ldquo;I asked the question coming to Downing Street: well, was there interference in the 2016 referendum from Russia? I&rsquo;ve had the clear answer that yes, there was,&rdquo; the prime minister said. He did not say who gave him that assessment, what it rests on, or whether it affected the result &mdash; and announced no inquiry.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The distinction matters more than the claim. No British government has ever conceded interference in the referendum; one has conceded it in the 2019 general election, when the previous administration said it was &ldquo;almost certain that Russian actors sought to interfere&rdquo;. Parliament&rsquo;s Intelligence and Security Committee reported in 2020 that it could reach no definitive conclusion on 2016, criticised successive governments for failing to assess the threat, and noted that no post-referendum assessment had ever been produced &mdash; while arguing that whether a hostile state tried to influence a democratic process matters regardless of whether it succeeded. That is the ground Andy Burnham has now stepped onto, and his reason is forward-looking rather than retrospective: &ldquo;I think we&rsquo;ve been too much on the back foot on that actually and we haven&rsquo;t informed people sufficiently about the extent to which people are seeking to disrupt the political process from overseas,&rdquo; adding that putting it on the record would help voters in Germany and France understand that &ldquo;some of this politics is instigated via our enemies, namely Russia&rdquo;. Downing Street&rsquo;s response does not mention the referendum at all, listing existing measures under the National Security Act. The pro-Brexit group Britain Unbound calls it &ldquo;another crude attempt to undermine the legitimacy of the decision that the British people made in 2016&rdquo;. Neither the Conservatives nor Reform had responded by Sunday evening. The interview airs on Monday.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="12:16" data-slug="questions-over-rushing-the-voting-law-overhaul">
+ <h4>Questions Over the Speed of the Voting Law Overhaul</h4>
+ <p>The bill would let voters use bank cards without photographs as identification, lower the voting age to 16 and tighten rules on political donations. Ministers are reported to want Lords scrutiny cut from an anticipated ten days to fewer than five. The Electoral Commission warns accepting bank cards would make verifying voters harder.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The numbers behind the identification change are not trivial. The Electoral Commission found about 16,000 people who tried to vote in person were turned away for want of identification and did not come back, and separately that about 4% of those who did not vote in 2024 cited photo identification as a factor. Polling after that election found 6.5% of minority ethnic voters surveyed had been turned away at least once, against 2.5% of white voters. Mr Burnham himself, as one of seven Labour mayors in 2024, called the rules a &ldquo;brazen assault on our democracy&rdquo;. The donations clauses are where this meets the item above it, because restrictions under discussion could retrospectively affect the &pound;72m given to Reform UK by the crypto billionaires Ben Delo and Christopher Harborne. The Liberal Democrat peer Mark Pack objects to amending the franchise without proper scrutiny and Conservative peers accuse ministers of rushing; the government says the bill &ldquo;is going through the proper parliamentary process, giving MPs and peers the time and opportunity to examine and debate its measures&rdquo;, and that the prime minister has ruled out an early election. The claim about compressing Lords time comes from another newspaper and is carried here as reported rather than established.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="14:32" data-slug="flu-arriving-early-in-england-says-ukhsa">
+ <h4>Flu Is Arriving Early in England, the Health Agency Warns</h4>
+ <p>&ldquo;Flu activity throughout September has been higher than in the same period during all past four winter seasons,&rdquo; the UK Health Security Agency says, with positive tests, GP consultations and accident and emergency attendances all rising. Levels are still low overall. The rise is being driven by cases among 18 to 24-year-olds.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">Two influenza A subtypes are circulating, H1N1 and H3N2, and the vaccine covers both plus influenza B. One caveat is worth carrying rather than burying: the agency notes H1N1 has drifted slightly from the strain used in this year&rsquo;s jab, and Professor Antonia Ho of the University of Glasgow&rsquo;s Centre for Virus Research says it is too soon to know whether that affects how well it works. Professor Sir Andrew Pollard, who directs the Oxford Vaccine Group, gives the practical instruction: &ldquo;There is one simple action for all those who are at risk because of age or their underlying health conditions, which is to get vaccinated as soon as possible and before we reach the peak of transmission.&rdquo; Free vaccination goes to children and higher-risk groups; others can pay about &pound;20 at most high street pharmacies or under &pound;10 on some retailer membership schemes. Last winter&rsquo;s programme in England is estimated to have prevented around 100,000 hospital admissions and 7,000 deaths. On whether an early season means a bad one, the experts disagree honestly: Professor Ho says an early rise &ldquo;may indicate a more intense influenza season overall&rdquo; while noting that &ldquo;onset timing alone doesn&rsquo;t determine severity&rdquo;, and Sir Andrew says an earlier start does not necessarily mean a worse one. Covid levels are also rising.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="13:53" data-slug="emergency-consultant-terrified-of-scottish-winter">
+ <h4>A&amp;E Consultant Says She Is Terrified of the Scottish Winter</h4>
+ <p>Dr Fiona Hunter, vice chair of the Royal College of Emergency Medicine in Scotland, says she is &ldquo;completely terrified&rdquo; about the coming months and that emergency care is at &ldquo;unsafe&rdquo; levels, with some patients spending 72 hours on trolleys in hospital corridors. She describes a &ldquo;toxic normalisation&rdquo; of corridor care &ldquo;which can lead to patients dying&rdquo;.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The health secretary Angela Constance vowed in August to eradicate corridor care. Speaking to the same programme she said winter would be &ldquo;difficult&rdquo; and repeated that corridor care is unacceptable, setting out three priorities: reducing avoidable admissions including through what she called robust public messaging, fixing the absence of statistics on corridor care, and moving to year-round winter planning rather than seasonal scrambling. One point of fairness belongs in the copy rather than a footnote: she was interviewed before Dr Hunter&rsquo;s remarks were broadcast, so this is not a reply to them. That second priority is quietly the most revealing. Scotland does not currently collect figures on how many patients are treated in corridors, which means the practice that the health secretary has promised to eradicate is one the government cannot presently measure. Running underneath all of it is structural upheaval: the first minister John Swinney last month confirmed plans to cut mainland health boards from eleven to two. A reader in Scotland facing an emergency department this winter is therefore being told three things at once &mdash; that the situation is unsafe, that it is unacceptable, and that nobody yet counts it.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="10:00" data-slug="home-office-revokes-syrian-refugee-status">
+ <h4>Home Office Revokes a Syrian Surgeon&rsquo;s Refugee Status</h4>
+ <p>A plastic surgeon who arrived in 2016 and now lives in London with his wife and six children, three of them at university, has had his refugee protection cancelled and faces deportation. The Foreign Office advises against all travel to Syria because the security situation is &ldquo;volatile&rdquo;. The Home Office has classified it safe to return to.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">That contradiction between two departments is the story. The Home Office letter puts its reasoning plainly: &ldquo;Your refugee status has been ceased. Although officials accept that the situation in Syria remains &lsquo;complex&rsquo; they consider that changes in Syria are so significant that your fear of persecution and serious harm can no longer be regarded as well founded.&rdquo; The surgeon, who is registered with the General Medical Council and works in a general practice, does not accept it: &ldquo;I don&rsquo;t believe Syria will be a safe place for me to return to. I was targeted by certain radical groups in Syria who are still operating there.&rdquo; A Home Office spokesperson says: &ldquo;Britain will always provide protection to genuine refugees, and we will never return anyone to danger.&rdquo; This is reported as the first time the department has cancelled refugee protection for a particular nationality, and the first such active revocation anywhere in Europe since the fall of Assad, with thousands of Syrians settled in Britain likely to be affected. Those three claims are the reporting outlet&rsquo;s own, carefully hedged, and are carried here with the hedge intact. The account rests on a single newspaper&rsquo;s investigation. What is not in dispute is the departmental split: one arm of government says do not go, the other says you may be sent.</div>
+ </details>
+ </div>
+ </div>
+ </div>
+ <div class="one-to-read">
+ <span class="otr-label">One To Read</span>
+ <a href="https://edition.cnn.com/2026/10/11/europe/trump-diesel-deal-putin-latam-intl" target="_blank" rel="noopener noreferrer">
+ <h4>How a Diesel Deal Is Splitting the Western Alliance</h4>
+ <span class="otr-source">CNN</span>
+ <span class="otr-dot">&middot;</span>
+ <span class="otr-desc">By opening Russia&rsquo;s taps into a starving global market, the Kremlin has won what its army could not take in eastern Ukraine. How a deal struck for American midterm fuel prices is dividing Washington from its allies.</span>
+ </a>
+ </div>
+ <!-- SOURCES USED
+ - NOTE ON SOURCING: Firecrawl is out of credits and returns HTTP 402, so retrieval was direct fetch plus JSON-LD extraction. No request was made to ft.com, reuters.com, apnews.com, sky.com, telegraph.co.uk, thetimes.com, itv.com, channel4.com, timesofisrael.com or washingtonpost.com; where one of those appears below it is as an attribution printed inside a page that was opened. Markets are mostly shut: equities, oil and bonds carry Friday's closes, sterling and bitcoin are live, and the ticker's updated fields say which is which. Two video items and one wire story were dropped because they could not be stood up, and they are listed at the end.
+ - https://www.theguardian.com/world/2026/oct/11/zelenskyy-trump-ukraine-russia-energy-ceasefire &mdash; The Guardian, by Luke Harding, published 18:21 BST and modified 20:08: Donald Trump's Truth Social post in full, Volodymyr Zelensky saying it &ldquo;was news for me&rdquo; and asking when the ceasefire begins, his Telegram statement that &ldquo;Ukraine supports the ceasefire, and it is important that Russia support it as well&rdquo;, that there was no sign the Kremlin was observing it, the strike on Kharkiv thermal power station number five as the latest of more than two hundred this week on generation and transmission with seventeen more on gas and oil facilities, the report citing European officials that Washington is threatening to halt the weapons procurement system to force a halt to refinery strikes, and Oleksandr Merezhko on a parallel threat to intelligence sharing that would &ldquo;blind&rdquo; Ukrainian air defences and amount to &ldquo;an act of complicity&rdquo;. The procurement threat originates with an outlet not read here and is carried as reported
+ - https://www.nbcnews.com/world/ukraine/trump-russia-ukraine-agree-energy-ceasefire-zelenskyy-diesel-rcna602766 &mdash; NBC News, 16:02 BST: the post, that there was no immediate confirmation from Moscow, the diesel tonnages of 300,000 immediately, 500,000 in November and a million thereafter, and that the president made a near-identical announcement a month ago after which both sides continued striking energy infrastructure
+ - https://www.aljazeera.com/news/2026/10/11/trump-says-ukraine-and-russia-agree-energy-ceasefire &mdash; Al Jazeera with Reuters, 16:10 BST: the Telegram statement and the absence of Russian confirmation
+ - https://www.cbsnews.com/live-updates/iran-war-trump-us-elections-saudi-arabia-yemen-houthis/ &mdash; CBS News live coverage, last updated 20:07 BST: Zelensky's remarks to American television, the confirmation by Saudi Arabia's General Authority of Civil Aviation that King Fahd International at Dammam was attacked with damage assessment under way, Mohsen Rezaei of Iran's Supreme National Security Council calling the latest American response &ldquo;insufficient&rdquo; as reported by Iranian state media, and the Ukrainian drone strike that halted Yandex's data centre at Vladimir
+ - https://www.bbc.co.uk/news/articles/cr93znyk44e1o &mdash; BBC News, 17:41 BST: the cruise missile intercepted near King Khalid International and the fire in Passenger Hall Four, Saturday's toll rising to thirteen after an Indian man died of his wounds with 308 injured, the nationalities of the dead, Brigadier General Yahya Saree claiming both days with &ldquo;a mix of ballistic and cruise missiles, as well as drones in the past 24 hours&rdquo;, his warning to airlines and travellers in full, that all Saudi airports except Mecca and Medina are described as targets, Wes Streeting saying Britain could &ldquo;potentially&rdquo; provide more support and the foreign secretary saying he was &ldquo;appalled&rdquo;, and the Houthi-run television claim of a Saudi strike on Sanaa which Saudi Arabia has not confirmed and which the outlet states it could not verify
+ - https://www.theguardian.com/world/2026/oct/11/saudi-coalition-retaliation-houthi-attack-riyadh-airport &mdash; The Guardian, published 17:49 BST and modified 20:03: the Dammam attack and the civil aviation authority statement, Riyadh schools moving online until Thursday, the roughly two hundred American military advisers already in the kingdom, and that the United States has not yet fought the Houthis directly. Several outlets still carried Saturday's toll as twelve killed and 309 injured at the time of publication; the figures used here reconcile exactly, one of the 309 having since died
+ - https://www.npr.org/2026/10/11/nx-s1-5997882/riyadh-airport-struck-again &mdash; NPR carrying Associated Press (AP) copy: Marco Rubio condemning the attacks and confirming an American was killed
+ - https://www.cnbc.com/2026/10/11/trump-saudi-arabia-houthis.html &mdash; CNBC: Donald Trump's remarks on whether the United States will join Saudi strikes
+ - https://www.bbc.co.uk/news/articles/c6n9rvynl5p5o &mdash; BBC News, 18:27 BST: Donald Tusk confirming the detention and thanking police for &ldquo;swift and decisive action&rdquo;, the targeting of the prime minister and the deputy prime minister and defence minister W&#322;adys&#322;aw Kosiniak-Kamysz, the arrest of a Polish national in Lower Silesia, the email forwarded by the state protection service, and Jacek Dobrzy&#324;ski on treating the matter as &ldquo;deadly serious&rdquo;
+ - https://www.theguardian.com/world/2026/oct/11/poland-possible-plot-attack-prime-minister-donald-tusk &mdash; The Guardian, 17:01 BST: the emergency meeting of police, the protection service and the internal security agency, and the sequence of notification
+ - https://www.bbc.co.uk/news/articles/ckp8gyd65z2go &mdash; BBC News, 16:18 BST, which credits Agence France-Presse (AFP) for imagery: the three school attacks and the death of a 37-year-old caretaker at a primary school north of Warsaw, 117 arrests nationwide after searches of tens of thousands of schools, and Mr Tusk's remarks on spontaneous actions &ldquo;inspired by online activity&rdquo;, on the absence of large-scale organisation, on the rise in &ldquo;fascination with violence&rdquo; and on the extreme-right associations of some detained
+ - https://www.cnbc.com/2026/10/11/poland-security-services-meet-after-serious-threat-to-pm-defense-minister.html &mdash; CNBC, 13:51 BST: the precedent of a detention in August over calls to assassinate senior Polish politicians and the threats Mr Tusk reported after the attempt on Robert Fico
+ - https://www.bbc.co.uk/news/articles/c6m2dnngvw8xo &mdash; BBC News, published 11:53 BST and modified 14:38: Pope Leo XIV announcing at the Angelus that &ldquo;The doctors found an early, well-localised nodule on my lung&rdquo;, that his doctors &ldquo;believe it would be right to intervene&rdquo;, his thanks for the crowds' &ldquo;spiritual closeness&rdquo;, Matteo Bruni of the Holy See press office on surgery in the first days of next week with about a week's recovery, and the Gemelli Hospital in Rome
+ - https://www.npr.org/2026/10/11/nx-s1-5998027/pope-leo-xiv-to-undergo-lung-surgery-this-week &mdash; NPR, 13:54 BST, and https://edition.cnn.com/2026/10/11/europe/pope-leo-lung-surgery-intl &mdash; CNN, 11:58 BST, and https://www.cbsnews.com/news/pope-leo-xiv-lung-surgery/ &mdash; CBS News, 12:13 BST: his age and background as Robert Francis Prevost, the 267th pope and first American citizen in the office, the absence of known previous health problems, and the reactions from Giorgia Meloni, Sergio Mattarella and Israel's president. CBS renders the finding as a nodular lesion attributing that to the Vatican; the Pope's own word is used here
+ - https://www.bbc.co.uk/news/articles/cwy7lxx60dg5o &mdash; BBC News, published 13:05 BST and modified 16:32: the International Organization for Migration putting the toll at at least 139 dead including fifteen children with 84 missing, 305 aboard and about 82 rescued all Ethiopian nationals, and that the figure was revised up from 109 after thirty more bodies were recovered
+ - https://www.aljazeera.com/news/2026/10/11/at-least-109-dead-over-100-missing-as-migrant-boat-capsizes-off-djibouti &mdash; Al Jazeera, published 12:34 BST and modified 16:43: Alexandre Coissac's statement in full and his account to AP that the count includes only bodies buried by the authorities so the toll is likely to rise, the 64 survivors at the Obock response centre, more than 20,000 movements from Ethiopia to Djibouti in the month to 10 September, more than 900 deaths or disappearances on the route in 2025 during an 18% rise in attempts, and the comparable March sinking. That page's address still carries the earlier figure of 109; its headline and text carry 139
+ - https://www.bbc.co.uk/news/articles/c6jdm3zggl0ko &mdash; BBC News, 19:00 BST: Andy Burnham's answer on Russian interference, that he provided no further detail of the type or extent of Moscow's activity, the Downing Street statement in full, the pro-Brexit group Britain Unbound calling it &ldquo;another crude attempt to undermine the legitimacy of the decision that the British people made in 2016&rdquo;, the 2020 Intelligence and Security Committee findings, and the previous government's statement that it was &ldquo;almost certain that Russian actors sought to interfere&rdquo; in the 2019 general election
+ - https://www.theguardian.com/politics/2026/oct/11/andy-burnham-russia-interfered-brexit-vote &mdash; The Guardian, published 16:33 BST and modified 17:04: the quotation in its fuller form, his reasons for putting it on the record, the committee's argument that attempted influence matters regardless of success, and the explicit statement that he did not disclose who gave him the assessment, what evidence it rested on, or whether any interference affected the result. The interview airs on Monday; a wire version was circulating from around midday, so this is a Sunday story rather than an evening one
+ - https://www.theguardian.com/politics/2026/oct/11/andy-burnham-faces-questions-electoral-system-changes-photo-id-voting &mdash; The Guardian, 12:16 BST: the bill's provisions on bank cards without photographs, votes at 16 and donations, the Electoral Commission's figure of about 16,000 turned away who did not return and its warning that bank cards would make verification harder, the 4% of 2024 non-voters citing identification, the polling showing 6.5% of minority ethnic voters turned away against 2.5% of white voters, the &pound;72m given to Reform UK by Ben Delo and Christopher Harborne, Mark Pack's objection, the government's response in full, and Mr Burnham's own 2024 description of the rules as a &ldquo;brazen assault on our democracy&rdquo;. The claim that Lords scrutiny would be compressed is attributed by that paper to another it cites, and is carried here as reported
+ - https://www.theguardian.com/society/2026/oct/11/flu-season-early-rise-september-england-vaccination-jab-ukhsa &mdash; The Guardian, 14:32 BST: the UK Health Security Agency statement that September activity exceeded each of the past four seasons, the rise among 18 to 24-year-olds, the circulation of H1N1 and H3N2, the note that H1N1 has drifted from the vaccine strain, Professor Antonia Ho and Professor Sir Andrew Pollard quoted, the vaccine prices of about &pound;20 and under &pound;10, and the estimate that last winter's programme prevented around 100,000 hospital admissions and 7,000 deaths
+ - https://www.bbc.co.uk/news/articles/c63r5nnxxzgvo &mdash; BBC News, 13:53 BST: Dr Fiona Hunter on being &ldquo;completely terrified&rdquo;, care at &ldquo;unsafe&rdquo; levels, 72 hours on trolleys and a &ldquo;toxic normalisation&rdquo; of corridor care &ldquo;which can lead to patients dying&rdquo;; Angela Constance's three priorities including the absence of corridor care statistics; the broadcaster's own note that she was interviewed before those remarks aired; and John Swinney's plan to cut mainland health boards from eleven to two
+ - https://www.theguardian.com/politics/2026/oct/11/surgeon-faces-deportation-syria-uk-home-office-revokes-refugee-status-syrians &mdash; The Guardian, by Diane Taylor, 10:00 BST: the surgeon's circumstances, the Home Office letter quoted directly, his response, the departmental statement, and the hedged claims that this is the first cancellation of refugee protection for a particular nationality and the first active revocation in Europe since the fall of Assad with thousands likely affected. Single-outlet reporting, which the item states
+ - https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol &mdash; CNBC quote endpoint, read 20:19 BST. Full weekend adjudication in cache/2026-10-11/markets-SUMMARY-EVENING.txt
+ - https://edition.cnn.com/2026/10/11/europe/trump-diesel-deal-putin-latam-intl &mdash; CNN, by Matthew Chance, 18:30 BST &mdash; One To Read: how a fuel deal struck with American midterm prices in mind is dividing Washington from its allies
+ - NOT CARRIED: reports of at least thirteen miners killed in an airstrike on a gold mine near the Sudan-Egypt border appear on no approved outlet and are not in this edition. Two accounts from Gaza, on an Israeli advance and on reaction to the postponement of Palestinian elections to September 2027, exist only as two-sentence video items with no byline and no publication date and could not be stood up. A report that the United States has offered the Kremlin economic incentives including the release of frozen sovereign assets reaches this desk at third hand and is not used
+ END SOURCES USED -->
+</div><!-- ── END EVENING 11 OCT (20:26) ── -->
 <!-- ── MORNING 11 OCT (08:17) ── -->
 <div class="curated-edition morning" data-date="2026-10-11" data-time="08:17" data-markets='{"FTSE":{"price":10552.05,"change":1.06},"SP":{"price":7811.54,"change":0.59},"Brent":{"price":104.72,"change":0.42},"GBP":{"price":1.3231,"change":0.05},"Gold":{"price":4193.83,"change":1.45},"EURGBP":{"price":0.8464,"change":0.04},"Gilt":{"price":5.44,"change":0.01},"VIX":{"price":14.84,"change":-3.7},"BTC":{"price":83055,"change":0.89},"UST":{"price":5.24,"change":0.01},"ts":"2026-10-11T08:17:00+01:00"}'>
  <div class="edition-header">

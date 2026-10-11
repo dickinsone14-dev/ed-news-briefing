@@ -1,0 +1,12 @@
+URL: https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=BTC.CM%3D (compiled) Sunday 11 October 2026 EVENING ticker basis
+Primary: CNBC quote endpoint, bitcoin read via CNBC stamp 2026-10-11T14:56:36-04:00, fetched while preparing the evening edition — raw response in EVE-markets-CNBC-BTC.json.
+
+SUNDAY — every market except bitcoin is shut. Nine of ten instruments carry Friday's closes and Friday's
+session moves, identical to this morning's edition (see markets-SUMMARY.txt for the full adjudication).
+
+BITCOIN: 83,566.70 against Friday's close of 82,322.43 = +1.51%, the same basis as the morning edition
+(83,055 +0.89). CNBC's own change_pct reads +0.70%, measured against its rolling reference.
+
+PUBLISHED TICKER: FTSE 10,552.05 +1.06 | SP 7,811.54 +0.59 | Brent 104.72 +0.42 | GBP 1.3231 +0.05
+ | Gold 4,193.83 +1.45 | EURGBP 0.8464 +0.04 | Gilt 5.44 +0.01 | VIX 14.84 -3.70 | BTC 83,567 +1.51
+ | UST 5.24 +0.01
