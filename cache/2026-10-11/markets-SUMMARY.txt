@@ -1,0 +1,32 @@
+URL: (compiled) Sunday 11 October 2026 MORNING ticker basis
+Primary: CNBC quote endpoint, read 08:11 BST.
+
+*** SUNDAY — EVERY MARKET EXCEPT BITCOIN IS SHUT, SECOND DAY RUNNING ***
+Nine of the ten instruments carry Friday's closes, identical to Saturday's edition. CNBC reports UNCH or a
+self-referential change on a closed day, so the figures below are the Friday session moves computed against
+Thursday's closes, exactly as yesterday, and the drivers say explicitly that markets are closed.
+
+BITCOIN is the only live price and the only figure that has moved since yesterday's edition: 83,054.67
+against Friday's close of 82,322.43 = +0.89. Saturday's edition published 82,752 (+0.52 on the same basis),
+so bitcoin has risen about 300 overnight. CNBC's own change_pct field reads +0.08, which is measured against
+a rolling intraday reference rather than Friday's close; +0.89 is published so that every instrument on the
+weekend ticker is on the same basis.
+
+CARRIED UNCHANGED FROM SATURDAY (Friday's closes, Friday's session moves):
+  FTSE 10,552.05 +1.06 | SP 7,811.54 +0.59 | Brent 104.72 +0.42 | GBP 1.3231 +0.05 | Gold 4,193.83 +1.45
+  EURGBP 0.8464 +0.04 | Gilt 5.44 +0.01 | VIX 14.84 -3.70 | UST 5.24 +0.01
+The gilt remains the declared figure from Friday's close: CNBC's final Friday read was 5.4226 stamped after
+the cash market shut, Trading Economics gave 5.45, and 5.44 is the number taken live at 18:02 on Friday.
+That spread of 5.42 to 5.45 stands unresolved until Monday.
+
+TWO SUPPLY SHOCKS NOW SIT ON OPPOSITE SIDES OF THE OIL PRICE, both recorded in the Brent driver:
+  Bearish — the US has suspended sanctions on Russian diesel to 7 April, with 300,000 tonnes promised
+    immediately and up to 4.8m in total.
+  Bullish — twelve killed at Riyadh airport on Saturday, a US jet disabling a tanker in the Gulf of Oman,
+    and about 69% of US Gulf of Mexico output still shut after Hurricane Isaias, with the Energy Department
+    authorising an emergency release of up to 4 million barrels.
+Brent settled Friday before most of this. Monday's open is the first real read.
+
+PUBLISHED TICKER: FTSE 10,552.05 +1.06 | SP 7,811.54 +0.59 | Brent 104.72 +0.42 | GBP 1.3231 +0.05
+ | Gold 4,193.83 +1.45 | EURGBP 0.8464 +0.04 | Gilt 5.44 +0.01 | VIX 14.84 -3.70 | BTC 83,055 +0.89
+ | UST 5.24 +0.01

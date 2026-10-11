@@ -1,0 +1,96 @@
+{
+ "FTSE": {
+  "up": [
+   "Closed Friday 1.06% higher at 10,552.05, its best day of that week"
+  ],
+  "down": [
+   "Markets are shut until Monday",
+   "European foreign ministers meet on Monday to approve a new Russia sanctions package"
+  ],
+  "updated": "11 October 2026 __TIME__ (markets closed for the weekend; these are Friday's closes)"
+ },
+ "SP": {
+  "up": [
+   "Closed Friday 0.59% higher"
+  ],
+  "down": [
+   "Markets are shut until Monday"
+  ],
+  "updated": "11 October 2026 __TIME__ (markets closed for the weekend; these are Friday's closes)"
+ },
+ "Brent": {
+  "up": [
+   "Settled Friday at $104.72",
+   "Twelve people were killed at Riyadh airport on Saturday and a US jet disabled a tanker in the Gulf of Oman"
+  ],
+  "down": [
+   "Washington has suspended sanctions on Russian diesel exports until April, which should add supply",
+   "About 69% of US Gulf of Mexico oil output remains shut in after Hurricane Isaias, and an emergency reserve release has been authorised"
+  ],
+  "updated": "11 October 2026 __TIME__ (markets closed for the weekend; these are Friday's closes)"
+ },
+ "GBP": {
+  "up": [
+   "Ended Friday at 1.3231"
+  ],
+  "down": [
+   "The 28 October Budget is seventeen days away"
+  ],
+  "updated": "11 October 2026 __TIME__ (markets closed for the weekend; these are Friday's closes)"
+ },
+ "Gold": {
+  "up": [
+   "Rose 1.45% on Friday to $4,193.83, its strongest week of the autumn",
+   "A week of attacks on institutions and infrastructure has kept safe-haven demand firm"
+  ],
+  "down": [
+   "Rising real yields remain the standing argument against it"
+  ],
+  "updated": "11 October 2026 __TIME__ (markets closed for the weekend; these are Friday's closes)"
+ },
+ "EURGBP": {
+  "up": [
+   "Unchanged at 0.8464 since Friday's close"
+  ],
+  "down": [
+   "France has promised 3,000 extra teachers but has still to pass a budget"
+  ],
+  "updated": "11 October 2026 __TIME__ (markets closed for the weekend; these are Friday's closes)"
+ },
+ "Gilt": {
+  "up": [
+   "Ended the week at 5.44%, near the highest since 2007, with the Budget still to be funded"
+  ],
+  "down": [
+   "Below the intraday 5.515% of Thursday last week, which was the highest since July 2007"
+  ],
+  "updated": "11 October 2026 __TIME__ (markets closed for the weekend; these are Friday's closes)"
+ },
+ "VIX": {
+  "up": [
+   "A Gulf airport attack that killed twelve is a standing risk for Monday"
+  ],
+  "down": [
+   "Closed Friday at 14.84, the lowest in a fortnight"
+  ],
+  "updated": "11 October 2026 __TIME__ (markets closed for the weekend; these are Friday's closes)"
+ },
+ "BTC": {
+  "up": [
+   "Up 0.89% against Friday's close to 83,055, and the only instrument here trading this weekend"
+  ],
+  "down": [
+   "Still below the 85,000 it held at the start of last week"
+  ],
+  "updated": "11 October 2026 __TIME__"
+ },
+ "UST": {
+  "up": [
+   "Ended Friday at 5.242%, still near the highest since 2002"
+  ],
+  "down": [
+   "Markets are shut until Monday"
+  ],
+  "updated": "11 October 2026 __TIME__ (markets closed for the weekend; these are Friday's closes)"
+ }
+}
