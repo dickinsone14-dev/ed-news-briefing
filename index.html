@@ -2287,7 +2287,7 @@
  <!-- #1 Markets snapshot bar -->
  <!-- Embedded market data (populated by update script, used as fallback) -->
  <script id="embedded-markets" type="application/json">
-{"FTSE":{"price":10552.05,"change":1.06},"SP":{"price":7811.54,"change":0.59},"Brent":{"price":104.72,"change":0.42},"GBP":{"price":1.3232,"change":0.01},"Gold":{"price":4193.83,"change":1.45},"EURGBP":{"price":0.8462,"change":-0.02},"Gilt":{"price":5.44,"change":0.01},"VIX":{"price":14.84,"change":-3.7},"BTC":{"price":83639,"change":1.6},"UST":{"price":5.24,"change":0.01},"ts":"2026-10-11T20:26:00+01:00"}
+{"FTSE":{"price":10552.05,"change":1.06},"SP":{"price":7811.54,"change":0.59},"Brent":{"price":103.93,"change":-0.75},"GBP":{"price":1.3253,"change":0.17},"Gold":{"price":4185.26,"change":-0.2},"EURGBP":{"price":0.8454,"change":-0.12},"Gilt":{"price":5.41,"change":-0.01},"VIX":{"price":14.84,"change":-3.7},"BTC":{"price":84123,"change":2.19},"UST":{"price":5.24,"change":0.01},"ts":"2026-10-12T08:16:00+01:00"}
 </script>
  <script id="market-descriptions" type="application/json">
 {
@@ -2295,114 +2295,113 @@
     "name": "FTSE 100",
     "desc": "The UK's benchmark stock index, tracking the 100 largest companies listed on the London Stock Exchange by market capitalisation. Includes Shell, AstraZeneca, HSBC and Unilever.",
     "drivers_up": [
-      "Closed Friday 1.06% higher at 10,552.05"
+      "Closed Friday 1.06% higher at 10,552.05, its best day of the week"
     ],
     "drivers_down": [
-      "Shut until Monday, when a week of Gulf escalation and a Russian diesel deal all price at once"
+      "Reopening into a weekend of Gulf escalation, a Russian diesel deal and a contested energy ceasefire"
     ],
-    "updated": "11 October 2026 20:26 (equities, oil and bonds shut until Monday; this is Friday's close)"
+    "updated": "12 October 2026 08:16 (read before the London open; this is Friday's close with Friday's move)"
   },
   "SP": {
     "name": "S&P 500",
     "desc": "America's leading stock market index, tracking 500 of the largest US-listed companies. Dominated by mega-cap tech (Apple, Microsoft, Nvidia) but spans all sectors.",
     "drivers_up": [
-      "Closed Friday 0.59% higher"
+      "Closed Friday 0.59% higher at 7,811.54"
     ],
     "drivers_down": [
-      "Shut until Monday"
+      "Wall Street shut until 14:30 BST"
     ],
-    "updated": "11 October 2026 20:26 (equities, oil and bonds shut until Monday; this is Friday's close)"
+    "updated": "12 October 2026 08:16 (Friday's close with Friday's move; Wall Street opens 14:30 BST)"
   },
   "Brent": {
     "name": "Brent Crude Oil",
     "desc": "The global benchmark for crude oil pricing, produced from oil fields in the North Sea. Used to price roughly two-thirds of the world's traded oil.",
     "drivers_up": [
-      "Settled Friday at $104.72, before most of this weekend's news",
-      "Riyadh airport has been struck twice more since, and about 69% of US Gulf output is still shut after Hurricane Isaias"
+      "About 69% of US Gulf of Mexico output is still shut after Hurricane Isaias",
+      "Riyadh and Dammam airports are both closed after further strikes"
     ],
     "drivers_down": [
-      "Washington has suspended sanctions on Russian diesel until April and now says an energy ceasefire has been agreed",
-      "Monday's open is the first genuine read on which of those weighs more"
+      "Washington has suspended sanctions on Russian diesel until 7 April, with up to three million tonnes a month in prospect",
+      "Down 0.75% to $103.93 in early trade, so the weekend's Gulf escalation has not produced a risk premium"
     ],
-    "updated": "11 October 2026 20:26 (equities, oil and bonds shut until Monday; this is Friday's close)"
+    "updated": "12 October 2026 08:16"
   },
   "GBP": {
     "name": "GBP/USD",
     "desc": "The exchange rate between the British pound and the US dollar, commonly known as 'cable'. Reflects relative economic strength and interest rate differentials between the UK and US.",
     "drivers_up": [
-      "Reopened for the Asian session essentially unchanged at 1.3232"
+      "Firmer at 1.3253, up 0.17% on Friday's close"
     ],
     "drivers_down": [
-      "The 28 October Budget is seventeen days away"
+      "The 28 October Budget is sixteen days away and the Institute for Fiscal Studies has put £35bn on the spending pledges"
     ],
-    "updated": "11 October 2026 20:26"
+    "updated": "12 October 2026 08:16"
   },
   "Gold": {
     "name": "Gold (XAU/USD)",
     "desc": "The spot price of gold in US dollars per troy ounce. The world's oldest safe-haven asset, traditionally rising during periods of uncertainty, inflation and currency debasement.",
     "drivers_up": [
-      "Closed Friday at $4,193.83, up 1.45% and the best performer of that week"
+      "Still above $4,180 after a 1.45% gain on Friday"
     ],
     "drivers_down": [
-      "Shut until Monday"
+      "Slipped 0.20% to $4,185.26 as the weekend's escalation failed to bid up haven assets"
     ],
-    "updated": "11 October 2026 20:26 (equities, oil and bonds shut until Monday; this is Friday's close)"
+    "updated": "12 October 2026 08:16"
   },
   "EURGBP": {
     "name": "EUR/GBP",
     "desc": "The exchange rate between the euro and the British pound. Key for UK-EU trade pricing. A falling rate means sterling is strengthening against the euro.",
     "drivers_up": [
-      "Sterling a shade firmer against the euro on the reopen"
+      "Sterling firmer against the euro for a second session"
     ],
     "drivers_down": [
-      "Eased to 0.8462"
+      "Eased to 0.8454, down 0.12%"
     ],
-    "updated": "11 October 2026 20:26"
+    "updated": "12 October 2026 08:16"
   },
   "Gilt": {
     "name": "UK 10-Year Gilt Yield",
     "desc": "The yield on 10-year UK government bonds (gilts). A key benchmark for UK borrowing costs, mortgage rates and pension fund valuations. Rising yields mean falling bond prices.",
     "drivers_up": [
-      "Ended the week at 5.44%, near the highest since 2007"
+      "Still above 5.4%, near the highest since 2007, with the Budget to be funded"
     ],
     "drivers_down": [
-      "Shut until Monday, with the Budget still to be funded"
+      "A basis point lower at 5.41%, on the first clean two-source read of the basis in a week"
     ],
-    "updated": "11 October 2026 20:26 (equities, oil and bonds shut until Monday; this is Friday's close)"
+    "updated": "12 October 2026 08:16"
   },
   "VIX": {
     "name": "VIX (Volatility Index)",
     "desc": "The CBOE Volatility Index, often called the 'fear gauge'. Measures expected S&P 500 volatility over the next 30 days. Readings above 20 suggest elevated anxiety; above 30 signals acute stress.",
     "drivers_up": [
-      "A weekend of Gulf escalation is not yet priced"
+      "A weekend of Gulf escalation and a contested ceasefire are not yet priced"
     ],
     "drivers_down": [
       "Closed Friday at 14.84, the lowest in a fortnight"
     ],
-    "updated": "11 October 2026 20:26 (equities, oil and bonds shut until Monday; this is Friday's close)"
+    "updated": "12 October 2026 08:16 (Friday's close with Friday's move; Wall Street opens 14:30 BST)"
   },
   "BTC": {
     "name": "Bitcoin (BTC/USD)",
     "desc": "The price of Bitcoin in US dollars. The largest cryptocurrency by market cap, increasingly viewed as digital gold by institutional investors since spot ETF approvals.",
     "drivers_up": [
-      "Up 1.60% against Friday's close to 83,639, and the only instrument here that has traded all weekend",
-      "Has recovered about 1,300 since Friday"
+      "Up 2.19% on Friday's close at $84,123, having added about 1,800 across the weekend"
     ],
     "drivers_down": [
-      "Still below the 85,000 it held at the start of last week"
+      "The only instrument that traded through the escalation, so it carries all of the weekend's news"
     ],
-    "updated": "11 October 2026 20:26"
+    "updated": "12 October 2026 08:16"
   },
   "UST": {
     "name": "US 10-Year Treasury Yield",
     "desc": "The yield on 10-year US government bonds, the global risk-free rate benchmark. Influences mortgage rates, corporate borrowing and equity valuations worldwide.",
     "drivers_up": [
-      "Ended Friday at 5.242%, near the highest since 2002"
+      "Ended Friday at 5.24%, up a basis point"
     ],
     "drivers_down": [
-      "Shut until Monday"
+      "Cash Treasuries shut until the US session"
     ],
-    "updated": "11 October 2026 20:26 (equities, oil and bonds shut until Monday; this is Friday's close)"
+    "updated": "12 October 2026 08:16 (Friday's close; US session opens later)"
   }
 }
 </script>
@@ -2455,6 +2454,155 @@
  <!-- ════ ALL EDITIONS (sorted by JS) ════ -->
  <!-- IMPORTANT: Keep 7 FULL DAYS of editions in this container. Do NOT delete editions less than 7 days old. -->
  <div id="all-editions" style="display:none;">
+<!-- ── MORNING 12 OCT (08:16) ── -->
+<div class="curated-edition morning" data-date="2026-10-12" data-time="08:16" data-markets='{"FTSE":{"price":10552.05,"change":1.06},"SP":{"price":7811.54,"change":0.59},"Brent":{"price":103.93,"change":-0.75},"GBP":{"price":1.3253,"change":0.17},"Gold":{"price":4185.26,"change":-0.2},"EURGBP":{"price":0.8454,"change":-0.12},"Gilt":{"price":5.41,"change":-0.01},"VIX":{"price":14.84,"change":-3.7},"BTC":{"price":84123,"change":2.19},"UST":{"price":5.24,"change":0.01},"ts":"2026-10-12T08:16:00+01:00"}'>
+ <div class="edition-header">
+ <span class="edition-icon">&#9728;&#65039;</span>
+ <h2>Morning Briefing</h2>
+ </div>
+ <div class="curated-meta">Monday 12 October 2026 &mdash; 08:16 BST</div>
+ <div class="impact-box">
+ <h3 class="impact-heading">What It Means For You</h3>
+ <ul class="impact-list">
+ <li><strong>If you are bracing for the Budget:</strong> the Institute for Fiscal Studies says honouring the government&rsquo;s stated spending pledges in real terms would cost about &pound;35bn, and that pencilling in cuts no one intends to deliver would make the Budget &ldquo;a work of fiction&rdquo;. That points to tax rises or departmental squeezes on 28 October.</li>
+ <li><strong>If you are thinking about a heat pump:</strong> the &pound;2.7bn boiler upgrade scheme, which pays grants of up to &pound;9,000, is reported to be facing cuts of hundreds of millions as the energy department looks for more than &pound;2bn towards defence. No new grant figure has been set and the scheme is not being scrapped, but waiting may cost you.</li>
+ <li><strong>If you run a diesel car or van:</strong> average diesel passed &pound;2 a litre for the first time this month and is up more than 40% since late February. The postponed fuel duty rise adds 3p a litre from 1 January and a further 2p from 1 March.</li>
+ </ul>
+ </div>
+ <div class="curated-grid">
+ <div class="curated-column">
+ <h3><span class="dot geo"></span><span class="dot-label">GEO</span> Geopolitical</h3>
+ <div class="curated-item" data-time="22:36" data-slug="power-plants-struck-hours-after-ceasefire-claim">
+ <h4>Power Plants Struck Hours After the Ceasefire Was Announced</h4>
+ <p>Volodymyr Zelensky says a drone hit a power plant in Kyiv, causing outages in the capital, and that a strike on the CHP-5 plant in Kharkiv followed. &ldquo;All of this happened after the president of the United States made his statement about an energy ceasefire,&rdquo; he said. Moscow has not confirmed agreeing to anything.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">Donald Trump&rsquo;s announcement was a social media post: &ldquo;Effective immediately, there is an ENERGY CEASEFIRE in the War between Russia and Ukraine. Both parties have agreed. Do not break it!&rdquo; No detail followed, and what Mr Zelensky said next is the story. First that the ceasefire was &ldquo;news to me&rdquo;; then that if it had been negotiated with Vladimir Putin, &ldquo;please tell us when the ceasefire begins. We are ready and we will accept it&rdquo;; then that &ldquo;Ukraine is ready not to strike at Russian energy and we count on Russia&rsquo;s similar readiness.&rdquo; He counts more than 200 strikes on generation and transmission this week and seventeen hits on gas and oil facilities. Two things are not established and are worth not asserting: the Kremlin has said nothing whatever about having agreed, and Washington has not answered the contradiction. Front pages this morning say Putin broke the ceasefire, but no agreement has been shown to exist. Andy Burnham said Britain &ldquo;strongly supports&rdquo; the call; Mark Carney said the parallel diesel arrangement &ldquo;is in direct opposition to the efforts of Ukraine, Canada and our allies&rdquo;. Watch for whether Moscow acknowledges the deal at all.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="06:53" data-slug="britons-told-to-leave-saudi-arabia-overland">
+ <h4>Britons Told to Leave Saudi Arabia Overland as Airports Shut</h4>
+ <p>The Foreign Office now advises against all but essential travel to Riyadh province, four southern regions and the cities of Taif, Jeddah and Dammam, and to every Saudi airport except Medina. It suggests British nationals leave by road for Bahrain, Kuwait, Qatar, the United Arab Emirates or Jordan and fly from there. Further attacks on airports are &ldquo;very likely&rdquo;.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The practical warning is the one to note: travel insurance can be invalidated by travelling against official advice. Behind it is a run of attacks that the sources describe differently and that is better quoted than counted &mdash; the latest of several on King Khalid International in the past week. Sunday evening&rsquo;s projectile hit terminals three and four, killing one person, a Pakistani resident, and injuring eleven; air defences also intercepted a cruise missile nearby. That strike has not been claimed by anyone, and while it has been widely attributed to the Houthis, the group claimed earlier attacks and has said nothing about this one. Saturday&rsquo;s strike on the same airport killed thirteen and injured 308. A separate projectile hit King Fahd International at Dammam. Riyadh&rsquo;s schools have moved online until Thursday and Jeddah logged more than 150 cancellations and 374 delays on Sunday. Australia, New Zealand and Canada have issued their own warnings and South Korea has told citizens to leave unless their business is essential. Houthi spokesman Brigadier General Yahya Saree has said every Saudi airport bar Mecca and Medina is a target and that &ldquo;the worst is yet to come&rdquo;.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="22:12" data-slug="gold-miners-killed-in-strike-near-sudan-border">
+ <h4>At Least Seventy-Two Gold Miners Killed in Strike on Sudan</h4>
+ <p>A monitoring group says an air raid on a gold mine near the disputed Sudan&ndash;Egypt border killed at least seventy-two civilian miners on Saturday. Emergency Lawyers, which documents atrocities in Sudan&rsquo;s war, accuses Egyptian fighter jets of carrying out the strike inside Sudanese territory. Neither Egypt nor the Sudanese authorities has commented, and the toll is provisional.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">This needs its caveats attached rather than buried. The accusation rests on one monitor, the attack cannot be independently verified, and no government has responded; the group&rsquo;s own wording is that &ldquo;Egyptian fighter jets targeted civilian miners in the northern Wadi area inside Sudanese territory&rdquo; killing seventy-two, and that such acts &ldquo;may constitute war crimes&rdquo;. What gives the claim traction is a pattern rather than a confession. A strike on the same area in June killed twenty-three, after which Egypt&rsquo;s military said it had acted within its own territory against illegal mining, detaining 223 people and seizing eighty-six tonnes of gold ore. The border itself is contested: both countries claim the Halaib Triangle. The wider context is a war that has killed more than 200,000 people since April 2023 and driven civilians into artisanal gold mining that funds both sides of it. Accounts differ slightly on location, one placing the mine in River Nile state and another at Jabal al-Uqaydat, though the incident, the toll and the monitor are the same. Watch for whether Cairo addresses the claim directly, having answered the June strike within days.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="03:37" data-slug="north-korea-fires-missiles-one-possibly-hypersonic">
+ <h4>North Korea Fires Missiles, One Possibly Hypersonic, Over 900km</h4>
+ <p>Multiple ballistic missiles were launched from the Pyongyang area towards the sea off the east coast on Monday. South Korea&rsquo;s joint chiefs say one flew more than 900km. Japan&rsquo;s deputy defence minister Takashi Koyari says at least two were fired seventeen minutes apart, the second on an &ldquo;irregular&rdquo; flight path he suggested may indicate a hypersonic weapon.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">Both landed outside Japan&rsquo;s exclusive economic zone, the first travelling about 220km and the second more than 910km. Seoul&rsquo;s presidential office said the launches violate United Nations Security Council resolutions; a spokesman for the joint chiefs, Jang Do-young, called them a show of force in the days after South Korea tested a hypersonic weapon of its own under President Lee Jae Myung. The word &ldquo;hypersonic&rdquo; is doing a lot of work in the coverage and is worth holding lightly: it rests on an irregular trajectory observed by Japanese radar, not on any North Korean claim, and the two capitals have not agreed a figure for how many missiles were fired at all. What makes the timing pointed is the audience. With American attention and munitions drawn to the Gulf and to Ukraine, a launch that demonstrates range and manoeuvre costs Pyongyang little and tests how much notice Washington can spare. The pattern to watch is whether these tests move from sea-facing demonstrations towards anything over Japanese territory, which is the step that has historically forced a response.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="00:18" data-slug="senators-call-russian-diesel-deal-unlawful">
+ <h4>Republican Senators Join Democrats to Call Diesel Deal Unlawful</h4>
+ <p>Four Republicans &mdash; Susan Collins, Lisa Murkowski, Thom Tillis and John Curtis &mdash; have joined Democrats Jeanne Shaheen, Richard Blumenthal and Ron Wyden in saying the plan to import Russian diesel breaks American law. &ldquo;The United States should not provide Putin with a financial lifeline while Russia continues to kill Ukrainian civilians,&rdquo; they wrote, urging the president to reverse course.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The volumes explain why this is not a symbolic objection: 300,000 tonnes now, 500,000 in November, a million after that and three million more to follow, with Russia&rsquo;s deputy prime minister Alexander Novak saying exports could reach three million tonnes a month. The Treasury is suspending diesel sanctions until 7 April. Senator Tillis said the deal &ldquo;absolutely will&rdquo; put American lives at risk. Not every Republican objects &mdash; Thomas Massie wants sanctions lifted on all Russian petroleum products &mdash; and the split is less about Russia than about petrol prices before the midterms. The British relevance runs through the pump and the refinery. Russian refinery output is down sharply after Ukrainian drone strikes, which is the shortage this deal is meant to fill, and diesel is the fuel that moves freight. Average British diesel passed &pound;2 a litre for the first time this month, up more than 40% since late February, and van and pickup owners face almost &pound;2.5bn in extra fuel costs this year. Watch the European Union&rsquo;s response: its foreign ministers have been preparing their largest sanctions package since the invasion, and a transatlantic split on Russian fuel would be the first real test of it.</div>
+ </details>
+ </div>
+ </div>
+ <div class="curated-column">
+ <h3><span class="dot uk"></span><span class="dot-label">UK</span> Domestic</h3>
+ <div class="curated-item" data-time="00:04" data-slug="budget-a-work-of-fiction-without-35bn-plan">
+ <h4>Budget a Work of Fiction Without a Plan for &pound;35bn</h4>
+ <p>The Institute for Fiscal Studies says honouring the government&rsquo;s spending pledges in real terms &mdash; defence at 3% of national income by 2030 and a health uplift without squeezing other departments &mdash; would cost about &pound;35bn. Its director Helen Miller says a &ldquo;steady-as-she-goes&rdquo; Budget &ldquo;is not an option available to the chancellor&rdquo;.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">Four different figures are circulating and only one of them is &pound;35bn. That sum is the cost of delivering stated pledges in real terms once this year&rsquo;s inflation shock is absorbed. It is not a hole in the public finances: the institute still expects the fiscal rules to be met, with headroom of roughly &pound;20bn against the &pound;24bn forecast in the spring, a reduction of about &pound;4bn. Separately it puts &pound;10bn on the 2029-30 borrowing-cost forecast. Other economists think market moves since February could erase about half the headroom &mdash; a far larger claim than the institute&rsquo;s own. Ms Miller&rsquo;s warning is about honesty rather than arithmetic: &ldquo;Simply pencilling in implicit cuts that he has no intention of delivering would make the Budget a work of fiction.&rdquo; John Healey, before this week&rsquo;s International Monetary Fund meetings, said conflict abroad was &ldquo;leading to higher prices at the pumps and more expensive mortgages at home&rdquo;. The institute cautions that its own forecasts are &ldquo;exceptionally uncertain&rdquo; and that the official watchdog &ldquo;may come to a very different conclusion&rdquo;. The Treasury declined to comment on &ldquo;rumour and speculation&rdquo;. The Budget is on 28 October.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="06:00" data-slug="deloitte-and-the-abramovich-tax-papers">
+ <h4>Papers Suggest Deloitte Helped Falsify Abramovich Tax Records</h4>
+ <p>Leaked documents indicate that backdated paperwork moved Roman Abramovich&rsquo;s assets beyond the reach of Cypriot tax, and that his accountants reviewed and signed off records the leak suggests they knew to be misleading. In one 2006 case, &dollar;672m of property, aircraft and boats left a company&rsquo;s books, leaving &dollar;75,000 behind. Mr Abramovich denies evading tax or concealing his fortune.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The material comes from Cyprus Confidential, a leak of more than half a million documents on offshore companies run from Cyprus between 1995 and 2022, first released to the International Consortium of Investigative Journalists. MeritServus of Limassol, the firm at the centre, was owned by Deloitte until 2005. The sharpest document is an August 2005 email saying a plan was devised &ldquo;after a meeting with Deloitte&rdquo; and that &ldquo;it will be necessary to change the financial statements and the accounting records accordingly for 2003 and 2004&rdquo;; an associate replied &ldquo;I agree&rdquo;. A separate 2006 transfer was backdated three years and judged &ldquo;adequate&rdquo;. Deloitte Cyprus has not denied the conduct. It says it &ldquo;acts in compliance with applicable laws&rdquo; and that it cannot address the specific allegations because the documents are more than twenty years old and no longer accessible to it. Mr Abramovich&rsquo;s lawyers say no evidence shows he knew of, authorised or directed any falsification, that he was not involved in day-to-day operations, and that relying on professional advice was &ldquo;entirely proper and legitimate&rdquo;. No total for tax evaded has been established. Separately, &pound;5.4bn of his assets remain frozen in Jersey.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="06:01" data-slug="burnham-to-tell-mps-to-embrace-closer-eu-ties">
+ <h4>Burnham to Tell MPs to Embrace Closer Ties With the EU</h4>
+ <p>The prime minister is expected to tell the Commons today that it is time to &ldquo;face up to the reality that Brexit has done more harm than good&rdquo; and that &ldquo;the status quo is not good enough for Britain&rdquo;. A Downing Street source said failing to pursue a better deal would be &ldquo;a major dereliction of duty&rdquo;. He has not yet spoken.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">What is actually on the table is narrower than the rhetoric suggests, and worth separating from it. The concrete asks are the removal of trade barriers, an agreement on food and agriculture standards to cut border checks and paperwork, and closer cooperation on migration, ahead of a summit with the European Union rescheduled for next month after being postponed in the summer. There is no commitment to the customs union or the single market. Andy Burnham has gone further rhetorically than his predecessor, opening the door at conference to options including rejoining, and saying last month that an in-out referendum in a future manifesto was &ldquo;possible&rdquo; &mdash; but none of that is in today&rsquo;s statement. Kemi Badenoch calls reopening the debate &ldquo;a terrible idea&rdquo;: &ldquo;So much time lost, arguing with ourselves with the EU. Going round in circles, businesses not knowing whether they should invest.&rdquo; Senior Conservatives have promised to reverse any deal, including on food standards, which businesses warn would prolong the costs they already carry. Labour MPs in leave-voting seats are uneasy. The Commons sits today for the first time since 15 September, and Westminster Hall debates a petition to rejoin carrying more than 111,000 signatures.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="06:00" data-slug="heat-pump-grants-to-be-cut-to-fund-defence">
+ <h4>Heat Pump Grants to Be Cut to Help Fund Defence Spending</h4>
+ <p>Hundreds of millions of pounds are expected to come off the boiler upgrade scheme, which offers grants of up to &pound;9,000 from a &pound;2.7bn budget, as the energy secretary Miatta Fahnbulleh looks for more than &pound;2bn towards the defence investment plan. The scheme is not being abolished. The department says the savings are &ldquo;a small part&rdquo; of its overall budget.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">This rests on unnamed sources rather than an announcement, so it is a plan reported rather than a decision confirmed. The lineage is instructive. A &pound;2bn capital cut was agreed under the previous prime minister to help fund a &pound;15bn four-year rise in defence spending &mdash; the same rise John Healey resigned as defence secretary in June for calling too small. He must now find a further &pound;4.7bn of savings as chancellor, which is the arithmetic behind the institute&rsquo;s &pound;35bn warning elsewhere in this briefing. The Treasury has long regarded heat pump grants as a middle-class subsidy. Those who build the things disagree about the timing rather than the principle. Octopus Energy&rsquo;s chief executive Greg Jackson says heat pumps &ldquo;can now cost the same to install as a gas boiler after the grant&rdquo; and that more than 500,000 people have asked his company for a quote in eighteen months: &ldquo;Cutting the engine now would be brutally damaging.&rdquo; Madeleine Gabriel of Nesta notes bills are rising because of gas prices, so &ldquo;cutting funding for heat pumps makes no sense&rdquo;. Approval for the Jackdaw gasfield is expected this week.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="22:18" data-slug="reform-would-suspend-the-asylum-system">
+ <h4>Reform Would Suspend the Asylum System for a Full Parliament</h4>
+ <p>Reform UK says that in government it would reject all new asylum applications, void existing ones and mark claimants for deportation, scrapping the asylum tribunal and deporting more than 90,000 outstanding appeals. It would leave the European Convention on Human Rights, repeal the Human Rights Act and disapply the 1951 Refugee Convention.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">Nigel Farage frames it as emergency powers: the country faces &ldquo;a national security emergency&rdquo; and &ldquo;we cannot accept more asylum seekers while we still have no idea how many people are in the country illegally and the threat they pose&rdquo;. The machinery described is as striking as the policy. Home Office asylum staff would be &ldquo;reprioritised to reviewing and overturning previous refugee grants&rdquo;; visa bans and tariffs would pressure countries that refuse returns, named as Pakistan, Somalia, Eritrea, Syria, Afghanistan and Sudan, escalating to airspace bans. Three different totals now attach to Reform&rsquo;s deportation plans &mdash; 90,000 appeals, around 400,000 made liable by April&rsquo;s review pledge, and 600,000 over five years from an earlier small-boats promise &mdash; and they come from three separate announcements rather than adding up. Labour&rsquo;s chair Bridget Phillipson called it &ldquo;a clear sign of desperation and weakness&rdquo; and &ldquo;an assault on our common values&rdquo;. The Conservatives&rsquo; Chris Philp said the proposals &ldquo;largely copy&rdquo; his party&rsquo;s. The Liberal Democrats&rsquo; Max Wilkinson said both &ldquo;were the architects of the failed asylum system and now they will exploit it&rdquo;. Watch whether any of it survives contact with the courts it proposes to bypass.</div>
+ </details>
+ </div>
+ </div>
+ </div>
+ <div class="one-to-read">
+ <span class="otr-label">One To Read</span>
+ <a href="https://www.theguardian.com/world/2026/oct/11/volunteers-protecting-kyiv-new-jet-powered-drones" target="_blank" rel="noopener noreferrer">
+ <h4>The Volunteers Guarding Kyiv&rsquo;s Night Sky</h4>
+ <span class="otr-source">The Guardian</span>
+ <span class="otr-dot">&middot;</span>
+ <span class="otr-desc">On a rooftop on the city&rsquo;s outskirts, an air defence crew works two heavy machine guns through the nightly curfew. Russia&rsquo;s newer jet-powered drones fly fast enough that they now check speed and altitude on a monitor before deciding whether to shoot.</span>
+ </a>
+ </div>
+ <!-- SOURCES USED
+ - NOTE ON SOURCING: Firecrawl is out of credits and returns HTTP 402 on every call, so retrieval was direct fetch plus JSON-LD extraction. Article pages at ft.com, reuters.com, apnews.com, sky.com, telegraph.co.uk, thetimes.com, itv.com, channel4.com, washingtonpost.com and understandingwar.org were blocked or unreadable. ifs.org.uk is on the approved list but sits behind a Cloudflare interstitial that returns 403 on every path, and its RSS feed carries a single item from February 2022, so the Green Budget could NOT be read at source and the £35bn figure rests on two approved outlets reading the same report. Al Jazeera's live blogs are client-rendered and yield nothing, so facts credited to that outlet come from its dated articles, located through its date-keyed sitemap. NPR article bodies are client-rendered too and were used for timestamps and headlines only, not for quotations. CNBC's world RSS returned 683 bytes and was unusable for news; CNBC appears below only as the markets endpoint. Article bodies at cnn.com were not opened, so that domain is not listed as read and nothing is drawn from it. Several stories reported only by blocked outlets were dropped rather than reconstructed and are listed at the end. Three RSS pubDates this morning were modification times rather than publication times, and the BBC re-headlined two stories overnight without republishing them — each item below is timestamped on its JSON-LD datePublished, with the modification time given where it differs and matters.
+ - https://www.bbc.co.uk/news/articles/c6pvg4jyz1m0o &mdash; BBC News, published 15:46 BST and modified 22:36 BST, which is when the power-plant strikes were added and is the honest time for this item: Donald Trump's Truth Social announcement in full, Volodymyr Zelensky saying the ceasefire was "news to me", the drone strike on a Kyiv power plant and the strike on the CHP-5 plant in Kharkiv, his line that "all of this happened after the president of the United States made his statement about an energy ceasefire", the figures of more than 200 strikes on generation and transmission this week and 17 hits on gas and oil facilities, Andy Burnham "strongly supports President Trump's call today for a sustained energy ceasefire to start now", and that the BBC has asked the White House for further details and received no response
+ - https://www.theguardian.com/world/2026/oct/12/ukraine-war-briefing-russia-attacks-multiple-power-plants-after-trump-energy-ceasefire-claim &mdash; The Guardian, published 03:05 BST and modified 04:20: that Russia "has yet to confirm it agreed" to anything, Mr Zelensky's "Ukraine is ready not to strike at Russian energy and we count on Russia's similar readiness", his request that if it was negotiated with Vladimir Putin "please tell us when the ceasefire begins", the six killed in two cities on Sunday with regional governor Oleh Syniehubov on the Kharkiv grocery store, Burnham on "the best route to get energy and fuel back into world markets", Emmanuel Macron on a "real energy ceasefire", and Mark Carney that the diesel arrangement "is in direct opposition to the efforts of Ukraine, Canada and our allies". This page also carries Mr Zelensky's answer to ABC News on whether he should go &mdash; "with all respect to President Trump, it's up to our society, up to our people to choose one or another leader" &mdash; and photographs credited to Reuters (Volodymyr Pavlov, Vyacheslav Madiyevskyy), AP (Andrii Marienko) and EPA (Daryna Naumova)
+ - https://www.npr.org/2026/10/12/nx-s1-5998614/trump-russia-ukraine-energy-ceasefire &mdash; NPR, published 07:41 BST, the freshest timestamp on the lead and used to confirm the announcement was still standing unamended into Monday morning. Body text is client-rendered and no quotation is drawn from it
+ - https://www.gov.uk/foreign-travel-advice/saudi-arabia &mdash; Foreign, Commonwealth and Development Office travel advice, modified 22:11 BST on 11 October: the advice against all but essential travel to Riyadh, Aseer, Najran and Jizan provinces and the cities of Taif, Jeddah and Dammam, and to every Saudi airport except Medina International; that "further attacks against airports are very likely"; the suggestion that British nationals consider leaving overland for Bahrain, Kuwait, Qatar, the United Arab Emirates or Jordan; that "travel within or out of Saudi Arabia is at your own risk"; and the warning that travel insurance can be invalidated by travelling against this advice. A primary source, and the basis of the first impact bullet on travel
+ - https://www.aljazeera.com/news/2026/10/12/countries-warn-against-travel-to-saudi-arabia-after-airport-attacks &mdash; Al Jazeera, published 06:53 BST and modified 07:13, the freshest item in the edition, by John Power: Australia, New Zealand and Canada issuing their own warnings, South Korea telling citizens to leave unless their business is essential, King Khalid and King Fahd both closed, and more than 150 cancellations and 374 delays at Jeddah on Sunday per Flightradar24
+ - https://www.aljazeera.com/news/2026/10/11/riyadh-airport-struck-again-one-dead &mdash; Al Jazeera, byline "Al Jazeera Staff, AP and Reuters": the civil aviation authority's figures of one dead, a Pakistani resident, and eleven injured in the strike on terminals three and four; the cruise missile intercepted nearby; that the strike "has yet to be claimed by any group" and that the Houthis claimed the attacks before Sunday's; and Brigadier General Yahya Saree vowing "escalating operations deep inside Saudi Arabia", warning every Saudi airport bar Mecca and Medina is a target, and saying "the worst is yet to come"
+ - https://www.theguardian.com/world/2026/oct/11/riyadh-airport-attack-dammam &mdash; The Guardian: the description of Sunday's projectile as "unidentified", the phrase "the latest of several attacks on the airport in the past week" which is the wording this edition follows rather than any ordinal, Saturday's toll, and the separate projectile at King Fahd International in Dammam
+ - https://www.bbc.co.uk/news/articles/cr4g1pwxxlq1o &mdash; BBC News: Saturday's toll of thirteen dead and 308 injured, the most precise injury figure available, and that Riyadh's schools have moved online until Thursday. Note this outlet attributes Sunday's strike to the Houthis where two others do not; the cautious reading is carried in the edition
+ - https://www.aljazeera.com/news/2026/10/11/at-least-72-killed-in-air-strike-on-sudan-gold-mine &mdash; Al Jazeera, published 23:08 BST and modified 04:11, byline "Al Jazeera Staff, AFP and Reuters": Emergency Lawyers accusing Egyptian fighter jets of targeting civilian miners "in the northern Wadi area inside Sudanese territory" and killing 72, its warning that the acts "may constitute war crimes", that "the reported attack cannot be independently verified, and Egypt has issued no official comment", the June strike that killed 23 and Egypt's response that it acted "within Egyptian territory" while detaining 223 people and seizing 86 tonnes of gold ore, and the contested status of the Halaib Triangle
+ - https://www.bbc.co.uk/news/articles/c9x4yd7l2z8po &mdash; BBC News, 22:12 BST: the same toll of at least 72 from the same monitor, that "neither the Egyptian government nor the de facto Sudanese authorities have so far commented", the location given as River Nile state, and that Sudan's war has killed more than 200,000 people since April 2023. The two outlets differ on the precise location, so the edition says only that the mine is near the disputed border
+ - https://www.aljazeera.com/news/2026/10/12/north-korea-fires-multiple-ballistic-missiles &mdash; Al Jazeera, published 04:37 BST and modified 07:30, byline "By AP and Reuters": South Korea's Joint Chiefs of Staff saying a missile from the Pyongyang area flew more than 900km without saying how many were fired, Japanese deputy defence minister Takashi Koyari on at least two launched seventeen minutes apart landing outside Japan's exclusive economic zone at about 220km and more than 910km with the second on an "irregular" path possibly indicating a hypersonic weapon, Seoul's presidential office on the breach of Security Council resolutions, and Joint Chiefs spokesman Jang Do-young calling it a show of force after South Korea's own hypersonic test under President Lee Jae Myung
+ - https://www.cbsnews.com/news/north-korea-fires-ballistic-missiles-tests/ &mdash; CBS News, 03:37 BST: the second approved source for the launches and their direction. This outlet dates the South Korean hypersonic test to Friday where Al Jazeera says Thursday, so the edition says "in recent days" rather than choosing
+ - https://www.bbc.co.uk/news/articles/c1v9k4zz2l8qo &mdash; BBC News, 00:18 BST: the seven senators named in full &mdash; Republicans Susan Collins, Lisa Murkowski, Thom Tillis and John Curtis with Democrats Jeanne Shaheen, Richard Blumenthal and Ron Wyden &mdash; their line that "the United States should not provide Putin with a financial lifeline while Russia continues to kill Ukrainian civilians", Senator Tillis telling NBC News the deal "absolutely will" put American lives at risk, Thomas Massie wanting sanctions lifted on all Russian petroleum products, the tonnages of 300,000 now, 500,000 in November, a million after that and three million more, Alexander Novak telling Tass exports could reach three million tonnes a month, and the Treasury suspending diesel sanctions until 7 April
+ - https://www.bbc.co.uk/news/articles/cm78pwdp3n5qo &mdash; BBC News, published 00:04 BST and modified 07:23, by Dharshini David and Tom Espiner. Note the RSS exposed only the 07:23 modification, which would have mis-dated this item by seven hours: the funding requirement of up to £35bn to hold defence at 3% of national income by 2030 and lift health spending without squeezing other departments, Helen Miller that a "steady-as-she-goes" Budget "is not an option available to the chancellor" and that "simply pencilling in implicit cuts that he has no intention of delivering would make the Budget a work of fiction", the £10bn added to the 2029-30 borrowing-cost forecast, headroom of around £20bn against £24bn, John Healey's quotation ahead of the International Monetary Fund meetings, and the Treasury declining to comment on "rumour and speculation"
+ - https://www.theguardian.com/business/2026/oct/12/ifs-budget-report-spending-pressures-tax-inflation-john-healey &mdash; The Guardian, 06:49 BST, by Richard Partington: the same £35bn as the scale of tax rises or benefit cuts required to absorb the inflation shock and fund the defence pledge, the headroom "cut by only £4bn", the separate prediction by other economists that market moves since February could wipe out about half the headroom, which is explicitly not the institute's own figure and is kept separate in the edition, the report's line that a plan the chancellor would not live within "will not be credible", and the institute's caution that its forecasts are "exceptionally uncertain" and that the Office for Budget Responsibility "may come to a very different conclusion"
+ - https://www.bbc.co.uk/news/articles/c64g1l5389kvo &mdash; BBC News, 06:00 BST, by James Oliver, Rory Tinman and Simon Lock, trailing a Panorama broadcast tonight: that Deloitte owned MeritServus of Limassol until 2005, the 2006 Amiscan Investments transfer backdated three years and reviewed as "adequate" with $672m of property, aircraft and boats leaving the books and $75,000 remaining, the August 2005 MeritServus email that a plan was devised "after a meeting with Deloitte" and that "it will be necessary to change the financial statements and the accounting records accordingly for 2003 and 2004" with the reply "I agree", the September 2005 Deloitte email on changes to the accounts, and Deloitte Cyprus saying it "acts in compliance with applicable laws" while declining to address the allegations because the documents are more than twenty years old and no longer accessible to it. The in-copy hedging of this outlet &mdash; "appears to have", "apparently", "the evidence suggests" &mdash; is followed in the edition rather than its harder headline, and no total for tax evaded is stated anywhere because none exists
+ - https://www.theguardian.com/world/2026/oct/12/roman-abramovich-aides-paperwork-tax-records-suggest &mdash; The Guardian, published 06:00 BST and modified 07:34, by Rob Davies: the leak put at more than 500,000 documents released first to the International Consortium of Investigative Journalists as Cyprus Confidential, the "records suggest" framing, Deloitte Cyprus saying it "acts in compliance with all applicable laws" and could no longer access the material, and Roman Abramovich's lawyers denying that he evaded tax or concealed his fortune, saying no evidence shows he knew of, authorised or directed any falsification, that he was "not involved in the day-to-day operation of those companies", and that reliance on professional advice was "entirely proper and legitimate". The allegation that his aide Eugene Tenenbaum may have given false evidence to the High Court appears only here and is NOT carried
+ - https://www.bbc.co.uk/news/articles/c6lyk8e3lxz0o &mdash; BBC News, 06:01 BST, by political editor Chris Mason: that Andy Burnham will argue in a statement to MPs on Monday that it is time to "face up to the reality that Brexit has done more harm than good" and that "the status quo is not good enough for Britain", and the Downing Street source's words that "sticking with the status quo and not working relentlessly to secure a good deal that boosts growth would be a major dereliction of duty". The edition attributes that phrase to the source rather than to the prime minister, because he has not yet said it
+ - https://www.theguardian.com/politics/2026/oct/12/burnham-urge-mps-embrace-closer-ties-with-eu &mdash; The Guardian, 06:00 BST, by Aletha Adu: that the asks are the removal of trade barriers, an agreement on food and agriculture standards to cut border checks and paperwork, and closer cooperation on migration ahead of a summit rescheduled for next month; that no commitment to the customs union or single market is on the table; Kemi Badenoch calling it "a terrible idea" to reopen the debate with "so much time lost, arguing with ourselves with the EU"; senior Conservatives vowing to reverse the food-standards agreement; unease among Labour MPs in leave-voting seats; and the Westminster Hall petition debate on rejoining carrying more than 111,000 signatures
+ - https://www.theguardian.com/environment/2026/oct/12/ministers-plan-slash-heat-pump-subsidies-fund-defence-spending &mdash; The Guardian, published 06:00 BST and modified 07:31, by Kiran Stacey. Single-sourced and attributed to unnamed sources, which the item states: that hundreds of millions will come off the boiler upgrade scheme's £2.7bn budget without the scheme being abolished and with no new grant figure given, that grants currently run to £9,000, that energy secretary Miatta Fahnbulleh must find more than £2bn towards the defence investment plan, that a £2bn capital cut was agreed under the previous prime minister to fund a £15bn four-year defence rise, that John Healey resigned as defence secretary in June arguing the uplift was too small and must now find a further £4.7bn, the expected approval of the Jackdaw gasfield, Greg Jackson of Octopus Energy that heat pumps "can now cost the same to install as a gas boiler after the grant" with more than 500,000 quote requests in eighteen months and that "cutting the engine now would be brutally damaging", Madeleine Gabriel of Nesta that "cutting funding for heat pumps makes no sense", and the department's non-denial that the savings are "a small part" of its budget
+ - https://www.bbc.co.uk/news/articles/cwnv0zmjld51o &mdash; BBC News, 22:18 BST on 11 October, by Henry Moore. Single-sourced, but the primary source is the party's own announcement: rejecting all new asylum claims and voiding existing ones, scrapping the asylum tribunal and deporting more than 90,000 outstanding appeals, leaving the European Convention on Human Rights, repealing the Human Rights Act 1998 and disapplying the 1951 Refugee Convention, Home Office staff "reprioritised to reviewing and overturning previous refugee grants", visa bans and tariffs against Pakistan, Somalia, Eritrea, Syria, Afghanistan and Sudan escalating to airspace bans, Nigel Farage on "a national security emergency", Bridget Phillipson on "a clear sign of desperation and weakness" and "an assault on our common values", Chris Philp that the plans "largely copy" Conservative policy, and Max Wilkinson that both parties "were the architects of the failed asylum system". The three deportation totals of 90,000, around 400,000 and 600,000 come from three separate announcements and the edition says so rather than adding them
+ - https://www.theguardian.com/money/2026/oct/12/uk-van-drivers-diesel-costs-fuel-duty &mdash; The Guardian, 07:00 BST, by Jillian Ambrose, used for the third impact bullet and the British figures in the diesel item: average diesel passing £2 a litre for the first time this month and up more than 40% since late February, analysis by Moneysupermarket putting diesel van and pickup spending at almost £8.5bn this year against £5.95bn last year, and the postponed fuel duty rise adding 3p a litre from 1 January and a further 2p from 1 March
+ - https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol &mdash; CNBC quote endpoint, read 07:55, 07:58 and 08:12 BST, cross-checked against Trading Economics for the UK 10-year gilt, Brent, the US 10-year and the FTSE: the live prices for Brent, sterling, gold, euro-sterling, the gilt and bitcoin, and Friday's closes for the FTSE, the S&P 500, the VIX and the Treasury. The FTSE feed still served Friday's close twelve minutes after the open, for the sixth weekday running, so the FTSE, S&P and VIX carry Friday's closes with Friday's session moves and the ticker says so. The six-day disagreement over the gilt's basis is resolved today and the working is in cache/2026-10-12/markets-SUMMARY.txt
+ - https://www.theguardian.com/world/2026/oct/11/volunteers-protecting-kyiv-new-jet-powered-drones &mdash; The Guardian, published 12:00 BST on 11 October &mdash; One To Read: the Mriya air defence crew on a rooftop on the edge of Kyiv working two heavy machine guns through the nightly curfew, and why they now check speed and altitude on a monitor before deciding whether to fire
+ - NOT CARRIED: a claim that Trump called on Ukraine to replace Volodymyr Zelensky is NOT run as new. The underlying remarks were made on Saturday, the only approved item is a video newsfeed timestamped about eleven hours before last night's edition, and "replace" is a standfirst gloss rather than his word; his answer to it appears instead as one line of context in the lead. Reporting that Ethiopian troops have entered Adigrat and that Houthi forces are advancing on Taiz exists on an approved outlet only as video newsfeed items with no body text, and neither is carried. A report that the United States has threatened to block arms for Ukraine over refinery strikes still appears only at second hand inside another outlet's copy, citing a blocked source, and is not an advance on last night. Poland urging NATO to prepare for a Russian "hybrid" attack, the City of London's criticism of the plan to scrap non-compete clauses, a Heathrow runway decision due by the year end, and the chancellor's business outreach appear only on blocked outlets with no approved pickup. Reporting that thousands were detained in India's youth protests rests on a photo gallery and a client-rendered live blog, with detention figures differing between outlets, and is held. A fatal tiger attack at a Yorkshire wildlife park was published on Saturday and only resurfaced through a modification date, so it is out of window and not carried; the man entered the enclosure. The claim that Putin broke the ceasefire, which several front pages run this morning, is not stated as fact anywhere in this edition because no approved source establishes that Russia ever agreed to one
+ END SOURCES USED -->
+</div><!-- ── END MORNING 12 OCT (08:16) ── -->
 <!-- ── EVENING 11 OCT (20:26) ── -->
 <div class="curated-edition evening" data-date="2026-10-11" data-time="20:26" data-markets='{"FTSE":{"price":10552.05,"change":1.06},"SP":{"price":7811.54,"change":0.59},"Brent":{"price":104.72,"change":0.42},"GBP":{"price":1.3232,"change":0.01},"Gold":{"price":4193.83,"change":1.45},"EURGBP":{"price":0.8462,"change":-0.02},"Gilt":{"price":5.44,"change":0.01},"VIX":{"price":14.84,"change":-3.7},"BTC":{"price":83639,"change":1.6},"UST":{"price":5.24,"change":0.01},"ts":"2026-10-11T20:26:00+01:00"}'>
  <div class="edition-header">
@@ -4554,310 +4702,6 @@
  - https://www.theguardian.com/politics/2026/oct/05/eu-ambassador-uk-interview &mdash; The Guardian &mdash; One To Read: the European Union's ambassador in London on where the reset now stands, before the prime minister's first EU summit
  END SOURCES USED -->
 </div><!-- ── END MORNING 5 OCT (08:07) ── -->
-<!-- ── MORNING 4 OCT (08:05) ── -->
-<div class="curated-edition morning" data-date="2026-10-04" data-time="08:05" data-markets='{"FTSE":{"price":10461.95,"change":0.32},"SP":{"price":7722.72,"change":0.73},"Brent":{"price":102.25,"change":-0.06},"GBP":{"price":1.3241,"change":0.32},"Gold":{"price":4142.34,"change":-0.85},"EURGBP":{"price":0.8497,"change":-0.19},"Gilt":{"price":5.38,"change":0.01},"VIX":{"price":15.31,"change":-6.59},"BTC":{"price":85006,"change":0.51},"UST":{"price":5.27,"change":0.04},"ts":"2026-10-04T08:05:00+01:00"}'>
- <div class="edition-header">
- <span class="edition-icon">&#9728;&#65039;</span>
- <h2>Morning Briefing</h2>
- </div>
- <div class="curated-meta">Sunday 4 October 2026 &mdash; 08:05 BST</div>
- <div class="impact-box">
- <h3 class="impact-heading">What It Means For You</h3>
- <ul class="impact-list">
- <li><strong>Your inheritance:</strong> Inheritance tax is charged on most estates worth more than &pound;325,000. Kemi Badenoch says she is open to cutting it, but will not commit to anything she cannot show how to pay for.</li>
- <li><strong>If you are waiting for a trial:</strong> 80,829 Crown Court cases were outstanding at the end of June, almost a third of them waiting a year or more. The plan for judge-alone trials has been dropped, but defendants still lose the right to elect a jury and magistrates will be able to pass eighteen-month sentences.</li>
- <li><strong>Buying a car:</strong> Chinese brands have tripled their share of the UK market this year to 12% of sales, and new registrations are up 12% on the year, the strongest September growth since 2017. The EU is pressing Britain to impose tariffs, which would push prices back up.</li>
- </ul>
- </div>
- <div class="curated-grid">
- <div class="curated-column">
- <h3><span class="dot geo"></span><span class="dot-label">GEO</span> Geopolitical</h3>
- <div class="curated-item" data-time="02:41" data-slug="ethiopian-forces-say-they-have-taken-mekelle">
- <h4>Ethiopian Forces Say They Have Taken Mekelle</h4>
- <p>Ethiopia&rsquo;s government forces say they have seized Mekelle, the Tigrayan capital, after a week of intense fighting. The claim comes a day after federal troops regained the Alula Aba Nega airport on the city&rsquo;s eastern approach, and after a local journalist reported that the TPLF&rsquo;s fighters and leaders were leaving. It has not been independently confirmed.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">If it holds, this is the fastest reversal of the war so far. Tigrayan forces launched their offensive on 23 September and took three airfields; ten days later the government says it has the regional capital. The claim should be read as a government claim until somebody in Mekelle says otherwise, and the pattern of this conflict has been that each side announces its gains first. What is not in doubt is the scale of what has come apart: the Pretoria agreement of November 2022 held for nearly four years and is now gone, with simultaneous fronts in Tigray, Amhara and Afar, at least 52 civilians killed in the north, and an explosion reported at the defence ministry in Addis Ababa on Thursday. The Afar front is the one that threatens the state itself, because the road up from Djibouti carries almost all of Ethiopia&rsquo;s imports, fuel included. Eritrea severed diplomatic relations with Addis Ababa on 1 October and denies arming the TPLF. Laura Hammond of SOAS has warned there is a strong possibility Asmara becomes more involved on the ground if the fighting continues, and a risk it inflames relations inside Sudan. Watch for the TPLF&rsquo;s own account of where its government now sits.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="07:19" data-slug="flydubai-crash-axe-australia-investigation">
- <h4>Australia Investigates the Flydubai Co-Pilot as the Weapon Is Confirmed</h4>
- <p>Australian counter-terrorism officers are investigating the Flydubai co-pilot&rsquo;s links to the country, the federal police confirmed on Sunday. The United Arab Emirates&rsquo; attorney general, Hamad Saif al-Shamsi, has said the man attacked the captain with a crash axe kept in the cockpit for emergencies. The aircraft, carrying 182 people from Dubai to Tel Aviv on 30 September, fell 16,625 feet in little over thirty seconds.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The weapon had been the open question. Passenger accounts had suggested a knife; the axe is standard cockpit equipment on an airliner, which makes the attack a failure of vetting rather than of screening. The Victorian Joint Counter Terrorism Team, which brings together the Australian Federal Police, Victoria Police and the domestic intelligence service ASIO, said it &ldquo;is investigating the man&rsquo;s links to Australia&rdquo; and would provide an update &ldquo;at an appropriate time&rdquo;. He held an Australian student visa from 2014, studied there from 2015 to 2017, and had it cancelled in 2019 once he was no longer enrolled; he later took a three-year distance-learning aviation management degree at Buckinghamshire New University, graduating in 2023, and the university says he did no flight training there. The detail that will matter most to the airline is earlier still: Oman is reported to have barred him from flying over concerns he had adopted extremist views, and moved him to an administrative post at Oman Air, before Flydubai hired him. The captain, Smit Machchhar, an Indian national, was stabbed and is reported stable after being flown to Abu Dhabi; two reserve pilots landed the aircraft in Saudi Arabia. He said afterwards that he told himself &ldquo;to go for one last push to open the door from inside&rdquo;. Dubai to Tel Aviv flights are suspended. Watch whether Oman&rsquo;s prior ban was ever disclosed.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="05:27" data-slug="zelenskyy-refinery-strikes-putin-winter-doctrine">
- <h4>Zelenskyy Says Ukraine Will Hit Russian Refineries Harder</h4>
- <p>Volodymyr Zelenskyy says Ukrainian intelligence has obtained documents showing Vladimir Putin has authorised attacks on a far broader range of civilian targets before winter, and that Ukraine will answer by striking Russian oil refineries. Russian attacks on Saturday killed at least six people and damaged Kyiv&rsquo;s Northern Bridge for a third day. Ukraine&rsquo;s Operation Vivaldi has retaken about 140 square kilometres of the eastern Donbas.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">&ldquo;We saw documents and we know that they allow them to attack infrastructure, logistics, and especially to attack in the cities, in the villages, everywhere, roads, schools, hospitals,&rdquo; Mr Zelenskyy said, describing the aim as pressuring people to leave the capital and other cities. His answer is deliberately narrow: &ldquo;With their attacks on our energy, we have to respond on their energy. First of all, oil refiners: what gives money to them for this war.&rdquo; He added that Ukraine would not strike civilian objects. The bridges are the clearest expression of the new doctrine. The Institute for the Study of War counts six separate strikes on Kyiv&rsquo;s Southern and Northern crossings since the afternoon of 1 October, in an effort to split a city of three million across the Dnipro. It also records something technically new: a presidential adviser reported Russian use of mesh network repeaters, giving operators a temporary local link to adjust a drone&rsquo;s trajectory mid-strike, similar to a device used in the failed assassination attempt on the SBU&rsquo;s Oleksandr Poklad on 4 September. Overnight on 2 October Russia launched 157 drones, 45 of them jet-powered, and Ukraine downed 131. Interceptor fighters bring down about 60% of the jet-powered type, and ammunition is short; a first shipment of small, cheap air-defence missiles arrives in the second half of this month. Watch Russian refinery throughput.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="04:33" data-slug="houthis-claim-strike-on-aramco-in-riyadh">
- <h4>Houthis Claim a Missile and Drone Strike on Aramco in Riyadh</h4>
- <p>The Houthi military spokesman Yahya Saree said the group struck Aramco in Riyadh with ballistic missiles and drones, calling the strikes &ldquo;precise and direct&rdquo; and saying they &ldquo;led to fires breaking out&rdquo;. Smoke and fire were seen near an Aramco facility south of the capital on Saturday. Turki al-Maliki, spokesman for the Saudi-led coalition, called the claim &ldquo;misleading&rdquo;. Saudi authorities have not confirmed any damage.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">Reaching Riyadh is the escalation. The Houthis said last month they had hit Aramco facilities at Yanbu, and Saudi Arabia said it intercepted six ballistic missiles fired towards Taif and Yanbu without damage; the coalition says a power station at Medina was hit on Tuesday. A claimed strike on the capital changes the calculation for a kingdom that has spent the week preparing a ground offensive. Mr al-Maliki said the Houthis were &ldquo;attempting to divert attention from the scale of the losses and the growing public anger against them&rdquo;, and that what they face around Taiz drives them to &ldquo;seek illusory victories&rdquo;. The ledger on the other side is equally one-sided and equally unverified: government forces claimed 257 targeting operations and at least 700 Houthi fighters killed on Saturday, and early on Sunday the coalition claimed 97 more operations on the Tor al-Baha front and the Taiz axis, against at least 260 fighters, with 44 vehicles destroyed or disabled. None of these figures has been independently checked, and no side gives its own losses. The war resumed when the 2022 truce collapsed in July; the Houthis took Mocha and islands in Bab el-Mandeb in mid-September. Watch whether Aramco reports any outage, because that is the only number in this story a market will price.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="05:27" data-slug="latvia-governing-party-leads-count-strongly">
- <h4>Latvia&rsquo;s Pro-Ukraine Governing Party Leads the Count Strongly</h4>
- <p>Andris Kulbergs&rsquo;s centrist, pro-Ukraine United List was on 36.5% with 72% of ballots counted after Saturday&rsquo;s Latvian parliamentary election, ahead of the populist Latvia First on 13.0%. Exit polls published on Saturday night had already favoured the prime minister. Populist parties also had a good night. The campaign was dominated by the fear of Russia and the cost of living.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">Latvia has 1.9 million people, a hundred seats in parliament, and a border with Russia and Belarus, which is why its elections are read elsewhere as a gauge of how a front-line society behaves under pressure. Mr Kulbergs campaigned on more anti-drone capability and on holding defence spending at 5% of GDP, among the highest in NATO, while his pro-Kremlin rivals want Latvia to stop all aid to Ukraine and concentrate on living costs, an argument aimed particularly at the Russian-speaking minority. He has ruled out the obvious coalition partners in advance: &ldquo;Our strong position is that any economic ties with Russia makes us weak; Russia would exploit this.&rdquo; That is the real question the count leaves open, because a strong first place in a fragmented hundred-seat chamber is not a majority, and the parties he has excluded did well. The Baltic states have spent months warning that Russia is running sabotage, cyber and hybrid operations across Europe, a warning that some Western officials still think overstates Moscow&rsquo;s capacity for anything more direct. Watch the coalition arithmetic rather than the winning margin.</div>
- </details>
- </div>
- </div>
- <div class="curated-column">
- <h3><span class="dot dom"></span><span class="dot-label">UK</span> UK Domestic Politics</h3>
- <div class="curated-item" data-time="19:34" data-slug="ministers-drop-plan-to-cut-jury-trials">
- <h4>Ministers Drop the Plan to Cut Jury Trials</h4>
- <p>The government has abandoned plans for judge-alone Crown Court trials where the likely sentence was under three years, and has dropped the proposed Crown Court Bench Division altogether. Judge-alone trials will survive only for long, technical fraud and financial cases. Defendants still lose the right to elect a jury trial, and magistrates&rsquo; sentencing powers still rise from twelve months to eighteen.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">This is the Burnham government&rsquo;s sharpest break yet with what it inherited. The proposals came from Sir Brian Leveson&rsquo;s review and were announced by David Lammy as justice secretary in December; they cleared their first Commons hurdle earlier this year. Alex Norris, the new Lord Chancellor, said he had &ldquo;heard the strength of feeling on the proposals for increasing the number of judge-alone trials&rdquo; and had decided to change course. The pressure he is left with is unchanged: 80,829 Crown Court cases were outstanding at the end of June, almost a third of them waiting a year or more, close to double the 2020 figure, and projected to reach 100,000 without the changes now dropped. What survives still moves a great deal: the Criminal Bar Association puts the elect-and-sentencing package at 25,000 cases a year leaving the Crown Court, including 5,500 jury trials, into magistrates&rsquo; courts whose own backlog is rising. Andrew Thomas KC, its chair, said nothing inspires more public trust than twelve ordinary citizens deciding the facts together, and that it &ldquo;would be a car crash&rdquo; if magistrates tried to take on serious and sensitive cases. Kirsty Brimelow KC of the Bar Council warned that women, black people, mixed-race people and older people elect jury trials more often, so removing the right &ldquo;risks deepening existing disparities&rdquo;. Ministers will write in a statutory commitment to an independent reviewer of exactly that. Watch the Courts and Tribunals Bill when it returns later this month.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="00:10" data-slug="badenoch-open-to-cutting-inheritance-tax">
- <h4>Badenoch Opens Her Conference Open to Cutting Inheritance Tax</h4>
- <p>Kemi Badenoch has said she is open to cutting inheritance tax but will not commit to it, as the Conservative conference opens in Birmingham for four days. The tax is charged on most estates worth more than &pound;325,000. She has also promised to abolish the &pound;100,000 childcare cliff edge, at a cost of about &pound;700 million a year, funded by cutting headcount at public bodies.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">&ldquo;It is morally right that people don&rsquo;t get taxed twice,&rdquo; Mrs Badenoch said, and morally right that someone who works hard and wants to leave something to their children should not have it taken away &mdash; while adding that she would not announce tax cuts &ldquo;unless we can show how we pay for them&rdquo;. The direction of the offer is becoming legible. Last year&rsquo;s conference produced the abolition of stamp duty on primary residences, costed at around &pound;9 billion a year. This week has produced 50,000 prison places funded by cutting overseas aid to &pound;1 billion a year, a reduction of about 90% on current plans, and now a childcare giveaway that by definition only reaches households earning above &pound;100,000, plus an inheritance tax hint. A Labour spokesman said it told you everything that the first Conservative tax policy to be unpicked was one helping higher earners, and that the Conservatives set the thresholds in the first place. The internal worry is about tone rather than arithmetic: one shadow minister said the party needs to win back as many voters from the Liberal Democrats as from Reform, that there is an economic offering but those voters &ldquo;don&rsquo;t want us to be so intolerant on social issues&rdquo;, and that &ldquo;the way we are going, we risk being seen as the nasty party again&rdquo; &mdash; the label Theresa May coined as party chairman in 2002. The party is still polling below its 2024 result. Watch Andrew Griffith&rsquo;s speech on Monday.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="20:15" data-slug="thousands-rally-garvaghy-road-drumcree">
- <h4>Thousands Rally on the Garvaghy Road as Drumcree Enters an Eighth Day</h4>
- <p>Thousands gathered on the Garvaghy Road on Saturday afternoon in support of the residents opposing the Portadown District Orange Lodge parade, with a smaller loyalist rally in the Edgarstown estate. Police closed the road to traffic once the crowd had built. The PSNI said anyone found blocking it would be treated as taking part in an unnotified and therefore illegal protest, with criminal consequences.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The Parades Commission has cleared the Portadown District to walk its traditional Garvaghy Road route, with restrictions, for the first time in almost thirty years &mdash; which is why a dispute that would once have been local is now a test of who governs the road. The stand-off has run since Sunday morning; talks chaired by the Northern Ireland Secretary ended without agreement on Thursday; and the residents&rsquo; fresh legal challenge, listed for Friday, has been put back to Monday. Almost 1,300 people from the Protestant community signed a letter this week urging the Orange Order to abandon the parade. Michelle O&rsquo;Neill, the First Minister, dismissed Sir Chris Bryant&rsquo;s description of being between a rock and a hard place as &ldquo;such nonsense&rdquo;, saying this was simply &ldquo;the difference between right and wrong&rdquo; and that the crowd would stand with the residents &ldquo;for as long as it takes&rdquo;. Carla Lockhart of the DUP said the impasse was &ldquo;mob rule&rdquo; and that the Chief Constable and his officers should &ldquo;do their job&rdquo; and facilitate the parade. Emma Little-Pengelly, the deputy First Minister, called Ms O&rsquo;Neill&rsquo;s conduct &ldquo;a complete abdication of leadership&rdquo; while urging unionists to stay calm. Jon Burrows, the Ulster Unionist leader, called Saturday &ldquo;a carnival of law-breaking and triumphalism&rdquo;. Watch Belfast High Court on Monday.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="07:06" data-slug="abuse-survivors-unsafe-early-release-begins">
- <h4>Abuse Survivors Say They Feel Unsafe as Early Releases Begin</h4>
- <p>About 700 offenders were released in England and Wales on Thursday, the first of ten tranches that will free some 4,500 prisoners by June. Those let out first were serving up to nineteen months, and affected prisoners now serve a third of their sentence rather than half. One woman who was strangled by her former partner said he could be free within weeks, after less than twelve months inside.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The woman, who spoke anonymously, described a two-year relationship in which the violence was &ldquo;horrible&rdquo; but the worst part was &ldquo;the fear of the fear&rdquo;, and said she finally acted when it came to strangulation because she knew that otherwise &ldquo;I&rsquo;d be dead or someone would be&rdquo;. Prison, she said, had given her &ldquo;that breathing space to repair what he&rsquo;s done to me&rdquo;, and releasing him early was &ldquo;almost like they&rsquo;ve given the bully the ability to laugh in my face&rdquo;. She said she felt completely let down by the system, and that part of her almost hoped he would come back, because it would prove the decision wrong. The government says those released are &ldquo;monitored under the toughest supervision in British history&rdquo;. The scheme exists for the same reason the courts are jammed: there is no room. The most serious offenders, those on fixed sentences of more than twelve years, leave in later waves, and the tenth and final tranche is scheduled for June. Andy Burnham intervened last month to tighten eligibility after an urgent review. The practical arithmetic for a reader is that an eighteen-month sentence now means about six months served rather than nine. Watch the second tranche, and whether ministers can say how many of those freed are actually tagged.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="07:00" data-slug="mayors-income-tax-accountability-white-paper">
- <h4>Ministers Weigh How to Police Mayors Given Income Tax Powers</h4>
- <p>A &ldquo;rewiring the state&rdquo; white paper due later this month will set out plans to hand regional mayors a larger share of income tax revenue. Among the options being weighed to keep them accountable are a new Westminster select committee, tighter reporting rules and a new audit body for local and regional government. One idea floated is letting voters recall a spendthrift mayor, as they can a rule-breaking MP.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">A mayor who became prime minister is preparing to give mayors the money, and Whitehall is quietly building the cage at the same time. The idea was floated by Rachel Reeves in her Mais lecture earlier this year and has been taken up by Andy Burnham, who runs a No 10 North office on the regional side of growth policy. The accountability gap is real: the Audit Commission, which existed specifically to oversee local government spending, was abolished in 2015 and its functions scattered. Meg Hillier, who chairs the Treasury select committee, said it would be &ldquo;reckless to hand out new powers without ensuring there are transparent mechanisms to hold mayors to account&rdquo;, and that scrutiny of how taxpayers&rsquo; money is spent matters as much locally as nationally. The harder problem is distributional. David Phillips of the Institute for Fiscal Studies said mayors with &ldquo;more skin in the game of economic growth&rdquo; will be better incentivised to support it, but that &ldquo;careful design will be needed to prevent richer areas&rsquo; funding unfairly pulling ahead&rdquo;, and that ministers must decide how big a gap they are willing to see between winners and losers. The institute has urged equalisation payments to stop the areas with the largest income tax base, London above all, simply pulling away. Watch the white paper itself.</div>
- </details>
- </div>
- </div>
- </div>
- <div class="one-to-read">
- <span class="otr-label">One To Read</span>
- <a href="https://www.theguardian.com/commentisfree/2026/oct/04/ninety-years-antifascist-battle-cable-street-divide-fight-security" target="_blank" rel="noopener noreferrer">
- <h4>Ninety Years After Cable Street, the Argument Over Britishness Returns</h4>
- <span class="otr-source">The Guardian</span>
- <span class="otr-dot">&middot;</span>
- <span class="otr-desc">Sarah Sackman, the Labour MP for Finchley and Golders Green, marks the ninetieth anniversary of the day East Enders blocked Mosley&rsquo;s Blackshirts, and argues the contest to define Britishness is back &mdash; with balaclava-clad mobs in Dover and Portsmouth and arson in her own constituency.</span>
- </a>
- </div>
- <!-- SOURCES USED
- - NOTE ON THIS EDITION: the Sunday morning briefing was missed and has been reconstructed in arrears, on Monday 5 October. It carries only material published between 18:14 BST on Saturday 3 October and 08:05 BST on Sunday 4 October, verified against each article's own datePublished. Nothing later has been used: not the Latvian final count, not Friedrich Merz's unannounced visit to Kyiv, not Kemi Badenoch's conference remarks, not the Green party's Zionism vote, and no Brazilian result. Several of the pages cited have since been rewritten with Sunday-afternoon material; the text used here was checked against the in-window versions.
- - https://www.aljazeera.com/video/newsfeed/2026/10/4/ethiopian-government-troops-seize-tigrays-capital-mekelle &mdash; Al Jazeera, 02:41 BST: Ethiopia's government forces saying they have seized Mekelle from Tigrayan fighters after a week of intense battles. A government claim, not independently confirmed, and the only in-window approved report of the seizure
- - https://www.aljazeera.com/news/2026/10/3/ethiopian-govt-forces-advance-in-tigray-as-rebels-retreat-what-to-know &mdash; Al Jazeera, 3 October: the recapture of Alula Aba Nega airport, the 23 September start of the offensive, the fronts in Amhara and Afar, the 52 civilians killed, the explosion at the defence ministry in Addis Ababa, and Laura Hammond of SOAS on the risk of Eritrean involvement and spillover into Sudan
- - https://www.theguardian.com/world/2026/oct/04/flydubai-co-pilot-time-in-australia-being-investigated-security-agencies-ntwnfb &mdash; The Guardian, 02:26 BST: the Australian investigation, 182 people on board, and the fall of 16,625 feet in little over thirty seconds
- - https://www.bbc.com/news/articles/c61wv7lgex13o &mdash; BBC News, 05:57 BST: the UAE attorney general Hamad Saif al-Shamsi on the crash axe kept in the cockpit for emergencies, and Captain Smit Machchhar's "I told myself to go for one last push to open the door from inside"
- - https://www.bbc.co.uk/news/articles/cxly4nym57q9o &mdash; BBC News, 07:19 BST: the Australian Federal Police confirming the Victorian Joint Counter Terrorism Team, with Victoria Police and ASIO, "is investigating the man's links to Australia" and would update "at an appropriate time"; the 2014 student visa, the 2015-2017 study, the 2019 cancellation, the distance-learning degree at Buckinghamshire New University awarded in 2023, and the suspension of Dubai to Tel Aviv flights
- - The Wall Street Journal's report that Oman barred the co-pilot from flying over concerns he had adopted extremist views and moved him to an administrative role at Oman Air before Flydubai hired him, relayed in the BBC and Guardian reports above. The co-pilot has not been officially named and is not named here
- - https://www.bbc.co.uk/news/articles/cwjdmk479mr1o &mdash; BBC News review of the Sunday front pages, 00:49 BST, quoting The Sunday Telegraph on the co-pilot's remote study at Buckinghamshire New University and the suspension of its licence to sponsor international students on the day of the attack, with the Home Office and the university both saying the two were unrelated; and recording that the Sunday papers led on warnings of a tax rise to fund the social care plan
- - https://www.theguardian.com/world/2026/oct/04/ukraine-war-briefing-kyiv-to-increase-oil-refinery-attacks-because-of-moscows-winter-strategy-zelenskyy-says &mdash; The Guardian, 05:27 BST, carrying Reuters' reporting: Volodymyr Zelenskyy on the captured documents and the broadened target set, both direct quotations, the six killed on Saturday, the third day of damage to the Northern Bridge, Operation Vivaldi's 140 square kilometres, the 60% interception rate against jet-powered drones, the air-defence missiles arriving in the second half of October, and the Latvian count at 72% with United List on 36.5% and Latvia First on 13.0%, Andris Kulbergs on economic ties with Russia, the 5% of GDP defence commitment and the Baltic warnings about sabotage and hybrid attacks
- - https://www.understandingwar.org/backgrounder/russian-offensive-campaign-assessment-october-3-2026 &mdash; Institute for the Study of War, 3 October assessment published 21:55 BST: six separate strikes on Kyiv's Southern and Northern bridges since the afternoon of 1 October and the assessed intent to split the city, the mesh network repeaters reported by presidential adviser Serhiy Beskrestnov and the parallel with the failed 4 September attempt on the SBU's Oleksandr Poklad, and the 157 drones launched overnight on 2 October with 131 downed
- - https://www.aljazeera.com/news/2026/10/4/houthis-claim-strike-on-saudi-energy-facility-as-yemen-fighting-intensifies &mdash; Al Jazeera, 04:33 BST, with an AFP photograph of the smoke and fire near the Aramco facility south of Riyadh: Yahya Saree's claim of a ballistic missile and drone operation described as "precise and direct" and leading to "fires breaking out", Turki al-Maliki calling the claim "misleading" and the Houthis' aim "illusory victories", the earlier Yanbu claim and the six intercepted missiles, the Medina power station, the collapse of the truce in July and the mid-September seizure of Mocha and islands in Bab el-Mandeb
- - https://www.aljazeera.com/video/newsfeed/2026/10/4/saudi-backed-yemeni-army-says-700-houthis-killed-in-24-hours &mdash; Al Jazeera, 05:09 BST: the 700 figure and the 257 operations claimed by Colonel Majed Abdullah al-Nazili, and the coalition's further 97 operations early on Sunday against at least 260 fighters with 44 vehicles destroyed. Every one of these figures is a belligerent claim and none is independently verified; no side gives its own losses
- - https://www.gov.uk/government/news/justice-reforms-to-be-rolled-out-faster-as-justice-secretary-sets-out-changes-to-courts-bill &mdash; Ministry of Justice press release, 00:01 BST: the dropping of judge-alone trials below three years and of the Crown Court Bench Division, the survival of judge-alone trials for long fraud and financial cases, the retained loss of the right to elect and the rise in magistrates' sentencing powers to eighteen months, the statutory commitment to an independent reviewer, Alex Norris on having "heard the strength of feeling", and the figure that almost a third of outstanding cases have waited a year or longer
- - https://www.theguardian.com/law/2026/oct/04/ministers-drop-radical-plans-cut-jury-trials-outcry-lawyers-centuries-old-right-courts &mdash; The Guardian, 00:01 BST: the projection to 100,000 cases without the changes, Andrew Thomas KC of the Criminal Bar Association on twelve ordinary citizens and on the "car crash", and Kirsty Brimelow KC of the Bar Council on women, black people, mixed-race people and older people electing jury trial more often
- - https://www.independent.co.uk/news/uk/politics/burnham-starmer-jury-trials-labour-b3060841.html &mdash; The Independent, 00:01 BST: the 80,829 outstanding Crown Court cases at the end of June, close to double the 2020 figure, the Leveson review and David Lammy's December announcement, the Criminal Bar Association's 25,000 cases and 5,500 jury trials a year, the return of the Courts and Tribunals Bill later this month, and Andy Burnham's intervention last month to tighten early-release eligibility
- - https://www.independent.co.uk/news/uk/home-news/karl-turner-labour-government-mps-b3060953.html &mdash; The Independent, with PA, 00:01 BST: Karl Turner on the plans being "unworkable" and on the commitment he says the prime minister gave him to drop the Crown Court Bench Division
- - https://news.sky.com/story/andy-burnham-scraps-starmer-era-plan-to-curb-jury-trials-13594818 &mdash; Sky News, 19:34 BST Saturday: the first report that the plans would be scrapped, which is the break time used on that item. Headline and timestamp only; the page is blocked to direct retrieval, and no fact in this edition rests on it
- - https://www.theguardian.com/politics/2026/oct/03/tories-plan-to-expand-free-childcare-to-high-earners-to-end-cliff-edge &mdash; The Guardian, 22:00 BST Saturday: the plan to abolish the &pound;100,000 threshold for the thirty funded hours and tax-free childcare, the &pound;700 million annual cost, the funding from executive non-departmental public body headcount and the &pound;1.6 billion claimed by 2029-30, Kemi Badenoch's pre-released quotations, and the Labour response that the Conservatives set the thresholds in the first place
- - https://www.bbc.co.uk/news/articles/cmn06l362ypeo &mdash; BBC News, 22:03 BST Saturday: the mechanics of the cliff edge, the thirty hours for children aged nine months to four years in England, the &pound;2 added for every &pound;8 up to &pound;2,000 per child a year, the fifteen hours retained for all three and four-year-olds regardless of income, and the point that the threshold has been unchanged since the coalition set it
- - https://www.independent.co.uk/news/uk/home-news/sunday-times-government-birmingham-reform-uk-labour-b3060956.html &mdash; The Independent, with PA, 00:10 BST, reporting The Sunday Times interview: Badenoch on inheritance tax being "morally right that people don't get taxed twice", that she will not announce tax cuts "unless we can show how we pay for them", the &pound;325,000 threshold, and her arrival in Birmingham. The Sunday Times original is paywalled and was not retrieved directly
- - https://www.theguardian.com/politics/2026/oct/04/conservative-party-conference-more-upbeat-last-year-tories-kemi-badenoch &mdash; The Guardian, 07:00 BST: the party still polling below its 2024 result, the shadow minister on needing Liberal Democrat as well as Reform voters and the risk of "being seen as the nasty party again", Theresa May's 2002 coinage, the 50,000 prison places funded by cutting aid to &pound;1 billion a year, and last year's stamp duty pledge costed at about &pound;9 billion
- - https://www.bbc.co.uk/news/articles/cmd6dywn1nnvo &mdash; BBC News NI, updated 20:15 BST Saturday: the Garvaghy Road rally and the smaller Edgarstown gathering, the road closed to traffic once the crowd had built, the PSNI warning that blocking it would be treated as an unnotified and therefore illegal protest with criminal consequences, the almost 1,300 signatories from the Protestant community, Carla Lockhart on "mob rule" and on the Chief Constable, Emma Little-Pengelly on an abdication of leadership, and Jon Burrows on "a carnival of law-breaking and triumphalism"
- - https://www.independent.co.uk/news/uk/home-news/chris-bryant-chris-orange-order-secretary-of-state-police-b3060900.html &mdash; The Independent, with PA, 19:20 BST Saturday: the Parades Commission clearing the traditional route for the first time in almost thirty years, the stand-off since Sunday morning, the talks ending without agreement on Thursday, the legal challenge put back to Monday, Michelle O'Neill's "such nonsense" and "for as long as it takes", and Sir Chris Bryant urging calm
- - https://www.bbc.co.uk/news/articles/c6rr4gv8xxzeo &mdash; BBC News, 07:06 BST: the 700 released on Thursday, the ten tranches and 4,500 prisoners to June, sentences of up to nineteen months in the first wave, the move from half to a third of sentence served, the twelve-year threshold for later waves, the anonymous survivor's account and quotations, and the government's "toughest supervision in British history"
- - https://www.theguardian.com/politics/2026/oct/04/ministers-regional-leaders-spending-powers-devolution &mdash; The Guardian, 07:00 BST: the "rewiring the state" white paper due later this month, the select committee, reporting rules, audit body and mooted mayoral recall, Rachel Reeves's Mais lecture, the abolition of the Audit Commission in 2015, Meg Hillier on it being "reckless to hand out new powers", and David Phillips of the Institute for Fiscal Studies on skin in the game, careful design and the gap between winners and losers
- - https://www.theguardian.com/business/2026/oct/04/uk-car-industry-trade-off-china-made-in-europe-laws &mdash; The Guardian, 06:00 BST: Chinese brands tripling their share of the UK market to 12% of sales, new registrations up 12% in the year to September on preliminary SMMT data, the EU's duties of up to 45%, and the point that UK tariffs would raise prices for British drivers
- - https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol &mdash; CNBC quote endpoint: the ticker levels for all ten instruments. A Sunday edition, so every instrument except bitcoin carries Friday 2 October's close; bitcoin is taken from the CNBC five-day bar series at 08:05 BST
- - Full ticker adjudication for this edition, including the weekend convention and the reconstruction of bitcoin at 08:05, recorded in cache/2026-10-04/markets-SUMMARY-EVENING.txt and the bar series in cache/2026-10-04/evening-markets-CNBC-BTC-5D.json
- - https://www.theguardian.com/commentisfree/2026/oct/04/ninety-years-antifascist-battle-cable-street-divide-fight-security &mdash; The Guardian &mdash; One To Read: Sarah Sackman on the ninetieth anniversary of Cable Street and the renewed argument over Britishness
- END SOURCES USED -->
-</div><!-- ── END MORNING 4 OCT (08:05) ── -->
-<!-- ── EVENING 4 OCT (18:08) ── -->
-<div class="curated-edition evening" data-date="2026-10-04" data-time="18:08" data-markets='{"FTSE":{"price":10461.95,"change":0.32},"SP":{"price":7722.72,"change":0.73},"Brent":{"price":102.25,"change":-0.06},"GBP":{"price":1.3241,"change":0.32},"Gold":{"price":4142.34,"change":-0.85},"EURGBP":{"price":0.8497,"change":-0.19},"Gilt":{"price":5.38,"change":0.01},"VIX":{"price":15.31,"change":-6.59},"BTC":{"price":85309,"change":0.52},"UST":{"price":5.27,"change":0.04},"ts":"2026-10-04T18:08:00+01:00"}'>
- <div class="edition-header">
- <span class="edition-icon">&#127769;</span>
- <h2>Evening Briefing</h2>
- </div>
- <div class="curated-meta">Sunday 4 October 2026 &mdash; 18:08 BST</div>
- <div class="impact-box">
- <h3 class="impact-heading">What It Means For You</h3>
- <ul class="impact-list">
- <li><strong>Filling up:</strong> The seven core OPEC+ producers kept November output targets unchanged on Sunday, and are still pumping well below quota. Brent closed Friday at $102.25, against about $73 before the war; the G7&rsquo;s diesel release is frontloaded into the first 20 days.</li>
- <li><strong>Childcare:</strong> Working parents in England lose their 30 funded hours, and tax-free childcare, once either earns more than &pound;100,000. The Conservatives would scrap the limit at a cost of about &pound;700m &mdash; a pledge for the next election, not a change now.</li>
- <li><strong>Your pension:</strong> Kemi Badenoch says the Tories would keep the triple lock, under which the state pension rises by the highest of inflation, average wages or 2.5%. Andy Burnham has pledged to change it if Labour wins the next election.</li>
- </ul>
- </div>
- <div class="curated-grid">
- <div class="curated-column">
- <h3><span class="dot geo"></span><span class="dot-label">GEO</span> Geopolitical</h3>
- <div class="curated-item" data-time="12:00" data-slug="araghchi-no-military-solution-us-reply">
- <h4>Iran Says There Is No Military Solution as It Weighs Washington&rsquo;s Reply</h4>
- <p>Abbas Araghchi told foreign ambassadors on Sunday that &ldquo;there is no military solution, nor any solution based on new sanctions&rdquo;, warning that any renewed attack would meet a response &ldquo;stronger than before&rdquo;. His deputy, Kazem Gharibabadi, said American views on Tehran&rsquo;s plan to end the war were &ldquo;currently being examined inside the country&rdquo;. Donald Trump said on Saturday that it would be &ldquo;the easy way or the hard way&rdquo;.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The gap is the Strait of Hormuz. Mohammad Bagher Ghalibaf has said the strait &ldquo;will not open until our seven conditions&rdquo; are met &mdash; among them an end to the war on all fronts, the release of frozen funds and the lifting of the US naval blockade. Mr Trump rejected Tehran&rsquo;s seven-day roadmap as not &ldquo;acceptable&rdquo; on 26 September. Pete Hegseth calls the blockade &ldquo;ironclad&rdquo;, yet the UK Maritime Trade Operations centre reported on Sunday that a projectile had struck a tanker in the strait, damaging its engine room. Scott Bessent says Iran will have no oil shipments at sea this week. The test is whether Tehran&rsquo;s formal reply lands before Mr Trump&rsquo;s promised decision.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="15:12" data-slug="yemen-all-out-war-houthis-taiz">
- <h4>Yemen Declares an All-Out Offensive to Retake Houthi Territory</h4>
- <p>Yemen&rsquo;s internationally recognised government has announced military operations to retake all territory held by the Iran-backed Houthis. &ldquo;Today, I announce the start of military operations to retake the remaining territory of the republic,&rdquo; President Rashad al-Alimi said in a televised address from Riyadh. Earlier the Houthis had cut the main supply road between Taiz and Aden, effectively encircling the city, and claimed missile and drone strikes on Aramco sites.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">Al-Alimi would hardly have spoken without Saudi Arabia&rsquo;s blessing. Last month&rsquo;s Houthi offensive seized Yemen&rsquo;s entire Red Sea coast, including the Bab al-Mandab, denying Riyadh its alternative export route around Hormuz. More than 70 combatants were reported killed around Taiz in a single day, according to sources on both sides. &ldquo;They&rsquo;ve achieved the military objective of isolating Taiz from Aden, even if they haven&rsquo;t fully taken control of it,&rdquo; said Farea Al-Muslimi of Chatham House. The Saudi-led coalition has dismissed the Houthi claims of strikes near Riyadh.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="09:30" data-slug="merz-kyiv-visit-northern-bridge-struck">
- <h4>Merz Visits Kyiv as Russia Strikes Its Bridges for a Fourth Day</h4>
- <p>Friedrich Merz made an unannounced visit to Kyiv on Sunday, shortly before a Russian drone struck the Northern Bridge, injuring two people &mdash; the fourth consecutive day of attacks on the capital&rsquo;s Dnipro crossings. The German chancellor brought an aid package worth more than &euro;1.3bn and funding for drones to intercept Russia&rsquo;s jet-powered models. &ldquo;If Russia is not stopped, its war machine will sooner or later turn against us,&rdquo; he said.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">Some 500,000 vehicles use Kyiv&rsquo;s bridges each day, and traffic has been restricted or suspended on five of the city&rsquo;s six road bridges. Russia&rsquo;s defence ministry says it will intensify strikes on Kyiv; its foreign ministry has told foreign diplomats to leave, which the EU ambassador answered: &ldquo;The EU Delegation is staying.&rdquo; Volodymyr Zelensky said Ukraine was ready for US-backed talks with Russia this month, possibly in the UAE, with Washington pushing for technical-level talks by the end of October. Germany has been Ukraine&rsquo;s largest donor since Mr Merz took office in May 2025.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="12:00" data-slug="brazil-votes-lula-flavio-bolsonaro">
- <h4>Brazil Votes as Lula Faces the Son of His Jailed Rival</h4>
- <p>About 160 million Brazilians were eligible to vote on Sunday in a presidential first round pitting Luiz In&aacute;cio Lula da Silva, 80 and seeking a fourth term, against Senator Fl&aacute;vio Bolsonaro, 45, son of the jailed former president. &ldquo;What is at stake is the future of Brazil,&rdquo; Lula said after voting in S&atilde;o Bernardo do Campo. A candidate needs more than half the valid votes to avoid a run-off on 25 October.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">Polls before the vote gave Lula a marginal lead that tightens in a second round. Fl&aacute;vio, who has been hosted at the White House by Donald Trump, said he was counting on &ldquo;a protest vote from people who would otherwise vote for another candidate but are opposed to Lula&rdquo;; Lula&rsquo;s allies fear Washington might refuse to recognise a Lula victory. Jair Bolsonaro is serving 27 years over a coup plot after his 2022 defeat. Public debt above 82% of GDP and the Banco Master fraud scandal, in which Fl&aacute;vio is under investigation for money laundering &mdash; which he denies &mdash; have shadowed the campaign.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="13:00" data-slug="france-closes-schools-student-protests">
- <h4>France Shuts Up to 500 Schools as Student Protests Resume</h4>
- <p>Lessons will be totally or partly suspended at 400 to 500 French secondary schools on Monday because security conditions &ldquo;have not been fulfilled&rdquo;, the education minister, &Eacute;douard Geffray, said. Twenty-four schools have been burnt or ransacked and 78 education staff injured since the unrest began on 17 September. Organisers have called fresh demonstrations for Tuesday, citing a lack of &ldquo;concrete measures&rdquo;.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">More than 5,000 people have been arrested in a week, 85% of them minors, according to the interior minister. Geffray blames infiltrators: &ldquo;There are activists &mdash; particularly from the far left &mdash; who have infiltrated the high school student movement.&rdquo; The grievances &mdash; classes of up to 40, crumbling buildings, staff shortages &mdash; are accepted as legitimate even by the government, which is also under union pressure to rethink S&eacute;bastien Lecornu&rsquo;s budget cuts. At least 400 of France&rsquo;s 3,700 high schools were shut on Friday.</div>
- </details>
- </div>
- </div>
-
- <div class="curated-column">
- <h3><span class="dot dom"></span><span class="dot-label">UK</span> UK Domestic Politics</h3>
- <div class="curated-item" data-time="14:00" data-slug="badenoch-opens-conference-the-right-way">
- <h4>Badenoch Opens the Tory Conference With a Statement of First Principles</h4>
- <p>Kemi Badenoch opened the Conservative conference in Birmingham with The Right Way, a 100-page statement of principles that deliberately echoes Margaret Thatcher&rsquo;s 1976 The Right Approach. Its central claim is that &ldquo;business, not government, creates growth&rdquo;. Calling herself a &ldquo;classic old school Conservative&rdquo;, she told the hall: &ldquo;I don&rsquo;t want lots of little ghettos of separatist communities where they are recreating the place they come from.&rdquo;</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The essay concedes that the last Conservative government &ldquo;did little to reverse the structural changes Labour had made&rdquo; and that &ldquo;the state grew by stealth&rdquo;. It promises tax cuts, less red tape and a civil service shrunk to pre-pandemic size. The party still trails Labour and Reform UK; one Tory MP put it bluntly: &ldquo;The mood is better but the facts are still very poor.&rdquo; Bridget Phillipson, the Labour chair, said the Tories were &ldquo;stuck in the past&rdquo;. The shadow chancellor, Andrew Griffith, speaks on Monday.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="09:00" data-slug="tories-scrap-childcare-cliff-edge">
- <h4>Tories Pledge to Scrap the &pound;100,000 Childcare Cliff Edge</h4>
- <p>A Conservative government would remove the &pound;100,000 earnings limit on free childcare hours and tax-free childcare, Kemi Badenoch said. &ldquo;What we want to see is that people who work harder don&rsquo;t get punished for doing so,&rdquo; she told the BBC&rsquo;s Sunday with Laura Kuenssberg. The party puts the cost at about &pound;700m, to be met by cutting staff at arm&rsquo;s-length bodies such as Arts Council England and the Environment Agency.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The limit, unchanged since the coalition set it, is assessed on each parent&rsquo;s income rather than the household&rsquo;s, and economists say it can leave parents worse off even after a pay rise of tens of thousands of pounds. The Tories claim savings of &pound;1.6bn by 2029&ndash;30 from the arm&rsquo;s-length cuts. Badenoch also committed to keeping the state pension triple lock, &ldquo;the right policy for pensioners&rdquo;, which Andy Burnham has pledged to change &mdash; though Damian Green told a fringe meeting that its &ldquo;mechanical straitjacket&rdquo; was &ldquo;no longer desirable&rdquo;.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="15:30" data-slug="greens-adopt-zionism-racism-policy">
- <h4>Greens Adopt a Policy Equating Zionism With Racism</h4>
- <p>Green Party members in England and Wales voted by 1,022 to 813 for a binding motion stating that Zionism should be &ldquo;treated as any other form of racism&rdquo; and calling for a single Palestinian state. Four of the party&rsquo;s five MPs opposed it; Zack Polanski missed the vote to campaign in the Holborn and St Pancras by-election. Israel&rsquo;s foreign ministry said the resolution would &ldquo;stand as a stain on the history of the United Kingdom&rdquo;.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">Adam Wagner KC, who led the case that found Jeremy Corbyn&rsquo;s Labour broke equalities law, warned of &ldquo;a strong risk that the motion as passed contravenes the Equality Act 2010&rdquo;, and some members are consulting lawyers. An amendment protecting members of Jewish community institutions from discipline was voted down. Adrian Ramsay said he was &ldquo;deeply saddened&rdquo;. The motion was driven by Greens for Palestine, which encouraged non-members to join. About two-thirds of British Jews consider themselves Zionists, according to the Institute for Jewish Policy Research.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="09:30" data-slug="norris-tagging-early-release-jury-trials">
- <h4>Justice Secretary Cannot Say How Many Freed Prisoners Are Tagged</h4>
- <p>Alex Norris was unable to say how many of the roughly 700 prisoners released early on Thursday had been fitted with electronic tags. &ldquo;I don&rsquo;t have that figure today, it only happened on Thursday,&rdquo; he told the BBC. Nearly 5,000 are due to be freed in stages over the next year. He also insisted the courts backlog, nearly 81,000 cases, would fall despite the abandonment of plans to curb jury trials.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">Norris said legislating for judge-only trials &ldquo;was always going to be the most complicated to implement&rdquo;; the Ministry of Justice now proposes them only for complex fraud and financial offences. Nick Timothy, the shadow justice secretary, called the retreat &ldquo;a major victory for everyone who fought to defend trial by jury&rdquo;. Tagging is the weak point: HM Inspectorate of Probation reported last month that almost half of tags are not fitted on time, with some offenders waiting up to five months.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="00:01" data-slug="farage-questioned-standards-commissioner-gift">
- <h4>Farage Questioned by the Standards Commissioner Over a &pound;5m Gift</h4>
- <p>Nigel Farage has been interviewed by the parliamentary standards commissioner over whether he should have declared a &pound;5m gift from the crypto billionaire Christopher Harborne, received just before the 2024 election. The half-hour interview last month suggests the inquiry is nearing its end. The Reform UK leader maintains the money was a personal matter, for his security, and did not need to be registered.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">If the commissioner finds a serious breach, the standards committee can recommend a sanction; a suspension of more than ten days, if the Commons agreed, could trigger a recall petition in Clacton. The rules require financial support related to an MP&rsquo;s job to be registered if given in the twelve months before entering Parliament. Reform is also deciding how to spend &pound;72m from Harborne and Ben Delo, while the government legislates to cap overseas donors at &pound;100,000 a year, backdated to March. Farage says the donations have earned him &ldquo;some grudging respect&rdquo;.</div>
- </details>
- </div>
- </div>
- </div>
- <div class="one-to-read">
- <span class="otr-label">One To Read</span>
- <a href="https://www.theguardian.com/politics/2026/oct/04/conservative-party-conference-more-upbeat-last-year-tories-kemi-badenoch" target="_blank" rel="noopener noreferrer">
- <h4>Return of the Nasty Party? Badenoch Walks a Tightrope</h4>
- <span class="otr-source">The Guardian</span>
- <span class="otr-dot">&middot;</span>
- <span class="otr-desc">Peter Walker on why a more cheerful Conservative conference cannot hide a party still polling below its 2024 rout, and why some shadow ministers fear that chasing Reform voters with &ldquo;punch down&rdquo; policies risks reviving the label Theresa May warned against in 2002.</span>
- </a>
- </div>
- <!-- SOURCES USED
- - NOTE: this run executed at about 02:15 BST on Monday 5 October; the edition is held to developments reported by about 18:08 BST on Sunday. Brazil's first-round result, the RAF Fairford bomber withdrawal and Israel's ban on Zack Polanski post-date 18:08 and are left for Monday morning.
- - https://www.cbsnews.com/live-updates/trump-iran-war-us-midterm-elections-troops-deployment/ &mdash; CBS News live: Araghchi's "no military solution, nor any solution based on new sanctions" and "stronger than before"; Gharibabadi on US views "currently being examined inside the country"; Trump's "easy way or the hard way"; Hegseth's "ironclad"; UKMTO tanker strike; al-Alimi's announcement (10:12 ET); 70+ killed around Taiz; Al-Muslimi quote; OPEC+ seven holding November output
- - https://www.aljazeera.com/news/liveblog/2026/10/4/iran-war-live-yemeni-forces-strike-sanaa-as-trump-warns-tehran-of-hard-way &mdash; Al Jazeera live: Araghchi quotes; the 25 September seven-day roadmap, Trump's "acceptable" rejection on 26 September; Ghalibaf's "will not open until our seven conditions"; Saudi-led coalition dismissing Houthi claims; Green vote 1,022 to 813
- - https://www.iranintl.com/en/202610048164 &mdash; Iran International: Trump's decision remarks, Hegseth on the "ironclad" blockade, Bessent on no Iranian oil shipments at sea this week
- - https://www.cnbc.com/2026/10/04/opec-agrees-to-keep-november-oil-output-targets-steady.html &mdash; CNBC: OPEC+ seven keep November targets steady, output well below quota, Brent settled $102.25 on Friday, about $73 before the war, G7 frontloaded diesel release within 20 days
- - https://www.bbc.co.uk/news/articles/cx8dzj9vpp01o &mdash; BBC News: al-Alimi's televised address from Riyadh, Taiz encircled, Houthi Aramco claims, Red Sea coast seized last month
- - https://www.bbc.co.uk/news/articles/ckreyjzzzywqo &mdash; BBC News: Northern Bridge struck, two injured, fourth consecutive day, 500,000 vehicles a day, €1.3bn package, Merz quotes, EU delegation "is staying", Russian MoD intensifying strikes
- - https://www.theguardian.com/world/2026/oct/04/russia-strikes-kyiv-bridge-german-chancellor-merz-visits-ukraine &mdash; The Guardian: interceptor-drone funding, five of six road bridges restricted, largest military aid provider since May 2025
- - https://www.aljazeera.com/news/2026/10/4/ukraine-ready-for-us-backed-talks-with-russia-zelenskyy &mdash; Al Jazeera: Zelenskyy ready for trilateral talks this month, UAE venue, technical-level talks by end of October
- - https://www.understandingwar.org/backgrounder/russian-offensive-campaign-assessment-october-3-2026 &mdash; ISW: Northern and Southern bridges struck six times since 1 October, Russian MFA on continuing long-range strikes (context)
- - https://www.cnn.com/2026/10/03/europe/russia-strikes-northern-southern-bridges-kyiv-attacks-intl &mdash; CNN: Saturday's Northern Bridge strike and Southern Bridge closure (context)
- - https://www.aljazeera.com/news/2026/10/4/brazil-votes-in-deeply-polarised-election-pitting-lula-against-bolsonaro &mdash; Al Jazeera: 160 million voters, 25 October run-off rule, Lula's marginal poll lead, Jair Bolsonaro's 27-year sentence
- - https://www.cnbc.com/2026/10/04/brazil-presidential-election-lula-bolsonaro.html &mdash; CNBC (Reuters copy): Lula's "What is at stake is the future of Brazil", Flávio's "protest vote" quote, White House visit, allies' fears over recognition, debt above 82% of GDP, Banco Master investigation and denial
- - https://www.npr.org/2026/10/04/nx-s1-5981107/brazil-votes-with-lula-facing-bolsonaros-son &mdash; NPR: Lula against the son of the jailed former president, run-off on 25 October
- - https://www.theguardian.com/world/2026/oct/04/brazil-presidential-election-lula-flavio-bolsonaro &mdash; The Guardian: fourth non-consecutive term, Lula voting in São Bernardo do Campo
- - https://www.theguardian.com/world/2026/oct/04/schools-france-closed-protests-planned &mdash; The Guardian: Geffray's 400-500 closures, 24 schools burnt or ransacked, 78 staff injured, 17 September start, far-left infiltration quote, Lecornu budget pressure
- - https://www.aljazeera.com/news/2026/10/4/france-to-shutter-up-to-500-schools-as-more-student-protests-called &mdash; Al Jazeera: "have not been fulfilled", Tuesday protests, 5,000 arrests 85% minors, 400 of 3,700 shut on Friday
- - https://www.bbc.co.uk/news/articles/cx7vp6d5pgn1o &mdash; BBC News: "classic old school Conservative", The Right Way echoing The Right Approach, "business, not government, creates growth", "state grew by stealth", ghettos quote, Phillipson response
- - https://www.channel4.com/news/badenoch-insists-shes-an-old-school-conservative-as-tory-conference-gets-under-way &mdash; Channel 4 News: personal manifesto published on the opening day in Birmingham
- - https://www.theguardian.com/politics/live/2026/oct/04/conservatives-tories-conference-kemi-badenoch-james-cleverly-labour-jury-trials-green-party-zionism-uk-politics-latest-news-updates &mdash; Guardian politics live: Israeli foreign ministry "stain on the history of the United Kingdom" (17.32 BST), Damian Green on the triple lock, Adrian Ramsay statement
- - https://www.bbc.co.uk/news/articles/cmn06l362ypeo &mdash; BBC News: childcare cliff edge pledge, Badenoch quotes, £700m cost, £1.6bn savings by 2029-30, arm's-length bodies, triple lock "the right policy for pensioners", Burnham pledge to change it, Griffith on Monday
- - https://www.theguardian.com/politics/2026/oct/04/green-party-votes-adopt-policy-zionism-racism &mdash; The Guardian: 1,022 to 813, four of five MPs opposed, Polanski absent, Adam Wagner KC quote, amendment voted down, Greens for Palestine, JPR two-thirds figure
- - https://www.theguardian.com/society/2026/oct/04/uk-justice-secretary-alex-norris-prisoners-tagged-england-wales &mdash; The Guardian: Norris on tagging, roughly 700 released Thursday, nearly 5,000 over the year, HMIP on late tag fitting
- - https://www.bbc.co.uk/news/articles/crq5nd9dgz68o &mdash; BBC News: jury-trial plan scrapped, "most complicated to implement", backlog nearly 81,000, judge-only for complex fraud, Nick Timothy quote
- - https://www.theguardian.com/politics/2026/oct/04/nigel-farage-questioned-by-standards-commissioner-over-gift-reform-uk &mdash; The Guardian (following the Sunday Times): half-hour interview, £5m Harborne gift, recall threshold, registration rule, £72m donations, overseas-donor cap, "grudging respect"
- - Ticker basis (Sunday: Friday closes plus bitcoin at 18:08) recorded in cache/2026-10-04/markets-SUMMARY-EVENING.txt
- - https://www.theguardian.com/politics/2026/oct/04/conservative-party-conference-more-upbeat-last-year-tories-kemi-badenoch &mdash; The Guardian &mdash; One To Read; also the Tory MP's "The mood is better but the facts are still very poor"
- END SOURCES USED -->
-</div><!-- ── END EVENING 4 OCT (18:08) ── -->
-
 </div><!-- /all-editions -->
 
  </div>

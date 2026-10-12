@@ -1,0 +1,94 @@
+{
+ "FTSE": {
+  "up": [
+   "Closed Friday 1.06% higher at 10,552.05, its best day of the week"
+  ],
+  "down": [
+   "Reopening into a weekend of Gulf escalation, a Russian diesel deal and a contested energy ceasefire"
+  ],
+  "updated": "12 October 2026 __TIME__ (read before the London open; this is Friday's close with Friday's move)"
+ },
+ "SP": {
+  "up": [
+   "Closed Friday 0.59% higher at 7,811.54"
+  ],
+  "down": [
+   "Wall Street shut until 14:30 BST"
+  ],
+  "updated": "12 October 2026 __TIME__ (Friday's close with Friday's move; Wall Street opens 14:30 BST)"
+ },
+ "Brent": {
+  "up": [
+   "About 69% of US Gulf of Mexico output is still shut after Hurricane Isaias",
+   "Riyadh and Dammam airports are both closed after further strikes"
+  ],
+  "down": [
+   "Washington has suspended sanctions on Russian diesel until 7 April, with up to three million tonnes a month in prospect",
+   "Down 0.75% to $103.93 in early trade, so the weekend's Gulf escalation has not produced a risk premium"
+  ],
+  "updated": "12 October 2026 __TIME__"
+ },
+ "GBP": {
+  "up": [
+   "Firmer at 1.3253, up 0.17% on Friday's close"
+  ],
+  "down": [
+   "The 28 October Budget is sixteen days away and the Institute for Fiscal Studies has put \u00a335bn on the spending pledges"
+  ],
+  "updated": "12 October 2026 __TIME__"
+ },
+ "Gold": {
+  "up": [
+   "Still above $4,180 after a 1.45% gain on Friday"
+  ],
+  "down": [
+   "Slipped 0.20% to $4,185.26 as the weekend's escalation failed to bid up haven assets"
+  ],
+  "updated": "12 October 2026 __TIME__"
+ },
+ "EURGBP": {
+  "up": [
+   "Sterling firmer against the euro for a second session"
+  ],
+  "down": [
+   "Eased to 0.8454, down 0.12%"
+  ],
+  "updated": "12 October 2026 __TIME__"
+ },
+ "Gilt": {
+  "up": [
+   "Still above 5.4%, near the highest since 2007, with the Budget to be funded"
+  ],
+  "down": [
+   "A basis point lower at 5.41%, on the first clean two-source read of the basis in a week"
+  ],
+  "updated": "12 October 2026 __TIME__"
+ },
+ "VIX": {
+  "up": [
+   "A weekend of Gulf escalation and a contested ceasefire are not yet priced"
+  ],
+  "down": [
+   "Closed Friday at 14.84, the lowest in a fortnight"
+  ],
+  "updated": "12 October 2026 __TIME__ (Friday's close with Friday's move; Wall Street opens 14:30 BST)"
+ },
+ "BTC": {
+  "up": [
+   "Up 2.19% on Friday's close at $84,123, having added about 1,800 across the weekend"
+  ],
+  "down": [
+   "The only instrument that traded through the escalation, so it carries all of the weekend's news"
+  ],
+  "updated": "12 October 2026 __TIME__"
+ },
+ "UST": {
+  "up": [
+   "Ended Friday at 5.24%, up a basis point"
+  ],
+  "down": [
+   "Cash Treasuries shut until the US session"
+  ],
+  "updated": "12 October 2026 __TIME__ (Friday's close; US session opens later)"
+ }
+}

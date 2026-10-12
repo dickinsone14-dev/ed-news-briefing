@@ -1,0 +1,75 @@
+URL: (compiled) Monday 12 October 2026 MORNING ticker basis
+Primary: CNBC quote endpoint, read 07:55 and 07:58 BST. Cross-check: Trading Economics (UK 10Y, Brent, US 10Y, GB100).
+
+*** PUBLISHED BEFORE THE LONDON OPEN — TWO BASES, DECLARED ***
+This edition is written between 07:55 and 08:25, so it goes out at or just after the open and inside the
+known FTSE feed-lag window. Trading Economics is NOT a usable second provider for the FTSE pre-open: it
+returns the identical stale value (GB100 10,552.05, dated Oct/09). So:
+
+1. SHUT OR LAGGED, carrying Friday's close with Friday's session move:
+   FTSE 10,552.05 +1.06 | SP 7,811.54 +0.59 | VIX 14.84 -3.70 | UST 5.24 +0.01
+   The FTSE and S&P figures are the same ones Sunday evening published, for the same reason.
+   CNBC reports the VIX change as UNCH because its prev field equals its last; -3.70 is published instead
+   so that every lagged instrument on this ticker is measured on the same basis — Friday's close against
+   Thursday's. Mixing a "no change since it last traded" figure in with four "Friday's session move"
+   figures would be the only genuinely misleading option.
+2. LIVE this morning:
+   Brent 104.60 -0.11 (stamped 07:45) | GBP 1.3253 +0.17 | Gold 4,185.26 -0.20 | EURGBP 0.8454 -0.12
+   | Gilt 5.42 0.00 (stamped 06:55) | BTC 84,123 +2.19
+
+*** THE GILT BASIS PROBLEM IS RESOLVED — SEVENTH DAY, AND THIS ONE SETTLES IT ***
+For six consecutive days CNBC's previous_day_closing for UK10Y-GB has been unusable and the gilt change has
+been carried on a declared basis. Today two independent sources agree and they agree on the thing that was
+in dispute:
+  CNBC live:            5.4197
+  Trading Economics:    5.42, daily change -0.004, dated Oct/12
+  -> -0.004 implies a Friday close of about 5.4237.
+  CNBC's post-cash-close Friday read, recorded in Friday evening's summary: 5.4226.
+Those two agree to within 1bp. Friday's TRUE close was therefore ~5.422-5.424, and the 5.4396 we read at
+18:15 on Friday — and published as 5.44 — was a stale post-cash-close quote, not a close. The cash gilt
+market shuts at 17:00; an 18:15 read is not a close and must stop being treated as one.
+  5.4197 - 5.4226 = -0.0029 -> 0.00
+So the gilt is published FLAT at 5.42. A reader comparing with Sunday evening's ticker will see 5.44 -> 5.42
+and a stated change of 0.00, and the honest explanation is that the 5.44 was 2bp too high, not that the gilt
+moved. Published editions are immutable so Friday's and the weekend's figures stand as printed.
+LESSON FOR EVERY FUTURE EVENING READ: take the gilt from the post-17:00 CNBC value and corroborate with the
+Trading Economics daily change. Do not use an 18:00-18:15 quote as the close.
+TE also gives UK 1M 3.85 and UK 3M 4.11, both dated Oct/09.
+
+*** THE REAL STORY IN THIS TICKER: THE GULF PREMIUM DID NOT ARRIVE ***
+Brent settled on Friday at 104.72 before a weekend in which Riyadh airport was struck again with fatalities,
+a US jet disabled a cargo ship in the Gulf of Oman, roughly 69% of US Gulf of Mexico output stayed shut
+after Hurricane Isaias, Washington suspended sanctions on Russian diesel, and the US president claimed an
+energy ceasefire that Kyiv says has already been broken. Friday evening's summary said Monday's open would
+be "the first genuine read" on all of it. The answer is that Brent is DOWN, if only marginally, at 104.60.
+Gold is down 0.20 and sterling is up 0.17. That is not a market pricing escalation; it is a market setting
+the Russian diesel supply against the Gulf risk and finding them close to cancelling out.
+BRENT CROSS-CHECK: Trading Economics 104.50 -0.21% against CNBC 104.60 -0.11%. Agreement on level to 0.10
+and on direction; the 0.10 percentage-point gap in the change is within the usual two-provider spread.
+WTI on TE: 91.33 -0.57%.
+UST CROSS-CHECK: Trading Economics US 10Y 5.24, dated Oct/09, against CNBC 5.242 prev 5.233. Agreement.
+US30Y 5.60 (-0.007).
+
+BITCOIN BASIS: 84,123 against Friday's close of 82,322.43 = +2.19. Sunday evening published +1.60 and
+Sunday morning +0.89 on that same Friday-close basis, so the series is continuous and bitcoin has added
+roughly 1,800 since Friday across a weekend of Gulf escalation.
+
+PUBLISHED TICKER: FTSE 10,552.05 +1.06 | SP 7,811.54 +0.59 | Brent 104.60 -0.11 | GBP 1.3253 +0.17
+ | Gold 4,185.26 -0.20 | EURGBP 0.8454 -0.12 | Gilt 5.42 0.00 | VIX 14.84 -3.70 | BTC 84,123 +2.19
+ | UST 5.24 +0.01
+
+*** THIRD READ, 08:12 BST — TWO INSTRUMENTS REPRICED AND THE FTSE LAG CONFIRMED AGAIN ***
+.FTSE still returned 10,552.05 stamped 2026-10-09 at 08:12, twelve minutes after the London open. That is
+the sixth consecutive weekday morning the feed has served the previous close inside the first half-hour,
+and it confirms the diagnosis rather than adding to it. The published FTSE therefore stays on Friday's
+close with Friday's move, declared.
+Two live instruments had moved enough since 07:55 to be worth republishing:
+  Brent  104.60 (-0.11) at 07:45  ->  103.93 (-0.75) at 08:02. A 0.6% move in under twenty minutes.
+  Gilt   5.4197 (0.00)  at 06:55  ->  5.4119 (-0.01) at 07:12 GMT.
+Both are published on the later read. The Brent move strengthens rather than weakens this morning's
+reading: crude is now down three quarters of a per cent on the first session after a weekend of Gulf
+escalation, which is the opposite of a risk premium and is the point the ticker drivers make.
+GILT on the resolved basis: 5.4119 - 5.4226 (Friday's true close) = -0.0107 -> -0.01. Published 5.41 -0.01.
+FINAL PUBLISHED TICKER: FTSE 10,552.05 +1.06 | SP 7,811.54 +0.59 | Brent 103.93 -0.75 | GBP 1.3253 +0.17
+ | Gold 4,185.26 -0.20 | EURGBP 0.8454 -0.12 | Gilt 5.41 -0.01 | VIX 14.84 -3.70 | BTC 84,123 +2.19
+ | UST 5.24 +0.01
