@@ -1,0 +1,93 @@
+{
+ "FTSE": {
+  "up": [
+   "Closed 0.99% higher at 10,656.28, its second strong session running"
+  ],
+  "down": [
+   "Energy weighting flattered by crude; the Budget is sixteen days away"
+  ],
+  "updated": "12 October 2026 __TIME__"
+ },
+ "SP": {
+  "up": [
+   "Holding Friday's level with Wall Street open"
+  ],
+  "down": [
+   "Flat to marginally lower at 7,809.56 as the oil move offsets the ceasefire headlines"
+  ],
+  "updated": "12 October 2026 __TIME__"
+ },
+ "Brent": {
+  "up": [
+   "Up 1.87% to $106.68 after a reported drone attack on a tanker in the Strait of Hormuz region",
+   "Riyadh and Dammam airports still shut, and a Saudi minister has promised a 'serious response'"
+  ],
+  "down": [
+   "Suspended US sanctions on Russian diesel still point the other way"
+  ],
+  "updated": "12 October 2026 __TIME__ (this morning's read was 103.93, down 0.75%; the premium arrived during the session)"
+ },
+ "GBP": {
+  "up": [
+   "Held above 1.32 through the Commons statement on Europe"
+  ],
+  "down": [
+   "Eased 0.21% to 1.3203 with the Institute for Fiscal Studies putting \u00a335bn on the Budget arithmetic"
+  ],
+  "updated": "12 October 2026 __TIME__"
+ },
+ "Gold": {
+  "up": [
+   "Still above $4,160 after last week's 1.45% gain"
+  ],
+  "down": [
+   "Slipped 0.71% to $4,164.06 \u2014 the haven bid went to oil today, not to bullion"
+  ],
+  "updated": "12 October 2026 __TIME__"
+ },
+ "EURGBP": {
+  "up": [
+   "Sterling firmer against the euro for a third session"
+  ],
+  "down": [
+   "Eased to 0.8448, down 0.19%"
+  ],
+  "updated": "12 October 2026 __TIME__"
+ },
+ "Gilt": {
+  "up": [
+   "Two basis points higher at 5.44%, near the highest since 2007, with the Budget still to be funded"
+  ],
+  "down": [
+   "Both providers now agree the move, settling a basis dispute that ran for six days"
+  ],
+  "updated": "12 October 2026 __TIME__"
+ },
+ "VIX": {
+  "up": [
+   "Up 2.63% to 15.23 as the Gulf repriced, though still historically low"
+  ],
+  "down": [
+   "Below 16, so this is a nudge rather than a scare"
+  ],
+  "updated": "12 October 2026 __TIME__"
+ },
+ "BTC": {
+  "up": [
+   "Still above $82,000"
+  ],
+  "down": [
+   "Down 1.04% against Sunday's close at $82,747, giving back most of the weekend's gain"
+  ],
+  "updated": "12 October 2026 __TIME__ (measured against Sunday's close; the weekend's Friday-close basis is retired)"
+ },
+ "UST": {
+  "up": [
+   "Ended Friday at 5.24%, up a basis point"
+  ],
+  "down": [
+   "Both data providers are still serving Friday's level, so this is not a live price"
+  ],
+  "updated": "12 October 2026 __TIME__ (Friday's close; the Treasury feed has not updated on either provider)"
+ }
+}

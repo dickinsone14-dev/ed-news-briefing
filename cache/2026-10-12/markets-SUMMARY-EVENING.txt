@@ -1,0 +1,53 @@
+URL: (compiled) Monday 12 October 2026 EVENING ticker basis
+Primary: CNBC quote endpoint, read 17:42 BST. Cross-check: Trading Economics (UK 10Y, Brent, US 10Y, GB100).
+
+*** THE GULF PREMIUM ARRIVED DURING THE SESSION — THIS MORNING'S READING IS REVERSED ***
+This morning's edition published Brent at 103.93, DOWN 0.75%, and said plainly that the market was
+"setting the Russian diesel supply against the Gulf risk and finding them close to cancelling out".
+By the close Brent is 106.68, UP 1.87% — a swing of about 2.6% in under ten hours, and now above
+Friday's settle rather than below it. The morning reading was correct when written and is now out of
+date; the honest account is that the premium took most of a session to arrive, not that it never came.
+What arrived with it: a reported drone attack on an oil tanker in the Strait of Hormuz region, Iranian
+forces targeting what Al Jazeera calls a "US-UAE oil shuttle" moving crude beyond the strait, and a
+Saudi minister vowing a "serious response" to the airport attacks. Oil company chiefs stayed away from
+an energy congress in Riyadh.
+BRENT CROSS-CHECK: Trading Economics 106.63 +1.83% against CNBC 106.68 +1.87%. Agreement on level to
+0.05 and on direction. WTI on TE 93.64 +1.95%.
+
+*** THE GILT BASIS FIX FROM THIS MORNING IS CONFIRMED — INDEPENDENTLY ***
+This morning resolved a six-day dispute by establishing that Friday's TRUE close was ~5.4226 (CNBC's
+post-17:00 read), not the 5.4396 we had read at 18:15 on Friday and published as 5.44. Tonight:
+  CNBC live:         5.4444
+  5.4444 - 5.4226 = +0.0218 -> +0.02
+  Trading Economics: UK 10Y 5.44, day change +0.020%, dated Oct/12.
+TE's independently computed day change is +0.020 against our +0.0218. That is agreement to within a
+fifth of a basis point, and it confirms the corrected Friday basis rather than the old one. Had we
+still been using 5.4396 the computed change would have been +0.005, which TE would have contradicted.
+The rule from this morning stands and is now evidenced: take the gilt from the post-17:00 value, never
+from an 18:00-18:15 quote, and corroborate with the TE daily change.
+CNBC's own previous_day_closing read 5.4466 tonight — an intraday value again, unusable for the
+seventh consecutive day.
+
+*** NOT LIVE: US TREASURIES ***
+US10Y returned 5.242% stamped 2026-10-09T17:01 EDT and US30Y 5.60% stamped the same day. Trading
+Economics also still dates US 10Y to Oct/09. BOTH providers are stale on the same instrument, so this
+is the source's lag and not a one-provider fault. The Treasury therefore carries Friday's close with
+Friday's move (+0.01), declared, exactly as this morning. Note .SPX and .VIX ARE live (12:42 EDT), so
+this is specific to the bond feed, not to US markets generally.
+
+*** BITCOIN: THE WEEKEND BASIS IS RETIRED TONIGHT, AND SAYING SO MATTERS ***
+Through Saturday, Sunday and this morning, bitcoin was measured against FRIDAY's close (82,322.43)
+because every other instrument on the ticker was shut and a Friday basis kept the series continuous.
+Normal sessions have now resumed, so each instrument reverts to its own previous close — which for
+bitcoin is Sunday's (83,618.42), giving 82,747.30 = -1.04%.
+On the retired Friday-close basis bitcoin would read +0.52% tonight. Both are defensible; what is not
+defensible is switching silently, so the change is recorded here. A reader comparing with this
+morning's +2.19 is seeing a basis change as well as a price fall.
+
+FTSE CROSS-CHECK: Trading Economics GB100 10,656.28 +0.99%, identical to CNBC to the penny, stamped
+Oct/12. The feed lag that affects the first half-hour after the open is absent at the close, for the
+seventh evening running — the diagnosis holds.
+
+PUBLISHED TICKER: FTSE 10,656.28 +0.99 | SP 7,809.56 -0.03 | Brent 106.68 +1.87 | GBP 1.3203 -0.21
+ | Gold 4,164.06 -0.71 | EURGBP 0.8448 -0.19 | Gilt 5.44 +0.02 | VIX 15.23 +2.63 | BTC 82,747 -1.04
+ | UST 5.24 +0.01
