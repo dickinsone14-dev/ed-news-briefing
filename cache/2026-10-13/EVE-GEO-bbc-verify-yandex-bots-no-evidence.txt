@@ -1,0 +1,36 @@
+https://www.bbc.co.uk/news/articles/c9y7l0pm8jkko
+
+HEADLINE: Is Zelensky right to say data centre strikes have taken down Russian bots?
+datePublished: 2026-10-13T13:27:31.595Z
+dateModified: 2026-10-13T13:27:31.595Z
+
+--- BODY ---
+ByRichard Irvine-Brown, Shayan Sardarizadeh and Adam Durbin, BBC VerifyPublished5 hours agoClaims that Ukrainian strikes on Russian data centres reduced Kremlin-linked bot networks have spread widely online, but experts have told BBC Verify there is no evidence the attacks have significantly reduced them.
+Viral social media posts have claimed there has been a significant drop in influence operations in recent days, with Ukrainian President Volodymyr Zelensky suggesting on Monday there was "less hate, less division and fewer provocations" online because of "fewer bots".
+Russian influence operations, which promote pro-Kremlin narratives and spread disinformation, have been tracked by researchers and journalists including BBC Verify for more than a decade.
+These campaigns push disinformation on to people's social media feeds on issues like the Ukraine war or post messages in support of Moscow's interests.
+Ukraine has struck three of Russian tech giant Yandex's five data centres since 8 October in response to Moscow's attacks on Ukrainian internet hubs.
+The second of these strikes on Thursday caused Yandex, often referred to as Russia's Google, to announce it was struggling to maintain its services.
+But claims these attacks have affected Russian disinformation operations, including accounts posting supportive messages about groups including the Make American Great Again (MAGA) movement in the US and the far-right AfD party in Germany, appear to have come from a misinterpretation of data produced by tech firm Cloudflare.
+Some social media users have been sharing charts of Cloudflare data which show bot activity using Yandex's network has declined.
+While bots are commonly associated with fake social media accounts that may post false, divisive and inflammatory content, they are also used to automate tasks like scanning web pages so they appear on search engines.
+Cloudflare clarified its data includes all automated internet requests to websites hosted on its network, including bots crawling websites for information.
+The company also said the drop off was "not necessarily bot behaviour on social media platforms".
+Tomáš Zdechovský, a Czech member of the European Parliament, shared a post on X which has been viewed more than four million times, that said: "If confirmed, this is telling: Russian data centres get hit, and online activity around AfD suddenly plummets."
+He has since said he "did not present it as a clear fact", but the post remains pinned at the top of his X profile.
+Researchers from dTeam, a US-based group that tracks Moscow-linked influence operations, told BBC Verify there has not been "any traffic change from known Russian accounts and bot clusters on any platform".
+They added that if the offices of known groups involved in these operations "were in flames then we would see a change".
+Bots linked to pro-Kremlin influence operations like Storm-1516 and Matryoshka - both of which BBC Verify has previously reported on - were still active on social media on Tuesday, evidence shared with BBC Verify by dTeam shows.
+Zelensky's office told BBC Verify the president was "talking about the atmosphere on social media" rather than a fall in bot activity. It added it had seen "reports of fewer provocative and hateful comments" from many social media users.
+Ukraine strikes Yandex data centre in third attack on Russian tech giant
+Published2 days agoRussian search engine Yandex struggles after Ukrainian strikes on data centres
+Published4 days agoIs Burnham right to blame Russia for spreading online disinformation?
+Published23 SeptemberMikhail Klimarev, an independent internet analyst, told BBC Russian that while Cloudflare can establish whether bots or real people have visited a website it does not reflect what these bots are doing.
+He added that Yandex uses bots to "essentially crawl the entire internet once a day" and index websites for search engine purposes, so it is most likely the company switched these off in response to its computing resources being severely degraded.
+Yandex has said the use of its cloud services for "large-scale manipulation on social media, spam and other improper activities" are against its rules and that accounts which violate this are blocked.
+While there is no evidence to conclude the strikes on Yandex's data centres have had an impact on Russia's influence operations, they have disrupted internet services for many.
+Isik Mater, director of research at the internet monitoring group Netblocks, told BBC Verify disruptions related to Ukrainian strikes "affect all users" globally and "websites which rely on Yandex may be partially or entirely unusable".
+She said that following Ukraine's attacks there has been a clear impact on the company's cloud services and platforms relying on them, adding that an entire area remaining "out of service indicates a significant infrastructure-level incident rather than a brief service interruption".
+Additional reporting by Paul Brown, BBC Verify, and Sergey Goryashko, BBC Russian
+Graphics by Tom Shiel
+What do you want BBC Verify to investigate?

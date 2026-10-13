@@ -1,0 +1,45 @@
+URL: (compiled) Tuesday 13 October 2026 EVENING ticker basis
+Primary: CNBC quote endpoint, read 19:25 BST. Cross-check: Trading Economics (UK 10Y, US 10Y, Brent, GB100).
+NOTE ON TIMING: this edition is late because the scheduled job hung for over an hour and was killed. The
+read is therefore nearly three hours after the London close rather than the usual one. Everything is live
+or closed; nothing is carried.
+
+*** THE GILT MADE A ROUND TRIP AND THIS MORNING'S FIGURE DID NOT SURVIVE THE DAY ***
+This morning's edition published the gilt at 5.38, down six basis points, and the drivers called it "the
+sharpest fall in weeks". By the close it is back at 5.4422. The fall was real when it was read at 07:53
+and the day erased it. That is the second time in two days an instrument has reversed between our own
+editions — Brent did the same thing on Monday — and the honest response is to say so rather than let the
+series look smooth.
+THE CHANGE IS GENUINELY DISPUTED, AND THE PROVIDERS NOW DISAGREE ON DIRECTION:
+  CNBC:              5.4422, change -0.0115 (on prev 5.4537)  -> -0.01
+  Trading Economics: 5.45,   day change +0.013               -> +0.01
+  Our own series:    5.4422 against Monday's post-close 5.4444 -> -0.0022 -> 0.00
+PUBLISHED: 5.44, change 0.00. The level is agreed to within a basis point and the change straddles zero,
+so claiming a direction either provider contradicts would be false precision. Note CNBC's previous_day_
+closing has drifted again — it read 5.4466 this morning and 5.4537 tonight for the same Monday close.
+That field has now been unusable for nine consecutive days.
+
+*** UST ***
+  CNBC: 5.219, -0.025 (prev 5.244) | Trading Economics: 5.23, -0.010 | Our series: 5.24 -> 5.22 = -0.02
+PUBLISHED: 5.22, -0.02 — our own series, sitting between the two providers, as this morning. The Treasury
+feed has stayed live all day after being stale through Monday.
+
+*** BRENT: RECOVERED THROUGH THE SESSION, STILL LOWER ON THE DAY ***
+Read 105.39 at 07:53 and 105.89 at 19:15, against Monday's 106.65. So crude fell early, clawed back about
+half of it, and still closed the day down 0.71%. The Houthis threatened Aramco facilities and Saudi
+airports this afternoon, which is the obvious candidate for the afternoon bid and which the world column
+carries.
+CROSS-CHECK: Trading Economics 105.82 -0.77% against CNBC 105.89 -0.71%. Agreement. WTI 94.26 +0.55%.
+
+*** EVERYTHING ELSE IS LIVE OR CLOSED ***
+FTSE closed 16:35 at 10,650.33, down 0.06%, giving back a little of Monday's 0.99% rise. Trading
+Economics gives GB100 at 10,650.33 -0.06%, identical to the penny.
+S&P 500 is a live intraday value at 7,804.03 with Wall Street open until 21:00 BST.
+Sterling is the day's mover: 1.3249, up 0.33%, its firmest reading since Friday, with the IMF upgrade and
+a gilt that finished where it started.
+Gold reversed: up 0.44% this morning, down 0.28% by the evening at 4,159.29. VIX 15.44, up 1.51%.
+Bitcoin 83,025, up 0.48% against Monday's close.
+
+PUBLISHED TICKER: FTSE 10,650.33 -0.06 | SP 7,804.03 -0.04 | Brent 105.89 -0.71 | GBP 1.3249 +0.33
+ | Gold 4,159.29 -0.28 | EURGBP 0.8446 +0.06 | Gilt 5.44 0.00 | VIX 15.44 +1.51 | BTC 83,025 +0.48
+ | UST 5.22 -0.02
