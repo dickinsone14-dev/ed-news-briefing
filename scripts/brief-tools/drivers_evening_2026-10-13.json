@@ -1,0 +1,52 @@
+{
+ "FTSE": {
+  "up": ["Still above 10,600 after Monday's 0.99% rise"],
+  "down": ["Closed a shade lower at 10,650.33, giving back a little of Monday's gain"],
+  "updated": "13 October 2026 __TIME__"
+ },
+ "SP": {
+  "up": ["Holding near 7,800 with Wall Street open until 21:00 BST"],
+  "down": ["Marginally lower at 7,804.03"],
+  "updated": "13 October 2026 __TIME__"
+ },
+ "Brent": {
+  "up": ["Recovered through the afternoon after the Houthis threatened Saudi oil facilities and airports"],
+  "down": ["Still down 0.71% on the day at $105.89, having read $105.39 this morning"],
+  "updated": "13 October 2026 __TIME__"
+ },
+ "GBP": {
+  "up": ["The day's mover, up 0.33% to 1.3249 after the IMF upgraded its growth forecast"],
+  "down": ["The Budget is fifteen days away"],
+  "updated": "13 October 2026 __TIME__"
+ },
+ "Gold": {
+  "up": ["Still above $4,150"],
+  "down": ["Reversed the morning's gain to finish 0.28% lower at $4,159.29"],
+  "updated": "13 October 2026 __TIME__"
+ },
+ "EURGBP": {
+  "up": ["Edged up to 0.8446"],
+  "down": ["Sterling a shade softer against the euro"],
+  "updated": "13 October 2026 __TIME__"
+ },
+ "Gilt": {
+  "up": ["Still near 5.44%, close to the highest since 2007, with the Budget to be funded"],
+  "down": ["Flat on the day: it fell about six basis points this morning and recovered all of it by the close"],
+  "updated": "13 October 2026 __TIME__ (providers disagree on the sign of a change smaller than two basis points)"
+ },
+ "VIX": {
+  "up": ["Up 1.51% to 15.44 as the Gulf threats widened to oil facilities"],
+  "down": ["Still below 16"],
+  "updated": "13 October 2026 __TIME__"
+ },
+ "BTC": {
+  "up": ["Up 0.48% to $83,025 against Monday's close"],
+  "down": ["Still short of the weekend high"],
+  "updated": "13 October 2026 __TIME__"
+ },
+ "UST": {
+  "up": ["Backed up from the morning's low, having read 5.19% at the open"],
+  "down": ["Down about two basis points on the day at 5.22%"],
+  "updated": "13 October 2026 __TIME__"
+ }
+}
