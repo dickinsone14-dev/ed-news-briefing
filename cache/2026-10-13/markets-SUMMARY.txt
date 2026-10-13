@@ -1,0 +1,73 @@
+URL: (compiled) Tuesday 13 October 2026 MORNING ticker basis
+Primary: CNBC quote endpoint, read 07:53 BST. Cross-check: Trading Economics (UK 10Y, US 10Y, Brent).
+
+*** THE BOND FEED HAS UNSTUCK, AND THE BOND MOVE IS THE STORY ***
+For the whole of yesterday both CNBC and Trading Economics served Friday's stamp on US Treasuries. This
+morning US10Y is live at 02:52 EDT and US30Y with it. The lag was the source's, on both providers at once,
+and it has cleared on both at once.
+What it reveals is a sharp rally in government bonds overnight:
+  Gilt  5.4444 (Mon post-close) -> 5.3772   = about -7bp
+  UST   5.244 (CNBC prev)       -> 5.185    = about -6bp
+  US30Y 5.599                   -> 5.543    = about -6bp
+Yields falling this hard, with gold up 0.44% and Brent down 1.18%, is a growth-concern rotation rather
+than a risk-on one. The IMF's forecasts land today, which is the obvious candidate, and the UK column
+carries them.
+
+*** GILT: THE PROVIDERS DISAGREE ON THE CHANGE, SO THE BASIS IS DECLARED ***
+Level is agreed: CNBC 5.3772, Trading Economics 5.38, both stamped today. The change is not:
+  CNBC:                -0.0694 (on prev 5.4466)  -> -0.07
+  Trading Economics:   -0.061                     -> -0.06
+  Our own series:      5.38 against last night's published 5.44 -> -0.06
+PUBLISHED: -0.06. Two reasons. First, a reader comparing last night's ticker with this one computes -0.06,
+and our series should be internally consistent. Second, TE independently gives -0.061. CNBC's -0.0694
+rests on a prev of 5.4466, which is 2bp above the 5.4444 actually read after the cash close yesterday —
+so CNBC's prev field is once again not a clean close, for the eighth consecutive day. The rule established
+on Monday holds: take the level from the post-17:00 read, corroborate the change with TE, and when they
+disagree prefer the figure consistent with our own published series. The discrepancy is 1bp and is
+recorded here rather than hidden.
+
+*** UST: SAME TREATMENT ***
+  CNBC: -0.059 (prev 5.244)  |  Trading Economics: -0.042  |  Our series: 5.19 against 5.24 = -0.05
+PUBLISHED: -0.05, which is our own series and sits between the two providers. Note last night's 5.24 was
+itself Friday's close carried forward because the feed was stale, so this is the first genuine Treasury
+move the ticker has shown since Friday.
+
+*** PRE-OPEN: THREE INSTRUMENTS CARRY MONDAY'S CLOSES ***
+FTSE, S&P 500 and VIX are read before the London open and before Wall Street, so they carry Monday's
+closes with Monday's session moves, declared:
+  FTSE  10,656.28 +0.99  (unchanged from last night; the feed lag in the first half-hour is well
+                          established and Trading Economics is not a usable second provider pre-open)
+  SP     7,807.24 -0.06  (Monday's CLOSE. Last night published 7,809.56, an intraday value read at
+                          17:42 while Wall Street was open. The two are not comparable and the close
+                          is the right figure now.)
+  VIX       15.21 +2.49  (Monday's close against Friday's 14.84. Last night published 15.23 intraday.
+                          CNBC reports the change as UNCH because its prev field equals its last; the
+                          move against Friday is computed here so the lagged instruments share a basis.)
+
+LIVE this morning: Brent 105.39 -1.18 (stamped 07:43) | GBP 1.3222 +0.12 | Gold 4,189.52 +0.44
+ | EURGBP 0.8449 +0.09 | Gilt 5.38 -0.06 | BTC 83,667 +1.26 | UST 5.19 -0.05
+
+BRENT: giving back about two thirds of yesterday's surge. Monday closed 106.65 after the Hormuz tanker
+strikes; this morning 105.39. The premium that took a full session to arrive is already eroding, which is
+worth saying plainly after yesterday's two editions moved in opposite directions on this instrument.
+CROSS-CHECK: Trading Economics 105.34 -1.23% against CNBC 105.39 -1.18%. Agreement. WTI 92.41 -1.42%.
+
+BITCOIN: 83,667 against Monday's close of 82,625.12 = +1.26. The weekend's Friday-close basis was retired
+last night and each instrument is now measured against its own previous close, as normal.
+
+PUBLISHED TICKER: FTSE 10,656.28 +0.99 | SP 7,807.24 -0.06 | Brent 105.39 -1.18 | GBP 1.3222 +0.12
+ | Gold 4,189.52 +0.44 | EURGBP 0.8449 +0.09 | Gilt 5.38 -0.06 | VIX 15.21 +2.49 | BTC 83,667 +1.26
+ | UST 5.19 -0.05
+
+*** CONTEXT WORTH RECORDING: THE IMF WARNED OF A YIELD SPIKE ON THE MORNING YIELDS FELL ***
+The IMF's Global Financial Stability Report, released today at the Bangkok annual meetings, warns that
+sovereign bond yields could rise "in a disorderly fashion" as inflation, debt and AI-related borrowing
+press on the market, and that the "impact could be severe given the foundational importance of sovereign
+bond markets". It notes yields in several advanced economies are already at multidecade highs, driven
+partly by Middle East energy costs, and that hyperscalers now account for about 10% of global
+investment-grade bond issuance — AI firms competing with governments for the same investor demand.
+This morning gilts fell about 6bp and Treasuries about 5bp, which is the opposite direction. That is NOT
+a contradiction and must not be written as one: the fund is pricing a risk, not forecasting a session.
+But it is the reason to be careful with the ticker drivers — a one-day rally in a yield that remains near
+its highest since 2007 is not a trend, and the drivers say "the sharpest fall in weeks" rather than
+anything about direction from here.

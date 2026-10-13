@@ -2,6 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-10-13-morning/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-13T08:14:00+01:00</news:publication_date>
+      <news:title>Morning Briefing — Tuesday 13 October 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-10-13-morning/riyadh-targeted-a-third-night-running/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-13T08:14:00+01:00</news:publication_date>
+      <news:title>Riyadh Targeted a Third Night as Houthis Threaten America</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-10-13-morning/trump-insists-the-ceasefire-he-announced-holds/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-13T08:14:00+01:00</news:publication_date>
+      <news:title>Trump Insists the Ceasefire He Announced Is Holding</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-10-13-morning/sacked-ukrainian-commander-breaks-his-silence/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-13T08:14:00+01:00</news:publication_date>
+      <news:title>Sacked Ukrainian Commander Says Russia Cannot Advance</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-10-13-morning/the-only-region-forecast-to-shrink-this-year/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-13T08:14:00+01:00</news:publication_date>
+      <news:title>The Only Region in the World Forecast to Shrink</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-10-13-morning/five-dead-as-two-storms-hit-mexicos-coast/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-13T08:14:00+01:00</news:publication_date>
+      <news:title>Five Dead as Two Storms Hit Mexico’s Pacific Coast</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-10-13-morning/imf-upgrades-growth-and-warns-on-inflation/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-13T08:14:00+01:00</news:publication_date>
+      <news:title>Fund Upgrades Growth and Warns on Inflation</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-10-13-morning/six-hundred-more-prisoners-released-today/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-13T08:14:00+01:00</news:publication_date>
+      <news:title>Six Hundred More Prisoners Released Early Today</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-10-13-morning/send-deficits-forecast-to-reach-ten-billion/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-13T08:14:00+01:00</news:publication_date>
+      <news:title>Council Deficits on Special Needs Forecast to Reach £10bn</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-10-13-morning/heating-oil-households-face-winter-without-a-cap/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-13T08:14:00+01:00</news:publication_date>
+      <news:title>Heating Oil Households Face Winter Without a Cap</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-10-13-morning/violence-plans-shelved-on-cost-inquiry-told/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-13T08:14:00+01:00</news:publication_date>
+      <news:title>Violence Plans Shelved on Cost, Southport Inquiry Told</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-10-12-evening/</loc>
     <news:news>
       <news:publication>

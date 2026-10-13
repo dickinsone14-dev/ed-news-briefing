@@ -1,0 +1,52 @@
+{
+ "FTSE": {
+  "up": ["Closed Monday 0.99% higher at 10,656.28, its second strong session running"],
+  "down": ["Reopening into a bond rally and an International Monetary Fund forecast landing today"],
+  "updated": "13 October 2026 __TIME__ (read before the London open; Monday's close with Monday's move)"
+ },
+ "SP": {
+  "up": ["Holding near 7,800 with Wall Street shut until 14:30 BST"],
+  "down": ["Closed Monday a shade lower at 7,807.24"],
+  "updated": "13 October 2026 __TIME__ (Monday's close; Wall Street opens 14:30 BST)"
+ },
+ "Brent": {
+  "up": ["Riyadh has been targeted for a third consecutive day and its airport has halted flights"],
+  "down": ["Down 1.18% to $105.39, giving back about two thirds of Monday's surge", "The Hormuz premium took a full session to arrive and is already eroding"],
+  "updated": "13 October 2026 __TIME__"
+ },
+ "GBP": {
+  "up": ["Firmer at 1.3222 as gilt yields fall and the IMF upgrades its growth forecast"],
+  "down": ["The Budget is fifteen days away"],
+  "updated": "13 October 2026 __TIME__"
+ },
+ "Gold": {
+  "up": ["Up 0.44% to $4,189.52 as bond yields fall and growth worries build"],
+  "down": ["Still shy of last week's high"],
+  "updated": "13 October 2026 __TIME__"
+ },
+ "EURGBP": {
+  "up": ["Edged up to 0.8449"],
+  "down": ["Sterling softer against the euro after three firmer sessions"],
+  "updated": "13 October 2026 __TIME__"
+ },
+ "Gilt": {
+  "up": ["Still above 5.3%, with the Budget to be funded"],
+  "down": ["Down about six basis points to 5.38%, the sharpest fall in weeks"],
+  "updated": "13 October 2026 __TIME__"
+ },
+ "VIX": {
+  "up": ["Closed Monday at 15.21, up 2.49% on Friday as the Gulf repriced"],
+  "down": ["Still below 16, so this remains a nudge rather than a scare"],
+  "updated": "13 October 2026 __TIME__ (Monday's close; Wall Street opens 14:30 BST)"
+ },
+ "BTC": {
+  "up": ["Up 1.26% to $83,667, recovering Monday's fall"],
+  "down": ["Still below the weekend high"],
+  "updated": "13 October 2026 __TIME__"
+ },
+ "UST": {
+  "up": ["The feed is live again after serving Friday's level for a full day"],
+  "down": ["Down about five basis points to 5.19%, the first genuine move the ticker has shown since Friday"],
+  "updated": "13 October 2026 __TIME__"
+ }
+}

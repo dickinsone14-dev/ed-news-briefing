@@ -1,0 +1,29 @@
+https://www.aljazeera.com/economy/2026/10/13/ai-could-self-replicate-on-home-devices-within-months-anthropic-says
+=== HTTP/SIZE: 205338
+---
+LD:headline: AI could self-replicate on home devices within ‘months’, Anthropic says
+LD:datePublished: 2026-10-13T04:47:00Z
+LD:dateModified: 2026-10-13T04:47:00Z
+LD:description: US tech giant says small AI models may soon be capable of self-replication without access to a data centre.
+LD:author: {"@type": "Person", "name": "John Power", "url": "https://www.aljazeera.com/author/powerj"}
+LD:publisher: {"@id": "https://www.aljazeera.com#Organization"}
+---
+---
+LD:description: US tech giant says small AI models may soon be capable of self-replication without access to a data centre.
+LD:publisher: {"@id": "https://www.aljazeera.com#Organization"}
+---
+---
+META:og:title: AI could self-replicate on home devices within ‘months’, Anthropic says
+META:og:description: US tech giant says small AI models may soon be capable of self-replication without access to a data centre.
+=== BODY ===
+Small artificial intelligence models could soon begin self-replicating on everyday consumer products such as smart TVs and fridges, without needing a data centre, according to researchers at AI giant Anthropic.
+In a report released on Monday, the researchers said small AI models “may be months away from being capable enough” to copy themselves on internet of things (IoT) devices used in homes and small businesses.
+Poland says two Turks arrested over Russia-linked Starlink station fire
+US archbishop says Catholics in army should not participate in firing squad
+Two deaths reported as Hurricane Simon, storm Rachel batter Mexico’s coast
+Houthi missile attack targets Saudi capital Riyadh for third day in a row
+Anthropic’s frontier red team, which ran experiments using multiple US- and Chinese-developed AI models, said such self-replicating AI would be “challenging to shut down” due to the lack of a centralised host.
+While data centres would be “a clear, high-value target” for AI worms, internet-connected devices like smart TVs, fridges, ovens and lawnmowers could soon also provide sufficient computing power for self-replication, the research team said.
+Although no current AI model proved to be both powerful and small enough to self-replicate reliably on a smart TV used in testing, the trend in development makes the emergence of such a model likely by the end of 2026, the researchers said.
+“Home and small business IoT devices might be the first target for such attacks because they’re connected to the internet and, historically, have had minimal security measures in place,” researchers William Zhou and Daniel Freeman said.
+The researchers said they anticipated the future would be “awash with agents running on all types of hardware”, including some that “aren’t under human control”.
