@@ -1,0 +1,393 @@
+URL: https://www.theguardian.com/politics/live/2026/oct/14/pmqs-andy-burnham-kemi-badenoch-zelenskyy-uk-politics-latest-news
+(The Guardian live blog, Andrew Sparrow, 14 Oct; full page text)
+
+Zelenskyy says he will be discussing intelligence sharing ‘difficulties’ and Starlink access with Burnham
+
+Close dialogue1/7Next imagePrevious imageToggle captionSkip to key eventsPrint subscriptionsSearch jobs Sign in document.addEventListener('DOMContentLoaded', function () {
+
+					/** The checkbox input element used to toggle the navigation menu. */
+					const navInputCheckbox = document.getElementById('header-nav-input-checkbox');
+
+					/** The veggie burger button element used to open/close the menu. */
+					const veggieBurger = document.getElementById('header-veggie-burger');
+
+					/** List of menu items that should be selectable when the menu is open. */
+					const expandedMenuClickableTags = document.querySelectorAll(
+						'.selectableMenuItem',
+					);
+
+					/** The root element of the expanded menu. */
+					const expandedMenu = document.getElementById('header-expanded-menu-root');
+
+					/** The label for the first column in the menu, assumed to be "News".*/
+					const firstColLabel = document.getElementById('News-button');
+
+					/** The link element in the second list item under news links. */
+					const firstColLink = document.querySelector(
+						'#newsLinks > li:nth-of-type(2) > a',
+					);
+
+					/**
+					 * Focuses on the first navigation element depending on whether the first column label is visible.
+					 *
+					 * If the first column label is not visible, the function focuses on the first link element.
+					 * Otherwise, it focuses on the first column label.
+					 */
+					const focusOnFirstNavElement = () => {
+						if (window.getComputedStyle(firstColLabel).display === 'none') {
+							firstColLink.focus();
+						} else {
+							firstColLabel.focus();
+						}
+					};
+
+					/**
+					 * Updates ARIA attributes and tabindex values based on whether the menu is open or closed.
+					 */
+					const updateAttributesForMenu = (isOpen) => {
+						firstColLabel.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+						veggieBurger.setAttribute(
+							'data-link-name',
+							isOpen
+								? 'header : veggie-burger : hide'
+								: 'header : veggie-burger : show',
+						);
+						expandedMenuClickableTags.forEach((tag) => {
+							tag.setAttribute('tabindex', isOpen ? '0' : '-1');
+						});
+					};
+
+					/** Toggles the navigation menu by simulating a click on the checkbox. */
+					const toggleMainMenu = () => {
+						if (navInputCheckbox) {
+							navInputCheckbox.click();
+						}
+					};
+
+					/**
+					 * Handles keydown events to toggle the menu when the Enter or Space key is pressed.
+					 */
+					const keydownToggleMainMenu = (e) => {
+						if (e.key === 'Enter' || e.key === ' ') {
+							e.preventDefault();
+							toggleMainMenu();
+						}
+					};
+					/**
+					 * Handles click events to manage the state of the navigation menu.
+					 *
+					 * - Toggles the menu open/close state when the menu button (veggieBurger) is clicked.
+					 */
+						const handleMenuClick = (e) => {
+							const menuButtonClicked = navInputCheckbox === e.target;
+							const clickInsideMenu = expandedMenu.contains(e.target);
+							const menuIsOpen = navInputCheckbox.checked
+							if (menuButtonClicked && !menuIsOpen) {
+						    document.body.classList.toggle('nav-is-open')
+
+							firstColLabel.setAttribute('aria-expanded', 'false')
+                            veggieBurger.setAttribute('data-link-name','header : veggie-burger : show')
+                            expandedMenuClickableTags.forEach(function($selectableElement){
+                                $selectableElement.setAttribute('tabindex','-1')
+                            })
+                          } else if (menuButtonClicked && menuIsOpen) {
+						    document.body.classList.toggle('nav-is-open')
+							firstColLabel.setAttribute('aria-expanded', 'true')
+                            veggieBurger.setAttribute('data-link-name','header : veggie-burger : hide')
+                            expandedMenuClickableTags.forEach(function($selectableElement){
+                                $selectableElement.setAttribute('tabindex','0')
+                            })
+                            focusOnFirstNavElement()
+							}
+						};
+
+					/** Adds event listeners to manage the navigation menu. */
+					if (navInputCheckbox) {
+						navInputCheckbox.addEventListener('click', handleMenuClick);
+						veggieBurger.addEventListener('keydown', keydownToggleMainMenu);
+						document.addEventListener('keydown', (e) => {
+							if (e.key === 'Escape' && navInputCheckbox.checked) {
+								toggleMainMenu();
+								veggieBurger.focus();
+							}
+						});
+					/**
+					 * Handles mouse down events to manage the state of the navigation menu.
+					 *
+					 * - Closes the menu if the click occurs outside both the menu button and the expanded menu.
+					 */
+					document.addEventListener('mousedown', function(e){
+						if(navInputCheckbox.checked && !expandedMenu.contains(e.target) && !veggieBurger.contains(e.target)){
+						toggleMainMenu()
+							}
+						});
+					}
+				});UKUK editionUS editionAustralia editionEurope editionInternational editionThe Guardian - Back to homeThe GuardianNewsOpinionSportCultureLifestyleShow moreHide expanded menudocument.addEventListener('DOMContentLoaded', function(){
+                        var columnInput = document.getElementById('News-button');
+
+						if (!columnInput) return; // Sticky nav replaces the nav so element no longer exists for users in test.
+
+						columnInput.addEventListener('keydown', function(e){
+                            // keyCode: 13 => Enter key | keyCode: 32 => Space key
+                            if (e.keyCode === 13 || e.keyCode === 32) {
+                                e.preventDefault()
+                                document.getElementById('News-checkbox-input').click();
+                            }
+                        })
+                    })NewsView all NewsUK newsUS politicsWorld newsClimate crisisMiddle EastUkraineFootballNewslettersBusinessEnvironmentUK politicsScienceTechGlobal developmentObituariesdocument.addEventListener('DOMContentLoaded', function(){
+                        var columnInput = document.getElementById('Opinion-button');
+
+						if (!columnInput) return; // Sticky nav replaces the nav so element no longer exists for users in test.
+
+						columnInput.addEventListener('keydown', function(e){
+                            // keyCode: 13 => Enter key | keyCode: 32 => Space key
+                            if (e.keyCode === 13 || e.keyCode === 32) {
+                                e.preventDefault()
+                                document.getElementById('Opinion-checkbox-input').click();
+                            }
+                        })
+                    })OpinionView all OpinionThe Guardian viewColumnistsCartoonsOpinion videosLettersdocument.addEventListener('DOMContentLoaded', function(){
+                        var columnInput = document.getElementById('Sport-button');
+
+						if (!columnInput) return; // Sticky nav replaces the nav so element no longer exists for users in test.
+
+						columnInput.addEventListener('keydown', function(e){
+                            // keyCode: 13 => Enter key | keyCode: 32 => Space key
+                            if (e.keyCode === 13 || e.keyCode === 32) {
+                                e.preventDefault()
+                                document.getElementById('Sport-checkbox-input').click();
+                            }
+                        })
+                    })SportView all SportFootballCricketRugby unionTennisCyclingF1GolfBoxingRugby leagueRacingUS sportsdocument.addEventListener('DOMContentLoaded', function(){
+                        var columnInput = document.getElementById('Culture-button');
+
+						if (!columnInput) return; // Sticky nav replaces the nav so element no longer exists for users in test.
+
+						columnInput.addEventListener('keydown', function(e){
+                            // keyCode: 13 => Enter key | keyCode: 32 => Space key
+                            if (e.keyCode === 13 || e.keyCode === 32) {
+                                e.preventDefault()
+                                document.getElementById('Culture-checkbox-input').click();
+                            }
+                        })
+                    })CultureView all CultureFilmMusicTV & radioBooksArt & designStageGamesClassicaldocument.addEventListener('DOMContentLoaded', function(){
+                        var columnInput = document.getElementById('Lifestyle-button');
+
+						if (!columnInput) return; // Sticky nav replaces the nav so element no longer exists for users in test.
+
+						columnInput.addEventListener('keydown', function(e){
+                            // keyCode: 13 => Enter key | keyCode: 32 => Space key
+                            if (e.keyCode === 13 || e.keyCode === 32) {
+                                e.preventDefault()
+                                document.getElementById('Lifestyle-checkbox-input').click();
+                            }
+                        })
+                    })LifestyleView all LifestyleThe FilterFashionFoodRecipesTravelHealth & fitnessWomenMenLove & sexBeautyHome & gardenMoneyCarsSearch input google-search SearchSupport usPrint subscriptionsSearch jobsHire with Guardian JobsHolidaysLive eventsAbout UsDigital ArchiveGuardian Print ShopPatronsGuardian LicensingThe Guardian appVideoPodcastsPicturesNewslettersToday's paperInside the GuardianGuardian WeeklyCrosswordsWordiplyCorrectionsTipsSearch input google-search SearchSearch jobsHire with Guardian JobsHolidaysLive eventsAbout UsDigital ArchiveGuardian Print ShopPatronsGuardian LicensingUKUK politicsEducationMediaSocietyLawScotlandWalesNorthern IrelandPolitics live with Andrew SparrowPoliticsBurnham tells Zelenskyy’s UK’s support for Ukraine ‘will not change’ – UK politics liveZelenskyy says he will be discussing intelligence sharing ‘difficulties’ and Starlink access with Burnham
+
+Key events7m agoGovernment says 900,000 people could get stronger rights under crackdown on bogus self-employment loopholes24m agoZelenskyy says he will be discussing intelligence sharing 'difficulties' and Starlink access with Burnham40m agoBurnham praises Zelenskyy for showing 'leadership' after Trump's energy ceasefire comment1h agoBurnham tells Zelenskyy's UK's support for Ukraine 'will not change'1h agoBurnham welcomes Zelenskyy to Downing Street2h agoKing Charles meets Zelenskyy, before Ukrainian president's meeting with Burnham2h agoEnergy secretary Miatta Fahnbulleh says decision on whether to allow Jackdaw gasfield 'imminent'2h agoGreen leader Zack Polanski hits back at Burnham after PM says party's Zionism motion 'antisemitic'3h agoSNP to launch biggest pro-independence campaign since 2014, John Swinney says4h agoTories blame 'source error' for Badenoch's Right Way policy document overstating cost of net zero by almost £500bn4h agoPMQs - snap verdict5h agoBurnham rules out Labour doing any deals with Greens as he condemns 'Zionism is racism' policy as 'antisemitic'5h agoBurnham urges Nigel Farage to accept small boat crossings coming down5h agoBurnham declines invitation from Ed Davey to agree Trump has committed 'shameful betrayal of Ukrainian people'5h agoBurnham says further cross-party talks on social care reform to take place soon, 'hopefully within next month'5h agoBurnham praises Badenoch for her Tory conference speech attack on Reform UK's ethnonationalism6h agoBurnham dismisses Badenoch's claim he was criticised by MI5 chief in speech yesterday6h agoBurnham defends comment saying Russia interfered in Brexit referendum6h agoBurnham says no one from Manchester City raised with him charges it was facing from Premier League6h agoBurnham faces Badenoch at PMQs6h agoReform UK hits back at Badenoch in Chagos Islands row, accusing her of upsetting Washington6h agoObama in Belfast says Good Friday agreement shows how peace and democracy 'not inevitable', and 'have to be chosen'7h agoFarage says charities that help asylum seekers get to UK should be prosecuted7h agoLib Dem MPs' meeting 'mostly show of strength' for Ed Davey, MP says8h agoWhat Badenoch/Farage Chagos row reveals about contest between Tories and Reform UK8h agoBadenoch and Farage in bitter spat over Chagos Islands, as she calls his offer to Trump 'humiliating'9h agoBurnham says UK to increase supply of anti-drone missiles to Ukraine, ahead of PMQs and Zelenskyy meeting Burnham welcomes Zelenskyy to Downing Street. Photograph: Hannah McKay/AFP/Getty ImagesView image in fullscreenBurnham welcomes Zelenskyy to Downing Street. Photograph: Hannah McKay/AFP/Getty ImagesAndrew SparrowWed 14 Oct 2026 17.48 BSTFirst published on Wed 14 Oct 2026 09.00 BSTShareFrom 40m ago17.15 BSTBurnham praises Zelenskyy for showing 'leadership' after Trump's energy ceasefire commentHere are fuller quotes from the public statements by Andy Burnham and Volodymyr Zelenskyy before their main meeting.
+
+double quotation markMr President, it’s a great privilege for me to welcome you to Downing Street today. And you’ve just seen the reaction [a reference to the crowd cheering as he arrived]. Obviously, you’ve seen the solidarity and the support you’ve got from everybody here in Britain. We’re behind you. And that will not change.
+
+We know that the last few days, the last few hours, have been very dark and difficult days for Ukraine. We know that the country sustained heavy bombardments in the last 24 hours in Kyiv, particularly. And we would want to extend our condolences to all of those people in Ukraine who’ve lost loved ones as a result of what has been happening.
+
+President Trump made a call at the weekend for an energy ceasefire. And, Volodymyr, you have shown your leadership in saying that you would be prepared to sit down and discuss what that looks like, to make sure we protect people from a very harsh winter that lies ahead in Ukraine.
+
+Sadly, what we have seen from Russia is further attacks on critical national infrastructure in Ukraine. It’s clear to the world, again, who the aggressor is in this conflict.
+
+However, in these moments, Britain will continue to provide you with whatever support that we can. And today I’m announcing that we are accelerating the delivery of British-made air defences for you, and we will make sure that they’re in place as soon as possible. (See 9am.)
+
+I’ve also asked all of our ministers here in the government to do whatever they can, extra, to support you, and they are looking at all possible avenues …
+
+All of the people of Ukraine have our support. There are such connections between our two countries. We will forever stand by you through this difficult time.
+
+Andy Burnham (right) with Volodymyr Zelenskyy in Downing Street. Photograph: Henry Nicholls/PAShareKey events7m agoGovernment says 900,000 people could get stronger rights under crackdown on bogus self-employment loopholes24m agoZelenskyy says he will be discussing intelligence sharing 'difficulties' and Starlink access with Burnham40m agoBurnham praises Zelenskyy for showing 'leadership' after Trump's energy ceasefire comment1h agoBurnham tells Zelenskyy's UK's support for Ukraine 'will not change'1h agoBurnham welcomes Zelenskyy to Downing Street2h agoKing Charles meets Zelenskyy, before Ukrainian president's meeting with Burnham2h agoEnergy secretary Miatta Fahnbulleh says decision on whether to allow Jackdaw gasfield 'imminent'2h agoGreen leader Zack Polanski hits back at Burnham after PM says party's Zionism motion 'antisemitic'3h agoSNP to launch biggest pro-independence campaign since 2014, John Swinney says4h agoTories blame 'source error' for Badenoch's Right Way policy document overstating cost of net zero by almost £500bn4h agoPMQs - snap verdict5h agoBurnham rules out Labour doing any deals with Greens as he condemns 'Zionism is racism' policy as 'antisemitic'5h agoBurnham urges Nigel Farage to accept small boat crossings coming down5h agoBurnham declines invitation from Ed Davey to agree Trump has committed 'shameful betrayal of Ukrainian people'5h agoBurnham says further cross-party talks on social care reform to take place soon, 'hopefully within next month'5h agoBurnham praises Badenoch for her Tory conference speech attack on Reform UK's ethnonationalism6h agoBurnham dismisses Badenoch's claim he was criticised by MI5 chief in speech yesterday6h agoBurnham defends comment saying Russia interfered in Brexit referendum6h agoBurnham says no one from Manchester City raised with him charges it was facing from Premier League6h agoBurnham faces Badenoch at PMQs6h agoReform UK hits back at Badenoch in Chagos Islands row, accusing her of upsetting Washington6h agoObama in Belfast says Good Friday agreement shows how peace and democracy 'not inevitable', and 'have to be chosen'7h agoFarage says charities that help asylum seekers get to UK should be prosecuted7h agoLib Dem MPs' meeting 'mostly show of strength' for Ed Davey, MP says8h agoWhat Badenoch/Farage Chagos row reveals about contest between Tories and Reform UK8h agoBadenoch and Farage in bitter spat over Chagos Islands, as she calls his offer to Trump 'humiliating'9h agoBurnham says UK to increase supply of anti-drone missiles to Ukraine, ahead of PMQs and Zelenskyy meeting7m ago17.48 BSTGovernment says 900,000 people could get stronger rights under crackdown on bogus self-employment loopholesJonathan Reynolds, the business secretary, has told published a consultation paper on employment status reform. This sets out how the government proposes to implement plans he announced at Labour conference to close the “bogus self-employment loopholes” that deny workers basic rights.
+
+Explaining the plans, the Department for Business, Innovation, Science and Trade says:
+
+double quotation markBogus self-employment is a practice whereby some businesses mislabel staff as self-employed to avoid statutory obligations.
+
+However, the day-to-day reality is that many of these people are treated as workers, not self-employed. External estimates suggest that as many as 900,000 people may currently be affected by this and could be missing out on core employment rights.
+
+The proposals to be consulted on could provide greater clarity to businesses and workers, levelling the playing field for those businesses who are already doing the right thing and clamping down on abuses. This could help workers such as parcel couriers, delivery drivers, hairdressers and gig economy workers.
+
+But, in a good article on this topic for LabourList, Tom Berger points out that the plans don’t include a firm commitment to create a single status of worker in employment law – something that in opposition the party did commit to.
+
+Meri Ahlberg, a senior policy adviser at the Joseph Rowntree Foundation, a thinktank that has argued for employment status reform, said:
+
+double quotation markThe measures in the government’s consultation are a step forward for making sure people have the rights and protections everyone deserves. But without putting single worker status and tax reform on the table for the near future, it will still be cheaper to employ people in less secure jobs and millions of workers will be left without sick pay and parental pay. It’s time basic protections were in place for everyone, however they work, and that existing protections are enforced properly.
+
+24m ago17.31 BSTZelenskyy says he will be discussing intelligence sharing 'difficulties' and Starlink access with BurnhamAnd this is what Volodymyr Zelenskyy, the Ukrainian president, said in reply to Andy Burnham.
+
+double quotation markWe are very thankful, all our people in Ukraine, we absolutely thankful to your nation. You are strong people, a very supportive nation …
+
+[This is a] terrible war. Absolutely terrible as.
+
+Zelenskyy said Ukraine was being attacked by ballistic missiles and hundreds of Iranian drones.
+
+There was no energy ceasefire, he said. It looked like “escalation from Russian side”.
+
+He said he wanted the war to stop.
+
+double quotation markWe have massive attacks today, and it’s a pity that we had also some difficulties. What I want to discuss with Andy – about Starlink and about intelligence. There are lot of different surprises on which you can’t count.
+
+He said UK was one of Ukraine’s strongest partners.
+
+A reporter asked Zelenskyy if he could confirm that the US had stopped sharing intelligence with Ukraine, and if it had slowed down Starlink – meaning Ukrainian weapons lose access to the internet at very high speeds (making them inoperable). Zelenskyy did not answer.
+
+View image in fullscreenVolodymyr Zelenskyy in Downing Street. Photograph: Henry Nicholls/PAShare40m ago17.15 BSTBurnham praises Zelenskyy for showing 'leadership' after Trump's energy ceasefire commentHere are fuller quotes from the public statements by Andy Burnham and Volodymyr Zelenskyy before their main meeting.
+
+double quotation markMr President, it’s a great privilege for me to welcome you to Downing Street today. And you’ve just seen the reaction [a reference to the crowd cheering as he arrived]. Obviously, you’ve seen the solidarity and the support you’ve got from everybody here in Britain. We’re behind you. And that will not change.
+
+We know that the last few days, the last few hours, have been very dark and difficult days for Ukraine. We know that the country sustained heavy bombardments in the last 24 hours in Kyiv, particularly. And we would want to extend our condolences to all of those people in Ukraine who’ve lost loved ones as a result of what has been happening.
+
+President Trump made a call at the weekend for an energy ceasefire. And, Volodymyr, you have shown your leadership in saying that you would be prepared to sit down and discuss what that looks like, to make sure we protect people from a very harsh winter that lies ahead in Ukraine.
+
+Sadly, what we have seen from Russia is further attacks on critical national infrastructure in Ukraine. It’s clear to the world, again, who the aggressor is in this conflict.
+
+However, in these moments, Britain will continue to provide you with whatever support that we can. And today I’m announcing that we are accelerating the delivery of British-made air defences for you, and we will make sure that they’re in place as soon as possible. (See 9am.)
+
+I’ve also asked all of our ministers here in the government to do whatever they can, extra, to support you, and they are looking at all possible avenues …
+
+All of the people of Ukraine have our support. There are such connections between our two countries. We will forever stand by you through this difficult time.
+
+View image in fullscreenAndy Burnham (right) with Volodymyr Zelenskyy in Downing Street. Photograph: Henry Nicholls/PAShare1h ago16.59 BSTBurnham tells Zelenskyy's UK's support for Ukraine 'will not change'Andy Burnham told Volodymyr Zelenskyy Britain’s support for Ukraine “will not change”, as he welcomed the leader to Downing Street.
+
+In public remarks before their main meeting got under way, Burnham said:
+
+double quotation markYou have seen the solidarity and the support you have got from everybody here in Britain. We are behind you and that will not change.
+
+He added that recent days had been “dark and difficult” for Ukraine, which has suffered “heavy bombardment in the last 24 hours”, and he extending the UK’s condolences to those who had lost loved ones.
+
+Burnham said Zelenskyy was “prepared to sit down and discuss” the energy ceasefire proposed by Donald Trump, but added: “Sadly, what we have seen from Russia is further attacks on critical national infrastructure in Ukraine.”
+
+double quotation markIn these moments, Britain will continue to provide you with whatever support we can.
+
+Zelenskyy said he was “thankful” for British support, saying:
+
+double quotation markOur people, we survived and continue to do this because we have strong partners and I’m very proud that we have one of the strongest partners in our history and it’s your people, Andy.
+
+1h ago16.35 BSTBurnham welcomes Zelenskyy to Downing StreetAndy Burnham has welcomed President Zelenskyy to Downing Street.
+
+As they posed for pictures outside No 10, there was a loud cheer from Foreign Office staff who were there watching. (The Foreign Office is next door to Downing Street.)
+
+View image in fullscreenAndy Burnham welcoming President of Ukraine Volodymyr Zelenskyy. Photograph: Jordan Pettitt/PAShare2h ago16.20 BSTView image in fullscreenCeremonial guard in Downing Street waiting for President Zelenskyy Photograph: Sky NewsShare2h ago16.18 BSTKing Charles meets Zelenskyy, before Ukrainian president's meeting with BurnhamAnother ‘show of support’ feature of President Zelenskyy’s visit is the fact that he was invited to meet the king at Buckingham Palace. Foreign leaders coming to Downing Street for a political visit don’t normally get to meet the king at the same time. But Charles and Zelenskyy have met many times before, and the king is a strong supporter of Ukraine.
+
+Zelenskyy posted this on social media about the meeting.
+
+double quotation markThank you to His Majesty King Charles III for the audience. For me, it is important to have the opportunity to personally thank him for the unwavering support of Ukraine. We appreciate all the assistance from the United Kingdom.
+
+View image in fullscreenPresident Zelenskyy with King Charles in Buckingham Palace today. Photograph: Aaron Chown/Pool PA/APShareUpdated at 16.45 BST2h ago16.13 BSTHere is a picture of the ceremonial guard.
+
+View image in fullscreenCeremonial guard outside No 10 ahead of President Zelenskyy's visit Photograph: Sky NewsWhile Andy Burnham has been relatively guarded in what he has said in public (see 12.40pm) about Donald Trump buying diesel from Russia and declaring that Volodymyr Zelenskyy should be replaced as Ukrainian president, this is a way of using the apparatus of the state to send a visual signal that the UK is very, very firmly on Zelenskyy’s side on this one.
+
+2h ago16.06 BSTPresident Zelenskyy is expected to arrive in Downing Street shortly. Unusually, there will be a ceremonial military guard there to greet him. According to Sky News, Downing Street has not laid on one of these for a visitor since Donald Trump visited Chequers.
+
+2h ago16.02 BSTEnergy secretary Miatta Fahnbulleh says decision on whether to allow Jackdaw gasfield 'imminent'A decision on whether to give the green light to the Jackdaw gasfield in the North Sea is “imminent”, Miatta Fahnbulleh, the energy secretary, has said.
+
+But a decision on Rosebank, the largest untapped oilfield in the North Sea, will take “a bit longer”, the minister told the Energy UK annual conference in London on Wednesday.
+
+As the Press Association reports, while Fahnbulleh would not be drawn on what the decision on either project would be, she told delegates at the Energy UK conference:
+
+double quotation markWe have got all the information on Jackdaw and my department has gone through that, so there is a decision that will be imminent.
+
+“Rosebank will take a little bit longer,” she said, adding her first two months in the job had been dominated by the question and she wanted to make the decisions as quickly as possible.
+
+2h ago15.42 BSTVolodymyr Zelenskyy posted this on social media earlier, on his arrival in the UK and ahead of his meeting with Andy Burnham.
+
+double quotation markAlready in Britain with the team. Today, an audience is scheduled with His Majesty King Charles III. There will also be an important meeting with Prime Minister Andy Burnham. We will discuss a wide range of security issues. We are preparing solutions that will strengthen us. Thank you to the King, the Prime Minister, and all of Britain for their support!
+
+2h ago15.29 BSTGreen leader Zack Polanski hits back at Burnham after PM says party's Zionism motion 'antisemitic'Zack Polanski has hit back at Andy Burnham after Burnham said the “Zionism is racism” motion passed by the Green party at their conference was antisemitic. (See 12.57pm.) Polanski posted these on social media.
+
+double quotation markI’m the only Jewish leader of a political party.
+
+I’m a victim of Antisemitism every day and I’ve made it clear Jewish people are welcome in my party.
+
+You’re a Prime Minister who arms a genocide and locks pensioners up for opposing it.
+
+double quotation markThe dangerous & irresponsible blurring of challenging Israel & Antisemitism is deeply revealing.
+
+A Labour Government who apologised over their actions over Gaza is demonstrating that it was all performative. Andy Burnham still stands with Israel whilst it kills innocent people.
+
+Polanski was not at the conference when the motion was debated and he has said that he would not have voted for it in the form it passed because he wanted to see it amended. But he has also said he supported the main thrust of what it was saying.
+
+3h ago14.55 BSTSNP to launch biggest pro-independence campaign since 2014, John Swinney saysThe SNP will launch the biggest pro-independence campaign since the 2014 referendum, John Swinney has announced.
+
+The first minister said the Choose Scotland campaign will kick off during the party’s conference in Aberdeen this weekend. As the Press Association reports, the launch is part of the SNP’s £100,000 “hearts and minds” campaign to win over voters and will be “anchored” by a new, pro-independence, party political broadcast.
+
+double quotation markAs we approach conference, the wind is in the sails of the SNP and the Yes movement – we have been emphatically re-elected, we have the biggest, pro-independence majority in the history of the parliament, independence is in the lead, the momentum behind constitutional change across these islands is building and there is a growing consensus we have the right to decide our own future.
+
+Our task is to build on that momentum which is why, at this conference, we will be launching the Choose Scotland campaign – the biggest campaign since the referendum and what will be the most sophisticated, pro-independence campaign Scotland has ever seen.
+
+4h ago14.14 BSTTories blame 'source error' for Badenoch's Right Way policy document overstating cost of net zero by almost £500bnPeter WalkerPeter Walker is a senior Guardian correspondent.
+
+Kemi Badenoch’s flagship Conservative party conference policy document overstated the estimated cost of net zero by nearly £500bn because of a “source error”, her spokesperson has said, seemingly meaning it was copied from elsewhere and not checked.
+
+A chapter on net zero in The Right Way, a policy document produced for the Tory conference in Birmingham, said the Climate Change Committee (CCC) estimated in 2020 that reaching net zero by 2050 would cost £957bn.
+
+This baffled experts, and the CCC said it did not recognise the figure. The claimed total was double the £478bn cited in the 2020 document, seemingly because someone tallied a row showing totals for each individual column, along with the figures which made up the totals, thus doubling them.
+
+double quotation markThat was a source error, and it has been corrected online.
+
+The incorrect total was previously published in a report by the rightwing thinktank the Institute of Economic Affairs and also included in an article in the Spectator, from which it was seemingly copied.
+
+Badenoch’s spokesperson defended the error, saying:
+
+double quotation markQuite frankly, the people who want to get upset about this should be upset more about the fact that net zero is costing us £500bn.
+
+This is also incorrect. The 2020 estimate from the CCC was £478bn, but its most recent estimate puts the total at £110bn.
+
+4h ago14.04 BSTPMQs - snap verdictAt least we learned one thing from PMQs – the Conservative party still has not settled on a reliable line of attack against Andy Burnham (and the one deployed by Kemi Badenoch today was possibly its worst yet.)
+
+Various themes have been deployed: that Burnham is continuity Starmer; that he’s leftwing; that he’s just “eyelashes and a black T-shirt”; that he’s an unprincipled opportunist; and that he is a people pleaser who can’t say no or take tough decisions. There is a bit of truth in most of these assertions (and quite a lot in the final one, which in time may turn out to be the line most useful to the Tories), but none of them has stuck yet, and so today Badenoch tried another.
+
+Badenoch sought to depict Burnham as a serial gaffe-merchant and she set this up with her opening question:
+
+double quotation markThe prime minister has had a busy few weeks tying himself in knots, explaining why national security shouldn’t come at the expense of social security, bumbling into a row still ongoing about Manchester City.
+
+He spent the last 48 hours trying to unsay that Russia influenced the 2016 referendum, when we all heard him say it. Does he ever get tired of putting his foot in his mouth?
+
+What’s true about this is that, unlike his predecessor, whose instinctive response to a question was to recall the No 10 line-to-take and stick to it rigidly, Burnham is someone more inclined to answer questions and to say what he thinks. This has sometimes led to him having to take back something he said (as he did over Manchester City), or reframe an argument in different language (as he did after the PMQs national security/social security answer). But these are not grotesque errors, and any downside is probably more than compensated for by the appeal of a PM who can actually talk a human being.
+
+Badenoch then proceeded to develop this argument by claiming that Burnham received a slap-down from the head of MI5 yesterday. (See 12.16pm.) Given that Ken McCallum told reporters yesterday “I strongly agree with what the prime minister said”, to get from there to Badenoch saying it “the first time I have ever heard the head of MI5 slap down a prime minister for doing Russia’s dirty work for them” required some extraordinarily ingenious spin. It was arguably clever – but also nonsense.
+
+The detail is tedious, but it has to be explained. Essentially, it rests on two acts of misrepresentation. Burnham told the Rest is Politics that there was Russian interference in the 2016 Brexit referendum (which is true), but the Tories have suggested or said outright that Burnham was saying the Russians altered the outcome and that the result was illegitimate. Burnham has never said either of these things.
+
+The second dodgy assertion came yesterday when CCHQ issued a press release saying McCallum had delivered “an extraordinary slap down to the prime minister”. This was in a response to McCallum saying Burnham was right about Russian interference in 2016. McCallum did also say that the impact of Russian interference was limited, and that it would be a mistake to go on about it too much because that would “play into our adversaries’ hands”. But, if that is the problem, you have to ask, who has been banging on it for the past three days? And who raised it at PMQs yesterday?
+
+Burnham saw off the Badenoch attack quite easily. (Badenoch will probably get written up as having scored a great victory in the papers that have swallowed this hogwash, but if the Tories end up believing their own spin, they are in more trouble than they realise.)
+
+One of Burnham’s strengths is that he does not seem to get rattled by this sort of rubbish. His decision to use his final response to Badenoch to praise what she said about race and Englishness at PMQs was a good one, and he even managed to adopt a cordial tone towards Nigel Farage. Being nice and personable does not guarantee success in politics, but it is a start and it helps to explain why Burnham is currently the most admired of the party leaders.
+
+5h ago12.57 BSTBurnham rules out Labour doing any deals with Greens as he condemns 'Zionism is racism' policy as 'antisemitic'Harriett Baldwin (Con) asked Burnham to rule out any deals with the Green party in the light its motion saying “Zionism is racism”.
+
+double quotation markCan I condemn the motion that was passed unequivocally?
+
+It is wrong. It is antisemitic, and this side of the house will have nothing to do with it.
+
+And we will always take the right response when it comes to any partnerships we have with other parties.
+
+We cannot support a partnership with a party that holds [the] position that has recently been adopted.
+
+5h ago12.49 BSTBurnham urges Nigel Farage to accept small boat crossings coming downNigel Farage, the Reform UK leader, said every week unidentified males from Iran are arriving in the UK on small boats. He asked Burnham to accept this was a national security emergency.
+
+Burnham began his reply recognising that the person accused of killing Ann Widdecombe has been charged with planning an attack against Farage. He went on:
+
+double quotation markCan I start by recognising it’s been a hard time for him and his family. There’s a lot we disagree on, but I defend his right to say it, and I will work hard to secure his safety.
+
+double quotation markWe’ve seen the issues at RAF Fairford recently, and they have been dealt with in the right way with the utmost seriousness by the police and security services.
+
+And the key point is, of course, we do need to get, boat crossings down. I hope he would recognise that they are coming down. Removals are up. There is much more to be done, but there is clearly progress in the right direction.
+
+5h ago12.40 BSTBurnham declines invitation from Ed Davey to agree Trump has committed 'shameful betrayal of Ukrainian people'Davey asked Burnham to accept that President Trump’s decision to buy diesel from Russia is “yet another shameful Trump betrayal of the Ukrainian people and European security”.
+
+Burnham said he called President Zelenskyy on Saturday “because I recognised it was another very dark and difficult moment for him”.
+
+But he said that his role was to “try and repair bridges so that the support comes back”. He wanted to bring people together.
+
+5h ago12.36 BSTBurnham says further cross-party talks on social care reform to take place soon, 'hopefully within next month'Ed Davey, the Lib Dem leader, got a huge cheer when he spoke – a reference to his success in seeing off a supposed threat to his leadership. (See 10.55am.)
+
+He asked when Burnham would hold another round of cross-party talks on social care reform.
+
+Burnham welcomed Davey’s commitment to this issue, and said he was determined to change the system.
+
+He said he would organise more cross-party talks, “certainly before the end of the year, but hopefully within the next month”.

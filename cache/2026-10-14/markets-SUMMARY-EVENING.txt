@@ -1,0 +1,45 @@
+URL: (compiled) Wednesday 14 October 2026 EVENING ticker basis
+Primary: CNBC quote endpoint, read 18:06 BST.
+
+*** PROVENANCE NOTE — THIS EDITION WAS NOT BUILT THE USUAL WAY ***
+The scheduled LaunchAgent run started on time at 17:55 and was healthy, not hung. It had already written
+a complete evening edition into index.html — 5 GEO + 5 UK, a Wednesday PMQs section, 52 cache files and a
+sources appendix — and the validator passed it on all checks including 12 distinct outlets. It was stopped
+at 18:03 only because a second, manual edition for the same date would have collided with it.
+The edition was reviewed rather than rebuilt. Spot-checks traced every load-bearing figure back to its own
+cache: American inflation at 3.7% from 3.4% in August, 600,000 left without electricity in Ukraine, the
+900,000 workers in the bogus self-employment consultation (gov.uk), the IEA's 2027 diesel horizon, and the
+container ship sinking in Hormuz. None was invented. The vetoed features were correctly absent — no
+war-day-count block and no change-diff line, despite the scheduled prompt still instructing it to add the
+former.
+
+*** WHAT I CHANGED: MARKETS AND THE TIMESTAMP ***
+The run's figures were accurate when it wrote them at about 17:55 but had drifted by the time of
+publication ten minutes later. Gold had fallen a further $23 and bitcoin moved about 200. Rather than
+publish a ten-minute-old ticker, all ten instruments were re-read live at 18:06 and the edition and the
+embedded-markets block were rewritten together.
+  As written 17:55 -> as published 18:10
+  Gold   4,104.80 -1.74  ->  4,080.92 -1.82
+  BTC      81,762 -1.66  ->    81,997 -1.38
+  Brent    106.53 +0.79  ->    106.58 +0.84
+  SP     7,722.63 -1.06  ->  7,721.93 -1.07
+  VIX       16.52 +8.19  ->     16.54 +8.32
+  FTSE  10,724.86 +0.70  -> unchanged, this is the 16:35 close
+The timestamp was moved from 17:55 to 18:10, the actual publication time. THE REPLACEMENT WAS SCOPED to
+the 14 October evening block: the 10 October evening edition also carries data-time="17:55", and a blanket
+replace would have corrupted it. That was checked before and after.
+
+*** THE DAY IN THE TICKER: A RISK-OFF SESSION THAT THE FTSE SAT OUT ***
+VIX up 8.3% to 16.54, its sharpest rise in weeks and the first time it has been above 16 this month.
+S&P 500 down 1.07%. Gold down 1.82%. Sterling down 0.75% to 1.3153, giving back three sessions of gains.
+Bitcoin down 1.38%. American inflation came in at 3.7%, above expectations, three weeks before the
+midterms — the obvious candidate for all of the above, and the edition carries it.
+Against that, the FTSE CLOSED UP 0.70% at 10,724.86, its best level of the month. A London market rising
+on a day when New York fell more than a per cent is worth noting rather than smoothing over; the index is
+energy- and defence-heavy and Brent closed higher for a second session.
+The gilt barely moved, down about one basis point to 5.42%, holding near its highest since 2007 with the
+Budget fourteen days away. The Treasury went the other way, up a basis point to 5.23%.
+
+PUBLISHED TICKER: FTSE 10,724.86 +0.70 | SP 7,721.93 -1.07 | Brent 106.58 +0.84 | GBP 1.3153 -0.75
+ | Gold 4,080.92 -1.82 | EURGBP 0.8453 +0.07 | Gilt 5.42 -0.01 | VIX 16.54 +8.32 | BTC 81,997 -1.38
+ | UST 5.23 +0.01
