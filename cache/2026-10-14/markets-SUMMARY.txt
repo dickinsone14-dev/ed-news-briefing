@@ -1,0 +1,50 @@
+URL: (compiled) Wednesday 14 October 2026 MORNING ticker basis
+Primary: CNBC quote endpoint, read 07:53 BST. Cross-check: Trading Economics (UK 10Y, US 10Y, Brent).
+
+*** PRE-OPEN: THREE INSTRUMENTS CARRY TUESDAY'S CLOSES ***
+Read before the London open, so FTSE, S&P 500 and VIX carry Tuesday's closes with Tuesday's session
+moves, declared. The FTSE feed lag inside the first half-hour is now established beyond argument and
+Trading Economics is not a usable second provider pre-open.
+  FTSE 10,650.33 -0.06 | SP 7,805.45 -0.02 | VIX 15.27 +0.39
+Two of those differ from what last night's edition published, because last night's were live intraday
+values read at 19:25 while Wall Street was still open, and these are the settled closes:
+  SP   published 7,804.03 intraday -> actual close 7,805.45
+  VIX  published 15.44 intraday    -> actual close 15.27
+Neither is an error in last night's edition; an intraday read and a close are different things, and the
+close is the right figure this morning. The VIX change of +0.39 is computed against Monday's 15.21 so
+that all three lagged instruments share one basis.
+
+*** GILT: DOWN AGAIN, AND THIS TIME THE PROVIDERS AGREE ***
+  CNBC:              5.4047, change -0.049 (on prev 5.4537)  -> -0.05
+  Trading Economics: 5.40,   day change -0.036                -> -0.04
+  Our own series:    5.40 against last night's published 5.44 -> -0.04
+PUBLISHED: 5.40, -0.04. Trading Economics and our own series agree; CNBC's figure rests on a prev of
+5.4537, which is the same value its prev field has been serving for three days and which we established
+on Monday is about 2bp above the real close. Two bases against one, and the two that agree are the ones
+that have been reliable.
+Worth recording what this instrument has done in forty-eight hours: 5.44 Monday close, 5.38 Tuesday
+morning, back to 5.44 by Tuesday's close, now 5.40. That is a 6bp round trip followed by a 4bp fall, in
+a yield sitting near its highest since 2007 fifteen days before a Budget. Yesterday morning's drivers
+called a fall "the sharpest in weeks" and the day erased it; this morning's drivers say only where it is.
+
+*** UST ***
+  CNBC: 5.19, -0.027 (prev 5.217) | Trading Economics: 5.20, -0.022 | Our series: 5.22 -> 5.19 = -0.03
+PUBLISHED: 5.19, -0.03 — the CNBC live level, with the change consistent against our own published
+series. TE rounds the level to 5.20 and the change to -0.02; the difference is sub-basis-point rounding
+and is recorded rather than hidden.
+
+*** BRENT: FLAT TO FIRMER DESPITE AN ARAMCO BUILDING BEING HIT ***
+105.89, up 0.19% on a Tuesday settle of 105.69. Overnight an Aramco building was struck in Dhahran and
+Saudi Arabia says it intercepted missiles aimed at Riyadh and Dhahran — and crude has barely moved. That
+is the fourth consecutive session in which Gulf escalation has produced less in the oil price than the
+headlines would imply, and it is worth saying so rather than implying a premium that is not there.
+CROSS-CHECK: Trading Economics 105.92 +0.22% against CNBC 105.89 +0.19%. Agreement. WTI 94.25 +0.12%.
+
+LIVE this morning: Brent 105.89 +0.19 | GBP 1.3268 +0.12 | Gold 4,150.60 -0.15 | EURGBP 0.8446 -0.01
+ | Gilt 5.40 -0.04 | BTC 83,380 +0.28 | UST 5.19 -0.03
+Sterling is firmer for a third session at 1.3268, its best level in over a week, with the Ukrainian
+president due in Downing Street today. Gold has now fallen for three sessions running.
+
+PUBLISHED TICKER: FTSE 10,650.33 -0.06 | SP 7,805.45 -0.02 | Brent 105.89 +0.19 | GBP 1.3268 +0.12
+ | Gold 4,150.60 -0.15 | EURGBP 0.8446 -0.01 | Gilt 5.40 -0.04 | VIX 15.27 +0.39 | BTC 83,380 +0.28
+ | UST 5.19 -0.03

@@ -1,0 +1,52 @@
+{
+ "FTSE": {
+  "up": ["Holding above 10,600 after Monday's 0.99% rise"],
+  "down": ["Closed Tuesday a shade lower at 10,650.33"],
+  "updated": "14 October 2026 __TIME__ (read before the London open; Tuesday's close with Tuesday's move)"
+ },
+ "SP": {
+  "up": ["Steady near 7,800 with Wall Street shut until 14:30 BST"],
+  "down": ["Closed Tuesday marginally lower at 7,805.45"],
+  "updated": "14 October 2026 __TIME__ (Tuesday's close; Wall Street opens 14:30 BST)"
+ },
+ "Brent": {
+  "up": ["An Aramco building was struck in Dhahran overnight and missiles were intercepted over Riyadh"],
+  "down": ["Barely moved at $105.89, up 0.19%, a fourth session in which Gulf escalation has produced little in the price"],
+  "updated": "14 October 2026 __TIME__"
+ },
+ "GBP": {
+  "up": ["Firmer for a third session at 1.3268, its best level in over a week"],
+  "down": ["The Budget is fourteen days away"],
+  "updated": "14 October 2026 __TIME__"
+ },
+ "Gold": {
+  "up": ["Still above $4,150"],
+  "down": ["Down a third consecutive session to $4,150.60"],
+  "updated": "14 October 2026 __TIME__"
+ },
+ "EURGBP": {
+  "up": ["Unchanged in practical terms at 0.8446"],
+  "down": ["Sterling holding its gains against the euro"],
+  "updated": "14 October 2026 __TIME__"
+ },
+ "Gilt": {
+  "up": ["Still near 5.4%, close to the highest since 2007, with the Budget to be funded"],
+  "down": ["Down four basis points to 5.40%, after a six-point round trip on Tuesday"],
+  "updated": "14 October 2026 __TIME__"
+ },
+ "VIX": {
+  "up": ["Closed Tuesday at 15.27, up 0.39% on Monday"],
+  "down": ["Still below 16, so the Gulf escalation is not yet in the volatility price"],
+  "updated": "14 October 2026 __TIME__ (Tuesday's close; Wall Street opens 14:30 BST)"
+ },
+ "BTC": {
+  "up": ["Up 0.28% to $83,380, a third session of modest gains"],
+  "down": ["Still short of the weekend high"],
+  "updated": "14 October 2026 __TIME__"
+ },
+ "UST": {
+  "up": ["The feed has stayed live since Tuesday morning"],
+  "down": ["Down three basis points to 5.19%, tracking the gilt lower"],
+  "updated": "14 October 2026 __TIME__"
+ }
+}
