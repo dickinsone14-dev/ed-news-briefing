@@ -1,0 +1,54 @@
+URL: (compiled) Thursday 15 October 2026 EVENING ticker basis
+Primary: CNBC quote endpoint, read 18:01:56 BST. Cross-check: Trading Economics (UK 10Y, US 10Y, GB100).
+
+*** THE DAY REVERSED ITSELF ***
+This morning was a textbook risk-off session: the AI sell-off, gilts and Treasuries bid, gold up, oil
+sold, volatility up. By the close most of it had unwound.
+  MORNING (09:13 published)        ->  EVENING (18:02 read)
+  FTSE   10,765.34  +0.38          ->  10,840.35  +1.08   (CLOSE 16:35)
+  Brent     104.23  -1.73          ->     106.14  +0.08
+  VIX        17.50  +3.73          ->      16.83  -0.24
+  Gilt        5.34  (intraday low)  ->       5.37
+  UST         5.09  -0.10          ->       5.09  -0.10   (still down hard)
+  Gold    4,150.09  +1.10          ->   4,147.38  +1.03
+The FTSE closed up 1.08%, a THIRD consecutive rising session, and is the strongest figure in the set.
+Brent erased a 2% fall. The VIX gave back the whole of its morning gain and closed the day lower.
+Only the Treasury held its move. Worth stating plainly in the ticker drivers: the morning's panic did
+not survive the day in anything except government bonds.
+
+*** FTSE: A GENUINE CLOSE, AND THE TWO PROVIDERS AGREE EXACTLY ***
+CNBC .FTSE 10,840.35 +1.08% stamped 16:35 — the official close. Trading Economics GB100 returns
+10,840.35 +1.08%, identical to the decimal. No ambiguity for once; published as read.
+
+*** GILT: THE PROVIDERS DISAGREE ON DIRECTION, NOT JUST SIZE ***
+  CNBC:              5.3718, change -0.0043  -> flat    (implies a previous close of 5.3761)
+  Trading Economics: 5.37,   day change -0.029 -> -0.03
+  Our own series:    5.34 this morning -> 5.37 now      -> +0.03 since the morning edition
+These cannot all be right. CNBC's previous-close field has moved from 5.4302 at 08:51 this morning to
+5.3761 now, which is within a basis point of today's own level — the same stale/incoherent prev-close
+fault seen on 14 Oct. It is discarded.
+Our own series measures from this morning's 09:13 edition, not from yesterday's close, so +0.03 is a
+half-day move and not the day change the ticker reports.
+PUBLISHED: 5.37, -0.03 — Trading Economics' day change, which is the only one of the three measured
+against yesterday's close. Direction is corroborated across two days by our own published series:
+last night 5.42 (an 18:06 read, after the 17:00 cash close, so a stale high) -> 5.37 now.
+NOTE: the cash gilt market shuts at 17:00, so an 18:02 read is past the close, not a close. The level
+is taken from the post-17:00 read and the change from Trading Economics, declared, as all week.
+
+*** UST ***
+CNBC 5.087 -0.103; Trading Economics 5.09 -0.093. Agree within 1bp on size and exactly on level.
+PUBLISHED 5.09, -0.10. This is the one instrument that kept its morning move all day.
+
+*** S&P 500 IS AN INTRADAY READ, NOT A CLOSE ***
+7,724.24 +0.07% stamped 13:01 EDT / 18:01 BST. Wall Street does not close until 21:00 BST, so this is
+an intraday value and is declared as such in the drivers. Do NOT describe it as a close. (This is the
+error pattern that put intraday UST/VIX/Brent figures into last night's edition as if they were closes.)
+
+*** BRENT CROSS-CHECK ***
+CNBC @LCO.1 106.14 +0.08% stamped 17:51. The +0.08% is against yesterday's settle of 106.06, which is
+the figure established in this morning's summary as the real settle — so the basis is internally
+consistent. Brent is back where it started the day having been 2% lower at breakfast.
+
+PUBLISHED TICKER: FTSE 10,840.35 +1.08 | SP 7,724.24 +0.07 | Brent 106.14 +0.08 | GBP 1.3261 +0.53
+ | Gold 4,147.38 +1.03 | EURGBP 0.8450 -0.05 | Gilt 5.37 -0.03 | VIX 16.83 -0.24 | BTC 82,029.72 +0.42
+ | UST 5.09 -0.10

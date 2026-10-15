@@ -1,0 +1,13 @@
+URL: https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol (read 08:28 BST)
+CNBC quote endpoint — raw read for morning ticker
+
+.FTSE last 10,767.55 chg +42.69 +0.40% prev 10,724.86 time 2026-10-15T08:13:00.000+0100
+.SPX last 7,718.94 chg -86.51 -1.11% prev 7,718.94 time 2026-10-14
+@LCO.1 last 104.27 chg -1.79 -1.69% prev 106.06 time 2026-10-15T08:18:26.000+0100
+GBP= last 1.325 chg +0.0059 +0.45% prev 1.3191 time 2026-10-15T03:28:00.000-0400
+@GC.1 last 4,161.90 chg +54.00 +1.31% prev 4,107.90 time 2026-10-15T03:18:21.000-0400
+EURGBP= last 0.8461 chg +0.0007 +0.08% prev 0.8454 time 2026-10-15T03:28:00.000-0400
+GB10Y-GB last 5.3491% chg -0.0811 -1.4935% prev 5.4302% time 2026-10-15T07:28:28.000+0000
+.VIX last 17.47 chg +0.60 +3.56% prev 16.87 time 2026-10-15T03:28:16.000-0400
+BTC.CM= last 81,082.82 chg -602.19 -0.74% prev 81,685.01 time 2026-10-15T03:28:26.000-0400
+US10Y last 5.093% chg -0.097 -1.869% prev 5.19% time 2026-10-15T03:28:28.000-0400

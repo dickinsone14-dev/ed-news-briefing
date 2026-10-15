@@ -1,0 +1,59 @@
+URL: (compiled) Thursday 15 October 2026 MORNING ticker basis
+Primary: CNBC quote endpoint, read 08:51 BST. Cross-check: Trading Economics (UK 10Y, US 10Y, WTI, GB100).
+NOTE ON TIMING: this edition is late because the scheduled job hung for 53 minutes without producing an
+edition and was killed at 08:49. The read is therefore nearly an hour after the London open rather than
+before it — which, for once, means the FTSE is LIVE rather than lagged.
+
+*** A RISK-OFF MORNING, AND THE FTSE IS THE ODD ONE OUT AGAIN ***
+Every classic risk-off signal is firing at once: equities down in Asia and on Wall Street, government
+bonds rallying hard, gold bid, oil sold, volatility up.
+  Gilt   5.3415, about 8bp lower   | UST 5.089, about 10bp lower | US30Y 5.435, about 9bp lower
+  Gold   4,141.33 +0.88            | VIX 17.44 +3.38            | Brent 104.00 -1.94
+The cause is the global artificial-intelligence sell-off that deepened overnight, with a trading halt on
+South Korea's Kospi and the Nikkei 225 down about 5%. That is the world column's lead.
+AND YET THE FTSE IS UP, at 10,754.52 and +0.28% at 08:35, a second consecutive session in which London
+has risen on a day the rest of the world fell. Worth stating rather than smoothing: the index is heavy in
+energy, defence and banks and light in technology, so an AI-led rout hurts it least.
+
+*** THE FTSE FEED IS LIVE — BECAUSE WE ARE LATE ***
+The feed lag that has defeated every pre-09:00 reading this week is absent at 08:51. .FTSE returned
+10,754.52 stamped 08:35, a genuine intraday price. This is the first morning edition in eight days to
+carry a live FTSE, and the only reason is that the hang pushed publication past the lag window. Trading
+Economics gives GB100 at 10,772.15 +0.44% — about 18 points higher on a slightly later read, which is
+normal provider drift on a moving index rather than a disagreement.
+
+*** GILT: THE WIDEST THREE-WAY SPREAD THIS WEEK ***
+  CNBC:              5.3415, change -0.0887 (prev 5.4302)  -> -0.09
+  Trading Economics: 5.34,   day change -0.060              -> -0.06
+  Our own series:    5.34 against last night's published 5.42 -> -0.08
+PUBLISHED: 5.34, -0.08 — our own series, sitting between the two providers, which is how this has been
+handled all week when they disagree. The spread is 3bp, wider than any day since Monday, and on a morning
+when the gilt is moving this fast a provider's snapshot time matters more than usual. All three agree on
+the level to two decimals and on the direction; only the size is disputed.
+
+*** TWO INSTRUMENTS WHERE LAST NIGHT'S FIGURE WAS AN INTRADAY READ, NOT A CLOSE ***
+Last night's edition was published at 18:10 and read live at 18:06, while Wall Street was still open. The
+settled closes came in lower:
+  UST  published 5.23 intraday -> actual close 5.19 -> now 5.089, so -0.10 on the close, not -0.14
+  VIX  published 16.54 intraday -> actual close 16.87
+  Brent published 106.58 intraday -> actual settle 106.06
+Neither is an error in last night's edition; an intraday read and a close are different things. But the
+change figures this morning are computed against the CLOSES, which is the only consistent basis.
+S&P 500 carries Wednesday's close of 7,718.94, down 1.11%, with Wall Street shut until 14:30 BST.
+
+BRENT CROSS-CHECK: CNBC 104.00 -1.94% against Trading Economics WTI at 94.13 -1.01%. Different contracts,
+same direction. Oil falling on a risk-off day, with the Gulf quiet overnight, is consistent.
+
+PUBLISHED TICKER: FTSE 10,754.52 +0.28 | SP 7,718.94 -1.11 | Brent 104.00 -1.94 | GBP 1.3240 +0.37
+ | Gold 4,141.33 +0.88 | EURGBP 0.8462 +0.09 | Gilt 5.34 -0.08 | VIX 17.44 +3.38 | BTC 81,205 -0.59
+ | UST 5.09 -0.10
+
+*** SECOND READ, 08:57 BST — REFRESHED BEFORE PUBLICATION ***
+The London market is moving while this edition is being written, so the ticker was re-read six minutes
+before the apply rather than published on the 08:51 figures:
+  FTSE  10,754.52 +0.28 (08:35) -> 10,769.31 +0.41 (08:42)
+  Brent    104.00 -1.94 (08:40) ->    103.91 -2.03 (08:47)
+  Gold   4,141.33 +0.88         ->  4,144.80 +0.97
+  BTC      81,205 -0.59         ->    81,440 -0.30
+The direction of every instrument is unchanged; only the magnitudes moved. The gilt is unchanged at 5.34
+and is published at -0.08 on the basis set out above.
