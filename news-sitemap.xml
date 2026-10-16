@@ -2,6 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-10-16-evening/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-16T18:10:00+01:00</news:publication_date>
+      <news:title>Evening Briefing — Friday 16 October 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-10-16-evening/zelensky-asks-eu-for-seventy-billion-euros-more/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-16T18:10:00+01:00</news:publication_date>
+      <news:title>Zelensky Asks the EU for at Least €70bn More Next Year</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-10-16-evening/trump-rules-out-nuclear-weapons-and-ground-troops-in-iran/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-16T18:10:00+01:00</news:publication_date>
+      <news:title>Trump Rules Out Nuclear Weapons and Ground Troops in Iran</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-10-16-evening/settlers-beat-washington-post-photographer-in-west-bank/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-16T18:10:00+01:00</news:publication_date>
+      <news:title>Settlers Beat a Washington Post Photographer During the Olive Harvest</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-10-16-evening/rama-blames-foreign-hands-as-albania-unrest-spreads/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-16T18:10:00+01:00</news:publication_date>
+      <news:title>Rama Blames ‘Foreign Hands’ as Albania’s Unrest Spreads</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-10-16-evening/pope-leo-calls-putin-from-hospital-over-oleshky/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-16T18:10:00+01:00</news:publication_date>
+      <news:title>Pope Leo Calls Putin From Hospital Over Oleshky</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-10-16-evening/imf-tells-healey-to-cut-pensions-and-welfare-not-tax-banks/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-16T18:10:00+01:00</news:publication_date>
+      <news:title>IMF Tells Healey to Look at Pensions and Welfare, Not Banks</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-10-16-evening/councillors-investigate-housing-loans-approved-under-burnham/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-16T18:10:00+01:00</news:publication_date>
+      <news:title>Councillors Investigate Housing Loans Approved Under Burnham</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-10-16-evening/robbins-settles-with-government-over-his-sacking/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-16T18:10:00+01:00</news:publication_date>
+      <news:title>Robbins Settles With the Government Over His Sacking</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-10-16-evening/burnham-tells-scotland-too-much-time-wasted-on-dramas/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-16T18:10:00+01:00</news:publication_date>
+      <news:title>Burnham Tells Scotland Too Much Time Is Wasted on ‘Dramas’</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-10-16-evening/government-commits-to-overhaul-covid-vaccine-damage-scheme/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-16T18:10:00+01:00</news:publication_date>
+      <news:title>Government Commits to Overhaul the Vaccine Damage Payment Scheme</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-10-16-morning/</loc>
     <news:news>
       <news:publication>
@@ -362,127 +483,6 @@
       </news:publication>
       <news:publication_date>2026-10-15T09:13:00+01:00</news:publication_date>
       <news:title>Britain Threatens Eritrea With a Complete Visa Ban</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-10-14-evening/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-14T18:10:00+01:00</news:publication_date>
-      <news:title>Evening Briefing — Wednesday 14 October 2026</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-10-14-evening/container-ship-sinks-in-strait-of-hormuz/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-14T18:10:00+01:00</news:publication_date>
-      <news:title>Container Ship Sinks in the Strait of Hormuz as Attacks Surge</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-10-14-evening/houthis-vow-more-attacks-on-saudi-oil/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-14T18:10:00+01:00</news:publication_date>
-      <news:title>Houthis Vow More Strikes on Saudi Oil and Airports</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-10-14-evening/us-inflation-rises-to-three-point-seven/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-14T18:10:00+01:00</news:publication_date>
-      <news:title>American Inflation Rises to 3.7% on the Eve of the Midterms</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-10-14-evening/starlink-limits-disrupt-ukrainian-missions/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-14T18:10:00+01:00</news:publication_date>
-      <news:title>Starlink Limits Disrupt Ukrainian Missions as 600,000 Lose Power</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-10-14-evening/iea-warns-diesel-squeeze-into-2027/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-14T18:10:00+01:00</news:publication_date>
-      <news:title>Energy Agency Warns the Diesel Squeeze Will Last Into 2027</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-10-14-evening/burnham-tells-zelensky-support-will-not-change/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-14T18:10:00+01:00</news:publication_date>
-      <news:title>Burnham Tells Zelensky Britain’s Support “Will Not Change”</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-10-14-evening/burnham-rules-out-partnership-with-greens/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-14T18:10:00+01:00</news:publication_date>
-      <news:title>Burnham Rules Out Partnership With Greens Over Zionism Motion</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-10-14-evening/burnham-man-city-dinners-omitted/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-14T18:10:00+01:00</news:publication_date>
-      <news:title>Burnham’s Dinners With Man City Chairman Left Out of Statement</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-10-14-evening/imf-singles-out-uk-deficit-plan/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-14T18:10:00+01:00</news:publication_date>
-      <news:title>IMF Singles Out Britain’s Deficit Plan Before the Budget</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-10-14-evening/crackdown-on-bogus-self-employment/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-14T18:10:00+01:00</news:publication_date>
-      <news:title>Ministers Move Against Bogus Self-Employment Affecting 900,000 Workers</news:title>
     </news:news>
   </url>
 </urlset>
