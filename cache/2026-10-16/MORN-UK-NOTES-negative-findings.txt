@@ -1,0 +1,77 @@
+URL: (none - verification notes, not an article)
+Compiled 2026-10-16 08:15-08:40 BST
+
+NEGATIVE FINDINGS AND PRIMARY-SOURCE CHECKS
+
+1. ONS 07:00 RELEASE TODAY: NONE.
+   Verified via https://api.beta.ons.gov.uk/v1/search/releases?sort=release_date_desc&release-type=type-published
+   Newest published ONS release = 2026-10-15 09:30 BST (real-time indicators).
+   The 07:00 batch of 15 Oct was GDP monthly Aug 2026, Index of Services, Index of Production,
+   Construction output, UK Trade - i.e. yesterday's, already used.
+   Next ONS releases: 2026-10-16 09:30 BST (AFTER morning deadline):
+     - Deaths registered monthly in England and Wales: September 2026
+     - Travel trends: 2025
+     - Public opinions and social trends, GB: attitudes to climate change
+     - Improving our travel and tourism statistics: October 2026 update
+   Next labour market stats: 2026-10-20 07:00 BST.
+   The ONS release-calendar HTML pages are JS-rendered and return no items to curl; the beta
+   search API above is the reliable route.
+
+2. GOV.UK PRESS RELEASE FOR THE PORNOGRAPHY COMMENCEMENT: NOT PUBLISHED as of 08:40 BST.
+   Checked: /api/search.json ordered by -public_timestamp (all content types, and filtered to
+   home-office, ministry-of-justice, department-of-health-and-social-care, hm-treasury,
+   department-for-work-pensions, department-for-education); plus q=pornography (432 hits) and
+   q=strangulation (260 hits).
+   Newest gov.uk item of any type at check time = 2026-10-16 07:19 (HMRC ATED contact page).
+   Nothing between 2026-10-15 21:30 (PM/Holyrood) and 2026-10-16 05:00 (HMRC guidance).
+   Existing related gov.uk material is older: "Crime and Policing Act 2026" collection
+   (2026-09-29 16:23) and "Crime and Policing Act 2026: factsheets" (2026-09-30 07:50).
+   => The 6 November commencement story rests on an overnight embargoed briefing to PA and
+      broadcasters, carried by BBC/Guardian/Independent. No primary government text available.
+
+3. LEGISLATIVE MECHANISM, VERIFIED PRIMARY (parliament.uk):
+   https://bills-api.parliament.uk/api/v1/Bills/3938 and /Stages
+   "Crime and Policing Act 2026", billId 3938, isAct=true.
+   ROYAL ASSENT: 2026-04-29. (Confirms BBC's "became law in April".)
+   Commons 1st reading 2025-02-25; Lords 3rd reading 2026-03-25; ping-pong 14-27 April 2026.
+
+4. ANDREW BAILEY - NO BANK OF ENGLAND PRIMARY TEXT for today's remarks.
+   https://www.bankofengland.co.uk/rss/speeches - newest Bailey speech is 2026-10-08
+   ("Financial resilience in an age of repeated shocks", Istanbul Economic Forum).
+   https://www.bankofengland.co.uk/rss/news - newest item 2026-10-15 10:52.
+   bankofengland.co.uk/news and /sitemap.xml are JS-rendered / HTTP 500 to curl; the three RSS
+   feeds (/rss/news, /rss/speeches, /rss/publications) DO work.
+   => Today's Bailey quote is an INTERVIEW, not a published speech: Institute of International
+      Finance annual members' meeting, Bangkok. Standable via the Guardian business live blog
+      (Heather Stewart, on the ground), 07:40 BST. NOT available as a BoE document.
+
+5. MILBURN WELFARE PLAN - FINAL REPORT NOT ON GOV.UK.
+   Alan Milburn confirmed via https://www.gov.uk/government/people/alan-milburn as "currently
+   leading the independent review into young people and work established by the government"
+   (also DHSC Lead Non-Executive Director; Chancellor of Lancaster University).
+   Only published outputs on gov.uk are DWP: "Young people and work: interim report"
+   (2026-08-10 10:30) plus supporting polling/surveys (Apr and Aug 2026).
+   No final report, no terms-of-reference update, no DWP press release overnight.
+   Not found on Guardian (politics/uk-news/economics/welfare RSS) or Independent politics index.
+   => The FT's 05:00 BST "less cash but more job support" framing CANNOT be stood up on an
+      approved retrievable source. Do not run.
+
+6. BLOCKED / UNAVAILABLE TO DIRECT FETCH (confirmed, not retried at length):
+   ft.com, thetimes.co.uk, telegraph.co.uk, news.sky.com, reuters.com, apnews.com, itv.com.
+   bills.parliament.uk (the HTML site) returns a Cloudflare interstitial, but the
+   bills-api.parliament.uk JSON API is open and was used instead.
+   irishtimes.com politics RSS returned empty this morning (no NI copy obtained from it).
+
+7. WORKED WELL: bbc.co.uk + feeds.bbci.co.uk RSS; theguardian.com RSS and articles;
+   independent.co.uk section indexes and articles (its /rss endpoints returned empty, but the
+   HTML section pages at /news/uk/politics/ and /news/uk/home-news/ parse fine);
+   gov.uk /api/search.json (the q parameter DOES work - early null results were genuine
+   no-match, not an API failure); ons.gov.uk beta releases API; bankofengland.co.uk RSS;
+   bills-api.parliament.uk.
+
+8. RELAYED-VIA-BLOCKED-OUTLET FIGURES (describe, do not quote as ours):
+   - "Banks have told the Telegraph that increasing the surcharge would cost the economy £20bn"
+     - relayed in BBC's own papers review, originates with the Telegraph. No approved source.
+   - i Paper: energy price cap up £276 in January, "double rise", Healey unlikely to keep VAT
+     off electricity beyond March. The i Paper is NOT an approved source; relayed via BBC
+     papers review only.

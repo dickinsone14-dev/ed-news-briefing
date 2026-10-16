@@ -1,0 +1,76 @@
+URL: (compiled) Friday 16 October 2026 MORNING ticker basis
+Primary: CNBC quote endpoint, read 08:15:26 BST. Cross-check: Trading Economics (UK 10Y, US 10Y, GB100, Brent).
+
+*** THE FTSE FEED IS LIVE AT 08:15 TODAY ***
+.FTSE returned 10,805.95, -0.32%, stamped 2026-10-16T08:00 — a genuine intraday price barely half an
+hour after the open, not yesterday's close carried forward. That is earlier than the feed has
+cooperated on any day this week (the lag has usually run to about 08:45). Two confirmations that this
+is real: the stamp carries today's date, and CNBC's previous_day_closing of 10,840.35 matches our own
+published evening figure to the decimal. Trading Economics GB100 gives 10,814.48 -0.24% on a slightly
+later read — about 9 points higher and the same direction, which is ordinary provider drift on a
+moving index rather than a disagreement.
+NOTE: the scheduled run that was killed at 08:13 had fetched the quote endpoint at about 08:04 and got
+the FTSE still stamped 2026-10-15. So the feed went live between 08:04 and 08:15 this morning.
+
+*** FOUR INSTRUMENTS WHERE LAST NIGHT'S PUBLISHED FIGURE WAS AN INTRADAY READ, NOT A CLOSE ***
+Last night's edition was published at 18:13 and read live at 18:13, with Wall Street open until 21:00.
+The settled closes, now visible as CNBC's previous_day_closing, came in differently — and in every
+case the move continued in the same direction after we read it:
+  S&P 500  published 7,727.08 +0.11 intraday -> actual close 7,744.06 +0.33
+  Brent    published  106.15  +0.08 intraday -> actual settle  105.92
+  Gold     published 4,147.44 +1.03 intraday -> actual close  4,170.245
+  VIX      published   16.82  -0.30 intraday -> actual close    16.46
+  UST      published    5.09  -0.10 intraday -> actual close     5.087
+None of these is an error in last night's edition — an intraday read and a close are different things
+and the ticker said so. But this morning's change figures are computed against the CLOSES, which is
+the only consistent basis. The S&P carries Thursday's close with Thursday's move, declared, because
+Wall Street does not open until 14:30 BST.
+
+*** GILT: ALL THREE SOURCES AGREE ON THE LEVEL AND THE DIRECTION FOR ONCE ***
+  CNBC:              5.3604, change -0.0157 (prev 5.3761)  -> -0.02
+  Trading Economics: 5.36,   day change -0.004              -> -0.00
+  Our own series:    5.37 published last night -> 5.36 now  -> -0.01
+PUBLISHED: 5.36, -0.01 — our own series, which sits between the two providers, as all week.
+The spread is 1.5bp, the narrowest this week, and the three agree the gilt is a shade lower and still
+above 5.3%. Worth recording that CNBC's previous-close field, which was incoherent yesterday evening
+(it had drifted to 5.3761, within a basis point of the then-live level), is now coherent: 5.3761 is a
+plausible Thursday close and is consistent with Trading Economics' 5.37.
+
+*** UST ***
+CNBC 5.077, -0.01 against a 5.087 close. Trading Economics 5.08, +0.003. Both effectively flat and
+agreeing on the level. PUBLISHED 5.08, -0.01.
+
+*** BRENT: TRADING ECONOMICS IS NOT USABLE AS CORROBORATION THIS MORNING ***
+CNBC @LCO.1 105.27 -0.61% stamped 08:05, against a 105.92 settle — coherent.
+Trading Economics' Brent page returned 97.26 -0.72%, which is roughly eight dollars below CNBC and
+below where its own readings have sat all week; yesterday the same scrape pattern returned a WTI-like
+94.13 from a page labelled Brent. The most likely explanation is that the scrape is picking up the
+wrong row rather than that one provider is eight dollars wrong. It is NOT treated as a second source
+for Brent today, and the direction (down) is the only thing taken from it.
+
+*** OVERNIGHT: RISK APPETITE KEPT RECOVERING ***
+The VIX closed at 16.46 and is now 16.03, down a further 2.61% — two consecutive falls, having spiked
+3.7% at this time yesterday. Gold is up 0.34% to 4,184.48, a fresh high for the week. Sterling is
+firmer again at 1.3315, up 0.32%, its best level this week. The FTSE is the exception, opening 0.32%
+lower after yesterday's 1.08% close, which is a pause rather than a reversal.
+
+PUBLISHED TICKER: FTSE 10,805.95 -0.32 | SP 7,744.06 +0.33 | Brent 105.27 -0.61 | GBP 1.3315 +0.32
+ | Gold 4,184.48 +0.34 | EURGBP 0.8437 -0.14 | Gilt 5.36 -0.01 | VIX 16.03 -2.61 | BTC 82,091 -0.32
+ | UST 5.08 -0.01
+
+*** SECOND READ, 08:33 BST — REFRESHED BEFORE PUBLICATION ***
+The London market moved while the edition was being written, so the ticker was re-read and the drivers
+rewritten rather than published on the 08:15 figures:
+  FTSE  10,805.95 -0.32 (08:00) -> 10,829.46 -0.10 (08:18)  — the opening dip has nearly closed
+  Brent    105.27 -0.61 (08:05) ->    105.21 -0.67 (08:23)
+  Gold   4,184.48 +0.34         ->  4,188.78 +0.44
+  GBP      1.3315 +0.32         ->    1.3319 +0.35
+  BTC      82,091 -0.32         ->    82,101 -0.31
+  UST       5.077 -0.01         ->     5.081 -0.01
+  VIX       16.03 -2.61         ->     16.03 -2.61  (unchanged)
+GILT — REVISED, AND THE REVISION IS WORTH RECORDING. At 08:15 it read 5.3604, about 1.5bp below
+yesterday's 5.3761 close, and the published figure was going to be 5.36 / -0.01. At 08:33 it reads
+5.3749 — within 0.1bp of the close. The gilt has therefore traded a basis point either side of
+yesterday's close through the morning and is flat on the day to the nearest basis point.
+PUBLISHED: 5.37, 0.00. A zero is unusual and is stated as read rather than nudged to -0.01 to look
+more decisive. Our own series agrees: 5.37 published last night, 5.37 now.
