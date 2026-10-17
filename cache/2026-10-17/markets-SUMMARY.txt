@@ -1,0 +1,15 @@
+URL: https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?requestMethod=itv&noform=1&partnerId=2&fund=1&exthrs=1&output=json&symbols=.FTSE|.SPX|GBP=|XAU=|BTC.CM=|US10Y|@LCO.1|EURGBP=|UK10Y-GB|.VIX
+CNBC quote endpoint, read 08:00 BST Saturday 17 October 2026 (raw JSON saved as markets-cnbc-raw.json). Weekend: all figures are Friday 16 October closes except Bitcoin (trades continuously).
+
+FTSE 100   10,881.90  +0.38%  (close 16:35 BST Fri; prev 10,840.35)
+S&P 500     7,659.44  -1.09%  (close Fri; prev 7,744.06)
+Brent       109.86    settle Fri; Thursday settle 105.92 (per 16 Oct morning markets file) -> +3.72% on the day
+GBP/USD     1.3328    +0.41%
+Gold        4,165.01  Friday close; Thursday close 4,170.245 -> -0.13%
+EUR/GBP     0.8431    -0.21%
+UK 10y gilt 5.3771%   +0.0006 (flat) -> published 5.38, +0.00
+VIX         19.99     +21.45% (prev 16.46)
+Bitcoin     81,490.66 +0.16% (02:55 EDT Sat)
+US 10y      5.081%    -0.006 -> published 5.08, -0.01
+
+PUBLISHED TICKER: FTSE 10,881.9 +0.38 | SP 7,659.44 -1.09 | Brent 109.86 +3.72 | GBP 1.3328 +0.41 | Gold 4,165.01 -0.13 | EURGBP 0.8431 -0.21 | Gilt 5.38 +0.00 | VIX 19.99 +21.45 | BTC 81,491 +0.16 | UST 5.08 -0.01
