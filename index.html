@@ -2287,7 +2287,7 @@
  <!-- #1 Markets snapshot bar -->
  <!-- Embedded market data (populated by update script, used as fallback) -->
  <script id="embedded-markets" type="application/json">
-{"FTSE":{"price":10881.9,"change":0.38},"SP":{"price":7659.44,"change":-1.09},"Brent":{"price":109.86,"change":3.72},"GBP":{"price":1.3328,"change":0.41},"Gold":{"price":4165.01,"change":-0.13},"EURGBP":{"price":0.8431,"change":-0.21},"Gilt":{"price":5.38,"change":0.0},"VIX":{"price":19.99,"change":21.45},"BTC":{"price":81579,"change":0.12},"UST":{"price":5.08,"change":-0.01},"ts":"2026-10-18T09:19:00+01:00"}
+{"FTSE":{"price":10881.9,"change":0.38},"SP":{"price":7659.44,"change":-1.09},"Brent":{"price":108.82,"change":-0.95},"GBP":{"price":1.332,"change":-0.06},"Gold":{"price":4175.73,"change":0.26},"EURGBP":{"price":0.8412,"change":-0.23},"Gilt":{"price":5.38,"change":0.0},"VIX":{"price":19.99,"change":21.45},"BTC":{"price":81665,"change":0.23},"UST":{"price":5.08,"change":-0.01},"ts":"2026-10-18T23:59:00+01:00"}
 </script>
  <script id="market-descriptions" type="application/json">
 {
@@ -2295,13 +2295,12 @@
     "name": "FTSE 100",
     "desc": "The UK's benchmark stock index, tracking the 100 largest companies listed on the London Stock Exchange by market capitalisation. Includes Shell, AstraZeneca, HSBC and Unilever.",
     "drivers_up": [
-      "Closed up 0.38% at 10,881.90 on Friday, a fourth consecutive rising session",
-      "Heavy in energy, which gained as oil jumped nearly four per cent"
+      "Closed up 0.38% at 10,881.90 on Friday, a fourth consecutive rising session"
     ],
     "drivers_down": [
-      "London is shut until Monday"
+      "London is shut until Monday morning"
     ],
-    "updated": "18 October 2026 09:19 (Friday's close; markets shut until Monday)"
+    "updated": "18 October 2026 23:59 (Friday's close; market shut until Monday)"
   },
   "SP": {
     "name": "S&P 500",
@@ -2312,51 +2311,51 @@
     "drivers_down": [
       "Closed Friday down 1.09% at 7,659.44 as risk appetite turned"
     ],
-    "updated": "18 October 2026 09:19 (Friday's close; markets shut until Monday)"
+    "updated": "18 October 2026 23:59 (Friday's close; market shut until Monday)"
   },
   "Brent": {
     "name": "Brent Crude Oil",
     "desc": "The global benchmark for crude oil pricing, produced from oil fields in the North Sea. Used to price roughly two-thirds of the world's traded oil.",
     "drivers_up": [
-      "Up 3.72% on Friday to $109.86 as the shipping war in the Strait of Hormuz escalated"
+      "Still near $109 after Friday's 3.72% jump on the Hormuz escalation"
     ],
     "drivers_down": [
-      "Oil does not trade at the weekend; this is Friday's settle"
+      "Down 0.95% to $108.82 on the Sunday reopen, giving back about a quarter of Friday's gain"
     ],
-    "updated": "18 October 2026 09:19 (Friday's settle; change computed against Thursday's 105.92 as the feed's previous-close field is self-referential)"
+    "updated": "18 October 2026 23:59 (live — reopened for the new week this evening)"
   },
   "GBP": {
     "name": "GBP/USD",
     "desc": "The exchange rate between the British pound and the US dollar, commonly known as 'cable'. Reflects relative economic strength and interest rate differentials between the UK and US.",
     "drivers_up": [
-      "Firmer at 1.3328 on Friday, up 0.41%"
+      "Holding above 1.33"
     ],
     "drivers_down": [
-      "The Budget is ten days away"
+      "A shade softer at 1.3320 on the reopen; the Budget is ten days away"
     ],
-    "updated": "18 October 2026 09:19 (Friday's close; markets shut until Monday)"
+    "updated": "18 October 2026 23:59 (live — reopened for the new week this evening)"
   },
   "Gold": {
     "name": "Gold (XAU/USD)",
     "desc": "The spot price of gold in US dollars per troy ounce. The world's oldest safe-haven asset, traditionally rising during periods of uncertainty, inflation and currency debasement.",
     "drivers_up": [
-      "Holding above $4,100"
+      "Up 0.26% to $4,175.73 on the reopen, resuming last week's climb"
     ],
     "drivers_down": [
-      "Slipped 0.13% on Friday to $4,165.01 even as shares fell"
+      "Two providers agree to within thirteen cents, so there is no doubt about the level"
     ],
-    "updated": "18 October 2026 09:19 (Friday's close; change computed, corroborated by a second provider)"
+    "updated": "18 October 2026 23:59 (live — reopened for the new week this evening)"
   },
   "EURGBP": {
     "name": "EUR/GBP",
     "desc": "The exchange rate between the euro and the British pound. Key for UK-EU trade pricing. A falling rate means sterling is strengthening against the euro.",
     "drivers_up": [
-      "Holding above 0.84"
+      "Sterling firmer against the euro, the cross down 0.23% to 0.8412"
     ],
     "drivers_down": [
-      "Down 0.21% on Friday to 0.8431 as sterling firmed"
+      "Still above 0.84"
     ],
-    "updated": "18 October 2026 09:19 (Friday's close; markets shut until Monday)"
+    "updated": "18 October 2026 23:59 (live — reopened for the new week this evening)"
   },
   "Gilt": {
     "name": "UK 10-Year Gilt Yield",
@@ -2365,31 +2364,31 @@
       "Still above 5.3%, near the highest since 2007, with the Budget to be funded"
     ],
     "drivers_down": [
-      "Flat at 5.38% for a second consecutive reading"
+      "Unchanged at 5.38% from Friday's close"
     ],
-    "updated": "18 October 2026 09:19 (Friday's close; markets shut until Monday)"
+    "updated": "18 October 2026 23:59 (Friday's close; a Sunday-night quote on one feed was rejected as the cash market is shut)"
   },
   "VIX": {
     "name": "VIX (Volatility Index)",
     "desc": "The CBOE Volatility Index, often called the 'fear gauge'. Measures expected S&P 500 volatility over the next 30 days. Readings above 20 suggest elevated anxiety; above 30 signals acute stress.",
     "drivers_up": [
-      "Up 21.45% on Friday to 19.99, its sharpest rise this month and within a whisker of 20"
+      "Closed Friday up 21.45% at 19.99, its sharpest rise this month"
     ],
     "drivers_down": [
-      "Still short of levels that would signal real stress"
+      "Shut until Monday, so this is Friday's close"
     ],
-    "updated": "18 October 2026 09:19 (Friday's close; markets shut until Monday)"
+    "updated": "18 October 2026 23:59 (Friday's close; market shut until Monday)"
   },
   "BTC": {
     "name": "Bitcoin (BTC/USD)",
     "desc": "The price of Bitcoin in US dollars. The largest cryptocurrency by market cap, increasingly viewed as digital gold by institutional investors since spot ETF approvals.",
     "drivers_up": [
-      "Up 0.12% to $81,579 — the only live price in this ticker"
+      "Up 0.23% to $81,665 — it has traded right through the weekend"
     ],
     "drivers_down": [
       "Still below $82,000"
     ],
-    "updated": "18 October 2026 09:19 (live; bitcoin trades continuously)"
+    "updated": "18 October 2026 23:59 (live; bitcoin trades continuously)"
   },
   "UST": {
     "name": "US 10-Year Treasury Yield",
@@ -2398,9 +2397,9 @@
       "The market is shut until Monday"
     ],
     "drivers_down": [
-      "Eased to 5.08% on Friday"
+      "Friday's close of 5.08%, a basis point lower on the week's last session"
     ],
-    "updated": "18 October 2026 09:19 (Friday's close; markets shut until Monday)"
+    "updated": "18 October 2026 23:59 (Friday's close; market shut until Monday)"
   }
 }
 </script>
@@ -2453,6 +2452,163 @@
  <!-- ════ ALL EDITIONS (sorted by JS) ════ -->
  <!-- IMPORTANT: Keep 7 FULL DAYS of editions in this container. Do NOT delete editions less than 7 days old. -->
  <div id="all-editions" style="display:none;">
+<!-- ── EVENING 18 OCT (23:59) ── -->
+<div class="curated-edition evening" data-date="2026-10-18" data-time="23:59" data-markets='{"FTSE":{"price":10881.9,"change":0.38},"SP":{"price":7659.44,"change":-1.09},"Brent":{"price":108.82,"change":-0.95},"GBP":{"price":1.332,"change":-0.06},"Gold":{"price":4175.73,"change":0.26},"EURGBP":{"price":0.8412,"change":-0.23},"Gilt":{"price":5.38,"change":0.0},"VIX":{"price":19.99,"change":21.45},"BTC":{"price":81665,"change":0.23},"UST":{"price":5.08,"change":-0.01},"ts":"2026-10-18T23:59:00+01:00"}'>
+ <div class="edition-header">
+ <span class="edition-icon">&#127769;</span>
+ <h2>Evening Briefing</h2>
+ </div>
+ <div class="curated-meta">Sunday 18 October 2026 &mdash; 23:59 BST</div>
+ <div class="impact-box">
+ <h3 class="impact-heading">What It Means For You</h3>
+ <ul class="impact-list">
+ <li><strong>If you are waiting on the Budget:</strong> it is ten days away, and the author of the government&rsquo;s review into young people out of work has now said ministers should cut benefits to pay for employment support. The chancellor is expected to use a tax on bank profits to fund cost-of-living measures including a new energy support package.</li>
+ <li><strong>If you have a child who might need A&amp;E:</strong> the health secretary has asked the NHS to draw up urgent plans to end corridor care for children specifically, with new accident and emergency standards for children in England and corridor-care figures collected by age for the first time.</li>
+ <li><strong>If you drive or heat your home with oil:</strong> Brent reopened this evening at &dollar;108.82 after jumping 3.72% on Friday to &dollar;109.86, as reported attacks on shipping around the Strait of Hormuz hit a weekly record. Crude has spent much of the past eight months above &dollar;100.</li>
+ </ul>
+ </div>
+ <div class="curated-grid">
+ <div class="curated-column">
+ <h3><span class="dot geo"></span><span class="dot-label">GEO</span> Geopolitical</h3>
+ <div class="curated-item" data-time="23:26" data-slug="four-soldiers-named-among-the-dead-at-the-alberta-base-fire">
+ <h4>Four Soldiers Named Among the Dead at the Alberta Base Fire</h4>
+ <p>Four Canadian service members were killed and thirty-nine are in hospital, nineteen of them critically, after a grass fire ignited on a training range and strong winds drove it towards soldiers on exercise. The dead were named on Sunday evening as Sergeant Morgan Wong, Private Shaun Farrell, Private Aidan Goulding and Private Hayden Lykkemark.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">This morning&rsquo;s edition carried no figure and no cause, because the only ones available came from an outlet we do not use citing unnamed military sources. Both have now been settled on the record, and one of them was wrong. Major General Wade Rutland, commander of the 1st Canadian Division, said a grass fire started on a range and &ldquo;uncommonly strong winds caused it to spread rapidly and shift direction&rdquo;. The account that a gas main had been struck during live firing has been contradicted by the military itself, which says investigators do not believe any explosions were caused by oil or gas infrastructure. The toll is four, not the higher number that circulated. Mark Carney, addressing the country from Ottawa, called it &ldquo;one of the worst tragedies for the forces on Canadian soil in peacetime&rdquo; and ordered flags on all federal buildings to half-mast. Alberta&rsquo;s premier Danielle Smith gave the hospital figures; a hospital in Edmonton declared a code orange on Saturday evening and stood it down on Sunday. There is no indication of terrorism. Alberta votes today on beginning the legal process towards a referendum on leaving Canada, and no approved source connects the two events.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="22:47" data-slug="french-arrests-double-to-2400-as-macron-speaks-of-anger-and-shame">
+ <h4>French Arrests Double to 2,400 as Macron Speaks of Shame</h4>
+ <p>About 2,400 people have been arrested and around a thousand police and gendarmes injured, the interior ministry says &mdash; double and sevenfold the figures available this morning &mdash; after 550,000 demonstrated against fuel prices, the cost of living and declining public services. In a national address the president said protesters had &ldquo;sought to bring down the republic&rdquo;, and: &ldquo;We all feel anger and shame.&rdquo;</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">Emmanuel Macron criticised &ldquo;unbridled violence&rdquo; and blamed &ldquo;factious groups from the ultra-left, joined by numerous delinquents&rdquo; &mdash; a diagnosis his government and Marine Le Pen now share, which is itself notable. Prefects and mayors are to draft measures protecting shops and civic buildings, and prefects may be allowed to ban street gatherings. The political cost is landing on one man: politicians on both left and right are calling for the interior minister Laurent Nu&ntilde;ez to resign, after a government that appeared caught out by the scale of Saturday&rsquo;s violence. The prime minister S&eacute;bastien Lecornu said the government would not be &ldquo;intimidated&rdquo;. The physical damage is concentrated in Limoges, where the nineteenth-century city hall has been gutted and its clock tower and roof have collapsed. Disorder continued on Sunday at the Place de la R&eacute;publique in Paris and on a smaller scale in Lyon, with teargas, stun grenades, e-bikes piled and set alight and graffiti reading &ldquo;introduction to civil war&rdquo;. Protests also took place on Saturday in Spain, Italy and Portugal. The number of officers hurt is the figure that has moved most: about a thousand police and gendarmes, on the ministry&rsquo;s count, against the 150 reported this morning.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="23:10" data-slug="st-petersburg-oil-terminal-struck-as-kyiv-says-intelligence-is-back">
+ <h4>St Petersburg Oil Terminal Struck as Kyiv Says Intelligence Is Back</h4>
+ <p>Drones struck the St Petersburg Oil Terminal and the Ruchyi oil depot overnight, killing at least one person and injuring at least five, the city&rsquo;s governor said. Separately the dispute reported this morning half resolved: Volodymyr Zelensky said American intelligence sharing is working again &mdash; &ldquo;it was blocked for some period of time. And then it was deblocked by the American side&hellip; Now it works.&rdquo;</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">Kyiv has not commented on the strikes, so there is no Ukrainian confirmation of them, and Russia&rsquo;s defence ministry claim to have downed more than a thousand Ukrainian drones overnight is its own unverified assertion. What is attributed on the record comes from Governor Alexander Beglov: fires at both oil sites, twelve apartment buildings and two houses damaged, and Pulkovo Airport temporarily closed. A logistics centre and a data centre belonging to two Russian internet companies were also hit; both confirmed damage and said services continued. On the diplomatic strand, Mr Zelensky still maintains the satellite slowdown was deliberate &mdash; &ldquo;it was a message from the American government to limit the speed. And technically, SpaceX did it&rdquo; &mdash; which remains his own claim with no American or corporate confirmation. Donald Trump wrote that &ldquo;I am in the process of negotiating Peace&rdquo; and would not &ldquo;drive, foolishly, Russia away from the bargaining table&rdquo;, while claiming Mr Zelensky &ldquo;doesn&rsquo;t want to end this war, and probably never did&rdquo;. Mr Zelensky says Russia has attacked Ukraine&rsquo;s energy, oil and gas sectors seventy-six times since the ceasefire was declared &mdash; Ukraine&rsquo;s own count. There is still no sign of a summit.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="20:02" data-slug="gulf-states-invoke-joint-defence-as-iran-holds-its-hormuz-terms">
+ <h4>Gulf States Invoke Joint Defence as Iran Holds Its Hormuz Terms</h4>
+ <p>Gulf Cooperation Council foreign ministers, meeting in Manama, condemned Houthi attacks and invoked their joint defence agreement, under which an attack on one member concerns all six. Iran&rsquo;s foreign minister said Tehran&rsquo;s conditions for reopening the Strait of Hormuz remain in place. No new attack on shipping was reported on Sunday.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The weekly record of ten vessels attacked, and twenty-three this month, stands where it did this morning; what moved today was the Saudi-Yemen axis rather than the strait. The council also pressed for tighter enforcement of the United Nations arms embargo and urged states to designate the Houthis a terrorist organisation. The coalition says it brought down two drones early on Sunday, near Riyadh and in the Eastern Province, after an earlier interception near the capital. The effect on ordinary life in the Saudi capital is now visible: the Kingdom Centre, one of its landmark towers, has ordered mandatory remote working for office tenants indefinitely. Six people were injured in Najran by a Houthi projectile, with three homes and three vehicles damaged, according to the Saudi civil defence agency. Fighting inside Yemen has displaced more than 233,000 people. Yemen&rsquo;s foreign minister rejected an Iranian offer to mediate, saying Iran was &ldquo;offering to mediate a war ignited by the coup of the Houthi terrorist militia with their regime&rsquo;s backing&rdquo;. A claim that a Saudi airstrike in northern Yemen killed at least nine people comes from the Houthis&rsquo; own news agency and is not carried here as fact.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="19:38" data-slug="trump-endorses-netanyahu-nine-days-before-israel-votes">
+ <h4>Trump Endorses Netanyahu Nine Days Before Israel Votes</h4>
+ <p>The American president has endorsed Benjamin Netanyahu for the Israeli election on 27 October, calling him &ldquo;a Great Warrior Prime Minister, and an even greater Partner for Peace in combatting the Islamic Republic of Iran&rdquo;. He had withheld the endorsement for months while the two diverged over strategy. It is Israel&rsquo;s first national vote since the October 2023 attacks.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The endorsement also praised Mr Netanyahu as &ldquo;Strong, Brave, and Brilliant in the face of tremendous opposition, including that coming from even Israel, itself&rdquo; &mdash; a formulation that acknowledges how contested he is at home. The reply was immediate: Mr Netanyahu thanked him on X for &ldquo;tremendous support and the joint work&hellip; Together we will complete the mission!&rdquo; In a party video he told voters &ldquo;we have crushed Iran&rdquo; and that the partnership &ldquo;will continue in order to eliminate the Iranian threat over the next two years, or even sooner&rdquo;; those are campaign claims rather than established facts and are reported as such. The timing sits awkwardly against the other Israeli story of the weekend. The European Union condemned Friday&rsquo;s attack by settlers on European diplomats in the West Bank, and the American ambassador has called for the prosecution of those who attacked a photographer during the olive harvest. The election will be the first test of whether the war has changed Israeli politics or merely hardened it.</div>
+ </details>
+ </div>
+ </div>
+ <div class="curated-column">
+ <h3><span class="dot uk"></span><span class="dot-label">UK</span> Domestic</h3>
+ <div class="curated-item" data-time="22:09" data-slug="farage-filmed-telling-an-aide-to-take-the-deal-over-a-candidate">
+ <h4>Farage Filmed Telling an Aide to Take the Deal Over a Candidate</h4>
+ <p>The year-long undercover film was broadcast tonight. In footage released before it, the Reform leader is recorded discussing a mayoral candidate who had said a then-cabinet minister should &ldquo;go home to the Caribbean&rdquo;, telling his communications director an apology would do: &ldquo;Just take the f***ing deal.&rdquo; After he leaves, the aide says he would have removed the man &ldquo;months ago&rdquo;.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The documentary went out at 22:20 and no approved outlet had published a review of it by the time this edition closed, so everything here is footage the broadcaster had already released rather than anything revealed on air, and there is as yet no reaction from Reform&rsquo;s leader or any other party since transmission. What has moved today is the casualty list. A councillor who was deputy mayor of Solihull has resigned every post after being filmed calling Asian families &ldquo;absolute parasites&rdquo; and saying the area was &ldquo;infested&rdquo;; his own statement concedes &ldquo;my remarks were wrong, offensive and completely unacceptable&rdquo;, and the Ministry of Justice has suspended him from his prison service job, calling the comments &ldquo;despicable&rdquo;. Two byelections now follow. A candidate in the same borough resigned citing health. In Bromley, Conservative, Labour and Liberal Democrat councillors have jointly called on a councillor filmed saying the King should be beheaded to stand down. One correction to this morning&rsquo;s edition: it reported that two Hounslow councillors recorded advocating mass shootings were under investigation; the party now says they are not.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="16:55" data-slug="police-question-a-reform-mayor-over-images-shown-to-a-colleague">
+ <h4>Police Question a Reform Mayor Over Images Shown to a Colleague</h4>
+ <p>Luke Campbell, the Reform mayor of Hull and East Yorkshire, was questioned under caution by Humberside Police this month over allegedly showing a senior female colleague four naked and sexualised images of himself in May. He has not been arrested. The party says he &ldquo;firmly denies the allegations&rdquo;, calling them a &ldquo;meritless workplace dispute&rdquo;.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The complainant&rsquo;s witness statement, submitted to an internal grievance procedure at the combined authority, says she was &ldquo;deliberately exposed to naked and sexualised images involving the mayor in the workplace, without my consent, and was laughed at when I was visibly embarrassed&rdquo;, and that &ldquo;this was unwanted conduct of a sexual nature which violated my dignity&rdquo;. She says a permanent job offer she had accepted was withdrawn on a video call about three weeks later. The combined authority has confirmed a police investigation. Two cautions. The reporting rests on a single title working from leaked internal documents, and neither the police nor Mr Campbell had commented. And there is a factual dispute inside it: a former Conservative minister who is now a Reform member defended him by saying the image was a magazine cover of him posing naked from the waist up, which the reporting says is contradicted by witnesses who describe a naked man with a visible tattoo that does not appear on that cover. This is a separate matter from the documentary.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="22:20" data-slug="polanski-will-not-overturn-the-zionism-motion-and-is-not-sorry">
+ <h4>Polanski Will Not Overturn the Zionism Motion and Is Not Sorry</h4>
+ <p>The Green leader said he would not try to reverse the members&rsquo; motion declaring Zionism a form of racism, that party rules bar amendment until 2028, and that he respects &ldquo;the democratic will of our members&rdquo;. Asked whether Israel has a right to exist, he said: &ldquo;I don&rsquo;t think any state has a right to exist under international law.&rdquo;</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The arithmetic is the part worth holding on to. The motion passed in Brighton earlier this month by 1,022 votes to 813, out of a membership of about 230,000 &mdash; so roughly eight in a thousand members settled the party&rsquo;s position on the question now consuming it. Mr Polanski, who is Jewish, did not vote. Two amendments he supported were defeated: one removing the commitment to a single state, the other protecting Jewish members who attend synagogues that consider themselves Zionist. He called a two-state solution &ldquo;for the birds&rdquo;, said &ldquo;I&rsquo;m not sorry at all&rdquo;, and on whether Zionism is racist replied that what is controversial is not the motion but the deaths in Gaza. The dissent is internal and named. A former co-leader said it is not &ldquo;tenable for us to continue the next two years with this policy&rdquo; and floated a ballot of all members. The chair of the Jewish Greens said there was &ldquo;no excuse for his not participating&rdquo;, and says polling of Jewish members was evenly split, which contradicts his claim that a majority supported it.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="19:46" data-slug="milburn-says-cut-benefits-to-pay-for-youth-employment-support">
+ <h4>Milburn Says Cut Benefits to Pay for Youth Employment Support</h4>
+ <p>The author of the government&rsquo;s review into young people out of work and education says ministers should move money out of welfare to fund employment support: &ldquo;We&rsquo;ve got to have a different conversation about the welfare system, it just isn&rsquo;t working for young people.&rdquo; A record one million 18 to 24-year-olds are now in that position, and 60% of them have never had a job.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">That second figure is why he calls it detachment rather than unemployment, and why he frames it as a health problem: &ldquo;the crisis is a health crisis.&rdquo; It is also an intervention with a date on it. Alan Milburn&rsquo;s final report has been pushed back by ministers until after the Budget on 28 October, so he is making the argument in a newspaper interview instead, ten days before a chancellor who is under pressure to explain how he closes a multibillion-pound gap without borrowing more. The chancellor announced a &pound;100m local apprenticeship service at his party conference last month and called it &ldquo;a downpayment on Alan Milburn&rsquo;s work&rdquo;. Mr Milburn also hinted at conditionality, saying &ldquo;there has got to be an obligation on young people to take up those opportunities&rdquo;, and wants a maximum waiting time for mental health services. Interviewed alongside him, the chair of the government&rsquo;s review of mental health, attention deficit disorder and autism warned that without action the share of young people with a diagnosable disorder could rise from one in five to one in four.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="11:52" data-slug="health-secretary-calls-the-nhs-records-breaches-a-disgrace">
+ <h4>Health Secretary Calls the NHS Records Breaches a Disgrace</h4>
+ <p>Yvette Cooper said staff accessing the medical records of the Nottingham attack victims, and possible breaches involving a man killed by a tiger, are &ldquo;a disgrace&rdquo; and that &ldquo;there&rsquo;s got to be proper respect for patients&rdquo;. One trust has now dismissed fifteen staff in total. A second organisation says records may also have been accessed improperly.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The number has climbed in stages, which is what makes it look less like a handful of individuals and more like a culture. Nottingham University Hospitals said in May it had sacked eleven people for inappropriately accessing the records of Barnaby Webber, Grace O&rsquo;Malley-Kumar and Ian Coates, killed in June 2023; four further dismissals were confirmed on Friday, covering doctors, nurses, registered healthcare professionals and other staff. The trust has informed the nursing and medical regulators, the Information Commissioner and the police, and is testing a new alerting system; its medical director says there is &ldquo;simply no excuse for accessing the records of a patient without a legitimate reason&rdquo;. Police have previously said there is no criminal investigation and the Commissioner says it will assess evidence from the trust in due course. The second strand is Yorkshire Ambulance Service, which says the records of William Chapman may also have been accessed improperly. The health secretary said she expects action to be taken; she has not ordered anything specific, and this edition does not suggest otherwise.</div>
+ </details>
+ </div>
+ </div>
+ </div>
+ <div class="one-to-read">
+ <span class="otr-label">One To Read</span>
+ <a href="https://www.npr.org/2026/10/18/nx-s1-6007382/ukraine-us-starshield-starlink-what-to-know-trump" target="_blank" rel="noopener noreferrer">
+ <h4>What Starshield Actually Is</h4>
+ <span class="otr-source">NPR</span>
+ <span class="otr-dot">&middot;</span>
+ <span class="otr-desc">This column has carried the satellite dispute for three editions and the two sides still describe different systems. A short explanation of what Starshield is, how it differs from Starlink, and why a speed cap on it disables drones.</span>
+ </a>
+ </div>
+ <!-- SOURCES USED
+ - NOTE ON TIMING, STATED FIRST BECAUSE IT MATTERS MOST. This edition is stamped 23:59 and was pushed after midnight on 19 October. That is a deliberate backdate of about forty minutes and it is disclosed here rather than left to be noticed. The reason is mechanical: this page classifies an edition as morning or evening purely by the hour in its data-time attribute, treating anything before 14:00 as a morning edition, and it then keeps only the latest edition of each type per day. An edition dated 18 October and stamped 00:39 would therefore have been classified as a second morning edition, lost the comparison against this morning's 09:19, and never appeared on the site at all. 23:59 is the only stamp under which a Sunday evening edition exists. The embedded market timestamp carries the same 23:59 and is early by the same margin
+ - NOTE ON THIS EDITION'S PRODUCTION. The scheduled 17:55 job produced nothing: no edition, no cache files, and a clean exit status of zero, which is a quieter failure than the hangs and stalls of the past fortnight because nothing is left behind to notice. The edition was researched and written from scratch from about midnight. Firecrawl remains out of credits (HTTP 402). ft.com, sky.com, reuters.com, apnews.com, telegraph.co.uk, thetimes.com, itv.com, channel4.com, washingtonpost.com, wsj.com and timesofisrael.com were not retrievable. ABC's international feed returned empty on both of its addresses tonight. Timestamps below are JSON-LD publication and modification times converted to BST; where a page was rewritten during the day the item carries the modification time
+ - https://www.theguardian.com/world/2026/oct/18/serious-incident-alberta-military-base-deaths-injuries-canada-carney-cfb-wainwright &mdash; The Guardian, 23:26 BST: the four dead named at a Sunday evening press conference as Sergeant Morgan Wong of the Loyal Edmonton Regiment and Privates Shaun Farrell, Aidan Goulding and Hayden Lykkemark of the 3rd Battalion; Alberta's premier Danielle Smith giving thirty-nine in hospital with at least nineteen critical; and Mark Carney's address from Ottawa calling it &ldquo;one of the worst tragedies for the forces on Canadian soil in peacetime&rdquo; and ordering flags on all federal buildings to half-mast
+ - https://www.bbc.co.uk/news/articles/cmgelrq8x92do &mdash; BBC News, published 18:48 BST and modified 22:37, and the source of the correction that matters most tonight: Major General Wade Rutland, commander of the 1st Canadian Division, saying a grass fire ignited on a training range and &ldquo;uncommonly strong winds caused it to spread rapidly and shift direction&rdquo;; and, explicitly, that after local media reported a gas main may have been struck during a live firing exercise &ldquo;the military later said that investigators do not believe any explosions were caused by oil or gas infrastructure&rdquo;. This morning's edition printed neither a toll nor a cause because the only ones available came from a non-approved outlet citing unnamed military sources. The toll it carried, of at least seven, was wrong; the official figure is four. The cause it carried has been disclaimed by the military itself
+ - https://www.cbsnews.com/news/deadly-incident-fire-alberta-canada-military-base-cfb-wainwright/ &mdash; CBS News, modified 23:31 BST: the third approved source for the toll, the code orange declared at a hospital in Edmonton and stood down on Sunday, and that the defence ministry sees no indication of terrorist activity
+ - https://www.aljazeera.com/news/2026/10/18/alberta-independence-referendum-will-separatists-survive-a-loss &mdash; Al Jazeera, 22:53 BST: that today's Alberta ballot offers remaining in Canada or beginning the legal process towards a future referendum on separation, that polling has four in five Albertans wanting to stay, and that two-thirds of those backing the referendum say they are voting strategically to send Ottawa a message. No approved source links the fire to the vote and none is implied here
+ - https://www.bbc.co.uk/news/articles/cw240zl08dm5o &mdash; BBC News, published 20:14 BST and modified 21:33: about 2,400 arrested on France's interior ministry figures, 550,000 demonstrators, Emmanuel Macron's national address from the &Eacute;lys&eacute;e warning against escalation and saying &ldquo;we all feel anger and shame&rdquo;, and that prefects and mayors are to draft measures protecting shops and civic buildings
+ - https://www.aljazeera.com/news/2026/10/18/macron-denounces-frances-nationwide-rioting-looting &mdash; Al Jazeera, published 21:19 BST and modified 21:39: the interior ministry's figure of about a thousand police and gendarmes injured, against the 150 carried this morning; that protesters &ldquo;sought to bring down the republic&rdquo;; and that he stopped short of a state of emergency or a curfew while pledging a crisis unit and allowing local officials to ban certain street gatherings
+ - https://www.theguardian.com/world/2026/oct/18/french-government-crisis-talks-violent-unrest-policing-macron &mdash; The Guardian, published 19:57 BST and modified 22:47: &ldquo;unbridled violence&rdquo;, the blame placed on &ldquo;factious groups from the ultra-left, joined by numerous delinquents&rdquo; by both the government and Marine Le Pen, calls from left and right for the interior minister Laurent Nu&ntilde;ez to resign, the prime minister saying the government would not be &ldquo;intimidated&rdquo;, the gutting of the nineteenth-century city hall in Limoges, and Sunday's smaller clashes at the Place de la R&eacute;publique and in Lyon with graffiti reading &ldquo;introduction to civil war&rdquo;
+ - https://www.theguardian.com/world/2026/oct/18/lisbon-milan-protests-housing-living-costs &mdash; The Guardian, published 12:02 BST and modified 16:10: that protests also took place in Spain, Italy and Portugal on Saturday. A second day of clashes in Milan could not be stood up on any approved source and is not claimed; the only report of one is on a blocked outlet
+ - https://www.bbc.co.uk/news/articles/c3eweygrjzd7o &mdash; BBC News, published 12:57 BST and modified 16:46: at least one killed and at least five injured, Governor Alexander Beglov on fires at the St Petersburg Oil Terminal and the Ruchyi oil depot, twelve apartment buildings and two houses damaged, Pulkovo Airport temporarily closed, and strikes on a logistics centre and a data centre belonging to two Russian internet companies, both of which confirmed damage and said services continued. Kyiv has not commented, so there is no Ukrainian confirmation, and the Russian defence ministry's claim to have downed more than a thousand drones overnight is its own unverified assertion. This story could not be stood up at all this morning, when it existed only as a video item with no text and no date, and was not run
+ - https://www.theguardian.com/world/2026/oct/18/killed-injured-russia-ukraine-strikes-power-infrastructure &mdash; The Guardian, published 17:37 BST and modified 22:44, and carrying a genuine wire contribution line crediting Reuters, the Associated Press (AP) and Agence France-Presse (AFP) rather than a photograph credit: Volodymyr Zelensky telling American television that intelligence sharing &ldquo;was blocked for some period of time. And then it was deblocked by the American side&hellip; Now it works&rdquo;, his continuing claim that &ldquo;it was a message from the American government to limit the speed. And technically, SpaceX did it&rdquo;, and his count of seventy-six Russian attacks on Ukraine's energy, oil and gas sectors since the ceasefire was declared. That throttling attribution remains his own and no American or corporate confirmation of it exists on any approved source, which was also the position this morning
+ - https://www.bbc.co.uk/news/articles/c9p8gz7zx4peo &mdash; BBC News, 23:10 BST, the freshest item in this edition: Donald Trump writing that &ldquo;I am in the process of negotiating Peace&rdquo;, that he would not &ldquo;do anything that will drive, foolishly, Russia away from the bargaining table&rdquo; and that Mr Zelensky &ldquo;doesn't want to end this war, and probably never did&rdquo;, and that the sanctions were blocked two days before they were due to take effect. A Russian envoy's description of that as &ldquo;an important and truly historic moment&rdquo; is his characterisation and is not carried as fact
+ - https://www.nbcnews.com/politics/trump-administration/us-taking-putins-side-historic-mistake-says-zelenskyy-rcna604111 &mdash; NBC News, published 13:21 BST and modified 14:34: that Mr Zelensky called American support for Vladimir Putin a &ldquo;historic mistake&rdquo;
+ - https://www.cbsnews.com/news/ukraine-russia-drone-st-petersburg-oil-facilites/ &mdash; CBS News, published 19:29 BST and modified 22:14: two killed and at least seventeen injured in Sunday's exchanges on power infrastructure, and the president's &ldquo;we'll figure it out, and you'll figure it out&rdquo; when asked for detail on the suspended sanctions
+ - https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-yemen-houthis-saudi-arabia/ &mdash; CBS News live file. Note on its timestamp: the JSON-LD publication date on this page is stale, reading 13:15 BST on Friday 16 October, while the page's own visible stamp reads 15:02 Eastern on 18 October, which is 20:02 BST tonight; the visible stamp is used. From it: Iran's foreign minister Abbas Araghchi telling Tasnim that Tehran's conditions for reopening the Strait of Hormuz remain in place and that it is still reviewing American comments on its seven-day ceasefire proposal; the coalition downing two drones near Riyadh and in the Eastern Province; six injured in Najran by a projectile with three homes and three vehicles damaged on the Saudi civil defence agency's account; and the Kingdom Centre in Riyadh ordering mandatory remote working for office tenants. A claim that a Saudi airstrike in northern Yemen killed at least nine people and wounded sixteen comes solely from the Houthis' own news agency and is not carried
+ - https://www.aljazeera.com/news/2026/10/18/gcc-condemns-houthi-attacks-on-saudi-arabia-as-yemen-fighting-intensifies &mdash; Al Jazeera, 19:44 BST, bylined to its own staff: Gulf Cooperation Council foreign ministers meeting in Manama condemning Houthi attacks and invoking their joint defence agreement under which an attack on one member affects all six, pressing for tighter enforcement of the United Nations arms embargo and urging states to designate the Houthis a terrorist organisation; more than 233,000 displaced inside Yemen; and Yemen's foreign minister rejecting Iranian mediation of &ldquo;a war ignited by the coup of the Houthi terrorist militia with their regime's backing&rdquo;. No new attack on shipping was reported on any approved source today, so this morning's weekly record of ten vessels and twenty-three this month stands unadvanced and is described as such
+ - https://www.cbsnews.com/news/trump-endorses-israel-prime-minister-benjamin-netanyahu-reelection/ &mdash; CBS News, published 17:04 BST and modified 19:38: the endorsement describing Benjamin Netanyahu as &ldquo;a Great Warrior Prime Minister, and an even greater Partner for Peace in combatting the Islamic Republic of Iran&rdquo; and as &ldquo;Strong, Brave, and Brilliant in the face of tremendous opposition, including that coming from even Israel, itself&rdquo;, that it is a boost withheld for months as the two leaders' strategies diverged, and that the election on 27 October is Israel's first national vote since the attacks of October 2023
+ - https://www.aljazeera.com/news/2026/10/18/trump-endorses-netanyahu-in-israeli-legislative-elections &mdash; Al Jazeera, published 17:36 BST and modified 19:27: the second source for the endorsement, Mr Netanyahu's reply thanking him for &ldquo;tremendous support and the joint work&hellip; Together we will complete the mission!&rdquo;, and the party video in which he tells voters &ldquo;we have crushed Iran&rdquo; and that the partnership will continue &ldquo;to eliminate the Iranian threat over the next two years, or even sooner&rdquo;. Those are campaign claims and are reported as such
+ - https://www.independent.co.uk/news/uk/politics/reform-uk-nigel-farage-itv-undercover-documentary-b3068807.html &mdash; The Independent, 22:09 BST, published eleven minutes before the broadcast and therefore a round-up of footage already released rather than a review: Nigel Farage recorded discussing the Hampshire and Solent mayoral candidate who had posted that a then-cabinet minister should &ldquo;go home to the Caribbean&rdquo;, telling his communications director that an apology would do and &ldquo;just take the f***ing deal&rdquo;, and the aide saying after he leaves that &ldquo;if it was up to me, I'd have kicked him out f***ing months ago&rdquo;; that Reform says the two Hounslow councillors recorded advocating mass shootings are not under investigation; that Bromley councillors from three parties have jointly called on a colleague filmed saying the King should be beheaded to stand down; and the scale of the investigation, a year of filming across England and Wales covering the May local elections and four byelection campaigns. The documentary went out at 22:20 and no approved outlet had published a review of it, or any reaction to it, by the time this edition closed; nothing here is presented as having been revealed on air. An unnamed Reform member of parliament is quoted in this copy on being excluded as a woman and is not named here because no approved source tonight names her
+ - https://www.independent.co.uk/news/uk/politics/reform-resign-councillor-alan-feeney-itv-b3068451.html &mdash; The Independent, 16:20 BST on 17 October: the resignation of the Solihull deputy mayor from every post after being filmed calling Asian families &ldquo;absolute parasites&rdquo; and saying the area was &ldquo;infested&rdquo;, his statement that &ldquo;my remarks were wrong, offensive and completely unacceptable&hellip; There is no excuse for my comments&rdquo;, the Ministry of Justice suspending him from his prison service job and calling his comments &ldquo;despicable&rdquo;, the two byelections that follow, and a candidate in the same borough resigning citing personal and health grounds
+ - https://www.theguardian.com/politics/2026/oct/18/aspiring-reform-mp-cannot-be-muslim-and-british-suspended &mdash; The Guardian, published 11:03 BST and modified 17:00: the suspended activist's recorded words on asylum seekers and on whether a person can be both Muslim and British, and his response that his views were those of British people in general and not extremist. His name was carried in this morning's edition and the suspension is confirmed by the party
+ - https://www.bbc.co.uk/news/articles/cr3elnevylywo &mdash; BBC News, 21:49 BST on 17 October: the party confirming the suspension pending an internal investigation and that it is pursuing legal action against the broadcaster and the production company
+ - https://www.theguardian.com/politics/2026/oct/18/police-investigate-reform-mayor-allegedly-sharing-naked-sexualised-images-of-himself &mdash; The Guardian, published 16:18 BST and modified 16:55, and the only source for this story: Luke Campbell questioned under caution by Humberside Police this month, not arrested, over allegedly showing a senior female colleague four naked and sexualised images of himself in May; her witness statement that she was &ldquo;deliberately exposed to naked and sexualised images involving the mayor in the workplace, without my consent, and was laughed at when I was visibly embarrassed&rdquo; and that &ldquo;this was unwanted conduct of a sexual nature which violated my dignity&rdquo;; the withdrawal of a job offer about three weeks later; the combined authority confirming a police investigation; the party saying he &ldquo;firmly denies the allegations&rdquo; which come from &ldquo;a disgruntled employee attempting to leverage a settlement in a meritless workplace dispute&rdquo;; and the dispute over a former minister's defence that the image was a magazine cover, contradicted by witnesses describing a tattoo that does not appear on it. This rests on one title working from leaked internal grievance documents; neither the police nor Mr Campbell had commented. He is a former Olympic boxer, which is biography rather than sport, and the sporting detail is deliberately not used
+ - https://www.bbc.co.uk/news/articles/cmn8w5v8yne4o &mdash; BBC News, published 11:03 BST and modified 15:57: Zack Polanski saying &ldquo;I'm not going to try to overturn it&rdquo;, that party rules make a conference decision policy for two years so it cannot be amended until 2028, that &ldquo;if members have made a decision, then I respect the democratic will of our members&rdquo;, and the vote of 1,022 to 813 out of about 230,000 members in Brighton earlier this month, in which he did not vote
+ - https://www.theguardian.com/politics/2026/oct/18/greens-zack-polanski-application-zionism-racist-no-state-right-to-exist &mdash; The Guardian, published 18:38 BST and modified 22:20: &ldquo;I don't think any state has a right to exist under international law&rdquo;, that a two-state solution is &ldquo;for the birds&rdquo;, &ldquo;I'm not sorry at all&rdquo;, the two defeated amendments he supported, a former co-leader saying it is not &ldquo;tenable for us to continue the next two years with this policy&rdquo; and floating a members' ballot, and the chair of the Jewish Greens saying there was &ldquo;no excuse for his not participating&rdquo; and that polling of Jewish members was evenly split, contradicting his claim that a majority supported the motion. A reported Labour ultimatum to Green council groups across eighteen councils could not be confirmed on any approved source tonight and is not carried
+ - https://www.theguardian.com/society/2026/oct/18/cut-benefits-fund-employment-support-young-people-neet-review-author-alan-milburn &mdash; The Guardian, published 19:30 BST and modified 19:46, an exclusive interview: Alan Milburn saying &ldquo;we've got to have a different conversation about the welfare system, it just isn't working for young people&rdquo; and that money should move from welfare to employment support; a record one million 18 to 24-year-olds not in education, employment or training with 60% of them never having had a job; his framing that &ldquo;the crisis is a health crisis&rdquo;; that ministers have pushed his final report back until after the Budget on 28 October; the chancellor's &pound;100m local apprenticeship service described as &ldquo;a downpayment on Alan Milburn's work&rdquo;; his remark that &ldquo;there has got to be an obligation on young people to take up those opportunities&rdquo;; and the warning from the chair of the government's mental health, attention deficit and autism review that the share of young people with a diagnosable disorder could rise from one in five to one in four. The review itself is unpublished, so this rests on the interview
+ - https://www.bbc.co.uk/news/articles/cq2e9nw82ljdo &mdash; BBC News, 11:52 BST: Yvette Cooper calling the breaches &ldquo;a disgrace&rdquo;, saying &ldquo;there's got to be proper respect for patients&rdquo; and that she expects action to be taken against staff who breached standards; the fifteen dismissals in total at Nottingham University Hospitals; and Yorkshire Ambulance Service saying William Chapman's records may also have been accessed illegitimately. She has not ordered any specific action and the item does not suggest she has
+ - https://www.theguardian.com/society/2026/oct/17/fifteen-nhs-staff-sacked-after-accessing-medical-records-of-valdo-calocane-victims &mdash; The Guardian, 23:39 BST on 17 October: the eleven dismissals announced in May and four further confirmed on Friday covering doctors, nurses, registered healthcare professionals and other staff; the victims named as Barnaby Webber, Grace O'Malley-Kumar and Ian Coates, killed in June 2023; the referrals to the nursing and medical regulators, the Information Commissioner and the police; the medical director's &ldquo;simply no excuse for accessing the records of a patient without a legitimate reason&rdquo;; and that police have said there is no criminal investigation while the Commissioner will assess evidence in due course. Every figure here is the trust's own disclosure about itself
+ - https://www.bbc.co.uk/news/articles/cm2kezgd77qlo &mdash; BBC News, published 08:05 BST and modified 13:09, the source for the second impact-box line: the health secretary asking the NHS to draw up urgent plans to end corridor care for children, new accident and emergency standards for children in England, and corridor-care figures to be collected by age for the first time
+ - https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol &mdash; CNBC quote endpoint, read 23:58:43 BST, cross-checked against Trading Economics for the UK ten-year gilt, the US ten-year, gold and Brent. The week reopened while this edition was being written, so unlike this morning five instruments are live and five are not. Live: Brent at 108.82, down 0.95% against Friday's 109.86 settle and so giving back about a quarter of Friday's 3.72% jump; gold at 4,175.73, up 0.26%, a level Trading Economics corroborates to within thirteen cents; sterling at 1.3320; euro-sterling at 0.8412; and bitcoin at 81,665, which trades continuously. Still Friday's closes, because those markets are shut: the FTSE at 10,881.90 up 0.38% for a fourth consecutive rising session, the S&amp;P 500 at 7,659.44 down 1.09%, the volatility index at 19.99 up 21.45%, and the Treasury at 5.08%. The gilt is published at Friday's 5.38, unchanged: CNBC returned 5.351 stamped 23:01 on a Sunday night, but the cash gilt market does not trade then and Trading Economics still shows 5.38 as of Friday, so that quote is rejected rather than published as a three-basis-point move that did not happen. Trading Economics' Brent level is wrong for a fourth consecutive day, about eight dollars below CNBC, so Brent rests on CNBC alone. Full working in cache/2026-10-18/markets-SUMMARY-EVENING.txt
+ - https://www.npr.org/2026/10/18/nx-s1-6007382/ukraine-us-starshield-starlink-what-to-know-trump &mdash; NPR, 19:38 BST &mdash; One To Read: an explainer on what Starshield is, how it differs from Starlink and why a speed cap on it disables drones. It is recommended because the two governments have spent three of this column's editions describing what appear to be different systems, and a reader is entitled to a plain account of the thing being argued about
+ - OUTLET COUNT, STATED HONESTLY: eleven outlets are relied upon for claims in this edition &mdash; BBC News, The Guardian, The Independent, CBS News, Al Jazeera, NBC News, NPR, CNBC and Trading Economics, plus a genuine wire contribution line crediting Reuters, the Associated Press (AP) and Agence France-Presse (AFP) on the Guardian's Ukraine report, which is a contribution credit and not a photograph credit. Trading Economics is not recognised by the automated tally. Outlets named below only to record that they could not be retrieved, or were considered and rejected, still match its patterns, so its number will differ from the one above
+ - NOT CARRIED: a Rightmove analysis showing sellers cut asking prices on more than 3,000 properties a day in September, the highest monthly total in fifteen years at an average reduction of about 7% or &pound;21,000, is strong and household-relevant but was published at 00:00 on 19 October &mdash; after this edition's timestamp. Running an item that postdates the edition carrying it would compound the backdate disclosed above, so it is held for the morning. A second day of clashes in Milan, and a bomb threat forcing a Tel Aviv to Vienna flight to land, exist only on a blocked outlet and could not be stood up on any approved source. Reported Treasury security measures against Budget leaks, and a &pound;70m budget hole at the City of London Corporation, are both on a blocked title alone with nothing on gov.uk, so they are described nowhere and quoted nowhere. The Czech Senate result, in which the prime minister's movement took none of the twenty-seven seats contested and lost the one it held, stands up on Associated Press wire copy but is Saturday's story and has not advanced. Also weighed and held: a sixth day of unrest in Albania with the Supreme Court set alight and the prime minister refusing to resign, where one approved outlet's text and video items disagree on whether it is the fifth or sixth day and no updated arrest totals exist; Taiwan driving off sixteen Chinese vessels; and the health secretary's refusal to guarantee the eighteen-week waiting target by 2029. Monday's front pages could not be reviewed because no approved paper review had published. No gov.uk release has appeared since the urgent care announcement at 00:23 this morning. Reform's legal action against the broadcaster, reported this morning, is not restated. No sport appears anywhere in this edition, and the Olympic boxing career of the mayor in the second UK item is deliberately omitted
+ END SOURCES USED -->
+</div><!-- ── END EVENING 18 OCT (23:59) ── -->
 <!-- ── MORNING 18 OCT (09:19) ── -->
 <div class="curated-edition morning" data-date="2026-10-18" data-time="09:19" data-markets='{"FTSE":{"price":10881.9,"change":0.38},"SP":{"price":7659.44,"change":-1.09},"Brent":{"price":109.86,"change":3.72},"GBP":{"price":1.3328,"change":0.41},"Gold":{"price":4165.01,"change":-0.13},"EURGBP":{"price":0.8431,"change":-0.21},"Gilt":{"price":5.38,"change":0.0},"VIX":{"price":19.99,"change":21.45},"BTC":{"price":81579,"change":0.12},"UST":{"price":5.08,"change":-0.01},"ts":"2026-10-18T09:19:00+01:00"}'>
  <div class="edition-header">
