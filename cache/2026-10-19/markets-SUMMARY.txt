@@ -1,0 +1,55 @@
+URL: (compiled) Monday 19 October 2026 MORNING ticker basis
+Primary: CNBC quote endpoint, read 07:20:09 BST. Cross-check: Trading Economics (UK 10Y, US 10Y, gold, Brent, GB100).
+
+*** OIL HAS GIVEN BACK MOST OF FRIDAY'S SPIKE, AND THAT IS THE STORY IN THE TICKER ***
+Brent 107.61, down 2.05% against Friday's 109.86 settle. Friday it rose 3.72% on the Hormuz escalation
+and touched 110 for the first time since May; it closed Sunday's reopen at 108.82, down 0.95%, and has
+fallen further overnight. More than half of Friday's gain is now gone. Trading Economics independently
+reports -1.99%, which corroborates the MOVE closely even though its level is unusable (see below).
+Everything else is quiet: gold firmer, bitcoin up sharply, bonds a shade lower, sterling flat.
+
+*** WHAT IS LIVE AND WHAT IS NOT, AT 07:20 ON A MONDAY ***
+  LIVE: Brent 107.61 -2.05 | Gold 4,177.03 +0.29 | GBP 1.3325 -0.02 | EURGBP 0.8420 -0.13
+        Gilt 5.37 -0.01 | UST 5.07 -0.01 | BTC 82,712 +2.29
+  SHUT: FTSE 10,881.90 +0.38 and VIX 19.99 +21.45 (Friday's closes with Friday's moves, declared)
+        S&P 7,659.44 -1.09 (Friday's close; Wall Street opens 14:30 BST)
+London opens at 08:00, twenty minutes after this read, and the feed has lagged the open by up to
+forty-five minutes every day this week. The FTSE will be re-read immediately before publication and
+this file updated if it has gone live. Trading Economics confirms the FTSE is still shut: its GB100
+page returns 10,881.90 "as of Oct/16", i.e. Friday.
+
+*** BITCOIN: A REAL OVERNIGHT MOVE, AND THE PREVIOUS-CLOSE FIELD SHIFTED UNDER IT ***
+82,712, up 2.29%. Note the endpoint's previous_day_closing for bitcoin has moved from 81,478.16 last
+night to 80,861.21 this morning, which is what a rolling 24-hour basis does on a continuously traded
+instrument rather than a fault. Our own published series is the sanity check: 81,665 at 23:59 last
+night to 82,712 now is a rise of about 1.3% on our own numbers, against the 2.29% the endpoint reports
+on its rolling basis. The endpoint's figure is published because it is the one with a stated basis,
+and the discrepancy is recorded here rather than smoothed away.
+
+*** GILT AND TREASURY: BOTH LIVE, BOTH MARGINALLY LOWER, PROVIDERS WITHIN A BASIS POINT ***
+  Gilt  CNBC 5.3693, change -0.0072 | Trading Economics 5.36, change -0.015 | our series 5.38 -> 5.37
+  UST   CNBC 5.071,  change -0.027  | Trading Economics 5.08, change -0.010 | our series 5.08 -> 5.07
+PUBLISHED: Gilt 5.37, -0.01 and UST 5.07, -0.01. In both cases the level is taken from CNBC, which is
+the more precise, and the change from our own published series, which sits between the two providers'
+figures. That is the rule applied all week when providers disagree by a basis point or two.
+
+*** BRENT: TRADING ECONOMICS UNUSABLE FOR THE LEVEL FOR A FIFTH CONSECUTIVE DAY ***
+Its Brent page returns 99.39, about eight dollars below CNBC, continuing a fault first noticed on
+Thursday. Its change of -1.99% against CNBC's -2.05% is close, so the direction and size are
+corroborated and the level is discarded. Brent rests on CNBC alone, declared, as it has all week.
+
+*** GOLD: THE CLEANEST READING IN THE SET ***
+CNBC 4,177.03 against Trading Economics 4,177.67 — agreement to within sixty-four cents, both live.
+
+PUBLISHED TICKER: FTSE 10,881.90 +0.38 | SP 7,659.44 -1.09 | Brent 107.61 -2.05 | GBP 1.3325 -0.02
+ | Gold 4,177.03 +0.29 | EURGBP 0.8420 -0.13 | Gilt 5.37 -0.01 | VIX 19.99 +21.45 | BTC 82,712 +2.29
+ | UST 5.07 -0.01
+
+*** SECOND READ, 07:29 BST — REFRESHED BEFORE PUBLICATION ***
+  Brent  107.61 -2.05 -> 107.57 -2.08   | GBP  1.3325 -0.02 -> 1.3326 -0.02
+  Gold 4,177.03 +0.29 -> 4,175.70 +0.26 | BTC 82,712 +2.29 -> 82,648 +2.21
+  EURGBP 0.8420 -0.13 -> 0.8416 -0.18   | Gilt 5.3693 -> 5.3726, still 5.37 published
+Direction unchanged on every instrument; only magnitudes moved. The FTSE is still stamped 16 October
+at 07:29, so London had not opened at the time of publication and the index carries Friday's close
+with Friday's move, declared. That is the ordinary position for a pre-08:00 edition and is not the
+feed-lag fault seen on weekday mornings after the open.
