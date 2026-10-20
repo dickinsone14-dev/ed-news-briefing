@@ -1,0 +1,87 @@
+URL: https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/employmentintheuk/october2026
+Office for National Statistics — JSON-LD datePublished 2026-10-20 00:00 BST (ONS release calendar scheduled time 2026-10-20 07:00 BST); dateModified same
+2. Main points
+Estimates from January to March 2025 include the full effect of the improvements in Labour Force Survey (LFS) data collection and sampling methods introduced from January 2024 onwards.
+Some volatility remains in the LFS estimates, particularly those for mid-2023 and throughout 2024, as well as for granular breakdowns, in which sample sizes are smaller.
+We recommend using the LFS estimates as part of our suite of labour market indicators, alongside workforce jobs, Claimant Count, and Pay As You Earn Real Time Information (PAYE RTI) estimates.
+The estimated UK employment rate increased by 0.2 percentage points on the year and on the quarter, to 75.3% in June to August 2026, compared with the previous quarter (March to May 2026).
+The estimated UK unemployment rate decreased by 0.1 percentage points on the year and on the quarter, to 4.7%.
+The estimated UK economic inactivity rate decreased by 0.2 percentage points on the year, and by 0.1 percentage points in the latest quarter, to 20.9%.
+ !
+These labour market statistics, based on the Labour Force Survey and the Annual Population Survey, are official statistics. Read more in Section 11: Data sources and quality. 
+ Back to table of contents
+3. Measuring the labour market
+The latest Labour Force Survey (LFS) estimates are based on interviews that took place from June to August 2026.
+We had to make operational changes to the LFS because of the coronavirus (COVID-19) pandemic, which introduced an increased non-response bias to the survey. We reduced this bias by introducing housing tenure-based weights into the survey in October 2020, as detailed in our Coronavirus and its impact on the Labour Force Survey article.
+However, further improvement work was required to deal with the increase in non-responses from those with a non-UK country of birth or nationality. As a result, we introduced our adjusted Labour Force Survey weighting methodology, May 2021.
+LFS periods from January to March 2019 onwards were reweighted from our December 2024 labour market release. The reweighted LFS estimates incorporate information on the size and composition of the UK population, based on 2022 mid-year estimates. For England, Wales, and Northern Ireland, they are projected forward using scaling factors from 2021-based national population projections. For more information, see our National population projections: 2021-based interim bulletin, published in January 2024 . For Scotland, they are projected forward using scaling factors from 2020-based national population projections. For more information, see our National population projections: 2020-based interim bulletin, published in January 2022. The constraint to country-of-birth information was also removed.
+This reweighting creates a discontinuity between the December 2018 to February 2019 and January to March 2019 periods. Users should take this discontinuity into consideration when looking at long-term movements in the series. However, we have modelled the seasonally adjusted UK levels of employment, unemployment and economic inactivity, by sex and age band, back to the start of the population revisions in July to September 2011. This ensures that the headline series in Table 1, Table 2 (1) and Table 2 (2) (also available in datasets A02SA, A05SA, and A01 Tables 1 and 2) are comparable over the full series.
+Further information is available in our Impact of reweighting on Labour Force Survey key indicators: December 2024 article.
+Estimates from January to March 2025 include the full effect of the improvements in Labour Force Survey (LFS) data collection and sampling methods introduced from January 2024 onwards. Since then, further changes that were introduced to help increase response levels may have an ongoing impact on the survey. Some volatility remains, particularly for estimates for mid-2023 and throughout 2024, and for granular breakdowns, where sample sizes are smaller. Caution should be taken when drawing conclusions from short-term changes, and we advise users to focus on long term movements in the data.
+We recommend using LFS estimates as part of our suite of labour market indicators, alongside workforce jobs, Claimant Count, and Pay As You Earn Real Time Information (PAYE RTI) estimates.
+Our LFS quality update article provides users with information about current response rates and known biases in LFS data, to help them better understand the current quality of the data.
+As part of our work to address quality concerns with the LFS, we have seen improvements in response levels and rates, with responses now close to their pre-pandemic level. The achieved sample, including imputed cases (the dataset size), has increased from 80,078 individuals in January to March 2026 to 81,193 individuals in April to June 2026. This is shown in our LFS performance and quality monitoring report: April to June 2026 methodology.
+An operational error occurred in May 2026, which led to temporary under-resourcing in LFS telephone collection operations. Our analysis to date indicates that the error had a minimal impact on the headline estimates, although it does suggest there is a small but noticeable impact on the estimates of average hours and so the total actual hours worked. As the longitudinal dataset does not include imputed cases, the impact of the operational error results in flows estimates for this period being based on a smaller dataset and so they will be subject to lower accuracy and greater volatility.
+ Back to table of contents
+4. Summary
+Table 1: June to August 2026 headline measures and changes
+UK headline economic status levels and rates, total weekly hours, and redundancy levels and rates, seasonally adjusted, June to August 2026
+Level/RateSampling
+variability
+of level
+or rateChange
+on quarterSampling
+variability
+of change
+on quarterChange
+on yearSampling
+variability
+of change
+on year
+Employment
+(thousands, aged
+16 years and over)34,577± 206102± 176356± 286
+Employment rate
+(aged 16 to 64 years)75.3± 0.40.2± 0.40.2± 0.6
+Unemployment
+(thousands, aged
+16 years and over)1,712± 94-47± 101-26± 134
+Unemployment rate
+(aged 16 years and over)4.7± 0.3-0.1± 0.3-0.1± 0.4
+Economically inactive
+(thousands, aged
+16 to 64 years)9,091± 178-16± 155-22± 246
+Economic inactivity rate
+(aged 16 to 64 years)20.9± 0.4-0.1± 0.4-0.2± 0.6
+Total weekly hours
+(millions)1,105.2N/A3.9N/A16.5N/A
+Redundancies
+(thousands, aged
+16 years and over)113± 215± 300± 30
+Redundancy rate
+(per thousand, aged
+16 years and over)3.8N/A0.2N/A0.0N/A
+Source: Labour Force Survey (LFS) from the Office for National Statistics
+Notes
+Caution should be taken when drawing conclusions from short-term changes, given volatility of Labour Force Survey (LFS) estimates, and we advise users to focus on long-term movements in the data.
+Download this table Table 1: June to August 2026 headline measures and changes
+ .xls
+ .csv
+ Back to table of contents
+5. Employment
+Following an increase in the employment rate since early 2012, there was a decrease from the start of the coronavirus (COVID-19) pandemic. There was an increase from the end of 2020, followed by a decrease between mid-2023 and early 2024. The rate then increased until mid-2024 and has been relatively stable since.
+The employment rate increased on the year, since June to August 2025, and in the latest quarter (June to August 2026).
+Figure 1: The employment rate was up on the year and in the latest quarter
+UK employment rates, people, men, and women (aged 16 to 64 years), seasonally adjusted, between December 2019 to February 2020 and June to August 2026
+Source: Labour Force Survey (LFS) from the Office for National Statistics
+ Notes:
+Caution should be taken when drawing conclusions from short-term changes, given volatility of Labour Force Survey (LFS) estimates, and we advise users to focus on long-term movements in the data.
+Download this chart Figure 1: The employment rate was up on the year and in the latest quarter
+ Image
+ .csv
+ .xls
+Both the number of full-time and part-time workers increased in the latest year (since June to August 2025). The number of full-time workers increased, but part-time workers decreased in the latest quarter (June to August 2026). The increase in full-time workers over the year was caused by an increase in employees working full-time. The increase in part-time workers in the same period was caused by an increase in those who are self-employed, working part-time.
+The number of people with second jobs decreased over the year to 1.294 million (3.7% of people in employment) but increased in the latest quarter (June to August 2026).
+We also publish estimates of payrolled employees in our Earnings and employment from Pay As You Earn Real Time Information, UK bulletin and estimates of the number of jobs in our Vacancies and jobs in the UK bulletin.
+Hours worked
+The number of total actual weekly hours worked has generally been increasing in the UK since 2020. Total actual weekly hours worked increased both over the yea

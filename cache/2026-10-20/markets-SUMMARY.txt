@@ -1,0 +1,56 @@
+URL: (compiled) Tuesday 20 October 2026 MORNING ticker basis
+Primary: CNBC quote endpoint, read 07:20:29 BST. Cross-check: Trading Economics (UK 10Y, US 10Y, gold, Brent, GB100).
+
+*** THE GILT IS THE STORY, AND THE MOVE WAS MONDAY'S NOT THIS MORNING'S ***
+The ten-year gilt stands at 5.43%. That is about six basis points above the 5.37% this brief published
+on Monday morning, and the rise happened during Monday's session: CNBC's previous close is 5.4369 and
+the live reading is 5.4324, so TODAY's change is about half a basis point, effectively flat.
+PUBLISHED: 5.43, -0.01. The distinction matters because a ticker reports the change on the day, and
+writing +0.06 would imply the move is happening now when it happened yesterday. The six-basis-point
+rise belongs in the prose, not the change field. Trading Economics agrees: 5.43, change -0.010.
+Context worth stating: this is eight days before the Budget and the gilt is near its highest since 2007.
+
+*** WHAT IS LIVE AND WHAT IS MONDAY'S CLOSE ***
+  LIVE:  Brent 110.58 +0.94 | GBP 1.3346 +0.33 | Gold 4,128.60 -0.27 | EURGBP 0.8408 -0.19
+         Gilt 5.43 -0.01 | UST 5.12 -0.02 | BTC 81,646 -0.22
+  SHUT:  FTSE 10,764.69 -1.08 and VIX 18.44 -7.75 (Monday's closes with Monday's moves, declared)
+         S&P 7,690.73 +0.41 (Monday's close; Wall Street opens 14:30 BST)
+London opens at 08:00, forty minutes after this read. Trading Economics confirms the FTSE is still
+Monday's: its GB100 page returns 10,764.69 -1.08% "as of Oct/19", matching CNBC to the decimal.
+
+*** TWO CLOSES WHERE THE FEED'S PREVIOUS-CLOSE FIELD IS SELF-REFERENTIAL ***
+  S&P: last 7,690.73 with previous_day_closing also 7,690.73. The +0.41% in the change field is
+       Monday's move and is used; the prev field is ignored.
+  VIX: last 18.44 with prev also 18.44 and the change reported as "UNCH". Computed by hand against
+       Friday's close of 19.99, which this brief published twice over the weekend: -7.75%.
+       So volatility fell nearly eight per cent on Monday. Declared as a computed figure.
+
+*** BRENT: BACK ABOVE 110, AND TRADING ECONOMICS IS NOW UNUSABLE ENTIRELY ***
+CNBC @LCO.1 110.58, +0.94% against a previous settle of 109.55, stamped 07:10 today. Oil has reversed
+the whole of yesterday's fall and more: 107.57 at this time yesterday, 109.55 at Monday's settle,
+110.58 now. No approved source explains it as at the time of compilation and no cause is attributed.
+Trading Economics returns 98.78 with a change of +0.24% — the level is now about twelve dollars below
+CNBC, the sixth consecutive day its Brent page has been wrong, and today even the CHANGE diverges
+(+0.24 against +0.94). Unlike previous days it corroborates nothing, so it is discarded entirely and
+Brent rests on CNBC alone.
+
+*** GOLD AND THE TREASURY ***
+  Gold 4,128.60 -0.27 on CNBC against 4,129.00 -0.29 on Trading Economics — agreement to forty cents.
+       Worth noting the level: gold has fallen about forty-seven dollars from yesterday morning's
+       4,175.70, which with oil rising and volatility falling is a coherent risk-on picture.
+  UST  CNBC 5.117 -0.019; Trading Economics 5.13 -0.013. PUBLISHED 5.12, -0.02 — level from CNBC,
+       which is the more precise, with a one-basis-point spread on the level declared. The Treasury has
+       risen from 5.07 yesterday morning, so like the gilt its move was Monday's.
+
+PUBLISHED TICKER: FTSE 10,764.69 -1.08 | SP 7,690.73 +0.41 | Brent 110.58 +0.94 | GBP 1.3346 +0.33
+ | Gold 4,128.60 -0.27 | EURGBP 0.8408 -0.19 | Gilt 5.43 -0.01 | VIX 18.44 -7.75 | BTC 81,646 -0.22
+ | UST 5.12 -0.02
+
+*** SECOND READ, 07:31 BST — REFRESHED BEFORE PUBLICATION ***
+  Brent 110.58 +0.94 -> 109.91 +0.33  | GBP  1.3346 +0.33 -> 1.3357 +0.41
+  Gold 4,128.60 -0.27 -> 4,130.33 -0.23 | BTC 81,646 -0.22 -> 81,743 -0.10
+  Gilt and UST unchanged at 5.43 -0.01 and 5.12 -0.02; FTSE still Monday's close.
+Brent has slipped back below 110 in the eleven minutes between reads, so the world column's wording
+was changed from "back above $110" to "just under $110" before publication. Sterling has firmed
+further to 1.3357, which is the clearest market response to the 07:00 labour market figures, though
+no reporting attributes it and the driver says only that it followed them.
