@@ -1,0 +1,54 @@
+URL: https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol
+MARKETS — MORNING EDITION, WEDNESDAY 21 OCTOBER 2026
+Two reads were taken. The FIRST at 11:39 BST during drafting; the SECOND at 12:15 BST immediately
+before applying the edition. *** THE PUBLISHED FIGURES ARE THE 12:15 READ. *** The 11:39 read is
+retained below only to show what moved while the edition was being written.
+Primary: CNBC quote endpoint. Cross-check: Trading Economics, same minute as the 11:39 read.
+
+PUBLISHED (12:15 BST)      LEVEL        CHG%    BASIS
+FTSE 100                   10,740.18    +0.07   live 12:00 BST, London open
+S&P 500                     7,712.57    +0.28   *** TUESDAY'S CLOSE. Wall St opens 14:30 BST. NOT live. ***
+Brent                         110.15    +1.25   live 12:05 BST
+GBP/USD                        1.3388   +0.07   live 12:15 BST
+Gold                        4,128.74    +0.11   live 12:15 BST
+EUR/GBP                        0.8382   -0.14   live 12:15 BST
+10y gilt                       5.41     -0.01   live 12:14 BST, cash gilt market open
+VIX                           17.36     +0.29   live 12:15 BST
+Bitcoin                    83,330.20    +1.06   live 12:15 BST
+10y UST                        5.12      0.00   live 12:14 BST
+
+WHAT MOVED BETWEEN THE TWO READS (11:39 -> 12:15)
+  FTSE   10,730.58 (-0.02) -> 10,740.18 (+0.07)   turned positive
+  Brent     110.92 (+1.96) ->    110.15 (+1.25)   eased
+  Gold    4,123.74 (-0.01) ->  4,128.74 (+0.11)   turned positive
+  Gilt        5.42 ( 0.00) ->      5.41  (-0.01)  edged down
+  UST         5.13 (+0.01) ->      5.12  ( 0.00)  edged down
+  TWO DRAFTED FIGURES WERE CORRECTED BEFORE PUBLISHING AS A RESULT:
+   1. Copy read "Brent crude rose above $111" (true at 11:33) -> changed to "above $110".
+   2. A dive-deeper placed the gilt "in the same global sell-off" as France. The gilt is DOWN today
+      while the French yield rose, so that was rewritten to say the gilt is steady but near its highs.
+
+FRENCH 10-YEAR (the basis for the GEO item's wording)
+  4.9911% at 12:15 BST, previous close 4.9172%, change +0.0739.
+  It crossed 5% earlier this morning and had eased back below by the time of publication, which is
+  why the edition says "briefly rose above 5% ... before easing back just below" rather than "is above 5%".
+  NOTE: this feed's percentage-change field for yields is unreliable (it showed -0.59% against a
+  positive absolute change). The level and the absolute change are coherent and were used; the
+  percentage field was ignored.
+
+CROSS-CHECKS (against the 11:39 read)
+  Gilt   CNBC 5.4188 (+0.0038)  vs TE 5.42 (-0.006%)  -> levels agree; both round to 0.00 at that time.
+         No sign ambiguity today, unlike last night, because the cash gilt market is open when read.
+  UST    CNBC 5.125 (+0.008)    vs TE 5.13 (+0.013%)  -> agree.
+  Gold   CNBC 4,123.74          vs TE 4,124.51        -> agree within 77 pence.
+  Brent  CNBC 110.92 (+1.96%)   vs TE 100.04 (+2.27%) -> *** TE's LEVEL IS $10.88 LOW. EIGHTH
+         CONSECUTIVE DAY Trading Economics' Brent page has been wrong by roughly $8-12. Its CHANGE
+         corroborates direction and rough magnitude, so the ~1-2% rise is cross-confirmed; the LEVEL
+         rests on CNBC alone and is declared as such in the edition's sources block.
+  FTSE   CNBC previous close 10,733.00 matches the close in our own series. Consistent.
+
+CONTINUITY: no value is carried forward. Where CNBC's previous-close field is quoted it agrees with
+what we have published, which is the check that caught the gilt sign error on 20 October.
+
+NOTE: no Daily Brief evening edition was published on 20 October, so Tuesday's S&P close appears on
+the site for the first time in this edition.

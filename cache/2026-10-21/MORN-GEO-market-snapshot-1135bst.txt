@@ -1,0 +1,10 @@
+URL: https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=@LCO.1|FR10Y-FR|GB10Y-GB|.FTSE|.SPX|GBP=|@GC.1
+CNBC quote service | PUBLISHED: live snapshot taken 2026-10-21 11:35 BST | MODIFIED: see per-quote last_time
+
+@LCO.1       ICE Brent Crude (Dec'26)     last=111.03       chg=+2.24     pct=+2.06%    last_time=2026-10-21T11:33:24.000+0100
+FR10Y-FR     France 10 Year Bond          last=4.9868%      chg=+0.0696   pct=-0.5603%  last_time=2026-10-21T12:43:23.000+0200
+GB10Y-GB     British 10 Year Gilt         last=5.4145%      chg=-0.0005   pct=-0.0092%  last_time=2026-10-21T10:43:08.000+0000
+.FTSE        FTSE 100                     last=10,733.33    chg=+0.33     pct=0.00%     last_time=2026-10-21T11:28:00.000+0100
+.SPX         S&P 500 Index                last=7,712.57     chg=+21.84    pct=+0.28%    last_time=2026-10-20
+GBP=         GBP/USD                      last=1.339        chg=+0.0012   pct=+0.09%    last_time=2026-10-21T06:43:00.000-0400
+@GC.1        Gold COMEX (Dec'26)          last=4,138.80     chg=-3.80     pct=-0.09%    last_time=2026-10-21T06:33:22.000-0400
