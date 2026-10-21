@@ -2,6 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-10-21-evening/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-21T17:55:00+01:00</news:publication_date>
+      <news:title>Evening Briefing — Wednesday 21 October 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-10-21-evening/putin-ready-trilateral-talks-after-november/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-21T17:55:00+01:00</news:publication_date>
+      <news:title>Putin Ready to Resume Trilateral Talks After 10 November</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-10-21-evening/iran-fully-prepared-defend-itself/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-21T17:55:00+01:00</news:publication_date>
+      <news:title>Iran Says It Is “Fully Prepared” to Defend Itself</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-10-21-evening/french-borrowing-costs-cross-five-percent/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-21T17:55:00+01:00</news:publication_date>
+      <news:title>French Borrowing Costs Cross 5% for First Time Since 2002</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-10-21-evening/houthis-fire-missiles-aden-mukalla/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-21T17:55:00+01:00</news:publication_date>
+      <news:title>Houthis Fire Ballistic Missiles at Aden and Mukalla</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-10-21-evening/drone-strike-abyei-market-kills-150/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-21T17:55:00+01:00</news:publication_date>
+      <news:title>Drone Strike on Abyei Market Kills More Than 150</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-10-21-evening/burnham-unscathed-at-pmqs-over-jackdaw/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-21T17:55:00+01:00</news:publication_date>
+      <news:title>Burnham Emerges Unscathed From PMQs Over Jackdaw</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-10-21-evening/burnham-reform-politics-of-poison/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-21T17:55:00+01:00</news:publication_date>
+      <news:title>Burnham Says Reform Must Act Over “Politics of Poison”</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-10-21-evening/streeting-delays-defence-jobs-plan/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-21T17:55:00+01:00</news:publication_date>
+      <news:title>Streeting Delays Defence Jobs Plan After Union Pushback</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-10-21-evening/bereaved-civil-service-families-tax-bills/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-21T17:55:00+01:00</news:publication_date>
+      <news:title>Bereaved Civil Service Families Face Tax Bills Over Pension Delays</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-10-21-evening/burnham-backs-mayor-for-wessex/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-21T17:55:00+01:00</news:publication_date>
+      <news:title>Burnham Backs a Mayor for Wessex by 2028</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-10-21-morning/</loc>
     <news:news>
       <news:publication>
@@ -241,127 +362,6 @@
       </news:publication>
       <news:publication_date>2026-10-20T07:31:00+01:00</news:publication_date>
       <news:title>Trust Prosecuted Over Two Children’s Deaths From Sepsis</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-10-19-evening/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-19T18:06:00+01:00</news:publication_date>
-      <news:title>Evening Briefing — Monday 19 October 2026</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-10-19-evening/lecornu-calls-partial-curfews-france-unrest/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-19T18:06:00+01:00</news:publication_date>
-      <news:title>Lecornu Calls for Partial Curfews as France Unrest Deepens</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-10-19-evening/lavrov-meets-araghchi-in-tehran/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-19T18:06:00+01:00</news:publication_date>
-      <news:title>Lavrov Meets Araghchi in Tehran to Discuss the US War</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-10-19-evening/iran-strikes-15-ships-in-hormuz/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-19T18:06:00+01:00</news:publication_date>
-      <news:title>Iran Strikes at Least 15 Container Ships in Ten Days</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-10-19-evening/zelensky-no-warning-from-partners/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-19T18:06:00+01:00</news:publication_date>
-      <news:title>Zelensky Says Russian Strikes Came With ‘No Warning From Partners’</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-10-19-evening/houthi-missile-strike-kills-50-recruits/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-19T18:06:00+01:00</news:publication_date>
-      <news:title>Houthi Missile Strike on Yemeni Camp Kills More Than 50</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-10-19-evening/burnham-youth-unemployment-moral-failure/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-19T18:06:00+01:00</news:publication_date>
-      <news:title>Burnham Calls Youth Unemployment a ‘Moral Failure’</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-10-19-evening/no10-rebukes-hegseth-over-afghanistan/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-19T18:06:00+01:00</news:publication_date>
-      <news:title>Downing Street Rebukes Hegseth Over Afghanistan Remarks</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-10-19-evening/troubles-bill-returns-to-commons/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-19T18:06:00+01:00</news:publication_date>
-      <news:title>Bryant Insists Troubles Bill Is ‘Not an Amnesty’</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-10-19-evening/pra-reviews-barclays-private-credit-swaps/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-19T18:06:00+01:00</news:publication_date>
-      <news:title>Bank of England Reviews Barclays’ Private Credit Exposure</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-10-19-evening/reform-msp-amanda-bland-quits/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-19T18:06:00+01:00</news:publication_date>
-      <news:title>Reform MSP Quits, Leaving Party Third at Holyrood</news:title>
     </news:news>
   </url>
 </urlset>
