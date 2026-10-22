@@ -1,0 +1,302 @@
+URL: https://www.bbc.co.uk/news/live/ckgel5xp2xv9t
+
+Published: []
+
+BBC HomepageSkip to contentAccessibility HelpYour accountNotificationsHomeNewsSportWeatheriPlayerSoundsBitesizeCBBCCBeebiesFoodMore menuMore menuSearch BBCHomeNewsSportWeatheriPlayerSoundsBitesizeCBBCCBeebiesFoodClose menuBBC NewsMenuHomeUKWorldBusinessCulturePoliticsHealthTechInDepthBBC VerifyClimateMoreScienceFamily & EducationIn PicturesDisabilityNewsbeatTechnologyLive. 24,442 viewing24442 viewingLive pageUpdated 15 minutes agoGlobal scramble to fix critical cyber-security flaws as many websites taken offlineWebsites Taken Down Worldwide Amid Critical Cyber-Security Issue
+
+CloseTo play this video you need to enable JavaScript in your browser.This video can not be played
+
+Watch liveSummaryOrganisations around the world are scrambling to fix a critical cyber-security flaw that could affect millions of websites
+
+The researcher who helped to identify the flaw says it is "the most serious" issue he has ever found
+
+The vulnerability is within the PHP programming language - it collects information you need and presents it in a way you can read on the web
+
+The issue may affect around 30 million websites and could allow attackers to steal personal data, one expert tells the BBC
+
+Artificial intelligence identified the problem, prompting warnings from governments and cyber-security agencies to take sites offline - here's how the saga unfolded
+
+The Office for Budget Responsibility took its site offline yesterday, as did NHS Scotland. Some parts of Wikipedia were unavailable, while Amazon says it detected an attempt by hackers to exploit the flaws - see more affected sites here
+
+How does this affect you? Our reporter Tom Gerken explains
+
+Close formHow are you affected? What questions do you have?Get in touchLive ReportingEdited by Kieran Kelly and Imogen James
+
+Liv McMahonTechnology reporter
+
+We’ve seen a lot of sites go offline as a precaution or to patch
+the PHP vulnerabilities flagged yesterday.
+
+At the moment, we do not know whether any hackers have
+successfully exploited the flaws which surfaced in the widely used programming
+language.
+
+Experts warn it could allow attackers to remotely run malicious
+code on affected web servers or steal data.
+
+But some large organisations have said they’ve seen a high volume
+of attempts to breach their systems.
+
+Matthew Prince, the boss of internet infrastructure firm
+Cloudflare, wrote on X earlier that the company saw "thousands" of attempts to exploit the PHP
+vulnerabilities across its network in the 10 hours before it was publicly
+announced.
+
+"That jumped to tens of thousands in the 45 minutes post
+announcement, hundreds of thousands within two hours, and millions now," he
+says.
+
+Amazon also says it saw hackers attempt to exploit the flaws, but
+so far its websites are operating as normal.
+
+Shareclose panelShare pageCopy linkAbout sharingNo sign of any widespread hacking - yetpublished at 09:54 BST09:54 BSTJoe TidyCyber correspondent
+
+Internet giants Cloudflare and Amazon are both reporting that millions of hacking attempts are being made by cyber criminals already as the PHP vulnerability is actively being used "in the wild".
+
+These kinds of numbers are alarming but in cyber security there is a big difference between attempts to hack and successful breaches.
+
+It’s important to understand the language that cyber security teams use. A lot of the hacking attempts are likely to be automated scans. Hackers press a few buttons to scan the internet for websites that might be vulnerable.
+
+There are also probably a fair few 'good guys' scanning websites too as part of the emergency response taking place caught up in those figures.
+
+There is no suggestion yet that any major corporations or organisations have been hacked using the PHP flaws.
+
+Even if a website is hacked using PHP, it will likely be a slow and silent process where hackers plant malicious software to compromise patiently.
+
+At the moment there is nothing us consumers can do as the pressure is on companies and institutions to work to protect themselves - and us.
+
+Shareclose panelShare pageCopy linkAbout sharingHow does this affect you?published at 09:41 BST09:41 BSTTom GerkenTech reporter
+
+At the moment, most people are going to notice something is amiss when they try and access certain websites.
+
+Bear in mind lots of them are back up already - Wikipedia, for example, is fully operational again, having experienced “emergency maintenance” yesterday.
+
+But the real question is what happens if some websites fail to fix things. At that point, it all becomes a bit unclear. The PHP Foundation calls the flaws "critical vulnerabilities".
+
+There’s no question about how serious they are. Theoretically, a motivated hacker could gain access to the data on a website - which could expose customer details.
+
+At that point, it could suddenly start to have a real impact on people if hackers gain access to their details.
+
+That’s all a bit speculative, of course. But things like this don’t happen unless the threat is serious.
+
+Shareclose panelShare pageCopy linkAbout sharingTraitors website among BBC webpages experiencing issuespublished at 09:33 BST09:33 BST
+      Along with many other affected websites, several BBC webpages are down this morning.
+
+This includes several programme websites on BBC One - including the official site for The Traitors and Eastenders - as well as programme websites across BBC Two and BBC Three.
+
+When you try accessing these websites a message appears on screen saying "this service is temporarily unavailable".
+
+We have asked the BBC Press Office if the PHP flaw is the reason for the webpages not running.
+
+Shareclose panelShare pageCopy linkAbout sharingScottish council websites back online, but some still affectedpublished at 09:23 BST09:23 BSTJames DelaneyJournalist, BBC Scotland
+
+A number of Scottish councils and health boards took their websites offline on Wednesday after issues were detected.
+
+NHS Scotland was among those to take its sites down for a period while the flaws were rectified, with visitors given a message reassuring them they would be "back soon".
+
+At one point on Wednesday evening, at least seven of Scotland's 32 councils and six of its 14 health boards had taken their websites offline as a precaution.
+
+All council and NHS board websites were back up on Thursday morning, but six councils still said they were experiencing issues with online accounts and payment systems.
+
+Shareclose panelShare pageCopy linkAbout sharingOBR takes site offline but minister says no risk to Budget securitypublished at 09:14 BST09:14 BST
+      Image source, ReutersImage caption, Minister Douglas Alexander has been doing the media rounds this morning
+
+The Office for Budget Responsibility (OBR) said yesterday it was one of the organisations that had taken its website offline in light of the PHP flaw.
+
+Sharing the update on X, it said the decision was "consistent with guidance from the National Cyber Security Centre".
+
+The OBR monitors the UK government's spending plans and performance, and releases forecasts for the economy and public finances twice a year. Its next report will be published alongside the government's Budget next week.
+
+A government minister told Times Radio this morning that the security of the Budget had not been compromised by the technical flaw.
+
+Asked whether the PHP issue could result in major Budget leaks, Scotland Secretary Douglas Alexander said: "No, I’ve had no indication whatsoever that there’s any problem in terms of a breach of Budget security."
+
+He added that John Healey "initiated new security protocols reflecting his experience in the Ministry of Defence when he came to the Treasury as chancellor in the summer".
+
+Shareclose panelShare pageCopy linkAbout sharingNo evidence that hackers have exploited flaw so far, says researcherpublished at 09:00 BST09:00 BST
+      More now from Ryan Austin, the researcher who helped uncover the cyber-security flaw.
+
+He tells Radio 4's Today programme that dealing with the problem in the right way involves "coordinated
+disclosure".
+
+"We've
+been working with the PHP Foundation and all of the most popular PHP vendors like WordPress... to inform them a little early as soon as the patches were ready," he says.
+
+It creates "a vulnerability" in a product as soon as something is announced, he says, adding that artificial intelligence means "a lot of bad actors" are now capable of seeking out these vulnerabilities.
+
+Asked whether there is a danger hackers have already exploited the flaw, he says: "Not
+at the moment... it doesn't look like exploitation has taken off or been widespread."
+
+Shareclose panelShare pageCopy linkAbout sharing'Most serious vulnerability I've ever found,' says researcher who helped uncover problempublished at 08:50 BST08:50 BST
+      "This is the most serious vulnerability I've ever found," says Ryan
+Austin, the researcher at cyber-security firm Calif who helped uncover the PHP flaw.
+
+He tells Radio 4's Today programme that he's been studying PHP security for around 20 years.
+
+You can think of the vulnerability "like
+a grammatical error in a sentence structure", but "instead of sounding silly, it actually leads to someone breaking into your house," he explains.
+
+Asked what kind of information possible hackers could access, he says: "They
+would have access to your personal data... anything
+that you could possibly have stored".
+
+PHP "has
+been around for a very long time" and is "in
+a lot of places that you wouldn't expect", he says, adding it is "basically
+very core to how the internet runs".
+
+Shareclose panelShare pageCopy linkAbout sharingHow the PHP cyber-security saga unfoldedpublished at 08:43 BST08:43 BSTJoe TidyCyber correspondent
+
+In 2024, researchers at the PHP Foundation - a non-profit that maintains and develops popular coding language - found a theoretical flaw in PHP but couldn't figure out how a human hacker could actually use it in an attack.
+
+In July 2026, the PHP Foundation got accepted into OpenAI’s Patch the Planet initiative, which is aimed at using frontier artificial intelligence (AI) to find flaws in popular software and fix them using AI.
+
+In August, a cyber security firm called Calif  - which was part of the project - found a serious flaw in PHP, which researchers at OpenAI and Wiz also found shortly after.
+
+Since then, the foundation had been working with the companies on a software patch that could be downloaded by PHP users to fix the flaws, with a plan to release the fix in late October.
+
+But a leak of the basic details was circulated ahead of time on social media, forcing the PHP Foundation to bring forward its announcement.
+
+According to PHP, researchers at Calif then "mistakenly published a video" showing some basic details of how the flaws could be used to hack various websites.
+
+The video was deleted but shared widely in hacking forums, leading to criminals trying to figure out how the hack works. Researchers say the criminals themselves are using AI to 'vibe code' a method of attack.
+
+That’s why the patch has been rushed out and sites have had to be taken down in case attackers use the flaws to carry out cyber attacks.
+
+Shareclose panelShare pageCopy linkAbout sharingThis should have been a good news storypublished at 08:25 BST08:25 BSTJoe TidyCyber correspondent
+
+The fact that researchers used frontier AI models to discover as yet hidden flaws should have been a good news story.
+
+Researchers at Calif, Wiz and OpenAI used the best version of ChatGPT to uncover a method of attack that they said was "a complex chain of steps, at the edge of what human researchers could practically achieve".
+
+They then worked together to come up with a way to fix it to make PHP better.
+
+The security patch was due to be announced and rolled out in the normal civilised way patches usually are.
+
+In the words of PHP Foundation, "coordinated disclosure of these vulnerabilities worked well" until two days ago.
+
+Someone leaked some basic details about the potential flaws and hackers started trying to figure out how to exploit them.
+
+Then, according to PHP Foundation, Calif accidentally posted a video about the hack.
+
+Criminals immediately began coming up with methods and that’s what caused the rush and panic across the cyber world.
+
+Shareclose panelShare pageCopy linkAbout sharingAmazon, Wikipedia and government websites among those affectedpublished at 08:14 BST08:14 BST
+      Image source, ReutersCyber-security firm Wiz estimates that "roughly 70%" of the internet is affected by the PHP flaws.
+
+We haven't been able to verify that figure but here's what we can say about some of the websites that have reported issues around the globe.
+
+To play this video you need to enable JavaScript in your browser.This video can not be played
+
+Why have websites around the world been taken down? BBC explains
+
+Shareclose panelShare pageCopy linkAbout sharingCompanies around the world race to secure their platformspublished at 08:07 BST08:07 BSTOsmond ChiaBusiness reporter
+
+The scale of the PHP warning is hard to comprehend, but few cyber-security alerts have caused such panic.
+
+The security concerns affect millions of web pages that run on PHP, potentially allowing a way for hackers to steal sensitive data or take control of websites.
+
+The software powers platforms like WordPress - the content management system behind blogs and other text-heavy pages - Wikipedia and online shops.
+
+That is why companies are racing to secure their platforms, while governments around the world urge websites to take action.
+
+Shareclose panelShare pageCopy linkAbout sharingAffected websites should go offline until flaws can be fixed, NSA warnspublished at 07:55 BST07:55 BST
+      Image source, Getty ImagesOne of the world's largest intelligence agencies is warning that affected organisations should take their systems offline until a fix is in place.
+
+In a post on X, the cyber division of the US National Security Agency says those using PHP should immediately prepare "for an update addressing two critical vulnerabilities".
+
+It explains: "PHP is widely used for web applications. These vulnerabilities often provide a direct path to the server's file system or database.
+
+"If an immediate update is not feasible, it is recommend that organizations take the system offline until it can be fully mitigated."
+
+Shareclose panelShare pageCopy linkAbout sharingResearchers initially thought PHP flaws were 'too complicated to exploit', professor sayspublished at 07:44 BST07:44 BST
+      The PHP flaws were initially found by humans back in 2024, Alan Woodward tells Radio 4's Today programme, but they thought they looked "too complicated to exploit".
+
+As large language models - a type of artificial intelligence (AI) - became more sophisticated, "people worked out how to exploit [the flaw]", the cyber security professor says.
+
+"People have been scrambling away saying: 'Actually, yes, you can exploit it and we now need to patch it'," Woodward explains.
+
+Part of the problem is that "the cat was let out of the bag rather earlier than it was supposed to have been," he says, adding that somebody revealed the PHP flaws before the patch - an update to fix the issue - was made public.
+
+Asked whether it has led to hacking attempts, Woodward says companies like Amazon and Cloudflare that monitor what is going on online saw the weakness "was being probed for".
+
+He adds: "We don't know whether [sites have] been attacked but certainly people were probing websites to see: have you got that flaw?"
+
+Shareclose panelShare pageCopy linkAbout sharingPHP flaws could impact 30 million websites - cyber security expertpublished at 07:34 BST07:34 BST
+      The cyber-security flaws identified in the PHP programme language mean an attacker can "get their own code onto the web server" and "basically do whatever they like", says Alan Woodward, professor at the Surrey Centre for Cyber Security.
+
+He tells Radio 4's Today programme this could include things like stealing personal data, going to other parts of your network, or planting a backdoor to gain access later on.
+
+Referencing the "serious" scale of it, he says it could affect "something like 30 million websites".
+
+Shareclose panelShare pageCopy linkAbout sharingUK government working to identify any potential exposurepublished at 07:30 BST07:30 BST
+      Image source, PA MediaImage caption, The UK's National Cyber Security Centre headquarters in Victoria, London
+
+As we reported earlier, the UK government says it is working to identify any potential exposure in its online services.
+
+A UK government spokesperson urges "all organisations, private and public, large and small" to follow guidance to protect their systems.
+
+The UK's National Cyber Security Centre (NCSC), as well as its counterparts in the EU and Australia, earlier urged those who use PHP to apply the fixes.
+
+"Where immediate remediation is not feasible, organisations should consider taking the system offline until it can be fully mitigated," the NCSC said in a note, external.
+
+Shareclose panelShare pageCopy linkAbout sharingResearchers used AI to discover decades-old PHP flawspublished at 07:20 BST07:20 BST
+      The vulnerabilities were found by researchers at the security firms Calif and Wiz.
+
+The researchers used advanced artificial intelligence (AI) tools that are able to analyse code and find flaws much faster than humans or older systems can.
+
+"Modern software is incredibly complex, and some vulnerabilities can remain undetected for years," cyber-security researcher Salil Kanhere from UNSW Sydney says.
+
+"The underlying bugs weren't new; what changed was our ability to find them," he adds.
+
+Details of the discovery leaked online this week, forcing the PHP platform's developers to rush out its announcement of the security flaw and its huge scale.
+
+The incident "highlights how AI can uncover security flaws" but also how it can "help attackers rapidly develop offensive tools and exploits," OpenAI - the maker of ChatGPT - says in a blog post.
+
+Shareclose panelShare pageCopy linkAbout sharingWhat is PHP and why did it spark a global cyber-security scramble?published at 07:18 BST07:18 BST
+      Image source, ReutersImage caption, Government websites are down around the world, including France, due to the exposure
+
+You may not have heard of PHP - short for PHP: Hypertext Preprocessor - but you almost certainly interact with it daily.
+
+PHP powers a vast number of platforms, including online shops, Wikipedia and WordPress – the content management system behind many websites like blogs.
+
+When you visit a website like Wikipedia, PHP is the code that collects information you need and presents it in a way you can read on the web, Paul Spain, chief executive of Gorilla Cyber Security, tells the BBC.
+
+But due to a flaw that could allow attackers to take control of affected web servers without authentication and steal sensitive data, everything built on PHP was left exposed.
+
+AI could make such attacks easier and faster, Spain says, estimating that the flaw could affect "millions and millions" of websites.
+
+Shareclose panelShare pageCopy linkAbout sharingGovernments and companies rush to protect websites after discovery of security flawspublished at 07:15 BST07:15 BST
+      Image source, EPA/ShutterstockGovernments and some of the world's biggest companies, including Amazon, are rushing to protect their systems after the discovery of critical cyber-security flaws.
+
+They are present in the PHP programming language that underpins a significant number of websites, with cyber-security firm Wiz estimating that "roughly 70%" of the internet is affected, though the BBC is unable to independently verify that figure.
+
+Various European nations have shut down some public web services as a precaution, and Wikipedia also took down parts of its website.
+
+This was in line with advice issued by governments, including the US, to take websites down if the flaws could not immediately be fixed.
+
+Wiz - one of the companies whose researchers uncovered the vulnerabilities - describes the flaws as the "most severe" ever detected by AI.
+
+OpenAI, whose technology was used to find the flaws, calls the discovery "one of the most impactful security issues in recent memory".
+
+The UK government says it is working to identify any potential exposure.
+
+Stay with us as we bring you the latest developments on this story.
+
+Shareclose panelShare pageCopy linkAbout sharingBest of BBC iPlayerA rickety country mansion teems with needy ghosts
+
+iPlayerWatchlist Add Ghosts to your Watchlist in iPlayerWatchlistAddingWatchlistRemoveRemoving
+
+close panelAdded to WatchlistGhosts has been added to your iPlayer Watchlist.Agnès Varda's French New Wave classic
+
+iPlayerWatchlist Add Cleo from 5 to 7 to your Watchlist in iPlayerWatchlistAddingWatchlistRemoveRemoving
+
+close panelAdded to WatchlistCleo from 5 to 7 has been added to your iPlayer Watchlist.Hysterical historical adult comedy starring Richard Ayoade and Matt Berry
+
+iPlayerWatchlist Add Krapopolis to your Watchlist in iPlayerWatchlistAddingWatchlistRemoveRemoving
+
+close panelAdded to WatchlistKrapopolis has been added to your iPlayer Watchlist.Stacey Dooley embeds herself in a ketamine rehab
+
+iPlayerWatchlist Add Stacey Dooley to your Watchlist in iPlayerWatchlistAddingWatchlistRemoveRemoving
+
+close panelAdded to WatchlistStacey Dooley has been added to your iPlayer Watchlist.HomeNewsSportWeatheriPlayerSoundsBitesizeCBBCCBeebiesFoodTerms of UseAbout the BBCPrivacy PolicyCookiesAccessibility HelpParental GuidanceContact the BBCMake an editorial complaintCareersBBC emails for youCopyright © 2026 BBC. The BBC is not responsible for the content of external sites. Read about our approach to external linking.

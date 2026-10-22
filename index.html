@@ -2286,120 +2286,121 @@
 
  <!-- #1 Markets snapshot bar -->
  <!-- Embedded market data (populated by update script, used as fallback) -->
- <script id="embedded-markets" type="application/json">{"FTSE": {"price": 10752.88, "change": 0.19}, "SP": {"price": 7760.08, "change": 0.62}, "Brent": {"price": 108.46, "change": -0.3}, "GBP": {"price": 1.3394, "change": 0.12}, "Gold": {"price": 4150.0, "change": 0.18}, "EURGBP": {"price": 0.8383, "change": -0.13}, "Gilt": {"price": 5.38, "change": -0.02}, "VIX": {"price": 16.72, "change": -3.41}, "BTC": {"price": 84409.69, "change": 2.37}, "UST": {"price": 5.11, "change": -0.12}, "ts": "2026-10-21T17:55:00+01:00"}</script>
+ <script id="embedded-markets" type="application/json">
+{"FTSE":{"price":10700.42,"change":-0.49},"SP":{"price":7757.17,"change":0.58},"Brent":{"price":111.99,"change":2.91},"GBP":{"price":1.3385,"change":-0.07},"Gold":{"price":4091.58,"change":-1.18},"EURGBP":{"price":0.8382,"change":-0.04},"Gilt":{"price":5.37,"change":-0.01},"VIX":{"price":18.35,"change":10.01},"BTC":{"price":81978,"change":-2.92},"UST":{"price":5.07,"change":-0.08},"ts":"2026-10-22T11:25:00+01:00"}
+</script>
  <script id="market-descriptions" type="application/json">
 {
   "FTSE": {
     "name": "FTSE 100",
     "desc": "The UK's benchmark stock index, tracking the 100 largest companies listed on the London Stock Exchange by market capitalisation. Includes Shell, AstraZeneca, HSBC and Unilever.",
     "drivers_up": [
-      "Edged higher, shrugging off an inflation figure that came in hotter than forecast, with sterling and gilt yields both little moved by the release"
+      "Would need the global risk-off impulse to fade; a 3% jump in oil would normally support an index this energy-heavy"
     ],
     "drivers_down": [
-      "Gains are slight; London is holding rather than rallying with the Budget a week today"
+      "Down around half a percent with no UK-specific driver — the ten-year gilt is barely changed and sterling is steady, which rules out a domestic fiscal scare and points to an imported risk-off move"
     ],
-    "updated": "21 October 2026 12:18 (live read 12:15 BST)"
+    "updated": "22 October 2026 11:25 (live read 11:24 BST)"
   },
   "SP": {
     "name": "S&P 500",
     "desc": "America's leading stock market index, tracking 500 of the largest US-listed companies. Dominated by mega-cap tech (Apple, Microsoft, Nvidia) but spans all sectors.",
     "drivers_up": [
-      "Tuesday's closing level, up 0.28% on the day"
+      "Wednesday's closing level, up 0.58% on the day"
     ],
     "drivers_down": [
       "This is a previous close, not a live reading — Wall Street does not open until 14:30 BST"
     ],
-    "updated": "21 October 2026 12:18 (Tuesday's close; Wall Street opens 14:30 BST)"
+    "updated": "22 October 2026 11:25 (Wednesday's close; Wall Street opens 14:30 BST)"
   },
   "Brent": {
     "name": "Brent Crude Oil",
     "desc": "The global benchmark for crude oil pricing, produced from oil fields in the North Sea. Used to price roughly two-thirds of the world's traded oil.",
     "drivers_up": [
-      "Pushed back above $110 after Iran's Revolutionary Guards said naval mines had stopped three tankers crossing the Strait of Hormuz by routes Tehran calls unauthorised — a claim made by the Guards themselves and not independently confirmed",
-      "Houthi forces separately claimed strikes on Saudi energy facilities, which Riyadh has not confirmed"
+      "Up about 3% after two people were killed in an attack on Dammam airport and Washington ordered non-emergency diplomatic staff out of Saudi Arabia",
+      "Reporting that American and Israeli militaries have drawn up plans for renewed strikes on Iran after the November midterms has added to the premium; that reporting rests on unnamed officials"
     ],
     "drivers_down": [
-      "Would need a de-escalation in the Gulf or a demand downgrade; neither is in evidence today"
+      "Would require a de-escalation in the Gulf; nothing in today's news flow points that way"
     ],
-    "updated": "21 October 2026 12:18 (live read 12:15 BST)"
+    "updated": "22 October 2026 11:25 (live read 11:24 BST)"
   },
   "GBP": {
     "name": "GBP/USD",
     "desc": "The exchange rate between the British pound and the US dollar, commonly known as 'cable'. Reflects relative economic strength and interest rate differentials between the UK and US.",
     "drivers_up": [
-      "Barely moved on the inflation figures, holding just below $1.34, with traders weighing a firmer case for a Bank rate rise next month"
+      "Broadly steady, which is itself the signal — sterling is not being marked down despite the Budget being six days away"
     ],
     "drivers_down": [
-      "The Budget is a week today and borrowing came in above forecast, which caps enthusiasm for sterling"
+      "A shade softer against the dollar in a session driven by events outside Britain"
     ],
-    "updated": "21 October 2026 12:18 (live read 12:15 BST)"
+    "updated": "22 October 2026 11:25 (live read 11:24 BST)"
   },
   "Gold": {
     "name": "Gold (XAU/USD)",
     "desc": "The spot price of gold in US dollars per troy ounce. The world's oldest safe-haven asset, traditionally rising during periods of uncertainty, inflation and currency debasement.",
     "drivers_up": [
-      "Geopolitical risk in the Gulf continues to provide a floor"
+      "Geopolitical risk in the Gulf would normally provide a floor"
     ],
     "drivers_down": [
-      "Close to flat, consolidating after its recent run, with little reaction to either the inflation data or the renewed attacks on shipping"
+      "Down more than 1% even as volatility rose, because higher oil stokes inflation expectations and strengthens the case for interest rates staying higher for longer, raising the cost of holding an asset that yields nothing"
     ],
-    "updated": "21 October 2026 12:18 (live read 12:15 BST)"
+    "updated": "22 October 2026 11:25 (live read 11:24 BST)"
   },
   "EURGBP": {
     "name": "EUR/GBP",
     "desc": "The exchange rate between the euro and the British pound. Key for UK-EU trade pricing. A falling rate means sterling is strengthening against the euro.",
     "drivers_up": [
-      "Would require sterling to give back its post-data steadiness"
+      "French borrowing costs above 5% and now above American yields are a drag on the single currency"
     ],
     "drivers_down": [
-      "The pound is a shade firmer against the euro, with French ten-year borrowing costs touching 5% adding to the single currency's difficulties"
+      "Little changed on the day"
     ],
-    "updated": "21 October 2026 12:18 (live read 12:15 BST)"
+    "updated": "22 October 2026 11:25 (live read 11:24 BST)"
   },
   "Gilt": {
     "name": "UK 10-Year Gilt Yield",
     "desc": "The yield on 10-year UK government bonds (gilts). A key benchmark for UK borrowing costs, mortgage rates and pension fund valuations. Rising yields mean falling bond prices.",
     "drivers_up": [
-      "September borrowing of £24.5bn came in £1.9bn above the official forecast, and total public sector debt passed £3 trillion for the first time",
-      "Inflation at 3.5% strengthens the case for a Bank rate rise, with one economist saying the pieces are falling into place for a November move"
+      "The Budget is six days away and borrowing has run above forecast this year"
     ],
     "drivers_down": [
-      "Yields were in fact little changed on the day: debt as a share of the economy fell, and borrowing for the financial year so far is £4.4bn below the same point last year"
+      "Yields edged lower and are close to unchanged, which is the clearest evidence that this morning's share falls are not a UK story"
     ],
-    "updated": "21 October 2026 12:18 (live read 12:15 BST)"
+    "updated": "22 October 2026 11:25 (live read 11:24 BST)"
   },
   "VIX": {
     "name": "VIX (Volatility Index)",
     "desc": "The CBOE Volatility Index, often called the 'fear gauge'. Measures expected S&P 500 volatility over the next 30 days. Readings above 20 suggest elevated anxiety; above 30 signals acute stress.",
     "drivers_up": [
-      "Edged higher but remains subdued, with the market treating the renewed Gulf shipping attacks as a supply story rather than a systemic one"
+      "Up about 10% on the Gulf escalation and a global software flaw that has taken government websites offline in several countries"
     ],
     "drivers_down": [
-      "Still historically low, which is itself the notable feature given events in the Gulf"
+      "Still low by historical standards despite the move"
     ],
-    "updated": "21 October 2026 12:18 (live read 12:15 BST)"
+    "updated": "22 October 2026 11:25 (live read 11:24 BST)"
   },
   "BTC": {
     "name": "Bitcoin (BTC/USD)",
     "desc": "The price of Bitcoin in US dollars. The largest cryptocurrency by market cap, increasingly viewed as digital gold by institutional investors since spot ETF approvals.",
     "drivers_up": [
-      "Recovered towards $83,000, extending a modest bounce"
+      "Would need the broad risk-off tone to reverse"
     ],
     "drivers_down": [
-      "Has not recovered the ground lost earlier in the month"
+      "Down almost 3%, moving with risk assets rather than against them; no approved source attributes the fall to a specific cause"
     ],
-    "updated": "21 October 2026 12:18 (live read 12:15 BST)"
+    "updated": "22 October 2026 11:25 (live read 11:24 BST)"
   },
   "UST": {
     "name": "US 10-Year Treasury Yield",
     "desc": "The yield on 10-year US government bonds, the global risk-free rate benchmark. Influences mortgage rates, corporate borrowing and equity valuations worldwide.",
     "drivers_up": [
-      "A touch higher and still above 5%, holding near the top of its recent range"
+      "Would require the inflation reading from higher oil to outweigh the safety bid"
     ],
     "drivers_down": [
-      "Little changed on the day; the move is measured in fractions of a basis point"
+      "Yields fell as money moved into Treasuries, the classic signature of a geopolitical risk-off session"
     ],
-    "updated": "21 October 2026 12:18 (live read 12:15 BST)"
+    "updated": "22 October 2026 11:25 (live read 11:24 BST)"
   }
 }
 </script>
@@ -2452,6 +2453,185 @@
  <!-- ════ ALL EDITIONS (sorted by JS) ════ -->
  <!-- IMPORTANT: Keep 7 FULL DAYS of editions in this container. Do NOT delete editions less than 7 days old. -->
  <div id="all-editions" style="display:none;">
+<!-- ── MORNING 22 OCT (11:25) ── -->
+<div class="curated-edition morning" data-date="2026-10-22" data-time="11:25" data-markets='{"FTSE":{"price":10700.42,"change":-0.49},"SP":{"price":7757.17,"change":0.58},"Brent":{"price":111.99,"change":2.91},"GBP":{"price":1.3385,"change":-0.07},"Gold":{"price":4091.58,"change":-1.18},"EURGBP":{"price":0.8382,"change":-0.04},"Gilt":{"price":5.37,"change":-0.01},"VIX":{"price":18.35,"change":10.01},"BTC":{"price":81978,"change":-2.92},"UST":{"price":5.07,"change":-0.08},"ts":"2026-10-22T11:25:00+01:00"}'>
+ <div class="edition-header">
+ <span class="edition-icon">&#9728;&#65039;</span>
+ <h2>Morning Briefing</h2>
+ </div>
+ <div class="curated-meta">Thursday 22 October 2026 &mdash; 11:25 BST</div>
+ <div class="impact-box">
+ <h3 class="impact-heading">What It Means For You</h3>
+ <ul class="impact-list">
+ <li><strong>If you are on a means-tested benefit:</strong> letters confirming &pound;150 off your energy bill this winter start arriving today, going to around six million households. Every billpayer on a means-tested benefit now qualifies, and the government says the scheme is funded to 2030-31.</li>
+ <li><strong>If you heat your home with gas:</strong> the prime minister has asked the chancellor and the energy secretary to examine removing standing charges from gas bills and report back. Nothing is decided, the average gas charge is about 30p a day, and prices are forecast to rise 16% in January.</li>
+ <li><strong>If you bank or shop online:</strong> fraud rose 11% to 4.5 million incidents in the year to June and computer misuse 23%. Separately, some council and NHS websites went offline this week over a software flaw, and six Scottish councils still report problems with payments.</li>
+ </ul>
+ </div>
+ <div class="curated-grid">
+ <div class="curated-column">
+ <h3><span class="dot geo"></span><span class="dot-label">GEO</span> Geopolitical</h3>
+ <div class="curated-item" data-time="11:11" data-slug="russia-fires-21-missiles-at-kyiv-hours-after-agreeing-talks">
+ <h4>Russia Fires 21 Missiles at Kyiv Hours After Agreeing Talks</h4>
+ <p>Three waves of ballistic missiles struck Kyiv from Wednesday evening, 21 in all, hours after the Kremlin said President Putin had agreed in principle to resume three-way talks. President Zelensky said at least two people were killed and 34 injured, five of them children. Twelve regions were attacked overnight.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">What Russia agreed to is narrower than it sounds. A Kremlin foreign-policy aide said after Wednesday&rsquo;s St Petersburg meeting that talks could resume only after 10 November &mdash; a week after the American midterms &mdash; possibly in Abu Dhabi, and at technical level only. The same aide dismissed the proposals the American envoy had brought from Oslo: &ldquo;there wasn&rsquo;t much there that was useful&rdquo;. Mr Putin has not agreed to meet Mr Zelensky at all. Then came the missiles. Residential blocks, energy sites, a railway station, the metro, shopping centres and a monastery were hit; metro infrastructure was damaged near the Pivdenny bridge over the Dnipro. In Kharkiv region a woman was killed and four injured. The toll is still rising: Ukraine&rsquo;s emergency service had earlier put it at one dead and 22 injured. Mr Zelensky&rsquo;s own framing was mordant &mdash; the missiles came from Russian &ldquo;humanitarians&rdquo; &mdash; and his foreign minister was blunter: &ldquo;Appeasement, servility, and flattery will not stop this war. Only strength will.&rdquo; Moscow&rsquo;s mayor separately claimed Ukraine sent 630 drones at the Moscow region, a Russian figure that nobody independent has confirmed.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="09:54" data-slug="ai-found-php-flaw-forces-governments-to-pull-websites-offline">
+ <h4>AI-Found PHP Flaw Forces Governments to Pull Websites Offline</h4>
+ <p>Two critical flaws in the PHP programming language, uncovered with the help of artificial intelligence, allow an attacker to run commands on a web server without any password. America&rsquo;s National Security Agency told organisations to patch at once or take systems offline. Britain&rsquo;s budget watchdog took its own website down.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The flaws, together dubbed PHP2Shell, had sat in the code for more than a decade and were found by two security firms using large language models. The response has been precautionary and very wide: the National Cyber Security Centre told British organisations to consider taking systems offline and to check for &ldquo;backdoors installed by an attacker&rdquo;, and the Office for Budget Responsibility pulled its website down &mdash; a week before it publishes its forecast alongside the Budget. NHS Scotland went dark; at one point seven of Scotland&rsquo;s 32 councils and six of its 14 health boards were offline, and six councils still report problems with payments. Edinburgh, Bristol and Oxford councils, the Paris police prefecture and the Dutch national digital identity service all went down. Amazon found an exploit attempt against a decoy server on 17 October, four days before public disclosure. But the distinction that matters has been drawn by the people best placed to overstate it. The researcher who found the flaw called it the most serious he had ever seen, then added: &ldquo;it doesn&rsquo;t look like exploitation has taken off or been widespread.&rdquo; Attempts are not breaches.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="10:14" data-slug="two-killed-at-dammam-airport-as-us-orders-diplomats-out">
+ <h4>Two Killed at Dammam Airport as US Orders Diplomats Out</h4>
+ <p>Saudi Arabia&rsquo;s aviation regulator says two people were killed and eight injured in an attack on King Fahd International Airport on Wednesday evening. Washington has ordered non-emergency staff and their families to leave Saudi Arabia. Brent crude rose about 3% to around $112 a barrel.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">An ordered departure is mandatory rather than advisory, and its scope is narrower than first reported: a State Department spokesman said it covers Saudi Arabia only, and called reports of similar withdrawals from the United Arab Emirates, Jordan, Qatar and Bahrain &ldquo;inaccurate&rdquo;. His stated reason was that Houthi attacks on civilian airports and infrastructure &ldquo;have the potential to escalate rapidly&rdquo;. The dead at Dammam were a Saudi citizen and an Indian resident; the toll rose from one overnight. Notably, the regulator did not say what kind of attack it was and the Houthis have not claimed it. Saudi authorities put the death toll from attacks on the kingdom&rsquo;s airports since the start of October at 21, and said four more drones were intercepted on Wednesday night. A drone at the Shaybah oilfield killed two contractors, from the Philippines and Nepal. Iran&rsquo;s Revolutionary Guards claimed their navy struck four vessels over alleged illegal oil transfers and that three more hit mines west of Hormuz; no vessels were named and nobody independent has verified it. They also warned that if the trend continues &ldquo;the conflict will extend to&rdquo; American bases in the region.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="10:13" data-slug="france-now-borrows-more-dearly-than-america-as-protests-loom">
+ <h4>France Now Borrows More Dearly Than America as Protests Loom</h4>
+ <p>French ten-year borrowing costs rose about nine basis points to just over 5.08%, moving above the equivalent American yield for the first time since 2013. The premium over German debt is the widest in almost fifteen years. Protests are banned across central Paris today and in Lyon on Saturday.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">France crossed 5% on Wednesday for the first time since 2002, and the move is now spilling outwards: Italy&rsquo;s spread over German debt widened by almost four basis points and Spain&rsquo;s is the widest since June last year. The cause is a budget nobody can pass sitting on top of a weekend of rioting, with the deficit at 5.1% of national income and debt at 115.6%. Carsten Brzeski of ING drew the uncomfortable conclusion for Frankfurt: the European Central Bank will &ldquo;very likely stay on hold next week&rdquo;, and &ldquo;without any solution, bond markets have taken over the ECB&rsquo;s role, making rate hikes less likely&rdquo;. The policing is on the same scale as the borrowing. Today&rsquo;s ban covers the Elys&eacute;e, both chambers of parliament, the Louvre, the Champs-&Eacute;lys&eacute;es, Bastille and R&eacute;publique from eight in the morning until eight at night; a junior interior minister said the weekend police presence would be 20% larger than last. In Lyon, where the mayor says between 150 and 200 shops were looted, all protests are banned on Saturday. Thailand, Malaysia and China have issued travel advisories.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="00:44" data-slug="judge-fines-meta-25bn-over-eleven-years-of-privacy-lies">
+ <h4>Judge Fines Meta $25bn Over Eleven Years of Privacy Lies</h4>
+ <p>A judge in New Mexico has ordered Meta to pay $25bn, the largest fine in the company&rsquo;s history, finding it wilfully misled users about who controlled their data between 2010 and 2021. The state&rsquo;s attorney general called it a warning to Silicon Valley. Meta says the ruling makes it all but impossible to do business there.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The judgment followed a two-week trial in Santa Fe, and the finding is about honesty rather than any single breach: &ldquo;Facebook promised users that they controlled their data. This was false,&rdquo; the judge wrote, adding that the deception went to &ldquo;the heart of Facebook&rsquo;s core business practices&rdquo;. The scale is worth putting in proportion. The sum is roughly a quarter&rsquo;s profits for a company that reported revenue up 26% to $64.5bn last quarter, with profits tripling to $9.8bn; one account has the full calculated penalty at $219bn before the judge reduced it. The number of violations is given as more than 40 million by one outlet and more than 43 million by two others. Forty-eight other states settled similar claims; New Mexico, with a population of about two million, went to trial alone and will put the money into its education fund. Meta&rsquo;s chief legal officer said the case amounted to &ldquo;a tax on speech to enforce new rules for what people can say online&rdquo;. The attorney general&rsquo;s reply was that a small state&rsquo;s judgment &ldquo;should be a clear warning to everyone in big tech&rdquo;.</div>
+ </details>
+ </div>
+ </div>
+ <div class="curated-column">
+ <h3><span class="dot uk"></span><span class="dot-label">UK</span> Domestic</h3>
+ <div class="curated-item" data-time="10:41" data-slug="barclays-to-cut-5000-jobs-as-profits-rise-before-the-budget">
+ <h4>Barclays to Cut 5,000 Jobs as Profits Rise Before the Budget</h4>
+ <p>Barclays will shed about 5,000 roles, some 5% of its global workforce, after pre-tax profits rose 12% to &pound;2.3bn in the third quarter. Its chief executive said an expected Budget tax rise on banks would be &ldquo;bearable&rdquo; but questioned the signal it sends. Roughly a thousand of the cuts have already been made.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">Two things are being conflated in the coverage and both are worth straightening. The first is geography: the 5,000 is a global figure against a workforce of about 93,000, the cost-cutting is focused on the British retail bank, but a significant proportion of the actual job losses is expected to fall in India, where back-office functions are performed. These are not 5,000 British jobs. The second is artificial intelligence. The finance director tied about 60% of the reductions to support functions, &ldquo;including fewer developers, as AI makes our people more productive&rdquo;. But asked how many cuts were attributable to AI, the chief executive declined to give a number and put the bulk of the gains down to years of technology investment: &ldquo;it is the icing on the cake &mdash; it&rsquo;s not the cake&rdquo;. On the Budget, six days away, his position was unusually candid: the bank makes about half its money outside Britain, so &ldquo;this is not a question of a financial hit to us. It&rsquo;s bearable. It is a question of proportion and it&rsquo;s a question of market signaling.&rdquo; Profits matched forecasts; group income of &pound;7.4bn fell short of the &pound;7.61bn expected.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="09:30" data-slug="fraud-and-computer-misuse-rise-as-knife-and-gun-crime-fall">
+ <h4>Fraud and Computer Misuse Rise as Knife and Gun Crime Fall</h4>
+ <p>Fraud rose 11% to 4.5 million incidents in the year to June and computer misuse 23% to 817,000, according to official figures published this morning. Over the same period knife offences fell 6% to 48,615, firearms offences 8% and homicides 1%. Overall crime showed no significant change.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The statisticians&rsquo; own summary is that crime against individuals and households has generally fallen over a decade &ldquo;with some notable exceptions, such as fraud&rdquo; &mdash; and the exceptions are where the growth is. Bank and credit account fraud alone rose 13% to 2.8 million incidents. Computer misuse is up sharply year on year yet remains 54% below its 2017 level, so the rise is a rebound rather than a record. Two figures in the release need handling with care. Recorded robbery appears to have risen 10%, but that is mainly an artefact of better recording of robbery from businesses; robbery of personal property actually fell 7%. And a reported jump in domestic abuse, to 9.6% of adults from 7.8%, comes with an explicit warning from the statisticians that changes to their own questionnaire have &ldquo;likely affected the domestic abuse estimates and scale of the increase&rdquo; and that it is too early to say whether it represents a new trend. Shoplifting, which has driven much retail commentary, was down 2% at 519,516 offences.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="08:54" data-slug="judges-get-power-to-confine-killers-who-skip-sentencing">
+ <h4>Judges Get Power to Confine Killers Who Skip Sentencing</h4>
+ <p>Under rules laid before Parliament today, Crown Court judges in England and Wales will be able to order offenders who refuse to attend their sentencing to be confined to a cell for 21 days, stripped of privileges for 84 and barred from social visits for 27. Visits from their children are exempt.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The reasoning is that existing sanctions do not bite. Refusing to attend is already contempt of court, carrying a fine or up to two years&rsquo; additional imprisonment, but for a murderer serving decades the department concedes that extra time &ldquo;can offer little deterrent&rdquo;. Social visits can also be restricted to one every four weeks for 84 days, and the powers extend to offenders removed from court for disruption, not only those who refuse to appear. For 18- to 20-year-olds the maximum periods are shorter. Catherine McKinnell, the prisons minister, said criminals &ldquo;should not be able to pick and choose when they face justice&rdquo;. Claire Waxman, the Victims&rsquo; Commissioner for England and Wales, said refusal &ldquo;compounds trauma and robs families of one of the very few moments of accountability&rdquo;, adding that it is &ldquo;now essential that these powers are used consistently&rdquo;. The aunt of Zara Aleena, murdered in 2022, said removing privileges &ldquo;would rebalance the power in the justice system from offender to victim&rdquo;. The Prison Reform Trust asked for evidence that sanctions actually increase attendance. The rules take effect next year.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="08:13" data-slug="rosebank-decision-pending-as-department-dismisses-reports-as-speculation">
+ <h4>Rosebank Decision Pending as Department Dismisses Reports as Speculation</h4>
+ <p>Reports that the energy secretary is minded to refuse the Rosebank oil field have been met with an on-the-record denial: her department says &ldquo;this is speculation&rdquo; and that each project will be assessed on its merits. A decision is expected before the end of the year. The reports rest on unnamed sources.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">What Miatta Fahnbulleh has actually said on the record is narrower than the reporting but points in the same direction. Drawing the distinction with Jackdaw, approved on Wednesday, she said: &ldquo;One is a gasfield that caters for the domestic market, while the other is an oilfield that is mainly for export. It is right that we judge each application in its own right, and it is absolutely critical that the decision is consistent with our climate obligations, our carbon budgets and the end destination we need to get to.&rdquo; There is nothing on the government&rsquo;s own publication service beyond the live case file, which does record one fact nobody has written up: the developer changed from Equinor UK to Adura Operations in February. Both fields are applications under existing licences, so neither touches the manifesto commitment to issue no new ones. The chair of the all-party group on climate change, the Labour MP Afzal Khan, said approving Rosebank on top of Jackdaw &ldquo;cannot be justified&rdquo;. Jackdaw alone is estimated to add 36 million tonnes of carbon emissions; the reported estimate that Rosebank would emit roughly seven times as much is a newspaper calculation, not an official one.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="10:46" data-slug="six-million-households-to-get-150-energy-rebate-letters">
+ <h4>Six Million Households to Get &pound;150 Energy Rebate Letters</h4>
+ <p>Letters confirming &pound;150 off energy bills this winter begin arriving from today, going to around six million households across Britain. Every billpayer on a means-tested benefit now qualifies, after an expansion that added nearly 2.3 million families last year. Separately, the prime minister has ordered a review of gas standing charges.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The letters will go out between now and January, and anyone who needs to telephone their supplier about eligibility must do so before late February. The government says the scheme is funded through to 2030-31, and the minister for energy consumers, Polly Billington, urged people who think they qualify to &ldquo;keep an eye out for a letter&rdquo; &mdash; while warning recipients to contact suppliers only by their usual route and not to follow suspicious links, which is a sensible caution given what fraud figures published the same morning show. The standing-charges question is at an earlier stage than the headlines suggest. At Prime Minister&rsquo;s Questions on Wednesday, Andy Burnham said he had asked the chancellor and the energy secretary &ldquo;to look at whether we can remove standing charges from gas bills and to report back to this house at the earliest opportunity&rdquo;. No mechanism and no timetable have been given, the review covers gas only, and the regulator has consulted for nearly two years without reaching firm conclusions. The averages are about 55p a day for electricity and 30p for gas. Energy prices are forecast to rise 16% in January to a four-year high.</div>
+ </details>
+ </div>
+ </div>
+ </div>
+ <div class="one-to-read">
+ <span class="otr-label">One To Read</span>
+ <a href="https://www.npr.org/2026/10/21/nx-s1-5997960/india-voter-rolls" target="_blank" rel="noopener noreferrer">
+ <h4>The Vanishing Voters</h4>
+ <span class="otr-source">NPR</span>
+ <span class="otr-dot">&middot;</span>
+ <span class="otr-desc">India&rsquo;s electoral rolls once held 980 million names. A revision has struck off an estimated 130 million, which critics call the largest disenfranchisement in history and the government calls a clean-up.</span>
+ </a>
+ </div>
+ <!-- SOURCES USED
+ - NOTE ON THIS EDITION. Published at 11:25 BST, later than our usual morning slot. The 07:55 scheduled job was killed after running nearly three hours: it had spawned a second attempt an hour in, and was found mid-edit on this page with uncommitted deletions. Left to finish it would have stamped itself 08:03, a backdate of more than four hours. Its research cache was harvested and verified before it was stopped, and much of it is relied upon below. Separately, we have established that the guard lock we have used to hold a slot expires after fifteen minutes, which is why Wednesday evening's edition published unattended; it was produced by that job and has not been audited by us, and its ten extended sections run roughly half our required length. Firecrawl remains out of credits (HTTP 402). ft.com, sky.com, reuters.com, apnews.com, telegraph.co.uk, thetimes.com, itv.com, channel4.com, wsj.com and ifs.org.uk were not retrievable. **The Independent, which we have recorded as unreachable for weeks, is in fact reachable by a plain fetch and is used in this edition; the obstacle was the retrieval tool, not the publisher.** No polling appears because no pollster site could be retrieved. PBS is not on our approved list and was not used
+ -
+ - GEOPOLITICAL
+ - https://www.theguardian.com/world/live/2026/oct/22/france-protests-emmanuel-macron-ukraine-energy-attacks-latest-europe-news-updates &mdash; The Guardian's Europe live coverage, modified 11:11 BST and the freshest source in this edition: President Zelensky's own account of three waves of ballistic missiles and 21 of them since Wednesday evening, twelve regions attacked, the list of sites hit including a monastery, and his figure of at least two killed and 34 injured including five children. **The toll has moved through the morning &mdash; Ukraine's emergency service earlier gave one dead and 22 injured &mdash; and both are recorded in the item rather than averaged.** Also his &ldquo;humanitarians&rdquo; line and the foreign minister Andrii Sybiha's &ldquo;Appeasement, servility, and flattery will not stop this war&rdquo;
+ - https://abcnews.com/International/wireStory/russia-pounds-ukraines-capital-kyiv-missiles-drones-hours-137468007 &mdash; ABC News carrying Associated Press (AP) copy: the second source for the strikes, and the Kremlin aide Yuri Ushakov's terms &mdash; agreement in principle, only after 10 November, possibly Abu Dhabi, technical level only
+ - https://www.aljazeera.com/news/2026/10/22/russian-strikes-hit-kyiv-after-witkoff-meets-putin &mdash; Al Jazeera with Agence France-Presse (AFP) copy: the third source; metro damage near the Pivdenny bridge, attributed to Mayor Vitaliy Klitschko; and the Moscow mayor's claim of 630 Ukrainian drones against the Moscow region, **published here as a Russian official's assertion that nobody independent has confirmed**
+ - https://www.theguardian.com/world/2026/oct/22/ukraine-war-briefing-peace-proposals-lack-substance-witkoff-putin-meeting &mdash; The Guardian: a woman killed and four injured in Kharkiv region per the governor Oleh Syniehubov, and Ushakov's dismissal of the Oslo proposals
+ - https://www.bbc.co.uk/news/articles/cm98zn5j89kdo &mdash; BBC News analysis: that Mr Putin has not agreed to meet Mr Zelensky, and Ushakov's &ldquo;there wasn't much there that was useful&rdquo;
+ - https://www.bbc.co.uk/news/articles/cq3djn5nxx12o &mdash; BBC News: background and the roughly 20% of Ukrainian territory under Russian control. **This piece was last modified on Wednesday night and its casualty figure covers only the opening salvo, so no toll is taken from it**
+ - https://www.bbc.co.uk/news/live/ckgel5xp2xv9t &mdash; BBC News live coverage: the National Security Agency and National Cyber Security Centre instructions, including the advice to check for &ldquo;backdoors installed by an attacker&rdquo;; the Office for Budget Responsibility taking its own site offline; the Scottish council and health board counts; and the two quotations that set the proportion of this story &mdash; the researcher who found the flaw calling it the most serious he has seen, and then saying &ldquo;it doesn't look like exploitation has taken off or been widespread&rdquo;
+ - https://www.theguardian.com/technology/2026/oct/21/flaw-in-php-computer-language-leads-to-shutdown-of-websites-around-world &mdash; The Guardian: the second source; the decade-plus age of the flaws, the affected bodies in France and the Netherlands, and Amazon's detection of an exploit attempt against a decoy server on 17 October, four days before disclosure
+ - https://www.cnn.com/2026/10/21/tech/php2shell-vulnerability-ai &mdash; CNN: the third source, and the role of AI models in the discovery
+ - https://www.aljazeera.com/news/2026/10/22/world-leaders-warn-against-security-flaw-found-in-php-computer-programming &mdash; Al Jazeera: the fourth source, the NSA's wording, and the international spread of the alerts
+ - https://www.bbc.co.uk/news/articles/c3qjnwye0ep5o &mdash; BBC News explainer: what the two flaws do. **Estimates of scale differ because they measure different things &mdash; one expert says about 30 million websites, others put it at roughly 70% of the web &mdash; so this edition gives neither as a single figure**
+ - https://www.bbc.co.uk/news/articles/cwm23e6pe93mo &mdash; BBC News: the British consequences, including the councils still reporting payment problems
+ - https://www.bbc.co.uk/news/articles/cqwy71ww156ro &mdash; BBC News, 10:14 BST and the authoritative version: two killed and eight injured at King Fahd International Airport per Saudi Arabia's civil aviation regulator, the dead being a Saudi citizen and an Indian resident, 21 killed in attacks on the kingdom's airports since the start of October, four more drones intercepted, and two contractors from the Philippines and Nepal killed by a drone at the Shaybah oilfield. **The regulator did not say what type of attack it was and the Houthis have not claimed it, which the item states**
+ - https://www.cbsnews.com/news/us-saudi-arabia-ordered-departure-houthis/ &mdash; CBS News: the State Department spokesman Tommy Pigott confirming an ordered departure, the regulator's &ldquo;the number of deaths resulting from the attack has risen to two&rdquo;, and the stated reason that hostilities &ldquo;have the potential to escalate rapidly&rdquo;
+ - https://www.theguardian.com/world/2026/oct/22/us-diplomats-told-to-leave-saudi-arabia-amid-houthi-attacks &mdash; The Guardian: that the order covers the Riyadh embassy and its consulates, and **that Pigott called reports of similar withdrawals from the United Arab Emirates, Jordan, Qatar and Bahrain &ldquo;inaccurate&rdquo;. That knock-down is the reason this edition confines the order to Saudi Arabia**
+ - https://www.bbc.co.uk/news/articles/c6x2vpk93770o &mdash; BBC News, 02:07 BST: the first report of the ordered departure. **Superseded on casualties by the 10:14 version and not used for them**
+ - https://www.aljazeera.com/news/2026/10/22/one-killed-eight-injured-in-attack-on-saudi-arabias-king-fahd-airport-2 &mdash; Al Jazeera with Reuters copy: a further source for the Dammam toll. **It puts the 10 October Riyadh airport attack at 12 killed and more than 300 injured, where the BBC gives 13 killed and 308 injured; we published 13 and 308 yesterday and have kept to it, recording the divergence here rather than silently switching**
+ - https://www.cnbc.com/2026/10/22/oil-prices-today-wti-brent-saudi-arabia.html &mdash; CNBC: Brent up 3.1% to $112.20 in early European trading, attributed to fears of escalation and the ordered departure. This is the only approved attribution we have for the oil move
+ - https://www.timesofisrael.com/liveblog_entry/irgc-says-four-vessels-carrying-oil-hit-mines-near-hormuz-warns-us-of-wider-responses/ &mdash; The Times of Israel with Reuters copy: the Revolutionary Guards' claim to have struck four vessels over alleged illegal oil transfers and that three more hit mines west of Hormuz. **No vessel, operator or flag state is named and no shipping authority, navy or insurer has confirmed any of it. It is carried in a single sentence as that party's assertion, and a near-identical claim ran in Wednesday evening's edition, so it is not treated as an advance**
+ - https://www.timesofisrael.com/liveblog-october-22-2026/ &mdash; The Times of Israel: the Guards' warning that the conflict would &ldquo;extend to&rdquo; American bases in the region
+ - https://www.theguardian.com/world/2026/oct/22/french-borrowing-costs-overtake-us-amid-budget-turmoil &mdash; The Guardian: the French ten-year yield up nine basis points to 5.089%, above the equivalent American yield for the first time since 2013, the widest premium over German debt in almost fifteen years, the spillover into Italian and Spanish spreads, a deficit of 5.1% of national income and debt at 115.6%, and Carsten Brzeski of ING on bond markets having &ldquo;taken over the ECB's role&rdquo;. **This piece internally gives both &ldquo;highest since July 2022&rdquo; and &ldquo;first time since 2002&rdquo;; those cannot both be right, we published 2002 yesterday, and we have kept to 2002**
+ - https://www.theguardian.com/business/live/2026/oct/22/barclays-profits-jump-looming-bank-tax-french-bond-yields-hit-fresh-24-year-high-latest-live-updates &mdash; The Guardian's business live coverage: the second reading of the French yield and the chain from oil to inflation to bond pressure
+ - https://www.theguardian.com/world/2026/oct/21/macron-trump-foreign-leaders-stupid-comments-france-unrest &mdash; The Guardian: the protest bans across central Paris and in Lyon, the mayor of Lyon on 150 to 200 shops looted, the junior interior minister on a 20% larger police presence, the travel advisories, and President Macron's &ldquo;Among others&rdquo; when asked whether he meant the American president
+ - https://www.bbc.co.uk/news/articles/ckjrw044ggxgo &mdash; BBC News: the second source for Macron's remarks. **Arrest counts differ in kind rather than in value &mdash; nearly 2,400 arrested, about 150 jailed, more than 800 before the courts &mdash; and are not merged**
+ - https://www.aljazeera.com/news/2026/10/21/judge-orders-meta-to-pay-25bn-in-fines-for-facebook-privacy-violations &mdash; Al Jazeera with Associated Press (AP) and Reuters copy: the $25bn judgment, Judge Francis Mathew's &ldquo;Facebook promised users that they controlled their data. This was false&rdquo;, and the New Mexico attorney general's response. **Our own working list had this figure as $2.5bn; three approved sources agree it is $25bn, and the error was caught before drafting**
+ - https://abcnews.com/Business/meta-ordered-pay-new-mexico-25-billion-violating/story?id=137454455 &mdash; ABC News: the second source; the two-week trial, the attorney general's &ldquo;a clear warning to everyone in big tech&rdquo;, Meta's chief legal officer on &ldquo;a tax on speech&rdquo;, and that the money goes to the state education fund
+ - https://www.bbc.co.uk/news/articles/cqdr8zxrr3dxo &mdash; BBC News: the third source; that the conduct was found wilful and spanned 2010 to 2021, that 48 other states settled, the quarterly revenue and profit figures, and that the full calculated penalty was reduced. **The violation count is given as more than 40 million here and more than 43 million by two others, and both are recorded rather than reconciled**
+ -
+ - UK DOMESTIC
+ - https://www.bbc.co.uk/news/articles/cm4g1p347qgxo &mdash; BBC News, updated 10:37 BST: about 5,000 roles going, roughly a thousand already gone, and the detail no other outlet carried &mdash; that the cost reductions focus on the British retail bank but **a significant proportion of the job losses is expected to fall in India**, which is why this edition does not describe them as British jobs. Also the chief executive's &ldquo;it is the icing on the cake &mdash; it's not the cake&rdquo;
+ - https://www.cnbc.com/2026/10/22/barclays-ai-jobs-cuts.html &mdash; CNBC: pre-tax profit of &pound;2.3bn, up 12%, **matching forecasts compiled by LSEG, while group income of &pound;7.4bn fell short of the &pound;7.61bn expected. One approved source describes the profit as slightly below forecast and another as matching it; the edition states both the profit and the income miss, which is true on both accounts**
+ - https://www.theguardian.com/business/2026/oct/22/barclays-profits-up-as-uk-banks-brace-for-tax-increase-in-budget &mdash; The Guardian: the finance director Anna Cross tying about 60% of the reductions to support functions &ldquo;including fewer developers, as AI makes our people more productive&rdquo;, and the global workforce base. **The reported increase in the bank profits surcharge from 3% to 8% is not on the record from the Treasury and is not stated as policy in this edition**
+ - https://www.independent.co.uk/news/business/barclays-bank-job-cuts-uk-b3071247.html &mdash; The Independent carrying Press Association (PA) copy: the global headcount of about 93,000, the completion timetable and the cost-action figures
+ - https://www.theguardian.com/politics/live/2026/oct/22/john-healey-chancellor-budget-red-tape-small-businsesses-jackdaw-oil-latest-news-updates &mdash; The Guardian's politics live coverage: the chief executive's Budget remarks in full, including &ldquo;It's bearable. It is a question of proportion and it's a question of market signaling&rdquo;, and the summary of this morning's crime figures
+ - https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/bulletins/crimeinenglandandwales/yearendingjune2026 &mdash; the Office for National Statistics' own crime bulletin for the year to June 2026, released 09:30: fraud up 11% to 4.5 million incidents with bank and credit account fraud up 13% to 2.8 million; computer misuse up 23% to 817,000 but still 54% below 2017; knife offences down 6% to 48,615; firearms down 8%; homicide down 1% to 512; shoplifting down 2%; and no significant change in overall crime. **Two cautions taken directly from the bulletin: the 10% rise in recorded robbery is mainly a recording change and robbery of personal property actually fell 7%; and the apparent jump in domestic abuse carries the statisticians' own warning that questionnaire changes have likely affected the estimate, which the item reproduces rather than omits**
+ - https://www.gov.uk/government/news/cowardly-killers-who-dodge-sentencing-face-tough-new-prison-punishments &mdash; gov.uk: the new rules laid before Parliament today, the prisons minister Catherine McKinnell's &ldquo;criminals should not be able to pick and choose when they face justice&rdquo;, the Victims' Commissioner Claire Waxman's response, and the department's concession that extra prison time &ldquo;can offer little deterrent&rdquo; to those already serving decades
+ - https://www.theguardian.com/law/2026/oct/22/criminals-who-refuse-to-attend-sentencing-could-lose-prison-privileges-under-new-rules &mdash; The Guardian: the precise schedule, which the government's own release does not set out in the fetched text &mdash; 84 days' loss of privileges, 21 days' cell confinement, 27 days' loss of social visits, and visits restricted to one every four weeks for 84 days, with shorter maximums for 18- to 20-year-olds and visits from prisoners' children exempt
+ - https://www.bbc.co.uk/news/articles/cr74p0zkd4jjo &mdash; BBC News: the aunt of Zara Aleena on rebalancing power &ldquo;from offender to victim&rdquo;, and the Prison Reform Trust asking for evidence that the sanctions increase attendance. **This headline and one other use the phrase &ldquo;solitary confinement&rdquo;, which appears in neither outlet's body text nor in the government's release; this edition says cell confinement**
+ - https://www.independent.co.uk/news/uk/home-news/sentencing-court-judges-prison-sanctions-b3071181.html &mdash; The Independent: that the powers also reach offenders removed from court for disruption, not only those who refuse to attend
+ - https://www.theguardian.com/environment/2026/oct/21/energy-secretary-leaning-towards-rejecting-rosebank-oilfield &mdash; The Guardian: the energy secretary's on-the-record distinction between a domestic gasfield and an export oilfield, her department's on-the-record &ldquo;this is speculation&rdquo;, the expectation of a decision before the end of the year, the Labour MP Afzal Khan's objection, and Jackdaw's estimated 36 million tonnes of emissions. **The report that she is minded to refuse rests entirely on unnamed sources and is officially denied; this edition leads the item on the denial and on what she has actually said, and does not assert in its own voice that she has decided or is leaning either way. The estimate that Rosebank would emit about seven times Jackdaw's carbon is this newspaper's own calculation and is labelled as such**
+ - https://www.gov.uk/government/publications/rosebank-field-development &mdash; gov.uk, the live Rosebank case file: that the developer changed from Equinor UK to Adura Operations in February 2026. **There is no decision, announcement or statement on Rosebank anywhere on gov.uk, which is the clearest evidence that nothing has been decided**
+ - https://www.bbc.co.uk/news/articles/cq3djn4mmypko &mdash; BBC News's review of the newspapers: that two other titles carry the same claim from their own unnamed sources. **Three sets of anonymous sources are not confirmation, and one of those titles is not on our approved list**
+ - https://www.gov.uk/government/news/households-to-receive-150-warm-home-discount-confirmation-letter &mdash; gov.uk, published 10:46: &pound;150 off bills for around six million households, letters from today to January, the helpline deadline in late February, every means-tested benefit claimant now eligible, nearly 2.3 million families added last year, funding to 2030-31, and the minister Polly Billington's words including the warning not to follow suspicious links
+ - https://www.bbc.co.uk/news/articles/cw0541p65dyzo &mdash; BBC News: the prime minister at Prime Minister's Questions asking the chancellor and the energy secretary &ldquo;to look at whether we can remove standing charges from gas bills and to report back to this house at the earliest opportunity&rdquo;; that no detail has been given on how it would work; the average daily standing charges; the regulator's two years of inconclusive consultation; and the forecast 16% rise in January
+ -
+ - MARKETS
+ - https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol &mdash; our own working note. Every figure is a fresh read at 11:04 BST, cross-checked against a second provider in the same minute; nothing is carried forward. The gilt agreed almost exactly across both and gold agreed to four cents. **Trading Economics' Brent page was $12.79 low, the ninth consecutive day it has been wrong by roughly $8 to $13, and its percentage change also diverged, so the oil level and move rest on the primary feed and are declared as such. The two providers also differ by about two basis points on the move in the ten-year Treasury; the primary feed is internally consistent with its own previous close and is the one published.** The S&P 500 figure is Wednesday's close, because Wall Street does not open until 14:30 BST
+ - https://www.cnbc.com/2026/10/22/gold-drops-over-1percent-as-oil-rally-reinforces-higher-for-longer-rate-outlook.html &mdash; CNBC with Reuters copy, and the answer to the morning's apparent anomaly: gold fell more than 1% **because** rising oil stoked inflation expectations and reinforced the case for interest rates staying higher for longer, which raises the cost of holding an asset that yields nothing. Named to Kelvin Wong of OANDA. **No approved source attributes today's falls in the FTSE or bitcoin, or the rise in the volatility index, and this edition offers no cause for them**
+ -
+ - ONE TO READ: https://www.npr.org/2026/10/21/nx-s1-5997960/india-voter-rolls &mdash; NPR
+ -
+ - OUTLET COUNT, STATED HONESTLY: twelve outlets are relied upon for claims in this edition &mdash; BBC News, The Guardian, The Independent, CNN, Al Jazeera, ABC News, CBS News, CNBC, The Times of Israel, and the Associated Press (AP), Agence France-Presse (AFP) and Press Association (PA) through verified wire co-bylines &mdash; together with three primary institutional sources the automated tally does not recognise: the Office for National Statistics, gov.uk and the Ministry of Justice. Outlets read and NOT relied upon for anything published: NBC News, and a Reuters market wire reached only through an unapproved aggregator
+ - NOT CARRIED, AND WHY: the Revolutionary Guards' claim to have struck four vessels is reduced to a single labelled clause rather than an item, because no approved source verifies it, no vessel is named, and a near-identical claim ran last night. A standstill across southern Italy, with lorry blockades, half-empty supermarket shelves and two airports out of jet fuel, is a genuinely large story but only one approved outlet could be read on it, so it is held for this evening. An estimate that 130 million names have been struck from India's electoral rolls is extraordinary in scale but the central figure is one analyst's estimate, so it appears as the recommended read rather than as a news item. Reported explosions in southern Iran are left out because the attribution traces to an outlet not on our list and nobody has established what caused them. A trial testing diabetes and attention-deficit drugs on Alzheimer's patients, with a personal account from the prime minister whose father died with the disease, is the strongest story not in this edition and is held for the evening. Also weighed and held: the designation of Aldi and Lidl under a 2010 competition order on land agreements, **which we had wrongly understood to be the groceries supply code and which is neither that nor a ministerial decision**; official figures on earnings and the gender pay gap published this morning; new protections for pregnant women against unfair dismissal; redress for postmasters; and Storm Austen, which reaches Cornwall and Devon tomorrow morning. No sport appears anywhere in this edition
+ END SOURCES USED -->
+</div><!-- ── END MORNING 22 OCT (11:25) ── -->
 <!-- ── EVENING 21 OCT (17:55) ── -->
 <div class="curated-edition evening" data-date="2026-10-21" data-time="17:55" data-markets='{"FTSE":{"price":10752.88,"change":0.19},"SP":{"price":7760.08,"change":0.62},"Brent":{"price":108.46,"change":-0.30},"GBP":{"price":1.3394,"change":0.12},"Gold":{"price":4150.00,"change":0.18},"EURGBP":{"price":0.8383,"change":-0.13},"Gilt":{"price":5.38,"change":-0.02},"VIX":{"price":16.72,"change":-3.41},"BTC":{"price":84409.69,"change":2.37},"UST":{"price":5.11,"change":-0.12},"ts":"2026-10-21T17:55:00+01:00"}'>
  <div class="edition-header">
@@ -4406,341 +4586,6 @@
  - NOT CARRIED: a report that Israel has detained more than 2,000 Palestinian children since October 2023 rests on one campaign group's report carried by a single approved outlet with no response from the Israeli authorities, and is held. The Real Living Wage rise flagged in our own working notes could not be stood up anywhere on an approved source &mdash; the only live adjacent story concerns the statutory minimum wage, which is a different thing, and the two are not conflated. A Scottish weight-loss prescribing figure circulating as &ldquo;fewer than 800&rdquo; is 705 on the underlying report and is not used at all this morning. CoreWeave's debt pricing and credit default swaps are the Guardian citing bloomberg.com and are dropped. Anthropic's revenue per dollar of computing power and its expected annualised revenue by year-end are CNBC citing the Financial Times and wsj.com and are dropped. Overnight Houthi strikes on Saudi Arabia and reporting that the American president is weighing strikes in response appear on an approved live page but not on the BBC's front page this morning and are held for the evening, when there should be a second source. A claim that the Houthis struck the headquarters of the Saudi oil company appears in one approved outlet's headline and contradicts the caution carried in yesterday's edition; it is not resolved here and is not carried. Istanbul floods, protests in Albania, North Korean missile tests and a Costa Rican prison story were weighed and dropped as thinner than the five above. No approved source connects the sell-off to the Fund's financial stability report, so no such link is drawn. The final pre-publication re-check of the BBC's front page and UK index at 09:12 BST found four lead-tier items, all of them in this edition. Three further front-page stories were weighed and held, each on one approved source: BBC Verify's own finding that hundreds of Israeli military investigations into killings have closed without a public outcome, which is strong reporting but single-sourced and would have made a third item resting on one outlet; a report that the prime minister had two hospitality dinners with the chairman of a football club and that records of them were deleted, which is a political story rather than a sporting one but is so far carried by one outlet; and the opening of the Russell Brand trial, which last night's edition declined as a court report rather than politics and which is declined again on the same ground. The sentencing item in this edition is a court report too, and is run because the defendant led a party in government in Northern Ireland, which is the distinction being drawn
  END SOURCES USED -->
 </div><!-- ── END MORNING 15 OCT (09:13) ── -->
-<!-- ── EVENING 14 OCT (18:10) ── -->
-<div class="curated-edition evening" data-date="2026-10-14" data-time="18:10" data-markets='{"FTSE":{"price":10724.86,"change":0.7},"SP":{"price":7721.93,"change":-1.07},"Brent":{"price":106.58,"change":0.84},"GBP":{"price":1.3153,"change":-0.75},"Gold":{"price":4080.92,"change":-1.82},"EURGBP":{"price":0.8453,"change":0.07},"Gilt":{"price":5.42,"change":-0.01},"VIX":{"price":16.54,"change":8.32},"BTC":{"price":81997,"change":-1.38},"UST":{"price":5.23,"change":0.01},"ts":"2026-10-14T18:10:00+01:00"}'>
- <div class="edition-header">
- <span class="edition-icon">&#127769;</span>
- <h2>Evening Briefing</h2>
- </div>
- <div class="curated-meta">Wednesday 14 October 2026 &mdash; 18:10 BST</div>
- <div class="impact-box">
- <h3 class="impact-heading">What It Means For You</h3>
- <ul class="impact-list">
- <li><strong>If you drive a diesel or run a fleet:</strong> the International Energy Agency says the diesel squeeze will last into the second half of 2027, with retail prices already at records in most major economies and delivered prices into Europe liable to rise again in the coming weeks.</li>
- <li><strong>If you are flying to or through Saudi Arabia:</strong> Riyadh&rsquo;s King Khalid International Airport is closed until 17 October after Saturday&rsquo;s strike that killed thirteen people, airlines have cancelled flights, and the Houthis today told civilians to keep away from Saudi airports.</li>
- <li><strong>If you are a courier, driver or hairdresser paid as self-employed:</strong> the government has opened a consultation on bogus self-employment which it says could bring as many as 900,000 people the minimum wage and holiday pay they are currently missing.</li>
- </ul>
- </div>
- <div class="curated-grid">
- <div class="curated-column">
- <h3><span class="dot geo"></span><span class="dot-label">GEO</span> Geopolitical</h3>
- <div class="curated-item" data-time="15:34" data-slug="container-ship-sinks-in-strait-of-hormuz">
- <h4>Container Ship Sinks in the Strait of Hormuz as Attacks Surge</h4>
- <p>The Singapore-flagged GFS Pride sank after being struck by an unknown projectile on Tuesday; all 21 crew were evacuated unhurt. A second Singapore-flagged ship was hit today and reached safe anchorage. Singapore&rsquo;s maritime authority called the attacks &ldquo;unprovoked, unjustifiable and a breach of international law&rdquo;. Iran says the vessel struck a mine on an &ldquo;unauthorised&rdquo; route.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The maritime trade monitor recorded twelve vessels attacked between 5 and 11 October, six of them on Sunday alone, and Kpler puts crude exports through the strait at 8.5 million barrels a day in the week to 12 October &mdash; nearly 40% below pre-war levels, after a September rebound under American escort. Two Iranian officials told Reuters the new tactics were decided at the top, with one aim being to frustrate efforts to lower oil prices before the 3 November midterms. The Revolutionary Guards&rsquo; naval commander says Tehran is &ldquo;counting down every moment&rdquo; to sinking American warships; Central Command replied that he &ldquo;has no navy&rdquo;. Only one other ship had been reported sunk since the war began.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="16:23" data-slug="houthis-vow-more-attacks-on-saudi-oil">
- <h4>Houthis Vow More Strikes on Saudi Oil and Airports</h4>
- <p>The Houthis declared Saudi airports and oil facilities legitimate targets, a day after a strike on Aramco&rsquo;s Dhahran headquarters started a fire that sources say spread across several floors &mdash; more than the &ldquo;limited fire&rdquo; the energy ministry described. The coalition says it intercepted a ballistic missile aimed at Riyadh today. Sources say operations continue normally.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The war has widened from the Red Sea into the kingdom itself: Riyadh&rsquo;s airport has been attacked four times, and Saturday&rsquo;s strike there killed thirteen, the deadliest in Saudi Arabia in a decade. Iraq&rsquo;s prime minister, Ali al-Zaidi, used his first visit to Riyadh to promise that Iraqi territory would not be a &ldquo;launching pad&rdquo; for attacks &mdash; pointed, since Baghdad&rsquo;s own inquiry found last month&rsquo;s drone strike on the East-West pipeline came from Iraq. Inside Yemen the cost is mounting. The World Food Programme says 800,000 people are cut off from food aid, 600,000 of them in encircled Taiz; its country director warns this &ldquo;can rapidly spiral into a humanitarian catastrophe&rdquo;.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="13:30" data-slug="us-inflation-rises-to-three-point-seven">
- <h4>American Inflation Rises to 3.7% on the Eve of the Midterms</h4>
- <p>Consumer prices rose 3.7% in the year to September, above the 3.6% forecast and up from 3.4%, in the last reading before the 3 November elections. Petrol rose 9.1% in the month and accounted for more than half the increase; core inflation reached 2.6%. Treasury yields rose and Wall Street fell.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">This is the war arriving in the American shopping basket: energy is up 20.4% on the year and heating oil 74.2%, while food was flat in September. The core figure is what alarms bond traders &mdash; Christopher Rupkey of Fwdbonds called it a &ldquo;shocking inflation report&rdquo; and said &ldquo;inflation is alive&rdquo;. The ten-year Treasury yield rose to 5.242% and the two-year by more than five basis points. The Federal Reserve raised rates in September for the first time in three years and meets on 27&ndash;28 October; futures now price a further rise by December as near-certain. For Britain the transmission is through the dollar: sterling is down about a cent on the day.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="08:20" data-slug="starlink-limits-disrupt-ukrainian-missions">
- <h4>Starlink Limits Disrupt Ukrainian Missions as 600,000 Lose Power</h4>
- <p>Ukrainian terminals moving faster than 160km/h lost connection overnight, wrecking a number of drone missions, according to Serhiy Beskrestnov, a presidential adviser: &ldquo;It&rsquo;s clear that this action cannot be a coincidence.&rdquo; Elon Musk said the military service &ldquo;is not under SpaceX control&rdquo;. Russian strikes left at least 600,000 people without electricity.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The speed threshold matters because Starlink-guided interceptors are Ukraine&rsquo;s best answer to Russia&rsquo;s jet-powered Shaheds; interception rates fell from above 90% to about 60% when those arrived. There are no reports of static terminals being cut, so front-line communications should hold. The Ukrainian air force says no warning preceded Tuesday&rsquo;s first ballistic barrage, though &ldquo;foreign partners&rdquo; flagged three later ones &mdash; and the European Commission says it has &ldquo;no indications&rdquo; American intelligence sharing has stopped. Russia fired 39 missiles and 128 drones, killing three in Kyiv, with six more killed in Lutsk. Sergey Lavrov says Ukraine does not deserve the &ldquo;respite&rdquo; of Mr Trump&rsquo;s proposed energy ceasefire.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="10:37" data-slug="iea-warns-diesel-squeeze-into-2027">
- <h4>Energy Agency Warns the Diesel Squeeze Will Last Into 2027</h4>
- <p>The International Energy Agency&rsquo;s monthly report says gasoil supply will fall short of demand this quarter and lost stocks are unlikely to be rebuilt before the second half of 2027. Global diesel exports fell 700,000 barrels a day year-on-year in September. Wholesale prices touched record highs of about &dollar;220 a barrel in Europe.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The agency&rsquo;s point is that markets went into winter without a buffer: heavy inventory draws over the summer &ldquo;deprived global gasoil markets of crucial stock cover ahead of the peak winter demand season&rdquo;. A loss of 1.3 million barrels a day from Russia and the Middle East was only partly replaced. That is the backdrop to the American deal for Russian diesel, which the European Commissioner Valdis Dombrovskis dismissed in Bangkok: the volumes are &ldquo;not going to have any macroeconomic significance&rdquo;. A second shortage is building behind it &mdash; a senior United Nations official warns that Asia and Africa face a food crisis unless Washington and Tehran agree a stalled plan to move fertiliser through Hormuz before planting season.</div>
- </details>
- </div>
- </div>
- <div class="curated-column">
- <h3><span class="dot uk"></span><span class="dot-label">UK</span> Domestic</h3>
- <div class="curated-item" data-time="16:35" data-slug="burnham-tells-zelensky-support-will-not-change">
- <h4>Burnham Tells Zelensky Britain&rsquo;s Support &ldquo;Will Not Change&rdquo;</h4>
- <p>Volodymyr Zelensky was met in Downing Street by a ceremonial guard &mdash; which Number 10 says it can find no record of for a foreign leader there &mdash; after an audience with the King. &ldquo;We are behind you and that will not change,&rdquo; the prime minister said, announcing faster delivery of British-made air defences. Mr Zelensky said he would raise Starlink and intelligence.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The ceremony did the talking that the prime minister would not. At PMQs Sir Ed Davey invited him to call the Russian diesel deal &ldquo;yet another shameful Trump betrayal&rdquo;; Mr Burnham declined, saying his role was to &ldquo;try and repair bridges so that the support comes back&rdquo;. That is a deliberate bet that London is more useful as a broker than a critic, made after the American president said it was &ldquo;time for Ukraine to get a new president&rdquo;. Mr Zelensky said there had been &ldquo;some difficulties&rdquo; and &ldquo;a lot of different surprises on which you can&rsquo;t count&rdquo;, and declined to say whether Washington had stopped sharing intelligence. Further military and financial packages are promised &ldquo;in the coming weeks&rdquo;.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="12:57" data-slug="burnham-rules-out-partnership-with-greens">
- <h4>Burnham Rules Out Partnership With Greens Over Zionism Motion</h4>
- <p>The prime minister told the Commons the Green Party&rsquo;s conference motion defining Zionism as racism &ldquo;is wrong, it is antisemitic, and this side of the House will have nothing to do with it&rdquo;, adding that Labour &ldquo;cannot support a partnership&rdquo; with a party holding that position. Zack Polanski accused him of arming &ldquo;a genocide&rdquo;.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The practical question is local. Labour governs in coalition with the Greens in Sheffield, Lewes and Warwick and alongside them in more than ten other councils, and Downing Street would not say whether the ban reaches that far. The motion passed by 1,022 votes to 813 &mdash; about 0.4% of a 230,000 membership &mdash; and was criticised by four Green MPs and two former leaders. Mr Polanski, who calls himself the only Jewish leader of a party, has said the wording was &ldquo;imperfect&rdquo; while defending its substance. The Green MP Ellie Chowns says policy made by so few members shows &ldquo;something isn&rsquo;t working&rdquo; in the party&rsquo;s structures. It is policy, but need not reach the manifesto.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="12:47" data-slug="burnham-man-city-dinners-omitted">
- <h4>Burnham&rsquo;s Dinners With Man City Chairman Left Out of Statement</h4>
- <p>Deleted records show Andy Burnham dined with Khaldoon Al Mubarak at matches in 2017 and 2018 while mayor, hospitality valued at &pound;300 and about &pound;699. Neither was specified in Monday&rsquo;s official account of his dealings with the club. Asked at PMQs whether the Premier League charges were raised with him, he said: &ldquo;They did not raise those issues with me.&rdquo;</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The dinners were declared at the time; the issue is the gap between a promise of &ldquo;everything&rdquo; and a statement Mr Burnham himself called his &ldquo;key dealings&rdquo;. The register containing them has since been removed from the combined authority&rsquo;s website, which says it publishes only the current term&rsquo;s entries &mdash; though its site still carries entries from 2022. His press secretary referred questions back to that statement. The shadow sports minister Louie French says the prime minister &ldquo;cannot hide behind the GMCA&rdquo;; Reform&rsquo;s Robert Jenrick says &ldquo;this saga stinks&rdquo;. It matters because Mr Burnham said last month he would be &ldquo;really concerned&rdquo; if City&rsquo;s owners sold up after the club was found guilty of breaking league rules.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="11:04" data-slug="imf-singles-out-uk-deficit-plan">
- <h4>IMF Singles Out Britain&rsquo;s Deficit Plan Before the Budget</h4>
- <p>Kristalina Georgieva said Britain is &ldquo;one country where action to reduce debt and deficit has been taken decisively&rdquo;, the third such endorsement from senior IMF officials in a day. The fund lifted its growth forecast for this year to 1.3%. The chancellor is reported to be preparing a crackdown on VAT dodging through online marketplaces.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">Praise from Washington&rsquo;s fiscal watchdog is also a constraint. The IMF finds only Britain in the G7 with a serious plan to cut annual borrowing &mdash; worth nearly 4% of national income &mdash; while America, Germany and Japan borrow more; the reward could be lower relative borrowing costs. It leaves John Healey little room on 28 October, and the Institute for Fiscal Studies warns the Budget risks being a &ldquo;work of fiction&rdquo; unless it covers &pound;35bn of spending pressures. The marketplace plan, reported by The Times and said to raise up to &pound;1bn, would make platforms collect VAT for sellers above &pound;90,000 to fund business-rate relief. Amazon welcomes it; the Treasury will not comment.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="14:49" data-slug="crackdown-on-bogus-self-employment">
- <h4>Ministers Move Against Bogus Self-Employment Affecting 900,000 Workers</h4>
- <p>The government has opened a consultation on businesses that label staff as self-employed to avoid paying the minimum wage and holiday pay, citing estimates that up to 900,000 people are affected &mdash; among them couriers, delivery drivers and hairdressers. &ldquo;When loopholes are exploited, people are denied their basic employment rights,&rdquo; said Jonathan Reynolds, the business secretary.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The package cuts both ways: the genuinely self-employed would gain a right to a written statement on each contract and wider protection against blacklisting. What it omits is the bigger promise. Labour committed in opposition to a single status of &ldquo;worker&rdquo; in employment law, and these proposals do not. Meri Ahlberg of the Joseph Rowntree Foundation calls them &ldquo;a step forward&rdquo; but warns that without single status and tax reform &ldquo;it will still be cheaper to employ people in less secure jobs&rdquo;, leaving millions without sick pay or parental pay. The incentive she describes is a tax one &mdash; a lever only the Budget can pull.</div>
- </details>
- </div>
- </div>
- </div>
- <details class="pmqs-wrapper">
- <summary>
- PMQs &mdash; The Key Exchanges
- <span class="pmqs-meta">5 exchanges &middot; Wednesday 14 October</span>
- </summary>
- <div class="pmqs-summary">
- <div class="pmqs-exchange">
- <h4>Badenoch: &ldquo;Does He Ever Get Tired of Putting His Foot in His Mouth?&rdquo;</h4>
- <p><span class="pmqs-speaker">Badenoch</span> said the prime minister had spent 48 hours &ldquo;trying to unsay that Russia influenced the 2016 referendum&rdquo;, and claimed the head of MI5 had slapped him down. Sir Ken McCallum had in fact said &ldquo;I strongly agree with what the prime minister said&rdquo;, while warning against dwelling on it. Mr Burnham repeated that Russia had tried to interfere, and offered to debate whether Brexit had done more harm than good.</p>
- </div>
- <div class="pmqs-exchange">
- <h4>Davey: The Diesel Deal Is a &ldquo;Shameful Trump Betrayal&rdquo;</h4>
- <p><span class="pmqs-speaker">Davey</span>, cheered after seeing off a threat to his leadership, asked the prime minister to condemn the American deal for Russian diesel. Mr Burnham would not, saying he should &ldquo;be careful in terms of laying the ground to bring people back together&rdquo;. He also promised further cross-party talks on social care &ldquo;hopefully within the next month&rdquo;.</p>
- </div>
- <div class="pmqs-exchange">
- <h4>Farage: Small Boats Are a National Security Emergency</h4>
- <p><span class="pmqs-speaker">Farage</span> said unidentified men from Iran were arriving weekly. Mr Burnham began by acknowledging that the person accused of killing Ann Widdecombe has also been charged with planning an attack on Mr Farage &mdash; &ldquo;I defend his right to say it, and I will work hard to secure his safety&rdquo; &mdash; then said crossings &ldquo;are coming down&rdquo; and removals are up.</p>
- </div>
- <div class="pmqs-exchange">
- <h4>Baldwin: Rule Out Any Deal With the Greens</h4>
- <p><span class="pmqs-speaker">Baldwin</span> (Conservative) asked the prime minister to rule out co-operation with the Green Party after its Zionism motion. He condemned the motion &ldquo;unequivocally&rdquo; as antisemitic and said Labour could not support a partnership with a party holding that position.</p>
- </div>
- <div class="pmqs-exchange">
- <h4>Manchester City: &ldquo;They Did Not Raise Those Issues With Me&rdquo;</h4>
- <p>Pressed on whether anyone at the club raised its Premier League charges with him, <span class="pmqs-speaker">Burnham</span> said they had not, and that he was happy for &ldquo;everything to be set out in full&rdquo; &mdash; while describing the published statement as a record of his &ldquo;key dealings&rdquo;.</p>
- </div>
- </div>
- </details>
- <div class="one-to-read">
- <span class="otr-label">One To Read</span>
- <a href="https://www.theguardian.com/world/2026/oct/14/ukraine-soldiers-combat-access-starlink-satellite-internet-restricted" target="_blank" rel="noopener noreferrer">
- <h4>The Night Ukraine&rsquo;s Drones Lost Their Signal</h4>
- <span class="otr-source">The Guardian</span>
- <span class="otr-dot">&middot;</span>
- <span class="otr-desc">How a speed limit on a satellite service managed by the American government, imposed without warning, cost Ukraine missions against Russia&rsquo;s jet-powered drones &mdash; and why the timing, alongside a missile barrage with no advance warning, has Kyiv asking what its allies are doing.</span>
- </a>
- </div>
- <!-- SOURCES USED
- - NOTE ON SOURCING: Firecrawl is unavailable to this run and WebFetch is not on the pipeline's tool list for most domains, so retrieval was direct fetch with paragraph extraction (scripts/brief-tools/fetch_article.py); Times of Israel 403'd on direct fetch and was read through WebFetch. iea.org (Oil Market Report), imf.org, understandingwar.org and news.sky.com all returned 403 on direct fetch, so the IEA report is quoted from CNBC's account of it, which reproduces the agency's own sentences, and no ISW assessment is used. Trading Economics was unavailable for the market cross-check. Habitual outlets from the last five editions (BBC, Guardian, Al Jazeera, CNBC) are present but this edition deliberately adds the Irish Times, Iran International, CBS News, NPR, the Independent and the Times of Israel.
- - https://www.bbc.co.uk/news/articles/crkg7q97z078o &mdash; BBC News, 15:34 BST: the sinking of the Singapore-flagged GFS Pride after a projectile strike on Tuesday with all 21 crew evacuated, the Maritime and Port Authority of Singapore on the second Singapore-flagged ship GFS Giselle hit on Wednesday and reaching safe anchorage with 22 crew, the Revolutionary Guards' claim of a mine on an &ldquo;unauthorised&rdquo; route, and that the Safeen Prestige in March was the only other vessel reported sunk
- - https://www.theguardian.com/world/2026/oct/14/container-ship-sinks-strait-of-hormuz-surge-iranian-attacks-iran-us-midterm-elections &mdash; The Guardian, 16:33 BST: the Cape Dao reported sinking, two Iranian officials telling Reuters the new tactics were taken at the highest levels with one aim to frustrate efforts to bring down oil prices before the midterms, and the US official's account of Iranian spotters in small boats
- - https://www.cnbc.com/2026/10/14/container-ship-sinks-strait-hormuz-as-iran-war-attacks.html &mdash; CNBC, 16:46 BST: Singapore's statement that &ldquo;such attacks are unprovoked, unjustifiable and a breach of international law&rdquo;, Kpler's 8.5 million barrels a day through Hormuz in the week to 12 October, nearly 40% below pre-war levels, and the September rebound under American escort
- - https://www.cnbc.com/2026/10/14/us-iran-war-trump-hormuz-saudi.html &mdash; CNBC, 16:26 BST: the Revolutionary Guards' naval commander &ldquo;counting down every moment&rdquo; to sinking American warships, Central Command's &ldquo;has no navy&rdquo; reply, and the Saudi energy ministry on the Dhahran fire with no injuries
- - https://www.iranintl.com/en/202610139692 &mdash; Iran International, 02:32 BST: twelve vessels attacked between 5 and 11 October including six on Sunday according to UKMTO, and the naval commander's &ldquo;counting down&rdquo; remark (Iran International spells his name Azmaei, CNBC Ozmaei; he is not named in the edition for that reason)
- - https://www.irishtimes.com/world/middle-east/2026/10/14/yemens-houthis-vow-more-attacks-on-saudi-airports-after-hitting-oil-giants-headquarters/ &mdash; Irish Times (Reuters copy), 17:23 Irish time: the Houthi statement naming airports and oil facilities as legitimate targets, three sources saying the Dhahran fire spread across several floors against the ministry's &ldquo;limited fire&rdquo;, operations continuing normally with staff at home, the intercepted ballistic missile aimed at Riyadh, the airport attacked four times, Saturday's thirteen dead as the deadliest in a decade, and the airport closed until 17 October with airlines cancelling flights
- - https://www.aljazeera.com/news/2026/10/14/iraq-pm-tells-saudi-crown-prince-iraqi-territory-wont-be-used-for-attacks &mdash; Al Jazeera, 12:50 BST: Ali al-Zaidi's first visit to Riyadh, his office's &ldquo;launching pad&rdquo; statement, and Baghdad's own inquiry finding the East-West pipeline strike was launched from Iraq
- - https://www.aljazeera.com/news/2026/10/14/renewed-fighting-risks-humanitarian-catastrophe-in-yemen-aid-groups-warn &mdash; Al Jazeera (Reuters copy), 15:06 BST: the WFP's 800,000 cut off from food assistance, 600,000 in Taiz, and El-Khidir Daloum's &ldquo;can rapidly spiral into a humanitarian catastrophe&rdquo;; corroborated by CBS News live updates
- - https://www.cbsnews.com/live-updates/iran-war-us-houthi-saudi-arabia-trump/ &mdash; CBS News live updates, updated 17:34 BST: the WFP figures, core CPI at 2.6% against 2.4% in August and a 2.5% forecast, and the UKMTO account of two ships struck on Tuesday continuing with minor damage
- - https://www.bbc.co.uk/news/articles/cwy8lx3pg4k2o &mdash; BBC News, 15:26 BST: CPI 3.7% in the year to September from 3.4%, petrol up 9.1% in September and 34.2% on the year accounting for more than half the increase, energy up 20.4%, fuel oil 74.2%, food flat on the month
- - https://www.cnbc.com/2026/10/14/cpi-inflation-report-september-2026.html &mdash; CNBC, 13:53 BST: the Dow Jones consensus of 3.6% headline and 2.5% core, the September rate rise to 3.75&ndash;4%, and the 27&ndash;28 October meeting date
- - https://www.cnbc.com/2026/10/14/us-treasury-yields-cpi-inflation-report.html &mdash; CNBC, 16:43 BST: the ten-year yield up more than two basis points to 5.242%, the two-year up more than five, Christopher Rupkey's &ldquo;shocking inflation report&rdquo; and &ldquo;inflation is alive&rdquo;, and a greater than 95% chance of at least one hike before year-end. FedWatch odds for an October hike differ across the three outlets read (about 39%, 47% and 54% at different times of day) and are not given in the edition
- - https://www.aljazeera.com/economy/2026/10/14/us-inflation-rises-before-midterm-elections-fuelling-rate-hike-fears &mdash; Al Jazeera, 15:31 BST: second source for the CPI figures and the midterm timing
- - https://www.npr.org/2026/10/14/nx-s1-6000593/inflation-consumer-prices-cpi-social-security-benefits &mdash; NPR, 14 October: third source for the September CPI figures
- - https://www.bbc.co.uk/news/articles/cm2d6e62p49do &mdash; BBC News, 13:11 BST: the 160km/h threshold, Beskrestnov's account, the Ukrainian defence ministry source, 600,000 without power, three killed in Kyiv and six in Lutsk, 39 missiles and 128 drones, and Sergey Lavrov on the &ldquo;respite&rdquo;
- - https://www.theguardian.com/world/2026/oct/14/ukraine-soldiers-combat-access-starlink-satellite-internet-restricted &mdash; The Guardian, 16:18 BST &mdash; also One To Read: Beskrestnov's &ldquo;It's clear that this action cannot be a coincidence&rdquo;, Musk's &ldquo;This is not under SpaceX control&rdquo;, interception rates falling from above 90% to about 60%, static terminals unaffected, and Col Yurii Ihnat on no warning before the first barrage but warnings from &ldquo;foreign partners&rdquo; for three later ones
- - https://www.cnbc.com/2026/10/14/russia-ukraine-energy-ceasefire-power-outages.html &mdash; CNBC, 16:34 BST: that the restriction applies to the Starshield national-security service, and 600,000 without power in Kyiv and Kharkiv regions
- - https://www.irishtimes.com/world/europe/2026/10/14/russia-showing-disrespect-to-trump-with-overnight-strikes-on-energy-facilities-says-zelenskiy/ &mdash; Irish Times, 08:20 BST: earliest approved-source report of the Starlink restrictions and the intelligence gap
- - https://www.cbsnews.com/news/us-ukraine-intelligence-russia-war-missile-strikes-kyiv-power-outages/ &mdash; CBS News, 09:13 BST: the question of withheld American warnings before the Kyiv strikes
- - https://www.theguardian.com/world/live/2026/oct/14/russia-ukraine-war-latest-updates-zelenskyy-europe &mdash; The Guardian live, 15:02 BST: European Commission chief spokesperson Paula Pinho, &ldquo;we have no indications that intelligence sharing has stopped&rdquo;
- - https://www.cnbc.com/2026/10/14/diesel-deal-oil-price-iea-report.html &mdash; CNBC, 10:37 BST, quoting the IEA October Oil Market Report: gasoil supply short of demand in the fourth quarter, replenishment unlikely before the second half of 2027, the &ldquo;crucial stock cover&rdquo; sentence, diesel exports down 700,000 barrels a day year-on-year with 1.3 million lost from Russia and the Middle East, record wholesale prices of about $220 a barrel in Europe and the United States, retail diesel at records in most major economies and delivered prices into Europe liable to rise again; and Valdis Dombrovskis in Bangkok on the diesel deal having no &ldquo;macroeconomic significance&rdquo;
- - https://www.cnbc.com/2026/10/14/oil-rises-amid-growing-tensions-between-saudis-and-iran-backed-houthis.html &mdash; CNBC, 14:08 BST: Brent at $105.89 after the IEA report, and the Saudi energy ministry statement on the Dhahran building
- - https://www.aljazeera.com/news/2026/10/14/un-official-warns-of-looming-food-crisis-as-hormuz-fertiliser-plan-stalls &mdash; Al Jazeera (Reuters copy), 16:08 BST: Jorge Moreira da Silva on the stalled UN fertiliser mechanism for Hormuz and the risk of missing planting season in Asia and Africa
- - https://www.bbc.co.uk/news/articles/cq98z59xdny5o &mdash; BBC News, 15:56 BST: the ceremonial guard and Number 10 finding no record of one for a foreign leader in Downing Street, the King's audience, Davey's &ldquo;yet another shameful Trump betrayal&rdquo; question, Burnham's &ldquo;try and repair bridges so that the support comes back&rdquo; and &ldquo;be careful in terms of laying the ground to bring people back together&rdquo;, further packages &ldquo;in the coming weeks&rdquo;, and Trump's &ldquo;time for Ukraine to get a new president&rdquo;
- - https://www.theguardian.com/politics/live/2026/oct/14/pmqs-andy-burnham-kemi-badenoch-zelenskyy-uk-politics-latest-news &mdash; The Guardian politics live (Andrew Sparrow), 12:36&ndash;17:31 BST: Burnham's &ldquo;We are behind you and that will not change&rdquo; at 16:59, accelerated delivery of British-made air defences, Zelensky's &ldquo;some difficulties&rdquo; and &ldquo;a lot of different surprises on which you can't count&rdquo; at 17:31 and his not answering on intelligence; and the PMQs record &mdash; Badenoch's opening question, McCallum's &ldquo;I strongly agree with what the prime minister said&rdquo;, Burnham's offer to debate Brexit, Davey's cheer and the social care talks &ldquo;hopefully within the next month&rdquo;, Farage's question and Burnham's reply including the Widdecombe charge, Baldwin's question, and the bogus self-employment item with Meri Ahlberg's comments and the single-status omission
- - https://www.independent.co.uk/news/uk/politics/burnham-zelensky-russia-ukraine-trump-diesel-deal-b3066358.html &mdash; The Independent, 14 October: second source for the visit and the diesel deal context
- - https://www.bbc.co.uk/news/articles/cr3el59j9y17o &mdash; BBC News, 16:37 BST: Burnham's &ldquo;It is wrong, it is antisemitic&rdquo; and &ldquo;cannot support a partnership&rdquo;, Polanski's reply, the Sheffield, Lewes and Warwick coalitions and more than ten other councils, Downing Street declining to say whether the position reaches local level, the 1,022 to 813 vote of a 230,000 membership, four Green MPs and two former leaders opposed, Polanski calling the motion &ldquo;imperfect&rdquo;, and Ellie Chowns on 0.4% of members
- - https://www.independent.co.uk/news/uk/politics/andy-burnham-polanski-green-party-deal-pmqs-b3066613.html &mdash; The Independent, 14 October: second source for the Greens exchange
- - https://www.bbc.co.uk/news/articles/c83vq9vpwwr1o &mdash; BBC News, 12:47 BST: the 2017 and 2018 dinners with Khaldoon Al Mubarak valued at &pound;300 and about &pound;699, their absence from Monday's GMCA statement, the deleted register and the authority's current-term policy against entries dating to 2022, Downing Street's defence that they were declared hospitality, Louie French and Robert Jenrick's &ldquo;this saga stinks&rdquo;, &ldquo;They did not raise those issues with me&rdquo;, &ldquo;everything to be set out in full&rdquo; against &ldquo;key dealings&rdquo;, and the &ldquo;really concerned&rdquo; remark. The register's deletion was first reported by The Sun, which is not an approved source and is not linked
- - https://www.independent.co.uk/news/uk/politics/andy-burnham-man-city-dinners-chairman-b3066598.html &mdash; The Independent, 14 October: second source for the dinners, the press secretary's answer, and French's &ldquo;cannot hide behind the GMCA&rdquo;
- - https://www.bbc.co.uk/news/articles/cx30eq0vyed4o &mdash; BBC News, 11:04 BST (Faisal Islam, Bangkok): Kristalina Georgieva's &ldquo;one country where action to reduce debt and deficit has been taken decisively&rdquo;, three IMF endorsements in 24 hours, the UK alone in the G7 with consolidation worth nearly 4% of GDP, and the prize of lower relative borrowing costs
- - https://www.theguardian.com/business/2026/oct/14/john-healey-tax-crackdown-online-marketplaces-amazon-ebay-budget &mdash; The Guardian, 07:42 BST: the marketplace VAT plan as reported by The Times (paywalled, not linked), up to &pound;1bn, the &pound;90,000 threshold, business-rate relief, Amazon's welcome, the Treasury's no-comment, the IFS &ldquo;work of fiction&rdquo; and &pound;35bn, and the IMF's 1.3% growth forecast
- - https://www.gov.uk/government/news/new-action-to-crackdown-on-bogus-self-employment-loopholes &mdash; gov.uk, 14:49 BST: the consultation, the 900,000 estimate, couriers, delivery drivers, hairdressers and gig workers, minimum wage and holiday pay, written statements and blacklisting protection for the genuinely self-employed, and Jonathan Reynolds's &ldquo;When loopholes are exploited, people are denied their basic employment rights&rdquo;
- - https://www.theguardian.com/politics/2026/oct/14/kemi-badenoch-andy-burnham-pmqs &mdash; The Guardian (John Crace sketch), 16:18 BST: that Burnham reiterated Russia had tried to influence the 2016 referendum and offered to debate whether Brexit had done more harm than good. Used for the fact of the exchange only, not the sketch's characterisations
- - https://www.timesofisrael.com/pm-attack-on-iran-not-convenient-now-but-signs-show-israels-enemies-preparing-assault/ &mdash; Times of Israel, 16:48 Israel time: context only for the regional picture &mdash; Netanyahu calling an attack on Iran &ldquo;not convenient&rdquo; before the 27 October election; not used as the basis of any item
- - https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol &mdash; CNBC quote endpoint, read 17:53 BST: all ten ticker values. FTSE is the 16:35 close; S&P 500, VIX, sterling, gold, bitcoin and the Treasury are live during the New York session. Gilt change published on our own series (-0.02 against Tuesday's 5.44) rather than CNBC's drifting previous-close field. Sterling's fall of about a cent (1.3252 to 1.3151) is from this read. Full working in cache/2026-10-14/markets-SUMMARY-EVENING.txt
- - NOT CARRIED: Ofwat's draft decision that water firms return a net &pound;107m via 2027&ndash;28 bills is on one approved source only and is held. Iran's threat to reconsider ties with Britain over RAF Fairford was Tuesday's story. The Russell Brand trial is a court report, not politics. Kenya's second Ebola case and the Pope's recovery are noted but not run. FedWatch probabilities are omitted because the outlets disagree. The Fed rate-rise odds and any Iranian casualty figures from Chabahar are not used. No approved source confirms Aramco's head office was destroyed; the edition says only that a fire spread across several floors, per three sources speaking to Reuters
-  - NOT CARRIED (added on review): an author withdrawing her books from sale in the United Kingdom over the proscription of a protest group, and new sanctions powers against supporters of illegal Israeli settlements, both appeared on approved sources this afternoon and are not in this edition. Neither was dropped on sourcing grounds; the five domestic slots were already filled by stories of equal or greater weight, and both are held for tomorrow. The markets in this edition were re-read live at 18:06 BST and differ from the figures first written at 17:55; the full working is in cache/2026-10-14/markets-SUMMARY-EVENING.txt
- END SOURCES USED -->
-</div><!-- ── END EVENING 14 OCT (18:10) ── -->
-<!-- ── MORNING 14 OCT (08:05) ── -->
-<div class="curated-edition morning" data-date="2026-10-14" data-time="08:05" data-markets='{"FTSE":{"price":10650.33,"change":-0.06},"SP":{"price":7805.45,"change":-0.02},"Brent":{"price":105.89,"change":0.19},"GBP":{"price":1.3268,"change":0.12},"Gold":{"price":4150.6,"change":-0.15},"EURGBP":{"price":0.8446,"change":-0.01},"Gilt":{"price":5.4,"change":-0.04},"VIX":{"price":15.27,"change":0.39},"BTC":{"price":83380,"change":0.28},"UST":{"price":5.19,"change":-0.03},"ts":"2026-10-14T08:05:00+01:00"}'>
- <div class="edition-header">
- <span class="edition-icon">&#9728;&#65039;</span>
- <h2>Morning Briefing</h2>
- </div>
- <div class="curated-meta">Wednesday 14 October 2026 &mdash; 08:05 BST</div>
- <div class="impact-box">
- <h3 class="impact-heading">What It Means For You</h3>
- <ul class="impact-list">
- <li><strong>If you run a business that uses water:</strong> three companies have applied to ban non-essential use in parts of their regions, which would stop commercial car washes and mains irrigation of playing fields. Households have been under hosepipe restrictions for three months; reservoirs are at 54%, a fifth below normal for autumn.</li>
- <li><strong>If you heat your home with oil:</strong> many will pay close to double last year&rsquo;s price this winter, with 500 litres now costing over &pound;500 and no price cap in prospect. About 1.7 million United Kingdom households are off the gas grid and must buy in bulk rather than spread the cost.</li>
- <li><strong>If you are posting anything before Christmas:</strong> the postal union says Royal Mail is losing about 400 workers a week, up from 330 before a new delivery system reached 1,000 of its 1,200 offices. The company announced 2,500 job cuts last week.</li>
- </ul>
- </div>
- <div class="curated-grid">
- <div class="curated-column">
- <h3><span class="dot geo"></span><span class="dot-label">GEO</span> Geopolitical</h3>
- <div class="curated-item" data-time="05:20" data-slug="fire-at-aramco-building-as-saudi-hits-yemen-depots">
- <h4>Fire at Aramco Building as Saudi Hits Yemen&rsquo;s Fuel Depots</h4>
- <p>Officials say a fire broke out at a Saudi Aramco building in Dhahran after an overnight strike, as the coalition says it intercepted four missiles and two drones near Riyadh. Saudi aircraft hit a fuel facility west of Sanaa in ten waves. Brent rose above &dollar;106. Aramco has not commented.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">Two things are worth not overstating. No source confirms Aramco&rsquo;s headquarters was hit &mdash; the company&rsquo;s head office sits in the same eastern cluster of cities, and what is established is a fire at a building in Dhahran, reported by unnamed officials, with no casualties recorded and no word from the company. The Houthi-run Yemen Petroleum Company insists the depot struck near Sanaa &ldquo;does not contain any stock of petroleum products&rdquo;, though queues formed at the capital&rsquo;s petrol stations. Major General Turki al-Maliki said projectiles aimed at Riyadh and other cities were destroyed; civilians near the Yemeni target were warned to leave first. The Saudi cabinet, chaired by Mohammed bin Salman, says the Houthis will &ldquo;bear the consequences&rdquo;. Baraa Shiban of the Royal United Services Institute explains the asymmetry: the kingdom is struggling because Houthi drones &ldquo;fly lower and are smaller, and are less easy to detect. They are cheap and it does not take many to get through.&rdquo; Donald Trump accused the group of &ldquo;purposefully trying to drive up Oil Prices&rdquo;.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="05:36" data-slug="kyiv-power-plant-struck-for-a-second-night">
- <h4>Kyiv&rsquo;s Power Plant Struck for a Second Night Running</h4>
- <p>Russian ballistic missiles hit the Darnytska plant that heats much of eastern Kyiv, killing two people and injuring twenty-one in an apartment block. &ldquo;Once again, no advance warning from our partners,&rdquo; Volodymyr Zelensky said. He has separately said Washington warned it could cut intelligence sharing unless Ukraine stops striking Russian refineries.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">Two separate things are being said and they should not be welded together. The president told an American broadcaster that the administration had warned it could cut off intelligence sharing unless Ukrainian forces stop long-range drone strikes on oil refineries inside Russia &mdash; a specific condition, though he did not say who delivered it or when. Separately, he says no early warning came before last night&rsquo;s strike. He does not claim the second followed from the first, and his own foreign minister Andrii Sybiha attributed the missing alert to a &ldquo;special type&rdquo; of Russian weaponry rather than to anything political. The White House declined to say whether it had made such a threat, pointing instead to Mr Trump&rsquo;s remark that &ldquo;we are helping them, and we are sharing intel&rdquo; &mdash; which answers a different question. The plant has been hit before: a strike in February left more than a thousand buildings, forty-seven schools and eighteen medical institutions without heating. Mayor Vitali Klitschko says several energy facilities were struck. He meets the prime minister in London today.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="01:17" data-slug="pope-leo-diagnosed-with-lung-cancer">
- <h4>Pope Leo Diagnosed With Lung Cancer After Surgery</h4>
- <p>The Vatican says tests during the operation confirmed an adenocarcinoma, and that the entire lower lobe of the 71-year-old&rsquo;s right lung was removed to ensure the procedure was radical. The surgery was successful with no complications. The stage has not been disclosed.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">Two descriptions are circulating and they are not the same thing. On Sunday the Pope told the crowd in St Peter&rsquo;s Square that the growth was &ldquo;contained&rdquo; and found &ldquo;at a very early stage&rdquo; &mdash; his own words about a nodule, before any diagnosis. What the Vatican issued after surgery is a confirmed cancer, with no stage given and no statement on whether it has spread; a source says further tests are under way. The lump was found during routine checks and he had no symptoms. The operation took ninety minutes, led by the Gemelli hospital&rsquo;s chief thoracic surgeon, and he is expected to stay about a week. The question now is the diary. Audiences are cleared only to 20 October, and he is due in Latin America in early November including Peru, where he served as a missionary and bishop &mdash; a cardinal who saw him on Monday says he moved quickly precisely to keep that trip. Patients are usually advised against flying for about three weeks after such a procedure, which would take him to the edge of it.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="07:32" data-slug="turkish-police-raid-opposition-broadcaster">
- <h4>Turkish Police Raid an Opposition Broadcaster Mid-Transmission</h4>
- <p>Police entered the Istanbul headquarters of Halk TV on Wednesday morning, halting live broadcasts. The channel says staff cannot get into the building and that a new manager has been appointed to run it. Turkish media report seventeen arrest warrants linked to its owner.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The station is widely seen as close to the main opposition Republican People&rsquo;s Party and is routinely critical of President Erdogan. Installing a manager is the part that distinguishes this from a search: a raid interrupts a broadcaster, an appointment replaces it. The warrant figure comes from Turkish media rather than from any confirmed official source, and is reported here as such. It follows a pattern that has tightened through the year. In May a Turkish court removed the opposition party&rsquo;s leadership from running it, a ruling the party said cemented the president&rsquo;s grip, and Istanbul&rsquo;s mayor Ekrem Imamoglu &mdash; the president&rsquo;s most serious rival &mdash; has now been in prison for more than a year on corruption accusations he denies. Turkey is a NATO member and a candidate for European Union membership, which is what makes the treatment of its press a matter beyond its borders rather than an internal affair. Watch whether the channel returns to air under its existing editorial team or under the new appointment.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="00:42" data-slug="germany-tries-ukrainian-over-nord-stream-blasts">
- <h4>Germany Tries a Ukrainian Officer Over the Nord Stream Blasts</h4>
- <p>Four years after three of the four pipelines ruptured in the Baltic, a 50-year-old identified in court only as Serhii K. has gone on trial in Hamburg. Prosecutors allege he led a team that hired a sailboat and placed military-grade explosives on the seabed. He denies all involvement.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The charge is unusual: prosecutors are proceeding under Germany&rsquo;s code of crimes against international law, treating the sabotage as an attack by military means against civilian objects. They say he entered Germany on a forged passport three weeks beforehand and that the operation was carried out on the orders of Ukrainian state agencies. The trial is expected to run into February and is the first public airing of evidence after years of investigation. Kyiv is not conceding the account &mdash; Oleksandr Merezhko, who chairs the Ukrainian parliament&rsquo;s foreign affairs committee, calls it &ldquo;one of the versions&rdquo; and argues the pipeline was &ldquo;nothing but a tool used by Russia in order to get prepared for the war&rdquo;. A German analyst notes successive chancellors have worked to keep the case out of politics and in the courts. The British interest is historical: Vladimir Putin blamed &ldquo;the Anglo-Saxons&rdquo; for the blasts, meaning Washington and London, and both denied it. Nord Stream 1 had supplied about half of Germany&rsquo;s gas imports.</div>
- </details>
- </div>
- </div>
- <div class="curated-column">
- <h3><span class="dot uk"></span><span class="dot-label">UK</span> Domestic</h3>
- <div class="curated-item" data-time="22:30" data-slug="zelensky-at-downing-street-as-britain-doubles-down">
- <h4>Zelensky at Downing Street as Britain Doubles Down</h4>
- <p>The Ukrainian president arrives in London this morning, with a &pound;45m package of surface-to-air missiles announced and &pound;10m of it accelerated for what the government calls Ukraine&rsquo;s most urgent winter requirements. &ldquo;Our rock-solid support to Ukraine is vital for keeping us safe here in the UK,&rdquo; the prime minister said.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The timing is the point. Washington has eased sanctions to let Russian diesel reach world markets, the American president has called for Ukraine to find new leadership, and overnight Russian missiles hit a Kyiv power plant with what Mr Zelensky says was no advance warning from allies. The foreign secretary Ed Miliband called it a &ldquo;very difficult few days&rdquo; for relations with Washington. Against that, a British pledge reads as a deliberate counterweight. Two cautions on the numbers. The &pound;1.6bn for more than 5,000 lightweight multirole missiles over four years is a standing commitment being restated, not money announced today; and the prime minister has asked ministers to draw up further sanctions, military aid and fiscal packages &ldquo;in the coming weeks&rdquo;, which is a commission rather than a package. What is genuinely new is the &pound;45m and the acceleration of deliveries aimed specifically at Russia&rsquo;s jet-powered drones, which fly faster and higher than the propeller-driven type and are harder to bring down. The chancellor is urging partners at the IMF meetings in Bangkok to match Britain&rsquo;s ban on Russian liquefied natural gas.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="07:00" data-slug="businesses-face-water-bans-as-drought-persists">
- <h4>Businesses Face Water Bans as the Drought Persists</h4>
- <p>Three water companies have applied to Defra for powers to stop non-essential use in parts of their regions, which would bar commercial car washes and prevent golf clubs and private schools irrigating playing fields from the mains. Eleven areas of England remain in drought and reservoirs stand at 54%.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The asymmetry is what has brought this to a head. Households have been under hosepipe restrictions for three months while businesses have been exempt, and a power hose can use twenty-five litres a minute. Mark Owen of the Angling Trust puts the objection plainly: &ldquo;It makes little sense to ban people from washing cars at home while commercial car washes can continue operating.&rdquo; The underlying figures are worse than the headline. Reservoir stocks are a fifth below normal for the time of year, nineteen reservoirs or groups are under half full and eight are described as exceptionally low, up from five in August. Seven areas have exceptionally low river flows, including the Derwent, the Yare, the Ely Ouse, the Tone and the Hampshire Avon catchments. September brought only 65% of typical rainfall and Yorkshire entered drought on 9 October. The Met Office&rsquo;s assessment is the sobering part: recovery needs above-average rain sustained over about seven months, which is a winter and a spring, not a wet fortnight. Defra has not yet responded to the applications.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="00:03" data-slug="royal-mail-losing-four-hundred-staff-a-week">
- <h4>Royal Mail Losing Four Hundred Staff a Week, Union Says</h4>
- <p>The Communication Workers Union says departures have risen from about 330 a week to 400 from a workforce of 83,000 since a new delivery system was introduced, and that it is &ldquo;not working in hundreds of offices&rdquo;. Royal Mail says the reforms are part of making the service financially sustainable.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The system, known as DM26, reorganises rounds into groups of three workers and changes walking patterns, with second class delivered every other weekday and first class and parcels daily. It has reached about 1,000 of 1,200 delivery offices. Of more than thirty staff interviewed across the four nations, eight tracked their steps and all had risen by a quarter to a third, some to around 25,000 a day. Bryn Dymott, who delivered in Wootton in Bedfordshire for nine years, left in July rather than face another Christmas he called shambolic, saying it was &ldquo;proving it&rsquo;s impossible to have four people&rsquo;s work done by three people&rdquo;. One postal worker in the West Midlands described leaving first class mail behind on a road that had been running late for weeks, &ldquo;but I&rsquo;m sure a manager would have ticked a box to say all first class mail went out&rdquo;. The attrition figures are the union&rsquo;s and the company has not disputed them, answering instead on delivery times. It announced 2,500 job cuts six days ago.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="06:11" data-slug="lib-dems-rally-behind-davey-after-resignations">
- <h4>Lib Dems Rally Behind Davey After Frontbench Resignations</h4>
- <p>Two frontbenchers have quit in the past week &mdash; Charlie Maynard, the former Treasury spokesman, and Alison Bennett, who covered care and carers &mdash; over the party&rsquo;s direction and how policy is decided. After a four-hour meeting with MPs, Ed Davey said: &ldquo;We have made changes. I am happy to embrace more changes.&rdquo;</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">Neither has spelled out their reasons publicly and the two did not coordinate, which is part of why colleagues were irritated: separate resignations in one week look like a pattern whether or not they are one. The changes already made are organisational rather than political &mdash; a new chief of staff, a political director who served through the coalition years, and an upgraded social media operation. The leader&rsquo;s allies put the number of unhappy MPs at no more than half a dozen, though the party&rsquo;s own political correspondents detect wider anxiety about a lack of impact. That anxiety has a cause worth stating: the party has 72 MPs, up from 15, making it the largest third party in the Commons in a century, and a caucus that size expects to be heard. The deputy leader Daisy Cooper reported &ldquo;overwhelming support&rdquo; afterwards. One MP&rsquo;s summary of the position was more candid than any of it: &ldquo;Why would we get rid of our leader when no one else is pitching to be our leader?&rdquo;</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="06:18" data-slug="heating-oil-users-face-fuel-or-food-choices">
- <h4>Heating Oil Users Face Fuel or Food Choices This Winter</h4>
- <p>Ministers have promised to regulate the heating oil market and promote competition, but no price cap. Many customers will pay close to double last year, with 500 litres costing over &pound;500. About 1.7 million households are off the gas grid and must buy in bulk rather than spread payments.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The reporting behind this is from Shropshire, where the problem is concentrated rather than unique: roughly 15% of the county&rsquo;s households use oil, and in South Shropshire 53% are off mains gas, among the highest proportions in the country. Liz Humphris, a retired teacher in Bishop&rsquo;s Castle who volunteers at a food bank, now orders 500 litres at a time because a full tank costs too much: &ldquo;For people who are on a very fixed income, it literally is coming down to the point where it is fuel or food, which is awful because you&rsquo;ve got to heat your home.&rdquo; The structural problem is the lump sum. As Hanna Clarke of a local charity running a bulk-buy co-operative puts it, &ldquo;you can&rsquo;t necessarily put it on a direct debit and spread that cost out across the 12 months&rdquo;. Corrine Pluchino of Action with Communities in Rural England says the government&rsquo;s package does not go far enough and wants VAT cut on heating oil immediately, because the real issue is a high and volatile price paid all at once.</div>
- </details>
- </div>
- </div>
- </div>
- <div class="one-to-read">
- <span class="otr-label">One To Read</span>
- <a href="https://www.bbc.co.uk/news/articles/c6gr80rk1yyko" target="_blank" rel="noopener noreferrer">
- <h4>A Time Capsule at the Bottom of the Sea</h4>
- <span class="otr-source">BBC News</span>
- <span class="otr-dot">&middot;</span>
- <span class="otr-desc">A wreck off Kekova Island in Turkey has been dated to between 4,400 and 4,700 years old, making it the oldest yet found. The wood is long gone, but thirty ceramic jars and three stone anchors lie thirty metres down &mdash; and some jars still hold their cargo.</span>
- </a>
- </div>
- <!-- SOURCES USED
- - NOTE ON SOURCING: Firecrawl is out of credits and returns HTTP 402, so retrieval was direct fetch plus JSON-LD extraction. reuters.com returned 401 and apnews.com 403 on one attempt each; ft.com, telegraph.co.uk, thetimes.com, sky.com, itv.com and channel4.com were not attempted. The Al Jazeera live page covering the Saudi strikes is client-rendered and carries only a placeholder date, and there is no dated Al Jazeera text article for the Dhahran fire, so that detail rests on two outlets. The Guardian's section index pages are client-rendered and yield nothing; its per-tag RSS feeds carried items the main world feed missed, which is how several of these were found. gov.uk's search API returns full article text inside JSON-LD and was used for the Downing Street readout. Two of the biggest items below are pages the BBC rewrote and re-headlined overnight, and both are timestamped here on their modification rather than their first publication, which is the honest time.
- - https://www.bbc.co.uk/news/articles/crx2d60y1py3o &mdash; BBC News, published 19:55 BST on 13 October and rewritten to 05:20 today: officials saying fires broke out at a Saudi Aramco building in Dhahran after the strike with no casualties reported, Major General Turki al-Maliki on four missiles and two drones intercepted near Riyadh and three drones destroyed to its north, the coalition strike on the Yemen Petroleum Company facility at al-Sabaha west of Sanaa, and the Saudi cabinet under Mohammed bin Salman saying the Houthis will &ldquo;bear the consequences&rdquo;. This report places Aramco's headquarters in Dammam rather than Dhahran, which is why no claim is made here that the head office itself was hit. A correspondent for Agence France-Presse (AFP) is cited for the queues at Sanaa petrol stations
- - https://www.theguardian.com/world/2026/oct/13/saudi-arabia-strikes-strategic-oil-depots-near-yemen-capital &mdash; The Guardian, published 18:26 BST and modified 20:53: the ten waves of strikes on the Sabaha station and the depots at Ras Isa port, the interception of a missile fired towards Dhahran with fragments falling on a residential area, that an evacuation order for the building had been issued according to four sources speaking to Reuters, that there was no official comment or confirmation from Aramco, the Yemen Petroleum Company insisting the facility &ldquo;does not contain any stock of petroleum products&rdquo;, and Baraa Shiban of the Royal United Services Institute (RUSI) on Houthi drones that &ldquo;fly lower and are smaller, and are less easy to detect&rdquo;
- - https://www.cnbc.com/2026/10/14/oil-rises-amid-growing-tensions-between-saudis-and-iran-backed-houthis.html &mdash; CNBC, published 02:55 BST and modified 05:07: Brent December futures up 0.61% at $106.33 and West Texas Intermediate up 0.63% at $94.73, Donald Trump accusing the Houthis of &ldquo;purposefully trying to drive up Oil Prices&rdquo;, and United States Central Command rejecting an Iranian claim to control the Strait of Hormuz
- - https://www.bbc.co.uk/news/articles/ck20r9qpw505o &mdash; BBC News, published 23:14 BST and rewritten to 05:36 today: the strike on the Darnytska plant serving eastern Kyiv, Mayor Vitali Klitschko on two killed and twenty-one injured in an apartment block and on several energy facilities being hit, the February strike that left more than a thousand residential buildings, forty-seven schools, seventy-two kindergartens and eighteen medical institutions without heating and hot water, and Donald Trump's &ldquo;we are helping them, and we are sharing intel&rdquo;. Damage figures on that page are attributed to the Reuters news agency
- - https://www.npr.org/2026/10/13/nx-s1-6000051/ukraine-zelenskyy-npr-interview-russia-war &mdash; NPR, published 19:51 BST and updated 23:04, staff-reported from Kyiv by Joanna Kakissis: that Volodymyr Zelensky told NPR the administration had warned it could cut off intelligence sharing unless Ukrainian forces stop long-range drone strikes on oil refineries inside Russia, and that the White House declined to say whether it had made such a threat, referring instead to the president's remarks on Tuesday. The condition is NPR's account of what Mr Zelensky told them rather than his quoted words, and no American official is named as having delivered it, so it is reported here as his account. This interview also carries his argument that fuel prices rose &ldquo;because of blocking the Strait of Hormuz&rdquo;, which is why the two energy items in this edition are connected rather than separate
- - https://www.theguardian.com/world/2026/oct/13/allies-did-not-warn-kyiv-of-russian-ballistic-missile-strikes-says-zelenskyy &mdash; The Guardian, published 22:54 BST and modified 23:13: that he did not apportion blame, and the Ukrainian foreign minister Andrii Sybiha in Warsaw saying cooperation with Washington continues and attributing the absent warning to a &ldquo;special type&rdquo; of Russian weaponry. An earlier casualty count on this page of one killed and thirteen injured was revised upward overnight and the later figures are used here
- - https://www.bbc.co.uk/news/articles/ck1wvd9dvv22o &mdash; BBC News, published 17:21 BST on 13 October and modified 01:17 today: the Vatican's post-operative bulletin confirming an adenocarcinoma by examination during surgery, the removal of the entire lower lobe of the right lung to ensure the procedure was radical, that the operation was successful with no complications, that the stage has not been disclosed and no statement made on whether it has spread, that the lump was found during routine checks with no symptoms, and that audiences are cleared to 20 October. A Vatican source is quoted via Agence France-Presse (AFP) saying further tests are under way
- - https://www.cbsnews.com/news/pope-leo-diagnosed-lung-cancer-surgery/ &mdash; CBS News, published 21:18 BST and modified 00:45: the ninety-minute operation led by the Gemelli hospital's chief thoracic surgeon, the expected week-long stay, the Latin America trip scheduled for early November including Peru, and the usual advice against air travel for about three weeks after such a procedure. This report carries an end-credit recording that the Associated Press (AP) contributed. The description of the growth as &ldquo;contained&rdquo; and found &ldquo;at a very early stage&rdquo; was the Pope's own, from the balcony on Sunday and before any diagnosis, and is kept separate here from the Vatican's post-operative language
- - https://www.bbc.co.uk/news/articles/crx23y3d970vo &mdash; BBC News, 07:32 BST, the freshest item in this edition: police entering Halk TV's Istanbul headquarters on Wednesday morning and halting live broadcasts, the channel saying its staff could not enter the building and that a new manager had been appointed, the removal of the main opposition party's leadership by a court in May, and the imprisonment of Istanbul's mayor Ekrem Imamoglu for more than a year on accusations he denies. The figure of seventeen arrest warrants is the BBC relaying Turkish media rather than confirming it, and is attributed as such in this edition
- - https://www.bbc.co.uk/news/articles/cw99zpmnxzmjo &mdash; BBC News, 00:42 BST, with datePublished and dateModified identical: the opening of the trial at the Hamburg Higher Regional Court of a fifty-year-old identified under German privacy rules as Serhii K., the allegation that he led a team that entered Germany on a forged passport and hired the sailboat Andromeda to place military-grade explosives, the charge brought under Germany's code of crimes against international law as an attack by military means against civilian objects, that the trial is expected to run into February, Oleksandr Merezhko of the Ukrainian parliament's foreign affairs committee calling the German account &ldquo;one of the versions&rdquo;, and that Vladimir Putin had blamed &ldquo;the Anglo-Saxons&rdquo;, meaning Washington and London, which both denied
- - https://www.aljazeera.com/news/2026/10/14/ukrainian-ex-officer-goes-on-trial-in-germany-over-nord-stream-blasts &mdash; Al Jazeera, 04:06 BST, bylined &ldquo;By Al Jazeera Staff and Reuters&rdquo;: the second source for the trial's opening and scope, and that Russia has said it expects a verdict naming both perpetrators and those who ordered the operation
- - https://www.gov.uk/government/news/president-zelenskyy-to-visit-downing-street-as-the-uk-doubles-down-on-support-for-ukraine-and-calls-on-partners-to-follow-suit &mdash; gov.uk, 22:30 BST on 13 October, the primary source and the only one carrying the new money: the &pound;45m package of surface-to-air missiles with &pound;10m accelerated for &ldquo;Ukraine's most urgent winter requirements&rdquo;, the acceleration of deliveries aimed at Russian jet-powered drones, the prime minister's &ldquo;our rock-solid support to Ukraine is vital for keeping us safe here in the UK&rdquo; and &ldquo;we are with you for as long as it takes&rdquo;, his request that ministers draw up further sanctions, military aid and fiscal packages &ldquo;in the coming weeks&rdquo;, and the chancellor John Healey urging partners at the International Monetary Fund meetings in Bangkok to match Britain's ban on Russian liquefied natural gas. The &pound;1.6bn for more than 5,000 lightweight multirole missiles over four years is a standing commitment restated here and is not presented as announced today
- - https://www.bbc.co.uk/news/articles/cq98z59xdny5o &mdash; BBC News, 22:31 BST: the visit itself, that it is the third meeting since July, and the foreign secretary Ed Miliband describing a &ldquo;very difficult few days&rdquo; in relations with Washington over the easing of sanctions on Russian diesel
- - https://www.theguardian.com/politics/2026/oct/13/burnham-to-host-zelenskyy-at-no-10-in-show-of-rock-solid-support &mdash; The Guardian, published 22:30 BST and modified 23:10: the third source for the visit and the &ldquo;rock-solid&rdquo; framing
- - https://www.theguardian.com/environment/2026/oct/14/businesses-barred-water-use-drought-england-supply-threat &mdash; The Guardian, 07:00 BST, by Sandra Laville: that South East Water, Southern Water and South West Water have applied to the Department for Environment, Food and Rural Affairs for non-essential use bans, what those cover, that eleven areas of England remain in drought, reservoirs at 54% and a fifth below normal for autumn, nineteen reservoirs or groups under half full and eight exceptionally low against five in August, seven areas with exceptionally low river flows including the Derwent, Yare, Ely Ouse, Tone and Hampshire Avon catchments, September rainfall at 65% of typical, Yorkshire entering drought on 9 October, the Met Office assessment that recovery needs above-average rain sustained over about seven months, and Mark Owen of the Angling Trust on the inconsistency with household hosepipe bans. Defra has not responded
- - https://www.bbc.co.uk/news/articles/cm5ynp0vz3p7o &mdash; BBC News, 00:03 BST: the Communication Workers Union figures of about 400 leaving weekly against roughly 330 before the new system from a workforce of 83,000, the DM26 system reorganising rounds into groups of three and reaching about 1,000 of 1,200 delivery offices, the step counts recorded by eight of more than thirty staff interviewed across the four nations, Bryn Dymott's account of leaving in July, the anonymous West Midlands account of first class mail left behind, Royal Mail's response that the reforms are part of a more &ldquo;efficient and financially sustainable&rdquo; service, and the 2,500 job cuts announced six days ago. The attrition figures are the union's and the company answered on delivery times rather than disputing them
- - https://www.bbc.co.uk/news/articles/cqy7l03ydkyko &mdash; BBC News, 06:11 BST, by the political editor Chris Mason and single-sourced: the resignations of Charlie Maynard and Alison Bennett in the past week, that neither has been publicly explicit and that they did not coordinate, Ed Davey's &ldquo;we have made changes. I am happy to embrace more changes&rdquo; after a four-hour meeting with MPs, the appointment of a new chief of staff and political director and an upgraded social media operation, the deputy leader Daisy Cooper on &ldquo;overwhelming support&rdquo;, allies putting the number of unhappy MPs at no more than half a dozen, the party's 72 MPs, and the unattributed quotation from one of them. This page was re-headlined after publication without being republished
- - https://www.bbc.co.uk/news/articles/cv4g18we232ro &mdash; BBC News, 06:18 BST. This is regional reporting from Shropshire and is presented as such: Liz Humphris of Bishop's Castle on ordering 500 litres at a time and on fuel or food, the figure of over &pound;500 for 500 litres, that many will pay nearly double last year's price, that about 15% of Shropshire households use oil and 53% of South Shropshire is off mains gas, the national figure of 1.7 million households off the gas grid, Hanna Clarke of the charity Community Resource on the impossibility of spreading the cost, and Corrine Pluchino of Action with Communities in Rural England calling for an immediate cut to VAT on heating oil. The regulatory commitments restate the announcement carried in yesterday's edition
- - https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol &mdash; CNBC quote endpoint, read 07:53 BST, cross-checked against Trading Economics for the UK 10-year gilt, the US 10-year and Brent: the live prices for Brent, sterling, gold, euro-sterling, the gilt, bitcoin and the Treasury. Read before the London open, so the FTSE, S&P 500 and VIX carry Tuesday's closes with Tuesday's session moves, declared; two of those differ from the intraday values published last night because an intraday read and a close are different things. The gilt is published at -0.04 because Trading Economics and our own series agree against CNBC's -0.05, whose previous-close field has been serving a stale value for three days. Full working in cache/2026-10-14/markets-SUMMARY.txt
- - https://www.bbc.co.uk/news/articles/c6gr80rk1yyko &mdash; BBC News, 06:00 BST &mdash; One To Read: the wreck off Kekova Island in Antalya dated to between 4,400 and 4,700 years old, the thirty-plus ceramic amphorae and three stone anchors thirty metres down, Professor Hakan Oniz of Akdeniz University on dating it by comparing the jars with examples of known age, and Dr Karin Sowada of Macquarie University on the residue still inside some of them
- - NOT CARRIED: no approved source confirms that Aramco's headquarters was struck, and none is claimed here. A report that falling debris injured people over Saudi cities is not carried, because the only outlet describing the aftermath says no casualties were reported. Reporting that Marine Le Pen has promised a &ldquo;trial of strength&rdquo; with Brussels and cast doubt on European funding for Ukraine could not be found on any approved source and is dropped, as is a report that American grocery prices are climbing on fuel costs. A Ukrainian drone strike in the Saratov region exists on an approved outlet only as a video item with an unnamed governor and no publication date, and is not run. A police force considering zero-hours detectives is held: the story is one force speaking to councillors, its chief constable states there is no correlation between the eleven murder investigations concerned, and the page was published last night rather than this morning. Reporting on the SNP conference, on graduate internship applications rising 27%, and on a London private school reversing a plan to scrap GCSEs appears only on blocked outlets. A &pound;20m claim against a cryptocurrency exchange founded by a Reform donor has been filed at the High Court but not served on the company, and is held until it is
- END SOURCES USED -->
-</div><!-- ── END MORNING 14 OCT (08:05) ── -->
 </div><!-- /all-editions -->
 
  </div>

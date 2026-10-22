@@ -1,0 +1,67 @@
+URL: https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol
+MARKETS — MORNING EDITION, THURSDAY 22 OCTOBER 2026
+Read 11:04 BST. Primary: CNBC quote endpoint. Cross-check: Trading Economics, same minute.
+A RISK-OFF MORNING, with one genuine anomaly (gold) noted below.
+
+PUBLISHED            LEVEL        CHG%    BASIS
+FTSE 100            10,688.96    -0.59   live 10:49 BST, London open (past the 45-min feed-lag window)
+S&P 500              7,757.17    +0.58   *** WEDNESDAY'S CLOSE. Wall St opens 14:30 BST. NOT live. ***
+Brent                  112.22    +3.12   live 10:54 BST
+GBP/USD                 1.3386   -0.06   live 11:04 BST
+Gold                 4,085.86    -1.32   live 11:04 BST
+EUR/GBP                 0.8378   -0.08   live 11:04 BST
+10y gilt                5.36     -0.03   live 11:04 BST, cash gilt market open
+VIX                    18.47    +10.73   live 11:04 BST
+Bitcoin             81,979.14    -2.92   live 11:04 BST
+10y UST                 5.06     -0.09   live 11:04 BST
+
+CROSS-CHECKS
+  Gilt   CNBC 5.3588 (-0.0255)  vs TE 5.36 (-0.025%)   -> AGREE almost exactly. Published 5.36, -0.03.
+  Gold   CNBC 4,085.86 (-1.32%) vs TE 4,085.90 (-1.33%) -> AGREE to four cents. The fall is real.
+  Brent  CNBC 112.22 (+3.12%)   vs TE 99.43 (+2.34%)
+         *** TE's LEVEL IS $12.79 LOW — NINTH CONSECUTIVE DAY its Brent page has been wrong by
+         roughly $8-13. Direction is corroborated; MAGNITUDE DIVERGES (3.12% vs 2.34%). The level
+         and the change both rest on the primary feed and are declared as such. ***
+  UST    CNBC 5.061 (-0.085)    vs TE 5.07 (-0.064%)
+         *** LEVELS agree (5.06 / 5.07) but CHANGES DIVERGE by about 2bp. CNBC is internally
+         coherent (previous close 5.146 less 0.085 = 5.061), so its figure is published and the
+         divergence is recorded rather than averaged. ***
+  FR10Y  CNBC 5.0879 (+0.0941)  vs TE 5.09 (+0.093)    -> AGREE. Not one of our ten tickers, but it
+         is the basis for the GEO item: the French 10-year is now DECISIVELY ABOVE 5%, having only
+         brushed it yesterday (we published 4.99% at 12:15 on 21 Oct, easing back below). Today's
+         wording must therefore change from "briefly topped" to "above", which is a real advance.
+
+THE ANOMALY, STATED AND NOT EXPLAINED AWAY
+  Gold FELL 1.32% on a day when the VIX rose 10.73% and bitcoin fell 2.92%. That is not the classic
+  flight-to-safety pattern, in which gold rises with volatility. Government bonds DID rally (UK and
+  US yields both lower), so the safety bid went into bonds, not metal. This looks like broad
+  liquidation rather than a hedge, but NO APPROVED SOURCE I HAVE READ ATTRIBUTES IT, so the edition
+  describes the divergence and does not assert a cause.
+
+CONTINUITY: no value is carried forward; every figure is a fresh read. CNBC's previous-close fields
+were checked against our own published series. Note the gilt's previous close reads 5.3843, whereas
+we published 5.41 yesterday lunchtime — that is consistent, because ours was a 12:15 intraday read
+and 5.3843 is where the market actually closed. No contradiction.
+
+FEED RELIABILITY NOTE: for yield symbols this feed's percentage-change field remains unreliable (it
+showed -0.75% for the French 10-year against a positive absolute change of +0.0941). The level and
+the ABSOLUTE change are coherent and are what we use; the percentage field is ignored for yields.
+
+*** SECOND READ, TAKEN IMMEDIATELY BEFORE APPLYING — 11:24 BST. THESE ARE THE PUBLISHED FIGURES. ***
+FTSE 10,700.42 -0.49 | SP 7,757.17 +0.58 (Wed close) | Brent 111.99 +2.91 | GBP 1.3385 -0.07
+Gold 4,091.58 -1.18 | EURGBP 0.8382 -0.04 | Gilt 5.37 -0.01 | VIX 18.35 +10.01
+BTC 81,978 -2.92 | UST 5.07 -0.08
+French 10-year: 5.0832%, +0.0894 — still ABOVE the US 10-year at 5.071%, so that claim holds.
+
+WHAT MOVED BETWEEN THE READS (11:04 -> 11:24), AND THE TWO COPY CORRECTIONS IT FORCED
+  Brent   112.22 (+3.12%) -> 111.99 (+2.91%)
+  FR10Y   5.0879 (+0.0941) -> 5.0832 (+0.0894)
+  Gilt    5.36 (-0.03) -> 5.37 (-0.01)
+  Gold    4,085.86 (-1.32) -> 4,091.58 (-1.18)
+  UST     5.061 (-0.085) -> 5.071 (-0.075)
+  1. Copy read "rose more than 3% to above $112 a barrel" — false by 11:14. Changed to
+     "rose about 3% to around $112 a barrel", which is true across the whole morning.
+  2. Copy read "rose nine basis points to 5.089%" — the 5.089% was the morning high as reported.
+     Changed to "about nine basis points to just over 5.08%" to match the level at publication.
+  Both were caught by re-reading the feed before applying and then re-scanning the prose, not just
+  the ticker. That is now a standing step.
