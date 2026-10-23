@@ -1,0 +1,90 @@
+URL: https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol
+MARKETS — EVENING EDITION, FRIDAY 23 OCTOBER 2026
+Baseline read 15:57 BST, cross-checked against Trading Economics in the same minute.
+A SECOND READ WILL BE TAKEN AFTER THE 16:35 LONDON CLOSE AND IMMEDIATELY BEFORE APPLYING;
+the figures published are the later read, and any copy claim the second read falsifies is corrected.
+
+BASELINE (15:57 BST)   LEVEL        CHG%    NOTE
+FTSE 100              10,651.52    -0.69   still open at this read; close captured in the second read
+S&P 500                7,651.70    -0.15   LIVE — Wall Street has been open since 14:30 BST
+Brent                    116.13    +2.62   a large move; CNBC calls it a SIX-month high, highest since 30 April
+GBP/USD                   1.3386   -0.10
+Gold                   4,003.53    -0.51   continuing a sustained fall
+EUR/GBP                   0.8367    0.00   unchanged
+10y gilt                  5.3704   +0.04   UP on the day
+VIX                      18.99     -0.21
+Bitcoin               81,693.11    +0.43
+10y UST                   4.988    +0.04   see the 5% warning below
+10y France (context)      5.031    -0.06   DOWN on the day, easing from 5.0896
+
+CROSS-CHECKS
+  Gilt   CNBC 5.3704 (+0.0405)  vs TE 5.37 (+0.039%)   -> AGREE. Publish 5.37, +0.04.
+  Gold   CNBC 4,003.53 (-0.51%) vs TE 4,001.62 (-0.58%) -> AGREE within about two dollars.
+  Brent  CNBC 116.13 (+2.62%)   vs TE 102.36 (+2.91%)
+         *** TE's LEVEL IS $13.77 LOW — TENTH CONSECUTIVE DAY its Brent page has been wrong by
+         roughly $8 to $14. Direction and rough magnitude ARE corroborated (+2.6% vs +2.9%), so the
+         rise is cross-confirmed; the LEVEL rests on the primary feed alone and is declared. ***
+  UST    CNBC 4.988 (+0.035)    vs TE 5.00 (+0.041%)
+         *** THE TWO PROVIDERS STRADDLE THE 5% LINE. One has 4.988, the other 5.00, a gap of about
+         1.2 basis points. The changes agree. THEREFORE NO "BACK BELOW 5%" FRAMING IS USED ANYWHERE
+         IN THIS EDITION — a headline-grade claim cannot rest on a 1.2bp divergence. Published 4.99
+         with the change, and described as hovering around 5%. ***
+  FR10Y  CNBC 5.031 (-0.0586)   vs TE 5.04 (-0.032%)   -> levels agree; the SIZE of the fall differs
+         (6bp vs 3bp) but both are negative, so "easing" is safe and no figure is given for the move.
+
+THE DIVERGENCE WORTH NOTING, AND ITS LIMIT
+  The UK is today's outlier among the three bond markets we track: the gilt yield ROSE about four
+  basis points while the French ten-year EASED and the US ten-year sits around 5% — and this is five
+  days before the Budget on Wednesday 28 October. That is a factual contrast and is reported as one.
+  NO APPROVED SOURCE READ SO FAR ATTRIBUTES THE GILT MOVE TO THE BUDGET OR TO ANYTHING ELSE, so no
+  cause is asserted for it.
+
+CONTINUITY WITH OUR OWN PUBLISHED SERIES (22 Oct morning, 11:25)
+  Gilt   published 5.37 -> 5.37 today (prev close 5.3299; up 4bp today). Consistent.
+  UST    published 5.07 -> 4.99 today. Note both facts are true and must not be conflated: the level
+         has FALLEN about 8bp since our last edition, but it is UP about 4bp on the day against
+         today's previous close of 4.953. The ticker change field carries today's move.
+  Gold   published 4,091.58 -> 4,003.53. A continued fall of roughly 2% since our last edition, on
+         top of the 1.2% fall we reported then.
+  Brent  published 111.99 -> 116.13. Up roughly $4 since our last edition.
+  No value is carried forward; every figure is a fresh read.
+
+NOTE ON THIS EDITION: no evening edition was published on 22 October and no morning edition on
+23 October, because the scheduled job failed four times across eleven hours. This is therefore the
+first market reading published on the site since 22 October at 11:25, which is why the continuity
+section above spans two days rather than one.
+
+OIL, VERIFIED AGAINST THE ARTICLE RATHER THAN THE FILENAME
+  The cached file is named "cnbc-oil-brent-five-month-high-iran.txt" by the failed automated run.
+  THE ARTICLE SAYS SIX-MONTH: "Brent crude oil was trading at a six-month high on Friday ... the
+  highest level since April 30." Published 11:51 BST. At that time it had Brent +2% at $115.41 and
+  WTI +2.4% at $101.86. Our own 15:57 read is $116.13, +2.62%, so the move extended through the
+  afternoon; the LEVEL we publish is our own read and the "six-month high since 30 April" framing is
+  CNBC's. CNBC attributes the move to investors increasingly expecting the United States to resume
+  strikes on Iran in the coming weeks.
+  *** This is the second time in two days that a cache FILENAME written by the automated job has
+  carried a wrong figure. Never take a number from a filename; open the file. ***
+
+*** SECOND READ, TAKEN IMMEDIATELY BEFORE APPLYING — 16:17 BST. THESE ARE THE PUBLISHED FIGURES. ***
+FTSE 10,658.12 -0.62 (INTRADAY — London had not closed; last trade 16:01) | SP 7,650.99 -0.16 (live)
+Brent 116.19 +2.67 | GBP 1.3375 -0.18 | Gold 3,994.72 -0.73 | EURGBP 0.8369 +0.02
+Gilt 5.37 +0.04 | VIX 19.18 +0.79 | BTC 81,361 +0.02 | UST 4.99 +0.04
+French 10-year 5.0273, -0.0623 — still easing, and still above the US 10-year at 4.992.
+
+WHY THE FTSE IS AN INTRADAY FIGURE: the edition was published at the editor's instruction before the
+16:35 London close. The figure is declared as intraday in the sources block and in the ticker driver
+rather than presented as a close. The S&P is live, Wall Street being open until 21:00 BST.
+
+WHAT MOVED BETWEEN THE READS (15:57 -> 16:17), AND THE COPY CORRECTION IT FORCED
+  FTSE   10,651.52 (-0.69) -> 10,658.12 (-0.62)
+  Brent     116.13 (+2.62) ->    116.19 (+2.67)
+  Gold    4,003.53 (-0.51) ->  3,994.72 (-0.73)   *** fell through $4,000 between the two reads ***
+  Gilt      5.3704 (+0.04) ->    5.3682 (+0.04)
+  UST       4.988  (+0.035)->    4.992  (+0.039)
+  FR10Y     5.031  (-0.059)->    5.0273 (-0.062)
+  Copy read "Brent crude rose 2.6%" at the first read and was 2.67% at the second; changed to 2.7%.
+  Nothing else in the prose depended on a market figure, which was checked line by line.
+
+GOLD THROUGH $4,000: the fall extended during the session and the level broke $4,000 between the two
+reads. No copy claim rests on it, and no cause is asserted beyond the sourced oil-and-rates logic
+already recorded above.
