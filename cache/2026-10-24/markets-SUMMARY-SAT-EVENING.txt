@@ -1,0 +1,64 @@
+URL: https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol
+MARKETS — EVENING EDITION, SATURDAY 24 OCTOBER 2026. Read 19:41 BST.
+
+*** THE HONEST POSITION: THIS TICKER IS ALMOST IDENTICAL TO OUR MORNING EDITION'S. ***
+It is a Saturday night. Nine of the ten markets we track have been shut since Friday, so nine of
+these ten figures are the SAME Friday closes we published at 11:33 this morning. The ONLY market
+open is Bitcoin, and it is the only figure that has moved. This is stated plainly in the ticker
+drivers rather than presented as a fresh set of readings.
+
+PUBLISHED              LEVEL        CHG%    BASIS
+FTSE 100              10,690.36    -0.32   Friday's close — UNCHANGED from our 11:33 edition
+S&P 500                7,623.68    -0.52   Friday's close — UNCHANGED
+Brent                    116.72    +3.14   Friday's settle — UNCHANGED
+GBP/USD                   1.3372   -0.20   Friday's close — UNCHANGED
+Gold                   3,995.52    -0.77   Friday's close — UNCHANGED
+EUR/GBP                   0.8375   +0.10   Friday's close — UNCHANGED
+10y gilt                  5.37     +0.04   Friday's close — UNCHANGED
+VIX                      19.45     +2.21   Friday's close — UNCHANGED
+Bitcoin               80,244.43    -1.19   *** LIVE, AND THE ONLY FIGURE THAT HAS MOVED ***
+10y UST                   5.00     +0.05   Friday's close — UNCHANGED
+
+THE ONE REAL MOVE SINCE THIS MORNING
+  Bitcoin  80,436.82 (-0.95%) at 11:21  ->  80,244.43 (-1.19%) at 19:41
+  A further fall of about $192, or 0.24 points of its daily percentage. Small, and the only thing
+  the weekend has actually priced. No approved source attributes it and none is asserted.
+
+CROSS-CHECKS
+  Bitcoin  CNBC 80,244.43 (-1.19%)  vs  Trading Economics 80,245 (-1.02%)
+           LEVELS AGREE to within 57 cents. The percentages differ by 0.17 points because the two
+           providers measure a 24-hour window from different start points; the level is what we
+           publish and the change is the primary feed's. Declared rather than reconciled.
+  The nine closed markets were cross-checked this morning at 11:21 and those checks stand: the FTSE
+  agreed to the penny across both providers, the gilt agreed on level, and the ten-year Treasury
+  agreed on level and change at 5.00%.
+
+DECLARATIONS CARRIED FORWARD FROM THIS MORNING, STILL TRUE TONIGHT
+  1. Trading Economics' Brent page was $13.45 low this morning — the eleventh consecutive day it has
+     been wrong by roughly $8 to $14. The oil level rests on the primary feed alone.
+  2. The ten-year Treasury reads 4.999% on one feed and 5.00% on the other. NO CLAIM THAT IT HAS
+     FALLEN BELOW 5% APPEARS ANYWHERE IN THIS EDITION, for the third consecutive day.
+  3. The primary feed's previous-close field for the gilt has drifted repeatedly (5.3299 on Friday,
+     5.3612 today), so the published day-move rests on our own Friday-afternoon reading.
+
+TIMEZONE NOTE — LAST EDITION ON BST
+  Checked at publication: tm_isdst = 1, zone = BST, UTC offset +1. The clocks go back at 02:00
+  TOMORROW, 25 October. *** THIS IS THE LAST EDITION FOR WHICH apply_brief.py's HARDCODED
+  offset = "+01:00" IS CORRECT. *** From tomorrow it must be +00:00 or every edition's market
+  timestamp will be an hour wrong. Flagged to the editor; the script has not been altered.
+
+NOTE ON THIS EDITION: no evening edition was produced by the scheduled job, which failed at its
+sixth consecutive slot. Attempt one ran 18:09:38 to 18:16:30 and attempt two 19:17:22 to 19:17:32 —
+seven minutes and then ten seconds, both exiting with code 1. The brevity, and an authentication
+step the editor performed shortly afterwards, point to the runs dying before they began any work:
+they wrote zero cache files and did not touch index.html.
+
+*** THIRD AND FINAL READ, 19:55 BST, IMMEDIATELY BEFORE APPLYING ***
+Bitcoin 80,307.40, -1.11% (previous read 19:41: 80,244.43, -1.19%).
+It is the only market that can move tonight, and it moved again between the two reads — up $63 from
+the 19:41 figure, leaving it $129 below this morning's 80,436.82 rather than the $192 recorded above.
+THE PUBLISHED FIGURE IS 80,307 / -1.11, and four places were updated to match: the markets JSON, the
+Bitcoin ticker driver, the sources block in the edition, and this note. The other nine figures are
+Friday's closes and cannot have changed.
+This is the same propagation discipline applied on 21 and 23 October: when a re-read supersedes a
+figure, every place that cites it has to be corrected, not just the ticker.

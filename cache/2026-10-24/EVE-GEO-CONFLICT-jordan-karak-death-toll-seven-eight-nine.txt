@@ -1,0 +1,58 @@
+URL: https://www.theguardian.com/world/2026/oct/24/seven-killed-and-40-injured-after-gunmen-open-fire-at-church-funeral-jordan
+The Guardian, feed-level record | Guardian Middle East RSS and Guardian World RSS, item pubDate "Sat, 24 Oct 2026 14:24:15 GMT" (= 15:24 BST). Feed pulled via curl 24 Oct 2026 19:20 BST and re-scanned 19:44 BST. The article body itself could not be retrieved: the canonical URL in the feed returns a 24,345-byte Guardian error shell to curl, as does the slug variant with "-karak" appended. Headline and timestamp are therefore attested from the feed only; the body is NOT in hand.
+
+FIGURE CONFLICT - JORDAN CHURCH FUNERAL SHOOTING, KARAK GOVERNORATE. THREE DEATH
+TOLLS FROM THREE APPROVED SOURCES. DO NOT AVERAGE. DO NOT PICK ONE SILENTLY.
+
+TOLL A - SEVEN DEAD.
+  BBC News, https://www.bbc.co.uk/news/articles/ck87zlpzny15o
+  "Seven shot dead by gunmen at church funeral in Jordan, officials say"
+  pubDate Fri, 23 Oct 2026 19:46:30 GMT (= 20:46 BST Friday).
+  This is the figure The Daily Brief already holds in the morning cache file
+  SAT-GEO-bbc-jordan-toll-seven.txt. It is now the OLDEST of the three and has not
+  been refreshed in the BBC Middle East feed as of 19:44 BST tonight.
+
+TOLL B - EIGHT DEAD, "dozens" injured. Attributed to Jordan's Ministry of Health.
+  Al Jazeera, https://www.aljazeera.com/news/2026/10/24/who-was-behind-the-deadly-church-shooting-in-jordan
+  datePublished 2026-10-24T13:39:26Z (= 14:39 BST today).
+  Verbatim: "Security forces in Jordan are searching for three gunmen who opened
+  fire at a church in Karak governorate on Friday, killing eight people and injuring
+  dozens more, according to Jordan's Ministry of Health."
+  Note that Al Jazeera's own earlier trail lines, still visible on the page, read
+  "At least seven killed after gunmen open fire at church in Jordan" and "Masked
+  gunmen kill seven in attack on church funeral in Jordan" - so Al Jazeera has
+  itself revised from seven to eight.
+
+TOLL C - NINE DEAD, 40 INJURED.
+  The Guardian, this URL, "Nine killed and 40 injured after gunmen open fire at
+  church funeral in Jordan", feed timestamp 24 Oct 2026 15:24 BST.
+  This is the HIGHEST and the LATEST of the three. Note that the Guardian's URL slug
+  still reads "seven-killed-and-40-injured", i.e. the Guardian revised its headline
+  from seven to nine while keeping the original slug. That is strong internal
+  evidence of an upward revision rather than a typo, but the body text is not in
+  hand, so the attribution for "nine" is unverified.
+
+HOW TO HANDLE IT: if Jordan is run tonight, the honest line is that the toll has
+been revised upward during the day and that approved sources do not agree - the BBC
+still carries seven from Friday evening, Al Jazeera carries eight citing Jordan's
+health ministry at 14:39 BST, and the Guardian carries nine with 40 injured at
+15:24 BST. The eight figure is the only one with a named institutional attribution
+in hand. Do not write a single bare number.
+
+OTHER FACTS, ATTESTED, from the Al Jazeera piece in hand:
+- THREE masked gunmen. Still unidentified and at large as of 14:39 BST.
+- Location: Saint George's Greek Orthodox Church, village of Hamoud, Karak
+  governorate. Attack was during a funeral service on Friday afternoon.
+- Survivors said they heard an explosion just after the start of the service. Two
+  attackers arrived in a vehicle and were joined by a third carrying a semi-automatic
+  rifle. They entered the church and opened fire for several minutes.
+- Named survivor: Nasser al-Burqan, a lawyer, told Reuters that one of the
+  attackers, standing about two metres away, pointed a handgun at him and fired.
+  Quote: "When everything finally quietened down, I looked out the window behind me,
+  and I saw two [assailants] - one was masked, the other was not; he was carrying a
+  handgun."
+- King Abdullah II said those behind the attack would face the "harshest penalties"
+  and offered condolences to victims' families. He has ordered a review of the
+  country's security procedures for responding to terrorist attacks.
+- Jordanian authorities are treating it as an act of terror. Al Jazeera notes it is
+  a rare attack on a Christian place of worship in Jordan.

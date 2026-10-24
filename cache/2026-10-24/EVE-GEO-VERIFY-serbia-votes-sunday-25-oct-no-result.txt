@@ -1,0 +1,86 @@
+URL: https://www.bbc.co.uk/news/articles/cm1dwz311476o
+BBC News | JSON-LD datePublished 2026-10-23T23:08:23.210Z (= 24 Oct 00:08 BST), dateModified identical. Re-checked via curl and via the BBC World and BBC Europe RSS feeds at 24 Oct 2026 19:20 BST and again at 19:44 BST. UNCHANGED.
+
+VERIFICATION NOTE - SERBIAN ELECTION DATE. WRITTEN 24 OCT 2026 19:46 BST.
+
+FINDING: Serbia does NOT vote on Saturday 24 October 2026. Serbia votes on SUNDAY
+25 OCTOBER 2026. No result, no turnout figure, no exit poll and no preliminary
+count exists, because polls have not opened. Nobody is claiming victory and nobody
+is disputing a count.
+
+EVIDENCE, four approved sources, all retrieved 24 Oct 2026 between 19:20 and 19:44 BST:
+
+1. BBC News, this URL, "Student movement takes Serbia's Vucic to the wire in
+   neck-and-neck election": "A student-led opposition movement is running
+   neck-and-neck with Serbian President Aleksandar Vucic's ruling party ahead of
+   Sunday's parliamentary elections". Also, verbatim: "The vote takes place this
+   Sunday, 25 October 2026". Also: "If Sunday's parliamentary elections really are
+   a battle for the heart of Serbia". Three separate future-tense references to
+   Sunday in one article.
+
+2. NPR, https://www.npr.org/2026/10/24/nx-s1-6012799/european-student-protests-take-aim-at-serbias-elections
+   published 2026-10-24T07:42:11-04:00 (= 12:42 BST TODAY): "In Serbia, they've
+   selected candidates to run for parliament in Sunday's elections. And they're
+   aiming to end 14 years of government by the populist leader Aleksandar Vucic."
+   This is a piece filed TODAY still describing the vote as forthcoming.
+
+3. The Guardian, https://www.theguardian.com/world/serbia index page, retrieved
+   19:43 BST: standing headline "A student protest movement has gripped Serbia for
+   two years. This weekend it will try to take power" - future tense. The Guardian
+   World RSS feed contains NO Serbia item at all dated 24 October 2026.
+
+4. Al Jazeera, https://www.aljazeera.com/where/serbia/ retrieved 19:43 BST, and the
+   Al Jazeera all-news RSS feed. The only Serbia item filed today is a video
+   newsfeed piece, "Serbian elections: A country where students may actually take
+   power", timestamped 2026-10-24T16:36:44Z (= 17:36 BST). Its standfirst is
+   forward-looking. Al Jazeera's accompanying trail line reads "Serbia elections
+   test student movement demanding justice for 16 victims". No result copy.
+
+FEED-LEVEL CHECK: the BBC World RSS feed, BBC Europe RSS feed, Guardian World RSS
+feed, Guardian Europe RSS feed, Al Jazeera all-news RSS feed and NPR world RSS feed
+were all pulled fresh at 19:20 BST and re-scanned at 19:44 BST. The newest Serbia
+item in any of them is the BBC pre-election piece timestamped 23 Oct 23:08 GMT,
+which is 24 Oct 00:08 BST. There is nothing newer.
+
+WHAT IS KNOWN AND SAFE TO PUBLISH TONIGHT:
+- Snap parliamentary election, Sunday 25 October 2026. Called last month by
+  Aleksandar Vucic, who resigned as president in order to run for prime minister.
+  He is barred from seeking a third presidential term.
+- Vucic's Serbian Progressive Party (SNS) has been in government since 2012. BBC
+  frames this as the most serious electoral challenge since then. NPR describes it
+  as "14 years of government" by Vucic.
+- The challenger is the "Student List", grown out of nearly two years of
+  anti-corruption protests triggered by the deaths of 16 people when a railway
+  station canopy collapsed at Novi Sad.
+- It has no leader and no hierarchy. Student assemblies at university faculties
+  selected its 250 candidates. None has a political background.
+- Top candidate: Ilija Srdanovic, a cardiologist and professor at Novi Sad
+  University. He is NOT the movement's leader and would not necessarily be its
+  choice of prime minister.
+- Srdanovic to the BBC: "It is absolutely normal to stand with my students to help
+  them in their fair struggle." And: "We offer to our citizens the core values of
+  civilised society, which this previous regime has taken away from our citizens for
+  the last time."
+- Vucic has called the movement foreign-backed and said it seeks to "bring down our
+  state", telling a final rally: "Let us always protect and defend it."
+- Vucic on the Student List and Russia: "When you ask them: will you impose
+  sanctions on Russia? Silence, umming and ah-ing, but no answer. You know what the
+  Chinese think, you've heard what Vladimir Putin said. So you decide. Think about
+  who has our best interests at heart."
+- Final rallies, Thursday night: SNS held an arena event in Belgrade with Vucic the
+  only speaker. The Student List drew a reported 150,000 to Slavija Square.
+- BBC: "Reliable polls are thin on the ground, but analysts are predicting an
+  extremely tight vote."
+- Magda Anastasijevic, Eastern Europe analyst for the conflict monitor ACLED, to the
+  BBC on the Novi Sad canopy collapse: "Vucic has survived this in the past, he was
+  always able to find a scapegoat and blame whatever problems on them. This was not
+  the case for the canopy."
+- At the 2023 parliamentary election the International Election Observation Mission
+  noted "overwhelming ruling party advantage" due to "bias in the media" and
+  "misuse of public office and resources".
+- The BBC approached leading SNS figures for interview and was not offered a response.
+
+CAUTION FOR THE DESK: no approved source reached tonight states the poll opening or
+closing times, and none states when preliminary results are expected. Do not assert
+a results time. Do not write "counting under way" - counting cannot be under way on
+a vote that has not happened.
