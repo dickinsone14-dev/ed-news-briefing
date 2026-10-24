@@ -1,0 +1,60 @@
+URL: https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol
+MARKETS — MORNING EDITION, SATURDAY 24 OCTOBER 2026. Read 11:21 BST.
+*** IT IS A SATURDAY. NINE OF THE TEN FIGURES ARE FRIDAY'S CLOSES. ONLY BITCOIN IS LIVE. ***
+Primary: CNBC quote endpoint. Cross-check: Trading Economics, same minute.
+
+PUBLISHED             LEVEL        CHG%    BASIS
+FTSE 100             10,690.36    -0.32   Friday's CLOSE
+S&P 500               7,623.68    -0.52   Friday's CLOSE
+Brent                   116.72    +3.14   Friday's settle
+GBP/USD                  1.3372   -0.20   Friday's close (16:59 ET)
+Gold                  3,995.52    -0.77   Friday's close; unchanged across the weekend
+EUR/GBP                  0.8375   +0.10   Friday's close
+10y gilt                 5.37     +0.04   Friday's close (cash gilt market shut)
+VIX                     19.45     +2.21   Friday's CLOSE
+Bitcoin              80,436.82    -0.95   *** LIVE — crypto trades through the weekend ***
+10y UST                  5.00     +0.05   Friday's close
+
+CROSS-CHECKS
+  FTSE   CNBC 10,690.36 (-34.67, -0.32%) vs TE 10,690.36 (-34.67, -0.32%) -> IDENTICAL.
+  Gilt   CNBC 5.3693 vs TE 5.37 -> levels AGREE.
+  UST    CNBC 4.999 (+0.046) vs TE 5.00 (+0.044) -> AGREE on level and change. Published 5.00.
+         *** Note 4.999 is fractionally under 5%. NO "BELOW 5%" CLAIM IS MADE ANYWHERE, for the same
+         reason as yesterday: a claim of that kind cannot rest on a thousandth of a point. ***
+  Gold   CNBC level 3,995.52 (shown UNCH, the weekend no-change) vs TE 3,993.96, -0.77%.
+         Levels agree within $1.56. The LEVEL is CNBC's, the FRIDAY DAY-MOVE is TE's -0.77%.
+         Declared because it mixes providers: CNBC's change field is unusable on a Saturday.
+  Brent  CNBC 116.72 (+3.14%) vs TE 103.27 (+3.82%)
+         *** TE's LEVEL IS $13.45 LOW — ELEVENTH CONSECUTIVE DAY its Brent page has been wrong by
+         roughly $8 to $14. Direction corroborated; the magnitude differs by 0.68 points; the level
+         rests on the primary feed alone and is declared. ***
+
+THE GILT CHANGE, AND WHY IT RESTS ON OUR OWN SERIES
+  This feed's previous-close field for the gilt has drifted again: it read 5.3299 yesterday and
+  5.3612 today, which cannot both be Thursday's close. Friday's closing LEVEL of 5.3693 is agreed by
+  both providers. The +0.04 day-move published here is the move we read ourselves at 16:17 on Friday
+  (5.3682 against a previous close of 5.3299) and is consistent with our own published series. TE's
+  change field today reads -0.004%, which is meaningless with the market shut. Declared rather than
+  silently chosen.
+
+CONTINUITY WITH WHAT WE PUBLISHED AT 16:17 ON FRIDAY — AND ONE VINDICATION
+  FTSE   published 10,658.12 (-0.62), declared at the time as an INTRADAY reading because London had
+         not closed. Friday's actual close was 10,690.36 (-0.32). The index rallied into the close, so
+         the published intraday figure was 32 points and 30 basis points away from the close.
+         *** This is exactly why it was labelled intraday rather than presented as a close. ***
+  Gold   published 3,994.72 -> closed 3,995.52. Essentially unchanged.
+  Brent  published 116.19 -> settled 116.72. Firmer into the close.
+  UST    published 4.99 -> closed 5.00 (4.999).
+  Gilt   published 5.37 -> closed 5.37 (5.3693). Level confirmed.
+  BTC    published 81,361 -> 80,437 now, down 0.95% on a live weekend reading.
+  No value is carried forward; every figure is a fresh read.
+
+CORROBORATION FROM THE FAILED SCHEDULED RUN
+  That run's own 08:20 BST snapshot recorded FTSE 10,690.36 -0.32%, S&P 7,623.68 -0.52%, Brent 116.72
+  +3.14% and GBP 1.3372 -0.20% — identical to this read three hours later, as they should be with the
+  markets shut. Its figures are not relied upon, but they agree.
+
+NOTE ON THIS EDITION: no morning edition was produced by the scheduled job. It ran two attempts,
+08:08 to 09:48 and 09:48 to 10:49, and both ended with "Claude exited 0 but edition not found in
+index.html" — the silent-success failure mode. The harness also logged "Background tasks still
+running after 600s; terminating" on both attempts.
