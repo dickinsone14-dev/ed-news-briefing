@@ -1,0 +1,34 @@
+URL: https://www.bbc.co.uk/news/articles/ced75e7d11po
+Daily Brief research audit, compiled 08:15 GMT Sun 25 Oct 2026. Covers BST/GMT conversion and two stale cache files. Primary URL above is the stale Kuenssberg donations column; secondary URL https://www.bbc.co.uk/news/articles/c6lyk8e3lxz0o
+
+BST/GMT CHANGEOVER — EXACT CUTOVER
+British Summer Time ended at 02:00 BST on Sunday 25 October 2026, which is 01:00 UTC. 25 October is the last Sunday of October 2026 (Sundays: 4, 11, 18, 25).
+Consequence for JSON-LD "Z" timestamps:
+ - Any item stamped BEFORE 2026-10-25T01:00:00Z: local British time = UTC + 1 hour (BST).
+ - Any item stamped AT OR AFTER 2026-10-25T01:00:00Z: local British time = UTC + 0 (GMT).
+Last night was 25 hours long. Any warning, deadline or duration spanning 02:00 local gains an hour of elapsed time.
+
+VERIFIED CONVERSIONS USED THIS MORNING
+ - BBC "Burnham open to honest discussion on EU free movement": datePublished 2026-10-25T00:33:19Z = 01:33 BST local (BEFORE cutover). Cache file MORN-UK-bbc-burnham-eu-free-movement.txt labels this "01:33 GMT" - the clock reading is right, the zone label is wrong.
+ - Guardian same story: datePublished 2026-10-24T23:07:12Z = 00:07 BST Sun 25 Oct local. Guardian beat the BBC by 26 minutes.
+ - BBC "Budget to include £1bn for social and affordable housing": 2026-10-25T02:57:30Z = 02:57 GMT (AFTER cutover). Label correct.
+ - Guardian devolution package: 2026-10-24T21:30:43Z = 22:30 BST Sat 24 Oct local.
+ - BBC Drumcree rally: modified 2026-10-24T21:44:39Z = 22:44 BST Sat 24 Oct local.
+ - BBC Cairngorms funding: 2026-10-24T14:29:47Z = 15:29 BST Sat 24 Oct local.
+ - Opinium voting intention: page schema 2026-10-24T19:00:00+00:00 = 20:00 BST Sat 24 Oct local.
+
+TWO STALE CACHE FILES — DO NOT RUN AS TODAY'S NEWS
+ 1. MORN-UK-bbc-burnham-badenoch-reform-donations.txt
+    Real datePublished 2026-09-12T10:07:00Z = 11:07 BST Sat 12 September 2026; modified 12:51:24Z = 13:51 BST same day. SIX WEEKS OLD.
+    The file's phrase "this weekend's mega donations" refers to 12-13 September 2026, not 24-25 October. The £36m from Ben Delo and the matching £36m from Christopher Harborne (£72m total) were declared on 11-12 September 2026. Cross-checked against Guardian "Christopher Harborne matches £36m Reform donation of Ben Delo", 12 Sep 2026.
+    Tell: line 2 of the cache file carries no timestamp.
+ 2. MORN-UK-bbc-pm-eu-ties-dereliction.txt
+    Real datePublished 2026-10-12T05:01:22Z = 06:01 BST Monday 12 October 2026. THIRTEEN DAYS OLD.
+    Internal tell: "The Commons sits on Monday for the first time since 15 September." Usable as background on the November Brussels summit only; the forward-looking Commons statement it trails already happened.
+    Tell: line 2 of the cache file carries no timestamp.
+
+BUDGET DAY COUNT — RECOMPUTED
+Today is Sunday 25 October 2026. The Budget is Wednesday 28 October 2026. 28 minus 25 = 3. Intervening days: Monday 26, Tuesday 27, Budget on Wednesday 28. The Budget is THREE DAYS AWAY. "Four days out" is wrong.
+
+ROSEBANK — NO DECISION
+gov.uk search API for "Rosebank" at 08:00 GMT 25 Oct 2026 returns nothing later than "Rosebank Field Development", public_timestamp 2026-07-16T14:16:21Z. No consent decision has been published. Jackdaw consent was granted separately: gov.uk news release published 2026-10-21T06:29:00Z = 07:29 BST Wednesday 21 October 2026.

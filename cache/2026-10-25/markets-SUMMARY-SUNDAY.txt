@@ -1,0 +1,61 @@
+URL: https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol
+MARKETS — MORNING EDITION, SUNDAY 25 OCTOBER 2026. Read 08:03 GMT.
+
+*** THE FIRST EDITION ON GREENWICH MEAN TIME. The clocks went back at 02:00 this morning. ***
+Verified at publication: tm_isdst = 0, zone = GMT, UTC offset 0. The tool that stamps the ticker
+timestamp now derives the offset from the edition's own date and time rather than a hardcoded value,
+and was tested this morning against six cases either side of the change before being used.
+
+*** THE HONEST POSITION, STATED FOR THE THIRD EDITION RUNNING ***
+Nine of our ten markets have been shut since Friday afternoon. These nine figures are the SAME
+Friday closes published in our Saturday morning and Saturday evening editions. A reader comparing
+the three will see an unchanged ticker, and that is correct rather than stale. Bitcoin is the only
+market that trades through the weekend and the only figure that has moved. Markets reopen tomorrow.
+
+PUBLISHED              LEVEL        CHG%    BASIS
+FTSE 100              10,690.36    -0.32   Friday's close — third edition carrying it
+S&P 500                7,623.68    -0.52   Friday's close
+Brent                    116.72    +3.14   Friday's settle
+GBP/USD                   1.3372   -0.20   Friday's close
+Gold                   3,995.52    -0.77   Friday's close
+EUR/GBP                   0.8375   +0.10   Friday's close
+10y gilt                  5.37     +0.04   Friday's close
+VIX                      19.45     +2.21   Friday's close
+Bitcoin               80,532.28    +0.15   *** LIVE — the only open market. SIGN DISPUTED, see below ***
+10y UST                   5.00     +0.05   Friday's close
+
+THE ONE MOVE — AND THE TWO PROVIDERS DISAGREE ON ITS DIRECTION
+  Level:   CNBC 80,532.28   vs  Trading Economics 80,520   -> AGREE to within about $12.
+  Change:  CNBC +0.15%      vs  Trading Economics -0.34%   -> *** THE SIGNS DISAGREE. ***
+  Both are internally defensible: a continuously traded instrument has no fixed daily close, so each
+  provider measures a rolling 24-hour window from its own reference point. CNBC's figure is coherent
+  against its own stated previous close (80,532.28 - 118.13 = 80,414.15), and its previous-close
+  field has itself moved from 81,207 yesterday to 80,414 today for exactly that reason.
+  *** CONSEQUENCE FOR THE COPY: no directional claim about Bitcoin appears in this edition. ***
+  It would have been easy and wrong to write that it "turned positive overnight" — it was down more
+  than 1% when we published at 19:55 last night, and CNBC now shows a small gain — but a cross-check
+  that disagrees on sign cannot support a claim about direction. The LEVEL is published, the feed's
+  change is carried in the ticker where it belongs, and the prose says only that it is the one market
+  trading. This is the same discipline applied to the gilt on 20 October, when one feed's drifted
+  previous close inverted a fall into a rise.
+
+CROSS-CHECK
+  Bitcoin is the only figure that can have changed and the only one re-checked.
+  The nine closed markets were cross-checked on Saturday morning at 11:21 and those checks stand:
+  the FTSE agreed to the penny across both providers, the gilt agreed on level, and the ten-year
+  Treasury agreed on level and change at 5.00%.
+
+DECLARATIONS CARRIED FORWARD, STILL TRUE
+  1. Trading Economics' Brent page was $13.45 low on Saturday — the eleventh consecutive day wrong by
+     roughly $8 to $14. The oil level rests on the primary feed alone.
+  2. The ten-year Treasury reads 4.999% on one feed and 5.00% on the other. NO CLAIM THAT IT HAS
+     FALLEN BELOW 5% APPEARS ANYWHERE, for the fourth consecutive edition.
+  3. The feed's previous-close field for the gilt has drifted repeatedly, so the published day-move
+     rests on our own Friday-afternoon reading.
+
+NOTE ON THIS EDITION: a scheduled run was live and healthy when this edition was begun — 64 cache
+files in its first five minutes, and its internal day-count checked out as correct. It was stopped
+because the editor had asked for the brief to be produced by hand, because its prompt still mandates
+a block that is vetoed on this site, and because two processes writing index.html at once is a real
+risk. Its research was harvested in full and is relied upon below. This is the eighth consecutive
+scheduled slot not published by the automation, but the first in which the automation was working.

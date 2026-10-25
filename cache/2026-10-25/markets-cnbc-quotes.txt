@@ -1,0 +1,14 @@
+URL: https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol
+(CNBC quote service, live read 25 October 2026 ~08:00 GMT. Sunday: all markets except bitcoin shut since Friday; levels are Friday 23 Oct closes/settles)
+
+.FTSE 10,690.36 -34.67 -0.32% 2026-10-23 prev 10,725.03
+.SPX 7,623.68 -39.75 -0.52% 2026-10-23 prev 7,663.43
+@LCO.1 116.72 +3.55 +3.14% 2026-10-24 prev 113.17
+GBP= 1.3372 -0.0027 -0.2019% 2026-10-23T16:59:00.000-0400 prev 1.3372
+@GC.1 4,010.00 -50.40 -1.24% 2026-10-24 prev 4,060.40
+EURGBP= 0.8375 +0.0008 +0.10% 2026-10-23T16:59:00.000-0400 prev 0.8375
+GB10Y-GB 5.3693% +0.0081 +0.1511% 2026-10-24T20:01:27.000+0000 prev 5.3612%
+.VIX 19.45 +0.42 +2.21% 2026-10-23 prev 19.03
+BTC.CM= 80,581.44 +167.29 +0.21% 2026-10-25T03:56:41.000-0400 prev 80,414.15
+US10Y 4.999% +0.046 +0.9287% 2026-10-23T17:05:00.000-0400 prev 4.953%
+XAU= 3,995.52 UNCH UNCH 2026-10-25T02:11:57.237-0400 prev 3,995.52
