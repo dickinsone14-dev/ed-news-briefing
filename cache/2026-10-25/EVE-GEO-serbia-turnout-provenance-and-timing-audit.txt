@@ -1,0 +1,59 @@
+URL: https://www.aljazeera.com/video/newsfeed/2026/10/25/serbia-votes-as-student-led-bloc-challenges-longtime-leader-vucic
+Daily Brief research audit for the EVENING edition, compiled 17:46 GMT Sun 25 Oct 2026. Primary URL above is the Al Jazeera newsfeed item checked for a Serbian turnout figure; it carries none. This file records what IS and IS NOT known about tonight's three elections at publication time.
+
+=== THE CLOCK, STATED ONCE ===
+British Summer Time ended at 02:00 BST = 01:00 UTC on Sunday 25 October 2026.
+ - A "Z" stamp BEFORE 2026-10-25T01:00:00Z converts to local British time by ADDING ONE HOUR (BST).
+ - A "Z" stamp AT OR AFTER 2026-10-25T01:00:00Z is ALREADY local British time (GMT). Add nothing.
+Worked example in tonight's set, same article, both sides of the cutover: BBC France arrests piece, datePublished 2026-10-24T19:28:47Z = 20:28 BST Saturday; dateModified 2026-10-25T10:38:15Z = 10:38 GMT Sunday.
+Continental zones after the EU change the same night: Serbia CET = UTC+1. Bulgaria EET = UTC+2. Brazil Brasilia = UTC-3 (no change). US Eastern still EDT = UTC-4 until 1 November.
+
+=== THE THREE ELECTIONS, BY CLOSING TIME ===
+BULGARIA — polls 05:00 to 18:00 GMT. ALREADY CLOSED, about 75 minutes before a 19:15 publication. Source: Al Jazeera, which gives both local (7am-8pm) and GMT.
+SERBIA — polls 06:00 to 19:00 GMT. CLOSING AT OR AROUND THE MOMENT YOU PUBLISH. First indications of results around 21:00 GMT (BBC: "Voting ends at 20:00, with first indications of results expected two hours later", 20:00 CET = 19:00 GMT).
+BRAZIL — polls close 17:00 Brasilia = 20:00 GMT. STILL OPEN AT PUBLICATION, about 45 minutes of voting left. Source: Al Jazeera live blog, single-sourced.
+
+=== SERBIA: PROVENANCE OF THE 46% TURNOUT FIGURE — THE ANSWER IS "NOT STATED" ===
+The figure: 46% of the electorate had voted by 14:00 local = 13:00 GMT, described as a record high and as "nearly a million more than the comparable figure for the previous election in December 2023".
+Carried by: BBC News only, article c6jdmj1ej715o, datePublished 15:07 GMT, dateModified 16:05 GMT.
+WHOSE FIGURE IS IT? THE BBC DOES NOT SAY. Its words are "Early reports suggest" and "Preliminary reports suggest". It names NO electoral commission, NO monitoring NGO, NO broadcaster.
+ - It is NOT attributed to the Republic Electoral Commission (RIK). The BBC mentions RIK only to say police have closed the streets around it in Belgrade.
+ - It is NOT attributed to CeSID or CRTA.
+ - It is NOT attributed to any broadcaster estimate.
+SEARCHES RUN TO FIND A SECOND SOURCE, ALL NEGATIVE:
+ - NBC News Serbia article rcna605377 (Reuters copy) re-fetched at 17:40 GMT: still the 02:52 EDT = 06:52 GMT version, NOT updated, NO turnout figure, no exit poll, no result.
+ - Al Jazeera's 25 Oct Serbia news article and its newsfeed video item: no turnout figure.
+ - Approved-domain web search for the turnout, RIK, CeSID and CRTA: returned no article carrying the 46%.
+RECOMMENDED WORDING: "Early reports suggested a record turnout, with the BBC putting it at 46% by 13:00 GMT". Attribute to the BBC. DO NOT write "the electoral commission said".
+
+=== WHAT IS NOT KNOWN ABOUT SERBIA AT 19:00 GMT ===
+NO exit poll. NO partial result. NO full result. NO claim of victory by anyone. NO dispute of a count. NO final turnout figure.
+Do not write "counting under way" — at 19:00 GMT polls are only just shutting, and the BBC's own guide puts first indications at about 21:00 GMT, nearly two hours after publication.
+The only forward-looking, sourced caution worth printing: Zarko Korac, former Serbian deputy prime minister, told the BBC that "if Vucic declares victory this evening, probably late in the evening, I don't think the students will accept that." That is a named warning about a possible dispute, NOT evidence of one.
+Reading guide, unattributed in the BBC: "Most commentators suggest that a high final turnout, 65% or above, would favour the students."
+
+=== WHAT IS NOT KNOWN ABOUT BRAZIL ===
+NO turnout, NO result, NO declaration, NO concession, NO claim of victory. Polls do not shut until 20:00 GMT. Guardian 14:41 GMT: "The result is expected late Sunday evening."
+
+=== WHAT IS NOT KNOWN ABOUT BULGARIA ===
+Polls shut 18:00 GMT. As of an approved-domain search at 17:44 GMT, NO exit poll and NO result had appeared in any approved source. Pre-election polling by Alpha Research, via Al Jazeera: Iotova 41%, Gyurov 28%. A run-off on 1 November is EXPECTED because turnout was forecast below 40% and a first-round win needs over 50% of votes cast plus turnout above 50% of the 6.6 million electorate. EXPECTED is not DECLARED.
+Alpha Research is NOT in SOURCES.md. Cite Al Jazeera reporting it.
+
+=== GULF AND HORMUZ, TODAY: A NIL RETURN, STATED DELIBERATELY ===
+NO strikes, NO interceptions and NO shipping incidents in the Gulf or the Strait of Hormuz were found today in: the Al Jazeera Iran live blog (dateModified 17:30 GMT), the Times of Israel liveblog for 25 October, the BBC World index, the Guardian World index, and the CBS, NPR and CNN world indexes checked between 17:31 and 17:45 GMT.
+The Saudi-Houthi exchanges are a SEPARATE theatre: Mecca-province and Riyadh interceptions, logged in EVE-GEO-AlJazeera-houthi-barrage-mecca-province.txt, with the barrage beginning Saturday evening and running to midday Sunday.
+The movement in the Iran file today is DIPLOMATIC, not kinetic: Trump saying "There will not be a strike today."
+
+=== DOMAINS THAT SURFACED AND ARE NOT IN SOURCES.md — NOT USED FOR ANY FACT ===
+euronews.com (Bulgaria coverage); franceinfo (via BBC, Toulouse injury and La Verriere mayor); Wafa (via Al Jazeera, Hebron); Rasd Organization for Rights and Freedoms (via Al Jazeera, Taiz); Alpha Research (via Al Jazeera, Bulgaria polling); Telegram and X posts (via BBC, Guardian and Al Jazeera). In every case the approved outlet is the source; the originating body is named only for provenance.
+PBS was not used. Iran International was not used tonight at all — no fact in this evening's set rests on it.
+
+=== RESEARCH CUT-OFF, STATED PLAINLY ===
+All of the above was established between 17:31 and 17:46 GMT on Sunday 25 October 2026. That is BEFORE Bulgarian polls shut (18:00 GMT) and well before Serbian polls shut (19:00 GMT). A late re-check is logged at the end of this file. Nothing in this file should be read as describing the state of play at 19:15 GMT without that re-check.
+
+=== LATE RE-CHECK, 18:08 GMT SUN 25 OCTOBER 2026 ===
+Run 8 minutes after Bulgarian polls shut and 52 minutes before Serbian polls shut.
+SERBIA: BBC article c6jdmj1ej715o re-fetched. dateModified STILL 2026-10-25T16:05:15.913Z = 16:05 GMT. UNCHANGED in the two hours since. Still "46% having cast", still "record high turnout", still "Voting ends at 20:00" with "first indications of results expected two hours later". NO exit poll. NO result. NO turnout update beyond the 13:00 GMT figure. NO claim of victory. NO disputed count.
+BULGARIA: approved-domain search at 18:08 GMT returned NO exit poll and NO result, only pre-election polling. Nothing had been published by any approved source 8 minutes after the close. ONE EXTRA PRE-ELECTION DETAIL surfaced, as a RANGE rather than a point estimate: "Latest opinion polls give Yotova an edge in the first round of the race by giving her between 40 percent and 45 percent, versus Gyurov's 25-30%." NOTE THE SPELLING VARIANT: "Yotova" in that rendering, "Iotova" in Al Jazeera and the Guardian. Use Iotova.
+BBC WORLD INDEX at 18:08 GMT: unchanged from 17:31 GMT. No new lead-tier story had broken in that window. The sixteen items on the index are the same sixteen, in the same order.
+CONCLUSION FOR THE 19:15 SLOT: the election picture did not move between 17:31 and 18:08 GMT. Write Serbia as a TURNOUT story, Brazil and Bulgaria as diary lines. Nothing has been declared anywhere.

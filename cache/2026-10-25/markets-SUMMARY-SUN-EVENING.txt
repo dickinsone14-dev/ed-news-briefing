@@ -1,0 +1,57 @@
+URL: https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol
+MARKETS — EVENING EDITION, SUNDAY 25 OCTOBER 2026. Read 17:32 GMT.
+Second edition on Greenwich Mean Time. Verified at publication: tm_isdst = 0, zone GMT, offset 0.
+
+*** THE HONEST POSITION, FOR THE FOURTH EDITION RUNNING ***
+Nine of our ten markets have been shut since Friday afternoon. These nine figures are the SAME
+Friday closes published in our Saturday morning, Saturday evening and Sunday morning editions. A
+reader comparing all four will see an unchanged ticker, and that is correct rather than neglected.
+Bitcoin is the only market trading. *** MARKETS REOPEN TOMORROW MORNING. ***
+
+PUBLISHED              LEVEL        CHG%    BASIS
+FTSE 100              10,690.36    -0.32   Friday's close — fourth edition carrying it
+S&P 500                7,623.68    -0.52   Friday's close
+Brent                    116.72    +3.14   Friday's settle
+GBP/USD                   1.3372   -0.20   Friday's close
+Gold                   3,995.52    -0.77   Friday's close
+EUR/GBP                   0.8375   +0.10   Friday's close
+10y gilt                  5.37     +0.04   Friday's close
+VIX                      19.45     +2.21   Friday's close
+Bitcoin               80,644.70    +0.29   *** LIVE — the only market trading ***
+10y UST                   5.00     +0.05   Friday's close
+
+BITCOIN THROUGH THE WEEKEND, AND THE SIGN DISPUTE REVISITED
+  80,244 (-1.19%) 19:41 Sat -> 80,307 (-1.11%) 19:55 Sat -> 80,532 (+0.15%) 08:03 Sun -> 80,645 (+0.29%) now.
+  THIS MORNING the two providers disagreed on the SIGN (CNBC +0.15% against Trading Economics
+  -0.34%), and this edition's predecessor therefore made no directional claim at all. The cross-check
+  was repeated at this reading and the result is recorded in the cross-check section below.
+  Either way the LEVEL is what we publish and the feed's own change is what the ticker carries.
+
+CROSS-CHECK - AND THE SECOND PROVIDER APPEARS TO HAVE STOPPED UPDATING
+  Bitcoin  CNBC 80,644.70 (+0.29%)  vs  Trading Economics 80,525 (-0.34%)
+  Levels now differ by about $120, where this morning they agreed to within $12. The reason looks
+  like staleness rather than disagreement: *** Trading Economics' Bitcoin figure has moved only from
+  80,520 to 80,525, and its percentage not at all (-0.34% at both readings), across NINE AND A HALF
+  HOURS, while the primary feed moved 80,532 -> 80,645. A continuously traded asset does not sit
+  still for nine hours. *** The second provider therefore corroborates nothing at this reading.
+  CONSEQUENCE FOR THE COPY: the published level is the primary feed's and the ticker carries its
+  change, but *** NO DIRECTIONAL CLAIM ABOUT BITCOIN APPEARS IN THIS EDITION ***, exactly as this
+  morning - because an uncorroborated single feed is not a basis for saying which way a market moved.
+  Same rule as the gilt on 20 October, when one feed's drifted previous close inverted a fall.
+  For the record, this is the SECOND provider-degradation finding in two days: Trading Economics'
+  Brent page has been $8 to $14 low for eleven consecutive days, and its Bitcoin page now appears
+  frozen. Both are declared wherever they touch a published figure.
+  The nine closed markets were cross-checked on Saturday morning and those checks stand: the FTSE
+  agreed to the penny, the gilt agreed on level, the ten-year Treasury agreed on level and change.
+
+DECLARATIONS CARRIED FORWARD, STILL TRUE
+  1. Trading Economics' Brent page was $13.45 low on Saturday — the eleventh consecutive day wrong by
+     roughly $8 to $14. The oil level rests on the primary feed alone.
+  2. The ten-year Treasury reads 4.999% on one feed and 5.00% on the other. NO CLAIM THAT IT HAS
+     FALLEN BELOW 5% APPEARS ANYWHERE, for the fifth consecutive edition.
+  3. The feed's previous-close field for the gilt has drifted repeatedly, so the published day-move
+     rests on our own Friday-afternoon reading.
+
+NOTE: Monday's reopening is the first real test of these levels in four days, and the Budget follows
+on Wednesday. The gilt in particular went into the weekend as the outlier among the major bond
+markets, up about four basis points on Friday while the French ten-year eased.

@@ -1,0 +1,40 @@
+URL: https://www.bbc.co.uk/news/articles/c95ynd587ynzo
+BBC News. JSON-LD datePublished 2026-10-24T19:28:47.774Z — this is BEFORE the 01:00Z cutover, so it converts to 20:28 BST Sat 24 Oct 2026. dateModified 2026-10-25T10:38:15.984Z — AFTER the cutover, so 10:38 GMT Sun 25 Oct 2026. Retrieved by plain curl 17:44 GMT 25 Oct. THIS IS THE CLEANEST WORKED EXAMPLE OF THE CUTOVER IN TODAY'S CACHE: one article, two stamps, two different zone labels.
+
+HEADLINE: More than 1,300 arrested as clashes follow another day of mass protests across France
+
+THE ARREST FIGURE — IT IS A REVISION, NOT A DIFFERENT COUNT
+- "More than 1,300" arrests nationwide, "officials have said", for Saturday's protests. Last night we published almost 1,000. The BBC's own text explains the direction of travel: Interior Minister Laurent Nunez "said the number of arrests across the country would likely rise". So 1,300-plus is a revised NATIONAL figure for the same day, and it is safe to present it as a rise.
+- Paris alone: the Interior Ministry said 142 people were arrested in the capital on Saturday, "less than half of the number arrested on the same day last week".
+
+CROWD SIZE — STRAIGHT CONFLICT, BOTH NUMBERS, NEVER AVERAGED
+- The interior ministry said an estimated 410,000 people protested on Saturday.
+- The unions put the number at about 800,000.
+- A third figure is in today's cache from a different outlet: Irish Times, 24 Oct, "more than 400,000 protest across France" (MORN-GEO-IrishTimes-france-400000-protest.txt), which tracks the ministry figure.
+
+CASUALTIES AND POLICING
+- 53 officers hurt in clashes across the country on Saturday (interior ministry).
+- 70,000 police officers deployed.
+- Nunez said two people had been "seriously injured": one in Toulouse, one in Clermont-Ferrand. The man in Toulouse, a 20-year-old protester, "had several fingers torn off one hand when a nearby explosive went off" — the BBC sources this to Franceinfo citing the medic who treated him. FRANCEINFO IS NOT IN SOURCES.md. Cite the BBC reporting it, or omit the detail.
+- Authorities in Bouches-du-Rhone said seven businesses had been "looted or damaged" as unrest ran into the early hours of Sunday.
+
+NAMED QUOTES
+- Laurent Nunez, French Interior Minister: "several thousand radical activists gathered at the rear of the march, including around 500 individuals identified as rioters". The BBC attributes this via news agency AFP. AFP is approved.
+- Jean-Luc Melenchon, La France Insoumise candidate: French media had not covered the peaceful protests while police had created "a setup deliberately designed to provoke chaos" that had "mutilated two people".
+- Zelie, 26, a peaceful protester in Paris, to the BBC: "They keep us quiet. They take our money, they tax us a lot and we can't say anything. Today we are in the streets because it's been too long, it's been too much."
+- An unnamed masked teenage protester, on last Saturday's disorder: "I think looting is really not good. But it's because of poverty and the violence of the police." And: the protests would end "when we have a response to our demands. We really want a change in France".
+
+HARD CONTEXT
+- Emmanuel Macron decreed earlier in the week that only demonstrations organised by a recognised trade union would be permitted. Hundreds of people have been jailed for vandalism, arson and looting after fast-track court hearings.
+- Clashes in Paris erupted at the end of a peaceful march from Porte d'Italie towards Porte de Vincennes; the police operation included an elite unit that usually handles organised crime and counter-terrorism.
+- Barricades set alight in Marseille; boards ripped from a building in Bordeaux; tear gas in Lyon.
+- Some 13,000 people joined a peaceful rally against the hard-right National Rally in Orleans.
+- Macron leaves office next spring. Polls suggest a run-off between RN's Marine Le Pen and the candidate of La France Insoumise.
+
+THE EUROPE-WIDE SPREAD — USEFUL, AND NEW TO US
+- Barcelona: more than 120 arrested after a student protest descended into what local authorities described as "gratuitous violence".
+- Tirana, Albania: riot police fired tear gas to disperse thousands of anti-government demonstrators.
+- Brussels: clashes reported.
+- Milan: a major security operation including hundreds of soldiers alongside police prevented protesters gathering.
+
+SECOND APPROVED SOURCE: PARTIAL AND BEHIND. CBS News's world index at 17:42 GMT still carried "More than 1,000 arrested in France as protesters and police clash" — i.e. the OLDER figure. CNN's world index carried "France sees another weekend of mass protests as thousands rally across Europe". Irish Times, 24 Oct, has the 400,000-plus crowd figure. THE 1,300-PLUS ARREST FIGURE IS BBC-ONLY among the sources I reached, and CBS still has 1,000. Attribute the higher figure to the BBC.

@@ -1,0 +1,53 @@
+URL: https://www.npr.org/2026/10/25/nx-s1-6016222/venezuela-maria-corina-machado-leader-returns-exile
+NPR. JSON-LD datePublished 2026-10-25T12:18:41-04:00 = 16:18 GMT Sun 25 Oct 2026. dateModified 2026-10-25T12:54:13-04:00 = 16:54 GMT. NPR stamps in US Eastern, which is still EDT (UTC-4) until 1 November, so ADD FOUR HOURS. Retrieved by plain curl 17:46 GMT 25 Oct 2026.
+
+HEADLINE: Venezuela's opposition leader Maria Corina Machado returns after months in exile
+
+THIS IS THE THIRD INDEPENDENT APPROVED SOURCE ON THE RETURN. Timeline of the story breaking, all GMT:
+ - NPR 16:18 (published), 16:54 (updated)
+ - BBC 16:21
+ - Guardian 17:00 (first published), 17:18 JSON-LD, 17:33 modified
+ - CBS News and CNN also carry it; CNN's own article page returns HTTP 451 to us and CBS's returns 404 on the slug I tried, so I have them only from their world indexes and from search metadata.
+NPR BROKE IT FIRST of the sources I can timestamp, at 16:18 GMT.
+
+=== THE MACHADO QUOTE IS RENDERED FOUR DIFFERENT WAYS. DO NOT QUOTE IT VERBATIM. ===
+- NPR's own article deck: Machado "announced her arrival on social media, writing 'I am here. With you.'"
+- NPR's own article body, four paragraphs later: "In a post on X, Machado declared: 'I'm here, with you all.'"
+  NPR CONTRADICTS ITSELF ON THE SAME PAGE.
+- BBC: "I am here. With you."
+- Guardian: "I'm here. With you."
+All four are translations of the same Spanish-language post on X. RECOMMENDATION: do not put it in quotation marks. Write that she announced her arrival on X saying she was back and with her supporters, or attribute one rendering explicitly to one outlet. Our rules bar unverified social media as a source; here the approved outlet is the source, and the outlets do not agree on the wording.
+
+=== THE LOCATION IS NAMED DIFFERENTLY BY DIFFERENT OUTLETS — SAME PLACE, TWO NAMES ===
+- NPR, attributing to her campaign team: her first public appearance was "among worshippers at the Church of Santa Rosa in Lara State, in western Venezuela, where she was quickly surrounded by an ecstatic congregation."
+- Guardian: "a church called the Sanctuary of the Divine Shepherdess", in Barquisimeto, capital of Lara state, about 220 miles west of Caracas.
+- BBC: "a church in the Venezuelan state of Lara".
+All three agree on LARA STATE. The church is named two ways. SAFEST: "a church in Lara state, in western Venezuela". Do not assert a church name.
+- NO CROWD FIGURE from any of the three. NPR says "an ecstatic congregation". Do not supply a number.
+- NO SECURITY PRESENCE and NO DETENTION reported by any of the three. She appears to be free and in public.
+- HOW SHE ENTERED THE COUNTRY IS NOT KNOWN. Guardian: "It was not immediately clear how Machado, 59, had managed to return". NPR does not say either.
+
+=== TRUMP'S REACTION — TWO OUTLETS, TWO WORDINGS, TWO LOCATIONS ===
+- NPR: "Speaking to reporters as he left the White House on Sunday afternoon, President Trump said he knew nothing about Machado's return, describing her as 'a very nice woman' and adding that she had given him her Nobel Prize." Then: "'And I hope she's safe,' he said, adding that 'we're doing really well in Venezuela.'"
+- Guardian: "Asked by reporters on Sunday about her return, Trump said: 'I don't know anything about it, but I think she's a very nice woman. She gave me her Nobel prize, so how can I say anything else?'" Then: "'I hope she's safe. She's a very nice woman. But we're doing very well in Venezuela,' he said."
+- WORDING CONFLICT: NPR has "we're doing REALLY well in Venezuela"; the Guardian has "we're doing VERY well in Venezuela". One word apart, same clause. Pick one and attribute, or paraphrase.
+- LOCATION: NPR says he spoke leaving the White House on Sunday afternoon. Separately, the Times of Israel places his Iran remarks the same day at Joint Base Andrews, Maryland. These are probably two points on one Sunday gaggle sequence, but I CANNOT prove they are the same exchange. Do not merge the Iran quote and the Venezuela quote into a single setting.
+
+=== NEW HARD DETAIL NPR ADDS THAT THE OTHERS DO NOT ===
+- "The Trump administration has repeatedly sidelined Machado, despite her prominence in the opposition. She has called for elections to be held soon, but Washington says Venezuela must first stabilize." This is the cleanest statement of the US position and it squares with the Guardian's "reportedly opposed Machado's return".
+- Edmundo Gonzalez Urrutia is "currently in exile in SPAIN". Neither the BBC nor the Guardian says where he is.
+- Extra Gonzalez quote NPR carries and the others do not, concluding his post: "You know it, this is until the end." He also said he expected to join Machado soon so the country could "truly advance towards freedom".
+- Her exile timeline per NPR: "In January 2025, Machado went into hiding in Venezuela after being briefly detained following a protest. Later that year, she left the country in a clandestine escape, and reappeared in December in Norway, where she was awarded the Nobel Peace Prize."
+- NPR carries a related piece headlined "'She's awesome': How U.S. veterans helped Venezuela's Machado escape".
+
+=== DURATION OF EXILE — THREE FIGURES, DO NOT AVERAGE ===
+- NPR: "ten months abroad".
+- BBC: "over 10 months in exile".
+- Guardian: "almost a year in exile".
+SAFEST: "about ten months" (NPR and BBC agree closely) and note the Guardian's "almost a year" if you want the longer frame.
+
+=== THE GOVERNMENT RESPONSE: A CONFIRMED NIL RETURN ===
+NONE of NPR, BBC, Guardian, or the CBS and CNN index entries carries any statement from interim President Delcy Rodriguez or from the Venezuelan government. An approved-domain search at 17:46 GMT returned no response either.
+NPR frames the stakes: "Her return poses a challenge to interim President Delcy Rodriguez, who took over after U.S. forces captured former leader Nicolas Maduro in January." And: "Since Maduro's ouster, Venezuela has been run by acting President Delcy Rodriguez, a longtime Maduro ally who received the Trump administration's blessing to succeed him."
+ROLE LABEL CONFLICT: NPR uses BOTH "interim President" and "acting President" for Rodriguez in the same piece; the BBC says she "was sworn in as interim president"; the Guardian says "interim president". USE "interim president" — it is the majority form and the BBC ties it to a swearing-in.
+WRITE THE SILENCE AS THE SILENCE: as at 17:46 GMT the Venezuelan government had said nothing publicly about the return of the opposition leader. That is reportable and it is accurate.
