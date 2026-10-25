@@ -1,0 +1,42 @@
+URL: https://www.bbc.co.uk/news/articles/c6jdmj1ej715o
+BBC News. JSON-LD datePublished 2026-10-25T15:07:00.187Z = 15:07 GMT Sun 25 Oct 2026. dateModified 2026-10-25T16:05:15.913Z = 16:05 GMT. Both stamps are AFTER the 01:00Z BST/GMT cutover, so Z = GMT, add nothing. Retrieved by plain curl 17:36 GMT 25 Oct. Byline: additional reporting by Andre Rhoden-Paul.
+
+HEADLINE: Early reports suggest record high turnout in Serbia elections
+
+THE TURNOUT FIGURE AND ITS PROVENANCE — READ THE CAVEAT
+- "Preliminary reports suggest a record high turnout, with 46% having cast their vote by 14:00 local time (13:00 GMT), nearly a million more than the comparable figure for the previous election in December 2023."
+- PROVENANCE IS NOT STATED. The BBC attributes the 46% to "preliminary reports" and "early reports" only. It does NOT name the Republic Electoral Commission (RIK), nor a monitoring body such as CeSID or CRTA, nor a broadcaster estimate. I could not find the 46% in any second approved source (see audit file EVE-GEO-serbia-turnout-provenance-and-timing-audit.txt). Do NOT attribute it to the electoral commission.
+- The BBC supplies its own GMT conversion in brackets: 14:00 local = 13:00 GMT. Serbia is on CET (UTC+1) after the EU clock change of 25 Oct, so this is correct.
+- The "record" comparison is against the previous parliamentary election of December 2023, expressed as "nearly a million more" votes cast by the same hour. No percentage is given for 2023.
+
+POLL TIMES — CONFIRMED, CONSISTENT WITH THIS MORNING
+- "Voting ends at 20:00, with first indications of results expected two hours later." 20:00 CET = 19:00 GMT. First indications therefore around 22:00 CET = 21:00 GMT.
+- At a 19:15 GMT publication slot, Serbian polls will have been shut for roughly 15 minutes and first indications will still be around 1 hour 45 minutes away.
+
+THRESHOLD FOR READING THE TURNOUT
+- "Most commentators suggest that a high final turnout, 65% or above, would favour the students." Unattributed to any named commentator.
+
+HARD FIGURES
+- Electorate 6.45 million in a population of 6.53 million, which the BBC says raises "concerns about the reliability of the electoral register". Serbs from Kosovo and dual Serbian citizens from neighbouring Bosnia also have the right to vote.
+- 8,210 voting stations. The Student List has delegated at least two observers to each.
+- Student List fields 250 candidates, topped by Ilija Srdanovic, described here as a professor at Novi Sad University. (NOTE CONFLICT: Al Jazeera and NBC both describe Srdanovic as a cardiologist. BBC says professor at Novi Sad University. Both may be true; do not merge without saying so.)
+- Ipsos poll published Thursday: SNS 47 percent, Student List 40 percent. Other polls have put the students ahead.
+- Vucic and SNS are number one on the ballot paper; the Student List is number three.
+- The 2024 Novi Sad train station canopy collapse killed 16 people.
+
+NAMED QUOTES
+- Zarko Korac, former deputy prime minister of Serbia and long-term opponent of nationalist parties including the SNS, to the BBC: "We are witnessing a unique experiment in European contemporary history."
+- Korac: "These are people that don't know each other, you have no idea what their political beliefs are, and we now expect them to create a functioning government. So it's anybody's guess what happens after they win."
+- Korac: "On the other hand, if Vucic declares victory this evening, probably late in the evening, I don't think the students will accept that."
+- Aleksandar Vucic, in his campaign video: "These are the hands that hold Serbia in their palms. And with these hands, calmly and with dignity, we shall finish what we started."
+- Katarina, 29, a voter who travelled from the Netherlands to vote for the Student List, to the BBC outside a polling station in Belgrade's Zvezdara district: "I wanted to be a part of this, and I wanted to be part of a movement." And on the candidates' inexperience: "Just because they're politically inexperienced, they are experts in their own fields, which we have not seen thus far."
+
+IRREGULARITY ALLEGATIONS — ALLEGED, NOT ESTABLISHED
+- "Videos circulating on social media on Sunday morning show a cafe in the southern city of Nis, where ballot papers were allegedly filled out in advance in a practice known as 'chain voting'." Signs in the window read "private party". SOURCE IS SOCIAL MEDIA VIDEO described by the BBC; treat as an allegation reported by the BBC, and note our banned-source rule on unverified social media. Safer to omit or to say only that the BBC reports allegations of advance ballot-filling in Nis.
+- "There have also been reports of attacks on election monitors and journalists at several polling stations." No figures, no named victims.
+- In Belgrade, police have closed streets around the Republic Electoral Commission (RIK).
+
+QUEUES
+- Long queues formed outside polling stations in larger cities and smaller towns, and at polling stations abroad including Ljubljana, Munich, Los Angeles and Chicago. In Paris, Serbian voters waited in heavy rain.
+
+NO RESULT. NO EXIT POLL. NO CLAIM OF VICTORY. NO DISPUTE OF A COUNT. As of 16:05 GMT, the latest update on this page, none of those existed.

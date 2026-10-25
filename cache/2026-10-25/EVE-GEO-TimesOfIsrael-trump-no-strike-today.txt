@@ -1,0 +1,32 @@
+URL: https://www.timesofisrael.com/liveblog_entry/trump-says-us-wont-strike-iran-today-amid-rising-tensions
+Times of Israel, newsroom liveblog entry (NOT blog content). Entry timestamp displayed as "Today, 6:47 pm". Times of Israel liveblog stamps are Israel local time. Retrieved via WebFetch 17:50 GMT 25 Oct 2026 (curl 403s on this domain). Byline: Lazar Berman, with Times of Israel staff.
+TIMEZONE CAUTION: the page does not print a zone. 6:47 pm Israel time is 15:47 GMT if Israel is on IDT (UTC+3) or 16:47 GMT if on IST (UTC+2). It CANNOT be US Eastern: 6:47 pm EDT would be 22:47 GMT, which is in the future. I could not confirm Israel's clock-change date from an approved source. SAFEST WORDING: "this afternoon" or "by 17:30 GMT", not a precise minute. Al Jazeera's liveblog carrying the same quote has dateModified 2026-10-25T17:30:00Z = 17:30 GMT, which is a hard upper bound.
+
+HEADLINE: Trump says US won't strike Iran today, amid rising tensions
+
+THE QUOTE — THIS IS THE ITEM
+- DONALD TRUMP, President of the United States, asked by a reporter whether the US would attack Iran that day: "The answer is no. There will not be a strike today."
+- Location: Joint Base Andrews, Maryland, speaking to reporters.
+- Context given: tensions have been rising in US-Iran relations, and Iranian officials have confirmed preparations to target US diplomats and personnel, according to reporting by the New York Times.
+
+SECOND APPROVED SOURCE — YES, AL JAZEERA
+Al Jazeera live blog, "Iran war live: Trump says 'no strike today'; Qatar mediators in Tehran", URL https://www.aljazeera.com/news/liveblog/2026/10/25/iran-war-live-trump-hints-at-possible-sunday-iran-attack-or-deal-reached
+ - JSON-LD datePublished 2026-10-25T00:00:00Z, dateModified 2026-10-25T17:30:00Z = 17:30 GMT. The 00:00:00Z publish stamp is a placeholder, not a real time — do not quote it.
+ - NOTE: this URL is ALREADY IN TODAY'S CACHE as MORN-GEO-AlJazeera-iran-war-live-25oct.txt, captured at 07:56 GMT when the same live blog was headlined "Trump hints at possible Sunday Iran attack or deal reached". THE HEADLINE HAS BEEN REVERSED DURING THE DAY. That reversal is itself the story: this morning the page trailed a possible Sunday strike; by 17:30 GMT it leads on Trump ruling one out. I have NOT written a second file against this URL because the generator refuses duplicate URLs.
+ - Al Jazeera standfirst: "US President Donald Trump rules out immediate military action against Iran, saying there will not be a strike on Sunday."
+ - Al Jazeera body: "United States President Donald Trump has ruled out immediate military action against Iran, saying 'there will not be a strike today'. Earlier, he suggested Washington might have to 'finish the job' - or could reach a deal with Tehran."
+ - Al Jazeera video caption on the same page: "Trump mocks reporter asking about Iran strikes, as Tehran says US derailed talks" (1 min 17 sec).
+
+IRAN'S RESPONSE — ATTRIBUTE AS TEHRAN'S ASSERTION
+- Al Jazeera: "Iran's parliament speaker says the US has entered a 'quagmire' because of miscalculations in launching the war and Washington must now 'take the necessary steps to extricate' itself."
+- CAUTION: Al Jazeera does NOT name the parliament speaker on this page. Do not supply a name from memory. Either write "Iran's parliament speaker" or omit.
+
+QATARI MEDIATION — THINLY SOURCED, HANDLE WITH CARE
+- The Al Jazeera headline says "Qatar mediators in Tehran". The static page body does NOT carry any named Qatari official, no delegation size, no arrival time and no account of what was discussed. The individual live blog entries do not render in the fetched HTML.
+- A web search of approved domains returned the general statement that "mediators led by Qatar and Pakistan were working to bridge the gap between Washington and Tehran to return to an interim ceasefire deal that collapsed", but I could not tie that to a dated article today.
+- RECOMMENDATION: you may safely write that Al Jazeera's live blog reports Qatari mediators in Tehran. Do NOT name anyone, do not give a delegation size, and do not assert what was agreed.
+
+NO DEAL IS CONFIRMED
+- Approved-source search surfaced a Times of Israel report headlined "Iran denies it asked Trump not to strike or agreed to deal to split control of Hormuz", and an Iranian foreign ministry spokesman saying "reports regarding an agreement are speculative, and nothing has been finalized." I did not open and timestamp that piece, so treat it as unverified for tonight and do not use it as a dated fact.
+
+STRIKES, INTERCEPTIONS, SHIPPING INCIDENTS IN THE GULF OR STRAIT OF HORMUZ TODAY: NONE FOUND. The Al Jazeera Iran live blog static content carries none. The Times of Israel liveblog excerpt carries none. Do not imply any.

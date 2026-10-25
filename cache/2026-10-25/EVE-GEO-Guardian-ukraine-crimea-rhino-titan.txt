@@ -1,0 +1,32 @@
+URL: https://www.theguardian.com/world/2026/oct/25/ukraine-war-briefing-kyiv-targets-russian-occupied-crimea-as-uk-and-france-conduct-joint-military-exercise
+The Guardian, "Ukraine war briefing", day 1,705. JSON-LD datePublished 2026-10-25T02:37:44.000Z = 02:37 GMT Sun 25 Oct 2026. dateModified identical. AFTER the 01:00Z cutover, so Z = GMT. Retrieved by plain curl 17:41 GMT 25 Oct.
+
+STALENESS WARNING, READ FIRST: this is an EARLY-MORNING briefing and MOST of its content describes SATURDAY's events. It is not an afternoon update. Only two elements in it are genuinely datelined Sunday: the UK/France exercise announcement and the Bulgarian vote. Everything else is Saturday and should be labelled Saturday if used at all.
+
+SUNDAY-DATELINED CONTENT
+1. UK/FRANCE EXERCISE — announced by the UK government on Sunday
+- "Thousands of British and French troops have taken part in a military training exercise that included one of Britain's largest airborne operations in two decades, the UK government said on Sunday."
+- About 2,500 troops involved in a SEVEN-WEEK exercise.
+- 600 British and French paratroopers dropped from FOUR RAF A400M Atlas transport aircraft over Germany.
+- Exercise name: RHINO TITAN, held at the Sennelager military training centre in Germany.
+- It has been "testing British troops' ability against an enemy equipped with drones and electronic warfare".
+- "The war game is designed to show how Nato countries could be defended against a modern-day attack and comes during fears about Russian aggression in Europe amid Moscow's war against Ukraine."
+- QUOTE: Wes Streeting, described by the Guardian as British defence minister: "The threats we face in the 21st century require an updated, modern approach to warfare - and our adaptable armed forces are preparing accordingly."
+- ROLE CHECK: the Guardian says "British defence minister". If you use the quote, "defence secretary" vs "defence minister" matters; use the Guardian's wording or verify against gov.uk before upgrading it.
+2. BULGARIA VOTES — see EVE-GEO-AlJazeera-bulgaria-presidential-election.txt
+- "Bulgarians will vote in presidential elections on Sunday as Russia's war in Ukraine spreads to the waters off Bulgaria's Black Sea coast."
+- "Polls place acting president Iliana Iotova and ex-caretaker prime minister Andrey Gyurov as leaders in a race of 27 candidates."
+- NOTE the Guardian says ACTING president; Al Jazeera says President. Conflict logged in the Bulgaria file.
+- "While the presidency is largely ceremonial, Sunday's vote has taken on added significance after a series of drone attacks on merchant ships off Bulgaria's Black Sea coast that likely killed about two-dozen international seafarers."
+
+SATURDAY CONTENT — LABEL AS SATURDAY IF USED
+- A Ukrainian attack led to water and power cuts in occupied Crimea on Saturday, according to Russian authorities. Sergei Aksyonov, the Moscow-installed head of the Crimean peninsula, wrote on Telegram that because of the drone attack on local power grids "restrictions on the supply of electricity and water have been put in place". He did not specify how many households were affected. Crimea "is home to more than 2.5 million people". RUSSIAN-INSTALLED OFFICIAL'S ASSERTION, via Telegram.
+- A separate Ukrainian strike in the Russian-held part of the north-eastern Kharkiv region killed at least three people and gravely wounded another on Saturday, "the Moscow-backed authorities said". THEIR CLAIM.
+- Russia's defence ministry said 616 drones had been shot down overnight across more than 20 regions. RUSSIAN MINISTRY CLAIM, uncorroborated.
+- During the day, drones hit Russia's south-western Bryansk border region, killing at least three people, said regional acting governor Yegor Kovalchuc on Telegram. HIS CLAIM.
+- In Ukraine, authorities said at least five people died in Russian drone and missile strikes in the east. Dnipropetrovsk regional governor Oleksandr Ganzha said on Saturday evening that three were killed and at least 12 wounded when a Russian drone hit the town of Synelnykove, setting the fourth floor of a high-rise on fire. Authorities in Sumy said a Russian drone hit a farm, killing a 31-year-old woman and injuring four others. UKRAINIAN OFFICIALS' CLAIMS.
+- STARLINK: the briefing restates that Ukraine's access was restored 10 days after restrictions, and that Musk accused the Ukrainian military of violating the company's terms, with neither Musk nor the US government, which operates Starshield using Starlink technology, taking responsibility for the curbs. WE PUBLISHED THIS AT 08:22. NOT AN ADVANCE. Do not rerun.
+
+CASUALTY SYMMETRY NOTE: every casualty figure in this briefing comes from one belligerent's officials about the other side's strike. If you run any of them, label the asserting party in the same sentence. Russian-side figures: Aksyonov, Kovalchuc, Russian defence ministry, Moscow-backed Kharkiv authorities. Ukrainian-side figures: Ganzha, Sumy authorities.
+
+SECOND APPROVED SOURCE: the Rhino Titan exercise is Guardian-only among the sources I reached, but it is attributed to a UK government announcement, so gov.uk should carry a release. I DID NOT CHECK GOV.UK FOR IT. If you lead on the exercise, verify against gov.uk first.

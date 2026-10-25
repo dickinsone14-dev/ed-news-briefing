@@ -1,0 +1,21 @@
+URL: https://www.gov.uk/government/topical-events/budget-2026
+gov.uk (approved primary). Queried via the gov.uk search API at 17:45-17:50 GMT Sunday 25 October 2026. This file records NEGATIVE findings — things verified NOT to exist — so they are not re-researched and not over-claimed.
+
+1. NOTHING NEW ON GOV.UK TODAY.
+Query: press releases ordered by public_timestamp descending, count 12. The most recent item returned is "Joint Press Release on the R4 Ministerial Meeting in Istanbul", public_timestamp 2026-10-24T07:41:00Z. Nothing at all on Sunday 25 October. gov.uk is silent, exactly as expected for a Sunday. No Budget document, no Treasury announcement, no storm statement.
+
+2. THE BUDGET IS THREE DAYS AWAY. Recomputed independently: today is Sunday 25 October 2026; the Budget is Wednesday 28 October 2026; 28 minus 25 is 3; the intervening days are Monday 26 and Tuesday 27, with the Budget on Wednesday 28. THREE DAYS. "Four days out" would be wrong.
+The only Budget-related gov.uk page with a recent timestamp is the topical event page /government/topical-events/budget-2026, public_timestamp 2026-10-23T10:15:31Z = 11:15 BST Friday 23 October. Also returned: "Households to receive £150 Warm Home Discount confirmation letter", 2026-10-22T09:46:00Z, and "Chancellor letter to the Treasury Select Committee (TSC) - Budget 2026 date", 2026-07-31T14:04:56Z.
+Every Budget measure circulating today — the HMRC direct-recovery power, the bank levy, the online marketplace VAT measure, the capital gains decision, the first-time-buyer income caps — is newspaper reporting or briefing, NOT a gov.uk publication. The Treasury's line to the Independent today was a non-confirmation: "decisions on tax are a matter for the chancellor to set out at fiscal events, rather than routinely commenting on rumour, speculation or proposals."
+
+3. ROSEBANK: STILL NO DECISION, RE-VERIFIED.
+Query "Rosebank" at 17:45 GMT returns nothing later than "Rosebank Field Development", public_timestamp 2026-07-16T14:16:21Z. The other hits are unrelated (a 2016 cargo vessel fire, a 2026 Petrojarl Rosebank FPSO public notice dated 2026-05-22, and two residential property tribunal decisions). No consent decision has been published. This confirms the morning finding a second time, nine hours later.
+
+4. A DISCREPANCY TO SETTLE ON THE JACKDAW DATE — NOT A UK COLUMN ITEM, BUT FLAGGING IT.
+The gov.uk search API gives "Jackdaw gas field gets green light" a public_timestamp of 2026-10-23T16:30:25Z = 17:30 BST Friday 23 October. This morning's audit file SUN-UK-timestamp-and-staleness-audit.txt states the Jackdaw news release was "published 2026-10-21T06:29:00Z = 07:29 BST Wednesday 21 October 2026". Those are two days apart. One of the two readings is wrong — most likely the morning one read a different field, or the page was first published on the 21st and the search index records a later revision. Do not cite a Jackdaw publication date in tonight's edition without re-opening the page itself.
+
+5. NO GREEN PARTY / LABOUR NEC MATERIAL ON GOV.UK, as expected — it is an internal party matter. Query returned only unrelated planning and Companies House pages.
+
+6. MONDAY'S FIRST EDITIONS AND THE PAPERS REVIEW HAVE NOT APPEARED.
+The BBC's papers review for today, https://www.bbc.co.uk/news/articles/cmqln4vq1dn1o, has datePublished 2026-10-24T22:31:41Z = 23:31 BST Saturday 24 October and dateModified 2026-10-25T05:53:34Z = 05:53 GMT Sunday. That is the SUNDAY papers review and is already in the morning cache. Checked again at 17:55 GMT: no Monday papers review exists yet, and a targeted search for Monday 26 October front pages returns nothing. The BBC typically publishes it around 22:30. It will not be available before a 19:15 GMT publication.
+For the record, the Sunday review's own summary of today's front pages: the Sunday Times led on Burnham being "open to adopting EU free movement"; the Sunday Telegraph led on the Markle letter with Wes Streeting's "ready for war in 1,000 days" as a second item; the Sunday Mirror led on the Markle letter.
