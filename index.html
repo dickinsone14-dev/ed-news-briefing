@@ -2287,7 +2287,7 @@
  <!-- #1 Markets snapshot bar -->
  <!-- Embedded market data (populated by update script, used as fallback) -->
  <script id="embedded-markets" type="application/json">
-{"FTSE":{"price":10736.73,"change":0.43},"SP":{"price":7623.68,"change":-0.52},"Brent":{"price":114.97,"change":-1.5},"GBP":{"price":1.3344,"change":-0.21},"Gold":{"price":4015.49,"change":0.5},"EURGBP":{"price":0.8392,"change":0.2},"Gilt":{"price":5.349,"change":-0.0122},"VIX":{"price":19.24,"change":-1.08},"BTC":{"price":80190.1,"change":-0.36},"UST":{"price":4.988,"change":0.0},"ts":"2026-10-26T08:42:00+00:00"}
+{"FTSE":{"price":10767.33,"change":0.72},"SP":{"price":7680.86,"change":0.75},"Brent":{"price":116.23,"change":-0.42},"GBP":{"price":1.3353,"change":-0.14},"Gold":{"price":4022.7,"change":0.68},"EURGBP":{"price":0.8379,"change":0.05},"Gilt":{"price":5.3517,"change":0.0043},"VIX":{"price":18.34,"change":-5.71},"BTC":{"price":80255.5,"change":-0.28},"UST":{"price":4.982,"change":-0.006},"ts":"2026-10-26T17:51:00+00:00"}
 </script>
  <script id="market-descriptions" type="application/json">
 {
@@ -2295,36 +2295,37 @@
     "name": "FTSE 100",
     "desc": "The UK's benchmark stock index, tracking the 100 largest companies listed on the London Stock Exchange by market capitalisation. Includes Shell, AstraZeneca, HSBC and Unilever.",
     "drivers_up": [
-      "Opened higher and firmed through the first half-hour, up about 46 points on Friday's close in the first live session since then",
-      "Rose steadily across three successive readings this morning, from 0.20% to 0.43%"
+      "Closed 77 points higher at 10,767.33, its third rise in a row, two days before the Budget",
+      "A second provider agrees to within two points"
     ],
     "drivers_down": [
-      "An intraday reading on a feed delayed at least fifteen minutes, not a close. No approved outlet attributes this morning's move, so no cause is asserted"
+      "No approved source attributes the move, so no cause is asserted"
     ],
-    "updated": "26 October 2026 08:42 GMT (intraday &mdash; first live reading since Friday's close)"
+    "updated": "26 October 2026 17:51 GMT (London close)"
   },
   "SP": {
     "name": "S&P 500",
     "desc": "America's leading stock market index, tracking 500 of the largest US-listed companies. Dominated by mega-cap tech (Apple, Microsoft, Nvidia) but spans all sectors.",
     "drivers_up": [
-      "American futures were higher before the open, with the market coming off a losing week"
+      "Wall Street rallied to start the week, with the Nasdaq up about 1% on enthusiasm for the Anthropic share listing",
+      "Recovering from last week's losses"
     ],
     "drivers_down": [
-      "This is Friday's close: Wall Street has not opened, so the figure and the percentage both describe Friday's session, not today's"
+      "Still trading as this edition is published, so the figure is not a close"
     ],
-    "updated": "26 October 2026 08:42 GMT (Friday's close &mdash; Wall Street has not opened)"
+    "updated": "26 October 2026 17:51 GMT (Wall Street still trading)"
   },
   "Brent": {
     "name": "Brent Crude Oil",
     "desc": "The global benchmark for crude oil pricing, produced from oil fields in the North Sea. Used to price roughly two-thirds of the world's traded oil.",
     "drivers_up": [
-      "Still close to the six-month high set on Friday, when it settled more than 3% higher after Tehran threatened Gulf energy infrastructure"
+      "Briefly topped $117 earlier in the session and is up about 12% this month",
+      "European gas prices hit a four-year high the same day, at EUR97 a megawatt-hour"
     ],
     "drivers_down": [
-      "Fell about 1.5%, the first decline after three consecutive weekly gains, as traders weighed the risk of further attacks on Saudi energy infrastructure against the prospect that prices this high erode demand",
-      "A named chief investment officer puts roughly $20 a barrel of the current price down to geopolitical risk, and warns of demand destruction above $120"
+      "Ticked about 40 cents lower as Saudi Arabia's defence minister held talks with Iran's president in Tehran aimed at easing tensions &mdash; the clearest case this month of diplomacy, rather than supply, moving the price"
     ],
-    "updated": "26 October 2026 08:42 GMT (intraday &mdash; first live reading since Friday's close)"
+    "updated": "26 October 2026 17:51 GMT (London close)"
   },
   "GBP": {
     "name": "GBP/USD",
@@ -2333,43 +2334,42 @@
       "Would need Wednesday's Budget to reassure"
     ],
     "drivers_down": [
-      "Eased about a fifth of a percent against the dollar, confirmed to within three ten-thousandths on a second provider. The Budget is on Wednesday"
+      "Eased about a seventh of a percent against the dollar; a second provider agrees to within five ten-thousandths"
     ],
-    "updated": "26 October 2026 08:42 GMT (intraday &mdash; first live reading since Friday's close)"
+    "updated": "26 October 2026 17:51 GMT (London close)"
   },
   "Gold": {
     "name": "Gold (XAU/USD)",
     "desc": "The spot price of gold in US dollars per troy ounce. The world's oldest safe-haven asset, traditionally rising during periods of uncertainty, inflation and currency debasement.",
     "drivers_up": [
-      "Firmed about half a percent and is back above $4,000, having closed below it on Friday",
-      "Agrees with a second provider to within about a dollar"
+      "Firmed about two-thirds of a percent to hold above $4,000, and a second provider agrees to within a tenth of a dollar"
     ],
     "drivers_down": [
-      "No approved source attributes the move"
+      "Eased against a sharply calmer volatility index"
     ],
-    "updated": "26 October 2026 08:42 GMT (intraday &mdash; first live reading since Friday's close)"
+    "updated": "26 October 2026 17:51 GMT (London close)"
   },
   "EURGBP": {
     "name": "EUR/GBP",
     "desc": "The exchange rate between the euro and the British pound. Key for UK-EU trade pricing. A falling rate means sterling is strengthening against the euro.",
     "drivers_up": [
-      "The euro firmed about a fifth of a percent against sterling; a second provider's euro and sterling dollar rates imply 0.8395 against our 0.8392"
+      "Barely moved, the euro a twentieth of a percent firmer against sterling"
     ],
     "drivers_down": [
       "No approved source attributes the move"
     ],
-    "updated": "26 October 2026 08:42 GMT (intraday &mdash; first live reading since Friday's close)"
+    "updated": "26 October 2026 17:51 GMT (London close)"
   },
   "Gilt": {
     "name": "UK 10-Year Gilt Yield",
     "desc": "The yield on 10-year UK government bonds (gilts). A key benchmark for UK borrowing costs, mortgage rates and pension fund valuations. Rising yields mean falling bond prices.",
     "drivers_up": [
-      "Would need the Budget to unsettle rather than reassure"
+      "**Essentially unchanged on the day at 5.3517%, and deliberately given no direction: our two providers disagree on the SIGN of a move smaller than half a basis point.** What is notable is the absence of movement two days before the Budget, with the French ten-year now below 4.90% after easing again"
     ],
     "drivers_down": [
-      "Yields eased about one basis point to 5.349%, having risen about four on Friday when Britain was the outlier among major bond markets. The French ten-year also eased, by about four basis points, and is back below 5%. The Budget is on Wednesday; no approved source attributes the move, so none is asserted"
+      "Would need the Budget to unsettle rather than reassure"
     ],
-    "updated": "26 October 2026 08:42 GMT (intraday &mdash; first live reading since Friday's close)"
+    "updated": "26 October 2026 17:51 GMT (London close)"
   },
   "VIX": {
     "name": "VIX (Volatility Index)",
@@ -2378,31 +2378,31 @@
       "Would need the Budget or the Gulf to unsettle"
     ],
     "drivers_down": [
-      "Eased to about 19.2. **Our second provider's volatility page returned no figure, so this reading is uncorroborated and no directional claim is made for it**"
+      "Fell sharply, down more than 5% to 18.34, the clearest risk-on signal of the day. **Our second provider's volatility page again returned no figure, so the level is uncorroborated**"
     ],
-    "updated": "26 October 2026 08:42 GMT (intraday &mdash; first live reading since Friday's close)"
+    "updated": "26 October 2026 17:51 GMT (Wall Street still trading)"
   },
   "BTC": {
     "name": "Bitcoin (BTC/USD)",
     "desc": "The price of Bitcoin in US dollars. The largest cryptocurrency by market cap, increasingly viewed as digital gold by institutional investors since spot ETF approvals.",
     "drivers_up": [
-      "Holding around $80,000"
+      "Holding around $80,000 for a third session"
     ],
     "drivers_down": [
-      "**Our second provider's Bitcoin page again returned no figure, as it did yesterday, so this reading is uncorroborated. The figure is published and no directional claim is made for it**"
+      "**Our second provider's Bitcoin page returned no figure for the third consecutive reading, so this is uncorroborated and no directional claim is made**"
     ],
-    "updated": "26 October 2026 08:42 GMT (intraday &mdash; first live reading since Friday's close)"
+    "updated": "26 October 2026 17:51 GMT (Wall Street still trading)"
   },
   "UST": {
     "name": "US 10-Year Treasury Yield",
     "desc": "The yield on 10-year US government bonds, the global risk-free rate benchmark. Influences mortgage rates, corporate borrowing and equity valuations worldwide.",
     "drivers_up": [
-      "Unchanged at 4.988%, with the American market shut; a second provider agrees at 5.00%"
+      "Would need a change in the American rate outlook"
     ],
     "drivers_down": [
-      "No move to attribute"
+      "Eased marginally to 4.982%, with a second provider agreeing at 4.98%"
     ],
-    "updated": "26 October 2026 08:42 GMT (intraday &mdash; first live reading since Friday's close)"
+    "updated": "26 October 2026 17:51 GMT (Wall Street still trading)"
   }
 }
 </script>
@@ -2455,6 +2455,169 @@
  <!-- ════ ALL EDITIONS (sorted by JS) ════ -->
  <!-- IMPORTANT: Keep 7 FULL DAYS of editions in this container. Do NOT delete editions less than 7 days old. -->
  <div id="all-editions" style="display:none;">
+<!-- ── EVENING 26 OCT (17:51) ── -->
+<div class="curated-edition evening" data-date="2026-10-26" data-time="17:51" data-markets='{"FTSE":{"price":10767.33,"change":0.72},"SP":{"price":7680.86,"change":0.75},"Brent":{"price":116.23,"change":-0.42},"GBP":{"price":1.3353,"change":-0.14},"Gold":{"price":4022.7,"change":0.68},"EURGBP":{"price":0.8379,"change":0.05},"Gilt":{"price":5.3517,"change":0.0043},"VIX":{"price":18.34,"change":-5.71},"BTC":{"price":80255.5,"change":-0.28},"UST":{"price":4.982,"change":-0.006},"ts":"2026-10-26T17:51:00+00:00"}'>
+ <div class="edition-header">
+ <span class="edition-icon">&#127769;</span>
+ <h2>Evening Briefing</h2>
+ </div>
+ <div class="curated-meta">Monday 26 October 2026 &mdash; 17:51 GMT</div>
+ <div class="impact-box">
+ <h3 class="impact-heading">What It Means For You</h3>
+ <ul class="impact-list">
+ <li><strong>If you are on a western coast tonight:</strong> a yellow wind warning runs from six this evening until three tomorrow morning, with gusts to 65mph, and a second warning covers much of Scotland, northern England and Northern Ireland through Tuesday. Further power cuts are thought likely; keep a torch to hand.</li>
+ <li><strong>If you are worried about winter bills:</strong> European wholesale gas has hit a four-year high and the British month-ahead contract its highest since December 2022, on cold weather, thin storage and Gulf supply fears. A 16% rise in a typical annual bill in January, to about &pound;2,000, is a forecast rather than an announced cap.</li>
+ <li><strong>If you have a hospital appointment in late November:</strong> senior doctors in England will strike on the 25th and 26th, staffing emergency care only. Routine and planned work is the part that gets postponed, against a backlog of more than six million patients.</li>
+ </ul>
+ </div>
+ <div class="curated-grid">
+ <div class="curated-column">
+ <h3><span class="dot geo"></span><span class="dot-label">GEO</span> Geopolitical</h3>
+ <div class="curated-item" data-time="14:03" data-slug="gulf-chiefs-meet-irans-president-and-agree-to-keep-talking">
+ <h4>Gulf Chiefs Meet Iran&rsquo;s President and Agree to Keep Talking</h4>
+ <p>Saudi Arabia&rsquo;s defence minister, Pakistan&rsquo;s army chief and Turkey&rsquo;s intelligence chief met President Pezeshkian and the secretary of Iran&rsquo;s supreme national security council in Tehran today. Iranian state television says the four agreed to continue talks after what it called a first meeting. No communique has been issued and the talks were still under way this evening.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">This is the meeting we reported this morning as a journey; it has now happened, and what it was for is clearer than what it achieved. The three visitors represent a mutual defence pact signed in August, and the agenda was twofold: how Iran might persuade the Houthis to stop striking Saudi infrastructure, and whether a deal between Tehran and Washington can be reached before fighting resumes. Riyadh&rsquo;s statement put the aim as finding &ldquo;ways to de-escalate tensions, enhance regional security and promote its stability&rdquo;. Iran&rsquo;s foreign ministry spokesman said the past two years had shown that &ldquo;sustainable and reliable security in our region will only be possible by building trust and cooperation among the countries of the region&rdquo;. A former foreign minister put it more sharply: &ldquo;Regional security is not imported, it must be created by the people of this very region together.&rdquo; One analyst called it an eleventh-hour attempt to tip the balance towards compromise, warning that without a formula to bridge the American-Iranian divide the visitors may leave with &ldquo;little more than goodwill in a race against the clock&rdquo;. Iran&rsquo;s president was due in Moscow next for a gas exporters&rsquo; summit.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="11:49" data-slug="trump-says-he-is-choosing-between-a-deal-and-finishing-it">
+ <h4>Trump Says He Is Choosing Between a Deal and Finishing It</h4>
+ <p>Asked about Iran in a television interview on Sunday, the American president said he was weighing whether to make a deal or, in his words, &ldquo;finish them off&rdquo;. No date is attached to any of it. He has previously said strikes would not resume until after the midterm elections on 3 November, and Tehran responded by saying its policies are unchanged.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">We declined a version of this story this morning because two outlets had converted a refusal to answer into a date, and the caution holds up: both approved outlets carrying today&rsquo;s remarks state plainly that he has said any strikes would wait until after 3 November, and the last confirmed American strikes on Iran were on 1 September. There is a second reason for care. Three outlets render the same sentence three different ways &mdash; &ldquo;finish it off&rdquo;, &ldquo;finish them off&rdquo; and &ldquo;finish the job&rdquo; &mdash; and two of them reverse the order of its clauses, so only the short common phrase is quoted here and no full sentence is presented as verbatim. Iran&rsquo;s foreign minister answered on the record: &ldquo;Recently, there has been talk of a new war, but I am already thinking about the post-war period. Whether there is war or not, our policies remain the same.&rdquo; His spokesman, asked about tomorrow&rsquo;s Israeli election, said it made no difference who takes the helm. Watch 3 November, not this week.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="15:44" data-slug="un-mandated-inquiry-finds-crimes-against-humanity-in-west-bank">
+ <h4>UN-Mandated Inquiry Finds Crimes Against Humanity in West Bank</h4>
+ <p>A three-member commission of inquiry established by the UN Human Rights Council has reported that Israeli authorities and forces have committed the crimes against humanity of extermination, torture, rape and other forms of sexual violence in the occupied West Bank. Israel&rsquo;s mission in Geneva rejects the findings and demands the commission&rsquo;s dissolution.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">Two points of precision matter here. The commission does not speak for the United Nations itself &mdash; it was mandated by the Human Rights Council in 2021 &mdash; and its remit covers harm caused by both Israeli and Palestinian security forces since October 2023, so this is not a one-sided inquiry. Its finding is that military operations, reinforced by sustained settler violence, amount to a &ldquo;widespread and systematic attack&rdquo; against civilians, with persecution &ldquo;based on intersecting discriminatory grounds, with nationality, race and ethnicity at its core&rdquo;, and that the authorities intended to collectively punish West Bank civilians. The report lands the day before Israel votes. Israel&rsquo;s mission calls it part of a &ldquo;misinformation campaign to demonise the State of Israel and portray its very existence as criminal&rdquo;. The same commission found genocide in Gaza in September last year, a finding Israel also rejects. For scale, UN humanitarian figures record 1,143 Palestinians killed in the West Bank and East Jerusalem in the three years to 9 October, at least 250 of them children.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="16:31" data-slug="church-says-more-than-sixty-christians-killed-in-oromia">
+ <h4>Church Says More Than Sixty Christians Killed in Oromia</h4>
+ <p>The Ethiopian Orthodox Tewahedo Church says more than sixty people have been killed in a series of attacks on Christians across three areas of the Shirka district in Ethiopia&rsquo;s Oromia region. A church official called it a massacre and said security forces arrived but could not stop the assault. The regional government says it will act.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">This rests on one approved outlet and one institutional claimant, which is said plainly rather than smoothed over: no second approved source carries it and no official death toll has been published, so the figure is the Church&rsquo;s. What gives it weight is that the outlet has its own eyewitness reporting in Amharic, including a resident whose 75-year-old father was killed: &ldquo;We were completely unprepared and had no prior knowledge. They surrounded us from all four directions.&rdquo; Eyewitnesses say five of the dead were children, and a statement from the Holy Synod says twenty houses were burnt to the ground. That statement names no perpetrator. A local official blamed a newly formed rebel coalition that includes the Oromo Liberation Army, which has not commented on this attack and has denied carrying out previous ones &mdash; so the attribution is a single official&rsquo;s, not a finding. The Church says attacks on Christians have been increasing and that it has raised concerns with government repeatedly, with &ldquo;no solution&rdquo;. A rights body counted 458 killed in the same area over four years.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="13:18" data-slug="algeria-approves-its-first-such-foreign-deployment-since-1973">
+ <h4>Algeria Approves Its First Such Foreign Deployment Since 1973</h4>
+ <p>Both chambers of Algeria&rsquo;s parliament have approved sending troops to Niger to protect energy installations in the north, near the Libyan border. It would be the country&rsquo;s first such deployment since it sent forces to Egypt during the 1973 Arab-Israeli war. Neither the timing nor the number of soldiers has been announced.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">For a state whose foreign policy has rested for half a century on not sending soldiers anywhere, this is the interesting part: the mission is explicitly commercial. A senator told reporters after the vote that &ldquo;we are not sending our soldiers to wage war in Niger, but for a mission to secure economic infrastructure&rdquo;, calling it an adaptation of doctrine to the Sahel. The infrastructure is Algeria&rsquo;s own &mdash; its state energy company has signed an exploration agreement with Niger&rsquo;s petroleum ministry, and a long-planned pipeline would carry Nigerian gas north through Niger. The upper house sat in emergency session on Sunday, where 148 of 174 senators voted in favour; one account calls the vote unanimous, which that figure contradicts, so the count is given instead. The deployment follows a visit to Algiers by Niger&rsquo;s defence minister and a thaw after a rift that saw Niger recall its ambassador, and it comes after Algeria sent fighter jets to help put down a coup attempt against the general who took power in 2023. Algeria is Africa&rsquo;s largest military spender.</div>
+ </details>
+ </div>
+ </div>
+ <div class="curated-column">
+ <h3><span class="dot uk"></span><span class="dot-label">UK</span> Domestic</h3>
+ <div class="curated-item" data-time="17:23" data-slug="no-10-pulls-back-from-the-prime-ministers-referendum-answer">
+ <h4>No 10 Pulls Back From the Prime Minister&rsquo;s Referendum Answer</h4>
+ <p>Asked by broadcasters whether he could introduce freedom of movement without a referendum, the prime minister answered &ldquo;no&rdquo;. Downing Street spent the afternoon qualifying it, saying he &ldquo;isn&rsquo;t proposing a return to freedom of movement or any option&rdquo; and is &ldquo;crucially not leaning either way&rdquo;. Sources say no decision on a referendum has been taken.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">This morning we recorded that no Downing Street clarification existed; one now does, and it is worth reading closely because it narrows the question without closing it. A Downing Street spokesperson said the government would not &ldquo;get ahead&rdquo; of how to consult the public on major changes to the relationship with the European Union, that &ldquo;the prime minister thinks the Brexit deal is not good enough&rdquo;, and that any decision &ldquo;will be for the British public to decide&hellip; What he wants to do first is have a conversation with the public. The process will follow.&rdquo; The distinction being lost is this: he already accepts a referendum would be needed to rejoin the European Union in full, and the open question is whether the single market alone would need one. On that, officials say no decision exists. The constraints are real: he says he is committed to the 2024 manifesto, which ruled out free movement, single market membership and a customs union, and any change would need a mandate at a general election, due by 2029. What is new today is not a policy but the discovery that the mechanism itself is undecided.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="09:47" data-slug="low-income-pensioners-to-be-shielded-from-income-tax">
+ <h4>Low-Income Pensioners to Be Shielded From Income Tax</h4>
+ <p>The chancellor will use Wednesday&rsquo;s Budget to protect pensioners on low incomes from income tax through a new allowance, honouring an existing pledge not to tax people whose only income is the state pension. From April 2027 the full new state pension reaches &pound;13,036, above the &pound;12,570 personal allowance frozen since 2021.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">This is the same story we carried this morning as reporting, and it has hardened, though not into an announcement: the Treasury has still not confirmed the mechanism&rsquo;s details, and crucially it has not confirmed how many pensioners are affected, so the figure of about a million that circulated this morning remains unverified and is not repeated here. The arithmetic driving it is simple and was always going to arrive. The triple lock lifts the new state pension by the highest of inflation, earnings or 2.5%, giving 3.9% from April 2027, while the personal allowance has been frozen in cash terms for six years. The two lines were always going to cross, and they now have. The chancellor&rsquo;s allies argue the point is administrative as much as financial: pensioners should not face a tax return to hand over a few pounds. Note also what Treasury sources concede &mdash; that this Budget will not involve the scale of tax and spending announcements seen from governments of either party in recent years. Two days to go.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="13:33" data-slug="consultants-in-england-to-strike-for-two-days-in-november">
+ <h4>Consultants in England to Strike for Two Days in November</h4>
+ <p>Senior hospital doctors in England will walk out on 25 and 26 November, staffing emergency care only, in a dispute over pay and hours. Seventy-six per cent of those voting backed action on a turnout of just over half. The health secretary calls the strike irresponsible; hospital leaders warn patients face pain and inconvenience.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The mandate is the contested ground. Seventy-six per cent of consultants who voted were in favour, but only just over half of eligible union members took part, and because nearly half of consultants are not members the government calculates that roughly one in five of all consultants employed in England voted to strike. The union&rsquo;s case is that pay has fallen about a quarter in real terms since 2009-10, and that last week&rsquo;s offer of 2.4% for next year was the last straw after a 5% rise this year. Its co-chairs said ministers had &ldquo;time-and-time again kicked the can down the road&rdquo; and that &ldquo;that road has now run out&rdquo;. The health secretary said discussions had been &ldquo;constructive&rdquo;, so the announcement was &ldquo;disappointing&rdquo;, and that striking would &ldquo;place the health service under even greater pressure&rdquo;. Pay figures differ by measure rather than by dispute: basic pay runs from &pound;113,500 to &pound;150,500, with an average of about &pound;152,000 once extra payments are counted. Consultants last struck in 2023, for nine days. This time it falls as winter pressures build.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="17:22" data-slug="two-more-wind-warnings-and-a-correction-to-this-morning">
+ <h4>Two More Wind Warnings, and a Correction to This Morning</h4>
+ <p>About 22,600 properties were still without power on Monday afternoon, down from 90,000 in the morning. Two further yellow wind warnings follow: one from six this evening until three tomorrow morning on western coasts, and a second across much of Scotland, northern England and Northern Ireland through Tuesday. This morning we called the coming storm Chloe. It has no name, and we were wrong to give it one.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The correction first, because a named storm is the kind of thing readers act on. Boelo was the second named storm of the season, after Austen, and the forecaster has not named a third. The warnings now in force are unnamed. The warning we described this morning was real and its timing and area were right &mdash; much of Scotland, parts of northern England and Northern Ireland, from three on Tuesday morning &mdash; but the name attached to it was not in any source, and it should never have reached print. We are not giving an end time for it tonight: our two sources differ, one saying just before midnight and one nine in the evening. Gusts are forecast to reach 65mph on exposed coasts overnight and up to 70mph in the far north on Tuesday, with further power cuts thought likely and advice to keep torches and batteries to hand. Both power figures come from the Energy Networks Association a few hours apart, so the fall is repair work, not a revision; about 700,000 customers were reconnected across the weekend.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="15:07" data-slug="britain-sanctions-fifteen-sudanese-commanders-over-el-fasher">
+ <h4>Britain Sanctions Fifteen Sudanese Commanders Over El Fasher</h4>
+ <p>The government has imposed travel bans and asset freezes on fifteen commanders from both sides of Sudan&rsquo;s war, suspected of sexual violence during the siege of El Fasher. It falls on the first anniversary of the city&rsquo;s fall. The Foreign Office says it hopes the action will ensure the horrors there &ldquo;will be known to the world&rdquo;.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">Sanctioning both sides is the notable choice: the fifteen are drawn from the Rapid Support Forces and from the Sudanese Armed Forces, which makes this a statement about conduct rather than about which side Britain prefers. The scale of what happened at El Fasher is hard to hold. Up to 10,000 men, women and children are believed to have been killed over two days as the Rapid Support Forces took the city, ending an eighteen-month starvation siege. Fewer than 70,000 people are thought to remain, against a pre-war population of more than a million. One account opens with tens of thousands killed and later says up to 10,000; the lower, specific figure is used. The foreign secretary put it on the record: &ldquo;A year on from the atrocities in El Fasher, UK-funded investigations have shown that rape and starvation are still being weaponised against the people of Sudan. These are crimes against our humanity.&rdquo; Alongside the designations &mdash; a sixth round &mdash; come &pound;5m for survivors of sexual violence and &pound;10m for the wider humanitarian response. The paramilitaries were allegedly backed by the United Arab Emirates, which denies it.</div>
+ </details>
+ </div>
+ </div>
+ </div>
+ <div class="one-to-read">
+ <span class="otr-label">One To Read</span>
+ <a href="https://www.aljazeera.com/features/2026/10/26/everything-destroyed-hebron-businesses-count-cost-of-israeli-assault" target="_blank" rel="noopener noreferrer">
+ <h4>Sixty Million Shekels of Rubble</h4>
+ <span class="otr-source">Al Jazeera</span>
+ <span class="otr-dot">&middot;</span>
+ <span class="otr-desc">A ceramics factory of fifty years, a marble works and seventy jobs, counted up by the man who owned them. Hebron is about 42% of Palestinian output, and an economist puts the week's losses at up to 80 million shekels.</span>
+ </a>
+ </div>
+ <!-- SOURCES USED
+ - **CORRECTION TO THIS MORNING'S EDITION, CARRIED PROMINENTLY. This morning we called the storm due on Tuesday &ldquo;Storm Chloe&rdquo;, in a headline, in an item and in the impact box. There is no Storm Chloe.** The forecaster has named two storms this season, Austen and Boelo, and has not named a third; the warnings now in force are unnamed. The name came from an annotation written into our own research file &mdash; not from the article it summarised &mdash; and we did not check it against the source before publishing. We have verified this evening against the same page, which calls Boelo &ldquo;the second named storm&rdquo; and contains the name Chloe nowhere, live or in its 07:45 version. **The warning itself was real and its area and start time were right; only the name was invented, and a named weather event is exactly the sort of thing a reader acts on.** Published briefs are immutable here, so the morning edition stands uncorrected on the page and this note is the correction
+ - NOTE ON THE MARKET FIGURES. Published at 17:51 GMT, after the London close. **The FTSE figure is a genuine close, timed 16:35 GMT, and the gilt reading is from 17:15, after the cash market shut; the S&P 500 and the volatility index were still trading as we published and are not closes.** All ten tickers were read live and cross-checked against a second provider. Eight agreed. **Two did not and are handled accordingly: the gilt, where our providers disagree on the SIGN of a move smaller than half a basis point, so no direction is claimed for it; and Bitcoin, where the second provider's page returned no figure for the third consecutive reading, so the level is published and no direction is claimed.** The volatility index is likewise uncorroborated
+ - NOTE ON A PROVIDER FAULT, NOW CONFIRMED THREE WAYS. For twelve days our Brent cross-check at Trading Economics has read eight to fourteen dollars below our primary feed. This morning we diagnosed the cause; this evening it is confirmed again. That page reads $102.17 while today's oil reporting gives Brent at about $116 and West Texas Intermediate at $102.48 &mdash; so the page labelled Brent is carrying the WTI price, to within about thirty cents. **Our Brent figure is corroborated by reporting, not by that page, and the cross-check is recorded as failed rather than as a disagreement to be averaged**
+ - NOTE ON THE SCHEDULED JOB. **The evening LaunchAgent was unloaded at 17:35 GMT, twenty minutes before it would have fired, and will be reloaded as soon as this edition is pushed.** This is the same deliberate fix used this morning and it is now the standing practice: a lock held by hand expires on a 900-second timer, as it did last night when the job fired at 18:08 and published its own edition. The morning agent was reloaded after this morning's push and is loaded now. **The dive-deeper length defect in the automation's output remains unfixed and unmeasured by the validator; four proposed fixes await the editor's decision**
+ - NOTE ON RETRIEVAL. Sky News carried a second source for two items below and remains uncitable: its RSS reads, its article pages return 403 to a direct request and are refused by our fetch tool. ITV is unreachable. A Channel 4 page returned a headline and standfirst over a video, which is not a citable source for a fact. Firecrawl remains out of credits. parliament.uk and understandingwar.org return 403. The CNN world feed is still serving items from 2022 and 2023. **Two pages were fetched twice under different names by two researchers; the duplicates were found by a URL audit and deleted rather than cited twice. Three files were deleted for falling below our 1,200-byte floor, among them a page whose headline carried a quotation that appeared nowhere in its text &mdash; see below**
+ -
+ - GEOPOLITICAL
+ - https://www.theguardian.com/world/2026/oct/26/saudi-pakistani-turkish-delegation-iran-avert-flare-up-conflict-us &mdash; The Guardian, modified 15:47 GMT: that the Saudi defence minister, Pakistan's army chief and Turkey's intelligence chief travelled to Tehran to meet Iran's top security officials; the twofold agenda of persuading the Houthis to stop striking Saudi infrastructure and pushing for a deal between Tehran and Washington; and the on-record words of Iran's foreign ministry spokesman and of a former foreign minister
+ - https://www.cnbc.com/2026/10/26/oil-prices-today-wti-brent.html &mdash; CNBC: the confirmation that the Saudi defence minister met President Pezeshkian and the secretary of the supreme national security council by name. **This is a rolling markets page whose own publication stamp is 05:18 GMT with later modifications, so its oil prices are NOT used &mdash; the figures in this edition are our own live reading, cross-checked**
+ - https://www.aljazeera.com/news/2026/10/26/mecca-defence-alliance-members-in-tehran-to-defuse-iran-us-yemen-tensions &mdash; Al Jazeera, modified 16:33 GMT, datelined Tehran: the third source on the meeting, and two named analysts &mdash; one calling it an eleventh-hour attempt to tip the balance towards compromise and warning the visitors may leave with &ldquo;little more than goodwill in a race against the clock&rdquo;, the other cautiously optimistic about the meeting and less so about a breakthrough. **This outlet calls the pact the Mecca Joint Defence Agreement where another calls it the Makkah agreement; neither spelling is used, and the edition says only the pact signed in August**
+ - https://www.cbsnews.com/live-updates/iran-war-trump-us-diplomacy-oil-prices-strait-of-hormuz/ &mdash; CBS News live coverage, latest entry 17:28 GMT: that Iranian state television reported the four parties agreed to continue talks after a &ldquo;first&rdquo; meeting; Riyadh's statement on seeking &ldquo;ways to de-escalate tensions, enhance regional security and promote its stability&rdquo;; and that Iran's president was due in Moscow for a gas exporters' summit. **No communique and no outcome exist: the talks were still under way at publication and the edition says so rather than implying a result**
+ - https://abcnews.com/International/wireStory/delegations-meet-iran-mideast-region-edge-potential-renewed-137563622 &mdash; ABC News carrying AP wire copy explicitly credited to the Associated Press, 04:46 GMT: the fourth source on who travelled, naming the same three visitors, and that two regional officials described the purpose as averting renewed fighting
+ - https://www.cnbc.com/2026/10/26/us-iran-war-hormuz.html &mdash; CNBC, modified 15:20 GMT: the American president's remarks in a Sunday television interview, and the two facts that matter most &mdash; that the last confirmed American strikes on Iran were on 1 September, and that **he has previously said attacks would not resume until after the midterm elections on 3 November. No date is attached to any quotation**
+ - https://www.cbsnews.com/live-updates/iran-war-trump-us-oil-gas-prices-strait-of-hormuz-midterms/ &mdash; CBS News live coverage: the second source for the remarks, and Iran's on-record response from the foreign minister and his spokesman. **Three outlets render the same sentence three different ways &mdash; &ldquo;finish it off&rdquo;, &ldquo;finish them off&rdquo; and &ldquo;finish the job&rdquo; &mdash; and two reverse the order of its clauses, so only the short common phrase is quoted and no full sentence is presented as verbatim. This file is a rolling live blog with entries spanning 23 to 26 October: it also contains an anonymous official leaving open a strike &ldquo;this weekend&rdquo;, which is the claim we declined this morning and decline again**
+ - https://www.aljazeera.com/news/2026/10/26/israel-committing-crimes-against-humanity-in-occupied-west-bank-un &mdash; Al Jazeera, bylined jointly with AFP, 15:44 GMT: the finding of the UN Independent International Commission of Inquiry on the Occupied Palestinian Territory, quoted exactly; that it was mandated by the Human Rights Council in 2021; Israel's rejection from its mission in Geneva; and the UN humanitarian figure of 1,143 Palestinians killed in the West Bank and East Jerusalem to 9 October, at least 250 of them children. **Two points of precision: this outlet's own headline says the UN where its body text states the commission &ldquo;does not speak for the UN itself&rdquo;, so this edition names the commission instead; and the inquiry's remit covers harm caused by both Israeli AND Palestinian security forces since October 2023, so it is not described as one-sided. The report does NOT name Hebron and we do not say it does**
+ - https://www.aljazeera.com/features/2026/10/26/everything-destroyed-hebron-businesses-count-cost-of-israeli-assault &mdash; Al Jazeera, 16:24 GMT, reported from Hebron: the economic cost of the operation, with a chamber of commerce putting the city at about 42% of Palestinian output. **Weighed and not run as a separate item because we led on Hebron this morning. This outlet gives city-wide displacement as more than 3,000, unattributed, where the account we used this morning gives 370 families and nearly 2,000 in one named neighbourhood, attributed to the municipality; the attributed figure is the one we have published**
+ - https://www.bbc.co.uk/news/articles/cm4g175dgdx2o &mdash; BBC News, 16:31 GMT: that the Ethiopian Orthodox Tewahedo Church reports more than sixty killed across three areas of the Shirka district in Oromia; the church official's description of a massacre; the Holy Synod statement on twenty houses burnt, which names no perpetrator; the outlet's own Amharic eyewitness reporting that five of the dead were children and the quotation from a resident whose father was killed; the regional government's undertaking to act; and a local official's attribution to a new rebel coalition including the Oromo Liberation Army, which has not commented and has denied previous attacks. **This is single-sourced: no second approved outlet carries it and no official toll exists, which the item states. A rights body counted 458 killed in the same area over four years**
+ - https://www.bbc.co.uk/news/articles/cm4g14n1e5wko &mdash; BBC News, modified 17:00 GMT: both chambers approving the deployment, the purpose of protecting energy installations in northern Niger, the named senator's words, the 1973 comparison, and &mdash; on AFP figures &mdash; that 148 of 174 senators voted in favour. **Crucially the timing and number of soldiers have NOT been announced, so no number appears here**
+ - https://www.aljazeera.com/news/2026/10/26/algerias-military-deployment-to-niger-whats-behind-the-move &mdash; Al Jazeera, 09:52 GMT: the second source, the fuller version of the senator's remark about adapting doctrine to the Sahel, the Sonatrach exploration agreement and the pipeline, and that Algeria is Africa's largest military spender. **This account calls the upper-house vote unanimous, which 148 of 174 contradicts, so the count is published and the word unanimous is not. It also notes overseas deployments have been &ldquo;exceptionally rare&rdquo; rather than absent since 1973, and that a constitutional carve-out exists for peacekeeping &mdash; hence &ldquo;first such deployment&rdquo;. Two sources also date an earlier drone incident differently, so no year for it appears**
+ - https://www.npr.org/2026/10/26/nx-s1-6014540/russia-says-it-will-open-humanitarian-corridor-to-ukrainian-town &mdash; NPR, 04:42 GMT, **weighed and not run for want of room**: that Russia says it will open a humanitarian corridor to a Ukrainian town
+ -
+ - UK DOMESTIC
+ - https://www.bbc.co.uk/news/articles/cx240dpzv009o &mdash; BBC News, published 12:16 and updated 17:23 GMT: the pivotal exchange in which the prime minister, asked whether he could introduce freedom of movement without a referendum, answered &ldquo;no&rdquo;; that sources say no decision on that has been made; and Downing Street's clarification that he &ldquo;isn't proposing a return to freedom of movement or any option&rdquo; and is &ldquo;crucially not leaning either way&rdquo;, wanting first &ldquo;a conversation with the public&rdquo;
+ - https://www.theguardian.com/politics/live/2026/oct/26/andy-burnham-labour-brexit-eu-homelessness-immigration-budget-rosebank-reform-latest-news-updates &mdash; The Guardian's politics live coverage: the second source for the Downing Street wording, which is near-identical, and the government briefing that no final decision has been taken on whether joining the single market would require a referendum. **The two outlets' quotations diverge after the common passage &mdash; one continues about a conversation with the public, the other about next month's summit &mdash; so the two tails are not spliced. The attribution also differs, a deputy spokesperson in one and a Number 10 spokesperson in the other, so the edition says a Downing Street spokesperson. And the framing verbs conflict, backtrack against plays down, so the edition describes the distinction rather than adopting either verb**
+ - https://www.theguardian.com/politics/2026/oct/26/brexit-deal-not-good-enough-andy-burnham &mdash; The Guardian, 09:30 GMT: the prime minister's on-record morning remarks that he will not say the present deal &ldquo;is good enough for Britain&rdquo;
+ - https://www.independent.co.uk/news/uk/politics/brexit-eu-uk-andy-burnham-referendum-b3073230.html &mdash; The Independent, 12:49 GMT: the third source, framing it as the government not yet setting out a process
+ - https://www.bbc.co.uk/news/articles/ck98zp7zeq65o &mdash; BBC News, 09:47 GMT: that the chancellor will shield low-income pensioners from income tax through a new allowance, honouring an existing pledge; and **explicitly that more specific details, including how many pensioners this will affect, have yet to be confirmed by the Treasury &mdash; which is why the figure of about a million that we carried this morning as reported is NOT repeated in this edition**. Also that Treasury sources concede the Budget will not match the scale of recent years
+ - https://www.theguardian.com/money/2026/oct/26/healey-pensioners-low-income-tax-budget-how-will-it-work &mdash; The Guardian, 13:25 GMT: the mechanism and the arithmetic &mdash; the triple lock lifting the full new state pension 3.9% to &pound;13,036 from April 2027 against a personal allowance frozen at &pound;12,570 since 2021. **The harder figures in circulation originate with a newspaper not on our approved list and reach us only second-hand, so they are not published; the Treasury has neither confirmed nor denied the story**
+ - https://www.bbc.co.uk/news/articles/c69wzxw2pvv0o &mdash; BBC News, 10:11 GMT: the two-day walkout beginning 06:59 on 25 November with emergency cover only; the ballot, 76% in favour on a turnout of just over half; the government's calculation that this is about one in five of all consultants employed in England because nearly half are not union members; basic pay from &pound;113,500 to &pound;150,500 plus extra payments; this year's rise; and the health secretary's words that discussions had been &ldquo;constructive&rdquo;, the announcement &ldquo;disappointing&rdquo; and a strike &ldquo;irresponsible&rdquo;
+ - https://www.theguardian.com/society/2026/oct/26/nhs-consultants-two-day-doctors-strike-england-november-bma &mdash; The Guardian, 13:33 GMT: the second source, confirming 25 and 26 November, the union's claim of a quarter fall in real pay since 2009-10, the 2.4% offer for next year, the committee co-chairs' words, an average of about &pound;152,000 once extras are counted, a hospital leaders' warning of &ldquo;pain, discomfort and inconvenience&rdquo; against a backlog of more than six million patients, and that consultants last struck in 2023. **The two outlets conflict irreconcilably on the hours demand, one saying a cut from 40 hours to 35 and the other a 10% cut to 36, so NO figure for it appears in this edition. The real-terms pay claim is the union's and is attributed, not asserted**
+ - https://www.bbc.co.uk/news/articles/cqm264jxxnxzo &mdash; BBC News, updated 17:22 GMT: about 22,600 properties still off supply on Monday afternoon; the overnight yellow wind warning from 18:00 Monday to 03:00 Tuesday covering the west coast of England, Wales and Scotland and eastern Northern Ireland; the second warning from 03:00 Tuesday across much of Scotland, parts of northern England and Northern Ireland; gust forecasts and the advice on torches and batteries. **This page describes Boelo as the second named storm of the season and names no third storm anywhere &mdash; see the correction note below**
+ - https://www.theguardian.com/uk-news/2026/oct/26/power-cuts-storm-boelo-austen-uk &mdash; The Guardian, 11:09 GMT: that the Energy Networks Association put the figure at about 90,000 on Monday morning. **The two power figures come from the same body a few hours apart, so the fall to 22,600 is repair work and not a revision; about 700,000 customers were reconnected across the weekend. This outlet gives the second warning's end as nine in the evening where the other gives just before midnight, so NO end time is published**
+ - https://www.bbc.co.uk/news/articles/cmx2dyd73gyeo &mdash; BBC News Scotland, published 07:45 and updated through the afternoon: the storm aftermath in Scotland. **Both outlets quote the chief executive of the Energy Networks Association but give his first name differently, so he is cited by office and not by name**
+ - https://www.gov.uk/government/news/uk-sanctions-senior-commanders-implicated-in-campaign-of-rape-in-sudan-and-unveils-new-support-for-survivors &mdash; gov.uk, published 10:10 GMT and the primary source for this item rather than reportage: fifteen senior commanders from both the Rapid Support Forces and the Sudanese Armed Forces placed under a travel ban and asset freeze over suspected atrocities including sexual violence at El Fasher; that this is the sixth round of such sanctions; the foreign secretary's statement; and new money of &pound;5m for survivors of sexual violence and &pound;10m for the wider humanitarian response
+ - https://www.theguardian.com/global-development/2026/oct/26/uk-sanctions-sudanese-military-leaders-implicated-in-el-fasher-campaign-of &mdash; The Guardian, 15:07 GMT: the second source, with the scale at El Fasher &mdash; up to 10,000 killed over two days, an eighteen-month starvation siege, fewer than 70,000 people remaining against a pre-war population above a million &mdash; and the allegation that the paramilitaries were backed by the United Arab Emirates, which denies it. **This piece opens by describing tens of thousands killed and later gives up to 10,000; the lower, more specific figure is published and the two are not split**
+ - https://www.theguardian.com/business/2026/oct/26/european-gas-prices-four-year-high-winter-supply-fears-middle-east &mdash; The Guardian, 10:35 GMT: European wholesale gas at EUR97 a megawatt-hour, its highest since 2022, and the United Kingdom month-ahead contract up 4% to 240p a therm, its highest since December 2022, on colder weather, thin storage and Middle East supply fears. **The prediction of a 16% rise in household bills in January is a forecast and not an announced cap, and is given as such**
+ - https://www.bbc.co.uk/news/articles/c3n04yxn2yqro &mdash; BBC News, 11:21 GMT, and https://www.theguardian.com/society/2026/oct/26/homeless-people-summit-andy-burnham-need-help &mdash; The Guardian, **both weighed and NOT run tonight because this was our second UK item this morning**: the further &pound;432m taking the commitment to &pound;874m, today's Downing Street summit, the prime minister's words, the shadow housing secretary's criticism, and the check against his own missed Greater Manchester target, where the count more than halved from 268 in 2017 to 125 in 2020 but the pledge to end rough sleeping was missed
+ -
+ - OUTLET COUNT, STATED HONESTLY: ten outlets are relied upon for claims in this edition &mdash; BBC News, The Guardian, The Independent, Al Jazeera, CBS News, CNBC, ABC News, NPR, and the Associated Press and AFP through wire copy explicitly credited inside ABC News and Al Jazeera reports &mdash; together with one primary source the automated tally does not recognise, gov.uk, which is the first source rather than the second for the sanctions item. Trading Economics was read as a cross-check for all ten tickers and is relied upon for nothing. Sky News, ITV and Channel 4 were sought and were not usable. **The automated tally will read higher than ten because it counts outlet names wherever they appear, including the four we name here only to record that we could not use them**
+ - NOT CARRIED, AND WHY. **A warning attributed to the UN Secretary-General about &ldquo;unimaginable&rdquo; consequences of a Gulf escalation is NOT published.** The word appears only in a headline over a 57-second video; it is in no body text, attributed to him nowhere in writing, carried by no second outlet, and the page held about 330 bytes of text. Quoting a headline over a video we cannot transcribe is precisely the failure we are trying to stamp out. **Lula's fourth term and the fall of Mr Vucic are both absent tonight not because they are small but because they were our first two items this morning**; the developments since &mdash; congratulations arriving, the runner-up still contesting, the student list preparing for talks &mdash; are incremental, and breadth is worth more than repetition. The doubling of rough sleeping money is absent for the same reason: it was our second UK item this morning. Also weighed and held: an alternative budget from an opposition party, with year-one cuts of &pound;40bn rising to &pound;80bn; the United Kingdom's expected miss of its reduced 0.3% aid target, which is strong and still single-sourced from an unapproved underlying calculation; a &pound;5bn threatened lawsuit over card fees, single-sourced; and criticism in the Commons of a pensions contractor. **An independent review into a student's murder is excluded as rooted in an individual crime, though it is institutionally significant and the exclusion is a close call.** Excluded outright as celebrity, royal or individual crime: a singer's sentencing, a continuing trial, a knighthood, a care-costs claim and three road-death cases. **No sport appears anywhere: a racing abandonment and two football fixtures were in today's feeds and are excluded, as is a northern Olympic bid for the fourth day.** On Rosebank there is still no decision and nothing published, and nothing here implies otherwise
+ END SOURCES USED -->
+</div><!-- ── END EVENING 26 OCT (17:51) ── -->
 <!-- ── MORNING 26 OCT (08:42) ── -->
 <div class="curated-edition morning" data-date="2026-10-26" data-time="08:42" data-markets='{"FTSE":{"price":10736.73,"change":0.43},"SP":{"price":7623.68,"change":-0.52},"Brent":{"price":114.97,"change":-1.5},"GBP":{"price":1.3344,"change":-0.21},"Gold":{"price":4015.49,"change":0.5},"EURGBP":{"price":0.8392,"change":0.2},"Gilt":{"price":5.349,"change":-0.0122},"VIX":{"price":19.24,"change":-1.08},"BTC":{"price":80190.1,"change":-0.36},"UST":{"price":4.988,"change":0.0},"ts":"2026-10-26T08:42:00+00:00"}'>
  <div class="edition-header">
