@@ -2287,7 +2287,7 @@
  <!-- #1 Markets snapshot bar -->
  <!-- Embedded market data (populated by update script, used as fallback) -->
  <script id="embedded-markets" type="application/json">
-{"FTSE":{"price":10767.33,"change":0.72},"SP":{"price":7680.86,"change":0.75},"Brent":{"price":115.15,"change":-0.57},"GBP":{"price":1.3353,"change":-0.14},"Gold":{"price":4022.7,"change":0.68},"EURGBP":{"price":0.8379,"change":0.05},"Gilt":{"price":5.3517,"change":0.0043},"VIX":{"price":18.34,"change":-5.71},"BTC":{"price":80255.5,"change":-0.28},"UST":{"price":4.982,"change":-0.006},"ts":"2026-10-27T08:02:00+00:00"}
+{"FTSE":{"price":10686.54,"change":-0.75},"SP":{"price":7724.92,"change":0.63},"Brent":{"price":113.52,"change":-1.98},"GBP":{"price":1.3316,"change":-0.17},"Gold":{"price":4063.32,"change":1.17},"EURGBP":{"price":0.8362,"change":-0.12},"Gilt":{"price":5.3491,"change":0.0065},"VIX":{"price":17.7,"change":-3.75},"BTC":{"price":80588.71,"change":0.87},"UST":{"price":4.988,"change":0.002},"ts":"2026-10-27T17:56:00+00:00"}
 </script>
  <script id="market-descriptions" type="application/json">
 {
@@ -2295,111 +2295,115 @@
     "name": "FTSE 100",
     "desc": "The UK's benchmark stock index, tracking the 100 largest companies listed on the London Stock Exchange by market capitalisation. Includes Shell, AstraZeneca, HSBC and Unilever.",
     "drivers_up": [
-      "Monday&rsquo;s close, the most recent sourced level"
+      "Would need tomorrow's Budget to reassure"
     ],
     "drivers_down": [
-      "Opened lower this morning: the index was 0.93% down shortly after eight o&rsquo;clock, with European bourses mostly negative and the Stoxx 600 off 0.27%"
+      "Closed 81 points lower, giving back more than yesterday's gain, on the eve of the Budget. A second provider agrees to within about two points",
+      "No approved source attributes the fall, so no cause is asserted"
     ],
-    "updated": "27 October 2026 08:02 GMT (Monday close; early trade lower)"
+    "updated": "27 October 2026 17:56 GMT (London close)"
   },
   "SP": {
     "name": "S&P 500",
     "desc": "America's leading stock market index, tracking 500 of the largest US-listed companies. Dominated by mega-cap tech (Apple, Microsoft, Nvidia) but spans all sectors.",
     "drivers_up": [
-      "Gained 0.7% on Monday as the AI trade was lifted by a planned technology listing"
+      "Wall Street rose for a second day, with the Nasdaq up more than 1% as chip stocks gained again",
+      "Still trading as this edition is published, so this is not a close"
     ],
     "drivers_down": [
-      "Futures were down 0.1% before the open"
+      "London fell while New York rose, which is the day's divergence"
     ],
-    "updated": "27 October 2026 08:02 GMT (Monday figure; futures slightly lower)"
+    "updated": "27 October 2026 17:56 GMT (Wall Street still trading)"
   },
   "Brent": {
     "name": "Brent Crude Oil",
     "desc": "The global benchmark for crude oil pricing, produced from oil fields in the North Sea. Used to price roughly two-thirds of the world's traded oil.",
     "drivers_up": [
-      "Stays close to six-month highs as Houthi attacks on Saudi Arabia keep supply fears alive; it touched $117 on Monday"
+      "Still about $113 and up roughly a tenth since the start of the month"
     ],
     "drivers_down": [
-      "Eased 0.57% to $115.15 at midnight GMT on hopes raised by the talks in Tehran between Iran and Saudi, Turkish and Pakistani officials"
+      "Fell about 2% for a second session as Gulf diplomacy continued, taking it well below last Friday's six-month high",
+      "**Our second provider reads $99.79, which is the West Texas Intermediate price, not Brent &mdash; the fourth consecutive day that page has carried the wrong contract. The cross-check is recorded as failed**"
     ],
-    "updated": "27 October 2026 00:00 GMT (early Asian trade)"
+    "updated": "27 October 2026 17:56 GMT (London close)"
   },
   "GBP": {
     "name": "GBP/USD",
     "desc": "The exchange rate between the British pound and the US dollar, commonly known as 'cable'. Reflects relative economic strength and interest rate differentials between the UK and US.",
     "drivers_up": [
-      "Monday&rsquo;s London close carried forward: no approved outlet had published a fresh level for this instrument by publication"
+      "Would need the Budget to reassure"
     ],
     "drivers_down": [
-      "Not a live reading &mdash; the ticker above refreshes from the live feed"
+      "Eased about a fifth of a percent against the dollar to 1.3316, matched exactly by a second provider, the day before the Budget"
     ],
-    "updated": "27 October 2026 08:02 GMT (Monday close carried forward)"
+    "updated": "27 October 2026 17:56 GMT (London close)"
   },
   "Gold": {
     "name": "Gold (XAU/USD)",
     "desc": "The spot price of gold in US dollars per troy ounce. The world's oldest safe-haven asset, traditionally rising during periods of uncertainty, inflation and currency debasement.",
     "drivers_up": [
-      "Monday&rsquo;s London close carried forward: no approved outlet had published a fresh level for this instrument by publication"
+      "Rose 1.17% to $4,063, its strongest level this month, with a second provider agreeing to within half a dollar",
+      "Gaining while equities in London fell and the volatility index eased, which is an unusual combination"
     ],
     "drivers_down": [
-      "Not a live reading &mdash; the ticker above refreshes from the live feed"
+      "No approved source attributes the move"
     ],
-    "updated": "27 October 2026 08:02 GMT (Monday close carried forward)"
+    "updated": "27 October 2026 17:56 GMT (London close)"
   },
   "EURGBP": {
     "name": "EUR/GBP",
     "desc": "The exchange rate between the euro and the British pound. Key for UK-EU trade pricing. A falling rate means sterling is strengthening against the euro.",
     "drivers_up": [
-      "Monday&rsquo;s London close carried forward: no approved outlet had published a fresh level for this instrument by publication"
+      "Sterling firmed slightly against the euro"
     ],
     "drivers_down": [
-      "Not a live reading &mdash; the ticker above refreshes from the live feed"
+      "A move of about a tenth of a percent, too small to read anything into"
     ],
-    "updated": "27 October 2026 08:02 GMT (Monday close carried forward)"
+    "updated": "27 October 2026 17:56 GMT (London close)"
   },
   "Gilt": {
     "name": "UK 10-Year Gilt Yield",
     "desc": "The yield on 10-year UK government bonds (gilts). A key benchmark for UK borrowing costs, mortgage rates and pension fund valuations. Rising yields mean falling bond prices.",
     "drivers_up": [
-      "Monday&rsquo;s London close carried forward: no approved outlet had published a fresh level for this instrument by publication"
+      "**No direction is claimed: our two providers disagree on the SIGN of a move of well under a basis point, one showing a small rise and one a small fall.** The level is 5.3491% and the notable thing remains how little gilts have moved with the Budget now a day away"
     ],
     "drivers_down": [
-      "Not a live reading &mdash; the ticker above refreshes from the live feed"
+      "Would need the Budget to unsettle"
     ],
-    "updated": "27 October 2026 08:02 GMT (Monday close carried forward)"
+    "updated": "27 October 2026 17:56 GMT (London close)"
   },
   "VIX": {
     "name": "VIX (Volatility Index)",
     "desc": "The CBOE Volatility Index, often called the 'fear gauge'. Measures expected S&P 500 volatility over the next 30 days. Readings above 20 suggest elevated anxiety; above 30 signals acute stress.",
     "drivers_up": [
-      "Monday&rsquo;s London close carried forward: no approved outlet had published a fresh level for this instrument by publication"
+      "Would need the Budget or the Gulf to unsettle"
     ],
     "drivers_down": [
-      "Not a live reading &mdash; the ticker above refreshes from the live feed"
+      "Fell again, down nearly 4% to 17.70, a third consecutive decline and the lowest reading this month. **Our second provider's volatility page returned no figure, so this is uncorroborated**"
     ],
-    "updated": "27 October 2026 08:02 GMT (Monday close carried forward)"
+    "updated": "27 October 2026 17:56 GMT (Wall Street still trading)"
   },
   "BTC": {
     "name": "Bitcoin (BTC/USD)",
     "desc": "The price of Bitcoin in US dollars. The largest cryptocurrency by market cap, increasingly viewed as digital gold by institutional investors since spot ETF approvals.",
     "drivers_up": [
-      "Monday&rsquo;s London close carried forward: no approved outlet had published a fresh level for this instrument by publication"
+      "Back above $80,000"
     ],
     "drivers_down": [
-      "Not a live reading &mdash; the ticker above refreshes from the live feed"
+      "**Our second provider's Bitcoin page returned no figure for the fourth consecutive reading, so the level is published and no directional claim is made for it**"
     ],
-    "updated": "27 October 2026 08:02 GMT (Monday close carried forward)"
+    "updated": "27 October 2026 17:56 GMT (Wall Street still trading)"
   },
   "UST": {
     "name": "US 10-Year Treasury Yield",
     "desc": "The yield on 10-year US government bonds, the global risk-free rate benchmark. Influences mortgage rates, corporate borrowing and equity valuations worldwide.",
     "drivers_up": [
-      "Monday&rsquo;s London close carried forward: no approved outlet had published a fresh level for this instrument by publication"
+      "**No direction is claimed: the providers disagree on the sign of a move of about two hundredths of a basis point.** The level is 4.988%, with the second provider at 4.99%, and a Federal Reserve decision is expected this week"
     ],
     "drivers_down": [
-      "Not a live reading &mdash; the ticker above refreshes from the live feed"
+      "Little moved either way"
     ],
-    "updated": "27 October 2026 08:02 GMT (Monday close carried forward)"
+    "updated": "27 October 2026 17:56 GMT (Wall Street still trading)"
   }
 }
 </script>
@@ -2452,6 +2456,179 @@
  <!-- ════ ALL EDITIONS (sorted by JS) ════ -->
  <!-- IMPORTANT: Keep 7 FULL DAYS of editions in this container. Do NOT delete editions less than 7 days old. -->
  <div id="all-editions" style="display:none;">
+<!-- ── EVENING 27 OCT (17:56) ── -->
+<div class="curated-edition evening" data-date="2026-10-27" data-time="17:56" data-markets='{"FTSE":{"price":10686.54,"change":-0.75},"SP":{"price":7724.92,"change":0.63},"Brent":{"price":113.52,"change":-1.98},"GBP":{"price":1.3316,"change":-0.17},"Gold":{"price":4063.32,"change":1.17},"EURGBP":{"price":0.8362,"change":-0.12},"Gilt":{"price":5.3491,"change":0.0065},"VIX":{"price":17.7,"change":-3.75},"BTC":{"price":80588.71,"change":0.87},"UST":{"price":4.988,"change":0.002},"ts":"2026-10-27T17:56:00+00:00"}'>
+ <div class="edition-header">
+ <span class="edition-icon">&#127769;</span>
+ <h2>Evening Briefing</h2>
+ </div>
+ <div class="curated-meta">Tuesday 27 October 2026 &mdash; 17:56 GMT</div>
+ <div class="impact-box">
+ <h3 class="impact-heading">What It Means For You</h3>
+ <ul class="impact-list">
+ <li><strong>If you are 18 to 20 and on the minimum wage:</strong> tomorrow&rsquo;s Budget is expected to raise your rate by the same 3.9% as everyone over 21, rather than by more. The gap therefore stops closing, and the promise to abolish age bands slips. The figures are reported, not yet announced.</li>
+ <li><strong>If you are thinking about a heat pump or solar panels:</strong> a government-backed loan scheme opened today, with no money upfront and up to thirty years to repay in some cases &mdash; up to &pound;15,000 for solar, &pound;20,000 for the common air-to-water heat pump and &pound;35,000 for a ground-source system, stackable with the existing grant.</li>
+ <li><strong>If you are waiting to see what the Budget actually does:</strong> very little is confirmed. What is on the record is modest &mdash; tariffs off 100 food items worth up to &pound;21 a year, fuel duty frozen again, and a carer&rsquo;s allowance taper that does not arrive until 2030. Almost everything else remains briefing.</li>
+ </ul>
+ </div>
+ <div class="curated-grid">
+ <div class="curated-column">
+ <h3><span class="dot geo"></span><span class="dot-label">GEO</span> Geopolitical</h3>
+ <div class="curated-item" data-time="17:39" data-slug="record-israeli-turnout-and-a-fight-over-closing-time">
+ <h4>Record Israeli Turnout, and a Fight Over Closing Time</h4>
+ <p>Two-thirds of Israel&rsquo;s electorate had voted by six o&rsquo;clock this evening, 66.7%, the highest since such things were first measured in the early 1970s. The prime minister&rsquo;s party and its coalition partners have asked the electoral authorities to keep polls open past ten; the opposition says that is groundwork for challenging the result.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">Polls close at eight this evening by our clock, so nothing here is a result and no projection appears in this edition. The electoral committee&rsquo;s own figure was almost 45% by two in the afternoon, six points above the same hour in 2022; official hourly updates put it at 66.7% by six, a nine-point increase. In Nazareth, the largest Palestinian-majority town in Israel, turnout passed 32% by two o&rsquo;clock against 28% four years ago, still below the national Jewish average but rising; the prime minister spent the day posting about high Arab turnout. The extension request is the live dispute, with the committee convening to rule on it and several complaints already filed by parties in the anti-Netanyahu bloc, though the committee says there is no evidence of systematic tampering with ballot slips. The echo is uncomfortable and worth naming: in Brazil on Sunday the losing candidate&rsquo;s stated ground for seeking annulment was a judge&rsquo;s decision to extend voting by two hours. Broadcasters publish exit polls when voting ends, and those can move a long way before a count settles.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="17:08" data-slug="bolsonaros-passports-cancelled-and-his-whereabouts-unknown">
+ <h4>Bolsonaro&rsquo;s Passports Cancelled, His Whereabouts Unknown</h4>
+ <p>Brazilian police have cancelled the passports of the defeated candidate after he missed the 24 hours the Supreme Court gave him to surrender them, in a money-laundering investigation he denies. He has not been seen since Monday and officers are checking border crossings. Argentine authorities say they have no record of him entering their country.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">What is reported tonight is far less solid than the headlines suggest, so here is the line between them. Established: the court order from a named justice, the missed deadline, the cancellation, a second investigation opened today into his campaign over alleged foreign funding, and his own words on Monday &mdash; &ldquo;I never thought about leaving the country.&rdquo; Not established: where he is. Three Brazilian news organisations report he is airborne to Florida with his family and may seek asylum; two Argentine ones report that he crossed into Argentina but that the aircraft never took off. They cannot all be right, none is on our approved list, and Argentina has told an approved outlet on the record that there is no entry record for him. So no flight is asserted here. Meanwhile his demand has shifted from annulling the result to disqualifying his opponent over alleged abuse of power, without evidence offered; his own party has accepted the result; and the voting extension he calls a dirty trick was requested by his own campaign as well as his rival&rsquo;s.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="10:39" data-slug="emergency-agency-puts-taraba-death-toll-at-sixty-two">
+ <h4>Emergency Agency Puts Taraba Death Toll at Sixty-Two</h4>
+ <p>At least 62 people were killed and 52 wounded when gunmen attacked the Binnari community in Taraba state, north-eastern Nigeria, on Friday, according to the state head of the national emergency agency. Thousands have been displaced. Fifty-two bodies have been recovered so far, fifteen of them from the Benue River.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">We declined this story on Sunday, and the reason is worth revisiting now that it has resolved. Two days ago the figures in circulation were irreconcilable &mdash; police had recovered at least ten bodies, survivors told a news agency at least twenty, and a human rights organisation&rsquo;s country director said up to fifty &mdash; and publishing any of them would have meant choosing one. The official count has now settled above all three. It is still not final: a state police spokesman says the figure is not definite because bodies are being recovered, which is also why the toll of at least 62 sits above the 52 bodies so far accounted for. The attack is attributed to the armed groups locally called bandits, and a rights organisation&rsquo;s Nigeria director notes the gunmen used the river to their advantage, which explains the recoveries from the water. The lesson we take from the delay is that waiting cost us two days and bought an official figure.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="14:23" data-slug="nordic-leaders-hold-a-rare-joint-call-with-putin">
+ <h4>Nordic Leaders Hold a Rare Joint Call With Putin</h4>
+ <p>The president of Finland and the prime minister of Norway spoke to President Putin for ninety minutes from Helsinki, in a call they initiated to discuss ending the war in Ukraine. Norway&rsquo;s leader said it showed &ldquo;big differences in views&rdquo;. Afterwards Putin blamed &ldquo;confrontational&rdquo; European and Nato policies for prolonging the war.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">What makes this notable is who placed the call. Finland and Norway both border Russia, both joined Nato since the invasion, and direct contact between European leaders and the Kremlin has been close to frozen; their offices say the purpose was to look at &ldquo;future negotiations to help to end the war&rdquo; and the diplomatic effort to &ldquo;promote peace and stability in Europe&rdquo;. The careful wording on both sides tells you how little was agreed: &ldquo;big differences in views&rdquo; from Oslo, and from Moscow a statement blaming the other party&rsquo;s posture for the war continuing. Ukraine&rsquo;s president spoke to both leaders afterwards and thanked them for their &ldquo;active support&rdquo;, which is the detail that matters most &mdash; this was not negotiation over Kyiv&rsquo;s head. It lands the same day as a local truce holding in the south, brokered through an unusual channel, and a week after Kyiv said a three-way meeting with Washington and Moscow would happen in November, now reported for Abu Dhabi. Denmark&rsquo;s prime minister called the Nordic initiative one she was &ldquo;very sceptical&rdquo; of, and said it &ldquo;was not agreed with any of us&rdquo;.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="13:39" data-slug="turkish-committee-clears-the-mecca-pact-for-a-full-vote">
+ <h4>Turkish Committee Clears the Mecca Pact for a Full Vote</h4>
+ <p>Turkey&rsquo;s parliamentary foreign affairs committee has approved the mutual defence agreement with Saudi Arabia and Pakistan, carried by the governing party and its allies over opposition objections. It now goes to the full assembly for debate and a vote. The published text binds the parties for ten years.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">This completes a thread we have followed for a week. When the pact was signed in August it committed each party to treat an armed attack on one as an attack on all, using &ldquo;all necessary means&rdquo;; Pakistan ratified it, and Turkey began and had not finished. A committee is not the chamber, so ratification is still incomplete, but the direction is now clear and the ten-year term is on the record. The committee&rsquo;s chairman, from the governing party, made the case in terms designed to reassure rather than deter: the agreement &ldquo;aims to increase deterrence and cooperation, does not target other countries and is likely to contribute to peace and stability&rdquo;. That last clause is doing a lot of work in a week when the three signatories&rsquo; defence and intelligence chiefs sat in Tehran pressing Iran to rein in the Houthis, and when attacks on Saudi Arabia have continued. Watch the full assembly vote, and whether Iran reads a ten-year commitment as reassurance or as encirclement.</div>
+ </details>
+ </div>
+ </div>
+ <div class="curated-column">
+ <h3><span class="dot uk"></span><span class="dot-label">UK</span> Domestic</h3>
+ <div class="curated-item" data-time="15:01" data-slug="minimum-wage-to-rise-but-the-age-gap-stops-closing">
+ <h4>Minimum Wage to Rise, but the Age Gap Stops Closing</h4>
+ <p>Tomorrow&rsquo;s Budget is expected to raise the minimum wage by 3.9% for every adult band. That is the point of contention: because younger workers get the same percentage rather than a larger one, the gap between them and older workers stops narrowing, and a manifesto promise to abolish age bands altogether recedes.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The 2024 manifesto promised to remove &ldquo;discriminatory age bands&rdquo; so that all adults were entitled to the same minimum wage, and for two years the government delivered on it by raising the youth rate faster &mdash; 26% since 2024. An equal percentage rise does the opposite: in cash terms the gap widens. The business secretary&rsquo;s defence is that timing was never promised: &ldquo;The manifesto pledge on equalisation still applies but we were always clear it could happen over time.&rdquo; A union leader called it &ldquo;deeply unfair&rdquo; to keep paying different rates for the same job. Two cautions belong with this. The specific rates in circulation &mdash; the 18-to-20 band going from &pound;10.85 to about &pound;11.27, and the rate for those 21 and over from &pound;12.71 to &pound;13.20 &mdash; originate with a newspaper that is not on our approved list and reach us only second-hand, so they are reported rather than confirmed. And the whole package remains a Budget expectation until the chancellor stands up tomorrow.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="17:28" data-slug="warm-home-loans-open-for-heat-pumps-and-solar-panels">
+ <h4>Warm Home Loans Open for Heat Pumps and Solar Panels</h4>
+ <p>A government-backed loan scheme opened today offering households interest-free or low-interest borrowing from &pound;7,500 to &pound;35,000 to fit heat pumps, batteries and solar panels with no money upfront. The government says the full combination can cut a bill by up to &pound;550 a year, and by a further &pound;300 on a time-of-use tariff.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">This one is already live rather than trailed, which separates it from most of what is circulating this week. The borrowing is offered through commercial lenders at a discount to high-street rates: up to &pound;10,000 for an air-source heat pump and up to &pound;35,000 for a ground-source system, and it can be stacked on top of the existing grant of up to &pound;9,000 towards replacing a fossil-fuel boiler. The case for it rests on bills rather than carbon, and there is a trial behind the claim &mdash; fuel-poor households in Coventry saved more than &pound;250 a year on average by pairing a home battery with a tariff that charges less outside peak hours. The obvious caveat is that a loan is a debt: the saving has to outrun the repayment, and the published figures are the government&rsquo;s own. Set it against gas at a four-year high and a forecast 16% rise in bills in January, and the arithmetic matters more than usual.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="17:20" data-slug="minister-and-spokesman-give-different-answers-on-free-movement">
+ <h4>Minister and Spokesman Give Different Answers on Free Movement</h4>
+ <p>The business secretary says officials will begin discussing the range of future options for the relationship with the European Union, free movement among them, before the summit in Brussels on 20 November. A government spokesman, the same day, said there are no current discussions on free movement. Both are on the record.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">That contradiction is tonight&rsquo;s story and it is not a matter of emphasis. Pressed on whether officials are talking to Brussels about free movement, the business secretary said &ldquo;they will be talking to them about what the future options for our relationship might be&rdquo;, while insisting &ldquo;here and now, the focus should be on the summit&rdquo;. The spokesman&rsquo;s formulation was that the government is working &ldquo;on the areas set out and agreed ahead of the UK-EU Summit and within the manifesto red lines&rdquo; &mdash; the summit agenda being food, youth mobility, electricity and emissions trading. A second ambiguity needs owning, because it touches what we published last night. Accounts of the prime minister&rsquo;s own position differ: he answered &ldquo;no&rdquo; when a broadcaster asked whether he could bring in free movement without a referendum, which is what we reported, but a fuller account of his weekend interview has him saying a referendum would be needed only to rejoin the Union outright. Both renderings are in approved sources and we are not choosing between them. One hard thing did happen: ministers confirmed to the Commons that Britain rejoins the Erasmus exchange scheme in January.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="17:00" data-slug="two-charged-over-alleged-iran-linked-plot-at-raf-fairford">
+ <h4>Two Charged Over Alleged Iran-Linked Plot at RAF Fairford</h4>
+ <p>Two British nationals, both 24 and from London, appeared at Westminster Magistrates&rsquo; Court today over an alleged plot at the American-operated airbase in Gloucestershire. One is charged with assisting a foreign intelligence service, which police have said they believe to be Iran; the other with entering a prohibited place for a purpose prejudicial to the United Kingdom.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">Both charges are brought under the National Security Act of 2023, the legislation that replaced the old official secrets regime, and the case will next be heard at the Old Bailey on 20 November. Nothing is proven and neither man has entered a plea. The background is a major incident declared on 27 September after three suspicious vans were seen near the base, which led to dozens of residents being evacuated behind a large cordon; the second charge relates to an earlier occasion, and no explosive material was found in the vans. The wider context is a run of incidents in Britain that police have attributed to Iranian direction, and the timing sits oddly alongside this week&rsquo;s diplomacy, with Gulf states in Tehran pressing for a deal between Iran and Washington. A third man arrested in October, a dual national, was released without charge. Because these are live proceedings we are reporting the charges, the court dates and nothing more.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="16:34" data-slug="two-mps-and-an-msp-detained-and-turned-back-by-israel">
+ <h4>Two MPs and an MSP Detained and Turned Back by Israel</h4>
+ <p>An SNP member of parliament, a Labour member and a Scottish Greens member of the Scottish Parliament say they were held for eight hours at the crossing from Jordan and refused entry to the West Bank. Israel&rsquo;s embassy says the group gave false information about the purpose of its visit.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The three travelled as part of a 23-strong delegation and say they intended to &ldquo;stand alongside Palestinians being attacked for harvesting olives on their own land&rdquo;. By their account their passports were seized at the King Hussein Bridge, they were interviewed one by one, and were eventually put on a bus back to the Jordanian border; one said she was told there was &ldquo;evidence that I hate Israel&rdquo; and that this was among the reasons for refusing her. The embassy&rsquo;s account is squarely opposed: the group &ldquo;failed to cooperate with border officials&rdquo; and provided &ldquo;false information about the purpose of their visit&rdquo;. Both versions are given here because neither can be checked. The foreign secretary told the Commons the government was &ldquo;deeply concerned&rdquo;, had raised it with Israeli authorities, and that it was &ldquo;very, very important&rdquo; that members of the House have free access internationally to do their duties. One caution: this rests on a single approved outlet, with no second source and nothing published by the Foreign Office.</div>
+ </details>
+ </div>
+ </div>
+ </div>
+ <div class="one-to-read">
+ <span class="otr-label">One To Read</span>
+ <a href="https://www.bbc.co.uk/news/articles/ck20wjnv3w0jo" target="_blank" rel="noopener noreferrer">
+ <h4>Weeds, and Then a Ceasefire</h4>
+ <span class="otr-source">BBC News</span>
+ <span class="otr-dot">&middot;</span>
+ <span class="otr-desc">Oleshky has been occupied and blockaded since the first days of the invasion. Of 24,000 people before the war, about 1,700 are thought to remain in the city. A truce began at three this morning and both sides say it is holding.</span>
+ </a>
+ </div>
+ <!-- SOURCES USED
+ - NOTE ON WHAT THIS EDITION CANNOT TELL YOU. Published at 17:56 GMT. **Israel's polls close at 20:00 GMT, after we publish, so there is no result, no projection and no exit poll anywhere in this edition, and none existed in any source when we closed.** Broadcasters release exit polls only once voting ends, and the outlets themselves caution those can move a long way before a count settles. Soldiers' and reservists' ballots, hundreds of thousands of them, are not counted until tomorrow. **One source gave the closing time as 19:00 GMT; that is a stale conversion made before Israel left daylight saving on 25 October, and the correct figure of 20:00 GMT is used instead** &mdash; the same class of error we corrected in our own markets stamping last week
+ - NOTE ON THE BIGGEST THING WE HAVE DECLINED TONIGHT. **Headlines in approved outlets say Brazil's defeated candidate has fled the country. We do not publish that he has.** Three Brazilian news organisations report he is airborne to Florida with his family; two Argentine ones report he crossed into Argentina on foot and that the aircraft never took off. Those accounts are mutually exclusive, none of the five is on our approved list, and they reach us only through an approved outlet quoting them. Against all of it, that same approved outlet carries an on-the-record statement from **Argentine authorities that there is no record of him entering their country**. What is solid &mdash; the court order, the missed deadline, the cancelled passports, a fresh investigation into his campaign, police checking border crossings &mdash; is a strong enough item without a destination
+ - NOTE ON THE MARKET FIGURES. **The FTSE figure is a genuine close, timed 16:35 GMT, and the gilt reading is 17:15, after the cash market shut; the S&P 500 and the volatility index were still trading and are not closes.** All ten tickers were read live and cross-checked. Six agreed closely. **Four are qualified: the gilt and the American ten-year, where our providers disagree on the SIGN of moves smaller than a basis point, so no direction is claimed for either; Bitcoin, whose cross-check page returned no figure for a fourth consecutive reading; and the volatility index, likewise uncorroborated.** London fell while New York rose, which is the day's divergence, and gold rose over 1% on the eve of the Budget
+ - NOTE ON A PROVIDER FAULT, NOW SEEN FOUR DAYS RUNNING. Our cross-check provider's Brent page reads $99.79 tonight against a Brent price of about $113.50. It is carrying the West Texas Intermediate price under a Brent label, as it has every day since we diagnosed it. **The cross-check is therefore recorded as failed rather than as a disagreement to be averaged, and our Brent figure rests on the primary feed and on oil-market reporting**
+ - NOTE ON THE SCHEDULED JOB. **The evening LaunchAgent was unloaded at 17:42 GMT, thirteen minutes before it would have fired, and is reloaded as soon as this edition is pushed.** The morning agent ran unattended today and published at 08:02; its edition was structurally sound and its story selection reasonable, but **its ten dive-deepers ran from 90 to 119 words against the 150 to 200 this publication requires, and nothing in the validator or the pre-commit hook measures that length.** That is the eleventh consecutive slot in which the defect has shipped unmeasured, and the fix remains the highest-value change available. Four proposed fixes await the editor's decision
+ - NOTE ON SOURCING DISCIPLINE, AFTER YESTERDAY. Last night we published a correction: this morning's edition had named a storm &ldquo;Chloe&rdquo; on the strength of an annotation a research agent had written into its own cache file, a name that appeared in no article. Tonight both researchers were instructed to keep their judgements in their reports and out of the cache, and both confirm they wrote no annotations into any file. **Three further checks caught three more faults before publication: a reconstructed article URL that did not match the cached one and was corrected against the cache; a &ldquo;new momentum&rdquo; quotation that exists only in a live-blog headline and is attributed to nobody here; and a visible typo in an accordion label that a class-based check would have missed**
+ -
+ - GEOPOLITICAL
+ - https://www.bbc.co.uk/news/articles/c3j47l4kdez4o &mdash; BBC News, modified 17:39 GMT: that turnout is the highest on record; that the prime minister spent polling day posting about high turnout among Arab voters; that his party asked for voting to be extended beyond 22:00 local, which is 20:00 GMT; and that broadcasters publish exit polls once voting ends, which &ldquo;can vary significantly&rdquo;
+ - https://www.theguardian.com/world/live/2026/oct/27/israel-elections-knesset-netanyahu-likud-eisenkot-gaza-latest-updates &mdash; The Guardian's live coverage, modified 17:39 GMT: the hourly figures, with 66.7% of eligible voters having cast a ballot by six o'clock local time, a nine-point increase; that other parties in the governing camp joined the extension request; that the main opposition party leading in the polls &ldquo;firmly opposes&rdquo; it and calls it &ldquo;groundwork to challenge election integrity&rdquo;; that the Central Election Committee was convening to rule; that several complaints had been filed by parties in the anti-Netanyahu bloc; and the Nazareth turnout of over 32% by two o'clock against 28% four years ago
+ - https://www.aljazeera.com/news/2026/10/27/israel-election-turnout-highest-in-50-years-as-voting-continues &mdash; Al Jazeera, modified 15:59 GMT: almost 45% of voters having cast a ballot by two in the afternoon on the Central Elections Committee's own figures, six points above the same hour in 2022. **Two apparent conflicts resolve on inspection rather than needing a choice: one outlet says &ldquo;highest on record&rdquo; and another &ldquo;highest in 50 years&rdquo;, and these are the same claim because measurement began in the early 1970s; and the 45% and 66.7% figures are four hours apart, not contradictory**
+ - https://abcnews.com/International/wireStory/weeks-months-winner-israels-election-137595921 &mdash; ABC News carrying AP wire copy, on why a winner may not be known for some time: the coalition arithmetic that follows the count. **No result, projection or exit poll appears in this edition: polls were still open when we published**
+ - https://www.cbsnews.com/news/israel-election-benjamin-netanyahu-political-fate-key-factors/ &mdash; CBS News, 04:08 GMT: the factors bearing on the outcome, used for background only
+ - https://www.bbc.co.uk/news/articles/ckly0xpxp243o &mdash; BBC News, 17:08 GMT: that police cancelled the passports after the 24-hour Supreme Court deadline passed; that the order forms part of a money-laundering investigation he denies; that he had said on Monday he had no plans to leave and would stay to lead the opposition; the result of 51.79% to 48.21%; a second investigation ordered today into his campaign over alleged foreign funding; and **the decisive fact for us: Argentine authorities told this outlet on the record that there is NO record of him entering their country**. Police are checking border crossings
+ - https://www.theguardian.com/world/2026/oct/27/flavio-bolsonaro-brazil-argentina-fled &mdash; The Guardian, 17:44 GMT, for the flight claim ONLY and expressly as a report: that he is said to be en route to the United States with his wife and two daughters. **NOT USED for the flight claim, and the reason matters: three Brazilian organisations say he is airborne to Florida while two Argentine ones say he crossed on foot and the aircraft never took off. They are mutually exclusive, none is on our approved list, and an approved outlet carries an official Argentine denial of entry. We therefore assert no flight and no destination. Used only for the scale of the money-laundering inquiry and for his shift from seeking annulment to seeking his opponent's disqualification, for which no evidence is offered**
+ - https://abcnews.com/International/wireStory/62-people-killed-attack-community-northeastern-nigeria-137597495 &mdash; ABC News carrying AP wire copy, modified 13:38 GMT: at least 62 killed and 52 wounded in Friday's attack on the Binnari community in the Karim-Lamido area of Taraba state, with thousands displaced, attributed to the state head of the national emergency agency; that 52 bodies have been recovered including fifteen from the Benue River; that a state police spokesman says the figure is not definite because bodies are still being recovered; and a rights organisation's Nigeria director on the gunmen's use of the river. **We declined this story on 25 October because the figures then in circulation were irreconcilable &mdash; at least 10 from police, at least 20 from survivors, up to 50 from a rights body. The official count has settled above all three**
+ - https://www.aljazeera.com/news/2026/10/27/death-toll-from-attack-by-gunmen-in-northeastern-nigeria-rises-to-62 &mdash; Al Jazeera, 15:53 GMT: agreeing on 62 and on the same named emergency-agency official. **Both outlets are running the same wire copy, carrying an identical police quotation, so this is one reporting operation at two outlets rather than independent corroboration, and the figure traces to a single agency official. No federal government or military response appears in either source and none is implied**
+ - https://www.bbc.co.uk/news/articles/c6vgj813mlelo &mdash; BBC News, modified 14:23 GMT: the ninety-minute joint call placed from Helsinki by Finland's president and Norway's prime minister, described by their offices as addressing &ldquo;future negotiations to help to end the war&rdquo;; Norway's leader saying it showed &ldquo;big differences in views&rdquo;; Putin afterwards blaming &ldquo;confrontational&rdquo; European and Nato policies for prolonging the war; and that Ukraine's president spoke to both afterwards and thanked them for their &ldquo;active support&rdquo;
+ - https://www.theguardian.com/world/2026/oct/27/oleshky-truce-ukraine-russia-putin &mdash; The Guardian: the second source for the call and for the local truce in the south appearing to hold. **We reported the truce taking effect this morning, so only tonight's status is carried**
+ - https://www.aljazeera.com/news/2026/10/27/russia-targets-kyiv-as-finnish-norwegian-leaders-hold-rare-call-with-putin &mdash; Al Jazeera: the third source, and the overnight strikes on Kyiv. **The phrase &ldquo;new momentum&rdquo; appeared in a live-blog headline and in no article body or quotation, so it is attributed to nobody and not used. Zelensky's verifiable position is that he was briefed, is grateful for &ldquo;active support&rdquo;, and wants de-escalation on energy and infrastructure**
+ - https://www.bbc.co.uk/news/articles/ck20wjnv3w0jo &mdash; BBC News, modified 15:13 GMT, and the source for tonight's One To Read: that Ukrainian officials and Russia's defence ministry both say the limited ceasefire is being respected; that it began at three in the morning and is due to last until eleven on Sunday night; that Kyiv believes up to 6,000 people remain in Oleshky and its surrounding areas with only about 1,700 in the city itself, against a pre-war population of 24,000. **Two refinements to what we published this morning. The number of people differs by area, not by dispute, so the city figure and the wider figure are given separately and never merged. And the credit for brokering it is contested: the White House says the American first lady secured it, while an appeal from the Pope predates that and the United Nations, European Union and Council of Europe also called for a ceasefire &mdash; so the claim is attributed and not asserted. Residents are to be bussed to occupied Crimea and Russia rather than to Ukrainian-held territory**
+ - https://abcnews.com/International/wireStory/turkish-parliamentary-committee-approves-defense-pact-saudi-arabia-137602891 &mdash; ABC News carrying AP wire copy, modified 14:15 GMT: the foreign affairs committee approving the defence agreement with Saudi Arabia and Pakistan on the governing party's and its allies' votes over opposition objections; that it now goes to the full assembly for debate and a vote; the ten-year term in the published text; and the committee chairman's argument that it &ldquo;aims to increase deterrence and cooperation, does not target other countries and is likely to contribute to peace and stability&rdquo;; against an opposition member asking whether it &ldquo;will create new obligations that entangle Turkey in the wars of other nations&rdquo;. **This is single-sourced: no second approved outlet carries today's committee vote. No vote figures are given by the source, so none appears here. Turkish officials say the pact is defensive and that no troops will be sent to fight in Yemen**
+ - https://www.aljazeera.com/news/2026/10/27/qatars-emir-meets-irans-pezeshkian-in-moscow &mdash; Al Jazeera, 15:49 GMT, **weighed and folded into context rather than run**: Iran's and Qatar's leaders meeting at a Russian energy forum, which is the Moscow trip we flagged as a watchpoint last night
+ - https://abcnews.com/International/wireStory/attacks-kill-60-orthodox-christians-ethiopia-church-137600132 &mdash; ABC News carrying AP wire copy, 10:16 GMT, **recorded because it corroborates what we published last night as single-sourced**: at least 60 Orthodox Christians killed in Ethiopia on the Church's account. A second approved outlet now carries it
+ - https://www.bbc.co.uk/news/articles/cw8rz14k1jvxo &mdash; BBC News, 16:11 GMT, **weighed and not run for want of room**: an Egyptian journalist detained after a court ordered her news site closed, with a colleague's account given to AFP news agency
+ - https://abcnews.com/International/wireStory/south-africas-ramaphosa-orders-510-soldiers-kwazulu-natal-137604272 &mdash; ABC News on the AP wire, **weighed and not run**: South Africa's president ordering 510 soldiers to KwaZulu-Natal
+ - https://www.aljazeera.com/news/2026/10/27/ebola-cases-in-dr-congo-surpass-10000-in-fastest-growing-outbreak &mdash; Al Jazeera, **weighed and not run**: the Ebola caseload in the Democratic Republic of Congo
+ - https://www.npr.org/2026/10/27/nx-s1-6019217/bolsonaro-flavio-lula-brazil-election-trump &mdash; NPR, 10:41 GMT: that the defeated candidate's own party has accepted the result while he has not, which is the detail that makes the annulment demand his alone
+ -
+ - UK DOMESTIC
+ - https://www.bbc.co.uk/news/articles/c6d93gq1xdgno &mdash; BBC News, modified 15:01 GMT: that the minimum wage rise is expected in tomorrow's Budget with 18-to-20 year-olds receiving a smaller increase than in previous years; that their pay will rise in line with the rate for those 21 and over rather than faster; the 2024 manifesto promise to remove &ldquo;discriminatory age bands&rdquo;; the 26% increase for younger workers since 2024; the business secretary's defence that &ldquo;the manifesto pledge on equalisation still applies but we were always clear it could happen over time&rdquo;; and a union general secretary calling different rates for the same job &ldquo;deeply unfair&rdquo;. **The specific rates &mdash; &pound;10.85 to about &pound;11.27, and &pound;12.71 to &pound;13.20 &mdash; are attributed by this outlet to a newspaper NOT on our approved list and reach us only second-hand, so they are published as reported and not as confirmed**
+ - https://www.theguardian.com/politics/live/2026/oct/27/budget-burnham-healey-everday-fixes-gherkins-conservatives-miliband-carers-latest-news-updates &mdash; The Guardian's politics live coverage, 16:42 GMT: the second source, and the accusation that the manifesto pledge is being broken
+ - https://www.theguardian.com/environment/2026/oct/27/homes-across-uk-to-get-low--or-no-interest-loans-to-fund-solar-panels-and-heat-pumps &mdash; The Guardian, modified 17:37 GMT: the Warm Home Loans scheme launching today, loans from &pound;7,500 to &pound;35,000, interest-free or low-interest, offered through commercial lenders at a discount to high-street rates; up to &pound;10,000 for an air-source and &pound;35,000 for a ground-source heat pump, stackable with the existing grant of up to &pound;9,000; the government's figures of up to &pound;550 a year saved, rising &pound;300 more on a time-of-use tariff; and a trial in which fuel-poor households saved more than &pound;250 a year on average. **This outlet describes the existing boiler grant as &ldquo;up to &pound;9,000 a year&rdquo;; that scheme is a one-off payment, so the annual framing is not reproduced here**
+ - https://www.gov.uk/government/news/warm-homes-loan-scheme-factsheet &mdash; gov.uk, the primary source for the loan scheme rather than reportage
+ - https://www.bbc.co.uk/news/articles/cmqlngkz0elxo &mdash; BBC News, modified 17:20 GMT: the business secretary confirming that British and European officials will begin discussing a range of future options including free movement before the summit on 20 November; his exact words when pressed, that &ldquo;they will be talking to them about what the future options for our relationship might be&rdquo; while &ldquo;here and now, the focus should be on the summit&rdquo;; that no &ldquo;assumptions&rdquo; have been made; his reason that &ldquo;we face a series of policy changes on the European side that will affect us&rdquo;; that the prime minister will set out the long-term position after the summit; and &mdash; **the sharpest fact in the item** &mdash; a government spokesman stressing the same day that there are NO current discussions on freedom of movement, the government working &ldquo;on the areas set out and agreed ahead of the UK-EU Summit and within the manifesto red lines&rdquo;. **So a cabinet minister and the government's own spokesman gave different answers on the same day, and both are published rather than reconciled. Accounts of the prime minister's own position also differ between approved outlets &mdash; one has him answering &ldquo;no&rdquo; on introducing free movement without a referendum, which is what we published last night, another has him saying a referendum would be needed only for outright rejoining. Neither is chosen.** The summit is in Brussels on Friday 20 November, and ministers confirmed to the Commons that Britain rejoins the Erasmus exchange scheme from January
+ - https://www.theguardian.com/politics/2026/oct/27/uk-eu-relationship-talks-summit-free-movement-jonathan-reynolds &mdash; The Guardian, 09:41 GMT: the second source for officials discussing options including free movement ahead of the summit
+ - https://www.independent.co.uk/news/uk/home-news/freedom-of-movement-uk-brexit-eu-andy-burnham-b3073380.html &mdash; The Independent: the third source on the free movement question
+ - https://www.bbc.co.uk/news/articles/cqly3v5vz4kko &mdash; BBC News, modified 17:00 GMT: the two men, both 24 and from Westminster, appearing at Westminster Magistrates' Court; the charge against one of assisting a foreign intelligence service, which police have said they believe to be Iran; the charge against the other of entering a prohibited place for a purpose prejudicial to the United Kingdom; that both are charged under the National Security Act of 2023; the major incident declared on 27 September after three suspicious vans were seen near the base and dozens of residents were evacuated; and that the case will next be heard at the Old Bailey on 20 November. **These are live criminal proceedings: the item carries the charges, the Act and the court dates and nothing further, no plea has been entered and nothing is proven. A date for one charge particular appears in only one source and is not published. Material heard in court as prosecution assertion &mdash; a van logo, a petrol seizure, a 999 call &mdash; is not used as narrative, and police remarks about a pattern of Iranian-directed incidents are kept separate from these defendants. One man arrested in October was released without charge and is described only that way**
+ - https://www.theguardian.com/uk-news/2026/oct/27/two-men-charged-raf-fairford &mdash; The Guardian, 10:36 GMT: the second source for the charges
+ - https://www.bbc.co.uk/news/articles/cqg7xenmde78o &mdash; BBC News, modified 16:34 GMT: the three parliamentarians' account of being held for eight hours at the King Hussein Bridge and refused entry, their stated purpose of standing alongside Palestinians harvesting olives, the 23-strong delegation, the seizure of passports and individual interviews, and one member's account of being told there was &ldquo;evidence that I hate Israel&rdquo;; against the Israeli embassy's statement that the group &ldquo;failed to cooperate with border officials&rdquo; and gave &ldquo;false information about the purpose of their visit&rdquo;. the foreign secretary telling the Commons the government is &ldquo;deeply concerned&rdquo; and has raised it with Israeli authorities. **Both accounts are given because neither can be checked. This is single-sourced: no second approved outlet carries it and the Foreign Office has published nothing. They were stopped on Monday, the day before the crossing closure we reported on Sunday took effect**
+ - https://www.cnbc.com/2026/10/26/stock-market-today-live-updates.html &mdash; CNBC's market live coverage, 17:16 GMT: that Wall Street rose for a second day with chip stocks gaining again and oil easing. **London fell while New York rose, which is the divergence the drivers record**
+ - https://www.cnbc.com/2026/10/27/federal-reserve-rates-kevin-warsh.html &mdash; CNBC, 15:52 GMT: that the Federal Reserve is expected to hold rates this week, cited for the American ten-year context only
+ - https://www.theguardian.com/business/2026/oct/27/number-of-uk-businesses-in-financial-distress-at-two-decade-high-budget &mdash; The Guardian, 09:01 GMT, **weighed and not run**: the number of British businesses in financial distress described as at a two-decade high
+ - https://www.theguardian.com/business/2026/oct/27/hsbc-says-no-pressure-to-move-hq-out-of-uk-despite-prospect-of-higher-bank-taxes &mdash; The Guardian, 10:21 GMT, **weighed and not run**: a bank saying it is under no pressure to move its headquarters despite the prospect of higher bank taxes
+ - https://www.theguardian.com/uk-news/2026/oct/27/chris-packham-chancellor-scrap-spending-fairytale-carbon-capture-budget &mdash; The Guardian, 13:28 GMT, **weighed and not run**: the chancellor being told that British carbon capture spending is a &ldquo;national embarrassment&rdquo;
+ - https://www.theguardian.com/environment/2026/oct/27/heat-pump-installers-fear-planned-subsidy-cuts-uk-budget &mdash; The Guardian, 11:59 GMT: installers' concerns about planned changes, read alongside the loan scheme above
+ - https://www.bbc.co.uk/news/articles/ck9dznng7n3zo &mdash; BBC News, **weighed and not run tonight**: farm taxation ahead of the Budget
+ -
+ - OUTLET COUNT, STATED HONESTLY: ten outlets are relied upon for claims in this edition &mdash; BBC News, The Guardian, The Independent, Al Jazeera, CBS News, CNBC, ABC News, NPR, and the Associated Press and AFP through wire copy explicitly credited inside ABC News and BBC reports &mdash; together with gov.uk, which the automated tally does not recognise and which is the first source rather than the second for the loans scheme. **Two caveats on that count. The Nigeria item's two outlets are both running the same wire copy with an identical police quotation, so it is one reporting operation at two mastheads and not independent corroboration. And three items here are genuinely single-sourced and say so: the Turkish committee vote, the detention of the parliamentarians, and the Israeli turnout figure for six o'clock.** Trading Economics was read as a cross-check on all ten tickers and is relied upon for nothing. Sky News, ITV and Channel 4 remain unreachable
+ - NOT CARRIED, AND WHY. **A reported American strike on an alleged drug vessel in the eastern Pacific is not published: a deliberate search found it in no approved source at all, so it has zero sources rather than two.** The Israeli election stories we carried this morning are not repeated; nor are the Oleshky truce, the Sudan famine warning or the Jordanian strikes on Syria, all of which were this morning's items and have moved only incrementally. **Ethiopia is recorded rather than run: the attacks we published last night as single-sourced are now corroborated by a second approved outlet, which also breaks the toll into 14 killed on 20 October and 46 on 24 October, and names a regional official blaming a rebel group while noting he offered no evidence.** Weighed and held for want of room: the Democratic Republic of Congo passing 10,060 confirmed Ebola cases with 4,887 deaths, which is the strongest thing we have left out; an Egyptian editor jailed until she pays the maximum fine after a court ordered her news site closed; South Africa sending 510 soldiers to KwaZulu-Natal before local elections; British businesses in financial distress at the highest level since that series began in 2004; a bank saying it is under no pressure to leave London; and a backbench revolt over farm inheritance tax. **No sport appears anywhere: a Ballon d'Or award and the knighthood hinted at after it are excluded, as is a racing abandonment. A prominent sexual-abuse trial, a murder charge, an arrest and two sentencings are excluded as individual crime, and a royal apology as royal.** On Rosebank there is still no decision and nothing published
+ END SOURCES USED -->
+</div><!-- ── END EVENING 27 OCT (17:56) ── -->
 <!-- ── MORNING 27 OCT (08:02) ── -->
 <div class="curated-edition morning" data-date="2026-10-27" data-time="08:02" data-markets='{"FTSE":{"price":10767.33,"change":0.72},"SP":{"price":7680.86,"change":0.75},"Brent":{"price":115.15,"change":-0.57},"GBP":{"price":1.3353,"change":-0.14},"Gold":{"price":4022.7,"change":0.68},"EURGBP":{"price":0.8379,"change":0.05},"Gilt":{"price":5.3517,"change":0.0043},"VIX":{"price":18.34,"change":-5.71},"BTC":{"price":80255.5,"change":-0.28},"UST":{"price":4.982,"change":-0.006},"ts":"2026-10-27T08:02:00+00:00"}'>
  <div class="edition-header">

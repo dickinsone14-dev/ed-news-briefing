@@ -2,6 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-10-27-evening/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-27T17:56:00+01:00</news:publication_date>
+      <news:title>Evening Briefing — Tuesday 27 October 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-10-27-evening/record-israeli-turnout-and-a-fight-over-closing-time/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-27T17:56:00+01:00</news:publication_date>
+      <news:title>Record Israeli Turnout, and a Fight Over Closing Time</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-10-27-evening/bolsonaros-passports-cancelled-and-his-whereabouts-unknown/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-27T17:56:00+01:00</news:publication_date>
+      <news:title>Bolsonaro’s Passports Cancelled, His Whereabouts Unknown</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-10-27-evening/emergency-agency-puts-taraba-death-toll-at-sixty-two/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-27T17:56:00+01:00</news:publication_date>
+      <news:title>Emergency Agency Puts Taraba Death Toll at Sixty-Two</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-10-27-evening/nordic-leaders-hold-a-rare-joint-call-with-putin/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-27T17:56:00+01:00</news:publication_date>
+      <news:title>Nordic Leaders Hold a Rare Joint Call With Putin</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-10-27-evening/turkish-committee-clears-the-mecca-pact-for-a-full-vote/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-27T17:56:00+01:00</news:publication_date>
+      <news:title>Turkish Committee Clears the Mecca Pact for a Full Vote</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-10-27-evening/minimum-wage-to-rise-but-the-age-gap-stops-closing/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-27T17:56:00+01:00</news:publication_date>
+      <news:title>Minimum Wage to Rise, but the Age Gap Stops Closing</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-10-27-evening/warm-home-loans-open-for-heat-pumps-and-solar-panels/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-27T17:56:00+01:00</news:publication_date>
+      <news:title>Warm Home Loans Open for Heat Pumps and Solar Panels</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-10-27-evening/minister-and-spokesman-give-different-answers-on-free-movement/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-27T17:56:00+01:00</news:publication_date>
+      <news:title>Minister and Spokesman Give Different Answers on Free Movement</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-10-27-evening/two-charged-over-alleged-iran-linked-plot-at-raf-fairford/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-27T17:56:00+01:00</news:publication_date>
+      <news:title>Two Charged Over Alleged Iran-Linked Plot at RAF Fairford</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-10-27-evening/two-mps-and-an-msp-detained-and-turned-back-by-israel/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-27T17:56:00+01:00</news:publication_date>
+      <news:title>Two MPs and an MSP Detained and Turned Back by Israel</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-10-27-morning/</loc>
     <news:news>
       <news:publication>
@@ -362,127 +483,6 @@
       </news:publication>
       <news:publication_date>2026-10-26T08:42:00+01:00</news:publication_date>
       <news:title>Board of Deputies Declares the Greens a Racist Party</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-10-25-evening/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-25T18:08:00+01:00</news:publication_date>
-      <news:title>Evening Briefing — Sunday 25 October 2026</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-10-25-evening/trump-rules-out-a-strike-on-iran-today/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-25T18:08:00+01:00</news:publication_date>
-      <news:title>Trump Rules Out a Strike on Iran “Today” as Netanyahu Warns Tehran</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-10-25-evening/houthi-missiles-intercepted-over-mecca-province/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-25T18:08:00+01:00</news:publication_date>
-      <news:title>Houthi Missiles Intercepted Over Mecca Province as Gulf States Protest</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-10-25-evening/machado-returns-to-venezuela-after-months-in-exile/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-25T18:08:00+01:00</news:publication_date>
-      <news:title>Machado Returns to Venezuela After Months in Exile</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-10-25-evening/serbia-reports-record-early-turnout-in-student-challenge/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-25T18:08:00+01:00</news:publication_date>
-      <news:title>Serbia Reports Record Early Turnout in Student Challenge to Vučić</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-10-25-evening/brazil-votes-in-run-off-between-lula-and-bolsonaro/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-25T18:08:00+01:00</news:publication_date>
-      <news:title>Brazil Votes in a Run-off Between Lula and Flávio Bolsonaro</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-10-25-evening/storm-boelo-kills-a-man-as-82600-lose-power/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-25T18:08:00+01:00</news:publication_date>
-      <news:title>Storm Boelo Kills a Man as 82,600 Properties Lose Power</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-10-25-evening/rayner-backs-burnham-call-for-free-movement-debate/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-25T18:08:00+01:00</news:publication_date>
-      <news:title>Rayner Backs Burnham’s Call for a Debate on EU Free Movement</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-10-25-evening/ipsos-puts-labour-on-32-with-reform-third/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-25T18:08:00+01:00</news:publication_date>
-      <news:title>Ipsos Puts Labour on 32% With Reform Slipping to Third</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-10-25-evening/hmrc-could-take-unpaid-tax-from-bank-accounts/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-25T18:08:00+01:00</news:publication_date>
-      <news:title>Budget Trail Would Let HMRC Take Unpaid Tax From Bank Accounts</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-10-25-evening/suspended-tory-candidate-worked-in-badenochs-office/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-25T18:08:00+01:00</news:publication_date>
-      <news:title>Suspended Former Tory Candidate Worked in Badenoch’s Office</news:title>
     </news:news>
   </url>
 </urlset>
