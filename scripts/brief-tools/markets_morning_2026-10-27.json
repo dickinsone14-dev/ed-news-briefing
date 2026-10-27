@@ -1,0 +1,42 @@
+{
+ "FTSE": {
+  "price": 10767.33,
+  "change": 0.72
+ },
+ "SP": {
+  "price": 7680.86,
+  "change": 0.75
+ },
+ "Brent": {
+  "price": 115.15,
+  "change": -0.57
+ },
+ "GBP": {
+  "price": 1.3353,
+  "change": -0.14
+ },
+ "Gold": {
+  "price": 4022.7,
+  "change": 0.68
+ },
+ "EURGBP": {
+  "price": 0.8379,
+  "change": 0.05
+ },
+ "Gilt": {
+  "price": 5.3517,
+  "change": 0.0043
+ },
+ "VIX": {
+  "price": 18.34,
+  "change": -5.71
+ },
+ "BTC": {
+  "price": 80255.5,
+  "change": -0.28
+ },
+ "UST": {
+  "price": 4.982,
+  "change": -0.006
+ }
+}

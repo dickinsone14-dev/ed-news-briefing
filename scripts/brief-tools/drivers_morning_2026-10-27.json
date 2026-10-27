@@ -1,0 +1,92 @@
+{
+ "FTSE": {
+  "up": [
+   "Monday&rsquo;s close, the most recent sourced level"
+  ],
+  "down": [
+   "Opened lower this morning: the index was 0.93% down shortly after eight o&rsquo;clock, with European bourses mostly negative and the Stoxx 600 off 0.27%"
+  ],
+  "updated": "27 October 2026 __TIME__ GMT (Monday close; early trade lower)"
+ },
+ "SP": {
+  "up": [
+   "Gained 0.7% on Monday as the AI trade was lifted by a planned technology listing"
+  ],
+  "down": [
+   "Futures were down 0.1% before the open"
+  ],
+  "updated": "27 October 2026 __TIME__ GMT (Monday figure; futures slightly lower)"
+ },
+ "Brent": {
+  "up": [
+   "Stays close to six-month highs as Houthi attacks on Saudi Arabia keep supply fears alive; it touched $117 on Monday"
+  ],
+  "down": [
+   "Eased 0.57% to $115.15 at midnight GMT on hopes raised by the talks in Tehran between Iran and Saudi, Turkish and Pakistani officials"
+  ],
+  "updated": "27 October 2026 00:00 GMT (early Asian trade)"
+ },
+ "GBP": {
+  "up": [
+   "Monday&rsquo;s London close carried forward: no approved outlet had published a fresh level for this instrument by publication"
+  ],
+  "down": [
+   "Not a live reading &mdash; the ticker above refreshes from the live feed"
+  ],
+  "updated": "27 October 2026 __TIME__ GMT (Monday close carried forward)"
+ },
+ "Gold": {
+  "up": [
+   "Monday&rsquo;s London close carried forward: no approved outlet had published a fresh level for this instrument by publication"
+  ],
+  "down": [
+   "Not a live reading &mdash; the ticker above refreshes from the live feed"
+  ],
+  "updated": "27 October 2026 __TIME__ GMT (Monday close carried forward)"
+ },
+ "EURGBP": {
+  "up": [
+   "Monday&rsquo;s London close carried forward: no approved outlet had published a fresh level for this instrument by publication"
+  ],
+  "down": [
+   "Not a live reading &mdash; the ticker above refreshes from the live feed"
+  ],
+  "updated": "27 October 2026 __TIME__ GMT (Monday close carried forward)"
+ },
+ "Gilt": {
+  "up": [
+   "Monday&rsquo;s London close carried forward: no approved outlet had published a fresh level for this instrument by publication"
+  ],
+  "down": [
+   "Not a live reading &mdash; the ticker above refreshes from the live feed"
+  ],
+  "updated": "27 October 2026 __TIME__ GMT (Monday close carried forward)"
+ },
+ "VIX": {
+  "up": [
+   "Monday&rsquo;s London close carried forward: no approved outlet had published a fresh level for this instrument by publication"
+  ],
+  "down": [
+   "Not a live reading &mdash; the ticker above refreshes from the live feed"
+  ],
+  "updated": "27 October 2026 __TIME__ GMT (Monday close carried forward)"
+ },
+ "BTC": {
+  "up": [
+   "Monday&rsquo;s London close carried forward: no approved outlet had published a fresh level for this instrument by publication"
+  ],
+  "down": [
+   "Not a live reading &mdash; the ticker above refreshes from the live feed"
+  ],
+  "updated": "27 October 2026 __TIME__ GMT (Monday close carried forward)"
+ },
+ "UST": {
+  "up": [
+   "Monday&rsquo;s London close carried forward: no approved outlet had published a fresh level for this instrument by publication"
+  ],
+  "down": [
+   "Not a live reading &mdash; the ticker above refreshes from the live feed"
+  ],
+  "updated": "27 October 2026 __TIME__ GMT (Monday close carried forward)"
+ }
+}
