@@ -2287,7 +2287,7 @@
  <!-- #1 Markets snapshot bar -->
  <!-- Embedded market data (populated by update script, used as fallback) -->
  <script id="embedded-markets" type="application/json">
-{"FTSE":{"price":10694.5,"change":0.07},"SP":{"price":7743.98,"change":0.28},"Brent":{"price":113.9,"change":-1.23},"GBP":{"price":1.3327,"change":0.16},"Gold":{"price":4039.3,"change":-0.3},"EURGBP":{"price":0.8364,"change":0.04},"Gilt":{"price":5.323,"change":-0.02},"VIX":{"price":17.26,"change":2.07},"BTC":{"price":79801.61,"change":-1.44},"UST":{"price":5.045,"change":0.052},"ts":"2026-10-29T07:55:00+00:00"}
+{"FTSE":{"price":10722.07,"change":0.26},"SP":{"price":7720.39,"change":-0.3},"Brent":{"price":113.9,"change":-1.23},"GBP":{"price":1.3377,"change":0.38},"Gold":{"price":4033.3,"change":-0.15},"EURGBP":{"price":0.8351,"change":-0.16},"Gilt":{"price":5.323,"change":-0.02},"VIX":{"price":17.2,"change":-0.35},"BTC":{"price":79122.89,"change":-0.85},"UST":{"price":4.989,"change":-0.056},"ts":"2026-10-29T21:11:00+00:00"}
 </script>
  <script id="market-descriptions" type="application/json">
 {
@@ -2295,12 +2295,12 @@
     "name": "FTSE 100",
     "desc": "The UK's benchmark stock index, tracking the 100 largest companies listed on the London Stock Exchange by market capitalisation. Includes Shell, AstraZeneca, HSBC and Unilever.",
     "drivers_up": [
-      "Edged up 0.07% to 10,694.50 on Budget day; bank shares were among the biggest risers after the bank surcharge was set at 6% for 15 months"
+      "Closed up 0.26% at 10,722.07 on Thursday as Shell rose 2.1% after its highest quarterly profit since 2022 and a bigger buyback (Reuters)"
     ],
     "drivers_down": [
-      "Shell reports a near-doubling of quarterly profit this morning on record refining margins; not a live reading &mdash; the ticker above refreshes from the live feed"
+      "Haleon fell about 15%, its biggest one-day drop since listing, after cutting its organic revenue growth forecast"
     ],
-    "updated": "29 October 2026 07:55 GMT (Wednesday close)"
+    "updated": "29 October 2026 21:11 GMT (Thursday close)"
   },
   "SP": {
     "name": "S&P 500",
@@ -2311,7 +2311,7 @@
     "drivers_down": [
       "Nasdaq-100 futures were down 1.4% early Thursday after hyperscaler earnings; S&amp;P 500 futures fell 0.35%"
     ],
-    "updated": "29 October 2026 07:55 GMT (Wednesday close)"
+    "updated": "29 October 2026 21:11 GMT (Wednesday close)"
   },
   "Brent": {
     "name": "Brent Crude Oil",
@@ -2322,7 +2322,7 @@
     "drivers_down": [
       "Fell 1.23% to $113.90 this morning after reports that JD Vance wrote to Iran&rsquo;s Mohsen Rezaei to revive talks"
     ],
-    "updated": "29 October 2026 07:55 GMT (Thursday morning, CNBC)"
+    "updated": "29 October 2026 21:11 GMT (Thursday morning, CNBC)"
   },
   "GBP": {
     "name": "GBP/USD",
@@ -2333,7 +2333,7 @@
     "drivers_down": [
       "Sterling was marginally lower against the dollar as Healey spoke on Wednesday"
     ],
-    "updated": "29 October 2026 07:55 GMT (early Thursday)"
+    "updated": "29 October 2026 21:11 GMT (early Thursday)"
   },
   "Gold": {
     "name": "Gold (XAU/USD)",
@@ -2344,7 +2344,7 @@
     "drivers_down": [
       "Slightly lower this morning after the Federal Reserve held rates but two members voted for a rise"
     ],
-    "updated": "29 October 2026 07:55 GMT (early Thursday)"
+    "updated": "29 October 2026 21:11 GMT (early Thursday)"
   },
   "EURGBP": {
     "name": "EUR/GBP",
@@ -2355,7 +2355,7 @@
     "drivers_down": [
       "Little changed overnight"
     ],
-    "updated": "29 October 2026 07:55 GMT (early Thursday)"
+    "updated": "29 October 2026 21:11 GMT (early Thursday)"
   },
   "Gilt": {
     "name": "UK 10-Year Gilt Yield",
@@ -2366,7 +2366,7 @@
     "drivers_down": [
       "The ten-year yield was 2 basis points lower at 5.323% at 13:50 on Wednesday as Healey spoke; no approved closing level by publication"
     ],
-    "updated": "29 October 2026 07:55 GMT (Wednesday 13:50 reading)"
+    "updated": "29 October 2026 21:11 GMT (Wednesday 13:50 reading)"
   },
   "VIX": {
     "name": "VIX (Volatility Index)",
@@ -2377,7 +2377,7 @@
     "drivers_down": [
       "Not a live reading &mdash; the ticker above refreshes from the live feed"
     ],
-    "updated": "29 October 2026 07:55 GMT (early Thursday)"
+    "updated": "29 October 2026 21:11 GMT (early Thursday)"
   },
   "BTC": {
     "name": "Bitcoin (BTC/USD)",
@@ -2388,7 +2388,7 @@
     "drivers_down": [
       "Down about 1.4% over 24 hours"
     ],
-    "updated": "29 October 2026 07:55 GMT (early Thursday)"
+    "updated": "29 October 2026 21:11 GMT (early Thursday)"
   },
   "UST": {
     "name": "US 10-Year Treasury Yield",
@@ -2399,7 +2399,7 @@
     "drivers_down": [
       "Today&rsquo;s PCE inflation and GDP data could shift expectations"
     ],
-    "updated": "29 October 2026 07:55 GMT (latest reading)"
+    "updated": "29 October 2026 21:11 GMT (latest reading)"
   }
 }
 </script>
@@ -2452,6 +2452,146 @@
  <!-- ════ ALL EDITIONS (sorted by JS) ════ -->
  <!-- IMPORTANT: Keep 7 FULL DAYS of editions in this container. Do NOT delete editions less than 7 days old. -->
  <div id="all-editions" style="display:none;">
+
+<!-- ── EVENING 29 OCT (21:11) ── -->
+<div class="curated-edition evening" data-date="2026-10-29" data-time="21:11" data-markets='{"FTSE":{"price":10722.07,"change":0.26},"SP":{"price":7720.39,"change":-0.3},"Brent":{"price":113.9,"change":-1.23},"GBP":{"price":1.3377,"change":0.38},"Gold":{"price":4033.3,"change":-0.15},"EURGBP":{"price":0.8351,"change":-0.16},"Gilt":{"price":5.323,"change":-0.02},"VIX":{"price":17.2,"change":-0.35},"BTC":{"price":79122.89,"change":-0.85},"UST":{"price":4.989,"change":-0.056},"ts":"2026-10-29T21:11:00+00:00"}'>
+ <div class="edition-header">
+ <span class="edition-icon">&#9789;</span>
+ <h2>Evening Briefing</h2>
+ </div>
+ <div class="curated-meta">Thursday 29 October 2026 &mdash; 21:11 GMT</div>
+ <div class="impact-box">
+ <h3 class="impact-heading">What It Means For You</h3>
+ <ul class="impact-list">
+ <li><strong>If you are a working-age household:</strong> the Resolution Foundation expects typical disposable income to fall by &pound;1,050, or 3%, between now and 2029, and says the Budget&rsquo;s &pound;100 support payment will not offset higher energy bills.</li>
+ <li><strong>If you book GP appointments online:</strong> about 500 practices in England, and some in Wales, have lost their websites and online booking after Silicon Practice went into administration. Phone or visit your surgery instead; the NHS app is still working.</li>
+ <li><strong>If you shop at or work for Poundland:</strong> the chain has filed a notice of intention to appoint administrators, giving it 10 days to find a rescue deal. Its 12,000 staff face an uncertain few days.</li>
+ </ul>
+ </div>
+ <div class="curated-grid">
+ <div class="curated-column">
+ <h3><span class="dot geo"></span><span class="dot-label">GEO</span> Geopolitical</h3>
+ <div class="curated-item" data-time="12:00" data-slug="tehran-weighs-vance-letter-strikes-loom">
+ <h4>Tehran Weighs Vance Letter as Trump Tells Gulf to Prepare</h4>
+ <p>Iran was expected to reply on Thursday to a letter from JD Vance to its security chief, Mohsen Rezaei, proposing direct talks soon. US reports say the letter, passed on by Qatari mediators, insists the nuclear programme must be on the table from the outset. Trump has meanwhile told Gulf allies to prepare for a short, intense campaign after next week&rsquo;s midterms.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The Wall Street Journal says the letter offered a &ldquo;framework for negotiations&rdquo; rather than peace terms. Its aim was to see whether the two sides could find enough common ground to persuade Trump not to order a final strike. The New York Times reported that Tehran&rsquo;s leaders &ldquo;received well&rdquo; the letter, and Qatar or Turkey could host talks as early as next week, with Vance leading the US side as he did in June. Abbas Araghchi said on Wednesday that Iran &ldquo;continues to give diplomacy a chance&rdquo;. Trump&rsquo;s own talk of &ldquo;another little Epic Fury&rdquo; shows how little time is left.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="14:00" data-slug="netanyahu-bloc-short-arab-lists-kingmakers">
+ <h4>Final Count Leaves Netanyahu Short as Arab Lists Become Kingmakers</h4>
+ <p>Final results confirm that neither Benjamin Netanyahu&rsquo;s bloc nor the Jewish opposition has a majority. Netanyahu&rsquo;s bloc has 53 seats and Gadi Eisenkot&rsquo;s 48, while the Joint List and Ra&rsquo;am won a record 19 seats between them. Likud has accused the Arab-led parties of &ldquo;stealing&rdquo; the election, and Shin Bet is investigating whether they received illegal funding from Qatar and Turkey.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">Eisenkot and the Arab party leaders accused Netanyahu of trying to &ldquo;delegitimise&rdquo; the result by alleging foreign interference. Qatar&rsquo;s foreign ministry rejected the claims as &ldquo;ridiculous and dangerous&rdquo; and accused Israeli politicians of running a disinformation campaign against Doha. The Arab parties&rsquo; result followed a surge in turnout among Arab voters. Activists outside the counting rooms urged Eisenkot to try to form a government that includes them. The double-envelope ballots of soldiers and diplomats could still move individual seats, but they are unlikely to change the balance between the blocs.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="11:00" data-slug="spain-crash-audio-controllers-toll-69">
+ <h4>Leaked Audio Points to Controllers as Spain Crash Toll Reaches 69</h4>
+ <p>The death toll from Wednesday&rsquo;s high-speed collision near Urda, south of Madrid, has risen to 69. Leaked recordings published in Spanish media appear to show Madrid&rsquo;s control centre clearing a Renfe train to move while an Iryo train had stalled about 25km ahead. Pedro S&aacute;nchez said the authorities would &ldquo;get to the bottom of every last detail of this tragedy&rdquo;.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">In one recording, a controller tells the driver to continue &ldquo;at normal speed with normal operation&rdquo; and replies &ldquo;Yes&rdquo; when the driver asks for confirmation. The automatic train protection system had been out of action since a computer failure. Transport Minister &Oacute;scar Puente has called the clearance &ldquo;inexplicable&rdquo;, but unions accuse him of blaming a single controller. King Felipe VI and Queen Letizia visited injured passengers in a Toledo hospital on Thursday. Survivors described trapped passengers, smoke and one carriage on fire. This is Spain&rsquo;s second deadly high-speed crash this year, and with a general election next month the question of accountability will not go away.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="10:00" data-slug="kherson-truce-holds-oleshky-aid">
+ <h4>Kherson Enjoys Rare Quiet as Six-Day Truce Holds</h4>
+ <p>A six-day ceasefire brokered by Melania Trump to get humanitarian aid into Russian-occupied Oleshky has given Kherson its first quiet days in years. The guns fell silent at 4am Moscow time on Tuesday, two days earlier than planned. Since then, said Ukraine&rsquo;s human rights ombudsman Dmytro Lubinets, the city has &ldquo;literally come back to life&rdquo;.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The truce is local and short, and it is tied to food and medicine deliveries for Oleshky, on the Russian-held bank of the Dnipro. Residents have been walking streets still covered in anti-drone netting. &ldquo;Ever since the ceasefire was announced, there&rsquo;s been total silence,&rdquo; one resident, Olga, told the BBC, though people fear what will follow once it lapses. The Kremlin still rejects a wider ceasefire, so the real test is whether a humanitarian pause can become a model for something broader. On past form, residents are right to be wary.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="16:30" data-slug="shell-lifts-ftse-haleon-slumps">
+ <h4>Shell Lifts FTSE 100 as Haleon Suffers Record Fall</h4>
+ <p>The FTSE 100 closed up 0.26% at 10,722.07, led by energy stocks after Shell reported its highest quarterly profit since 2022 and raised its share buyback. Shell rose 2.1%, even though oil prices fell. Haleon dropped about 15%, its biggest one-day fall since it listed four years ago, after cutting its organic revenue growth forecast.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">Energy stocks gained about 1.6% as Shell&rsquo;s refining margins outweighed a weaker crude price, which fell after news of Vance&rsquo;s outreach to Tehran. The paradox is plain: the war that is squeezing household budgets is lifting the profits of London&rsquo;s largest oil company. Sterling firmed against the dollar on Thursday, and ten-year US Treasury yields eased back below 5%. Next week brings the US midterms, and soon after the Bank of England&rsquo;s next rate decision is due, so markets face two tests in quick succession.</div>
+ </details>
+ </div>
+ </div>
+
+ <div class="curated-column">
+ <h3><span class="dot dom"></span><span class="dot-label">DOM</span> UK Domestic Politics</h3>
+ <div class="curated-item" data-time="09:00" data-slug="think-tanks-warn-painful-years-incomes">
+ <h4>Think Tanks Warn of &lsquo;Painful&rsquo; Years as Living Standards Stall</h4>
+ <p>The Resolution Foundation says typical working-age household incomes will fall by &pound;1,050, or 3%, by 2029. The IFS says this decade will be the worst for household income growth on record. John Healey said his Budget offered &ldquo;breathing space&rdquo; but conceded the government could &ldquo;never remove completely&rdquo; cost-of-living pressures.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The OBR called its own forecast a &ldquo;pretty grim picture&rdquo; and blamed higher borrowing costs and war-driven inflation. The Resolution Foundation says the &pound;100 energy payment will not offset higher bills. It had already called the Budget &ldquo;scattergun&rdquo; and forecast bills averaging &pound;2,210 next year. The politics are awkward for a government that promised to improve living standards. Healey argues that bigger giveaways would have risked the fiscal rules and gilt-market confidence. Markets expect the Bank of England to raise rates next month, which would add to the squeeze.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="12:30" data-slug="burnham-welfare-cut-no-timetable">
+ <h4>Burnham Cannot Promise Welfare Cut Before Election</h4>
+ <p>Andy Burnham said he wanted to cut the welfare bill &ldquo;as soon as we possibly can&rdquo; but could not guarantee it would happen before the next election. Spending is forecast to rise from &pound;353bn this year to &pound;431bn by 2031/32. Healey told the Today programme there &ldquo;will be a reduction in the benefits bill&rdquo;, but Downing Street later said it was &ldquo;not setting an arbitrary target or timetable&rdquo;.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">Treasury sources rejected the idea that Healey had promised a cut by polling day, which must come by August 2029. &ldquo;We want to get the welfare bill down as quickly as possible, and we&rsquo;re working flat out to that end,&rdquo; Burnham said. He warned against &ldquo;crude cuts&rdquo; and talked of getting people into &ldquo;sustainable employment&rdquo;. The Conservatives accused Labour of being &ldquo;addicted to welfare&rdquo;. The Budget gave no detail on welfare reform, which leaves the biggest spending pressure without a plan. That gap gives the opposition its line of attack for the winter.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="13:00" data-slug="poundland-brink-12000-jobs-burnham">
+ <h4>Poundland on the Brink as Owners Reject Rescue Bid</h4>
+ <p>Poundland has filed a notice of intention to appoint administrators after its US owner, Gordon Brothers, cut off funding and rejected a takeover offer from Martin Property Group. The notice gives the chain 10 days to find a rescue deal, with 12,000 jobs at stake. &ldquo;This is a deeply worrying time for Poundland staff and their families,&rdquo; Andy Burnham said.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">Burnham said he and the Business Secretary wanted to know why the MPG offer, which would have protected jobs, had been turned down. &ldquo;We stand ready to support the workforce however we can,&rdquo; he said. Managing director Barry Williams told staff that the owner had pulled funding despite strong sales. The threat comes just as the Budget asks retailers to absorb a 3.9% minimum wage rise in April. Ministers can lean on the owners, but they have few direct levers.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="15:00" data-slug="gp-practices-lose-online-services">
+ <h4>Hundreds of GP Surgeries Lose Online Booking After Firm Collapses</h4>
+ <p>About 500 GP practices in England, just under 10% of the total, have lost their websites and online booking after Silicon Practice went into administration. Practices in London, Gloucestershire and Norfolk have reported problems, and services in Wales are also affected. NHS England told patients to contact their practice &ldquo;by phone or in person as usual&rdquo;.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">More than 40% of GP appointments are now booked online. Since last year, every practice in England has had to offer online booking. GP leaders warned of huge disruption. The NHS app still works, but affected surgeries will now have to field far more phone calls. The collapse shows how much of primary care depends on small private suppliers. Questions over contract resilience and contingency plans now fall to NHS England.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="11:30" data-slug="farage-voaden-row-alleged-shove">
+ <h4>Farage and Lib Dem MP Clash Over Alleged Commons Shove</h4>
+ <p>Nigel Farage said he skipped Wednesday&rsquo;s Budget to avoid a repeat of a &ldquo;physical altercation&rdquo; with another MP at May&rsquo;s State Opening. Caroline Voaden, the Lib Dem MP for South Devon, then said she was that MP, and that the encounter had left her &ldquo;shocked and bloody angry&rdquo;. The Lib Dems say Farage &ldquo;attempted to shove&rdquo; her; Reform accuses them of &ldquo;lying&rdquo;.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">Footage first published by the Daily Telegraph shows the two leaving the chamber together, with no visible sign of a major altercation. A Reform source said &ldquo;the video disproves that clearly&rdquo;. Voaden says the incident itself is not in the clip. The row follows another one over where Reform sits in the Commons. Farage&rsquo;s absence on Budget day has drawn as much attention as his explanation for it. The episode is minor but telling: relations between Reform and the Liberal Democrats are now openly hostile.</div>
+ </details>
+ </div>
+ </div>
+ </div>
+ <div class="one-to-read">
+ <h3>One To Read</h3>
+ <p><a href="https://www.bbc.co.uk/news/articles/ck1l393pyrylo" target="_blank" rel="noopener">&lsquo;The city is alive&rsquo;: A brief peace in Kherson, but residents fear what comes next</a> &mdash; BBC News. A vivid report from a front-line city enjoying its first quiet days in years, and a sober account of how fragile that quiet is.</p>
+ </div>
+<!-- SOURCES USED — EVENING 29 OCTOBER 2026
+ - Al Jazeera (aljazeera.com/news/2026/10/29/what-we-know-of-vances-letter-to-rezaei-as-trump-warns-gulf-to-prepare) — Vance letter, Qatari mediators, nuclear programme on table, WSJ "framework for negotiations", NYT "received well", Qatar/Turkey venues, Araghchi quote, "another little Epic Fury". [Iran item]
+ - BBC News (bbc.co.uk/news/articles/ckdd8qdl9e0eo) — final results 53/48/19, "stealing", Shin Bet probe, Qatar "ridiculous and dangerous", "delegitimise". [Israel item]
+ - Times of Israel (timesofisrael.com/israels-uncounted-ballots-could-shift-knesset-seats-but-likely-not-the-balance-of-power/) — double-envelope ballots unlikely to shift balance. [Israel item]
+ - BBC News (bbc.co.uk/news/articles/cmqxnl312v34o; ckn9rq8204l0o) — 69 dead, leaked audio, 25km, Sánchez quote, King and Queen in Toledo. [Spain item]
+ - NBC News / Guardian (morning cache: nbc-spain-train-crash-toledo, guardian-spain-train-survivors) — Puente "inexplicable", union criticism, January Córdoba crash, election next month. [Spain item]
+ - BBC News (bbc.co.uk/news/articles/ck1l393pyrylo) — Kherson quiet, Olga and Lubinets quotes, anti-drone nets. [Kherson item, One To Read]
+ - Washington Post (washingtonpost.com/world/2026/10/28/ceasefire-ukraine-russia-war-melania-trump-oleshky/...) — six-day truce, Melania Trump, Oleshky aid, 4am Moscow time Tuesday, two days early. [Kherson item]
+ - ISW (morning cache: isw-russian-offensive-campaign-assessment-28oct) — Kremlin still rejects wider ceasefire. [Kherson item]
+ - Reuters (via TradingView syndication, snippet) — FTSE +0.26% at 10,722.07, Shell +2.1%, highest profit since 2022, energy +1.64%, Haleon -15%. [Shell item, markets]
+ - CNBC (morning cache: cnbc-shell-earnings-q3, cnbc-oil-price-today-29oct) — Shell refining margins; Brent 113.9, -1.23%. [Shell item, markets]
+ - BBC News (bbc.co.uk/news/articles/c6z7x8214np7o) — RF £1,050/3%, IFS worst decade, Healey "breathing space", OBR "pretty grim picture", £100 not enough. [living standards item, impact box]
+ - Resolution Foundation (morning cache: resolutionfoundation-budget-balancing-act-tough-winter) — "scattergun", £2,210 bills. [living standards item]
+ - BBC News (bbc.co.uk/news/articles/c6x2w4zy15nwo) — Burnham welfare quotes, £353bn to £431bn, Healey Today quote, No 10 "arbitrary target", "addicted to welfare". [welfare item]
+ - BBC News (bbc.co.uk/news/articles/cqrky1p4dlm7o) — Poundland notice, Gordon Brothers, MPG, 10 days, 12,000 staff, Burnham quotes, Barry Williams. [Poundland item, impact box]
+ - BBC News (bbc.co.uk/news/articles/cq146562ld3no) — Silicon Practice, ~500 practices, under 10%, London/Gloucestershire/Norfolk, Wales, 40%+ online, NHS England quote. [GP item, impact box]
+ - BBC News (bbc.co.uk/news/articles/cwg7x3kegymvo) — Farage "physical altercation", Voaden "shocked and bloody angry", "attempted to shove", Reform "lying", Telegraph footage. [Farage item]
+ - Guardian (morning cache: guardian-farage-seating-row) — Commons seating row. [Farage item]
+ - Yahoo Finance (query2.finance.yahoo.com chart data, cached EVE-MKT-*.txt) — FTSE, S&P, GBP, Gold, EURGBP, VIX, BTC, UST levels about 21:15 GMT. [markets]
+ - NOTE ON MARKETS: FTSE is Thursday's close; S&P, GBP, Gold, EURGBP, VIX, BTC and UST are Yahoo readings at about 21:15 GMT, with changes measured against the morning edition's reference levels. Brent is CNBC's Thursday-morning reading (Yahoo's front-month series has rolled). Gilt is carried from CNBC's Wednesday 13:50 reading; no approved outlet had published a fresh level.
+ - NOT CARRIED: war-day-count block (vetoed). MI5/Leveson (BBC), US early voting (BBC), Patrick Stewart obituary (BBC) consulted but not carried. Run constrained by pipeline timeout; Kherson aid and midterm turnout not further researched.
+END SOURCES USED -->
+</div><!-- ── END EVENING 29 OCT (21:11) ── -->
 
 <!-- ── MORNING 29 OCT (07:55) ── -->
 <div class="curated-edition morning" data-date="2026-10-29" data-time="07:55" data-markets='{"FTSE":{"price":10694.5,"change":0.07},"SP":{"price":7743.98,"change":0.28},"Brent":{"price":113.9,"change":-1.23},"GBP":{"price":1.3327,"change":0.16},"Gold":{"price":4039.3,"change":-0.3},"EURGBP":{"price":0.8364,"change":0.04},"Gilt":{"price":5.323,"change":-0.02},"VIX":{"price":17.26,"change":2.07},"BTC":{"price":79801.61,"change":-1.44},"UST":{"price":5.045,"change":0.052},"ts":"2026-10-29T07:55:00+00:00"}'>
