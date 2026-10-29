@@ -1,0 +1,4 @@
+NOTE: Market levels for FTSE, SP, GBP, Gold, EURGBP, VIX, BTC, UST taken from Yahoo Finance chart API (finance.yahoo.com, approved data source) — raw JSON in MORN-MKT-<KEY>.txt files in this directory, fetched 29 Oct 2026 ~07:58 GMT.
+FTSE 100 Wednesday close 10,694.50 (+7.96, +0.07%). S&P 500 Wednesday close 7,743.98 (+0.28%). GBP/USD 1.3327. EUR/GBP 0.8364. Gold futures 4,039.3. VIX 17.26. BTC 79,801.61. US 10y (^TNX) 5.045 vs 4.993 prior close.
+Brent: Yahoo BZ=F shows 110.69 but the front-month contract rolled; CNBC's reading used instead: "Brent crude futures fell 1.23% to $113.9 per barrel" (cnbc-oil-price-today-29oct.txt). CNBC Wednesday settle reference $115.32 (anchor file 28 Oct).
+Gilt: CNBC (cnbc-uk-autumn-budget.txt): "By 1:50 p.m. in London (9.50 a.m. ET), the yield on the benchmark 10-year gilt was 2 basis points lower at 5.323%."
