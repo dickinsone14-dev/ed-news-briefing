@@ -2286,74 +2286,76 @@
 
  <!-- #1 Markets snapshot bar -->
  <!-- Embedded market data (populated by update script, used as fallback) -->
- <script id="embedded-markets" type="application/json">{"FTSE":{"price":10722.07,"change":0.26},"SP":{"price":7720.39,"change":-0.3},"Brent":{"price":112.78,"change":1.79},"GBP":{"price":1.34,"change":0.19},"Gold":{"price":3990.3,"change":-1.02},"EURGBP":{"price":0.8346,"change":-0.1},"Gilt":{"price":5.323,"change":-0.02},"VIX":{"price":18.44,"change":7.21},"BTC":{"price":77938.03,"change":0.19},"UST":{"price":4.989,"change":-0.056},"ts":"2026-10-30T07:55:00+00:00"}</script>
+ <script id="embedded-markets" type="application/json">
+{"FTSE":{"price":10729.78,"change":0.07},"SP":{"price":7580.07,"change":-1.82},"Brent":{"price":112.56,"change":1.59},"GBP":{"price":1.3396,"change":0.16},"Gold":{"price":3894.4,"change":-3.4},"EURGBP":{"price":0.8337,"change":-0.2},"Gilt":{"price":5.323,"change":-0.02},"VIX":{"price":19.63,"change":14.13},"BTC":{"price":76777.05,"change":-1.3},"UST":{"price":4.929,"change":-0.06},"ts":"2026-10-30T21:02:00+00:00"}
+</script>
  <script id="market-descriptions" type="application/json">
 {
   "FTSE": {
     "name": "FTSE 100",
     "desc": "The UK's benchmark stock index, tracking the 100 largest companies listed on the London Stock Exchange by market capitalisation. Includes Shell, AstraZeneca, HSBC and Unilever.",
     "drivers_up": [
-      "Closed up 0.26% at 10,722.07 on Thursday as Shell rose 2.1% after its highest quarterly profit since 2022 and a bigger buyback (Reuters)"
+      "Closed 0.07% higher at 10,729.78 on Friday, little moved by the US tech sell-off"
     ],
     "drivers_down": [
-      "Haleon fell about 15%, its biggest one-day drop since listing, after cutting its organic revenue growth forecast"
+      "Global risk appetite weakened as US tech stocks headed for a loss of more than $1tn in value"
     ],
-    "updated": "29 October 2026 21:11 GMT (Thursday close)"
+    "updated": "30 October 2026 21:02 GMT (Friday close)"
   },
   "SP": {
     "name": "S&P 500",
     "desc": "America's leading stock market index, tracking 500 of the largest US-listed companies. Dominated by mega-cap tech (Apple, Microsoft, Nvidia) but spans all sectors.",
     "drivers_up": [
-      "Rose 0.28% to 7,743.98 on Wednesday, a third straight gain, led by chip stocks as Micron jumped almost 6%"
+      "Investors rotated into non-tech names such as Coca-Cola, Walmart and Eli Lilly, which rose more than 1%"
     ],
     "drivers_down": [
-      "Nasdaq-100 futures were down 1.4% early Thursday after hyperscaler earnings; S&amp;P 500 futures fell 0.35%"
+      "Down about 1.8% by early evening as Intel plunged 29%, its worst day since 1974, on weak guidance"
     ],
-    "updated": "29 October 2026 21:11 GMT (Wednesday close)"
+    "updated": "30 October 2026 21:02 GMT (intraday)"
   },
   "Brent": {
     "name": "Brent Crude Oil",
     "desc": "The global benchmark for crude oil pricing, produced from oil fields in the North Sea. Used to price roughly two-thirds of the world's traded oil.",
     "drivers_up": [
-      "US officials have told Middle Eastern states to be ready for possible renewed strikes on Iran after the 3 November midterms"
+      "Higher after a limpet-mine attack disabled the tanker Louise 1 in the Strait of Hormuz, the first successful attack of its kind in the war"
     ],
     "drivers_down": [
-      "Fell 1.23% to $113.90 this morning after reports that JD Vance wrote to Iran&rsquo;s Mohsen Rezaei to revive talks"
+      "Qatari mediators are pursuing talks after JD Vance wrote to Iran&rsquo;s Mohsen Rezaei"
     ],
-    "updated": "29 October 2026 21:11 GMT (Thursday morning, CNBC)"
+    "updated": "30 October 2026 21:02 GMT (intraday)"
   },
   "GBP": {
     "name": "GBP/USD",
     "desc": "The exchange rate between the British pound and the US dollar, commonly known as 'cable'. Reflects relative economic strength and interest rate differentials between the UK and US.",
     "drivers_up": [
-      "Little changed against the dollar after a Budget that kept to the fiscal rules"
+      "Slightly firmer against the dollar on Friday"
     ],
     "drivers_down": [
-      "Sterling was marginally lower against the dollar as Healey spoke on Wednesday"
+      "Risk-off mood in US equities limited gains"
     ],
-    "updated": "29 October 2026 21:11 GMT (early Thursday)"
+    "updated": "30 October 2026 21:02 GMT (intraday)"
   },
   "Gold": {
     "name": "Gold (XAU/USD)",
     "desc": "The spot price of gold in US dollars per troy ounce. The world's oldest safe-haven asset, traditionally rising during periods of uncertainty, inflation and currency debasement.",
     "drivers_up": [
-      "High oil prices remain the main driver of above-target inflation, analysts say"
+      "Commerzbank called the fall exaggerated and expects a recovery"
     ],
     "drivers_down": [
-      "Slightly lower this morning after the Federal Reserve held rates but two members voted for a rise"
+      "Fell to a one-year low as higher energy prices strengthened expectations that rates will stay high; down 5.9% this month"
     ],
-    "updated": "29 October 2026 21:11 GMT (early Thursday)"
+    "updated": "30 October 2026 21:02 GMT (intraday)"
   },
   "EURGBP": {
     "name": "EUR/GBP",
     "desc": "The exchange rate between the euro and the British pound. Key for UK-EU trade pricing. A falling rate means sterling is strengthening against the euro.",
     "drivers_up": [
-      "Sterling was 0.2% lower against the euro as Healey delivered the Budget"
+      "Little changed through the session"
     ],
     "drivers_down": [
-      "Little changed overnight"
+      "Sterling edged higher against the euro on Friday"
     ],
-    "updated": "29 October 2026 21:11 GMT (early Thursday)"
+    "updated": "30 October 2026 21:02 GMT (intraday)"
   },
   "Gilt": {
     "name": "UK 10-Year Gilt Yield",
@@ -2362,42 +2364,42 @@
       "The OBR expects borrowing about &pound;11bn a year higher than in March before new policy, driven by debt interest"
     ],
     "drivers_down": [
-      "The ten-year yield was 2 basis points lower at 5.323% at 13:50 on Wednesday as Healey spoke; no approved closing level by publication"
+      "The ten-year yield was 2 basis points lower at 5.323% at 13:50 on Wednesday; no approved fresh level by publication"
     ],
-    "updated": "29 October 2026 21:11 GMT (Wednesday 13:50 reading)"
+    "updated": "30 October 2026 21:02 GMT (Wednesday 13:50 reading)"
   },
   "VIX": {
     "name": "VIX (Volatility Index)",
     "desc": "The CBOE Volatility Index, often called the 'fear gauge'. Measures expected S&P 500 volatility over the next 30 days. Readings above 20 suggest elevated anxiety; above 30 signals acute stress.",
     "drivers_up": [
-      "Edged higher this morning as Nasdaq futures fell on tech earnings"
+      "Rose sharply as the AI sell-off spread from Alphabet and Intel across chip stocks"
     ],
     "drivers_down": [
       "Not a live reading &mdash; the ticker above refreshes from the live feed"
     ],
-    "updated": "29 October 2026 21:11 GMT (early Thursday)"
+    "updated": "30 October 2026 21:02 GMT (intraday)"
   },
   "BTC": {
     "name": "Bitcoin (BTC/USD)",
     "desc": "The price of Bitcoin in US dollars. The largest cryptocurrency by market cap, increasingly viewed as digital gold by institutional investors since spot ETF approvals.",
     "drivers_up": [
-      "Trading just below $80,000 this morning"
+      "Holding above $76,000"
     ],
     "drivers_down": [
-      "Down about 1.4% over 24 hours"
+      "Down about 1.3% on the day amid the wider risk-off move"
     ],
-    "updated": "29 October 2026 21:11 GMT (early Thursday)"
+    "updated": "30 October 2026 21:02 GMT (intraday)"
   },
   "UST": {
     "name": "US 10-Year Treasury Yield",
     "desc": "The yield on 10-year US government bonds, the global risk-free rate benchmark. Influences mortgage rates, corporate borrowing and equity valuations worldwide.",
     "drivers_up": [
-      "The ten-year yield rose after the Fed hold; futures price an 85.7% chance of a December rise"
+      "US inflation accelerated in September, supporting expectations of a December rate rise"
     ],
     "drivers_down": [
-      "Today&rsquo;s PCE inflation and GDP data could shift expectations"
+      "The ten-year yield eased on Friday as tech stocks fell"
     ],
-    "updated": "29 October 2026 21:11 GMT (latest reading)"
+    "updated": "30 October 2026 21:02 GMT (latest reading)"
   }
 }
 </script>
@@ -2450,6 +2452,150 @@
  <!-- ════ ALL EDITIONS (sorted by JS) ════ -->
  <!-- IMPORTANT: Keep 7 FULL DAYS of editions in this container. Do NOT delete editions less than 7 days old. -->
  <div id="all-editions" style="display:none;">
+
+<!-- ── EVENING 30 OCT (21:02) ── -->
+<div class="curated-edition evening" data-date="2026-10-30" data-time="21:02" data-markets='{"FTSE":{"price":10729.78,"change":0.07},"SP":{"price":7580.07,"change":-1.82},"Brent":{"price":112.56,"change":1.59},"GBP":{"price":1.3396,"change":0.16},"Gold":{"price":3894.4,"change":-3.4},"EURGBP":{"price":0.8337,"change":-0.2},"Gilt":{"price":5.323,"change":-0.02},"VIX":{"price":19.63,"change":14.13},"BTC":{"price":76777.05,"change":-1.3},"UST":{"price":4.929,"change":-0.06},"ts":"2026-10-30T21:02:00+00:00"}'>
+ <div class="edition-header">
+ <span class="edition-icon">&#9789;</span>
+ <h2>Evening Briefing</h2>
+ </div>
+ <div class="curated-meta">Friday 30 October 2026 &mdash; 21:02 GMT</div>
+ <div class="impact-box">
+ <h3 class="impact-heading">What It Means For You</h3>
+ <ul class="impact-list">
+ <li><strong>If you were planning a heat pump:</strong> the boiler upgrade scheme still offers a typical household &pound;7,500, but its funding will now rise only with inflation after the Budget took &pound;741m from it. Installations are expected to stagnate or grow far more slowly than planned.</li>
+ <li><strong>If you hold tech funds or gold:</strong> Intel fell 29% on Friday and US tech stocks were on course to lose more than $1tn in value. Gold has dropped to a one-year low and is down 5.9% so far this month.</li>
+ <li><strong>If you are a Yorkshire Water customer:</strong> the Environment Agency has rated the company one star out of four, its lowest rating, after 260 pollution incidents in 2025. Its chief executive, Nicola Shaw, leaves on 1 January.</li>
+ </ul>
+ </div>
+ <div class="curated-grid">
+ <div class="curated-column">
+ <h3><span class="dot geo"></span><span class="dot-label">GEO</span> Geopolitical</h3>
+ <div class="curated-item" data-time="09:00" data-slug="tanker-hit-limpet-mines-hormuz">
+ <h4>Limpet Mines Disable Tanker in First Such Hormuz Attack of War</h4>
+ <p>On Thursday a small boat attached explosives to the hull of the Panama-flagged tanker Louise 1, about 25 nautical miles north-east of Khasab in Oman. The blast started a fire that was later put out. Maritime security sources told Reuters it was the first known successful limpet-mine attack on a tanker in the area since the war began. Separately, the IRGC claimed that three tankers had struck sea mines on a southern route it calls unauthorised.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The UK Maritime Trade Operations centre said the crew were safe and the ship had continued to its next port. According to the sources, a similar attempt in September failed when the devices did not go off. The Greece-based risk firm Marisks said: &ldquo;The apparent ability of a small craft to approach a transiting tanker, deploy explosive devices and withdraw presents a significant security concern.&rdquo; Iran insists that ships use northern routes it has approved, while Washington promotes the southern lane. Tasnim, a news agency close to the IRGC, said Tehran had not yet answered JD Vance&rsquo;s letter and would not drop its core conditions, including an end to the US blockade of its ports.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="13:30" data-slug="intel-plunge-tech-sell-off-1tn">
+ <h4>Intel Suffers Worst Day Since 1974 as AI Sell-Off Deepens</h4>
+ <p>Intel shares fell 29% on Friday, on course for their worst day since 1974, after the company gave weaker-than-expected guidance. It blamed a plant shutdown in Israel and weak PC demand. US tech stocks were on track to lose more than $1tn in value, a day after Alphabet lost about $500bn. By early evening the S&amp;P 500 was down about 1.8%, and gold had fallen to a one-year low.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">Intel&rsquo;s finance chief, David Zinsner, said: &ldquo;Looking ahead, we see the PC slowdown continuing at least through the first half of next year.&rdquo; Amazon, which plans to spend $220bn this year, also fell after missing forecasts, and Reddit dropped 26%. Kathleen Brookes of XTB said: &ldquo;Investors have turned ruthless, punishing any signs of disappointment.&rdquo; The US government&rsquo;s 10% stake in Intel lost about $12bn in value on the day. Commerzbank said gold&rsquo;s fall to its lowest level since October 2025 was partly due to forced selling and margin calls after the tech slide.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="11:00" data-slug="oleshky-evacuated-kherson-ceasefire">
+ <h4>Hundreds Evacuated From Occupied Oleshky Under Kherson Ceasefire</h4>
+ <p>Hundreds of residents left the devastated, Russian-occupied town of Oleshky on Friday. It was the first joint relief operation of the war, made possible by a ceasefire across the Kherson region brokered by Melania Trump. A convoy of 25 buses had four hours to take out up to 750 people. Several hundred residents, most of them older, chose to stay. Those heading for Ukraine must travel through Crimea, Anapa in southern Russia and Belarus.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">Ukraine&rsquo;s ombudsman, Dmytro Lubinets, went in with his Russian counterpart, Yana Lantratova. He is the first Ukrainian official to visit occupied territory since the full-scale invasion. &ldquo;The problem is that a lot of people are staying,&rdquo; he said. About 2,000 people remain, and some say they have lived on a cup of rice or buckwheat a day. The Kremlin called the operation a special case that was &ldquo;difficult to extrapolate&rdquo; to the wider peace effort. The ceasefire, the longest and widest since 2022, is due to end on Sunday.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="10:00" data-slug="g20-photo-cancelled-lavrov-atlanta">
+ <h4>G20 Photo Scrapped as Europeans Refuse to Stand With Lavrov</h4>
+ <p>The United States cancelled the traditional &lsquo;family photo&rsquo; at the G20 foreign ministers&rsquo; meeting in Atlanta after European diplomats, including the UK&rsquo;s, refused to pose with Russia&rsquo;s Sergei Lavrov. A US official said Washington had dropped the picture rather than let it become &ldquo;a diplomatic distraction&rdquo;. Ukraine was not invited to the meeting, which is hosted by Marco Rubio.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">A British official said the UK had &ldquo;a longstanding policy not to have direct, bilateral engagement with Russian ministers&rdquo; since the invasion. The Foreign Secretary, Ed Miliband, is attending. The episode shows how far European capitals have drifted from Washington, which has partly thawed relations with Moscow. Trump has waived some sanctions and agreed to import Russian diesel ahead of next week&rsquo;s midterms. Volodymyr Zelensky called the deal &ldquo;a gift&rdquo; to Putin. Relations between Kyiv and Washington have been strained this month over Ukrainian strikes on Russian oil infrastructure.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="10:00" data-slug="novaya-gazeta-forced-to-close">
+ <h4>Novaya Gazeta to Close, Accusing Russian State of Killing It</h4>
+ <p>Novaya Gazeta, Russia&rsquo;s best-known independent newspaper, announced on Friday that it will close. It had received an eviction order, and at the same time the system it used to collect readers&rsquo; donations was disabled. &ldquo;They&rsquo;ve killed us,&rdquo; its statement said, blaming &ldquo;the repressive state apparatus&rdquo;. The paper had already lost its licence, and its website was blocked.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">&ldquo;This is not just our own story; it is the story of a country and a society that are being systematically crushed,&rdquo; wrote its editor-in-chief, Sergei Sokolov. Six journalists linked to the paper have been killed, including Anna Politkovskaya, who was shot 20 years ago this month. Its former editor, Dmitry Muratov, won the Nobel peace prize in 2021 but was declared a &lsquo;foreign agent&rsquo; in 2023. This year police searched its offices and arrested the investigative reporter Oleg Roldugin. Novaya was one of the last critical voices still operating inside Russia.</div>
+ </details>
+ </div>
+ </div>
+ <div class="curated-column">
+ <h3><span class="dot dom"></span><span class="dot-label">UK</span> UK Domestic Politics</h3>
+ <div class="curated-item" data-time="14:00" data-slug="burnham-glasgow-economic-council-devolution">
+ <h4>First Ministers Tell Burnham Local Devolution Is Theirs to Decide</h4>
+ <p>Andy Burnham chaired his first National Economic Council for the nations in Glasgow and urged all four nations to &ldquo;move together&rdquo; on handing power to regions. John Swinney and Rhun ap Iorwerth agreed to work with him. But both insisted that further devolution within Scotland and Wales was a matter for Holyrood and the Senedd alone. Northern Ireland sent only officials after a row between Sinn F&eacute;in and the DUP.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">&ldquo;It&rsquo;s really important we all move at the same pace together, and I won&rsquo;t allow anything to delay that,&rdquo; Burnham said. Downing Street said it would review the issues Swinney raised but ruled out a second independence referendum. Before the summit, ap Iorwerth said the Budget showed Burnham was &ldquo;not serious about Wales&rdquo;. Wes Streeting added to the friction by accusing the Scottish government of hoarding powers. Burnham called Michelle O&rsquo;Neill&rsquo;s absence &ldquo;disappointing&rdquo;, and the Sinn F&eacute;in MP John Finucane called it a &ldquo;disgrace&rdquo;.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="08:00" data-slug="streeting-defence-offset-rule-50m">
+ <h4>Streeting Denies Kicking Defence Spending Can Down the Road</h4>
+ <p>Wes Streeting rejected claims that the government is putting off decisions on defence spending. He and John Healey announced that foreign firms winning UK defence contracts worth more than &pound;50m must invest the same amount in Britain. These &lsquo;offset&rsquo; rules will apply case by case from April 2027. Critics point out that the Budget set no path to spending 3% of GDP on defence by 2030.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">&ldquo;I like Tan very much, he&rsquo;s a friend and I respect him, but I strongly disagree with him,&rdquo; Streeting said of Tan Dhesi, the Labour chair of the defence committee. Dhesi says key decisions were &ldquo;kicked into the long grass&rdquo; until next year&rsquo;s spending review. UK defence spending is estimated at 2.6% of GDP this year, and some estimates suggest an extra &pound;10bn a year is needed to reach the targets. Streeting hinted at more cuts to other departments, saying they were &ldquo;doing some heavy lifting&rdquo;. Poland, Norway and the Netherlands already have similar rules.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="10:00" data-slug="budget-cuts-heat-pump-scheme-741m">
+ <h4>Budget Takes &pound;741m From Heat Pump Scheme to Help Fund Defence</h4>
+ <p>John Healey&rsquo;s Budget cut more than &pound;3bn from the energy department, much of it to pay for defence. This includes &pound;741m from the boiler upgrade scheme, which subsidises heat pumps. The scheme&rsquo;s funding will now rise only with inflation, instead of increasing to just over &pound;700m by 2029&ndash;30. Experts warn that the target of 250,000 installations a year by 2030 is slipping out of reach.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">&ldquo;After the cuts announced on Wednesday, it is very difficult to see how we can hit our clean heating targets,&rdquo; said Andrew Sissons of Nesta. About 60,000 heat pumps a year are now fitted in existing homes. Hydrogen schemes lose about &pound;500m and carbon capture &pound;200m. A government source called it &ldquo;probably the most significant shift we have seen in energy policy&rdquo; since Labour took office, with the emphasis now on cost. Paul Ovenden, a former adviser to Keir Starmer, said the cuts were &ldquo;the bones of Ed Miliband&rsquo;s project being picked clean&rdquo;.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="13:00" data-slug="yorkshire-water-chief-resigns-one-star">
+ <h4>Yorkshire Water Chief Quits a Day After One-Star Rating</h4>
+ <p>Nicola Shaw will step down as Yorkshire Water&rsquo;s chief executive on 1 January. Her announcement came 24 hours after the Environment Agency gave the company its lowest rating and classed it as &lsquo;poorly performing&rsquo;. The regulator said the firm was responsible for 260 pollution incidents in 2025, its highest total since 2011. Nicola Medalova, who previously worked at National Grid, will succeed her.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">Shaw had been criticised for receiving &pound;1.9m in previously undisclosed payments from the parent company, Kelda Holdings, between 2023 and 2026. &ldquo;Although there remains a huge amount of work to do, I am extremely proud of what our colleagues have achieved,&rdquo; she said. The Liberal Democrat MP Tom Gordon was blunter: &ldquo;Good riddance.&rdquo; Ofwat fined the company &pound;47m in 2024 for historic sewage leaks. Medalova joins on Monday for a handover period before taking over in the new year.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="12:00" data-slug="no10-north-hiring-spree-manchester">
+ <h4>Number 10 North Advertises 50 Jobs in Manchester Hiring Drive</h4>
+ <p>Andy Burnham&rsquo;s Manchester office has advertised 50 jobs, including a &lsquo;rewiring the state deputy director&rsquo; paid up to &pound;117,000. BBC analysis puts the total basic salaries at up to &pound;2.8m. No10 North already has 120 staff, nearly half the 280 who work in Downing Street. It will move to a permanent office on First Street in spring 2027.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">Government sources say the roles will be paid for from existing budgets, with no redundancies elsewhere in the civil service. The government says No10 North is &ldquo;driving the most significant transfer of power out of Westminster in a generation&rdquo;. The Conservatives disagree. &ldquo;Manchesterism is just more bureaucracy at taxpayers&rsquo; expense,&rdquo; said Alex Burghart, the party&rsquo;s deputy leader. It also emerged that English mayors will be free to use their share of income tax, which starts in April 2028, to give grants directly to residents. Lord Houchen plans to do this in Tees Valley.</div>
+ </details>
+ </div>
+ </div>
+ </div>
+ <div class="one-to-read">
+ <h3>One To Read</h3>
+ <p><a href="https://edition.cnn.com/2026/10/30/world/evacuations-oleshky-melania-trump-ceasefire-intl" target="_blank" rel="noopener">Evacuations begin from Oleshky under Melania Trump-brokered ceasefire</a> &mdash; CNN. A detailed account of how a town cut off by mines and drones for years was finally reached, and of the people who chose to stay behind.</p>
+ </div>
+<!-- SOURCES USED — EVENING 30 OCTOBER 2026
+ - Iran International (iranintl.com/en/202610303203) — Louise 1, Panama flag, 25nm NE of Khasab, fire out, crew safe, failed September attempt, Marisks quote, IRGC three-tanker claim. Relays Reuters reporting from maritime security sources (Louise 1 named; first successful limpet-mine attack since the war began). [Hormuz item]
+ - CBS News (cbsnews.com/live-updates/iran-war-donald-trump-qatar-mediators-new-proposal-end-war/) — Tasnim: no reply to Vance letter, core conditions incl. blockade; Iran insists on northern routes; US promotes southern route. [Hormuz item]
+ - BBC News (bbc.co.uk/news/articles/cvwy72e0n72yo) — tech sell-off, Zinsner quote, Amazon $220bn, Reddit -26%, Brookes/XTB quote, Alphabet ~$500bn. [AI item, impact box]
+ - CNBC (cnbc.com/2026/10/30/amazon-intel-earnings-big-tech-ai-spending-concerns.html; cnbc.com/2026/10/30/ai-stocks-selloff-ai-spending-returns.html) — Intel -29%, worst day since 1974, Israel plant shutdown, US 10% stake down ~$12bn. [AI item]
+ - CNBC (gold story, cached EVE-cnbc-gold-one-year-low) — gold one-year low, lowest since October 2025, -5.9% this month, Commerzbank forced selling/margin calls. [AI item, impact box]
+ - NBC News (nbcnews.com, cached EVE-nbc-tech-stocks-1trn-wipe) — tech stocks on course to wipe out more than $1tn. [AI item, impact box]
+ - BBC News (bbc.co.uk/news/articles/c60me298k1yeo) — Oleshky evacuation, 25 buses, 750, four-hour window, Lubinets first official, route via Anapa/Belarus, quotes. [Oleshky item]
+ - Guardian (theguardian.com/world/2026/oct/30/evacuation-besieged-ukrainian-city-oleshky) — first joint relief operation, ~2,000 remain, cup of rice, Kremlin "difficult to extrapolate". [Oleshky item]
+ - CNN (edition.cnn.com/2026/10/30/world/evacuations-oleshky-melania-trump-ceasefire-intl) — background, truce from Tuesday. [Oleshky item, One To Read]
+ - Irish Times (irishtimes.com/world/europe/2026/10/30/us-tells-europeans-to-cool-their-rhetoric-on-russia/) — ceasefire set to expire on Sunday; evacuees at border Saturday. [Oleshky item]
+ - BBC News (bbc.co.uk/news/articles/cmd6dp2y576do) — G20 photo cancelled, British official and US official quotes, Miliband present, Ukraine not invited, diesel deal, Zelensky "a gift". [G20 item — single-outlet; corroboration search failed during run]
+ - BBC News (bbc.co.uk/news/articles/cmewepdr109do) — Novaya Gazeta eviction, donations disabled, "They've killed us", licence, Roldugin, Muratov. [Novaya item]
+ - Guardian (theguardian.com/world/2026/oct/30/novaya-gazeta-russia-independent-newspaper-to-close) — Sokolov quote, closing, "one of the last critical voices". [Novaya item]
+ - BBC News (bbc.co.uk/news/articles/cqr7yp8dngn8o) — Glasgow NEC, Burnham quotes, No 10 rules out referendum, ap Iorwerth Senedd quote. [Burnham item]
+ - Guardian (theguardian.com/politics/2026/oct/30/local-devolution-decisions-scotland-wales-first-ministers-tell-burnham) — Holyrood/Senedd line, Streeting critique, "not serious about Wales", O'Neill "disappointing". [Burnham item]
+ - ITV News (itv.com/news/2026-10-30/dup-accused-of-sabotage-by-snubbing-economic-event, snippet) — Finucane "disgrace". [Burnham item]
+ - BBC News (bbc.co.uk/news/articles/cw62yrzxjnk4o) — £50m offset rule, April 2027, Dhesi quotes, Streeting quote, 2.6%, £10bn, Poland/Norway/Netherlands. [Streeting item]
+ - Guardian (theguardian.com/uk-news/2026/oct/30/andy-burnham-first-budget-labour-welfare) — Streeting "heavy lifting" (Sky News). [Streeting item]
+ - Guardian (theguardian.com/environment/2026/oct/30/john-healey-budget-cuts-miss-green-heating-targets) — £3bn+, £741m, £7,500, 60,000, 250,000, inflation-only, Sissons/Ovenden/government source quotes, hydrogen £500m, CCS £200m. [heat pump item, impact box — single-outlet]
+ - BBC News (bbc.co.uk/news/articles/ckzd623pldqgo) — Shaw resignation, 1 January, Medalova, 260 incidents, £1.9m, £47m, Shaw and Gordon quotes. [Yorkshire Water item, impact box; ITV Calendar headline seen in search confirms resignation, full text not retrieved]
+ - BBC News (bbc.co.uk/news/articles/cqm24pdylmm2o) — No10 North 50 adverts, £117,000, £2.8m, 120/280 staff, First Street, Burghart quote. [No10 North item — single-outlet]
+ - BBC News (bbc.co.uk/news/articles/cm8xzw8zgdedo) — mayors' tax share grants, April 2028, Houchen. [No10 North item]
+ - Yahoo Finance (query1.finance.yahoo.com chart data, cached EVE-MKT-*.txt) — S&P, Brent, GBP, Gold, EURGBP, VIX, BTC, UST readings about 20:10 GMT; FTSE Friday close. [markets]
+ - NOTE ON MARKETS: FTSE is Friday's close (10,729.78, +0.07%). Other levels are Yahoo readings at about 20:10 GMT against the previous close. Yahoo's Brent previous close reflects the front-month roll. The Gilt figure is carried over from CNBC's Wednesday 13:50 reading, because no approved outlet had published a fresh level.
+ - NOT CARRIED: war-day-count block (vetoed). Houthi drone near Mecca and Riyadh missile interceptions (CBS), Malm travel ban (Guardian), Treasury coroner response (BBC), Binance recovery (BBC) were consulted but not carried. Run resumed after an earlier pipeline attempt stopped before publication. Web searches for corroboration were unreliable, so energy and fiscal specialist outlets (IEA, OBR, IFS) were not consulted.
+END SOURCES USED -->
+</div><!-- ── END EVENING 30 OCT (21:02) ── -->
 
 <!-- ── MORNING 30 OCT (07:55) ── -->
 <div class="curated-edition morning" data-date="2026-10-30" data-time="07:55" data-markets='{"FTSE":{"price":10722.07,"change":0.26},"SP":{"price":7720.39,"change":-0.3},"Brent":{"price":112.78,"change":1.79},"GBP":{"price":1.34,"change":0.19},"Gold":{"price":3990.3,"change":-1.02},"EURGBP":{"price":0.8346,"change":-0.1},"Gilt":{"price":5.323,"change":-0.02},"VIX":{"price":18.44,"change":7.21},"BTC":{"price":77938.03,"change":0.19},"UST":{"price":4.989,"change":-0.056},"ts":"2026-10-30T07:55:00+00:00"}'>
