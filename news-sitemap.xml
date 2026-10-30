@@ -2,6 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-10-30-morning/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-30T07:55:00+01:00</news:publication_date>
+      <news:title>Morning Briefing — Friday 30 October 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-10-30-morning/tehran-holds-vance-letter-istanbul-doha-talks/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-30T07:55:00+01:00</news:publication_date>
+      <news:title>Tehran Holds Vance Letter as US Floats Istanbul or Doha Talks</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-10-30-morning/binance-6bn-hack-north-korea/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-30T07:55:00+01:00</news:publication_date>
+      <news:title>Binance Hit by $6.3bn Hack Blamed on North Korea</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-10-30-morning/china-plenum-record-expulsions-xi/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-30T07:55:00+01:00</news:publication_date>
+      <news:title>Xi’s Purges Leave Record Empty Seats at China Plenum</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-10-30-morning/serbia-student-list-demands-resignations/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-30T07:55:00+01:00</news:publication_date>
+      <news:title>Serbia’s Student Victors Demand Police and Intelligence Chiefs Go</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-10-30-morning/alphabet-loses-500bn-ai-search/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-30T07:55:00+01:00</news:publication_date>
+      <news:title>Alphabet Loses $500bn as AI Weighs on Search Advertising</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-10-30-morning/dup-blocks-oneill-economic-council/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-30T07:55:00+01:00</news:publication_date>
+      <news:title>DUP Blocks O’Neill From Burnham’s Economic Council</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-10-30-morning/ifs-28bn-gap-brutal-spending-review/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-30T07:55:00+01:00</news:publication_date>
+      <news:title>IFS Warns of £28bn Gap and ‘Brutal’ Spending Review</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-10-30-morning/mahmood-asylum-homelessness-row/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-30T07:55:00+01:00</news:publication_date>
+      <news:title>Mahmood Angers Ministers Over Asylum Homelessness Impact</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-10-30-morning/mps-obesity-plan-doomed-to-fail/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-30T07:55:00+01:00</news:publication_date>
+      <news:title>MPs Say Government’s Obesity ‘Moonshot’ Is Doomed to Fail</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-10-30-morning/nine-council-mergers-withdrawn-review/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-30T07:55:00+01:00</news:publication_date>
+      <news:title>Nine Council Mergers Withdrawn as Reorganisation Stalls</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-10-29-evening/</loc>
     <news:news>
       <news:publication>
@@ -241,127 +362,6 @@
       </news:publication>
       <news:publication_date>2026-10-29T07:55:00+01:00</news:publication_date>
       <news:title>Tommy Robinson Convicted of Harassing Two Daily Mail Journalists</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-10-28-morning/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-28T08:42:00+01:00</news:publication_date>
-      <news:title>Morning Briefing — Wednesday 28 October 2026</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-10-28-morning/likud-leads-count-neither-bloc-reaches-61/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-28T08:42:00+01:00</news:publication_date>
-      <news:title>Likud Leads the Count, but Neither Bloc Reaches 61 Seats</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-10-28-morning/houthi-strike-saudi-refinery-lifts-brent/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-28T08:42:00+01:00</news:publication_date>
-      <news:title>Houthi Strike Claim on Saudi Refinery Lifts Brent Above $115</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-10-28-morning/flavio-bolsonaro-reaches-united-states/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-28T08:42:00+01:00</news:publication_date>
-      <news:title>Flávio Bolsonaro Reaches the United States After Passports Cancelled</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-10-28-morning/oleshky-truce-widened-across-kherson/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-28T08:42:00+01:00</news:publication_date>
-      <news:title>Oleshky Truce Widened Across Kherson Ahead of Friday Evacuations</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-10-28-morning/trump-floats-venezuela-51st-state/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-28T08:42:00+01:00</news:publication_date>
-      <news:title>Trump Floats Venezuela as a ‘51st State’ at Texas Rally</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-10-28-morning/healey-first-budget-breathing-space-bills/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-28T08:42:00+01:00</news:publication_date>
-      <news:title>Healey Delivers First Budget Promising ‘Breathing Space’ on Bills</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-10-28-morning/debt-interest-war-shrinks-headroom/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-28T08:42:00+01:00</news:publication_date>
-      <news:title>Debt Interest Nears £100bn as War Shrinks the Chancellor’s Headroom</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-10-28-morning/rosebank-approvable-within-climate-targets/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-28T08:42:00+01:00</news:publication_date>
-      <news:title>Rosebank Can Be Approved Within Climate Targets, Insiders Say</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-10-28-morning/mps-warn-digital-landline-switch/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-28T08:42:00+01:00</news:publication_date>
-      <news:title>MPs Warn Digital Landline Switch Could Leave Remote Areas Cut Off</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-10-28-morning/king-acknowledges-suffering-caribbean-tour/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-28T08:42:00+01:00</news:publication_date>
-      <news:title>King Acknowledges ‘Suffering of the Past’ as Caribbean Tour Begins</news:title>
     </news:news>
   </url>
 </urlset>
