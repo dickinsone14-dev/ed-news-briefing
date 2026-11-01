@@ -1,0 +1,96 @@
+{
+ "FTSE": {
+  "up": [
+   "Edged up 7.71 points on Friday to close the week at 10,729.78, with both our providers agreeing to the penny",
+   "Held its ground while Wall Street fell sharply &mdash; the week's clearest divergence"
+  ],
+  "down": [
+   "Shut until Monday. No approved source attributes Friday's move, so no cause is asserted"
+  ],
+  "updated": "1 November 2026 __TIME__ GMT (Friday&rsquo;s closes &mdash; markets shut for the weekend)"
+ },
+ "SP": {
+  "up": [
+   "Would need the artificial-intelligence trade to steady"
+  ],
+  "down": [
+   "Fell 1.82% on Friday, with the Nasdaq down 2.86%, as the sell-off in technology and AI-related stocks deepened",
+   "**Our cross-check provider's S&P page returned 51,770, which is not the S&P 500, so this level is uncorroborated; the percentage is internally consistent with its own previous close**"
+  ],
+  "updated": "1 November 2026 __TIME__ GMT (Friday&rsquo;s closes &mdash; markets shut for the weekend)"
+ },
+ "Brent": {
+  "up": [
+   "Holding around $113 after a month in which Gulf risk has dominated the price"
+  ],
+  "down": [
+   "**Shown unchanged because this is Friday's settle and there is no weekend trading. No daily move is claimed: our cross-check provider reads $104, which is the West Texas Intermediate price, for the fifth consecutive day**"
+  ],
+  "updated": "1 November 2026 __TIME__ GMT (Friday&rsquo;s closes &mdash; markets shut for the weekend)"
+ },
+ "GBP": {
+  "up": [
+   "Firmed about a tenth of a percent on Friday to 1.3391, matched by a second provider to within a ten-thousandth"
+  ],
+  "down": [
+   "The Budget is now behind it; the next test is the Bank's November decision"
+  ],
+  "updated": "1 November 2026 __TIME__ GMT (Friday&rsquo;s closes &mdash; markets shut for the weekend)"
+ },
+ "Gold": {
+  "up": [
+   "Would need the risk-off mood to broaden beyond equities"
+  ],
+  "down": [
+   "Fell about 3.6% on Friday to $3,875 &mdash; a striking move given equities were falling too, and roughly 5% below the level of four days earlier",
+   "**A presentation note: our primary feed shows gold unchanged because it carries no weekend price, while our cross-check provider shows Friday's session fall. The two measure different windows and do not conflict; the levels agree to within a dollar**"
+  ],
+  "updated": "1 November 2026 __TIME__ GMT (Friday&rsquo;s closes &mdash; markets shut for the weekend)"
+ },
+ "EURGBP": {
+  "up": [
+   "Sterling firmed against the euro on Friday"
+  ],
+  "down": [
+   "A move of about a quarter of a percent, modest in context"
+  ],
+  "updated": "1 November 2026 __TIME__ GMT (Friday&rsquo;s closes &mdash; markets shut for the weekend)"
+ },
+ "Gilt": {
+  "up": [
+   "Would need the Bank to disappoint in November"
+  ],
+  "down": [
+   "Yields eased about one basis point on Friday to 5.2917%, and have drifted lower since the Budget. Both providers agree on the level and on the direction"
+  ],
+  "updated": "1 November 2026 __TIME__ GMT (Friday&rsquo;s closes &mdash; markets shut for the weekend)"
+ },
+ "VIX": {
+  "up": [
+   "Jumped nearly 13% on Friday to 19.42, the sharpest single-day rise this month and the clearest sign of the equity sell-off",
+   "American ten-year yields fell more than five basis points the same day, consistent with a move into government debt"
+  ],
+  "down": [
+   "**Our cross-check provider has no volatility page, so this reading is uncorroborated**"
+  ],
+  "updated": "1 November 2026 __TIME__ GMT (Friday&rsquo;s closes &mdash; markets shut for the weekend)"
+ },
+ "BTC": {
+  "up": [
+   "At 77,806.98 at publication, up 0.78% on the day, and the only market here trading over the weekend"
+  ],
+  "down": [
+   "Still below the $80,000 it held earlier in the week. No approved source attributes the move, so no cause is asserted"
+  ],
+  "updated": "1 November 2026 __TIME__ GMT (trades through the weekend)"
+ },
+ "UST": {
+  "up": [
+   "Would need the inflation picture to turn"
+  ],
+  "down": [
+   "Fell more than five basis points on Friday to 4.933% as money moved out of equities; both providers agree on the level and the direction"
+  ],
+  "updated": "1 November 2026 __TIME__ GMT (Friday&rsquo;s closes &mdash; markets shut for the weekend)"
+ }
+}
