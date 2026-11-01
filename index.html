@@ -2287,7 +2287,7 @@
  <!-- #1 Markets snapshot bar -->
  <!-- Embedded market data (populated by update script, used as fallback) -->
  <script id="embedded-markets" type="application/json">
-{"FTSE":{"price":10729.78,"change":0.07},"SP":{"price":7580.07,"change":-1.82},"Brent":{"price":113.43,"change":0.0},"GBP":{"price":1.3391,"change":0.12},"Gold":{"price":3875.02,"change":-3.62},"EURGBP":{"price":0.8331,"change":-0.28},"Gilt":{"price":5.2917,"change":-0.0111},"VIX":{"price":19.42,"change":12.91},"BTC":{"price":77806.98,"change":0.78},"UST":{"price":4.933,"change":-0.056},"ts":"2026-11-01T07:55:00+00:00"}
+{"FTSE":{"price":10729.78,"change":0.07},"SP":{"price":7580.07,"change":-1.82},"Brent":{"price":113.43,"change":2.37},"GBP":{"price":1.3391,"change":0.12},"Gold":{"price":3875.02,"change":-3.62},"EURGBP":{"price":0.8331,"change":-0.28},"Gilt":{"price":5.2917,"change":-0.0111},"VIX":{"price":19.42,"change":12.91},"BTC":{"price":77900.0,"change":0.59},"UST":{"price":4.933,"change":-0.056},"ts":"2026-11-01T16:22:00+00:00"}
 </script>
  <script id="market-descriptions" type="application/json">
 {
@@ -2295,13 +2295,12 @@
     "name": "FTSE 100",
     "desc": "The UK's benchmark stock index, tracking the 100 largest companies listed on the London Stock Exchange by market capitalisation. Includes Shell, AstraZeneca, HSBC and Unilever.",
     "drivers_up": [
-      "Edged up 7.71 points on Friday to close the week at 10,729.78, with both our providers agreeing to the penny",
-      "Held its ground while Wall Street fell sharply &mdash; the week's clearest divergence"
+      "Closed Friday 7.71 points higher at 10,729.78, and both our providers still agree to the penny"
     ],
     "drivers_down": [
-      "Shut until Monday. No approved source attributes Friday's move, so no cause is asserted"
+      "**Unchanged because London has not traded since Friday. This is the second consecutive edition carrying this close and it is labelled as such rather than presented as news.** The Bank's rate decision falls this week"
     ],
-    "updated": "1 November 2026 07:55 GMT (Friday&rsquo;s closes &mdash; markets shut for the weekend)"
+    "updated": "1 November 2026 16:22 GMT (Friday 30 October's closes &mdash; markets shut all weekend)"
   },
   "SP": {
     "name": "S&P 500",
@@ -2310,89 +2309,89 @@
       "Would need the artificial-intelligence trade to steady"
     ],
     "drivers_down": [
-      "Fell 1.82% on Friday, with the Nasdaq down 2.86%, as the sell-off in technology and AI-related stocks deepened",
-      "**Our cross-check provider's S&P page returned 51,770, which is not the S&P 500, so this level is uncorroborated; the percentage is internally consistent with its own previous close**"
+      "Friday's close, down 1.82% on the day, with the Nasdaq down 2.86% as the technology sell-off deepened. Wall Street reopens on Monday",
+      "**Our cross-check provider's S&P page returns a number that is not the S&P 500, so this level is uncorroborated**"
     ],
-    "updated": "1 November 2026 07:55 GMT (Friday&rsquo;s closes &mdash; markets shut for the weekend)"
+    "updated": "1 November 2026 16:22 GMT (Friday 30 October's closes &mdash; markets shut all weekend)"
   },
   "Brent": {
     "name": "Brent Crude Oil",
     "desc": "The global benchmark for crude oil pricing, produced from oil fields in the North Sea. Used to price roughly two-thirds of the world's traded oil.",
     "drivers_up": [
-      "Holding around $113 after a month in which Gulf risk has dominated the price"
+      "Rose on Friday as traders braced for possible escalation in the Iran war after the American midterms. **The December contract expired on Friday, settling 2.4% higher at $117.64 after touching $118, its highest since April; the January contract, now the active one and the figure shown here, gained $2.63 to $113.43** &mdash; so quotes of about $118 elsewhere refer to the contract that has just expired",
+      "OPEC and its partners held December output steady in an online meeting today, deferring the harder decision; all twenty-one members meet on 29 November to set 2027 quotas, with one analyst calling today's &ldquo;the easy one&rdquo;"
     ],
     "drivers_down": [
-      "**Shown unchanged because this is Friday's settle and there is no weekend trading. No daily move is claimed: our cross-check provider reads $104, which is the West Texas Intermediate price, for the fifth consecutive day**"
+      "Forecasters including the International Energy Agency warn of excess supply in 2027 if Gulf flows return to normal",
+      "**Our cross-check provider's Brent page reads $104.12, which is to the cent the West Texas Intermediate settle &mdash; the sixth consecutive day it has carried the wrong contract, now confirmed against a named figure rather than inferred**"
     ],
-    "updated": "1 November 2026 07:55 GMT (Friday&rsquo;s closes &mdash; markets shut for the weekend)"
+    "updated": "1 November 2026 16:22 GMT (Friday 30 October's settle &mdash; markets shut all weekend)"
   },
   "GBP": {
     "name": "GBP/USD",
     "desc": "The exchange rate between the British pound and the US dollar, commonly known as 'cable'. Reflects relative economic strength and interest rate differentials between the UK and US.",
     "drivers_up": [
-      "Firmed about a tenth of a percent on Friday to 1.3391, matched by a second provider to within a ten-thousandth"
+      "Firmed about a tenth of a percent on Friday to 1.3391"
     ],
     "drivers_down": [
-      "The Budget is now behind it; the next test is the Bank's November decision"
+      "Unchanged since; the Bank's decision this week is the next test"
     ],
-    "updated": "1 November 2026 07:55 GMT (Friday&rsquo;s closes &mdash; markets shut for the weekend)"
+    "updated": "1 November 2026 16:22 GMT (Friday 30 October's closes &mdash; markets shut all weekend)"
   },
   "Gold": {
     "name": "Gold (XAU/USD)",
     "desc": "The spot price of gold in US dollars per troy ounce. The world's oldest safe-haven asset, traditionally rising during periods of uncertainty, inflation and currency debasement.",
     "drivers_up": [
-      "Would need the risk-off mood to broaden beyond equities"
+      "Would need the risk-off mood to broaden"
     ],
     "drivers_down": [
-      "Fell about 3.6% on Friday to $3,875 &mdash; a striking move given equities were falling too, and roughly 5% below the level of four days earlier",
-      "**A presentation note: our primary feed shows gold unchanged because it carries no weekend price, while our cross-check provider shows Friday's session fall. The two measure different windows and do not conflict; the levels agree to within a dollar**"
+      "Fell about 3.6% on Friday to $3,875, with the levels agreeing between providers to within a dollar. **Our primary feed shows it unchanged because it carries no weekend price; the Friday session fall is the real figure and is what is published**"
     ],
-    "updated": "1 November 2026 07:55 GMT (Friday&rsquo;s closes &mdash; markets shut for the weekend)"
+    "updated": "1 November 2026 16:22 GMT (Friday 30 October's closes &mdash; markets shut all weekend)"
   },
   "EURGBP": {
     "name": "EUR/GBP",
     "desc": "The exchange rate between the euro and the British pound. Key for UK-EU trade pricing. A falling rate means sterling is strengthening against the euro.",
     "drivers_up": [
-      "Sterling firmed against the euro on Friday"
+      "Sterling firmed slightly against the euro on Friday"
     ],
     "drivers_down": [
-      "A move of about a quarter of a percent, modest in context"
+      "A quarter of a percent, and nothing has traded since"
     ],
-    "updated": "1 November 2026 07:55 GMT (Friday&rsquo;s closes &mdash; markets shut for the weekend)"
+    "updated": "1 November 2026 16:22 GMT (Friday 30 October's closes &mdash; markets shut all weekend)"
   },
   "Gilt": {
     "name": "UK 10-Year Gilt Yield",
     "desc": "The yield on 10-year UK government bonds (gilts). A key benchmark for UK borrowing costs, mortgage rates and pension fund valuations. Rising yields mean falling bond prices.",
     "drivers_up": [
-      "Would need the Bank to disappoint in November"
+      "Would need the Bank to disappoint this week"
     ],
     "drivers_down": [
-      "Yields eased about one basis point on Friday to 5.2917%, and have drifted lower since the Budget. Both providers agree on the level and on the direction"
+      "Yields eased about a basis point on Friday to 5.2917% and have drifted lower since the Budget. Both providers agree on level and direction"
     ],
-    "updated": "1 November 2026 07:55 GMT (Friday&rsquo;s closes &mdash; markets shut for the weekend)"
+    "updated": "1 November 2026 16:22 GMT (Friday 30 October's closes &mdash; markets shut all weekend)"
   },
   "VIX": {
     "name": "VIX (Volatility Index)",
     "desc": "The CBOE Volatility Index, often called the 'fear gauge'. Measures expected S&P 500 volatility over the next 30 days. Readings above 20 suggest elevated anxiety; above 30 signals acute stress.",
     "drivers_up": [
-      "Jumped nearly 13% on Friday to 19.42, the sharpest single-day rise this month and the clearest sign of the equity sell-off",
-      "American ten-year yields fell more than five basis points the same day, consistent with a move into government debt"
+      "Jumped nearly 13% on Friday to 19.42, the sharpest rise of the month"
     ],
     "drivers_down": [
-      "**Our cross-check provider has no volatility page, so this reading is uncorroborated**"
+      "Friday's close; **uncorroborated, our cross-check provider having no volatility page**"
     ],
-    "updated": "1 November 2026 07:55 GMT (Friday&rsquo;s closes &mdash; markets shut for the weekend)"
+    "updated": "1 November 2026 16:22 GMT (Friday 30 October's closes &mdash; markets shut all weekend)"
   },
   "BTC": {
     "name": "Bitcoin (BTC/USD)",
     "desc": "The price of Bitcoin in US dollars. The largest cryptocurrency by market cap, increasingly viewed as digital gold by institutional investors since spot ETF approvals.",
     "drivers_up": [
-      "At 77,806.98 at publication, up 0.78% on the day, and the only market here trading over the weekend"
+      "**The only market here that has traded this weekend, and the only figure in this ticker that is new**: up about 0.6% to around $77,900, recovering a little of the ground lost after the largest crypto theft on record"
     ],
     "drivers_down": [
-      "Still below the $80,000 it held earlier in the week. No approved source attributes the move, so no cause is asserted"
+      "**It is also the one ticker we cannot corroborate: our cross-check provider's Bitcoin page has returned no figure for six consecutive readings. The level is published and no weight is put on the move**"
     ],
-    "updated": "1 November 2026 07:55 GMT (trades through the weekend)"
+    "updated": "1 November 2026 16:22 GMT (trades through the weekend)"
   },
   "UST": {
     "name": "US 10-Year Treasury Yield",
@@ -2401,9 +2400,9 @@
       "Would need the inflation picture to turn"
     ],
     "drivers_down": [
-      "Fell more than five basis points on Friday to 4.933% as money moved out of equities; both providers agree on the level and the direction"
+      "Fell more than five basis points on Friday to 4.933% as money left equities; both providers agree"
     ],
-    "updated": "1 November 2026 07:55 GMT (Friday&rsquo;s closes &mdash; markets shut for the weekend)"
+    "updated": "1 November 2026 16:22 GMT (Friday 30 October's closes &mdash; markets shut all weekend)"
   }
 }
 </script>
@@ -2456,6 +2455,175 @@
  <!-- ════ ALL EDITIONS (sorted by JS) ════ -->
  <!-- IMPORTANT: Keep 7 FULL DAYS of editions in this container. Do NOT delete editions less than 7 days old. -->
  <div id="all-editions" style="display:none;">
+<!-- ── EVENING 1 NOV (16:22) ── -->
+<div class="curated-edition evening" data-date="2026-11-01" data-time="16:22" data-markets='{"FTSE":{"price":10729.78,"change":0.07},"SP":{"price":7580.07,"change":-1.82},"Brent":{"price":113.43,"change":2.37},"GBP":{"price":1.3391,"change":0.12},"Gold":{"price":3875.02,"change":-3.62},"EURGBP":{"price":0.8331,"change":-0.28},"Gilt":{"price":5.2917,"change":-0.0111},"VIX":{"price":19.42,"change":12.91},"BTC":{"price":77900.0,"change":0.59},"UST":{"price":4.933,"change":-0.056},"ts":"2026-11-01T16:22:00+00:00"}'>
+ <div class="edition-header">
+ <span class="edition-icon">&#127769;</span>
+ <h2>Evening Briefing</h2>
+ </div>
+ <div class="curated-meta">Sunday 1 November 2026 &mdash; 16:22 GMT</div>
+ <div class="impact-box">
+ <h3 class="impact-heading">What It Means For You</h3>
+ <ul class="impact-list">
+ <li><strong>If you have a mortgage or savings:</strong> markets expect the Bank to raise rates to 4% from 3.75% on Thursday, which would be the first rise since 2023. That is an expectation rather than a decision. Inflation was 3.5% in September, the energy cap rose 3.6% on 1 October, and a further rise of about 22% is forecast for January.</li>
+ <li><strong>If you are travelling by train at Christmas:</strong> book around ten days of engineering works now. Birmingham New Street closes from Christmas Eve to 29 December, Great Western services terminate at Reading from 27 December to 4 January, and the east coast main line is part-closed on Christmas Eve with buses between Newark and York adding two hours.</li>
+ <li><strong>If you follow the Gulf:</strong> nothing has been agreed and no date exists for anything. Tehran has cut the reopening of the Strait of Hormuz it is offering from seven days to two, mediation is in its third day, and the American president says one or two nuclear sites remain. Oil rose 2.4% on Friday on that uncertainty.</li>
+ </ul>
+ </div>
+ <div class="curated-grid">
+ <div class="curated-column">
+ <h3><span class="dot geo"></span><span class="dot-label">GEO</span> Geopolitical</h3>
+ <div class="curated-item" data-time="15:41" data-slug="one-or-two-sites-left-as-mediators-cut-the-hormuz-window">
+ <h4>&ldquo;One or Two Sites&rdquo; Left, as Mediators Cut the Hormuz Window</h4>
+ <p>Speaking to reporters at his Florida club on Saturday, the American president said of Iran: &ldquo;We&rsquo;ve knocked out their nuclear. We still have to take care of, I would say one or two sites, but we can do that in 10 minutes.&rdquo; Meanwhile Qatari mediation entered a third day, and Tehran has cut its offered reopening of the Strait of Hormuz from seven days to two.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">Two things run in parallel and neither carries a date. What he said he would &ldquo;take care of&rdquo; was sites, not cities &mdash; suspected underground nuclear facilities, one of which he named. His secretary of state said no decision has been taken while adding that &ldquo;if we needed to do something militarily, we would have the ability to do it&rdquo;. On talks, his own verdict was that they are &ldquo;going fine but you know they&rsquo;re not very reliable&rdquo;. Against that, the diplomacy has produced something measurable: Iran&rsquo;s foreign minister says the reopening window Tehran is offering has come down from seven days to two, though he adds that no final conclusion has been reached and that no direct talks with Washington are taking place, reports to the contrary being &ldquo;merely media speculation&rdquo;. Three outlets independently name the 3 November midterms as the hinge, which is the election date and not a strike date; the last confirmed American strikes were on 1 September. Iran&rsquo;s supreme leader has demanded a response to any attack &ldquo;without geographical restriction&rdquo;.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="15:16" data-slug="ebola-passes-five-thousand-deaths-with-no-vaccine-for-this-strain">
+ <h4>Ebola Passes Five Thousand Deaths, With No Vaccine for This Strain</h4>
+ <p>More than 5,000 people have now died in the Democratic Republic of Congo&rsquo;s deadliest Ebola outbreak, with more than 10,300 confirmed cases across eight of its 26 provinces. The epicentre is a conflict zone. There is no treatment or vaccine for the species responsible, though trials are under way.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">This is the story our missed edition cost us, and it is the most serious thing in tonight&rsquo;s brief. The outbreak was declared in May, became the country&rsquo;s deadliest in August, and is by the United Nations&rsquo; count the seventeenth in Congolese history and the second largest anywhere. Just under half of those confirmed infected have died &mdash; a fatality rate of 48.6%. The epicentre remains Ituri province, a conflict zone, which is the single fact explaining why containment keeps failing: teams cannot reach what they cannot safely enter. The hardest element is biological. The species driving it is Bundibugyo, for which there is no licensed treatment and no vaccine, so the tools that ended earlier Congolese outbreaks are unavailable and trials are running inside an emergency. The director general of the Africa Centres for Disease Control was blunt: &ldquo;We want all countries to know that they are not safe if they don&rsquo;t take appropriate measures.&rdquo; Governments pledged $3bn and more than $2bn is outstanding. Responders are being attacked &mdash; a nurse killed last week, a politician beaten to death last month for promoting control measures.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="14:21" data-slug="oleshky-emptied-and-the-ceasefire-that-allowed-it-ends-tonight">
+ <h4>Oleshky Emptied, and the Ceasefire That Allowed It Ends Tonight</h4>
+ <p>The local truce in Kherson region, the most significant between Kyiv and Moscow since the invasion, is expected to end this evening. It allowed a joint evacuation of the besieged front-line city of Oleshky that finished on Saturday. About 2,000 civilians were there when it began; the number who left has deliberately not been published.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The withholding is the humane part: those who chose to stay are living under Russian occupation, and publishing how many left would identify how many remain. Residents were given three options &mdash; leave for Ukrainian-held territory, leave for Russian-held territory, or stay with food and medical supplies replenished. Ukrainian positions lie about five kilometres from Oleshky, yet those who left were taken by bus through occupied territory via Crimea into southern Russia, flown on four aircraft to Belarus, then driven across Ukraine&rsquo;s northern border into the Chernihiv region on Saturday &mdash; a journey of well over a thousand miles to reach a country they had never left. The oldest evacuee was ninety-four and the youngest was one, according to Ukraine&rsquo;s human rights ombudsman; families who had not seen each other in three years met at the crossing. Ukraine&rsquo;s president thanked the American first lady, who is credited with brokering the pause. What happens next is the uncomfortable part: the truce began early on Tuesday, is due to expire this evening, and covers nowhere else. People in Kherson city spent today waiting for the quiet to end.</div>
+ </details>
+ </div>
+ <div class="curated-item" data-time="15:44" data-slug="tusk-says-there-can-be-no-compromise-on-the-polish-court">
+ <h4>Tusk Says There Can Be No Compromise on the Polish Court</h4>
+ <p>In a prime-time address on Saturday night, after the riot police we reported yesterday, Poland&rsquo;s prime minister vowed to see the contested overhaul of the constitutional court through: &ldquo;in certain matters, there can be no compromise&rdquo;. He said the tribunal in the form his predecessors imposed &ldquo;was not a genuine court&rdquo;.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">Yesterday we reported that experts were deeply divided on the legality and declined to adjudicate; nothing since has resolved that, but the politics has hardened considerably. His argument rests on European rulings rather than Polish ones, and on the claim the court has been paralysed for more than a decade. Of his opponents: &ldquo;for years, there have been organisations and politicians in Poland who seek to destroy democracy and the rule of law.&rdquo; He rebuked the head of state directly: &ldquo;in a democratic state, no politician can enter a court to issue orders or intimidate judges &mdash; not even the president.&rdquo; The European Commission then intervened on Saturday, urging the president to approve the judges parliament has nominated so the tribunal can function under both the Polish constitution and EU law &mdash; which places Brussels, unusually, on the government&rsquo;s side of a domestic constitutional fight. A human rights foundation nonetheless calls the legal basis for the suspension &ldquo;questionable&rdquo;. The crisis flared on Friday when government-backed judges moved to take procedural control and suspended the chief judge and his deputy. Elections come next year.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="13:56" data-slug="sixteen-minutes-of-silence-and-the-arrest-of-a-police-chief">
+ <h4>Sixteen Minutes of Silence, and the Arrest of a Police Chief</h4>
+ <p>Thousands marched in silence through Novi Sad in the rain today, two years after a station canopy collapsed and killed sixteen people &mdash; sixteen minutes of silence, sixteen wreaths. Hours earlier, the head of Serbia&rsquo;s criminal police, whom student groups accuse of brutality against the protests, was arrested over an unrelated case.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The anniversary and the arrest are not connected, and the prosecutor said so explicitly: &ldquo;this arrest has no link with the result of the legislative elections.&rdquo; We publish that denial because the temptation to read a purge is obvious and unsupported. He and a colleague are held on suspicion of abuse of office in a matter concerning a former Belgrade police chief, who from custody accused them of giving prosecutors false evidence. What makes it resonate is separate: student groups last week demanded his removal, accusing him of orchestrating violence against demonstrators. The collapse itself happened at 11:52 on a sunny morning; fourteen died at the scene and two later. Thirteen people have been charged, including a government minister, and no trial has been held. An independent expert investigation found the renovation was rushed under political orders. The protests it triggered became the largest since Milosevic fell and ended fourteen years of governing-party rule at last week&rsquo;s election. One quiet measure of that change: this year, state television broadcast the memorial.</div>
+ </details>
+ </div>
+ </div>
+ <div class="curated-column">
+ <h3><span class="dot uk"></span><span class="dot-label">UK</span> Domestic</h3>
+ <div class="curated-item" data-time="15:43" data-slug="an-apology-without-reparations-and-a-leader-who-rejects-both">
+ <h4>An Apology Without Reparations, and a Leader Who Rejects Both</h4>
+ <p>The chancellor confirmed this morning that the apology the prime minister is open to would carry no financial liability: considering one &ldquo;doesn&rsquo;t mean accepting that British people now should accept the financial liability&rdquo; for acts &ldquo;in which they had no role&rdquo;. The Conservative leader rejects an apology too, calling it a lever to open the door to cash.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">Asked in Downing Street why the government would not contemplate reparations, the chancellor drew the line precisely: the prime minister is &ldquo;open to a discussion about an apology&rdquo; and thinks that right before the Commonwealth meeting, &ldquo;but he doesn&rsquo;t believe that reparations are the right approach&rdquo;. The Conservative leader&rsquo;s objection is explicitly instrumental rather than historical: she does not think the prime minister &ldquo;needs to be apologising because it is a lever to wedge open the door to ask for cash&rdquo;, says &ldquo;we&rsquo;ve had enough of apologising&rdquo;, maintains the British Empire was &ldquo;overall a force for good&rdquo; while conceding &ldquo;terrible things&rdquo; happened in all empires, and questions whether future prime ministers should attend the summit at all. The Liberal Democrat leader wants a discussion but also opposes reparations, so all three Westminster party leaders now rule them out. The King addresses Commonwealth leaders on Tuesday, and the detail that matters is this: the Palace was told of the prime minister&rsquo;s article in advance and has made no changes to the speech, which it says will show &ldquo;unflinching honesty, sincere sorrow&rdquo;.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="13:20" data-slug="starmer-says-europe-can-no-longer-rely-on-american-money">
+ <h4>Starmer Says Europe Can No Longer Rely on American Money</h4>
+ <p>The former prime minister told an audience in Dublin on Friday that the change in Europe&rsquo;s defence relationship with the United States is permanent, not &ldquo;an aberration of the Trump presidency&rdquo;, and that Washington will no longer &ldquo;bankroll&rdquo; European security. He called for a common security framework with Britain at its centre.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The framing is the interesting part, because he is arguing that this is structural rather than personal: &ldquo;things will not go back to the way they were&rdquo;. His central claim is that Europe needs a common security framework as much as it needed a common market, and his harshest line is self-critical about the continent as a whole &mdash; &ldquo;Europe has twice been caught asleep, failing to anticipate and prepare for predictable events. First when Russia&rsquo;s attack on Ukraine exposed long-standing European weaknesses on defence and security; and second when President Trump made clear, once and for all, that the US will no longer bankroll our European security.&rdquo; He was careful not to write off the alliance, calling the military, security and intelligence relationship with Washington &ldquo;far too strong for that&rdquo;, while insisting Europe must take on &ldquo;far more responsibility&rdquo;. Set this beside the former chancellor saying this morning that Britain&rsquo;s future lies inside the European Union, and two former Labour leaders are now making the European argument from outside government in the same week.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="13:41" data-slug="325-arrested-outside-the-embassy-as-the-ban-heads-to-the-supreme-court">
+ <h4>325 Arrested Outside the Embassy as the Ban Faces Appeal</h4>
+ <p>The Metropolitan Police say 325 people were arrested at a protest supporting the proscribed group Palestine Action outside the American embassy at Nine Elms on Saturday, 320 of them for expressing support for a proscribed organisation under the Terrorism Act. At least 4,000 arrests have now been made over the group.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">The numbers are now the story. A single afternoon produced 325 arrests, and the cumulative total since the group was proscribed last year is now put at more than four thousand &mdash; a scale of arrest under terrorism legislation for expression rather than for violence that has no obvious precedent in recent British policing. That four-thousand figure is a calculation rather than an official total; the organisers call it &ldquo;truly dystopian&rdquo;. Three approved outlets give three different months for the proscription, so none appears here. Officers worked into the evening, walking people to vans to applause from the crowd. What makes the figure provisional is that the legal basis is itself under challenge: the Supreme Court is due to review the proscription after the group&rsquo;s co-founder was granted permission to appeal, and the Home Office says it will defend the ban robustly. If the appeal succeeds, several thousand arrests will have been made under a designation subsequently found unlawful; if it fails, the arrests continue. Because these are live criminal and appellate matters this item carries the police figures, the legal basis and the appeal, and nothing about the merits of either side.</div>
+ </details>
+ </div>
+
+ <div class="curated-item" data-time="15:52" data-slug="green-party-at-a-crossroads-after-the-zionism-motion">
+ <h4>Green Party at a Crossroads After the Zionism Motion</h4>
+ <p>A former Green co-leader says the party is at a &ldquo;crossroads&rdquo; and should return to its &ldquo;core values&rdquo;, weeks after members adopted a motion defining Zionism as a form of racism. The current leader replied that there is &ldquo;no environmental justice without social, racial and economic justice&rdquo;.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">This is the internal reckoning after the external one we reported on 26 October, when the Board of Deputies of British Jews voted by 118 to one to declare the party &ldquo;a racist party&rdquo;. The former co-leader&rsquo;s argument is electoral rather than moral: the Greens need policies that can command a majority to deliver &ldquo;the environmental changes that we need&rdquo;, and should avoid being &ldquo;quite divisive&rdquo;. Asked directly whether Zionism is racist, he said no. The motion, adopted last month by members in England and Wales, defined it as an ideology supporting &ldquo;an ethnonationalist Jewish state&rdquo; responsible for the &ldquo;disenfranchisement and destruction&rdquo; of Palestinians, and backed a single Palestinian state across all of historic Palestine, which includes Israel. The leader was fighting a by-election and did not vote; he says he would not have, yet declines to overturn it. He is neither calling for the leader to go nor leaving himself. Three consequences are concrete: Labour will end council power-sharing unless Green councillors disown the policy, the equality watchdog has written seeking information, and Israel has barred the leader, who is Jewish, from entering.</div>
+ </details>
+ </div>
+ <div class="curated-item" data-time="11:00" data-slug="ten-days-of-christmas-rail-works-close-paddington-and-new-street">
+ <h4>Ten Days of Christmas Rail Works Close Paddington and New Street</h4>
+ <p>Engineering works over the holidays will shut London Paddington, disrupting intercity services to the west of England and Wales into January, and close Birmingham New Street for five days. The east coast main line is partly closed on Christmas Eve. Network Rail says most routes stay open and expects to carry out about &pound;152m of work.</p>
+ <details class="dive-deeper">
+ <summary>Dive deeper</summary>
+ <div class="deeper-content">If you are planning Christmas travel on the Great Western or through Birmingham, book around this now rather than in December. New Street is the busiest station in the country outside London and loses five days; Paddington&rsquo;s closure affects services towards the west of England and Wales and the knock-on runs into January, with the largest single job replacing a junction near Slough. Passengers travelling between London, the north-east and Scotland face a part closure of the east coast main line on Christmas Eve, which is among the worst possible days for it. The operator&rsquo;s defence is a reasonable one and worth stating fairly: scheduled services generally stop on 25 and 26 December anyway, so the holiday remains the least disruptive window for essential work, and the &pound;152m is going on reliability and capacity rather than cosmetics. The counter-argument is simply that &ldquo;least disruptive&rdquo; still means ten days across two of the busiest corridors in Britain, announced with seven weeks&rsquo; notice.</div>
+ </details>
+ </div>
+ </div>
+ </div>
+ <div class="one-to-read">
+ <span class="otr-label">One To Read</span>
+ <a href="https://www.bbc.co.uk/news/articles/cqx2818elrnzo" target="_blank" rel="noopener noreferrer">
+ <h4>Cooking Weeds to Survive</h4>
+ <span class="otr-source">BBC News</span>
+ <span class="otr-dot">&middot;</span>
+ <span class="otr-desc">Reported from the crossing where the Oleshky evacuees came home. The oldest was ninety-four, the youngest was one, and some were carried on stretchers. Daughters who had not seen their father in three years ran across the tarmac to the bus.</span>
+ </a>
+ </div>
+ <!-- SOURCES USED
+ - NOTE ON THE MISSED EDITION, SINCE WE WERE ASKED TO PUBLISH ALL OF THEM. **One slot was missed: the evening of Saturday 31 October.** Everything else since our last hand-made edition was published, by the scheduled job: yesterday morning, this morning, and a weekly round-up at noon today. **The missed slot cannot be recreated.** An edition stamped at a past hour would be a fabricated timestamp, this site classifies editions by the hour they carry, and a backdated Saturday evening edition would be both a false record and a broken one. **What can be rescued is the journalism, and that is what this edition does.** Four items here come from inside that window and were never published anywhere by us: more than five thousand Ebola deaths in Congo, the former prime minister on European defence, the evacuation of Oleshky, and 325 arrests outside the American embassy. The Ebola milestone is the one that should not have waited two days
+ - NOTE ON THE AUTOMATION. This morning's edition, published at 07:55, was structurally sound and chose reasonable stories. **Its ten dive-deepers ran from 107 to 128 words against the 150 to 200 this publication requires. Across the six unattended editions we have now audited, that is sixty dive-deepers and none inside the range.** Nothing in the validator or the pre-commit hook measures it. The weekly round-up it published at noon is a separate edition type and is not affected
+ - NOTE ON THE MARKET FIGURES, WHICH ARE ALMOST ENTIRELY UNCHANGED. Published at 16:22 GMT on a Sunday. **London and New York have been shut since Friday, so nine of our ten tickers carry Friday 30 October's closes for the second consecutive edition, and only Bitcoin has traded.** That is said plainly rather than dressed up as news. Bitcoin is also the one ticker we cannot corroborate: our cross-check provider's page has returned no figure for six consecutive readings. The volatility index is likewise uncorroborated, and that provider's S&P page returns a number that is not the S&P 500
+ - **CORRECTION TO YESTERDAY MORNING'S EDITION, ON BRENT.** We published Brent at $113.43 showing no daily change, on the basis that our feed carried no weekend price. That understated a real move. Today's oil reporting makes the position clear: **the December contract expired on Friday, settling 2.4% higher at $117.64 after touching $118, its highest since April, while the January contract &mdash; now the active one and the figure we carry &mdash; gained $2.63 to $113.43.** So Brent rose on Friday by about 2.4%, and that is what tonight's ticker shows. The $113.43 level was right; presenting it as unchanged was not. The same reporting confirms for a sixth day that our cross-check provider's Brent page is carrying the West Texas Intermediate price, which settled at exactly $104.12
+ - NOTE ON TWO RESEARCH PROCESS FAULTS, BOTH DISCLOSED TO US UNPROMPTED. One researcher's cleanup script matched text substrings rather than line prefixes and damaged seven cache files, truncating one from 8,226 bytes to 134; **it caught this itself, re-fetched all seven, and told us.** It also edited one file belonging to the other researcher, because the file-prefix instruction we gave put it in range &mdash; our drafting error, not theirs. **We then re-verified all forty-three files for an intact first-line URL and a real article body; all forty-three passed.** This is the second consecutive day a researcher has disclosed over-matching a file pattern, and the instruction for tomorrow is to match line prefixes only and to scope patterns to one's own files
+ - NOTE ON WHAT WE ALMOST GOT WRONG. Three things were caught before publication, all by checking the artefact rather than the summary. **The president's remark about Iranian targets was made on SATURDAY to reporters at his Florida club; we had it as a Sunday interview, because the live blog carrying it bears a Sunday update time.** The Polish prime minister's address was Saturday night, not today, though the page reporting it is stamped today. And a Gaza death toll of nine exists only in the title of a video item, where two sourced articles say eight. Retrieval routes are unchanged: Sky, ITV, Channel 4, Reuters and AP direct, the Financial Times, the Telegraph, the Times and parliament.uk are unreachable, and Firecrawl is out of credits
+ -
+ - GEOPOLITICAL
+ - https://www.cbsnews.com/live-updates/iran-war-us-trump-diplomacy-threat-resume-attacks/ &mdash; CBS News live coverage, with Reuters and AFP: the president's remark verbatim, that &ldquo;we've knocked out their nuclear. We still have to take care of, I would say one or two sites, but we can do that in 10 minutes&rdquo;, and that talks are &ldquo;going fine but you know they're not very reliable&rdquo;; the secretary of state saying no decision has been taken; and that the last confirmed American strikes were on 1 September. **The remark was made to reporters at the president's Florida club on SATURDAY. The 15:41 stamp on this page is a live-blog update time, not the time of the quote, and we nearly reported it as a Sunday interview**
+ - https://www.aljazeera.com/news/2026/11/1/iran-and-us-explore-diplomacy-amid-rising-threats-of-war &mdash; Al Jazeera: the second source for that quotation, word for word, and the setting &mdash; a Halloween party at the president's club. Also the Iranian foreign minister's words that **the reopening window Tehran offers has come down from seven days to two**, which is the genuine new development against this morning's edition, alongside his statement that no final conclusion has been reached and that no direct talks with Washington are taking place, reports to the contrary being &ldquo;merely media speculation&rdquo;
+ - https://www.cnbc.com/2026/11/01/iranian-negotiators-in-qatar-to-continue-talks-to-end-war-reuters.html &mdash; CNBC, with Reuters: the third consecutive day of Iran-Qatari talks in Doha, the sequence from Tehran on Friday to Doha on Saturday, and that the talks are coordinated in regular contact with Washington. **This outlet characterises the president as calling the talks productive, which is softer than the direct quotation two other outlets carry; the direct quotation is used**
+ - https://abcnews.com/International/wireStory/iranian-leader-threatens-immediate-response-potential-attack-mideast-137731097 &mdash; ABC News carrying AP wire copy, bylined to Associated Press staff: Iran's supreme leader demanding &ldquo;maximum deterrence&rdquo; and an immediate response to any threat &ldquo;without geographical restriction&rdquo;. **Three outlets name the 3 November midterms as the hinge. That is the election date and NOT a strike date; no approved source puts a day on any strike, and we have declined date-less strike claims three times this month**
+ - https://www.bbc.co.uk/news/articles/cj5ynryyep2yo &mdash; BBC News, 31 October 15:16 GMT, **and the single most important thing the missed edition cost us**: more than 5,000 deaths and more than 10,300 confirmed cases on Congolese government data, a fatality rate of 48.6%, eight of 26 provinces affected, the epicentre in Ituri province which is a conflict zone, the seventeenth outbreak in the country's history and the second largest anywhere, cases confirmed in Kenya, Nigeria and Uganda, and the Bundibugyo species for which there is no licensed treatment or vaccine. Also the violence against responders &mdash; a nurse killed last week, a politician beaten to death last month for promoting control measures, and eleven violent incidents logged in the first hundred days
+ - https://www.theguardian.com/global-development/2026/oct/28/africa-ebola-outbreak-could-reach-uk-says-top-health-official &mdash; The Guardian, 28 October: the second and independent source, with the named Africa CDC director general's warnings that &ldquo;we want all countries to know that they are not safe if they don't take appropriate measures&rdquo; and that &ldquo;the geographic extension of this outbreak is unprecedented&rdquo;; and the funding position, $3bn pledged with more than $2bn outstanding. **Its figures are three days older than the BBC's and the two are a progression rather than a conflict; the newer set is published. It dates the declaration to 15 May with sequencing suggesting February, so the edition says declared in May**
+ - https://abcnews.com/International/wireStory/civilians-ukraines-kherson-prepare-return-war-localized-ceasefire-137747046 &mdash; ABC News on the AP wire, bylined to Associated Press correspondents, modified 14:21 GMT today: that the localised ceasefire began early Tuesday and **is expected to end this evening**, that it is the most significant truce since the invasion, that about 2,000 civilians were in Oleshky when it took hold, that residents were offered the choice of leaving for either side or staying with supplies replenished, and that **exact numbers were not released after the evacuation for the safety of those who stayed**
+ - https://www.bbc.co.uk/news/articles/cqx2818elrnzo &mdash; BBC News: the reunions at the crossing into the Chernihiv region, that the oldest evacuee was 94 and the youngest one according to Ukraine's human rights ombudsman, that some were carried on stretchers, and that people had been cooking garden weeds to survive
+ - https://www.cbsnews.com/news/residents-evacuated-oleshky-arrive-ukraine-temporary-us-brokered-ceasefire/ &mdash; CBS News: that Ukrainian authorities imposed restrictions on disclosing both the number of evacuees and the crossing location, to protect those remaining and future missions. **This is why no figure for how many left appears in this edition. A capacity claim of &ldquo;more than 750&rdquo; circulated in a social media post on Friday in the future conditional; it is not a count and is not used**
+ - https://www.cnbc.com/2026/10/31/residents-of-russian-controlled-ukrainian-town-arrive-in-belarus.html &mdash; CNBC, with Reuters: the route confirmed, four aircraft landing in Belarus, and the senior Ukrainian negotiator's account. **This outlet puts about 1,700 remaining against a pre-war 24,000, which sits oddly beside the 2,000 said to have been in the town when the truce began; both figures are attributed to their own source and neither is presented as the other**
+ - https://www.theguardian.com/world/2026/oct/31/donald-tusk-defends-overhaul-poland-constitutional-court-despite-protests &mdash; The Guardian: the Polish prime minister's prime-time address, his refusal to compromise, his rebuke of the head of state for entering the court, the European Commission's intervention urging the president to swear in the parliament-nominated judges, and a human rights foundation calling the legal basis for the suspension &ldquo;questionable&rdquo;. **The address was SATURDAY NIGHT, not today, despite this page carrying a Sunday timestamp. Experts remain divided and no court has ruled, so the edition reports the division. No approved source reports any movement on the immunity request, so none is claimed**
+ - https://abcnews.com/International/wireStory/police-detain-3-protesters-overnight-rally-polish-president-137731099 &mdash; ABC News on the Associated Press wire: the second source, the three detentions, the cross-party talks that produced no breakthrough, and the named judge who remains suspended and has not been reinstated
+ - https://abcnews.com/International/wireStory/serbia-marks-anniversary-train-station-tragedy-fueled-student-137746051 &mdash; ABC News on the Associated Press wire, 13:56 GMT: the anniversary, the sixteen dead with fourteen at the scene and two later, the collapse at 11:52, the sixteen wreaths, that thirteen people have been charged including a government minister with no trial held, the independent expert finding that the renovation was rushed under political orders, and that state television broadcast this year's memorial
+ - https://www.aljazeera.com/news/2026/11/1/serbia-arrests-police-chief-over-abuse-of-office-allegations &mdash; Al Jazeera, with AFP: the arrest of the criminal police chief and a colleague, the prosecutor's account of the suspected abuse of office concerning a former Belgrade police chief, the sixteen minutes of silence, and a bereaved mother's words. **The prosecutor states explicitly that the arrest has no link with the election result, and that denial is published because the temptation to read it as a purge is obvious and unsupported**
+ - https://abcnews.com/International/wireStory/israeli-strike-kills-boy-gaza-qataris-vessel-struck-137745763 &mdash; ABC News on the Associated Press wire, **weighed and not run for want of a slot**: at least eight Palestinians killed in Israeli strikes, five of them police officers in al-Mawasi, and a Qatari liquefied gas carrier struck by unidentified objects in the Gulf on Friday night with no injuries and no party identified. **An Al Jazeera video item gives the Gaza toll as nine; that figure appears only in a video title and not in any sourced article, so eight is the number two outlets support**
+ - https://www.aljazeera.com/news/2026/11/1/at-least-eight-palestinians-killed-in-israeli-attacks-across-gaza &mdash; Al Jazeera: the second source on eight. **This outlet's framing is editorial in places; the facts are taken and the framing is not. Its own text and its correspondent give a child's age differently, so no age appears**
+ - https://www.cnbc.com/2026/10/31/g20-foreign-ministers-end-atlanta-meeting-without-consensus-on-issues.html &mdash; CNBC, 31 October, **weighed and not run**: the G20 foreign ministers parting without a joint communique. Strong, but a Saturday story adjacent to the family-photo row we already published, and diplomats told the outlet a chairman's statement had long been the plan
+ - https://abcnews.com/International/wireStory/somali-pirates-seize-iranian-fishing-vessel-raising-fears-137745870 &mdash; ABC News on the Associated Press wire, **weighed and not run because it is single-sourced**: an Iranian fishing vessel with 23 aboard hijacked off north-eastern Somalia, which a maritime security centre warns could be used as a mother ship against commercial traffic
+ - https://abcnews.com/International/wireStory/taiwan-accuses-china-harassment-after-standoff-coast-guard-137746422 &mdash; ABC News on the wire, **not run, single-sourced**: a Chinese coast guard vessel entering restricted waters near the Pratas Islands, the thirteenth such intrusion this year
+ - https://www.aljazeera.com/news/2026/11/1/why-is-morocco-celebrating-the-defeat-of-a-un-resolution-on-western-sahara &mdash; Al Jazeera, with Reuters, **not run**: an explainer on a Security Council resolution defeated on Friday
+ -
+ - UK DOMESTIC
+ - https://www.theguardian.com/politics/live/2026/nov/01/andy-burnham-uk-historic-slave-trade-financial-reparations-badenoch-budget-defence-latest-politics-news-updates &mdash; The Guardian's politics live coverage, modified 15:49 GMT: the chancellor's words on the BBC's Sunday programme, filmed in Downing Street, that the prime minister is &ldquo;open to a discussion about an apology&rdquo; but &ldquo;doesn't believe that reparations are the right approach&rdquo;, and that considering an apology &ldquo;doesn't mean accepting that British people now should accept the financial liability&rdquo; for acts &ldquo;in which they had no role&rdquo;; and that the Liberal Democrat leader wants a discussion while also opposing reparations. **This page renders one clause as &ldquo;for any party and things that happened&rdquo; where two other sources have &ldquo;for any part in&rdquo;; the reading that parses and has two sources is used. The Liberal Democrat position is a summary with no verbatim quotation available, so he is not quoted**
+ - https://www.theguardian.com/world/2026/nov/01/britain-should-not-apologise-slave-trade-kemi-badenoch &mdash; The Guardian, 11:26 GMT, and https://www.independent.co.uk/news/uk/politics/kemi-badenoch-british-empire-slavery-apology-b3077038.html &mdash; The Independent, 15:48 GMT and the fuller account: the Conservative leader calling an apology a &ldquo;navel-gazing distraction&rdquo;, saying the prime minister does not need to apologise &ldquo;because it is a lever to wedge open the door to ask for cash&rdquo;, that &ldquo;we've had enough of apologising&rdquo;, that the British Empire was &ldquo;overall a force for good&rdquo; while conceding terrible things happened in all empires, and questioning whether future prime ministers should attend the summit
+ - https://www.bbc.co.uk/news/articles/cq398y0zj9rpo &mdash; BBC News, modified 14:11 GMT: that the King addresses Commonwealth leaders on Tuesday and the Palace's promise of &ldquo;unflinching honesty, sincere sorrow&rdquo;, and **the hard new fact that the Palace was told of the prime minister's article in advance and has made no changes to the speech**
+ - https://www.bbc.co.uk/news/articles/cxnv0p4l7rjlo &mdash; BBC News, 31 October, with Press Association copy, and https://www.theguardian.com/politics/2026/oct/31/keir-starmer-uk-europe-us-relationship-trump &mdash; The Guardian, 31 October: the former prime minister's speech verbatim, that this is &ldquo;a permanent change of affairs, not an aberration of the Trump presidency&rdquo;, that Europe has &ldquo;twice been caught asleep&rdquo;, that the alliance remains &ldquo;far too strong&rdquo; to write off, and his case for a common security framework with Britain central as one of two nuclear powers. **The speech was FRIDAY EVENING at a chamber of commerce dinner in Dublin, though both pieces published Saturday lunchtime; writing &ldquo;yesterday&rdquo; would have been wrong. Both outlets describe him only as the former prime minister, and he appears to hold no office; no government response exists in either piece and none is implied. The two give different dates for the coming EU summit, so no date for it appears**
+ - https://www.bbc.co.uk/news/articles/c98rz23ed781o &mdash; BBC News, 13:41 GMT, and https://www.independent.co.uk/news/uk/home-news/us-embassy-palestine-action-arrests-b3077058.html &mdash; The Independent, 11:04 GMT: the Metropolitan Police's figure of 325 arrests on Saturday at Nine Elms, 320 of them for expressing support for a proscribed organisation under the Terrorism Act, and the organisers calling the running total &ldquo;truly dystopian&rdquo;. **Four cautions. Nobody has been charged, and the item says arrested throughout. The police figure comes from a post on social media with no named officer and no statement, so no police quotation appears. Three approved outlets give three different months for the proscription, so no month is published. And the cumulative four-thousand figure is a calculation rather than an official total, which the item states. The Supreme Court review's date is single-sourced and is not given**
+ - https://www.bbc.co.uk/news/articles/c6x2wkp7e0q9o &mdash; BBC News, modified 15:52 GMT, and https://www.theguardian.com/politics/2026/nov/01/green-party-must-avoid-hard-left-takeover-says-former-leader-adrian-ramsay &mdash; The Guardian, modified 15:54 GMT: the former co-leader's words on a podcast, that the party is at a &ldquo;crossroads&rdquo;, his answer of no when asked whether Zionism is racist, the motion's definition and its backing for a single state across historic Palestine, the leader's reply that there is &ldquo;no environmental justice without social, racial and economic justice&rdquo;, Labour's threat to end council power-sharing, the equality watchdog's letter, and Israel barring the leader from entry. **The 0.4% turnout figure is the former co-leader's own claim and is attributed to him. He is explicitly not calling for the leader to resign and not leaving the party, which is the detail most likely to be garbled. No membership or electoral consequence is reported in either source and none is implied; the only growth figure available comes from a partisan group**
+ - https://www.theguardian.com/business/2026/oct/31/railway-engineering-work-christmas-disruption-london-birmingham &mdash; The Guardian, 31 October: the ten days of works and about &pound;152m of spending, Birmingham New Street closed from Christmas Eve to 29 December, Great Western services terminating at Reading from 27 December to 4 January with the junction replacement near Slough, the east coast main line part-closed on Christmas Eve, and the named Network Rail director's apology and explanation. **Single-sourced. Its own standfirst says Paddington shuts for five days while its body gives the longer dates and says Elizabeth line and Heathrow Express services west of Paddington do not resume until 31 January; the body's dates are used and the five-day figure is applied only to Birmingham, where it belongs**
+ - https://www.theguardian.com/politics/2026/oct/31/streeting-stockpiling-food-water-weeks-ago-amid-rising-threat-to-uk &mdash; The Guardian, 31 October, **weighed and not run**: the defence secretary saying he began stockpiling food weeks ago, which follows our item on the Be Ready campaign. **It reaches us second-hand from a newspaper not on our approved list. The same piece carries a far more serious claim, that he accused the courts of an &ldquo;active campaign&rdquo; to smear the special forces; that is an attack by a serving minister on the judiciary, it is single-sourced and second-hand, and we are recording rather than publishing it**
+ - https://www.independent.co.uk/news/uk/politics/interest-rates-increase-bank-of-england-b3077035.html &mdash; The Independent, 15:14 GMT, **used for the impact box and not as an item**: that markets expect the Bank to raise rates to 4% from 3.75% on Thursday, which would be the first rise since 2023, with September inflation at 3.5%, and that the energy cap rose 3.6% on 1 October and is forecast to rise a further 22% in January. **Single-sourced and a market expectation rather than an event, which the box says. Our rule requires two sources for forward-looking claims, so it appears as an expectation and a forecast and nowhere as a fact**
+ - https://www.theguardian.com/uk-news/2026/nov/01/asylum-seekers-still-being-sent-to-france-under-one-in-one-out-weeks-after-scheme-ended &mdash; The Guardian, **weighed and not run**: the returns scheme that ended on 1 October, with the one hard official figure being the home secretary telling a committee the removals have cost at least &pound;78m. Most of the rest is what the outlet understands rather than departmental confirmation
+ - https://www.theguardian.com/society/2026/nov/01/high-street-slot-farms-budget-tax-rise-business-rates-bingo-licence-loophole &mdash; The Guardian, **weighed and not run**: a possible bingo-licence route around the Budget's rise in slot machine duty. The central claim is the outlet's own analysis and a suggestion rather than an established fact
+ - https://www.bbc.co.uk/news/articles/cqkgl4nmp8lyo &mdash; BBC News, **weighed and not run, single-sourced**: a second night of drone disruption at Jersey airport, which police say is not thought to be linked to terrorism
+ - https://www.theguardian.com/uk-news/2026/nov/01/welsh-health-board-urgent-primary-care-centres-upcc-holyhead-tremadog-bangor-betsi-cadwaladr &mdash; The Guardian, and https://www.bbc.co.uk/news/articles/c9e8lj021dnno &mdash; BBC News Wales: a consultation on ending urgent primary care at three north Wales hospitals, **weighed and not run though it is the best-sourced of tonight's alternatives. The two outlets give different closure dates and attribute the phrase &ldquo;dire consequences&rdquo; to different people, so it would need careful handling**
+ - https://www.cnbc.com/2026/10/31/opec-oil-output-targets-december.html &mdash; CNBC: OPEC and its partners holding December output steady in an online meeting today, with all twenty-one members due to meet on 29 November to set 2027 quotas
+ - https://www.cnbc.com/2026/11/01/oil-bond-yields-ai-market.html &mdash; CNBC, 15:58 GMT: the month's movement in oil, artificial-intelligence and bond trades, used for market context
+ -
+ - OUTLET COUNT, STATED HONESTLY: ten outlets are relied upon for claims in this edition &mdash; BBC News, The Guardian, The Independent, Al Jazeera, CBS News, CNBC, ABC News, and the Associated Press, Reuters and AFP through wire copy explicitly credited inside those reports. **Several items rest on narrower sourcing than the count suggests and say so in their own text: the Christmas rail works are single-sourced; the Iranian remark is carried by two outlets but originates in one scrum of reporters; the Oleshky evacuation is four-sourced on the route and deliberately unsourced on the numbers, because Ukraine withheld them.** Trading Economics was read as a cross-check on all ten tickers and is relied upon for nothing. gov.uk published nothing today, which on a Sunday is unremarkable
+ - NOT CARRIED, AND WHY. **A claim that American forces attacked two fishing boats off the Iranian coast is not published:** it rests on Iranian state media quoting a provincial official, the outlet carrying it says plainly that it has not been independently confirmed, and United States Central Command did not respond. **No strike date appears anywhere in this edition.** Three outlets name the 3 November midterms as the hinge for a possible resumption; that is an election date and a hint&rsquo;s outer bound, not a schedule. Also not run: a figure of 433 drones, which two sources attach to opposite attackers on different nights and which would have been an easy published error; a report of a refinery fire in Russia that appears only in Russian media and not in the governor&rsquo;s statement; and a BBC headline about energy bills help which a deliberate search could not locate anywhere, so it does not exist as far as we can establish. Weighed and held for want of room: the G20 foreign ministers parting without a communique, Somali pirates seizing an Iranian vessel, a Chinese coast guard standoff near the Pratas Islands, a defeated United Nations resolution on Western Sahara, eight Palestinians killed in Gaza, a second night of drones over Jersey airport, a possible bingo-licence route around the Budget&rsquo;s gambling duty, the asylum returns scheme, and a consultation on urgent care in north Wales. **A serving minister&rsquo;s accusation that the courts are running a campaign against the special forces is recorded and not published: it is single-sourced and reaches us second-hand from a newspaper not on our list, and it is too serious to carry on that footing.** Excluded under standing rules: a Halloween stabbing, a reality television final, a continuing trial, a named individual who died in the Spanish rail crash, and all sport
+ END SOURCES USED -->
+</div><!-- ── END EVENING 1 NOV (16:22) ── -->
 
  <!-- ── WEEKLY ROUNDUP 01 NOV (12:00) ── -->
  <div class="curated-edition weekly" data-date="2026-11-01" data-time="12:00">
