@@ -2,6 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-02-evening/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-02T17:55:00+01:00</news:publication_date>
+      <news:title>Evening Briefing — Monday 2 November 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-02-evening/oil-plunges-rubio-peaceful-iran/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-02T17:55:00+01:00</news:publication_date>
+      <news:title>Oil plunges as Rubio signals Washington prefers peaceful end to war</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-02-evening/iran-delegation-leaves-qatar-strike-fears/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-02T17:55:00+01:00</news:publication_date>
+      <news:title>Iranian delegation leaves Qatar amid fears of post-midterm strikes</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-02-evening/sohlberg-refuses-likud-certification-delay/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-02T17:55:00+01:00</news:publication_date>
+      <news:title>Election chief rejects Likud bid to delay certifying Israeli result</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-02-evening/europe-supermarket-fridge-cyberattacks/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-02T17:55:00+01:00</news:publication_date>
+      <news:title>Coordinated cyberattacks sabotage supermarket fridges across six European countries</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-02-evening/yotova-wins-bulgaria-presidency/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-02T17:55:00+01:00</news:publication_date>
+      <news:title>Yotova becomes Bulgaria’s first elected female president</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-02-evening/mahmood-earned-settlement-rules/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-02T17:55:00+01:00</news:publication_date>
+      <news:title>Mahmood unveils earned settlement, doubling default wait to ten years</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-02-evening/boe-expected-first-hike-since-2023/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-02T17:55:00+01:00</news:publication_date>
+      <news:title>Bank of England expected to raise rates for first time since 2023</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-02-evening/ftse-edges-up-oil-majors-fall/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-02T17:55:00+01:00</news:publication_date>
+      <news:title>FTSE 100 edges higher as BP and Shell slide with crude</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-02-evening/bist-committee-china-strategy-failure/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-02T17:55:00+01:00</news:publication_date>
+      <news:title>Commons committee says government has failed to deliver China strategy</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-02-evening/badenoch-antigua-slavery-reparations-row/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-02T17:55:00+01:00</news:publication_date>
+      <news:title>Badenoch rejects slavery reparations, provoking Antigua’s prime minister</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-11-02-morning/</loc>
     <news:news>
       <news:publication>
