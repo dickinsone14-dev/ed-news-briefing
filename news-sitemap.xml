@@ -2,6 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-02-morning/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-02T08:06:00+01:00</news:publication_date>
+      <news:title>Morning Briefing — Monday 2 November 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-02-morning/iran-says-tankers-hit-hormuz-mines/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-02T08:06:00+01:00</news:publication_date>
+      <news:title>Iran says two tankers hit mines and caught fire in Hormuz</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-02-morning/israeli-officials-reject-netanyahu-stolen-claim/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-02T08:06:00+01:00</news:publication_date>
+      <news:title>Israeli election officials reject Netanyahu’s claim the vote was stolen</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-02-morning/ukraine-russia-alert-apps-hacked/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-02T08:06:00+01:00</news:publication_date>
+      <news:title>Ukrainian and Russian air-raid alert apps hacked as Kherson truce ends</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-02-morning/trump-final-rallies-before-midterms/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-02T08:06:00+01:00</news:publication_date>
+      <news:title>Trump makes final pitch as Americans prepare to vote on Tuesday</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-02-morning/ryanair-warns-fares-rise-fuel-shock/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-02T08:06:00+01:00</news:publication_date>
+      <news:title>Ryanair warns fares could rise 20% as the war’s fuel shock bites</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-02-morning/mahmood-settlement-rules-ten-year-wait/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-02T08:06:00+01:00</news:publication_date>
+      <news:title>Mahmood sets out ten-year wait for migrants seeking settlement</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-02-morning/reeves-says-uk-future-inside-eu/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-02T08:06:00+01:00</news:publication_date>
+      <news:title>Reeves says Britain’s future lies inside the European Union</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-02-morning/healey-hedges-youth-minimum-wage-pledge/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-02T08:06:00+01:00</news:publication_date>
+      <news:title>Healey signals delay to equal minimum wage for younger workers</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-02-morning/mps-warn-uk-china-policy-incoherent/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-02T08:06:00+01:00</news:publication_date>
+      <news:title>MPs warn Britain is making up China policy as it goes along</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-02-morning/king-to-address-slavery-at-chogm/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-02T08:06:00+01:00</news:publication_date>
+      <news:title>King to address slavery at Commonwealth summit in Antigua</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-11-01-evening/</loc>
     <news:news>
       <news:publication>
@@ -241,248 +362,6 @@
       </news:publication>
       <news:publication_date>2026-11-01T07:55:00+01:00</news:publication_date>
       <news:title>Mahmood to Set Out Settlement Rules With Care Workers Spared</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-10-31-morning/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-31T07:55:00+01:00</news:publication_date>
-      <news:title>Morning Briefing — Saturday 31 October 2026</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-10-31-morning/america-approves-500-patriots-that-may-take-years-to-arrive/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-31T07:55:00+01:00</news:publication_date>
-      <news:title>America Approves 500 Patriots That May Take Years to Arrive</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-10-31-morning/polands-president-forces-his-way-into-the-constitutional-court/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-31T07:55:00+01:00</news:publication_date>
-      <news:title>Poland’s President Forces His Way Into the Constitutional Court</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-10-31-morning/half-the-record-crypto-theft-frozen-as-secret-service-joins-hunt/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-31T07:55:00+01:00</news:publication_date>
-      <news:title>Half the Record Crypto Theft Frozen as Investigators Close In</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-10-31-morning/yerevan-nature-deal-lands-with-one-target-of-24-on-course/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-31T07:55:00+01:00</news:publication_date>
-      <news:title>Yerevan Nature Deal Lands With One Target of 24 on Course</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-10-31-morning/democrats-lead-by-eight-points-with-three-days-to-the-midterms/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-31T07:55:00+01:00</news:publication_date>
-      <news:title>Democrats Lead by Eight Points With Three Days to the Midterms</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-10-31-morning/settlement-decision-due-next-week-after-cabinet-objections/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-31T07:55:00+01:00</news:publication_date>
-      <news:title>Settlement Decision Due Next Week After Cabinet Objections</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-10-31-morning/savers-and-landlords-face-four-points-more-from-april-2027/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-31T07:55:00+01:00</news:publication_date>
-      <news:title>Savers and Landlords Face Four Points More From April 2027</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-10-31-morning/sorrow-and-regret-offered-but-reparations-refused/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-31T07:55:00+01:00</news:publication_date>
-      <news:title>Sorrow and Regret Offered, but Reparations Refused</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-10-31-morning/bereaved-families-win-full-asbestos-compensation-from-today/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-31T07:55:00+01:00</news:publication_date>
-      <news:title>Bereaved Families Win Full Asbestos Compensation From Today</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-10-31-morning/up-to-ten-dry-days-after-the-wettest-week-in-two-years/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-31T07:55:00+01:00</news:publication_date>
-      <news:title>Up to Ten Dry Days After the Wettest Week in Two Years</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-10-30-evening/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-30T21:02:00+01:00</news:publication_date>
-      <news:title>Evening Briefing — Friday 30 October 2026</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-10-30-evening/tanker-hit-limpet-mines-hormuz/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-30T21:02:00+01:00</news:publication_date>
-      <news:title>Limpet Mines Disable Tanker in First Such Hormuz Attack of War</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-10-30-evening/intel-plunge-tech-sell-off-1tn/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-30T21:02:00+01:00</news:publication_date>
-      <news:title>Intel Suffers Worst Day Since 1974 as AI Sell-Off Deepens</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-10-30-evening/oleshky-evacuated-kherson-ceasefire/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-30T21:02:00+01:00</news:publication_date>
-      <news:title>Hundreds Evacuated From Occupied Oleshky Under Kherson Ceasefire</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-10-30-evening/g20-photo-cancelled-lavrov-atlanta/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-30T21:02:00+01:00</news:publication_date>
-      <news:title>G20 Photo Scrapped as Europeans Refuse to Stand With Lavrov</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-10-30-evening/novaya-gazeta-forced-to-close/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-30T21:02:00+01:00</news:publication_date>
-      <news:title>Novaya Gazeta to Close, Accusing Russian State of Killing It</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-10-30-evening/burnham-glasgow-economic-council-devolution/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-30T21:02:00+01:00</news:publication_date>
-      <news:title>First Ministers Tell Burnham Local Devolution Is Theirs to Decide</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-10-30-evening/streeting-defence-offset-rule-50m/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-30T21:02:00+01:00</news:publication_date>
-      <news:title>Streeting Denies Kicking Defence Spending Can Down the Road</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-10-30-evening/budget-cuts-heat-pump-scheme-741m/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-30T21:02:00+01:00</news:publication_date>
-      <news:title>Budget Takes £741m From Heat Pump Scheme to Help Fund Defence</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-10-30-evening/yorkshire-water-chief-resigns-one-star/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-30T21:02:00+01:00</news:publication_date>
-      <news:title>Yorkshire Water Chief Quits a Day After One-Star Rating</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-10-30-evening/no10-north-hiring-spree-manchester/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-30T21:02:00+01:00</news:publication_date>
-      <news:title>Number 10 North Advertises 50 Jobs in Manchester Hiring Drive</news:title>
     </news:news>
   </url>
 </urlset>
