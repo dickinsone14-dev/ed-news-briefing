@@ -2,6 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-03-morning/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-03T07:57:00+01:00</news:publication_date>
+      <news:title>Morning Briefing — Tuesday 3 November 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-03-morning/us-strikes-iran-qeshm-island/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-03T07:57:00+01:00</news:publication_date>
+      <news:title>US carries out ‘defensive’ strikes on Iran’s Qeshm Island</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-03-morning/americans-vote-us-midterms/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-03T07:57:00+01:00</news:publication_date>
+      <news:title>Americans vote in midterms seen as referendum on Trump</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-03-morning/russian-bombs-kill-29-aid-centre/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-03T07:57:00+01:00</news:publication_date>
+      <news:title>Russian bombs kill 29 at Ukrainian aid centre</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-03-morning/anglo-french-force-rehearse-ukraine-deployment/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-03T07:57:00+01:00</news:publication_date>
+      <news:title>Anglo-French force to rehearse Ukraine deployment in Poland</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-03-morning/north-korea-denies-binance-hack/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-03T07:57:00+01:00</news:publication_date>
+      <news:title>North Korea denies record $6.3bn Binance hack</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-03-morning/mahmood-refuses-cost-settlement-climbdown/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-03T07:57:00+01:00</news:publication_date>
+      <news:title>Mahmood declines to cost settlement climbdown on care workers</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-03-morning/uk-eu-draft-food-deal/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-03T07:57:00+01:00</news:publication_date>
+      <news:title>UK and EU agree draft deal scrapping Brexit food checks</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-03-morning/burnham-debt-reset-commonwealth-summit/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-03T07:57:00+01:00</news:publication_date>
+      <news:title>Burnham offers Commonwealth ‘debt reset’ as slavery apology talks begin</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-03-morning/labour-ends-green-council-coalitions/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-03T07:57:00+01:00</news:publication_date>
+      <news:title>Labour ends Green coalitions in 11 councils over Zionism motion</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-03-morning/carla-lockhart-quits-dup-drumcree/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-03T07:57:00+01:00</news:publication_date>
+      <news:title>Carla Lockhart quits DUP over Drumcree parade dispute</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-11-02-evening/</loc>
     <news:news>
       <news:publication>
@@ -362,127 +483,6 @@
       </news:publication>
       <news:publication_date>2026-11-01T16:22:00+01:00</news:publication_date>
       <news:title>Ten Days of Christmas Rail Works Close Paddington and New Street</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-01-morning/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-01T07:55:00+01:00</news:publication_date>
-      <news:title>Morning Briefing — Sunday 1 November 2026</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-01-morning/iran-offers-two-day-hormuz-reopening/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-01T07:55:00+01:00</news:publication_date>
-      <news:title>Iran Offers Two-Day Hormuz Reopening if Washington Meets Its Terms</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-01-morning/german-youth-protests-turn-to-looting/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-01T07:55:00+01:00</news:publication_date>
-      <news:title>German Youth Protests Turn to Looting as France Marches Again</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-01-morning/tel-aviv-rally-urges-eisenkot-arab-deal/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-01T07:55:00+01:00</news:publication_date>
-      <news:title>Tel Aviv Rally Urges Eisenkot to Govern With Arab Parties</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-01-morning/delhi-rally-demands-election-chief-quit/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-01T07:55:00+01:00</news:publication_date>
-      <news:title>Tens of Thousands Rally in Delhi Demanding Election Chief Quit</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-01-morning/binance-covers-90-percent-fbi-blames-north-korea/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-01T07:55:00+01:00</news:publication_date>
-      <news:title>Binance Covers 90% of Losses as FBI Blames North Korea</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-01-morning/reeves-says-britains-future-lies-in-eu/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-01T07:55:00+01:00</news:publication_date>
-      <news:title>Reeves Says Britain’s Future Lies in the European Union</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-01-morning/king-to-address-slavery-with-sincere-sorrow/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-01T07:55:00+01:00</news:publication_date>
-      <news:title>King to Address Slavery With ‘Sincere Sorrow’ as Apology Row Grows</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-01-morning/healey-wont-promise-equal-youth-minimum-wage/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-01T07:55:00+01:00</news:publication_date>
-      <news:title>Healey Will Not Promise Equal Minimum Wage Before Election</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-01-morning/healey-to-veto-offshore-wind-that-raises-bills/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-01T07:55:00+01:00</news:publication_date>
-      <news:title>Healey to Veto Offshore Wind Farms That Cannot Lower Bills</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-01-morning/mahmood-to-set-out-settlement-rules/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-01T07:55:00+01:00</news:publication_date>
-      <news:title>Mahmood to Set Out Settlement Rules With Care Workers Spared</news:title>
     </news:news>
   </url>
 </urlset>
