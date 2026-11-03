@@ -2,6 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-03-evening/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-03T20:40:00+01:00</news:publication_date>
+      <news:title>Evening Briefing — Tuesday 3 November 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-03-evening/americans-vote-control-of-congress/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-03T20:40:00+01:00</news:publication_date>
+      <news:title>Americans vote as Democrats seek control of Congress</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-03-evening/trump-says-israel-aid-will-end/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-03T20:40:00+01:00</news:publication_date>
+      <news:title>Trump says American military aid to Israel will end this year</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-03-evening/tehran-holds-terms-after-qeshm-strikes/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-03T20:40:00+01:00</news:publication_date>
+      <news:title>Tehran holds to its terms after American strikes on Qeshm</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-03-evening/komyshuvakha-toll-rises-abu-dhabi-talks/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-03T20:40:00+01:00</news:publication_date>
+      <news:title>Komyshuvakha toll rises to 33 as Kremlin confirms Abu Dhabi talks</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-03-evening/hoax-bomb-threats-seven-european-flights/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-03T20:40:00+01:00</news:publication_date>
+      <news:title>Hoax bomb threats disrupt seven flights across Europe</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-03-evening/king-slave-trade-shameful-chapter/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-03T20:40:00+01:00</news:publication_date>
+      <news:title>King calls slave trade a ‘shameful chapter’ but offers no apology</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-03-evening/mi5-spared-contempt-proceedings/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-03T20:40:00+01:00</news:publication_date>
+      <news:title>MI5 spared contempt proceedings despite lying to three courts</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-03-evening/gilts-climb-before-bank-rate-decision/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-03T20:40:00+01:00</news:publication_date>
+      <news:title>Gilt yields climb as Bank is tipped for first rise since 2023</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-03-evening/fca-clears-early-car-finance-offers/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-03T20:40:00+01:00</news:publication_date>
+      <news:title>Watchdog clears early car finance payouts as Barclays moves first</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-03-evening/ap-iorwerth-warns-bbc-wales-cuts/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-03T20:40:00+01:00</news:publication_date>
+      <news:title>Welsh first minister warns BBC cuts risk ‘irreversible deterioration’</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-11-03-morning/</loc>
     <news:news>
       <news:publication>
@@ -362,127 +483,6 @@
       </news:publication>
       <news:publication_date>2026-11-02T08:06:00+01:00</news:publication_date>
       <news:title>King to address slavery at Commonwealth summit in Antigua</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-01-evening/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-01T16:22:00+01:00</news:publication_date>
-      <news:title>Evening Briefing — Sunday 1 November 2026</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-01-evening/one-or-two-sites-left-as-mediators-cut-the-hormuz-window/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-01T16:22:00+01:00</news:publication_date>
-      <news:title>“One or Two Sites” Left, as Mediators Cut the Hormuz Window</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-01-evening/ebola-passes-five-thousand-deaths-with-no-vaccine-for-this-strain/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-01T16:22:00+01:00</news:publication_date>
-      <news:title>Ebola Passes Five Thousand Deaths, With No Vaccine for This Strain</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-01-evening/oleshky-emptied-and-the-ceasefire-that-allowed-it-ends-tonight/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-01T16:22:00+01:00</news:publication_date>
-      <news:title>Oleshky Emptied, and the Ceasefire That Allowed It Ends Tonight</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-01-evening/tusk-says-there-can-be-no-compromise-on-the-polish-court/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-01T16:22:00+01:00</news:publication_date>
-      <news:title>Tusk Says There Can Be No Compromise on the Polish Court</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-01-evening/sixteen-minutes-of-silence-and-the-arrest-of-a-police-chief/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-01T16:22:00+01:00</news:publication_date>
-      <news:title>Sixteen Minutes of Silence, and the Arrest of a Police Chief</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-01-evening/an-apology-without-reparations-and-a-leader-who-rejects-both/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-01T16:22:00+01:00</news:publication_date>
-      <news:title>An Apology Without Reparations, and a Leader Who Rejects Both</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-01-evening/starmer-says-europe-can-no-longer-rely-on-american-money/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-01T16:22:00+01:00</news:publication_date>
-      <news:title>Starmer Says Europe Can No Longer Rely on American Money</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-01-evening/325-arrested-outside-the-embassy-as-the-ban-heads-to-the-supreme-court/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-01T16:22:00+01:00</news:publication_date>
-      <news:title>325 Arrested Outside the Embassy as the Ban Faces Appeal</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-01-evening/green-party-at-a-crossroads-after-the-zionism-motion/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-01T16:22:00+01:00</news:publication_date>
-      <news:title>Green Party at a Crossroads After the Zionism Motion</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-01-evening/ten-days-of-christmas-rail-works-close-paddington-and-new-street/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-01T16:22:00+01:00</news:publication_date>
-      <news:title>Ten Days of Christmas Rail Works Close Paddington and New Street</news:title>
     </news:news>
   </url>
 </urlset>
