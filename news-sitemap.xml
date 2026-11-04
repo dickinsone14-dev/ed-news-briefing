@@ -2,6 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-04-morning/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-04T07:55:00+01:00</news:publication_date>
+      <news:title>Morning Briefing — Wednesday 4 November 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-04-morning/democrats-seize-both-houses-of-congress/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-04T07:55:00+01:00</news:publication_date>
+      <news:title>Democrats seize both houses of Congress in rebuke to Trump</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-04-morning/trump-concedes-iran-war-cost-votes/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-04T07:55:00+01:00</news:publication_date>
+      <news:title>Trump concedes Iran war cost votes, but signals vetoes ahead</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-04-morning/tehran-says-americans-said-no-to-war/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-04T07:55:00+01:00</news:publication_date>
+      <news:title>Tehran says Americans ‘said no to war’ as tankers burn near Hormuz</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-04-morning/oil-firms-as-markets-weigh-divided-government/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-04T07:55:00+01:00</news:publication_date>
+      <news:title>Oil firms and US futures slip as markets weigh divided government</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-04-morning/spain-transport-minister-resigns-urda-crash/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-04T07:55:00+01:00</news:publication_date>
+      <news:title>Spain’s transport minister resigns after Urda crash that killed 69</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-04-morning/burnham-to-unveil-eu-deals/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-04T07:55:00+01:00</news:publication_date>
+      <news:title>Burnham to unveil EU deals on youth visas, pets and carbon</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-04-morning/miliband-slavery-apology-no-taxpayer-cost/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-04T07:55:00+01:00</news:publication_date>
+      <news:title>Miliband says slavery apology will not cost British taxpayers</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-04-morning/cyber-chief-warns-ai-ransomware-2028/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-04T07:55:00+01:00</news:publication_date>
+      <news:title>Cyber chief warns of AI-powered ransomware on infrastructure by 2028</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-04-morning/andrew-summonsed-to-fraud-trial/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-04T07:55:00+01:00</news:publication_date>
+      <news:title>Andrew Mountbatten-Windsor summonsed to give evidence in fraud trial</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-04-morning/ministers-propose-default-lifetime-pensions/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-04T07:55:00+01:00</news:publication_date>
+      <news:title>Ministers propose default lifetime pensions for 17 million private-sector savers</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-11-03-evening/</loc>
     <news:news>
       <news:publication>
@@ -362,127 +483,6 @@
       </news:publication>
       <news:publication_date>2026-11-02T17:55:00+01:00</news:publication_date>
       <news:title>Badenoch rejects slavery reparations, provoking Antigua’s prime minister</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-02-morning/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-02T08:06:00+01:00</news:publication_date>
-      <news:title>Morning Briefing — Monday 2 November 2026</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-02-morning/iran-says-tankers-hit-hormuz-mines/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-02T08:06:00+01:00</news:publication_date>
-      <news:title>Iran says two tankers hit mines and caught fire in Hormuz</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-02-morning/israeli-officials-reject-netanyahu-stolen-claim/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-02T08:06:00+01:00</news:publication_date>
-      <news:title>Israeli election officials reject Netanyahu’s claim the vote was stolen</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-02-morning/ukraine-russia-alert-apps-hacked/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-02T08:06:00+01:00</news:publication_date>
-      <news:title>Ukrainian and Russian air-raid alert apps hacked as Kherson truce ends</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-02-morning/trump-final-rallies-before-midterms/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-02T08:06:00+01:00</news:publication_date>
-      <news:title>Trump makes final pitch as Americans prepare to vote on Tuesday</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-02-morning/ryanair-warns-fares-rise-fuel-shock/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-02T08:06:00+01:00</news:publication_date>
-      <news:title>Ryanair warns fares could rise 20% as the war’s fuel shock bites</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-02-morning/mahmood-settlement-rules-ten-year-wait/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-02T08:06:00+01:00</news:publication_date>
-      <news:title>Mahmood sets out ten-year wait for migrants seeking settlement</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-02-morning/reeves-says-uk-future-inside-eu/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-02T08:06:00+01:00</news:publication_date>
-      <news:title>Reeves says Britain’s future lies inside the European Union</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-02-morning/healey-hedges-youth-minimum-wage-pledge/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-02T08:06:00+01:00</news:publication_date>
-      <news:title>Healey signals delay to equal minimum wage for younger workers</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-02-morning/mps-warn-uk-china-policy-incoherent/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-02T08:06:00+01:00</news:publication_date>
-      <news:title>MPs warn Britain is making up China policy as it goes along</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-02-morning/king-to-address-slavery-at-chogm/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-02T08:06:00+01:00</news:publication_date>
-      <news:title>King to address slavery at Commonwealth summit in Antigua</news:title>
     </news:news>
   </url>
 </urlset>
