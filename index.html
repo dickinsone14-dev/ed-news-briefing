@@ -2287,7 +2287,7 @@
  <!-- #1 Markets snapshot bar -->
  <!-- Embedded market data (populated by update script, used as fallback) -->
  <script id="embedded-markets" type="application/json">
-{"FTSE":{"price":10638.43,"change":-1.14},"SP":{"price":7568.92,"change":0.36},"Brent":{"price":104.42,"change":0.8},"GBP":{"price":1.3471,"change":0.46},"Gold":{"price":4036.9,"change":2.45},"EURGBP":{"price":0.8344,"change":-0.02},"Gilt":{"price":5.2688,"change":0.021},"VIX":{"price":20.83,"change":-1.51},"BTC":{"price":77940.79,"change":1.65},"UST":{"price":4.952,"change":0.058},"ts":"2026-11-04T07:55:00+00:00"}
+{"FTSE":{"price":10916.36,"change":0.8},"SP":{"price":7688.62,"change":1.58},"Brent":{"price":96.27,"change":1.74},"GBP":{"price":1.3452,"change":-0.14},"Gold":{"price":4135.61,"change":1.87},"EURGBP":{"price":0.8339,"change":0.06},"Gilt":{"price":5.1057,"change":-0.0299},"VIX":{"price":16.8,"change":1.14},"BTC":{"price":80237.9,"change":0.2},"UST":{"price":4.878,"change":-0.014},"ts":"2026-11-05T11:44:00+00:00"}
 </script>
  <script id="market-descriptions" type="application/json">
 {
@@ -2295,111 +2295,114 @@
     "name": "FTSE 100",
     "desc": "The UK's benchmark stock index, tracking the 100 largest companies listed on the London Stock Exchange by market capitalisation. Includes Shell, AstraZeneca, HSBC and Unilever.",
     "drivers_up": [
-      "London opens after the US midterm results; no move is asserted before the open"
+      "Up about 0.8% at 10,916 by late morning, with both providers within four points, as gilt yields eased ahead of the Bank&rsquo;s decision",
+      "Close to its record high; the two providers date that record differently, so no date is given"
     ],
     "drivers_down": [
-      "Closed down 122.90 points, or 1.14%, at 10,638.43 on Tuesday in a global sell-off"
+      "A hawkish vote split or guidance at noon could reverse the move"
     ],
-    "updated": "4 November 2026 07:55 GMT (Tuesday&rsquo;s close &mdash; London not yet open)"
+    "updated": "5 November 2026 11:44 GMT (FTSE and sterling live; S&amp;P 500 and Nasdaq are Wednesday&rsquo;s closes)"
   },
   "SP": {
     "name": "S&P 500",
     "desc": "America's leading stock market index, tracking 500 of the largest US-listed companies. Dominated by mega-cap tech (Apple, Microsoft, Nvidia) but spans all sectors.",
     "drivers_up": [
-      "Closed up 0.36% at 7,568.92 on Tuesday as Americans voted"
+      "Closed up 1.58% at 7,688.62 on Wednesday as the midterm result removed uncertainty; the Nasdaq rose 1.44%"
     ],
     "drivers_down": [
-      "Futures were about 0.1% lower before the open as markets weighed a Democratic sweep of Congress"
+      "No second source for the level: the cross-check provider&rsquo;s S&amp;P page returns a different index"
     ],
-    "updated": "2026-11-04 07:55 (reviewed at publication)"
+    "updated": "5 November 2026 11:44 GMT (FTSE and sterling live; S&amp;P 500 and Nasdaq are Wednesday&rsquo;s closes)"
   },
   "Brent": {
     "name": "Brent Crude Oil",
     "desc": "The global benchmark for crude oil pricing, produced from oil fields in the North Sea. Used to price roughly two-thirds of the world's traded oil.",
     "drivers_up": [
-      "Rose 0.8% to $104.42 by 05:10 GMT, reversing earlier losses, as traders awaited Washington&rsquo;s next move on Iran; an industry estimate showed a 5.27m-barrel US crude draw"
+      "Up about 1.7% to $96.27 this morning after Wednesday&rsquo;s 8.7% fall to a $94.62 settle",
+      "Trading Economics quotes $96.16, agreeing within 11 cents"
     ],
     "drivers_down": [
-      "Settled on Tuesday at its lowest level in nearly four weeks as traders weighed talks to end the wars in Ukraine and Iran"
+      "Down more than 14% on the week on bets that the election result makes a deal with Tehran more likely"
     ],
-    "updated": "2026-11-04 07:55 (reviewed at publication)"
+    "updated": "5 November 2026 11:44 GMT (FTSE and sterling live; S&amp;P 500 and Nasdaq are Wednesday&rsquo;s closes)"
   },
   "GBP": {
     "name": "GBP/USD",
     "desc": "The exchange rate between the British pound and the US dollar, commonly known as 'cable'. Reflects relative economic strength and interest rate differentials between the UK and US.",
     "drivers_up": [
-      "Up about 0.5% to $1.3471 as the dollar weakened after the midterm results"
+      "Trade-weighted index at 86.4, joint highest since June 2016, on Bank of England data"
     ],
     "drivers_down": [
-      "Would need Thursday&rsquo;s Bank of England decision to disappoint"
+      "Slipped 0.14% to $1.3452 after $1.3495 at 04:15; the decision at noon is the driver"
     ],
-    "updated": "2026-11-04 07:55 (reviewed at publication)"
+    "updated": "5 November 2026 11:44 GMT (FTSE and sterling live; S&amp;P 500 and Nasdaq are Wednesday&rsquo;s closes)"
   },
   "Gold": {
     "name": "Gold (XAU/USD)",
     "desc": "The spot price of gold in US dollars per troy ounce. The world's oldest safe-haven asset, traditionally rising during periods of uncertainty, inflation and currency debasement.",
     "drivers_up": [
-      "Gold futures up about 2.5% to $4,036.90 in early trading"
+      "Up 1.87% to $4,135, both providers agreeing within a dollar, as the dollar weakened after the midterms"
     ],
     "drivers_down": [
-      "Futures reading; no approved source attributes the move"
+      "Would fall back if the dollar recovers"
     ],
-    "updated": "2026-11-04 07:55 (reviewed at publication)"
+    "updated": "5 November 2026 11:44 GMT (FTSE and sterling live; S&amp;P 500 and Nasdaq are Wednesday&rsquo;s closes)"
   },
   "EURGBP": {
     "name": "EUR/GBP",
     "desc": "The exchange rate between the euro and the British pound. Key for UK-EU trade pricing. A falling rate means sterling is strengthening against the euro.",
     "drivers_up": [
-      "Would need the euro to firm against sterling"
+      "0.8339, barely changed on the day"
     ],
     "drivers_down": [
-      "Little changed; derived from GBP/EUR at 1.1985"
+      "Sterling was 0.16% lower against the euro overnight at &euro;1.1979, per the BBC"
     ],
-    "updated": "2026-11-04 07:55 (reviewed at publication)"
+    "updated": "5 November 2026 11:44 GMT (FTSE and sterling live; S&amp;P 500 and Nasdaq are Wednesday&rsquo;s closes)"
   },
   "Gilt": {
     "name": "UK 10-Year Gilt Yield",
     "desc": "The yield on 10-year UK government bonds (gilts). A key benchmark for UK borrowing costs, mortgage rates and pension fund valuations. Rising yields mean falling bond prices.",
     "drivers_up": [
-      "The ten-year yield rose to about 5.27% on Tuesday before Thursday&rsquo;s expected first Bank Rate rise since 2023"
+      "A hawkish Bank at noon would push yields back up"
     ],
     "drivers_down": [
-      "Borrowing costs eased in October after John Healey&rsquo;s budget"
+      "Ten-year yield down 3 basis points to 5.11%, the same figure on Trading Economics, ahead of an expected rise to 4%",
+      "Thirty-year yields at their lowest since 7 July, per the Guardian"
     ],
-    "updated": "2026-11-04 07:55 (reviewed at publication)"
+    "updated": "5 November 2026 11:44 GMT (FTSE and sterling live; S&amp;P 500 and Nasdaq are Wednesday&rsquo;s closes)"
   },
   "VIX": {
     "name": "VIX (Volatility Index)",
     "desc": "The CBOE Volatility Index, often called the 'fear gauge'. Measures expected S&P 500 volatility over the next 30 days. Readings above 20 suggest elevated anxiety; above 30 signals acute stress.",
     "drivers_up": [
-      "Would need the midterm outcome to unsettle markets"
+      "16.80, up 1.1% overnight"
     ],
     "drivers_down": [
-      "Eased about 1.5% to 20.83"
+      "No second source; the cross-check provider has no VIX page"
     ],
-    "updated": "2026-11-04 07:55 (reviewed at publication)"
+    "updated": "5 November 2026 11:44 GMT (FTSE and sterling live; S&amp;P 500 and Nasdaq are Wednesday&rsquo;s closes)"
   },
   "BTC": {
     "name": "Bitcoin (BTC/USD)",
     "desc": "The price of Bitcoin in US dollars. The largest cryptocurrency by market cap, increasingly viewed as digital gold by institutional investors since spot ETF approvals.",
     "drivers_up": [
-      "Up about 1.7% to around $77,900"
+      "$80,238, up 0.2%; no second source"
     ],
     "drivers_down": [
-      "Early-morning reading"
+      "Would follow risk appetite lower if the post-election rally fades"
     ],
-    "updated": "2026-11-04 07:55 (reviewed at publication)"
+    "updated": "5 November 2026 11:44 GMT (FTSE and sterling live; S&amp;P 500 and Nasdaq are Wednesday&rsquo;s closes)"
   },
   "UST": {
     "name": "US 10-Year Treasury Yield",
     "desc": "The yield on 10-year US government bonds, the global risk-free rate benchmark. Influences mortgage rates, corporate borrowing and equity valuations worldwide.",
     "drivers_up": [
-      "The ten-year Treasury yield rose about six basis points to 4.952%"
+      "A hawkish Federal Reserve would push the yield back up"
     ],
     "drivers_down": [
-      "Would need weaker data or a risk-off shock"
+      "4.878%, down 1.4 basis points; no second source"
     ],
-    "updated": "2026-11-04 07:55 (reviewed at publication)"
+    "updated": "5 November 2026 11:44 GMT (FTSE and sterling live; S&amp;P 500 and Nasdaq are Wednesday&rsquo;s closes)"
   }
 }
 </script>
@@ -2452,6 +2455,123 @@
  <!-- ════ ALL EDITIONS (sorted by JS) ════ -->
  <!-- IMPORTANT: Keep 7 FULL DAYS of editions in this container. Do NOT delete editions less than 7 days old. -->
  <div id="all-editions" style="display:none;">
+<div class="curated-edition morning" data-date="2026-11-05" data-time="11:44" data-markets='{"FTSE":{"price":10916.36,"change":0.8},"SP":{"price":7688.62,"change":1.58},"Brent":{"price":96.27,"change":1.74},"GBP":{"price":1.3452,"change":-0.14},"Gold":{"price":4135.61,"change":1.87},"EURGBP":{"price":0.8339,"change":0.06},"Gilt":{"price":5.1057,"change":-0.0299},"VIX":{"price":16.8,"change":1.14},"BTC":{"price":80237.9,"change":0.2},"UST":{"price":4.878,"change":-0.014},"ts":"2026-11-05T11:44:00+00:00"}'>
+  <div class="edition-header"><span class="edition-icon">&#9788;</span><h2>Morning Briefing</h2></div>
+  <div class="curated-meta">Thursday 5 November 2026 &mdash; 11:44 GMT</div>
+  <div class="impact-box"><h3 class="impact-heading">What It Means For You</h3><ul class="impact-list"><li>If you have a tracker mortgage, a quarter-point rise to 4% at noon would add about &pound;31 a month to a typical loan, according to UK Finance; the 470,000 households on variable rates must wait for their lender&rsquo;s response, and savers should see better returns.</li><li>Sterling at its strongest since the 2016 referendum on the Bank&rsquo;s trade-weighted index means more buying power on imports and foreign holidays, and helps hold down inflation at home.</li><li>The Energy Independence Bill would formally scrap gas standing charges, as promised in the Budget, though the saving depends on the bill passing; the new &pound;2bn energy wealth fund is to invest oil and gas tax revenue in renewables.</li></ul></div>
+  <div class="curated-grid">
+    <div class="curated-column">
+      <h3><span class="dot geo"></span><span class="dot-label">GEO</span> Geopolitical</h3>
+        <div class="curated-item" data-time="17:00" data-slug="vance-blames-iran-war-for-defeat-brent-below-95">
+          <h4>Vance blames Iran war for defeat as Brent sinks below $95</h4>
+          <p>JD Vance has told Republicans that &ldquo;the reason we lost is the war&rdquo;, in a statement on X that the BBC describes as 600 words long and carefully calibrated. President Trump called the assessment &ldquo;largely true&rdquo; but said he would &ldquo;do it again&rdquo;. Brent crude settled 8.7% lower at $94.62 on Wednesday as traders bet that the result makes a deal with Tehran more likely.</p>
+          <details class="dive-deeper"><summary>Dive deeper</summary><div class="deeper-content">Mr Vance&rsquo;s four-point prescription was to end the war, focus on the cost of living, &ldquo;put America First&rdquo; and change the relationship with Israel; he invited colleagues who thought the war worth losing the Senate &ldquo;for the next 6 years&rdquo; to say so. Ted Cruz said the war &ldquo;should have been brief, decisive, and over&rdquo;, while Chuck Schumer, who is set to lead the Senate, said &ldquo;this war must end&rdquo;. Mr Trump insisted he &ldquo;would have done nothing different&rdquo;, claiming Iran&rsquo;s navy, air force and air defences were gone. In Tehran, Mohsen Rezaei of the Supreme National Security Council said Americans had been stuck with the bill for the war and called the result a political defeat for the president. West Texas Intermediate fell 8.3% to $88.12 and oil has lost more than 14% this week; analysts caution that Iran remains &ldquo;hardened in its uncompromising position&rdquo; and that the sell-off may be overdone. Al Jazeera puts the war&rsquo;s cost to the American taxpayer at an estimated $47bn, a figure no other outlet gives. Watch for Ro Khanna&rsquo;s proposal to bar funding for combat operations in Iran.</div></details>
+        </div>
+        <div class="curated-item" data-time="16:50" data-slug="komyshuvakha-toll-reaches-40-bodycam-double-tap">
+          <h4>Komyshuvakha toll reaches 40 as bodycam shows Russian double-tap strike</h4>
+          <p>The death toll from Monday&rsquo;s Russian attack on a school used as an aid point in Komyshuvakha, in the Zaporizhzhia region, has climbed to 40, Volodymyr Zelensky said on Wednesday, with more than 30 people feared still under the rubble. Regional officials have confirmed 37 deaths and say some 38 may be trapped. Bodycam footage from a police officer killed in the strike shows residents being sent into a shelter seconds before it was hit.</p>
+          <details class="dive-deeper"><summary>Dive deeper</summary><div class="deeper-content">Nine glide bombs, some weighing 3,000kg according to the BBC, struck the school and an adjacent shelter at least two floors underground; the recording stops as the second bomb lands, and BBC Verify confirmed the location. The search entered its third day on Wednesday. Mr Zelensky complained of &ldquo;very little reaction from the world to this insane attack&rdquo; and renewed his call for air defence. Russia&rsquo;s defence ministry has claimed that as many as 25 Ukrainian servicemen were killed; a UN monitoring mission said the strike &ldquo;seems to have violated the most fundamental principles of international humanitarian law&rdquo;. Overnight on Tuesday Russia sent 310 drones, 81 of them jet-powered, cutting power and water in Kyiv for hours; Ukraine said it downed or suppressed 272. Moscow said on Thursday it had hit a postal terminal near Kharkiv and a cargo ship off Odesa, claims Kyiv did not immediately confirm, while Ukrainian drones struck the Rosneft refinery at Ryazan. Trilateral talks are due in Abu Dhabi on 10&ndash;11 November.</div></details>
+        </div>
+        <div class="curated-item" data-time="04:00" data-slug="joshua-wong-jailed-ten-years-hong-kong">
+          <h4>Joshua Wong jailed for ten years under Hong Kong security law</h4>
+          <p>Joshua Wong, the face of Hong Kong&rsquo;s pro-democracy protests, was sentenced on Thursday to ten years in prison for colluding with foreign forces under the national security law. Judge William Tam called him &ldquo;a mastermind of the conspiracy&rdquo; and reduced a 13-year starting point for his guilty plea. Mr Wong, who turned 30 last month, has spent almost six years in detention and had been due for release in January.</p>
+          <details class="dive-deeper"><summary>Dive deeper</summary><div class="deeper-content">The charge concerned a conspiracy with the exiled activist Nathan Law to lobby for foreign sanctions and blockades against Beijing between July and November 2020; Mr Wong, the only Hong Kong activist prosecuted twice under the law, pleaded guilty in September. He was already serving four years and eight months for his part in the &ldquo;Hong Kong 47&rdquo; primary case. In a statement from prison he said he had never been &ldquo;driven by hatred&rdquo; and had &ldquo;never advocated Hong Kong independence&rdquo;. The chief executive, John Lee, called Mr Wong and Mr Law &ldquo;among the primary culprits responsible for undermining Hong Kong&rsquo;s prosperity and stability&rdquo;; the US consulate said it &ldquo;strongly condemns&rdquo; the sentence and Human Rights Watch called it &ldquo;cruel and unjust&rdquo;. Beijing told critics to &ldquo;stop making irresponsible remarks&rdquo;. Only the media tycoon Jimmy Lai, jailed for 20 years, has received a longer sentence under the law. Mr Wong founded Scholarism at 14, became the face of the 2014 Umbrella Movement and appeared on the cover of Time.</div></details>
+        </div>
+        <div class="curated-item" data-time="07:00" data-slug="france-braces-700000-protesters-five-unions-strike">
+          <h4>France braces for 700,000 protesters as five unions strike</h4>
+          <p>France&rsquo;s five main unions have called a national day of strikes on Thursday, with the authorities expecting between 500,000 and 700,000 demonstrators and more than 250 separate actions. The interior minister, Laurent Nu&ntilde;ez, has deployed 70,000 police and gendarmes and promised &ldquo;an extremely firm response&rdquo; after more than 2,000 shops were looted on 17 October. Rail, hospital, postal and air-traffic staff are expected to join.</p>
+          <details class="dive-deeper"><summary>Dive deeper</summary><div class="deeper-content">The movement began in September as a protest over staff shortages at a single lyc&eacute;e south-east of Paris and has grown into a broad front with the yellow vests, who plan further action on Friday and Saturday. The unions&rsquo; joint statement says &ldquo;anger is immense&rdquo;; the CFDT&rsquo;s Marylise L&eacute;on is asking for a net rise of &euro;100 a month on a minimum wage of &euro;12.31 an hour, and the CGT&rsquo;s Sophie Binet accuses the government of &ldquo;a very dangerous authoritarian drift&rdquo;. Eighty-one lyc&eacute;es were shut on Thursday morning and about 17.5% of primary schools were affected, the education ministry said. With refinery strikes halting output, the government has released 10 million barrels of diesel from strategic reserves, and France was expected to import more electricity than it produces as nuclear plants were disrupted. The backdrop is public debt approaching 120% of output and a budget the unions say will deepen poverty; Marine Le Pen is polling strongly ahead of 2027. The Paris march runs from R&eacute;publique to Nation after a court refused a route to Concorde.</div></details>
+        </div>
+        <div class="curated-item" data-time="08:55" data-slug="bomb-hoaxes-divert-dozen-european-flights">
+          <h4>Bomb hoaxes divert a dozen European flights for second time this week</h4>
+          <p>An Aer Lingus flight from Dublin to Rome was escorted by French fighter jets to the Evreux air base on Thursday after a bomb threat, one of at least a dozen aircraft targeted across Europe in a single morning. The French prime minister&rsquo;s office said 151 passengers and six crew were moved to safety. Flights to Sofia, Prague, Brussels, Warsaw, Vienna and Bucharest were also diverted or searched; nothing was found and no arrests have been reported.</p>
+          <details class="dive-deeper"><summary>Dive deeper</summary><div class="deeper-content">Three Ryanair services to Bulgaria, two Finnair flights from Helsinki, a LOT Warsaw&ndash;Brussels service, Wizz Air flights from Milan and four aircraft bound for Prague appear in the Guardian&rsquo;s tally, which stood at 14 by late morning; Al Jazeera put the number at about ten and the BBC at twelve, a count that moved through the day. Finnair called the threats &ldquo;unfounded or hoax&rdquo; and said one of its aircraft was escorted into Rome by a fighter jet; Czech police rated the credibility of their four threats as low and passed the case to counter-terrorism and cybercrime investigators. Aer Lingus described the diversion as &ldquo;a security precaution&rdquo;. It follows Tuesday&rsquo;s wave, which the BBC now puts at eight flights, two of them from the UK, and the escort of a Luton&ndash;Sofia Wizz Air flight to Budapest on Monday; the British government has condemned &ldquo;malicious hoax threats&rdquo;. No one has claimed responsibility and no government has attributed blame.</div></details>
+        </div>
+    </div>
+    <div class="curated-column">
+      <h3><span class="dot dom"></span><span class="dot-label">UK</span> UK Domestic Politics</h3>
+        <div class="curated-item" data-time="04:21" data-slug="bank-expected-to-raise-rates-pound-post-referendum-high">
+          <h4>Bank expected to raise rates to 4% as pound hits post-referendum high</h4>
+          <p>The Bank of England announces its decision at 12:00 GMT, and most analysts expect the first rise since August 2023, from 3.75% to 4%, after inflation climbed to 3.5% in September. Sterling has reached its joint highest level since the June 2016 referendum on the Bank&rsquo;s trade-weighted index, at 86.4, and stood at $1.3495 at 04:15. A quarter-point rise adds about &pound;31 a month to a typical tracker mortgage, UK Finance calculates.</p>
+          <details class="dive-deeper"><summary>Dive deeper</summary><div class="deeper-content">The Monetary Policy Committee has held the rate for six meetings since it came down from the 5.25% peak of 2023&ndash;24; the rise in inflation, driven mainly by petrol and diesel since the Iran war, has cemented expectations of a move now and possibly more in 2027, the AP reports. &ldquo;We imagine that many committee members&rsquo; patience with the recent rise in inflation has worn thin,&rdquo; said Ellie Henderson of Investec. Chris Cheverall of CMC Markets said the decision &ldquo;is increasingly less about whether rates reach 4% and more about what follows after that&rdquo;; traders will study the vote split, the new projections and the guidance. A rise would reach the 510,000 households on tracker mortgages immediately and the 470,000 on variable deals once lenders respond, while savers would gain. Sterling&rsquo;s strength, which Jim O&rsquo;Neill attributes to investors &ldquo;underestimating the improving momentum in the UK&rdquo;, helps rein in inflation and cheapens imports and holidays. The FTSE 100 rose about 0.8% to 10,916 by late morning, close to its record, as ten-year gilt yields eased to 5.11%. Household energy bills are forecast to rise sharply in January.</div></details>
+        </div>
+        <div class="curated-item" data-time="16:28" data-slug="ministers-move-to-outlaw-new-north-sea-exploration">
+          <h4>Ministers move to outlaw new North Sea oil and gas exploration</h4>
+          <p>The government has introduced an Energy Independence Bill that would strip the North Sea Transition Authority of its power to grant new oil and gas licences, making Labour&rsquo;s manifesto moratorium permanent and reversible only by a Commons majority. Existing fields could still add output from adjoining areas under new transitional certificates, which ministers say could yield about 60 million barrels and support hundreds of jobs. Rosebank and Jackdaw are unaffected.</p>
+          <details class="dive-deeper"><summary>Dive deeper</summary><div class="deeper-content">The bill, brought forward by the energy secretary, Miatta Fahnbulleh, would also formally scrap gas standing charges, as promised in the Budget, and speed up grid connections; alongside it ministers announced an energy wealth fund, seeded with &pound;2bn of oil and gas tax revenue, to invest in renewable and low-carbon projects. Andy Burnham said the changes would &ldquo;bring bills down for good, give families greater security and put Britain back in control of its energy future&rdquo;. The Conservatives called the bill &ldquo;dangerous&rdquo; and accused ministers of being &ldquo;totally oblivious to the economic and energy threats this country faces&rdquo;; the SNP&rsquo;s Graham Leadbitter said it was &ldquo;designed to exploit Scotland&rsquo;s energy&rdquo; and strengthened the case for independence. The decision on Rosebank, 80 miles north-west of Shetland and thought to hold 300&ndash;500 million barrels, sits outside the bill and still awaits ministers; production at the Jackdaw gas field was approved only two weeks ago. Watch for the bill&rsquo;s second reading and for whether the transitional certificates satisfy the industry in the north-east of Scotland.</div></details>
+        </div>
+        <div class="curated-item" data-time="23:50" data-slug="uk-signs-up-to-time-bound-slavery-dialogue">
+          <h4>UK signs up to &lsquo;time-bound&rsquo; dialogue on slavery as summit closes</h4>
+          <p>Commonwealth leaders ended their Antigua summit with an 18-page communiqu&eacute; welcoming Britain&rsquo;s agreement to &ldquo;a structured, time-bound, inclusive and good-faith dialogue&rdquo; on the transatlantic slave trade and its historical harms. No deadline is set, though Ed Miliband says the talks are likely to conclude within about a year, and Gaston Browne of Antigua and Barbuda expects the framework to be settled by early next year. Andy Burnham has ruled out reparations but left an apology open.</p>
+          <details class="dive-deeper"><summary>Dive deeper</summary><div class="deeper-content">Asked whether a formal apology might come by the time Britain hosts the G20 in Manchester next November, the Foreign Secretary told the BBC: &ldquo;Broadly speaking, yes.&rdquo; Mr Burnham called it &ldquo;the most successful meeting of the Commonwealth in recent times&rdquo; and said the King&rsquo;s words had &ldquo;resonated powerfully&rdquo;; the King had told leaders that the trade was a &ldquo;shameful chapter&rdquo; that filled his heart &ldquo;with horror&rdquo;. Mr Browne said there was &ldquo;consensus&rdquo; on a way forward and praised the prime minister&rsquo;s &ldquo;courage and goodwill&rdquo;, while making clear that &ldquo;reparations must be part of this structured dialogue&rdquo;. Britain has offered talks on debt resets and &pound;40m for Caribbean infrastructure over three years; the Caricom reparations commission&rsquo;s ten-point plan asks instead for &ldquo;debt cancellation&rdquo; and &ldquo;monetary compensation&rdquo;. Ralph Gonsalves, a former prime minister of St Vincent, warned that development assistance cannot stand in for reparations. The gap between a dialogue Britain treats as time-limited and demands the region treats as open is where the next year&rsquo;s argument lies.</div></details>
+        </div>
+        <div class="curated-item" data-time="10:30" data-slug="palestine-action-ban-crisis-in-confidence-supreme-court">
+          <h4>Palestine Action ban caused &lsquo;crisis in confidence&rsquo;, Supreme Court told</h4>
+          <p>Lawyers for Huda Ammori, a co-founder of Palestine Action, told five Supreme Court justices that proscribing the group last year had produced a &ldquo;crisis in confidence&rdquo; in anti-terrorism law and provoked unprecedented civil disobedience. Home Office figures seen by the BBC show more than 4,000 arrests at protests where supporters held signs, with 1,200 charges authorised; those trials are in limbo. Twenty-seven people were arrested outside the court on Wednesday.</p>
+          <details class="dive-deeper"><summary>Dive deeper</summary><div class="deeper-content">Raza Husain KC said the group was banned on the basis of only three of 385 incidents that the Home Secretary assessed as offences under the Terrorism Act, &ldquo;less than one per cent of its actions over five years&rdquo;, and that the suffragettes, anti-war and environmental movements had used similar or more extreme tactics without being treated as terrorists. Henry Blaxland KC said that, far from depriving the group of publicity, all proscription had done was &ldquo;pour fuel on to a fire&rdquo;. Ms Ammori&rsquo;s team accepted that the group was not an ordinary peaceful protest movement, and the court heard that one member had been jailed for fracturing a police officer&rsquo;s back with a sledgehammer, violence the group says it never advocated. For the Home Secretary, Sir James Eadie KC argued that the Court of Appeal&rsquo;s ruling was lawful and proportionate, citing four convictions and a &ldquo;terrorist connection&rdquo; finding over the raid on Elbit Systems at Filton, plus American sanctions, and said the ban &ldquo;does not prevent public expressions of support for the Palestinian cause&rdquo;. This is the first time the court has weighed a terrorism ban against free speech.</div></details>
+        </div>
+        <div class="curated-item" data-time="16:32" data-slug="british-ebola-patient-flown-home-from-congo">
+          <h4>British health worker with Ebola flown home from DR Congo</h4>
+          <p>A British healthcare worker who tested positive for Ebola in the Democratic Republic of Congo is being evacuated to the UK, the first British national infected in the current outbreak, which has killed more than 5,000 people. The patient is in a stable condition and will be taken by specialist ambulance to a high-consequence infectious disease unit, according to an official document seen by Reuters. The government says the risk to the public &ldquo;remains low&rdquo;.</p>
+          <details class="dive-deeper"><summary>Dive deeper</summary><div class="deeper-content">&ldquo;The UK has well-established procedures for dealing with cases like this, and those processes have been activated,&rdquo; a government spokesperson said. The Royal Free in London has a high-level isolation unit, with others in Newcastle and Liverpool; the patient was sent to Congo by a humanitarian organisation and was expected to arrive on Wednesday or Thursday. Only four Ebola cases have ever been confirmed in Britain &mdash; one from a laboratory incident in 1976 and three health workers returning from west Africa in 2014&ndash;15 &mdash; and none proved fatal. The outbreak, declared on 15 May, has passed 10,000 confirmed cases, with a fatality rate of 48.6% reported at the end of October; it is the seventeenth in Congo&rsquo;s history and the second deadliest ever recorded. It is driven by the Bundibugyo strain, for which there is no approved vaccine, though two candidates &mdash; one from Oxford and the Serum Institute of India, one from Moderna &mdash; are to join a clinical trial. Cases have been confirmed in Kenya, Uganda and Nigeria.</div></details>
+        </div>
+    </div>
+  </div>
+  <div class="one-to-read">
+    <span class="otr-label">One To Read</span>
+    <a href="https://www.bbc.co.uk/news/articles/cq1kdgnn2xdeo" target="_blank" rel="noopener">
+      <span class="otr-title">What Democrats can and can&rsquo;t do with their new power after taking Congress</span>
+      <span class="otr-source">BBC News</span>
+      <span class="otr-dot">&middot;</span>
+      <span class="otr-desc">Hakeem Jeffries promises &ldquo;the great American comeback&rdquo;, Chris Coons warns against reading the result as a mandate, and the arithmetic of vetoes, confirmations and a 67-vote conviction threshold &mdash; with Congress itself at 14% approval.</span>
+    </a>
+  </div>
+<!-- SOURCES USED
+ - GEOPOLITICAL
+ - https://www.bbc.co.uk/news/articles/crz98zqkz7z0o &mdash; BBC: Vance&rsquo;s 600-word statement on X, &ldquo;the reason we lost is the war&rdquo;, four-point list, &ldquo;next 6 years&rdquo;; Trump &ldquo;largely&rdquo; and &ldquo;do it again&rdquo;
+ - https://www.aljazeera.com/news/2026/11/5/congress-defeat-how-trumps-allies-are-distancing-themselves-from-iran-war &mdash; Al Jazeera: Cruz &ldquo;brief, decisive, and over&rdquo;, Schumer &ldquo;this war must end&rdquo;, Khanna funding proposal, Trump &ldquo;largely true&rdquo;. **The $47bn cost estimate is this outlet&rsquo;s alone and is attributed to it**
+ - https://www.cbsnews.com/live-updates/iran-war-us-trump-midterms-strait-of-hormuz/ &mdash; CBS News live: Trump &ldquo;I would have done nothing different&rdquo;, Rezaei political-defeat post, exit poll including about a quarter of Republicans; Thursday tanker incidents. **The suggestion that Vance contacted Rezaei is &ldquo;reportedly&rdquo; and single-sourced; not used**
+ - https://www.cnbc.com/2026/11/04/oil-price-iran-war-us-election-strait-hormuz.html &mdash; CNBC, with Reuters: Brent settled &minus;8.7% at $94.62, WTI &minus;8.3% at $88.12, &minus;14% on the week, Lipow and McNally quotes. **Resolves the FT/CNBC headline difference: &ldquo;below $100&rdquo; is Brent, &ldquo;below $90&rdquo; is WTI**
+ - https://www.timesofisrael.com/vance-gop-lost-midterms-due-to-iran-war-voters-want-change-in-israel-relationship/ &mdash; Times of Israel (via WebFetch): Vance statement verbatim, Trump on Hegseth, &ldquo;the war will end whenever I want it to&rdquo;
+ - https://www.cbsnews.com/news/ukraine-russia-war-zelenskyy-aid-center-attack-death-toll/ &mdash; CBS News: toll 40 per Zelensky on Wednesday, nine bombs, &ldquo;more than 30 people may still be under the rubble&rdquo;, Russian MoD 25 servicemen claim, &ldquo;very little reaction from the world&rdquo;. **The headline&rsquo;s &ldquo;may have killed 70&rdquo; is arithmetic that appears nowhere in body text; not used**
+ - https://www.bbc.co.uk/news/articles/c98rz6penv86o &mdash; BBC: bodycam from a killed officer, shelter two floors down, nine gliding bombs some 3,000kg, third day of search, BBC Verify geolocation, Abu Dhabi talks 10&ndash;11 November
+ - https://abcnews.com/International/wireStory/russian-strikes-disrupt-water-power-kyiv-rescuers-search-137839563 &mdash; ABC News carrying AP: 37 confirmed and 38 possibly trapped per the regional head, 310 drones including 81 jet-powered, 272 downed or suppressed. **37/38 and 40/30-plus are different attributions and both are given**
+ - https://www.bbc.co.uk/news/articles/c65ynez5y599o &mdash; BBC, 3 November: UN mission &ldquo;most fundamental principles of international humanitarian law&rdquo;
+ - https://www.aljazeera.com/news/2026/11/5/russia-says-it-hit-ukrainian-postal-hub-and-ship-as-ukraine-strikes-ryazan &mdash; Al Jazeera, with Reuters and AFP: Russian claims of a postal terminal and a cargo ship, unconfirmed by Kyiv; Ryazan refinery fire
+ - https://www.bbc.co.uk/news/articles/cwp9g3rlp8jlo &mdash; BBC: ten years, collusion charge, Nathan Law, turned 30, six years in jail and January release, John Lee &ldquo;primary culprits&rdquo;, HRW &ldquo;cruel and unjust&rdquo;, Jimmy Lai 20 years, Scholarism at 14
+ - https://www.theguardian.com/world/2026/nov/05/hong-kong-joshua-wong-sentenced-national-security-case &mdash; The Guardian: Tam &ldquo;grave in nature&rdquo;, only activist prosecuted twice, four years and eight months, guilty plea in September, US consulate &ldquo;strongly condemns&rdquo;, Guo Jiakun &ldquo;irresponsible remarks&rdquo;, Time cover
+ - https://www.aljazeera.com/news/2026/11/5/hong-kong-democracy-activist-joshua-wong-sentenced-to-10-years-in-jail &mdash; Al Jazeera, with AFP, AP and Reuters: 13-year starting point reduced for the guilty plea
+ - https://abcnews.com/International/wireStory/hong-kong-pro-democracy-activist-joshua-wong-faces-137861278 &mdash; ABC News carrying AP: &ldquo;mastermind of the conspiracy&rdquo;, prison statement. **Identical AP copy also sits on NPR; counted once**
+ - https://www.npr.org/2026/11/05/g-s1-152032/hong-kong-activist-wong-sentenced &mdash; NPR carrying AP: second copy of the wire, 13-year starting point confirmed
+ - https://www.bbc.co.uk/news/articles/ckx2qzv835pgo &mdash; BBC: 500,000&ndash;700,000 expected, 70,000 police, 250 actions, &ldquo;extremely firm&rdquo;, 81 lyc&eacute;es and 17.5% of primary schools, &euro;12.31 and &euro;100, 10 million barrels, electricity imports, 2,000 stores looted, Paris route. **Most of these figures are this outlet&rsquo;s alone**
+ - https://www.theguardian.com/world/2026/nov/05/protesters-france-march-strikes-education-cost-of-living &mdash; The Guardian: sectors joining, debt approaching 120%, Binet &ldquo;authoritarian drift&rdquo;, Le Pen polling. **Its &ldquo;almost 18% of teachers&rdquo; measures something different from the BBC&rsquo;s 17.5% of schools; the BBC figure is used with its own wording**
+ - https://abcnews.com/International/wireStory/french-unions-unite-nationwide-strikes-piling-pressure-macrons-137868915 &mdash; ABC News carrying AP: &ldquo;anger is immense&rdquo;, armoured vehicles and helicopters, the September origin at one lyc&eacute;e
+ - https://www.theguardian.com/world/live/2026/nov/05/aer-lingus-plane-bomb-threat-europe-latest-news-updates &mdash; The Guardian live: the running tally of 14 aircraft with flight numbers, Finnair passenger counts and &ldquo;unfounded or hoax&rdquo;, Czech police credibility assessment, Aer Lingus &ldquo;security precaution&rdquo;. **The count moved through the morning; the edition gives all three outlets&rsquo; figures**
+ - https://www.aljazeera.com/news/2026/11/5/bomb-threat-diverts-dublin-rome-flight-to-france &mdash; Al Jazeera, with AFP and Reuters: 151 passengers and six crew per the prime minister&rsquo;s office, fighter escort, &ldquo;about 10 flights&rdquo;, no claim of responsibility
+ - https://www.bbc.co.uk/news/articles/cmpqg08nz3pqo &mdash; BBC: twelve flights listed, Tuesday restated as eight, Luton&ndash;Sofia escort to Budapest, &ldquo;malicious hoax threats&rdquo;. **The BBC&rsquo;s own 3 November piece said seven for Tuesday; the newer figure is attributed to it**
+ - https://www.bbc.co.uk/news/articles/cq1kdgnn2xdeo &mdash; BBC: the One To Read
+ - UK DOMESTIC
+ - https://www.bbc.co.uk/news/articles/cqn734d24l0go &mdash; BBC, 4 November 16:28 GMT: Energy Independence Bill removes the NSTA&rsquo;s licensing power, Transitional Energy Certificates, about 60 million barrels and hundreds of jobs, standing charges and grid reforms, &pound;2bn energy wealth fund, Burnham quote, Conservatives &ldquo;dangerous&rdquo; and &ldquo;totally oblivious&rdquo;, Leadbitter, Rosebank 300&ndash;500 million barrels 80 miles off Shetland, Jackdaw two weeks ago
+ - https://www.independent.co.uk/news/uk/politics/andy-burnham-north-sea-oil-gas-drilling-b3079447.html &mdash; The Independent: bill introduced by Fahnbulleh, permanence of the Miliband moratorium and the need for a Commons majority to repeal, Jackdaw and Rosebank unaffected. **Its Bowie quotation is second-hand via another paper and is not used**
+ - https://www.bbc.co.uk/news/articles/cqdr872jkk7vo &mdash; BBC: the communiqu&eacute; wording verbatim, 18 pages, timeframe to be agreed later, Miliband &ldquo;around a year&rdquo; and &ldquo;Broadly speaking, yes&rdquo; on an apology by the Manchester G20, Burnham &ldquo;most successful meeting&rdquo;, the King&rsquo;s &ldquo;shameful chapter&rdquo;
+ - https://www.theguardian.com/world/2026/nov/04/debt-relief-aid-no-replacement-slavery-reparations-uk-told-caribbean &mdash; The Guardian, 4 November: Browne on consensus, &ldquo;within the next 12 months&rdquo; and the framework by early next year, &ldquo;courage and goodwill&rdquo;, reparations &ldquo;must be part of this structured dialogue&rdquo;, &pound;40m over three years, the Caricom ten-point plan&rsquo;s &ldquo;debt cancellation&rdquo; and &ldquo;monetary compensation&rdquo;, Gonsalves. **The Guardian says the dialogue is &ldquo;in the next year&rdquo;; the BBC says no timeframe is fixed and attributes the year to Miliband. The edition gives both attributions**
+ - https://www.bbc.co.uk/news/articles/cmr4yvel29keo &mdash; BBC: &ldquo;crisis in confidence&rdquo;, five justices, 27 arrests outside the court on Wednesday, Home Office figures of more than 4,000 arrests and 1,200 charges seen by the BBC, three of 385 incidents, Blaxland and Husain quotations, the sledgehammer conviction, judgment at a later date. **The proscription is dated only as &ldquo;last year&rdquo; in both sources, so no month is given**
+ - https://www.theguardian.com/uk-news/2026/nov/04/palestine-action-tactics-suffragettes-uk-supreme-court &mdash; The Guardian, 4 November: the suffragettes argument, al-Qaida and Boko Haram comparison, Eadie&rsquo;s written case including the Filton &ldquo;terrorist connection&rdquo; finding, four convictions and American sanctions, &ldquo;does not prevent public expressions of support&rdquo;
+ - https://www.bbc.co.uk/news/articles/crq8nj7xqdv9o &mdash; BBC, 4 November: first UK national infected in this outbreak, government spokesperson quotation, four previous UK cases and no deaths, 5,000 deaths and 10,000 cases, 48.6% fatality rate at the end of last month, Bundibugyo, the Oxford/Serum Institute and Moderna candidates, Kenya, Nigeria and Uganda. **The BBC attributes &ldquo;healthcare worker&rdquo; to a Reuters report of a document it has not seen; the Guardian reports the same document. Both are used with that attribution**
+ - https://www.theguardian.com/world/2026/nov/04/british-healthcare-worker-ebola-evacuated-drc-to-uk-document-shows &mdash; The Guardian, 4 November 16:32 GMT: stable condition, specialist ambulance and high-consequence unit per the document seen by Reuters, Royal Free, Newcastle and Liverpool, Wednesday or Thursday arrival, sent by a humanitarian organisation, declared 15 May, the 17th outbreak
+ - https://www.bbc.co.uk/news/articles/ck5ynw45jrgqo &mdash; BBC: rise from 3.75% to 4% expected at 12:00 GMT, last rise August 2023, six holds since the 5.25% peak, CPI 3.5% in September, Cheverall quotation, UK Finance &pound;31 for 510,000 tracker holders and 470,000 on variable deals, January energy bills. **This is an expectation and the edition says so throughout**
+ - https://abcnews.com/International/wireStory/bank-england-set-hike-interest-rates-tackle-higher-137867519 &mdash; ABC News carrying AP: the second source for the expected rise to 4%, &ldquo;first since August 2023&rdquo;, 11-month high of 3.5%, Henderson of Investec, more rises possible in 2027
+ - https://www.bbc.co.uk/news/articles/c6lykq2qjn2vo &mdash; BBC: trade-weighted index at 86.4, joint highest since June 2016 on Bank of England figures to be confirmed Thursday, basket of 18 currencies, $1.3495 and &euro;1.1979 at 04:15 GMT, O&rsquo;Neill quotation, imports and holidays
+ - https://www.theguardian.com/business/2026/nov/05/bank-of-england-interest-rate-decision-pound-inflation-oil-iran-stock-markets-latest-news-updates &mdash; The Guardian business live: index strongest since 23 June 2016, what traders watch at noon, FTSE close to its record and ten-year gilt yields down 4 basis points, thirty-year yields lowest since 7 July. **It dates the FTSE record to the end of July; Trading Economics says February. No date is published**
+ - MARKETS
+ - https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=.FTSE|.SPX|@LCO.1|GBP=|XAU=|BTC.CM=|US10Y|UK10Y-GB|.VIX|EURGBP=|FR10Y-FR|.IXIC &mdash; CNBC quote feed at 11:38 GMT: all ten tickers; S&amp;P 500 and Nasdaq are Wednesday closes
+ - https://tradingeconomics.com/united-kingdom/stock-market &mdash; Trading Economics: FTSE 100 about 10,920, agreeing with CNBC within four points
+ - https://tradingeconomics.com/united-kingdom/government-bond-yield &mdash; Trading Economics: ten-year gilt 5.11%, agreeing with CNBC
+ - https://tradingeconomics.com/commodity/gold &mdash; Trading Economics: gold $4,136.40, agreeing with CNBC within a dollar
+ - https://tradingeconomics.com/commodity/brent-crude-oil &mdash; Trading Economics: Brent $96.16 against CNBC&rsquo;s $96.27. **For the first time in a week this page agrees with the Brent contract rather than WTI**
+ - https://tradingeconomics.com/united-kingdom/currency &mdash; Trading Economics: GBP/USD 1.3454, agreeing with CNBC. **No second source today for the S&amp;P 500, VIX, Bitcoin or the US ten-year; the drivers say so**
+ END SOURCES USED -->
+</div><!-- ── END MORNING 05 NOV (11:44) ── -->
 <!-- ── MORNING 04 NOV (07:55) ── -->
 <div class="curated-edition morning" data-date="2026-11-04" data-time="07:55" data-markets='{"FTSE":{"price":10638.43,"change":-1.14},"SP":{"price":7568.92,"change":0.36},"Brent":{"price":104.42,"change":0.8},"GBP":{"price":1.3471,"change":0.46},"Gold":{"price":4036.9,"change":2.45},"EURGBP":{"price":0.8344,"change":-0.02},"Gilt":{"price":5.2688,"change":0.021},"VIX":{"price":20.83,"change":-1.51},"BTC":{"price":77940.79,"change":1.65},"UST":{"price":4.952,"change":0.058},"ts":"2026-11-04T07:55:00+00:00"}'>
   <div class="edition-header"><span class="edition-icon">&#9788;</span><h2>Morning Briefing</h2></div>
@@ -4183,157 +4303,6 @@ END SOURCES USED -->
  - NOT CARRIED: war-day-count block (vetoed). Bolsonaro landing in Miami (BBC, Al Jazeera), Iraqi PM's Syria visit (Al Jazeera) and Farage's Commons seating row (Guardian) were consulted but not carried.
 END SOURCES USED -->
 </div><!-- ── END MORNING 29 OCT (07:55) ── -->
-<!-- ── MORNING 28 OCT (08:42) ── -->
-<div class="curated-edition morning" data-date="2026-10-28" data-time="08:42" data-markets='{"FTSE":{"price":10686.54,"change":-0.75},"SP":{"price":7724.92,"change":0.63},"Brent":{"price":115.59,"change":1.32},"GBP":{"price":1.3316,"change":-0.17},"Gold":{"price":4045.29,"change":-0.3},"EURGBP":{"price":0.8362,"change":-0.12},"Gilt":{"price":5.3491,"change":0.0065},"VIX":{"price":17.7,"change":-3.75},"BTC":{"price":80588.71,"change":0.87},"UST":{"price":4.988,"change":0.002},"ts":"2026-10-28T08:42:00+00:00"}'>
- <div class="edition-header">
- <span class="edition-icon">&#9788;</span>
- <h2>Morning Briefing</h2>
- </div>
- <div class="curated-meta">Wednesday 28 October 2026 &mdash; 08:42 GMT</div>
- <div class="impact-box">
- <h3 class="impact-heading">What It Means For You</h3>
- <ul class="impact-list">
- <li><strong>If you heat your home with gas:</strong> the typical annual bill is forecast to rise by &pound;276 in January. The Chancellor has said standing charges, which average &pound;108 a year, will go for about 23 million homes, but unit prices will rise to cover them. The Treasury estimates three-fifths of households save about &pound;45 a year on average; heavier users will pay more.</li>
- <li><strong>If your only income is the state pension:</strong> the full state pension is set to rise to &pound;13,036.40, above the &pound;12,570 tax-free allowance, which would draw about a million people into income tax. Today&rsquo;s Budget is expected to set out a new personal allowance that keeps them out of it.</li>
- <li><strong>If you are saving for a first home in England:</strong> more detail is due today on the Your First Home scheme &mdash; a 2.5% deposit on a new-build and a loan of 20% of the price, for joint incomes up to &pound;110,000, or &pound;140,000 in London. All of this is expected rather than announced until Healey sits down this afternoon.</li>
- </ul>
- </div>
- <div class="curated-grid">
- <div class="curated-column">
- <h3><span class="dot geo"></span><span class="dot-label">GEO</span> Geopolitical</h3>
- <div class="curated-item" data-time="06:53" data-slug="likud-leads-count-neither-bloc-reaches-61">
- <h4>Likud Leads the Count, but Neither Bloc Reaches 61 Seats</h4>
- <p>With about 55% of votes counted this morning, Benjamin Netanyahu&rsquo;s bloc stood at 56 seats against 49 for Gadi Eisenkot&rsquo;s alliance &mdash; both short of the 61 needed in the 120-seat Knesset. Exit polls make Likud the largest party, on 27 seats to Yashar&rsquo;s 21, while Arab-led parties are projected to win a record combined 19 on turnout above 77%.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The count is early and skewed towards right-wing areas, and many absentee ballots, mostly soldiers&rsquo;, are yet to be counted; a clear result may take a day or two, and tallies differ between outlets as it moves. Both men claimed the night. &ldquo;We must form a strong, national, right-wing government,&rdquo; Netanyahu said, having warned followers all day about high Arab turnout. &ldquo;The coalition of failure has lost the people&rsquo;s trust,&rdquo; Eisenkot replied. That leaves the Arab parties, which most Jewish opposition parties pledged not to work with, as possible kingmakers. Ra&rsquo;am&rsquo;s Mansour Abbas put it bluntly: &ldquo;With the numbers we have now, there is no government.&rdquo; Coalition-building could take weeks or months.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="03:00" data-slug="houthi-strike-saudi-refinery-lifts-brent">
- <h4>Houthi Strike Claim on Saudi Refinery Lifts Brent Above $115</h4>
- <p>Brent crude rose 1.32% to $115.59 a barrel this morning after the Iran-backed Houthis said they had hit Ras Tanura, Saudi Arabia&rsquo;s largest refinery, with a ballistic missile. That undid most of Tuesday&rsquo;s fall: Brent had dropped 1.7% to close at $113.88 on hopes of diplomacy. Donald Trump told a Texas rally that the war with Iran would end on his terms.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The claim is so far only the Houthis&rsquo; own, and no damage assessment has appeared in approved reporting. It cuts across Tuesday&rsquo;s more hopeful signal. After meeting his security chief Mohsen Rezaei, Supreme Leader Mojtaba Khamenei said the state of &ldquo;neither war nor peace&rdquo; must end. He also stressed keeping control of the Strait of Hormuz. In Yemen, nearly 100 fighters have been killed in clashes near the Bab el-Mandeb, and a Central Command estimate puts the war&rsquo;s cost to the US at $47bn. UBS expects Brent to stay near $110 until the year-end, as global inventories have fallen by about 500 million barrels since February. &ldquo;Vessels remain exposed to attacks,&rdquo; its analyst Giovanni Staunovo noted.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="02:47" data-slug="flavio-bolsonaro-reaches-united-states">
- <h4>Flávio Bolsonaro Reaches the United States After Passports Cancelled</h4>
- <p>The defeated Brazilian presidential candidate has arrived in the US, sources told the BBC. He left hours after his passports were cancelled for missing a Supreme Court deadline to surrender them in a money-laundering inquiry; he denies wrongdoing and has not been charged. Argentina says he, his wife and two daughters crossed its border and boarded a private flight to Guayaquil, Ecuador, at 11.30pm on Tuesday.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">This settles yesterday&rsquo;s confusion only in part. Argentina&rsquo;s migration directorate now says the family travelled &ldquo;with valid travel documentation and without any legal impediment&rdquo;, though Argentine officials had earlier told the BBC there was no record of him entering. His route from Ecuador to Florida, where he reportedly met his brother Eduardo, is unclear. A senior US official confirmed that the State Department would issue the family visas; allies quoted by a Brazilian site say he will seek asylum, which is unconfirmed. His own lawyers say they were &ldquo;completely in the dark&rdquo;. President Lula, celebrating his 81st birthday, was scathing: &ldquo;He who owes nothing, fears nothing &hellip; The act of leaving Brazil is shameful.&rdquo;</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="22:11" data-slug="oleshky-truce-widened-across-kherson">
- <h4>Oleshky Truce Widened Across Kherson Ahead of Friday Evacuations</h4>
- <p>A ceasefire agreed to get food and medicine into Russian-occupied Oleshky has been extended across the wider Kherson region, Ukrainian officials say, with no breaches reported. Melania Trump, who brokered it with Pope Leo XIV, said the area had been widened to give humanitarian convoys &ldquo;safe passage&rdquo;. Aid deliveries are to be followed by evacuations, planned for Friday, for anyone who wishes to leave.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">An estimated 1,700 to 2,000 people remain in a town of 24,000 before the war, some cooking garden weeds to survive. Both sides are, unusually, saying warm things. The Kremlin&rsquo;s Dmitry Peskov said all was proceeding &ldquo;according to plan&rdquo;. Foreign Minister Andrii Sybiha said success could &ldquo;pave the way for other steps in the peace process&rdquo;. David Arakhamia, of Zelensky&rsquo;s party, said the truce runs to 22:59 Ukrainian time on Sunday 1 November, calling it the &ldquo;largest de-escalation since 2022&rdquo;. The wider picture is harsher. A UN commission of inquiry this week found Russia&rsquo;s strikes on energy infrastructure &ldquo;were carried out with intent&rdquo;; Moscow dismissed its data as &ldquo;falsified&rdquo;. Winter will test the truce more than this week does.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="23:07" data-slug="trump-floats-venezuela-51st-state">
- <h4>Trump Floats Venezuela as a &lsquo;51st State&rsquo; at Texas Rally</h4>
- <p>Donald Trump suggested on Tuesday that Venezuela might one day become the 51st US state, showing off a tanker he said held &ldquo;one million barrels of oil&rdquo; under a deal with the country&rsquo;s US-backed interim government. &ldquo;We&rsquo;re celebrating the greatest oil victory in history,&rdquo; he told a rally in Corpus Christi, with the midterm elections a week away.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The US attacked Venezuela in January and seized Nicolás Maduro, who now faces criminal charges in New York; no elections have been held since. Critics say Washington has pushed oil before any return to democracy. The domestic purpose is plain. Petrol prices surged when the Iran war began, the President&rsquo;s approval ratings are at record lows, and he claims fuel prices &ldquo;will soon come plummeting down&rdquo;. Venezuela joins Greenland, Canada and Mexico on the list of places he has talked of acquiring. The Federal Reserve announces its decision at 18:00 GMT today. A hold is expected, but futures price a roughly 84% chance of a December rate rise, because oil keeps inflation high.</div>
- </details>
- </div>
- </div>
-
- <div class="curated-column">
- <h3><span class="dot dom"></span><span class="dot-label">UK</span> UK Domestic Politics</h3>
- <div class="curated-item" data-time="07:39" data-slug="healey-first-budget-breathing-space-bills">
- <h4>Healey Delivers First Budget Promising &lsquo;Breathing Space&rsquo; on Bills</h4>
- <p>John Healey presents his first Budget at about 12:30 today, the first of Andy Burnham&rsquo;s premiership, conceding that Britain faces &ldquo;a difficult moment&rdquo;. Gas standing charges are to go for about 23 million homes and fuel duty is expected to stay frozen. A levy on banks is expected to be the main revenue-raiser, possibly by reversing the cut in the bank surcharge from 8% to 3%.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">&ldquo;This budget is about getting through this difficult moment. But it&rsquo;s also about putting Britain on a future path,&rdquo; Healey said in a pre-Budget video. Expect modest measures, with the big decisions on tax and spending put off until next year. More than &pound;1bn is expected for poorer households, mostly through the Warm Home Discount, which could rise by &pound;100 on top of its &pound;150. Online marketplaces may have to collect VAT for large UK sellers, raising up to &pound;1bn. That could pay to lift the small-business rates threshold from &pound;12,000 to &pound;18,000. HSBC&rsquo;s 32% rise in profit, to about &pound;7.2bn, has weakened the banks&rsquo; resistance. All of this remains reported, not announced.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="06:00" data-slug="debt-interest-war-shrinks-headroom">
- <h4>Debt Interest Nears &pound;100bn as War Shrinks the Chancellor&rsquo;s Headroom</h4>
- <p>About &pound;100bn of the roughly &pound;1.42tn Healey will allocate this year goes on debt interest, with government borrowing costs at multidecade highs since the war on Iran began in February. The Resolution Foundation estimates the &pound;24bn buffer built at the last tax-raising Budget has halved to about &pound;12bn. Manifesto pledges rule out raising income tax, National Insurance or VAT.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The Institute for Fiscal Studies calls the backdrop &ldquo;unquestionably bad news for the economy&rdquo;. It estimates that higher debt-servicing costs from the conflict will add &pound;10bn&ndash;&pound;15bn to borrowing in 2029-30, and that spending plans which already looked tight will get tighter with inflation. &ldquo;We have a relatively new government with seemingly big ambitions but facing a long list of constraints,&rdquo; said its director, Helen Miller. Healey is spending about &pound;1bn a month more than forecast. A &pound;4.7bn gap in the defence investment plan is to be plugged largely by cuts elsewhere. The roadmap to 3% of GDP by 2030 waits for next year&rsquo;s spending review. As Healey himself said last month, &ldquo;Britain has it harder now.&rdquo;</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="19:17" data-slug="rosebank-approvable-within-climate-targets">
- <h4>Rosebank Can Be Approved Within Climate Targets, Insiders Say</h4>
- <p>The Rosebank oilfield could be approved without breaching UK emissions targets, government insiders have told the Guardian, because emissions from exported oil do not count against domestic limits. Energy Secretary Miatta Fahnbulleh had been leaning towards rejection, at odds with cabinet colleagues including the Chancellor. The Treasury has already accounted for billions of pounds in tax revenue from the field.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">&ldquo;Miatta has more latitude than you might think,&rdquo; one insider said. That makes the decision a matter of political will rather than law. The climate researcher Greg Muttitt, who opposes the field, agrees on the legal point: &ldquo;the UK government is not going to find itself in any international court if it approves Rosebank.&rdquo; Campaigners argue that the case against was always about leadership, not direct emissions. The field would produce around seven times the emissions of the Jackdaw gasfield approved last week. Greenpeace and Friends of the Earth have written to the Prime Minister urging him to weigh North Sea drilling, Heathrow and heat-pump grants together. Rejection would leave a hole in the Treasury&rsquo;s sums on Budget day.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="20:54" data-slug="mps-warn-digital-landline-switch">
- <h4>MPs Warn Digital Landline Switch Could Leave Remote Areas Cut Off</h4>
- <p>MPs for remote constituencies have urged the security minister, Dan Jarvis, to make sure the switch from copper landlines to an internet-based network does not leave people unable to call for help in a storm. The switch is due to finish by the end of January. Unlike digital lines, the old network works in a power cut; back-up batteries given to vulnerable customers last an hour or more.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The government and operators say digital landlines will be more reliable, but the objection is about resilience rather than everyday service. &ldquo;When the power goes out people don&rsquo;t have the phone, they don&rsquo;t have the internet and often they don&rsquo;t have a mobile signal either,&rdquo; said Torcuil Crichton, the Labour MP for the Western Isles. He called the batteries &ldquo;simply not adequate&rdquo;. Markus Campbell-Savours, for Penrith and Solway, described an elderly constituent in a Lake District valley whose router, battery and mobile mast all fail overnight. The Conservative Julian Lewis raised similar concerns, as did MPs from the West Country. The pressure is cross-party, and the January deadline is close.</div>
- </details>
- </div>
-
- <div class="curated-item" data-time="04:32" data-slug="king-acknowledges-suffering-caribbean-tour">
- <h4>King Acknowledges &lsquo;Suffering of the Past&rsquo; as Caribbean Tour Begins</h4>
- <p>The King opened his first Caribbean tour as monarch in the Bahamas by acknowledging the &ldquo;great suffering of the past&rdquo; amid calls for slavery reparations, saying it was &ldquo;only right&rdquo; to recognise historic injustices. In line with government policy, he will not apologise or offer reparations. The nine-day tour ends at the Commonwealth Heads of Government Meeting, where leaders will discuss slavery&rsquo;s legacy.</p>
- <details class="dive-deeper">
- <summary>Dive deeper</summary>
- <div class="deeper-content">The King&rsquo;s words go as far as ministers permit and no further, so pressure on the government&rsquo;s position will build ahead of the summit. He met Governor General Dame Cynthia A. Pratt and Prime Minister Philip Edward Davis. He then spoke at a youth rally in Clifford Park, where he had attended the Bahamas&rsquo; independence celebrations as Prince of Wales in 1973. About a dozen protesters outside chanted &ldquo;pay us what you owe us&rdquo;. One of them, Sharon Purcer-Cooper, warned: &ldquo;if they do not do it then we will become a republic.&rdquo; Buckingham Palace had said beforehand that the King would not shy away from the &ldquo;colonial legacy&rdquo;.</div>
- </details>
- </div>
- </div>
- </div>
- <div class="one-to-read">
- <span class="otr-label">One To Read</span>
- <a href="https://www.theguardian.com/uk-news/2026/oct/28/what-to-expect-from-john-healeys-first-budget-who-wins-who-pays" target="_blank" rel="noopener noreferrer">
- <h4>Who Wins, Who Pays</h4>
- <span class="otr-source">The Guardian</span>
- <span class="otr-dot">&middot;</span>
- <span class="otr-desc">A clear, line-by-line guide to what was briefed before today&rsquo;s statement &mdash; energy help, the bank levy, online sellers, the mansion tax &mdash; set against a halved buffer and &pound;100bn of debt interest.</span>
- </a>
- </div>
-<!-- SOURCES USED
- - BBC News (bbc.co.uk/news/articles/cjy561y4pl56o) — Israel: Likud largest, bloc short of 61, early count skewed, absentee ballots, 77% turnout, Netanyahu and Eisenkot quotes, Katz weeks or months. [Israel item]
- - Al Jazeera (aljazeera.com/news/2026/10/28/five-key-takeaways-...; arab-parties-could-win-18-seats-...) — 55% counted: 56 v 49; Likud 27, Yashar 21; Arab parties 19; Abbas quote. [Israel item]
- - NPR (npr.org/2026/10/27/nx-s1-6019381/israel-elections) — decades-high turnout; Netanyahu posts alarm at Arab turnout. [Israel item]
- - Times of Israel (liveblog 28 Oct, search snippet, cached) — alternative count: Likud bloc 54, Eisenkot bloc 48, Arab parties 18; cited as "tallies differ". [Israel item]
- - CNBC (cnbc.com/2026/10/28/oil-price-today-wti-brent-hormuz.html) — Brent $115.59 +1.32%, Ras Tanura claim, Trump "on his terms". [oil item, markets]
- - CNBC (cnbc.com/2026/10/27/oil-today-iran-us-crude-wti-brent-trump.html) — Brent close $113.88 -1.7%; Khamenei/Rezaei "neither war nor peace", Hormuz; UBS Staunovo $110, 500m barrels, quote. [oil item]
- - CNBC (cnbc.com/2026/10/28/gold-slips-on-oil-fueled-inflation-fears-...) — gold $4,045.29 -0.3% at 03:47 GMT; Fed 18:00 GMT; 84% December hike. [Trump item, markets]
- - CBS News (cbsnews.com/live-updates/iran-war-trump-us-diplomacy-oil-prices-strait-of-hormuz/) — CENTCOM $47bn estimate; nearly 100 killed near Bab el-Mandeb. [oil item]
- - BBC News (bbc.co.uk/news/articles/ckly0xpxp243o) — Bolsonaro arrives in US, passports, visas, lawyers "in the dark", Eduardo, earlier Argentine no-record line. [Bolsonaro item]
- - Guardian (theguardian.com/world/2026/oct/27/flavio-bolsonaro-brazil-argentina-fled) — Argentina migration statement, Guayaquil flight 11.30pm, Lula quotes, asylum report. [Bolsonaro item]
- - BBC News (bbc.co.uk/news/articles/c6lye1w9p2l8o) — Kherson extension, Melania Trump, Pope Leo XIV, Friday evacuations, 1,700-2,000, Peskov, Sybiha, Arakhamia. [Oleshky item]
- - CNN (cnn.com/2026/10/26/europe/un-report-russia-ukraine-intl) — UN commission "carried out with intent"; Russia "falsified". [Oleshky item]
- - NBC News (nbcnews.com/world/ukraine/ceasefire-brokered-melania-trump-comes-effect-...) — cross-check: truce took effect Tuesday, White House terms for aid and evacuation, Pope Leo XIV plea to Putin. [Oleshky item]
- - NBC News (nbcnews.com/world/brazil/flavio-bolsonaro-flees-us-losing-brazil-election-sources-say-rcna605992) — cross-check: State Department to issue visas to Bolsonaro and family. [Bolsonaro item]
- - Washington Post (search snippet, cached: headlines "Bolsonaro is granted a visa to enter the U.S. after fleeing Brazil..."; "...will get US visas after election loss, State Department says") — cross-check of visa fact. [Bolsonaro item]
- - Guardian (theguardian.com/us-news/2026/oct/27/trump-oil-tanker-venezuela) — 51st state, tanker, quotes, Maduro, approval ratings. [Trump item]
- - BBC News (bbc.co.uk/news/articles/c6x2zrjl7kjno) — Budget 12:30, standing charges 23m homes, £108, £45, £276, fuel duty, Your First Home, pensioner allowance £13,036.40, bank surcharge 8% to 3%. [Budget item, impact box]
- - Guardian (theguardian.com/uk-news/2026/oct/28/what-to-expect-from-john-healeys-first-budget-who-wins-who-pays) — £1.42tn, £100bn debt interest, £24bn to £12bn (Resolution Foundation), £1bn a month, Warm Home Discount, bank levy, HSBC, online VAT, rates threshold, £4.7bn defence gap. [Budget, fiscal items, One To Read]
- - Guardian (theguardian.com/uk-news/2026/oct/27/john-healey-budget-help-with-cost-of-living-...) — "difficult moment", "future path" quotes, modest Budget, decisions deferred. [Budget item]
- - BBC News (bbc.co.uk/news/articles/c6y43wkln1k2o) — Helen Miller (IFS) quote; Healey "Britain has it harder now". [fiscal item]
- - IFS (ifs.org.uk/publications/green-budget-2026-full-report, search snippet, cached) — "unquestionably bad news", £10-15bn 2029-30 hit, tight spending plans. [fiscal item]
- - Resolution Foundation (resolutionfoundation.org/press-releases/healey-faces-budget-balancing-act-...) — background on borrowing overshoot; headroom estimate via Guardian. [fiscal item]
- - Guardian (theguardian.com/environment/2026/oct/27/rosebank-oilfield-north-sea-uk-emissions-targets-insiders) — insiders, Fahnbulleh, Treasury revenue, Muttitt quote, Jackdaw, Greenpeace/FoE letter. [Rosebank item]
- - BBC News (bbc.co.uk/news/articles/c6x29g1nlr51o) — landline switchover, Jarvis, Crichton, Campbell-Savours, Lewis. [landline item]
- - BBC News (bbc.co.uk/news/articles/cmwyv8ld22z1o) — King in Bahamas, quotes, no apology, CHOGM, protesters. [King item]
- - NOTE ON MARKETS: Brent is CNBC's Wednesday-morning reading; gold is CNBC's 03:47 GMT spot. S&P 500 is Tuesday's level from the previous edition, with Al Jazeera confirming a 0.6% gain on the day. FTSE, GBP, EURGBP, Gilt, VIX, BTC and UST carry Tuesday's London-close readings from the previous edition; no approved outlet had published fresh levels by publication.
- - NOT CARRIED: war-day-count block (vetoed). Jordan-Syria border reopening (Al Jazeera), Reform councillor row (Guardian), misogyny fund (BBC) and Nabilone shortage (BBC) were consulted but not carried.
-END SOURCES USED -->
-</div><!-- ── END MORNING 28 OCT (08:42) ── -->
 </div><!-- /all-editions -->
 
  </div>
