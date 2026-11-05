@@ -2,6 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-05-evening/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-05T18:20:00+01:00</news:publication_date>
+      <news:title>Evening Briefing — Thursday 5 November 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-05-evening/mississippi-uncalled-republicans-turn-on-each-other-midterms/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-05T18:20:00+01:00</news:publication_date>
+      <news:title>Midterms: Mississippi still uncalled as Republicans turn on each other</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-05-evening/nasdaq-enters-correction-as-democratic-sweep-sparks-ai-fears/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-05T18:20:00+01:00</news:publication_date>
+      <news:title>Nasdaq enters correction as Democratic sweep sparks AI fears</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-05-evening/paraguay-president-resigns-after-bank-collapse/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-05T18:20:00+01:00</news:publication_date>
+      <news:title>Paraguay’s president resigns after collapse of bank holding public funds</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-05-evening/france-600000-march-as-cgt-claims-1-6-million/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-05T18:20:00+01:00</news:publication_date>
+      <news:title>France: ministry counts 600,000 marchers as CGT claims 1.6 million</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-05-evening/joint-list-backs-eisenkot-majority-of-recommendations/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-05T18:20:00+01:00</news:publication_date>
+      <news:title>Joint List backs Eisenkot, handing him a majority of recommendations</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-05-evening/bank-raises-rates-to-4-percent-inflation-seen-near-5/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-05T18:20:00+01:00</news:publication_date>
+      <news:title>Bank raises rates to 4% and warns inflation will near 5%</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-05-evening/russell-brand-guilty-of-rape-and-sexual-assault/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-05T18:20:00+01:00</news:publication_date>
+      <news:title>Russell Brand guilty of rape and three sexual assaults; sentencing Monday</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-05-evening/burnham-seeks-to-recast-chagos-deal-10-year-plan-january/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-05T18:20:00+01:00</news:publication_date>
+      <news:title>Burnham seeks to ‘recast’ Chagos deal and may delay ten-year plan</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-05-evening/farage-fears-trump-will-escalate-iran-war-after-midterm-disaster/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-05T18:20:00+01:00</news:publication_date>
+      <news:title>Farage fears Trump will escalate Iran war after midterm ‘shellacking’</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-05-evening/bt-cuts-7731-jobs-as-profits-rise-12-percent/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-05T18:20:00+01:00</news:publication_date>
+      <news:title>BT sheds 7,731 jobs since March as profits rise 12%</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-11-05-morning/</loc>
     <news:news>
       <news:publication>
