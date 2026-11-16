@@ -1,0 +1,61 @@
+URL: https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=.FTSE|.SPX|@LCO.1|GBP=|@GC.1|EURGBP=|.VIX|BTC.CB=|US10Y|UK10Y&requestMethod=itv&noform=1&partnerId=2&fund=1&exthrs=1&output=json
+SOURCE: CNBC quote webservice (quote.cnbc.com) — retrieved Mon 16 Nov 2026 ~08:05 GMT; figure timestamp (last_time): 2026-11-16T08:01:40.000+0000
+
+symbol=UK10Y name=British 10 Year Gilt last=5.3411% change=+0.0006 change_pct=+0.0112% previous_day_closing=5.3405% last_time=2026-11-16T08:01:40.000+0000 curmktstatus=REG_MKT
+
+RAW CNBC JSON for this symbol:
+{
+ "symbol": "UK10Y",
+ "symbolType": "symbol",
+ "code": 0,
+ "name": "British 10 Year Gilt",
+ "shortName": "UK 10-YR",
+ "onAirName": "UK Gilt 10-yr",
+ "altName": "",
+ "last": "5.3411%",
+ "last_timedate": "8:01 AM GMT",
+ "last_time": "2026-11-16T08:01:40.000+0000",
+ "changetype": "UP",
+ "type": "BOND",
+ "subType": "Government Bond",
+ "exchange": "United Kingdom",
+ "source": "Exchange",
+ "open": "5.3357%",
+ "high": "5.3411%",
+ "low": "5.3335%",
+ "change": "+0.0006",
+ "change_pct": "+0.0112%",
+ "volume": "0",
+ "volume_alt": "0.0",
+ "provider": "CNBC Quote Cache",
+ "previous_day_closing": "5.3405%",
+ "altSymbol": "21213187",
+ "realTime": "true",
+ "curmktstatus": "REG_MKT",
+ "yrhiprice": "5.53",
+ "yrhidate": "10/08/26",
+ "yrloprice": "4.23",
+ "yrlodate": "02/27/26",
+ "streamable": "1",
+ "bond_last_price": "96.498",
+ "bond_change_price": "-0.004",
+ "bond_change_pct_price": "-0.0041%",
+ "bond_open_price": "96.538",
+ "bond_high_price": "96.554",
+ "bond_low_price": "96.498",
+ "bond_prev_day_closing_price": "96.502",
+ "bond_changetype": "DOWN",
+ "maturity_date": "2036-07-31",
+ "coupon": "4.875%",
+ "issue_id": "5767337",
+ "countryCode": "GB",
+ "timeZone": "GMT",
+ "feedSymbol": "GB10YT=RR",
+ "portfolioindicator": "N"
+}
+
+CORROBORATION — TradingEconomics table on https://tradingeconomics.com/united-kingdom/government-bond-yield (retrieved ~08:03 GMT 16 Nov 2026):
+GUKG10:IND: ['United Kingdom', '5.3378', '0.000', '0.00%']
+
+TradingEconomics page title: UK 10 Year Bond Yield - Quote - Chart - Historical Data - News
+TradingEconomics UK 10Y row (columns: name, yield, day chg, day %, month, year, date): ['United Kingdom', '5.3378', '0.000', '0.00%']

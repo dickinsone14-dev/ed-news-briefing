@@ -1,0 +1,48 @@
+URL: https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=.FTSE|.SPX|@LCO.1|GBP=|@GC.1|EURGBP=|.VIX|BTC.CB=|US10Y|UK10Y&requestMethod=itv&noform=1&partnerId=2&fund=1&exthrs=1&output=json
+SOURCE: CNBC quote webservice (quote.cnbc.com) — retrieved Mon 16 Nov 2026 ~08:05 GMT; figure timestamp (last_time): 2026-11-16T03:01:00.000-0500
+
+symbol=GBP= name=GBP/USD last=1.3204 change=-0.0011 change_pct=-0.0832% previous_day_closing=1.3215 last_time=2026-11-16T03:01:00.000-0500 curmktstatus=REG_MKT
+
+RAW CNBC JSON for this symbol:
+{
+ "symbol": "GBP=",
+ "symbolType": "symbol",
+ "code": 0,
+ "name": "GBP/USD",
+ "shortName": "GBP/USD",
+ "onAirName": "Pound/US $",
+ "altName": "Pound/US $",
+ "last": "1.3204",
+ "last_timedate": "3:01 AM EST",
+ "last_time": "2026-11-16T03:01:00.000-0500",
+ "changetype": "DOWN",
+ "type": "CURRENCY",
+ "subType": "FOREX",
+ "exchange": "Exchange",
+ "source": "Exchange",
+ "open": "1.3218",
+ "high": "1.3222",
+ "low": "1.3197",
+ "change": "-0.0011",
+ "change_pct": "-0.0832%",
+ "volume": "67,355",
+ "volume_alt": "67.4K",
+ "provider": "CNBC Quote Cache",
+ "previous_day_closing": "1.3215",
+ "altSymbol": "618341",
+ "realTime": "true",
+ "curmktstatus": "REG_MKT",
+ "yrhiprice": "1.39",
+ "yrhidate": "01/27/26",
+ "yrloprice": "1.31",
+ "yrlodate": "10/14/26",
+ "streamable": "1",
+ "issue_id": "618341",
+ "countryCode": "EU",
+ "timeZone": "EST",
+ "feedSymbol": "GBP=",
+ "portfolioindicator": "N"
+}
+
+CORROBORATION — TradingEconomics table on https://tradingeconomics.com/united-kingdom/government-bond-yield (retrieved ~08:03 GMT 16 Nov 2026):
+GBPUSD:CUR: ['GBPUSD', '1.32022', '0.0011', '-0.08%']

@@ -1,0 +1,47 @@
+URL: https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=.FTSE|.SPX|@LCO.1|GBP=|@GC.1|EURGBP=|.VIX|BTC.CB=|US10Y|UK10Y&requestMethod=itv&noform=1&partnerId=2&fund=1&exthrs=1&output=json
+SOURCE: CNBC quote webservice (quote.cnbc.com) — retrieved Mon 16 Nov 2026 ~08:05 GMT; figure timestamp (last_time): 2026-11-13
+
+symbol=.SPX name=S&P 500 Index last=7,561.67 change=-30.73 change_pct=-0.40% previous_day_closing=7,561.67 last_time=2026-11-13 curmktstatus=REG_MKT
+
+RAW CNBC JSON for this symbol:
+{
+ "symbol": ".SPX",
+ "symbolType": "symbol",
+ "code": 0,
+ "name": "S&P 500 Index",
+ "shortName": "S&P 500",
+ "onAirName": "S&P 500",
+ "altName": "S&P 500 INDEX",
+ "last": "7,561.67",
+ "last_timedate": "11/13/26 EST",
+ "last_time": "2026-11-13",
+ "changetype": "DOWN",
+ "type": "INDEX",
+ "subType": "Index",
+ "exchange": "INDEX",
+ "source": "Exchange",
+ "open": "7,616.85",
+ "high": "7,621.78",
+ "low": "7,499.40",
+ "change": "-30.73",
+ "change_pct": "-0.40%",
+ "currencyCode": "USD",
+ "provider": "CNBC Quote Cache",
+ "previous_day_closing": "7,561.67",
+ "altSymbol": ".SPX",
+ "realTime": "true",
+ "curmktstatus": "REG_MKT",
+ "yrhiprice": "7,844.52",
+ "yrhidate": "10/06/26",
+ "yrloprice": "6,316.91",
+ "yrlodate": "03/30/26",
+ "streamable": "1",
+ "issue_id": "593933",
+ "countryCode": "US",
+ "timeZone": "EST",
+ "feedSymbol": ".SPX",
+ "portfolioindicator": "N"
+}
+
+CORROBORATION — TradingEconomics table on https://tradingeconomics.com/united-kingdom/government-bond-yield (retrieved ~08:03 GMT 16 Nov 2026):
+SPX:IND: ['United States', '7541.11', '21', '-0.27%', '']

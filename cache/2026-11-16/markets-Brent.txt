@@ -1,0 +1,53 @@
+URL: https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=.FTSE|.SPX|@LCO.1|GBP=|@GC.1|EURGBP=|.VIX|BTC.CB=|US10Y|UK10Y&requestMethod=itv&noform=1&partnerId=2&fund=1&exthrs=1&output=json
+SOURCE: CNBC quote webservice (quote.cnbc.com) — retrieved Mon 16 Nov 2026 ~08:05 GMT; figure timestamp (last_time): 2026-11-16T08:51:35.000+0100
+
+symbol=@LCO.1 name=ICE Brent Crude (Jan'27) last=95.88 change=+0.04 change_pct=+0.04% previous_day_closing=95.84 last_time=2026-11-16T08:51:35.000+0100 curmktstatus=REG_MKT
+
+RAW CNBC JSON for this symbol:
+{
+ "symbol": "@LCO.1",
+ "symbolType": "symbol",
+ "code": 0,
+ "name": "ICE Brent Crude (Jan'27)",
+ "shortName": "BRENT",
+ "onAirName": "ICE Brent Crude (Jan'27)",
+ "altName": "Brent Crude",
+ "last": "95.88",
+ "last_timedate": "8:51 AM BST",
+ "last_time": "2026-11-16T08:51:35.000+0100",
+ "changetype": "UP",
+ "type": "DERIVATIVE",
+ "subType": "Future",
+ "exchange": "Intercontinental Exchange Europe",
+ "source": "Exchange",
+ "open": "95.84",
+ "high": "96.77",
+ "low": "94.32",
+ "change": "+0.04",
+ "change_pct": "+0.04%",
+ "currencyCode": "USD",
+ "volume": "26,129",
+ "volume_alt": "26.1K",
+ "provider": "CNBC Quote Cache",
+ "previous_day_closing": "95.84",
+ "altSymbol": "LCOF7",
+ "realTime": "false",
+ "curmktstatus": "REG_MKT",
+ "yrhiprice": "126.41",
+ "yrhidate": "04/30/26",
+ "yrloprice": "58.72",
+ "yrlodate": "12/16/25",
+ "streamable": "1",
+ "open_interest": "353631",
+ "expiration_date": "2026-11-30",
+ "settlePrice": "95.84",
+ "settleDate": "2026-11-13",
+ "issue_id": "49031014",
+ "countryCode": "GB",
+ "timeZone": "BST",
+ "feedSymbol": "/LCOF7",
+ "portfolioindicator": "N"
+}
+
+CORROBORATION — TradingEconomics table on https://tradingeconomics.com/united-kingdom/government-bond-yield (retrieved ~08:03 GMT 16 Nov 2026):
+CO1:COM: ['Brent', '95.792', '0.05', '-0.05%']

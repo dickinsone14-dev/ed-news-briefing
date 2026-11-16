@@ -1,0 +1,49 @@
+URL: https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=.FTSE|.SPX|@LCO.1|GBP=|@GC.1|EURGBP=|.VIX|BTC.CB=|US10Y|UK10Y&requestMethod=itv&noform=1&partnerId=2&fund=1&exthrs=1&output=json
+SOURCE: CNBC quote webservice (quote.cnbc.com) — retrieved Mon 16 Nov 2026 ~08:05 GMT; figure timestamp (last_time): 2026-11-16T03:01:38.000-0500
+
+symbol=BTC.CB= name=Bitcoin/USD Coinbase last=64,800.00 change=-290.00 change_pct=-0.45% previous_day_closing=65,090.00 last_time=2026-11-16T03:01:38.000-0500 curmktstatus=REG_MKT
+
+RAW CNBC JSON for this symbol:
+{
+ "symbol": "BTC.CB=",
+ "symbolType": "symbol",
+ "code": 0,
+ "name": "Bitcoin/USD Coinbase",
+ "shortName": "BITCOIN",
+ "onAirName": "Bitcoin/USD Coinbase",
+ "altName": "Bitcoin/USD Coinbase",
+ "last": "64,800.00",
+ "last_timedate": "3:01 AM EST",
+ "last_time": "2026-11-16T03:01:38.000-0500",
+ "changetype": "DOWN",
+ "type": "INDEX",
+ "subType": "CNBC Synthetic",
+ "exchange": "Exchange",
+ "source": "",
+ "open": "65,093.00",
+ "high": "65,442.00",
+ "low": "64,241.11",
+ "change": "-290.00",
+ "change_pct": "-0.45%",
+ "currencyCode": "USD",
+ "volume": "9,628",
+ "volume_alt": "9.6K",
+ "provider": "CNBC Quote Cache",
+ "previous_day_closing": "65,090.00",
+ "altSymbol": "112038635",
+ "realTime": "true",
+ "curmktstatus": "REG_MKT",
+ "yrhiprice": "103,996.25",
+ "yrhidate": "11/13/25",
+ "yrloprice": "57,756.25",
+ "yrlodate": "07/01/26",
+ "streamable": "1",
+ "issue_id": "112038635",
+ "countryCode": "CH",
+ "timeZone": "EST",
+ "feedSymbol": "BTC.CB=",
+ "portfolioindicator": "N"
+}
+
+CORROBORATION — TradingEconomics table on https://tradingeconomics.com/united-kingdom/government-bond-yield (retrieved ~08:03 GMT 16 Nov 2026):
+BTCUSD:CUR: ['Bitcoin', '64969', '277', '-0.42%']

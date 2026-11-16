@@ -1,0 +1,49 @@
+URL: https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=.FTSE|.SPX|@LCO.1|GBP=|@GC.1|EURGBP=|.VIX|BTC.CB=|US10Y|UK10Y&requestMethod=itv&noform=1&partnerId=2&fund=1&exthrs=1&output=json
+SOURCE: CNBC quote webservice (quote.cnbc.com) — retrieved Mon 16 Nov 2026 ~08:05 GMT; figure timestamp (last_time): 2026-11-13
+
+symbol=.FTSE name=FTSE 100 last=10,902.56 change=+39.47 change_pct=+0.36% previous_day_closing=10,863.09 last_time=2026-11-13 curmktstatus=REG_MKT
+
+RAW CNBC JSON for this symbol:
+{
+ "symbol": ".FTSE",
+ "symbolType": "symbol",
+ "code": 0,
+ "name": "FTSE 100",
+ "shortName": "FTSE",
+ "onAirName": "FTSE 100",
+ "altName": "FTSE 100 Price Return Index GBP Real Time",
+ "last": "10,902.56",
+ "last_timedate": "11/13/26 GMT",
+ "last_time": "2026-11-13",
+ "changetype": "UP",
+ "type": "INDEX",
+ "subType": "Index",
+ "exchange": "FTSE International",
+ "source": "Exchange",
+ "open": "10,863.28",
+ "high": "10,910.59",
+ "low": "10,836.63",
+ "change": "+39.47",
+ "change_pct": "+0.36%",
+ "currencyCode": "GBP",
+ "volume": "37,524",
+ "volume_alt": "37.5K",
+ "provider": "CNBC Quote Cache",
+ "previous_day_closing": "10,863.09",
+ "altSymbol": ".FTSE",
+ "realTime": "false",
+ "curmktstatus": "REG_MKT",
+ "yrhiprice": "10,989.45",
+ "yrhidate": "07/31/26",
+ "yrloprice": "9,423.90",
+ "yrlodate": "11/21/25",
+ "streamable": "1",
+ "issue_id": "572009",
+ "countryCode": "GB",
+ "timeZone": "GMT",
+ "feedSymbol": "/.FTSE",
+ "portfolioindicator": "N"
+}
+
+CORROBORATION — TradingEconomics table on https://tradingeconomics.com/united-kingdom/government-bond-yield (retrieved ~08:03 GMT 16 Nov 2026):
+UKX:IND: ['United Kingdom', '10903', '39', '0.36%', '']
