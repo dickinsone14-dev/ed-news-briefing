@@ -1,0 +1,44 @@
+URL: https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=.FTSE|.SPX|@LCO.1|GBP=|@GC.1|EURGBP=|.VIX|BTC.CB=|US10Y|UK10Y&requestMethod=itv&noform=1&partnerId=2&fund=1&exthrs=1&output=json
+SOURCE: CNBC quote webservice (quote.cnbc.com) — retrieved Tue 17 Nov 2026 18:33 GMT; figure timestamp (last_time): 2026-11-17T13:33:11.000-0500
+
+symbol=.SPX name=S&P 500 Index last=7,346.99 change=-69.60 change_pct=-0.94% previous_day_closing=7,416.59 last_time=2026-11-17T13:33:11.000-0500 curmktstatus=REG_MKT
+
+RAW CNBC JSON for this symbol:
+{
+ "symbol": ".SPX",
+ "symbolType": "symbol",
+ "code": 0,
+ "name": "S&P 500 Index",
+ "shortName": "S&P 500",
+ "onAirName": "S&P 500",
+ "altName": "S&P 500 INDEX",
+ "last": "7,346.99",
+ "last_timedate": "1:33 PM EST",
+ "last_time": "2026-11-17T13:33:11.000-0500",
+ "changetype": "DOWN",
+ "type": "INDEX",
+ "subType": "Index",
+ "exchange": "INDEX",
+ "source": "Exchange",
+ "open": "7,411.02",
+ "high": "7,415.37",
+ "low": "7,288.34",
+ "change": "-69.60",
+ "change_pct": "-0.94%",
+ "currencyCode": "USD",
+ "provider": "CNBC Quote Cache",
+ "previous_day_closing": "7,416.59",
+ "altSymbol": ".SPX",
+ "realTime": "true",
+ "curmktstatus": "REG_MKT",
+ "yrhiprice": "7,844.52",
+ "yrhidate": "10/06/26",
+ "yrloprice": "6,316.91",
+ "yrlodate": "03/30/26",
+ "streamable": "1",
+ "issue_id": "593933",
+ "countryCode": "US",
+ "timeZone": "EST",
+ "feedSymbol": ".SPX",
+ "portfolioindicator": "N"
+}

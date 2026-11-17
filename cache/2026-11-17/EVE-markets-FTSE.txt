@@ -1,0 +1,46 @@
+URL: https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=.FTSE|.SPX|@LCO.1|GBP=|@GC.1|EURGBP=|.VIX|BTC.CB=|US10Y|UK10Y&requestMethod=itv&noform=1&partnerId=2&fund=1&exthrs=1&output=json
+SOURCE: CNBC quote webservice (quote.cnbc.com) — retrieved Tue 17 Nov 2026 18:33 GMT; figure timestamp (last_time): 2026-11-17T16:35:00.000+0000
+
+symbol=.FTSE name=FTSE 100 last=10,689.87 change=-191.68 change_pct=-1.76% previous_day_closing=10,881.55 last_time=2026-11-17T16:35:00.000+0000 curmktstatus=REG_MKT
+
+RAW CNBC JSON for this symbol:
+{
+ "symbol": ".FTSE",
+ "symbolType": "symbol",
+ "code": 0,
+ "name": "FTSE 100",
+ "shortName": "FTSE",
+ "onAirName": "FTSE 100",
+ "altName": "FTSE 100 Price Return Index GBP Real Time",
+ "last": "10,689.87",
+ "last_timedate": "4:35 PM GMT",
+ "last_time": "2026-11-17T16:35:00.000+0000",
+ "changetype": "DOWN",
+ "type": "INDEX",
+ "subType": "Index",
+ "exchange": "FTSE International",
+ "source": "Exchange",
+ "open": "10,881.53",
+ "high": "10,881.53",
+ "low": "10,688.08",
+ "change": "-191.68",
+ "change_pct": "-1.76%",
+ "currencyCode": "GBP",
+ "volume": "750,623,320",
+ "volume_alt": "750.6M",
+ "provider": "CNBC Quote Cache",
+ "previous_day_closing": "10,881.55",
+ "altSymbol": ".FTSE",
+ "realTime": "false",
+ "curmktstatus": "REG_MKT",
+ "yrhiprice": "10,989.45",
+ "yrhidate": "07/31/26",
+ "yrloprice": "9,423.90",
+ "yrlodate": "11/21/25",
+ "streamable": "1",
+ "issue_id": "572009",
+ "countryCode": "GB",
+ "timeZone": "GMT",
+ "feedSymbol": "/.FTSE",
+ "portfolioindicator": "N"
+}

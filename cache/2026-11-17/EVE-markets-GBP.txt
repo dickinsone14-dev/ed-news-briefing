@@ -1,0 +1,45 @@
+URL: https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=.FTSE|.SPX|@LCO.1|GBP=|@GC.1|EURGBP=|.VIX|BTC.CB=|US10Y|UK10Y&requestMethod=itv&noform=1&partnerId=2&fund=1&exthrs=1&output=json
+SOURCE: CNBC quote webservice (quote.cnbc.com) — retrieved Tue 17 Nov 2026 18:33 GMT; figure timestamp (last_time): 2026-11-17T13:33:00.000-0500
+
+symbol=GBP= name=GBP/USD last=1.3221 change=+0.0039 change_pct=+0.30% previous_day_closing=1.3182 last_time=2026-11-17T13:33:00.000-0500 curmktstatus=REG_MKT
+
+RAW CNBC JSON for this symbol:
+{
+ "symbol": "GBP=",
+ "symbolType": "symbol",
+ "code": 0,
+ "name": "GBP/USD",
+ "shortName": "GBP/USD",
+ "onAirName": "Pound/US $",
+ "altName": "Pound/US $",
+ "last": "1.3221",
+ "last_timedate": "1:33 PM EST",
+ "last_time": "2026-11-17T13:33:00.000-0500",
+ "changetype": "UP",
+ "type": "CURRENCY",
+ "subType": "FOREX",
+ "exchange": "Exchange",
+ "source": "Exchange",
+ "open": "1.3182",
+ "high": "1.3227",
+ "low": "1.317",
+ "change": "+0.0039",
+ "change_pct": "+0.30%",
+ "volume": "187,526",
+ "volume_alt": "187.5K",
+ "provider": "CNBC Quote Cache",
+ "previous_day_closing": "1.3182",
+ "altSymbol": "618341",
+ "realTime": "true",
+ "curmktstatus": "REG_MKT",
+ "yrhiprice": "1.39",
+ "yrhidate": "01/27/26",
+ "yrloprice": "1.31",
+ "yrlodate": "10/14/26",
+ "streamable": "1",
+ "issue_id": "618341",
+ "countryCode": "EU",
+ "timeZone": "EST",
+ "feedSymbol": "GBP=",
+ "portfolioindicator": "N"
+}

@@ -2193,11 +2193,11 @@
  - Hard expiry at 24h from "posted" (or at "expires" if set) — banner comes down
  - Optional "expires" field overrides the 8h default (e.g. for major events)
  To add a new breaking story, prepend an entry here with the current ISO timestamp. -->
- <script id="breaking-stories" type="application/json">[{"headline": "Ukraine critically damages Kerch bridge; Russia strikes Kyiv crossings — 08:00 GMT", "posted": "2026-11-17T08:00:00Z", "category": "GEOPOLITICS", "summary": "The bridge linking occupied Crimea to Russia is closed after an overnight Ukrainian missile strike, with photographs suggesting a 227-metre road arch has fallen into the Kerch strait. Crimea's Moscow-installed governor, Sergei Aksyonov, confirmed traffic had been suspended. Russian ballistic missiles closed Kyiv's Northern and Southern bridges over the Dnipro the same night, the mayor, Vitali Klitschko, said.", "facts": [{"label": "Kerch bridge", "value": "Closed; traffic suspended"}, {"label": "Reported damage", "value": "227-metre road arch in the water (images not independently verified by the BBC)"}, {"label": "Kyiv", "value": "Northern and Southern bridges closed after missile strikes"}, {"label": "Diplomacy", "value": "Trump, Xi and Putin meet in Shenzhen on Thursday"}]}]</script>
+ <script id="breaking-stories" type="application/json">[]</script>
  <div class="breaking-banner" id="breakingBanner">
  <div class="breaking-inner">
  <span class="breaking-label">BREAKING</span>
- <span class="breaking-text" id="breakingText">Ukraine critically damages Kerch bridge; Russia strikes Kyiv crossings &mdash; 08:00 GMT</span>
+ <span class="breaking-text" id="breakingText"></span>
  <span class="breaking-readmore" id="breakingReadmore">Read more</span>
  <button class="breaking-dismiss" id="breakingDismiss">&times;</button>
  </div>
@@ -2287,7 +2287,7 @@
  <!-- #1 Markets snapshot bar -->
  <!-- Embedded market data (populated by update script, used as fallback) -->
  <script id="embedded-markets" type="application/json">
-{"FTSE":{"price":10881.55,"change":-0.19},"SP":{"price":7416.59,"change":-1.92},"Brent":{"price":91.99,"change":-0.49},"GBP":{"price":1.3186,"change":0.03},"Gold":{"price":3873.9,"change":0.54},"EURGBP":{"price":0.8339,"change":0.02},"VIX":{"price":22.91,"change":0.0},"BTC":{"price":64644.25,"change":-0.58},"UST":{"price":5.117,"change":-0.004},"Gilt":{"price":5.3515,"change":-0.0174},"ts":"2026-11-17T07:55:00+00:00"}
+{"FTSE":{"price":10689.87,"change":-1.76},"SP":{"price":7346.99,"change":-0.94},"Brent":{"price":93.46,"change":1.1},"GBP":{"price":1.3221,"change":0.3},"Gold":{"price":3863.8,"change":0.28},"EURGBP":{"price":0.8328,"change":-0.11},"VIX":{"price":25.29,"change":10.39},"BTC":{"price":63793.25,"change":-1.89},"UST":{"price":5.101,"change":-0.02},"Gilt":{"price":5.3905,"change":0.0157},"ts":"2026-11-17T18:37:00+00:00"}
 </script>
  <script id="market-descriptions" type="application/json">
 {
@@ -2295,75 +2295,77 @@
     "name": "FTSE 100",
     "desc": "The UK's benchmark stock index, tracking the 100 largest companies listed on the London Stock Exchange by market capitalisation. Includes Shell, AstraZeneca, HSBC and Unilever.",
     "drivers_up": [],
-    "drivers_down": [],
-    "updated": "2026-11-17 07:55 (reviewed at publication)"
+    "drivers_down": [
+      "FTSE 100 closed down 1.76% at 10,689.87 on Tuesday"
+    ],
+    "updated": "2026-11-17 18:37 (reviewed at publication)"
   },
   "SP": {
     "name": "S&P 500",
     "desc": "America's leading stock market index, tracking 500 of the largest US-listed companies. Dominated by mega-cap tech (Apple, Microsoft, Nvidia) but spans all sectors.",
     "drivers_up": [],
     "drivers_down": [],
-    "updated": "2026-11-17 07:55 (reviewed at publication)"
+    "updated": "2026-11-17 18:37 (reviewed at publication)"
   },
   "Brent": {
     "name": "Brent Crude Oil",
     "desc": "The global benchmark for crude oil pricing, produced from oil fields in the North Sea. Used to price roughly two-thirds of the world's traded oil.",
     "drivers_up": [
-      "Tanker struck in Strait of Hormuz; Iran warns shipping off southern route"
+      "Iran's navy claims a third tanker struck a mine east of the Strait of Hormuz; Houthis claim drone hits on Saudi East-West pipeline"
     ],
     "drivers_down": [
-      "Brent eased 0.7% in Asian trading on Tuesday"
+      "Trump says he is \"very close to getting it done\" on ending the Iran war"
     ],
-    "updated": "2026-11-17 07:55 (reviewed at publication)"
+    "updated": "2026-11-17 18:37 (reviewed at publication)"
   },
   "GBP": {
     "name": "GBP/USD",
     "desc": "The exchange rate between the British pound and the US dollar, commonly known as 'cable'. Reflects relative economic strength and interest rate differentials between the UK and US.",
     "drivers_up": [],
     "drivers_down": [],
-    "updated": "2026-11-17 07:55 (reviewed at publication)"
+    "updated": "2026-11-17 18:37 (reviewed at publication)"
   },
   "Gold": {
     "name": "Gold (XAU/USD)",
     "desc": "The spot price of gold in US dollars per troy ounce. The world's oldest safe-haven asset, traditionally rising during periods of uncertainty, inflation and currency debasement.",
     "drivers_up": [],
     "drivers_down": [],
-    "updated": "2026-11-17 07:55 (reviewed at publication)"
+    "updated": "2026-11-17 18:37 (reviewed at publication)"
   },
   "EURGBP": {
     "name": "EUR/GBP",
     "desc": "The exchange rate between the euro and the British pound. Key for UK-EU trade pricing. A falling rate means sterling is strengthening against the euro.",
     "drivers_up": [],
     "drivers_down": [],
-    "updated": "2026-11-17 07:55 (reviewed at publication)"
+    "updated": "2026-11-17 18:37 (reviewed at publication)"
   },
   "Gilt": {
     "name": "UK 10-Year Gilt Yield",
     "desc": "The yield on 10-year UK government bonds (gilts). A key benchmark for UK borrowing costs, mortgage rates and pension fund valuations. Rising yields mean falling bond prices.",
     "drivers_up": [],
     "drivers_down": [],
-    "updated": "2026-11-17 07:55 (reviewed at publication)"
+    "updated": "2026-11-17 18:37 (reviewed at publication)"
   },
   "VIX": {
     "name": "VIX (Volatility Index)",
     "desc": "The CBOE Volatility Index, often called the 'fear gauge'. Measures expected S&P 500 volatility over the next 30 days. Readings above 20 suggest elevated anxiety; above 30 signals acute stress.",
     "drivers_up": [],
     "drivers_down": [],
-    "updated": "2026-11-17 07:55 (reviewed at publication)"
+    "updated": "2026-11-17 18:37 (reviewed at publication)"
   },
   "BTC": {
     "name": "Bitcoin (BTC/USD)",
     "desc": "The price of Bitcoin in US dollars. The largest cryptocurrency by market cap, increasingly viewed as digital gold by institutional investors since spot ETF approvals.",
     "drivers_up": [],
     "drivers_down": [],
-    "updated": "2026-11-17 07:55 (reviewed at publication)"
+    "updated": "2026-11-17 18:37 (reviewed at publication)"
   },
   "UST": {
     "name": "US 10-Year Treasury Yield",
     "desc": "The yield on 10-year US government bonds, the global risk-free rate benchmark. Influences mortgage rates, corporate borrowing and equity valuations worldwide.",
     "drivers_up": [],
     "drivers_down": [],
-    "updated": "2026-11-17 07:55 (reviewed at publication)"
+    "updated": "2026-11-17 18:37 (reviewed at publication)"
   }
 }
 </script>
@@ -2416,6 +2418,114 @@
  <!-- ════ ALL EDITIONS (sorted by JS) ════ -->
  <!-- IMPORTANT: Keep 7 FULL DAYS of editions in this container. Do NOT delete editions less than 7 days old. -->
  <div id="all-editions" style="display:none;">
+<!-- ── EVENING 17 NOV (18:37) ── -->
+<div class="curated-edition evening" data-date="2026-11-17" data-time="18:37" data-markets='{"FTSE":{"price":10689.87,"change":-1.76},"SP":{"price":7346.99,"change":-0.94},"Brent":{"price":93.46,"change":1.1},"GBP":{"price":1.3221,"change":0.3},"Gold":{"price":3863.8,"change":0.28},"EURGBP":{"price":0.8328,"change":-0.11},"VIX":{"price":25.29,"change":10.39},"BTC":{"price":63793.25,"change":-1.89},"UST":{"price":5.101,"change":-0.02},"Gilt":{"price":5.3905,"change":0.0157},"ts":"2026-11-17T18:37:00+00:00"}'>
+  <div class="edition-header"><span class="edition-icon">&#9789;</span><h2>Evening Briefing</h2></div>
+  <div class="curated-meta">Tuesday 17 November 2026 &mdash; 18:37 GMT</div>
+  <div class="impact-box"><h3 class="impact-heading">What It Means For You</h3><ul class="impact-list"><li>Under-25s on health-related benefits: the Milburn proposals the Government backed in principle today would replace the health element of universal credit and Pip with a single youth allowance. Nothing changes yet; draft welfare proposals are due early next year, with legislation to follow.</li><li>Savers and investors: the FTSE 100 closed down 1.76% at 10,689.87, and Brent crude was up 1.1% at $93.46 a barrel in early evening trading.</li><li>Under-30s hoping to live and work in Europe: the youth mobility scheme is still being negotiated before Friday&rsquo;s summit in Brussels, with the cap on numbers and tuition fees unresolved. Downing Street says it will &ldquo;keep working to the last minute&rdquo;.</li></ul></div>
+  <div class="curated-grid">
+    <div class="curated-column">
+      <h3><span class="dot geo"></span><span class="dot-label">GEO</span> Geopolitical</h3>
+        <div class="curated-item" data-time="12:48" data-slug="crimean-bridge-span-collapses-ukraine-unprecedented-operation">
+          <h4>Crimean bridge span collapses after Ukraine&rsquo;s &lsquo;unprecedented operation&rsquo;</h4>
+          <p>A section of the road bridge linking Russia to occupied Crimea has collapsed into the Kerch strait after an overnight strike by Ukrainian cruise missiles and drones. Volodymyr Zelensky called it an &ldquo;unprecedented operation&rdquo;, the last of seven stages that first destroyed Russian air defences and radars. Ukraine&rsquo;s military says the roadway is &ldquo;out of action&rdquo;; the rail arch is damaged but standing. Dmitry Peskov, the Kremlin spokesman, said: &ldquo;it will be even better than before&rdquo;.</p>
+          <details class="dive-deeper"><summary>Dive deeper</summary><div class="deeper-content">Russia&rsquo;s Investigative Committee confirmed structural damage and opened a terrorism case; its transport ministry said some rail services had resumed. The BBC reports that the Kerch ferry has very limited capacity and that debris from the arch may have blocked the shipping channel to the occupied ports of Mariupol and Berdyansk. In Kyiv, Mr Zelensky said seven Russian ballistic missiles had targeted the Northern and Southern bridges; the Southern has partially reopened. In Brussels, Wes Streeting, the Defence Secretary, confirmed more than 1,000 short-range air defence missiles for Ukraine, with deliveries from mid-December. &ldquo;In Ukraine, President Putin uses winter as a weapon,&rdquo; he said. Mr Putin meets Mr Trump and Mr Xi on Thursday.</div></details>
+        </div>
+        <div class="curated-item" data-time="15:13" data-slug="trump-iran-pay-a-price-reported-dirty-bomb-plot">
+          <h4>Trump warns Iran will &lsquo;pay a price&rsquo; over reported dirty-bomb plot</h4>
+          <p>On Day 263 of the war, Donald Trump said the US takes &ldquo;very seriously&rdquo; a CNN report, citing unnamed officials, that Iran is developing plans to attack administration figures in Washington with a dirty bomb. Were a threat imminent, he said, &ldquo;they will pay a price the likes of which no country has ever paid before&rdquo;. Tehran calls the claims baseless, and the White House says there are &ldquo;no credible threats to the homeland&rdquo;.</p>
+          <details class="dive-deeper"><summary>Dive deeper</summary><div class="deeper-content">&ldquo;Spare us the Iraq War-style propaganda, especially with Israeli fingerprints all over it,&rdquo; said Abbas Araghchi, Iran&rsquo;s foreign minister. CNN&rsquo;s sources described the planning as an effort by Tehran to give itself options rather than a sign of imminent attack; neither the BBC nor CNBC has verified the report. Mr Trump also said he was &ldquo;very close to getting it done&rdquo; on ending the war. In the Gulf, an Iranian provincial official reported American strikes on Qeshm island, unconfirmed by Washington; Iran&rsquo;s navy claimed, without evidence, that a third tanker had struck a mine east of the Strait of Hormuz; and the Houthis claimed drone hits on two pumping stations of Saudi Arabia&rsquo;s East-West pipeline, which bypasses the strait.</div></details>
+        </div>
+        <div class="curated-item" data-time="12:54" data-slug="trump-quad-critical-minerals-agreements-before-shenzhen">
+          <h4>Trump announces Quad critical minerals agreements before Shenzhen summit</h4>
+          <p>Donald Trump opened his Asia trip in Manila by announcing agreements with India, Japan and Australia to secure supplies of critical minerals and prevent &ldquo;coercion by any single foreign supplier&rdquo;. He did not name China, which dominates rare-earth production, but said: &ldquo;We&rsquo;re going to catch them within 10 months.&rdquo; He flies on to Shenzhen for Thursday&rsquo;s three-way meeting with Xi Jinping and Vladimir Putin, and a separate bilateral with Mr Xi.</p>
+          <details class="dive-deeper"><summary>Dive deeper</summary><div class="deeper-content">It was Mr Trump&rsquo;s first meeting of the Quad, whose joint statement expressed &ldquo;grave concerns&rdquo; about &ldquo;economic coercion&rdquo;, including arbitrary export restrictions; China has in effect shut off exports of key minerals to Japan for nearly a year. Asked whether he would see Mr Putin alone, he replied: &ldquo;If it&rsquo;s available, I would do that.&rdquo; Beijing says the trilateral will address topics of &ldquo;groundbreaking significance&rdquo;. The BBC notes that South East Asian exports to America rose 30% last year on the AI boom, and that Washington hopes to draw the region into its &ldquo;Pax Silica&rdquo; technology bloc. On the Financial Times report that Deutsche Bank mistakenly leaked his tax details in 2017, he said: &ldquo;I paid a lot of tax.&rdquo;</div></details>
+        </div>
+        <div class="curated-item" data-time="17:35" data-slug="huang-offers-nvidia-return-congress-sets-hearing">
+          <h4>Huang offers to return to Nvidia as Congress sets hearing</h4>
+          <p>Jensen Huang, in his first statement since resigning as Nvidia&rsquo;s chief executive last week, said he would be &ldquo;honoured&rdquo; to return if the board asked. &ldquo;I created problems for the Board that I deeply regret. I own my mistakes completely,&rdquo; he wrote. The board is not considering reinstating him, the BBC and CNBC report. He is to testify before three House committees on 1 December on what their chairmen call &ldquo;a potential breach of our national security&rdquo;.</p>
+          <details class="dive-deeper"><summary>Dive deeper</summary><div class="deeper-content">Mr Huang resigned after reports of an affair with Alice Huang, formerly executive director of Megaspeed, a Singapore-based chip buyer, whom US intelligence reportedly believes to be a Chinese spy; Megaspeed says she left in 2025. Nvidia has retained the law firm Wachtell Lipton to examine whether his conduct compromised national security or company secrets, and its general counsel, Tim Teter, gives a closed-door interview to the committees on 2 December. A petition for his reinstatement has drawn more than 190,000 signatures, according to CNBC, and Mr Trump said on Monday he was open to a return. Nvidia&rsquo;s shares fell 4% on Monday to their lowest close since July 2025; quarterly results are due after the US close.</div></details>
+        </div>
+        <div class="curated-item" data-time="16:07" data-slug="united-states-loses-measles-elimination-status">
+          <h4>United States loses measles elimination status after 26 years</h4>
+          <p>The Pan American Health Organization has revoked America&rsquo;s measles-free status after finding uninterrupted transmission of the same strain for more than 12 months. Mexico and Bolivia lost theirs too. The US has recorded 5,400 cases this year, and MMR coverage has fallen to 92.4%, below the 95% needed for herd immunity. &ldquo;These figures are a serious warning for our region,&rdquo; said Dr Jarbas Barbosa, the organisation&rsquo;s director.</p>
+          <details class="dive-deeper"><summary>Dive deeper</summary><div class="deeper-content">Erica Schwartz, director of the Centers for Disease Control and Prevention, said the designation was not what protected Americans: &ldquo;Vaccination does.&rdquo; Countries losing the status must submit corrective action plans. Robert F Kennedy Jr, the health secretary, has frequently cast doubt on the MMR vaccine but argues that the rise in cases predates his appointment. Britain, Spain and Austria lost their own measles-free status earlier this year, and Canada last year. &ldquo;The US has had large outbreaks and exported those to Canada and Mexico, and those cases have come back again to the US,&rdquo; said Noel Brewer of the University of North Carolina. Reports of this year&rsquo;s death toll differ: the BBC gives ten, The Irish Times eight.</div></details>
+        </div>
+    </div>
+    <div class="curated-column">
+      <h3><span class="dot dom"></span><span class="dot-label">UK</span> UK Domestic Politics</h3>
+        <div class="curated-item" data-time="15:35" data-slug="government-backs-milburn-overhaul-welfare-under-25s">
+          <h4>Government backs Milburn&rsquo;s overhaul of welfare for under-25s</h4>
+          <p>Andy Burnham has endorsed the &ldquo;principles&rdquo; of Alan Milburn&rsquo;s review, which would replace the health element of universal credit and Pip for under-25s with a single youth allowance and spend &pound;5.8bn on employment and mental health support by 2036&ndash;37. Mr Milburn says 440,000 young people would move into work. &ldquo;We need a new settlement for young people,&rdquo; Pat McFadden told MPs. A full response follows next month; Mr Milburn will chair a new youth opportunities unit.</p>
+          <details class="dive-deeper"><summary>Dive deeper</summary><div class="deeper-content">The arithmetic is tight: &pound;3.6bn of benefit savings and &pound;2.4bn in higher tax receipts by 2036&ndash;37 are almost wholly absorbed by the new system, leaving &pound;200m a year. The report assumes the share of 16 to 24-year-olds not in work, education or training falls from 13% to 5%. Mr McFadden declined to commit to the proposed National Insurance cut for employers: &ldquo;We know that employment costs matter and we will consider all these things as we move forward.&rdquo; The report urges an initial &pound;500m next year from reprioritised spending. Kemi Badenoch accepted the &ldquo;diagnosis&rdquo; but said Labour had &ldquo;made the problem much worse&rdquo;; Nigel Farage called it &ldquo;too little and too slow&rdquo;; Unison warned of young people driven into poverty.</div></details>
+        </div>
+        <div class="curated-item" data-time="17:07" data-slug="burnham-delays-eu-options-december-no-rush">
+          <h4>Burnham delays EU options until December, saying there is &lsquo;no rush&rsquo;</h4>
+          <p>Andy Burnham will not now set out options for a closer long-term relationship with the EU until next month, alongside his 10-year plan, rather than early next week as had been expected. &ldquo;There&rsquo;s no rush to do that. The British public will be in charge of whatever comes next,&rdquo; he told Sky News, denying that he was &ldquo;stepping back&rdquo;. Friday&rsquo;s Brussels summit is expected to yield agreements on food and farming, emissions trading and youth mobility.</p>
+          <details class="dive-deeper"><summary>Dive deeper</summary><div class="deeper-content">The Guardian reports resistance within the Cabinet and among MPs in Leave-voting seats; No 10 insiders say the Prime Minister wants to &ldquo;frame the conversation, not go straight to the endgame&rdquo;. Senior figures say he seeks a mandate for negotiations in Labour&rsquo;s next manifesto, with any referendum confirmatory. Before Friday, the cap on the youth mobility scheme and tuition fees remain unsettled: &ldquo;Negotiations are going to the wire,&rdquo; a senior EU source told The Independent. That newspaper also reports a Fortius Global poll of 7,291 adults in which 57% supported opening membership negotiations and 26.8% were opposed. &ldquo;I won&rsquo;t get ahead of public opinion,&rdquo; Mr Burnham said.</div></details>
+        </div>
+        <div class="curated-item" data-time="12:18" data-slug="britain-sanctions-eight-israeli-firms-west-bank-settlements">
+          <h4>Britain sanctions eight Israeli firms over West Bank settlement building</h4>
+          <p>Ed Miliband, the Foreign Secretary, has imposed sanctions on eight Israeli construction and property firms involved in West Bank settlements, and on Tzav 9, a group the Government says has blockaded aid to Gaza. &ldquo;My message on E1 is clear: do not bid, do not build, and do not profit from the destruction of the two-state solution,&rdquo; he said. Gideon Saar, Israel&rsquo;s foreign minister, called it a &ldquo;hostile act&rdquo; and promised countermeasures.</p>
+          <details class="dive-deeper"><summary>Dive deeper</summary><div class="deeper-content">This is the first package since Mr Miliband announced a tougher approach in September, and it comes two days before bids close for construction tenders in E1, east of Jerusalem &mdash; a development that would in effect divide the West Bank in two. The Guardian notes that how far the firms depend on British finance is untested. The Foreign Office says more settlements have been approved in four years of the present Israeli government than in the previous 20; legislation to ban imports of settlement goods is in preparation. Mr Miliband offered to work &ldquo;productively with a new Israeli government&rdquo;. Tzav 9 said it had &ldquo;always protested peacefully&rdquo;; the Palestinian foreign ministry urged other countries to follow.</div></details>
+        </div>
+        <div class="curated-item" data-time="09:51" data-slug="cass-withdraws-support-draft-conversion-practices-bill">
+          <h4>Cass withdraws support for draft conversion practices bill</h4>
+          <p>Baroness Cass, author of the review of NHS gender services for children, told a parliamentary committee she does not support the draft bill banning conversion practices, having welcomed it in June. A ban is &ldquo;desirable&rdquo;, she told the Today programme, but &ldquo;we have not yet as far as I can see got a workable bill&rdquo;. She warned of a &ldquo;chilling effect&rdquo; on therapists and of risks to parents. The Government said it wants &ldquo;to get this ban right&rdquo;.</p>
+          <details class="dive-deeper"><summary>Dive deeper</summary><div class="deeper-content">The draft requires that a victim suffer serious harm or serious alarm or distress; Lady Cass fears &ldquo;vexatious&rdquo; complaints against clinicians treating gender-distressed young people. &ldquo;It is the process which ends up being an unwarranted punishment,&rdquo; she said. A parent withholding money for a breast binder or hormones might also fall within scope. She said she had not read the detail before supplying a supportive quotation in June. The bill, which applies to England and Wales and carries up to five years in prison, is in pre-legislative scrutiny before a joint committee. Stonewall and the British Association for Counselling and Psychotherapy support it. &ldquo;We want a legal ban,&rdquo; said Dr Igi Moon, for a coalition of more than 25 organisations.</div></details>
+        </div>
+        <div class="curated-item" data-time="12:43" data-slug="kyle-warns-royal-mail-unviable-without-parcel-reform">
+          <h4>Kyle warns Royal Mail will become unviable without parcel market reform</h4>
+          <p>Peter Kyle, the former business secretary, has told the BBC that ministers must &ldquo;level the playing field&rdquo; for Royal Mail or risk its collapse. &ldquo;If we leave it another few years then Royal Mail will just become unviable,&rdquo; he said, arguing that it is undercut by parcel rivals whose couriers are self-employed. The Government says it will consider further reform of the parcel market after Ofcom&rsquo;s annual monitoring report in December.</p>
+          <details class="dive-deeper"><summary>Dive deeper</summary><div class="deeper-content">Royal Mail says 98% of its 130,000 workers are permanent employees with pensions, sick pay and holiday pay, and it is legally obliged to deliver at one price to every address. Mr Kyle had begun preparing a review of the parcel market before Jonathan Reynolds replaced him in July. The company was fined &pound;21m in October 2025 for missed delivery targets; Ofcom has since scrapped second-class Saturday deliveries and lowered the first-class target to 90%. The business department is consulting on &ldquo;bogus&rdquo; self-employment. For the Conservatives, Bradley Thomas blamed management: &ldquo;Nationalisation isn&rsquo;t the solution to this problem.&rdquo; The test is whether December&rsquo;s Ofcom report prompts ministers to act.</div></details>
+        </div>
+    </div>
+  </div>
+  <div class="one-to-read"><h3 class="one-to-read-heading">One To Read</h3><p><a href="https://www.nbcnews.com/world/europe/europe-danger-vladimir-putin-ukraine-war-nato-security-architecture-rcna609558" target="_blank" rel="noopener">A Kremlin trap? Europe sees danger in Vladimir Putin&rsquo;s new demand in US talks</a> <span class="otr-source">NBC News</span> &mdash; Alexander Smith on why European capitals are alarmed by the suggestion from Mr Trump&rsquo;s team that the whole of Europe&rsquo;s security architecture should be on the table in Ukraine negotiations.</p></div>
+  <!-- SOURCES USED (evening, 17 November 2026)
+ - https://www.bbc.co.uk/news/articles/cw772jk4rvmxo &mdash; BBC, 17 November 16:56 GMT: bridge section collapsed, Zelensky &ldquo;unprecedented operation&rdquo; and seven stages, military &ldquo;out of action&rdquo;, Peskov quotation, Investigative Committee, rail services, ferry and shipping channel, seven ballistic missiles on Kyiv bridges
+ - https://www.theguardian.com/world/2026/nov/17/how-ukraine-struck-kerch-bridge-symbol-vladimir-putin-rule &mdash; The Guardian, 17 November 17:30 GMT: cross-reference on the bridge strike
+ - https://www.cnbc.com/2026/11/17/kerch-bridge-ukraine-russia-putin-kyiv.html &mdash; CNBC, 17 November 12:48 GMT: Zelensky statement, timing of story
+ - https://edition.cnn.com/2026/11/17/europe/ukraine-russia-kerch-bridge-intl-hnk &mdash; CNN, 17 November: verified image of collapsed section, missiles and drones used
+ - https://www.irishtimes.com/world/europe/2026/11/17/russia-says-it-struck-ukrainian-energy-port-and-military-facilities-overnight/ &mdash; The Irish Times, 17 November 18:19 GMT: road span collapsed, rail bridge damaged, seven-stage operation
+ - https://www.cbsnews.com/news/ukraine-war-russia-crimea-kerch-bridge-kyiv/ &mdash; CBS News with AFP, 17 November: cross-reference on bridge and Kyiv strikes (drone totals differ from the BBC&rsquo;s, so no figure is given)
+ - https://www.independent.co.uk/news/uk/politics/uk-ukraine-missiles-russia-winter-b3086602.html &mdash; The Independent, 17 November: Streeting, more than 1,000 air defence missiles, mid-December, quotation
+ - https://www.bbc.co.uk/news/articles/cq808vzd3nnpo &mdash; BBC, 17 November 17:37 GMT: Trump &ldquo;very seriously&rdquo;, White House statement, Iran &ldquo;baseless&rdquo;, BBC has not verified
+ - https://www.cnbc.com/2026/11/17/trump-iran-dirty-bomb-washington.html &mdash; CNBC, 17 November 17:49 GMT: &ldquo;pay a price&rdquo; quotation, CNN sourcing, CNBC has not verified
+ - https://www.aljazeera.com/news/2026/11/17/is-iran-plotting-a-dirty-bomb-attack-in-the-us-what-we-know &mdash; Al Jazeera, 17 November 14:59 GMT: planning described as options, not imminent attack; Iranian rejection
+ - https://www.cbsnews.com/live-updates/iran-war-us-nuclear-oil-strait-of-hormuz/ &mdash; CBS News live, 17 November 18:22 GMT: Araghchi quotation, Qeshm strikes claim, third tanker mine claim, Houthi East-West pipeline claim
+ - https://www.cnbc.com/2026/11/17/trump-iran-asia-trip-china.html &mdash; CNBC, 17 November 16:39 GMT: &ldquo;very close to getting it done&rdquo;, Deutsche Bank and &ldquo;I paid a lot of tax&rdquo;, bilateral with Xi, Putin meeting quotation
+ - https://www.aljazeera.com/news/2026/11/17/trump-announces-critical-minerals-agreements-at-quad-meeting-in-manila &mdash; Al Jazeera with Reuters, 17 November 15:59 GMT: Quad minerals agreements, &ldquo;coercion by any single foreign supplier&rdquo;, 10 months, Quad statement, China&ndash;Japan exports, &ldquo;groundbreaking significance&rdquo;
+ - https://www.bbc.co.uk/news/articles/crq5vlxxx32no &mdash; BBC, 17 November 12:54 GMT: Manila arrival, exports up 30%, &ldquo;Pax Silica&rdquo;
+ - https://www.cbsnews.com/news/trump-asia-trip-trilateral-summit-putin-xi/ &mdash; CBS News, 17 November 11:32 GMT: cross-reference on Asia trip and Thursday summit
+ - https://www.bbc.co.uk/news/articles/cwx2en2vrxmdo &mdash; BBC, 17 November 18:24 GMT: Huang &ldquo;honoured&rdquo;, &ldquo;I created problems&rdquo; quotation, board not considering return
+ - https://www.cnbc.com/2026/11/17/nvidia-jensen-huang-statement.html &mdash; CNBC, 17 November 18:21 GMT: full statement, Wachtell Lipton, Trump open to return, board position
+ - https://www.cnbc.com/2026/11/17/nvidia-stock-earnings-jensen-huang-resignation.html &mdash; CNBC, 17 November 16:49 GMT: shares down 4% Monday, lowest close since 1 July 2025, petition above 190,000, earnings after the bell
+ - https://www.theguardian.com/technology/2026/nov/17/jensen-huang-testify-congress-nvidia-affair-spy &mdash; The Guardian, 17 November 17:58 GMT: 1 December hearing, Teter 2 December, committee chairmen quotation, Megaspeed, Alice Huang left 2025
+ - https://english.elpais.com/economy-and-business/2026-11-17/jensen-huang-breaks-his-silence-after-nvidia-exit-says-he-is-open-to-returning.html &mdash; El Pa&iacute;s, 17 November 17:35 GMT: cross-reference on Huang statement
+ - https://www.independent.co.uk/news/world/americas/us-politics/jensen-huang-congress-nvidia-ceo-affair-b3086532.html &mdash; The Independent, 17 November: cross-reference on congressional hearing
+ - https://www.bbc.co.uk/news/articles/c977p71jx0xxo &mdash; BBC, 17 November 17:10 GMT: PAHO decision, 12 months, Mexico and Bolivia, 5,400 cases, 92.4% and 95%, Barbosa and Schwartz quotations, corrective plans, Kennedy, UK/Spain/Austria, Canada, ten deaths
+ - https://www.irishtimes.com/world/us/2026/11/17/us-loses-measles-elimination-status-amid-worst-outbreak-in-26-years/ &mdash; The Irish Times, 17 November 16:41 GMT: Brewer quotation, eight deaths
+ - https://www.aljazeera.com/news/2026/11/17/us-officially-loses-measles-free-status-after-26-years-amid-outbreak &mdash; Al Jazeera, 17 November 16:07 GMT: cross-reference on measles status
+ - https://www.independent.co.uk/news/world/americas/us-loses-measles-elimination-status-outbreak-vaccine-b3086570.html &mdash; The Independent, 17 November: cross-reference on measles status
+ - https://www.bbc.co.uk/news/articles/ck79210y125xo &mdash; BBC, 17 November 18:18 GMT: Burnham endorses &ldquo;principles&rdquo;, 440,000, youth allowance, &pound;5.8bn, &pound;500m, &pound;200m, 13% to 5%, response next month, draft proposals early next year, Badenoch, Farage, Unison
+ - https://www.theguardian.com/society/2026/nov/17/alan-milburn-report-young-people-work-neets-job-support-savingsalan-milburn-plan-young-people-work-neets-savings-200m-a-year &mdash; The Guardian, 17 November 15:35 GMT: McFadden quotations, &pound;3.6bn and &pound;2.4bn, youth opportunities unit
+ - https://www.theguardian.com/politics/live/2026/nov/17/alan-milburn-youth-unempolyment-neets-economy-welfare-brexit-latest-news-updates &mdash; The Guardian politics live, 17 November 17:46 GMT: Sky interview lines, 17:07 delay entry, departmental reprioritisation
+ - https://www.independent.co.uk/news/uk/home-news/neet-milburn-review-unemployment-young-people-uk-labour-b3086214.html &mdash; The Independent, 17 November: cross-reference on Milburn review
+ - https://www.theguardian.com/politics/2026/nov/17/andy-burnham-delays-taking-stock-of-uk-relationship-with-eu &mdash; The Guardian, 17 November 17:50 GMT: delay to December, &ldquo;no rush&rdquo; quotation, &ldquo;stepping back&rdquo;, summit agreements, Cabinet resistance, &ldquo;frame the conversation&rdquo;, manifesto mandate, youth mobility cap and tuition fees, &ldquo;I won&rsquo;t get ahead of public opinion&rdquo;
+ - https://www.independent.co.uk/news/uk/politics/brexit-youth-mobility-eu-reset-deal-b3086366.html &mdash; The Independent, 17 November: &ldquo;going to the wire&rdquo;, Downing Street &ldquo;last minute&rdquo;, Fortius Global poll (7,291; 57%; 26.8%)
+ - https://www.bbc.co.uk/news/articles/cvglr977x3z0o &mdash; BBC, 17 November 18:27 GMT: eight firms, Tzav 9 and its response, Saar quotations, E1 deadline in two days, Palestinian foreign ministry, settlement goods legislation
+ - https://www.theguardian.com/world/2026/nov/17/ed-miliband-israel-west-bank-settlements-sanctions &mdash; The Guardian, 17 November 12:18 GMT: Miliband quotation, dependence on British finance untested, four years versus 20
+ - https://www.aljazeera.com/news/2026/11/17/uk-sanctions-8-israeli-firms-over-occupied-west-bank-settlements-gaza-aid &mdash; Al Jazeera, 17 November 14:09 GMT: cross-reference on sanctions
+ - https://www.independent.co.uk/news/uk/politics/west-bank-sanctions-uk-ed-miliband-b3086280.html &mdash; The Independent, 17 November: cross-reference on sanctions and Miliband statement
+ - https://www.bbc.co.uk/news/articles/c6m25vd2yxgdo &mdash; BBC, 17 November 10:36 GMT: Cass &ldquo;workable bill&rdquo;, &ldquo;vexatious&rdquo;, serious harm wording, parents example, June quotation, Stonewall and BACP, Government response
+ - https://www.theguardian.com/politics/2026/nov/17/expert-nhs-gender-review-cannot-back-conversion-practices-ban &mdash; The Guardian, 17 November 09:51 GMT: &ldquo;chilling effect&rdquo;, &ldquo;unwarranted punishment&rdquo;, five years, joint committee, Moon quotation
+ - https://www.bbc.co.uk/news/articles/cjvg26p3z2gdo &mdash; BBC, 17 November 12:43 GMT: Kyle quotations, 98% of 130,000, &pound;21m fine, Ofcom changes, Reynolds, consultation, Thomas quotation. **Single-outlet report**
+ - https://www.nbcnews.com/world/europe/europe-danger-vladimir-putin-ukraine-war-nato-security-architecture-rcna609558 &mdash; NBC News, 17 November 16:54 GMT: One To Read
+ - https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol &mdash; CNBC quote feed, 17 November 18:33 GMT: all ten market figures (FTSE at the 16:35 close; gilt at 17:15; others live)
+ NOTE: IEA, EIA, ISW and Bank of England pages were not retrieved in this run; Le Monde blocked retrieval. No claims rest on them.
+ END SOURCES USED -->
+</div><!-- ── END EVENING 17 NOV (18:37) ── -->
 <!-- ── MORNING 17 NOV (07:55) ── -->
 <div class="curated-edition morning" data-date="2026-11-17" data-time="07:55" data-markets='{"FTSE":{"price":10881.55,"change":-0.19},"SP":{"price":7416.59,"change":-1.92},"Brent":{"price":91.99,"change":-0.49},"GBP":{"price":1.3186,"change":0.03},"Gold":{"price":3873.9,"change":0.54},"EURGBP":{"price":0.8339,"change":0.02},"VIX":{"price":22.91,"change":0.0},"BTC":{"price":64644.25,"change":-0.58},"UST":{"price":5.117,"change":-0.004},"Gilt":{"price":5.3515,"change":-0.0174},"ts":"2026-11-17T07:55:00+00:00"}'>
   <div class="edition-header"><span class="edition-icon">&#9788;</span><h2>Morning Briefing</h2></div>
