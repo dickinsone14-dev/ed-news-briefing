@@ -2,6 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-17-morning/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-17T07:55:00+01:00</news:publication_date>
+      <news:title>Morning Briefing — Tuesday 17 November 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-17-morning/ukraine-critically-damages-kerch-bridge-russia-hits-kyiv-crossings/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-17T07:55:00+01:00</news:publication_date>
+      <news:title>Ukraine critically damages Kerch bridge as Russia hits Kyiv crossings</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-17-morning/tanker-struck-hormuz-iran-threats-third-us-carrier/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-17T07:55:00+01:00</news:publication_date>
+      <news:title>Tanker struck in Hormuz as Iran threatens shipping; third US carrier arrives</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-17-morning/trump-xi-putin-shenzhen-summit-agenda-dispute/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-17T07:55:00+01:00</news:publication_date>
+      <news:title>Trump heads for first three-way summit with Xi and Putin</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-17-morning/five-eu-states-rwanda-return-hub-2027/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-17T07:55:00+01:00</news:publication_date>
+      <news:title>Five EU states to open migrant return hub in Rwanda</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-17-morning/us-chip-export-licences-southeast-asia-brazil-nvidia/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-17T07:55:00+01:00</news:publication_date>
+      <news:title>Washington tightens chip exports to block China’s remote access</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-17-morning/burnham-brexit-speech-long-term-eu-relationship-talks/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-17T07:55:00+01:00</news:publication_date>
+      <news:title>Burnham to open talks on long-term EU relationship after summit</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-17-morning/milburn-report-youth-unemployment-ni-threshold-benefits/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-17T07:55:00+01:00</news:publication_date>
+      <news:title>Milburn report urges NI cut and benefit curbs for under-25s</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-17-morning/failed-asylum-seekers-lose-five-day-removal-notice/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-17T07:55:00+01:00</news:publication_date>
+      <news:title>Failed asylum seekers to lose five-day notice of removal</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-17-morning/miliband-will-not-resign-over-rosebank-approval/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-17T07:55:00+01:00</news:publication_date>
+      <news:title>Miliband says he will not resign if Rosebank is approved</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-17-morning/palantir-nhs-contract-to-end-2029/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-17T07:55:00+01:00</news:publication_date>
+      <news:title>Ministers to end Palantir’s NHS contract — but not until 2029</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-11-16-morning/</loc>
     <news:news>
       <news:publication>

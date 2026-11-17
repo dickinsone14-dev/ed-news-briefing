@@ -1,0 +1,50 @@
+URL: https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=.FTSE|.SPX|@LCO.1|GBP=|@GC.1|EURGBP=|.VIX|BTC.CB=|US10Y|UK10Y&requestMethod=itv&noform=1&partnerId=2&fund=1&exthrs=1&output=json
+SOURCE: CNBC quote webservice (quote.cnbc.com) — retrieved Tue 17 Nov 2026 ~08:00 GMT; figure timestamp (last_time): 2026-11-17T02:46:39.000-0500
+
+symbol=@GC.1 name=Gold COMEX (Dec'26) last=3,873.90 change=+20.90 change_pct=+0.54% previous_day_closing=3,853.00 last_time=2026-11-17T02:46:39.000-0500 curmktstatus=REG_MKT
+
+RAW CNBC JSON for this symbol:
+{
+ "symbol": "@GC.1",
+ "symbolType": "symbol",
+ "code": 0,
+ "name": "Gold COMEX (Dec'26)",
+ "shortName": "GOLD",
+ "onAirName": "Gold COMEX (Dec'26)",
+ "altName": "GOLD",
+ "last": "3,873.90",
+ "last_timedate": "2:46 AM EST",
+ "last_time": "2026-11-17T02:46:39.000-0500",
+ "changetype": "UP",
+ "type": "DERIVATIVE",
+ "subType": "Future",
+ "exchange": "CEC:Commodities Exchange Centre",
+ "source": "Exchange",
+ "open": "3,859.50",
+ "high": "3,889.60",
+ "low": "3,845.90",
+ "change": "+20.90",
+ "change_pct": "+0.54%",
+ "currencyCode": "USD",
+ "volume": "32,611",
+ "volume_alt": "32.6K",
+ "provider": "CNBC Quote Cache",
+ "previous_day_closing": "3,853.00",
+ "altSymbol": "GCZ26",
+ "realTime": "false",
+ "curmktstatus": "REG_MKT",
+ "yrhiprice": "5,586.20",
+ "yrhidate": "01/29/26",
+ "yrloprice": "3,845.90",
+ "yrlodate": "11/17/26",
+ "streamable": "1",
+ "open_interest": "209123",
+ "expiration_date": "2026-12-29",
+ "settlePrice": "3853.00",
+ "settleDate": "2026-11-16",
+ "issue_id": "49020635",
+ "countryCode": "US",
+ "timeZone": "EST",
+ "feedSymbol": "/GCZ26",
+ "portfolioindicator": "N"
+}

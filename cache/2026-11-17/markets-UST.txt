@@ -1,0 +1,53 @@
+URL: https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=.FTSE|.SPX|@LCO.1|GBP=|@GC.1|EURGBP=|.VIX|BTC.CB=|US10Y|UK10Y&requestMethod=itv&noform=1&partnerId=2&fund=1&exthrs=1&output=json
+SOURCE: CNBC quote webservice (quote.cnbc.com) — retrieved Tue 17 Nov 2026 ~08:00 GMT; figure timestamp (last_time): 2026-11-17T02:56:35.000-0500
+
+symbol=US10Y name=U.S. 10 Year Treasury last=5.117% change=-0.004 change_pct=-0.0781% previous_day_closing=5.121% last_time=2026-11-17T02:56:35.000-0500 curmktstatus=REG_MKT
+
+RAW CNBC JSON for this symbol:
+{
+ "symbol": "US10Y",
+ "symbolType": "symbol",
+ "code": 0,
+ "name": "U.S. 10 Year Treasury",
+ "shortName": "US 10-YR",
+ "onAirName": "U.S. 10 Year Treasury",
+ "altName": "",
+ "last": "5.117%",
+ "last_timedate": "2:56 AM EST",
+ "last_time": "2026-11-17T02:56:35.000-0500",
+ "changetype": "DOWN",
+ "type": "BOND",
+ "subType": "Government Bond",
+ "exchange": "Tradeweb",
+ "source": "Exchange",
+ "open": "5.121%",
+ "high": "5.137%",
+ "low": "5.115%",
+ "change": "-0.004",
+ "change_pct": "-0.0781%",
+ "provider": "CNBC Quote Cache",
+ "previous_day_closing": "5.121%",
+ "altSymbol": "US10YT=XX",
+ "realTime": "true",
+ "curmktstatus": "REG_MKT",
+ "yrhiprice": "5.37",
+ "yrhidate": "10/07/26",
+ "yrloprice": "3.93",
+ "yrlodate": "03/02/26",
+ "streamable": "1",
+ "bond_last_price": "99.0938",
+ "bond_change_price": "+0.0313",
+ "bond_change_pct_price": "+0.0315%",
+ "bond_open_price": "99.0625",
+ "bond_high_price": "99.1094",
+ "bond_low_price": "98.9375",
+ "bond_prev_day_closing_price": "99.0625",
+ "bond_changetype": "UP",
+ "maturity_date": "2036-11-15",
+ "coupon": "5.00%",
+ "issue_id": "5093160",
+ "countryCode": "US",
+ "timeZone": "EST",
+ "feedSymbol": "US10YT=TWEB",
+ "portfolioindicator": "N"
+}

@@ -1,0 +1,45 @@
+URL: https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=.FTSE|.SPX|@LCO.1|GBP=|@GC.1|EURGBP=|.VIX|BTC.CB=|US10Y|UK10Y&requestMethod=itv&noform=1&partnerId=2&fund=1&exthrs=1&output=json
+SOURCE: CNBC quote webservice (quote.cnbc.com) — retrieved Tue 17 Nov 2026 ~08:00 GMT; figure timestamp (last_time): 2026-11-17T02:56:00.000-0500
+
+symbol=EURGBP= name=Euro/UK Pound Sterling FX Cross Rate last=0.8339 change=+0.0002 change_pct=+0.02% previous_day_closing=0.8337 last_time=2026-11-17T02:56:00.000-0500 curmktstatus=REG_MKT
+
+RAW CNBC JSON for this symbol:
+{
+ "symbol": "EURGBP=",
+ "symbolType": "symbol",
+ "code": 0,
+ "name": "Euro/UK Pound Sterling FX Cross Rate",
+ "shortName": "EUR/GBP",
+ "onAirName": "Euro/Pound",
+ "altName": "Euro/UK Pound Sterling FX Cross Rate",
+ "last": "0.8339",
+ "last_timedate": "2:56 AM EST",
+ "last_time": "2026-11-17T02:56:00.000-0500",
+ "changetype": "UP",
+ "type": "CURRENCY",
+ "subType": "FOREX",
+ "exchange": "Exchange",
+ "source": "Exchange",
+ "open": "0.8336",
+ "high": "0.8356",
+ "low": "0.8336",
+ "change": "+0.0002",
+ "change_pct": "+0.02%",
+ "volume": "107,483",
+ "volume_alt": "107.5K",
+ "provider": "CNBC Quote Cache",
+ "previous_day_closing": "0.8337",
+ "altSymbol": "612458",
+ "realTime": "true",
+ "curmktstatus": "REG_MKT",
+ "yrhiprice": "0.88",
+ "yrhidate": "02/27/26",
+ "yrloprice": "0.83",
+ "yrlodate": "10/29/26",
+ "streamable": "1",
+ "issue_id": "612458",
+ "countryCode": "EU",
+ "timeZone": "EST",
+ "feedSymbol": "EURGBP=R",
+ "portfolioindicator": "N"
+}

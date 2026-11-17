@@ -1,0 +1,46 @@
+URL: https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=.FTSE|.SPX|@LCO.1|GBP=|@GC.1|EURGBP=|.VIX|BTC.CB=|US10Y|UK10Y&requestMethod=itv&noform=1&partnerId=2&fund=1&exthrs=1&output=json
+SOURCE: CNBC quote webservice (quote.cnbc.com) — retrieved Tue 17 Nov 2026 ~08:00 GMT; figure timestamp (last_time): 2026-11-17T02:56:38.000-0500
+
+symbol=BTC.CB= name=Bitcoin/USD Coinbase last=64,644.25 change=-376.50 change_pct=-0.58% previous_day_closing=65,020.75 last_time=2026-11-17T02:56:38.000-0500 curmktstatus=REG_MKT
+
+RAW CNBC JSON for this symbol:
+{
+ "symbol": "BTC.CB=",
+ "symbolType": "symbol",
+ "code": 0,
+ "name": "Bitcoin/USD Coinbase",
+ "shortName": "BITCOIN",
+ "onAirName": "Bitcoin/USD Coinbase",
+ "altName": "Bitcoin/USD Coinbase",
+ "last": "64,644.25",
+ "last_timedate": "2:56 AM EST",
+ "last_time": "2026-11-17T02:56:38.000-0500",
+ "changetype": "DOWN",
+ "type": "INDEX",
+ "subType": "CNBC Synthetic",
+ "exchange": "Exchange",
+ "source": "",
+ "open": "65,017.75",
+ "high": "65,467.25",
+ "low": "64,230.50",
+ "change": "-376.50",
+ "change_pct": "-0.58%",
+ "currencyCode": "USD",
+ "volume": "13,520",
+ "volume_alt": "13.5K",
+ "provider": "CNBC Quote Cache",
+ "previous_day_closing": "65,020.75",
+ "altSymbol": "112038635",
+ "realTime": "true",
+ "curmktstatus": "REG_MKT",
+ "yrhiprice": "100,434.86",
+ "yrhidate": "11/14/25",
+ "yrloprice": "57,756.25",
+ "yrlodate": "07/01/26",
+ "streamable": "1",
+ "issue_id": "112038635",
+ "countryCode": "CH",
+ "timeZone": "EST",
+ "feedSymbol": "BTC.CB=",
+ "portfolioindicator": "N"
+}
