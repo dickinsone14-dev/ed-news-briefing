@@ -2287,7 +2287,7 @@
  <!-- #1 Markets snapshot bar -->
  <!-- Embedded market data (populated by update script, used as fallback) -->
  <script id="embedded-markets" type="application/json">
-{"FTSE":{"price":10664.83,"change":-0.23},"SP":{"price":7340.53,"change":-1.03},"Brent":{"price":92.16,"change":-1.05},"GBP":{"price":1.3165,"change":-0.33},"Gold":{"price":3783.5,"change":-2.09},"EURGBP":{"price":0.8332,"change":0.08},"VIX":{"price":23.63,"change":-7.19},"BTC":{"price":64530.25,"change":0.98},"UST":{"price":5.087,"change":-0.016},"Gilt":{"price":5.3152,"change":-0.0596},"ts":"2026-11-18T10:06:00+00:00"}
+{"FTSE":{"price":10551.17,"change":-1.3},"SP":{"price":7323.63,"change":-0.23},"Brent":{"price":91.54,"change":-1.72},"GBP":{"price":1.3145,"change":-0.48},"Gold":{"price":3728.4,"change":-3.51},"EURGBP":{"price":0.8345,"change":0.24},"VIX":{"price":24.53,"change":-3.65},"BTC":{"price":62461.86,"change":-2.25},"UST":{"price":5.064,"change":-0.039},"Gilt":{"price":5.3035,"change":0.0133},"ts":"2026-11-18T21:16:00+00:00"}
 </script>
  <script id="market-descriptions" type="application/json">
 {
@@ -2296,80 +2296,80 @@
     "desc": "The UK's benchmark stock index, tracking the 100 largest companies listed on the London Stock Exchange by market capitalisation. Includes Shell, AstraZeneca, HSBC and Unilever.",
     "drivers_up": [],
     "drivers_down": [],
-    "updated": "2026-11-18 10:06 (reviewed at publication)"
+    "updated": "2026-11-18 21:16 (reviewed at publication)"
   },
   "SP": {
     "name": "S&P 500",
     "desc": "America's leading stock market index, tracking 500 of the largest US-listed companies. Dominated by mega-cap tech (Apple, Microsoft, Nvidia) but spans all sectors.",
     "drivers_up": [],
-    "drivers_down": [],
-    "updated": "2026-11-18 10:06 (reviewed at publication)"
+    "drivers_down": [
+      "Fed governor Waller said a half-point rate rise is probably necessary in December"
+    ],
+    "updated": "2026-11-18 21:16 (reviewed at publication)"
   },
   "Brent": {
     "name": "Brent Crude Oil",
     "desc": "The global benchmark for crude oil pricing, produced from oil fields in the North Sea. Used to price roughly two-thirds of the world's traded oil.",
     "drivers_up": [
-      "Iran attacks on Gulf bases; ADNOC tanker struck in Strait of Hormuz"
+      "Iranian attacks on Kuwait and Bahrain after the US strike on Qeshm Island"
     ],
     "drivers_down": [
-      "IEA says global oil supply has surpassed demand for the first time since the war began"
+      "IEA says Gulf crude exports recovered to more than 80% of pre-war levels in October"
     ],
-    "updated": "2026-11-18 10:06 (reviewed at publication)"
+    "updated": "2026-11-18 21:16 (reviewed at publication)"
   },
   "GBP": {
     "name": "GBP/USD",
     "desc": "The exchange rate between the British pound and the US dollar, commonly known as 'cable'. Reflects relative economic strength and interest rate differentials between the UK and US.",
     "drivers_up": [],
-    "drivers_down": [
-      "UK CPI of 3.6% was in line with forecasts"
-    ],
-    "updated": "2026-11-18 10:06 (reviewed at publication)"
+    "drivers_down": [],
+    "updated": "2026-11-18 21:16 (reviewed at publication)"
   },
   "Gold": {
     "name": "Gold (XAU/USD)",
     "desc": "The spot price of gold in US dollars per troy ounce. The world's oldest safe-haven asset, traditionally rising during periods of uncertainty, inflation and currency debasement.",
     "drivers_up": [],
     "drivers_down": [],
-    "updated": "2026-11-18 10:06 (reviewed at publication)"
+    "updated": "2026-11-18 21:16 (reviewed at publication)"
   },
   "EURGBP": {
     "name": "EUR/GBP",
     "desc": "The exchange rate between the euro and the British pound. Key for UK-EU trade pricing. A falling rate means sterling is strengthening against the euro.",
     "drivers_up": [],
     "drivers_down": [],
-    "updated": "2026-11-18 10:06 (reviewed at publication)"
+    "updated": "2026-11-18 21:16 (reviewed at publication)"
   },
   "Gilt": {
     "name": "UK 10-Year Gilt Yield",
     "desc": "The yield on 10-year UK government bonds (gilts). A key benchmark for UK borrowing costs, mortgage rates and pension fund valuations. Rising yields mean falling bond prices.",
     "drivers_up": [
-      "UK CPI rose to 3.6% in October; markets price about an 80% chance of a December rate rise"
+      "UK CPI rose to 3.6% in October"
     ],
-    "drivers_down": [
-      "Core and services inflation little changed in October"
-    ],
-    "updated": "2026-11-18 10:06 (reviewed at publication)"
+    "drivers_down": [],
+    "updated": "2026-11-18 21:16 (reviewed at publication)"
   },
   "VIX": {
     "name": "VIX (Volatility Index)",
     "desc": "The CBOE Volatility Index, often called the 'fear gauge'. Measures expected S&P 500 volatility over the next 30 days. Readings above 20 suggest elevated anxiety; above 30 signals acute stress.",
     "drivers_up": [],
     "drivers_down": [],
-    "updated": "2026-11-18 10:06 (reviewed at publication)"
+    "updated": "2026-11-18 21:16 (reviewed at publication)"
   },
   "BTC": {
     "name": "Bitcoin (BTC/USD)",
     "desc": "The price of Bitcoin in US dollars. The largest cryptocurrency by market cap, increasingly viewed as digital gold by institutional investors since spot ETF approvals.",
     "drivers_up": [],
     "drivers_down": [],
-    "updated": "2026-11-18 10:06 (reviewed at publication)"
+    "updated": "2026-11-18 21:16 (reviewed at publication)"
   },
   "UST": {
     "name": "US 10-Year Treasury Yield",
     "desc": "The yield on 10-year US government bonds, the global risk-free rate benchmark. Influences mortgage rates, corporate borrowing and equity valuations worldwide.",
-    "drivers_up": [],
+    "drivers_up": [
+      "Fed minutes show almost all officials expect further rate rises"
+    ],
     "drivers_down": [],
-    "updated": "2026-11-18 10:06 (reviewed at publication)"
+    "updated": "2026-11-18 21:16 (reviewed at publication)"
   }
 }
 </script>
@@ -2422,6 +2422,127 @@
  <!-- ════ ALL EDITIONS (sorted by JS) ════ -->
  <!-- IMPORTANT: Keep 7 FULL DAYS of editions in this container. Do NOT delete editions less than 7 days old. -->
  <div id="all-editions" style="display:none;">
+<!-- ── EVENING 18 NOV (21:16) ── -->
+<div class="curated-edition evening" data-date="2026-11-18" data-time="21:16" data-markets='{"FTSE":{"price":10551.17,"change":-1.3},"SP":{"price":7323.63,"change":-0.23},"Brent":{"price":91.54,"change":-1.72},"GBP":{"price":1.3145,"change":-0.48},"Gold":{"price":3728.4,"change":-3.51},"EURGBP":{"price":0.8345,"change":0.24},"VIX":{"price":24.53,"change":-3.65},"BTC":{"price":62461.86,"change":-2.25},"UST":{"price":5.064,"change":-0.039},"Gilt":{"price":5.3035,"change":0.0133},"ts":"2026-11-18T21:16:00+00:00"}'>
+  <div class="edition-header"><span class="edition-icon">&#9789;</span><h2>Evening Briefing</h2></div>
+  <div class="curated-meta">Wednesday 18 November 2026 &mdash; 21:16 GMT</div>
+  <div class="impact-box"><h3 class="impact-heading">What It Means For You</h3><ul class="impact-list"><li>Energy bills: Cornwall Insight forecasts that a typical household bill will rise by 26% to &pound;2,166 from January, with the official announcement due next week. SSE says it will begin closing a site holding a fifth of Britain&rsquo;s onshore gas storage next summer unless ministers step in.</li><li>Your local police: the Home Office plans about 200 Local Police Commands across England and Wales, each with a named commander and a remit covering burglary, vehicle theft, phone theft and antisocial behaviour.</li><li>Europe: Friday&rsquo;s UK&ndash;EU summit is expected to settle a youth mobility quota of about 100,000 people a year, and a food and drink deal that the Government says will cut paperwork on trade with the bloc.</li></ul></div>
+  <div class="curated-grid">
+    <div class="curated-column">
+      <h3><span class="dot geo"></span><span class="dot-label">GEO</span> Geopolitical</h3>
+        <div class="curated-item" data-time="16:10" data-slug="trump-putin-shake-hands-shenzhen-talks-thursday">
+          <h4>Trump and Putin shake hands in Shenzhen before Thursday&rsquo;s talks</h4>
+          <p>Donald Trump and Vladimir Putin met in person for the first time since August 2025 on Wednesday, shaking hands as Xi Jinping looked on at the Apec summit in Shenzhen. The two will hold one-on-one talks on Thursday, a US official said, alongside the first meeting of all three leaders. Dmitry Peskov, the Kremlin spokesman, said &ldquo;no more than an hour&rdquo; had been allocated for the trilateral session.</p>
+          <details class="dive-deeper"><summary>Dive deeper</summary><div class="deeper-content">The American envoys Steve Witkoff and Jared Kushner are expected in Berlin on Thursday to discuss security guarantees with Ukrainian and European officials. &ldquo;The Berlin meetings and President Trump&rsquo;s engagements in China are part of a coordinated diplomatic effort,&rdquo; the US official said; Andy Burnham told MPs he would also be in Berlin, for a meeting of the coalition of the willing. Volodymyr Zelensky warned last month against &ldquo;&lsquo;Yalta 2, 3, 4&rsquo; with a redistribution of influence&rdquo;. Ali Wyne of the International Crisis Group said of the summit: &ldquo;The symbolism is going to be very powerful.&rdquo; China&rsquo;s estimated 600 nuclear warheads compare with more than 5,000 each held by America and Russia. Mr Trump gave no toast at the evening banquet.</div></details>
+        </div>
+        <div class="curated-item" data-time="13:04" data-slug="gulf-states-repel-iranian-attacks-energy-chief-warns-hormuz">
+          <h4>Gulf states repel Iranian attacks as energy chief warns on Hormuz</h4>
+          <p>Kuwait and Bahrain said they had repelled Iranian air attacks overnight, on Day 264 of the war; the drone attack on Kuwait was the first in more than two months. Maj Gen Amir Hatami, Iran&rsquo;s army chief, threatened a response &ldquo;without geographic limitations&rdquo; to any new strike. Fatih Birol, head of the International Energy Agency, wrote: &ldquo;I don&rsquo;t see any credible pathway back to the situation that existed in February 2026.&rdquo;</p>
+          <details class="dive-deeper"><summary>Dive deeper</summary><div class="deeper-content">Bahrain, which hosts the US Navy&rsquo;s 5th Fleet, has reported four attacks in six days. Qatar, the mediator in the stalled talks, called the strikes a &ldquo;dangerous escalation that threatens to complicate efforts aimed at containing tensions&rdquo;; Saudi Arabia condemned them &ldquo;in the strongest terms&rdquo;. A third American aircraft carrier has arrived in the region, Iran&rsquo;s Fars news agency reported. Mr Birol, writing for The Economist, said confidence in the strait as a safe corridor &ldquo;has been crushed&rdquo; and that perceptions of risk &ldquo;have changed for good&rdquo;. Gulf crude exports recovered to more than 80% of pre-war levels in October, according to the agency&rsquo;s November report. Brent crude traded at $92.74 a barrel late on Wednesday morning.</div></details>
+        </div>
+        <div class="curated-item" data-time="14:39" data-slug="israel-launches-ground-operation-beyond-gaza-yellow-line">
+          <h4>Israel launches ground operation beyond Gaza&rsquo;s Yellow Line</h4>
+          <p>Israeli tanks advanced east of the Nuseirat refugee camp in central Gaza on Wednesday in a rare operation outside the area Israel controls. The military said it was acting &ldquo;to dismantle a terror tunnel west of the Yellow Line that posed an immediate and direct threat to IDF troops&rdquo;. Hamas called the advance &ldquo;a dangerous development and a flagrant violation of the ceasefire agreement&rdquo;. Gaza&rsquo;s civil defence agency said three people were killed in separate drone strikes.</p>
+          <details class="dive-deeper"><summary>Dive deeper</summary><div class="deeper-content">The incursion follows this week&rsquo;s warning from the Board of Peace that the truce risks collapse. At least 1,658 people have been killed in Israeli attacks since the ceasefire began in October 2025, according to Gaza&rsquo;s Hamas-run health ministry; Israel says six of its soldiers have died. Separately, Gali Baharav-Miara, Israel&rsquo;s attorney general, ordered that tenders for the E1 settlement in the West Bank should not be opened by Benjamin Netanyahu&rsquo;s caretaker government, days after Britain sanctioned eight construction firms; Israeli diplomats denied any link. Gadi Eisenkot, seen as the likely next prime minister, has said of E1: &ldquo;I recall that Netanyahu himself opposed this for a long time, and due to coalition pressure, he gave in and approved it.&rdquo;</div></details>
+        </div>
+        <div class="curated-item" data-time="13:20" data-slug="brussels-proposes-45bn-ukraine-loan-russian-strikes-odesa">
+          <h4>Brussels proposes &euro;45bn Ukraine loan as Russian strikes kill four in Odesa</h4>
+          <p>The European Commission has proposed a new &euro;45bn loan to Ukraine, repayable only after Russia has paid reparations. &ldquo;Five years since the start of this war of aggression, Europe stands united,&rdquo; Ursula von der Leyen said. Russian strikes on the historic centre of Odesa killed at least four people and wounded 13 on Wednesday; Volodymyr Zelensky said there were &ldquo;double-tap strikes after first responders and police officers had already arrived at the scene&rdquo;.</p>
+          <details class="dive-deeper"><summary>Dive deeper</summary><div class="deeper-content">Up to &euro;25bn could be spent on military aid and up to &euro;20bn on budget support. The loan requires member states&rsquo; approval and comes on top of the &euro;90bn agreed last year, from which Hungary, the Czech Republic and Slovakia opted out. Ukraine said it had struck the Ilsky and Afipsky oil refineries in Russia&rsquo;s Krasnodar region. The UN monitoring mission said attacks killed at least 372 Ukrainian civilians in October. In Vienna, Andrii Sybiha, the foreign minister, called the proposed appointment of Alexey Ferapontov, a Russian official under Ukrainian sanctions, as a deputy director general of the IAEA &ldquo;categorically unacceptable&rdquo;. Rafael Grossi replied: &ldquo;I&rsquo;m not appointing a country, I am not appointing a policy.&rdquo;</div></details>
+        </div>
+        <div class="curated-item" data-time="15:13" data-slug="fed-governor-half-point-rate-rise-shock-people">
+          <h4>Fed governor says half-point rate rise may be needed to &lsquo;shock people&rsquo;</h4>
+          <p>Christopher Waller, a Federal Reserve governor, said a half-point rise in American interest rates is probably necessary at the 8&ndash;9 December meeting. &ldquo;I&rsquo;m very, very concerned about inflation. It&rsquo;s kind of headed in the wrong direction, and it&rsquo;s spreading out,&rdquo; he told CNBC. &ldquo;You might need to, like, shock people.&rdquo; Futures fully price a quarter-point increase. Minutes of the October meeting, released later, showed officials expect further rises.</p>
+          <details class="dive-deeper"><summary>Dive deeper</summary><div class="deeper-content">The Fed held rates at 3.75%&ndash;4% in October by ten votes to two, having raised them in September for the first time in more than three years. The minutes record that &ldquo;most participants observed that AI-related debt had grown rapidly and that much of this growth had taken place through complex and opaque financing structures&rdquo;. John Williams, president of the New York Fed, said on Tuesday: &ldquo;I don&rsquo;t think the situation calls for dramatic action.&rdquo; American inflation reignited after the strikes on Iran in late February, and most readings remain above 3%. The ten-year Treasury yield eased to 5.064%; the S&amp;P 500 closed 0.23% lower and the FTSE 100 fell 1.3%.</div></details>
+        </div>
+    </div>
+    <div class="curated-column">
+      <h3><span class="dot dom"></span><span class="dot-label">UK</span> UK Domestic Politics</h3>
+        <div class="curated-item" data-time="12:35" data-slug="burnham-tells-badenoch-withdraw-crass-remark-amputees">
+          <h4>Burnham tells Badenoch to withdraw &lsquo;crass&rsquo; remark on amputees</h4>
+          <p>Andy Burnham has called on Kemi Badenoch to withdraw her defence of disability benefit cuts on the grounds that &ldquo;double amputees run marathons&rdquo;. Asked at Prime Minister&rsquo;s Questions about criticism of the remark by the Paralympian Richard Whitehead, he said: &ldquo;They were crass and insensitive, and I think she should withdraw them.&rdquo; Earlier, he told LBC he would consider &ldquo;very carefully&rdquo; the Milburn report&rsquo;s proposal to cut employers&rsquo; national insurance for under-25s.</p>
+          <details class="dive-deeper"><summary>Dive deeper</summary><div class="deeper-content">Mr Whitehead, who has won four Paralympic medals, said he was &ldquo;gobsmacked that somebody&rsquo;s sporting success would be weaponised in this way&rdquo;. Mrs Badenoch argued that the Milburn plans would not create jobs unless hiring became cheaper: &ldquo;They destroy jobs, they kill businesses, and then they offer the businesses a little money to give young people work placements.&rdquo; Mr Burnham accused her of a &ldquo;patronising tone&rdquo;. He told LBC his reforms were &ldquo;a very different proposition&rdquo; from last year&rsquo;s failed cuts, but gave no commitment on national insurance, which he said was a matter for the Budget. Employers pay 15% on earnings above &pound;5,000 for non-apprentices aged 21 to 24.</div></details>
+        </div>
+        <div class="curated-item" data-time="19:17" data-slug="brussels-wants-clarity-burnham-kyle-backs-rejoin-pledge">
+          <h4>Brussels wants clarity from Burnham as Kyle backs rejoin pledge</h4>
+          <p>The EU will not discuss Britain&rsquo;s longer-term relationship with the bloc until the Government has decided whether it wants to reverse Brexit, diplomats have told The Guardian. &ldquo;Don&rsquo;t come back until you know what you want,&rdquo; one said. Peter Kyle, the former business secretary, joined David Lammy in urging Mr Burnham to fight the next election on a promise to rejoin, with a referendum on the terms.</p>
+          <details class="dive-deeper"><summary>Dive deeper</summary><div class="deeper-content">Mr Kyle wrote: &ldquo;A campaign based on a complex halfway option, weighted with sovereignty implications, would be the worst of all worlds.&rdquo; Four former members of Sir Keir Starmer&rsquo;s cabinet have now backed rejoining; Mr Lammy told the BBC that the single market from outside was &ldquo;not a runner&rdquo;. Friday&rsquo;s summit is expected to settle a youth mobility quota of about 100,000 a year, and ministers will drop a promised ban on foie gras imports to ease a food deal that Defra says could be worth up to &pound;5bn a year. Sources say a year-long &ldquo;national conversation&rdquo; is being considered for 2027. Lord Cameron has warned that a fresh debate would be &ldquo;long and painful&rdquo;.</div></details>
+        </div>
+        <div class="curated-item" data-time="15:08" data-slug="mahmood-200-local-police-commands-two-tier-claims-false">
+          <h4>Mahmood announces 200 local police commands and calls two-tier claims &lsquo;false&rsquo;</h4>
+          <p>Policing in England and Wales will be rebuilt around about 200 Local Police Commands, Shabana Mahmood told police leaders, in what the Home Office calls the biggest reforms in two centuries. Each will have a named commander and concentrate on burglary, vehicle theft, phone theft and antisocial behaviour. &ldquo;Local policing is the bedrock of all policing,&rdquo; the Home Secretary said. She amended her speech to describe two-tier policing as a &ldquo;false idea&rdquo;.</p>
+          <details class="dive-deeper"><summary>Dive deeper</summary><div class="deeper-content">Specialist services for serious and complex crime will sit above the commands, with a National Police Service at the top; the Home Office says removing duplication across 43 headquarters will free thousands of officers. Ms Mahmood told reporters that talk of routine two-tier policing was &ldquo;utter, complete, ridiculous rubbish&rdquo;, while backing a ban on officers marching in uniform at Pride events. Nik Adams, the police chiefs&rsquo; LGBTQ+ lead, said describing such issues as contested &ldquo;makes LGBTQ people in policing and wider society feel less safe&rdquo;. Paul Williams of the Police Federation said of the leadership fast stream: &ldquo;Policing cannot fast-track its way to credible leadership while ignoring the fundamentals.&rdquo;</div></details>
+        </div>
+        <div class="curated-item" data-time="16:19" data-slug="sse-threatens-gas-storage-closure-enquest-quits-north-sea">
+          <h4>SSE threatens gas storage closure as EnQuest quits North Sea</h4>
+          <p>SSE has told investors it will begin closing its Atwick gas storage site in East Yorkshire next summer unless the Government offers support, while EnQuest said it was leaving the North Sea, blaming the &ldquo;uncertain investment environment within the UK&rdquo;. Atwick accounts for a fifth of Britain&rsquo;s onshore gas storage. Cornwall Insight forecasts that a typical household energy bill will rise by 26% to &pound;2,166 from January.</p>
+          <details class="dive-deeper"><summary>Dive deeper</summary><div class="deeper-content">EnQuest plans to sell its British oilfields to Neo Next+ for up to $960m. SSE said it was &ldquo;increasingly clear that existing market arrangements do not support&rdquo; the continued operation of the site; Centrica&rsquo;s Rough facility is also at risk. The National Energy System Operator warned for a second year that an outage during a very cold spell could leave supplies short of demand. High summer prices caused by the Iran war made stockpiling uneconomic, and European countries entered the colder months with gas stores at their lowest in more than a decade. Miatta Fahnbulleh, the Energy Secretary, said: &ldquo;Affordability is my number one priority.&rdquo; The Government says proposals on gas security will follow.</div></details>
+        </div>
+        <div class="curated-item" data-time="17:59" data-slug="birmingham-wins-high-court-injunction-flags-lamp-posts">
+          <h4>Birmingham wins High Court injunction against flags on lamp-posts</h4>
+          <p>Birmingham City Council has won an interim High Court injunction barring unauthorised flags from lamp-posts and other street furniture across the city. Judge Emma Kelly said there was a &ldquo;compelling need&rdquo; for the order, which names Ryan Bridge, leader of the Raise the Colours campaign, and carries a power of arrest. &ldquo;It is not the court nor the claimant &lsquo;banning the union jack&rsquo; or the display of Pride flags or anything of the like,&rdquo; she said.</p>
+          <details class="dive-deeper"><summary>Dive deeper</summary><div class="deeper-content">Thousands of St George&rsquo;s and Union flags have been put up in the city since summer 2025. The council argued that the displays created safety risks and fuelled tensions; the court heard that one man suffered a broken leg when struck by a cherry picker. Mr Bridge&rsquo;s barrister said the order would have a &ldquo;chilling effect&rdquo; on freedom of expression. Breaches could bring up to two years in prison. Robert Alden, leader of the city&rsquo;s Conservatives, said the council was &ldquo;punishing ordinary Birmingham residents who simply want to show pride in where they live&rdquo;. Oxfordshire County Council has already secured a permanent injunction; a further hearing takes place on Thursday.</div></details>
+        </div>
+    </div>
+  </div>
+  <details class="pmqs-wrapper">
+    <summary>
+      PMQs &mdash; The Key Exchanges
+      <span class="pmqs-meta">3 exchanges &middot; Wednesday 18 November</span>
+    </summary>
+    <div class="pmqs-summary">
+      <div class="pmqs-exchange">
+        <h4>Badenoch on Welfare: Ten Years Is Too Long</h4>
+        <p><span class="pmqs-speaker">Badenoch</span> said young people could not wait ten years for the Milburn reforms and that working-age welfare spending was set to rise. <span class="pmqs-speaker">Burnham</span> replied that the biggest rise in Neets came under the Conservatives, said she only ever asks for cuts and accused her of a &ldquo;patronising tone&rdquo;.</p>
+      </div>
+      <div class="pmqs-exchange">
+        <h4>Davey on Europe: Tear Up the Trade Deal</h4>
+        <p><span class="pmqs-speaker">Davey</span> urged the Prime Minister to ditch the trade and cooperation agreement and negotiate an entirely new deal, and raised Donald Trump&rsquo;s sale of Nvidia shares. <span class="pmqs-speaker">Burnham</span> said &ldquo;the Brexit deal that they negotiated wasn&rsquo;t good enough for Britain&rdquo; and described heckling Tory MPs as &ldquo;zombies&rdquo;.</p>
+      </div>
+      <div class="pmqs-exchange">
+        <h4>Nichols: Sporting Success Should Not Be &lsquo;Weaponised&rsquo;</h4>
+        <p>Asked by <span class="pmqs-speaker">Charlotte Nichols</span> (Labour) whether he agreed with Richard Whitehead, <span class="pmqs-speaker">Burnham</span> said Mrs Badenoch&rsquo;s remarks about amputees were &ldquo;crass and insensitive, and I think she should withdraw them&rdquo;.</p>
+      </div>
+    </div>
+  </details>
+  <div class="one-to-read"><h3 class="one-to-read-heading">One To Read</h3><p><a href="https://www.nbcnews.com/world/asia/world-waits-trump-xi-putin-prepare-high-stakes-meeting-rcna609776" target="_blank" rel="noopener">World waits as Trump, Xi and Putin prepare for high-stakes meeting</a> &mdash; NBC News on the Yalta comparisons, the nuclear arithmetic and why allies fear that &ldquo;if you are not at the table, you are on the menu&rdquo;.</p></div>
+  <!-- SOURCES USED (evening, 18 November 2026)
+ - https://www.bbc.co.uk/news/articles/ck9d75x5wwwwo &mdash; BBC, 18 November 16:10 GMT: Trump&ndash;Putin handshake, first meeting since August 2025, Peskov &ldquo;no more than an hour&rdquo;, one-on-one expected Thursday
+ - https://www.aljazeera.com/news/2026/11/18/trump-and-putin-to-meet-one-on-one-in-china-thursday &mdash; Al Jazeera, 18 November 20:12 GMT: US official on one-on-one meeting, Witkoff and Kushner in Berlin, &ldquo;coordinated diplomatic effort&rdquo;
+ - https://www.nbcnews.com/world/asia/world-waits-trump-xi-putin-prepare-high-stakes-meeting-rcna609776 &mdash; NBC News, 18 November 17:22 GMT: Wyne quotation, Zelensky &ldquo;Yalta&rdquo; quotation, warhead figures; One To Read
+ - https://www.cnbc.com/2026/11/18/trump-xi-putin-apec-shenzhen-china.html &mdash; CNBC, 18 November 16:14 GMT: welcome banquet and Xi&rsquo;s toast, Trump gave no toast
+ - https://www.bbc.co.uk/news/articles/cw4gn9jeqjq7o &mdash; BBC, 18 November 13:04 GMT: Kuwait and Bahrain repel attacks, first on Kuwait in more than two months, Hatami and Qatar quotations, four attacks in six days
+ - https://www.aljazeera.com/news/2026/11/18/kuwait-bahrain-face-new-iran-attacks-after-us-strike-on-qeshm-island &mdash; Al Jazeera with AP, 18 November 16:47 GMT: Saudi condemnation, third US carrier (Fars), cross-reference on attacks
+ - https://www.cnbc.com/2026/11/18/iea-strait-hormuz-energy-risk.html &mdash; CNBC, 18 November 12:00 GMT: Birol quotations (essay for The Economist), IEA November report on Gulf exports above 80% of pre-war levels, Brent $92.74 at 11:45 GMT
+ - https://www.bbc.co.uk/news/articles/cw8r7510degno &mdash; BBC, 18 November 20:14 GMT: Gaza operation, IDF and Hamas quotations, three killed in drone strikes, 1,658 killed since ceasefire, six Israeli soldiers
+ - https://www.aljazeera.com/news/2026/11/18/palestinians-flee-refugee-camp-as-israel-begins-operation-in-central-gaza &mdash; Al Jazeera, 18 November 14:39 GMT: tanks east of Nuseirat, cross-reference on operation and Hamas response
+ - https://www.timesofisrael.com/idf-launches-rare-gaza-operation-beyond-yellow-line-orders-civilians-out/ &mdash; Times of Israel, 18 November: cross-reference on tunnel operation and Board of Peace warning (summary retrieval; not quoted)
+ - https://www.theguardian.com/world/2026/nov/18/israel-construction-contracts-e1-west-bank-settlement-uk-sanctions &mdash; The Guardian, 18 November 14:05 GMT: E1 tenders deferred, Baharav-Miara, Israeli diplomats&rsquo; denial, Eisenkot quotation
+ - https://www.defensenews.com/global/europe/2026/11/18/eu-proposes-e45-billion-ukraine-loan-to-be-repaid-after-russia-pays-reparations/ &mdash; Defense News (Reuters), 18 November 13:20 GMT: loan terms, von der Leyen quotation, &euro;25bn/&euro;20bn split, &euro;90bn loan and opt-outs
+ - https://www.aljazeera.com/news/2026/11/18/russian-attacks-on-ukraine-kill-at-least-five-people &mdash; Al Jazeera with AFP, 18 November 15:32 GMT: Odesa casualties, Zelensky &ldquo;double-tap&rdquo; quotation, &euro;45bn loan
+ - https://abcnews.com/International/wireStory/ukraine-hit-2-russian-oil-refineries-zelenskyy-hails-138250394 &mdash; ABC News (AP), 18 November 11:26 GMT: Ilsky and Afipsky refineries, UN figure of 372 civilians killed in October
+ - https://abcnews.com/International/wireStory/ukraine-criticizes-iaea-plan-appoint-sanctioned-russian-official-138252932 &mdash; ABC News (AP), 18 November 11:25 GMT: Ferapontov appointment, Sybiha and Grossi quotations
+ - https://www.cnbc.com/2026/11/18/federal-reserve-governor-christopher-waller.html &mdash; CNBC, 18 November 15:13 GMT: Waller quotations, December meeting dates, futures pricing, Williams quotation, September rise
+ - https://www.cnbc.com/2026/11/18/fed-minutes-october-2026.html &mdash; CNBC, 18 November 19:41 GMT: October minutes, 10&ndash;2 vote, AI-related debt passage
+ - https://www.cnbc.com/2026/11/18/treasury-yields-bonds-fed.html &mdash; CNBC, 18 November 17:08 GMT: ten-year Treasury yield 5.064%, rates held at 3.75%&ndash;4%
+ - https://www.federalreserve.gov/monetarypolicy/fomcminutes20261028.htm &mdash; Federal Reserve, minutes of 27&ndash;28 October meeting, released 18 November: cross-reference on AI-related debt passage
+ - https://www.theguardian.com/politics/live/2026/nov/18/shabana-mahmood-andy-burnham-kemi-badenoch-pmqs-latest-news-updates &mdash; The Guardian politics live, 18 November (closed 17:06 GMT): PMQs exchanges, &ldquo;crass and insensitive&rdquo;, Whitehead quotation and medals, &ldquo;patronising tone&rdquo;, &ldquo;zombies&rdquo; and Brexit deal quotation, Davey, Berlin meeting, Mahmood &ldquo;false idea&rdquo; and &ldquo;ridiculous rubbish&rdquo;, Police Federation quotation
+ - https://www.theguardian.com/society/2026/nov/18/burnham-cuts-national-insurance-youth-jobs-milburn-report &mdash; The Guardian, 18 November 18:43 GMT: Burnham on LBC, national insurance rules, Badenoch quotation at PMQs
+ - https://www.theguardian.com/politics/2026/nov/18/kemi-badenoch-andy-burnham-consensus-politics-pmqs &mdash; The Guardian (John Crace), 18 November 17:35 GMT: cross-reference on PMQs exchanges (not quoted)
+ - https://www.theguardian.com/politics/2026/nov/18/eu-uk-reset-summit-talks-burnham-brexit &mdash; The Guardian, 18 November 19:17 GMT: EU diplomats&rsquo; position and quotation, quota of about 100,000, &ldquo;national conversation&rdquo; in 2027
+ - https://www.bbc.co.uk/news/articles/cm9q8jx05q3go &mdash; BBC, 18 November 17:09 GMT: Lammy on Today, &ldquo;not a runner&rdquo;, four former ministers, Cameron &ldquo;long and painful&rdquo;
+ - https://www.theguardian.com/politics/2026/nov/18/david-lammy-andy-burnham-campaign-rejoining-eu-election-brexit &mdash; The Guardian, 18 November 15:18 GMT: Kyle quotation and referendum proposal
+ - https://www.theguardian.com/politics/2026/nov/18/labour-drops-foie-gras-import-ban-eu-food-trade-deal &mdash; The Guardian, 18 November 13:47 GMT: foie gras ban dropped, Defra on &pound;5bn a year and reduced paperwork
+ - https://www.gov.uk/government/news/local-police-commands-created-to-tackle-everyday-crime &mdash; GOV.UK (Home Office), 18 November 15:08 GMT: about 200 Local Police Commands, named commanders, crimes covered, Mahmood &ldquo;bedrock&rdquo; quotation, 43 headquarters
+ - https://www.theguardian.com/politics/2026/nov/18/shabana-mahmood-backs-ban-on-police-marching-in-pride-events-in-uniform &mdash; The Guardian, 18 November 20:03 GMT: Pride uniform ban, Adams quotation
+ - https://www.theguardian.com/business/2026/nov/18/sse-threatens-to-close-yorkshire-gas-storage-site-unless-ministers-intervene &mdash; The Guardian, 18 November 16:19 GMT: SSE Atwick, EnQuest and Neo Next+, Rough, Neso warning, European gas stores (single-outlet for the company statements)
+ - https://www.bbc.co.uk/news/articles/cmy498kdkx3xo &mdash; BBC, 18 November 13:17 GMT: Cornwall Insight forecast of 26% rise to &pound;2,166, announcement next week, Fahnbulleh quotation
+ - https://www.bbc.co.uk/news/articles/ckq5vg81805qo &mdash; BBC, 18 November 17:59 GMT: Birmingham injunction, Judge Kelly quotations, power of arrest, broken leg, &ldquo;chilling effect&rdquo;, Oxfordshire, further hearing
+ - https://www.theguardian.com/uk-news/2026/nov/18/birmingham-council-interim-ban-union-jacks-raise-the-colours &mdash; The Guardian, 18 November 20:32 GMT: Alden quotation, cross-reference on injunction
+ - https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol &mdash; CNBC quote service, retrieved 18 November 21:11 GMT: all ten data-markets figures; S&amp;P 500 and FTSE 100 moves
+ NOTE: IEA is cited only as reported by CNBC. Le Monde, Sky News, ISW and NPR pages could not be retrieved in this run and no claims rest on them.
+ END SOURCES USED -->
+</div><!-- ── END EVENING 18 NOV (21:16) ── -->
 <!-- ── MORNING 18 NOV (10:06) ── -->
 <div class="curated-edition morning" data-date="2026-11-18" data-time="10:06" data-markets='{"FTSE":{"price":10664.83,"change":-0.23},"SP":{"price":7340.53,"change":-1.03},"Brent":{"price":92.16,"change":-1.05},"GBP":{"price":1.3165,"change":-0.33},"Gold":{"price":3783.5,"change":-2.09},"EURGBP":{"price":0.8332,"change":0.08},"VIX":{"price":23.63,"change":-7.19},"BTC":{"price":64530.25,"change":0.98},"UST":{"price":5.087,"change":-0.016},"Gilt":{"price":5.3152,"change":-0.0596},"ts":"2026-11-18T10:06:00+00:00"}'>
   <div class="edition-header"><span class="edition-icon">&#9788;</span><h2>Morning Briefing</h2></div>

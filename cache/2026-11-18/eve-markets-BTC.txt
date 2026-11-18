@@ -1,0 +1,4 @@
+URL: https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=BTC.CB=&requestMethod=itv&noform=1&partnerId=2&fund=1&exthrs=1&output=json
+SOURCE: CNBC quote webservice — retrieved Wed 18 Nov 2026 21:11 GMT; figure timestamp (last_time): 2026-11-18T16:11:29.000-0500
+
+symbol=BTC.CB= name=Bitcoin/USD Coinbase last=62,461.86 change=-1,439.89 change_pct=-2.25% previous_day_closing=63,901.75 last_time=2026-11-18T16:11:29.000-0500
