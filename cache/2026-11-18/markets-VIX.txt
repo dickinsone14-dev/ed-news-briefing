@@ -1,0 +1,4 @@
+URL: https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=.VIX&requestMethod=itv&noform=1&partnerId=2&fund=1&exthrs=1&output=json
+SOURCE: CNBC quote webservice — retrieved Wed 18 Nov 2026 ~09:50 GMT; figure timestamp (last_time): 2026-11-18T04:47:01.000-0500
+
+symbol=.VIX name=CBOE Volatility Index last=23.63 change=-1.83 change_pct=-7.19% previous_day_closing=25.46 last_time=2026-11-18T04:47:01.000-0500

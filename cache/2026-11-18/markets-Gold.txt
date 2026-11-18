@@ -1,0 +1,4 @@
+URL: https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=@GC.1&requestMethod=itv&noform=1&partnerId=2&fund=1&exthrs=1&output=json
+SOURCE: CNBC quote webservice — retrieved Wed 18 Nov 2026 ~09:50 GMT; figure timestamp (last_time): 2026-11-18T04:37:02.000-0500
+
+symbol=@GC.1 name=Gold COMEX (Dec'26) last=3,783.50 change=-80.70 change_pct=-2.09% previous_day_closing=3,864.20 last_time=2026-11-18T04:37:02.000-0500
