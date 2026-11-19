@@ -2193,11 +2193,11 @@
  - Hard expiry at 24h from "posted" (or at "expires" if set) — banner comes down
  - Optional "expires" field overrides the 8h default (e.g. for major events)
  To add a new breaking story, prepend an entry here with the current ISO timestamp. -->
- <script id="breaking-stories" type="application/json">[{"headline": "Israeli tanks enter central Gaza in first ground operation since ceasefire — 14:39 GMT", "posted": "2026-11-18T14:40:00Z", "category": "GEOPOLITICS", "summary": "Israeli tanks have advanced into central Gaza in what is reported to be the first ground operation since the US-brokered ceasefire took effect in October 2025. The Israeli military said it was targeting \"Hamas infrastructure\" west of the Yellow Line, with witnesses reporting tanks on the main Salah al-Din road; Hamas called the move \"a blatant violation of the ceasefire agreement\". The incursion comes hours after the US-led Board of Peace warned the truce was close to collapse.", "facts": [{"label": "Location", "value": "Central Gaza, west of the Yellow Line; tanks reported on the Salah al-Din road"}, {"label": "Israeli position", "value": "Operation against \"Hamas infrastructure\"; Israel says Hamas is regrouping and rearming"}, {"label": "Casualties today", "value": "One killed in a strike near the raid and two in Deir al-Balah and Gaza City, say Palestinian medics"}, {"label": "Since the ceasefire", "value": "At least 1,600 Palestinians killed (Gaza health authorities); five Israeli soldiers killed (Israeli military)"}]}]</script>
+ <script id="breaking-stories" type="application/json">[]</script>
  <div class="breaking-banner" id="breakingBanner">
  <div class="breaking-inner">
  <span class="breaking-label">BREAKING</span>
- <span class="breaking-text" id="breakingText">Israeli tanks enter central Gaza in first ground operation since ceasefire &mdash; 14:39 GMT</span>
+ <span class="breaking-text" id="breakingText"></span>
  <span class="breaking-readmore" id="breakingReadmore">Read more</span>
  <button class="breaking-dismiss" id="breakingDismiss">&times;</button>
  </div>
@@ -2287,7 +2287,7 @@
  <!-- #1 Markets snapshot bar -->
  <!-- Embedded market data (populated by update script, used as fallback) -->
  <script id="embedded-markets" type="application/json">
-{"FTSE":{"price":10551.17,"change":-1.3},"SP":{"price":7323.63,"change":-0.23},"Brent":{"price":91.54,"change":-1.72},"GBP":{"price":1.3145,"change":-0.48},"Gold":{"price":3728.4,"change":-3.51},"EURGBP":{"price":0.8345,"change":0.24},"VIX":{"price":24.53,"change":-3.65},"BTC":{"price":62461.86,"change":-2.25},"UST":{"price":5.064,"change":-0.039},"Gilt":{"price":5.3035,"change":0.0133},"ts":"2026-11-18T21:16:00+00:00"}
+{"FTSE":{"price":10452.68,"change":-0.93},"SP":{"price":7227.49,"change":-1.31},"Brent":{"price":92.68,"change":0.79},"GBP":{"price":1.3103,"change":-0.33},"Gold":{"price":3683.29,"change":-1.05},"EURGBP":{"price":0.8378,"change":0.41},"Gilt":{"price":5.3207,"change":0.0023},"VIX":{"price":27.06,"change":10.18},"BTC":{"price":62966.02,"change":0.74},"UST":{"price":5.054,"change":-0.012},"ts":"2026-11-19T20:15:00+00:00"}
 </script>
  <script id="market-descriptions" type="application/json">
 {
@@ -2296,80 +2296,74 @@
     "desc": "The UK's benchmark stock index, tracking the 100 largest companies listed on the London Stock Exchange by market capitalisation. Includes Shell, AstraZeneca, HSBC and Unilever.",
     "drivers_up": [],
     "drivers_down": [],
-    "updated": "2026-11-18 21:16 (reviewed at publication)"
+    "updated": "2026-11-19 20:15 (reviewed at publication)"
   },
   "SP": {
     "name": "S&P 500",
     "desc": "America's leading stock market index, tracking 500 of the largest US-listed companies. Dominated by mega-cap tech (Apple, Microsoft, Nvidia) but spans all sectors.",
     "drivers_up": [],
-    "drivers_down": [
-      "Fed governor Waller said a half-point rate rise is probably necessary in December"
-    ],
-    "updated": "2026-11-18 21:16 (reviewed at publication)"
+    "drivers_down": [],
+    "updated": "2026-11-19 20:15 (reviewed at publication)"
   },
   "Brent": {
     "name": "Brent Crude Oil",
     "desc": "The global benchmark for crude oil pricing, produced from oil fields in the North Sea. Used to price roughly two-thirds of the world's traded oil.",
     "drivers_up": [
-      "Iranian attacks on Kuwait and Bahrain after the US strike on Qeshm Island"
+      "Reports that Trump is weighing a renewed air campaign against Iran"
     ],
     "drivers_down": [
-      "IEA says Gulf crude exports recovered to more than 80% of pre-war levels in October"
+      "US, China and Russia pledge to increase refined petroleum supply in Shenzhen declaration"
     ],
-    "updated": "2026-11-18 21:16 (reviewed at publication)"
+    "updated": "2026-11-19 20:15 (reviewed at publication)"
   },
   "GBP": {
     "name": "GBP/USD",
     "desc": "The exchange rate between the British pound and the US dollar, commonly known as 'cable'. Reflects relative economic strength and interest rate differentials between the UK and US.",
     "drivers_up": [],
     "drivers_down": [],
-    "updated": "2026-11-18 21:16 (reviewed at publication)"
+    "updated": "2026-11-19 20:15 (reviewed at publication)"
   },
   "Gold": {
     "name": "Gold (XAU/USD)",
     "desc": "The spot price of gold in US dollars per troy ounce. The world's oldest safe-haven asset, traditionally rising during periods of uncertainty, inflation and currency debasement.",
     "drivers_up": [],
     "drivers_down": [],
-    "updated": "2026-11-18 21:16 (reviewed at publication)"
+    "updated": "2026-11-19 20:15 (reviewed at publication)"
   },
   "EURGBP": {
     "name": "EUR/GBP",
     "desc": "The exchange rate between the euro and the British pound. Key for UK-EU trade pricing. A falling rate means sterling is strengthening against the euro.",
     "drivers_up": [],
     "drivers_down": [],
-    "updated": "2026-11-18 21:16 (reviewed at publication)"
+    "updated": "2026-11-19 20:15 (reviewed at publication)"
   },
   "Gilt": {
     "name": "UK 10-Year Gilt Yield",
     "desc": "The yield on 10-year UK government bonds (gilts). A key benchmark for UK borrowing costs, mortgage rates and pension fund valuations. Rising yields mean falling bond prices.",
-    "drivers_up": [
-      "UK CPI rose to 3.6% in October"
-    ],
+    "drivers_up": [],
     "drivers_down": [],
-    "updated": "2026-11-18 21:16 (reviewed at publication)"
+    "updated": "2026-11-19 20:15 (reviewed at publication)"
   },
   "VIX": {
     "name": "VIX (Volatility Index)",
     "desc": "The CBOE Volatility Index, often called the 'fear gauge'. Measures expected S&P 500 volatility over the next 30 days. Readings above 20 suggest elevated anxiety; above 30 signals acute stress.",
     "drivers_up": [],
     "drivers_down": [],
-    "updated": "2026-11-18 21:16 (reviewed at publication)"
+    "updated": "2026-11-19 20:15 (reviewed at publication)"
   },
   "BTC": {
     "name": "Bitcoin (BTC/USD)",
     "desc": "The price of Bitcoin in US dollars. The largest cryptocurrency by market cap, increasingly viewed as digital gold by institutional investors since spot ETF approvals.",
     "drivers_up": [],
     "drivers_down": [],
-    "updated": "2026-11-18 21:16 (reviewed at publication)"
+    "updated": "2026-11-19 20:15 (reviewed at publication)"
   },
   "UST": {
     "name": "US 10-Year Treasury Yield",
     "desc": "The yield on 10-year US government bonds, the global risk-free rate benchmark. Influences mortgage rates, corporate borrowing and equity valuations worldwide.",
-    "drivers_up": [
-      "Fed minutes show almost all officials expect further rate rises"
-    ],
+    "drivers_up": [],
     "drivers_down": [],
-    "updated": "2026-11-18 21:16 (reviewed at publication)"
+    "updated": "2026-11-19 20:15 (reviewed at publication)"
   }
 }
 </script>
@@ -2422,6 +2416,109 @@
  <!-- ════ ALL EDITIONS (sorted by JS) ════ -->
  <!-- IMPORTANT: Keep 7 FULL DAYS of editions in this container. Do NOT delete editions less than 7 days old. -->
  <div id="all-editions" style="display:none;">
+<!-- ── EVENING 19 NOV (20:15) ── -->
+<div class="curated-edition evening" data-date="2026-11-19" data-time="20:15" data-markets='{"FTSE":{"price":10452.68,"change":-0.93},"SP":{"price":7227.49,"change":-1.31},"Brent":{"price":92.68,"change":0.79},"GBP":{"price":1.3103,"change":-0.33},"Gold":{"price":3683.29,"change":-1.05},"EURGBP":{"price":0.8378,"change":0.41},"Gilt":{"price":5.3207,"change":0.0023},"VIX":{"price":27.06,"change":10.18},"BTC":{"price":62966.02,"change":0.74},"UST":{"price":5.054,"change":-0.012},"ts":"2026-11-19T20:15:00+00:00"}'>
+  <div class="edition-header"><span class="edition-icon">&#9789;</span><h2>Evening Briefing</h2></div>
+  <div class="curated-meta">Thursday 19 November 2026 &mdash; 20:15 GMT</div>
+  <div class="impact-box"><h3 class="impact-heading">What It Means For You</h3><ul class="impact-list"><li>Food and travel: if Friday&rsquo;s UK&ndash;EU summit lands a deal, the Government says the food and drink agreement could add &pound;5bn to the economy and cut food prices, and a youth mobility scheme provisionally capped at 100,000 a year would open work and travel to young people up to 31. Legislation would follow next week.</li><li>Leaseholders: the Commonhold and Leasehold Reform Bill caps ground rents at &pound;250, expected from 2028, and lets a block convert to commonhold with 50% of leaseholders in favour rather than all of them.</li><li>Savings and pensions: the FTSE 100 closed 0.93% lower at 10,452.68 and sterling slipped to $1.3103; Brent crude rose to $92.68 a barrel despite the Shenzhen pledge to raise refined-fuel supply.</li></ul></div>
+  <div class="curated-grid">
+    <div class="curated-column">
+      <h3><span class="dot geo"></span><span class="dot-label">GEO</span> Geopolitical</h3>
+        <div class="curated-item" data-time="09:00" data-slug="trump-xi-putin-peace-declaration-shenzhen">
+          <h4>Trump, Xi and Putin issue peace declaration silent on Ukraine and Iran</h4>
+          <p>Donald Trump, Xi Jinping and Vladimir Putin held their first trilateral talks in Shenzhen on Thursday, issuing a &ldquo;joint declaration of peace&rdquo; that made no mention of the wars in Ukraine or Iran. The three affirmed that &ldquo;nuclear war cannot be won and must never be fought&rdquo;, pledged to increase refined-petroleum supply and committed to reform the UN. Mr Trump called it &ldquo;a great and highly consequential trip&rdquo;.</p>
+          <details class="dive-deeper"><summary>Dive deeper</summary><div class="deeper-content">The declaration also stated that the International Criminal Court and similar bodies &ldquo;must not abuse their jurisdiction&rdquo; &mdash; a clause of obvious value to Mr Putin, who is subject to an ICC arrest warrant. Its nuclear language repeats wording previously adopted by the five permanent Security Council members and offers no framework for arms reduction. Prof William Hurst of Cambridge&rsquo;s Centre for Geopolitics said: &ldquo;This was no Yalta moment, but it was certainly a solid public demonstration of Russia&rsquo;s (and Putin&rsquo;s) continuing relevance and power.&rdquo; Mr Trump will hold a White House news conference on the trip on Friday.</div></details>
+        </div>
+        <div class="curated-item" data-time="16:45" data-slug="uk-pledges-1000-strike-drones-berlin">
+          <h4>Britain pledges 1,000 long-range strike drones as allies meet in Berlin</h4>
+          <p>Andy Burnham announced 1,000 long-range strike drones for Ukraine, part of a &pound;260m winter package, at a Coalition of the Willing meeting in Berlin attended by the US envoys Jared Kushner and Steve Witkoff. The drones can fly up to 1,000km. Friedrich Merz warned: &ldquo;A &lsquo;Yalta-style&rsquo; format will not bring about peace.&rdquo; Mr Burnham said: &ldquo;Europe is ready to enter these negotiations.&rdquo;</p>
+          <details class="dive-deeper"><summary>Dive deeper</summary><div class="deeper-content">Mr Kushner said Moscow appeared &ldquo;comfortable&rdquo; with Article 5-style security guarantees for Ukraine in any settlement &mdash; a claim the Kremlin has not echoed. The Government said 80% of the package would be spent in Britain and put total UK support since 2022 at &pound;35.5bn. The pledge sits awkwardly with Washington: Elbridge Colby, the Pentagon policy chief, told allies this week that deep strikes &ldquo;have not been effective in driving an end to the war&rdquo;, a view Boris Pistorius, Germany&rsquo;s defence minister, called &ldquo;quite a stupid thing&rdquo;. Ukraine&rsquo;s defence minister wants 62% of weapons funding spent on drones.</div></details>
+        </div>
+        <div class="curated-item" data-time="13:00" data-slug="putin-rules-out-ceasefire-after-crimean-bridge">
+          <h4>Putin rules out limited ceasefire after third strike on Crimean Bridge</h4>
+          <p>Vladimir Putin said Russia would make no agreement on a partial ceasefire after Ukraine struck the Kerch Bridge to Crimea for the third time in four days. &ldquo;We will not make agreements after strikes on the Crimean Bridge. We will respond to these strikes,&rdquo; he told reporters in Shenzhen, promising a &ldquo;far more painful&rdquo; response. Thursday&rsquo;s overnight Neptune missile strike halted rail traffic; road traffic remains barred.</p>
+          <details class="dive-deeper"><summary>Dive deeper</summary><div class="deeper-content">Tuesday&rsquo;s combined missile-and-drone strike collapsed an arch and dragged about 200m of road deck into the sea &mdash; the worst damage to the 12-mile bridge in years. Volodymyr Zelensky described a seven-stage operation that first stripped away air defences, radars and electronic-warfare cover. Train services resumed on Thursday afternoon, but Russia must now move more fuel and ammunition overland, where Kyiv&rsquo;s defence ministry said &ldquo;our drones are waiting for the cargo&rdquo;. Mr Putin insisted that &ldquo;the realities on the ground will have to be accepted&rdquo;, even as Kyiv came under Russian drone attack.</div></details>
+        </div>
+        <div class="curated-item" data-time="11:20" data-slug="trump-weighs-renewed-iran-strikes-netanyahu">
+          <h4>Trump weighs renewed Iran strikes as Netanyahu calls war &lsquo;unavoidable&rsquo;</h4>
+          <p>Donald Trump is weighing a new air campaign against Iran on Day 265 of the war but has not decided, as Benjamin Netanyahu is reported to have told ministers that &ldquo;an operation against Iran is unavoidable&rdquo;. A senior Israeli officer said Israel and US Central Command have &ldquo;shared and approved plans&rdquo; and that &ldquo;the question is the timing&rdquo;. The Pentagon said &ldquo;all options remain on the table&rdquo;.</p>
+          <details class="dive-deeper"><summary>Dive deeper</summary><div class="deeper-content">Options presented by Pete Hegseth and Gen Dan Caine reportedly include Iran&rsquo;s missile and drone arsenals, Revolutionary Guard command centres and energy facilities; US-based B-1 and B-2 bombers are said to be on 96-hour notice. Tehran rejected Mr Trump&rsquo;s claim that it was turning to &ldquo;gases&rdquo; and &ldquo;bio&rdquo;, with Esmaeil Baqaei, the foreign ministry spokesman, invoking &ldquo;Colin Powell&rsquo;s infamous appearance before the UN Security Council in 2003&rdquo;. At the IAEA board, Britain, France, Germany and the US accused Iran of &ldquo;stonewalling&rdquo; on inspections. Mr Netanyahu leads a caretaker government after losing his majority in October.</div></details>
+        </div>
+        <div class="curated-item" data-time="08:45" data-slug="icj-rules-myanmar-genocide-rohingya">
+          <h4>UN court rules Myanmar committed genocide against the Rohingya</h4>
+          <p>The International Court of Justice ruled by nine votes to six that Myanmar committed genocide against its Rohingya minority &mdash; the first time an international court has found a state guilty of genocide. Yuji Iwasawa, the court&rsquo;s president, said Myanmar had the &ldquo;intention to destroy&rdquo; a substantial part of the group and engaged in &ldquo;extensive destruction of evidence&rdquo;. Myanmar must allow refugees to return and pay compensation.</p>
+          <details class="dive-deeper"><summary>Dive deeper</summary><div class="deeper-content">The case, brought by The Gambia, centred on the 2017 &ldquo;clearance operations&rdquo; in Rakhine State. The court found that about 10,000 Rohingya were &ldquo;violently killed&rdquo; and some 815,000 targeted; more than 700,000 fled to Bangladesh, where around a million refugees now live at Cox&rsquo;s Bazar. It held that &ldquo;genocidal intent is the only reasonable inference&rdquo; from the evidence. Compensation will be set in later proceedings. The judgment lands as the court weighs genocide allegations linked to Gaza and Ukraine.</div></details>
+        </div>
+    </div>
+    <div class="curated-column">
+      <h3><span class="dot dom"></span><span class="dot-label">UK</span> UK Domestic Politics</h3>
+        <div class="curated-item" data-time="16:20" data-slug="uk-eu-reset-talks-down-to-wire">
+          <h4>UK&ndash;EU reset talks go &lsquo;down to the wire&rsquo; before Brussels summit</h4>
+          <p>British and EU negotiators have provisionally agreed to admit 100,000 young EU citizens a year under a youth mobility scheme, as talks before Friday&rsquo;s Brussels summit went &ldquo;down to the wire&rdquo;. Disputes remain over Britain&rsquo;s say in future EU food rules and tuition fees for EU students. Andy Burnham said the deal offered &ldquo;the possibility of lower food prices and I can&rsquo;t turn my back on that&rdquo;.</p>
+          <details class="dive-deeper"><summary>Dive deeper</summary><div class="deeper-content">The food and drink agreement, which the Government says could add &pound;5bn to the economy, would require dynamic alignment with EU sanitary and phytosanitary rules from 1 March 2028. &ldquo;They want to be able to shape decisions, not only implementation, but future decisions. That has always been a red line,&rdquo; one EU diplomat said. Kemi Badenoch accused the Prime Minister of &ldquo;reopening the divisions and debates&rdquo; of the referendum. A YouGov experiment found the rejoin lead swings from +21 points when euro membership is excluded to level when it is required.</div></details>
+        </div>
+        <div class="curated-item" data-time="09:30" data-slug="covid-inquiry-border-controls-test-trace">
+          <h4>Covid inquiry finds lax border controls left Britain &lsquo;extremely vulnerable&rsquo;</h4>
+          <p>The Covid-19 inquiry&rsquo;s seventh report found that virtually unrestricted international travel in early 2020 left the UK in an &ldquo;extremely vulnerable position&rdquo;, and that the slow creation of test and trace let the virus spread &ldquo;with deadly speed across the country, virtually unchecked&rdquo;. Baroness Hallett said the UK entered the pandemic &ldquo;woefully ill-prepared&rdquo;, leaving decision-makers &ldquo;effectively blind&rdquo;.</p>
+          <details class="dive-deeper"><summary>Dive deeper</summary><div class="deeper-content">The report identified 18 February 2020, when there were only nine confirmed UK cases, as the ideal moment for travel restrictions; by April, 93% of countries had imposed them. More than &pound;30bn was spent across the UK on testing, tracing and isolation. Earlier exercises, including Cygnus and Alice, had flagged weaknesses that were not fully acted upon. The Covid-19 Bereaved Families for Justice group said the report had &ldquo;once again exposed lies and incompetence&rdquo;. The inquiry, the most expensive in history at more than &pound;200m, has three reports still to come.</div></details>
+        </div>
+        <div class="curated-item" data-time="10:00" data-slug="leasehold-timetable-ground-rent-cap">
+          <h4>Government sets timetable to dismantle leasehold, capping ground rents at &pound;250</h4>
+          <p>The Commonhold and Leasehold Reform Bill was introduced to Parliament on Thursday, capping ground rents at &pound;250 from 2028 before they fall to a peppercorn after 40 years. Commonhold is expected to be operating around 2029, with the sale of most new leasehold flats banned around 2031. Matthew Pennycook, the housing minister, called it &ldquo;the beginning of the end for the feudal leasehold system&rdquo;.</p>
+          <details class="dive-deeper"><summary>Dive deeper</summary><div class="deeper-content">Around five million homes in England and Wales are leasehold. Existing blocks will be able to convert to commonhold with the support of 50% of leaseholders, rather than unanimity. Abena Oppong-Asare, who chairs the Commons Housing Committee, urged ministers to consider &ldquo;accelerating the timetable&rdquo; for the cap. Angela Rayner, the Housing Secretary, defended the pace, calling leasehold an area &ldquo;fraught with legal challenge&rdquo;. The Bill must clear both Houses, a process expected to take several months.</div></details>
+        </div>
+        <div class="curated-item" data-time="14:30" data-slug="cleverly-tory-london-mayor-candidate">
+          <h4>Cleverly selected as Conservative candidate for London mayor</h4>
+          <p>Sir James Cleverly, the former home and foreign secretary, has been chosen as the Conservative candidate for the 2028 London mayoral election after winning 86% of members&rsquo; votes. The Braintree MP will not seek re-election to the Commons. &ldquo;The problems London faces are the symptoms. Khan is the cause,&rdquo; he said of Lord Khan, the Labour incumbent, who has not confirmed whether he will seek a fourth term.</p>
+          <details class="dive-deeper"><summary>Dive deeper</summary><div class="deeper-content">Sir James, a former head of the London Fire Authority and London Assembly member, stood down from the shadow cabinet in August and lost the 2024 leadership race to Kemi Badenoch. Bridget Phillipson, the Labour chair, said he &ldquo;has a record of failure and now wants to inflict his disastrous CV on London&rdquo;. Reform UK&rsquo;s Laila Cunningham is the only other confirmed party nominee. Lord Khan, first elected in 2016, would have served 12 years by polling day.</div></details>
+        </div>
+        <div class="curated-item" data-time="08:15" data-slug="badenoch-refuses-retract-amputee-remarks">
+          <h4>Badenoch refuses to retract amputee remarks in benefits row</h4>
+          <p>Kemi Badenoch stood by her suggestion that, because double amputees run marathons, more disabled people should work rather than claim benefits. Asked on BBC Radio 4&rsquo;s Today programme whether the comments were insensitive, she said: &ldquo;No, no, no. I do not accept it.&rdquo; Andy Burnham had called her words &ldquo;crass and insensitive&rdquo;; the Paralympian Richard Whitehead accused her of &ldquo;weaponising&rdquo; his success.</p>
+          <details class="dive-deeper"><summary>Dive deeper</summary><div class="deeper-content">The remarks were made while setting out Conservative plans to cut welfare spending by &pound;36bn a year. Mrs Badenoch said that &ldquo;if people even with significant problems can work, then those who have ADHD and mild anxiety should go to work&rdquo;, and later described the message as one of hope. She acknowledged using &ldquo;extreme examples to illustrate things&rdquo;. Mr Whitehead, a four-time Paralympic medallist, said he was &ldquo;gobsmacked that somebody&rsquo;s sporting success would be weaponised in this way&rdquo;.</div></details>
+        </div>
+    </div>
+  </div>
+  <div class="one-to-read"><h3 class="one-to-read-heading">One To Read</h3><p><a href="https://www.bbc.co.uk/news/articles/cwn70vrjlg8ro" target="_blank" rel="noopener">Trilateral summit high on spectacle, short on substance</a> &mdash; Anthony Zurcher of the BBC on why the optics of a summit billed as &ldquo;Yalta 2.0&rdquo; may be its only lasting impression.</p></div>
+  <!-- SOURCES USED (evening, 19 November 2026)
+ - https://www.bbc.co.uk/news/articles/c623j4ln97x7o &mdash; BBC, 19 November 17:38 GMT: &ldquo;joint declaration of peace&rdquo;, 90-minute talks, nuclear-war and petroleum wording, UN reform, ICC clause, Trump &ldquo;great and highly consequential trip&rdquo;, Friday news conference, Putin &ldquo;realities on the ground&rdquo;, Kyiv under drone attack
+ - https://www.theguardian.com/world/2026/nov/19/china-russia-us-agree-peace-statement-no-mention-ukraine-iran-wars &mdash; The Guardian, 19 November 17:13 GMT: no mention of Ukraine or Iran, P5 wording, ICC warrant context, Hurst quotation
+ - https://www.cnbc.com/2026/11/19/trump-xi-putin-trilateral-meeting-china.html &mdash; CNBC, 19 November 17:01 GMT: identical statements, refined petroleum products, nuclear-risk dialogue, UN reform, ICC wording
+ - https://abcnews.com/International/wireStory/china-russia-us-agree-reforms-boosting-fuel-supplies-138269362 &mdash; ABC News / AP, 19 November: cross-reference on declaration (not quoted)
+ - https://www.aljazeera.com/news/2026/11/19/groundbreaking-trump-xi-putin-summit-five-key-takeaways &mdash; Al Jazeera, 19 November 13:13 GMT: cross-reference on summit (not quoted)
+ - https://www.bbc.co.uk/news/articles/cwn70vrjlg8ro &mdash; BBC (Anthony Zurcher), 19 November 17:55 GMT: One To Read; &ldquo;Yalta 2.0&rdquo;, optics as lasting impression
+ - https://www.bbc.co.uk/news/articles/c5n4em9mkkzeo &mdash; BBC, 19 November 17:59 GMT: 1,000 drones, &pound;260m package, 1,000km range, 80% spent in UK, &pound;35.5bn, Burnham &ldquo;Europe is ready&rdquo; quotation, Kushner and Witkoff present
+ - https://www.theguardian.com/world/live/2026/nov/19/russia-ukraine-war-coalition-of-the-willing-europe-latest-news-updates &mdash; The Guardian Europe live, closed 18:03 GMT: Merz &ldquo;Yalta-style&rdquo; quotation, Kushner &ldquo;comfortable&rdquo; with Article 5-type guarantees, press conference timing
+ - https://www.irishtimes.com/world/europe/2026/11/19/european-allies-say-more-support-crucial-for-ukraine-to-withstand-long-winter/ &mdash; The Irish Times, 19 November 18:08 GMT: cross-reference on Berlin meeting (not quoted)
+ - https://www.irishtimes.com/world/europe/2026/11/19/europe-rallies-behind-zelenskiy-after-trump-putin-moment/ &mdash; The Irish Times, 19 November 17:33 GMT: cross-reference on Berlin meeting (not quoted)
+ - https://www.defensenews.com/global/europe/2026/11/19/ukraine-plans-to-double-drone-supplies-triple-deep-strikes/ &mdash; Defense News, 19 November 13:21 GMT: Colby and Pistorius quotations, 62% of funding to drones, &pound;260m package cross-reference
+ - https://www.bbc.co.uk/news/articles/cm879dqn3e1jo &mdash; BBC, 19 November 13:07 GMT: &ldquo;far more painful&rdquo;, third strike this week, Neptune missiles, ~200m road section, rail resumed in afternoon, seven-stage operation, worst damage in years
+ - https://www.cbsnews.com/news/putin-russia-ukraine-bridge-strike/ &mdash; CBS News, 19 November: Putin no partial-ceasefire agreements, &ldquo;We will not make agreements&hellip;&rdquo; quotation (via TASS), 12-mile bridge
+ - https://abcnews.com/International/wireStory/ukrainian-strike-4-days-halts-rail-traffic-russias-138280630 &mdash; ABC News / AP, 19 November 09:02 GMT: third strike in four days halted rail traffic, &ldquo;our drones are waiting for the cargo&rdquo;
+ - https://www.timesofisrael.com/netanyahu-reportedly-tells-aides-renewed-war-with-iran-unavoidable-as-trump-weighs-options/ &mdash; The Times of Israel, 19 November 18:27 GMT (WebFetch extraction): Netanyahu &ldquo;unavoidable&rdquo;, &ldquo;shared and approved plans&rdquo;, &ldquo;the question is the timing&rdquo;, IAEA &ldquo;stonewalling&rdquo;, lost majority 27 October
+ - https://www.iranintl.com/en/202611193868 &mdash; Iran International, 19 November (reporting NYT): no decision, Hegseth and Caine options, target sets, B-1/B-2 on 96-hour notice, Pentagon &ldquo;all options remain on the table&rdquo;, caretaker government
+ - https://www.cbsnews.com/live-updates/iran-war-us-gulf-retaliation-strikes-strait-of-hormuz/ &mdash; CBS News live, 19 November: Trump &ldquo;gases&rdquo;/&ldquo;bio&rdquo; quotation, Baqaei Colin Powell quotation
+ - https://www.bbc.co.uk/news/articles/c804wzp20ddvo &mdash; BBC, 19 November 16:55 GMT: ICJ genocide ruling, first time, 9&ndash;6, Iwasawa quotations, ~10,000 killed, 815,000 targeted, 700,000 fled, Cox&rsquo;s Bazar, &ldquo;only reasonable inference&rdquo;, The Gambia
+ - https://abcnews.com/International/wireStory/top-court-set-rule-case-alleging-myanmar-committed-138279244 &mdash; ABC News / AP, 19 November 09:02 GMT: 9-6 decision, return and compensation orders, amount in later proceedings, Gaza and Ukraine genocide cases
+ - https://www.aljazeera.com/news/2026/11/19/what-the-icj-ruling-means-for-the-rohingya &mdash; Al Jazeera, 19 November 14:31 GMT: cross-reference on ICJ ruling (not quoted)
+ - https://www.theguardian.com/world/2026/nov/19/uk-eu-reset-talks-andy-burnham-food-farming-tuition-fees &mdash; The Guardian, 19 November 17:19 GMT: 100,000 youth mobility cap, age 31, SPS dispute, tuition fees, EU diplomat &ldquo;red line&rdquo; quotation, 1 March 2028, legislation next week
+ - https://www.bbc.co.uk/news/articles/c623j4kpg94go &mdash; BBC, 19 November 16:23 GMT: &ldquo;down to the wire&rdquo;, Badenoch &ldquo;reopening the divisions&rdquo;, Burnham &ldquo;lower food prices&rdquo; quotation, &pound;5bn, legislation next week
+ - https://www.aljazeera.com/news/2026/11/19/as-burnham-heads-to-brussels-are-new-brexit-wars-about-to-begin &mdash; Al Jazeera, 19 November 15:24 GMT: cross-reference on summit (not quoted)
+ - https://www.irishtimes.com/world/europe/2026/11/19/andy-burnham-will-sign-a-brexit-reset-deal-tomorrow-the-real-battle-comes-next/ &mdash; The Irish Times, 19 November 05:00 GMT: cross-reference on summit (not quoted)
+ - https://yougov.com/en-gb/articles/55989-rejoin-referendum-the-terms-of-a-deal-make-a-big-difference-to-voting-intention &mdash; YouGov, fieldwork to 2 November: rejoin lead +21 without the euro, &plusmn;0 with it
+ - https://www.theguardian.com/uk-news/2026/nov/19/covid-inquiry-uk-report-lack-of-early-border-controls-virus-spread &mdash; The Guardian, 19 November 13:19 GMT: Hallett quotations, 18 February 2020, nine cases, 93% of countries, Bereaved Families quotation, &pound;200m cost, seventh of ten
+ - https://www.bbc.co.uk/news/articles/crx20q8ql4gwo &mdash; BBC, 19 November 12:47 GMT: &ldquo;effectively blind&rdquo;, more than &pound;30bn UK-wide, Cygnus and Alice exercises
+ - https://www.bbc.co.uk/news/articles/cw987ynpd0n1o &mdash; BBC, 19 November 17:49 GMT: Bill introduced, commonhold ~2029, ban ~2031, &pound;250 cap 2028, peppercorn after 40 years, five million homes, 50% conversion, Oppong-Asare and Rayner quotations
+ - https://www.independent.co.uk/news/uk/home-news/leasehold-reform-bill-housing-ground-rent-b3087791.html &mdash; The Independent, 19 November: &pound;250 cap, Pennycook &ldquo;beginning of the end&rdquo; quotation (cached in morning run)
+ - https://www.bbc.co.uk/news/articles/cmy0ep02wn3lo &mdash; BBC, 19 November 14:36 GMT: Cleverly selected, 86%, 2028 election, Khan quotations, Phillipson quotation, Cunningham, London Fire Authority
+ - https://www.independent.co.uk/news/uk/politics/james-cleverly-london-mayor-conservatives-sadiq-khan-b3087809.html &mdash; The Independent, 19 November: cross-reference on selection, not standing again as MP (cached in morning run)
+ - https://www.theguardian.com/politics/2026/nov/19/james-cleverly-london-mayor-john-crace-sketch &mdash; The Guardian (John Crace), 19 November 17:54 GMT: cross-reference (not quoted)
+ - https://www.bbc.co.uk/news/articles/cw62pz48vj4go &mdash; BBC, 19 November 13:34 GMT: Badenoch Today interview quotations, &pound;36bn welfare cut, Burnham &ldquo;crass and insensitive&rdquo;, Whitehead quotations, four Paralympic medals
+ - https://www.theguardian.com/politics/live/2026/nov/19/kemi-badenoch-andy-burnham-uk-politics-latest-news-updates &mdash; The Guardian politics live, 19 November (closed 18:02 GMT): Badenoch &ldquo;message of hope&rdquo;, early-evening summary cross-references
+ - https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol &mdash; CNBC quote service, retrieved 19 November ~18:30 GMT: all ten data-markets figures; FTSE 100, GBP/USD and Brent moves in impact box
+ NOTE: Sky News, NPR and iea.org could not be retrieved in this run and no claims rest on them. A Senate Iran war-powers vote reported by CBS live was omitted for want of a second source.
+ END SOURCES USED -->
+</div><!-- ── END EVENING 19 NOV (20:15) ── -->
 <!-- ── EVENING 18 NOV (21:16) ── -->
 <div class="curated-edition evening" data-date="2026-11-18" data-time="21:16" data-markets='{"FTSE":{"price":10551.17,"change":-1.3},"SP":{"price":7323.63,"change":-0.23},"Brent":{"price":91.54,"change":-1.72},"GBP":{"price":1.3145,"change":-0.48},"Gold":{"price":3728.4,"change":-3.51},"EURGBP":{"price":0.8345,"change":0.24},"VIX":{"price":24.53,"change":-3.65},"BTC":{"price":62461.86,"change":-2.25},"UST":{"price":5.064,"change":-0.039},"Gilt":{"price":5.3035,"change":0.0133},"ts":"2026-11-18T21:16:00+00:00"}'>
   <div class="edition-header"><span class="edition-icon">&#9789;</span><h2>Evening Briefing</h2></div>

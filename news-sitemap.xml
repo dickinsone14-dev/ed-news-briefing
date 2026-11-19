@@ -2,6 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-19-evening/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-19T20:15:00+01:00</news:publication_date>
+      <news:title>Evening Briefing — Thursday 19 November 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-19-evening/trump-xi-putin-peace-declaration-shenzhen/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-19T20:15:00+01:00</news:publication_date>
+      <news:title>Trump, Xi and Putin issue peace declaration silent on Ukraine and Iran</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-19-evening/uk-pledges-1000-strike-drones-berlin/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-19T20:15:00+01:00</news:publication_date>
+      <news:title>Britain pledges 1,000 long-range strike drones as allies meet in Berlin</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-19-evening/putin-rules-out-ceasefire-after-crimean-bridge/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-19T20:15:00+01:00</news:publication_date>
+      <news:title>Putin rules out limited ceasefire after third strike on Crimean Bridge</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-19-evening/trump-weighs-renewed-iran-strikes-netanyahu/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-19T20:15:00+01:00</news:publication_date>
+      <news:title>Trump weighs renewed Iran strikes as Netanyahu calls war ‘unavoidable’</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-19-evening/icj-rules-myanmar-genocide-rohingya/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-19T20:15:00+01:00</news:publication_date>
+      <news:title>UN court rules Myanmar committed genocide against the Rohingya</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-19-evening/uk-eu-reset-talks-down-to-wire/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-19T20:15:00+01:00</news:publication_date>
+      <news:title>UK–EU reset talks go ‘down to the wire’ before Brussels summit</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-19-evening/covid-inquiry-border-controls-test-trace/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-19T20:15:00+01:00</news:publication_date>
+      <news:title>Covid inquiry finds lax border controls left Britain ‘extremely vulnerable’</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-19-evening/leasehold-timetable-ground-rent-cap/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-19T20:15:00+01:00</news:publication_date>
+      <news:title>Government sets timetable to dismantle leasehold, capping ground rents at £250</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-19-evening/cleverly-tory-london-mayor-candidate/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-19T20:15:00+01:00</news:publication_date>
+      <news:title>Cleverly selected as Conservative candidate for London mayor</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-19-evening/badenoch-refuses-retract-amputee-remarks/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-19T20:15:00+01:00</news:publication_date>
+      <news:title>Badenoch refuses to retract amputee remarks in benefits row</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-11-18-evening/</loc>
     <news:news>
       <news:publication>
@@ -241,248 +362,6 @@
       </news:publication>
       <news:publication_date>2026-11-18T10:06:00+01:00</news:publication_date>
       <news:title>Climate advisers warn ministers against weakening electric car targets</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-17-evening/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-17T18:37:00+01:00</news:publication_date>
-      <news:title>Evening Briefing — Tuesday 17 November 2026</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-17-evening/crimean-bridge-span-collapses-ukraine-unprecedented-operation/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-17T18:37:00+01:00</news:publication_date>
-      <news:title>Crimean bridge span collapses after Ukraine’s ‘unprecedented operation’</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-17-evening/trump-iran-pay-a-price-reported-dirty-bomb-plot/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-17T18:37:00+01:00</news:publication_date>
-      <news:title>Trump warns Iran will ‘pay a price’ over reported dirty-bomb plot</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-17-evening/trump-quad-critical-minerals-agreements-before-shenzhen/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-17T18:37:00+01:00</news:publication_date>
-      <news:title>Trump announces Quad critical minerals agreements before Shenzhen summit</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-17-evening/huang-offers-nvidia-return-congress-sets-hearing/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-17T18:37:00+01:00</news:publication_date>
-      <news:title>Huang offers to return to Nvidia as Congress sets hearing</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-17-evening/united-states-loses-measles-elimination-status/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-17T18:37:00+01:00</news:publication_date>
-      <news:title>United States loses measles elimination status after 26 years</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-17-evening/government-backs-milburn-overhaul-welfare-under-25s/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-17T18:37:00+01:00</news:publication_date>
-      <news:title>Government backs Milburn’s overhaul of welfare for under-25s</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-17-evening/burnham-delays-eu-options-december-no-rush/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-17T18:37:00+01:00</news:publication_date>
-      <news:title>Burnham delays EU options until December, saying there is ‘no rush’</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-17-evening/britain-sanctions-eight-israeli-firms-west-bank-settlements/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-17T18:37:00+01:00</news:publication_date>
-      <news:title>Britain sanctions eight Israeli firms over West Bank settlement building</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-17-evening/cass-withdraws-support-draft-conversion-practices-bill/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-17T18:37:00+01:00</news:publication_date>
-      <news:title>Cass withdraws support for draft conversion practices bill</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-17-evening/kyle-warns-royal-mail-unviable-without-parcel-reform/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-17T18:37:00+01:00</news:publication_date>
-      <news:title>Kyle warns Royal Mail will become unviable without parcel market reform</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-17-morning/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-17T07:55:00+01:00</news:publication_date>
-      <news:title>Morning Briefing — Tuesday 17 November 2026</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-17-morning/ukraine-critically-damages-kerch-bridge-russia-hits-kyiv-crossings/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-17T07:55:00+01:00</news:publication_date>
-      <news:title>Ukraine critically damages Kerch bridge as Russia hits Kyiv crossings</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-17-morning/tanker-struck-hormuz-iran-threats-third-us-carrier/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-17T07:55:00+01:00</news:publication_date>
-      <news:title>Tanker struck in Hormuz as Iran threatens shipping; third US carrier arrives</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-17-morning/trump-xi-putin-shenzhen-summit-agenda-dispute/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-17T07:55:00+01:00</news:publication_date>
-      <news:title>Trump heads for first three-way summit with Xi and Putin</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-17-morning/five-eu-states-rwanda-return-hub-2027/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-17T07:55:00+01:00</news:publication_date>
-      <news:title>Five EU states to open migrant return hub in Rwanda</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-17-morning/us-chip-export-licences-southeast-asia-brazil-nvidia/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-17T07:55:00+01:00</news:publication_date>
-      <news:title>Washington tightens chip exports to block China’s remote access</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-17-morning/burnham-brexit-speech-long-term-eu-relationship-talks/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-17T07:55:00+01:00</news:publication_date>
-      <news:title>Burnham to open talks on long-term EU relationship after summit</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-17-morning/milburn-report-youth-unemployment-ni-threshold-benefits/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-17T07:55:00+01:00</news:publication_date>
-      <news:title>Milburn report urges NI cut and benefit curbs for under-25s</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-17-morning/failed-asylum-seekers-lose-five-day-removal-notice/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-17T07:55:00+01:00</news:publication_date>
-      <news:title>Failed asylum seekers to lose five-day notice of removal</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-17-morning/miliband-will-not-resign-over-rosebank-approval/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-17T07:55:00+01:00</news:publication_date>
-      <news:title>Miliband says he will not resign if Rosebank is approved</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-17-morning/palantir-nhs-contract-to-end-2029/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-17T07:55:00+01:00</news:publication_date>
-      <news:title>Ministers to end Palantir’s NHS contract — but not until 2029</news:title>
     </news:news>
   </url>
 </urlset>

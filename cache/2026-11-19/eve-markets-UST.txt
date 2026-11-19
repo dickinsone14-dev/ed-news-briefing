@@ -1,0 +1,4 @@
+URL: https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=US10Y&requestMethod=itv&noform=1&partnerId=2&fund=1&exthrs=1&output=json
+SOURCE: CNBC quote webservice — retrieved Thu 19 Nov 2026 18:44 GMT; figure timestamp (last_time): 2026-11-19T13:44:10.000-0500
+
+symbol=US10Y name=U.S. 10 Year Treasury last=5.054% change=-0.012 change_pct=-0.2369% previous_day_closing=5.066% last_time=2026-11-19T13:44:10.000-0500
