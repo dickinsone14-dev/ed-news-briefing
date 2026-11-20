@@ -1,0 +1,4 @@
+URL: https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=GBP=&requestMethod=itv&noform=1&partnerId=2&fund=1&exthrs=1&output=json
+SOURCE: CNBC quote webservice — retrieved Fri 20 Nov 2026 18:12 GMT (system clock); figure timestamp (last_time): 2026-11-20T13:12:00.000-0500
+
+symbol=GBP= name=GBP/USD last=1.3096 change=+0.001 change_pct=+0.08% previous_day_closing=1.3086 last_time=2026-11-20T13:12:00.000-0500 last_timedate=1:12 PM EST

@@ -2287,7 +2287,7 @@
  <!-- #1 Markets snapshot bar -->
  <!-- Embedded market data (populated by update script, used as fallback) -->
  <script id="embedded-markets" type="application/json">
-{"FTSE":{"price":10452.68,"change":-0.93},"SP":{"price":7227.49,"change":-1.31},"Brent":{"price":92.68,"change":0.79},"GBP":{"price":1.3103,"change":-0.33},"Gold":{"price":3683.29,"change":-1.05},"EURGBP":{"price":0.8378,"change":0.41},"Gilt":{"price":5.3207,"change":0.0023},"VIX":{"price":27.06,"change":10.18},"BTC":{"price":62966.02,"change":0.74},"UST":{"price":5.054,"change":-0.012},"ts":"2026-11-19T20:15:00+00:00"}
+{"FTSE":{"price":10346.34,"change":-1.02},"SP":{"price":7007.27,"change":-2.35},"Brent":{"price":91.41,"change":-0.62},"GBP":{"price":1.3096,"change":0.08},"Gold":{"price":3525.74,"change":-2.65},"EURGBP":{"price":0.8375,"change":-0.04},"Gilt":{"price":5.2427,"change":-0.003},"VIX":{"price":32.52,"change":14.35},"BTC":{"price":58817.03,"change":-5.26},"UST":{"price":4.932,"change":-0.12},"ts":"2026-11-20T17:57:00+00:00"}
 </script>
  <script id="market-descriptions" type="application/json">
 {
@@ -2296,74 +2296,70 @@
     "desc": "The UK's benchmark stock index, tracking the 100 largest companies listed on the London Stock Exchange by market capitalisation. Includes Shell, AstraZeneca, HSBC and Unilever.",
     "drivers_up": [],
     "drivers_down": [],
-    "updated": "2026-11-19 20:15 (reviewed at publication)"
+    "updated": "2026-11-20 17:57 (reviewed at publication)"
   },
   "SP": {
     "name": "S&P 500",
     "desc": "America's leading stock market index, tracking 500 of the largest US-listed companies. Dominated by mega-cap tech (Apple, Microsoft, Nvidia) but spans all sectors.",
     "drivers_up": [],
     "drivers_down": [],
-    "updated": "2026-11-19 20:15 (reviewed at publication)"
+    "updated": "2026-11-20 17:57 (reviewed at publication)"
   },
   "Brent": {
     "name": "Brent Crude Oil",
     "desc": "The global benchmark for crude oil pricing, produced from oil fields in the North Sea. Used to price roughly two-thirds of the world's traded oil.",
-    "drivers_up": [
-      "Reports that Trump is weighing a renewed air campaign against Iran"
-    ],
-    "drivers_down": [
-      "US, China and Russia pledge to increase refined petroleum supply in Shenzhen declaration"
-    ],
-    "updated": "2026-11-19 20:15 (reviewed at publication)"
+    "drivers_up": [],
+    "drivers_down": [],
+    "updated": "2026-11-20 17:57 (reviewed at publication)"
   },
   "GBP": {
     "name": "GBP/USD",
     "desc": "The exchange rate between the British pound and the US dollar, commonly known as 'cable'. Reflects relative economic strength and interest rate differentials between the UK and US.",
     "drivers_up": [],
     "drivers_down": [],
-    "updated": "2026-11-19 20:15 (reviewed at publication)"
+    "updated": "2026-11-20 17:57 (reviewed at publication)"
   },
   "Gold": {
     "name": "Gold (XAU/USD)",
     "desc": "The spot price of gold in US dollars per troy ounce. The world's oldest safe-haven asset, traditionally rising during periods of uncertainty, inflation and currency debasement.",
     "drivers_up": [],
     "drivers_down": [],
-    "updated": "2026-11-19 20:15 (reviewed at publication)"
+    "updated": "2026-11-20 17:57 (reviewed at publication)"
   },
   "EURGBP": {
     "name": "EUR/GBP",
     "desc": "The exchange rate between the euro and the British pound. Key for UK-EU trade pricing. A falling rate means sterling is strengthening against the euro.",
     "drivers_up": [],
     "drivers_down": [],
-    "updated": "2026-11-19 20:15 (reviewed at publication)"
+    "updated": "2026-11-20 17:57 (reviewed at publication)"
   },
   "Gilt": {
     "name": "UK 10-Year Gilt Yield",
     "desc": "The yield on 10-year UK government bonds (gilts). A key benchmark for UK borrowing costs, mortgage rates and pension fund valuations. Rising yields mean falling bond prices.",
     "drivers_up": [],
     "drivers_down": [],
-    "updated": "2026-11-19 20:15 (reviewed at publication)"
+    "updated": "2026-11-20 17:57 (reviewed at publication)"
   },
   "VIX": {
     "name": "VIX (Volatility Index)",
     "desc": "The CBOE Volatility Index, often called the 'fear gauge'. Measures expected S&P 500 volatility over the next 30 days. Readings above 20 suggest elevated anxiety; above 30 signals acute stress.",
     "drivers_up": [],
     "drivers_down": [],
-    "updated": "2026-11-19 20:15 (reviewed at publication)"
+    "updated": "2026-11-20 17:57 (reviewed at publication)"
   },
   "BTC": {
     "name": "Bitcoin (BTC/USD)",
     "desc": "The price of Bitcoin in US dollars. The largest cryptocurrency by market cap, increasingly viewed as digital gold by institutional investors since spot ETF approvals.",
     "drivers_up": [],
     "drivers_down": [],
-    "updated": "2026-11-19 20:15 (reviewed at publication)"
+    "updated": "2026-11-20 17:57 (reviewed at publication)"
   },
   "UST": {
     "name": "US 10-Year Treasury Yield",
     "desc": "The yield on 10-year US government bonds, the global risk-free rate benchmark. Influences mortgage rates, corporate borrowing and equity valuations worldwide.",
     "drivers_up": [],
     "drivers_down": [],
-    "updated": "2026-11-19 20:15 (reviewed at publication)"
+    "updated": "2026-11-20 17:57 (reviewed at publication)"
   }
 }
 </script>
@@ -2416,6 +2412,111 @@
  <!-- ════ ALL EDITIONS (sorted by JS) ════ -->
  <!-- IMPORTANT: Keep 7 FULL DAYS of editions in this container. Do NOT delete editions less than 7 days old. -->
  <div id="all-editions" style="display:none;">
+<!-- ── EVENING 20 NOV (17:57) ── -->
+<div class="curated-edition evening" data-date="2026-11-20" data-time="17:57" data-markets='{"FTSE":{"price":10346.34,"change":-1.02},"SP":{"price":7007.27,"change":-2.35},"Brent":{"price":91.41,"change":-0.62},"GBP":{"price":1.3096,"change":0.08},"Gold":{"price":3525.74,"change":-2.65},"EURGBP":{"price":0.8375,"change":-0.04},"Gilt":{"price":5.2427,"change":-0.003},"VIX":{"price":32.52,"change":14.35},"BTC":{"price":58817.03,"change":-5.26},"UST":{"price":4.932,"change":-0.12},"ts":"2026-11-20T17:57:00+00:00"}'>
+  <div class="edition-header"><span class="edition-icon">&#9789;</span><h2>Evening Briefing</h2></div>
+  <div class="curated-meta">Friday 20 November 2026 &mdash; 17:57 GMT</div>
+  <div class="impact-box"><h3 class="impact-heading">What It Means For You</h3><ul class="impact-list"><li>Food and travel: the Brussels deal scraps export health certificates that cost up to &pound;200 each, though grocers have not committed to cutting prices as a result. The youth scheme will offer 100,000 places a year to 18- to 31-year-olds, and is expected to start in 2030.</li><li>Savings and pensions: the FTSE 100 closed 1.02% lower at 10,346.34, ending a week in which it fell 5.1% &mdash; its steepest weekly drop since the Iran war began. Bitcoin fell below $60,000 for the first time since early July.</li><li>Taxpayers: debt interest reached &pound;11.2bn in October, the highest for that month on record, partly because payments on inflation-linked gilts rose with the energy costs of the Iran war.</li></ul></div>
+  <div class="curated-grid">
+    <div class="curated-column">
+      <h3><span class="dot geo"></span><span class="dot-label">GEO</span> Geopolitical</h3>
+        <div class="curated-item" data-time="05:30" data-slug="russian-missiles-hit-poland-kyiv-barrage">
+          <h4>Russian missiles crash in Poland during one of the war&rsquo;s largest attacks</h4>
+          <p>Two Russian cruise missiles and a jet-powered drone came down in south-eastern Poland overnight. They were part of what Volodymyr Zelensky called &ldquo;one of the largest attacks&rdquo; of the war, which killed eight people in Ukraine. Donald Tusk called it &ldquo;an intentional provocation&rdquo;, timed to coincide with Western exercises involving 11 Coalition of the Willing nations. Nato scrambled jets in response; nobody in Poland was hurt.</p>
+          <details class="dive-deeper"><summary>Dive deeper</summary><div class="deeper-content">Poland&rsquo;s operational command said Russia fired 26 Kalibr and 72 Kh-101 cruise missiles and more than 500 drones. In Kyiv, ballistic missiles damaged the Podilskyi, Darnytskyi and Southern bridges, and nuclear plants were forced to cut output, causing power cuts in the capital and ten regions. Mark Rutte, Nato&rsquo;s secretary general, called the incursion &ldquo;clearly dangerous&rdquo; and visits Warsaw on Saturday. Air traffic control at Rzesz&oacute;w-Jasionka, the main transit hub for military aid, was briefly evacuated for the first time in the war. Wes Streeting, the Defence Secretary, who is in Poland for the exercises, called the incursion &ldquo;very serious&rdquo;.</div></details>
+        </div>
+        <div class="curated-item" data-time="16:15" data-slug="iran-readies-tankers-break-us-blockade">
+          <h4>Iran readies tankers to break US blockade as Trump spurns its offer</h4>
+          <p>Iran is preparing to send tankers through the American naval blockade. &ldquo;The blockade must be broken,&rdquo; Abbas Araghchi, the foreign minister, said. Friday prayer leaders warned that Gulf oil installations would become legitimate targets if US forces fired on the ships. On Day 266 of the war, Donald Trump said Tehran wanted a deal, &ldquo;but they don&rsquo;t want to make a deal that&rsquo;s acceptable to me&rdquo;.</p>
+          <details class="dive-deeper"><summary>Dive deeper</summary><div class="deeper-content">US Central Command warned on Wednesday that ships taking Iranian cargo by ship-to-ship transfer &ldquo;may be stopped, boarded, diverted, captured&rdquo;. The blockade, reinstated on 14 July, has halted Iran&rsquo;s seaborne crude exports since mid-July; TankerTrackers said one tanker was loading Iranian crude from another vessel in the Gulf. On Friday afternoon a tanker leaving the Strait of Hormuz was hit by an unknown projectile about eight nautical miles north of Khasab, in Oman, which started a fire; no casualties were reported. At the Brussels summit, EU and British leaders told Iran to stop &ldquo;its hybrid attacks on European soil&rdquo;.</div></details>
+        </div>
+        <div class="curated-item" data-time="14:30" data-slug="anthropic-slide-deepens-global-tech-selloff">
+          <h4>Anthropic slide deepens global tech sell-off as Nasdaq erases 2026 gains</h4>
+          <p>Anthropic&rsquo;s shares fell by as much as 12% on their second day of trading, to $85.12, as the sell-off in AI-linked stocks spread across world markets. The Nasdaq erased all its gains for 2026, and Asian markets had their worst week since 2020. The FTSE 100 closed 1.02% lower at 10,346.34.</p>
+          <details class="dive-deeper"><summary>Dive deeper</summary><div class="deeper-content">Taiwan&rsquo;s market fell 6.7%, Japan&rsquo;s Nikkei 5% and South Korea&rsquo;s Kospi 5.5%; SoftBank lost 14.5%. Europe&rsquo;s Stoxx 600 recorded its biggest weekly loss since March 2025. Chris Beauchamp, chief market analyst at IG, suggested that Anthropic could be &ldquo;draining market liquidity&rdquo; as investors sell other holdings to buy the new stock. Fears of higher US interest rates lifted the dollar to a 19-month high and put gold on course for its worst week since March. Nvidia fell 7% after California served it with a subpoena over whether its chips had reached China.</div></details>
+        </div>
+        <div class="curated-item" data-time="10:00" data-slug="russia-rejects-nato-style-guarantees-ukraine">
+          <h4>Moscow rejects Nato-style guarantees for Ukraine despite Kushner&rsquo;s optimism</h4>
+          <p>Russia has rejected any arrangement resembling Nato membership for Ukraine, a day after Jared Kushner said Moscow was &ldquo;comfortable&rdquo; with security guarantees modelled on Article 5. Sergei Ryabkov, the deputy foreign minister, said even a formula for &ldquo;Ukraine&rsquo;s quasi-membership of NATO&rdquo; was &ldquo;unacceptable to us&rdquo;. He added that a visit to Russia by three EU representatives was &ldquo;under consideration&rdquo;.</p>
+          <details class="dive-deeper"><summary>Dive deeper</summary><div class="deeper-content">Vladimir Putin said Russia had invited Europeans to Moscow &ldquo;to define their position&rdquo;. He also said that full normalisation of relations with Europe would not be possible until &ldquo;the political elite changes in certain countries&rdquo;. Friedrich Merz said it had &ldquo;now been agreed&rdquo; that Europe would join the next round of talks, preferably at a &ldquo;neutral&rdquo; venue such as the Emirates rather than Moscow. Mr Kushner said Donald Trump was &ldquo;open&rdquo; to the guarantees but that &ldquo;it has to be in America&rsquo;s interest&rdquo;. Mr Zelensky said co-operation with Washington and Europe was &ldquo;becoming closer&rdquo;.</div></details>
+        </div>
+        <div class="curated-item" data-time="15:00" data-slug="denmark-expels-russian-defence-attache">
+          <h4>Denmark expels Russian defence attach&eacute; over foiled assassination plot</h4>
+          <p>Denmark is expelling Russia&rsquo;s defence attach&eacute; after the authorities thwarted a plot, allegedly orchestrated by Russian intelligence, to kill an American-Ukrainian citizen on Danish soil. &ldquo;We are saying this very clearly: we have exposed you,&rdquo; Lars L&oslash;kke Rasmussen, the foreign minister, said. Police have arrested two alleged members of Loyal to Familia, an outlawed Danish gang.</p>
+          <details class="dive-deeper"><summary>Dive deeper</summary><div class="deeper-content">Mr Rasmussen said the Russian ambassador had been summoned and the attach&eacute; given seven days to leave, and that Denmark was considering suspending Schengen visas for Russians. The announcement came on the same day that Russian missiles came down in Poland, as tensions between Europe and Moscow rose again. At the Brussels summit, EU and British leaders agreed to co-operate more closely against hybrid and cyber threats, including by imposing &ldquo;costs on hostile actors&rdquo;.</div></details>
+        </div>
+    </div>
+    <div class="curated-column">
+      <h3><span class="dot dom"></span><span class="dot-label">UK</span> UK Domestic Politics</h3>
+        <div class="curated-item" data-time="10:00" data-slug="burnham-seals-eu-reset-deal-brussels">
+          <h4>Burnham seals closest ties with the EU since Brexit in Brussels</h4>
+          <p>Andy Burnham agreed deals on food and drink, emissions trading and youth mobility at the UK&ndash;EU summit in Brussels &mdash; Britain&rsquo;s biggest step towards the bloc since Brexit. &ldquo;This is a good day for Britain and this is a good day for Europe,&rdquo; he said. The Government says the package could add up to 0.5% to GDP by 2040, about &pound;17bn a year. Legislation will be introduced next week.</p>
+          <details class="dive-deeper"><summary>Dive deeper</summary><div class="deeper-content">The food agreement, worth up to &pound;5.1bn a year by 2040, ends routine checks on food and plant products. Linking the two carbon markets exempts &pound;6.5bn of British exports, including steel, from the EU&rsquo;s border carbon levy. Britain will align with EU rules without voting rights, which Mr Burnham insisted was not a fig leaf. He called the package &ldquo;probably the limit&rdquo; before the next election but promised an informal &ldquo;brainstorming&rdquo; on future options. Ursula von der Leyen replied: &ldquo;We welcome this brainstorming, so count on us.&rdquo;</div></details>
+        </div>
+        <div class="curated-item" data-time="09:00" data-slug="eu-ties-reset-deals-tuition-fees">
+          <h4>EU makes reset deals conditional on lower tuition fees for its students</h4>
+          <p>EU member states ruled that the three agreements will not take effect until Britain agrees, within six months, to charge European students home fees at its universities. Britain has offered only &ldquo;significantly reduced&rdquo; fees. &ldquo;The deal is done. It is there in black and white in front of you,&rdquo; Mr Burnham insisted. Nigel Farage called him &ldquo;naive&rdquo; for letting the EU &ldquo;strong-arm the British prime minister&rdquo;.</p>
+          <details class="dive-deeper"><summary>Dive deeper</summary><div class="deeper-content">Meeting the EU&rsquo;s demand would cost Britain hundreds of millions of pounds a year. &ldquo;This is a great deal for the UK, getting what they asked for,&rdquo; one EU diplomat said, but added that some countries had &ldquo;nothing to gain from this deal&rdquo;. Mr Farage, who held a rival press conference in Brussels, called the deal &ldquo;the first steps, incrementally&rdquo; towards rejoining the EU and said: &ldquo;I am ready for this fight.&rdquo; Constituency modelling by Fortius Global, based on a survey of more than 7,000 people, found that 512 of 632 British seats now favour rejoining, including Mr Burnham&rsquo;s Makerfield.</div></details>
+        </div>
+        <div class="curated-item" data-time="07:00" data-slug="borrowing-below-forecast-record-debt-interest">
+          <h4>Borrowing undershoots forecasts but October debt interest hits a record</h4>
+          <p>Public-sector net borrowing was &pound;17bn in October, about &pound;1bn below City forecasts, the Office for National Statistics said. Debt interest, however, reached &pound;11.2bn &mdash; &pound;2.8bn more than a year earlier and the highest for any October since records began in 1997. Net debt stands at &pound;3.1tn, or 95.8% of GDP, a level last seen in the early 1960s.</p>
+          <details class="dive-deeper"><summary>Dive deeper</summary><div class="deeper-content">Borrowing so far this financial year is &pound;111.3bn, &pound;7.3bn less than a year earlier, helped by strong income-tax receipts. Grant Fitzner, the ONS chief economist, said monthly borrowing had risen &ldquo;partly down to higher debt interest&rdquo;; inflation-linked gilt payments have risen as the Iran war pushes up energy costs. Emma Reynolds, Chief Secretary to the Treasury, cited &ldquo;standout resilience despite the global impact of the conflict in Iran&rdquo;. John Healey has &pound;15bn of headroom against his fiscal rules. Separately, retail sales volumes rose 0.7% in October as shoppers stocked up on long-life goods such as tinned food and UHT milk.</div></details>
+        </div>
+        <div class="curated-item" data-time="08:00" data-slug="joanne-young-consent-law-calls">
+          <h4>Joanne Young&rsquo;s family leads calls to end &lsquo;third-party consent&rsquo; defence</h4>
+          <p>The daughter of Joanne Young, who was drugged and abused for 13 years by her husband and men he invited to their home, has joined calls to stop defendants relying on &ldquo;third-party consent&rdquo;. &ldquo;It has been 23 years since this was last updated. Society has progressed, crime has progressed. So why hasn&rsquo;t the law progressed with it?&rdquo; Alex Young said. Four men were convicted on Thursday.</p>
+          <details class="dive-deeper"><summary>Dive deeper</summary><div class="deeper-content">Philip Young pleaded guilty to 56 charges, including 11 of rape, after using websites and apps to invite men to the couple&rsquo;s home in Swindon without his wife&rsquo;s knowledge. Outside Winchester Crown Court, Mrs Young said: &ldquo;No one should be able to give it on your behalf&rdquo;, and urged the Government to treat the issue &ldquo;as a priority&rdquo;. Prosecutors said the trial was the first of its kind in England. Jess Phillips, the former safeguarding minister, told LBC that she did not believe it would be the last unless the law changed. Laura Bishop, whose ex-husband was jailed for 14 years for similar offences, has also waived her anonymity.</div></details>
+        </div>
+        <div class="curated-item" data-time="12:00" data-slug="daniel-thomas-jailed-slashing-dinghy">
+          <h4>Far-right activist Daniel Thomas jailed for slashing migrant dinghy</h4>
+          <p>Daniel Thomas, an anti-migrant activist, was jailed for 15 months at Portsmouth Crown Court for slashing a dinghy in the Channel while a French rescue worker was on board. The judge called the 37-year-old, known to his supporters as Danny Tommo, a &ldquo;publicity seeker&rdquo; whose actions were &ldquo;a flagrant interference and a deliberate disruption&rdquo; of the work of Border Force, the coastguard and the RNLI.</p>
+          <details class="dive-deeper"><summary>Dive deeper</summary><div class="deeper-content">Thomas, the founder of Patriot Platform, live-streamed the incident on 22 September. He told those on his boat &ldquo;let&rsquo;s get rid of that boat&rdquo; and then cut it about eight times. The court heard that he said &ldquo;this is what needs to happen to every one of these boats&rdquo;, correcting earlier reports that he had referred to the people on board. His barrister called it &ldquo;performative activism&rdquo; rather than a political crime. The sentence came as Britain and the EU agreed joint action under a Channel Action Plan to break up people-smuggling gangs.</div></details>
+        </div>
+    </div>
+  </div>
+  <div class="one-to-read"><h3 class="one-to-read-heading">One To Read</h3><p><a href="https://www.bbc.co.uk/news/articles/cm1wr029evnqo" target="_blank" rel="noopener">This cost-cutting UK&ndash;EU deal doesn&rsquo;t mean lower prices will follow</a> &mdash; Faisal Islam of the BBC on why supermarkets have welcomed the Brussels agreement without promising cheaper shopping.</p></div>
+  <!-- SOURCES USED (evening, 20 November 2026)
+ - https://www.theguardian.com/world/2026/nov/20/russian-missiles-drone-poland-attacks-ukraine &mdash; The Guardian, 20 November: two cruise missiles and jet drone in Poland, Zelensky &ldquo;one of the largest attacks&rdquo;, at least eight killed, Tusk &ldquo;intentional provocation&rdquo;, 11 countries in exercises, 26 Kalibr / 72 Kh-101 / 500+ drones, Rzesz&oacute;w-Jasionka evacuated, Streeting &ldquo;very serious&rdquo;, Rutte &ldquo;clearly dangerous&rdquo;, Rutte visit Saturday
+ - https://www.bbc.co.uk/news/articles/cqx2x9dklxnro &mdash; BBC, 20 November: Kh-101 at Nowy Lipowiec ~05:30 GMT, nobody hurt, Nato jets scrambled, Koalicja 2026 exercise with 11 countries
+ - https://www.aljazeera.com/news/2026/11/20/russia-unleashes-retaliatory-barrage-on-kyiv-bridges &mdash; Al Jazeera / Reuters, 20 November: eight killed (Koretskyi), Podilskyi/Darnytskyi/Southern bridges, nuclear plants cut output, outages in Kyiv and 10 regions, Ryabkov quotations, EU visit &ldquo;under consideration&rdquo;, Zelensky &ldquo;becoming closer&rdquo;
+ - https://www.aljazeera.com/news/2026/11/20/poland-condemns-russian-provocation-after-airspace-violations &mdash; Al Jazeera, 20 November: cross-reference on Polish airspace violations (not quoted)
+ - https://www.irishtimes.com/world/europe/2026/11/20/nato-jets-scrambled-after-russian-missiles-and-drone-hit-poland-during-attacks-on-ukraine/ &mdash; The Irish Times, 20 November: cross-reference on Poland incursion and Nato response (not quoted)
+ - https://abcnews.com/International/wireStory/unidentified-object-appears-crashed-poland-after-russian-attacks-138315055 &mdash; ABC News / AP, 20 November: cross-reference on objects in Poland (not quoted)
+ - https://abcnews.com/International/wireStory/russian-attacks-kyiv-kill-3-cripple-bridges-cut-138313948 &mdash; ABC News / AP, 20 November: cross-reference on Kyiv bridges (not quoted)
+ - https://www.iranintl.com/en/202611204873 &mdash; Iran International, 20 November: Araghchi &ldquo;The blockade must be broken&rdquo;, Friday prayer leaders&rsquo; threats to Gulf oil facilities, TankerTrackers ship-to-ship loading, first export since mid-July
+ - https://www.aljazeera.com/news/2026/11/20/us-targets-irans-ship-to-ship-transfers-can-tehran-break-the-blockade &mdash; Al Jazeera, 20 November: CENTCOM advisory &ldquo;may be stopped, boarded, diverted, captured&rdquo;, blockade reinstated 14 July, exports halted since mid-July
+ - https://www.timesofisrael.com/liveblog-november-20-2026/ &mdash; The Times of Israel liveblog, 20 November (16:16&ndash;18:04 GMT entries): Trump &ldquo;deal that&rsquo;s acceptable to me&rdquo; quotation, UKMTO tanker struck ~8nm north of Khasab with fire and no casualties
+ - https://www.iranintl.com/en/202611209069 &mdash; Iran International, 20 November: EU&ndash;UK summit statement on Iran&rsquo;s &ldquo;hybrid attacks on European soil&rdquo;, &ldquo;costs on hostile actors&rdquo;
+ - https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off &mdash; The Guardian, 20 November: Anthropic down as much as 12% to $85.12, Nasdaq erases 2026 gains, Asia worst week since 2020, Taiwan 6.7%, Nikkei 5%, Kospi 5.5%, SoftBank 14.5%, Stoxx 600 biggest weekly loss since March 2025, Beauchamp &ldquo;draining market liquidity&rdquo;, Nvidia 7% subpoena, FTSE 100 down 5.1% on week, dollar 19-month high, gold worst week since March, bitcoin below $60,000
+ - https://www.bbc.co.uk/news/articles/c6808ym10vzgo &mdash; BBC, 20 November: cross-reference on Anthropic share fall (not quoted)
+ - https://www.cnbc.com/2026/11/20/anthropic-ipo-stocks-market.html &mdash; CNBC, 20 November: cross-reference on Anthropic and market sell-off (not quoted)
+ - https://www.irishtimes.com/business/2026/11/20/global-shares-decline-as-investors-struggle-to-keep-confidence-in-banking-and-ai/ &mdash; The Irish Times, 20 November: FTSE 100 down 1.02% at close
+ - https://www.irishtimes.com/business/2026/11/20/anthropic-shares-fall-as-fears-over-ai-boom-dominate/ &mdash; The Irish Times, 20 November: cross-reference on Anthropic (not quoted)
+ - https://www.aljazeera.com/news/2026/11/20/kushner-says-russia-ok-with-nato-like-security-pact-for-ukraine-is-it &mdash; Al Jazeera, 20 November: Kushner &ldquo;comfortable&rdquo;, Article 5, Trump &ldquo;open&rdquo;, &ldquo;it has to be in America&rsquo;s interest&rdquo;
+ - https://www.irishtimes.com/world/europe/2026/11/20/putin-invites-european-leaders-to-moscow-for-peace-talks-as-russia-pounds-kyiv/ &mdash; The Irish Times, 20 November: Putin &ldquo;to define their position&rdquo; and &ldquo;political elite changes&rdquo; quotations, Merz &ldquo;now been agreed&rdquo;, &ldquo;neutral&rdquo; venue such as the Emirates
+ - https://www.cnbc.com/2026/11/20/putin-xi-china-trump-russia-ukraine-.html &mdash; CNBC, 20 November: cross-reference on Putin after Shenzhen (not quoted)
+ - https://abcnews.com/International/wireStory/denmark-accuses-russian-intelligence-plotting-kill-american-ukrainian-138323497 &mdash; ABC News / AP, 20 November: plot against American-Ukrainian citizen, defence attach&eacute; expelled, two Loyal to Familia members arrested
+ - https://www.theguardian.com/world/live/2026/nov/20/uk-eu-european-union-brexit-deal-andy-burnham-latest-news-updates &mdash; The Guardian live, closing summary 17:59 GMT: Rasmussen quotations, seven days, Schengen visas; Burnham &ldquo;probably the limit&rdquo;; von der Leyen &ldquo;count on us&rdquo;; &ldquo;significantly reduced&rdquo; fees; six months; Farage &ldquo;first steps, incrementally&rdquo; and &ldquo;I am ready for this fight&rdquo;
+ - https://www.theguardian.com/politics/2026/nov/20/burnham-trade-youth-mobility-deals-biggest-step-towards-eu-since-brexit &mdash; The Guardian, 20 November: biggest step since Brexit, three deals, Burnham &ldquo;good day&rdquo; and &ldquo;The deal is done&rdquo; quotations, legislation next week, 0.5% / &pound;17bn, no voting rights, fig-leaf rejection, Farage &ldquo;strongarm&rdquo; quotation, tuition-fees condition
+ - https://www.gov.uk/government/news/costs-cut-prime-minister-secures-deal-with-eu-to-cut-costs-keep-prices-down-and-create-opportunities-for-young-people-worth-up-to-17-billion-per-year &mdash; GOV.UK, 20 November: 0.5% GDP by 2040, &pound;17bn, &pound;200 certificates, &pound;5.1bn food deal, &pound;6.5bn CBAM exemption, ages 18&ndash;31 up to three years, Channel Action Plan
+ - https://www.irishtimes.com/world/uk/2026/11/20/the-deal-is-done-uk-says-brexit-reset-deal-with-eu-is-agreed/ &mdash; The Irish Times, 20 November: home fees within six months, cost of hundreds of millions, EU diplomat quotation, youth scheme from 2030, Farage &ldquo;naive&rdquo;
+ - https://www.aljazeera.com/news/2026/11/20/eu-and-uk-seal-reset-deal &mdash; Al Jazeera, 20 November: cross-reference on deal (not quoted)
+ - https://www.bbc.co.uk/news/articles/cm4gn092gydwo &mdash; BBC, 20 November: cross-reference on summit (not quoted)
+ - https://www.theguardian.com/politics/2026/nov/20/voters-in-four-out-of-five-uk-parliamentary-seats-back-rejoining-eu &mdash; The Guardian, 20 November: Fortius Global modelling, 7,000+ respondents, 512 seats, 632 constituencies, Makerfield
+ - https://www.ons.gov.uk/economy/governmentpublicsectorandtaxes/publicsectorfinance/bulletins/publicsectorfinances/october2026 &mdash; ONS, 20 November 07:00: October borrowing, debt interest, debt above &pound;3tn
+ - https://www.theguardian.com/business/2026/nov/20/uk-government-borrowing-rises-less-than-forecast-in-surprise-boost-for-chancellor-john-healey &mdash; The Guardian, 20 November: &pound;17bn vs &pound;18bn forecast, &pound;111.3bn year to date (&pound;7.3bn lower), &pound;11.2bn debt interest (+&pound;2.8bn, highest October since 1997), &pound;3.1tn / 95.8% of GDP, early 1960s, Fitzner and Reynolds quotations, &pound;15bn headroom, RPI-linked gilts
+ - https://www.ons.gov.uk/businessindustryandtrade/retailindustry/bulletins/retailsales/october2026 &mdash; ONS, 20 November 07:00: retail sales volumes +0.7%, tinned goods and UHT milk
+ - https://www.bbc.co.uk/news/articles/cqy4jvprxyrdo &mdash; BBC, 20 November: Alex Young quotation, third-party consent, 13 years, Swindon, 56 charges incl. 11 rape, first trial of its kind, Phillips on LBC, Laura Bishop 14 years
+ - https://www.theguardian.com/uk-news/2026/nov/19/joanne-young-statement-abusers-conviction &mdash; The Guardian, 19 November: Joanne Young statement quotations, four men convicted (cached in morning run)
+ - https://www.bbc.co.uk/news/articles/c6lywjpn5levo &mdash; BBC, 20 November: 15 months, Portsmouth Crown Court, 37, Danny Tommo, French rescue worker, &ldquo;publicity seeker&rdquo;, Patriot Platform, 22 September, &ldquo;let&rsquo;s get rid of that boat&rdquo;, eight times, &ldquo;every one of these boats&rdquo; correction, &ldquo;performative activism&rdquo;
+ - https://www.theguardian.com/uk-news/2026/nov/20/far-right-activist-daniel-thomas-jailed-for-slashing-dinghy-in-channel &mdash; The Guardian, 20 November: judge&rsquo;s &ldquo;flagrant interference and a deliberate disruption&rdquo; quotation
+ - https://www.irishtimes.com/world/uk/2026/11/20/far-right-activist-daniel-thomas-jailed-in-uk-for-slashing-migrant-dinghy/ &mdash; The Irish Times, 20 November: cross-reference on sentence (not quoted)
+ - https://www.bbc.co.uk/news/articles/cm1wr029evnqo &mdash; BBC (Faisal Islam), 20 November: One To Read; grocers have not committed to price cuts
+ - https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol &mdash; CNBC quote service, retrieved 20 November ~18:10 GMT: all ten data-markets figures; FTSE 100 close 10,346.34 (16:35 GMT)
+ NOTE: The Houthi&ndash;Saudi exchange of threats over Hodeidah (Al Jazeera) was omitted because no second approved source confirmed Friday&rsquo;s events. Mikka Anderson&rsquo;s conviction (Guardian only) and the UK refrigeration cyber operation (BBC only) were likewise left out.
+ END SOURCES USED -->
+</div><!-- ── END EVENING 20 NOV (17:57) ── -->
 <!-- ── EVENING 19 NOV (20:15) ── -->
 <div class="curated-edition evening" data-date="2026-11-19" data-time="20:15" data-markets='{"FTSE":{"price":10452.68,"change":-0.93},"SP":{"price":7227.49,"change":-1.31},"Brent":{"price":92.68,"change":0.79},"GBP":{"price":1.3103,"change":-0.33},"Gold":{"price":3683.29,"change":-1.05},"EURGBP":{"price":0.8378,"change":0.41},"Gilt":{"price":5.3207,"change":0.0023},"VIX":{"price":27.06,"change":10.18},"BTC":{"price":62966.02,"change":0.74},"UST":{"price":5.054,"change":-0.012},"ts":"2026-11-19T20:15:00+00:00"}'>
   <div class="edition-header"><span class="edition-icon">&#9789;</span><h2>Evening Briefing</h2></div>

@@ -2,6 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-20-evening/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-20T17:57:00+01:00</news:publication_date>
+      <news:title>Evening Briefing — Friday 20 November 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-20-evening/russian-missiles-hit-poland-kyiv-barrage/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-20T17:57:00+01:00</news:publication_date>
+      <news:title>Russian missiles crash in Poland during one of the war’s largest attacks</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-20-evening/iran-readies-tankers-break-us-blockade/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-20T17:57:00+01:00</news:publication_date>
+      <news:title>Iran readies tankers to break US blockade as Trump spurns its offer</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-20-evening/anthropic-slide-deepens-global-tech-selloff/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-20T17:57:00+01:00</news:publication_date>
+      <news:title>Anthropic slide deepens global tech sell-off as Nasdaq erases 2026 gains</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-20-evening/russia-rejects-nato-style-guarantees-ukraine/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-20T17:57:00+01:00</news:publication_date>
+      <news:title>Moscow rejects Nato-style guarantees for Ukraine despite Kushner’s optimism</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-20-evening/denmark-expels-russian-defence-attache/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-20T17:57:00+01:00</news:publication_date>
+      <news:title>Denmark expels Russian defence attaché over foiled assassination plot</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-20-evening/burnham-seals-eu-reset-deal-brussels/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-20T17:57:00+01:00</news:publication_date>
+      <news:title>Burnham seals closest ties with the EU since Brexit in Brussels</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-20-evening/eu-ties-reset-deals-tuition-fees/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-20T17:57:00+01:00</news:publication_date>
+      <news:title>EU makes reset deals conditional on lower tuition fees for its students</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-20-evening/borrowing-below-forecast-record-debt-interest/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-20T17:57:00+01:00</news:publication_date>
+      <news:title>Borrowing undershoots forecasts but October debt interest hits a record</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-20-evening/joanne-young-consent-law-calls/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-20T17:57:00+01:00</news:publication_date>
+      <news:title>Joanne Young’s family leads calls to end ‘third-party consent’ defence</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-20-evening/daniel-thomas-jailed-slashing-dinghy/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-20T17:57:00+01:00</news:publication_date>
+      <news:title>Far-right activist Daniel Thomas jailed for slashing migrant dinghy</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-11-19-evening/</loc>
     <news:news>
       <news:publication>
@@ -241,127 +362,6 @@
       </news:publication>
       <news:publication_date>2026-11-18T21:16:00+01:00</news:publication_date>
       <news:title>Birmingham wins High Court injunction against flags on lamp-posts</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-18-morning/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-18T10:06:00+01:00</news:publication_date>
-      <news:title>Morning Briefing — Wednesday 18 November 2026</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-18-morning/xi-greets-trump-shenzhen-after-putin-talks/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-18T10:06:00+01:00</news:publication_date>
-      <news:title>Xi greets Trump in Shenzhen after talks with Putin</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-18-morning/iran-fires-on-us-base-kuwait-after-qeshm-strike/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-18T10:06:00+01:00</news:publication_date>
-      <news:title>Iran fires on US base in Kuwait after Qeshm strike</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-18-morning/allies-rebuke-pentagon-ukraine-deep-strikes-russia/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-18T10:06:00+01:00</news:publication_date>
-      <news:title>Allies rebuke Pentagon over Ukraine’s strikes deep inside Russia</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-18-morning/board-of-peace-warns-gaza-ceasefire-close-to-collapse/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-18T10:06:00+01:00</news:publication_date>
-      <news:title>Board of Peace warns Gaza ceasefire is close to collapse</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-18-morning/rubio-us-not-under-systemic-attack-tech-outages/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-18T10:06:00+01:00</news:publication_date>
-      <news:title>Rubio insists America is ‘not under systemic attack’ after outages</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-18-morning/inflation-rises-3-6-diesel-record-high/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-18T10:06:00+01:00</news:publication_date>
-      <news:title>Inflation rises to 3.6% as diesel reaches record high</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-18-morning/burnham-vows-move-quickly-milburn-welfare-reforms/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-18T10:06:00+01:00</news:publication_date>
-      <news:title>Burnham vows to ‘move quickly’ on Milburn welfare reforms</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-18-morning/burnham-delays-eu-options-december-youth-scheme-2030/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-18T10:06:00+01:00</news:publication_date>
-      <news:title>Burnham delays EU options to December; youth scheme may slip to 2030</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-18-morning/mahmood-confronts-perception-two-tier-policing/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-18T10:06:00+01:00</news:publication_date>
-      <news:title>Mahmood to confront ‘perception of two-tier policing’</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-18-morning/climate-advisers-warn-against-weakening-electric-car-targets/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-18T10:06:00+01:00</news:publication_date>
-      <news:title>Climate advisers warn ministers against weakening electric car targets</news:title>
     </news:news>
   </url>
 </urlset>

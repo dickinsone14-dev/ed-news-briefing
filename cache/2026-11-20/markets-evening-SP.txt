@@ -1,0 +1,4 @@
+URL: https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=.SPX&requestMethod=itv&noform=1&partnerId=2&fund=1&exthrs=1&output=json
+SOURCE: CNBC quote webservice — retrieved Fri 20 Nov 2026 18:12 GMT (system clock); figure timestamp (last_time): 2026-11-20T13:12:02.000-0500
+
+symbol=.SPX name=S&P 500 Index last=7,007.27 change=-168.56 change_pct=-2.35% previous_day_closing=7,175.83 last_time=2026-11-20T13:12:02.000-0500 last_timedate=1:12 PM EST
