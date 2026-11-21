@@ -1,0 +1,4 @@
+URL: https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=@LCO.1&requestMethod=itv&noform=1&partnerId=2&fund=1&exthrs=1&output=json
+SOURCE: CNBC quote webservice — retrieved Sat 21 Nov 2026 19:49 GMT (system clock); figure timestamp (last_time): 2026-11-21T06:00:00.000+0100
+
+symbol=@LCO.1 name=ICE Brent Crude (Jan'27) last=92.57 change=UNCH change_pct=UNCH previous_day_closing=92.57 last_time=2026-11-21T06:00:00.000+0100 last_timedate=6:00 AM BST

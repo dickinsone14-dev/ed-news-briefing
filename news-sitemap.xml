@@ -2,6 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-21-evening/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-21T21:41:00+01:00</news:publication_date>
+      <news:title>Evening Briefing — Saturday 21 November 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-21-evening/tankers-struck-hormuz-iran-tightens-grip/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-21T21:41:00+01:00</news:publication_date>
+      <news:title>Tankers struck near Hormuz as Iran tightens its grip on shipping</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-21-evening/streeting-kyiv-zelensky-crimean-bridge/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-21T21:41:00+01:00</news:publication_date>
+      <news:title>Streeting in Kyiv as Zelensky defends Crimean Bridge strikes</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-21-evening/drones-hit-russian-ship-gulf-finland/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-21T21:41:00+01:00</news:publication_date>
+      <news:title>Drones hit Kaliningrad-bound Russian ship in the Gulf of Finland</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-21-evening/cop31-overtime-fossil-fuel-language/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-21T21:41:00+01:00</news:publication_date>
+      <news:title>COP31 runs into overtime as Saudi Arabia blocks fossil-fuel language</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-21-evening/wall-street-correction-ai-selloff/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-21T21:41:00+01:00</news:publication_date>
+      <news:title>Wall Street slides into correction as the AI sell-off deepens</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-21-evening/miliband-rejoining-eu-on-table/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-21T21:41:00+01:00</news:publication_date>
+      <news:title>Miliband says rejoining the EU will be ‘on the table’</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-21-evening/burnham-rejects-welsh-policing-devolution/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-21T21:41:00+01:00</news:publication_date>
+      <news:title>Burnham rejects devolving policing and justice to Wales</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-21-evening/ni-consultants-strike-monday/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-21T21:41:00+01:00</news:publication_date>
+      <news:title>Northern Ireland consultants to strike on Monday as pay row deepens</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-21-evening/reform-weighs-pact-restore-britain/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-21T21:41:00+01:00</news:publication_date>
+      <news:title>Reform weighs a pact with Restore Britain as its support stalls</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-21-evening/pm-meet-birmingham-pub-bombings-families/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-21T21:41:00+01:00</news:publication_date>
+      <news:title>Prime minister to meet Birmingham pub bombings families in new year</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-11-20-evening/</loc>
     <news:news>
       <news:publication>
@@ -120,248 +241,6 @@
       </news:publication>
       <news:publication_date>2026-11-20T17:57:00+01:00</news:publication_date>
       <news:title>Far-right activist Daniel Thomas jailed for slashing migrant dinghy</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-19-evening/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-19T20:15:00+01:00</news:publication_date>
-      <news:title>Evening Briefing — Thursday 19 November 2026</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-19-evening/trump-xi-putin-peace-declaration-shenzhen/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-19T20:15:00+01:00</news:publication_date>
-      <news:title>Trump, Xi and Putin issue peace declaration silent on Ukraine and Iran</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-19-evening/uk-pledges-1000-strike-drones-berlin/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-19T20:15:00+01:00</news:publication_date>
-      <news:title>Britain pledges 1,000 long-range strike drones as allies meet in Berlin</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-19-evening/putin-rules-out-ceasefire-after-crimean-bridge/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-19T20:15:00+01:00</news:publication_date>
-      <news:title>Putin rules out limited ceasefire after third strike on Crimean Bridge</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-19-evening/trump-weighs-renewed-iran-strikes-netanyahu/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-19T20:15:00+01:00</news:publication_date>
-      <news:title>Trump weighs renewed Iran strikes as Netanyahu calls war ‘unavoidable’</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-19-evening/icj-rules-myanmar-genocide-rohingya/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-19T20:15:00+01:00</news:publication_date>
-      <news:title>UN court rules Myanmar committed genocide against the Rohingya</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-19-evening/uk-eu-reset-talks-down-to-wire/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-19T20:15:00+01:00</news:publication_date>
-      <news:title>UK–EU reset talks go ‘down to the wire’ before Brussels summit</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-19-evening/covid-inquiry-border-controls-test-trace/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-19T20:15:00+01:00</news:publication_date>
-      <news:title>Covid inquiry finds lax border controls left Britain ‘extremely vulnerable’</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-19-evening/leasehold-timetable-ground-rent-cap/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-19T20:15:00+01:00</news:publication_date>
-      <news:title>Government sets timetable to dismantle leasehold, capping ground rents at £250</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-19-evening/cleverly-tory-london-mayor-candidate/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-19T20:15:00+01:00</news:publication_date>
-      <news:title>Cleverly selected as Conservative candidate for London mayor</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-19-evening/badenoch-refuses-retract-amputee-remarks/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-19T20:15:00+01:00</news:publication_date>
-      <news:title>Badenoch refuses to retract amputee remarks in benefits row</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-18-evening/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-18T21:16:00+01:00</news:publication_date>
-      <news:title>Evening Briefing — Wednesday 18 November 2026</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-18-evening/trump-putin-shake-hands-shenzhen-talks-thursday/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-18T21:16:00+01:00</news:publication_date>
-      <news:title>Trump and Putin shake hands in Shenzhen before Thursday’s talks</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-18-evening/gulf-states-repel-iranian-attacks-energy-chief-warns-hormuz/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-18T21:16:00+01:00</news:publication_date>
-      <news:title>Gulf states repel Iranian attacks as energy chief warns on Hormuz</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-18-evening/israel-launches-ground-operation-beyond-gaza-yellow-line/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-18T21:16:00+01:00</news:publication_date>
-      <news:title>Israel launches ground operation beyond Gaza’s Yellow Line</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-18-evening/brussels-proposes-45bn-ukraine-loan-russian-strikes-odesa/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-18T21:16:00+01:00</news:publication_date>
-      <news:title>Brussels proposes €45bn Ukraine loan as Russian strikes kill four in Odesa</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-18-evening/fed-governor-half-point-rate-rise-shock-people/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-18T21:16:00+01:00</news:publication_date>
-      <news:title>Fed governor says half-point rate rise may be needed to ‘shock people’</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-18-evening/burnham-tells-badenoch-withdraw-crass-remark-amputees/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-18T21:16:00+01:00</news:publication_date>
-      <news:title>Burnham tells Badenoch to withdraw ‘crass’ remark on amputees</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-18-evening/brussels-wants-clarity-burnham-kyle-backs-rejoin-pledge/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-18T21:16:00+01:00</news:publication_date>
-      <news:title>Brussels wants clarity from Burnham as Kyle backs rejoin pledge</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-18-evening/mahmood-200-local-police-commands-two-tier-claims-false/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-18T21:16:00+01:00</news:publication_date>
-      <news:title>Mahmood announces 200 local police commands and calls two-tier claims ‘false’</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-18-evening/sse-threatens-gas-storage-closure-enquest-quits-north-sea/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-18T21:16:00+01:00</news:publication_date>
-      <news:title>SSE threatens gas storage closure as EnQuest quits North Sea</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-18-evening/birmingham-wins-high-court-injunction-flags-lamp-posts/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-18T21:16:00+01:00</news:publication_date>
-      <news:title>Birmingham wins High Court injunction against flags on lamp-posts</news:title>
     </news:news>
   </url>
 </urlset>

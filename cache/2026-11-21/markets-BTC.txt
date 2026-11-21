@@ -1,0 +1,4 @@
+URL: https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=BTC.CM=&requestMethod=itv&noform=1&partnerId=2&fund=1&exthrs=1&output=json
+SOURCE: CNBC quote webservice — retrieved Sat 21 Nov 2026 19:49 GMT (system clock); figure timestamp (last_time): 2026-11-21T14:55:01.000-0500
+
+symbol=BTC.CM= name=Bitcoin/USD Coin Metrics last=60,166.96 change=+1,779.38 change_pct=+3.05% previous_day_closing=58,387.58 last_time=2026-11-21T14:55:01.000-0500 last_timedate=2:55 PM EST
