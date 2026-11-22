@@ -1,0 +1,4 @@
+URL: https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=UK10Y&requestMethod=itv&noform=1&partnerId=2&fund=1&exthrs=1&output=json
+SOURCE: CNBC quote webservice — retrieved Sun 22 Nov 2026 07:56 GMT (system clock)
+
+symbol=UK10Y name=British 10 Year Gilt last=5.2427% change=-0.003 change_pct=-0.0572% previous_day_closing=5.2457% last_time=2026-11-21T21:01:27.000+0000 last_timedate=9:01 PM GMT

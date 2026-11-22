@@ -2,6 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-22-morning/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-22T07:55:00+01:00</news:publication_date>
+      <news:title>Morning Briefing — Sunday 22 November 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-22-morning/iran-strikes-us-bases-bahrain/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-22T07:55:00+01:00</news:publication_date>
+      <news:title>Iran strikes US positions in Bahrain as attacks on the Gulf resume</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-22-morning/qatar-mediators-tehran-trump-permanent-deal/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-22T07:55:00+01:00</news:publication_date>
+      <news:title>Qatari mediators visit Tehran as Trump seeks a ‘permanent’ deal</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-22-morning/cop31-new-draft-second-overtime/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-22T07:55:00+01:00</news:publication_date>
+      <news:title>COP31 enters a second day of overtime with a new draft deal</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-22-morning/mexico-captures-el-chapo-isidro/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-22T07:55:00+01:00</news:publication_date>
+      <news:title>Mexico captures ‘El Chapo Isidro’ in raid that leaves 11 dead</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-22-morning/aoun-demands-israeli-withdrawal-iran/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-22T07:55:00+01:00</news:publication_date>
+      <news:title>Lebanon’s president demands Israeli withdrawal and rebukes Iranian interference</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-22-morning/theresa-may-aghast-burnham-eu/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-22T07:55:00+01:00</news:publication_date>
+      <news:title>Theresa May ‘aghast’ at Burnham’s talk of rejoining the EU</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-22-morning/barnham-votes-leave-uk-asylum/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-22T07:55:00+01:00</news:publication_date>
+      <news:title>Suffolk village votes to ‘leave the UK’ over asylum camp</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-22-morning/ni-consultants-strike-monday-pay/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-22T07:55:00+01:00</news:publication_date>
+      <news:title>Northern Ireland consultants strike on Monday as pay dispute escalates</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-22-morning/bradford-councillor-stabbing-charge/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-22T07:55:00+01:00</news:publication_date>
+      <news:title>Man charged with attempted murder after Bradford councillor stabbed</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-22-morning/labour-mps-course-counter-populism/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-22T07:55:00+01:00</news:publication_date>
+      <news:title>Labour MPs take donor-funded course on countering rightwing populism</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-11-21-evening/</loc>
     <news:news>
       <news:publication>
