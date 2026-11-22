@@ -1,0 +1,4 @@
+URL: https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=EURGBP=&requestMethod=itv&noform=1&partnerId=2&fund=1&exthrs=1&output=json
+SOURCE: CNBC quote webservice — retrieved Sun 22 Nov 2026 20:22 GMT (system clock)
+
+symbol=EURGBP= name=Euro/UK Pound Sterling FX Cross Rate last=0.8379 change=-0.0003 change_pct=-0.0358% previous_day_closing=0.8382 last_time=2026-11-22T13:02:00.000-0500 last_timedate=1:02 PM EST

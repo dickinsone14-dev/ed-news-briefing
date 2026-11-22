@@ -1,0 +1,4 @@
+URL: https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=XAU=&requestMethod=itv&noform=1&partnerId=2&fund=1&exthrs=1&output=json
+SOURCE: CNBC quote webservice — retrieved Sun 22 Nov 2026 20:22 GMT (system clock)
+
+symbol=XAU= name=Gold / US Dollar Spot last=3,532.29 change=UNCH change_pct=UNCH previous_day_closing=3,532.29 last_time=2026-11-22T04:50:11.392-0500 last_timedate=4:50 AM EST

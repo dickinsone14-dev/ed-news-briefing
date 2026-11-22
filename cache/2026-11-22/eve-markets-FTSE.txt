@@ -1,0 +1,4 @@
+URL: https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=.FTSE&requestMethod=itv&noform=1&partnerId=2&fund=1&exthrs=1&output=json
+SOURCE: CNBC quote webservice — retrieved Sun 22 Nov 2026 20:22 GMT (system clock)
+
+symbol=.FTSE name=FTSE 100 last=10,346.34 change=-106.34 change_pct=-1.02% previous_day_closing=10,452.68 last_time=2026-11-20 last_timedate=11/20/26 GMT
