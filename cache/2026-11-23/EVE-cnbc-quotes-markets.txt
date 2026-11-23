@@ -1,0 +1,13 @@
+URL: https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol
+CNBC quote service, retrieved 23 Nov 2026 ~17:58 GMT
+
+FTSE 100 | .FTSE | last 10,480.82 | change +134.48 +1.30% | at 2026-11-23T16:35:00.000+0000 | prev close 10,346.34
+S&P 500 Index | .SPX | last 7,234.05 | change +323.66 +4.68% | at 2026-11-23T12:57:50.000-0500 | prev close 6,910.39
+ICE Brent Crude (Jan'27) | @LCO.1 | last 89.93 | change -2.64 -2.85% | at 2026-11-23T18:47:48.000+0100 | prev close 92.57
+GBP/USD | GBP= | last 1.3009 | change -0.0072 -0.5504% | at 2026-11-23T12:57:00.000-0500 | prev close 1.3081
+Gold COMEX (Dec'26) | @GC.1 | last 3,649.70 | change +134.30 +3.82% | at 2026-11-23T12:47:49.000-0500 | prev close 3,515.40
+Euro/UK Pound Sterling FX Cross Rate | EURGBP= | last 0.8361 | change -0.0021 -0.2505% | at 2026-11-23T12:57:00.000-0500 | prev close 0.8382
+British 10 Year Gilt | GB10Y-GB | last 5.2047% | change -0.0063 -0.1209% | at 2026-11-23T17:15:01.000+0000 | prev close 5.211%
+CBOE Volatility Index | .VIX | last 27.65 | change -8.24 -22.96% | at 2026-11-23T12:57:46.000-0500 | prev close 35.89
+Bitcoin/USD Coin Metrics | BTC.CM= | last 61,586.53 | change +937.34 +1.55% | at 2026-11-23T12:57:46.000-0500 | prev close 60,649.19
+U.S. 10 Year Treasury | US10Y | last 4.94% | change +0.028 +0.57% | at 2026-11-23T12:56:49.000-0500 | prev close 4.912%
