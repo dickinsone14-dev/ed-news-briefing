@@ -2,6 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-24-evening/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-24T17:55:00+01:00</news:publication_date>
+      <news:title>Evening Briefing — Tuesday 24 November 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-24-evening/iran-tankers-mined-tighter-hormuz-control/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-24T17:55:00+01:00</news:publication_date>
+      <news:title>Iran reports six tankers mined as army chief urges tighter Hormuz control</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-24-evening/houthi-strike-riyadh-tower-uk-sanctions/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-24T17:55:00+01:00</news:publication_date>
+      <news:title>Houthi strike on Riyadh tower wounds 11 as Britain sanctions group</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-24-evening/nvidia-shares-slide-trump-role-questioned/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-24T17:55:00+01:00</news:publication_date>
+      <news:title>Nvidia shares slide as Trump’s role in Huang’s return draws bipartisan fire</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-24-evening/zaporizhzhia-strike-moscow-drone-wave/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-24T17:55:00+01:00</news:publication_date>
+      <news:title>Russian strike kills two in Zaporizhzhia as hundreds of drones target Moscow</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-24-evening/israel-kills-hamas-internal-security-chief/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-24T17:55:00+01:00</news:publication_date>
+      <news:title>Israeli strike kills head of Hamas’s internal security in Gaza City</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-24-evening/ministers-accept-pip-fast-track-timms/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-24T17:55:00+01:00</news:publication_date>
+      <news:title>Ministers accept Pip fast track as Timms review warns of ‘rebalancing’</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-24-evening/firms-supplying-ukraine-russian-sabotage-alert/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-24T17:55:00+01:00</news:publication_date>
+      <news:title>Firms supplying Ukraine told to ‘act now’ against Russian sabotage</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-24-evening/tories-sell-victorian-jails-prison-places/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-24T17:55:00+01:00</news:publication_date>
+      <news:title>Tories would sell London’s Victorian jails to fund 50,000 prison places</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-24-evening/badenoch-burnham-joke-influencer-video/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-24T17:55:00+01:00</news:publication_date>
+      <news:title>Badenoch says Burnham has made Britain ‘a joke’ over No 10 video</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-24-evening/record-heat-deaths-england-2026/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-24T17:55:00+01:00</news:publication_date>
+      <news:title>Record 5,258 heat-linked deaths in England during hottest summer</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-11-23-evening/</loc>
     <news:news>
       <news:publication>
@@ -241,248 +362,6 @@
       </news:publication>
       <news:publication_date>2026-11-22T20:49:00+01:00</news:publication_date>
       <news:title>Britons’ balances in offshore tax havens top £1tn, HMRC data shows</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-22-morning/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-22T07:55:00+01:00</news:publication_date>
-      <news:title>Morning Briefing — Sunday 22 November 2026</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-22-morning/iran-strikes-us-bases-bahrain/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-22T07:55:00+01:00</news:publication_date>
-      <news:title>Iran strikes US positions in Bahrain as attacks on the Gulf resume</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-22-morning/qatar-mediators-tehran-trump-permanent-deal/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-22T07:55:00+01:00</news:publication_date>
-      <news:title>Qatari mediators visit Tehran as Trump seeks a ‘permanent’ deal</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-22-morning/cop31-new-draft-second-overtime/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-22T07:55:00+01:00</news:publication_date>
-      <news:title>COP31 enters a second day of overtime with a new draft deal</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-22-morning/mexico-captures-el-chapo-isidro/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-22T07:55:00+01:00</news:publication_date>
-      <news:title>Mexico captures ‘El Chapo Isidro’ in raid that leaves 11 dead</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-22-morning/aoun-demands-israeli-withdrawal-iran/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-22T07:55:00+01:00</news:publication_date>
-      <news:title>Lebanon’s president demands Israeli withdrawal and rebukes Iranian interference</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-22-morning/theresa-may-aghast-burnham-eu/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-22T07:55:00+01:00</news:publication_date>
-      <news:title>Theresa May ‘aghast’ at Burnham’s talk of rejoining the EU</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-22-morning/barnham-votes-leave-uk-asylum/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-22T07:55:00+01:00</news:publication_date>
-      <news:title>Suffolk village votes to ‘leave the UK’ over asylum camp</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-22-morning/ni-consultants-strike-monday-pay/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-22T07:55:00+01:00</news:publication_date>
-      <news:title>Northern Ireland consultants strike on Monday as pay dispute escalates</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-22-morning/bradford-councillor-stabbing-charge/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-22T07:55:00+01:00</news:publication_date>
-      <news:title>Man charged with attempted murder after Bradford councillor stabbed</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-22-morning/labour-mps-course-counter-populism/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-22T07:55:00+01:00</news:publication_date>
-      <news:title>Labour MPs take donor-funded course on countering rightwing populism</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-21-evening/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-21T21:41:00+01:00</news:publication_date>
-      <news:title>Evening Briefing — Saturday 21 November 2026</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-21-evening/tankers-struck-hormuz-iran-tightens-grip/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-21T21:41:00+01:00</news:publication_date>
-      <news:title>Tankers struck near Hormuz as Iran tightens its grip on shipping</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-21-evening/streeting-kyiv-zelensky-crimean-bridge/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-21T21:41:00+01:00</news:publication_date>
-      <news:title>Streeting in Kyiv as Zelensky defends Crimean Bridge strikes</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-21-evening/drones-hit-russian-ship-gulf-finland/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-21T21:41:00+01:00</news:publication_date>
-      <news:title>Drones hit Kaliningrad-bound Russian ship in the Gulf of Finland</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-21-evening/cop31-overtime-fossil-fuel-language/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-21T21:41:00+01:00</news:publication_date>
-      <news:title>COP31 runs into overtime as Saudi Arabia blocks fossil-fuel language</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-21-evening/wall-street-correction-ai-selloff/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-21T21:41:00+01:00</news:publication_date>
-      <news:title>Wall Street slides into correction as the AI sell-off deepens</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-21-evening/miliband-rejoining-eu-on-table/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-21T21:41:00+01:00</news:publication_date>
-      <news:title>Miliband says rejoining the EU will be ‘on the table’</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-21-evening/burnham-rejects-welsh-policing-devolution/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-21T21:41:00+01:00</news:publication_date>
-      <news:title>Burnham rejects devolving policing and justice to Wales</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-21-evening/ni-consultants-strike-monday/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-21T21:41:00+01:00</news:publication_date>
-      <news:title>Northern Ireland consultants to strike on Monday as pay row deepens</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-21-evening/reform-weighs-pact-restore-britain/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-21T21:41:00+01:00</news:publication_date>
-      <news:title>Reform weighs a pact with Restore Britain as its support stalls</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-21-evening/pm-meet-birmingham-pub-bombings-families/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-21T21:41:00+01:00</news:publication_date>
-      <news:title>Prime minister to meet Birmingham pub bombings families in new year</news:title>
     </news:news>
   </url>
 </urlset>
