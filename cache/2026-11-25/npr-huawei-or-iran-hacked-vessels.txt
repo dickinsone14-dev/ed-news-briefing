@@ -1,0 +1,44 @@
+URL: https://text.npr.org/nx-s1-6052994
+NPR, 25 November
+
+Text-Only Version Go To Full Site
+
+NPR >
+        
+          National Security
+
+Tuesday, November 24, 2026 • 4:04 PM EST
+
+The U.S. government has intelligence suggesting that up to 50 commercial shipping vessels were recently compromised by cyberattacks, activity federal officials are investigating as potentially linked to Iran.
+
+That's according to a U.S. official familiar with the matter who was not authorized to speak on the record, a former military cyber operator and an industry executive briefed on the attacks. The series of breaches was first reported by the The Wall Street Journal.
+
+The attacks against the maritime sector, if officials' suspicions are correct, may be the latest example of Iranian cyberattacks against global critical infrastructure during the ongoing war with the United States.
+
+NPR has reported that cybersecurity experts and U.S. officials believe Iranian hackers were responsible for a series of digital attacks against U.S. water treatment systems across the country in August as well as a pattern of attacks targeting refrigeration cooling systems that led to spoiled food at grocery stores on U.S. military bases and all across Europe as recently as early November.
+
+The Coast Guard and the FBI first partnered in August to send a "highly specialized team" to board two different foreign commercial vessels "in the Gulf of America" heading to U.S. ports, according to a statement provided by the FBI and the Coast Guard. "The captain, crew, and shore-side corporate staff were critical partners in helping to ensure the threats were mitigated," according to the statement.
+
+The FBI and Coast Guard press offices also told NPR that there are no current "reports of operational disruptions, vessel instability, physical danger to crews, or environmental impacts."
+
+However, there are dozens more ships in international waters that the U.S. government believes have been compromised by hackers and many others who might be vulnerable to similar attacks.
+
+According to the U.S. official familiar with the investigation, bad actors took advantage of known vulnerabilities in Fortinet FortiGate devices, which are frequently used in the maritime industry. The Coast Guard and FBI released a cyber bulletin in September warning the industry that bad actors were breaking into these devices, which help manage firewalls and virtual private networks. "Threat actors routinely scan for specific, unpatched vulnerabilities to gain a foothold," the bulletin read.
+
+According to the U.S. official, in some cases, employees aboard the ships suspected something nefarious was going on when they noticed email disruptions or couldn't log in to their accounts, or, in at least one case, an extended communications blackout. The U.S. official declined to comment on how the U.S. government knows about the extent of breaches across the sector.
+
+However, according to the U.S. official, hackers were able to break in using the Fortinet vulnerability and then pivot from the ships' IT systems over to their network of devices controlling physical processes on the ships, what's called operational technology.
+
+The U.S. official said the bad actors "could have impacted the systems on board that control propulsion, steering, navigation, and cargo management," though they did not share any examples of that kind of activity occurring. In at least one case, one of the ships affected was an LNG tanker designed to transport liquified natural gas. It's important to keep systems at a certain temperature to prevent dangerous accidents if a ship's cargo includes explosive materials –from chemicals to fuel.
+
+While commercial vessels are accustomed to physical security reviews entering the United States following the Sept. 11 terrorist attacks, digital threats are becoming all the more important to track as adversaries can break in and cause damage from afar. "It's a totally new paradigm that these tankers are networked in this way," the U.S. official said.
+
+Even so, national security officials have feared something like this might happen for years. A former Navy official who requested anonymity to discuss internal operations tells NPR that "we had been tracking the possibility to exploit and take control of [operational technology] systems on Navy ships and Merchant [Marine] ships for a long time, and now this is coming to fruition."
+
+While the U.S. government is wary of advertising Iranian hacking efforts during the war, officials also want to spread awareness of the vulnerability of internet connected devices, particularly those that are linked to the technology that controls critical processes. "These are not sophisticated attacks," the official said. "This is a known vulnerability that could be mitigated with some pretty basic cyber hygiene."
+
+"Modern ships are highly integrated systems. A cyberattack presents significant risks, including the potential for a collision, grounding, oil spill, or even an explosion. The Coast Guard regularly publishes bulletins on cyber vulnerabilities and actions vessel owners and operators can take to secure their networks," according to a statement from the Coast Guard.
+
+Ahead of the winter and a busy holiday season for commercial shipping, officials are bracing themselves to investigate any ship entering U.S. ports that could be compromised.
+
+"People never think about what a modern blessing electricity is until it goes out. People take the marine transportation system for granted until there's a problem and their stuff doesn't get there by Christmas," the U.S. official said. "I wish more Americans knew how complex this system is."

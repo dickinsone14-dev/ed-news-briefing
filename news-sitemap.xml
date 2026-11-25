@@ -2,6 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-25-evening/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-25T14:51:00+01:00</news:publication_date>
+      <news:title>Evening Briefing — Wednesday 25 November 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-25-evening/saudi-coalition-strikes-hodeidah-houthis-threaten/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-25T14:51:00+01:00</news:publication_date>
+      <news:title>Saudi-led coalition strikes Hodeidah as Houthis threaten Red Sea ports</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-25-evening/ai-sell-off-asia-wall-street/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-25T14:51:00+01:00</news:publication_date>
+      <news:title>AI sell-off deepens as Kospi plunges 6.2% and Wall Street slides</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-25-evening/leaked-data-russian-war-dead/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-25T14:51:00+01:00</news:publication_date>
+      <news:title>Leaked Russian data show almost 500,000 soldiers killed in Ukraine</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-25-evening/sybiha-tells-putin-stop-complaining/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-25T14:51:00+01:00</news:publication_date>
+      <news:title>Sybiha tells Putin to “stop complaining” over refinery strikes</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-25-evening/huawei-guilty-us-trade-secrets/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-25T14:51:00+01:00</news:publication_date>
+      <news:title>Huawei convicted of stealing US trade secrets but cleared of racketeering</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-25-evening/energy-bills-rise-26pc-january/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-25T14:51:00+01:00</news:publication_date>
+      <news:title>Energy bills to rise 26% from January as Iran war lifts gas prices</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-25-evening/fairfield-review-met-institutionally-racist/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-25T14:51:00+01:00</news:publication_date>
+      <news:title>Fairfield review finds Met still racist, misogynist and homophobic</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-25-evening/burnham-ndas-age-consent-consultation/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-25T14:51:00+01:00</news:publication_date>
+      <news:title>Burnham brings forward NDA curbs and promises age-of-consent consultation</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-25-evening/nuclear-test-veterans-hillsborough-style-panel/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-25T14:51:00+01:00</news:publication_date>
+      <news:title>Hillsborough-style panel to examine nuclear test veterans’ blood tests</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-25-evening/100-pound-energy-payment-4-january/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-25T14:51:00+01:00</news:publication_date>
+      <news:title>£100 energy payment to reach 20 million homes from 4 January</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-11-24-evening/</loc>
     <news:news>
       <news:publication>
@@ -241,127 +362,6 @@
       </news:publication>
       <news:publication_date>2026-11-23T17:55:00+01:00</news:publication_date>
       <news:title>Rayner plans to take a share of interest on tenants’ deposits</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-22-evening/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-22T20:49:00+01:00</news:publication_date>
-      <news:title>Evening Briefing — Sunday 22 November 2026</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-22-evening/cop31-collapses-without-climate-deal/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-22T20:49:00+01:00</news:publication_date>
-      <news:title>COP31 collapses without a main deal after row over fossil fuels</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-22-evening/drones-hit-russian-corvette-benghazi/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-22T20:49:00+01:00</news:publication_date>
-      <news:title>Suspected Ukrainian drones wreck a Russian warship in Libya’s Benghazi</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-22-evening/russian-strikes-kill-six-near-kyiv/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-22T20:49:00+01:00</news:publication_date>
-      <news:title>Russian strikes kill six near Kyiv as Zelensky presses for Patriots</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-22-evening/trump-weighs-iran-strikes-new-year/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-22T20:49:00+01:00</news:publication_date>
-      <news:title>Trump says he is inclined to resume Iran strikes after new year</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-22-evening/democrats-largest-house-majority-1992/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-22T20:49:00+01:00</news:publication_date>
-      <news:title>Democrats secure their largest House majority since 1992</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-22-evening/tories-would-scrap-burnham-eu-deal/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-22T20:49:00+01:00</news:publication_date>
-      <news:title>Conservatives pledge to scrap Burnham’s EU deal if they win power</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-22-evening/centrica-boss-concerned-energy-bills/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-22T20:49:00+01:00</news:publication_date>
-      <news:title>Centrica chief ‘hugely concerned’ as January energy bills set to soar</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-22-evening/pip-review-overhaul-not-scrap/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-22T20:49:00+01:00</news:publication_date>
-      <news:title>Pip review to urge an overhaul rather than scrapping benefit for under-25s</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-22-evening/reform-tories-rebuke-trump-putin-post/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-22T20:49:00+01:00</news:publication_date>
-      <news:title>Reform and the Tories rebuke Trump over ‘My friend’ Putin post</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thedailybrief.co.uk/briefings/2026-11-22-evening/offshore-tax-haven-balances-top-1tn/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>The Daily Brief</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-22T20:49:00+01:00</news:publication_date>
-      <news:title>Britons’ balances in offshore tax havens top £1tn, HMRC data shows</news:title>
     </news:news>
   </url>
 </urlset>
