@@ -1,0 +1,390 @@
+URL: https://www.theguardian.com/politics/live/2026/nov/25/andy-burnham-kemi-badenoch-pmqs-energy-bills-tiktok-welfare-benefits-timms-reform-brexit-devolution-latest-news-updates
+The Guardian politics live (Andrew Sparrow), 25 Nov 2026, full paragraph extract
+
+Pair clashed at PMQs over a video shot outside No 10 by TikToker Max Balegde
+
+Close dialogue1/4Next imagePrevious imageToggle captionSkip to key eventsPrint subscriptions Sign in document.addEventListener('DOMContentLoaded', function () {
+
+					/** The checkbox input element used to toggle the navigation menu. */
+					const navInputCheckbox = document.getElementById('header-nav-input-checkbox');
+
+					/** The veggie burger button element used to open/close the menu. */
+					const veggieBurger = document.getElementById('header-veggie-burger');
+
+					/** List of menu items that should be selectable when the menu is open. */
+					const expandedMenuClickableTags = document.querySelectorAll(
+						'.selectableMenuItem',
+					);
+
+					/** The root element of the expanded menu. */
+					const expandedMenu = document.getElementById('header-expanded-menu-root');
+
+					/** The label for the first column in the menu, assumed to be "News".*/
+					const firstColLabel = document.getElementById('News-button');
+
+					/** The link element in the second list item under news links. */
+					const firstColLink = document.querySelector(
+						'#newsLinks > li:nth-of-type(2) > a',
+					);
+
+					/**
+					 * Focuses on the first navigation element depending on whether the first column label is visible.
+					 *
+					 * If the first column label is not visible, the function focuses on the first link element.
+					 * Otherwise, it focuses on the first column label.
+					 */
+					const focusOnFirstNavElement = () => {
+						if (window.getComputedStyle(firstColLabel).display === 'none') {
+							firstColLink.focus();
+						} else {
+							firstColLabel.focus();
+						}
+					};
+
+					/**
+					 * Updates ARIA attributes and tabindex values based on whether the menu is open or closed.
+					 */
+					const updateAttributesForMenu = (isOpen) => {
+						firstColLabel.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+						veggieBurger.setAttribute(
+							'data-link-name',
+							isOpen
+								? 'header : veggie-burger : hide'
+								: 'header : veggie-burger : show',
+						);
+						expandedMenuClickableTags.forEach((tag) => {
+							tag.setAttribute('tabindex', isOpen ? '0' : '-1');
+						});
+					};
+
+					/** Toggles the navigation menu by simulating a click on the checkbox. */
+					const toggleMainMenu = () => {
+						if (navInputCheckbox) {
+							navInputCheckbox.click();
+						}
+					};
+
+					/**
+					 * Handles keydown events to toggle the menu when the Enter or Space key is pressed.
+					 */
+					const keydownToggleMainMenu = (e) => {
+						if (e.key === 'Enter' || e.key === ' ') {
+							e.preventDefault();
+							toggleMainMenu();
+						}
+					};
+					/**
+					 * Handles click events to manage the state of the navigation menu.
+					 *
+					 * - Toggles the menu open/close state when the menu button (veggieBurger) is clicked.
+					 */
+						const handleMenuClick = (e) => {
+							const menuButtonClicked = navInputCheckbox === e.target;
+							const clickInsideMenu = expandedMenu.contains(e.target);
+							const menuIsOpen = navInputCheckbox.checked
+							if (menuButtonClicked && !menuIsOpen) {
+						    document.body.classList.toggle('nav-is-open')
+
+							firstColLabel.setAttribute('aria-expanded', 'false')
+                            veggieBurger.setAttribute('data-link-name','header : veggie-burger : show')
+                            expandedMenuClickableTags.forEach(function($selectableElement){
+                                $selectableElement.setAttribute('tabindex','-1')
+                            })
+                          } else if (menuButtonClicked && menuIsOpen) {
+						    document.body.classList.toggle('nav-is-open')
+							firstColLabel.setAttribute('aria-expanded', 'true')
+                            veggieBurger.setAttribute('data-link-name','header : veggie-burger : hide')
+                            expandedMenuClickableTags.forEach(function($selectableElement){
+                                $selectableElement.setAttribute('tabindex','0')
+                            })
+                            focusOnFirstNavElement()
+							}
+						};
+
+					/** Adds event listeners to manage the navigation menu. */
+					if (navInputCheckbox) {
+						navInputCheckbox.addEventListener('click', handleMenuClick);
+						veggieBurger.addEventListener('keydown', keydownToggleMainMenu);
+						document.addEventListener('keydown', (e) => {
+							if (e.key === 'Escape' && navInputCheckbox.checked) {
+								toggleMainMenu();
+								veggieBurger.focus();
+							}
+						});
+					/**
+					 * Handles mouse down events to manage the state of the navigation menu.
+					 *
+					 * - Closes the menu if the click occurs outside both the menu button and the expanded menu.
+					 */
+					document.addEventListener('mousedown', function(e){
+						if(navInputCheckbox.checked && !expandedMenu.contains(e.target) && !veggieBurger.contains(e.target)){
+						toggleMainMenu()
+							}
+						});
+					}
+				});UKUK editionUS editionAustralia editionEurope editionInternational editionThe Guardian - Back to homeThe GuardianNewsOpinionSportCultureLifestyleShow moreHide expanded menudocument.addEventListener('DOMContentLoaded', function(){
+                        var columnInput = document.getElementById('News-button');
+
+						if (!columnInput) return; // Sticky nav replaces the nav so element no longer exists for users in test.
+
+						columnInput.addEventListener('keydown', function(e){
+                            // keyCode: 13 => Enter key | keyCode: 32 => Space key
+                            if (e.keyCode === 13 || e.keyCode === 32) {
+                                e.preventDefault()
+                                document.getElementById('News-checkbox-input').click();
+                            }
+                        })
+                    })NewsView all NewsUK newsUS politicsWorld newsClimate crisisMiddle EastUkraineFootballNewslettersBusinessEnvironmentUK politicsScienceTechGlobal developmentObituariesdocument.addEventListener('DOMContentLoaded', function(){
+                        var columnInput = document.getElementById('Opinion-button');
+
+						if (!columnInput) return; // Sticky nav replaces the nav so element no longer exists for users in test.
+
+						columnInput.addEventListener('keydown', function(e){
+                            // keyCode: 13 => Enter key | keyCode: 32 => Space key
+                            if (e.keyCode === 13 || e.keyCode === 32) {
+                                e.preventDefault()
+                                document.getElementById('Opinion-checkbox-input').click();
+                            }
+                        })
+                    })OpinionView all OpinionThe Guardian viewColumnistsCartoonsOpinion videosLettersdocument.addEventListener('DOMContentLoaded', function(){
+                        var columnInput = document.getElementById('Sport-button');
+
+						if (!columnInput) return; // Sticky nav replaces the nav so element no longer exists for users in test.
+
+						columnInput.addEventListener('keydown', function(e){
+                            // keyCode: 13 => Enter key | keyCode: 32 => Space key
+                            if (e.keyCode === 13 || e.keyCode === 32) {
+                                e.preventDefault()
+                                document.getElementById('Sport-checkbox-input').click();
+                            }
+                        })
+                    })SportView all SportFootballCricketRugby unionTennisCyclingF1GolfBoxingRugby leagueRacingUS sportsdocument.addEventListener('DOMContentLoaded', function(){
+                        var columnInput = document.getElementById('Culture-button');
+
+						if (!columnInput) return; // Sticky nav replaces the nav so element no longer exists for users in test.
+
+						columnInput.addEventListener('keydown', function(e){
+                            // keyCode: 13 => Enter key | keyCode: 32 => Space key
+                            if (e.keyCode === 13 || e.keyCode === 32) {
+                                e.preventDefault()
+                                document.getElementById('Culture-checkbox-input').click();
+                            }
+                        })
+                    })CultureView all CultureFilmMusicTV & radioBooksArt & designStageGamesClassicaldocument.addEventListener('DOMContentLoaded', function(){
+                        var columnInput = document.getElementById('Lifestyle-button');
+
+						if (!columnInput) return; // Sticky nav replaces the nav so element no longer exists for users in test.
+
+						columnInput.addEventListener('keydown', function(e){
+                            // keyCode: 13 => Enter key | keyCode: 32 => Space key
+                            if (e.keyCode === 13 || e.keyCode === 32) {
+                                e.preventDefault()
+                                document.getElementById('Lifestyle-checkbox-input').click();
+                            }
+                        })
+                    })LifestyleView all LifestyleThe FilterFashionFoodRecipesTravelHealth & fitnessWomenMenLove & sexBeautyHome & gardenMoneyCarsSearch input google-search SearchSupport usPrint subscriptionsHolidaysLive eventsAbout UsDigital ArchiveGuardian Print ShopPatronsGuardian LicensingThe Guardian appVideoPodcastsPicturesNewslettersToday's paperInside the GuardianGuardian WeeklyCrosswordsPuzzles & gamesCorrectionsTipsSearch input google-search SearchHolidaysLive eventsAbout UsDigital ArchiveGuardian Print ShopPatronsGuardian LicensingUKUS politicsWorldClimate crisisMiddle EastUkraineFootballNewslettersBusinessEnvironmentUK politicsScienceTechGlobal developmentObituariesPolitics live with Andrew SparrowPoliticsBurnham dismisses Badenoch’s criticism over influencer and declines to apologise for ‘vile video’ – UK politics livePair clashed at PMQs over a video shot outside No 10 by TikToker Max Balegde
+
+Key events13m agoAfternoon summary24m agoTories come out against proposed restoration plan for Palace of Westminster saying cost could make it 'another HS2'45m agoBurnham says he is open minded about whether to introduce staggered age of consent law1h agoBurnham looking for new EU adviser as Michael Ellam steps down1h agoBridget Phillipson urges Tories to recognise 'reality' of violence against women, and stop 'weaponising' it as anti-migrant issue3h agoFarage launches Keep Britain Out group opposing rejoining EU, saying he hopes referendum never happens3h agoBurnham dismisses Badenoch as being 'opposite' of an influencer as he declines to apologise over 'vile video'3h agoLabour ‘committed’ to ban on conversion practices despite calls for proposed law to be scrapped4h agoPMQs - verdict4h agoBurnham says compensation could be paid over test veterans, but says government will review this when full truth out5h agoBurnham says he felt full apology to nuclear test veterans should come when report published5h agoBurnham says nuclear test veterans panel will deliver interim report by 3 October 2027, 75th anniversary of first test5h agoBurnham says 'time is not our our side' as he defends not legislating for special tribunal on nuclear test veterans5h agoBurnham says it is 'moral imperative' to get to truth of what happened to nuclear test veterans5h agoBurnham praises nuclear test veterans who had to 'fight their own country for recognition and answers'5h agoBurnham defends rejecting Plaid Cymru's plans for further devolution to Wales6h agoBadenoch and Burnham clash over tuition fee bill6h agoReform UK supporters far more likely than other party supporters to be wrong about migration trends, poll shows6h agoBurnham faces Badenoch at PMQs6h agoBadenoch claims Farage becoming 'more irrelevant by the day' as she criticises him for jibe about her remain-voting husband7h agoFormer Unison leader Christina McAnea to chair negotiations on fair pay agreement for care workers, DHSC says8h agoStreeting says there has been 'cover-up' over harm done to nuclear test veterans, as inquiry launched8h agoJohn Swinney says Burnham must honour Labour promise to cut energy bills by £3008h agoHome Office says more offenders to be tagged before they leave prison8h agoPhillipson backs Burnham engaging with social media influencers8h agoBurnham urged to step in to halt energy bill hikes in January, as Ofgem says price cap to rise 26%9h agoBurnham’s devolution plans risk ‘significant disparities’ for people in England, MPs say Andy Burnham and Kemi Badenoch at PMQs on Wednesday Photograph: Parliament LiveView image in fullscreenAndy Burnham and Kemi Badenoch at PMQs on Wednesday Photograph: Parliament LiveAndrew SparrowWed 25 Nov 2026 17.42 GMTFirst published on Wed 25 Nov 2026 09.22 GMTShareFrom 3h ago14.57 GMTBurnham dismisses Badenoch as being 'opposite' of an influencer as he declines to apologise over 'vile video'Here is the Press Association story about the influencer row about PMQs.
+
+double quotation markAndy Burnham has said TikToker Max Balegde’s “bomboclaat pussywagon” video outside No 10 was “wrong”, but refused to apologise for “engaging with people that young people themselves are looking to for their information”.
+
+He came under fire at PMQs for the lewd clip which emerged from a reception he hosted for online celebrities earlier this month.
+
+In the now-deleted post, Balegde lip-synced to a song with the lyrics “bomboclaat pussywagon chicken nuggets” outside the black door to the prime minister’s official address.
+
+Bomboclaat is a Jamaican profanity referring to a menstrual cloth while pussy is a slang term for female genitals.
+
+Kemi Badenoch said in the Commons: “This week, we saw videos of the prime minister hosting social media influencers in Downing Street.
+
+“The words used by one of them on the steps of No 10 were so offensive that I will not repeat them in this house.
+
+“Disgusting and pejorative comments about women’s private parts, obscene language that referred to white women as cheap meat. This is grotesque …
+
+“Will the prime minister now apologise for debasing his office and for allowing that vile video to be recorded on the steps of No 10?”
+
+Burnham responded: “An inappropriate video was taken down, and the creator has rightly apologised, and she was right to call out that because it was not acceptable.
+
+“But I won’t apologise for engaging … with people that young people themselves are looking to for their information, and I think this house – not this individual – I’m talking about the wider point.
+
+“She sneers at TikTokers. She sneers at influencers. Young people are looking to these people for their information, and I won’t apologise for doing that. I’ve already said it was wrong what was said, and it was taken down.”
+
+The Labour leader earlier quipped that Conservative politicians were “the opposite of influencers”.
+
+When Badenoch said the prime minister spent too much time talking to social media personalities, he said: “It’s true I have spoken to influencers, and then I have to come to this House and speak to people the opposite of influencers.”
+
+Updated at 14.59 GMTKey events13m agoAfternoon summary24m agoTories come out against proposed restoration plan for Palace of Westminster saying cost could make it 'another HS2'45m agoBurnham says he is open minded about whether to introduce staggered age of consent law1h agoBurnham looking for new EU adviser as Michael Ellam steps down1h agoBridget Phillipson urges Tories to recognise 'reality' of violence against women, and stop 'weaponising' it as anti-migrant issue3h agoFarage launches Keep Britain Out group opposing rejoining EU, saying he hopes referendum never happens3h agoBurnham dismisses Badenoch as being 'opposite' of an influencer as he declines to apologise over 'vile video'3h agoLabour ‘committed’ to ban on conversion practices despite calls for proposed law to be scrapped4h agoPMQs - verdict4h agoBurnham says compensation could be paid over test veterans, but says government will review this when full truth out5h agoBurnham says he felt full apology to nuclear test veterans should come when report published5h agoBurnham says nuclear test veterans panel will deliver interim report by 3 October 2027, 75th anniversary of first test5h agoBurnham says 'time is not our our side' as he defends not legislating for special tribunal on nuclear test veterans5h agoBurnham says it is 'moral imperative' to get to truth of what happened to nuclear test veterans5h agoBurnham praises nuclear test veterans who had to 'fight their own country for recognition and answers'5h agoBurnham defends rejecting Plaid Cymru's plans for further devolution to Wales6h agoBadenoch and Burnham clash over tuition fee bill6h agoReform UK supporters far more likely than other party supporters to be wrong about migration trends, poll shows6h agoBurnham faces Badenoch at PMQs6h agoBadenoch claims Farage becoming 'more irrelevant by the day' as she criticises him for jibe about her remain-voting husband7h agoFormer Unison leader Christina McAnea to chair negotiations on fair pay agreement for care workers, DHSC says8h agoStreeting says there has been 'cover-up' over harm done to nuclear test veterans, as inquiry launched8h agoJohn Swinney says Burnham must honour Labour promise to cut energy bills by £3008h agoHome Office says more offenders to be tagged before they leave prison8h agoPhillipson backs Burnham engaging with social media influencers8h agoBurnham urged to step in to halt energy bill hikes in January, as Ofgem says price cap to rise 26%9h agoBurnham’s devolution plans risk ‘significant disparities’ for people in England, MPs say13m ago17.42 GMTAfternoon summary
+ 
+  Millions of British households will face annual energy bills of more than £2,000 a year for the first time since Russia’s invasion of Ukraine, as the cap on energy bills climbs for a third straight quarter.
+
+Andy Burnham has said TikToker Max Balegde’s “bomboclaat pussywagon” video outside No 10 was “wrong”, but refused to apologise for “engaging with people that young people themselves are looking to for their information”. (See 2.57pm.)
+
+Andy Burnham has said there is a “moral imperative” to find out what happened to the nuclear test veterans and that the independent panel being set up to investigate will deliver an interim report by 3 October next year, the 75th anniversary of the first test. (See 1.12pm.)
+
+Labour is “committed” to banning conversion practices despite growing calls to amend or scrap the proposed law over fears it could stifle free speech, the equalities minister has said.
+
+Church of England clergy could be banned from joining or supporting the hard-right Restore Britain party under a motion put forward for debate at the General Synod.
+
+For a full list of all the stories covered on the blog today, do scroll through the list of key event headlines near the top of the blog.
+
+View image in fullscreenAndy Burnham at PMQs today. Photograph: House of Commons/PAShare24m ago17.32 GMTTories come out against proposed restoration plan for Palace of Westminster saying cost could make it 'another HS2'MPs have been debating an opposition day motion on proposals for a multi-billion pound refurbishment of the Palace of Westminster. The project, known as restoration and renewal, has been talked about for more than a decade, but key decisions repeatedly get postponed because the potential cost is so high.
+
+As Peter Walker reported in a story recently, a committee has warned that, without action, the Commons is at risk of burning down in a Notre Dame-style fire.
+
+Read moreMPs have to vote on decisions of this kind and usually they are regarded as non-partisan “house” matters.
+
+But today the Conservatives have tabled a motion calling for a full rethink on the grounds that the proposed costs are too high. It says:
+
+double quotation markThat this house expresses grave concern at the enormous projected costs of the Restoration and Renewal Programme, estimated at between £11.1bn and £39.2bn; believes that the scale of expenditure contemplated is particularly difficult to justify given the severe pressure on public finances; recognises the urgent need to address serious deficiencies in the Palace of Westminster’s fabric, infrastructure and fire safety, while expressing concern at the absence of an agreed budget or affordable scope of works to do so and the continuing failure to establish effective governance, financial control and accountability; and questions the assumptions underlying the proposals for the extensive decant of parliament, the resulting disruption to parliamentary proceedings and the substantial additional costs involved.
+
+Andy Burnham has tabled an amendment saying the project should go ahead. It says:
+
+double quotation markLeave out from “house” to end and insert “recognises that it has a responsibility to repair, secure and protect the Palace of Westminster, part of a UNESCO World Heritage Site of global historic and symbolic significance, for future generations; notes the previous government’s failure to support parliament in implementing a credible Restoration and Renewal Programme in 14 years; further notes that this indecision has added significant costs to the remediation required and that further delay would only increase costs and risk catastrophic failure of the buildings, putting the safety of those who work on and visit the parliamentary estate at risk … notes that the Restoration and Renewal Programme will support thousands of jobs across the country; further notes that the phase one works will deliver value for money for the taxpayer by capping initial costs; and supports the government’s commitment to table a motion for debate so that individual [MPs] can take a decision in a proper and informed way before the end of the year.”
+
+Jesse Norman, the shadow leader of the Commons who opened the debate, accused Labour and the Lib Dems of complacency.
+
+double quotation markAstonishing complacency among Labour and LibDems in the House today about the eye-watering costs of R&R. Not a budget, no defined scope, no defined schedule, just a “forecast” of £11bn to £39bn. Everyone agrees we should address fire and other safety issues, but not at the cost of another HS2.
+
+double quotation markTrue to form, the Lib Dems are whipping their MPs to ABSTAIN on the Restoration and Renewal of the Palace of Westminster. Perhaps something about the possible £39bn cost? They seem petrified about allowing their members a free vote on Government business.
+
+45m ago17.11 GMTBurnham says he is open minded about whether to introduce staggered age of consent lawAndy Burnham has confirmed that he is open-minded about moving to a staggered age of consent. This is a proposal, revived after the Russell Brand conviction and the David Walliams scandal, that would make sex with 16 and 17-year-olds lawful for young people, but not much older people. So, for example, it could be lawful for a 19-year-old man to have sex with a 16-year-old girl, but not for a 39-year-old man to do so.
+
+Asked about this in a pooled TV interview, Burnham said:
+
+double quotation markI’m not jumping to any fixed position and I’m not saying we will or won’t [have a staggered age of consent] but I think it’s right to have the discussion because I want to lead a government that is relentless in tackling violence against women and girls from the very top.
+
+And I know these issues cannot just be there and left ignored for many years.
+
+We just see repeated examples in the media, in politics, in other professions where powerful people use their position for sexual purposes. And it’s wrong and it needs to be called out. And I’m afraid to say the age of consent does have to come into this debate.
+
+Earlier, at PMQs, in response to a question from Labour’s Nadia Whittome, Burnham said he would establish a group of experts – such as judges, lawyers, academics, and campaigners – to advise the government on how courts deal with rape myths. (See 12.19pm.)
+
+double quotation markToday, we have said that we are inviting survivors, parents and young people to take part in a national conversation on these issues – on false rape myths of third-party consent, the age of consent and wider abuses of power. Her expert group can sit as part of that.
+
+1h ago16.46 GMTBurnham looking for new EU adviser as Michael Ellam steps downAndy Burnham is recruiting a new negotiator with the European Union, as his current top official is stepping down just as the prime minister is seeking to bolster ties with the bloc, the Press Association reports.
+
+Michael Ellam, who secured the UK-EU deal unveiled at last week’s Brussels summit, will leave his role at the end of the year, PA says. The former aide to Gordon Brown was appointed in January last year to help steer then-prime minister Keir Starmer’s efforts to “reset” relations with the EU.
+
+EU relations minister Hamish Falconer said:
+
+double quotation markAs a former negotiator, I know what it’s like to be at the heart of critical discussions and Michael has been exemplary. His tireless work and countless hours have helped secure a better deal for Britain that will help grow our economy, cut red tape and increase opportunities for young people.
+
+Over 20 years he’s served his country diligently, whether during the global financial crisis or taking on the prime minister’s EU agenda. His contribution has been truly outstanding.
+
+1h ago16.39 GMTBridget Phillipson urges Tories to recognise 'reality' of violence against women, and stop 'weaponising' it as anti-migrant issueAlexandra ToppingBridget Phillipson, the minister for women and equalities, used a Commons statement on white ribbon day to tell the Tories to recognise the “reality” of violence against women, and to stop “weaponising” it as an issue against migrants.
+
+Phillipson was speaking during a statement on white ribbon day, which marks the importance of ending violence against women and girls.
+
+The shadow equalities minister, Joy Morrissey, asked about the safety of women in Piddington, where some residents have raised concerns following the announcement of a planned government asylum accommodation centre.
+
+She is not the only person to have made this point. Suella Braverman, the Reform UK equalities spokesperson, has visited the village to pledge her party’s support for the women there, who she waid were “terrified” and “angry”. But she was not in the Commons today for the white ribbon day statement, and none of the other Reform UK MPs were there either.
+
+Responding to Morrissey, Phillipson said that ministers had to root out all violence against women and girls, but pointed out that women were most likely to face such violence from men “living in the same home as them”. She said:
+
+double quotation markI take seriously the contribution that [Morrissey] raised where it comes to Piddington.
+
+But I think it would be both wrong and dangerous to suggest that violence against women is only committed by some men from some kinds of backgrounds. We have a responsibility to root it out wherever it happens and whoever carries it out.
+
+And the reality is that the vast majority of abuse in this country committed against women is by those who know them well, who are meant to love them, and are usually living in the same home as them.
+
+And the sooner the party opposite got to grips with that reality and stopped weaponising violence against women and girls, we would be in a much stronger position to change and advance it.
+
+As long as they always go on making this a question of ethnic background rather than about appalling male violence, we will do women a disservice.
+
+2h ago16.22 GMTHere is more from my colleague Peter Walker on the Tory post-PMQs briefing. (See 2.20pm.)
+
+double quotation markAsked on what basis Badenoch believes chicken nuggets is youth slang for white women and girls, her spokesperson declines to say. Pushed he says: “There are people who have come to us to say that is what that refers to.” We are not told who these people are.
+
+double quotation markWe asked if any of these people were aged under 50, and we were assured they were.
+
+Adam Bienkov from Byline Times has posted a full transcript of this exchange on Bluesky.
+
+Updated at 16.24 GMT2h ago15.51 GMTFarage has defended his jibe about Kemi Badenoch’s husband. Asked about her video criticising him over this (see 11.33am), he replied:
+
+double quotation markHamish Badenoch is a public figure. He has stood for council. He has been a councillor. He was active publicly in the remain campaign, has talked about it, been interviewed about it. He is the leader of his majesty’s opposition’s chief adviser. He’s given up his job to advise politically.
+
+She’s angry that I’ve mentioned it, but she’s often angry. I mean, she’s good at that.
+
+But she’s angry about the wrong thing. She should be angry about [Burnham’s EU deal].
+
+2h ago15.45 GMTIn response to a question from the Daily Express, Farage said that 16 years ago, when Richard Desmond was the owner, the Express came out in favour of leaving the EU. It received “absolute mockery” for this from the rest of the media, he said. People thought it was a “complete joke”. But the Express was vindicated.
+
+Farage said the Express also called out the threat from Hitler in the 1930s.
+
+In a dig at the Daily Mail, Farage said others papers were publishing “very interesting front pages” at the time. He was referring to an article headlined “Hurrah for the Blackshirts” published by the Mail.
+
+2h ago15.34 GMTKeep Britain Out has a list of 10 pledges that it is asking supporters to endorse. The implication is that it will only back parliamentary candidates if they do sign.
+
+When it was put to Banks that this showed the group was just a Reform UK front, because candidates from other parties would not sign a pledge backed by Farage, Banks brushed this aside.
+
+View image in fullscreenKeep Britain Out pledges Photograph: Christopher HopeShare2h ago15.28 GMTQ: Who is funding you? And what do you make of the Stay Out campaign?
+
+Banks said he had a whole series of donors. And he would be funded by the public, he said.
+
+On Stay Out, he said he would leave that “with the dripping wet Tories”.
+
+3h ago15.25 GMTFarage launches Keep Britain Out group opposing rejoining EU, saying he hopes referendum never happensNigel Farage and Arron Banks are speaking now at the launch of Keep Britain Out, their campaign against the UK rejoining the EU. Just as in 2016 there were two rival leave campaigns – Vote Leave, the official one, which was dominated by Tories, and Leave.EU, the Ukip-aligned one – there are now two groups campaigning to keep Britain out of the EU. Stay Out, the successor to Vote Leave, launched over a week ago. Farage and Banks are now launching their successor to Leave.EU, Keep Britain Out.
+
+double quotation markRejoining or this so-called reset is not progress. It is surrender. It hands the rules that will govern AI, agri-tech, and the high-growth industries of the next thirty years straight back to Brussels – areas where Britain can and should and in some cases already does lead. It massively disadvantages our own young people, who are understandably leaving Britain in droves. We don’t want that. We want them to stay in Britain and live the British dream here that we can help build for them.”
+  
+  
+  This campaign isn’t about us, and it isn’t just about 2016. It’s about tomorrow. It’s about the future. It’s about the next generation.
+
+Farage said that he hoped that Keep Britain Out would not be needed. He hoped a future referendum would never be called, he said. But it was being set up as an “insurance vehicle”.
+
+View image in fullscreenLeft to right: Nigel Farage, Arron Banks and Catherine McBride, an economist. Photograph: Corey Rudy/ReutersShare3h ago15.25 GMTI have changed the final sentence of the PMQs verdict because it wrongly said Kemi Badenoch had not mentioned dancing in No 10 before Andy Burnham delivered his “lockdown parties” retort. I’m sorry for the error. (See 2.20pm.)
+
+3h ago14.57 GMTBurnham dismisses Badenoch as being 'opposite' of an influencer as he declines to apologise over 'vile video'Here is the Press Association story about the influencer row about PMQs.
+
+Updated at 14.59 GMT3h ago14.45 GMTLabour ‘committed’ to ban on conversion practices despite calls for proposed law to be scrappedLabour is “committed” to banning conversion practices despite growing calls to amend or scrap the proposed law over fears it could stifle free speech, Bridget Phillipson, the equalities minister, has said.
+
+Read moreShare4h ago14.20 GMTPMQs - verdictAndy Burnham’s statement about the nuclear test veterans was probably more revealing than the PMQs that preceeded it. The announcement about the independent panel came yesterday, but Burnham’s opening statement was powerful and it opened a window into what motivates him as PM. He sees it, rightly, as another Hillsborough, a defining event in his life. Most PMs ultimately have a rather benign and trusting view of the British establishment. Burnham is more sceptical.
+
+Kemi Badenoch gave a reasonably supportive response to the Burnham statement, but she always presents as someone who thinks being leader of the opposition means she has to oppose everything and she did not fully appreciate that today was a day to sideline partisan obsessions.
+
+Earlier, in PMQs, another weakness was on display – her hyper-obsession with the priorities of the online right. She asked perfectly reasonable questions about Europe, without really making any fresh progress. But she only really lit up when she got the chance to ask about “the pussywagon chicken nuggets” bloke filming video outside No 10. She said:
+
+double quotation markThis week, we saw videos of the prime minister hosting social media influencers in Downing Street.
+
+The words used by one of them on the steps of No 10 were so offensive that I will not repeat them in this house.
+
+Disgusting and pejorative comments about women’s private parts, obscene language that referred to white women as cheap meat. This is grotesque …
+
+Will the prime minister now apologise for debasing his office and for allowing that vile video to be recorded on the steps of No 10?
+
+Badenoch excelled at creating the impression that she was genuinely outraged about this. But she might have more in common with Max Balegde than she realised; they’re both preoccupied with creating good social media content.
+
+(On a side note, at the Tory post-PMQs briefing journalists and spin doctors who should know better spent a surprising amount of time debating whether or not “chicken nuggets” in this instance was actually a reference to “white women as cheap meat” or whether it was actually just a reference to – chicken nuggets. Mic Wright, the media commentator, says in a post on his Substack blog that it is just a fast food reference, and that this whole story is just “a glaring example of the low level of media literacy among journalists”. But at the briefing, the Tories claimed that they knew that Badenoch’s interpretation was correct because “there are people” who told them this.)
+
+Burnham had a goodish response to the stuff about influencers. At one point, he said:
+
+double quotation markIt’s true I have spoken to influencers, and then I have to come to this house and speak to people the opposite of influencers.
+
+double quotation markShe mentions people dancing around Downing Street. Wait until she hears about the lockdown parties that once happened in there. She will be really outraged when she hears about all of those.
+
+This was a response to Badenoch saying that that he “prefers soft questions from people dancing around Downing Street” to dealing with her.
+
+UDPATE: I have changed the final sentence of this post because the original one said Badenoch had not referenced the Love Actually dance video in her earlier question, when in fact she had.
+
+Updated at 15.09 GMT4h ago13.30 GMTBurnham says compensation could be paid over test veterans, but says government will review this when full truth outKemi Badenoch and Ed Davey both asked about possible compensation for nuclear test veterans.
+
+Burnham did not rule this out, but he said this was a matter for later in the process. He told Badenoch:
+
+double quotation markWe should go wherever the truth take us and we should make whatever recompense is needed as a result.
+
+double quotation markI am not in any way walking away from the question of compensation, but I would just say today it’s each step in its time.
+
+Updated at 13.32 GMT5h ago13.25 GMTBurnham says he felt full apology to nuclear test veterans should come when report publishedEd Davey, the Lib Dem leader, also welcomed the announcement. He asked Burnham if he thought nuclear test veterans should be getting an apology today.
+
+Burnham said he had considered making an apology today, but decided it would be better coming after the report, or the interim report. He said:
+
+double quotation markI could have made such an apology today, but I would rather it to be a full, meaningful apology for the full extent of what is revealed so that it doesn’t appear glib or not serious.
+
+I remember I worked with David Cameron, who made the apology from this government despatch box, on the publication of the Hillsborough independent panel.
+
+And it feels to me that that is the right time to do it.
+
+But I am absolutely certain on 3 October next year or around that time, I will be standing here doing that.
+
+5h ago13.18 GMTKemi Badenoch responded to the statement. She praised the test veterans. She also asked if any money had been set aside for compensation, and she said that, given the importance of veterans, Burnham should also look again at the provisions in the Northern Ireland Troubles bill, which she said is “reopening the door to legal proceedings that remove protections against another group of elderly veterans who served our country”.
+
+Burnham thanked Badenoch for welcoming the announcement, but said the debate about the Northern Ireland Troubles bill was for another day.
