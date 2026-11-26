@@ -2,6 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-26-morning/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-26T13:03:00+01:00</news:publication_date>
+      <news:title>Morning Briefing — Thursday 26 November 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-26-morning/iran-claims-tankers-hit-mines-hormuz/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-26T13:03:00+01:00</news:publication_date>
+      <news:title>Iran claims two tankers struck mines in the Strait of Hormuz</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-26-morning/houthis-target-jeddah-jazan-riyadh/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-26T13:03:00+01:00</news:publication_date>
+      <news:title>Houthis target Saudi ports as missiles are intercepted over Riyadh</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-26-morning/brazil-china-reject-new-us-tariffs/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-26T13:03:00+01:00</news:publication_date>
+      <news:title>Brazil and China reject Washington’s latest tariff salvo</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-26-morning/gaza-strike-kills-education-official/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-26T13:03:00+01:00</news:publication_date>
+      <news:title>Israeli strike in Gaza kills senior education ministry official</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-26-morning/north-korea-expels-swiss-diplomat/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-26T13:03:00+01:00</news:publication_date>
+      <news:title>North Korea expels Swiss envoy over sanctions on children’s camp</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-26-morning/net-migration-falls-to-77000/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-26T13:03:00+01:00</news:publication_date>
+      <news:title>Net migration falls to 77,000, lowest since 1997 outside the pandemic</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-26-morning/uk-eu-treaty-ten-year-termination-clause/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-26T13:03:00+01:00</news:publication_date>
+      <news:title>UK–EU food treaty carries ten-year termination clause</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-26-morning/government-to-publish-more-mandelson-papers/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-26T13:03:00+01:00</news:publication_date>
+      <news:title>Government to publish further papers on Mandelson appointment</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-26-morning/german-boat-dealer-channel-smuggling-gangs/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-26T13:03:00+01:00</news:publication_date>
+      <news:title>German boat dealer suspected of supplying Channel smuggling gangs</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thedailybrief.co.uk/briefings/2026-11-26-morning/no10-new-media-unit-budget-25m/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>The Daily Brief</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-26T13:03:00+01:00</news:publication_date>
+      <news:title>Government social media unit’s budget nearly doubles to £25m</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thedailybrief.co.uk/briefings/2026-11-25-evening/</loc>
     <news:news>
       <news:publication>
