@@ -2193,11 +2193,11 @@
  - Hard expiry at 24h from "posted" (or at "expires" if set) — banner comes down
  - Optional "expires" field overrides the 8h default (e.g. for major events)
  To add a new breaking story, prepend an entry here with the current ISO timestamp. -->
- <script id="breaking-stories" type="application/json">[{"headline": "Iranian drone attack on Kuwait kills two Italian Rheinmetall technicians — 14:49 GMT", "posted": "2026-11-26T14:49:00Z", "category": "GEOPOLITICS", "summary": "Two Italian technicians working for Rheinmetall Italia were killed when Iranian drones struck an air-defence detection station in Kuwait on Thursday, Italy's foreign minister Antonio Tajani said. Kuwait's defence ministry confirmed the deaths, saying the drones were shot down over its territory and debris fell on what it called a 'vital facility'. Tehran has not yet commented.", "facts": [{"label": "Killed", "value": "2 Italian nationals (Rheinmetall Italia technicians)"}, {"label": "Injured", "value": "4 initially reported: 2 Italians, 1 Pakistani, 1 Kuwaiti"}, {"label": "Target", "value": "Air-defence detection station, described by Kuwait as a 'vital facility'"}, {"label": "Confirmed by", "value": "Italian FM Antonio Tajani; Kuwait Ministry of Defence"}]}]</script>
+ <script id="breaking-stories" type="application/json">[]</script>
  <div class="breaking-banner" id="breakingBanner">
  <div class="breaking-inner">
  <span class="breaking-label">BREAKING</span>
- <span class="breaking-text" id="breakingText">Iranian drone attack on Kuwait kills two Italian Rheinmetall technicians — 14:49 GMT</span>
+ <span class="breaking-text" id="breakingText"></span>
  <span class="breaking-readmore" id="breakingReadmore">Read more</span>
  <button class="breaking-dismiss" id="breakingDismiss">&times;</button>
  </div>
@@ -2287,7 +2287,7 @@
  <!-- #1 Markets snapshot bar -->
  <!-- Embedded market data (populated by update script, used as fallback) -->
  <script id="embedded-markets" type="application/json">
-{"FTSE":{"price":10579.78,"change":1.47},"SP":{"price":7182.78,"change":-0.25},"Brent":{"price":93.88,"change":-0.77},"GBP":{"price":1.3107,"change":-0.04},"Gold":{"price":3573.1,"change":1.05},"EURGBP":{"price":0.8368,"change":0.04},"Gilt":{"price":5.1541,"change":0.0152},"VIX":{"price":26.95,"change":-4.74},"BTC":{"price":60809.84,"change":1.36},"UST":{"price":4.864,"change":-0.038},"ts":"2026-11-26T13:03:00+00:00"}
+{"FTSE":{"price":10609.3,"change":1.75},"SP":{"price":7182.78,"change":-0.25},"Brent":{"price":96.29,"change":1.78},"GBP":{"price":1.3106,"change":-0.05},"Gold":{"price":3564.0,"change":0.8},"EURGBP":{"price":0.8368,"change":0.04},"Gilt":{"price":5.1575,"change":0.0071},"VIX":{"price":26.8,"change":-5.27},"BTC":{"price":60446.22,"change":0.75},"UST":{"price":4.864,"change":-0.038},"ts":"2026-11-26T23:34:00+00:00"}
 </script>
  <script id="market-descriptions" type="application/json">
 {
@@ -2296,70 +2296,70 @@
     "desc": "The UK's benchmark stock index, tracking the 100 largest companies listed on the London Stock Exchange by market capitalisation. Includes Shell, AstraZeneca, HSBC and Unilever.",
     "drivers_up": [],
     "drivers_down": [],
-    "updated": "2026-11-26 13:03 (reviewed at publication)"
+    "updated": "2026-11-26 23:34 (reviewed at publication)"
   },
   "SP": {
     "name": "S&P 500",
     "desc": "America's leading stock market index, tracking 500 of the largest US-listed companies. Dominated by mega-cap tech (Apple, Microsoft, Nvidia) but spans all sectors.",
     "drivers_up": [],
     "drivers_down": [],
-    "updated": "2026-11-26 13:03 (reviewed at publication)"
+    "updated": "2026-11-26 23:34 (reviewed at publication)"
   },
   "Brent": {
     "name": "Brent Crude Oil",
     "desc": "The global benchmark for crude oil pricing, produced from oil fields in the North Sea. Used to price roughly two-thirds of the world's traded oil.",
     "drivers_up": [],
     "drivers_down": [],
-    "updated": "2026-11-26 13:03 (reviewed at publication)"
+    "updated": "2026-11-26 23:34 (reviewed at publication)"
   },
   "GBP": {
     "name": "GBP/USD",
     "desc": "The exchange rate between the British pound and the US dollar, commonly known as 'cable'. Reflects relative economic strength and interest rate differentials between the UK and US.",
     "drivers_up": [],
     "drivers_down": [],
-    "updated": "2026-11-26 13:03 (reviewed at publication)"
+    "updated": "2026-11-26 23:34 (reviewed at publication)"
   },
   "Gold": {
     "name": "Gold (XAU/USD)",
     "desc": "The spot price of gold in US dollars per troy ounce. The world's oldest safe-haven asset, traditionally rising during periods of uncertainty, inflation and currency debasement.",
     "drivers_up": [],
     "drivers_down": [],
-    "updated": "2026-11-26 13:03 (reviewed at publication)"
+    "updated": "2026-11-26 23:34 (reviewed at publication)"
   },
   "EURGBP": {
     "name": "EUR/GBP",
     "desc": "The exchange rate between the euro and the British pound. Key for UK-EU trade pricing. A falling rate means sterling is strengthening against the euro.",
     "drivers_up": [],
     "drivers_down": [],
-    "updated": "2026-11-26 13:03 (reviewed at publication)"
+    "updated": "2026-11-26 23:34 (reviewed at publication)"
   },
   "Gilt": {
     "name": "UK 10-Year Gilt Yield",
     "desc": "The yield on 10-year UK government bonds (gilts). A key benchmark for UK borrowing costs, mortgage rates and pension fund valuations. Rising yields mean falling bond prices.",
     "drivers_up": [],
     "drivers_down": [],
-    "updated": "2026-11-26 13:03 (reviewed at publication)"
+    "updated": "2026-11-26 23:34 (reviewed at publication)"
   },
   "VIX": {
     "name": "VIX (Volatility Index)",
     "desc": "The CBOE Volatility Index, often called the 'fear gauge'. Measures expected S&P 500 volatility over the next 30 days. Readings above 20 suggest elevated anxiety; above 30 signals acute stress.",
     "drivers_up": [],
     "drivers_down": [],
-    "updated": "2026-11-26 13:03 (reviewed at publication)"
+    "updated": "2026-11-26 23:34 (reviewed at publication)"
   },
   "BTC": {
     "name": "Bitcoin (BTC/USD)",
     "desc": "The price of Bitcoin in US dollars. The largest cryptocurrency by market cap, increasingly viewed as digital gold by institutional investors since spot ETF approvals.",
     "drivers_up": [],
     "drivers_down": [],
-    "updated": "2026-11-26 13:03 (reviewed at publication)"
+    "updated": "2026-11-26 23:34 (reviewed at publication)"
   },
   "UST": {
     "name": "US 10-Year Treasury Yield",
     "desc": "The yield on 10-year US government bonds, the global risk-free rate benchmark. Influences mortgage rates, corporate borrowing and equity valuations worldwide.",
     "drivers_up": [],
     "drivers_down": [],
-    "updated": "2026-11-26 13:03 (reviewed at publication)"
+    "updated": "2026-11-26 23:34 (reviewed at publication)"
   }
 }
 </script>
@@ -2412,6 +2412,98 @@
  <!-- ════ ALL EDITIONS (sorted by JS) ════ -->
  <!-- IMPORTANT: Keep 7 FULL DAYS of editions in this container. Do NOT delete editions less than 7 days old. -->
  <div id="all-editions" style="display:none;">
+<!-- ── EVENING 26 NOV (23:34) ── -->
+<div class="curated-edition evening" data-date="2026-11-26" data-time="23:34" data-markets='{"FTSE":{"price":10609.3,"change":1.75},"SP":{"price":7182.78,"change":-0.25},"Brent":{"price":96.29,"change":1.78},"GBP":{"price":1.3106,"change":-0.05},"Gold":{"price":3564.0,"change":0.8},"EURGBP":{"price":0.8368,"change":0.04},"Gilt":{"price":5.1575,"change":0.0071},"VIX":{"price":26.8,"change":-5.27},"BTC":{"price":60446.22,"change":0.75},"UST":{"price":4.864,"change":-0.038},"ts":"2026-11-26T23:34:00+00:00"}'>
+  <div class="edition-header"><span class="edition-icon">&#9789;</span><h2>Evening Briefing</h2></div>
+  <div class="curated-meta">Thursday 26 November 2026 &mdash; 23:34 GMT</div>
+  <div class="impact-box"><h3 class="impact-heading">What It Means For You</h3><ul class="impact-list"><li>Mortgages: the Bank of England now expects about 6.5 million owners coming off fixed deals by the end of 2029 to pay &pound;100 a month more on average &mdash; more than double its July estimate &mdash; with about 430,000 facing rises above &pound;500. Moneyfacts put the average two-year fix at 5.99% on Thursday.</li><li>Fuel and energy: Brent crude rose 1.78% to $96.29 a barrel late in the afternoon, a day after the energy price cap for Great Britain was raised by 26%.</li><li>Savings and pensions: the FTSE 100 closed up 1.75% at 10,609.30, extending the morning rebound; the 10-year gilt yield edged up to 5.16%.</li></ul></div>
+  <div class="curated-grid">
+    <div class="curated-column">
+      <h3><span class="dot geo"></span><span class="dot-label">GEO</span> Geopolitical</h3>
+        <div class="curated-item" data-time="14:00" data-slug="two-italians-killed-kuwait-drone-strike">
+          <h4>Two Italian technicians killed in drone strike on Kuwaiti site</h4>
+          <p>Two Italians working for Rheinmetall Italia were killed at a Kuwaiti air-defence detection station after drones that Kuwait and Italy attribute to Iran were intercepted overhead; a Kuwaiti and a Pakistani national were injured. Tehran denied involvement, calling it a &ldquo;false flag&rdquo; operation. &ldquo;We must step up pressure on Iran to end these unacceptable attacks against its neighbours and our partners in the Gulf,&rdquo; said Ursula von der Leyen.</p>
+          <details class="dive-deeper"><summary>Dive deeper</summary><div class="deeper-content">Kuwait&rsquo;s army described the target as a &ldquo;vital site&rdquo; and the attack as &ldquo;heinous Iranian aggression&rdquo;, reserving the right to take all necessary measures. It comes just over a week after Kuwait repelled drone attacks on an airbase hosting US forces &mdash; the first strikes on the country in more than two months &mdash; and after Bahrain reported an Iranian attack on Sunday. Iran&rsquo;s embassy in Rome warned that such operations aimed to draw Europe into the conflict. The deaths give the war its most direct European casualties in the Gulf for some time, and Giorgia Meloni&rsquo;s government will face pressure over the exposure of contractors maintaining Gulf air defences.</div></details>
+        </div>
+        <div class="curated-item" data-time="06:00" data-slug="kim-orders-wider-tactical-nuclear-deployment">
+          <h4>Kim orders wider deployment of North Korean tactical nuclear weapons</h4>
+          <p>Kim Jong Un urged deployment of tactical nuclear weapons &ldquo;across multiple domains for different missions&rdquo; and said nuclear material production capacity was being systematically expanded, state media reported. Touring nuclear material and weapons research facilities, he called North Korea&rsquo;s nuclear status &ldquo;absolutely inviolable&rdquo;. &ldquo;Our nuclear capability is now a reality,&rdquo; he said, warning that attempts to deny that status would be seen as &ldquo;an open declaration of war&rdquo;.</p>
+          <details class="dive-deeper"><summary>Dive deeper</summary><div class="deeper-content">KCNA did not identify the facilities or their locations. Kim dismissed what he called &ldquo;denuclearisation rhetoric from forces that ignore objective reality&rdquo;, a clear rebuff to Washington and Seoul. The remarks follow Pyongyang&rsquo;s expulsion of a Swiss envoy over sanctions this week, reported in this morning&rsquo;s edition, and point to a regime emphasising battlefield nuclear weapons rather than purely strategic deterrence. The practical indicator to watch is any new test activity or missile launch in the coming weeks.</div></details>
+        </div>
+        <div class="curated-item" data-time="10:00" data-slug="baghdad-moves-on-kurdish-oil-borders">
+          <h4>Baghdad moves to seize Kurdish oil fields and border crossings</h4>
+          <p>Iraq&rsquo;s prime minister, Ali al-Zaidi, has ordered federal authorities to take over all crossings in the Kurdistan region and oilfields in Kirkuk, Nineveh, Salahuddin and Diyala held by Kurdish security forces, after a top court backed Baghdad&rsquo;s authority. Thousands protested in Irbil. &ldquo;National sovereignty is indivisible,&rdquo; al-Zaidi said. The government denied reports of troop movements towards the region.</p>
+          <details class="dive-deeper"><summary>Dive deeper</summary><div class="deeper-content">Government spokesman Haidar al-Aboudi said oil smugglers were diverting &ldquo;tens of billions&rdquo; into &ldquo;private pockets and accounts&rdquo;, and insisted that Kurdish public-sector salaries were not part of the dispute. Al-Zaidi described protecting Iraq&rsquo;s wealth as &ldquo;a battle for existence&rdquo;. The confrontation reopens the oldest fault line in post-2003 Iraq at a moment when the country is also host to Iran-backed militias positioning for a possible renewed US&ndash;Iran war. Any disruption to northern exports would come on top of Gulf shipping running at little more than half of pre-war levels.</div></details>
+        </div>
+        <div class="curated-item" data-time="12:00" data-slug="eisenkot-signs-coalition-deal-democrats">
+          <h4>Eisenkot strikes coalition deal with Golan&rsquo;s Democrats</h4>
+          <p>Gadi Eisenkot&rsquo;s Yashar and Yair Golan&rsquo;s Democrats agreed to sign a coalition deal handing the left-wing party four ministerial portfolios, including an expanded national security ministry, two days after Golan froze talks. Eisenkot&rsquo;s bloc hopes to swear in a government on 2 December. &ldquo;Terrorists are rejoicing, Jews are crying,&rdquo; said Itamar Ben Gvir.</p>
+          <details class="dive-deeper"><summary>Dive deeper</summary><div class="deeper-content">The Democrats also take a merged labour and welfare ministry, communications, and culture and sports, and will oversee the Social Equality Ministry, but did not secure education or justice. Eisenkot&rsquo;s 28-day mandate ends on 6 December, though President Herzog is expected to grant a 14-day extension to 20 December. Ra&rsquo;am&rsquo;s Mansour Abbas predicted a government of the change bloc and United Torah Judaism with Ra&rsquo;am&rsquo;s participation, while Naftali Bennett said of his Likud contacts that &ldquo;the candle is still burning&rdquo;. A government without Netanyahu would be the first change of Israeli leadership since the Iran war began.</div></details>
+        </div>
+        <div class="curated-item" data-time="10:25" data-slug="myanmar-rejects-parts-icj-genocide-ruling">
+          <h4>Myanmar refuses to comply with parts of ICJ genocide ruling</h4>
+          <p>Myanmar will not comply with &ldquo;inappropriate&rdquo; parts of last week&rsquo;s International Court of Justice ruling that it committed genocide against the Rohingya, its president, Min Aung Hlaing, said in his first public comments on the verdict. &ldquo;The term &lsquo;genocide&rsquo; had seriously affected the country&rsquo;s reputation,&rdquo; he said, according to state media. He did not specify which requirements Myanmar rejects.</p>
+          <details class="dive-deeper"><summary>Dive deeper</summary><div class="deeper-content">Myanmar is the first state found in violation of the 1948 Genocide Convention. The case, brought by The Gambia in 2019, concerned the 2017 &ldquo;clearance operations&rdquo; in Rakhine State; the court found that about 10,000 Rohingya were violently killed, roughly 815,000 targeted in some way and more than 700,000 driven into Bangladesh. The ICJ has no enforcement arm of its own, so compliance now turns on the Security Council and on the willingness of Myanmar&rsquo;s regional partners to apply pressure.</div></details>
+        </div>
+    </div>
+    <div class="curated-column">
+      <h3><span class="dot dom"></span><span class="dot-label">UK</span> UK Domestic Politics</h3>
+        <div class="curated-item" data-time="10:30" data-slug="boe-warns-mortgage-shock-millions">
+          <h4>Bank of England warns 6.5 million face higher mortgage payments</h4>
+          <p>About 6.5 million borrowers coming off fixed deals before December 2029 will pay more, the Bank&rsquo;s Financial Stability Report found, with 430,000 facing rises above &pound;500 a month and about one million facing almost &pound;200 within a year. Households would &ldquo;face this shock with strong balance sheets&rdquo;, said Sarah Breeden, the deputy governor; &ldquo;in aggregate we think this is absorbable.&rdquo;</p>
+          <details class="dive-deeper"><summary>Dive deeper</summary><div class="deeper-content">The average &pound;100 monthly increase is more than double July&rsquo;s &pound;45 estimate, but half the rise suffered by those refinancing in 2023 and 2024. The Bank warned that households &ldquo;may need to reduce discretionary spending or draw down savings&rdquo;. It also flagged cyber and AI risks, saying the financing of AI investment was &ldquo;increasingly complex, circular and opaque&rdquo;; Andrew Bailey warned that open-weight models could make advanced capabilities &ldquo;more readily available and useful to malicious actors&rdquo;. Markets price three quarter-point rate rises by summer 2027, after this month&rsquo;s increase to 4%.</div></details>
+        </div>
+        <div class="curated-item" data-time="16:46" data-slug="mandelson-kept-shares-as-ambassador">
+          <h4>Mandelson kept lobbying-firm shares as ambassador, papers show</h4>
+          <p>Lord Mandelson held shares in Global Counsel eight months into his Washington posting despite civil servants&rsquo; conflict-of-interest concerns, an 85-page third tranche of documents shows. He sought an &ldquo;under the radar&rdquo; lunch between a Trump economic adviser and a Global Counsel colleague. &ldquo;They should pull their fingers out and buy my shares,&rdquo; he wrote in July 2025.</p>
+          <details class="dive-deeper"><summary>Dive deeper</summary><div class="deeper-content">Selling the shares was not a condition of the appointment, partly because Sir Keir Starmer&rsquo;s government wanted Mandelson in Washington quickly; Sir Olly Robbins proposed policing conflicts &ldquo;in a light-touch way&rdquo;. Mandelson declined the firm&rsquo;s buy-back offer as below &ldquo;fair value&rdquo;, and a sale to another buyer fell through. The papers had been withheld during the Metropolitan Police investigation into claims he passed market-sensitive information to Epstein. &ldquo;The government recognises that action needs to be taken in response to the issues raised by Mandelson&rsquo;s appointment,&rdquo; Dan Jarvis told MPs, promising a stronger conflicts policy.</div></details>
+        </div>
+        <div class="curated-item" data-time="16:29" data-slug="labour-mps-letter-oppose-rosebank">
+          <h4>Ninety-two Labour MPs urge Burnham to block Rosebank</h4>
+          <p>Ninety-two Labour backbenchers and at least four frontbenchers have written to Andy Burnham opposing the Rosebank oilfield, with more than one ministerial aide weighing resignation if it is approved. &ldquo;If Rosebank is approved, champagne corks will pop in the offices of oil companies,&rdquo; said Catherine Fookes, who organised the letter. Miatta Fahnbulleh, the energy secretary, is due to decide within weeks.</p>
+          <details class="dive-deeper"><summary>Dive deeper</summary><div class="deeper-content">The chancellor, John Healey, and many Scottish MPs want the field west of Shetland &mdash; the largest undeveloped one in UK waters &mdash; to go ahead, while the prime minister has repeatedly promised a &ldquo;pragmatic&rdquo; approach to North Sea oil and gas. The decision is a quasi-judicial process resting legally with the energy secretary alone; Fahnbulleh, long regarded as personally opposed, insisted last month that the courts would side with her if colleagues tried to overrule her. It is the most visible expression yet of Labour&rsquo;s split between energy security and climate commitments.</div></details>
+        </div>
+        <div class="curated-item" data-time="07:30" data-slug="mod-contacts-strategic-reserve-threat">
+          <h4>MoD contacts reservists as Streeting warns of rising threats</h4>
+          <p>The Ministry of Defence has written to former service personnel to check contact details and skills as the &ldquo;threat environment&rdquo; deteriorates, Wes Streeting said. &ldquo;I want the country to be alert, not alarmed,&rdquo; the defence secretary told the Today programme, citing Russian missiles entering Polish airspace and Iran-linked incidents near RAF bases. Separately, Babcock won an &pound;8bn, five-year submarine support contract.</p>
+          <details class="dive-deeper"><summary>Dive deeper</summary><div class="deeper-content">Reports in The Times and the Telegraph said reservists had been told to prepare for call-up; the MoD frames the exercise as housekeeping after the poor records exposed before the 2003 Iraq war. The Babcock deal covers Plymouth, the Clyde and Bristol and is expected to create 3,000 jobs plus about 2,500 apprentice and graduate roles, within a wider &pound;26bn naval bases programme. &ldquo;Even when we have to move funding from other departments, we will prioritise our nuclear deterrent and getting Britain warfighting ready,&rdquo; Streeting said.</div></details>
+        </div>
+        <div class="curated-item" data-time="17:00" data-slug="burnham-migration-sufficient-control">
+          <h4>Burnham claims &lsquo;sufficient&rsquo; control as net migration hits 77,000</h4>
+          <p>Andy Burnham said there was now a &ldquo;sufficient degree of control&rdquo; of migration after net arrivals fell to 77,000 in the year to June, the lowest since 1997 outside the pandemic. Pressed on whether this was a Brexit dividend, he said: &ldquo;I don&rsquo;t think you can say that Brexit did anything other than weaken control of immigration in this country.&rdquo;</p>
+          <details class="dive-deeper"><summary>Dive deeper</summary><div class="deeper-content">The ONS estimates 738,000 people immigrated and 661,000 emigrated; net migration was 204,000 a year earlier and peaked at 944,000 in the year to March 2023. The Conservatives said the fall was &ldquo;mainly a result of changes&rdquo; they made in government, while Reform UK said the figures were &ldquo;no cause for celebration&rdquo;. Burnham&rsquo;s Brexit remark sharpens the politics of the UK&ndash;EU treaty texts published today, as opponents argue that closer alignment risks reopening free movement. The figure lands more than 16 years after David Cameron pledged to cut net migration below 100,000.</div></details>
+        </div>
+    </div>
+  </div>
+  <div class="one-to-read"><h3 class="one-to-read-heading">One To Read</h3><p><a href="https://www.theguardian.com/world/2026/nov/26/russians-long-road-to-crimea-ukraine-drones" target="_blank" rel="noopener">The long road to Crimea, as Ukrainian drones reshape Russian holiday routes</a> &mdash; how millions of Russians who once reached the annexed peninsula with ease now swap advice on first-aid kits and dodging drones after Ukraine destroyed the road section of the Crimean Bridge.</p></div>
+<!-- SOURCES USED:
+ - https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o &mdash; BBC, 26 November 17:54 GMT: Italians killed at Rheinmetall site in Kuwait, Shekarchi denial, Kuwaiti and Pakistani injured, Meloni and von der Leyen quotations, attack a week after airbase strike
+ - https://edition.cnn.com/2026/11/26/middleeast/italians-killed-iranian-attack-kuwait-intl &mdash; CNN, 26 November: Tajani statement, &ldquo;false flag&rdquo;, air-defence detection antennas, Bahrain attack Sunday, Sa&rsquo;ar quotation
+ - https://www.iranintl.com/en/liveblog/202611214578 &mdash; Iran International live, 26 November 15:52 GMT: von der Leyen quotation, Kuwait reserves right to respond, Iranian embassy in Rome &ldquo;false flag&rdquo; and Europe warning
+ - https://www.washingtonpost.com/world/2026/11/26/two-italians-killed-kuwait-strained-iran-ramps-up-attacks/ &mdash; Washington Post (snippet): Bahrain and Kuwait borne brunt of recent Iranian strikes
+ - https://www.aljazeera.com/news/2026/11/26/kim-jong-un-says-north-korea-should-widen-deployment-of-tactical-nukes &mdash; Al Jazeera with Reuters, 26 November: Kim quotations, &ldquo;absolutely inviolable&rdquo;, &ldquo;open declaration of war&rdquo;, KCNA did not name facilities
+ - https://www.nbcnews.com/world/asia/north-korea-kim-jong-un-presses-wider-nuclear-deployment-rcna611419 &mdash; NBC News (Reuters copy), 26 November 09:18 GMT: cross-reference of Kim facility tour and deployment remarks
+ - https://www.aljazeera.com/news/2026/11/26/iraq-denies-reports-of-troop-movements-towards-kurdish-region &mdash; Al Jazeera with Anadolu, 26 November: al-Aboudi denial and quotations, al-Zaidi orders on crossings and oilfields in four provinces, court ruling, al-Zaidi quotations
+ - https://www.washingtonpost.com/business/2026/11/26/iraq-krg-baghdad-oil-borders-kurds-protest-irbil-erbil/0cea826c-e988-11f1-8db0-6f1e3c389e7c_story.html &mdash; Washington Post (snippet): thousands protest in Irbil
+ - https://www.timesofisrael.com/eisenkot-edges-closer-to-government-as-his-party-announces-coalition-deal-with-democrats/ &mdash; Times of Israel, 26 November: four portfolios, Social Equality Ministry, no education or justice, Ben Gvir, Abbas and Bennett quotations; swearing-in 2 December, mandate ends 6 December, extension to 20 December
+ - https://www.washingtonpost.com/world/2026/11/26/he-races-unseat-netanyahu-eisenkot-reaches-deal-with-left-wing-party/ &mdash; Washington Post (snippet): cross-reference of coalition deal
+ - https://www.bbc.co.uk/news/articles/c61wr87wyg5wo &mdash; BBC, 26 November 10:25 GMT: Min Aung Hlaing quotations, first state in violation of Genocide Convention, Gambia case, 10,000 killed, 815,000 targeted, 700,000 fled
+ - https://www.washingtonpost.com/world/2026/11/26/min-aung-hlaing-rohingya-genocide-icj-myanmar/6246e96e-e986-11f1-8db0-6f1e3c389e7c_story.html &mdash; Washington Post (snippet): cross-reference of refusal to comply fully
+ - https://www.bankofengland.co.uk/financial-stability-report/2026/november-2026 &mdash; Bank of England FSR, 26 November: AI financing &ldquo;increasingly complex, circular and opaque&rdquo;, cyber risks, resilience findings
+ - https://www.bbc.co.uk/news/articles/cwg5r02zel9qo &mdash; BBC, 26 November: 6.5m owners, &pound;100 average versus &pound;45 in July, one million facing &pound;200, half the 2023&ndash;24 rise, Moneyfacts 5.99%, &ldquo;reduce discretionary spending&rdquo; quotation
+ - https://www.theguardian.com/money/2026/nov/26/430000-uk-homeowners-500-jump-monthly-mortgage-payments-bank-of-england-interest-rates &mdash; The Guardian, 26 November: 430,000 above &pound;500, December 2029, rate rise to 4%, three rises priced by summer 2027, 26% price cap rise, Breeden and Bailey quotations
+ - https://www.bbc.co.uk/news/articles/c6808dv4e817o &mdash; BBC, 26 November 16:46 GMT: 85-page third release, shares held eight months, Robbins &ldquo;light touch&rdquo;, fair value, Met investigation, Jarvis quotation
+ - https://www.theguardian.com/politics/2026/nov/26/peter-mandelson-trump-adviser-meeting-lobbying-firm &mdash; The Guardian, 26 November: &ldquo;under the radar&rdquo; lunch, April 2025, &ldquo;pull their fingers out&rdquo; email July 2025, Jarvis conflicts policy
+ - https://www.bbc.co.uk/news/articles/cw24ez32d1n4o &mdash; BBC, 26 November 16:29 GMT: 92 Labour MPs, ministerial aides, possible resignations, Fahnbulleh decision within weeks, Fookes quotation, Healey position, &ldquo;pragmatic&rdquo;, Fahnbulleh courts claim
+ - https://www.theguardian.com/politics/2026/nov/26/labour-split-over-rosebank-oilfield-exposed-by-letter-from-nearly-100-mps &mdash; The Guardian, 26 November: 92 backbenchers and at least four frontbenchers, aide considering resignation, largest undeveloped field, Scottish MPs
+ - https://www.bbc.co.uk/news/articles/cvrlgznd9z4po &mdash; BBC, 26 November: Streeting reservist quotations, Polish airspace, RAF bases, Times and Telegraph reports, 2003 records
+ - https://www.bbc.co.uk/news/articles/cq39gz99l1pyo &mdash; BBC, 26 November: &pound;8bn Babcock contract, five years, 3,000 jobs and 2,500 apprentice and graduate roles, &pound;26bn programme, Streeting deterrent quotation
+ - https://www.bbc.co.uk/news/articles/ck792l8ndqyqo &mdash; BBC, 26 November 17:54 GMT: Burnham &ldquo;sufficient degree of control&rdquo; and Brexit quotations, ONS 738,000 and 661,000, 204,000 prior year, 944,000 peak, Conservative and Reform reactions, Cameron pledge
+ - https://www.theguardian.com/world/2026/nov/26/russians-long-road-to-crimea-ukraine-drones &mdash; The Guardian, 26 November: One To Read
+ - https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol &mdash; CNBC quote service, retrieved 26 November ~17:58 GMT: all ten data-markets figures (FTSE close 10,609.30 +1.75% at 16:35 GMT; Brent 96.29 +1.78%; gilt 5.1575%; S&amp;P 500 and UST are Wednesday closes, US markets shut for Thanksgiving)
+ NOTE: Reuters and AFP material is cited only via NBC News and Al Jazeera copy. The Iran War day-count block is left out under the standing veto. Published late: the scheduled 17:55 run did not complete, so this edition carries the actual publication time.
+ END SOURCES USED -->
+</div><!-- ── END EVENING 26 NOV (23:34) ── -->
 <!-- ── MORNING 26 NOV (13:03) ── -->
 <div class="curated-edition morning" data-date="2026-11-26" data-time="13:03" data-markets='{"FTSE":{"price":10579.78,"change":1.47},"SP":{"price":7182.78,"change":-0.25},"Brent":{"price":93.88,"change":-0.77},"GBP":{"price":1.3107,"change":-0.04},"Gold":{"price":3573.1,"change":1.05},"EURGBP":{"price":0.8368,"change":0.04},"Gilt":{"price":5.1541,"change":0.0152},"VIX":{"price":26.95,"change":-4.74},"BTC":{"price":60809.84,"change":1.36},"UST":{"price":4.864,"change":-0.038},"ts":"2026-11-26T13:03:00+00:00"}'>
   <div class="edition-header"><span class="edition-icon">&#9788;</span><h2>Morning Briefing</h2></div>
